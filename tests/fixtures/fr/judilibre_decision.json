@@ -1,0 +1,20 @@
+{
+  "id": "5fca7d162a251e6bf9c78514",
+  "jurisdiction": "Cour de cassation",
+  "chamber": "Troisième chambre civile",
+  "number": "17-18.194",
+  "numbers": ["17-18.194", "16-21.165"],
+  "ecli": "ECLI:FR:CCASS:2018:C301117",
+  "formation": "Formation de section",
+  "publication": ["Publié au Rapport", "Publié au Bulletin"],
+  "decision_date": "2018-12-20",
+  "decision_datetime": "2018-12-20T06:00:00Z",
+  "update_date": "2018-12-26",
+  "type": "Arrêt",
+  "solution": "Rejet",
+  "summary": "Le titulaire d'une autorisation temporaire d'occupation, en vigueur au moment de la procédure d'expropriation, est en droit d'obtenir l'indemnisation de son préjudice résultant de l'expropriation",
+  "themes": ["Expropriation pour cause d'utilité publique", "Indemnité"],
+  "visa": [{"title": "Article L. 322-1 du code de l'expropriation", "url": ""}],
+  "text": "CIV.3 \r\nCH.B\r\n\r\n\r\n\r\nCOUR DE CASSATION\r\n______________________\r\n\r\n\r\nAudience publique du 20 décembre 2018\r\n\r\n\r\n\r\n\r\nRejet\r\n\r\n\r\nM. CHAUVIN, président\r\n\r\n\r\n\r\nArrêt n° 1117 FS-P+B+I\r\n\r\nPourvoi n° C 17-18.194\r\n\r\n\r\nLA COUR DE CASSATION, TROISIÈME CHAMBRE CIVILE, a rendu l'arrêt suivant :\r\n\r\nStatuant sur le pourvoi (...) la cour d'appel n'a pas mis la Cour de cassation en mesure d'exercer son contrôle.",
+  "zones": {"introduction": [{"start": 0, "end": 200}], "motivations": [{"start": 200, "end": 400}]}
+}

@@ -1,0 +1,180 @@
+{
+ "code": "afchpr",
+ "checked": "2026-11-07",
+ "structure_sources": [
+  "https://www.african-court.org/afchpr/",
+  "https://ajudata.african-court.org/advisory-finalised"
+ ],
+ "courts": [
+  {
+   "name": "Court (Plenary), contentious jurisdiction: judgments on merits",
+   "en": "Court, contentious cases: judgments on merits (incl. jurisdiction/admissibility when decided with merits)",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "yes",
+   "via": "AJUDATA, the African Court's case database (ajudata.african-court.org)",
+   "note": "search covers number, parties, articles and themes, not decision text; text from PDF"
+  },
+  {
+   "name": "Court (Plenary): judgments on reparations",
+   "en": "Court: separate reparations judgments",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "yes",
+   "via": "AJUDATA, the African Court's case database (ajudata.african-court.org)",
+   "note": "listed per case on AJUDATA; same search as merits judgments"
+  },
+  {
+   "name": "Court (Plenary): judgments on interpretation and review",
+   "en": "Court: interpretation and review judgments",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "yes",
+   "via": "AJUDATA, the African Court's case database (ajudata.african-court.org)",
+   "note": "listed per case on AJUDATA as decisions of the case"
+  },
+  {
+   "name": "Orders (provisional measures, procedural orders, rulings on jurisdiction/admissibility)",
+   "en": "Court orders and rulings",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "partly",
+   "via": "AJUDATA, the African Court's case database (ajudata.african-court.org)",
+   "note": "only those listed on AJUDATA case pages",
+   "elsewhere": {
+    "status": "available",
+    "source": "African Court legacy case pages (cpmt)",
+    "url": "https://www.african-court.org/cpmt/finalised",
+    "evidence": "fetched 2026-11-07: /cpmt/finalised returned 200 (35 KB listing)",
+    "note": "missing part: orders not attached on AJUDATA case pages; old cpmt pages are not updated and close on 31 Dec 2026 (adapter)"
+   }
+  },
+  {
+   "name": "Separate and dissenting opinions",
+   "en": "Individual opinions of judges",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "yes",
+   "via": "AJUDATA, the African Court's case database (ajudata.african-court.org)",
+   "note": "listed per case on AJUDATA"
+  },
+  {
+   "name": "Advisory opinions",
+   "en": "Advisory jurisdiction",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "yes",
+   "via": "AJUDATA, the African Court's case database (ajudata.african-court.org)",
+   "note": "all 18 requests AJUDATA lists (finalised, struck out, pending; 2011-2026, checked 2026-11-10): filter kind=advisory, ids 'AO 001/2013'; opinions, orders and separate opinions as text-layer PDFs; search matches title and number, not text"
+  },
+  {
+   "name": "Registry: pleadings, applications, hearing records",
+   "en": "Case-file documents",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "case pages list decisions and opinions only; pleadings not found online",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "AJUDATA",
+    "url": "https://ajudata.african-court.org/",
+    "evidence": "used by Fontes afchpr adapter (src/world_legal_mcp/jurisdictions/afchpr.py)",
+    "note": "AJUDATA case pages list only decisions and separate opinions; no repository of pleadings or hearing records found; not searched further"
+   }
+  },
+  {
+   "name": "Commission africaine des droits de l'homme et des peuples (communications)",
+   "en": "African Commission on Human and Peoples' Rights: decisions on communications (quasi-judicial; can refer cases to the Court)",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "separate AU treaty body, not part of the Court; not in the afchpr adapter",
+   "elsewhere": {
+    "status": "available",
+    "source": "African Commission on Human and Peoples' Rights: Decisions on Communications",
+    "url": "https://achpr.au.int/en/category/decisions-communications",
+    "evidence": "fetched 2026-11-07: page returned 200 (listing loaded by script, items not seen); robots.txt 'User-agent: * Allow: /' with 'Content-Signal: search=yes,ai-train=no,use=reference' and ClaudeBot/anthropic-ai disallowed",
+    "note": "official; a Fontes user-agent is not named in robots, but the content signals say reference use only"
+   }
+  }
+ ],
+ "legislation": [
+  {
+   "name": "African Charter on Human and Peoples' Rights (1981)",
+   "en": "African Charter",
+   "level": "treaty",
+   "reached": "no",
+   "via": null,
+   "note": "articles invoked appear only as case metadata; treaty text not served",
+   "elsewhere": {
+    "status": "available",
+    "source": "African Union treaty page / African Court basic documents",
+    "url": "https://au.int/sites/default/files/treaties/36390-treaty-0011_-_african_charter_on_human_and_peoples_rights_a.pdf",
+    "evidence": "fetched 2026-11-07: african-court.org home links the Charter PDF (au.int and african-court.org copies); au.int/en/treaties 200",
+    "note": "official PDF; static text"
+   }
+  },
+  {
+   "name": "Protocol on the Establishment of the African Court (1998)",
+   "en": "Court Protocol",
+   "level": "treaty",
+   "reached": "no",
+   "via": null,
+   "note": "not built; Protocol PDF on african-court.org",
+   "elsewhere": {
+    "status": "available",
+    "source": "African Court: basic documents",
+    "url": "http://www.african-court.org/afchpr/wp-content/uploads/2020/10/2-PROTOCOL-TO-THE-AFRICAN-CHARTER-ON-HUMAN-AND-PEOPLES-RIGHTS-ON-THE-ESTABLISHMENT-OF-AN-AFRICAN-COURT-ON-HUMAN-AND-PEOPLES-RIGHTS.pdf",
+    "evidence": "fetched 2026-11-07: african-court.org home links the Protocol PDF (EN, FR, PT)",
+    "note": "official PDF"
+   }
+  },
+  {
+   "name": "Article 34(6) declarations",
+   "en": "Declarations accepting individual petitions",
+   "level": "treaty",
+   "reached": "no",
+   "via": null,
+   "note": "not built; listed on african-court.org",
+   "elsewhere": {
+    "status": "available",
+    "source": "African Court: Declarations",
+    "url": "https://www.african-court.org/afchpr/declarations-2/",
+    "evidence": "fetched 2026-11-07: declarations page returned 200",
+    "note": "official list of Article 34(6) declarations and withdrawals"
+   }
+  },
+  {
+   "name": "Rules of Court (2020)",
+   "en": "Rules of Court",
+   "level": "secondary",
+   "reached": "no",
+   "via": null,
+   "note": "not built; Rules PDF on african-court.org",
+   "elsewhere": {
+    "status": "available",
+    "source": "African Court: Rules of Court",
+    "url": "https://www.african-court.org/afchpr/wp-content/uploads/2021/04/Rules-Final-Revised-adopted-Rules-eng-April-2021.pdf",
+    "evidence": "fetched 2026-11-07: african-court.org home links the Rules PDF (EN; PT edition 2025)",
+    "note": "official PDF"
+   }
+  },
+  {
+   "name": "Practice directions",
+   "en": "Practice directions",
+   "level": "secondary",
+   "reached": "no",
+   "via": null,
+   "note": "not built; PDF on african-court.org",
+   "elsewhere": {
+    "status": "available",
+    "source": "African Court: Practice Direction (5 March 2024)",
+    "url": "https://www.african-court.org/afchpr/wp-content/uploads/2024/03/EN-Practice-Direction-Adopted-5-March-2024_.pdf",
+    "evidence": "fetched 2026-11-07: african-court.org home links the Practice Direction PDF (EN, FR)",
+    "note": "official PDF"
+   }
+  }
+ ]
+}

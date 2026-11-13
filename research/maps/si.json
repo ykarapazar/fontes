@@ -1,0 +1,421 @@
+{
+  "code": "si",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.gov.si/drzavni-organi/sodisca/visja-sodisca/",
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/si_sl"
+  ],
+  "courts": [
+    {
+      "name": "Ustavno sodišče",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "us-rs.si blocks our client (403, 2026-11-05)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ustavno sodišče RS – odločitve",
+        "url": "https://www.us-rs.si",
+        "evidence": "fetched 2026-11-07: https://www.us-rs.si/robots.txt returned 403",
+        "note": "403 to our client from the UK (also 2026-11-05); decisions are published there"
+      }
+    },
+    {
+      "name": "Vrhovno sodišče RS – civilni oddelek",
+      "en": "Supreme Court, Civil Department",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'vsrs' covers all departments"
+    },
+    {
+      "name": "Vrhovno sodišče RS – gospodarski oddelek",
+      "en": "Supreme Court, Commercial Department",
+      "tier": "apex",
+      "branch": "commercial",
+      "reached": "yes",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'vsrs' covers all departments"
+    },
+    {
+      "name": "Vrhovno sodišče RS – kazenski oddelek",
+      "en": "Supreme Court, Criminal Department",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'vsrs' covers all departments"
+    },
+    {
+      "name": "Vrhovno sodišče RS – delovno-socialni oddelek",
+      "en": "Supreme Court, Labour and Social Department",
+      "tier": "apex",
+      "branch": "labour",
+      "reached": "yes",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'vsrs' covers all departments"
+    },
+    {
+      "name": "Vrhovno sodišče RS – upravni oddelek",
+      "en": "Supreme Court, Administrative Department",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'vsrs' covers all departments"
+    },
+    {
+      "name": "Višja sodišča (4) – civilni oddelki (incl. commercial and family appeals)",
+      "en": "Higher Courts, civil departments",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'viso'; selected decisions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sodna praksa API (api2)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "missing part: not every higher-court decision is selected for publication; e-Justice says the sodnapraksa JSON API (api2) needs Supreme Court permission"
+      }
+    },
+    {
+      "name": "Višja sodišča (4) – kazenski oddelki",
+      "en": "Higher Courts, criminal departments (incl. minor-offence appeals)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'viso'; selected decisions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sodna praksa API (api2)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "missing part: not every higher-court decision is selected for publication; e-Justice says the sodnapraksa JSON API (api2) needs Supreme Court permission"
+      }
+    },
+    {
+      "name": "Višje delovno in socialno sodišče",
+      "en": "Higher Labour and Social Court",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "partly",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'vdss'; selected decisions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sodna praksa API (api2)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "missing part: selection only; full API needs Supreme Court permission (e-Justice)"
+      }
+    },
+    {
+      "name": "Upravno sodišče RS (seat Ljubljana + departments Celje, Maribor, Nova Gorica)",
+      "en": "Administrative Court (first instance, incl. tax and asylum cases)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+      "note": "collection 'uprs'; selected decisions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sodna praksa API (api2)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "missing part: selection only; full API needs Supreme Court permission (e-Justice)"
+      }
+    },
+    {
+      "name": "Okrožna sodišča (11) – kazenski oddelek",
+      "en": "District Courts, criminal department (serious crime)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; district courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrožna sodišča (11) – preiskovalni sodniki",
+      "en": "District Courts, investigating judges",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; district courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrožna sodišča (11) – oddelek za mladoletnike",
+      "en": "District Courts, juvenile department",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; district courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrožna sodišča (11) – pravdni in gospodarski oddelek",
+      "en": "District Courts, civil and commercial disputes (higher-value claims, commercial, IP)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; district courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrožna sodišča (11) – družinski oddelek (since 2019)",
+      "en": "District Courts, family department",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; district courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrožna sodišča (11) – insolvenčni oddelek",
+      "en": "District Courts, insolvency and company register",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; district courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrajna sodišča (44) – pravdni oddelek",
+      "en": "Local Courts, civil disputes (small claims)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; local courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrajna sodišča (44) – kazenski oddelek",
+      "en": "Local Courts, criminal (minor offences up to 3 years) and minor-offence (prekrški) cases",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; local courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrajna sodišča (44) – izvršilni oddelek (incl. COVL)",
+      "en": "Local Courts, enforcement (incl. central e-enforcement department, Ljubljana)",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; local courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrajna sodišča (44) – zemljiškoknjižni oddelek",
+      "en": "Local Courts, land register",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; local courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Okrajna sodišča (44) – nepravdni in zapuščinski oddelek",
+      "en": "Local Courts, non-contentious and probate matters",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si (adapter collections: vsrs, viso, vdss, uprs)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; local courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Delovna sodišča (3: Celje, Koper, Maribor)",
+      "en": "Labour Courts (individual and collective labour disputes)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; first-instance labour courts not included; no other public database found"
+      }
+    },
+    {
+      "name": "Delovno in socialno sodišče v Ljubljani",
+      "en": "Labour and Social Court in Ljubljana (labour disputes for its area; social-security disputes for the whole country)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not in sodnapraksa.si",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sodna praksa (sodnapraksa.si)",
+        "url": "https://www.sodnapraksa.si",
+        "evidence": "search result only",
+        "note": "e-Justice lists sodnapraksa coverage as VSRS, 4 higher courts, VDSS, Administrative Court; the Labour and Social Court in Ljubljana not included; no other public database found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Ustava Republike Slovenije",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "PISRS (Pravni informacijski sistem RS, Government of Slovenia)",
+      "note": "PISRS unofficial consolidated text (NPB)"
+    },
+    {
+      "name": "Zakoni",
+      "en": "Acts of the National Assembly",
+      "level": "primary",
+      "reached": "yes",
+      "via": "PISRS (Pravni informacijski sistem RS, Government of Slovenia)",
+      "note": "unofficial consolidations (NPB); a 403 proof-of-work check is not solved"
+    },
+    {
+      "name": "Uredbe, pravilniki, odloki, navodila",
+      "en": "Government decrees, ministerial rules, ordinances, instructions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "PISRS (Pravni informacijski sistem RS, Government of Slovenia)",
+      "note": "text only where PISRS has an NPB consolidation; others NotFound",
+      "elsewhere": {
+        "status": "available",
+        "source": "Uradni list RS (issue PDFs)",
+        "url": "https://www.uradni-list.si",
+        "evidence": "fetched 2026-11-07: homepage lists issues as PDFs split into Uredbeni del / Razglasni del / Mednarodne pogodbe",
+        "note": "missing part: acts without a PISRS consolidation; their authentic text is in the Uradni list issue PDFs (not consolidated)"
+      }
+    },
+    {
+      "name": "Uradni list RS",
+      "en": "Official Gazette (authentic texts)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Uradni list see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Uradni list RS",
+        "url": "https://www.uradni-list.si",
+        "evidence": "fetched 2026-11-07: homepage lists issues as direct PDF links; notice that from 1 March 2026 publication is exclusively electronic on PISRS",
+        "note": "archive PDFs on uradni-list.si; new issues on PISRS, which answers bots with a proof-of-work challenge (blocked for us)"
+      }
+    },
+    {
+      "name": "Predpisi samoupravnih lokalnih skupnosti",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "adapter searches only PISRS 'Register predpisov'; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Uradni list RS (Uredbeni del)",
+        "url": "https://www.uradni-list.si",
+        "evidence": "fetched 2026-11-07: issue PDFs listed",
+        "note": "municipal acts appear in the gazette issues (not a dedicated section; unverified which part); PISRS register has a bot challenge"
+      }
+    },
+    {
+      "name": "Mednarodne pogodbe",
+      "en": "Ratified international treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Uradni list RS – Mednarodne pogodbe",
+        "url": "https://www.uradni-list.si",
+        "evidence": "fetched 2026-11-07: issues such as 114/2025 and 10/2026 have a separate 'Mednarodne pogodbe' PDF",
+        "note": "ratification acts with treaty texts, as PDFs"
+      }
+    }
+  ]
+}

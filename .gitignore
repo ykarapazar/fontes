@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
+.env
+/status/
+research/health/*T*Z.json
+
+# third-party marketing skills (coreyhaines31/marketingskills, MIT), local only
+.claude/skills/
+.claude/product-marketing.md
+
+# brand font for scripts/brand/gen_brand.py (SIL OFL, download it; see that script)
+scripts/brand/fonts/

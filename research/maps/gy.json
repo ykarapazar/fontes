@@ -1,0 +1,216 @@
+{
+  "code": "gy",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://supremecourt.gy/"
+  ],
+  "courts": [
+    {
+      "name": "Caribbean Court of Justice (appellate jurisdiction)",
+      "en": "Final court of appeal",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "CCJ judgment lists and PDFs (ccj.org)",
+      "note": "FINAL COURT (since 2005). All CCJ appeals from Guyana: country from the CCJ list (2020 on) or the judgment PDF's 'On appeal from' line; citation/party search, not full text",
+      "final": true
+    },
+    {
+      "name": "Court of Appeal (Supreme Court of Judicature)",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (2026-11)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court of Judicature (supremecourt.gy)",
+        "url": "https://www.supremecourt.gy/",
+        "evidence": "research/chatgpt/r2_b.md (site opened, no public judgment corpus; eJudiciary is login); fetched 2026-11-07: supremecourt.gy 200, /judgments 404",
+        "note": "no public judgment database; UNOFFICIAL CommonLII Guyana section answered 403 (r2_b.md)"
+      }
+    },
+    {
+      "name": "High Court – civil and criminal jurisdiction (Assizes)",
+      "en": "High Court (Supreme Court of Judicature)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (2026-11)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court of Judicature (supremecourt.gy)",
+        "url": "https://www.supremecourt.gy/",
+        "evidence": "research/chatgpt/r2_b.md (site opened, no public judgment corpus; eJudiciary is login); fetched 2026-11-07: supremecourt.gy 200, /judgments 404",
+        "note": "no public judgment database; eJudiciary is a login portal"
+      }
+    },
+    {
+      "name": "High Court – Family Division (Family Court)",
+      "en": "High Court family jurisdiction",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (2026-11)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court of Judicature (supremecourt.gy)",
+        "url": "https://www.supremecourt.gy/",
+        "evidence": "research/chatgpt/r2_b.md (site opened, no public judgment corpus; eJudiciary is login); fetched 2026-11-07: supremecourt.gy 200, /judgments 404",
+        "note": "no public judgment database; eJudiciary is a login portal"
+      }
+    },
+    {
+      "name": "High Court – Commercial Court",
+      "en": "High Court commercial list",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (2026-11)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court of Judicature (supremecourt.gy)",
+        "url": "https://www.supremecourt.gy/",
+        "evidence": "research/chatgpt/r2_b.md (site opened, no public judgment corpus; eJudiciary is login); fetched 2026-11-07: supremecourt.gy 200, /judgments 404",
+        "note": "no public judgment database; eJudiciary is a login portal"
+      }
+    },
+    {
+      "name": "Land Court",
+      "en": "Land Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no published decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not checked separately; supremecourt.gy has no judgment section"
+      }
+    },
+    {
+      "name": "Magistrates' Courts",
+      "en": "Magistrates' courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (2026-11)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court of Judicature (supremecourt.gy)",
+        "url": "https://www.supremecourt.gy/",
+        "evidence": "research/chatgpt/r2_b.md (site opened, no public judgment corpus; eJudiciary is login); fetched 2026-11-07: supremecourt.gy 200, /judgments 404",
+        "note": "no published decisions found"
+      }
+    },
+    {
+      "name": "Juvenile Court / Children's Court",
+      "en": "Juvenile (magistrates') court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (2026-11)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court of Judicature (supremecourt.gy)",
+        "url": "https://www.supremecourt.gy/",
+        "evidence": "research/chatgpt/r2_b.md (site opened, no public judgment corpus; eJudiciary is login); fetched 2026-11-07: supremecourt.gy 200, /judgments 404",
+        "note": "no published decisions found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of the Co-operative Republic of Guyana (Cap. 1:01)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Laws of Guyana, Ministry of Legal Affairs (mola.gov.gy)",
+      "note": "Cap. 1:01 in the Revised Edition L.R.O. 1/2022, articles addressable ('article 40'); newest Constitution (Amendment) Act on parliament.gov.gy is 2016, so the 2022 revision is current (checked 2026-11-10)"
+    },
+    {
+      "name": "Acts (Laws of Guyana chapters)",
+      "en": "Acts of Parliament, Revised Edition L.R.O. 1/2022",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Laws of Guyana, Ministry of Legal Affairs (mola.gov.gy)",
+      "note": "Revised Edition in force at 31 Dec 2022 only; title search only. Missing: Acts from 2023 on. parliament.gov.gy lists them (to June 2025 only) but every Act PDF sampled is a scan without a text layer (no OCR allowed), checked 2026-11-10",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Parliament of Guyana – Acts of Parliament",
+        "url": "https://parliament.gov.gy/publications/acts-of-parliament",
+        "evidence": "fetched 2026-11-10: Acts 1/2016, 16/2022, 5/2024, 1/2025, 14/2025 PDFs have only Gazette running heads as text (scans); list's newest Act is 14 of 2025 (June 2025); officialgazette.gov.gy robots Content-Signal ai-train=no",
+        "note": "missing part = Acts after 2022; only scanned PDFs, no text layer; list stops June 2025"
+      }
+    },
+    {
+      "name": "Subsidiary legislation (regulations, orders, rules)",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Laws of Guyana, Ministry of Legal Affairs (mola.gov.gy)",
+      "note": "only as printed in the chapter PDFs of the Revised Edition",
+      "elsewhere": {
+        "status": "available",
+        "source": "Official E-Gazette of Guyana (Ministry of Legal Affairs)",
+        "url": "https://officialegazette.gov.gy/",
+        "evidence": "fetched 2026-11-07 (curl): 'The official record of Acts, Bills, Regulations, Orders and public notices'; search + archive; robots.txt 'User-agent: * Allow: /' (ClaudeBot etc. disallowed; Content-Signal ai-train=no)",
+        "note": "missing part: regulations made after the revision, as gazetted; JS-loaded listings, document access not tested"
+      }
+    },
+    {
+      "name": "Official Gazette",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Official E-Gazette (officialegazette.gov.gy), not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Official E-Gazette of Guyana (Ministry of Legal Affairs)",
+        "url": "https://officialegazette.gov.gy/",
+        "evidence": "fetched 2026-11-07 (curl): 'The official record of Acts, Bills, Regulations, Orders and public notices'; search + archive; robots.txt 'User-agent: * Allow: /' (ClaudeBot etc. disallowed; Content-Signal ai-train=no)",
+        "note": "whole gazette; latest list loads by script, document retrieval not tested; terms not read"
+      }
+    },
+    {
+      "name": "Municipal by-laws",
+      "en": "Local by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "may appear in the gazette; not checked"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no official treaty database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "Ministry of Foreign Affairs site not checked"
+      }
+    }
+  ]
+}

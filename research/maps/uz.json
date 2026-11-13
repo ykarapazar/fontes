@@ -1,0 +1,385 @@
+{
+  "code": "uz",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://judiciariesworldwide.fjc.gov/country-profile/uzbekistan",
+    "https://lex.uz/docs/6118937"
+  ],
+  "courts": [
+    {
+      "name": "Конституционный суд / Konstitutsiyaviy sud",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "Constitutional Court decisions are a lex.uz document type (nat search), not the court search",
+      "elsewhere": {
+        "status": "available",
+        "source": "lex.uz document type 'Решение (Конституционного суда)'",
+        "url": "https://lex.uz/ru/search/nat",
+        "evidence": "fetched 2026-11-07: lex.uz search form lists document type 8837 'Решение (Конституционного суда)'",
+        "note": "same site the adapter uses (terms: personal use only); Court's own site ksu.uz redirects to /uz, not opened"
+      }
+    },
+    {
+      "name": "Верховный суд – Пленум",
+      "en": "Supreme Court Plenum (guiding resolutions)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "Plenum resolutions are on lex.uz; adapter reaches them",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "checked 2026-11-10 with the Fontes client: public.sud.uz has no robots.txt (SPA answers every path) and no terms page found; it is an Angular app (cabinet.sud.uz personal cabinet + a public 'report' module). The public module lists publications from internal JSON endpoints, but every decision file is fetched from publication.sud.uz with a recaptcha_token from recaptcha.sud.uz (download dialog asks for a captcha first)",
+        "note": "missing part = decisions outside lex.uz's selection. public.sud.uz decision texts sit behind a captcha (not circumvented, per project rules) and its list API is undocumented; no compliant route to the full Supreme Court archive"
+      }
+    },
+    {
+      "name": "Верховный суд – Президиум",
+      "en": "Supreme Court Presidium",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "selected decisions and Plenum resolutions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "checked 2026-11-10 with the Fontes client: public.sud.uz has no robots.txt (SPA answers every path) and no terms page found; it is an Angular app (cabinet.sud.uz personal cabinet + a public 'report' module). The public module lists publications from internal JSON endpoints, but every decision file is fetched from publication.sud.uz with a recaptcha_token from recaptcha.sud.uz (download dialog asks for a captcha first)",
+        "note": "missing part = decisions outside lex.uz's selection. public.sud.uz decision texts sit behind a captcha (not circumvented, per project rules) and its list API is undocumented; no compliant route to the full Supreme Court archive"
+      }
+    },
+    {
+      "name": "Верховный суд – судебная коллегия по гражданским делам",
+      "en": "Supreme Court, Civil Board",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "selected decisions and Plenum resolutions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "checked 2026-11-10 with the Fontes client: public.sud.uz has no robots.txt (SPA answers every path) and no terms page found; it is an Angular app (cabinet.sud.uz personal cabinet + a public 'report' module). The public module lists publications from internal JSON endpoints, but every decision file is fetched from publication.sud.uz with a recaptcha_token from recaptcha.sud.uz (download dialog asks for a captcha first)",
+        "note": "missing part = decisions outside lex.uz's selection. public.sud.uz decision texts sit behind a captcha (not circumvented, per project rules) and its list API is undocumented; no compliant route to the full Supreme Court archive"
+      }
+    },
+    {
+      "name": "Верховный суд – судебная коллегия по уголовным делам",
+      "en": "Supreme Court, Criminal Board",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "selected decisions and Plenum resolutions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "checked 2026-11-10 with the Fontes client: public.sud.uz has no robots.txt (SPA answers every path) and no terms page found; it is an Angular app (cabinet.sud.uz personal cabinet + a public 'report' module). The public module lists publications from internal JSON endpoints, but every decision file is fetched from publication.sud.uz with a recaptcha_token from recaptcha.sud.uz (download dialog asks for a captcha first)",
+        "note": "missing part = decisions outside lex.uz's selection. public.sud.uz decision texts sit behind a captcha (not circumvented, per project rules) and its list API is undocumented; no compliant route to the full Supreme Court archive"
+      }
+    },
+    {
+      "name": "Верховный суд – судебная коллегия по экономическим делам",
+      "en": "Supreme Court, Economic Board",
+      "tier": "apex",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "selected decisions and Plenum resolutions only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "checked 2026-11-10 with the Fontes client: public.sud.uz has no robots.txt (SPA answers every path) and no terms page found; it is an Angular app (cabinet.sud.uz personal cabinet + a public 'report' module). The public module lists publications from internal JSON endpoints, but every decision file is fetched from publication.sud.uz with a recaptcha_token from recaptcha.sud.uz (download dialog asks for a captcha first)",
+        "note": "missing part = decisions outside lex.uz's selection. public.sud.uz decision texts sit behind a captcha (not circumvented, per project rules) and its list API is undocumented; no compliant route to the full Supreme Court archive"
+      }
+    },
+    {
+      "name": "Верховный суд – судебная коллегия по административным делам",
+      "en": "Supreme Court, Administrative Board",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "no administrative branch filter in the adapter; only what lex.uz's selection holds",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "checked 2026-11-10 with the Fontes client: public.sud.uz has no robots.txt (SPA answers every path) and no terms page found; it is an Angular app (cabinet.sud.uz personal cabinet + a public 'report' module). The public module lists publications from internal JSON endpoints, but every decision file is fetched from publication.sud.uz with a recaptcha_token from recaptcha.sud.uz (download dialog asks for a captcha first)",
+        "note": "missing part = decisions outside lex.uz's selection. public.sud.uz decision texts sit behind a captcha (not circumvented, per project rules) and its list API is undocumented; no compliant route to the full Supreme Court archive"
+      }
+    },
+    {
+      "name": "Верховный суд – военная коллегия / Военный суд Республики Узбекистан",
+      "en": "Supreme Court Military Board / Military Court of the Republic",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not published on lex.uz (as far as checked); public.sud.uz coverage not established",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "public.sud.uz (court decisions portal)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: portal loads (JS app)",
+        "note": "whether military-court decisions are published there not established"
+      }
+    },
+    {
+      "name": "Суды Республики Каракалпакстан, областей и г. Ташкента (14) – гражданские коллегии",
+      "en": "Regional courts, civil boards",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "lex.uz selection only (appeal/cassation filter)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Суды Республики Каракалпакстан, областей и г. Ташкента (14) – уголовные коллегии",
+      "en": "Regional courts, criminal boards",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "lex.uz selection only (appeal/cassation filter)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Суды Республики Каракалпакстан, областей и г. Ташкента (14) – экономические коллегии",
+      "en": "Regional courts, economic boards",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "lex.uz selection only (appeal/cassation filter)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Административные суды Республики Каракалпакстан, областей и г. Ташкента (14)",
+      "en": "Regional administrative courts",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "no administrative branch filter; only what lex.uz's selection holds",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Районные (городские) суды по уголовным делам",
+      "en": "District (city) criminal courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "most lower-court judgments not published on lex.uz",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Межрайонные (районные, городские) суды по гражданским делам",
+      "en": "Inter-district civil courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "most lower-court judgments not published on lex.uz",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Межрайонные (районные, городские) экономические суды",
+      "en": "Inter-district economic (commercial) courts",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "selected decisions only (branch=economic)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Районные (межрайонные) административные суды",
+      "en": "District administrative courts (first instance)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "no administrative branch filter; only what lex.uz's selection holds",
+      "elsewhere": {
+        "status": "available",
+        "source": "Суд ҳужжатларини интернет тармоғида чоп этиш (public.sud.uz, Supreme Court)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 'Суд ҳужжатларини интернет тармоғида чоп этиш' (JS app; API not inspected); scope from search result only (yuz.uz: all final decisions posted)",
+        "note": "missing part = decisions outside lex.uz's selection; public.sud.uz is the courts' own publication portal (reported to hold all final civil/criminal/economic/administrative decisions)"
+      }
+    },
+    {
+      "name": "Территориальные военные суды",
+      "en": "Territorial military courts (first instance)",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not published on lex.uz (as far as checked); public.sud.uz coverage not established",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "public.sud.uz (court decisions portal)",
+        "url": "https://public.sud.uz/",
+        "evidence": "fetched 2026-11-07: portal loads (JS app)",
+        "note": "whether military-court decisions are published there not established"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Конституция",
+      "en": "Constitution (2023)",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": ""
+    },
+    {
+      "name": "Кодексы",
+      "en": "Codes",
+      "level": "primary",
+      "reached": "yes",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "current consolidated text"
+    },
+    {
+      "name": "Законы (ЗРУ)",
+      "en": "Laws of the Republic of Uzbekistan",
+      "level": "primary",
+      "reached": "yes",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": ""
+    },
+    {
+      "name": "Указы Президента (УП)",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": ""
+    },
+    {
+      "name": "Постановления Президента / Кабинета Министров",
+      "en": "Presidential and Cabinet of Ministers resolutions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": ""
+    },
+    {
+      "name": "Приказы, положения, решения министерств и ведомств",
+      "en": "Ministerial orders, regulations and decisions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "type filter order/regulation/decision"
+    },
+    {
+      "name": "Национальная база данных законодательства (официальное опубликование)",
+      "en": "National Database of Legislation (official publication channel)",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+      "note": "lex.uz is the official publication channel; personal-use-only terms"
+    },
+    {
+      "name": "Законы Республики Каракалпакстан",
+      "en": "Laws of the Republic of Karakalpakstan",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "in lex.uz as its own document type",
+      "elsewhere": {
+        "status": "available",
+        "source": "lex.uz document type 'Закон Республики Каракалпакстан'",
+        "url": "https://lex.uz/ru/search/nat",
+        "evidence": "fetched 2026-11-07: lex.uz search form lists type 22218 'Закон Республики Каракалпакстан' (and 22216 Constitution of Karakalpakstan)",
+        "note": "same database the adapter uses; type filter not wired"
+      }
+    },
+    {
+      "name": "Решения хокимов и Кенгашей народных депутатов",
+      "en": "Local khokim and council decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not found on lex.uz search form; not established",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "lex.uz",
+        "url": "https://lex.uz/ru/search/nat",
+        "evidence": "fetched 2026-11-07: search form has no khokim/council issuer option visible; a keyword query did not confirm results",
+        "note": "local decisions may be on regional khokimiyat sites; not established"
+      }
+    },
+    {
+      "name": "Международные договоры",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "in lex.uz as document types; adapter has no type filter",
+      "elsewhere": {
+        "status": "available",
+        "source": "lex.uz document types Конвенция / Соглашение / Договор",
+        "url": "https://lex.uz/ru/search/nat",
+        "evidence": "fetched 2026-11-07: lex.uz search form lists types 8994 Конвенция, 8995 Соглашение, 9077 Договор, 9255 Договоренность",
+        "note": "same database; type filter not wired"
+      }
+    }
+  ]
+}

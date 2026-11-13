@@ -1,0 +1,199 @@
+{
+ "code": "difc",
+ "checked": "2026-11-07",
+ "structure_sources": [
+  "https://www.difccourts.ae/about/court-structure"
+ ],
+ "courts": [
+  {
+   "name": "DIFC Court of Appeal",
+   "en": "Court of Appeal",
+   "tier": "apex",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  },
+  {
+   "name": "DIFC Court of First Instance (Civil & Commercial Division)",
+   "en": "Court of First Instance",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  },
+  {
+   "name": "CFI Arbitration Division",
+   "en": "Arbitration Division",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  },
+  {
+   "name": "CFI Technology and Construction Division",
+   "en": "Technology and Construction Division",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  },
+  {
+   "name": "Digital Economy Court",
+   "en": "Digital Economy Court",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  },
+  {
+   "name": "Small Claims Tribunal",
+   "en": "Small Claims Tribunal",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  },
+  {
+   "name": "Enforcement / Administrative orders",
+   "en": "Enforcement and administrative orders",
+   "tier": "other",
+   "branch": "other",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  },
+  {
+   "name": "Joint Judicial Committee (Dubai Courts / DIFC Courts)",
+   "en": "Joint Judicial Committee (conflicts of jurisdiction)",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "partly",
+   "via": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "note": "off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Judgments & Orders",
+    "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+    "evidence": "src/world_legal_mcp/jurisdictions/difc.py (verified 2026-11-05)",
+    "note": "built but gated: Terms of Use allow personal, non-commercial use only and forbid storing/copying/redistributing without written permission; needs WLM_PERMITTED"
+   }
+  }
+ ],
+ "legislation": [
+  {
+   "name": "DIFC Laws",
+   "en": "DIFC Laws (enacted by the Ruler of Dubai)",
+   "level": "primary",
+   "reached": "no",
+   "via": null,
+   "note": "difc.com legal database behind a Vercel bot check (JS challenge, HTTP 429)",
+   "elsewhere": {
+    "status": "available",
+    "source": "DIFC Legal Database (difc.com)",
+    "url": "https://www.difc.com/business/laws-and-regulations/legal-database",
+    "evidence": "fetched 2026-11-07: page 200 (no bot check this time), lists 72 'Law No. x of yyyy' PDFs on assets.difc.com; robots.txt disallows only /search/, /api/ etc.",
+    "note": "adapter saw a Vercel JS challenge (HTTP 429) on 2026-11-05, so access is intermittent; difc.com terms page 404, not checked"
+   }
+  },
+  {
+   "name": "DIFC Regulations",
+   "en": "DIFC Regulations (DIFCA Board)",
+   "level": "secondary",
+   "reached": "no",
+   "via": null,
+   "note": "behind a Vercel bot check",
+   "elsewhere": {
+    "status": "available",
+    "source": "DIFC Legal Database (difc.com)",
+    "url": "https://www.difc.com/business/laws-and-regulations/legal-database",
+    "evidence": "fetched 2026-11-07: page 200 (no bot check this time), lists 72 'Law No. x of yyyy' PDFs on assets.difc.com; robots.txt disallows only /search/, /api/ etc.",
+    "note": "regulations listed on the same page; adapter saw a Vercel JS challenge (HTTP 429) on 2026-11-05, so access is intermittent; difc.com terms page 404, not checked"
+   }
+  },
+  {
+   "name": "DFSA Rulebook",
+   "en": "DFSA financial services rules",
+   "level": "secondary",
+   "reached": "no",
+   "via": null,
+   "note": "not built; see elsewhere",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DFSA Rulebook (Thomson Reuters)",
+    "url": "https://dfsaen.thomsonreuters.com/",
+    "evidence": "fetched 2026-11-07: robots.txt ends 'User-agent: * Disallow: /'",
+    "note": "robots.txt disallows all generic crawlers"
+   }
+  },
+  {
+   "name": "Rules of the DIFC Courts and Practice Directions",
+   "en": "Court rules and practice directions",
+   "level": "secondary",
+   "reached": "no",
+   "via": null,
+   "note": "not built; see elsewhere",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "DIFC Courts – Rules / Practice Directions",
+    "url": "https://www.difccourts.ae/rules-decisions/rules",
+    "evidence": "fetched 2026-11-07: Rules and Practice Directions pages 200",
+    "note": "same difccourts.ae Terms of Use: personal, non-commercial use only without written permission"
+   }
+  }
+ ]
+}

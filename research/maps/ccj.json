@@ -1,0 +1,121 @@
+{
+  "code": "ccj",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://ccj.org/about-the-ccj/"
+  ],
+  "courts": [
+    {
+      "name": "Appellate Jurisdiction (AJ)",
+      "en": "Final court of appeal for Barbados, Belize, Dominica, Guyana and Saint Lucia",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "CCJ judgment lists and PDFs (ccj.org)",
+      "note": "2005-; search on citation and parties only, not full text"
+    },
+    {
+      "name": "Original Jurisdiction (OJ)",
+      "en": "Compulsory and exclusive jurisdiction over the Revised Treaty of Chaguaramas (CSME)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "CCJ judgment lists and PDFs (ccj.org)",
+      "note": "search on citation, parties and keywords, not full text"
+    },
+    {
+      "name": "Advisory opinions (Art. 212 Revised Treaty)",
+      "en": "Advisory opinions",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "CCJ judgment lists and PDFs (ccj.org)",
+      "note": "only if listed in the OJ judgment table (e.g. '(AO)' suffix); no separate list",
+      "elsewhere": {
+        "status": "available",
+        "source": "CCJ Original Jurisdiction judgments table",
+        "url": "https://ccj.org/original-jurisdiction-judgments/",
+        "evidence": "used by Fontes ccj adapter (src/world_legal_mcp/jurisdictions/ccj.py)",
+        "note": "missing part: no separate advisory-opinion list found; AOs only appear as '(AO)' rows"
+      }
+    },
+    {
+      "name": "Procedural orders, pleadings and hearing records",
+      "en": "Interlocutory orders and case records",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "hearing recordings published; pleadings/orders not found",
+      "elsewhere": {
+        "status": "available",
+        "source": "CCJ Court Hearing Archives",
+        "url": "https://ccj.org/judgments-proceedings/court-hearing-archives/",
+        "evidence": "fetched 2026-11-07: table of hearing recordings (date, appeal number, parties, AUDIO/video link) from 2005; ccj.org robots.txt 'Disallow:' (empty)",
+        "note": "hearing recordings only; pleadings and procedural orders not published (e-filing needs login)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Agreement Establishing the Caribbean Court of Justice (2001) and Protocols",
+      "en": "Founding treaty",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "PDFs on ccj.org/agreements and /protocols",
+      "elsewhere": {
+        "status": "available",
+        "source": "CCJ – Agreements / Protocols",
+        "url": "https://ccj.org/agreements/",
+        "evidence": "fetched 2026-11-07: page lists Agreement Establishing the CCJ PDF and Seat Agreement; /protocols/ lists Tenure and Privileges & Immunities protocols",
+        "note": "PDFs"
+      }
+    },
+    {
+      "name": "Revised Treaty of Chaguaramas (2001)",
+      "en": "CARICOM / CSME treaty applied in OJ",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "PDF on caricom.org",
+      "elsewhere": {
+        "status": "available",
+        "source": "CARICOM – Revised Treaty of Chaguaramas",
+        "url": "https://caricom.org/documents/4906-revised_treaty-text.pdf",
+        "evidence": "fetched 2026-11-07: URL 200 application/pdf (caricom.org/documents/ listing itself 403)",
+        "note": "PDF text; caricom.org robots.txt does not disallow /documents/"
+      }
+    },
+    {
+      "name": "CCJ (Appellate / Original Jurisdiction) Rules and Practice Directions",
+      "en": "Rules of Court",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "PDFs on ccj.org/rules",
+      "elsewhere": {
+        "status": "available",
+        "source": "CCJ – Rules / Practice Directions",
+        "url": "https://ccj.org/rules/",
+        "evidence": "fetched 2026-11-07: page lists AJ and OJ Rules 2024 (in force) plus archived 2006-2021 Rules, link to Practice Directions",
+        "note": "PDFs"
+      }
+    },
+    {
+      "name": "Code of Judicial Conduct and Judicial Discipline Regulations",
+      "en": "Judicial conduct instruments",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "PDFs on ccj.org",
+      "elsewhere": {
+        "status": "available",
+        "source": "CCJ – Code of Judicial Conduct",
+        "url": "https://ccj.org/about-the-ccj/code-of-judicial-conduct/",
+        "evidence": "fetched 2026-11-07: page has Code (adopted 26 May 2020) PDF and Judicial Discipline Regulations",
+        "note": "PDFs"
+      }
+    }
+  ]
+}

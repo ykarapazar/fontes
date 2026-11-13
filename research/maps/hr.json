@@ -1,0 +1,306 @@
+{
+  "code": "hr",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/hr_en",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_67_1362.html"
+  ],
+  "courts": [
+    {
+      "name": "Ustavni sud Republike Hrvatske",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Narodne novine (official gazette of the Republic of Croatia)",
+      "note": "only decisions published in the gazette (U-I and some U-III); own base sljeme.usud.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ustavni sud – baza odluka (sljeme.usud.hr praksaw.nsf)",
+        "url": "https://sljeme.usud.hr/usud/praksaw.nsf",
+        "evidence": "fetched 2026-11-07: sljeme.usud.hr/robots.txt = 'User-agent: * / Disallow: /'; www.usud.hr links each decision to sljeme",
+        "note": "missing part: decisions not published in Narodne novine (most U-III); robots.txt 'Disallow: /'"
+      }
+    },
+    {
+      "name": "Vrhovni sud Republike Hrvatske",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); all published Supreme Court decisions"
+      }
+    },
+    {
+      "name": "Visoki upravni sud Republike Hrvatske",
+      "en": "High Administrative Court",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); High Administrative Court decisions"
+      }
+    },
+    {
+      "name": "Visoki trgovački sud Republike Hrvatske",
+      "en": "High Commercial Court",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); High Commercial Court decisions"
+      }
+    },
+    {
+      "name": "Visoki kazneni sud Republike Hrvatske",
+      "en": "High Criminal Court",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); High Criminal Court decisions"
+      }
+    },
+    {
+      "name": "Visoki prekršajni sud Republike Hrvatske",
+      "en": "High Misdemeanour Court",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); High Misdemeanour Court decisions"
+      }
+    },
+    {
+      "name": "Županijski sudovi (15)",
+      "en": "County courts (appeal and serious first-instance)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); county court decisions"
+      }
+    },
+    {
+      "name": "Općinski sudovi (general municipal courts, civil and criminal; incl. prekršajni odjeli)",
+      "en": "Municipal courts (general)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); municipal court decisions"
+      }
+    },
+    {
+      "name": "Općinski građanski sudovi (Zagreb, Split)",
+      "en": "Municipal civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); municipal court decisions"
+      }
+    },
+    {
+      "name": "Općinski kazneni sud u Zagrebu",
+      "en": "Municipal Criminal Court Zagreb",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); municipal court decisions"
+      }
+    },
+    {
+      "name": "Općinski radni sud u Zagrebu",
+      "en": "Municipal Labour Court Zagreb",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); municipal court decisions"
+      }
+    },
+    {
+      "name": "Općinski prekršajni sudovi (Zagreb, Split)",
+      "en": "Municipal misdemeanour courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); municipal court decisions"
+      }
+    },
+    {
+      "name": "Trgovački sudovi (9)",
+      "en": "Commercial courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); commercial court decisions"
+      }
+    },
+    {
+      "name": "Upravni sudovi (4)",
+      "en": "Administrative courts",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "odluke.sudovi.hr: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Odluke sudova Republike Hrvatske (odluke.sudovi.hr, SupraNova; linked from vsrh.hr 'Tražilica odluka sudova RH')",
+        "url": "https://odluke.sudovi.hr/",
+        "evidence": "fetched 2026-11-07: odluke.sudovi.hr/robots.txt = 'User-agent: * ... Allow: /$ ... Disallow: /'",
+        "note": "robots.txt 'Disallow: /' (only home/about pages allowed); administrative court decisions"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Ustav Republike Hrvatske",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Narodne novine (official gazette of the Republic of Croatia)",
+      "note": "gazette text as published; consolidated text only where an official pročišćeni tekst exists"
+    },
+    {
+      "name": "Zakoni",
+      "en": "Acts of the Hrvatski sabor",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Narodne novine (official gazette of the Republic of Croatia)",
+      "note": "as published, not consolidated (amendments are separate acts)"
+    },
+    {
+      "name": "Uredbe Vlade",
+      "en": "Government decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Narodne novine (official gazette of the Republic of Croatia)",
+      "note": "as published, not consolidated"
+    },
+    {
+      "name": "Pravilnici, naredbe, odluke (ministarstva i tijela)",
+      "en": "Ministerial regulations, orders and decisions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Narodne novine (official gazette of the Republic of Croatia)",
+      "note": "as published; ~100 gazette articles robots.txt-disallowed"
+    },
+    {
+      "name": "Narodne novine – službeni dio",
+      "en": "Official gazette, official part",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Narodne novine (official gazette of the Republic of Croatia)",
+      "note": "search uses kategorija=1 (službeni dio) only"
+    },
+    {
+      "name": "Narodne novine – Međunarodni ugovori",
+      "en": "Official gazette, international treaties part",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "adapter searches and resolves službeni dio ELI ids only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Narodne novine – Međunarodni ugovori (kategorija=2)",
+        "url": "https://narodne-novine.nn.hr/search.aspx?kategorija=2",
+        "evidence": "fetched 2026-11-07: search.aspx with kategorija=2 answered HTTP 200 with the MU issue list; robots.txt disallows only kategorija=3",
+        "note": "same site and search Fontes already uses; only the kategorija value differs"
+      }
+    },
+    {
+      "name": "Odluke i statuti županija, gradova i općina (službeni glasnici)",
+      "en": "County and municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "published in hundreds of local official bulletins; no central database",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "county/city/municipal službeni glasnik (one per local unit)",
+        "url": null,
+        "evidence": "search result only",
+        "note": "hundreds of separate local bulletins with no central official database; none checked"
+      }
+    }
+  ]
+}

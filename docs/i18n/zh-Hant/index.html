@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- favicon:start -->
+<link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
+<link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../assets/brand/apple-touch-icon.png">
+<!-- favicon:end -->
+<title>Fontes：為您的 AI 應用程式提供即時裁判與法規</title>
+<meta name="description" content="Fontes 是免費、開放原始碼的 MCP 伺服器，讓 Claude、Codex、Cursor、VS Code 及其他 AI 應用程式在政府與法院網站上即時查詢 120 多個法域的法院裁判與法規。每筆結果都附有原文連結。">
+<link rel="canonical" href="https://ykarapazar.github.io/fontes/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fontes：為您的 AI 應用程式提供即時裁判與法規">
+<meta property="og:description" content="Fontes 是免費、開放原始碼的 MCP 伺服器，讓 Claude、Codex、Cursor、VS Code 及其他 AI 應用程式在政府與法院網站上即時查詢 120 多個法域的法院裁判與法規。每筆結果都附有原文連結。">
+<meta property="og:url" content="https://ykarapazar.github.io/fontes/">
+<meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fontes：為您的 AI 應用程式提供即時裁判與法規">
+<meta name="twitter:description" content="Fontes 是免費、開放原始碼的 MCP 伺服器，讓 Claude、Codex、Cursor、VS Code 及其他 AI 應用程式在政府與法院網站上即時查詢 120 多個法域的法院裁判與法規。每筆結果都附有原文連結。">
+<meta name="twitter:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "Fontes",
+ "description": "來自 120 多個法域政府與法院網站的法院裁判與法規，即時取得，並附有原文連結。",
+ "applicationCategory": "DeveloperApplication",
+ "operatingSystem": "macOS, Windows, Linux",
+ "softwareVersion": "0.1.0",
+ "license": "https://www.apache.org/licenses/LICENSE-2.0",
+ "url": "https://ykarapazar.github.io/fontes/",
+ "offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "USD"
+ },
+ "author": {
+  "@type": "Person",
+  "name": "Yüce Karapazar"
+ }
+}
+</script>
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mute:#5f5f5f;--line:#e5e5e5;--card:#f6f6f6;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}}
+:root[data-theme="dark"]{--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px}
+p,li{max-width:65ch}a{color:var(--link)}a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.lead{font-size:18px;color:var(--fg)}.mute{color:var(--mute)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px;overflow-x:auto;font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+nav ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 20px}
+.note{border-left:3px solid var(--line);padding:4px 12px;color:var(--mute)}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-size:14px;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<header>
+<!-- logo:start -->
+<h1><picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/brand/lockup-dark.svg"><img src="../../assets/brand/lockup.svg" alt="Fontes" width="211" height="56" style="display:block"></picture></h1>
+<!-- logo:end -->
+<p class="lead">120 多個法域的法律，一問即得。</p>
+<p class="note"><b>Beta</b> · 免費 · 開放原始碼 · <a href="../../status/?lang=zh-Hant">來源每日檢查</a></p>
+<p>Fontes 是免費、開放原始碼的 MCP 伺服器。它可在任何能執行本機 Model Context Protocol 伺服器的應用程式中使用：Claude Desktop、Claude Code、Codex、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio 等。用一般日常用語提出法律問題：您的 AI 應用程式會在政府與法院網站上即時檢索 120 多個法域及國際法院的法院裁判與法規，並為每筆結果附上原文連結。它是為律師與法律研究人員而做，也為任何想從源頭閱讀法律的人而做。</p>
+<nav aria-label="主要連結"><ul>
+<li><a href="../../status/?lang=zh-Hant">來源狀態</a></li>
+<li><a href="https://github.com/ykarapazar/fontes/blob/main/docs/i18n/zh-Hant/README.md#涵蓋範圍">涵蓋範圍表</a></li>
+<li><a href="https://github.com/ykarapazar/fontes/blob/main/docs/i18n/zh-Hant/FAQ.md">問與答</a></li>
+<li><a href="https://github.com/ykarapazar/fontes">GitHub 上的原始碼</a></li>
+</ul></nav>
+<!-- languages:start -->
+<p class="mute">語言: <a href="../../index.html" hreflang="en" lang="en">English</a> · <a href="../am/index.html" hreflang="am" lang="am">አማርኛ</a> · <a href="../ar/index.html" hreflang="ar" lang="ar">العربية</a> · <a href="../ay/index.html" hreflang="ay" lang="ay">Aymar aru</a> · <a href="../az/index.html" hreflang="az" lang="az">azərbaycan</a> · <a href="../bg/index.html" hreflang="bg" lang="bg">български</a> · <a href="../bn/index.html" hreflang="bn" lang="bn">বাংলা</a> · <a href="../bs/index.html" hreflang="bs" lang="bs">bosanski</a> · <a href="../bs-Cyrl/index.html" hreflang="bs-Cyrl" lang="bs-Cyrl">босански</a> · <a href="../ca/index.html" hreflang="ca" lang="ca">català</a> · <a href="../ckb/index.html" hreflang="ckb" lang="ckb">کوردیی ناوەندی</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">dansk</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../dv/index.html" hreflang="dv" lang="dv">ދިވެހި</a> · <a href="../dz/index.html" hreflang="dz" lang="dz">རྫོང་ཁ</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../es/index.html" hreflang="es" lang="es">español</a> · <a href="../et/index.html" hreflang="et" lang="et">eesti</a> · <a href="../fa/index.html" hreflang="fa" lang="fa">فارسی</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">suomi</a> · <a href="../fil/index.html" hreflang="fil" lang="fil">Filipino</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">français</a> · <a href="../ga/index.html" hreflang="ga" lang="ga">Gaeilge</a> · <a href="../gn/index.html" hreflang="gn" lang="gn">Avañeʼẽ</a> · <a href="../hak-Hant/index.html" hreflang="hak-Hant" lang="hak-Hant">臺灣客家語</a> · <a href="../he/index.html" hreflang="he" lang="he">עברית</a> · <a href="../hi/index.html" hreflang="hi" lang="hi">हिन्दी</a> · <a href="../hr/index.html" hreflang="hr" lang="hr">hrvatski</a> · <a href="../ht/index.html" hreflang="ht" lang="ht">Kreyòl ayisyen</a> · <a href="../hu/index.html" hreflang="hu" lang="hu">magyar</a> · <a href="../hy/index.html" hreflang="hy" lang="hy">հայերեն</a> · <a href="../id/index.html" hreflang="id" lang="id">Indonesia</a> · <a href="../is/index.html" hreflang="is" lang="is">íslenska</a> · <a href="../it/index.html" hreflang="it" lang="it">italiano</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ka/index.html" hreflang="ka" lang="ka">ქართული</a> · <a href="../km/index.html" hreflang="km" lang="km">ខ្មែរ</a> · <a href="../ky/index.html" hreflang="ky" lang="ky">кыргызча</a> · <a href="../lb/index.html" hreflang="lb" lang="lb">Lëtzebuergesch</a> · <a href="../lo/index.html" hreflang="lo" lang="lo">ລາວ</a> · <a href="../lt/index.html" hreflang="lt" lang="lt">lietuvių</a> · <a href="../lv/index.html" hreflang="lv" lang="lv">latviešu</a> · <a href="../mg/index.html" hreflang="mg" lang="mg">Malagasy</a> · <a href="../mn/index.html" hreflang="mn" lang="mn">монгол</a> · <a href="../ms/index.html" hreflang="ms" lang="ms">Melayu</a> · <a href="../mt/index.html" hreflang="mt" lang="mt">Malti</a> · <a href="../my/index.html" hreflang="my" lang="my">မြန်မာ</a> · <a href="../nan-Hant/index.html" hreflang="nan-Hant" lang="nan-Hant">臺灣台語</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">norsk bokmål</a> · <a href="../ne/index.html" hreflang="ne" lang="ne">नेपाली</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../nn/index.html" hreflang="nn" lang="nn">norsk nynorsk</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">polski</a> · <a href="../ps/index.html" hreflang="ps" lang="ps">پښتو</a> · <a href="../pt/index.html" hreflang="pt" lang="pt">português</a> · <a href="../pt-PT/index.html" hreflang="pt-PT" lang="pt-PT">português europeu</a> · <a href="../qu/index.html" hreflang="qu" lang="qu">Runasimi</a> · <a href="../ro/index.html" hreflang="ro" lang="ro">română</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">русский</a> · <a href="../rw/index.html" hreflang="rw" lang="rw">Ikinyarwanda</a> · <a href="../sk/index.html" hreflang="sk" lang="sk">slovenčina</a> · <a href="../sl/index.html" hreflang="sl" lang="sl">slovenščina</a> · <a href="../sq/index.html" hreflang="sq" lang="sq">shqip</a> · <a href="../sr/index.html" hreflang="sr" lang="sr">српски</a> · <a href="../sr-Latn/index.html" hreflang="sr-Latn" lang="sr-Latn">srpski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">svenska</a> · <a href="../ta/index.html" hreflang="ta" lang="ta">தமிழ்</a> · <a href="../tg/index.html" hreflang="tg" lang="tg">тоҷикӣ</a> · <a href="../tk/index.html" hreflang="tk" lang="tk">türkmen dili</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a> · <a href="../ur/index.html" hreflang="ur" lang="ur">اردو</a> · <a href="../uz/index.html" hreflang="uz" lang="uz">o‘zbek</a> · <a href="../uz-Cyrl/index.html" hreflang="uz-Cyrl" lang="uz-Cyrl">ўзбекча</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../wo/index.html" hreflang="wo" lang="wo">Wolof</a> · <a href="../yo/index.html" hreflang="yo" lang="yo">Èdè Yorùbá</a> · <a href="../zgh/index.html" hreflang="zgh" lang="zgh">ⵜⴰⵎⴰⵣⵉⵖⵜ</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <b lang="zh-Hant">繁體中文</b></p>
+<!-- languages:end -->
+<p class="note">本文為機器輔助翻譯，以英文版本為準。</p>
+</header>
+<p style="text-align:center;margin:16px 0"><img src="../../assets/demo.gif" alt="Fontes 在 Claude 中回答問題" width="800" height="581" style="max-width:100%;height:auto;border-radius:8px" loading="lazy"></p>
+<!-- map:start -->
+<div id="map" data-map data-map-hint="將游標移到或點選一個國家，即可查看其涵蓋範圍。" data-map-table="完整涵蓋範圍表" data-map-covered="已涵蓋" data-map-partial="部分" data-map-none="尚未涵蓋" style="width:min(960px,calc(100vw - 32px));max-width:none;margin:16px 0 16px 50%;transform:translateX(-50%)"><a href="https://github.com/ykarapazar/fontes/blob/main/docs/i18n/zh-Hant/COVERAGE.md"><picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/coverage-map-dark.svg"><img src="../../assets/coverage-map.svg" alt="Fontes 涵蓋範圍目錄: 已涵蓋：124 個中的 72 個。" width="960" height="653" style="max-width:100%;height:auto"></picture></a></div><script src="../../assets/map.js" defer></script>
+<!-- map:end -->
+
+<h2>它能做什麼</h2>
+<ul>
+<li>在您提問的當下，從發布者自己的網站或 API 檢索裁判與法規。</li>
+<li>每筆結果都註明其來源並附有連結，讓您可以核對原文。</li>
+<li>Fontes 不建立資料庫，也不需要帳號。您的問題只會傳送到正在檢索的來源。使用次數統計與錯誤回報須由您選擇加入。</li>
+</ul>
+<p class="note">Fontes 是研究輔助工具，並非法律意見，使用它也不會成立律師與當事人間的委任關係。它依現狀提供，不附帶任何擔保（請參閱 <a href="https://github.com/ykarapazar/fontes/blob/main/LICENSE">Apache 2.0 授權條款</a>）。有些來源明確是非官方版本，而且每個來源都有自己的使用條款；Fontes 會在回答中說明這一點。依賴某則裁判或條文之前，請閱讀其全文。Fontes 是獨立的，與任何法院、政府或發布者均無隸屬關係。</p>
+
+<h2>安裝</h2>
+<p><strong>Fontes 尚未發布到 PyPI。</strong>以下步驟在第一個版本發布後即可使用。</p>
+<ul>
+<li><strong>Claude Desktop：</strong>從<a href="https://github.com/ykarapazar/fontes/releases/latest">最新版本</a>下載 Fontes 的 <code>.mcpb</code> 檔案，按兩下該檔案，然後點選 <strong>Install</strong>。</li>
+<li><strong>Codex：</strong><code>codex mcp add fontes -- uvx fontes-mcp</code></li>
+<li><strong>Claude Code：</strong><code>claude mcp add fontes -- uvx fontes-mcp</code></li>
+<li><strong>Cursor、VS Code、Gemini CLI、Zed、LM Studio、Cline 及其他應用程式：</strong>將 Fontes 加入應用程式的 MCP 設定。大多數應用程式使用以下項目；<a href="https://github.com/ykarapazar/fontes/blob/main/docs/i18n/zh-Hant/INSTALL.md#其他應用程式">安裝指南</a>列出每個應用程式的檔案與設定片段。</li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "fontes": { "command": "uvx", "args": ["fontes-mcp"] }
+  }
+}</code></pre>
+<p><code>uvx</code> 隨 <a href="https://docs.astral.sh/uv/getting-started/installation/">uv</a> 一併提供。在 macOS 或 Linux 上：<code>curl -LsSf https://astral.sh/uv/install.sh | sh</code>。在 Windows（PowerShell）上：<code>powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"</code>。</p>
+<p>然後重新啟動應用程式並提問：<em>「Fontes 可以檢索哪些法域？」</em></p>
+<p class="mute">適用於 Mac 與 Windows 的一鍵安裝程式即將推出。它會在 Claude Desktop、Codex、Claude Code、Cursor、VS Code、Windsurf、Gemini CLI、Zed、LM Studio 與 Cline 中設定 Fontes（您電腦上有的每一個），然後提供新增金鑰的選項。執行前請先結束這些應用程式。詳情請見<a href="https://github.com/ykarapazar/fontes/blob/main/docs/i18n/zh-Hant/INSTALL.md#一鍵安裝程式即將推出">安裝指南</a>。部分來源需要免費金鑰：請參閱 <a href="https://github.com/ykarapazar/fontes/blob/main/docs/i18n/zh-Hant/KEYS.md">KEYS.md</a>。</p>
+
+<footer>
+<p>Fontes 是開放原始碼軟體，採用 Apache 2.0 授權條款。法律文本仍受各發布者的授權條款約束。</p>
+</footer>
+</main>
+</body>
+</html>

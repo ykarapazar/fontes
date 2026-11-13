@@ -1,0 +1,429 @@
+{
+  "code": "id",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://marinews.mahkamahagung.go.id/serba-serbi/mengenal-empat-lingkungan-peradilan-di-bawah-mahkamah-agung-0bud"
+  ],
+  "courts": [
+    {
+      "name": "Mahkamah Konstitusi",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare challenge on mkri.id, jdih.mkri.id)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JDIH Mahkamah Konstitusi – Putusan",
+        "url": "https://jdih.mkri.id/produk-hukum/putusan",
+        "evidence": "research/chatgpt/asia.md; fetched 2026-11-07: www.mkri.id 403",
+        "note": "~5,060 decisions 2003-2026 listed; Cloudflare challenge to plain requests."
+      }
+    },
+    {
+      "name": "Mahkamah Agung",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (putusan3.mahkamahagung.go.id Disallow: /, ai-train=no)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Supreme Court (~275k entries per research/chatgpt/r2_c.md); blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Tinggi (~34)",
+      "en": "High Courts (general jurisdiction appeal, incl. Tipikor appeal chambers)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "decisions sit in the Supreme Court's directory, robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. High Courts; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Negeri (~380)",
+      "en": "District Courts (general civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. District Courts; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Niaga (5, at PN Jakarta Pusat, Medan, Semarang, Surabaya, Makassar)",
+      "en": "Commercial Courts (bankruptcy, PKPU, IP)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Commercial Court decisions (filed under the host PN); blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Hak Asasi Manusia (4)",
+      "en": "Human Rights Courts (gross violations)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Human Rights Court decisions (filed under the host PN); blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Tindak Pidana Korupsi (Tipikor, one per province)",
+      "en": "Anti-corruption Courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Tipikor decisions; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Hubungan Industrial (PHI, one per province)",
+      "en": "Industrial Relations Courts (labour)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. PHI decisions; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Anak (juvenile chambers of the PN)",
+      "en": "Juvenile courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. juvenile cases (anonymised); blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Perikanan (~10)",
+      "en": "Fisheries Courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Fisheries Court decisions; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Agama (~400)",
+      "en": "Religious Courts (Islamic family, inheritance, waqf, sharia economy)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Religious Courts (~7.6M entries); blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Tinggi Agama (~29)",
+      "en": "Religious High Courts",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Religious High Courts; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Mahkamah Syar'iyah (Aceh, ~23) and Mahkamah Syar'iyah Aceh (appeal)",
+      "en": "Aceh Sharia courts (also qanun jinayat criminal cases)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Aceh Mahkamah Syar'iyah; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Tata Usaha Negara (PTUN, ~30)",
+      "en": "State Administrative Courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Administrative Courts; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Tinggi Tata Usaha Negara (PTTUN, 4)",
+      "en": "High State Administrative Courts",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Administrative High Courts; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Militer (~19)",
+      "en": "Military Courts (lower ranks)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Military Courts; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Militer Tinggi (3)",
+      "en": "High Military Courts (officers first instance; appeal)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Military High Courts; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Militer Utama (1)",
+      "en": "Principal Military Court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (Supreme Court directory)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan Mahkamah Agung",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori.html",
+        "evidence": "fetched 2026-11-07: robots.txt now 'User-agent: * Allow: /' with Content-Signal ai-train=no, but ClaudeBot and anthropic-ai 'Disallow: /'; direktori.html 403 (Cloudflare)",
+        "note": "Directory covers all court levels incl. Principal Military Court; blocked by bot wall and AI-agent robots lines."
+      }
+    },
+    {
+      "name": "Pengadilan Pajak",
+      "en": "Tax Court",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "Tax Court decisions sit in the MA directory and JDIH Kemenkeu; both blocked from UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Direktori Putusan MA (Pengadilan Pajak section) / JDIH Kemenkeu",
+        "url": "https://putusan3.mahkamahagung.go.id/direktori/periode/tahunjenis/putus/pengadilan/pengadilan-pajak.html",
+        "evidence": "search result only (MA directory and jdih.kemenkeu.go.id list Tax Court decisions); fetched 2026-11-07: MA directory 403, jdih.kemenkeu.go.id connection timeout from UK",
+        "note": "Tax Court decisions published in MA directory and JDIH Kemenkeu; both unreachable/bot-walled from here."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Undang-Undang Dasar 1945",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Majelis Permusyawaratan Rakyat (www.mpr.go.id) – UUD NRI 1945",
+      "note": "consolidated text 'dalam satu naskah' (as amended 1999-2002) from the MPR Secretariat-General book PDF (text layer, layout mode); id 'UUD 1945'"
+    },
+    {
+      "name": "Undang-Undang (UU)",
+      "en": "Acts of the DPR",
+      "level": "primary",
+      "reached": "partly",
+      "via": "JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum",
+      "note": "JDIH Setneg has 903 UU (checked 2026-11-10), earliest UU 7/1983; almost nothing before 1990 (no UU 5/1960, UU 1/1974, UU 1/1946) and holes (0 UU for 2004). As enacted, not consolidated; OCR text layer",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JDIH BPK (peraturan.bpk.go.id) / peraturan.go.id (Kemenkumham)",
+        "url": "https://peraturan.bpk.go.id/",
+        "evidence": "fetched 2026-11-10: peraturan.bpk.go.id 403 Cloudflare 'Just a moment...' (robots.txt itself allows); peraturan.go.id, www.peraturan.go.id, jdihn.go.id connect timeout (3 tries); jdih.dpr.go.id 500, www.dpr.go.id 403 Access Denied",
+        "note": "Missing part: pre-1990 Undang-Undang and gap years (e.g. 2004); consolidated texts"
+      }
+    },
+    {
+      "name": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu)",
+      "en": "Government regulations in lieu of law",
+      "level": "primary",
+      "reached": "partly",
+      "via": "JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum",
+      "note": "JDIH Setneg has 33 Perpu, earliest Perpu 1/1998; earlier Perpu missing. As enacted",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JDIH BPK (peraturan.bpk.go.id) / peraturan.go.id (Kemenkumham)",
+        "url": "https://peraturan.bpk.go.id/",
+        "evidence": "fetched 2026-11-10: BPK Cloudflare challenge; peraturan.go.id connect timeout",
+        "note": "Missing part: Perpu before 1998"
+      }
+    },
+    {
+      "name": "Peraturan Pemerintah (PP)",
+      "en": "Government Regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum",
+      "note": "as enacted"
+    },
+    {
+      "name": "Peraturan Presiden / Keputusan Presiden / Instruksi Presiden",
+      "en": "Presidential Regulations, Decrees, Instructions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum",
+      "note": "as enacted"
+    },
+    {
+      "name": "Peraturan / Keputusan Menteri",
+      "en": "Ministerial regulations and decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum",
+      "note": "State Secretariat minister's only (PERMENSESNEG/KEPMENSESNEG); other ministries: peraturan.bpk.go.id Cloudflare-challenged",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JDIH BPK (peraturan.bpk.go.id)",
+        "url": "https://peraturan.bpk.go.id/",
+        "evidence": "src/world_legal_mcp/jurisdictions/id.py (Cloudflare challenge on every page); research/asia_pacific.md",
+        "note": "Missing part: other ministries' regulations. BPK has the widest coverage; Cloudflare challenge. peraturan.go.id timed out."
+      }
+    },
+    {
+      "name": "Peraturan Daerah (Perda) provinsi / kabupaten / kota",
+      "en": "Regional regulations (provincial, regency, city)",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "peraturan.bpk.go.id is Cloudflare-challenged; jdihn.go.id timed out",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JDIH BPK (peraturan.bpk.go.id) / JDIHN",
+        "url": "https://peraturan.bpk.go.id/",
+        "evidence": "src/world_legal_mcp/jurisdictions/id.py; fetched 2026-11-07: peraturan.go.id and jdihn.go.id connection timeout",
+        "note": "Perda collected by BPK JDIH (Cloudflare) and JDIHN (timeout from UK); each region's own JDIH not checked."
+      }
+    },
+    {
+      "name": "Lembaran Negara / Berita Negara",
+      "en": "State Gazette / State Bulletin",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum",
+      "note": "official 'Salinan' copies of national acts only, not the gazette as such",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Peraturan.go.id (Ditjen PP, Kemenkumham) – Lembaran Negara / Berita Negara",
+        "url": "https://peraturan.go.id/",
+        "evidence": "fetched 2026-11-07: connection timeout from UK",
+        "note": "Missing part: the gazette itself (LN/BN incl. Berita Negara ministerial regs); peraturan.go.id unreachable from UK."
+      }
+    },
+    {
+      "name": "Perjanjian internasional",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "Kemlu Treaty Room exists (JS-only page); not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Kemlu Treaty Room",
+        "url": "https://treaty-room.kemlu.go.id/",
+        "evidence": "fetched 2026-11-07: treaty.kemlu.go.id redirects to treaty-room.kemlu.go.id (HTTP 200) but page is a JS shell, no content to plain fetch",
+        "note": "Official treaty database exists; whether texts are reachable without JS not established."
+      }
+    }
+  ]
+}

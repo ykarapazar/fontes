@@ -1,0 +1,308 @@
+{
+ "code": "am",
+ "checked": "2026-11-07",
+ "structure_sources": [
+  "https://www.president.am/en/constitution-2015/",
+  "https://datalex.am/?app=AppCaseSearch"
+ ],
+ "courts": [
+  {
+   "name": "Սահմանադրական դատարան",
+   "en": "Constitutional Court",
+   "tier": "constitutional",
+   "branch": "constitutional",
+   "reached": "no",
+   "via": null,
+   "note": "not built; concourt.am publishes decisions",
+   "elsewhere": {
+    "status": "available",
+    "source": "Constitutional Court of Armenia: decisions",
+    "url": "https://www.concourt.am/decisions/advanced-search",
+    "evidence": "fetched 2026-11-07: home links decision PDFs (/decision/decisions/*.pdf) and an advanced search; no robots.txt (404 page)",
+    "note": "official"
+   }
+  },
+  {
+   "name": "Վճռաբեկ դատարան, քաղաքացիական և վարչական պալատ",
+   "en": "Court of Cassation, Civil and Administrative Chamber",
+   "tier": "apex",
+   "branch": "civil",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "decisions as published in ARLIS (catalog 4); ARLIS holds selected decisions, not all"
+  },
+  {
+   "name": "Վճռաբեկ դատարան, քրեական պալատ",
+   "en": "Court of Cassation, Criminal Chamber",
+   "tier": "apex",
+   "branch": "criminal",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "decisions as published in ARLIS (catalog 4); ARLIS holds selected decisions, not all"
+  },
+  {
+   "name": "Վճռաբեկ դատարան, հակակոռուպցիոն պալատ",
+   "en": "Court of Cassation, Anti-Corruption Chamber",
+   "tier": "apex",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "ARLIS catalog 4 = Court of Cassation; whether Anti-Corruption Chamber decisions are published there is unverified",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Քաղաքացիական վերաքննիչ դատարան",
+   "en": "Civil Court of Appeal",
+   "tier": "appeal",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Քրեական վերաքննիչ դատարան",
+   "en": "Criminal Court of Appeal",
+   "tier": "appeal",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Վարչական վերաքննիչ դատարան",
+   "en": "Administrative Court of Appeal",
+   "tier": "appeal",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Հակակոռուպցիոն վերաքննիչ դատարան",
+   "en": "Anti-Corruption Court of Appeal",
+   "tier": "appeal",
+   "branch": "civil-criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Քաղաքացիական դատարաններ (Երևանի, Հյուսիսային, Հարավային)",
+   "en": "Civil Courts (3: Yerevan, Northern, Southern; with seats in Gyumri, Vanadzor, Kapan, Artashat, etc.)",
+   "tier": "first-instance",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Քրեական դատարաններ (Երևանի, Հյուսիսային, Հարավային)",
+   "en": "Criminal Courts (3: Yerevan, Northern, Southern)",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Ընդհանուր իրավասության առաջին ատյանի դատարաններ (Երևանի վարչական շրջաններ, մարզեր)",
+   "en": "Former first-instance courts of general jurisdiction (Yerevan districts, marzes; replaced by the civil and criminal courts, date unverified)",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex still lists them as courts for older cases",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Վարչական դատարան",
+   "en": "Administrative Court (seats in Yerevan, Gyumri, Vanadzor, Kapan, Sevan, Vedi, Etchmiadzin)",
+   "tier": "first-instance",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Հակակոռուպցիոն դատարան",
+   "en": "Anti-Corruption Court (civil and criminal specialisations, since 2021)",
+   "tier": "specialised",
+   "branch": "civil-criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  },
+  {
+   "name": "Սնանկության դատարան",
+   "en": "Bankruptcy Court",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "not built; datalex.am (no www) answers, www.datalex.am times out",
+   "elsewhere": {
+    "status": "available",
+    "source": "DataLex (judicial information system, Judicial Department)",
+    "url": "https://datalex.am/?app=AppCaseSearch",
+    "evidence": "fetched 2026-11-07: datalex.am (no www) case-search form lists 86 courts incl. Yerevan/Northern/Southern Civil and Criminal Courts, Administrative, Bankruptcy and Anti-Corruption Courts, the old Yerevan district and marz courts, and the Courts of Appeal; robots.txt 404",
+    "note": "www.datalex.am still times out; bare datalex.am answers. Terms not checked"
+   }
+  }
+ ],
+ "legislation": [
+  {
+   "name": "Սահմանադրություն",
+   "en": "Constitution",
+   "level": "constitution",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "ARLIS act search covers all act types; not filtered by type"
+  },
+  {
+   "name": "Օրենք / Օրենսգիրք (ՀՕ-)",
+   "en": "Laws and codes of the National Assembly",
+   "level": "primary",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "consolidated latest version via /latest"
+  },
+  {
+   "name": "Կառավարության որոշում",
+   "en": "Government decisions",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "no type filter; reached via text/number search"
+  },
+  {
+   "name": "Նախագահի հրամանագիր / կարգադրություն",
+   "en": "Presidential decrees and orders",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "no type filter"
+  },
+  {
+   "name": "Նախարարի հրաման / գերատեսչական նորմատիվ ակտեր",
+   "en": "Ministerial orders and departmental normative acts",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "no type filter"
+  },
+  {
+   "name": "Համայնքների նորմատիվ իրավական ակտեր",
+   "en": "Normative acts of communities (local)",
+   "level": "local",
+   "reached": "partly",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "only if published in ARLIS; not checked",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "ARLIS",
+    "url": "https://www.arlis.am",
+    "evidence": "used by Fontes am adapter (src/world_legal_mcp/jurisdictions/am.py)",
+    "note": "missing part: whether ARLIS carries community acts; not checked"
+   }
+  },
+  {
+   "name": "Միջազգային պայմանագրեր",
+   "en": "International treaties",
+   "level": "treaty",
+   "reached": "partly",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "only if published in ARLIS; not checked",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "ARLIS",
+    "url": "https://www.arlis.am",
+    "evidence": "used by Fontes am adapter (src/world_legal_mcp/jurisdictions/am.py)",
+    "note": "missing part: whether ARLIS carries treaty texts; MFA treaty database not checked"
+   }
+  },
+  {
+   "name": "Պաշտոնական տեղեկագիր / ARLIS",
+   "en": "Official publication (Official Bulletin / ARLIS)",
+   "level": "gazette",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "ARLIS is the official publication site"
+  },
+  {
+   "name": "ՄԻԵԴ վճիռներ (Armenian translations)",
+   "en": "ECtHR judgments v. Armenia in Armenian",
+   "level": "treaty",
+   "reached": "yes",
+   "via": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "note": "caselaw court=echr (catalog 3)"
+  }
+ ]
+}

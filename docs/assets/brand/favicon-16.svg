@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" role="img" aria-label="Fontes">
+  <title>Fontes</title>
+  <style>@media (prefers-color-scheme: dark){.d{fill:#eef2f7}.r{stroke:#4cbdd3}}</style>
+  <circle cx="8" cy="10" r="2" class="d" fill="#162644"/>
+  <path d="M3.97 12A4.5 4.5 0 1 1 12.03 12" fill="none" class="r" stroke="#1e88a0" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M1.29 12A7 7 0 1 1 14.71 12" fill="none" class="r" stroke="#1e88a0" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

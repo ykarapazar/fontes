@@ -1,0 +1,434 @@
+{
+  "code": "uy",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://seleccion.poderjudicial.gub.uy/seleccion/archivos/introduccion_e_historia_10092018.pdf",
+    "https://www.poderjudicial.gub.uy/"
+  ],
+  "courts": [
+    {
+      "name": "Suprema Corte de Justicia",
+      "en": "Supreme Court of Justice (also rules on unconstitutionality of laws)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "BJN index lags ~2 months"
+    },
+    {
+      "name": "Tribunales de Apelaciones en lo Civil (7)",
+      "en": "Civil Courts of Appeal",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "BJN index lags ~2 months"
+    },
+    {
+      "name": "Tribunales de Apelaciones de Familia (2)",
+      "en": "Family Courts of Appeal",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "yes",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "BJN index lags ~2 months"
+    },
+    {
+      "name": "Tribunales de Apelaciones del Trabajo (4)",
+      "en": "Labour Courts of Appeal",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "yes",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "BJN index lags ~2 months"
+    },
+    {
+      "name": "Tribunales de Apelaciones en lo Penal (4)",
+      "en": "Criminal Courts of Appeal",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "BJN index lags ~2 months"
+    },
+    {
+      "name": "Juzgados Letrados de Primera Instancia en lo Civil (Montevideo)",
+      "en": "First-instance civil courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether civil courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Primera Instancia de Familia y de Familia Especializada (Montevideo)",
+      "en": "First-instance family courts (incl. specialised domestic-violence family courts)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether family courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Primera Instancia del Trabajo (Montevideo)",
+      "en": "First-instance labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether labour courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Primera Instancia en lo Contencioso Administrativo",
+      "en": "First-instance administrative-litigation courts (claims for damages against the State)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether these courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Primera Instancia de Concursos",
+      "en": "Insolvency courts",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether insolvency courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Aduana",
+      "en": "Customs courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether customs courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Primera Instancia en lo Penal / Penal de Crimen Organizado",
+      "en": "First-instance criminal courts (incl. organised-crime courts)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether criminal and organised-crime courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Ejecución y Vigilancia",
+      "en": "Sentence-enforcement courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether enforcement courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Adolescentes",
+      "en": "Juvenile criminal courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether juvenile courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados especializados en Violencia de Género, Doméstica y Sexual (Ley 19.580)",
+      "en": "Specialised gender-based/domestic/sexual violence courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether these courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados Letrados de Primera Instancia del Interior",
+      "en": "First-instance courts in the departments (mixed jurisdiction)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether interior courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados de Faltas (Montevideo)",
+      "en": "Misdemeanour courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "source covers first-instance decisions generally (selection); whether misdemeanour courts is included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "missing part = decisions BJN does not carry; no other official first-instance source found"
+      }
+    },
+    {
+      "name": "Juzgados de Paz (departamentales, de ciudad, rurales)",
+      "en": "Justices of the peace (small claims)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "searched with all BJN courts; whether BJN carries them unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Base de Jurisprudencia Nacional Pública (BJN)",
+        "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/",
+        "evidence": "research/uy.md",
+        "note": "whether Juzgados de Paz rulings are in BJN or anywhere online not established"
+      }
+    },
+    {
+      "name": "Tribunal de lo Contencioso Administrativo (TCA)",
+      "en": "Administrative Court (outside the Poder Judicial; annuls administrative acts)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+      "note": "separate organ; whether BJN carries TCA rulings unverified; TCA's own database not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Tribunal de lo Contencioso Administrativo: base de jurisprudencia",
+        "url": "https://www.tca.gub.uy/",
+        "evidence": "search result only (UAIP Resolución 127/023, gub.uy); fetched 2026-11-07: tca.gub.uy TCP timeout from the UK",
+        "note": "TCA publishes only selected rulings free; its full database is a paid monthly subscription (per UAIP resolution); site timed out from the UK"
+      }
+    },
+    {
+      "name": "Corte Electoral",
+      "en": "Electoral Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no decisions database found on gub.uy/corte-electoral",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Corte Electoral (gub.uy/corte-electoral)",
+        "url": "https://www.gub.uy/corte-electoral/",
+        "evidence": "fetched 2026-11-07: corteelectoral.gub.uy redirects to gub.uy/corte-electoral, HTTP 200; no resolutions database seen",
+        "note": "did not find a published decisions database"
+      }
+    },
+    {
+      "name": "Supremo Tribunal Militar and Juzgados Militares",
+      "en": "Military justice (military offences; outside the Poder Judicial)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not in BJN as far as the code shows",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministerio de Defensa Nacional",
+        "url": "https://www.gub.uy/ministerio-defensa-nacional/",
+        "evidence": "search result only",
+        "note": "web search 2026-11-10 found no official STM judgments database, only STM rulings quoted in later Poder Judicial files; cassation against STM judgments goes to the SCJ (in BJN)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución de la República (1967)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+      "note": ""
+    },
+    {
+      "name": "Códigos",
+      "en": "Codes (Civil, Penal, Comercio, CGP, CPP, Niñez, Tributario, Aduanero, Rural)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+      "note": "searchable by name for the 10 listed codes only"
+    },
+    {
+      "name": "Leyes",
+      "en": "Acts of the General Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+      "note": "by number+year only; IMPO keyword search robots-disallowed; some texts subscription-only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IMPO search engine (/cgi-bin/)",
+        "url": "https://www.impo.com.uy/bases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/uy.py docstring; research/uy.md",
+        "note": "missing part = keyword search: robots.txt 'Disallow: /cgi-bin/' (where IMPO's search lives); some texts subscription-only; IMPO terms say use is 'personal e intransferible'"
+      }
+    },
+    {
+      "name": "Decretos-ley (1973-1985)",
+      "en": "Decree-laws of the de facto regime",
+      "level": "primary",
+      "reached": "partly",
+      "via": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+      "note": "by number+year only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IMPO search engine (/cgi-bin/)",
+        "url": "https://www.impo.com.uy/bases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/uy.py docstring; research/uy.md",
+        "note": "missing part = keyword search: robots.txt 'Disallow: /cgi-bin/' (where IMPO's search lives); some texts subscription-only; IMPO terms say use is 'personal e intransferible'"
+      }
+    },
+    {
+      "name": "Decretos del Poder Ejecutivo",
+      "en": "Executive decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+      "note": "by number+year only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IMPO search engine (/cgi-bin/)",
+        "url": "https://www.impo.com.uy/bases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/uy.py docstring; research/uy.md",
+        "note": "missing part = keyword search: robots.txt 'Disallow: /cgi-bin/' (where IMPO's search lives); some texts subscription-only; IMPO terms say use is 'personal e intransferible'"
+      }
+    },
+    {
+      "name": "Resoluciones del Poder Ejecutivo / ministeriales",
+      "en": "Executive and ministerial resolutions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+      "note": "only by direct IMPO path (base/num-year); no search",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IMPO search engine (/cgi-bin/)",
+        "url": "https://www.impo.com.uy/bases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/uy.py docstring; research/uy.md",
+        "note": "missing part = search and listing: robots.txt 'Disallow: /cgi-bin/' (where IMPO's search lives); some texts subscription-only; IMPO terms say use is 'personal e intransferible'"
+      }
+    },
+    {
+      "name": "Diario Oficial",
+      "en": "Official Gazette (IMPO)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "adapter reads IMPO consolidated Banco de Datos, not Diario Oficial issues",
+      "elsewhere": {
+        "status": "available",
+        "source": "IMPO Diario Oficial (archive since 1905)",
+        "url": "https://www.impo.com.uy/diariooficial/",
+        "evidence": "search result only (IMPO: all editions free, no registration); fetched 2026-11-07: /diariooficial/2022/01/19/indice.pdf HTTP 200 application/pdf",
+        "note": "issue PDFs by date path; robots.txt disallows only a few avisos PDFs and /cgi-bin/"
+      }
+    },
+    {
+      "name": "Decretos departamentales (Juntas Departamentales)",
+      "en": "Departmental (regional) decrees",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "departmental decrees: not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Juntas Departamentales (19 departmental legislatures)",
+        "url": "",
+        "evidence": "none",
+        "note": "not checked; IMPO's consolidated bases are national"
+      }
+    },
+    {
+      "name": "Tratados internacionales (aprobados por ley)",
+      "en": "Treaties (approved by law)",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+      "note": "only the approving ley, by number+year",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IMPO search engine (/cgi-bin/)",
+        "url": "https://www.impo.com.uy/bases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/uy.py docstring; research/uy.md",
+        "note": "missing part = the treaty text itself and search: robots.txt 'Disallow: /cgi-bin/' (where IMPO's search lives); some texts subscription-only; IMPO terms say use is 'personal e intransferible'"
+      }
+    }
+  ]
+}

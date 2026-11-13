@@ -1,0 +1,329 @@
+{
+  "code": "eu",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://curia.europa.eu/jcms/jcms/Jo2_6999/en/"
+  ],
+  "courts": [
+    {
+      "name": "Cour de justice / Court of Justice",
+      "en": "Court of Justice (judgments and orders, incl. Grand Chamber and Chambers)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "title search only; full-text search needs EUR-Lex SOAP account"
+    },
+    {
+      "name": "Avocats généraux",
+      "en": "Advocates General (opinions, Court of Justice only)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "doc_type=opinion, court=cj"
+    },
+    {
+      "name": "Cour de justice – avis (art. 218(11) TFUE)",
+      "en": "Court of Justice – Opinions on proposed international agreements",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "get_decision accepts their CELEX (6YYYYCV####) / ECLI, but search covers only judgment/order/AG-opinion types (J/O/C)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "missing part: Civil Service Tribunal (2005-2016) is CELEX 6xxxxFJ in CELLAR; adapter search filter is cj/gc only"
+      }
+    },
+    {
+      "name": "Tribunal / General Court",
+      "en": "General Court (judgments and orders)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "title search only"
+    },
+    {
+      "name": "Tribunal – conclusions d'avocat général",
+      "en": "General Court – Advocate General opinions (rare; judge acting as AG, early 1990s)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "search rejects opinion + court=gc; get_decision by CELEX (…TC…) would resolve via the generic CELEX pattern, untested",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "missing part: Civil Service Tribunal (2005-2016) is CELEX 6xxxxFJ in CELLAR; adapter search filter is cj/gc only"
+      }
+    },
+    {
+      "name": "Tribunal de la fonction publique",
+      "en": "Civil Service Tribunal (2005-2016, abolished)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "partly",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "not searchable (court filter is cj/gc only); get_decision by CELEX (…FJ…) untested",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "missing part: Civil Service Tribunal (2005-2016) is CELEX 6xxxxFJ in CELLAR; adapter search filter is cj/gc only"
+      }
+    },
+    {
+      "name": "Affaires pendantes / dossiers InfoCuria",
+      "en": "Pending cases and case files",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "InfoCuria is an Angular SPA with no public API found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "InfoCuria (curia.europa.eu)",
+        "url": "https://curia.europa.eu/juris/",
+        "evidence": "used by eu adapter notes (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "Angular SPA with no public API found; new-case notices also appear in OJ C (in CELLAR)"
+      }
+    },
+    {
+      "name": "EUIPO – chambres de recours / Grande chambre",
+      "en": "EUIPO Boards of Appeal incl. Grand Board (trade marks, designs; appeal to General Court)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "available",
+        "source": "EUIPO eSearch Case Law",
+        "url": "https://euipo.europa.eu/eSearchCLW/",
+        "evidence": "fetched 2026-11-07: page 'eSearch Case Law - EUIPO' loads (JS app, content not rendered for robots)",
+        "note": "free public search of BoA decisions; no API checked"
+      }
+    },
+    {
+      "name": "OCVV – chambre de recours",
+      "en": "CPVO Board of Appeal (plant variety rights)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Community Plant Variety Office",
+        "url": "https://cpvo.europa.eu",
+        "evidence": "not checked",
+        "note": "boards publish decisions on agency websites; not verified this round"
+      }
+    },
+    {
+      "name": "ECHA – chambre de recours",
+      "en": "ECHA Board of Appeal (REACH, biocides)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "European Chemicals Agency",
+        "url": "https://echa.europa.eu/about-us/who-we-are/board-of-appeal",
+        "evidence": "not checked",
+        "note": "boards publish decisions on agency websites; not verified this round"
+      }
+    },
+    {
+      "name": "AESA – chambre de recours",
+      "en": "EASA Board of Appeal (aviation safety)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "European Union Aviation Safety Agency",
+        "url": "https://www.easa.europa.eu",
+        "evidence": "not checked",
+        "note": "boards publish decisions on agency websites; not verified this round"
+      }
+    },
+    {
+      "name": "ACER – commission de recours",
+      "en": "ACER Board of Appeal (energy regulation)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Agency for the Cooperation of Energy Regulators",
+        "url": "https://www.acer.europa.eu",
+        "evidence": "not checked",
+        "note": "boards publish decisions on agency websites; not verified this round"
+      }
+    },
+    {
+      "name": "CRU – commission de recours",
+      "en": "Single Resolution Board Appeal Panel (bank resolution)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Single Resolution Board",
+        "url": "https://www.srb.europa.eu",
+        "evidence": "not checked",
+        "note": "boards publish decisions on agency websites; not verified this round"
+      }
+    },
+    {
+      "name": "Commission de recours commune des AES",
+      "en": "Joint Board of Appeal of the European Supervisory Authorities (EBA, ESMA, EIOPA)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "European Supervisory Authorities",
+        "url": "https://www.esma.europa.eu",
+        "evidence": "not checked",
+        "note": "boards publish decisions on agency websites; not verified this round"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Traités (TUE, TFUE, Charte)",
+      "en": "Treaties and Charter of Fundamental Rights (CELEX sector 1)",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "TEU, TFEU and Charter (2016 consolidated: 12016M/TXT, 12016E/TXT, 12016P/TXT) open in full by CELEX id; doc_type=treaty lists sector-1 consolidated versions; accession/amending treaties not searched"
+    },
+    {
+      "name": "Règlements",
+      "en": "Regulations (incl. delegated/implementing)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "titles only; English text, French fallback"
+    },
+    {
+      "name": "Directives",
+      "en": "Directives",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "titles only"
+    },
+    {
+      "name": "Décisions",
+      "en": "Decisions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "titles only"
+    },
+    {
+      "name": "Recommandations, avis et autres actes (secteur 3)",
+      "en": "Recommendations, opinions and other sector-3 acts",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "only with doc_type=all or by CELEX id; default search is R/L/D",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "missing part: default search excludes these types; same source"
+      }
+    },
+    {
+      "name": "Textes consolidés",
+      "en": "Consolidated versions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "linked from the base act"
+    },
+    {
+      "name": "Accords internationaux de l'UE",
+      "en": "International agreements (CELEX sector 2)",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "sector 2 not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "sector 2 (international agreements) in the same CELLAR store; not built"
+      }
+    },
+    {
+      "name": "Journal officiel (séries L et C)",
+      "en": "Official Journal (L and C series)",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "acts reached as works; OJ issues and C-series notices not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "missing part: OJ issues and C-series notices are CELLAR works too; not built"
+      }
+    },
+    {
+      "name": "Droit national de transposition",
+      "en": "National transposition measures (sector 7)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "sector 7 (national transposition measures, metadata + links) in CELLAR; not built"
+      }
+    },
+    {
+      "name": "Règlements de procédure",
+      "en": "Rules of Procedure of the CJ and GC",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+      "note": "only if published as sector-3 acts; not checked",
+      "elsewhere": {
+        "status": "available",
+        "source": "Publications Office CELLAR (EUR-Lex data)",
+        "url": "https://publications.europa.eu/webapi/rdf/sparql",
+        "evidence": "used by Fontes eu adapter (src/world_legal_mcp/jurisdictions/eu.py)",
+        "note": "rules of procedure are in OJ L, so in CELLAR; which CELEX sector not checked"
+      }
+    }
+  ]
+}

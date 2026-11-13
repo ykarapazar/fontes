@@ -1,0 +1,434 @@
+{
+  "code": "il",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://embassies.gov.il/MFA/AboutIsrael/state/Democracy/Pages/The%20Judiciary-%20The%20Court%20System.aspx"
+  ],
+  "courts": [
+    {
+      "name": "בית המשפט העליון (as Court of Appeals)",
+      "en": "Supreme Court – civil and criminal appeals",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Supreme Court decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בית המשפט הגבוה לצדק (בג\"ץ)",
+      "en": "Supreme Court sitting as High Court of Justice",
+      "tier": "constitutional",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "HCJ decisions on supremedecisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי המשפט המחוזיים (6)",
+      "en": "District Courts (serious first instance + appeals from magistrates)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "District Court decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי משפט לעניינים מנהליים (District Courts sitting as Administrative Courts)",
+      "en": "Administrative Affairs Courts",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Administrative Court decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "המחלקה הכלכלית (Economic Department, Tel Aviv District Court)",
+      "en": "Economic (securities, companies, antitrust) department",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Economic Department decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי משפט השלום (~29)",
+      "en": "Magistrates' Courts (general civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Magistrates' Court decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי משפט לענייני משפחה",
+      "en": "Family Affairs Courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Family Court decisions (anonymised, selection only) via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי משפט לנוער",
+      "en": "Juvenile Courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Juvenile decisions largely unpublished (closed hearings); via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי משפט לתעבורה",
+      "en": "Traffic Courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Traffic Court decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי משפט לתביעות קטנות",
+      "en": "Small Claims Courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Small-claims decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בתי משפט לעניינים מקומיים",
+      "en": "Local Affairs Courts (municipal bylaws, planning offences)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – Supreme Court decisions (supremedecisions.court.gov.il / Net HaMishpat)",
+        "url": "https://supremedecisions.court.gov.il/",
+        "evidence": "src/world_legal_mcp/jurisdictions/il.py; research/mena_africa_international.md; fetched 2026-11-07: supremedecisions connection failed",
+        "note": "Local Affairs Court decisions via Net HaMishpat search; unauthorised-activity block page / connection reset from UK; bulk access only under signed undertaking. Nevo/Takdin paid."
+      }
+    },
+    {
+      "name": "בית הדין הארצי לעבודה",
+      "en": "National Labour Court",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "published via Judicial Authority search; same block as other courts",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – decisions search (labour courts included)",
+        "url": "https://www.court.gov.il/",
+        "evidence": "fetched 2026-11-07: www.court.gov.il HTTP 200 (portal); decision search hosts same as Supreme Court (blocked)",
+        "note": "Labour court rulings published through the Judicial Authority's search; same block and undertaking requirement (labour-specific route not verified)."
+      }
+    },
+    {
+      "name": "בתי הדין האזוריים לעבודה (5)",
+      "en": "Regional Labour Courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "published via Judicial Authority search; same block as other courts",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Israel Judicial Authority – decisions search (labour courts included)",
+        "url": "https://www.court.gov.il/",
+        "evidence": "fetched 2026-11-07: www.court.gov.il HTTP 200 (portal); decision search hosts same as Supreme Court (blocked)",
+        "note": "Labour court rulings published through the Judicial Authority's search; same block and undertaking requirement (labour-specific route not verified)."
+      }
+    },
+    {
+      "name": "בתי הדין הרבניים האזוריים / בית הדין הרבני הגדול",
+      "en": "Rabbinical courts (regional) and Great Rabbinical Court",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rabbinical courts rulings database (gov.il)",
+        "url": "https://www.gov.il/he/departments/dynamiccollectors/rabbinical_court_rulings",
+        "evidence": "fetched 2026-11-07: gov.il 403 (Cloudflare)",
+        "note": "Rabbinical court rulings collection on gov.il (Cloudflare 403)."
+      }
+    },
+    {
+      "name": "בתי הדין השרעיים / בית הדין השרעי לערעורים",
+      "en": "Sharia courts and Sharia Court of Appeals",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rabbinical courts rulings database (gov.il)",
+        "url": "https://www.gov.il/he/departments/dynamiccollectors/rabbinical_court_rulings",
+        "evidence": "fetched 2026-11-07: gov.il 403 (Cloudflare)",
+        "note": "Publication of Sharia court rulings not checked; gov.il (where such collections sit) answers 403 Cloudflare."
+      }
+    },
+    {
+      "name": "בתי הדין הדתיים הדרוזיים",
+      "en": "Druze religious courts",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rabbinical courts rulings database (gov.il)",
+        "url": "https://www.gov.il/he/departments/dynamiccollectors/rabbinical_court_rulings",
+        "evidence": "fetched 2026-11-07: gov.il 403 (Cloudflare)",
+        "note": "Publication of Druze court rulings not checked; gov.il answers 403 Cloudflare."
+      }
+    },
+    {
+      "name": "בתי הדין הכנסייתיים",
+      "en": "Christian ecclesiastical courts (10 recognised communities)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rabbinical courts rulings database (gov.il)",
+        "url": "https://www.gov.il/he/departments/dynamiccollectors/rabbinical_court_rulings",
+        "evidence": "fetched 2026-11-07: gov.il 403 (Cloudflare)",
+        "note": "Run by the churches; no official publication checked; gov.il answers 403 Cloudflare."
+      }
+    },
+    {
+      "name": "בתי הדין הצבאיים המחוזיים",
+      "en": "Military district courts (IDF)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "IDF Military Courts Unit (idf.il)",
+        "url": "https://www.idf.il/",
+        "evidence": "fetched 2026-11-07: idf.il/robots.txt returns Incapsula bot-check page; search found no official judgments page",
+        "note": "Could not establish whether Military Court of Appeals rulings are published online; idf.il is bot-walled."
+      }
+    },
+    {
+      "name": "בית הדין הצבאי לערעורים",
+      "en": "Military Court of Appeals",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "IDF Military Courts Unit (idf.il)",
+        "url": "https://www.idf.il/",
+        "evidence": "fetched 2026-11-07: idf.il/robots.txt returns Incapsula bot-check page; search found no official judgments page",
+        "note": "Could not establish whether Military Court of Appeals rulings are published online; idf.il is bot-walled."
+      }
+    },
+    {
+      "name": "בתי המשפט הצבאיים ביהודה ושומרון (Ofer, Salem) and Military Court of Appeals J&S",
+      "en": "Military courts in the West Bank",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "IDF Military Courts Unit (idf.il)",
+        "url": "https://www.idf.il/",
+        "evidence": "fetched 2026-11-07: idf.il/robots.txt returns Incapsula bot-check page; search found no official judgments page",
+        "note": "Could not establish whether these rulings are published online; idf.il is bot-walled."
+      }
+    },
+    {
+      "name": "בתי הדין לעררים (Ministry of Justice appeals tribunals, e.g. Entry into Israel Law)",
+      "en": "Appeals tribunals (immigration and other administrative appeals)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not researched in code",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "gov.il (Ministry of Justice) appeals tribunals",
+        "url": null,
+        "evidence": "search result only; gov.il answers 403 Cloudflare to plain requests (see rabbinical row)",
+        "note": "could not establish whether decisions are published; gov.il bot-walled"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "חוקי יסוד",
+      "en": "Basic Laws",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Knesset OData (ParliamentInfo) – Israeli law database (official); Sefer HaChukim (ספר החוקים, Reshumot) as-published PDFs on fs.knesset.gov.il (official)",
+      "note": "official metadata (basic_law filter, 19 Basic Laws) + official text as first published: '<id>/original' extracts the Sefer HaChukim PDF text (born-digital PDFs read cleanly after a font-map fix; scanned ones via their OCR layer, ~1-5% misread words, margin headings merged into lines; checked 7 Basic Laws against Wikisource 2026-11-10); each amendment's text by '<id>/<BillID>'; missing: official consolidated text (consolidated text served is non-official Wikisource)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nevo / Takdin (commercial consolidated databases)",
+        "evidence": "no free official consolidated Israeli statute text found (2026-11-10); Knesset/Reshumot publish laws and amendments only as published",
+        "note": "An official consolidation does not exist as a free public service; consolidated text is commercial (paid subscriptions)."
+      }
+    },
+    {
+      "name": "חוקים",
+      "en": "Knesset laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Knesset OData (ParliamentInfo) – Israeli law database (official); Sefer HaChukim (ספר החוקים, Reshumot) as-published PDFs on fs.knesset.gov.il (official)",
+      "note": "official metadata for 2,024 laws + official text as first published via '<id>/original' (KNS_DocumentBill, with KNS_DocumentLaw for older laws and Mandate ordinances' [נוסח חדש]; 12/12 sampled laws had a PDF, 2026-11-10) and each amending law's text; scans are OCR quality (~1-5% misread words); missing: official consolidation (only paid Nevo/Takdin); consolidated text only from non-official Open Law Book",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nevo / Takdin (commercial consolidated databases)",
+        "evidence": "no free official consolidated Israeli statute text found (2026-11-10); Knesset/Reshumot publish laws and amendments only as published",
+        "note": "An official consolidation does not exist as a free public service; consolidated text is commercial (paid subscriptions)."
+      }
+    },
+    {
+      "name": "תקנות",
+      "en": "Regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "published in Reshumot (Kovetz HaTakanot) on gov.il; blocked",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Reshumot – Kovetz HaTakanot (Ministry of Justice, gov.il)",
+        "url": "https://www.gov.il/",
+        "evidence": "search result only (Reshumot online since 2005 per protocol.co.il); fetched 2026-11-07: gov.il pages 403 Cloudflare",
+        "note": "Regulations published in Kovetz HaTakanot; Knesset fs has laws only. gov.il bot-walled."
+      }
+    },
+    {
+      "name": "רשומות (ספר החוקים, קובץ התקנות)",
+      "en": "Official gazette (Reshumot)",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Sefer HaChukim (ספר החוקים, Reshumot) as-published PDFs on fs.knesset.gov.il (official)",
+      "note": "Sefer HaChukim (laws) as published: PDF + extracted text per law and amending law; missing: Kovetz HaTakanot (regulations) and Yalkut HaPirsumim, and issue-level browsing",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Reshumot on gov.il",
+        "evidence": "gov.il answers 403 Cloudflare to plain requests (checked 2026-11-07)",
+        "note": "Kovetz HaTakanot and Yalkut HaPirsumim are on gov.il behind Cloudflare."
+      }
+    },
+    {
+      "name": "חוקי עזר עירוניים",
+      "en": "Municipal by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Reshumot – Kovetz HaTakanot (municipal by-laws issue), gov.il",
+        "url": "https://www.gov.il/",
+        "evidence": "search result only (by-laws published in separate Kovetz HaTakanot issues); fetched 2026-11-07: gov.il 403",
+        "note": "Municipal by-laws appear in Reshumot; gov.il bot-walled."
+      }
+    },
+    {
+      "name": "אמנות",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Foreign Affairs – Treaty texts database (מאגר כתבי אמנה)",
+        "url": "https://www.gov.il/he/departments/dynamiccollectors/translation-of-international-treaties-db",
+        "evidence": "search result only; fetched 2026-11-07: gov.il 403 Cloudflare",
+        "note": "Treaties since 1948 being digitised; gov.il bot-walled."
+      }
+    }
+  ]
+}

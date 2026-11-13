@@ -1,0 +1,481 @@
+{
+  "code": "mt",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://courts.gov.mt/the-courts/",
+    "https://www.gov.mt/en/Life%20Events/Pages/Services%20and%20Information%20Pages/Justice/Judiciary-in-Malta.aspx"
+  ],
+  "courts": [
+    {
+      "name": "Qorti Kostituzzjonali",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Appell (Sede Superjuri)",
+      "en": "Court of Appeal (superior jurisdiction)",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Appell (Sede Inferjuri)",
+      "en": "Court of Appeal (inferior jurisdiction: appeals from Magistrates and tribunals)",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Appell Kriminali (Sede Superjuri)",
+      "en": "Court of Criminal Appeal (superior)",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Appell Kriminali (Sede Inferjuri)",
+      "en": "Court of Criminal Appeal (inferior)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti Kriminali",
+      "en": "Criminal Court (jury trials)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Prim'Awla tal-Qorti Ċivili",
+      "en": "Civil Court, First Hall (incl. constitutional first instance)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti Ċivili (Sezzjoni tal-Familja)",
+      "en": "Civil Court (Family Section)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti Ċivili (Sezzjoni Kummerċjali)",
+      "en": "Civil Court (Commercial Section)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti Ċivili (Sezzjoni ta' Ġurisdizzjoni Volontarja)",
+      "en": "Civil Court (Voluntary Jurisdiction Section)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Maġistrati (Malta) – ġurisdizzjoni ċivili",
+      "en": "Court of Magistrates (Malta) – civil",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Maġistrati (Għawdex) – ġurisdizzjoni superjuri u inferjuri",
+      "en": "Court of Magistrates (Gozo) – civil, superior and inferior",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Maġistrati bħala Qorti ta' Ġudikatura Kriminali",
+      "en": "Court of Magistrates as Court of Criminal Judicature",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Maġistrati bħala Qorti Istruttorja",
+      "en": "Court of Magistrates as Court of Criminal Inquiry (committal)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source"
+      }
+    },
+    {
+      "name": "Qorti tal-Minorenni",
+      "en": "Juvenile Court",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; juvenile decisions likely not published"
+      }
+    },
+    {
+      "name": "Tribunal għal Talbiet Żgħar",
+      "en": "Small Claims Tribunal",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Tribunal għal Talbiet tal-Konsumaturi",
+      "en": "Consumer Claims Tribunal",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Tribunal Industrijali",
+      "en": "Industrial Tribunal (employment)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Tribunal ta' Reviżjoni Amministrattiva",
+      "en": "Administrative Review Tribunal (incl. former tax boards)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Bord li Jirregola l-Kera",
+      "en": "Rent Regulation Board",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Bord tal-Arbitraġġ dwar Artijiet",
+      "en": "Land Arbitration Board",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Tribunal ta' Reviżjoni tal-Ambjent u l-Ippjanar (EPRT)",
+      "en": "Environment and Planning Review Tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Tribunal tal-Appelli dwar Protezzjoni Internazzjonali",
+      "en": "International Protection Appeals Tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "eCourts Malta – Judgements",
+        "url": "https://ecourts.gov.mt/onlineservices/Judgements",
+        "evidence": "research/south_nordic_baltic.md + adapter mt.py docstring",
+        "note": "Cloudflare 'you have been blocked' 403, even for robots.txt; no other official source; whether this body's decisions are on eCourts is unverified"
+      }
+    },
+    {
+      "name": "Arbitru għas-Servizzi Finanzjarji",
+      "en": "Arbiter for Financial Services",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "ecourts.gov.mt: Cloudflare 403",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Office of the Arbiter for Financial Services",
+        "url": "https://financialarbiter.org.mt/",
+        "evidence": "fetched 2026-11-07: robots.txt only blocks system paths; /decisions and /mt/decisions return 404",
+        "note": "decisions page not located; whether decisions are published online is unverified"
+      }
+    },
+    {
+      "name": "Qorti Marzjali",
+      "en": "Court Martial (Armed Forces of Malta)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not researched in code",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no publication of courts-martial found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Kostituzzjoni ta' Malta",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Legislation Malta (legislation.mt), Office of the State Advocate / Legislation Unit",
+      "note": "English and Maltese; title search only"
+    },
+    {
+      "name": "Kapitoli (Liġijiet konsolidati)",
+      "en": "Consolidated Acts (Cap.)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Legislation Malta (legislation.mt), Office of the State Advocate / Legislation Unit",
+      "note": "current consolidated; title search only"
+    },
+    {
+      "name": "Leġiżlazzjoni Sussidjarja (L.S.)",
+      "en": "Subsidiary legislation (S.L.)",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legislation Malta (legislation.mt), Office of the State Advocate / Legislation Unit",
+      "note": "title search only"
+    },
+    {
+      "name": "Gazzetta tal-Gvern ta' Malta",
+      "en": "Government Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "acts/LNs as published on legislation.mt; full Gazette on gov.mt blocked",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legislation Malta – Acts and Legal Notices as published",
+        "url": "https://legislation.mt/LegalNotices",
+        "evidence": "fetched 2026-11-07: legislation.mt nav has /Acts and /LegalNotices sections (200); gov.mt Government Gazette page 403 (Cloudflare)",
+        "note": "acts/legal notices as published are on legislation.mt (same host Fontes uses); full Gazette issues on gov.mt are behind Cloudflare 403"
+      }
+    },
+    {
+      "name": "Liġijiet tal-Kunsilli Lokali",
+      "en": "Local council bye-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "legislation.mt /ByLaws (not built)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legislation Malta – Bye-Laws",
+        "url": "https://legislation.mt/ByLaws",
+        "evidence": "fetched 2026-11-07: legislation.mt nav has /ByLaws section (200); robots.txt only disallows Sogou",
+        "note": "same host Fontes already uses; not built"
+      }
+    },
+    {
+      "name": "Trattati",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no official treaty database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "WebSearch 2026-11-07 found no official Maltese treaty database (only UN/UK/NL treaty series)",
+        "note": "Malta's own treaty texts not located online"
+      }
+    }
+  ]
+}

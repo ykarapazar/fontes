@@ -1,0 +1,372 @@
+{
+  "code": "ht",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://cscca.gouv.ht/23novembre_2005.pdf",
+    "https://cspj.ht/"
+  ],
+  "courts": [
+    {
+      "name": "Cour de cassation",
+      "en": "Court of Cassation (supreme court)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (its arrêts database is empty, 2026-11)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour de cassation – Consulter un arrêt",
+        "url": "https://www.courdecassation.ht/consulter_arret/",
+        "evidence": "fetched 2026-11-07 (curl): search page answers 'Aucun arrêt trouvé.'",
+        "note": "search form exists but the database is empty; re-check later"
+      }
+    },
+    {
+      "name": "Cours d'appel (5)",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Tribunaux de première instance – sections civiles et commerciales (18 juridictions)",
+      "en": "Courts of first instance – civil and commercial sittings (also sit as commercial court)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Tribunaux de première instance – tribunal correctionnel (18)",
+      "en": "Courts of first instance – correctional (misdemeanour) sittings",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Tribunaux criminels avec / sans assistance de jury (18)",
+      "en": "Criminal courts (TPI sitting on felonies, with or without jury)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Juges des référés (TPI)",
+      "en": "Urgent-applications judges of the first-instance courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Tribunaux de paix (~180)",
+      "en": "Justice of the peace courts (civil small claims, police offences)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Tribunal pour enfants",
+      "en": "Juvenile court (Port-au-Prince, Cap-Haïtien)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; juvenile proceedings closed; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Tribunal spécial du travail",
+      "en": "Special Labour Court (Port-au-Prince)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Tribunaux terriens",
+      "en": "Land courts (Constitution art. 173)",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "provided for in the Constitution; whether they operate is unverified",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online database; Cour de cassation and CSPJ sites hold no lower-court decisions"
+      }
+    },
+    {
+      "name": "Cour supérieure des comptes et du contentieux administratif (CSCCA)",
+      "en": "Superior Court of Audit and Administrative Disputes",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "publishes arrêt summaries on cscca.gouv.ht, not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "CSCCA – Arrêts (chambres administratives / financières)",
+        "url": "https://cscca.gouv.ht/arret/chambre_administrative",
+        "evidence": "fetched 2026-11-07 (curl): HTML table per chamber (dossier, résumé des faits, décision, date), e.g. Montès Plaisimé c. BPH, arrêt du 5 juillet 2022; robots.txt 'Disallow:' (empty)",
+        "note": "HTML summaries with operative part ('Lire plus'), number of arrêts small; also /arret/chambre_financiere; terms not read"
+      }
+    },
+    {
+      "name": "CSCCA – chambres financières (contentieux des comptes)",
+      "en": "CSCCA financial chambers (audit judgments on public accountants)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "publishes arrêt summaries on cscca.gouv.ht, not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "CSCCA – Arrêts (chambres administratives / financières)",
+        "url": "https://cscca.gouv.ht/arret/chambre_financiere",
+        "evidence": "fetched 2026-11-07 (curl) of cscca.gouv.ht arrêt pages: the site lists a /arret/chambre_financiere table alongside the administrative chamber; robots.txt Disallow: (empty)",
+        "note": "HTML summaries per arrêt of the financial chamber(s); small volume; terms not read"
+      }
+    },
+    {
+      "name": "Tribunaux militaires",
+      "en": "Military courts (only in wartime, Constitution art. 42-2)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "constitution limits military courts to wartime; none sitting",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no military courts sit in peacetime; nothing published"
+      }
+    },
+    {
+      "name": "Conseil constitutionnel",
+      "en": "Constitutional Council (Constitution art. 190 bis, not yet set up)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "provided for by the 2011 amendment; not established",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/maps/ht.json existing note (provided for by 2011 amendment, not established)",
+        "note": "court does not exist yet"
+      }
+    },
+    {
+      "name": "Haute Cour de Justice",
+      "en": "High Court of Justice (Senate, trials of officials)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "Senate sitting as court; Parliament sites broken (parlementhaitien.ht TLS mismatch, senat.ht does not resolve; research/ht.md)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution de 1987 (amendée 2011)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Cour de cassation (Haiti) static PDF, 1987 original",
+      "note": "only the 1987 original text is readable (id 'constitution-1987', from courdecassation.ht /publication/, text layer, no robots.txt, no terms page); the 2011 amended text is a scan with no text layer (no OCR), so the in-force Constitution is not reached",
+      "elsewhere": {
+        "status": "available",
+        "source": "Cour de cassation – Publications (constitution2 PDF, 2011 amended)",
+        "url": "https://www.courdecassation.ht/publication/",
+        "evidence": "fetched 2026-11-10: constitution2 PDF 4.8 MB, pdf_text returns nothing (scan)",
+        "note": "missing part: amended (2011) text exists only as a scan; needs OCR"
+      }
+    },
+    {
+      "name": "Lois",
+      "en": "Acts of Parliament",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Conseil Supérieur du Pouvoir Judiciaire (CSPJ): document library",
+      "note": "only ~17 laws/decree-laws in the CSPJ library; 6 are scans with no text",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "missing part: laws outside the CSPJ library; Le Moniteur has no live official site (lemoniteur.gouv.ht, pressesnationales.gouv.ht etc. do not resolve; research/ht.md); Parliament TLS broken"
+      }
+    },
+    {
+      "name": "Décrets et décrets-lois",
+      "en": "Decrees and decree-laws (executive)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Conseil Supérieur du Pouvoir Judiciaire (CSPJ): document library",
+      "note": "only the few in the CSPJ library",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "missing part: decrees outside CSPJ library; Le Moniteur has no live official site (lemoniteur.gouv.ht, pressesnationales.gouv.ht etc. do not resolve; research/ht.md); budget.gouv.ht hosts some issues but is a maintenance page"
+      }
+    },
+    {
+      "name": "Arrêtés",
+      "en": "Executive and ministerial orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Le Moniteur has no live site",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "Le Moniteur has no live official site (lemoniteur.gouv.ht, pressesnationales.gouv.ht etc. do not resolve; research/ht.md)"
+      }
+    },
+    {
+      "name": "Codes (civil, pénal, procédure, travail…)",
+      "en": "Codes",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "not in the CSPJ library; no official online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "no official online source; private laloidemabouche.ht has a bot challenge"
+      }
+    },
+    {
+      "name": "Le Moniteur",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Conseil Supérieur du Pouvoir Judiciaire (CSPJ): document library",
+      "note": "a few full issues inside the CSPJ library; Le Moniteur itself has no live site",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "missing part: the gazette itself; Le Moniteur has no live official site (lemoniteur.gouv.ht, pressesnationales.gouv.ht etc. do not resolve; research/ht.md); UNOFFICIAL scans exist on dLOC/Gallica (not checked for terms)"
+      }
+    },
+    {
+      "name": "Traités et conventions ratifiés",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no official treaty database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/ht.md",
+        "note": "ratifications appear in Le Moniteur (offline); MAE site not checked"
+      }
+    },
+    {
+      "name": "Règlements communaux",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not checked; likely only in Le Moniteur or on paper"
+      }
+    }
+  ]
+}

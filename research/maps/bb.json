@@ -1,0 +1,287 @@
+{
+  "code": "bb",
+  "checked": "2026-11-10",
+  "structure_sources": [
+    "https://www.barbadoslawcourts.gov.bb/judicial-system/about-the-judicial-system"
+  ],
+  "courts": [
+    {
+      "name": "Caribbean Court of Justice (appellate jurisdiction)",
+      "en": "Caribbean Court of Justice",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "CCJ judgment lists and PDFs (ccj.org)",
+      "note": "FINAL COURT (since 2005). Served in bb with court=ccj from the ccj adapter's appellate list, kept to appeals from Barbados: country from the list ('BB', most rows since 2020) or from page 1 of the judgment PDF ('On appeal from the Court of Appeal of Barbados'), read lazily (max 10 PDFs a call, remembered). Full text from the official PDF; search matches citation and parties, not judgment text (the CCJ lists have no full-text search). Checked 2026-11-10",
+      "final": true
+    },
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal (Supreme Court)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+      "note": "site coverage mostly 2007-2022",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "fetched 2026-11-07: page says cases 'initially from 2007 until 2022'; other years 'being worked on'",
+        "note": "missing part is judgments before 2007 and after 2022; no other official source found (vLex has some, paid)"
+      }
+    },
+    {
+      "name": "High Court – civil jurisdiction",
+      "en": "High Court (Supreme Court), civil",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+      "note": "site coverage mostly 2007-2022; source does not tag division",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "fetched 2026-11-07: page says cases 'initially from 2007 until 2022'; other years 'being worked on'",
+        "note": "missing part is judgments before 2007 and after 2022; no other official source found (vLex has some, paid)"
+      }
+    },
+    {
+      "name": "High Court – criminal jurisdiction (Assizes)",
+      "en": "High Court (Supreme Court), criminal",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+      "note": "site coverage mostly 2007-2022; source does not tag division",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "fetched 2026-11-07: page says cases 'initially from 2007 until 2022'; other years 'being worked on'",
+        "note": "missing part is judgments before 2007 and after 2022; no other official source found (vLex has some, paid)"
+      }
+    },
+    {
+      "name": "High Court – family jurisdiction (Family Law Act)",
+      "en": "High Court (Supreme Court), family/matrimonial",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+      "note": "source covers High Court decisions generally; whether family judgments are included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "fetched 2026-11-07: page says cases 'initially from 2007 until 2022'; other years 'being worked on'",
+        "note": "missing part is judgments before 2007 and after 2022; no other official source found (vLex has some, paid)"
+      }
+    },
+    {
+      "name": "Registrar's Court",
+      "en": "Registrar's Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+      "note": "only what the site publishes, mostly 2007-2022",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "fetched 2026-11-07: page says cases 'initially from 2007 until 2022'; other years 'being worked on'",
+        "note": "missing part is judgments before 2007 and after 2022; no other official source found (vLex has some, paid)"
+      }
+    },
+    {
+      "name": "Magistrate's Courts (districts A-F and others)",
+      "en": "Magistrates' Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+      "note": "only what the site publishes, mostly 2007-2022",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "fetched 2026-11-07: page says cases 'initially from 2007 until 2022'; other years 'being worked on'",
+        "note": "missing part is judgments before 2007 and after 2022; no other official source found (vLex has some, paid)"
+      }
+    },
+    {
+      "name": "Juvenile Court",
+      "en": "Juvenile Court (magistrates' jurisdiction)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+      "note": "source covers Magistrate's Court decisions generally; whether juvenile matters are included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "fetched 2026-11-07: page says cases 'initially from 2007 until 2022'; other years 'being worked on'",
+        "note": "missing part is judgments before 2007 and after 2022; no other official source found (vLex has some, paid)"
+      }
+    },
+    {
+      "name": "Drug Treatment Court (pilot)",
+      "en": "Drug Treatment Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not a court option in the judgment search",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "used by Fontes bb adapter (src/world_legal_mcp/jurisdictions/bb.py): the judgment search's court filter offers only Court of Appeal, High Court, Registrar's Court, Magistrate's Court",
+        "note": "not a court option in the official judgment database; no other official publication found"
+      }
+    },
+    {
+      "name": "Coroner's Court",
+      "en": "Coroner's Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not a court option in the judgment search",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Barbados Judicial System – judgments",
+        "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+        "evidence": "used by Fontes bb adapter (src/world_legal_mcp/jurisdictions/bb.py): the judgment search's court filter offers only Court of Appeal, High Court, Registrar's Court, Magistrate's Court",
+        "note": "not a court option in the official judgment database; no other official publication found"
+      }
+    },
+    {
+      "name": "Employment Rights Tribunal",
+      "en": "Employment Rights Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "ERT decisions 2015-2024 on labour.gov.bb",
+      "elsewhere": {
+        "status": "available",
+        "source": "Ministry of Labour – Library: Employment Rights Tribunal decisions",
+        "url": "https://labour.gov.bb/?p=689",
+        "evidence": "fetched 2026-11-07: page links yearly ERT decision pages 2015-2024 and Court of Appeal/CCJ judgments on ERT appeals",
+        "note": "Employment Rights Tribunal only; the yearly pages were not opened"
+      }
+    },
+    {
+      "name": "Revenue Appeals Tribunal",
+      "en": "Revenue Appeals Tribunal (tax)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not in the adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "appeals from it go to the High Court/Court of Appeal and may surface in the judgment database; own decisions not searched"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of Barbados",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Barbados Judicial System: Consolidated Laws (barbadoslawcourts.gov.bb)",
+      "note": "only if it is in the site's consolidated statutes list (not checked); OCR of revised edition",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "missing part: whether the Constitution is in the consolidated statutes list; no other official consolidated copy checked"
+      }
+    },
+    {
+      "name": "Acts (Laws of Barbados, by CAP)",
+      "en": "Acts of Parliament, consolidated by chapter",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Barbados Judicial System: Consolidated Laws (barbadoslawcourts.gov.bb)",
+      "note": "OCR of scanned 1971 / L.R.O. 1985 revised editions; later amendments may be missing",
+      "elsewhere": {
+        "status": "available",
+        "source": "Government Printing Department – Online Gazette",
+        "url": "https://governmentprintery.gov.bb/category/part-a/acts/",
+        "evidence": "fetched 2026-11-07: governmentprintery.gov.bb Act post (Business Barbados Act 2024-27) shows the full text on the page, no login; robots.txt allows / except /search/, Content-Signal ai-train=no, use=reference",
+        "note": "missing part: Acts and amendments after the revised editions; the gazette carries each Act as passed (Part A)"
+      }
+    },
+    {
+      "name": "Acts passed after the last printed revision",
+      "en": "Recent Acts",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "in the Official Gazette (governmentprintery.gov.bb), free",
+      "elsewhere": {
+        "status": "available",
+        "source": "Government Printing Department – Online Gazette",
+        "url": "https://governmentprintery.gov.bb/category/part-a/acts/",
+        "evidence": "fetched 2026-11-07: governmentprintery.gov.bb Act post (Business Barbados Act 2024-27) shows the full text on the page, no login; robots.txt allows / except /search/, Content-Signal ai-train=no, use=reference",
+        "note": "Acts as passed, in Gazette Part A; subscriber login exists but this Act needed none"
+      }
+    },
+    {
+      "name": "Subsidiary legislation (regulations, orders, rules)",
+      "en": "Statutory instruments",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Barbados Judicial System: Consolidated Laws (barbadoslawcourts.gov.bb)",
+      "note": "OCR of scanned revised editions; may be out of date",
+      "elsewhere": {
+        "status": "available",
+        "source": "Government Printing Department – Online Gazette",
+        "url": "https://governmentprintery.gov.bb/category/part-a/statutory-instruments/",
+        "evidence": "search result only (category listing); same site governmentprintery.gov.bb Act post (Business Barbados Act 2024-27) shows the full text on the page, no login; robots.txt allows / except /search/, Content-Signal ai-train=no, use=reference",
+        "note": "missing part: newer statutory instruments, published in Gazette Part A"
+      }
+    },
+    {
+      "name": "Official Gazette",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "governmentprintery.gov.bb, free online",
+      "elsewhere": {
+        "status": "available",
+        "source": "Government Printing Department – Online Gazette",
+        "url": "https://governmentprintery.gov.bb/the-online-gazette/",
+        "evidence": "fetched 2026-11-07: governmentprintery.gov.bb Act post (Business Barbados Act 2024-27) shows the full text on the page, no login; robots.txt allows / except /search/, Content-Signal ai-train=no, use=reference",
+        "note": "Part A (Acts, S.I.s) seen; other parts and subscriber-only issues not checked"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no official treaty series found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no official Barbados treaty series online found; UNCTAD lists investment treaties only"
+      }
+    }
+  ]
+}

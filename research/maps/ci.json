@@ -1,0 +1,342 @@
+{
+  "code": "ci",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.ohada.com/etats-membres/cote-divoire.html?langue=fr",
+    "https://www.gtai.de/de/trade/c%C3%B4te-d-ivoire/recht/c%C3%B4te-d-ivoire-rechtsverfolgung-1891984",
+    "https://www.koaci.com/article/2024/09/18/cote-divoire/societe/cote-divoire-nouvelle-organisation-judiciaire-les-sections-detachees-de-tribunaux-desormais-erigees-en-tribunaux-de-premiere-instance_180961.html"
+  ],
+  "courts": [
+    {
+      "name": "Conseil constitutionnel",
+      "en": "Constitutional Council",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "robots allows (Crawl-delay 10), PDFs; source exists but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Conseil constitutionnel – décisions",
+        "url": "https://www.conseil-constitutionnel.ci/decisions",
+        "evidence": "fetched 2026-11-07: home page 200 links /decisions and decision PDFs (e.g. decision_ci-2025-ep-006); adapter docstring: robots Crawl-delay 10",
+        "note": "PDF decisions; not wired"
+      }
+    },
+    {
+      "name": "Cour de cassation",
+      "en": "Court of Cassation (apex of ordinary courts)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Cour de cassation de Côte d'Ivoire: jurisprudence (eservices / sigcc)",
+      "note": "only ~100 judgments, 2023-2024, published online; search on subject line only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour de cassation (eservices)",
+        "url": "https://eservices.courdecassation.ci/search/stoppages",
+        "evidence": "used by Fontes ci adapter (src/world_legal_mcp/jurisdictions/ci.py)",
+        "note": "missing part: judgments outside 2023-2024 not published online; full-text search absent"
+      }
+    },
+    {
+      "name": "Conseil d'État",
+      "en": "Council of State (apex administrative court)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "conseiletat.ci times out",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conseil d'État",
+        "url": "https://www.conseiletat.ci/",
+        "evidence": "fetched 2026-11-07: conseiletat.ci and www. timed out",
+        "note": "not established"
+      }
+    },
+    {
+      "name": "Cour des comptes",
+      "en": "Court of Audit",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "site publishes annual reports; arrêts not found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Cour des comptes",
+        "url": "https://www.courdescomptes.ci/",
+        "evidence": "fetched 2026-11-07: site 200; links annual report PDFs (e.g. 'RAPPORT COUR DES COMPTES 2025'), no arrêts list seen",
+        "note": "reports published; judgments (arrêts) not found"
+      }
+    },
+    {
+      "name": "Cour suprême (former, replaced by the above)",
+      "en": "Former Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "coursupreme.ci: TLS certificate expired",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Cour suprême (archive)",
+        "url": "https://www.coursupreme.ci/",
+        "evidence": "fetched 2026-11-07: coursupreme.ci timed out; adapter docstring: TLS certificate expired",
+        "note": "expired TLS certificate / unreachable"
+      }
+    },
+    {
+      "name": "Cours d'appel (Abidjan, Bouaké, Daloa, ...)",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found; ministère de la Justice site (justice.gouv.ci) timed out"
+      }
+    },
+    {
+      "name": "Tribunaux de première instance (incl. former sections détachées, upgraded 2024)",
+      "en": "First-instance courts (general civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found; justice.gouv.ci timed out"
+      }
+    },
+    {
+      "name": "Tribunaux du travail (labour sections of the TPI)",
+      "en": "Labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found; justice.gouv.ci timed out"
+      }
+    },
+    {
+      "name": "Juges et tribunaux pour enfants",
+      "en": "Juvenile judges and courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found; justice.gouv.ci timed out"
+      }
+    },
+    {
+      "name": "Pôle pénal économique et financier (Abidjan)",
+      "en": "Economic and financial criminal division",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found; justice.gouv.ci timed out"
+      }
+    },
+    {
+      "name": "Tribunal de commerce d'Abidjan",
+      "en": "Commercial Court of Abidjan",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "former court domain now an unrelated blog; no source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tribunal de commerce d'Abidjan",
+        "url": "https://tribunalcommerceabidjan.org/",
+        "evidence": "fetched 2026-11-07: tribunalcommerceabidjan.org now serves an unrelated gaming-PC blog (domain lapsed); cacomabidjan.ci timed out",
+        "note": "former official site no longer the court's; no current source found"
+      }
+    },
+    {
+      "name": "Cour d'appel de commerce d'Abidjan",
+      "en": "Commercial Court of Appeal of Abidjan",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "cacomabidjan.ci timed out; no source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tribunal de commerce d'Abidjan",
+        "url": "https://tribunalcommerceabidjan.org/",
+        "evidence": "fetched 2026-11-07: tribunalcommerceabidjan.org now serves an unrelated gaming-PC blog (domain lapsed); cacomabidjan.ci timed out",
+        "note": "former official site no longer the court's; no current source found"
+      }
+    },
+    {
+      "name": "Tribunal militaire",
+      "en": "Military court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found"
+      }
+    },
+    {
+      "name": "Haute Cour de justice",
+      "en": "High Court of Justice (trials of the President / members of government)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "rarely sits; no publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution (2016)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "2016 Constitution PDF on conseil-constitutionnel.ci",
+      "elsewhere": {
+        "status": "available",
+        "source": "Conseil constitutionnel – La Constitution",
+        "url": "https://www.conseil-constitutionnel.ci/sites/default/files/constitution_2016.pdf",
+        "evidence": "fetched 2026-11-07: /lois-et-decrets/la-constitution page links constitution_2016.pdf (and the 1960 and 2000 texts)",
+        "note": "PDF; whether it includes the 2020 revision not checked"
+      }
+    },
+    {
+      "name": "Lois (incl. lois de ratification)",
+      "en": "Acts of Parliament",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Assemblée nationale de Côte d'Ivoire: lois (assnat.ci)",
+      "note": "~135 laws, mostly 2012-2020, as adopted (not consolidated); title search only; some entries summary only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Journal officiel (SGG)",
+        "url": "https://www.sgg.gouv.ci/",
+        "evidence": "fetched 2026-11-07: sgg.gouv.ci timed out; adapter docstring: TLS certificate expired",
+        "note": "missing part: laws outside ~2012-2020 and consolidated texts; JO host unreachable"
+      }
+    },
+    {
+      "name": "Ordonnances",
+      "en": "Ordinances",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "not on assnat.ci; JO site cert expired",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Journal officiel (SGG)",
+        "url": "https://www.sgg.gouv.ci/",
+        "evidence": "fetched 2026-11-07: sgg.gouv.ci timed out; earlier: TLS certificate expired",
+        "note": "JO host unreachable / expired cert"
+      }
+    },
+    {
+      "name": "Décrets et arrêtés",
+      "en": "Decrees and ministerial orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not on assnat.ci; JO site (sgg.gouv.ci) cert expired",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Journal officiel (SGG)",
+        "url": "https://www.sgg.gouv.ci/",
+        "evidence": "fetched 2026-11-07: sgg.gouv.ci timed out; earlier: TLS certificate expired",
+        "note": "JO host unreachable; conseil-constitutionnel.ci has a 'décrets d'application' page (adapter found it empty)"
+      }
+    },
+    {
+      "name": "Journal officiel de la République de Côte d'Ivoire",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "sgg.gouv.ci: TLS certificate expired",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Journal officiel (SGG)",
+        "url": "https://www.sgg.gouv.ci/",
+        "evidence": "fetched 2026-11-07: sgg.gouv.ci timed out; earlier: TLS certificate expired",
+        "note": "JO host unreachable / expired cert"
+      }
+    },
+    {
+      "name": "Actes uniformes OHADA",
+      "en": "OHADA uniform acts (directly applicable)",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "official texts on ohada.org",
+      "elsewhere": {
+        "status": "available",
+        "source": "OHADA – Actes uniformes",
+        "url": "https://www.ohada.org/actes-uniformes/",
+        "evidence": "fetched 2026-11-07: page 200; robots.txt disallows only /wp-admin/; biblio.ohada.org 200",
+        "note": "official OHADA texts (also CCJA case law via biblio.ohada.org)"
+      }
+    },
+    {
+      "name": "Arrêtés municipaux / délibérations des collectivités territoriales",
+      "en": "Local acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no official collection found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official collection found"
+      }
+    }
+  ]
+}

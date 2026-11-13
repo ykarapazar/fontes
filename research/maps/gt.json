@@ -1,0 +1,515 @@
+{
+  "code": "gt",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "Corte de Constitucionalidad",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Corte de Constitucionalidad – sentencias PDF (jurisprudencia.cc.gob.gt)",
+      "note": "rulings by PDF id only; search portal behind Cloudflare",
+      "elsewhere": {
+        "status": "available",
+        "source": "Corte de Constitucionalidad – Sistema de Jurisprudencia Constitucional (SJC)",
+        "url": "https://jurisprudencia.cc.gob.gt/sjc/",
+        "evidence": "fetched 2026-11-07 (curl): /sjc/ HTTP 200 (~390 KB search page); research/chatgpt/validation-r2-b.md (robots Allow: / for *, named AI bots disallowed)",
+        "note": "missing part: search. SJC page loads (unlike consultajur), but its ASP.NET/DevExpress search callbacks are unverified"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Cámara Civil",
+      "en": "Supreme Court – Civil Chamber (cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06); retried 2026-11-10: www.oj.gob.gt https no connection / http WAF 403, jurisprudencia.oj.gob.gt 403, ww2 timeout",
+        "note": "Supreme Court: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Cámara Penal",
+      "en": "Supreme Court – Criminal Chamber (cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06); retried 2026-11-10: www.oj.gob.gt https no connection / http WAF 403, jurisprudencia.oj.gob.gt 403, ww2 timeout",
+        "note": "Supreme Court: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Cámara de Amparo y Antejuicio",
+      "en": "Supreme Court – Amparo and Pre-trial Immunity Chamber",
+      "tier": "apex",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06); retried 2026-11-10: www.oj.gob.gt https no connection / http WAF 403, jurisprudencia.oj.gob.gt 403, ww2 timeout",
+        "note": "Supreme Court: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Salas de la Corte de Apelaciones – Civil y Mercantil",
+      "en": "Appeal chambers – civil and commercial",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Courts of Appeal: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Salas de la Corte de Apelaciones – Penal (incl. Narcoactividad, Mayor Riesgo, Femicidio)",
+      "en": "Appeal chambers – criminal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Courts of Appeal: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Salas de la Corte de Apelaciones – Familia",
+      "en": "Appeal chambers – family",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Courts of Appeal: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Salas de Apelaciones de Trabajo y Previsión Social",
+      "en": "Appeal chambers – labour",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Labour courts: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Sala de la Corte de Apelaciones de la Niñez y Adolescencia",
+      "en": "Appeal chamber – children and adolescents",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Children's courts: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Salas Regionales Mixtas de la Corte de Apelaciones",
+      "en": "Regional mixed appeal chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Courts of Appeal: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Tribunal de lo Contencioso-Administrativo (salas)",
+      "en": "Administrative Litigation Court",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Administrative Litigation Court: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Tribunal de Segunda Instancia de Cuentas",
+      "en": "Accounts court of second instance",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Accounts courts: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia de Cuentas",
+      "en": "Accounts courts (first instance)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Accounts courts: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia Civil",
+      "en": "First-instance civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia de Familia",
+      "en": "First-instance family courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de Trabajo y Previsión Social",
+      "en": "Labour courts (first instance)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Labour courts: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de la Niñez y Adolescencia y de Adolescentes en Conflicto con la Ley Penal",
+      "en": "Children and juvenile-offender courts",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Children's courts: OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia Penal, Narcoactividad y Delitos contra el Ambiente",
+      "en": "First-instance criminal (pre-trial) courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Tribunales de Sentencia Penal",
+      "en": "Criminal trial courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados y Tribunales de Mayor Riesgo",
+      "en": "High-risk criminal courts (organised crime, corruption)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados y Tribunales de Femicidio y otras formas de Violencia contra la Mujer",
+      "en": "Femicide and violence-against-women courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de Ejecución Penal",
+      "en": "Sentence-enforcement courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia de Extinción de Dominio",
+      "en": "Asset-forfeiture courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "First-instance and trial courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    },
+    {
+      "name": "Tribunales Militares",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no published decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found; OJ sites unreachable so not checked there"
+      }
+    },
+    {
+      "name": "Juzgados de Paz (incl. Juzgados de Paz Comunitarios y Móviles)",
+      "en": "Justice of the peace courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Organismo Judicial – CENADOJ jurisprudencia",
+        "url": "https://jurisprudencia.oj.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): jurisprudencia.oj.gob.gt 403; www.oj.gob.gt and ww2.oj.gob.gt no answer; adapter gt.py docstring (WAF 403, timeouts, bad TLS 2026-11-06)",
+        "note": "Peace courts (publication of these is itself unverified): OJ/CENADOJ is the official source; WAF 403 / unreachable from the UK. Allowlist request listed in research/SIGNUPS.md"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Política de la República",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "Congreso, gazette dca.gob.gt, SAT: bot check / blocks our client (Incapsula / Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Congreso de la República – Consulta legislativa",
+        "url": "https://www.congreso.gob.gt/consulta_legislativa",
+        "evidence": "fetched 2026-11-07 (curl): congreso.gob.gt/robots.txt 403 (Incapsula), dca.gob.gt 403 (Cloudflare); research/chatgpt/r2_b.md; retried 2026-11-10: congreso.gob.gt Incapsula 403 (www/bare, http/https, robots.txt too), dca.gob.gt Cloudflare 403",
+        "note": "Incapsula block; the CC site (also Cloudflare) has the Constitution too; unofficial copies not usable (2026-11-10): Constitute Project terms = site-only use, commercial use prohibited; Georgetown PDBA = commercial use needs permission and its copy lacks Art. 281"
+      }
+    },
+    {
+      "name": "Decretos del Congreso",
+      "en": "Acts of Congress",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "Congreso, gazette dca.gob.gt, SAT: bot check / blocks our client (Incapsula / Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Congreso de la República – Consulta legislativa",
+        "url": "https://www.congreso.gob.gt/consulta_legislativa",
+        "evidence": "fetched 2026-11-07 (curl): congreso.gob.gt/robots.txt 403 (Incapsula), dca.gob.gt 403 (Cloudflare); research/chatgpt/r2_b.md; retried 2026-11-10: congreso.gob.gt Incapsula 403 (www/bare, http/https, robots.txt too), dca.gob.gt Cloudflare 403",
+        "note": "Incapsula block on the whole site incl. robots.txt"
+      }
+    },
+    {
+      "name": "Acuerdos Gubernativos",
+      "en": "Government (presidential) agreements / regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Congreso, gazette dca.gob.gt, SAT: bot check / blocks our client (Incapsula / Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Diario de Centro América",
+        "url": "https://www.dca.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): congreso.gob.gt/robots.txt 403 (Incapsula), dca.gob.gt 403 (Cloudflare); research/chatgpt/r2_b.md",
+        "note": "published in the DCA gazette; Cloudflare 403"
+      }
+    },
+    {
+      "name": "Acuerdos Ministeriales",
+      "en": "Ministerial agreements",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Congreso, gazette dca.gob.gt, SAT: bot check / blocks our client (Incapsula / Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Diario de Centro América",
+        "url": "https://www.dca.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): congreso.gob.gt/robots.txt 403 (Incapsula), dca.gob.gt 403 (Cloudflare); research/chatgpt/r2_b.md",
+        "note": "published in the DCA gazette; Cloudflare 403"
+      }
+    },
+    {
+      "name": "Diario de Centro América",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Congreso, gazette dca.gob.gt, SAT: bot check / blocks our client (Incapsula / Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Diario de Centro América",
+        "url": "https://www.dca.gob.gt/",
+        "evidence": "fetched 2026-11-07 (curl): congreso.gob.gt/robots.txt 403 (Incapsula), dca.gob.gt 403 (Cloudflare); research/chatgpt/r2_b.md",
+        "note": "Cloudflare 403 to plain client"
+      }
+    },
+    {
+      "name": "Acuerdos municipales",
+      "en": "Municipal agreements",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "published in Diario de Centro America (blocked); no municipal database checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no central source checked; the gazette that carries them (dca.gob.gt) is Cloudflare-blocked"
+      }
+    },
+    {
+      "name": "Tratados internacionales",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "Congreso, gazette dca.gob.gt, SAT: bot check / blocks our client (Incapsula / Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Congreso de la República – Consulta legislativa",
+        "url": "https://www.congreso.gob.gt/consulta_legislativa",
+        "evidence": "fetched 2026-11-07 (curl): congreso.gob.gt/robots.txt 403 (Incapsula), dca.gob.gt 403 (Cloudflare); research/chatgpt/r2_b.md",
+        "note": "approving decrees on Congreso (Incapsula); MINEX treaty pages not checked"
+      }
+    }
+  ]
+}

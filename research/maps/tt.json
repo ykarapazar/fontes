@@ -1,0 +1,299 @@
+{
+  "code": "tt",
+  "checked": "2026-11-10",
+  "structure_sources": [
+    "https://www.ttlawcourts.org/"
+  ],
+  "courts": [
+    {
+      "name": "Judicial Committee of the Privy Council",
+      "en": "Final court of appeal (London)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2009 on: JCPC judgments from Find Case Law (court=ukpc, query plus 'Trinidad'; hits whose title names another jurisdiction dropped); missing: judgments before 2009 (only on BAILII, which forbids scraping)",
+      "elsewhere": {
+        "status": "available",
+        "source": "BAILII (UKPC archive)",
+        "url": "https://www.bailii.org/uk/cases/UKPC/",
+        "evidence": "Find Case Law UKPC coverage starts 2009 (oldest hit [2009] UKPC 42, fetched 2026-11-10)",
+        "note": "missing part: pre-2009 Privy Council judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "Caribbean Court of Justice (original jurisdiction)",
+      "en": "CCJ, treaty disputes only",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in this adapter",
+      "elsewhere": {
+        "status": "available",
+        "source": "Caribbean Court of Justice – Original Jurisdiction judgments",
+        "url": "https://ccj.org/original-jurisdiction-judgments/",
+        "evidence": "used by Fontes ccj adapter (src/world_legal_mcp/jurisdictions/ccj.py)",
+        "note": "already reached through Fontes's separate 'ccj' jurisdiction"
+      }
+    },
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal (Supreme Court of Judicature)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org)",
+      "note": "only judgments the Judiciary publishes; rulings without a file give the node page only"
+    },
+    {
+      "name": "High Court – Civil Division",
+      "en": "High Court, Civil Division (incl. Masters)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org)",
+      "note": "only judgments the Judiciary publishes (CV.* suit numbers)"
+    },
+    {
+      "name": "High Court – Criminal Division (Assizes)",
+      "en": "High Court, Criminal Division (indictable trials, sentencing rulings)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org)",
+      "note": "only what the Judiciary publishes; probe 2026-11-07 ('The State') returned CR-HC-POS/SDO rulings and judgments"
+    },
+    {
+      "name": "High Court – Family and Children Division",
+      "en": "High Court, Family and Children Division (FCD)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org)",
+      "note": "only what the Judiciary publishes; probe 2026-11-07 (case_number 'FH') returned FH/FHP High Court family judgments and their C.A.FHP appeals"
+    },
+    {
+      "name": "Family Court (magistrates' level)",
+      "en": "Family Court, magisterial jurisdiction (maintenance, custody, domestic violence)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "magisterial family decisions are not in Recent Judgments; High Court-level Family Court judgments are (see FCD row)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Judiciary of Trinidad and Tobago",
+        "url": "https://www.ttlawcourts.org",
+        "evidence": "fetched 2026-11-07: site menu lists 'Magistrates Court', 'Family Court', 'Children Court' as courts, but the judgments menu has only Recent Judgments (Court of Appeal/High Court), Privy Council Decisions and Search Library Database",
+        "note": "no published magisterial decisions found"
+      }
+    },
+    {
+      "name": "Children Court",
+      "en": "Children Court (2018; child offenders and care, High Court and magisterial levels)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org)",
+      "note": "source covers High Court decisions generally; whether Children Court rulings are included is unverified (most are confidential)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Judiciary of Trinidad and Tobago",
+        "url": "https://www.ttlawcourts.org",
+        "evidence": "fetched 2026-11-07: homepage judgments menu has only Recent Judgments, Privy Council Decisions, Search Library Database",
+        "note": "missing part: Family/Children Court (magisterial) decisions; no dedicated section found"
+      }
+    },
+    {
+      "name": "Magistrates' Courts – summary criminal",
+      "en": "Magistracy: summary courts (criminal, preliminary enquiries)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Judiciary of Trinidad and Tobago",
+        "url": "https://www.ttlawcourts.org",
+        "evidence": "fetched 2026-11-07: site menu lists 'Magistrates Court', 'Family Court', 'Children Court' as courts, but the judgments menu has only Recent Judgments (Court of Appeal/High Court), Privy Council Decisions and Search Library Database",
+        "note": "no published magisterial decisions found"
+      }
+    },
+    {
+      "name": "Petty Civil Courts",
+      "en": "Magistracy: petty civil (small claims) courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Judiciary of Trinidad and Tobago",
+        "url": "https://www.ttlawcourts.org",
+        "evidence": "fetched 2026-11-07: site menu lists 'Magistrates Court', 'Family Court', 'Children Court' as courts, but the judgments menu has only Recent Judgments (Court of Appeal/High Court), Privy Council Decisions and Search Library Database",
+        "note": "no published magisterial decisions found"
+      }
+    },
+    {
+      "name": "Industrial Court",
+      "en": "Industrial Court (labour, superior court of record)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Industrial Court – judgments search",
+        "url": "http://library.industrialcourt.org.tt/scripts/minisa.dll/144/judgment_dir?DIRECTSEARCH",
+        "evidence": "fetched 2026-11-07: industrialcourt.org.tt links a judgments search by keyword, case number or year",
+        "note": "robots/terms not checked; http only"
+      }
+    },
+    {
+      "name": "Tax Appeal Board",
+      "en": "Tax Appeal Board (superior court of record for tax appeals)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "vLex (commercial)",
+        "url": "https://vlex.com",
+        "evidence": "search result only",
+        "note": "paid; no official free publication of Tax Appeal Board decisions found"
+      }
+    },
+    {
+      "name": "Equal Opportunity Tribunal",
+      "en": "Equal Opportunity Tribunal (discrimination)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Equal Opportunity Commission – EOT judgments",
+        "url": "https://equalopportunity.gov.tt/publications/equal-opportunity-tribunal-judgments/",
+        "evidence": "fetched 2026-11-07: page 'Equal Opportunity Tribunal Judgments' lists e.g. 'EOT NO. 0004 of 2016 Moriba Baker v UTT Judgment'",
+        "note": "small set of PDFs; robots/terms not checked"
+      }
+    },
+    {
+      "name": "Environmental Commission",
+      "en": "Environmental Commission (appeals under the Environmental Management Act)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Environmental Commission",
+        "url": "https://www.ec.gov.tt/",
+        "evidence": "fetched 2026-11-07: www.ec.gov.tt answered 403; environmentalcommission.gov.tt did not resolve",
+        "note": "could not establish whether decisions are published"
+      }
+    },
+    {
+      "name": "Courts martial (Defence Force)",
+      "en": "Courts martial under the Defence Act",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not researched by the adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Judiciary of Trinidad and Tobago",
+        "url": "https://www.ttlawcourts.org",
+        "evidence": "fetched 2026-11-07: no courts-martial section on ttlawcourts.org",
+        "note": "no published courts-martial decisions found; Defence Force site not checked"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of the Republic of Trinidad and Tobago Act (Chap. 1:01)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Digital Legislative Library, Law Revision Commission (laws.gov.tt)",
+      "note": "as a revised Act; official text only in the printed Revised Laws"
+    },
+    {
+      "name": "Acts of Parliament (Revised Laws, chapters)",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Digital Legislative Library, Law Revision Commission (laws.gov.tt)",
+      "note": "every Act: revised Acts by chapter (editions to 31 Dec 2016, later unofficial updates) plus every Act as passed 1838-now from the Chronological List (byyear, Gazette Legal Supplement PDFs); title search only (the source has no full-text search); Acts since 2017 are as passed, not consolidated"
+    },
+    {
+      "name": "Subsidiary legislation (regulations, orders, rules, Legal Notices)",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Digital Legislative Library – Legal Notices by Year",
+        "url": "https://laws.gov.tt/ttdll-web/revision/list",
+        "evidence": "fetched 2026-11-07: menu has 'Legal Notices by Year' and subsidiary-legislation references on Act pages",
+        "note": "same host as the built Acts source; also in the Gazette"
+      }
+    },
+    {
+      "name": "Trinidad and Tobago Gazette",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Trinidad and Tobago Gazette (Government Printery)",
+        "url": "https://printery.gov.tt/e-gazette/",
+        "evidence": "search result only (printery.gov.tt 2023-2026 issues; news.gov.tt archive 2010-2016)",
+        "note": "issue PDFs; landing page and terms not opened"
+      }
+    },
+    {
+      "name": "Tobago House of Assembly / municipal corporation by-laws",
+      "en": "Sub-national and local law",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "code": "untc",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://treaties.un.org/"
+  ],
+  "courts": [],
+  "legislation": [
+    {
+      "name": "Multilateral Treaties Deposited with the Secretary-General (MTDSG): status records",
+      "en": "Status, participants, entry into force",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "United Nations Treaty Collection (treaties.un.org), MTDSG status records and certified true copies",
+      "note": "all 29 chapters listed; search by title/MTDSG number"
+    },
+    {
+      "name": "MTDSG declarations, reservations, objections, territorial applications, notifications",
+      "en": "Treaty actions recorded in status",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "United Nations Treaty Collection (treaties.un.org), MTDSG status records and certified true copies",
+      "note": null
+    },
+    {
+      "name": "MTDSG treaty texts (certified true copies)",
+      "en": "Treaty texts",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "United Nations Treaty Collection (treaties.un.org), MTDSG status records and certified true copies",
+      "note": "PDF text layer only; scans or oversize PDFs give the status record; English article headings only",
+      "elsewhere": {
+        "status": "available",
+        "source": "United Nations Treaty Series volumes (treaties.un.org)",
+        "url": "https://treaties.un.org/Pages/UNTSOnline.aspx?id=2&clang=_en",
+        "evidence": "fetched 2026-11-07: UNTS Online page loads with Volume/Title/Participant/Full-text search; robots.txt only 'Crawl-delay: 2'",
+        "note": "missing part = clean text for scanned/oversize CTCs and non-English article headings; the registered treaty text is also in the UNTS volume PDFs (often scans too, OCR quality unknown)"
+      }
+    },
+    {
+      "name": "United Nations Treaty Series (registered treaties incl. bilateral)",
+      "en": "UNTS",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "UNTS Online on treaties.un.org (volume/title/participant/full-text search); not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "United Nations Treaty Series Online (treaties.un.org)",
+        "url": "https://treaties.un.org/Pages/UNTSOnline.aspx?id=2&clang=_en",
+        "evidence": "fetched 2026-11-07: page loads with Volume, Title, Participant and Full-text search; robots.txt only 'Crawl-delay: 2'",
+        "note": "registered treaties incl. bilateral; ASP.NET forms like the MTDSG pages"
+      }
+    },
+    {
+      "name": "League of Nations Treaty Series",
+      "en": "LNTS",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "LNTS on treaties.un.org; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "League of Nations Treaty Series (treaties.un.org)",
+        "url": "https://treaties.un.org/Pages/LON.aspx?clang=_en",
+        "evidence": "fetched 2026-11-07: LON page loads, menu lists League of Nations Treaty Series; robots.txt only 'Crawl-delay: 2'",
+        "note": "historic LNTS volumes 1920-1946"
+      }
+    },
+    {
+      "name": "Depositary notifications (C.N.)",
+      "en": "Depositary notifications",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Depositary Notifications (C.N.s), treaties.un.org",
+        "url": "https://treaties.un.org/Pages/CNs.aspx?cnTab=tab1&clang=_en",
+        "evidence": "fetched 2026-11-07: CN list loads with current notifications (e.g. Olive Oil Agreement 2015, 2026 entries); robots.txt only 'Crawl-delay: 2'",
+        "note": "PDF notifications per treaty action"
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "code": "li",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.gerichte.li/die-gerichte/ueber-die-gerichte"
+  ],
+  "courts": [
+    {
+      "name": "Staatsgerichtshof",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals; StGH decisions only there"
+      }
+    },
+    {
+      "name": "Oberster Gerichtshof (OGH)",
+      "en": "Supreme Court (third instance, civil/criminal)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Fürstlicher Oberster Gerichtshof – Entscheidungen (www.ogh.li)",
+      "note": "230 OGH decisions 2020-2025 with full-text PDF, as posted on ogh.li (counted 2026-11-10: 2020 3, 2021 36, 2022 40, 2023 48, 2024 66, 2025 37). Missing: everything before mid-2020 and any 2026+ decisions (ogh.li links those to the robots-blocked portal), and decisions the court did not post; search is over case number, tags and cited norms, not full text",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * / Disallow: /' on both hosts",
+        "note": "the full OGH archive is only there"
+      }
+    },
+    {
+      "name": "Verwaltungsgerichtshof (VGH; OGH sitting as administrative court)",
+      "en": "Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals"
+      }
+    },
+    {
+      "name": "Fürstliches Obergericht",
+      "en": "Court of Appeal (second instance)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals"
+      }
+    },
+    {
+      "name": "Fürstliches Landgericht – Zivilsachen (incl. Ausserstreit, Exekution, Konkurs, Grundbuch/Firmenbuch)",
+      "en": "Princely Court of Justice – civil",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals"
+      }
+    },
+    {
+      "name": "Fürstliches Landgericht – Einzelrichter in Strafsachen",
+      "en": "Princely Court – single criminal judge",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals"
+      }
+    },
+    {
+      "name": "Schöffengericht (Landgericht)",
+      "en": "Lay-assessor criminal court",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals"
+      }
+    },
+    {
+      "name": "Kriminalgericht (Landgericht)",
+      "en": "Criminal Court (serious crimes, mixed bench)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals"
+      }
+    },
+    {
+      "name": "Jugendgericht (Landgericht)",
+      "en": "Juvenile Court",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (gerichtsentscheide.li, Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li / gerichtsentscheide.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: gerichtsentscheidungen.li/robots.txt = 'User-agent: * / Disallow: /'",
+        "note": "robots.txt 'Disallow: /' on both decision portals; whether juvenile decisions are published there unverified"
+      }
+    },
+    {
+      "name": "Beschwerdekommission für Verwaltungsangelegenheiten (VBK)",
+      "en": "Administrative Appeals Commission (quasi-judicial, below the VGH)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not researched in code",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gerichtsentscheidungen Liechtenstein (gerichtsentscheidungen.li)",
+        "url": "https://www.gerichtsentscheidungen.li/",
+        "evidence": "fetched 2026-11-07: portal robots.txt 'Disallow: /' (other rows); whether VBK decisions are on the portal not established",
+        "note": "if on the portal, blocked by robots.txt"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Verfassung des Fürstentums Liechtenstein (LGBl. 1921.015)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung)",
+      "note": ""
+    },
+    {
+      "name": "Gesetze",
+      "en": "Acts of the Landtag",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung)",
+      "note": "current consolidated version only; earlier versions not built yet"
+    },
+    {
+      "name": "Verordnungen der Regierung",
+      "en": "Government ordinances",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung)",
+      "note": "current consolidated version only"
+    },
+    {
+      "name": "Landesgesetzblatt (LGBl.)",
+      "en": "Official law gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung)",
+      "note": "consolidated texts keyed by LGBl-Nr; original gazette issues not served",
+      "elsewhere": {
+        "status": "available",
+        "source": "Lilex – Landesgesetzblatt (chronological collection)",
+        "url": "https://www.gesetze.li/chrono/suche",
+        "evidence": "fetched 2026-11-07: gesetze.li/chrono search page 'Suche - Landesgesetzblatt' (200); same host Fontes already uses",
+        "note": "missing part: original LGBl issues as published; served by the /chrono section of the same site, not built"
+      }
+    },
+    {
+      "name": "Staatsverträge",
+      "en": "Treaties (scope=treaties)",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung)",
+      "note": ""
+    },
+    {
+      "name": "Gemeindereglemente",
+      "en": "Municipal regulations (11 Gemeinden)",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no central database; per-commune PDFs",
+      "elsewhere": {
+        "status": "available",
+        "source": "Websites of the 11 Gemeinden (e.g. vaduz.li)",
+        "url": "https://www.vaduz.li/",
+        "evidence": "fetched 2026-11-07: vaduz.li Bauordnung 2014 PDF (200, application/pdf); robots.txt only disallows /application/* system dirs",
+        "note": "UNCENTRALISED: each commune posts its own Reglemente as PDFs; no common database found; checked Vaduz only"
+      }
+    }
+  ]
+}

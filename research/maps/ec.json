@@ -1,0 +1,493 @@
+{
+  "code": "ec",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.cortenacional.gob.ec/cnj/index.php/salas-especializadas"
+  ],
+  "courts": [
+    {
+      "name": "Corte Constitucional del Ecuador",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Corte Constitucional del Ecuador – Buscador de Sentencias (public JSON backend) and signed decision PDFs (esacc storage)",
+      "note": "2008 onwards; scanned PDFs without text layer give no text"
+    },
+    {
+      "name": "Tribunal Constitucional (before 2008)",
+      "en": "Former Constitutional Tribunal",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Registro Oficial / Gaceta Constitucional",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "search result only",
+        "note": "pre-2008 TC resolutions were printed in the Registro Oficial and Gaceta Constitucional; whether the Corte Constitucional buscador covers them unconfirmed"
+      }
+    },
+    {
+      "name": "Corte Nacional de Justicia – Sala Especializada de lo Civil y Mercantil",
+      "en": "National Court of Justice – Civil and Commercial chamber (cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "CNJ search is behind reCAPTCHA v3; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Nacional de Justicia – Buscador de sentencias",
+        "url": "https://busquedasentencias.cortenacional.gob.ec/",
+        "evidence": "checked 2026-11-10: SPA bundle (buscador.routes-*.js) marks every search call (query/sentencia/busqueda/buscarPorTipoBusqueda, busquedaPorFiltros) X-Requires-reCAPTCHA; an interceptor adds a reCAPTCHA v3 token (action 'validar_usuario'); host has no robots.txt (SPA shell served)",
+        "note": "reCAPTCHA on search, so not built. Gaceta Judicial buscador (appsj.funcionjudicial.gob.ec/gaceta/buscador.jsf) answered HTTP 500 (bean init error) on 2026-11-10"
+      }
+    },
+    {
+      "name": "Corte Nacional de Justicia – Sala Especializada de lo Penal, Penal Militar, Penal Policial y Tránsito, Corrupción y Crimen Organizado",
+      "en": "National Court of Justice – Criminal, Military, Police and Traffic chamber (cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "CNJ search is behind reCAPTCHA v3; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Nacional de Justicia – Buscador de sentencias",
+        "url": "https://busquedasentencias.cortenacional.gob.ec/",
+        "evidence": "checked 2026-11-10: SPA bundle (buscador.routes-*.js) marks every search call (query/sentencia/busqueda/buscarPorTipoBusqueda, busquedaPorFiltros) X-Requires-reCAPTCHA; an interceptor adds a reCAPTCHA v3 token (action 'validar_usuario'); host has no robots.txt (SPA shell served)",
+        "note": "reCAPTCHA on search, so not built. Gaceta Judicial buscador (appsj.funcionjudicial.gob.ec/gaceta/buscador.jsf) answered HTTP 500 (bean init error) on 2026-11-10"
+      }
+    },
+    {
+      "name": "Corte Nacional de Justicia – Sala Especializada de lo Laboral",
+      "en": "National Court of Justice – Labour chamber (cassation)",
+      "tier": "apex",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "CNJ search is behind reCAPTCHA v3; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Nacional de Justicia – Buscador de sentencias",
+        "url": "https://busquedasentencias.cortenacional.gob.ec/",
+        "evidence": "checked 2026-11-10: SPA bundle (buscador.routes-*.js) marks every search call (query/sentencia/busqueda/buscarPorTipoBusqueda, busquedaPorFiltros) X-Requires-reCAPTCHA; an interceptor adds a reCAPTCHA v3 token (action 'validar_usuario'); host has no robots.txt (SPA shell served)",
+        "note": "reCAPTCHA on search, so not built. Gaceta Judicial buscador (appsj.funcionjudicial.gob.ec/gaceta/buscador.jsf) answered HTTP 500 (bean init error) on 2026-11-10"
+      }
+    },
+    {
+      "name": "Corte Nacional de Justicia – Sala Especializada de la Familia, Niñez, Adolescencia y Adolescentes Infractores",
+      "en": "National Court of Justice – Family, Children and Juvenile Offenders chamber (cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "CNJ search is behind reCAPTCHA v3; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Nacional de Justicia – Buscador de sentencias",
+        "url": "https://busquedasentencias.cortenacional.gob.ec/",
+        "evidence": "checked 2026-11-10: SPA bundle (buscador.routes-*.js) marks every search call (query/sentencia/busqueda/buscarPorTipoBusqueda, busquedaPorFiltros) X-Requires-reCAPTCHA; an interceptor adds a reCAPTCHA v3 token (action 'validar_usuario'); host has no robots.txt (SPA shell served)",
+        "note": "reCAPTCHA on search, so not built. Gaceta Judicial buscador (appsj.funcionjudicial.gob.ec/gaceta/buscador.jsf) answered HTTP 500 (bean init error) on 2026-11-10"
+      }
+    },
+    {
+      "name": "Corte Nacional de Justicia – Sala Especializada de lo Contencioso Administrativo",
+      "en": "National Court of Justice – Administrative chamber (cassation)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "CNJ search is behind reCAPTCHA v3; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Nacional de Justicia – Buscador de sentencias",
+        "url": "https://busquedasentencias.cortenacional.gob.ec/",
+        "evidence": "checked 2026-11-10: SPA bundle (buscador.routes-*.js) marks every search call (query/sentencia/busqueda/buscarPorTipoBusqueda, busquedaPorFiltros) X-Requires-reCAPTCHA; an interceptor adds a reCAPTCHA v3 token (action 'validar_usuario'); host has no robots.txt (SPA shell served)",
+        "note": "reCAPTCHA on search, so not built. Gaceta Judicial buscador (appsj.funcionjudicial.gob.ec/gaceta/buscador.jsf) answered HTTP 500 (bean init error) on 2026-11-10"
+      }
+    },
+    {
+      "name": "Corte Nacional de Justicia – Sala Especializada de lo Contencioso Tributario",
+      "en": "National Court of Justice – Tax chamber (cassation)",
+      "tier": "apex",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "CNJ search is behind reCAPTCHA v3; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Nacional de Justicia – Buscador de sentencias",
+        "url": "https://busquedasentencias.cortenacional.gob.ec/",
+        "evidence": "checked 2026-11-10: SPA bundle (buscador.routes-*.js) marks every search call (query/sentencia/busqueda/buscarPorTipoBusqueda, busquedaPorFiltros) X-Requires-reCAPTCHA; an interceptor adds a reCAPTCHA v3 token (action 'validar_usuario'); host has no robots.txt (SPA shell served)",
+        "note": "reCAPTCHA on search, so not built. Gaceta Judicial buscador (appsj.funcionjudicial.gob.ec/gaceta/buscador.jsf) answered HTTP 500 (bean init error) on 2026-11-10"
+      }
+    },
+    {
+      "name": "Cortes Provinciales de Justicia (24; salas civil, penal, laboral, familia)",
+      "en": "Provincial Courts of Justice (appeal)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Tribunales de Garantías Penales",
+      "en": "Criminal trial tribunals (3 judges)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales Penales (jueces de garantías penales)",
+      "en": "Criminal guarantee-judge units",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidad Judicial Especializada Anticorrupción y Crimen Organizado",
+      "en": "Specialised anti-corruption and organised-crime unit",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales Civiles",
+      "en": "Civil units",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales de Familia, Mujer, Niñez y Adolescencia",
+      "en": "Family, women, children and adolescents units",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales de Violencia contra la Mujer o Miembros del Núcleo Familiar",
+      "en": "Domestic and gender-violence units",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales de Adolescentes Infractores",
+      "en": "Juvenile offenders units",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales de Trabajo",
+      "en": "Labour units",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales de Tránsito",
+      "en": "Traffic units",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales de Garantías Penitenciarias",
+      "en": "Prison-guarantees (sentence-enforcement) units",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Unidades Judiciales Multicompetentes",
+      "en": "Multi-competence units (smaller cantons)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Tribunales Distritales de lo Contencioso Administrativo",
+      "en": "District administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Tribunales Distritales de lo Contencioso Tributario",
+      "en": "District tax courts",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Consulta de procesos judiciales (eSATJE, Consejo de la Judicatura)",
+        "url": "https://procesosjudiciales.funcionjudicial.gob.ec/",
+        "evidence": "fetched 2026-11-07: 'Consulta de procesos' Angular SPA 200; no captcha marker in HTML; no robots.txt (SPA served)",
+        "note": "case-file lookup across judicial units with rulings attached; full-text search and API terms unconfirmed"
+      }
+    },
+    {
+      "name": "Juzgados de Paz",
+      "en": "Justices of the peace",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "juzgados de paz: no publication found"
+      }
+    },
+    {
+      "name": "Tribunal Contencioso Electoral",
+      "en": "Electoral Disputes Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tribunal Contencioso Electoral",
+        "url": "https://www.tce.gob.ec/",
+        "evidence": "fetched 2026-11-07 failed: connection timed out",
+        "note": "site unreachable from UK"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución de la República (2008)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "Registro Oficial gives whole gazette PDFs only, no per-norm search | 2026-11-10 (build3): Asamblea Nacional's constitution PDF (asambleanacional.gob.ec/sites/default/files/documents/old/constitucion_de_bolsillo.pdf, text layer, 468 articles) fetched but it is the edition with reforms only to the 7 May 2011 referendum, stale (later amendments missing); not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Registro Oficial",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "fetched 2026-11-10: robots.txt disallows only /wp-admin/; WordPress GET search /?s= works without captcha but matches edition summaries (sumarios) only; archive reaches at least 2003; each hit is a whole edition PDF on esacc.corteconstitucional.gob.ec storage",
+        "note": "edition-level gazette only: no per-norm text, no consolidation, older issues partly scanned; cannot make statutes complete. Not built"
+      }
+    },
+    {
+      "name": "Leyes orgánicas y ordinarias, Códigos",
+      "en": "Organic and ordinary laws, codes",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "Asamblea 'Leyes aprobadas' gazette law pages are scans only, no text | 2026-11-10 (build3): Asamblea Nacional's constitution PDF (asambleanacional.gob.ec/sites/default/files/documents/old/constitucion_de_bolsillo.pdf, text layer, 468 articles) fetched but it is the edition with reforms only to the 7 May 2011 referendum, stale (later amendments missing); not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Registro Oficial",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "fetched 2026-11-10: robots.txt disallows only /wp-admin/; WordPress GET search /?s= works without captcha but matches edition summaries (sumarios) only; archive reaches at least 2003; each hit is a whole edition PDF on esacc.corteconstitucional.gob.ec storage",
+        "note": "edition-level gazette only: no per-norm text, no consolidation, older issues partly scanned; cannot make statutes complete. Not built"
+      }
+    },
+    {
+      "name": "Decretos ejecutivos / Reglamentos",
+      "en": "Executive decrees and regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "gob.ec/regulaciones needs a login",
+      "elsewhere": {
+        "status": "available",
+        "source": "Registro Oficial",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "fetched 2026-11-10: robots.txt disallows only /wp-admin/; WordPress GET search /?s= works without captcha but matches edition summaries (sumarios) only; archive reaches at least 2003; each hit is a whole edition PDF on esacc.corteconstitucional.gob.ec storage",
+        "note": "edition-level gazette only: no per-norm text, no consolidation, older issues partly scanned; cannot make statutes complete. Not built"
+      }
+    },
+    {
+      "name": "Acuerdos y resoluciones ministeriales",
+      "en": "Ministerial agreements and resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "gob.ec/regulaciones needs a login",
+      "elsewhere": {
+        "status": "available",
+        "source": "Registro Oficial",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "fetched 2026-11-10: robots.txt disallows only /wp-admin/; WordPress GET search /?s= works without captcha but matches edition summaries (sumarios) only; archive reaches at least 2003; each hit is a whole edition PDF on esacc.corteconstitucional.gob.ec storage",
+        "note": "edition-level gazette only: no per-norm text, no consolidation, older issues partly scanned; cannot make statutes complete. Not built"
+      }
+    },
+    {
+      "name": "Registro Oficial",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "whole gazette PDFs only; its REST API needs authorization",
+      "elsewhere": {
+        "status": "available",
+        "source": "Registro Oficial",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "fetched 2026-11-10: robots.txt disallows only /wp-admin/; WordPress GET search /?s= works without captcha but matches edition summaries (sumarios) only; archive reaches at least 2003; each hit is a whole edition PDF on esacc.corteconstitucional.gob.ec storage",
+        "note": "edition-level gazette only: no per-norm text, no consolidation, older issues partly scanned; cannot make statutes complete. Not built"
+      }
+    },
+    {
+      "name": "Ordenanzas de GAD (provincias, cantones)",
+      "en": "Decentralised-government ordinances",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Registro Oficial",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "fetched 2026-11-10: robots.txt disallows only /wp-admin/; WordPress GET search /?s= works without captcha but matches edition summaries (sumarios) only; archive reaches at least 2003; each hit is a whole edition PDF on esacc.corteconstitucional.gob.ec storage",
+        "note": "edition-level gazette only: no per-norm text, no consolidation, older issues partly scanned; cannot make statutes complete. Not built"
+      }
+    },
+    {
+      "name": "Tratados internacionales",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Registro Oficial",
+        "url": "https://www.registroficial.gob.ec/",
+        "evidence": "fetched 2026-11-10: robots.txt disallows only /wp-admin/; WordPress GET search /?s= works without captcha but matches edition summaries (sumarios) only; archive reaches at least 2003; each hit is a whole edition PDF on esacc.corteconstitucional.gob.ec storage",
+        "note": "edition-level gazette only: no per-norm text, no consolidation, older issues partly scanned; cannot make statutes complete. Not built"
+      }
+    }
+  ]
+}

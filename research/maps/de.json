@@ -1,0 +1,3084 @@
+{
+ "code": "de",
+ "checked": "2026-11-07",
+ "structure_sources": [
+  "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/de_en",
+  "https://www.bundesverfassungsgericht.de/",
+  "https://gerichtsentscheidungen.brandenburg.de/suche",
+  "https://www.justiz.sachsen.de/esamosplus/pages/index.aspx"
+ ],
+ "courts": [
+  {
+   "name": "Bundesverfassungsgericht (BVerfG)",
+   "en": "Federal Constitutional Court",
+   "tier": "constitutional",
+   "branch": "constitutional",
+   "reached": "partly",
+   "via": "NeuRIS – Rechtsinformationsportal des Bundes (API, trial service)",
+   "note": "off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission)",
+   "elsewhere": {
+    "status": "available",
+    "source": "Bundesverfassungsgericht – Entscheidungen",
+    "url": "https://www.bundesverfassungsgericht.de/",
+    "evidence": "fetched 2026-11-07: robots.txt disallows only /SiteGlobals/ and /DE/Service/, Crawl-delay: 30",
+    "note": "missing part: NeuRIS is off by default (robots Disallow /, needs permission); the court's own site publishes decisions, but its search form sits under /SiteGlobals/ (disallowed), so use sitemap/decision pages"
+   }
+  },
+  {
+   "name": "Bundesgerichtshof (BGH)",
+   "en": "Federal Court of Justice",
+   "tier": "apex",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "NeuRIS – Rechtsinformationsportal des Bundes (API, trial service)",
+   "note": "off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Bundesgerichtshof – Entscheidungsdatenbank",
+    "url": "https://www.bundesgerichtshof.de/entscheidungen_ab_2000",
+    "evidence": "fetched 2026-11-07: redirects to /SiteGlobals/Forms/Suche/EntscheidungssucheBGH_Formular.html -> HTTP 403; robots Disallow: /SiteGlobals/. Rechecked 2026-11-10: robots unchanged (Crawl-delay 30); Sitemap_Basepage.xml lists no decisions; rechtsprechung-im-internet.de robots still 'User-agent: * Disallow: /'",
+    "note": "missing part: NeuRIS gated; BGH's own search is robots-disallowed and 403s; rechtsprechung-im-internet.de robots 'User-agent: * Disallow: /'"
+   }
+  },
+  {
+   "name": "Bundesverwaltungsgericht (BVerwG)",
+   "en": "Federal Administrative Court",
+   "tier": "apex",
+   "branch": "administrative",
+   "reached": "partly",
+   "via": "NeuRIS – Rechtsinformationsportal des Bundes (API, trial service)",
+   "note": "off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "BVerwG – Urteile und Beschlüsse",
+    "url": "https://www.bverwg.de/rechtsprechung/urteile-beschluesse",
+    "evidence": "fetched 2026-11-10 with the Fontes client: /rechtsprechung/urteile-beschluesse redirects to /suche?db=e -> HTTP 403 Cloudflare JS challenge ('Just a moment...'); single decisions open at https://www.bverwg.de/<ECLI suffix> (e.g. /250326U7C3.25.0, 200); no decisions in a sitemap (/sitemap.xml 404); /rss/entscheidungen.rss lists recent ones only; impressum: decisions are amtliche Werke, free, must not be altered, cite source; robots.txt User-agent * Allow /, Content-Signal search=yes, ai-train=no, use=reference",
+    "note": "missing part: NeuRIS gated; the court's only archive search sits behind a bot challenge (not circumvented), so the full archive is not searchable here; single decisions by ECLI + recent RSS only"
+   }
+  },
+  {
+   "name": "Bundesfinanzhof (BFH)",
+   "en": "Federal Finance Court",
+   "tier": "apex",
+   "branch": "tax",
+   "reached": "partly",
+   "via": "Bundesfinanzhof – Entscheidungen online (bundesfinanzhof.de)",
+   "note": "ungated: the BFH's own site, decisions it publishes online (V and NV) from 2010 on, ~11.7k, search + full text; 1 request/min per robots Crawl-Delay 60. Missing without permission: nothing dated before 2010 on the site (date_to 2009-12-31 gives 0 hits, 2026-11-10). With WLM_PERMITTED=de NeuRIS is used instead"
+  },
+  {
+   "name": "Bundesarbeitsgericht (BAG)",
+   "en": "Federal Labour Court",
+   "tier": "apex",
+   "branch": "labour",
+   "reached": "partly",
+   "via": "NeuRIS – Rechtsinformationsportal des Bundes (API, trial service)",
+   "note": "off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Bundesarbeitsgericht – Entscheidungen",
+    "url": "https://www.bundesarbeitsgericht.de/entscheidungen/",
+    "evidence": "fetched 2026-11-10: impressum 'Eine Verwendung der Texte, auch in Auszügen sowie eine Verwendung der Datenbank als solcher bedürfen der Genehmigung'; robots.txt disallows only ChatGPT-User, GPTBot, CCBot; WordPress search /entscheidungen/?q= works (147 pages)",
+    "note": "missing part: NeuRIS gated; BAG's own terms require permission for any use of the texts and the database (out under the project rules)"
+   }
+  },
+  {
+   "name": "Bundessozialgericht (BSG)",
+   "en": "Federal Social Court",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "partly",
+   "via": "NeuRIS – Rechtsinformationsportal des Bundes (API, trial service)",
+   "note": "off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Bundessozialgericht – Entscheidungen",
+    "url": "https://www.bsg.bund.de/DE/Entscheidungen/entscheidungen_node.html",
+    "evidence": "fetched 2026-11-10: 'Entscheidungen ab 2018' search links go to /SiteGlobals/Forms/Suche/DE/Expertensuche_Formular.html (robots Disallow: /SiteGlobals/); 'ab 2010' points to rechtsprechung-im-internet.de (robots User-agent * Disallow /); Sitemap_Basepage.xml lists no decisions; Crawl-delay: 30",
+    "note": "missing part: NeuRIS gated; no robots-compliant way to search or list BSG decisions"
+   }
+  },
+  {
+   "name": "Bundespatentgericht (BPatG)",
+   "en": "Federal Patent Court",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "partly",
+   "via": "NeuRIS – Rechtsinformationsportal des Bundes (API, trial service)",
+   "note": "off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission)",
+   "elsewhere": {
+    "status": "available",
+    "source": "Bundespatentgericht – Entscheidungen",
+    "url": "https://www.bundespatentgericht.de/DE/Rechtsprechung/Entscheidungen/entscheidungen_node.html",
+    "evidence": "fetched 2026-11-07: page 200, links search form /SiteGlobals/Forms/Entscheidungen/; robots.txt 404 (none)",
+    "note": "missing part: NeuRIS gated; own decision search exists"
+   }
+  },
+  {
+   "name": "Truppendienstgerichte (2: Nord in Münster, Süd in München)",
+   "en": "Military service courts (disciplinary and complaint cases of soldiers)",
+   "tier": "specialised",
+   "branch": "military",
+   "reached": "no",
+   "via": null,
+   "note": "not in NeuRIS court list (BGH, BVerfG, BFH, BVerwG, BAG, BSG, BPatG); appeals go to the BVerwG Wehrdienstsenate",
+   "elsewhere": {
+    "status": "available",
+    "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+    "url": "https://www.gesetze-bayern.de/",
+    "evidence": "search result only (Truppendienstgericht Süd, Urteil v. 28.01.2026 – S 8 VL 9/22 on gesetze-bayern.de); robots.txt Allow: / fetched 2026-11-10",
+    "note": "only selected TDG Süd decisions found; no online source found for TDG Nord (one web search)"
+   }
+  },
+  {
+   "name": "Gemeinsamer Senat der obersten Gerichtshöfe des Bundes (GmS-OGB)",
+   "en": "Joint Senate of the Supreme Federal Courts",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "not a NeuRIS court filter value; very few decisions",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "NeuRIS / rechtsprechung-im-internet.de",
+    "url": "https://testphase.rechtsinformationen.bund.de/",
+    "evidence": "research/eu_dach_fr_benelux.md (NeuRIS /courts lists only the 7 federal courts)",
+    "note": "whether GmS-OGB decisions sit in NeuRIS under another court name not checked"
+   }
+  }
+ ],
+ "legislation": [
+  {
+   "name": "Grundgesetz",
+   "en": "Basic Law",
+   "level": "constitution",
+   "reached": "yes",
+   "via": "Gesetze im Internet (Bundesamt für Justiz / BMJV)",
+   "note": "current version only"
+  },
+  {
+   "name": "Bundesgesetze",
+   "en": "Federal Acts",
+   "level": "primary",
+   "reached": "yes",
+   "via": "Gesetze im Internet (Bundesamt für Justiz / BMJV)",
+   "note": "current consolidated version only; no earlier versions"
+  },
+  {
+   "name": "Rechtsverordnungen des Bundes",
+   "en": "Federal statutory instruments (ordinances)",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "Gesetze im Internet (Bundesamt für Justiz / BMJV)",
+   "note": "current version only"
+  },
+  {
+   "name": "Verwaltungsvorschriften des Bundes",
+   "en": "Federal administrative regulations",
+   "level": "secondary",
+   "reached": "no",
+   "via": null,
+   "note": "not built; see elsewhere",
+   "elsewhere": {
+    "status": "available",
+    "source": "Verwaltungsvorschriften im Internet (BMJV)",
+    "url": "https://www.verwaltungsvorschriften-im-internet.de/",
+    "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * Disallow:' (allows all)",
+    "note": "federal administrative regulations published there"
+   }
+  },
+  {
+   "name": "Bundesgesetzblatt (BGBl.)",
+   "en": "Federal Law Gazette",
+   "level": "gazette",
+   "reached": "no",
+   "via": null,
+   "note": "not built; see elsewhere",
+   "elsewhere": {
+    "status": "available",
+    "source": "recht.bund.de – Bundesgesetzblatt (electronic, since 2023)",
+    "url": "https://www.recht.bund.de/",
+    "evidence": "fetched 2026-11-07: robots.txt disallows /SiteGlobals/ and service pages only, Crawl-delay: 30",
+    "note": "official electronic BGBl I/II from 2023; older issues on bgbl.de (Bundesanzeiger Verlag), not checked"
+   }
+  },
+  {
+   "name": "Landesverfassungen, Landesgesetze, Landesverordnungen",
+   "en": "Länder constitutions, acts and ordinances (16)",
+   "level": "sub-national",
+   "reached": "no",
+   "via": null,
+   "note": "per-Land portals see elsewhere",
+   "elsewhere": {
+    "status": "available",
+    "source": "recht.nrw.de / gesetze-bayern.de",
+    "url": "https://recht.nrw.de/",
+    "evidence": "fetched 2026-11-07: recht.nrw.de and gesetze-bayern.de robots.txt both 'Allow: /'",
+    "note": "NRW and Bavaria only; most other Länder use juris portals whose robots.txt is 'User-agent: * Disallow: /' (checked BW, RLP, HE, BE)"
+   }
+  },
+  {
+   "name": "Satzungen der Gemeinden",
+   "en": "Municipal by-laws",
+   "level": "local",
+   "reached": "no",
+   "via": null,
+   "note": "not built; see elsewhere",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "",
+    "url": "",
+    "evidence": "search result only",
+    "note": "municipal statutes are published in each municipality's Amtsblatt/website; no central official portal found; not checked"
+   }
+  },
+  {
+   "name": "Völkerrechtliche Verträge (BGBl. II)",
+   "en": "Treaties",
+   "level": "treaty",
+   "reached": "no",
+   "via": null,
+   "note": "not built; see elsewhere",
+   "elsewhere": {
+    "status": "available",
+    "source": "recht.bund.de – BGBl. Teil II",
+    "url": "https://www.recht.bund.de/",
+    "evidence": "fetched 2026-11-07: robots.txt allows content, Crawl-delay: 30",
+    "note": "BGBl II (treaties) since 2023; older Teil II issues on bgbl.de not checked"
+   }
+  }
+ ],
+ "states": [
+  {
+   "name": "Baden-Württemberg",
+   "courts": [
+    {
+     "name": "Verfassungsgerichtshof für das Land Baden-Württemberg",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberlandesgerichte (2: Karlsruhe, Stuttgart)",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte (17)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (~108)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (4)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichtshof Baden-Württemberg (Mannheim)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (9)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Baden-Württemberg",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgerichte (8)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landessozialgericht Baden-Württemberg",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Finanzgericht Baden-Württemberg",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht BW Bürgerservice (juris)",
+      "url": "https://www.landesrecht-bw.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Bayern",
+   "courts": [
+    {
+     "name": "Bayerischer Verfassungsgerichtshof",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Bayerisches Oberstes Landesgericht (BayObLG, re-established 2018)",
+     "en": "Bavarian Supreme Regional Court (selected civil/criminal appeals)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Oberlandesgerichte (3: München, Nürnberg, Bamberg)",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Landgerichte (22)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Amtsgerichte (73)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (6)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Bayerischer Verwaltungsgerichtshof",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (11)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Landesarbeitsgerichte (2: München, Nürnberg)",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Sozialgerichte (7)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Bayerisches Landessozialgericht",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    },
+    {
+     "name": "Finanzgerichte (2: München, Nürnberg)",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "BAYERN.RECHT (gesetze-bayern.de) – Gerichtsentscheidungen",
+      "url": "https://www.gesetze-bayern.de/",
+      "evidence": "fetched 2026-11-10: robots.txt 'User-agent: * Allow: /'; hit list shows Gerichtsentscheidungen 27,088 (Verfassungs- 173, ordentliche 9,045, Verwaltungs- 15,468, Finanz- 467, Arbeits- 655, Sozialgerichtsbarkeit 1,261)",
+      "note": "selected Bavarian decisions"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Berlin",
+   "courts": [
+    {
+     "name": "Verfassungsgerichtshof des Landes Berlin",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Berlin Vorschriften- und Rechtsprechungsdatenbank (gesetze.berlin.de, juris)",
+      "url": "https://gesetze.berlin.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Kammergericht",
+     "en": "Higher regional court (Kammergericht)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Berlin Vorschriften- und Rechtsprechungsdatenbank (gesetze.berlin.de, juris)",
+      "url": "https://gesetze.berlin.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte Berlin I (criminal) and Berlin II (civil) (split 2024)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Berlin Vorschriften- und Rechtsprechungsdatenbank (gesetze.berlin.de, juris)",
+      "url": "https://gesetze.berlin.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (11)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Berlin Vorschriften- und Rechtsprechungsdatenbank (gesetze.berlin.de, juris)",
+      "url": "https://gesetze.berlin.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgericht Berlin",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Berlin Vorschriften- und Rechtsprechungsdatenbank (gesetze.berlin.de, juris)",
+      "url": "https://gesetze.berlin.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberverwaltungsgericht Berlin-Brandenburg (shared with Brandenburg; seat Berlin)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Arbeitsgericht Berlin",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Berlin Vorschriften- und Rechtsprechungsdatenbank (gesetze.berlin.de, juris)",
+      "url": "https://gesetze.berlin.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Berlin-Brandenburg (shared; seat Berlin)",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Sozialgericht Berlin",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Berlin Vorschriften- und Rechtsprechungsdatenbank (gesetze.berlin.de, juris)",
+      "url": "https://gesetze.berlin.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Brandenburg",
+   "courts": [
+    {
+     "name": "Verfassungsgericht des Landes Brandenburg",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Brandenburgisches Oberlandesgericht",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Landgerichte (4)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Amtsgerichte (~24)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (3: Cottbus, Frankfurt (Oder), Potsdam)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Sozialgerichte (4)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Landessozialgericht Berlin-Brandenburg (shared with Berlin; seat Potsdam)",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    },
+    {
+     "name": "Finanzgericht Berlin-Brandenburg (shared with Berlin; seat Cottbus)",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Entscheidungsdatenbank der Gerichte in Brandenburg",
+      "url": "https://gerichtsentscheidungen.brandenburg.de/suche",
+      "evidence": "fetched 2026-11-10: court dropdown lists AG (10 of them), ArbG Brandenburg/Cottbus/Potsdam, FG Berlin-Brandenburg, LArbG Berlin-Brandenburg, LG Cottbus/Frankfurt (Oder)/Neuruppin/Potsdam, LSG Berlin-Brandenburg, OLG Brandenburg, OVG Berlin-Brandenburg, SG (4), VG (3), VerfG Potsdam; robots.txt 404 (none)",
+      "note": "selected decisions"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Bremen",
+   "courts": [
+    {
+     "name": "Staatsgerichtshof der Freien Hansestadt Bremen",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    },
+    {
+     "name": "Hanseatisches Oberlandesgericht in Bremen",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "Hanseatisches OLG Bremen – Entscheidungssuche",
+      "url": "https://www.oberlandesgericht.bremen.de/entscheidungen/entscheidungssuche-2337",
+      "evidence": "fetched 2026-11-10: court home page links 'Entscheidungen / Entscheidungsübersicht / Entscheidungssuche'; robots.txt empty",
+      "note": "court's own decision pages (PDF 'Entscheidungsmodul' files); selection"
+     }
+    },
+    {
+     "name": "Landgericht Bremen",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    },
+    {
+     "name": "Amtsgerichte (3: Bremen, Bremen-Blumenthal, Bremerhaven)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    },
+    {
+     "name": "Verwaltungsgericht Bremen",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    },
+    {
+     "name": "Oberverwaltungsgericht der Freien Hansestadt Bremen",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "OVG Bremen – Entscheidungssuche",
+      "url": "https://www.oberverwaltungsgericht.bremen.de/entscheidungen/entscheidungssuche-11266",
+      "evidence": "fetched 2026-11-10: court home page links 'Entscheidungen / Entscheidungsübersicht / Entscheidungssuche'; robots.txt empty",
+      "note": "court's own decision pages (PDF 'Entscheidungsmodul' files); selection"
+     }
+    },
+    {
+     "name": "Arbeitsgericht Bremen-Bremerhaven",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Bremen",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    },
+    {
+     "name": "Sozialgericht Bremen",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    },
+    {
+     "name": "Finanzgericht Bremen",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Bremen court websites",
+      "url": "https://www.justiz.bremen.de/",
+      "evidence": "fetched 2026-11-10: only OLG Bremen and OVG Bremen home pages checked (both have Entscheidungssuche); this court's own site not checked",
+      "note": "Bremen has no central Land decision portal found (one web search)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Hamburg",
+   "courts": [
+    {
+     "name": "Hamburgisches Verfassungsgericht",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Hanseatisches Oberlandesgericht Hamburg",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgericht Hamburg",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (8)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgericht Hamburg",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Hamburgisches Oberverwaltungsgericht",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgericht Hamburg",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Hamburg",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgericht Hamburg",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landessozialgericht Hamburg",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Finanzgericht Hamburg",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Hamburg (juris)",
+      "url": "https://www.landesrecht-hamburg.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Hessen",
+   "courts": [
+    {
+     "name": "Staatsgerichtshof des Landes Hessen",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberlandesgericht Frankfurt am Main",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte (9)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (41)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (5)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Hessischer Verwaltungsgerichtshof (Kassel)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (7)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Hessisches Landesarbeitsgericht",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgerichte (7)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Hessisches Landessozialgericht",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Hessisches Finanzgericht",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Bürgerservice Hessenrecht – Rechtsprechung (juris)",
+      "url": "https://www.rv.hessenrecht.hessen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mecklenburg-Vorpommern",
+   "courts": [
+    {
+     "name": "Landesverfassungsgericht Mecklenburg-Vorpommern",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberlandesgericht Rostock",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte (4)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (10)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (2: Greifswald, Schwerin)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberverwaltungsgericht Mecklenburg-Vorpommern (Greifswald)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (4)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Mecklenburg-Vorpommern",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgerichte (4)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landessozialgericht Mecklenburg-Vorpommern",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Finanzgericht Mecklenburg-Vorpommern",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht MV (juris)",
+      "url": "https://www.landesrecht-mv.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Niedersachsen",
+   "courts": [
+    {
+     "name": "Niedersächsischer Staatsgerichtshof",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Oberlandesgerichte (3: Braunschweig, Celle, Oldenburg)",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Landgerichte (11)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Amtsgerichte (~80)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (7)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Niedersächsisches Oberverwaltungsgericht (Lüneburg)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (15)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Niedersachsen",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Sozialgerichte (8)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Landessozialgericht Niedersachsen-Bremen (shared with Bremen; seat Celle)",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    },
+    {
+     "name": "Niedersächsisches Finanzgericht",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Rechtsprechung Niedersachsen (former juris portal)",
+      "url": "https://www.rechtsprechung.niedersachsen.de/",
+      "evidence": "fetched 2026-11-10: rechtsprechung.niedersachsen.de redirects to NI-VORIS (voris.wolterskluwer-online.de), whose home page offers laws/regulations only; one web search found no current Land decision database",
+      "note": "court websites not checked one by one; commercial databases (juris, beck-online) = blocked (paid)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Nordrhein-Westfalen",
+   "courts": [
+    {
+     "name": "Verfassungsgerichtshof für das Land Nordrhein-Westfalen",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Oberlandesgerichte (3: Düsseldorf, Hamm, Köln)",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Landgerichte (19)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Amtsgerichte (~129)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (7)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Oberverwaltungsgericht NRW (Münster)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (30)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Landesarbeitsgerichte (3: Düsseldorf, Hamm, Köln)",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Sozialgerichte (8)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Landessozialgericht NRW",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    },
+    {
+     "name": "Finanzgerichte (3: Düsseldorf, Köln, Münster)",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "available",
+      "source": "NRWE Rechtsprechungsdatenbank (Justiz NRW)",
+      "url": "https://nrwesuche.justiz.nrw.de/",
+      "evidence": "fetched 2026-11-07: search form gerichtstyp lists Amtsgericht, Landgericht, Oberlandesgericht, Verwaltungsgericht, OVG NRW, Arbeitsgericht, LAG, Sozialgericht, LSG NRW, Finanzgericht, VerfGH NRW; robots.txt 404 (none, re-checked 2026-11-10)",
+      "note": "selected decisions chosen by the courts, not every decision"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Rheinland-Pfalz",
+   "courts": [
+    {
+     "name": "Verfassungsgerichtshof Rheinland-Pfalz",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberlandesgerichte (2: Koblenz, Zweibrücken)",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte (8)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (46)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (4)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberverwaltungsgericht Rheinland-Pfalz (Koblenz)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (5)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Rheinland-Pfalz",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgerichte (4)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landessozialgericht Rheinland-Pfalz",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Finanzgericht Rheinland-Pfalz",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Rheinland-Pfalz (juris)",
+      "url": "https://www.landesrecht.rlp.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Saarland",
+   "courts": [
+    {
+     "name": "Verfassungsgerichtshof des Saarlandes",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Saarländisches Oberlandesgericht",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgericht Saarbrücken",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (10)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgericht des Saarlandes",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberverwaltungsgericht des Saarlandes",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgericht Saarland",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Saarland",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgericht für das Saarland",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landessozialgericht für das Saarland",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Finanzgericht des Saarlandes",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Recht Saarland (juris)",
+      "url": "https://recht.saarland.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Sachsen",
+   "courts": [
+    {
+     "name": "Verfassungsgerichtshof des Freistaates Sachsen",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    },
+    {
+     "name": "Oberlandesgericht Dresden",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "ESAMOSplus – Rechtsprechung Oberlandesgericht Dresden",
+      "url": "https://www.justiz.sachsen.de/esamosplus/pages/index.aspx",
+      "evidence": "fetched 2026-11-10: search form lists Amtsgerichte (10), LG Dresden/Leipzig/Zwickau, OLG Dresden; robots.txt for www.justiz.sachsen.de 'Crawl-delay: 3600'",
+      "note": "free official database, but robots Crawl-delay 3600 s (one request per hour) makes automated use impractical"
+     }
+    },
+    {
+     "name": "Landgerichte (6)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "ESAMOSplus – Rechtsprechung Oberlandesgericht Dresden",
+      "url": "https://www.justiz.sachsen.de/esamosplus/pages/index.aspx",
+      "evidence": "fetched 2026-11-10: search form lists Amtsgerichte (10), LG Dresden/Leipzig/Zwickau, OLG Dresden; robots.txt for www.justiz.sachsen.de 'Crawl-delay: 3600'",
+      "note": "free official database, but robots Crawl-delay 3600 s (one request per hour) makes automated use impractical"
+     }
+    },
+    {
+     "name": "Amtsgerichte (25)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "ESAMOSplus – Rechtsprechung Oberlandesgericht Dresden",
+      "url": "https://www.justiz.sachsen.de/esamosplus/pages/index.aspx",
+      "evidence": "fetched 2026-11-10: search form lists Amtsgerichte (10), LG Dresden/Leipzig/Zwickau, OLG Dresden; robots.txt for www.justiz.sachsen.de 'Crawl-delay: 3600'",
+      "note": "free official database, but robots Crawl-delay 3600 s (one request per hour) makes automated use impractical"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (3: Chemnitz, Dresden, Leipzig)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    },
+    {
+     "name": "Sächsisches Oberverwaltungsgericht (Bautzen)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (5)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    },
+    {
+     "name": "Sächsisches Landesarbeitsgericht",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    },
+    {
+     "name": "Sozialgerichte (3)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    },
+    {
+     "name": "Sächsisches Landessozialgericht",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    },
+    {
+     "name": "Sächsisches Finanzgericht",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "unknown",
+      "source": "Justiz Sachsen court websites",
+      "url": "https://www.justiz.sachsen.de/",
+      "evidence": "fetched 2026-11-10: ESAMOSplus covers ordinary courts only; host robots Crawl-delay: 3600; this branch's own publication not checked",
+      "note": "if published on www.justiz.sachsen.de, the same 3600 s crawl delay applies"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Sachsen-Anhalt",
+   "courts": [
+    {
+     "name": "Landesverfassungsgericht Sachsen-Anhalt",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberlandesgericht Naumburg",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte (4)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (25)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (2: Halle, Magdeburg)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Oberverwaltungsgericht Sachsen-Anhalt (Magdeburg)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (4)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Sachsen-Anhalt",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgerichte (4)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landessozialgericht Sachsen-Anhalt",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Finanzgericht Sachsen-Anhalt",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Sachsen-Anhalt (juris)",
+      "url": "https://www.landesrecht.sachsen-anhalt.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Schleswig-Holstein",
+   "courts": [
+    {
+     "name": "Schleswig-Holsteinisches Landesverfassungsgericht",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Schleswig-Holsteinisches Oberlandesgericht",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte (4)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (22)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Schleswig-Holsteinisches Verwaltungsgericht",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Schleswig-Holsteinisches Oberverwaltungsgericht",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (5)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landesarbeitsgericht Schleswig-Holstein",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgerichte (4)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Schleswig-Holsteinisches Landessozialgericht",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Schleswig-Holsteinisches Finanzgericht",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Gesetze-Rechtsprechung Schleswig-Holstein (juris)",
+      "url": "https://www.gesetze-rechtsprechung.sh.juris.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Thüringen",
+   "courts": [
+    {
+     "name": "Thüringer Verfassungsgerichtshof",
+     "en": "Land constitutional court",
+     "tier": "constitutional",
+     "branch": "constitutional",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Thüringer Oberlandesgericht (Jena)",
+     "en": "Higher regional court(s)",
+     "tier": "appeal",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Landgerichte (4)",
+     "en": "Regional courts (civil and criminal first instance and appeal from AG)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Amtsgerichte (23)",
+     "en": "Local courts (incl. family, insolvency, land-register, agricultural and lay-judge criminal divisions)",
+     "tier": "first-instance",
+     "branch": "civil-criminal",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Verwaltungsgerichte (3: Gera, Meiningen, Weimar)",
+     "en": "Administrative courts",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Thüringer Oberverwaltungsgericht (Weimar)",
+     "en": "Higher administrative court",
+     "tier": "appeal",
+     "branch": "administrative",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Arbeitsgerichte (5)",
+     "en": "Labour courts",
+     "tier": "first-instance",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Thüringer Landesarbeitsgericht",
+     "en": "Higher labour court",
+     "tier": "appeal",
+     "branch": "labour",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Sozialgerichte (4)",
+     "en": "Social courts",
+     "tier": "first-instance",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Thüringer Landessozialgericht",
+     "en": "Higher social court",
+     "tier": "appeal",
+     "branch": "other",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    },
+    {
+     "name": "Thüringer Finanzgericht",
+     "en": "Finance court (sole instance below BFH)",
+     "tier": "first-instance",
+     "branch": "tax",
+     "reached": "no",
+     "via": null,
+     "note": "Land court; Fontes has no Land courts (de.py: 'Federal courts only (NeuRIS)')",
+     "elsewhere": {
+      "status": "blocked",
+      "source": "Landesrecht Thüringen (juris)",
+      "url": "https://landesrecht.thueringen.de/",
+      "evidence": "fetched 2026-11-10: robots.txt allows only named search-engine bots, then 'User-agent: * Disallow: /'",
+      "note": "juris-run Land portal with the Land's published (selected) decisions; robots bars automated use"
+     }
+    }
+   ]
+  }
+ ]
+}

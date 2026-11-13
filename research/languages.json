@@ -1,0 +1,2651 @@
+{
+ "generated_by": "scripts/languages.py",
+ "source_language": "en",
+ "sources": {
+  "official_languages": "Unicode CLDR 49 supplemental territoryInfo, officialStatus official or de_facto_official (https://cdn.jsdelivr.net/npm/cldr-core@49.0.0/supplemental/territoryInfo.json)",
+  "scripts": "Unicode CLDR 49 likelySubtags",
+  "names": "Unicode CLDR 49 localenames (English name, autonym)",
+  "top10_world": "Ethnologue 2026 total speakers, as tabulated by Wikipedia 'List of languages by total number of speakers' (retrieved there 2026-03-08). Unverified against Ethnologue itself, which is paywalled. Russian (210 M) is 11th, behind Urdu.",
+  "cldr_speakers_estimate": "sum over all CLDR territories of population x populationPercent; a rough L1+L2 estimate, used only to order tier 2"
+ },
+ "policy": "Every language listed is required. Tier only sets the order of work: tier 1 = the 10 most-spoken languages in the world (Ethnologue 2026) plus Turkish and European Portuguese (pt = Brazilian, pt-PT = European); tier 2 = every other official or working language of a covered jurisdiction.",
+ "target": [
+  "en",
+  "zh-Hans",
+  "hi",
+  "es",
+  "ar",
+  "fr",
+  "bn",
+  "pt",
+  "id",
+  "ur",
+  "tr",
+  "pt-PT",
+  "ru",
+  "de",
+  "ja",
+  "vi",
+  "ta",
+  "fa",
+  "fil",
+  "it",
+  "ps",
+  "pl",
+  "am",
+  "zh-Hant",
+  "my",
+  "ms",
+  "nl",
+  "uz",
+  "yo",
+  "mg",
+  "ne",
+  "ro",
+  "km",
+  "nan-Hant",
+  "sv",
+  "cs",
+  "wo",
+  "hu",
+  "el",
+  "rw",
+  "qu",
+  "tg",
+  "az",
+  "ht",
+  "he",
+  "ca",
+  "sr-Latn",
+  "bg",
+  "da",
+  "sr",
+  "tk",
+  "sk",
+  "sq",
+  "hr",
+  "fi",
+  "ckb",
+  "nb",
+  "lo",
+  "uz-Cyrl",
+  "hy",
+  "gn",
+  "ka",
+  "bs",
+  "bs-Cyrl",
+  "zgh",
+  "mn",
+  "ay",
+  "ky",
+  "hak-Hant",
+  "lt",
+  "sl",
+  "nn",
+  "ga",
+  "lv",
+  "et",
+  "mt",
+  "lb",
+  "dz",
+  "dv",
+  "is"
+ ],
+ "tier1": [
+  "en",
+  "zh-Hans",
+  "hi",
+  "es",
+  "ar",
+  "fr",
+  "bn",
+  "pt",
+  "id",
+  "ur",
+  "tr",
+  "pt-PT"
+ ],
+ "tier2": [
+  "ru",
+  "de",
+  "ja",
+  "vi",
+  "ta",
+  "fa",
+  "fil",
+  "it",
+  "ps",
+  "pl",
+  "am",
+  "zh-Hant",
+  "my",
+  "ms",
+  "nl",
+  "uz",
+  "yo",
+  "mg",
+  "ne",
+  "ro",
+  "km",
+  "nan-Hant",
+  "sv",
+  "cs",
+  "wo",
+  "hu",
+  "el",
+  "rw",
+  "qu",
+  "tg",
+  "az",
+  "ht",
+  "he",
+  "ca",
+  "sr-Latn",
+  "bg",
+  "da",
+  "sr",
+  "tk",
+  "sk",
+  "sq",
+  "hr",
+  "fi",
+  "ckb",
+  "nb",
+  "lo",
+  "uz-Cyrl",
+  "hy",
+  "gn",
+  "ka",
+  "bs",
+  "bs-Cyrl",
+  "zgh",
+  "mn",
+  "ay",
+  "ky",
+  "hak-Hant",
+  "lt",
+  "sl",
+  "nn",
+  "ga",
+  "lv",
+  "et",
+  "mt",
+  "lb",
+  "dz",
+  "dv",
+  "is"
+ ],
+ "rtl": [
+  "ar",
+  "ur",
+  "fa",
+  "ps",
+  "he",
+  "ckb",
+  "dv"
+ ],
+ "english_only": [
+  "docs/ADAPTER_SPEC.md"
+ ],
+ "languages": [
+  {
+   "code": "en",
+   "name": "English",
+   "autonym": "English",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 1733041002,
+   "ethnologue_2026_total_millions": 1493,
+   "jurisdictions": [
+    "afchpr",
+    "au",
+    "bb",
+    "bs",
+    "bz",
+    "ca",
+    "ccj",
+    "cm",
+    "difc",
+    "echr",
+    "ecowas",
+    "efta",
+    "eu",
+    "gb",
+    "gy",
+    "hk",
+    "icj",
+    "icsid",
+    "ie",
+    "in",
+    "itlos",
+    "jm",
+    "mg",
+    "mt",
+    "mu",
+    "ng",
+    "ph",
+    "pk",
+    "rw",
+    "sc",
+    "sg",
+    "tt",
+    "untc",
+    "us",
+    "wto"
+   ],
+   "cldr_rank": 1
+  },
+  {
+   "code": "zh-Hans",
+   "name": "Simplified Chinese",
+   "autonym": "简体中文",
+   "script": "Hans",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 1285540177,
+   "ethnologue_2026_total_millions": 1183,
+   "jurisdictions": [
+    "cn",
+    "sg",
+    "untc"
+   ],
+   "cldr_rank": 2
+  },
+  {
+   "code": "hi",
+   "name": "Hindi",
+   "autonym": "हिन्दी",
+   "script": "Deva",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 580318483,
+   "ethnologue_2026_total_millions": 611,
+   "jurisdictions": [
+    "in"
+   ],
+   "cldr_rank": 3
+  },
+  {
+   "code": "es",
+   "name": "Spanish",
+   "autonym": "español",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 512398768,
+   "ethnologue_2026_total_millions": 561,
+   "jurisdictions": [
+    "ar",
+    "bo",
+    "cl",
+    "co",
+    "cr",
+    "cu",
+    "do",
+    "ec",
+    "es",
+    "eu",
+    "gt",
+    "hn",
+    "icsid",
+    "pa",
+    "pe",
+    "py",
+    "untc",
+    "uy",
+    "wto"
+   ],
+   "cldr_rank": 4
+  },
+  {
+   "code": "ar",
+   "name": "Arabic",
+   "autonym": "العربية",
+   "script": "Arab",
+   "rtl": true,
+   "non_latin": true,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 378792526,
+   "ethnologue_2026_total_millions": 335,
+   "jurisdictions": [
+    "afchpr",
+    "bh",
+    "difc",
+    "dz",
+    "eg",
+    "il",
+    "iq",
+    "jo",
+    "lb",
+    "ly",
+    "ma",
+    "ps",
+    "untc"
+   ],
+   "cldr_rank": 5
+  },
+  {
+   "code": "fr",
+   "name": "French",
+   "autonym": "français",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 332956351,
+   "ethnologue_2026_total_millions": 334,
+   "jurisdictions": [
+    "afchpr",
+    "bj",
+    "ca",
+    "ch",
+    "ci",
+    "cm",
+    "dz",
+    "echr",
+    "ecowas",
+    "eu",
+    "fr",
+    "ht",
+    "icj",
+    "icsid",
+    "itlos",
+    "lu",
+    "ma",
+    "mc",
+    "mg",
+    "mu",
+    "rw",
+    "sc",
+    "sn",
+    "untc",
+    "wto"
+   ],
+   "cldr_rank": 6
+  },
+  {
+   "code": "bn",
+   "name": "Bangla",
+   "autonym": "বাংলা",
+   "script": "Beng",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 279972074,
+   "ethnologue_2026_total_millions": 274,
+   "jurisdictions": [
+    "bd"
+   ],
+   "cldr_rank": 8
+  },
+  {
+   "code": "pt",
+   "name": "Portuguese",
+   "autonym": "português",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 249463919,
+   "ethnologue_2026_total_millions": 269,
+   "jurisdictions": [
+    "br"
+   ],
+   "cldr_rank": 9
+  },
+  {
+   "code": "id",
+   "name": "Indonesian",
+   "autonym": "Indonesia",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 180640152,
+   "ethnologue_2026_total_millions": 255,
+   "jurisdictions": [
+    "id"
+   ],
+   "cldr_rank": 11
+  },
+  {
+   "code": "ur",
+   "name": "Urdu",
+   "autonym": "اردو",
+   "script": "Arab",
+   "rtl": true,
+   "non_latin": true,
+   "tier": 1,
+   "required": true,
+   "top10_world": true,
+   "cldr_speakers_estimate": 313093257,
+   "ethnologue_2026_total_millions": 246,
+   "jurisdictions": [
+    "pk"
+   ],
+   "cldr_rank": 7
+  },
+  {
+   "code": "tr",
+   "name": "Turkish",
+   "autonym": "Türkçe",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 1,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 82419542,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "tr"
+   ],
+   "cldr_rank": 17
+  },
+  {
+   "code": "pt-PT",
+   "name": "European Portuguese",
+   "autonym": "português europeu",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 1,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 49216599,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "afchpr",
+    "cv",
+    "ecowas",
+    "eu",
+    "mz",
+    "pt"
+   ],
+   "cldr_rank": 21
+  },
+  {
+   "code": "ru",
+   "name": "Russian",
+   "autonym": "русский",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 208192519,
+   "ethnologue_2026_total_millions": 210,
+   "jurisdictions": [
+    "kg",
+    "untc"
+   ],
+   "cldr_rank": 10
+  },
+  {
+   "code": "de",
+   "name": "German",
+   "autonym": "Deutsch",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 142985683,
+   "ethnologue_2026_total_millions": 133,
+   "jurisdictions": [
+    "at",
+    "ch",
+    "de",
+    "eu",
+    "li",
+    "lu"
+   ],
+   "cldr_rank": 12
+  },
+  {
+   "code": "ja",
+   "name": "Japanese",
+   "autonym": "日本語",
+   "script": "Jpan",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 117644926,
+   "ethnologue_2026_total_millions": 126,
+   "jurisdictions": [
+    "jp"
+   ],
+   "cldr_rank": 13
+  },
+  {
+   "code": "vi",
+   "name": "Vietnamese",
+   "autonym": "Tiếng Việt",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 92370781,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "vn"
+   ],
+   "cldr_rank": 14
+  },
+  {
+   "code": "ta",
+   "name": "Tamil",
+   "autonym": "தமிழ்",
+   "script": "Taml",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 90776934,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "sg"
+   ],
+   "cldr_rank": 15
+  },
+  {
+   "code": "fa",
+   "name": "Persian",
+   "autonym": "فارسی",
+   "script": "Arab",
+   "rtl": true,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 89208446,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "af"
+   ],
+   "cldr_rank": 16
+  },
+  {
+   "code": "fil",
+   "name": "Filipino",
+   "autonym": "Filipino",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 73355058,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ph"
+   ],
+   "cldr_rank": 18
+  },
+  {
+   "code": "it",
+   "name": "Italian",
+   "autonym": "italiano",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 70475319,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ch",
+    "eu",
+    "it"
+   ],
+   "cldr_rank": 19
+  },
+  {
+   "code": "ps",
+   "name": "Pashto",
+   "autonym": "پښتو",
+   "script": "Arab",
+   "rtl": true,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 58062881,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "af"
+   ],
+   "cldr_rank": 20
+  },
+  {
+   "code": "pl",
+   "name": "Polish",
+   "autonym": "polski",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 41500501,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "pl"
+   ],
+   "cldr_rank": 22
+  },
+  {
+   "code": "am",
+   "name": "Amharic",
+   "autonym": "አማርኛ",
+   "script": "Ethi",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 39176975,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "et"
+   ],
+   "cldr_rank": 23
+  },
+  {
+   "code": "zh-Hant",
+   "name": "Traditional Chinese",
+   "autonym": "繁體中文",
+   "script": "Hant",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 39078482,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "hk",
+    "tw"
+   ],
+   "cldr_rank": 24
+  },
+  {
+   "code": "my",
+   "name": "Burmese",
+   "autonym": "မြန်မာ",
+   "script": "Mymr",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 37171608,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "mm"
+   ],
+   "cldr_rank": 25
+  },
+  {
+   "code": "ms",
+   "name": "Malay",
+   "autonym": "Melayu",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 37099582,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "sg"
+   ],
+   "cldr_rank": 26
+  },
+  {
+   "code": "nl",
+   "name": "Dutch",
+   "autonym": "Nederlands",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 32854898,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "nl",
+    "sr"
+   ],
+   "cldr_rank": 27
+  },
+  {
+   "code": "uz",
+   "name": "Uzbek",
+   "autonym": "o‘zbek",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 31800898,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "uz"
+   ],
+   "cldr_rank": 28
+  },
+  {
+   "code": "yo",
+   "name": "Yoruba",
+   "autonym": "Èdè Yorùbá",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 31761816,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ng"
+   ],
+   "cldr_rank": 29
+  },
+  {
+   "code": "mg",
+   "name": "Malagasy",
+   "autonym": "Malagasy",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 26507430,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "mg"
+   ],
+   "cldr_rank": 30
+  },
+  {
+   "code": "ne",
+   "name": "Nepali",
+   "autonym": "नेपाली",
+   "script": "Deva",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 21735357,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "np"
+   ],
+   "cldr_rank": 31
+  },
+  {
+   "code": "ro",
+   "name": "Romanian",
+   "autonym": "română",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 20043507,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "md",
+    "ro"
+   ],
+   "cldr_rank": 32
+  },
+  {
+   "code": "km",
+   "name": "Khmer",
+   "autonym": "ខ្មែរ",
+   "script": "Khmr",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 15186693,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "kh"
+   ],
+   "cldr_rank": 33
+  },
+  {
+   "code": "nan-Hant",
+   "name": "Min Nan Chinese (Hant)",
+   "autonym": "臺灣台語",
+   "script": "Hant",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 13473165,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "tw"
+   ],
+   "cldr_rank": 34
+  },
+  {
+   "code": "sv",
+   "name": "Swedish",
+   "autonym": "svenska",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 13338377,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "fi",
+    "se"
+   ],
+   "cldr_rank": 35
+  },
+  {
+   "code": "cs",
+   "name": "Czech",
+   "autonym": "čeština",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 13236058,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "cz",
+    "eu"
+   ],
+   "cldr_rank": 36
+  },
+  {
+   "code": "wo",
+   "name": "Wolof",
+   "autonym": "Wolof",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 13203204,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "sn"
+   ],
+   "cldr_rank": 37
+  },
+  {
+   "code": "hu",
+   "name": "Hungarian",
+   "autonym": "magyar",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 12313192,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "hu"
+   ],
+   "cldr_rank": 38
+  },
+  {
+   "code": "el",
+   "name": "Greek",
+   "autonym": "Ελληνικά",
+   "script": "Grek",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 12249402,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "gr"
+   ],
+   "cldr_rank": 39
+  },
+  {
+   "code": "rw",
+   "name": "Kinyarwanda",
+   "autonym": "Ikinyarwanda",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 11963415,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "rw"
+   ],
+   "cldr_rank": 40
+  },
+  {
+   "code": "qu",
+   "name": "Quechua",
+   "autonym": "Runasimi",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 11942570,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "bo",
+    "ec",
+    "pe"
+   ],
+   "cldr_rank": 41
+  },
+  {
+   "code": "tg",
+   "name": "Tajik",
+   "autonym": "тоҷикӣ",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 10619414,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "tj"
+   ],
+   "cldr_rank": 42
+  },
+  {
+   "code": "az",
+   "name": "Azerbaijani",
+   "autonym": "azərbaycan",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 10101162,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "az"
+   ],
+   "cldr_rank": 43
+  },
+  {
+   "code": "ht",
+   "name": "Haitian Creole",
+   "autonym": "Kreyòl ayisyen",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 9520659,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ht"
+   ],
+   "cldr_rank": 44
+  },
+  {
+   "code": "he",
+   "name": "Hebrew",
+   "autonym": "עברית",
+   "script": "Hebr",
+   "rtl": true,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 9402620,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "il"
+   ],
+   "cldr_rank": 45
+  },
+  {
+   "code": "ca",
+   "name": "Catalan",
+   "autonym": "català",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 8218781,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ad"
+   ],
+   "cldr_rank": 46
+  },
+  {
+   "code": "sr-Latn",
+   "name": "Serbian (Latn)",
+   "autonym": "srpski",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 7709590,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ba",
+    "me",
+    "rs",
+    "xk"
+   ],
+   "cldr_rank": 47
+  },
+  {
+   "code": "bg",
+   "name": "Bulgarian",
+   "autonym": "български",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 7684020,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "bg",
+    "eu"
+   ],
+   "cldr_rank": 48
+  },
+  {
+   "code": "da",
+   "name": "Danish",
+   "autonym": "dansk",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 7247744,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "dk",
+    "eu"
+   ],
+   "cldr_rank": 49
+  },
+  {
+   "code": "sr",
+   "name": "Serbian",
+   "autonym": "српски",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 7189544,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ba",
+    "rs",
+    "xk"
+   ],
+   "cldr_rank": 50
+  },
+  {
+   "code": "tk",
+   "name": "Turkmen",
+   "autonym": "türkmen dili",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 7177805,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "tm"
+   ],
+   "cldr_rank": 51
+  },
+  {
+   "code": "sk",
+   "name": "Slovak",
+   "autonym": "slovenčina",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 6809720,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "sk"
+   ],
+   "cldr_rank": 52
+  },
+  {
+   "code": "sq",
+   "name": "Albanian",
+   "autonym": "shqip",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 6798944,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "al",
+    "xk"
+   ],
+   "cldr_rank": 53
+  },
+  {
+   "code": "hr",
+   "name": "Croatian",
+   "autonym": "hrvatski",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 6790797,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ba",
+    "eu",
+    "hr"
+   ],
+   "cldr_rank": 54
+  },
+  {
+   "code": "fi",
+   "name": "Finnish",
+   "autonym": "suomi",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 5786579,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "fi"
+   ],
+   "cldr_rank": 55
+  },
+  {
+   "code": "ckb",
+   "name": "Central Kurdish",
+   "autonym": "کوردیی ناوەندی",
+   "script": "Arab",
+   "rtl": true,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 5606845,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "iq"
+   ],
+   "cldr_rank": 56
+  },
+  {
+   "code": "nb",
+   "name": "Norwegian Bokmål",
+   "autonym": "norsk bokmål",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 5509731,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "no"
+   ],
+   "cldr_rank": 57
+  },
+  {
+   "code": "lo",
+   "name": "Lao",
+   "autonym": "ລາວ",
+   "script": "Laoo",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 5487956,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "la"
+   ],
+   "cldr_rank": 58
+  },
+  {
+   "code": "uz-Cyrl",
+   "name": "Uzbek (Cyrl)",
+   "autonym": "ўзбекча",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 5483754,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "uz"
+   ],
+   "cldr_rank": 59
+  },
+  {
+   "code": "hy",
+   "name": "Armenian",
+   "autonym": "հայերեն",
+   "script": "Armn",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 5443505,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "am"
+   ],
+   "cldr_rank": 60
+  },
+  {
+   "code": "gn",
+   "name": "Guarani",
+   "autonym": "Avañeʼẽ",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 5268051,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "py"
+   ],
+   "cldr_rank": 61
+  },
+  {
+   "code": "ka",
+   "name": "Georgian",
+   "autonym": "ქართული",
+   "script": "Geor",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 4409180,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ge"
+   ],
+   "cldr_rank": 62
+  },
+  {
+   "code": "bs",
+   "name": "Bosnian",
+   "autonym": "bosanski",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 3760683,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ba"
+   ],
+   "cldr_rank": 63
+  },
+  {
+   "code": "bs-Cyrl",
+   "name": "Bosnian (Cyrl)",
+   "autonym": "босански",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 3760683,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ba"
+   ],
+   "cldr_rank": 64
+  },
+  {
+   "code": "zgh",
+   "name": "Standard Moroccan Tamazight",
+   "autonym": "ⵜⴰⵎⴰⵣⵉⵖⵜ",
+   "script": "Tfng",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 3663985,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ma"
+   ],
+   "cldr_rank": 65
+  },
+  {
+   "code": "mn",
+   "name": "Mongolian",
+   "autonym": "монгол",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 3056609,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "mn"
+   ],
+   "cldr_rank": 66
+  },
+  {
+   "code": "ay",
+   "name": "Aymara",
+   "autonym": "Aymar aru",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 2984003,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "bo"
+   ],
+   "cldr_rank": 67
+  },
+  {
+   "code": "ky",
+   "name": "Kyrgyz",
+   "autonym": "кыргызча",
+   "script": "Cyrl",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 2962608,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "kg"
+   ],
+   "cldr_rank": 68
+  },
+  {
+   "code": "hak-Hant",
+   "name": "Hakka Chinese (Hant)",
+   "autonym": "臺灣客家語",
+   "script": "Hant",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 2595483,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "tw"
+   ],
+   "cldr_rank": 69
+  },
+  {
+   "code": "lt",
+   "name": "Lithuanian",
+   "autonym": "lietuvių",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 2405298,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu"
+   ],
+   "cldr_rank": 70
+  },
+  {
+   "code": "sl",
+   "name": "Slovenian",
+   "autonym": "slovenščina",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 1967013,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "si"
+   ],
+   "cldr_rank": 71
+  },
+  {
+   "code": "nn",
+   "name": "Norwegian Nynorsk",
+   "autonym": "norsk nynorsk",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 1377432,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "no"
+   ],
+   "cldr_rank": 72
+  },
+  {
+   "code": "ga",
+   "name": "Irish",
+   "autonym": "Gaeilge",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 1254050,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "ie"
+   ],
+   "cldr_rank": 73
+  },
+  {
+   "code": "lv",
+   "name": "Latvian",
+   "autonym": "latviešu",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 1098762,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "lv"
+   ],
+   "cldr_rank": 74
+  },
+  {
+   "code": "et",
+   "name": "Estonian",
+   "autonym": "eesti",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 853780,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "ee",
+    "eu"
+   ],
+   "cldr_rank": 75
+  },
+  {
+   "code": "mt",
+   "name": "Maltese",
+   "autonym": "Malti",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 469730,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "eu",
+    "mt"
+   ],
+   "cldr_rank": 76
+  },
+  {
+   "code": "lb",
+   "name": "Luxembourgish",
+   "autonym": "Lëtzebuergesch",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 449740,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "lu"
+   ],
+   "cldr_rank": 77
+  },
+  {
+   "code": "dz",
+   "name": "Dzongkha",
+   "autonym": "རྫོང་ཁ",
+   "script": "Tibt",
+   "rtl": false,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 418555,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "bt"
+   ],
+   "cldr_rank": 78
+  },
+  {
+   "code": "dv",
+   "name": "Divehi",
+   "autonym": "ދިވެހި",
+   "script": "Thaa",
+   "rtl": true,
+   "non_latin": true,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 385308,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "mv"
+   ],
+   "cldr_rank": 79
+  },
+  {
+   "code": "is",
+   "name": "Icelandic",
+   "autonym": "íslenska",
+   "script": "Latn",
+   "rtl": false,
+   "non_latin": false,
+   "tier": 2,
+   "required": true,
+   "top10_world": false,
+   "cldr_speakers_estimate": 364036,
+   "ethnologue_2026_total_millions": null,
+   "jurisdictions": [
+    "is"
+   ],
+   "cldr_rank": 80
+  }
+ ],
+ "jurisdictions": {
+  "ad": {
+   "languages": [
+    "ca"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AD"
+  },
+  "af": {
+   "languages": [
+    "fa",
+    "ps"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AF"
+  },
+  "afchpr": {
+   "languages": [
+    "en",
+    "fr",
+    "ar",
+    "pt-PT"
+   ],
+   "basis": "African Court Rules of Court r. 18: the official languages of the African Union; in practice judgments appear in English and French, some in Arabic and Portuguese (unverified which are formal working languages)"
+  },
+  "al": {
+   "languages": [
+    "sq"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AL"
+  },
+  "am": {
+   "languages": [
+    "hy"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AM"
+  },
+  "ar": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AR"
+  },
+  "at": {
+   "languages": [
+    "de"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AT"
+  },
+  "au": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AU"
+  },
+  "az": {
+   "languages": [
+    "az"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "AZ"
+  },
+  "ba": {
+   "languages": [
+    "bs",
+    "bs-Cyrl",
+    "hr",
+    "sr",
+    "sr-Latn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BA"
+  },
+  "bb": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BB"
+  },
+  "bd": {
+   "languages": [
+    "bn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BD"
+  },
+  "bg": {
+   "languages": [
+    "bg"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BG"
+  },
+  "bh": {
+   "languages": [
+    "ar"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BH"
+  },
+  "bj": {
+   "languages": [
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BJ"
+  },
+  "bo": {
+   "languages": [
+    "ay",
+    "es",
+    "qu"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BO"
+  },
+  "br": {
+   "languages": [
+    "pt"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BR"
+  },
+  "bs": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BS"
+  },
+  "bt": {
+   "languages": [
+    "dz"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BT"
+  },
+  "bz": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "BZ"
+  },
+  "ca": {
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CA"
+  },
+  "ccj": {
+   "languages": [
+    "en"
+   ],
+   "basis": "Caribbean Court of Justice sits in English"
+  },
+  "ch": {
+   "languages": [
+    "de",
+    "fr",
+    "it"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CH"
+  },
+  "ci": {
+   "languages": [
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CI"
+  },
+  "cl": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CL"
+  },
+  "cm": {
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CM"
+  },
+  "cn": {
+   "languages": [
+    "zh-Hans"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CN"
+  },
+  "co": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CO"
+  },
+  "cr": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CR"
+  },
+  "cu": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CU"
+  },
+  "cv": {
+   "languages": [
+    "pt-PT"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CV"
+  },
+  "cz": {
+   "languages": [
+    "cs"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "CZ"
+  },
+  "de": {
+   "languages": [
+    "de"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "DE"
+  },
+  "difc": {
+   "languages": [
+    "en",
+    "ar"
+   ],
+   "basis": "DIFC Courts proceed in English; the UAE's official language (ar) is added from CLDR",
+   "territory": "AE"
+  },
+  "dk": {
+   "languages": [
+    "da"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "DK"
+  },
+  "do": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "DO"
+  },
+  "dz": {
+   "languages": [
+    "ar",
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "DZ"
+  },
+  "ec": {
+   "languages": [
+    "es",
+    "qu"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "EC"
+  },
+  "echr": {
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "basis": "ECHR Rules of Court r. 34: official languages English and French"
+  },
+  "ecowas": {
+   "languages": [
+    "en",
+    "fr",
+    "pt-PT"
+   ],
+   "basis": "ECOWAS Court: English, French and Portuguese"
+  },
+  "ee": {
+   "languages": [
+    "et"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "EE"
+  },
+  "efta": {
+   "languages": [
+    "en"
+   ],
+   "basis": "EFTA Court: language of the court is English"
+  },
+  "eg": {
+   "languages": [
+    "ar"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "EG"
+  },
+  "es": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "ES"
+  },
+  "et": {
+   "languages": [
+    "am"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "ET"
+  },
+  "eu": {
+   "languages": [
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "ga",
+    "hr",
+    "hu",
+    "it",
+    "lt",
+    "lv",
+    "mt",
+    "nl",
+    "pl",
+    "pt-PT",
+    "ro",
+    "sk",
+    "sl",
+    "sv"
+   ],
+   "basis": "CJEU: any of the 24 official EU languages can be the language of a case (Rules of Procedure art. 36); internal working language French"
+  },
+  "fi": {
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "FI"
+  },
+  "fr": {
+   "languages": [
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "FR",
+   "pending": true
+  },
+  "gb": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "GB"
+  },
+  "ge": {
+   "languages": [
+    "ka"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "GE"
+  },
+  "gr": {
+   "languages": [
+    "el"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "GR"
+  },
+  "gt": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "GT"
+  },
+  "gy": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "GY"
+  },
+  "hk": {
+   "languages": [
+    "en",
+    "zh-Hant"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "HK"
+  },
+  "hn": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "HN"
+  },
+  "hr": {
+   "languages": [
+    "hr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "HR"
+  },
+  "ht": {
+   "languages": [
+    "fr",
+    "ht"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "HT"
+  },
+  "hu": {
+   "languages": [
+    "hu"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "HU"
+  },
+  "icj": {
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "basis": "ICJ Statute art. 39: English and French"
+  },
+  "icsid": {
+   "languages": [
+    "en",
+    "fr",
+    "es"
+   ],
+   "basis": "ICSID: English, French and Spanish"
+  },
+  "id": {
+   "languages": [
+    "id"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "ID"
+  },
+  "ie": {
+   "languages": [
+    "en",
+    "ga"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "IE"
+  },
+  "il": {
+   "languages": [
+    "ar",
+    "he"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "IL"
+  },
+  "in": {
+   "languages": [
+    "en",
+    "hi"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "IN"
+  },
+  "iq": {
+   "languages": [
+    "ar",
+    "ckb"
+   ],
+   "basis": "CLDR officialStatus; plus ckb: Iraq Constitution art. 4: Arabic and Kurdish are the two official languages; the iq adapter covers the Kurdistan Region. CLDR marks ckb only official_regional.",
+   "territory": "IQ"
+  },
+  "is": {
+   "languages": [
+    "is"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "IS"
+  },
+  "it": {
+   "languages": [
+    "it"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "IT"
+  },
+  "itlos": {
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "basis": "ITLOS Statute art. 1 / Rules art. 43: English and French"
+  },
+  "jm": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "JM"
+  },
+  "jo": {
+   "languages": [
+    "ar"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "JO"
+  },
+  "jp": {
+   "languages": [
+    "ja"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "JP"
+  },
+  "kg": {
+   "languages": [
+    "ky",
+    "ru"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "KG"
+  },
+  "kh": {
+   "languages": [
+    "km"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "KH"
+  },
+  "la": {
+   "languages": [
+    "lo"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "LA"
+  },
+  "lb": {
+   "languages": [
+    "ar"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "LB"
+  },
+  "li": {
+   "languages": [
+    "de"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "LI"
+  },
+  "lu": {
+   "languages": [
+    "de",
+    "fr",
+    "lb"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "LU"
+  },
+  "lv": {
+   "languages": [
+    "lv"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "LV"
+  },
+  "ly": {
+   "languages": [
+    "ar"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "LY"
+  },
+  "ma": {
+   "languages": [
+    "ar",
+    "fr",
+    "zgh"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MA"
+  },
+  "mc": {
+   "languages": [
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MC"
+  },
+  "md": {
+   "languages": [
+    "ro"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MD"
+  },
+  "me": {
+   "languages": [
+    "sr-Latn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "ME"
+  },
+  "mg": {
+   "languages": [
+    "en",
+    "fr",
+    "mg"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MG"
+  },
+  "mm": {
+   "languages": [
+    "my"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MM"
+  },
+  "mn": {
+   "languages": [
+    "mn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MN"
+  },
+  "mt": {
+   "languages": [
+    "en",
+    "mt"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MT"
+  },
+  "mu": {
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MU"
+  },
+  "mv": {
+   "languages": [
+    "dv"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MV"
+  },
+  "mz": {
+   "languages": [
+    "pt-PT"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "MZ"
+  },
+  "ng": {
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "NG"
+  },
+  "nl": {
+   "languages": [
+    "nl"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "NL"
+  },
+  "no": {
+   "languages": [
+    "nb",
+    "nn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "NO"
+  },
+  "np": {
+   "languages": [
+    "ne"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "NP"
+  },
+  "pa": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PA"
+  },
+  "pe": {
+   "languages": [
+    "es",
+    "qu"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PE"
+  },
+  "ph": {
+   "languages": [
+    "en",
+    "fil"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PH"
+  },
+  "pk": {
+   "languages": [
+    "en",
+    "ur"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PK"
+  },
+  "pl": {
+   "languages": [
+    "pl"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PL"
+  },
+  "ps": {
+   "languages": [
+    "ar"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PS"
+  },
+  "pt": {
+   "languages": [
+    "pt-PT"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PT"
+  },
+  "py": {
+   "languages": [
+    "es",
+    "gn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "PY"
+  },
+  "ro": {
+   "languages": [
+    "ro"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "RO"
+  },
+  "rs": {
+   "languages": [
+    "sr",
+    "sr-Latn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "RS"
+  },
+  "rw": {
+   "languages": [
+    "en",
+    "fr",
+    "rw"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "RW"
+  },
+  "sc": {
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "SC"
+  },
+  "se": {
+   "languages": [
+    "sv"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "SE"
+  },
+  "sg": {
+   "languages": [
+    "en",
+    "ms",
+    "ta",
+    "zh-Hans"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "SG"
+  },
+  "si": {
+   "languages": [
+    "sl"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "SI"
+  },
+  "sk": {
+   "languages": [
+    "sk"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "SK"
+  },
+  "sn": {
+   "languages": [
+    "fr",
+    "wo"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "SN"
+  },
+  "sr": {
+   "languages": [
+    "nl"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "SR"
+  },
+  "tj": {
+   "languages": [
+    "tg"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "TJ"
+  },
+  "tm": {
+   "languages": [
+    "tk"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "TM"
+  },
+  "tr": {
+   "languages": [
+    "tr"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "TR"
+  },
+  "tt": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "TT"
+  },
+  "tw": {
+   "languages": [
+    "hak-Hant",
+    "nan-Hant",
+    "zh-Hant"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "TW"
+  },
+  "untc": {
+   "languages": [
+    "ar",
+    "zh-Hans",
+    "en",
+    "fr",
+    "ru",
+    "es"
+   ],
+   "basis": "UN Treaty Collection: the six UN official languages"
+  },
+  "us": {
+   "languages": [
+    "en"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "US"
+  },
+  "uy": {
+   "languages": [
+    "es"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "UY"
+  },
+  "uz": {
+   "languages": [
+    "uz",
+    "uz-Cyrl"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "UZ"
+  },
+  "vn": {
+   "languages": [
+    "vi"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "VN"
+  },
+  "wto": {
+   "languages": [
+    "en",
+    "fr",
+    "es"
+   ],
+   "basis": "WTO: English, French and Spanish"
+  },
+  "xk": {
+   "languages": [
+    "sq",
+    "sr",
+    "sr-Latn"
+   ],
+   "basis": "CLDR officialStatus",
+   "territory": "XK"
+  }
+ },
+ "dropped": [
+  {
+   "cldr": "az_Cyrl",
+   "jurisdiction": "az",
+   "reason": "Azerbaijan abandoned Cyrillic for Latin (1991 law, fully by 2001); nothing official is written in it now. az (Latin) covers it."
+  },
+  {
+   "cldr": "gsw",
+   "jurisdiction": "ch",
+   "reason": "Swiss German has no standard written form; Switzerland and Liechtenstein write Standard German (de)."
+  },
+  {
+   "cldr": "gsw",
+   "jurisdiction": "li",
+   "reason": "Swiss German has no standard written form; Switzerland and Liechtenstein write Standard German (de)."
+  }
+ ]
+}

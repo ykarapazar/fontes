@@ -1,0 +1,121 @@
+{
+ "data": {
+  "mevzuatList": [
+   {
+    "mevzuatId": "105924",
+    "mevzuatNo": 24638,
+    "mevzuatAdi": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU YÖNETMELİĞİ",
+    "mevzuatTur": {
+     "id": 7,
+     "name": "KKY",
+     "description": "Kurum ve Kuruluş Yönetmelikleri",
+     "maddeSonuRegex": ".*Bu Yönetmelik hükümlerini.*yürütür\\."
+    },
+    "mevzuatTertip": 5,
+    "kayitTarihi": "2018-06-04T08:56:00",
+    "guncellemeTarihi": null,
+    "resmiGazeteTarihi": "2018-06-02T00:00:00",
+    "resmiGazeteSayisi": "30439",
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24638&MevzuatTur=7&MevzuatTertip=5",
+    "mukerrer": null,
+    "ekler": null,
+    "gerekceId": null
+   },
+   {
+    "mevzuatId": "106510",
+    "mevzuatNo": 23513,
+    "mevzuatAdi": "TÜRKİYE BAROLAR BİRLİĞİ UZLAŞMA SAĞLAMA YÖNETMELİĞİ",
+    "mevzuatTur": {
+     "id": 7,
+     "name": "KKY",
+     "description": "Kurum ve Kuruluş Yönetmelikleri",
+     "maddeSonuRegex": ".*Bu Yönetmelik hükümlerini.*yürütür\\."
+    },
+    "mevzuatTertip": 5,
+    "kayitTarihi": "2017-04-14T09:21:00",
+    "guncellemeTarihi": null,
+    "resmiGazeteTarihi": "2017-04-14T00:00:00",
+    "resmiGazeteSayisi": "30038",
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=23513&MevzuatTur=7&MevzuatTertip=5",
+    "mukerrer": null,
+    "ekler": null,
+    "gerekceId": null
+   },
+   {
+    "mevzuatId": "106026",
+    "mevzuatNo": 24436,
+    "mevzuatAdi": "BASINÇLI EKİPMANLAR YÖNETMELİĞİ (2014/68/AB)",
+    "mevzuatTur": {
+     "id": 7,
+     "name": "KKY",
+     "description": "Kurum ve Kuruluş Yönetmelikleri",
+     "maddeSonuRegex": ".*Bu Yönetmelik hükümlerini.*yürütür\\."
+    },
+    "mevzuatTertip": 5,
+    "kayitTarihi": "2018-03-05T09:07:00",
+    "guncellemeTarihi": null,
+    "resmiGazeteTarihi": "2018-03-03T00:00:00",
+    "resmiGazeteSayisi": "30349",
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=24436&MevzuatTur=7&MevzuatTertip=5",
+    "mukerrer": null,
+    "ekler": [
+     "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.24436-Ek.docx"
+    ],
+    "gerekceId": null
+   },
+   {
+    "mevzuatId": "107060",
+    "mevzuatNo": 21322,
+    "mevzuatAdi": "BİR AVUKAT YANINDA, AVUKATLIK ORTAKLIĞINDA VEYA AVUKATLIK BÜROSUNDA ÜCRET KARŞILIĞI BİRLİKTE ÇALIŞAN AVUKATLARIN ÇALIŞMA ESASLARINA İLİŞKİN YÖNETMELİK",
+    "mevzuatTur": {
+     "id": 7,
+     "name": "KKY",
+     "description": "Kurum ve Kuruluş Yönetmelikleri",
+     "maddeSonuRegex": ".*Bu Yönetmelik hükümlerini.*yürütür\\."
+    },
+    "mevzuatTertip": 5,
+    "kayitTarihi": "2015-12-26T14:41:00",
+    "guncellemeTarihi": null,
+    "resmiGazeteTarihi": "2015-12-26T00:00:00",
+    "resmiGazeteSayisi": "29574",
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=21322&MevzuatTur=7&MevzuatTertip=5",
+    "mukerrer": null,
+    "ekler": [
+     "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.21322-ek.htm"
+    ],
+    "gerekceId": null
+   },
+   {
+    "mevzuatId": "108281",
+    "mevzuatNo": 19218,
+    "mevzuatAdi": "TÜRKİYE SİGORTA, REASÜRANS VE EMEKLİLİK ŞİRKETLERİ BİRLİĞİNİN ÇALIŞMA USUL VE ESASLARI HAKKINDA YÖNETMELİK",
+    "mevzuatTur": {
+     "id": 7,
+     "name": "KKY",
+     "description": "Kurum ve Kuruluş Yönetmelikleri",
+     "maddeSonuRegex": ".*Bu Yönetmelik hükümlerini.*yürütür\\."
+    },
+    "mevzuatTertip": 5,
+    "kayitTarihi": "2014-01-02T09:17:00",
+    "guncellemeTarihi": null,
+    "resmiGazeteTarihi": "2014-01-02T00:00:00",
+    "resmiGazeteSayisi": "28870",
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=19218&MevzuatTur=7&MevzuatTertip=5",
+    "mukerrer": null,
+    "ekler": null,
+    "gerekceId": null
+   }
+  ],
+  "total": 64,
+  "start": 0
+ },
+ "metadata": {
+  "FMTY": "SUCCESS",
+  "FMC": "ADALET_SUCCESS",
+  "FMTE": "İşlem başarıyla gerçekleştirildi!",
+  "FMU": "İşlem başarıyla gerçekleştirildi!",
+  "PTID": null,
+  "TID": "76e2bda8a82bb5605dca45dcbb5d4b2f",
+  "SID": "764db1a33db244f0"
+ }
+}

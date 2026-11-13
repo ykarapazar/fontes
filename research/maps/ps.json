@@ -1,0 +1,355 @@
+{
+  "code": "ps",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.courts.gov.ps/details.aspx?id=nEBreLa12677349960anEBreL",
+    "https://www.tscc.pna.ps/en/"
+  ],
+  "courts": [
+    {
+      "name": "المحكمة الدستورية العليا",
+      "en": "Supreme Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+      "note": "Maqam (non-official); no court filter"
+    },
+    {
+      "name": "محكمة النقض",
+      "en": "Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+      "note": "Maqam (non-official); no court filter"
+    },
+    {
+      "name": "محكمة العدل العليا / المحكمة الإدارية العليا",
+      "en": "High Court of Justice (administrative)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+      "note": "Maqam (non-official); no court filter"
+    },
+    {
+      "name": "المحكمة الإدارية",
+      "en": "Administrative Court (first instance, Decree-Law 41/2020)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "created 2020 with the High Administrative Court; West Bank",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07 and again 2026-11-10; Maqam judgment list sampled (pages 1,5,20,50): only Cassation, Corruption Crimes and Constitutional courts",
+        "note": "Official site unreachable from UK (down or geo-block); no other source found."
+      }
+    },
+    {
+      "name": "محاكم الاستئناف",
+      "en": "Courts of appeal (Jerusalem/Ramallah, Gaza)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "official sites unreachable",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout again 2026-11-07 (also hjc.pna.ps); Maqam judgment list sampled (pages 1,5,20,50): only Cassation, Corruption Crimes and Constitutional courts",
+        "note": "Official site unreachable from UK (cause unknown: down or geo-block). Maqam appears not to carry appeal rulings."
+      }
+    },
+    {
+      "name": "محاكم البداية بصفتها الاستئنافية",
+      "en": "First-instance courts sitting on appeal from magistrates",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07 and again 2026-11-10; Maqam judgment list sampled (pages 1,5,20,50): only Cassation, Corruption Crimes and Constitutional courts",
+        "note": "Official site unreachable from UK (down or geo-block); no other source found."
+      }
+    },
+    {
+      "name": "محاكم البداية",
+      "en": "Courts of first instance",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "official sites unreachable",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07",
+        "note": "Official site unreachable from UK; no other source found."
+      }
+    },
+    {
+      "name": "محاكم الصلح",
+      "en": "Magistrate courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "official sites unreachable",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07",
+        "note": "Official site unreachable from UK; no other source found."
+      }
+    },
+    {
+      "name": "محاكم الأحداث",
+      "en": "Juvenile courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Decree-Law 4/2016 on juvenile protection",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07 and again 2026-11-10; Maqam judgment list sampled (pages 1,5,20,50): only Cassation, Corruption Crimes and Constitutional courts",
+        "note": "Official site unreachable from UK (down or geo-block); no other source found."
+      }
+    },
+    {
+      "name": "محكمة جرائم الفساد",
+      "en": "Corruption Crimes Court",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+      "note": "Maqam carries some of its rulings (seen on judgments list); the Maqam search has no court filter, so they are returned",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07 and 2026-11-10; fetched 2026-11-07: maqam.najah.edu/judgments/ lists 'محكمة جرائم الفساد' rulings",
+        "note": "Missing part = rulings Maqam does not carry; official site unreachable."
+      }
+    },
+    {
+      "name": "محكمة قضايا ضريبة الدخل",
+      "en": "Income Tax Court",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07 and again 2026-11-10; Maqam judgment list sampled (pages 1,5,20,50): only Cassation, Corruption Crimes and Constitutional courts",
+        "note": "Official site unreachable from UK (down or geo-block); no other source found."
+      }
+    },
+    {
+      "name": "محكمة الجمارك",
+      "en": "Customs Court",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "High Judicial Council (courts.gov.ps)",
+        "url": "https://www.courts.gov.ps/",
+        "evidence": "connect timeout 2026-11-07 and again 2026-11-10; Maqam judgment list sampled (pages 1,5,20,50): only Cassation, Corruption Crimes and Constitutional courts",
+        "note": "Official site unreachable from UK (down or geo-block); no other source found."
+      }
+    },
+    {
+      "name": "المحكمة العليا الشرعية",
+      "en": "Supreme Sharia Court",
+      "tier": "apex",
+      "branch": "religious",
+      "reached": "no",
+      "via": null,
+      "note": "Supreme Sharia Judge Department (ديوان قاضي القضاة)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Sharia Judge Department",
+        "url": "https://www.kudah.pna.ps/",
+        "evidence": "connect timeout 2026-11-10; search result only: no official judgment database found; Birzeit print collection (2012) only",
+        "note": "No official online publication found."
+      }
+    },
+    {
+      "name": "محاكم الاستئناف الشرعية",
+      "en": "Sharia courts of appeal",
+      "tier": "appeal",
+      "branch": "religious",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Sharia Judge Department",
+        "url": "https://www.kudah.pna.ps/",
+        "evidence": "connect timeout 2026-11-10; search result only",
+        "note": "No official online publication found."
+      }
+    },
+    {
+      "name": "المحاكم الشرعية الابتدائية",
+      "en": "Sharia first-instance courts",
+      "tier": "first-instance",
+      "branch": "religious",
+      "reached": "no",
+      "via": null,
+      "note": "personal status of Muslims",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Sharia Judge Department",
+        "url": "https://www.kudah.pna.ps/",
+        "evidence": "connect timeout 2026-11-10; search result only",
+        "note": "No official online publication found."
+      }
+    },
+    {
+      "name": "المحاكم الكنسية",
+      "en": "Ecclesiastical courts",
+      "tier": "specialised",
+      "branch": "religious",
+      "reached": "no",
+      "via": null,
+      "note": "personal status of Christian communities",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10): only the Birzeit 2012 print study",
+        "note": "No online publication found."
+      }
+    },
+    {
+      "name": "هيئة القضاء العسكري – المحكمة العسكرية العليا",
+      "en": "Military High Court",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked."
+      }
+    },
+    {
+      "name": "المحاكم العسكرية الدائمة والخاصة",
+      "en": "Permanent and special military courts",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "القانون الأساسي",
+      "en": "Basic Law",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+      "note": "Maqam (non-official)"
+    },
+    {
+      "name": "القوانين / القرارات بقانون",
+      "en": "Laws and decree-laws",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+      "note": "Maqam (non-official)"
+    },
+    {
+      "name": "اللوائح والأنظمة",
+      "en": "Regulations",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+      "note": "Maqam (non-official); coverage not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Official Gazette Bureau (ogb.gov.ps / lab.pna.ps)",
+        "url": "https://ogb.gov.ps/",
+        "evidence": "connect timeout 2026-11-07 (lab.pna.ps now redirects to ogb.gov.ps)",
+        "note": "Missing part: completeness vs the official gazette, not checked; official site unreachable from UK."
+      }
+    },
+    {
+      "name": "الوقائع الفلسطينية",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "official sites unreachable",
+      "elsewhere": {
+        "status": "available",
+        "source": "Maqam (An-Najah University, academic)",
+        "url": "https://maqam.najah.edu/",
+        "evidence": "adapter ps.py docstring (header search returns gazette issues)",
+        "note": "UNOFFICIAL: Maqam lists Official Gazette issues in its public search. Official ogb.gov.ps (lab.pna.ps redirects there) timed out from UK on 2026-11-07."
+      }
+    },
+    {
+      "name": "الأنظمة المحلية",
+      "en": "Local by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not researched",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked."
+      }
+    },
+    {
+      "name": "الاتفاقيات الدولية",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not researched",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked."
+      }
+    }
+  ]
+}

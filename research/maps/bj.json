@@ -1,0 +1,332 @@
+{
+  "code": "bj",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://sgg.gouv.bj/doc/loi-2001-37/download",
+    "https://www.gouv.bj/article/644/rupture-4---secteur-justice-legislation-%E2%80%93-grandes-reformes-justice-plus-proche-justiciables/"
+  ],
+  "courts": [
+    {
+      "name": "Cour constitutionnelle",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Cour constitutionnelle du Bénin: décisions (courconstitutionnelle.bj)",
+      "note": "search by decision number or applicant only; keyword search broken at source (Algolia HTTP 500)"
+    },
+    {
+      "name": "Cour suprême",
+      "en": "Supreme Court (judicial and administrative chambers)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (coursupreme.bj is a static page only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Juricaf (AHJUCAF, association of francophone supreme courts)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-07: Bénin facet lists Cour suprême (4,032 decisions); robots.txt disallows /recherche/+/ for all and everything for ~94 named AI agents incl. Claude-User",
+        "note": "not the court's own site (coursupreme.bj has no decisions and did not connect 2026-11-07); robots.txt blocks search"
+      }
+    },
+    {
+      "name": "Cour des comptes",
+      "en": "Court of Auditors",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no arrêts online (site says none available)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour des comptes – Décisions et Arrêts",
+        "url": "https://www.courdescomptes.bj/arrets",
+        "evidence": "fetched 2026-11-07: page says 'Aucun arrêt disponible'",
+        "note": "only public reports (Rapports publics) are online; robots.txt allows all"
+      }
+    },
+    {
+      "name": "Haute Cour de justice",
+      "en": "High Court of Justice",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no site found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "no site found; hautecourdejustice.bj does not connect"
+      }
+    },
+    {
+      "name": "Cour de répression des infractions économiques et du terrorisme (CRIET)",
+      "en": "Court for economic offences and terrorism",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official decision database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "CRIET",
+        "url": "https://criet.bj",
+        "evidence": "fetch failed 2026-11-07 (no connection)",
+        "note": "no official decision database found by search; CRIET rulings appear only in press and African Court files"
+      }
+    },
+    {
+      "name": "Cour spéciale des affaires foncières (CSAF)",
+      "en": "Special Land Court (first-instance and appeal chambers; Law 2022-16, sitting since May 2023)",
+      "tier": "specialised",
+      "branch": "land",
+      "reached": "no",
+      "via": null,
+      "note": "no official decision database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: beninwebtv.bj and APA News on Law 2022-16 and the first hearings)",
+        "note": "no official site or decision database found"
+      }
+    },
+    {
+      "name": "Cours d'appel",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Lower courts: a few on Juricaf (robots blocks search)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Juricaf (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-07: Bénin facet lists Cour d'appel (91)",
+        "note": "few decisions; robots.txt disallows /recherche/+/ and blocks named AI agents"
+      }
+    },
+    {
+      "name": "Cours d'appel de commerce",
+      "en": "Commercial courts of appeal (Law 2016-15; Cotonou)",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: Lextenso 2017 'Enfin des juridictions commerciales au Bénin' on Law 2016-15; no decision database found)",
+        "note": "Law 2016-15 created commercial courts (Cotonou operational); no official publication of their decisions found"
+      }
+    },
+    {
+      "name": "Tribunaux de première instance (1re et 2e classe)",
+      "en": "First-instance courts (civil, commercial outside Cotonou, social/labour, administrative, criminal chambers; juvenile judges)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Lower courts: a few on Juricaf (robots blocks search)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Juricaf (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-07: Bénin facet lists Tribunal de première instance (62)",
+        "note": "few decisions; robots.txt disallows /recherche/+/ and blocks named AI agents"
+      }
+    },
+    {
+      "name": "Tribunaux de commerce",
+      "en": "Commercial courts (Law 2016-15; Cotonou, Abomey and Parakou provided for)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: Lextenso 2017 'Enfin des juridictions commerciales au Bénin' on Law 2016-15; no decision database found)",
+        "note": "Law 2016-15 created commercial courts (Cotonou operational); no official publication of their decisions found"
+      }
+    },
+    {
+      "name": "Juridictions pour mineurs (juge des enfants, tribunal pour enfants)",
+      "en": "Juvenile courts (within the first-instance courts)",
+      "tier": "specialised",
+      "branch": "juvenile",
+      "reached": "no",
+      "via": null,
+      "note": "not published",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07)",
+        "note": "juvenile proceedings are closed; no publication found"
+      }
+    },
+    {
+      "name": "Tribunaux de conciliation",
+      "en": "Conciliation tribunals (one per arrondissement)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not published",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: memoireonline commentary on Law 2001-37)",
+        "note": "conciliation produces minutes, not published; none found online"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution",
+      "en": "Constitution (loi 90-32, revised by loi 2019-40)",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj)",
+      "note": "only as a loi PDF if SGG lists it (not checked); texts as promulgated; many recent PDFs image-only, no OCR here",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CDIJ, base de données juridiques (legis.cdij.bj)",
+        "url": "https://legis.cdij.bj",
+        "evidence": "used by nothing; terms quoted in src/world_legal_mcp/jurisdictions/bj.py",
+        "note": "missing part: text of image-only SGG PDFs (needs OCR) and consolidation; CDIJ would cover it but terms forbid reproduction without written consent"
+      }
+    },
+    {
+      "name": "Lois",
+      "en": "Acts of the Assemblée nationale",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj)",
+      "note": "texts as promulgated; many recent PDFs image-only, no OCR here",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CDIJ, base de données juridiques (legis.cdij.bj)",
+        "url": "https://legis.cdij.bj",
+        "evidence": "used by nothing; terms quoted in src/world_legal_mcp/jurisdictions/bj.py",
+        "note": "missing part: text of image-only SGG PDFs (needs OCR) and consolidation; CDIJ would cover it but terms forbid reproduction without written consent"
+      }
+    },
+    {
+      "name": "Ordonnances",
+      "en": "Ordinances",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj)",
+      "note": "texts as promulgated; many recent PDFs image-only, no OCR here",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CDIJ, base de données juridiques (legis.cdij.bj)",
+        "url": "https://legis.cdij.bj",
+        "evidence": "used by nothing; terms quoted in src/world_legal_mcp/jurisdictions/bj.py",
+        "note": "missing part: text of image-only SGG PDFs (needs OCR) and consolidation; CDIJ would cover it but terms forbid reproduction without written consent"
+      }
+    },
+    {
+      "name": "Décrets",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj)",
+      "note": "texts as promulgated; many recent PDFs image-only, no OCR here",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CDIJ, base de données juridiques (legis.cdij.bj)",
+        "url": "https://legis.cdij.bj",
+        "evidence": "used by nothing; terms quoted in src/world_legal_mcp/jurisdictions/bj.py",
+        "note": "missing part: text of image-only SGG PDFs (needs OCR) and consolidation; CDIJ would cover it but terms forbid reproduction without written consent"
+      }
+    },
+    {
+      "name": "Décisions",
+      "en": "Government decisions (SGG 'decision' type)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj)",
+      "note": "texts as promulgated; many recent PDFs image-only, no OCR here",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CDIJ, base de données juridiques (legis.cdij.bj)",
+        "url": "https://legis.cdij.bj",
+        "evidence": "used by nothing; terms quoted in src/world_legal_mcp/jurisdictions/bj.py",
+        "note": "missing part: text of image-only SGG PDFs (needs OCR) and consolidation; CDIJ would cover it but terms forbid reproduction without written consent"
+      }
+    },
+    {
+      "name": "Arrêtés ministériels",
+      "en": "Ministerial orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not among the SGG search types used",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CDIJ, base de données juridiques (legis.cdij.bj)",
+        "url": "https://legis.cdij.bj",
+        "evidence": "used by nothing; terms quoted in src/world_legal_mcp/jurisdictions/bj.py",
+        "note": "arrêtés are not among SGG's types; CDIJ terms forbid reproduction without written consent"
+      }
+    },
+    {
+      "name": "Journal officiel",
+      "en": "Official Journal",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "SGG document library used, not JO issues; CDIJ database needs permission",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no official JO issue archive found (sgg.gouv.bj/journal-officiel/ is 404); legibenin.net (unofficial) not checked"
+      }
+    },
+    {
+      "name": "Arrêtés communaux",
+      "en": "Municipal orders",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "communal arrêtés: no source checked"
+      }
+    },
+    {
+      "name": "Accords et traités",
+      "en": "Agreements and treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj)",
+      "note": "SGG 'accord' type; texts as promulgated; many recent PDFs image-only, no OCR here",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CDIJ, base de données juridiques (legis.cdij.bj)",
+        "url": "https://legis.cdij.bj",
+        "evidence": "used by nothing; terms quoted in src/world_legal_mcp/jurisdictions/bj.py",
+        "note": "missing part: text of image-only SGG PDFs (needs OCR) and consolidation; CDIJ would cover it but terms forbid reproduction without written consent"
+      }
+    }
+  ]
+}

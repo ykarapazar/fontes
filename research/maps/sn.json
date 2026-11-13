@@ -1,0 +1,435 @@
+{
+  "code": "sn",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.dri.gouv.sn/sites/default/files/LOI/2017/2017_24.pdf",
+    "https://conseilconstitutionnel.sn/"
+  ],
+  "courts": [
+    {
+      "name": "Conseil constitutionnel",
+      "en": "Constitutional Council",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Conseil constitutionnel du Sénégal (decisions and consolidated Constitution)",
+      "note": "41 decisions (2019, 2022-2026); most are scanned PDFs without text",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Conseil constitutionnel du Sénégal",
+        "url": "https://conseilconstitutionnel.sn",
+        "evidence": "used by Fontes sn adapter (src/world_legal_mcp/jurisdictions/sn.py)",
+        "note": "missing part: only 41 decisions online, mostly scanned PDFs (would need OCR); older decisions not published by the Conseil; JURICAF lists 4"
+      }
+    },
+    {
+      "name": "Cour suprême – chambres réunies",
+      "en": "Supreme Court, combined chambers",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "JURICAF (AHJUCAF): Cour suprême decisions (unofficial)",
+      "note": "Cour suprême decisions via JURICAF (unofficial, ODbL; ~7,458 to 2025-04; full pseudonymised text by id). Search is page 1 only (10 hits) because robots.txt disallows ?page=, chambers not broken out, nothing after 2025-04; so the archive cannot be listed or searched exhaustively",
+      "elsewhere": {
+        "status": "available",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-10: robots.txt `*` allows /arret/ and facet_pays, disallows ?page= and ?tri=; mentions légales: free access, ODbL 1.0",
+        "note": "missing part: complete listing/paging (forbidden by robots.txt), decisions after 2025-04; the official coursupreme.gouv.sn is a maintenance page"
+      }
+    },
+    {
+      "name": "Cour suprême – chambre civile et commerciale",
+      "en": "Supreme Court, civil and commercial chamber",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "JURICAF (AHJUCAF): Cour suprême decisions (unofficial)",
+      "note": "Cour suprême decisions via JURICAF (unofficial, ODbL; ~7,458 to 2025-04; full pseudonymised text by id). Search is page 1 only (10 hits) because robots.txt disallows ?page=, chambers not broken out, nothing after 2025-04; so the archive cannot be listed or searched exhaustively",
+      "elsewhere": {
+        "status": "available",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-10: robots.txt `*` allows /arret/ and facet_pays, disallows ?page= and ?tri=; mentions légales: free access, ODbL 1.0",
+        "note": "missing part: complete listing/paging (forbidden by robots.txt), decisions after 2025-04; the official coursupreme.gouv.sn is a maintenance page"
+      }
+    },
+    {
+      "name": "Cour suprême – chambre criminelle",
+      "en": "Supreme Court, criminal chamber",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "JURICAF (AHJUCAF): Cour suprême decisions (unofficial)",
+      "note": "Cour suprême decisions via JURICAF (unofficial, ODbL; ~7,458 to 2025-04; full pseudonymised text by id). Search is page 1 only (10 hits) because robots.txt disallows ?page=, chambers not broken out, nothing after 2025-04; so the archive cannot be listed or searched exhaustively",
+      "elsewhere": {
+        "status": "available",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-10: robots.txt `*` allows /arret/ and facet_pays, disallows ?page= and ?tri=; mentions légales: free access, ODbL 1.0",
+        "note": "missing part: complete listing/paging (forbidden by robots.txt), decisions after 2025-04; the official coursupreme.gouv.sn is a maintenance page"
+      }
+    },
+    {
+      "name": "Cour suprême – chambre sociale",
+      "en": "Supreme Court, social (labour) chamber",
+      "tier": "apex",
+      "branch": "labour",
+      "reached": "partly",
+      "via": "JURICAF (AHJUCAF): Cour suprême decisions (unofficial)",
+      "note": "Cour suprême decisions via JURICAF (unofficial, ODbL; ~7,458 to 2025-04; full pseudonymised text by id). Search is page 1 only (10 hits) because robots.txt disallows ?page=, chambers not broken out, nothing after 2025-04; so the archive cannot be listed or searched exhaustively",
+      "elsewhere": {
+        "status": "available",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-10: robots.txt `*` allows /arret/ and facet_pays, disallows ?page= and ?tri=; mentions légales: free access, ODbL 1.0",
+        "note": "missing part: complete listing/paging (forbidden by robots.txt), decisions after 2025-04; the official coursupreme.gouv.sn is a maintenance page"
+      }
+    },
+    {
+      "name": "Cour suprême, chambre administrative",
+      "en": "Supreme Court, administrative chamber",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "JURICAF (AHJUCAF): Cour suprême decisions (unofficial)",
+      "note": "Cour suprême decisions via JURICAF (unofficial, ODbL; ~7,458 to 2025-04; full pseudonymised text by id). Search is page 1 only (10 hits) because robots.txt disallows ?page=, chambers not broken out, nothing after 2025-04; so the archive cannot be listed or searched exhaustively",
+      "elsewhere": {
+        "status": "available",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-10: robots.txt `*` allows /arret/ and facet_pays, disallows ?page= and ?tri=; mentions légales: free access, ODbL 1.0",
+        "note": "missing part: complete listing/paging (forbidden by robots.txt), decisions after 2025-04; the official coursupreme.gouv.sn is a maintenance page"
+      }
+    },
+    {
+      "name": "Cours d'appel (6: Dakar, Thiès, Kaolack, Saint-Louis, Ziguinchor, Tambacounda)",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "incl. chambres criminelles d'appel",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-07: facet Sénégal: Cour d'appel 9 decisions",
+        "note": "no official database; only scattered decisions (JURICAF 9)"
+      }
+    },
+    {
+      "name": "Chambres commerciales d'appel",
+      "en": "Commercial appeal chambers (Loi 2017-24)",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (no official database found; checked JURICAF facets 2026-11-07)",
+        "note": "No decisions found online."
+      }
+    },
+    {
+      "name": "Tribunaux de grande instance",
+      "en": "High courts (first instance)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "incl. chambres criminelles (replaced the cours d'assises in 2016)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-07: facet Sénégal: Tribunal de grande instance 10",
+        "note": "no official database; only scattered decisions"
+      }
+    },
+    {
+      "name": "Tribunaux d'instance",
+      "en": "Local courts (first instance)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURICAF (AHJUCAF)",
+        "url": "https://juricaf.org",
+        "evidence": "fetched 2026-11-07: facet Sénégal: Tribunal de première instance 1, Tribunal régional 1",
+        "note": "no official database found"
+      }
+    },
+    {
+      "name": "Tribunaux de commerce (since 2017)",
+      "en": "Commercial courts",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no commercial-court decisions found online (not in JURICAF facets)"
+      }
+    },
+    {
+      "name": "Tribunaux du travail",
+      "en": "Labour courts",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no labour-court decisions found online (not in JURICAF facets)"
+      }
+    },
+    {
+      "name": "Tribunaux pour enfants",
+      "en": "Juvenile courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (no official database found; checked JURICAF facets 2026-11-07)",
+        "note": "No decisions found online."
+      }
+    },
+    {
+      "name": "Cour de Répression de l'Enrichissement Illicite (CREI)",
+      "en": "Court for the Repression of Illicit Enrichment",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "anti-corruption court (Loi 81-54, reactivated 2012)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online (2026-11-10)",
+        "note": "Major judgments (e.g. Karim Wade, 2015) reported in the press; no official decision collection located."
+      }
+    },
+    {
+      "name": "Pool judiciaire financier",
+      "en": "Financial judicial pool (financial crime chambers, Loi 2023-14)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online (2026-11-10)",
+        "note": "No publication located."
+      }
+    },
+    {
+      "name": "Chambres africaines extraordinaires",
+      "en": "Extraordinary African Chambers (Habré trial, 2013-2017, dissolved)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "AU–Senegal tribunal within Senegalese courts; judgments still cited",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online (2026-11-10)",
+        "note": "Judgments circulated via NGO/academic sites; official archive not located."
+      }
+    },
+    {
+      "name": "Cour des comptes",
+      "en": "Court of Auditors",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour des comptes du Sénégal",
+        "url": "https://www.courdescomptes.sn",
+        "evidence": "search result only",
+        "note": "public reports (1999-2017) and audit opinions are online as PDFs; no collection of arrêts found; not in JURICAF"
+      }
+    },
+    {
+      "name": "Haute Cour de justice",
+      "en": "High Court of Justice (trial of President/ministers)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked; very few cases"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution du 22 janvier 2001",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Conseil constitutionnel du Sénégal (decisions and consolidated Constitution)",
+      "note": "consolidated by the Conseil to 2024-02-09; later revisions missing",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Journal officiel (jo.gouv.sn)",
+        "url": "https://www.jo.gouv.sn",
+        "evidence": "fetched 2026-11-07: connect refused (ECONNREFUSED)",
+        "note": "missing part: revisions after 2024-02-09; JO site unreachable, so official current text not established"
+      }
+    },
+    {
+      "name": "Lois organiques et lois",
+      "en": "Organic and ordinary laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Primature / Secrétariat général du Gouvernement (lois, décrets, codes); Ministère de la Justice du Sénégal (codes, lois and décrets as PDF)",
+      "note": "about 40 laws/decrees on primature.sn (mostly 2020-2024) plus ~30 laws on the Ministry of Justice media library (judicial organisation 2014, magistrates' statute 2017, COVID laws 2020, ...), as published, not consolidated; missing: every other law (no official Journal officiel online: www.jo.gouv.sn connect timeout 2026-11-10)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Vie-publique.sn (JO archive)",
+        "url": "https://www.vie-publique.sn",
+        "evidence": "fetched 2026-11-07: site has a Journal officiel section and décrets; run by volunteers",
+        "note": "UNOFFICIAL: civic volunteer site; documents public domain, editorial CC BY 4.0, robots Content-Signal ai-input=yes (research/sn.md); official jo.gouv.sn refused connection 2026-11-07"
+      }
+    },
+    {
+      "name": "Codes",
+      "en": "Codes",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Ministère de la Justice du Sénégal (codes, lois and décrets as PDF); Primature / Secrétariat général du Gouvernement (lois, décrets, codes)",
+      "note": "Ministry of Justice PDFs with text layer (added 2026-11-10): Code pénal and Code de procédure pénale (JURISCONSULT compilations), COCC, Code de la famille, Code du travail, Code gazier, CPC decrees, OHADA uniform acts; missing: the other codes (primature.sn lists 18 but only the exposé des motifs; its PDFs 404)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Vie-publique.sn (codes PDFs)",
+        "url": "https://vie-publique.sn/pdf/codes/",
+        "evidence": "search result only (vie-publique.sn/pdf/codes/code-procedure-civile.pdf)",
+        "note": "UNOFFICIAL: missing part is the code texts (primature.sn PDF attachments 404); vie-publique hosts code PDFs"
+      }
+    },
+    {
+      "name": "Ordonnances",
+      "en": "Ordinances",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "not on primature.sn listings",
+      "elsewhere": {
+        "status": "available",
+        "source": "Vie-publique.sn (JO archive)",
+        "url": "https://www.vie-publique.sn",
+        "evidence": "research/sn.md",
+        "note": "UNOFFICIAL: ordinances only via the JO archive; official JO unreachable"
+      }
+    },
+    {
+      "name": "Décrets",
+      "en": "Decrees (presidential)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Primature / Secrétariat général du Gouvernement (lois, décrets, codes)",
+      "note": "only those on the primature.sn listing",
+      "elsewhere": {
+        "status": "available",
+        "source": "Vie-publique.sn (décrets)",
+        "url": "https://www.vie-publique.sn",
+        "evidence": "fetched 2026-11-07: navigation lists Décrets; Décret n° 2026-1133 shown",
+        "note": "UNOFFICIAL: missing part is decrees not on primature.sn"
+      }
+    },
+    {
+      "name": "Arrêtés (primatoraux, ministériels)",
+      "en": "Prime-ministerial and ministerial orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Vie-publique.sn (JO archive)",
+        "url": "https://www.vie-publique.sn",
+        "evidence": "research/sn.md",
+        "note": "UNOFFICIAL: arrêtés only as published in the JO; official JO unreachable"
+      }
+    },
+    {
+      "name": "Journal officiel de la République du Sénégal",
+      "en": "Official Journal",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "jo.gouv.sn connection timeout (2026-11-05/06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Journal officiel de la République du Sénégal",
+        "url": "https://www.jo.gouv.sn",
+        "evidence": "fetched 2026-11-07: connect refused (ECONNREFUSED 160.0.177.62:443); earlier timeouts 2026-11-05/06",
+        "note": "official site unreachable from the UK; full JO PDF archive exists unofficially on vie-publique.sn (research/sn.md)"
+      }
+    },
+    {
+      "name": "Actes des collectivités territoriales",
+      "en": "Local authority acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked"
+      }
+    },
+    {
+      "name": "Traités et accords internationaux",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Vie-publique.sn (JO archive)",
+        "url": "https://www.vie-publique.sn",
+        "evidence": "research/sn.md",
+        "note": "treaties only as ratification acts/decrees in the JO; not checked"
+      }
+    }
+  ]
+}

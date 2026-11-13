@@ -1,0 +1,326 @@
+{
+  "code": "sk",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.justice.gov.sk/sudy-a-rozhodnutia/sudna-mapa/zmeny-v-sudnej-mape/",
+    "https://www.nsud.sk/the-supreme-court-of-the-slovak-republic/",
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/sk_en"
+  ],
+  "courts": [
+    {
+      "name": "Ústavný súd Slovenskej republiky",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Ústavný súd SR – rozhodnutia / zbierka nálezov a uznesení",
+        "url": "https://www.ustavnysud.sk/rozhodnutia",
+        "evidence": "fetched 2026-11-07: decisions page (list loads by JS), 'Vyhľadávanie v zbierke nálezov a uznesení', digitised 1993-2004 decisions",
+        "note": "robots.txt and terms not checked"
+      }
+    },
+    {
+      "name": "Najvyšší súd SR – občianskoprávne kolégium",
+      "en": "Supreme Court, Civil Collegium",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "Najvyšší súd SR open data (Supreme Court)",
+      "note": "open-data API covers all Supreme Court decisions (no collegium filter)"
+    },
+    {
+      "name": "Najvyšší súd SR – obchodnoprávne kolégium",
+      "en": "Supreme Court, Commercial Collegium",
+      "tier": "apex",
+      "branch": "commercial",
+      "reached": "yes",
+      "via": "Najvyšší súd SR open data (Supreme Court)",
+      "note": "open-data API covers all Supreme Court decisions (no collegium filter)"
+    },
+    {
+      "name": "Najvyšší súd SR – trestnoprávne kolégium",
+      "en": "Supreme Court, Criminal Collegium",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Najvyšší súd SR open data (Supreme Court)",
+      "note": "open-data API covers all Supreme Court decisions (no collegium filter)"
+    },
+    {
+      "name": "Najvyšší správny súd SR – správne senáty",
+      "en": "Supreme Administrative Court (since 2021), administrative chambers",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "nssud.sk publishes and searches its decisions (see elsewhere); obcan.justice.sk robots.txt disallows /pilot",
+      "elsewhere": {
+        "status": "available",
+        "source": "Najvyšší správny súd SR – Rozhodovacia činnosť",
+        "url": "https://www.nssud.sk/rozhodovacia-cinnost/",
+        "evidence": "fetched 2026-11-07: homepage search form: full text, case number, legal area, decision date range",
+        "note": "replaces the old note: nssud.sk has its own search (not only obcan.justice.sk); robots/terms not checked"
+      }
+    },
+    {
+      "name": "Najvyšší správny súd SR – disciplinárne senáty",
+      "en": "Supreme Administrative Court, disciplinary chambers (judges, prosecutors, notaries, bailiffs)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "nssud.sk publishes and searches its decisions (see elsewhere); obcan.justice.sk robots.txt disallows /pilot",
+      "elsewhere": {
+        "status": "available",
+        "source": "Najvyšší správny súd SR – Rozhodovacia činnosť",
+        "url": "https://www.nssud.sk/rozhodovacia-cinnost/",
+        "evidence": "fetched 2026-11-07: homepage search form: full text, case number, legal area, decision date range",
+        "note": "replaces the old note: nssud.sk has its own search (not only obcan.justice.sk); robots/terms not checked"
+      }
+    },
+    {
+      "name": "Krajské súdy (8) – občianskoprávne odvolacie senáty",
+      "en": "Regional courts, civil appeals",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Krajské súdy (8) – obchodnoprávne odvolacie senáty",
+      "en": "Regional courts, commercial appeals",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Krajské súdy (8) – trestnoprávne odvolacie senáty",
+      "en": "Regional courts, criminal appeals (and first instance for some serious crime)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Okresné a mestské súdy (~31 okresné + 5 mestské: Bratislava I-IV, Košice; 2023 map) – civilná agenda",
+      "en": "District and municipal courts, general civil",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Okresné a mestské súdy – trestná agenda",
+      "en": "District and municipal courts, criminal",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Okresné a mestské súdy – obchodná agenda (designated courts)",
+      "en": "District/municipal courts with commercial-law jurisdiction (e.g. Mestský súd Bratislava III)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Okresné a mestské súdy – rodinná agenda (designated courts)",
+      "en": "District/municipal courts with family jurisdiction (e.g. Mestský súd Bratislava II)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Okresné a mestské súdy – konkurzná a reštrukturalizačná agenda (designated courts)",
+      "en": "Designated courts for bankruptcy and restructuring",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Správne súdy (3: Bratislava, Banská Bystrica, Košice; since June 2023)",
+      "en": "Administrative courts (first instance)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    },
+    {
+      "name": "Špecializovaný trestný súd",
+      "en": "Specialised Criminal Court (corruption, organised crime, terrorism, premeditated murder)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "obcan.justice.sk: robots.txt disallows its /pilot API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice portal (obcan.justice.sk, rozhodnutia)",
+        "url": "https://obcan.justice.sk",
+        "evidence": "fetched 2026-11-07: robots.txt: Disallow: /infosud, /infosud-registre, /content, /pilot",
+        "note": "all court decisions are published there but robots.txt disallows the decision pages and the /pilot API"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Ústava Slovenskej republiky (460/1992 Zb.)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Slov-Lex (Ministry of Justice)",
+      "note": ""
+    },
+    {
+      "name": "Ústavné zákony",
+      "en": "Constitutional acts",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Slov-Lex (Ministry of Justice)",
+      "note": ""
+    },
+    {
+      "name": "Zákony",
+      "en": "Acts of the National Council",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Slov-Lex (Ministry of Justice)",
+      "note": "consolidated versions via static.slov-lex.sk"
+    },
+    {
+      "name": "Nariadenia vlády",
+      "en": "Government regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Slov-Lex (Ministry of Justice)",
+      "note": "published in the Zbierka zákonov searched by Slov-Lex"
+    },
+    {
+      "name": "Vyhlášky, výnosy a opatrenia ministerstiev",
+      "en": "Ministerial decrees and orders",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Slov-Lex (Ministry of Justice)",
+      "note": "those published in the Zbierka zákonov"
+    },
+    {
+      "name": "Zbierka zákonov Slovenskej republiky",
+      "en": "Collection of Laws (official gazette)",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Slov-Lex (Ministry of Justice)",
+      "note": ""
+    },
+    {
+      "name": "Oznámenia o medzinárodných zmluvách (Zbierka zákonov)",
+      "en": "International treaties published in the Collection",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Slov-Lex (Ministry of Justice)",
+      "note": "only as notices in the Collection; treaty texts not separately handled",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Slov-Lex (Zbierka zákonov)",
+        "url": "https://www.slov-lex.sk",
+        "evidence": "used by Fontes sk adapter (src/world_legal_mcp/jurisdictions/sk.py)",
+        "note": "missing part: treaty texts themselves; not checked whether Slov-Lex attaches them to the notices"
+      }
+    },
+    {
+      "name": "Všeobecne záväzné nariadenia obcí a VÚC",
+      "en": "Municipal and regional generally binding regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "no central official VZN database found; each municipality/region publishes its own; not checked further"
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "code": "ge",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://judiciariesworldwide.fjc.gov/country-profile/georgia"
+  ],
+  "courts": [
+    {
+      "name": "საქართველოს საკონსტიტუციო სასამართლო",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "decisions as published in Matsne (court='constitutional')"
+    },
+    {
+      "name": "საქართველოს უზენაესი სასამართლო",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "ECD holds only 2018-01 to 2020-04; supremecourt.ge robots.txt disallows /ka/getCases*",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of Georgia decision search",
+        "url": "https://www.supremecourt.ge",
+        "evidence": "fetched 2026-11-07: supremecourt.ge robots.txt 'Disallow: /ka/getCases*' and '/api/'",
+        "note": "missing part: decisions after 2020-04 (ECD frozen); the Supreme Court's own search is robots-disallowed"
+      }
+    },
+    {
+      "name": "სააპელაციო სასამართლოები – სამოქალაქო საქმეთა პალატა (თბილისი, ქუთაისი)",
+      "en": "Courts of Appeal – civil chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "2018-01 to 2020-04 only (ECD instance 2)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tbilisi / Kutaisi Courts of Appeal",
+        "url": "https://www.court.ge",
+        "evidence": "fetched 2026-11-07: court.ge 200; tbappeal.court.ge did not connect",
+        "note": "missing part: decisions after 2020-04 (ECD frozen); no newer appellate database found"
+      }
+    },
+    {
+      "name": "სააპელაციო სასამართლოები – ადმინისტრაციულ საქმეთა პალატა",
+      "en": "Courts of Appeal – administrative chambers",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "2018-01 to 2020-04 only (ECD instance 2)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tbilisi / Kutaisi Courts of Appeal",
+        "url": "https://www.court.ge",
+        "evidence": "fetched 2026-11-07: court.ge 200; tbappeal.court.ge did not connect",
+        "note": "missing part: decisions after 2020-04 (ECD frozen); no newer appellate database found"
+      }
+    },
+    {
+      "name": "სააპელაციო სასამართლოები – სისხლის სამართლის საქმეთა პალატა",
+      "en": "Courts of Appeal – criminal chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "2018-01 to 2020-04 only (ECD instance 2)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tbilisi / Kutaisi Courts of Appeal",
+        "url": "https://www.court.ge",
+        "evidence": "fetched 2026-11-07: court.ge 200; tbappeal.court.ge did not connect",
+        "note": "missing part: decisions after 2020-04 (ECD frozen); no newer appellate database found"
+      }
+    },
+    {
+      "name": "საქალაქო/რაიონული სასამართლოები – სამოქალაქო საქმეთა კოლეგია (~26 courts)",
+      "en": "City/District courts – civil collegia",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "2018-01 to 2020-04 only (ECD instance 1)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "city/district court sites (e.g. tcc.court.ge)",
+        "url": "https://tcc.court.ge",
+        "evidence": "fetched 2026-11-07: tcc.court.ge shows press items and case-status search, no decision database",
+        "note": "missing part: decisions after 2020-04 (ECD frozen)"
+      }
+    },
+    {
+      "name": "საქალაქო/რაიონული სასამართლოები – ადმინისტრაციულ საქმეთა კოლეგია",
+      "en": "City/District courts – administrative collegia",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "2018-01 to 2020-04 only (ECD instance 1)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "city/district court sites (e.g. tcc.court.ge)",
+        "url": "https://tcc.court.ge",
+        "evidence": "fetched 2026-11-07: tcc.court.ge shows press items and case-status search, no decision database",
+        "note": "missing part: decisions after 2020-04 (ECD frozen)"
+      }
+    },
+    {
+      "name": "საქალაქო/რაიონული სასამართლოები – სისხლის სამართლის საქმეთა კოლეგია",
+      "en": "City/District courts – criminal collegia",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "2018-01 to 2020-04 only (ECD instance 1)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "city/district court sites (e.g. tcc.court.ge)",
+        "url": "https://tcc.court.ge",
+        "evidence": "fetched 2026-11-07: tcc.court.ge shows press items and case-status search, no decision database",
+        "note": "missing part: decisions after 2020-04 (ECD frozen)"
+      }
+    },
+    {
+      "name": "მაგისტრატი მოსამართლეები",
+      "en": "Magistrate judges (within district courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Courts of Georgia decision database (ecd.court.ge)",
+      "note": "only as part of first-instance ECD data, 2018-01 to 2020-04",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "fetched 2026-11-07: tcc.court.ge has no decision database",
+        "note": "missing part: decisions after 2020-04 (ECD frozen)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "საქართველოს კონსტიტუცია",
+      "en": "Constitution of Georgia",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "Georgian consolidated text; English translation where published"
+    },
+    {
+      "name": "კანონი / ორგანული კანონი / კოდექსი",
+      "en": "Laws, organic laws and codes of Parliament",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "type=law"
+    },
+    {
+      "name": "პრეზიდენტის ბრძანებულება",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "type=presidential_decree / edict"
+    },
+    {
+      "name": "მთავრობის დადგენილება / განკარგულება",
+      "en": "Government resolutions and decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "type=resolution / decree"
+    },
+    {
+      "name": "მინისტრის ბრძანება",
+      "en": "Ministerial orders",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "type=order"
+    },
+    {
+      "name": "აჭარისა და აფხაზეთის ავტონომიური რესპუბლიკების აქტები",
+      "en": "Acts of the Autonomous Republics (Adjara, Abkhazia)",
+      "level": "sub-national",
+      "reached": "partly",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "in default all-group search if Matsne holds them; no type filter; not checked",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legislative Herald of Georgia (Matsne)",
+        "url": "https://matsne.gov.ge",
+        "evidence": "used by Fontes ge adapter (src/world_legal_mcp/jurisdictions/ge.py)",
+        "note": "missing part: no issuer/type filter in adapter; Matsne's own advanced search has issuer fields (not checked)"
+      }
+    },
+    {
+      "name": "ადგილობრივი თვითმმართველობის ნორმატიული აქტები",
+      "en": "Local self-government normative acts",
+      "level": "local",
+      "reached": "partly",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "in default all-group search if Matsne holds them; no type filter; not checked",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legislative Herald of Georgia (Matsne)",
+        "url": "https://matsne.gov.ge",
+        "evidence": "used by Fontes ge adapter (src/world_legal_mcp/jurisdictions/ge.py)",
+        "note": "missing part: no issuer/type filter in adapter; coverage of municipal acts not checked"
+      }
+    },
+    {
+      "name": "საერთაშორისო ხელშეკრულებები",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "type=treaty"
+    },
+    {
+      "name": "საქართველოს საკანონმდებლო მაცნე",
+      "en": "Legislative Herald of Georgia (official publication)",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+      "note": "consolidated texts; Crawl-delay 10 s"
+    }
+  ]
+}

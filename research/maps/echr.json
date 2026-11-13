@@ -1,0 +1,213 @@
+{
+  "code": "echr",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.echr.coe.int/the-court",
+    "https://hudoc.echr.coe.int"
+  ],
+  "courts": [
+    {
+      "name": "Grand Chamber",
+      "en": "Grand Chamber (17 judges)",
+      "tier": "apex",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "HUDOC (European Court of Human Rights)",
+      "note": null
+    },
+    {
+      "name": "Chambers",
+      "en": "Chambers (7 judges)",
+      "tier": "first-instance",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "HUDOC (European Court of Human Rights)",
+      "note": null
+    },
+    {
+      "name": "Committees",
+      "en": "Committees (3 judges)",
+      "tier": "first-instance",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "HUDOC (European Court of Human Rights)",
+      "note": null
+    },
+    {
+      "name": "Single-judge formation",
+      "en": "Single judge inadmissibility decisions",
+      "tier": "first-instance",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "not published individually in HUDOC",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "src/world_legal_mcp/jurisdictions/echr.py",
+        "note": "single-judge inadmissibility decisions are not published individually"
+      }
+    },
+    {
+      "name": "Panel of five judges of the Grand Chamber (referral requests, Art. 43)",
+      "en": "Grand Chamber panel",
+      "tier": "specialised",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "accept/refuse decisions are not published individually; outcomes appear in press releases / case status",
+      "elsewhere": {
+        "status": "offline",
+        "source": "ECHR – press releases (lists of referral decisions)",
+        "url": "https://www.echr.coe.int/press-releases",
+        "evidence": "search result only",
+        "note": "panel decisions are unreasoned and not published as documents in HUDOC; only listed in press releases"
+      }
+    },
+    {
+      "name": "Interim measures (Rule 39, President / duty judges)",
+      "en": "Interim measures decisions",
+      "tier": "specialised",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "not published individually",
+      "elsewhere": {
+        "status": "offline",
+        "source": "ECHR – interim measures factsheet and statistics",
+        "url": "https://www.echr.coe.int/interim-measures",
+        "evidence": "search result only",
+        "note": "individual Rule 39 decisions are not published; only statistics, factsheets and press releases on notable ones"
+      }
+    },
+    {
+      "name": "Former Court (1959-1998): Plenary and Chambers",
+      "en": "Former European Court of Human Rights (pre-Protocol 11)",
+      "tier": "apex",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "HUDOC (European Court of Human Rights)",
+      "note": "old-Court judgments are in HUDOC's judgments collection, which the default query searches; no dedicated filter for them"
+    },
+    {
+      "name": "Advisory opinions (Protocol 16)",
+      "en": "Advisory opinions",
+      "tier": "apex",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "HUDOC (European Court of Human Rights)",
+      "note": "collection=advisory"
+    },
+    {
+      "name": "Communicated cases",
+      "en": "Cases communicated to respondent States",
+      "tier": "first-instance",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "HUDOC (European Court of Human Rights)",
+      "note": "collection=communicated; older communications (HECOMOLD/HFCOMOLD) filtered out",
+      "elsewhere": {
+        "status": "available",
+        "source": "HUDOC",
+        "url": "https://hudoc.echr.coe.int/",
+        "evidence": "src/world_legal_mcp/jurisdictions/echr.py",
+        "note": "missing part: older communicated cases (collections HECOMOLD/HFCOMOLD) exist in HUDOC but are filtered out"
+      }
+    },
+    {
+      "name": "European Commission of Human Rights (until 1998)",
+      "en": "Commission decisions and reports",
+      "tier": "first-instance",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "HUDOC (European Court of Human Rights)",
+      "note": "only via collection=all/decisions; no dedicated filter",
+      "elsewhere": {
+        "status": "available",
+        "source": "HUDOC",
+        "url": "https://hudoc.echr.coe.int/",
+        "evidence": "src/world_legal_mcp/jurisdictions/echr.py",
+        "note": "missing part: Commission decisions/reports are in HUDOC but have no dedicated filter in Fontes"
+      }
+    },
+    {
+      "name": "Committee of Ministers (execution of judgments, HUDOC-EXEC)",
+      "en": "Supervision of execution",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "HUDOC-EXEC (Department for the Execution of Judgments)",
+        "url": "https://hudoc.exec.coe.int/",
+        "evidence": "fetched 2026-11-07: same query API as HUDOC: /app/query/results returned resultcount 95680",
+        "note": "CM execution documents, status of cases; same keyless API as HUDOC"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Convention for the Protection of Human Rights and Fundamental Freedoms",
+      "en": "European Convention on Human Rights",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "only a PDF on echr.coe.int; coe.int treaty office blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "available",
+        "source": "ECHR – Convention (PDF)",
+        "url": "https://www.echr.coe.int/documents/d/echr/convention_eng",
+        "evidence": "fetched 2026-11-07: PDF 200 (1.36 MB)",
+        "note": "text as amended, PDF only; coe.int treaty office blocks our client (Cloudflare)"
+      }
+    },
+    {
+      "name": "Protocols to the Convention",
+      "en": "Protocols 1-16",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "coe.int treaty office blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "available",
+        "source": "ECHR – Convention (PDF)",
+        "url": "https://www.echr.coe.int/documents/d/echr/convention_eng",
+        "evidence": "fetched 2026-11-07: PDF text mentions Protocols No. 2-16",
+        "note": "additional Protocols bundled in the Convention PDF; coe.int treaty office (all protocols, signatures) blocked by Cloudflare"
+      }
+    },
+    {
+      "name": "Rules of Court",
+      "en": "Rules of Court",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "ECHR – Rules of Court (PDF)",
+        "url": "https://www.echr.coe.int/documents/d/echr/rules_court_eng",
+        "evidence": "fetched 2026-11-07: PDF 200 (641 KB); robots.txt disallows only /search paths and form scripts",
+        "note": "PDF only"
+      }
+    },
+    {
+      "name": "Practice Directions",
+      "en": "Practice directions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "ECHR – Practice Directions",
+        "url": "https://www.echr.coe.int/practice-directions",
+        "evidence": "fetched 2026-11-07: page 200",
+        "note": "practice directions page (also annexed to the Rules of Court PDF)"
+      }
+    }
+  ]
+}

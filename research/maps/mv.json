@@ -1,0 +1,254 @@
+{
+  "code": "mv",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "http://english.judiciary.gov.mv/court-system/"
+  ],
+  "courts": [
+    {
+      "name": "ސުޕްރީމް ކޯޓު",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of Maldives – case registry",
+        "url": "https://www.supremecourt.mv/case-registry/judgments",
+        "evidence": "research/mv.md",
+        "note": "registry gives metadata/summary only; every judgment PDF is on old.supremecourt.mv, Cloudflare challenge (403)"
+      }
+    },
+    {
+      "name": "ހައިކޯޓު",
+      "en": "High Court (3 branches)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "High Court of Maldives",
+        "url": "https://highcourt.gov.mv/",
+        "evidence": "research/mv.md",
+        "note": "Cloudflare 'Sorry, you have been blocked' (403)"
+      }
+    },
+    {
+      "name": "ސިވިލް ކޯޓު",
+      "en": "Civil Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Department of Judicial Administration (judiciary.gov.mv -> dja.gov.mv)",
+        "url": "https://judiciary.gov.mv/",
+        "evidence": "research/mv.md",
+        "note": "Cloudflare 'Just a moment' challenge (403); whether this court's judgments are published behind it is unverified"
+      }
+    },
+    {
+      "name": "ކްރިމިނަލް ކޯޓު",
+      "en": "Criminal Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Department of Judicial Administration (judiciary.gov.mv -> dja.gov.mv)",
+        "url": "https://judiciary.gov.mv/",
+        "evidence": "research/mv.md",
+        "note": "Cloudflare 'Just a moment' challenge (403); whether this court's judgments are published behind it is unverified"
+      }
+    },
+    {
+      "name": "ފެމިލީ ކޯޓު",
+      "en": "Family Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Department of Judicial Administration (judiciary.gov.mv -> dja.gov.mv)",
+        "url": "https://judiciary.gov.mv/",
+        "evidence": "research/mv.md",
+        "note": "Cloudflare 'Just a moment' challenge (403); whether this court's judgments are published behind it is unverified"
+      }
+    },
+    {
+      "name": "ޖުވެނައިލް ކޯޓު",
+      "en": "Juvenile Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Department of Judicial Administration (judiciary.gov.mv -> dja.gov.mv)",
+        "url": "https://judiciary.gov.mv/",
+        "evidence": "research/mv.md",
+        "note": "Cloudflare 'Just a moment' challenge (403); whether this court's judgments are published behind it is unverified"
+      }
+    },
+    {
+      "name": "ޑްރަގް ކޯޓު",
+      "en": "Drug Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Department of Judicial Administration (judiciary.gov.mv -> dja.gov.mv)",
+        "url": "https://judiciary.gov.mv/",
+        "evidence": "research/mv.md",
+        "note": "Cloudflare 'Just a moment' challenge (403); whether this court's judgments are published behind it is unverified"
+      }
+    },
+    {
+      "name": "މެޖިސްޓްރޭޓް ކޯޓުތައް",
+      "en": "Magistrate courts (islands)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Department of Judicial Administration (judiciary.gov.mv -> dja.gov.mv)",
+        "url": "https://judiciary.gov.mv/",
+        "evidence": "research/mv.md",
+        "note": "Cloudflare 'Just a moment' challenge (403); whether this court's judgments are published behind it is unverified"
+      }
+    },
+    {
+      "name": "އެމްޕްލޮއިމަންޓް ޓްރައިބިއުނަލް",
+      "en": "Employment Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "available",
+        "source": "Employment Tribunal – cases",
+        "url": "https://employmenttribunal.gov.mv/cases/",
+        "evidence": "fetched 2026-11-07: wp-sitemap-posts-cases-1.xml lists 1,748 case pages; /cases/22-vtr-2019/ links a decision PDF (/wp-content/uploads/2021/12/22VTR2019K.pdf); robots.txt 'User-agent: * Allow: /' with Content-Signal ai-train=no, use=reference; named AI crawlers (ClaudeBot etc.) disallowed",
+        "note": "decisions in Dhivehi PDF; Content-Signal forbids AI training"
+      }
+    },
+    {
+      "name": "ޓެކްސް އެޕީލް ޓްރައިބިއުނަލް",
+      "en": "Tax Appeal Tribunal",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "adapter is legislation-only (MvLaw); no case law",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tax Appeal Tribunal – cases (completed)",
+        "url": "https://www.tat.gov.mv/status/completed/",
+        "evidence": "fetched 2026-11-07: /status/completed/ links case-report PDFs (e.g. /wp-content/uploads/2026/09/20260930_TAT-CA-W-2023-010_Summary-Report_Final-compressed.pdf); robots.txt only disallows /wp-admin/",
+        "note": "summary reports; whether full decisions are posted is unverified"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "ޤާނޫނުއަސާސީ",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "MvLaw (mvlaw.gov.mv), Attorney General's Office legislation database",
+      "note": "Dhivehi"
+    },
+    {
+      "name": "ޤާނޫނު",
+      "en": "Laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "MvLaw (mvlaw.gov.mv), Attorney General's Office legislation database; Government Gazette of the Maldives (gazette.gov.mv), President's Office",
+      "note": "Dhivehi. MvLaw: ~215 laws, consolidated. Gazette (filter source=gazette): all 386 laws it lists, as published (PDF text layer, per-page provisions), Oct 2009 to now, incl. amendment Acts MvLaw lacks. Missing: pre-2008 Acts MvLaw has not entered (no other official full-text source found; count unknown); 2008-2009 Gazette completeness unverified; Gazette texts not consolidated; Gazette number search only hits titles that carry the number.",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "no official full-text source found for pre-2008 Acts missing from MvLaw",
+        "url": "https://mvlaw.gov.mv",
+        "evidence": "checked 2026-11-10: gazette.gov.mv law list starts 2009-10 (page 39 of type=gaanoonu)",
+        "note": "missing part = pre-2008 Acts not yet entered in MvLaw"
+      }
+    },
+    {
+      "name": "ގަވާއިދު",
+      "en": "Regulations",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "MvLaw (mvlaw.gov.mv), Attorney General's Office legislation database",
+      "note": "coverage still being filled",
+      "elsewhere": {
+        "status": "available",
+        "source": "Maldives Government Gazette (President's Office)",
+        "url": "https://gazette.gov.mv/",
+        "evidence": "fetched 2026-11-07: gazette type filter 'gavaaidhu' (regulations), e.g. 92-R/2026 dated 5 Nov 2026",
+        "note": "missing part = regulations not yet in MvLaw; gazette publishes every regulation"
+      }
+    },
+    {
+      "name": "ދައުލަތުގެ ގެޒެޓު",
+      "en": "Government Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette.gov.mv (robots allow all); not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Maldives Government Gazette (President's Office)",
+        "url": "https://gazette.gov.mv/",
+        "evidence": "fetched 2026-11-07: home page with filters garaaru / gavaaidhu / usoolu and announcements",
+        "note": "Dhivehi; robots allow all (research/mv.md)"
+      }
+    },
+    {
+      "name": "ކައުންސިލް ގަވާއިދު / bylaws",
+      "en": "Council bylaws and municipal regulations",
+      "level": "local",
+      "reached": "partly",
+      "via": "MvLaw (mvlaw.gov.mv), Attorney General's Office legislation database",
+      "note": "categories bylaw/municipal; coverage still being filled",
+      "elsewhere": {
+        "status": "available",
+        "source": "Maldives Government Gazette (President's Office)",
+        "url": "https://gazette.gov.mv/",
+        "evidence": "fetched 2026-11-07: gazette lists regulations and usoolu",
+        "note": "missing part = council bylaws not yet in MvLaw; whether all council bylaws are gazetted unverified"
+      }
+    },
+    {
+      "name": "ބައިނަލްއަޤުވާމީ މުޢާހަދާ",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no treaty database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministry of Foreign Affairs / Majlis",
+        "url": "https://www.majlis.gov.mv/",
+        "evidence": "fetched 2026-11-07: majlis.gov.mv 403",
+        "note": "no treaty database found"
+      }
+    }
+  ]
+}

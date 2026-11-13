@@ -1,0 +1,387 @@
+{
+  "code": "nl",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.rechtspraak.nl/organisatie-en-contact/organisatie",
+    "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/gerechtshoven"
+  ],
+  "courts": [
+    {
+      "name": "Hoge Raad der Nederlanden",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Parket bij de Hoge Raad",
+      "en": "Procurator General at the Supreme Court (Advocate-General opinions)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; conclusies appear in results under 'Parket bij de Hoge Raad' (verified by test query 2026-11-07)"
+    },
+    {
+      "name": "Afdeling bestuursrechtspraak van de Raad van State",
+      "en": "Administrative Jurisdiction Division of the Council of State",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "rechtspraak.nl (case law)",
+      "note": "only rulings it publishes on rechtspraak.nl; raadvanstate.nl not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Raad van State – uitspraken",
+        "url": "https://www.raadvanstate.nl/uitspraken/",
+        "evidence": "fetched 2026-11-07: uitspraken page 200; robots.txt allows (Disallow /aspx/ except read.aspx, export=pdf; crawl-delay 30)",
+        "note": "missing part: rulings the Division publishes only on raadvanstate.nl, not on rechtspraak.nl"
+      }
+    },
+    {
+      "name": "Centrale Raad van Beroep",
+      "en": "Central Appeals Tribunal (social security, civil service)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "College van Beroep voor het bedrijfsleven",
+      "en": "Trade and Industry Appeals Tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Gerechtshoven (4) – civiele en strafkamers",
+      "en": "Courts of appeal – civil and criminal chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Gerechtshoven – belastingkamers",
+      "en": "Courts of appeal – tax chambers",
+      "tier": "appeal",
+      "branch": "tax",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Ondernemingskamer van het Gerechtshof Amsterdam",
+      "en": "Enterprise Chamber",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; 'Gerechtshof Amsterdam' decisions on Ondernemingskamer matters appear in results (test query 2026-11-07)"
+    },
+    {
+      "name": "Netherlands Commercial Court of Appeal (NCCA, Gerechtshof Amsterdam)",
+      "en": "Netherlands Commercial Court of Appeal",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; published under Gerechtshof Amsterdam"
+    },
+    {
+      "name": "Militaire kamer en penitentiaire kamer, Gerechtshof Arnhem-Leeuwarden",
+      "en": "Military and penitentiary chambers of the Arnhem-Leeuwarden Court of Appeal",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; published under Gerechtshof Arnhem-Leeuwarden; inclusion of these chambers specifically not tested"
+    },
+    {
+      "name": "Rechtbanken (11) – civiel (handel, familie)",
+      "en": "District courts – civil (commercial, family) sections",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Kantonrechter (in de 11 rechtbanken)",
+      "en": "Sub-district judge (small claims, rent, employment, consumer credit)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; kanton decisions are published under the Rechtbank name (zaaknummers 'UC EXPL', see adapter docstring example)"
+    },
+    {
+      "name": "Rechtbanken – strafrecht (politierechter, meervoudige strafkamer)",
+      "en": "District courts – criminal sections",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Kinderrechter (in de rechtbanken)",
+      "en": "Juvenile judge",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; published under the Rechtbank name"
+    },
+    {
+      "name": "Rechtbanken – bestuursrecht (incl. vreemdelingenkamers)",
+      "en": "District courts – administrative sections (incl. immigration chambers)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Rechtbanken – belastingkamers",
+      "en": "District courts – tax chambers",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter"
+    },
+    {
+      "name": "Netherlands Commercial Court (NCC District Court, Rechtbank Amsterdam)",
+      "en": "Netherlands Commercial Court",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; published under Rechtbank Amsterdam"
+    },
+    {
+      "name": "Militaire kamer van de Rechtbank Gelderland",
+      "en": "Military chamber of the Gelderland District Court",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; test query 'militaire kamer' 2026-11-07 returned Rechtbank Gelderland decisions"
+    },
+    {
+      "name": "Gemeenschappelijk Hof van Justitie van Aruba, Curaçao, Sint Maarten en van Bonaire, Sint Eustatius en Saba",
+      "en": "Joint Court of Justice (Caribbean)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; Caribbean courts publish on rechtspraak.nl (ECLI:NL:OGHACMB)"
+    },
+    {
+      "name": "Gerechten in eerste aanleg (Aruba, Curaçao, Sint Maarten, Bonaire/Sint Eustatius/Saba)",
+      "en": "Courts of first instance (Caribbean)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "rechtspraak.nl (case law)",
+      "note": "rechtspraak.nl: selection published; no court filter; test query 2026-11-07 returned 'Gerecht in eerste aanleg van Curaçao' decisions"
+    },
+    {
+      "name": "Regionale Tuchtcolleges voor de Gezondheidszorg (5) en Centraal Tuchtcollege",
+      "en": "Healthcare disciplinary tribunals",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in rechtspraak.nl results (test query 2026-11-07 returned only HR/RvS/Rechtbank decisions mentioning the tuchtcollege)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Overheid.nl – Tuchtrecht",
+        "url": "https://tuchtrecht.overheid.nl/zoeken",
+        "evidence": "fetched 2026-11-07: /zoeken 200 'Zoeken - Overheid.nl | Tuchtrecht'; /robots.txt not present (returns HTML page)",
+        "note": "official publication site for disciplinary decisions (healthcare, advocaten, notarissen, gerechtsdeurwaarders, accountants and others)"
+      }
+    },
+    {
+      "name": "Accountantskamer",
+      "en": "Accountants' Disciplinary Chamber",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "rechtspraak.nl (case law)",
+      "note": "test query 2026-11-07 returned only CBb appeals; whether first-instance Accountantskamer rulings are on rechtspraak.nl is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "Overheid.nl – Tuchtrecht",
+        "url": "https://tuchtrecht.overheid.nl/zoeken",
+        "evidence": "fetched 2026-11-07: /zoeken 200 'Zoeken - Overheid.nl | Tuchtrecht'; /robots.txt not present (returns HTML page)",
+        "note": "official publication site for disciplinary decisions (healthcare, advocaten, notarissen, gerechtsdeurwaarders, accountants and others)"
+      }
+    },
+    {
+      "name": "Raden van Discipline (advocaten) en Hof van Discipline",
+      "en": "Bar disciplinary tribunals",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "published on tuchtrecht.overheid.nl, not rechtspraak.nl (not tested in Fontes)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Overheid.nl – Tuchtrecht",
+        "url": "https://tuchtrecht.overheid.nl/zoeken",
+        "evidence": "fetched 2026-11-07: /zoeken 200 'Zoeken - Overheid.nl | Tuchtrecht'; /robots.txt not present (returns HTML page)",
+        "note": "official publication site for disciplinary decisions (healthcare, advocaten, notarissen, gerechtsdeurwaarders, accountants and others)"
+      }
+    },
+    {
+      "name": "Kamers voor het notariaat / gerechtsdeurwaarders (first instance)",
+      "en": "Notarial and bailiff disciplinary chambers",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "rechtspraak.nl (case law)",
+      "note": "appeals go to Gerechtshof Amsterdam (on rechtspraak.nl); first-instance chambers publish on tuchtrecht.overheid.nl",
+      "elsewhere": {
+        "status": "available",
+        "source": "Overheid.nl – Tuchtrecht",
+        "url": "https://tuchtrecht.overheid.nl/zoeken",
+        "evidence": "fetched 2026-11-07: /zoeken 200 'Zoeken - Overheid.nl | Tuchtrecht'; /robots.txt not present (returns HTML page)",
+        "note": "official publication site for disciplinary decisions (healthcare, advocaten, notarissen, gerechtsdeurwaarders, accountants and others)"
+      }
+    },
+    {
+      "name": "College voor de Rechten van de Mens",
+      "en": "Netherlands Institute for Human Rights (equal-treatment opinions)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "quasi-judicial, non-binding oordelen; not on rechtspraak.nl",
+      "elsewhere": {
+        "status": "available",
+        "source": "College voor de Rechten van de Mens – oordelen",
+        "url": "https://oordelen.mensenrechten.nl/oordelen",
+        "evidence": "fetched 2026-11-07: oordelen.mensenrechten.nl redirects to /oordelen (200); mensenrechten.nl/robots.txt has no Disallow",
+        "note": ""
+      }
+    },
+    {
+      "name": "Beroepscommissie van de Raad voor Strafrechtstoepassing en Jeugdbescherming (RSJ)",
+      "en": "Council for the Administration of Criminal Justice and Juvenile Protection – appeals committee",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "quasi-judicial (prisoner complaint appeals); not tested in Fontes",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "RSJ",
+        "url": "https://www.rsj.nl/",
+        "evidence": "fetched 2026-11-07: rsj.nl/robots.txt no Disallow; /uitspraken 404; sitemap.xml has no 'uitspra' URL",
+        "note": "could not locate its decision collection"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Grondwet",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "wetten.overheid.nl / BWB (legislation)",
+      "note": ""
+    },
+    {
+      "name": "Wetten (formele wetten)",
+      "en": "Acts of Parliament",
+      "level": "primary",
+      "reached": "yes",
+      "via": "wetten.overheid.nl / BWB (legislation)",
+      "note": "title search"
+    },
+    {
+      "name": "Algemene maatregelen van bestuur / Koninklijke besluiten",
+      "en": "Orders in Council / Royal decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "wetten.overheid.nl / BWB (legislation)",
+      "note": "title search"
+    },
+    {
+      "name": "Ministeriële regelingen",
+      "en": "Ministerial regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "wetten.overheid.nl / BWB (legislation)",
+      "note": "title search"
+    },
+    {
+      "name": "Staatsblad / Staatscourant",
+      "en": "Official gazettes",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "KOOP SRU (officielepublicaties), robots caveat",
+      "elsewhere": {
+        "status": "available",
+        "source": "KOOP SRU – officiële publicaties (Staatsblad, Staatscourant, Kamerstukken)",
+        "url": "https://repository.overheid.nl/sru",
+        "evidence": "fetched 2026-11-07: repository.overheid.nl/sru query dt.title=omgevingswet → 22,012 records",
+        "note": "robots.txt 'User-agent: * / Disallow: /' on repository.overheid.nl — same caveat as the zoekservice host Fontes already uses for BWB (research/nl-search.md)"
+      }
+    },
+    {
+      "name": "Provinciale verordeningen",
+      "en": "Provincial regulations (CVDR)",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "CVDR on the same SRU host Fontes uses",
+      "elsewhere": {
+        "status": "available",
+        "source": "CVDR via KOOP SRU (x-connection=cvdr)",
+        "url": "https://zoekservice.overheid.nl/sru/Search",
+        "evidence": "fetched 2026-11-07: zoekservice SRU x-connection=cvdr, query title=parkeerverordening → 1,015 records",
+        "note": "same zoekservice host Fontes already uses for BWB (robots 'Disallow: /' caveat); covers provinces, municipalities, water boards"
+      }
+    },
+    {
+      "name": "Gemeentelijke verordeningen",
+      "en": "Municipal regulations (CVDR)",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "CVDR on the same SRU host Fontes uses",
+      "elsewhere": {
+        "status": "available",
+        "source": "CVDR via KOOP SRU (x-connection=cvdr)",
+        "url": "https://zoekservice.overheid.nl/sru/Search",
+        "evidence": "fetched 2026-11-07: zoekservice SRU x-connection=cvdr, query title=parkeerverordening → 1,015 records (Parkeerverordening)",
+        "note": "same zoekservice host Fontes already uses (robots 'Disallow: /' caveat)"
+      }
+    },
+    {
+      "name": "Verdragen",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "wetten.overheid.nl / BWB (legislation)",
+      "note": "BWB SRU has no type filter so treaty records (BWBV) can come back; not built as a treaty search",
+      "elsewhere": {
+        "status": "available",
+        "source": "Verdragenbank / Treaty Database (overheid.nl)",
+        "url": "https://treatydatabase.overheid.nl/",
+        "evidence": "fetched 2026-11-07: treaty page /en/Treaty/Details/014021 (200); /robots.txt serves an HTML page (no rules)",
+        "note": "missing part: a treaty search with status/parties; BWBV texts already come via BWB"
+      }
+    }
+  ]
+}

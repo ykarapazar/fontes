@@ -1,0 +1,163 @@
+{
+  "code": "efta",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://eftacourt.int/the-court/introduction/",
+    "https://eftacourt.int/the-court/questions-and-answers/"
+  ],
+  "courts": [
+    {
+      "name": "EFTA Court – advisory opinions (Art. 34 SCA)",
+      "en": "Advisory opinions on referrals from Norwegian, Icelandic, Liechtenstein courts",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "yes",
+      "via": "EFTA Court website (eftacourt.int, api.eftacourt.int)",
+      "note": "judgment/opinion PDF text, English preferred; search over case metadata only"
+    },
+    {
+      "name": "EFTA Court – direct actions",
+      "en": "Infringement actions by ESA; actions against ESA (annulment, failure to act)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "yes",
+      "via": "EFTA Court website (eftacourt.int, api.eftacourt.int)",
+      "note": "search over case metadata only; other case documents not built"
+    },
+    {
+      "name": "EFTA Court – orders and other proceedings",
+      "en": "Orders (withdrawal, inadmissibility, costs) and other proceedings",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "yes",
+      "via": "EFTA Court website (eftacourt.int, api.eftacourt.int)",
+      "note": "order returned when there is no judgment"
+    },
+    {
+      "name": "EFTA Court – President's orders (interim measures, expedited procedure)",
+      "en": "Orders of the President (interim relief, suspension, expedited procedure)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "partly",
+      "via": "EFTA Court website (eftacourt.int, api.eftacourt.int)",
+      "note": "orders are only returned when a case has no judgment; separate President's orders in cases that later end in a judgment are not fetched",
+      "elsewhere": {
+        "status": "available",
+        "source": "EFTA Court website (eftacourt.int, api.eftacourt.int)",
+        "url": "https://eftacourt.int/cases",
+        "evidence": "used by Fontes efta adapter (src/world_legal_mcp/jurisdictions/efta.py)",
+        "note": "case pages list all case documents incl. orders"
+      }
+    },
+    {
+      "name": "EFTA Surveillance Authority – state aid decisions",
+      "en": "ESA state aid decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "available",
+        "source": "EFTA Surveillance Authority (eftasurv.int); ESA acts also in EEA Section of the OJ",
+        "url": "https://www.eftasurv.int",
+        "evidence": "fetched 2026-11-07: eftasurv.int robots.txt 'Disallow:' (allows all); state-aid register page is a JS app, no API checked",
+        "note": "decisions in state aid, competition, infringements; no decision search endpoint identified yet"
+      }
+    },
+    {
+      "name": "EFTA Surveillance Authority – infringement procedure (letters of formal notice, reasoned opinions, closures)",
+      "en": "ESA infringement decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "available",
+        "source": "EFTA Surveillance Authority (eftasurv.int); ESA acts also in EEA Section of the OJ",
+        "url": "https://www.eftasurv.int",
+        "evidence": "fetched 2026-11-07: eftasurv.int robots.txt 'Disallow:' (allows all); state-aid register page is a JS app, no API checked",
+        "note": "decisions in state aid, competition, infringements; no decision search endpoint identified yet"
+      }
+    },
+    {
+      "name": "EFTA Surveillance Authority – competition decisions (Arts 53/54 EEA)",
+      "en": "ESA competition and merger decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "available",
+        "source": "EFTA Surveillance Authority (eftasurv.int); ESA acts also in EEA Section of the OJ",
+        "url": "https://www.eftasurv.int",
+        "evidence": "fetched 2026-11-07: eftasurv.int robots.txt 'Disallow:' (allows all); state-aid register page is a JS app, no API checked",
+        "note": "decisions in state aid, competition, infringements; no decision search endpoint identified yet"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Agreement on the European Economic Area",
+      "en": "EEA Agreement",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "EFTA Secretariat: EEA legal texts",
+        "url": "https://www.efta.int/legal-texts/eea",
+        "evidence": "fetched 2026-11-07: page carries the EEA Agreement section, EEA-Lex and adopted JCD links",
+        "note": "main Agreement, annexes and protocols; also in EUR-Lex/CELLAR"
+      }
+    },
+    {
+      "name": "EEA Joint Committee decisions / incorporated EEA acts",
+      "en": "Incorporated EU acts",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "EFTA Secretariat: Adopted Joint Committee Decisions + EEA-Lex",
+        "url": "https://www.efta.int/about-efta/legal-documents/adopted-joint-committee-decisions",
+        "evidence": "fetched 2026-11-07: list shows 133 items, EN/DE/IS/NO legal texts per year; EEA-Lex gives incorporation status with CELEX numbers",
+        "note": "JCD texts; incorporated EU acts themselves via EUR-Lex"
+      }
+    },
+    {
+      "name": "Surveillance and Court Agreement (incl. Protocol 5, Statute)",
+      "en": "SCA",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "EFTA Court / ESA / EUR-Lex",
+        "url": "https://eftacourt.int/the-court/legal-texts/",
+        "evidence": "fetched 2026-11-07: eftacourt.int legal-texts page is a JS app; api.eftacourt.int/api/pages lists no legal texts",
+        "note": "probably in OJ L 344/1994 via CELLAR; not checked"
+      }
+    },
+    {
+      "name": "Rules of Procedure of the EFTA Court",
+      "en": "Rules of Procedure (OJ L 179, 2021)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "EFTA Court",
+        "url": "https://eftacourt.int/the-court/legal-texts/",
+        "evidence": "fetched 2026-11-07: legal-texts page is a JS app; api.eftacourt.int/api/pages lists only 'Legal Notice'",
+        "note": "PDF likely on eftacourt.int; URL not established"
+      }
+    }
+  ]
+}

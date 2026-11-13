@@ -1,0 +1,372 @@
+{
+  "code": "cn",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://subsites.chinadaily.com.cn/supremepeoplescourt/2016-03/03/c_761594_3.htm",
+    "https://subsites.chinadaily.com.cn/supremepeoplescourt/2024-08/21/c_1016505.htm",
+    "https://www.chinaservicesinfo.com/s/201812/11/WS5c0f4bdb498eefb3fe46e93e/the-national-court-organizations.html"
+  ],
+  "courts": [
+    {
+      "name": "最高人民法院",
+      "en": "Supreme People's Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme People's Court of the PRC (最高人民法院), guiding cases (指导性案例)",
+      "note": "guiding cases only (title search); SPC judgments, judicial interpretations and typical cases not covered",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "People's Court Case Database (人民法院案例库)",
+        "url": "https://rmfyalk.court.gov.cn/",
+        "evidence": "research/asia_pacific.md; fetched 2026-11-07: homepage 200 (首页 - 人民法院案例库)",
+        "note": "missing part: SPC judgments (wenshu, login), reference cases (案例库, registration per research, unverified); judicial interpretations are free on court.gov.cn (see 司法解释 row)"
+      }
+    },
+    {
+      "name": "最高人民法院巡回法庭 (6)",
+      "en": "SPC circuit tribunals (part of the SPC)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "judgments only on China Judgments Online (login); guiding cases list the SPC as court",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "最高人民法院国际商事法庭",
+      "en": "China International Commercial Court (SPC, 2 seats)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "its own site (cicc.court.gov.cn) not checked; judgments otherwise on China Judgments Online (login)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "最高人民法院知识产权法庭",
+      "en": "SPC Intellectual Property Tribunal",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login with a mainland phone number",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "高级人民法院 (32, incl. 新疆生产建设兵团分院)",
+      "en": "Higher People's Courts (provincial level)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "judgments only on China Judgments Online, which needs a login with a mainland phone number (some reach indirectly as source of a guiding case)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "中级人民法院 (~400)",
+      "en": "Intermediate People's Courts",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login with a mainland phone number",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "基层人民法院 (~3,000, incl. 人民法庭 tribunals)",
+      "en": "Basic (grassroots) People's Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login with a mainland phone number",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "军事法院",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no public online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/asia_pacific.md",
+        "note": "military court judgments are not published"
+      }
+    },
+    {
+      "name": "海事法院 (11)",
+      "en": "Maritime courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login with a mainland phone number",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "知识产权法院 (4: 北京, 上海, 广州, 海南自由贸易港)",
+      "en": "Intellectual property courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "金融法院 (3: 上海, 北京, 成渝)",
+      "en": "Financial courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "互联网法院 (3: 杭州, 北京, 广州)",
+      "en": "Internet courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "铁路运输法院 / 铁路运输中级法院",
+      "en": "Railway transport courts (basic and intermediate level)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login with a mainland phone number",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    },
+    {
+      "name": "新疆生产建设兵团法院 (农垦/兵团 courts)",
+      "en": "Xinjiang Production and Construction Corps courts (intermediate and basic)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "China Judgments Online needs a login with a mainland phone number",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "China Judgments Online (中国裁判文书网)",
+        "url": "https://wenshu.court.gov.cn/",
+        "evidence": "research/asia_pacific.md",
+        "note": "login with a mainland mobile number plus JS anti-bot; publication volume reduced since ~2021"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "宪法",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "legislation not implemented: flk.npc.gov.cn robots.txt disallows all automated access",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "National Database of Laws and Regulations (国家法律法规数据库)",
+        "url": "https://flk.npc.gov.cn/",
+        "evidence": "research/chatgpt/asia.md; research/asia_pacific.md",
+        "note": "robots.txt 'User-agent: * / Disallow: /' with comment 禁止使用任何自动化工具、脚本、爬虫程序采集或复制网站数据"
+      }
+    },
+    {
+      "name": "法律",
+      "en": "Laws of the NPC and its Standing Committee",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "flk.npc.gov.cn robots.txt bans automated tools; npc.gov.cn has no law index",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "National Database of Laws and Regulations (国家法律法规数据库)",
+        "url": "https://flk.npc.gov.cn/",
+        "evidence": "research/chatgpt/asia.md; research/asia_pacific.md",
+        "note": "robots.txt 'User-agent: * / Disallow: /' with comment 禁止使用任何自动化工具、脚本、爬虫程序采集或复制网站数据"
+      }
+    },
+    {
+      "name": "行政法规",
+      "en": "Administrative regulations (State Council)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "flk.npc.gov.cn forbids automated access; gov.cn has no index",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "National Database of Laws and Regulations (国家法律法规数据库)",
+        "url": "https://flk.npc.gov.cn/",
+        "evidence": "research/chatgpt/asia.md; research/asia_pacific.md",
+        "note": "robots.txt 'User-agent: * / Disallow: /' with comment 禁止使用任何自动化工具、脚本、爬虫程序采集或复制网站数据"
+      }
+    },
+    {
+      "name": "部门规章",
+      "en": "Departmental rules (ministries and commissions)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "State Council Gazette (国务院公报) on gov.cn",
+        "url": "https://www.gov.cn/gongbao/",
+        "evidence": "fetched 2026-11-07: gov.cn/gongbao links the current issue; gov.cn robots.txt does not disallow /gongbao/",
+        "note": "the Gazette carries departmental rules selectively; flk.npc.gov.cn (complete) is robots-blocked; MoJ xzfg.moj.gov.cn is an app shell (research/chatgpt/asia.md)"
+      }
+    },
+    {
+      "name": "司法解释",
+      "en": "Judicial interpretations (SPC / SPP)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme People's Court – 权威发布 › 司法解释",
+        "url": "https://www.court.gov.cn/fabu/gengduo/16.html",
+        "evidence": "fetched 2026-11-07: category 司法解释 lists 401 articles with detail links; same host Fontes already uses (no robots.txt)",
+        "note": "same site and page pattern as the guiding-case list already built"
+      }
+    },
+    {
+      "name": "地方性法规 / 地方政府规章",
+      "en": "Local regulations and local government rules (provinces, cities)",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "flk.npc.gov.cn forbids automated access",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "National Database of Laws and Regulations (国家法律法规数据库)",
+        "url": "https://flk.npc.gov.cn/",
+        "evidence": "research/chatgpt/asia.md; research/asia_pacific.md",
+        "note": "robots.txt 'User-agent: * / Disallow: /' with comment 禁止使用任何自动化工具、脚本、爬虫程序采集或复制网站数据"
+      }
+    },
+    {
+      "name": "自治条例和单行条例",
+      "en": "Autonomous and separate regulations (ethnic autonomous areas)",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "flk.npc.gov.cn forbids automated access",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "National Database of Laws and Regulations (国家法律法规数据库)",
+        "url": "https://flk.npc.gov.cn/",
+        "evidence": "research/chatgpt/asia.md; research/asia_pacific.md",
+        "note": "robots.txt 'User-agent: * / Disallow: /' with comment 禁止使用任何自动化工具、脚本、爬虫程序采集或复制网站数据"
+      }
+    },
+    {
+      "name": "全国人民代表大会常务委员会公报 / 国务院公报",
+      "en": "NPCSC Gazette / State Council Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "State Council Gazette (gov.cn/gongbao); NPCSC Gazette on npc.gov.cn",
+        "url": "https://www.gov.cn/gongbao/",
+        "evidence": "fetched 2026-11-07: gov.cn/gongbao reachable, robots allows; npc.gov.cn/npc/c2/c30834/ answered 200 over http (https handshake failed), content not verified",
+        "note": "State Council Gazette confirmed; NPCSC Gazette listing not confirmed"
+      }
+    },
+    {
+      "name": "条约",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Treaty Database of the PRC (中华人民共和国条约数据库, MFA)",
+        "url": "https://treaty.mfa.gov.cn/",
+        "evidence": "fetched 2026-11-07: page title 中华人民共和国-条约数据库; robots.txt 404",
+        "note": "free-text access/search not confirmed from the shell page"
+      }
+    }
+  ]
+}

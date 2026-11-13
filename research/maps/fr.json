@@ -1,0 +1,172 @@
+{
+  "code": "fr",
+  "checked": "2026-11-11",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/fr_en",
+    "https://opendata.justice-administrative.fr/",
+    "https://github.com/Cour-de-cassation/judilibre-search/blob/dev/public/JUDILIBRE-public.json"
+  ],
+  "courts": [
+    {
+      "name": "Conseil constitutionnel",
+      "en": "Constitutional Council",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Légifrance API, fond CONSTIT (search_caselaw jurisdiction=constit)",
+      "note": "7,423 decisions, 1958-11-22 (58-1 ORGA) to 2026-10-16 (2026-1227 QPC): the whole series since the Council's creation; counted live 2026-11-11 (title filter, sort by date)"
+    },
+    {
+      "name": "Cour de cassation",
+      "en": "Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "final": true,
+      "reached": "yes",
+      "via": "Judilibre (Cour de cassation open data API, via PISTE)",
+      "note": "all chambers incl. criminal (cr: 104,040 hits for 'article'), search + full text, updated daily (newest 2026-11-10 on 2026-11-11); archive thins out going back: 'article' hits 1980s 42,331, 1970s 22,635, 1960s 4,362, 1900-59 88 (2026-11-11); whether that equals the whole published Bulletin is unverified; 10,000 results per query, 25 per page; pseudonymised"
+    },
+    {
+      "name": "Cours d'appel",
+      "en": "Courts of Appeal (36)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Judilibre (jurisdiction=ca)",
+      "note": "civil, social and commercial decisions in the open-data rollout: 538,886 'article' hits from 2022, 104,787 before 2022 (older selection); criminal appeal decisions not in Judilibre (not seen; rollout for criminal matters unverified)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "no other official free source for unpublished appeal decisions found; Légifrance JURI holds only a small selection (not checked)"
+      }
+    },
+    {
+      "name": "Tribunaux judiciaires",
+      "en": "Judicial courts (first instance, civil)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Judilibre (jurisdiction=tj)",
+      "note": "earliest decision 2023-12-15 (754,765 'article' hits, 2026-11-11): only the open-data rollout from late 2023, civil matters; criminal judgments not seen",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "no official free archive of older first-instance decisions found"
+      }
+    },
+    {
+      "name": "Tribunaux de commerce / tribunaux des activités économiques",
+      "en": "Commercial courts / economic-activities courts",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "Judilibre (jurisdiction=tcom)",
+      "note": "earliest decision 2024-12-31 (202,638 'article' hits, 2026-11-11): only since the open-data rollout",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "older decisions: no official free source found"
+      }
+    },
+    {
+      "name": "Conseils de prud'hommes",
+      "en": "Employment tribunals",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "partly",
+      "via": "Judilibre (Cour de cassation, via PISTE), filter jurisdiction=cph",
+      "note": "only decisions from 2026-10-01 on (Judilibre's publication of these courts started then; checked live 2026-11-11)"
+    },
+    {
+      "name": "Tribunal des conflits",
+      "en": "Jurisdictional Disputes Court",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Légifrance API, fond CETAT (jurisdiction=tc)",
+      "note": "1,838 decisions, 1873-02-08 to 2026-11-02 (C4389); counted live 2026-11-11 (title filter, sort by date). Fond JURI holds a parallel copy, not used"
+    },
+    {
+      "name": "Conseil d'État",
+      "en": "Council of State",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Légifrance API, fond CETAT / JADE (jurisdiction=ce)",
+      "note": "174,277 decisions, 1875-02-19 to 2026-11-09; older years are the recueil Lebon selection; counted live 2026-11-11 (title filter, sort by date)"
+    },
+    {
+      "name": "Cours administratives d'appel",
+      "en": "Administrative Courts of Appeal (9)",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Légifrance API, fond CETAT / JADE (jurisdiction=caa)",
+      "note": "390,805 decisions, 1989-01-31 (the CAAs' first year) to 2026-11-06; counted live 2026-11-11 (title filter, sort by date)"
+    },
+    {
+      "name": "Tribunaux administratifs",
+      "en": "Administrative tribunals (42)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Légifrance API, fond CETAT / JADE (jurisdiction=ta)",
+      "note": "selection only: 6,514 decisions, 1965 to 2009; counted live 2026-11-11 (title filter, sort by date). The full output since 2022 is in the opendata.justice-administrative.fr bulk XML (not built)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Justice administrative open data; Légifrance API fond CETAT (selection)",
+        "url": "https://opendata.justice-administrative.fr/",
+        "evidence": "fetched 2026-11-11: opendata.justice-administrative.fr says TA decisions since 30 June 2022; Légifrance fond CETAT 'Tribunal administratif de Paris' -> 122,227 hits (term matches, not a count of TA decisions)",
+        "note": "full TA output only in the open-data XML files (bulk, not live search); Légifrance carries a selection"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution du 4 octobre 1958",
+      "en": "Constitution of 4 October 1958",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Légifrance API (DILA, via PISTE)",
+      "note": "LEGITEXT000006071194: TOC (157 entries) and Article 1 fetched 2026-11-11; current version only; not authentic (only the signed JO PDF is)"
+    },
+    {
+      "name": "Codes",
+      "en": "Codes (LEGI)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Légifrance API, fond CODE_DATE",
+      "note": "consolidated version in force today only; 76 codes match 'code' (2026-11-11); Code civil art. 1240 checked"
+    },
+    {
+      "name": "Lois et ordonnances",
+      "en": "Acts and ordinances (LODA)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Légifrance API, fond LODA_DATE",
+      "note": "consolidated version in force today only; Loi 78-17 (JORFTEXT000000886460) TOC and Article 1 fetched 2026-11-11; 'ordonnance' -> 11,085 hits"
+    },
+    {
+      "name": "Décrets et arrêtés",
+      "en": "Decrees and orders",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Légifrance API, fond LODA_DATE",
+      "note": "in LODA search results (types DECRET, ARRETE; 'décret relatif' 73,567 hits, 2026-11-11); consolidated version in force only"
+    },
+    {
+      "name": "Journal officiel de la République française (JORF)",
+      "en": "Official Journal",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Légifrance API, fond JORF (search_legislation fond=jorf; texts via /consult/jorf when no consolidated version exists)",
+      "note": "texts as published in the JO, including nominations and other texts never consolidated; 890,662 texts, oldest seen 1949; JORFTEXT000054914111 (arrêté de nomination, 2026-09-30) fetched 2026-11-11. Not authentic: only the signed PDF JO is"
+    }
+  ]
+}

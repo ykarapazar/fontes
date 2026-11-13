@@ -1,0 +1,2824 @@
+{
+  "code": "ch",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.bger.ch/home/federal/federal-gericht/abteilungen.html",
+    "https://www.bger.ch/index/federal/federal-inherit-template/federal-links/jurisdiction-links-schweizerische-gerichte.htm",
+    "https://www.bger.ch:443/files/live/sites/bger/files/pdf/de/BG_Brosch%c3%bcreA5_D_Onl.pdf",
+    "https://entscheidsuche.ch/docs/Facetten_alle.json"
+  ],
+  "courts": [
+    {
+      "name": "Bundesgericht / Tribunal fédéral / Tribunale federale (BGer)",
+      "en": "Federal Supreme Court (incl. constitutional review of cantonal acts)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Bundesgericht / Tribunal fédéral — Rechtsprechung (gratis), eurospider search",
+      "note": "all decisions since 2000 (aza) and BGE leading cases since 1954; unpublished decisions before 2000 missing"
+    },
+    {
+      "name": "Eidgenössisches Versicherungsgericht (EVG, Luzern; merged into BGer 2007)",
+      "en": "Federal Insurance Court",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Bundesgericht / Tribunal fédéral — Rechtsprechung (gratis), eurospider search",
+      "note": "published EVG cases are in BGE Teil V (bge collection, since 1954); whether unpublished EVG judgments 2000–2006 are in the aza collection is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+        "url": "https://entscheidsuche.ch/",
+        "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: CH_BGer 179481, CH_BGE 21422 docs; robots.txt Allow: /",
+        "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; BGE Teil V 3,300 docs"
+      }
+    },
+    {
+      "name": "Bundesverwaltungsgericht (BVGer)",
+      "en": "Federal Administrative Court",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "official Weblaw-hosted database (JS app); entscheidsuche.ch unofficial alternative",
+      "elsewhere": {
+        "status": "available",
+        "source": "BVGer Entscheiddatenbank (bvger.weblaw.ch, official court service)",
+        "url": "https://bvger.weblaw.ch/",
+        "evidence": "fetched 2026-11-07: bvger.weblaw.ch 200 (JS app); bvger.ch Entscheiddatenbank page 200 links it; robots disallows only /cache",
+        "note": "backend API not mapped; UNOFFICIAL: entscheidsuche.ch (association; 'frei nutzbar', robots Allow: /) also has it"
+      }
+    },
+    {
+      "name": "Bundesstrafgericht – Strafkammer",
+      "en": "Federal Criminal Court, Criminal Chamber (trial)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "official Weblaw-hosted database; entscheidsuche.ch unofficial alternative",
+      "elsewhere": {
+        "status": "available",
+        "source": "BStGer Entscheiddatenbank (bstger.weblaw.ch)",
+        "url": "https://bstger.weblaw.ch/",
+        "evidence": "fetched 2026-11-07: bstger.weblaw.ch 200; robots disallows only /cache",
+        "note": "backend not mapped; UNOFFICIAL: entscheidsuche.ch (association; 'frei nutzbar', robots Allow: /) also has it"
+      }
+    },
+    {
+      "name": "Bundesstrafgericht – Beschwerdekammer",
+      "en": "Federal Criminal Court, Objections Chamber",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "official Weblaw-hosted database; entscheidsuche.ch unofficial alternative",
+      "elsewhere": {
+        "status": "available",
+        "source": "BStGer Entscheiddatenbank (bstger.weblaw.ch)",
+        "url": "https://bstger.weblaw.ch/",
+        "evidence": "fetched 2026-11-07: bstger.weblaw.ch 200; robots disallows only /cache",
+        "note": "backend not mapped; UNOFFICIAL: entscheidsuche.ch (association; 'frei nutzbar', robots Allow: /) also has it"
+      }
+    },
+    {
+      "name": "Bundesstrafgericht – Berufungskammer (since 2019)",
+      "en": "Federal Criminal Court, Appeals Chamber",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "official Weblaw-hosted database; entscheidsuche.ch unofficial alternative",
+      "elsewhere": {
+        "status": "available",
+        "source": "BStGer Entscheiddatenbank (bstger.weblaw.ch)",
+        "url": "https://bstger.weblaw.ch/",
+        "evidence": "fetched 2026-11-07: bstger.weblaw.ch 200; robots disallows only /cache",
+        "note": "backend not mapped; UNOFFICIAL: entscheidsuche.ch (association; 'frei nutzbar', robots Allow: /) also has it"
+      }
+    },
+    {
+      "name": "Bundespatentgericht (BPatGer)",
+      "en": "Federal Patent Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "court's own decision list opens",
+      "elsewhere": {
+        "status": "available",
+        "source": "Bundespatentgericht – Entscheide",
+        "url": "https://www.bundespatentgericht.ch/rechtsprechung/aktuelle-entscheide",
+        "evidence": "fetched 2026-11-07: page 200 'Aktuelle Entscheide'; no robots.txt rules",
+        "note": "decisions listed on the court's own site; UNOFFICIAL: entscheidsuche.ch (association; 'frei nutzbar', robots Allow: /) also has it"
+      }
+    },
+    {
+      "name": "Militärkassationsgericht",
+      "en": "Military Court of Cassation",
+      "tier": "apex",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "MKGE PDFs on oa.admin.ch (search result only)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Oberauditorat – MKGE (Militärkassationsgericht decisions)",
+        "url": "https://www.oa.admin.ch/",
+        "evidence": "search result only (MKGE 16 Nr. 1/5/7/16 PDFs under oa.admin.ch/dam/)",
+        "note": "MKGE PDFs on oa.admin.ch; UNOFFICIAL: entscheidsuche.ch CH_MKG has 104 docs (fetched 2026-11-10)"
+      }
+    },
+    {
+      "name": "Militärappellationsgerichte",
+      "en": "Military Courts of Appeal",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not reached",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Oberauditorat (oa.admin.ch)",
+        "url": "https://www.oa.admin.ch/",
+        "evidence": "search result only (oa.admin.ch has MKGE PDFs only); fetched 2026-11-10: entscheidsuche.ch facets have only CH_MKG for military courts",
+        "note": "no published collection found for this level"
+      }
+    },
+    {
+      "name": "Militärgerichte",
+      "en": "Military courts (first instance)",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not reached",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Oberauditorat (oa.admin.ch)",
+        "url": "https://www.oa.admin.ch/",
+        "evidence": "search result only (oa.admin.ch has MKGE PDFs only); fetched 2026-11-10: entscheidsuche.ch facets have only CH_MKG for military courts",
+        "note": "not in entscheidsuche.ch, and the canton's own site was not checked; no published collection found for this level"
+      }
+    },
+    {
+      "name": "Eidgenössische Rekurs- und Schiedskommissionen (abolished 2007, replaced by BVGer)",
+      "en": "Former federal appeal commissions (tax, customs, procurement, personnel, asylum etc.)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "abolished 2007; decisions published in VPB (Verwaltungspraxis der Bundesbehörden)",
+      "elsewhere": {
+        "status": "available",
+        "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+        "url": "https://entscheidsuche.ch/",
+        "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: CH_VB 2501 docs; robots.txt Allow: /",
+        "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; VPB 1987–2017 collection incl. Steuer-, Zoll-, Personal- and Beschaffungs-Rekurskommissionen"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Bundesverfassung (BV, SR 101)",
+      "en": "Federal Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Fedlex — Systematische Rechtssammlung (Federal Chancellery): SPARQL + filestore",
+      "note": "German consolidated text only"
+    },
+    {
+      "name": "Bundesgesetze (SR)",
+      "en": "Federal Acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Fedlex — Systematische Rechtssammlung (Federal Chancellery): SPARQL + filestore",
+      "note": "latest consolidation only, German only; FR/IT and historical versions not built yet"
+    },
+    {
+      "name": "Verordnungen des Bundesrates / der Departemente (SR)",
+      "en": "Federal ordinances",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Fedlex — Systematische Rechtssammlung (Federal Chancellery): SPARQL + filestore",
+      "note": "latest consolidation only, German only"
+    },
+    {
+      "name": "Staatsverträge (SR 0.x)",
+      "en": "International treaties in force for Switzerland",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "Fedlex — Systematische Rechtssammlung (Federal Chancellery): SPARQL + filestore",
+      "note": "consolidated SR 0.x texts, German only"
+    },
+    {
+      "name": "Amtliche Sammlung (AS) und Bundesblatt (BBl)",
+      "en": "Official compilation and Federal Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "on Fedlex; adapter reads SR consolidations only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Fedlex – Amtliche Sammlung / Bundesblatt",
+        "url": "https://www.fedlex.admin.ch/de/oc",
+        "evidence": "fetched 2026-11-07: AS page 200; same SPARQL endpoint the adapter uses",
+        "note": "not wired; adapter reads SR consolidations only"
+      }
+    },
+    {
+      "name": "Kantonales Recht (Kantonsverfassungen, Gesetze, Verordnungen)",
+      "en": "Cantonal law",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "LexFind index + official cantonal collections (e.g. ZH-Lex)",
+      "elsewhere": {
+        "status": "available",
+        "source": "LexFind.ch (cantonal law index, with official cantonal collections)",
+        "url": "https://www.lexfind.ch/fe/",
+        "evidence": "fetched 2026-11-07: LexFind 200; ZH-Lex (zh.ch Gesetzessammlung) 200",
+        "note": "LexFind indexes all cantonal collections and links the official per-canton texts; status of LexFind itself (Institut du Fédéralisme) not checked"
+      }
+    },
+    {
+      "name": "Gemeindeerlasse / Reglemente",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "per-commune collections (e.g. Stadt Zürich); no national index",
+      "elsewhere": {
+        "status": "available",
+        "source": "Stadt Zürich – Amtliche Sammlung",
+        "url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/amtliche-sammlung.html",
+        "evidence": "fetched 2026-11-07: page 200",
+        "note": "per-commune only (Zürich checked); ~2,100 communes, no national index"
+      }
+    }
+  ],
+  "states": [
+    {
+      "name": "Zürich",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Zürich",
+          "en": "High Court (civil and criminal appeal)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_OG 30285 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Kassationsgericht des Kantons Zürich (abolished 2010)",
+          "en": "Court of Cassation",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_KSG 1461 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Handelsgericht des Kantons Zürich",
+          "en": "Commercial Court",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_HG 4721 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Zürich",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_VG 12105 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Sozialversicherungsgericht des Kantons Zürich",
+          "en": "Social Insurance Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_SVG 35948 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Steuerrekursgericht",
+          "en": "Tax Appeals Court",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_SRK 879 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Baurekursgericht",
+          "en": "Building Appeals Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_BRK 1238 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Bezirksgerichte (12)",
+          "en": "District courts (civil and criminal first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Mietgerichte (at the Bezirksgerichte)",
+          "en": "Tenancy courts",
+          "tier": "first-instance",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_BK 191 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; only Mietgericht decisions in the ZH_BK collection"
+          }
+        },
+        {
+          "name": "Arbeitsgerichte (at the Bezirksgerichte)",
+          "en": "Labour courts",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengerichte (at the Bezirksgerichte)",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZH_OG 30285 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; ZH_OG has a Zwangsmassnahmengericht chamber with 4 docs"
+          }
+        },
+        {
+          "name": "Jugendgerichte (at the Bezirksgerichte)",
+          "en": "Juvenile court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bern",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Bern",
+          "en": "High Court (civil and criminal appeal)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BE_OG 6057 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Handelsgericht des Kantons Bern",
+          "en": "Commercial Court",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BE_OG 6057 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; filed under BE_OG Handelsgericht chamber (55 docs)"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Bern (incl. Sozialversicherungsrechtliche Abteilung)",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BE_VG 11784 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Steuerrekurskommission des Kantons Bern",
+          "en": "Tax Appeals Commission",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BE_SRK 367 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Regionalgerichte (4)",
+          "en": "Regional courts (civil and criminal first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Kantonales Wirtschaftsstrafgericht",
+          "en": "Cantonal Economic Crimes Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Kantonales Jugendgericht",
+          "en": "Juvenile court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Kantonales Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Luzern",
+      "courts": [
+        {
+          "name": "Kantonsgericht Luzern (since 2013)",
+          "en": "Cantonal Court (civil, criminal, administrative, social insurance)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: LU_KG 786 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Obergericht des Kantons Luzern (merged into Kantonsgericht 2013)",
+          "en": "former High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: LU_OG 1204 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Luzern (merged into Kantonsgericht 2013)",
+          "en": "former Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: LU_VWG 1415 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Bezirksgerichte (4)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: LU_BZG 9 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; LU_BZG 'Erstinstanzliche Gerichte' 9 docs only"
+          }
+        },
+        {
+          "name": "Arbeitsgericht des Kantons Luzern",
+          "en": "Labour court",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Kriminalgericht des Kantons Luzern",
+          "en": "Criminal court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Uri",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Uri (incl. Verwaltungsrechtliche Abteilung)",
+          "en": "High Court (also administrative court)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: UR_OG 434 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Landgerichte (2: Uri, Ursern)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Schwyz",
+      "courts": [
+        {
+          "name": "Kantonsgericht Schwyz",
+          "en": "Cantonal Court (civil/criminal appeal)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SZ_KG 3443 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Schwyz",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SZ_VG 2249 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Bezirksgerichte (6)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Kantonales Strafgericht",
+          "en": "Cantonal criminal court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Obwalden",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Obwalden",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: OW_OG 749, OW_VB 226 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; published as Amtsbericht über die Rechtspflege (AbR) / OGVE collections"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Obwalden",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: OW_VG 1226 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; VVGE collection"
+          }
+        },
+        {
+          "name": "Kantonsgericht Obwalden",
+          "en": "Cantonal court (first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nidwalden",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Nidwalden",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: NW_OG 556 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; NW_OG is a combined 'Gerichte' collection; court split unclear"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Nidwalden",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: NW_OG 556 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; NW_OG is a combined 'Gerichte' collection; court split unclear"
+          }
+        },
+        {
+          "name": "Kantonsgericht Nidwalden",
+          "en": "Cantonal court (first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Glarus",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Glarus",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GL_OG 259 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Glarus",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GL_VG 459 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Kantonsgericht Glarus",
+          "en": "Cantonal court (first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GL_KG 9 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; 9 docs only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zug",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Zug",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZG_OG 1385 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Zug (incl. social insurance)",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: ZG_VG 1465 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Kantonsgericht Zug",
+          "en": "Cantonal court (civil first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Strafgericht des Kantons Zug",
+          "en": "Criminal court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fribourg / Freiburg",
+      "courts": [
+        {
+          "name": "Tribunal cantonal / Kantonsgericht Freiburg",
+          "en": "Cantonal Court (incl. administrative, tax and social insurance courts)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: FR_TC 14823 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunaux d'arrondissement / Bezirksgerichte (7)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunaux des prud'hommes / Arbeitsgerichte",
+          "en": "Labour courts",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunaux des baux / Mietgerichte",
+          "en": "Tenancy courts",
+          "tier": "first-instance",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal pénal économique / Wirtschaftsstrafgericht",
+          "en": "Economic criminal court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Justices de paix / Friedensgerichte",
+          "en": "Justices of the peace (incl. child and adult protection)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal pénal des mineurs / Jugendstrafgericht",
+          "en": "Juvenile criminal court",
+          "tier": "specialised",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        },
+        {
+          "name": "Tribunal des mesures de contrainte / Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Solothurn",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Solothurn",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SO_OG 3981 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Solothurn",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SO_VG 2426 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Versicherungsgericht des Kantons Solothurn",
+          "en": "Insurance Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SO_VSG 2442 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Kantonales Steuergericht",
+          "en": "Tax Court",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SO_STG 624 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Richterämter / Amtsgerichte (4)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Jugendgericht",
+          "en": "Juvenile court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SO_OG 3981 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; SO_OG has a Jugendgerichtskammer (appeal) with 1,078 docs; first-instance juvenile court itself not separate"
+          }
+        },
+        {
+          "name": "Haftgericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basel-Stadt",
+      "courts": [
+        {
+          "name": "Appellationsgericht Basel-Stadt (also Verwaltungsgericht)",
+          "en": "Court of Appeal (incl. administrative court)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BS_APG 8838 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Sozialversicherungsgericht Basel-Stadt",
+          "en": "Social Insurance Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BS_SVG 2264 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Zivilgericht Basel-Stadt",
+          "en": "Civil court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Strafgericht Basel-Stadt (incl. Jugendgericht)",
+          "en": "Criminal court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht Basel-Stadt",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Steuerrekurskommission Basel-Stadt",
+          "en": "Tax Appeals Commission",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basel-Landschaft",
+      "courts": [
+        {
+          "name": "Kantonsgericht Basel-Landschaft",
+          "en": "Cantonal Court (civil, criminal, constitutional/administrative, social insurance)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BL_KG 8441 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Steuer- und Enteignungsgericht",
+          "en": "Tax and Expropriation Court",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BL_SG 751, BL_EG 165 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Zivilkreisgerichte (2: Ost, West)",
+          "en": "Civil district courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Strafgericht Basel-Landschaft",
+          "en": "Criminal court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Jugendgericht Basel-Landschaft",
+          "en": "Juvenile court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht Basel-Landschaft",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: BL_ZMG 78 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Schaffhausen",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Schaffhausen (also Verwaltungsgericht)",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SH_OG 1245 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Kantonsgericht Schaffhausen",
+          "en": "Cantonal court (first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Appenzell Ausserrhoden",
+      "courts": [
+        {
+          "name": "Obergericht Appenzell Ausserrhoden (incl. Verwaltungsgericht)",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AR_OG 1406 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Kantonsgericht Appenzell Ausserrhoden",
+          "en": "Cantonal court (first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AR_KG 2803 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; mostly the ARGVP collection"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Appenzell Innerrhoden",
+      "courts": [
+        {
+          "name": "Kantonsgericht Appenzell Innerrhoden (incl. Verwaltungsgericht)",
+          "en": "Cantonal Court (apex)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AI_KG 6, AI_XX 32 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Bezirksgericht Appenzell Innerrhoden",
+          "en": "District court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AI_BZG 52 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        }
+      ]
+    },
+    {
+      "name": "St. Gallen",
+      "courts": [
+        {
+          "name": "Kantonsgericht St. Gallen",
+          "en": "Cantonal Court (civil/criminal appeal)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SG_KG 1098 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Handelsgericht St. Gallen",
+          "en": "Commercial Court",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SG_HG 55 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht St. Gallen",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SG_VG 2861 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Versicherungsgericht St. Gallen",
+          "en": "Insurance Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SG_VSG 7670 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsrekurskommission",
+          "en": "Administrative Appeals Commission",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: SG_VWEK 1182 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Kreisgerichte",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Arbeitsgerichte / Schlichtungsstellen",
+          "en": "Labour courts",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Jugendgericht (at the Kreisgerichte)",
+          "en": "Juvenile court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Graubünden / Grigioni",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Graubünden (since 2025)",
+          "en": "High Court (merged Kantonsgericht and Verwaltungsgericht)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GR_KG 8545, GR_VG 10053 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; entscheidsuche still files them as GR_KG / GR_VG"
+          }
+        },
+        {
+          "name": "Kantonsgericht von Graubünden (merged 2025)",
+          "en": "former Cantonal Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GR_KG 8545 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Graubünden (merged 2025)",
+          "en": "former Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GR_VG 10053 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Regionalgerichte (11)",
+          "en": "Regional courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aargau",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Aargau",
+          "en": "High Court (civil, criminal, administrative and insurance chambers)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AG_OG 9419 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Handelsgericht des Kantons Aargau",
+          "en": "Commercial Court",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AG_OG 9419 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; AG_OG Handelsgericht chamber 352 docs"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Aargau (part of Obergericht)",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AG_OG 9419 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; AG_OG Verwaltungsgericht chamber 2,577 docs"
+          }
+        },
+        {
+          "name": "Versicherungsgericht des Kantons Aargau (part of Obergericht)",
+          "en": "Insurance Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AG_OG 9419 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; AG_OG Versicherungsgericht chamber 2,188 docs"
+          }
+        },
+        {
+          "name": "Spezialverwaltungsgericht",
+          "en": "Special Administrative Court (tax, levies, expropriation)",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: AG_SVWG 1378 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Bezirksgerichte (11, incl. Familien-, Arbeits- and Mietgerichte)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Jugendgericht (at the Bezirksgerichte)",
+          "en": "Juvenile court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thurgau",
+      "courts": [
+        {
+          "name": "Obergericht des Kantons Thurgau",
+          "en": "High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TG_OG 2261 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; only Rechenschaftsbericht extracts"
+          }
+        },
+        {
+          "name": "Verwaltungsgericht des Kantons Thurgau (also Versicherungsgericht)",
+          "en": "Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        },
+        {
+          "name": "Bezirksgerichte (5)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ticino",
+      "courts": [
+        {
+          "name": "Tribunale d'appello (camere civili)",
+          "en": "Court of Appeal, civil chambers",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_TRAC 21683 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunale d'appello (camere penali: Corte di appello e di revisione penale, Corte dei reclami penali)",
+          "en": "Court of Appeal, criminal chambers",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_TRAP 1307, TI_CARP 499, TI_CRP 1431 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunale cantonale amministrativo",
+          "en": "Cantonal Administrative Court",
+          "tier": "apex",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_TCA 6891 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunale cantonale delle assicurazioni",
+          "en": "Cantonal Insurance Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_TCAS 13275 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Camera di diritto tributario",
+          "en": "Tax Chamber",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_CATI 4291 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunale penale cantonale",
+          "en": "Cantonal Criminal Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_TPC 1548 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Preture (civil first instance)",
+          "en": "District civil courts (Preture)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Pretura penale",
+          "en": "Criminal Pretura (misdemeanours)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_PP 5348 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunale di espropriazione",
+          "en": "Expropriation Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_TE 575 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunale della pianificazione del territorio",
+          "en": "Land-planning Court",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_TRPI 1262 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Giudice dei provvedimenti coercitivi",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Giudice dell'istruzione e dell'arresto (abolished 2011)",
+          "en": "former investigating and arrest judge",
+          "tier": "specialised",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: TI_GIAR 1024 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Magistratura dei minorenni",
+          "en": "Juvenile magistracy",
+          "tier": "specialised",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vaud",
+      "courts": [
+        {
+          "name": "Tribunal cantonal du Canton de Vaud (incl. CDAP, Cour des assurances sociales, Cour constitutionnelle)",
+          "en": "Cantonal Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: VD_TC 131279 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunaux d'arrondissement (4)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunaux de prud'hommes (at the arrondissements)",
+          "en": "Labour courts",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal des baux",
+          "en": "Tenancy court",
+          "tier": "first-instance",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Justices de paix (9)",
+          "en": "Justices of the peace",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal des mineurs",
+          "en": "Juvenile court",
+          "tier": "specialised",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        },
+        {
+          "name": "Tribunal des mesures de contrainte et d'application des peines",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal de prud'hommes de l'Administration cantonale",
+          "en": "Public-service labour tribunal",
+          "tier": "specialised",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        },
+        {
+          "name": "Tribunal neutre",
+          "en": "Neutral court (cases against cantonal judges)",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: VD_TN 8 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Valais / Wallis",
+      "courts": [
+        {
+          "name": "Tribunal cantonal / Kantonsgericht Wallis",
+          "en": "Cantonal Court (incl. public-law and social insurance courts)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: VS_BZG 4692 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; entscheidsuche files 4,692 VS documents under VS_BZG 'andere' and 0 under VS_TC, so the court split is unclear"
+          }
+        },
+        {
+          "name": "Tribunaux de district / Bezirksgerichte (9)",
+          "en": "District courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all; VS_BZG 'andere' collection may include them; split unclear"
+          }
+        },
+        {
+          "name": "Tribunal du travail / Arbeitsgericht",
+          "en": "Labour court",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal des mineurs / Jugendgericht",
+          "en": "Juvenile court",
+          "tier": "specialised",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        },
+        {
+          "name": "Tribunal des mesures de contrainte / Zwangsmassnahmengericht",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Commission cantonale de recours en matière fiscale / Steuerrekurskommission",
+          "en": "Tax Appeals Commission",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Neuchâtel",
+      "courts": [
+        {
+          "name": "Tribunal cantonal (incl. Cour de droit public / Tribunal administratif)",
+          "en": "Cantonal Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: NE_TC 7635 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunaux régionaux (2)",
+          "en": "Regional courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: NE_TR 13 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; 13 docs only"
+          }
+        },
+        {
+          "name": "Tribunal des mesures de contrainte",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Autorités de surveillance LP / avocats / notariat",
+          "en": "Supervisory authorities (debt enforcement, lawyers, notaries)",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: NE_ASL 57, NE_ASS 56, NE_ATS 49, NE_CA 10, NE_ARA 9, NE_CN 1 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Genève",
+      "courts": [
+        {
+          "name": "Cour de justice (civil, prud'hommes, baux et loyers, pénale, administrative, assurances sociales chambers)",
+          "en": "Court of Justice",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GE_CJ 90146 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Cour de justice – Chambre constitutionnelle",
+          "en": "Constitutional chamber",
+          "tier": "constitutional",
+          "branch": "constitutional",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GE_CJ 90146 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; 316 docs in the Chambre constitutionnelle chamber"
+          }
+        },
+        {
+          "name": "Cour d'appel du pouvoir judiciaire",
+          "en": "Judiciary Court of Appeal",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GE_CAPJ 73 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunal civil – Tribunal de première instance",
+          "en": "Civil first-instance court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal des prud'hommes",
+          "en": "Labour court",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal des baux et loyers",
+          "en": "Tenancy court",
+          "tier": "first-instance",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal de protection de l'adulte et de l'enfant",
+          "en": "Adult and child protection court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Tribunal pénal (incl. Tribunal des mesures de contrainte)",
+          "en": "Criminal court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GE_TP 770 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunal des mineurs",
+          "en": "Juvenile court",
+          "tier": "specialised",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "cantonal court website",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets show no separate collection for this court",
+            "note": "canton's own site not checked"
+          }
+        },
+        {
+          "name": "Tribunal administratif de première instance (TAPI)",
+          "en": "Administrative first-instance court",
+          "tier": "first-instance",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: GE_TAPI 2923 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jura",
+      "courts": [
+        {
+          "name": "Tribunal cantonal (incl. Cour constitutionnelle, Cour administrative, Chambre des assurances)",
+          "en": "Cantonal Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: JU_TC 1086 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites"
+          }
+        },
+        {
+          "name": "Tribunal de première instance (civil, pénal, juge des mineurs)",
+          "en": "First-instance court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "available",
+            "source": "UNOFFICIAL: entscheidsuche.ch (aggregates official court publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch ES aggregation by hierarchy: JU_TPI 31 docs; robots.txt Allow: /",
+            "note": "UNOFFICIAL: association-run aggregator scraping the official court/canton publication sites; only Tribunal pénal decisions (31)"
+          }
+        },
+        {
+          "name": "Conseil de prud'hommes",
+          "en": "Labour court",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        },
+        {
+          "name": "Juge des mesures de contrainte",
+          "en": "Compulsory measures court (pre-trial detention)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "cantonal court; ch.py covers only the Federal Supreme Court ('No cantonal law or cantonal courts')",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "entscheidsuche.ch (aggregates official cantonal publications)",
+            "url": "https://entscheidsuche.ch/",
+            "evidence": "fetched 2026-11-10: entscheidsuche.ch hierarchy facets (docs/Facetten_alle.json + ES aggregation) show no documents for this court type",
+            "note": "not in entscheidsuche.ch, and the canton's own site was not checked; first-instance decisions are generally published only selectively or not at all"
+          }
+        }
+      ]
+    }
+  ]
+}

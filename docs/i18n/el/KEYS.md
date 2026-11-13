@@ -1,0 +1,155 @@
+> Αυτή είναι μετάφραση με τη βοήθεια μηχανής. Υπερισχύει η αγγλική έκδοση.
+
+# Κλειδιά API
+
+Σχεδόν κάθε πηγή του Fontes λειτουργεί χωρίς κλειδί. Δύο χρειάζονται ένα δωρεάν:
+
+| Κλειδί | Ξεκλειδώνει | Χωρίς αυτό |
+|---|---|---|
+| `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Γαλλία: Judilibre (δικαστικές αποφάσεις) και Légifrance (νομοθεσία) | Η Γαλλία είναι απενεργοποιημένη. Το `list_jurisdictions` την εμφανίζει ως ανενεργή. |
+| `WLM_US_GOVINFO_KEY` | Ηνωμένες Πολιτείες: αναζήτηση govinfo (αποφάσεις ομοσπονδιακών δικαστηρίων, Statutes at Large, public laws) | Το Fontes χρησιμοποιεί το κοινόχρηστο `DEMO_KEY`: περίπου 10 αναζητήσεις την ημέρα ανά διεύθυνση IP. Το άνοιγμα μιας γνωστής απόφασης και ο US Code δεν χρειάζονται κλειδί. |
+
+Τα κλειδιά είναι προαιρετικά. Μπορείτε να τα προσθέσετε αργότερα.
+
+## Προσθήκη κλειδιού
+
+**Με το πρόγραμμα εγκατάστασης.** Κατά την εγκατάσταση, το πρόγραμμα εγκατάστασης ρωτά αν θέλετε
+να προσθέσετε κλειδιά. Επιλέξτε **Not now** (ή πατήστε Enter) για παράλειψη. Για να προσθέσετε
+ή να αλλάξετε κλειδιά αργότερα, εκτελέστε το **Add or change keys**:
+
+- Mac: ανοίξτε ξανά την εφαρμογή Fontes Installer και επιλέξτε **Add or change keys** ή κάντε
+  διπλό κλικ στο `Add or change keys.command` στον φάκελο του προγράμματος εγκατάστασης.
+- Windows: κάντε διπλό κλικ στο `Add or change keys.cmd` στον φάκελο του προγράμματος
+  εγκατάστασης. Το πρόγραμμα ρύθμισης για Windows, μόλις διατεθεί, θα το τοποθετεί επίσης στο
+  μενού Start > Fontes.
+
+Ό,τι πληκτρολογείτε δεν εμφανίζεται. Για κάθε κλειδί: επικολλήστε το, πατήστε Enter για να
+κρατήσετε το υπάρχον ή πληκτρολογήστε `-` για να το αφαιρέσετε. Τα κλειδιά γράφονται σε κάθε
+εφαρμογή που έχει ήδη το Fontes.
+
+**Με την επέκταση Claude Desktop (.mcpb).** Ανοίξτε Claude > Settings > Extensions > Fontes και
+συμπληρώστε τα πεδία. Όλα είναι προαιρετικά.
+
+**Με το χέρι.** Προσθέστε τις μεταβλητές στο μπλοκ `env` της καταχώρισης `fontes` στη ρύθμιση
+MCP της εφαρμογής σας:
+
+```json
+"fontes": {
+  "command": "...",
+  "args": ["..."],
+  "env": { "WLM_US_GOVINFO_KEY": "your-key" }
+}
+```
+
+Επανεκκινήστε την εφαρμογή μετά από κάθε αλλαγή.
+
+## Γαλλία: PISTE (δωρεάν)
+
+1. Δημιουργήστε λογαριασμό στο [piste.gouv.fr](https://piste.gouv.fr). Αυτό σημαίνει αποδοχή των όρων του PISTE (CGU).
+2. Μεταβείτε στο API > **Consentement CGU API**. Αποδεχθείτε τους όρους για **JUDILIBRE** και **Légifrance** (production).
+3. Δημιουργήστε μια **production application**. Το `APP_SANDBOX` που δημιουργήθηκε για εσάς δεν έχει πρόσβαση στο production.
+   Στο «Modifier l'application», επιλέξτε **JUDILIBRE (production)** και **Légifrance (production)** και έπειτα εφαρμόστε.
+4. Ανοίξτε την καρτέλα **Authentification** της εφαρμογής. Αντιγράψτε το `client_id` και το `client_secret`.
+5. Εκτελέστε το **Add or change keys** και επικολλήστε τα.
+
+Οι όροι, εν συντομία:
+
+- Δεδομένα: Licence Ouverte / Etalab 2.0. Η περαιτέρω χρήση, και εμπορική, επιτρέπεται με αναφορά της πηγής.
+- Μη δημοσιεύετε και μη μοιράζεστε τα διαπιστευτήριά σας. Ενημερώστε το PISTE αν διαρρεύσουν.
+- Το API του Légifrance είναι υπηρεσία beta. Μπορεί να ανασταλεί και έχει ποσοστώσεις (ανά δευτερόλεπτο, λεπτό και ημέρα).
+- Τα κείμενα του Légifrance δεν είναι η αυθεντική εκδοχή. Αυθεντικό είναι μόνο το υπογεγραμμένο PDF της Journal officiel.
+- Judilibre: μη χρησιμοποιείτε τα ονόματα δικαστών ή γραμματέων για να αξιολογήσετε, να συγκρίνετε
+  ή να προβλέψετε το έργο τους (Code de l'organisation judiciaire άρθρο L111-13· ποινικό αδίκημα).
+- Judilibre: τηρείτε τον ΓΚΠΔ. Μην επιχειρείτε να επαναπροσδιορίσετε την ταυτότητα των διαδίκων.
+
+Οι ποσοστώσεις σας βρίσκονται στο PISTE στο API Sélectionnées > Actions > Consulter les quotas.
+
+## Ηνωμένες Πολιτείες: api.data.gov (δωρεάν)
+
+1. Μεταβείτε στο [govinfo.gov/api-signup](https://www.govinfo.gov/api-signup) (το κλειδί εμφανίζεται στην οθόνη)
+   ή στο [api.data.gov/signup](https://api.data.gov/signup/) (το κλειδί σας αποστέλλεται με email).
+2. Εισαγάγετε το όνομα και το email σας. Το πεδίο «how will you use it» είναι προαιρετικό.
+3. Αντιγράψτε το κλειδί των 40 χαρακτήρων.
+4. Εκτελέστε το **Add or change keys** και επικολλήστε το ως κλειδί για τις ΗΠΑ.
+
+Οι όροι, εν συντομία:
+
+- Με το δικό σας κλειδί, το govinfo επιτρέπει έως 36,000 αιτήματα την ώρα.
+- Δεν βρήκαμε όρους υπηρεσίας ειδικά για το API (το api.data.gov/terms/ δεν υπάρχει). Μη
+  επαληθευμένο. Δείτε τις [πολιτικές του govinfo](https://www.govinfo.gov/about/policies) και
+  την [πολιτική απορρήτου του data.gov](https://data.gov/privacy-policy/).
+- Κρατήστε το κλειδί για τον εαυτό σας.
+
+## Πού αποθηκεύονται τα κλειδιά
+
+- **Πρόγραμμα εγκατάστασης ή με το χέρι:** ως απλό κείμενο στο αρχείο ρυθμίσεων MCP κάθε
+  εφαρμογής, στο μπλοκ `env` της καταχώρισης `fontes`. Όποιος μπορεί να διαβάσει τα αρχεία
+  χρήστη σας μπορεί να διαβάσει τα κλειδιά.
+  - Claude Desktop: `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac),
+    `%APPDATA%\Claude\claude_desktop_config.json` (Windows)
+  - Claude Code: `~/.claude.json`
+  - Codex: `~/.codex/config.toml`
+  - Cursor: `~/.cursor/mcp.json`
+  - VS Code (Copilot): `~/.copilot/mcp-config.json`
+  - Windsurf: `~/.config/devin/mcp_config.json` ή `~/.codeium/windsurf/mcp_config.json`
+    (Windows: `%APPDATA%\devin\mcp_config.json`)
+  - Gemini CLI: `~/.gemini/settings.json`
+  - Zed: `~/.config/zed/settings.json` (Windows: `%APPDATA%\Zed\settings.json`)
+  - LM Studio: `~/.lmstudio/mcp.json`
+  - Cline: `~/.cline/data/settings/cline_mcp_settings.json`
+- **Επέκταση Claude Desktop (.mcpb):** το Claude διατηρεί αυτά τα πεδία στις ρυθμίσεις του και
+  τα προστατεύει με την ασφαλή αποθήκευση του συστήματός σας (Keychain σε Mac, Credential
+  Manager σε Windows).
+
+Πριν από κάθε αλλαγή, το πρόγραμμα εγκατάστασης αποθηκεύει ένα αντίγραφο του αρχείου ρυθμίσεων
+δίπλα του (`<file>.fontes-backup-<time>`). Τα αντίγραφα που δημιουργήθηκαν αφού προσθέσατε
+κλειδιά περιέχουν επίσης τα κλειδιά. Διαγράψτε τα παλιά αντίγραφα που δεν χρειάζεστε.
+
+## Αλλαγή ή αφαίρεση κλειδιού
+
+- Εκτελέστε το **Add or change keys**. Επικολλήστε ένα νέο κλειδί για να το αντικαταστήσετε ή
+  πληκτρολογήστε `-` για να το αφαιρέσετε.
+- Ή επεξεργαστείτε το μπλοκ `env` με το χέρι και επανεκκινήστε την εφαρμογή.
+- Η απεγκατάσταση του Fontes αφαιρεί ολόκληρη την καταχώρισή του, μαζί με τα κλειδιά. Δεν
+  διαγράφει τα αντίγραφα ασφαλείας.
+- Αν ένα κλειδί διέρρευσε, αντικαταστήστε το και στην πηγή: στο PISTE, δημιουργήστε νέα
+  διαπιστευτήρια για την εφαρμογή σας· για το api.data.gov, εγγραφείτε για νέο κλειδί.
+
+## Μηνύματα που μπορεί να δείτε
+
+| Μήνυμα | Σημασία |
+|---|---|
+| `France needs a free PISTE key: set WLM_FR_PISTE_CLIENT_ID and WLM_FR_PISTE_CLIENT_SECRET.` | Δεν υπάρχει κλειδί για τη Γαλλία. Προσθέστε ένα. |
+| `Inactive: needs a free PISTE account. ...` (στο `list_jurisdictions`) | Το ίδιο. |
+| `PISTE refused the client credentials ...` | Το ID ή το secret είναι λάθος ή δεν ισχύει πια. Αντιγράψτε ξανά και τα δύο από την καρτέλα Authentification. |
+| `PISTE denied access to the ... API: subscribe the application to ... and accept its CGU on piste.gouv.fr.` | Η εφαρμογή σας δεν είναι εγγεγραμμένη σε αυτό το API ή δεν έχετε αποδεχθεί τους όρους του. Δείτε τα βήματα 2 και 3. |
+| `Using govinfo DEMO_KEY (about 10 searches/day per IP) ...` | Δεν υπάρχει κλειδί για τις ΗΠΑ. Η αναζήτηση λειτουργεί για λίγες κλήσεις την ημέρα. |
+| `govinfo rate limit reached (Retry-After ...). DEMO_KEY allows only about 10 searches a day per IP ...` | Το κλειδί επίδειξης εξαντλήθηκε. Προσθέστε το δικό σας κλειδί. |
+| `govinfo refused the API key (WLM_US_GOVINFO_KEY).` | Το κλειδί είναι λάθος ή δεν έχει επιβεβαιωθεί ακόμη από το email. |
+
+Μια κενή τιμή μετρά ως απουσία κλειδιού.
+
+## Άδειες (WLM_PERMITTED)
+
+Αυτό δεν είναι κλειδί API, και το πρόγραμμα εγκατάστασης δεν το ορίζει. **Ορίστε το μόνο αν
+έχετε εσείς οι ίδιοι αυτήν την άδεια.**
+
+Ορισμένες πηγές είναι απενεργοποιημένες από προεπιλογή επειδή οι όροι τους ή το robots.txt
+απαγορεύουν την αυτοματοποιημένη χρήση χωρίς άδεια. Αν έχετε άδεια από τον εκδότη, ενεργοποιήστε
+μια πηγή προσθέτοντας τον κωδικό της στο `WLM_PERMITTED`, χωρισμένο με κόμματα, στο μπλοκ `env`:
+`"WLM_PERMITTED": "in,de"`.
+
+| Κωδικός | Πηγή |
+|---|---|
+| `az` | Αζερμπαϊτζάν: e-qanun.az (Υπουργείο Δικαιοσύνης) |
+| `bh` | Μπαχρέιν: Legislation and Legal Opinion Commission (lloc.gov.bh) |
+| `co` | Κολομβία: Función Pública, Gestor Normativo (ενοποιημένη νομοθεσία) |
+| `de` | Γερμανία: NeuRIS (ομοσπονδιακή πύλη νομικής πληροφόρησης, δοκιμαστική υπηρεσία) |
+| `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
+| `gr` | Ελλάδα: National Printing Office, αναζήτηση στο Government Gazette (search.et.gr) |
+| `in` | Ινδία: India Code (indiacode.gov.in) |
+| `mu` | Μαυρίκιος: Supreme Court (supremecourt.govmu.org) |
+| `sg` | Σιγκαπούρη: δικαστικές αποφάσεις (elitigation.sg) |
+
+Χωρίς άδεια, το Fontes λέει: `Off by default (<code>): the terms or robots.txt of ... forbid
+automated use without the operator's permission.`

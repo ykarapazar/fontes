@@ -1,0 +1,472 @@
+{
+  "code": "ie",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-ordinary-courts/ie_en",
+    "https://highcourtsearch.courts.ie/view/document/83ef270d-72bd-44ab-a890-12bffa3ced04/Structure%20of%20the%20Courts%20Poster.pdf/pdf"
+  ],
+  "courts": [
+    {
+      "name": "Supreme Court",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "Supreme Court judgments ~2001 on; robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal (since 2014)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "Court of Appeal judgments since 2014; robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "High Court (general civil: Chancery, Non-Jury, Personal Injuries, Judicial Review, Asylum lists)",
+      "en": "High Court – general civil and judicial review",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "High Court judgments; robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "Central Criminal Court (High Court, criminal)",
+      "en": "Central Criminal Court (murder, rape, serious offences)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "Central Criminal Court sentencing/ruling judgments appear occasionally (unverified volume); robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "Commercial Court (High Court Commercial List)",
+      "en": "Commercial Court",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "Commercial Court judgments are High Court judgments; robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "Competition List (High Court)",
+      "en": "High Court Competition List",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "High Court judgments; robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "Planning and Environment Court (High Court division, since 2024)",
+      "en": "Planning and Environment Court",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "High Court judgments; robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "High Court – Family Law / Family High Court",
+      "en": "High Court family law (in camera; anonymised judgments only)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "anonymised family judgments only; robots.txt Disallow: / and meta noindex,nofollow. BAILII Ireland behind Anubis anti-bot page and its terms prohibit scraping."
+      }
+    },
+    {
+      "name": "Circuit Court (8 circuits, civil and criminal)",
+      "en": "Circuit Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/south_nordic_baltic.md (site covers Supreme Court, Court of Appeal, High Court)",
+        "note": "Circuit Court judgments are generally not written/published; superior courts only on the Courts Service site (itself robots-blocked)."
+      }
+    },
+    {
+      "name": "Circuit Court – Family Law / Circuit Family Court",
+      "en": "Circuit Court family law",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/south_nordic_baltic.md (site covers Supreme Court, Court of Appeal, High Court)",
+        "note": "Family proceedings in camera; Circuit Court judgments generally not written/published."
+      }
+    },
+    {
+      "name": "District Court (24 districts; incl. small claims procedure)",
+      "en": "District Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/south_nordic_baltic.md (site covers Supreme Court, Court of Appeal, High Court)",
+        "note": "District Court decisions are not published online; superior courts only."
+      }
+    },
+    {
+      "name": "Children Court (District Court)",
+      "en": "Children Court (juvenile criminal)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/south_nordic_baltic.md (site covers Supreme Court, Court of Appeal, High Court)",
+        "note": "Juvenile proceedings closed; District Court decisions are not published online."
+      }
+    },
+    {
+      "name": "District Court – Family Law / District Family Court",
+      "en": "District Court family law",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/south_nordic_baltic.md (site covers Supreme Court, Court of Appeal, High Court)",
+        "note": "Family proceedings in camera; District Court decisions are not published online."
+      }
+    },
+    {
+      "name": "Special Criminal Court",
+      "en": "Special Criminal Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt Disallow: /)",
+        "note": "Special Criminal Court rulings appear among Courts Service judgments only occasionally (unverified); site robots-blocked."
+      }
+    },
+    {
+      "name": "Court of Criminal Appeal (abolished 2014)",
+      "en": "Former Court of Criminal Appeal (now Court of Appeal)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "research/chatgpt/validation-r2-a.md (robots.txt 'User-agent: * / Disallow: /' confirmed); research/south_nordic_baltic.md",
+        "note": "Older CCA judgments on judgments.courts.ie/BAILII; both blocked (robots Disallow: / ; Anubis)."
+      }
+    },
+    {
+      "name": "Courts-Martial",
+      "en": "Courts-Martial",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "courts-martial not published; appeals via robots-blocked Courts Service",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie (Courts-Martial Appeal Court)",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "fetched 2026-11-07: courts.ie Courts-Martial Appeal Court page points to judgments.courts.ie; military.ie had a redirect loop",
+        "note": "Courts-martial themselves: no publication found; appeals only via the robots-blocked Courts Service site."
+      }
+    },
+    {
+      "name": "Courts-Martial Appeal Court (abolished 2014; appeals now to Court of Appeal)",
+      "en": "Former Courts-Martial Appeal Court",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (judgments.courts.ie Disallow: /)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Courts Service – judgments.courts.ie (Courts-Martial Appeal Court)",
+        "url": "https://judgments.courts.ie/",
+        "evidence": "fetched 2026-11-07: courts.ie Courts-Martial Appeal Court page points to judgments.courts.ie; military.ie had a redirect loop",
+        "note": "Appeals only via the robots-blocked Courts Service site."
+      }
+    },
+    {
+      "name": "Workplace Relations Commission (adjudication officers)",
+      "en": "WRC adjudication (first-instance employment disputes)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "WRC/Labour Court decisions database exists; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Workplace Relations Commission – decisions database",
+        "url": "https://www.workplacerelations.ie/en/cases/",
+        "evidence": "fetched 2026-11-07: database 'contains decisions and determinations of both the Labour Court and the WRC' (+ Equality Tribunal since 1996, EAT post-2007); search form Body filter",
+        "note": "Labour Court + WRC + legacy Equality Tribunal/EAT; robots and terms not checked."
+      }
+    },
+    {
+      "name": "Labour Court",
+      "en": "Labour Court (appeals from WRC; industrial relations)",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "WRC/Labour Court decisions database exists; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Workplace Relations Commission – decisions database",
+        "url": "https://www.workplacerelations.ie/en/cases/",
+        "evidence": "fetched 2026-11-07: database 'contains decisions and determinations of both the Labour Court and the WRC' (+ Equality Tribunal since 1996, EAT post-2007); search form Body filter",
+        "note": "Labour Court + WRC + legacy Equality Tribunal/EAT; robots and terms not checked."
+      }
+    },
+    {
+      "name": "Equality Tribunal / Employment Appeals Tribunal (abolished 2015)",
+      "en": "Former Equality Tribunal and EAT",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "WRC/Labour Court decisions database exists; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Workplace Relations Commission – decisions database",
+        "url": "https://www.workplacerelations.ie/en/cases/",
+        "evidence": "fetched 2026-11-07: database 'contains decisions and determinations of both the Labour Court and the WRC' (+ Equality Tribunal since 1996, EAT post-2007); search form Body filter",
+        "note": "Legacy Equality Tribunal (since 1996) and EAT (post-2007) decisions inside the WRC database; robots and terms not checked."
+      }
+    },
+    {
+      "name": "Tax Appeals Commission",
+      "en": "Tax Appeals Commission",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "TAC determinations published 2016-2026; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tax Appeals Commission – Determinations",
+        "url": "https://www.taxappeals.ie/en/determinations",
+        "evidence": "fetched 2026-11-07: listing 'Page 1 of 136', database 2016 to June 2026, plus Excel index",
+        "note": "~1,300 determinations 2016-2026, published under s.949AO TCA 1997."
+      }
+    },
+    {
+      "name": "International Protection Appeals Tribunal (IPAT)",
+      "en": "Asylum appeals tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "IPAT – Tribunal Decisions Archive",
+        "url": "https://www.protectionappeals.ie/about-the-tribunal/tribunal-decisions-archive/",
+        "evidence": "fetched 2026-11-07: page 'Tribunal Decisions Archive - IPAT' (200); robots.txt only disallows /wp-admin/, /wp-login.php",
+        "note": "anonymised selected decisions; volume and format not checked"
+      }
+    },
+    {
+      "name": "Residential Tenancies Board – adjudication and Tenancy Tribunals",
+      "en": "Tenancy dispute adjudication and tribunals",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "RTB – Dispute outcomes and orders",
+        "url": "https://rtb.ie/disputes/dispute-outcomes-and-orders/",
+        "evidence": "fetched 2026-11-07: page exists (200), robots.txt 'Disallow:' (empty); did not confirm a searchable list of determination orders",
+        "note": "determination orders are believed published; listing not confirmed"
+      }
+    },
+    {
+      "name": "Financial Services and Pensions Ombudsman (legally binding decisions)",
+      "en": "FSPO decisions (binding, appealable to High Court)",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "FSPO – Legally binding decisions",
+        "url": "https://www.fspo.ie/complaint-outcomes/investigation-services/legally-binding-decisions/",
+        "evidence": "fetched 2026-11-07: 'Ombudsman's legally binding decisions' page with filters (200); robots.txt only blocks Googlebot from /decisions/documents/ PDFs",
+        "note": "anonymised decisions as PDFs; robots lines target Googlebot only"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Bunreacht na hÉireann",
+      "en": "Constitution of Ireland",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Irish Statute Book (eISB, Office of the Attorney General)",
+      "note": "id 'cons' (also 'constitution', 'bunreacht'); preamble + Articles 1-50 incl. 28A/42A by 'article/N'; English text incl. amendments up to the 38th (2019); Irish text not wired (verified 2026-11-10)"
+    },
+    {
+      "name": "Acts of the Oireachtas",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Irish Statute Book (eISB, Office of the Attorney General)",
+      "note": "LRC Revised Act (consolidated) when one exists, else eISB text as enacted (later amendments not shown); pre-1922 Acts (1,036 in the index) from eISB's legacy pages as published; Private Acts open by id ('2023/prv/1') but are not in the search index"
+    },
+    {
+      "name": "Statutory Instruments",
+      "en": "Statutory Instruments (S.I.s)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Irish Statute Book (eISB, Office of the Attorney General)",
+      "note": "source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Irish Statute Book (eISB) / Law Reform Commission Revised Acts",
+        "url": "https://revisedacts.lawreform.ie/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ie.py (gap: consolidated S.I.s not researched)",
+        "note": "Missing part: consolidated S.I.s and structured text. LRC revises some S.I.s alongside Acts (coverage unverified); eISB S.I. print view reachable (fetched 2026-11-07 HTTP 200)."
+      }
+    },
+    {
+      "name": "Iris Oifigiúil",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette online 2002-2026; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Iris Oifigiúil (official gazette)",
+        "url": "https://www.irisoifigiuil.ie/archive/",
+        "evidence": "fetched 2026-11-07: archive page lists years 2002-2026; current issues section",
+        "note": "Issues 2002 on; format (PDF) not confirmed; disclaimer not read."
+      }
+    },
+    {
+      "name": "Local authority bye-laws",
+      "en": "Bye-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Local authority websites",
+        "url": null,
+        "evidence": "nothing fetched; no national bye-law database found",
+        "note": "Bye-laws are published by each of the 31 local authorities on its own site; no central official database identified."
+      }
+    },
+    {
+      "name": "Treaty Series",
+      "en": "Irish Treaty Series",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Department of Foreign Affairs – Irish Treaty Series",
+        "url": "https://www.ireland.ie/en/dfa/",
+        "evidence": "fetched 2026-11-07: dfa.ie/treaty-series/ 301 -> ireland.ie; ireland.ie/en/dfa/treaty-series/ 403 to plain request",
+        "note": "Treaty Series published by DFA; current host refuses plain requests (likely bot wall)."
+      }
+    }
+  ]
+}

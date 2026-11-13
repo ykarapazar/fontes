@@ -1,0 +1,572 @@
+{
+  "code": "pt",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-ordinary-courts/pt_pt?member=1"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Constitucional",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Tribunal Constitucional – Acórdãos",
+      "note": null
+    },
+    {
+      "name": "Supremo Tribunal de Justiça",
+      "en": "Supreme Court of Justice",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "DGSI – Bases Jurídico-Documentais (IGFEJ, Ministério da Justiça)",
+      "note": "DGSI holds a selection, not every decision; some records summary-only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "fetched 2026-11-07: connection refused (ECONNREFUSED) from our IP; DGSI home links it for STJ decisions",
+        "note": "missing part: decisions outside DGSI's selection; whether the CSM base holds them is unverified (could not open it)"
+      }
+    },
+    {
+      "name": "Tribunais da Relação (Lisboa, Porto, Coimbra, Guimarães, Évora)",
+      "en": "Courts of appeal (5)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "DGSI – Bases Jurídico-Documentais (IGFEJ, Ministério da Justiça)",
+      "note": "all 5 queried; DGSI is a selection, some summary-only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "fetched 2026-11-07: connection refused (ECONNREFUSED) from our IP; DGSI home links it for STJ decisions",
+        "note": "missing part: decisions outside DGSI's selection; whether the CSM base holds them is unverified (could not open it)"
+      }
+    },
+    {
+      "name": "Juízos centrais cíveis",
+      "en": "Central civil sections (claims > €50,000)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos locais cíveis",
+      "en": "Local civil sections",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos de competência genérica",
+      "en": "General-jurisdiction sections",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos de proximidade",
+      "en": "Proximity sections (service points)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos centrais criminais",
+      "en": "Central criminal sections (collective/jury trials)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos locais criminais / de pequena criminalidade",
+      "en": "Local criminal and petty-crime sections",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos de instrução criminal",
+      "en": "Criminal investigation-judge sections",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos de família e menores",
+      "en": "Family and minors sections",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos do trabalho",
+      "en": "Labour sections",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos de comércio",
+      "en": "Commercial sections (insolvency, company law)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Juízos de execução",
+      "en": "Enforcement sections",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "part of the 23 tribunais judiciais de comarca; first-instance sentences: CSM base from 2025-09 (unverified, site unreachable)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Tribunal Central de Instrução Criminal",
+      "en": "Central Criminal Investigation Court",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "tribunal de competência territorial alargada; publication via CSM base (from 2025-09) unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Tribunais de Execução das Penas (4)",
+      "en": "Sentence-enforcement courts (Lisboa, Porto, Coimbra, Évora)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "tribunal de competência territorial alargada; publication via CSM base (from 2025-09) unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Tribunal da Propriedade Intelectual",
+      "en": "Intellectual Property Court",
+      "tier": "specialised",
+      "branch": "ip",
+      "reached": "no",
+      "via": null,
+      "note": "appeals go to the Relação de Lisboa, whose rulings are on DGSI; tribunal de competência territorial alargada; publication via CSM base (from 2025-09) unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Tribunal da Concorrência, Regulação e Supervisão",
+      "en": "Competition, Regulation and Supervision Court",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "appeals go to the Relação de Lisboa; tribunal de competência territorial alargada; publication via CSM base (from 2025-09) unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Tribunal Marítimo",
+      "en": "Maritime Court",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "tribunal de competência territorial alargada; publication via CSM base (from 2025-09) unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Conselho Superior da Magistratura – Jurisprudência (ECLI)",
+        "url": "https://jurisprudencia.csm.org.pt/",
+        "evidence": "search result only (CSM criteria docs: first-instance sentences flagged for publication from 2025-09-01, posted on the CSM base and comarca pages); site refused connection 2026-11-07; connection failed again 2026-11-10",
+        "note": "CSM plans systematic publication of first-instance sentences; actual volume online unverified"
+      }
+    },
+    {
+      "name": "Supremo Tribunal Administrativo",
+      "en": "Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "DGSI – Bases Jurídico-Documentais (IGFEJ, Ministério da Justiça)",
+      "note": "DGSI selection only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "DGSI – Bases Jurídico-Documentais (IGFEJ)",
+        "url": "https://www.dgsi.pt/",
+        "evidence": "fetched 2026-11-07: DGSI home lists no other database for this court",
+        "note": "missing part: STA decisions outside DGSI's selection / summary-only records; no other official full set found"
+      }
+    },
+    {
+      "name": "Tribunais Centrais Administrativos (Sul, Norte)",
+      "en": "Central administrative courts (2)",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "DGSI – Bases Jurídico-Documentais (IGFEJ, Ministério da Justiça)",
+      "note": "both queried; DGSI selection only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "DGSI – Bases Jurídico-Documentais (IGFEJ)",
+        "url": "https://www.dgsi.pt/",
+        "evidence": "fetched 2026-11-07: DGSI home lists no other database for this court",
+        "note": "missing part: TCA decisions outside DGSI's selection / summary-only records; no other official full set found"
+      }
+    },
+    {
+      "name": "Tribunais administrativos de círculo (16, mostly joined as TAF)",
+      "en": "First-instance administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (DGSI has none)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "DGSI – Bases Jurídico-Documentais (IGFEJ)",
+        "url": "https://www.dgsi.pt/",
+        "evidence": "fetched 2026-11-07: DGSI home lists no first-instance administrative/tax court database",
+        "note": "no official online source for TAF decisions found; not published systematically as far as checked"
+      }
+    },
+    {
+      "name": "Tribunais tributários",
+      "en": "First-instance tax courts",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (DGSI has none)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "DGSI – Bases Jurídico-Documentais (IGFEJ)",
+        "url": "https://www.dgsi.pt/",
+        "evidence": "fetched 2026-11-07: DGSI home lists no first-instance administrative/tax court database",
+        "note": "no official online source for TAF decisions found; not published systematically as far as checked"
+      }
+    },
+    {
+      "name": "Tribunais arbitrais tributários e administrativos (CAAD)",
+      "en": "Tax and administrative arbitration tribunals (CAAD, Decree-Law 10/2011)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "binding tax arbitration in place of the tax courts; appeals to STA/TC",
+      "elsewhere": {
+        "status": "available",
+        "source": "CAAD – Jurisprudência Arbitral Tributária / Administrativa",
+        "url": "https://caad.org.pt/tributario/decisoes/",
+        "evidence": "fetched 2026-11-10: decision search by tax type; robots.txt disallows / but explicitly allows /administrativo/decisoes and /tributario/decisoes",
+        "note": "Official public arbitration centre (Ministry of Justice). Not wired."
+      }
+    },
+    {
+      "name": "Tribunal dos Conflitos",
+      "en": "Court of Conflicts (jurisdiction disputes)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "DGSI – Bases Jurídico-Documentais (IGFEJ, Ministério da Justiça)",
+      "note": "DGSI selection only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "DGSI – Bases Jurídico-Documentais (IGFEJ)",
+        "url": "https://www.dgsi.pt/",
+        "evidence": "fetched 2026-11-07: DGSI home lists no other database for this court",
+        "note": "missing part: Tribunal dos Conflitos decisions outside DGSI's selection / summary-only records; no other official full set found"
+      }
+    },
+    {
+      "name": "Tribunal de Contas",
+      "en": "Court of Auditors",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "own site: yearly lists of acórdãos/sentenças + TCJure",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tribunal de Contas – Acórdãos, Sentenças e Decisões / TC Jure",
+        "url": "https://tcjure.tcontas.pt/",
+        "evidence": "fetched 2026-11-07: TCJure document page and sentence PDF /ProdutosTC/Sentencas/3s/Documents/2026/st001-2026-3s.pdf returned 200; yearly listings found by search",
+        "note": "acórdãos, sentenças, decisões (yearly lists from 2002) as PDFs plus TCJure metadata"
+      }
+    },
+    {
+      "name": "Julgados de paz",
+      "en": "Justices of the peace (small civil claims)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "on DGSI (cajp.nsf), not wired",
+      "elsewhere": {
+        "status": "available",
+        "source": "DGSI – Bases Jurídico-Documentais (IGFEJ) – Jurisprudência dos Julgados de Paz",
+        "url": "https://www.dgsi.pt/cajp.nsf/954f0ce6ad9dd8b980256b5f003fa814?OpenView",
+        "evidence": "fetched 2026-11-07: DGSI home lists 'Jurisprudência dos Julgados de Paz' (cajp.nsf)",
+        "note": "same Domino engine the adapter already queries; just not wired"
+      }
+    },
+    {
+      "name": "Tribunais militares",
+      "en": "Military courts (only in a state of war)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not constituted in peacetime",
+      "elsewhere": {
+        "status": "offline",
+        "source": "n/a",
+        "url": null,
+        "evidence": "existing map note: not constituted in peacetime",
+        "note": "no courts in peacetime, nothing to publish"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constituição da República Portuguesa",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "PGDL – Legislação (Procuradoria-Geral Distrital de Lisboa, Ministério Público); unofficial consolidations",
+      "note": "unofficial PGDL consolidation; only the Diário da República is authentic",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM)",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: ELI link data.dre.pt/eli/lei/7/2009/... 301 → diariodarepublica.pt; pages return a 2.3 KB JS shell only (OutSystems SPA); research/south_nordic_baltic.md",
+        "note": "missing part: authentic/official text; DR publishes it free incl. 'legislação consolidada', but it is an OutSystems SPA with no public API (private endpoints failed for our client)"
+      }
+    },
+    {
+      "name": "Lei / Lei Orgânica / Lei Constitucional",
+      "en": "Acts of the Assembleia da República",
+      "level": "primary",
+      "reached": "partly",
+      "via": "PGDL – Legislação (Procuradoria-Geral Distrital de Lisboa, Ministério Público); unofficial consolidations",
+      "note": "PGDL selection, unofficial consolidations",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM)",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: ELI link data.dre.pt/eli/lei/7/2009/... 301 → diariodarepublica.pt; pages return a 2.3 KB JS shell only (OutSystems SPA); research/south_nordic_baltic.md",
+        "note": "missing part: authentic/official text; DR publishes it free incl. 'legislação consolidada', but it is an OutSystems SPA with no public API (private endpoints failed for our client)"
+      }
+    },
+    {
+      "name": "Decreto-Lei",
+      "en": "Government decree-laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "PGDL – Legislação (Procuradoria-Geral Distrital de Lisboa, Ministério Público); unofficial consolidations",
+      "note": "PGDL selection, unofficial consolidations",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM)",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: ELI link data.dre.pt/eli/lei/7/2009/... 301 → diariodarepublica.pt; pages return a 2.3 KB JS shell only (OutSystems SPA); research/south_nordic_baltic.md",
+        "note": "missing part: authentic/official text; DR publishes it free incl. 'legislação consolidada', but it is an OutSystems SPA with no public API (private endpoints failed for our client)"
+      }
+    },
+    {
+      "name": "Decreto Regulamentar / Decreto / Portaria / Despacho / Resolução do Conselho de Ministros",
+      "en": "Regulatory decrees, ministerial orders, dispatches, Council of Ministers resolutions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "PGDL – Legislação (Procuradoria-Geral Distrital de Lisboa, Ministério Público); unofficial consolidations",
+      "note": "only those PGDL happens to hold; unofficial",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM)",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: ELI link data.dre.pt/eli/lei/7/2009/... 301 → diariodarepublica.pt; pages return a 2.3 KB JS shell only (OutSystems SPA); research/south_nordic_baltic.md",
+        "note": "missing part: authentic/official text; DR publishes it free incl. 'legislação consolidada', but it is an OutSystems SPA with no public API (private endpoints failed for our client); DR 1.ª/2.ª série hold all of these"
+      }
+    },
+    {
+      "name": "Diário da República",
+      "en": "Official gazette (authentic texts)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "SPA with no public API; its private endpoints failed for our client",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM)",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: ELI link data.dre.pt/eli/lei/7/2009/... 301 → diariodarepublica.pt; pages return a 2.3 KB JS shell only (OutSystems SPA); research/south_nordic_baltic.md",
+        "note": "free and official, but SPA with no public API; needs reverse-engineering of its screenservices JSON"
+      }
+    },
+    {
+      "name": "Decretos Legislativos Regionais (Açores, Madeira)",
+      "en": "Regional legislative decrees of the autonomous regions",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "published in DR 1.ª série and regional gazettes",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM) (1.ª série); JORAM Madeira",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: joram.madeira.gov.pt redirects to /joram/ (200); jo.azores.gov.pt returned 403; DR shell as above",
+        "note": "DLRs are published in DR 1.ª série and the regional gazettes (JORAM, Jornal Oficial dos Açores); Azores gazette 403 from our IP"
+      }
+    },
+    {
+      "name": "Regulamentos municipais",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "published in DR 2.ª série and municipal sites",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM) (2.ª série)",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: diariodarepublica.pt reachable (JS shell); municipal regulations must be published in DR 2.ª série (CPA art. 139) – not checked on the site",
+        "note": "scattered per municipality; DR 2.ª série is the common outlet"
+      }
+    },
+    {
+      "name": "Tratados / convenções internacionais",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "approval acts with treaty text in DR 1.ª série",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diário da República Eletrónico (INCM) (1.ª série)",
+        "url": "https://diariodarepublica.pt/",
+        "evidence": "fetched 2026-11-07: ELI link data.dre.pt/eli/lei/7/2009/... 301 → diariodarepublica.pt; pages return a 2.3 KB JS shell only (OutSystems SPA); research/south_nordic_baltic.md",
+        "note": "approval resolutions/decrees with treaty text appear in DR 1.ª série; same SPA problem"
+      }
+    }
+  ]
+}

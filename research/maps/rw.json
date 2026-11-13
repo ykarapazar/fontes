@@ -1,0 +1,292 @@
+{
+  "code": "rw",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.judiciary.gov.rw/courts-structure",
+    "https://www.gov.rw/government/judiciary"
+  ],
+  "courts": [
+    {
+      "name": "Urukiko rw'Ikirenga",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "judgments section (2.1); Rwanda Law Reports (2.2.x) not built yet"
+    },
+    {
+      "name": "Urukiko rw'Ubujurire",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "judgments section only"
+    },
+    {
+      "name": "Urukiko Rukuru (Kigali seat and detached chambers: Musanze, Nyanza, Rwamagana, Rusizi)",
+      "en": "High Court",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "queried as 'high court'; judgments section only"
+    },
+    {
+      "name": "Urugereko Rwihariye Ruburanisha Ibyaha Mpuzamahanga n'Ibyambukiranya Imipaka (Urukiko Rukuru)",
+      "en": "High Court – Specialised Chamber for International and Cross-Border Crimes",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "part of the High Court collection; whether every chamber judgment is tagged 'high court' is unverified"
+    },
+    {
+      "name": "Inkiko Zisumbuye (12)",
+      "en": "Intermediate Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "queried (court filter); only judgments the portal has uploaded",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "RwandaLII (UNOFFICIAL)",
+        "url": "https://rwandalii.org/",
+        "evidence": "fetched 2026-11-07: robots.txt carries content signals; research/mena_africa_international.md: docs challenged, ai-input=no",
+        "note": "missing part: judgments the Judiciary has not uploaded; the only other collection (RwandaLII) forbids AI input"
+      }
+    },
+    {
+      "name": "Inkiko z'Ibanze (41)",
+      "en": "Primary Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "queried (court filter); only judgments the portal has uploaded",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "RwandaLII (UNOFFICIAL)",
+        "url": "https://rwandalii.org/",
+        "evidence": "fetched 2026-11-07: robots.txt carries content signals; research/mena_africa_international.md: docs challenged, ai-input=no",
+        "note": "missing part: judgments the Judiciary has not uploaded; the only other collection (RwandaLII) forbids AI input"
+      }
+    },
+    {
+      "name": "Urukiko Rukuru rw'Ubucuruzi",
+      "en": "Commercial High Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "commercial appeals"
+    },
+    {
+      "name": "Inkiko z'Ubucuruzi (3: Nyarugenge, Huye, Musanze)",
+      "en": "Commercial Courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "queried (court filter); only judgments the portal has uploaded",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "RwandaLII (UNOFFICIAL)",
+        "url": "https://rwandalii.org/",
+        "evidence": "fetched 2026-11-07: robots.txt carries content signals; research/mena_africa_international.md: docs challenged, ai-input=no",
+        "note": "missing part: judgments the Judiciary has not uploaded; the only other collection (RwandaLII) forbids AI input"
+      }
+    },
+    {
+      "name": "Urukiko Rukuru rwa Gisirikare",
+      "en": "Military High Court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": ""
+    },
+    {
+      "name": "Urukiko rwa Gisirikare",
+      "en": "Military Tribunal",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "queried as 'military court'; only judgments the portal has uploaded",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "RwandaLII (UNOFFICIAL)",
+        "url": "https://rwandalii.org/",
+        "evidence": "fetched 2026-11-07: robots.txt carries content signals; research/mena_africa_international.md: docs challenged, ai-input=no",
+        "note": "missing part: judgments the Judiciary has not uploaded; the only other collection (RwandaLII) forbids AI input"
+      }
+    },
+    {
+      "name": "International Criminal Tribunal for Rwanda (UN, closed 2015)",
+      "en": "ICTR (UN tribunal, Arusha)",
+      "tier": "specialised",
+      "branch": "international",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "the portal has an 'International Tribunal for Rwanda' collection (filter id 7); holds what Rwanda uploaded, not the full ICTR record",
+      "elsewhere": {
+        "status": "available",
+        "source": "IRMCT – Unified Court Records Database",
+        "url": "https://ucr.irmct.org/",
+        "evidence": "fetched 2026-11-10: 'Unified Court Records Database' home page 200; robots.txt 404",
+        "note": "Full ICTR/IRMCT judicial records (UN)."
+      }
+    },
+    {
+      "name": "Inkiko Gacaca",
+      "en": "Gacaca community courts (abolished 2012)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "genocide-related trials 2005-2012; archives still referred to",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gacaca archives (CNLG / MINUBUMWE)",
+        "url": "",
+        "evidence": "not checked online (2026-11-10)",
+        "note": "Archive digitisation exists; public online access unverified."
+      }
+    },
+    {
+      "name": "Komite z'Abunzi",
+      "en": "Abunzi mediation committees (cell and sector level)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "compulsory mediation for small civil disputes before the Primary Court (Law 37/2016)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online (2026-11-10)",
+        "note": "No publication known; not searched."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Itegeko Nshinga",
+      "en": "Constitution of 2003, revised 2015",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "Gazette text as published (category 'fundamental'), not consolidated"
+    },
+    {
+      "name": "Itegeko Ngenga",
+      "en": "Organic Laws",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "Gazette text as published, not consolidated; English column only split into articles"
+    },
+    {
+      "name": "Itegeko",
+      "en": "Ordinary Laws",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "in force and repealed; as published, amending laws separate"
+    },
+    {
+      "name": "Iteka rya Perezida / Iteka rya Minisitiri w'Intebe",
+      "en": "Presidential Orders / Prime Minister's Orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "only what the portal files under its law sections; adapter has no type filter, coverage unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "MINIJUST – Official Gazette (Igazeti ya Leta)",
+        "url": "https://www.minijust.gov.rw/official-gazette",
+        "evidence": "fetched 2026-11-07: directory of Official Gazette issues by year (2017–2026) opened",
+        "note": "missing part: orders the portal does not file; whole Gazette issues carry all orders"
+      }
+    },
+    {
+      "name": "Iteka rya Minisitiri",
+      "en": "Ministerial Orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "only what the portal files under its law sections; coverage unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "MINIJUST – Official Gazette (Igazeti ya Leta)",
+        "url": "https://www.minijust.gov.rw/official-gazette",
+        "evidence": "fetched 2026-11-07: directory of Official Gazette issues by year (2017–2026) opened",
+        "note": "missing part: orders the portal does not file; whole Gazette issues carry them"
+      }
+    },
+    {
+      "name": "Amabwiriza",
+      "en": "Regulations / instructions of agencies (e.g. BNR, RURA)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "published in Official Gazette issues (MINIJUST)",
+      "elsewhere": {
+        "status": "available",
+        "source": "MINIJUST – Official Gazette (Igazeti ya Leta)",
+        "url": "https://www.minijust.gov.rw/official-gazette",
+        "evidence": "fetched 2026-11-07: directory of Official Gazette issues by year (2017–2026) opened",
+        "note": "agency regulations published in the Gazette; unverified that every one is gazetted"
+      }
+    },
+    {
+      "name": "Igazeti ya Leta",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "laws come as Gazette pages; whole Gazette issues not offered",
+      "elsewhere": {
+        "status": "available",
+        "source": "MINIJUST – Official Gazette (Igazeti ya Leta)",
+        "url": "https://www.minijust.gov.rw/official-gazette",
+        "evidence": "fetched 2026-11-07: directory of Official Gazette issues by year (2017–2026) opened",
+        "note": "missing part: whole issues; MINIJUST lists them by year"
+      }
+    },
+    {
+      "name": "Amateka y'Uturere",
+      "en": "District by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not checked whether gazetted",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "MINIJUST – Official Gazette (Igazeti ya Leta)",
+        "url": "https://www.minijust.gov.rw/official-gazette",
+        "evidence": "fetched 2026-11-07: directory of Official Gazette issues by year (2017–2026) opened",
+        "note": "not checked whether district by-laws appear in Gazette issues"
+      }
+    },
+    {
+      "name": "Amasezerano mpuzamahanga",
+      "en": "Ratified international treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+      "note": "only via ratification laws in the portal (category 'diplomatic')",
+      "elsewhere": {
+        "status": "available",
+        "source": "MINIJUST – Official Gazette (Igazeti ya Leta)",
+        "url": "https://www.minijust.gov.rw/official-gazette",
+        "evidence": "fetched 2026-11-07: directory of Official Gazette issues by year (2017–2026) opened",
+        "note": "missing part: treaties outside the portal's 'diplomatic' category; ratification orders in Gazette issues"
+      }
+    }
+  ]
+}

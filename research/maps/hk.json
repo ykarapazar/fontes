@@ -1,0 +1,319 @@
+{
+  "code": "hk",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.gov.hk/en/about/abouthk/factsheets/docs/judiciary.pdf"
+  ],
+  "courts": [
+    {
+      "name": "Court of Final Appeal",
+      "en": "Court of Final Appeal",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "CFA judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "High Court – Court of Appeal",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Court of Appeal judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "High Court – Court of First Instance (civil, criminal, Admiralty, Companies, Probate, Constitutional and Administrative Law List)",
+      "en": "Court of First Instance",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "CFI judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Competition Tribunal",
+      "en": "Competition Tribunal (CFI judges)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Competition Tribunal judgments are in LRS; robots.txt disallows all"
+      }
+    },
+    {
+      "name": "District Court (civil and criminal)",
+      "en": "District Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "District Court judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Family Court",
+      "en": "Family Court (District Court judges)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "selected Family Court judgments are in LRS; robots.txt disallows all"
+      }
+    },
+    {
+      "name": "Magistrates' Courts (7)",
+      "en": "Magistrates' Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Selected Magistrates' Courts judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Juvenile Court",
+      "en": "Juvenile Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "juvenile cases are rarely reported; LRS robots.txt disallows all"
+      }
+    },
+    {
+      "name": "Lands Tribunal",
+      "en": "Lands Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Lands Tribunal judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Labour Tribunal",
+      "en": "Labour Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Labour Tribunal judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Small Claims Tribunal",
+      "en": "Small Claims Tribunal",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Published tribunal judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Obscene Articles Tribunal",
+      "en": "Obscene Articles Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Published tribunal judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Coroner's Court",
+      "en": "Coroner's Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Judiciary – Legal Reference System",
+        "url": "https://legalref.judiciary.hk/",
+        "evidence": "fetched 2026-11-07: legalref.judiciary.hk/robots.txt = 'User-Agent: * / Disallow: /'; hklii.hk/robots.txt = 'Disallow: /api'",
+        "note": "Published tribunal judgments are in LRS; robots.txt 'Disallow: /'. UNOFFICIAL HKLII also blocked (its only data route /api disallowed)"
+      }
+    },
+    {
+      "name": "Board of Review (Inland Revenue Ordinance)",
+      "en": "Tax appeals board",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Board of Review (Inland Revenue Ordinance)",
+        "url": "https://www.info.gov.hk/bor/",
+        "evidence": "fetched 2026-11-07: info.gov.hk/bor/ 200 but static HTML shows no decision links (likely script/frame navigation)",
+        "note": "its decisions are believed published (unverified)"
+      }
+    },
+    {
+      "name": "Market Misconduct Tribunal and Securities and Futures Appeals Tribunal",
+      "en": "Securities tribunals",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Market Misconduct Tribunal",
+        "url": "https://www.mmt.gov.hk/",
+        "evidence": "fetched 2026-11-07: mmt.gov.hk 200 but static HTML shows no report links",
+        "note": "reports believed published (unverified)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Basic Law, PRC Constitution and other Instruments (A-series)",
+      "en": "Constitutional instruments",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Hong Kong e-Legislation (Department of Justice) open data on DATA.GOV.HK",
+      "note": "current version only"
+    },
+    {
+      "name": "Ordinances (Cap. N)",
+      "en": "Ordinances",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Hong Kong e-Legislation (Department of Justice) open data on DATA.GOV.HK",
+      "note": "current versions only; verified copies and past versions on elegislation.gov.hk: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Hong Kong e-Legislation (www.elegislation.gov.hk)",
+        "url": "https://www.elegislation.gov.hk/",
+        "evidence": "adapter hk.py docstring: robots.txt (checked 2026-11-05) 'User-agent: * / Disallow: /' (only / and /sitemap allowed), JS client check",
+        "note": "missing part: verified copies and past versions; robots.txt disallows all"
+      }
+    },
+    {
+      "name": "Subsidiary legislation (Cap. NA: regulations, rules, orders)",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Hong Kong e-Legislation (Department of Justice) open data on DATA.GOV.HK",
+      "note": "current versions only; verified copies and past versions on elegislation.gov.hk: robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Hong Kong e-Legislation (www.elegislation.gov.hk)",
+        "url": "https://www.elegislation.gov.hk/",
+        "evidence": "adapter hk.py docstring: robots.txt (checked 2026-11-05) 'User-agent: * / Disallow: /' (only / and /sitemap allowed), JS client check",
+        "note": "missing part: verified copies and past versions; robots.txt disallows all"
+      }
+    },
+    {
+      "name": "Government Gazette",
+      "en": "Government Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "egazette.gld.gov.hk (Government Logistics Department), not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Government of the HKSAR Gazette (Government Logistics Department)",
+        "url": "https://egazette.gld.gov.hk/",
+        "evidence": "fetched 2026-11-07 (curl): gld.gov.hk/egazette redirects to egazette.gld.gov.hk (HTTP 200, Livewire app titled 'Gazette'); robots.txt 'User-agent: * / Disallow:' (empty)",
+        "note": "whole gazette incl. Legal Supplements; JS (Livewire) app, plain-HTTP access to issue texts not tested; terms not read"
+      }
+    },
+    {
+      "name": "National laws applied under Annex III Basic Law",
+      "en": "National laws listed in Annex III",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Hong Kong e-Legislation (Department of Justice) open data on DATA.GOV.HK",
+      "note": "only those published as HKeL instruments (e.g. A-series)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Hong Kong e-Legislation (www.elegislation.gov.hk)",
+        "url": "https://www.elegislation.gov.hk/",
+        "evidence": "adapter hk.py docstring: robots.txt (checked 2026-11-05) 'User-agent: * / Disallow: /' (only / and /sitemap allowed), JS client check",
+        "note": "missing part: Annex III laws not issued as HKeL instruments; mainland source flk.npc.gov.cn is also blocked (robots.txt 'Disallow: /', adapter cn.py)"
+      }
+    }
+  ]
+}

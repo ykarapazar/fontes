@@ -1,0 +1,451 @@
+{
+  "code": "hn",
+  "checked": "2026-11-10",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "Corte Suprema de Justicia – Sala de lo Constitucional",
+      "en": "Supreme Court, Constitutional Chamber",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IAIP Portal Único de Transparencia – Poder Judicial resoluciones",
+        "url": "https://portalunico.iaip.gob.hn/384/26/",
+        "evidence": "fetched 2026-11-07 (curl): 'Just a moment...' Cloudflare challenge (HTTP 403); research/chatgpt/r2_b.md saw a listing of constitutional, civil, criminal and labour resolutions through 2026",
+        "note": "Constitutional Chamber resolutions; Cloudflare challenge to our client. Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala de lo Civil",
+      "en": "Supreme Court – Civil Chamber",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IAIP Portal Único de Transparencia – Poder Judicial resoluciones",
+        "url": "https://portalunico.iaip.gob.hn/384/26/",
+        "evidence": "fetched 2026-11-07 (curl): 'Just a moment...' Cloudflare challenge (HTTP 403); research/chatgpt/r2_b.md saw a listing of constitutional, civil, criminal and labour resolutions through 2026; poderjudicial.gob.hn connect timeout again 2026-11-10 (http/https, www/bare)",
+        "note": "Chamber resolutions; Cloudflare challenge to our client. Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala de lo Penal",
+      "en": "Supreme Court – Criminal Chamber",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IAIP Portal Único de Transparencia – Poder Judicial resoluciones",
+        "url": "https://portalunico.iaip.gob.hn/384/26/",
+        "evidence": "fetched 2026-11-07 (curl): 'Just a moment...' Cloudflare challenge (HTTP 403); research/chatgpt/r2_b.md saw a listing of constitutional, civil, criminal and labour resolutions through 2026; poderjudicial.gob.hn connect timeout again 2026-11-10 (http/https, www/bare)",
+        "note": "Chamber resolutions; Cloudflare challenge to our client. Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala de lo Laboral-Contencioso Administrativo",
+      "en": "Supreme Court – Labour and Administrative Chamber",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "IAIP Portal Único de Transparencia – Poder Judicial resoluciones",
+        "url": "https://portalunico.iaip.gob.hn/384/26/",
+        "evidence": "fetched 2026-11-07 (curl): 'Just a moment...' Cloudflare challenge (HTTP 403); research/chatgpt/r2_b.md saw a listing of constitutional, civil, criminal and labour resolutions through 2026; poderjudicial.gob.hn connect timeout again 2026-11-10 (http/https, www/bare)",
+        "note": "Chamber resolutions; Cloudflare challenge to our client. Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Cortes de Apelaciones – Civil",
+      "en": "Courts of Appeal – civil",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Courts of Appeal: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Cortes de Apelaciones – Penal (incl. Competencia Nacional)",
+      "en": "Courts of Appeal – criminal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Courts of Appeal: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Cortes de Apelaciones – Familia",
+      "en": "Courts of Appeal – family",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Courts of Appeal: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Cortes de Apelaciones – Laboral",
+      "en": "Courts of Appeal – labour",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Courts of Appeal: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Corte de Apelaciones de lo Contencioso Administrativo",
+      "en": "Administrative Court of Appeal",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Courts of Appeal: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Letras Civil",
+      "en": "First-instance civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "First-instance courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Letras Penal (jueces de garantías)",
+      "en": "First-instance criminal (guarantee) courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "First-instance courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Letras de Familia",
+      "en": "Family courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "First-instance courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Letras de la Niñez y Adolescencia",
+      "en": "Children and adolescents courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "First-instance courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados Especiales contra la Violencia Doméstica",
+      "en": "Domestic-violence courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "First-instance courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunales de Sentencia",
+      "en": "Criminal trial courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Trial courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados y Tribunales con Competencia Nacional en Materia Penal (extorsión, corrupción, criminalidad organizada) y Privación de Dominio",
+      "en": "National-jurisdiction criminal and asset-forfeiture courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Trial courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Ejecución",
+      "en": "Sentence-enforcement courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Trial courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Letras del Trabajo",
+      "en": "Labour courts",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Labour courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Letras de lo Contencioso Administrativo",
+      "en": "Administrative litigation courts",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Administrative courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Juzgados de Paz",
+      "en": "Justice of the peace courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – CEDIJ",
+        "url": "https://www.poderjudicial.gob.hn/",
+        "evidence": "fetched 2026-11-07 (curl): no answer (timeout)",
+        "note": "Peace courts: whether lower-court decisions are published at all is unknown; Poder Judicial / CEDIJ (poderjudicial.gob.hn, jurisprudencia.poderjudicial.gob.hn) timed out again 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunal de Justicia Electoral (since 2021)",
+      "en": "Electoral Justice Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "not researched"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución de la República",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Biblioteca Virtual del Tribunal Superior de Cuentas (TSC) – laws, codes, regulations and decrees as published (PDF, mostly La Gaceta copies)",
+      "note": "TSC copy: 1982 text with reforms to 2004, as published, reforms not applied; later constitutional reform decrees only as whole La Gaceta issues (ENAG, 2015-), not applied; no consolidated official text found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: ENAG wired (Gazette issues 2015-); no consolidated constitution there; Congreso site bad TLS cert (2026-11-06); retried 2026-11-10: poderjudicial.gob.hn connect timeout (http/https, www/bare); congresonacional.hn answered once (Next.js shell, robots.txt 404, no law database seen) then timed out 3 times",
+        "note": "missing: an official consolidated constitution"
+      }
+    },
+    {
+      "name": "Decretos legislativos (Leyes, Códigos)",
+      "en": "Acts of the National Congress (laws, codes)",
+      "level": "primary",
+      "reached": "partly",
+      "via": "ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras)",
+      "note": "TSC library (laws/codes it holds, search by title/summary) + every La Gaceta issue 2015- on ENAG (whole issues, found by month and ENAG's contents summary). Missing: laws before 2015 not in the TSC library; no full-text search across the Gazette; not consolidated; old TSC scans have no text (no OCR)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: ENAG lists only 2015-; pre-2015 Gazette and a consolidated law database not found (Congreso site bad TLS cert / timeout 2026-11-06); retried 2026-11-10: poderjudicial.gob.hn connect timeout (http/https, www/bare); congresonacional.hn answered once (Next.js shell, robots.txt 404, no law database seen) then timed out 3 times",
+        "note": "missing part: pre-2015 laws not in the TSC library; consolidation"
+      }
+    },
+    {
+      "name": "Decretos ejecutivos / Acuerdos ejecutivos",
+      "en": "Executive decrees and agreements",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras)",
+      "note": "TSC library selection + whole La Gaceta issues 2015- on ENAG (by month); as published; pre-2015 only what TSC holds",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: ENAG Gaceta Digital wired; pre-2015 issues not listed",
+        "note": "missing part: pre-2015 Gazette"
+      }
+    },
+    {
+      "name": "Reglamentos",
+      "en": "Regulations",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras)",
+      "note": "TSC library selection + whole La Gaceta issues 2015- on ENAG (by month); as published; pre-2015 only what TSC holds",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: ENAG Gaceta Digital wired; pre-2015 issues not listed",
+        "note": "missing part: pre-2015 Gazette"
+      }
+    },
+    {
+      "name": "La Gaceta",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras)",
+      "note": "every issue 2015-2026 as PDF with text layer, listed by month with ENAG's contents summary; pre-2015 not listed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: ENAG Gaceta Digital wired; pre-2015 issues not listed",
+        "note": "missing part: pre-2015 Gazette"
+      }
+    },
+    {
+      "name": "Tratados",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras)",
+      "note": "TSC library selection + whole La Gaceta issues 2015- on ENAG (by month); as published; pre-2015 only what TSC holds",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: ENAG Gaceta Digital wired; pre-2015 issues not listed",
+        "note": "missing part: pre-2015 Gazette"
+      }
+    },
+    {
+      "name": "Ordenanzas / acuerdos municipales",
+      "en": "Municipal ordinances",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no central official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "some may be in La Gaceta; municipal sites not checked"
+      }
+    }
+  ]
+}

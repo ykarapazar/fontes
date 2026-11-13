@@ -1,0 +1,91 @@
+[project]
+name = "fontes-mcp"
+version = "0.1.0"
+description = "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original."
+dynamic = ["readme"]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.13"
+authors = [{ name = "Yüce Karapazar" }]
+keywords = ["mcp", "model-context-protocol", "case-law", "legislation", "legal-research", "claude"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Legal Industry",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = [
+    "mcp[cli]>=1.2,<2",
+    "httpx>=0.27",
+    "lxml>=5.0",
+    "markdownify>=0.13",
+    "pypdf>=6.21.4",
+    "python-dotenv>=1.2.4",
+    "truststore>=0.10",
+]
+
+[project.urls]
+Homepage = "https://ykarapazar.github.io/fontes/"
+Source = "https://github.com/ykarapazar/fontes"
+Issues = "https://github.com/ykarapazar/fontes/issues"
+Status = "https://ykarapazar.github.io/fontes/status/"
+
+[project.scripts]
+fontes = "world_legal_mcp.server:main"
+fontes-mcp = "world_legal_mcp.server:main"
+world-legal-mcp = "world_legal_mcp.server:main"
+nl-legal-mcp = "world_legal_mcp.server:main_nl"
+uk-legal-mcp = "world_legal_mcp.server:main_uk"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.24",
+]
+
+[build-system]
+requires = ["hatchling", "hatch-fancy-pypi-readme"]
+build-backend = "hatchling.build"
+
+# Keep the sdist to code, tests and licence files (plus the shared CLI strings): research notes, the
+# rest of the installer and docs stay out of PyPI.
+[tool.hatch.build.targets.sdist]
+only-include = ["src", "tests", "README.md", "LICENSE", "NOTICE", "pyproject.toml",
+                "installer/fontes_i18n.py", "installer/locales"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/world_legal_mcp"]
+
+# The `fontes report-bug` strings are shared with the installer (one locale file per language).
+[tool.hatch.build.targets.wheel.force-include]
+"installer/fontes_i18n.py" = "world_legal_mcp/_fontes_i18n.py"
+"installer/locales" = "world_legal_mcp/locales"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"
+testpaths = ["tests"]
+
+# PyPI shows README.md but can't follow relative paths: point them at GitHub in the copy that goes
+# into the package metadata. README.md itself is unchanged.
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+content-type = "text/markdown"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "README.md"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = '(src|srcset)="(?!https?:)([^"]+)"'
+replacement = '\1="https://raw.githubusercontent.com/ykarapazar/fontes/main/\2"'
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = 'href="(?!https?:|#|mailto:)([^"]+)"'
+replacement = 'href="https://github.com/ykarapazar/fontes/blob/main/\1"'
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = '\]\((?!https?:|#|mailto:)([^)]+)\)'
+replacement = '](https://github.com/ykarapazar/fontes/blob/main/\1)'

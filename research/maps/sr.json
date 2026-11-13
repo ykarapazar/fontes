@@ -1,0 +1,280 @@
+{
+  "code": "sr",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.dna.sr/media/ugujqjeu/reglement_inrichting_samenstelling_rechterlijke_macht.pdf",
+    "https://www.dna.sr/media/lgrjtfme/sb_2019___118.pdf",
+    "https://rechtspraak.sr/wp-content/uploads/2025/12/1e-en-2e-rapport-Denktank-HvJ-Derde-instantie.pdf"
+  ],
+  "courts": [
+    {
+      "name": "Constitutioneel Hof",
+      "en": "Constitutional Court (since 2019/2020)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "not in rechtspraak.sr court list; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "SRiS (Stichting Rechtsorde in Suriname) – CH decisions",
+        "url": "https://www.sris.sr",
+        "evidence": "search result only (e.g. sris.sr/wp-content/uploads/2023/11/CH-03-d.d.-31-januari-2023.pdf)",
+        "note": "UNOFFICIAL: foundation site hosting Constitutioneel Hof decisions as PDFs; no official CH database found; homepage fetch gave no content"
+      }
+    },
+    {
+      "name": "Hof van Justitie – civiele kamer",
+      "en": "High Court of Justice, civil appeals",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected anonymised decisions only; max 500 hits per search",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Hof van Justitie – strafkamer",
+      "en": "High Court of Justice, criminal (appeal; first instance for political office-holders)",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected anonymised decisions only; max 500 hits per search",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Hof van Justitie – ambtenarenzaken",
+      "en": "High Court of Justice, civil-service cases (first and last instance)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "source covers Hof van Justitie decisions generally; whether civil-service rulings are included is unverified",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Hoog Militair Gerechtshof",
+      "en": "High Military Court (Hof van Justitie sitting on appeal from the Krijgsraad)",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "source covers Hof van Justitie decisions generally; whether military appeals are included is unverified",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Kantongerechten (3: Eerste, Tweede, Derde Kanton)",
+      "en": "Cantonal courts (first instance)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected anonymised decisions only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Rechter-Commissaris in Strafzaken",
+      "en": "Examining magistrate",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected decisions only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Krijgsraad",
+      "en": "Court martial (military first instance; appeal to Hof van Justitie)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected decisions only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Advocaten Tuchtcollege (ATC)",
+      "en": "Disciplinary board for advocates",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected decisions only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Medisch Tuchtcollege (MTC)",
+      "en": "Medical disciplinary board",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected decisions only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    },
+    {
+      "name": "Tuchtcollege voor het Notariaat (TCN)",
+      "en": "Notarial disciplinary board",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+      "note": "selected decisions only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Rechtspraak Suriname (rechtspraak.sr)",
+        "url": "https://rechtspraak.sr",
+        "evidence": "used by Fontes sr adapter (src/world_legal_mcp/jurisdictions/sr.py)",
+        "note": "missing part: unselected decisions are not published (about 1,400 total online)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Grondwet van de Republiek Suriname",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Surinaamse wetten, De Nationale Assemblee (dna.sr)",
+      "note": "consolidation in 'geldende teksten t/m 2005'"
+    },
+    {
+      "name": "Wetten",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Surinaamse wetten, De Nationale Assemblee (dna.sr)",
+      "note": "pre-2005 consolidations plus later laws and amendments as separate PDFs; title search only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Wetten.sr",
+        "url": "https://wetten.sr",
+        "evidence": "search result only",
+        "note": "missing part: consolidated post-2005 texts; wetten.sr is a private volunteer platform (not official), not opened"
+      }
+    },
+    {
+      "name": "Staatsbesluiten",
+      "en": "State decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Wetten.sr / SRiS",
+        "url": "https://wetten.sr",
+        "evidence": "search result only",
+        "note": "no official database found; private wetten.sr claims staatsbesluiten; SRiS hosts single Staatsblad PDFs"
+      }
+    },
+    {
+      "name": "Ministeriële beschikkingen / resoluties",
+      "en": "Ministerial orders and resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked; no official online source found"
+      }
+    },
+    {
+      "name": "Staatsblad / Advertentieblad van de Republiek Suriname",
+      "en": "Official gazettes",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "SRiS (single Staatsblad PDFs)",
+        "url": "https://www.sris.sr",
+        "evidence": "search result only",
+        "note": "no official online Staatsblad archive found; only scattered issues on sris.sr and nationaalarchief.sr"
+      }
+    },
+    {
+      "name": "Overeenkomsten / verdragen",
+      "en": "Treaties and agreements",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Surinaamse wetten, De Nationale Assemblee (dna.sr)",
+      "note": "approval laws listed by dna.sr in its 'overeenkomsten / verdragen' category",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "missing part: treaty texts beyond approval laws; not checked"
+      }
+    },
+    {
+      "name": "Begrotingswetten en naturalisatiewetten",
+      "en": "Budget and naturalisation acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Surinaamse wetten, De Nationale Assemblee (dna.sr)",
+      "note": ""
+    }
+  ]
+}

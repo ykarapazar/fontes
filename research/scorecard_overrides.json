@@ -1,0 +1,79 @@
+{
+  "_doc": "Judgement calls for the coverage scorecard (scripts/catalogue.py). Default: all rows yes = complete, some reached = gap, none = none. Overrides here only where the map's 'partly' is a minor gap, or where Fontes has everything the court publishes but that is thin.",
+  "caselaw": {
+    "tr": [
+      "complete",
+      "latest ~5 weeks lag in Bedesten"
+    ],
+    "gb": [
+      "complete",
+      "UK Supreme Court from 2009 in full; House of Lords before that is on BAILII only"
+    ],
+    "py": [
+      "complete",
+      "from 1993"
+    ],
+    "fi": [
+      "complete",
+      "precedents (KKO) only; other decisions not built"
+    ],
+    "np": [
+      "complete",
+      "Nepal Kanoon Patrika precedents; Nepali only"
+    ],
+    "pt": [
+      "complete",
+      "DGSI is the official selection; some summary-only"
+    ],
+    "rs": [
+      "complete",
+      "the court publishes selected anonymised decisions only"
+    ],
+    "sr": [
+      "complete",
+      "the court publishes selected anonymised decisions only"
+    ],
+    "am": [
+      "complete",
+      "Anti-Corruption Chamber publication unverified"
+    ],
+    "ci": [
+      "complete",
+      "THIN: the court publishes only ~100 judgments online"
+    ],
+    "cm": [
+      "complete",
+      "THIN: the court publishes only a few dozen judgments online"
+    ],
+    "cv": [
+      "complete",
+      "THIN: the court publishes only ~360 selected judgments online"
+    ],
+    "tm": [
+      "complete",
+      "THIN: only Plenum guiding resolutions are published"
+    ],
+    "al": [
+      "complete",
+      "full-text search from 2005; 1999–2004 monthly volumes browse-only"
+    ]
+  },
+  "legislation": {
+    "hk": [
+      "complete",
+      "current versions only; past versions robots-blocked"
+    ],
+    "lu": [
+      "complete",
+      "~1,400 acts consolidated, the rest as originally published"
+    ],
+    "ad": [
+      "complete",
+      "decrets legislatius reached through the consolidated law texts (text refós)"
+    ],
+    "us": [
+      "complete",
+      "US Code (all general and permanent law) + Constitution; uncodified Statutes at Large not built"
+    ]
+  }
+}

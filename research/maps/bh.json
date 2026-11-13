@@ -1,0 +1,433 @@
+{
+  "code": "bh",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "المحكمة الدستورية",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+      "note": "off unless WLM_PERMITTED (terms forbid use 'for any other purposes')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC (lloc.gov.bh) – Constitutional Court judgments",
+        "url": "https://www.lloc.gov.bh/Legislation/Search",
+        "evidence": "src/world_legal_mcp/jurisdictions/bh.py",
+        "note": "missing part is the default-off gate: LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED; ccb.bh answers 403 from the UK"
+      }
+    },
+    {
+      "name": "محكمة التمييز",
+      "en": "Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "sjc.bh and moj.gov.bh answer 403 to a UK client; no public judgment database found by search; a secondary source says Cassation judgments are published in the Official Gazette (unverified)"
+      }
+    },
+    {
+      "name": "محكمة الاستئناف العليا المدنية",
+      "en": "High Civil Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "محكمة الاستئناف العليا الجنائية",
+      "en": "High Criminal Court of Appeal",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "المحكمة الكبرى المدنية",
+      "en": "High Civil Court (major civil, incl. commercial, labour and administrative circuits; also hears appeals from the Lower Civil Court)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "المحكمة الكبرى الجنائية",
+      "en": "High Criminal Court (felonies; also appeals from the Lower Criminal Court)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "المحكمة الصغرى المدنية",
+      "en": "Lower Civil Court (claims up to BHD 5,000)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "المحكمة الصغرى الجنائية",
+      "en": "Lower Criminal Court (misdemeanours)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "محكمة الأمور المستعجلة",
+      "en": "Court of Urgent Matters",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "محكمة التنفيذ",
+      "en": "Execution Court",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "enforcement; no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "محكمة العدالة الإصلاحية للطفل",
+      "en": "Restorative Justice Courts for Children (juvenile; Law No. 4 of 2021, unverified here)",
+      "tier": "specialised",
+      "branch": "juvenile",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Judicial Council (sjc.bh)",
+        "url": "https://www.sjc.bh",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "no public source found; sjc.bh 403 from UK"
+      }
+    },
+    {
+      "name": "المحكمة الصغرى الشرعية (الدائرة الجعفرية والسنية)",
+      "en": "Lower Sharia Courts (Ja'fari and Sunni sections)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (Emory Islamic family law profile)",
+        "note": "Shari'a court judgments are not officially published"
+      }
+    },
+    {
+      "name": "المحكمة الكبرى الشرعية (الدائرة الجعفرية والسنية)",
+      "en": "High Sharia Courts (Ja'fari and Sunni sections)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (Emory Islamic family law profile)",
+        "note": "Shari'a court judgments are not officially published"
+      }
+    },
+    {
+      "name": "محكمة الاستئناف العليا الشرعية (الدائرة الجعفرية والسنية)",
+      "en": "High Sharia Courts of Appeal (Ja'fari and Sunni sections)",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (Emory Islamic family law profile)",
+        "note": "Shari'a court judgments are not officially published"
+      }
+    },
+    {
+      "name": "المحاكم العسكرية",
+      "en": "Military courts (Bahrain Defence Force)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07 searches on Bahrain court structure found no military-court publication)",
+        "note": "military judiciary (Military Judiciary Law 2002): no source found"
+      }
+    },
+    {
+      "name": "محكمة الاستئناف العسكرية العليا",
+      "en": "Military High Court of Appeal",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07 searches on Bahrain court structure found no military-court publication)",
+        "note": "military judiciary (Military Judiciary Law 2002): no source found"
+      }
+    },
+    {
+      "name": "محكمة البحرين التجارية الدولية",
+      "en": "Bahrain International Commercial Court (Dispute Resolution Panel and Appellate Panel; Decree-Law 9/2024, launched Nov 2025)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "new court; no judgments source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: Al Tamimi, Mondaq and GDN on Decree-Law No. 9 of 2024 and the Nov 2025 launch)",
+        "note": "no official site or judgments page found; whether it publishes judgments is unknown"
+      }
+    },
+    {
+      "name": "غرفة البحرين لتسوية المنازعات",
+      "en": "Bahrain Chamber for Dispute Resolution",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "bcdr-aaa.org 403 from UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BCDR-AAA",
+        "url": "https://www.bcdr-aaa.org",
+        "evidence": "fetch failed 2026-11-07 (403 from UK)",
+        "note": "403 from the UK; awards are likely confidential (not verified)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "دستور مملكة البحرين",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+      "note": "in the LLOC database if indexed under its type codes (not checked); off unless WLM_PERMITTED (terms forbid use 'for any other purposes')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – دستور مملكة البحرين",
+        "url": "https://www.lloc.gov.bh/page/دستور مملكة البحرين",
+        "evidence": "fetched 2026-11-07: LLOC homepage menu links the Constitution page",
+        "note": "text is on LLOC; LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "قانون / مرسوم بقانون",
+      "en": "Laws and decree-laws (type K)",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+      "note": "consolidated .docx where LLOC has one, else as published; off unless WLM_PERMITTED (terms forbid use 'for any other purposes')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – legislation database",
+        "url": "https://www.lloc.gov.bh/Legislation/Search",
+        "evidence": "src/world_legal_mcp/jurisdictions/bh.py",
+        "note": "missing part is the default-off gate: LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "أمر ملكي",
+      "en": "Royal orders (type O)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+      "note": "off unless WLM_PERMITTED (terms forbid use 'for any other purposes')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – legislation database",
+        "url": "https://www.lloc.gov.bh/Legislation/Search",
+        "evidence": "src/world_legal_mcp/jurisdictions/bh.py",
+        "note": "missing part is the default-off gate: LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "مرسوم",
+      "en": "Decrees (type D)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+      "note": "off unless WLM_PERMITTED (terms forbid use 'for any other purposes')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – legislation database",
+        "url": "https://www.lloc.gov.bh/Legislation/Search",
+        "evidence": "src/world_legal_mcp/jurisdictions/bh.py",
+        "note": "missing part is the default-off gate: LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "قرار",
+      "en": "Ministerial and other decisions (type R)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+      "note": "off unless WLM_PERMITTED (terms forbid use 'for any other purposes')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – legislation database",
+        "url": "https://www.lloc.gov.bh/Legislation/Search",
+        "evidence": "src/world_legal_mcp/jurisdictions/bh.py",
+        "note": "missing part is the default-off gate: LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "تعميم / إعلان / بيان",
+      "en": "Circulars, announcements, statements (C, N, B)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+      "note": "off unless WLM_PERMITTED (terms forbid use 'for any other purposes')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – legislation database",
+        "url": "https://www.lloc.gov.bh/Legislation/Search",
+        "evidence": "src/world_legal_mcp/jurisdictions/bh.py",
+        "note": "missing part is the default-off gate: LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "الجريدة الرسمية",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette issues not fetched; record dates are gazette dates only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – الجريدة الرسمية search",
+        "url": "https://www.lloc.gov.bh/OfficialGazette",
+        "evidence": "fetched 2026-11-07: page answers 200; homepage also links /Subscription (subscribe to the gazette)",
+        "note": "LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "المعاهدات والاتفاقيات",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "LLOC /Treaty: not built yet",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – Treaty search",
+        "url": "https://www.lloc.gov.bh/Treaty/Search",
+        "evidence": "fetched 2026-11-07: page answers 200 (bilateral, multilateral, by country/organisation)",
+        "note": "LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    },
+    {
+      "name": "English translations",
+      "en": "Official English translations",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "LLOC /Legislation/English: not built yet",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "LLOC – Legislations translated into English",
+        "url": "https://www.lloc.gov.bh/Legislation/English",
+        "evidence": "fetched 2026-11-07: page answers 200",
+        "note": "LLOC site terms: content is copyright LLOC and may not be modified or used 'for any other purposes'; Fontes has it gated behind WLM_PERMITTED"
+      }
+    }
+  ]
+}

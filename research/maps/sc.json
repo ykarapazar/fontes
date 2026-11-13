@@ -1,0 +1,276 @@
+{
+  "code": "sc",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.judiciary.sc/"
+  ],
+  "courts": [
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not on judiciary.sc; UNOFFICIAL SeyLII has Court of Appeal judgments",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: independent association (est. under Judiciary auspices); Court of Appeal judgments [YYYY] SCCA from 1990s; terms page JS-rendered, not read"
+      }
+    },
+    {
+      "name": "Constitutional Court (Supreme Court sitting as)",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Judiciary of Seychelles website (judiciary.sc): Decisions from the Courts",
+      "note": "2025 on only; earlier only on SeyLII (non-official, excluded)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: missing part (pre-2025) on SeyLII; terms page not read"
+      }
+    },
+    {
+      "name": "Supreme Court – civil side",
+      "en": "Supreme Court (civil)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Judiciary of Seychelles website (judiciary.sc): Decisions from the Courts",
+      "note": "judiciary.sc civil table, 2025 on; also hears appeals from Magistrates' Courts and tribunals",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: missing part (pre-2025) on SeyLII; terms page not read"
+      }
+    },
+    {
+      "name": "Supreme Court – criminal side",
+      "en": "Supreme Court (criminal)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Judiciary of Seychelles website (judiciary.sc): Decisions from the Courts",
+      "note": "judiciary.sc criminal table, 2025 on",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: missing part (pre-2025) on SeyLII; terms page not read"
+      }
+    },
+    {
+      "name": "Supreme Court – Commercial Court (commercial list)",
+      "en": "Commercial Court division of the Supreme Court",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "Judiciary of Seychelles website (judiciary.sc): Decisions from the Courts",
+      "note": "commercial cases are Supreme Court cases ([YYYY] SCSC); whether they sit in the civil table of judiciary.sc is unverified",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: missing part (pre-2025) on SeyLII; terms page not read"
+      }
+    },
+    {
+      "name": "Magistrates' Courts",
+      "en": "Magistrates' Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not listed on judiciary.sc",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Judiciary of Seychelles / SeyLII",
+        "url": "https://www.judiciary.sc/resources/court-decisions/",
+        "evidence": "fetched 2026-11-07: judiciary.sc decisions page has no table for this body; SeyLII collections not enumerated (JS app)",
+        "note": "Magistrates' Courts: not found online; unverified whether SeyLII holds any"
+      }
+    },
+    {
+      "name": "Juvenile Court",
+      "en": "Juvenile Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not listed on judiciary.sc",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Judiciary of Seychelles / SeyLII",
+        "url": "https://www.judiciary.sc/resources/court-decisions/",
+        "evidence": "fetched 2026-11-07: judiciary.sc decisions page has no table for this body; SeyLII collections not enumerated (JS app)",
+        "note": "Juvenile Court: not found online; unverified whether SeyLII holds any"
+      }
+    },
+    {
+      "name": "Family Tribunal",
+      "en": "Family Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not listed on judiciary.sc",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Judiciary of Seychelles / SeyLII",
+        "url": "https://www.judiciary.sc/resources/court-decisions/",
+        "evidence": "fetched 2026-11-07: judiciary.sc decisions page has no table for this body; SeyLII collections not enumerated (JS app)",
+        "note": "Family Tribunal: not found online; unverified whether SeyLII holds any"
+      }
+    },
+    {
+      "name": "Employment Tribunal",
+      "en": "Employment Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not listed on judiciary.sc",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Judiciary of Seychelles / SeyLII",
+        "url": "https://www.judiciary.sc/resources/court-decisions/",
+        "evidence": "fetched 2026-11-07: judiciary.sc decisions page has no table for this body; SeyLII collections not enumerated (JS app)",
+        "note": "Employment Tribunal: not found online; unverified whether SeyLII holds any"
+      }
+    },
+    {
+      "name": "Rent Board",
+      "en": "Rent Board",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not listed on judiciary.sc",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Judiciary of Seychelles / SeyLII",
+        "url": "https://www.judiciary.sc/resources/court-decisions/",
+        "evidence": "fetched 2026-11-07: judiciary.sc decisions page has no table for this body; SeyLII collections not enumerated (JS app)",
+        "note": "Rent Board: not found online; unverified whether SeyLII holds any"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of the Republic of Seychelles (1993)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Judiciary of Seychelles website (judiciary.sc): Laws of Seychelles (Constitution and main codes)",
+      "note": "full text, Government Printer 2010 edition revised up to August 2018 (judiciary.sc PDF, parsed by article); amendment Acts from 2020 on gazette.sc as enacted; missing: a merged current text and any amendment gazetted Sep 2018-2019",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL consolidated Constitution; SeyLII terms (2026-11-10): 'Scraping and bulk downloading from this website is strictly prohibited'; not usable"
+      }
+    },
+    {
+      "name": "Acts",
+      "en": "Acts of the National Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Official Gazette of Seychelles (gazette.sc): Acts, S.I.s and Bills; Judiciary of Seychelles website (judiciary.sc): Laws of Seychelles (Constitution and main codes)",
+      "note": "2020 on as enacted (gazette.sc) plus the Penal, Civil, Criminal Procedure and Civil Procedure Codes as consolidated by Laws.Africa and posted on judiciary.sc; missing: all other pre-2020 Acts and consolidated texts of Acts other than those four codes",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: missing part = consolidated and pre-2020 Acts; SeyLII terms (2026-11-10): 'Scraping and bulk downloading from this website is strictly prohibited'; not usable; official pre-2020 gazette only by paid email request"
+      }
+    },
+    {
+      "name": "Statutory Instruments (S.I.)",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Official Gazette of Seychelles (gazette.sc): Acts, S.I.s and Bills",
+      "note": "2020 on, as gazetted, not consolidated",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: missing part = consolidated and pre-2020 S.I.s; SeyLII terms (2026-11-10): 'Scraping and bulk downloading from this website is strictly prohibited'; not usable"
+      }
+    },
+    {
+      "name": "Bills",
+      "en": "Bills",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Official Gazette of Seychelles (gazette.sc): Acts, S.I.s and Bills",
+      "note": "2020 on; not law",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Official Gazette of Seychelles",
+        "url": "https://www.gazette.sc/",
+        "evidence": "SIGNUPS.md (sc line)",
+        "note": "missing part: pre-2020 bills, only by paid email request"
+      }
+    },
+    {
+      "name": "Official Gazette",
+      "en": "Official Gazette issues",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette issue rows skipped by the adapter; pre-2020 not online (paid request)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Official Gazette of Seychelles",
+        "url": "https://www.gazette.sc/",
+        "evidence": "used by Fontes sc adapter (src/world_legal_mcp/jurisdictions/sc.py), which sees issue rows but skips them",
+        "note": "2020 on as PDFs; pre-2020 offline (paid email request)"
+      }
+    },
+    {
+      "name": "Consolidated Laws of Seychelles",
+      "en": "Revised/consolidated laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Judiciary of Seychelles website (judiciary.sc): Laws of Seychelles (Constitution and main codes)",
+      "note": "only the Constitution and four codes (Penal, Civil, Criminal Procedure, Civil Procedure) posted on judiciary.sc/seychelles-law; legalaffairs.gov.sc does not resolve",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SeyLII – Seychelles Legal Information Institute",
+        "url": "https://seylii.org/",
+        "evidence": "fetched 2026-11-10: Terms of Use (seylii.org/seylii/i/en/item/5229/index.do): 'Scraping and bulk downloading from this website is strictly prohibited ... Please email us if you would like to access our data in bulk'; site loads DataDome bot protection; robots.txt * group: Allow /, Content-Signal ai-train=no, use=reference",
+        "note": "UNOFFICIAL: consolidated laws; SeyLII terms (2026-11-10): 'Scraping and bulk downloading from this website is strictly prohibited'; not usable"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not established (mfa.gov.sc not searched)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministry of Foreign Affairs",
+        "url": "https://mfa.gov.sc/",
+        "evidence": "fetched 2026-11-07: mfa.gov.sc home opened; no treaty database looked for",
+        "note": "not established"
+      }
+    }
+  ]
+}

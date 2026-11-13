@@ -1,0 +1,17 @@
+{
+  "executionTime": 15,
+  "dereferenced": false,
+  "article": {
+    "id": "LEGIARTI000032041571",
+    "cid": "LEGIARTI000032041571",
+    "num": "1240",
+    "etat": "VIGUEUR",
+    "nature": "Article",
+    "origine": "LEGI",
+    "dateDebut": 1475280000000,
+    "dateFin": 32472144000000,
+    "texte": "Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer.",
+    "texteHtml": "<p>Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer.</p>",
+    "textTitles": [{"cid": "LEGITEXT000006070721", "titre": "Code civil"}]
+  }
+}

@@ -1,0 +1,58 @@
+# Changelog
+
+Plain-language notes for each release. Newest first.
+
+## 0.1.0 (not yet released)
+
+The first public version.
+
+**What you can search**
+
+- Court decisions and legislation in 124 jurisdictions: 108 UN member states, Hong Kong,
+  Kosovo, Palestine, Taiwan, the DIFC Courts, and 11 international courts and bodies (among them
+  the European Court of Human Rights, the EU, the ICJ, ICSID, ITLOS, the WTO and the UN Treaty
+  Collection).
+- 72 of the 124 count as covered under a strict rule: the top general court's precedents, or
+  the constitution and primary acts, reached completely. [docs/COVERAGE.md](docs/COVERAGE.md)
+  lists what each jurisdiction reaches, what it doesn't, and why.
+- France needs a free PISTE key; US case-law search works better with a free api.data.gov key.
+  Every other jurisdiction needs no key.
+
+**How it works**
+
+- Seven research tools: `list_jurisdictions`, `search_caselaw`, `get_decision`,
+  `search_legislation`, `get_legislation_toc`, `get_legislation_provision`,
+  `get_legislation_text`. The jurisdiction is a parameter.
+- Texts are fetched live from the publisher's website or API when you ask. No database, no bulk
+  download, no account.
+- Every result names its source and links to the original. Unofficial sources are flagged in
+  the answer.
+- Each source's licence, terms, robots.txt and rate limits are recorded. Sources whose terms
+  need the publisher's permission are off by default (`WLM_PERMITTED`).
+- Requests carry an honest User-Agent with a contact address and are spaced per website.
+- `--only` limits the server to some jurisdictions. `nl-legal-mcp` and `uk-legal-mcp` remain as
+  aliases for the Dutch and UK subsets.
+
+**Install and updates**
+
+- An installer for Mac and Windows that sets up Fontes in Claude Desktop, Codex, Claude Code,
+  Cursor, VS Code (Copilot), Windsurf, Gemini CLI, Zed, LM Studio and Cline, in each one it
+  finds. It updates Fontes once a day, falling back to the last version that worked. Tested on
+  macOS; the Windows version has not yet been run on Windows.
+- An optional keys step after installing, and an **Add or change keys** launcher, for the free
+  France and US keys. See [docs/KEYS.md](docs/KEYS.md).
+- A Claude Desktop extension (`.mcpb`) with optional key fields, and `uvx fontes-mcp` for developers.
+- A once-a-day check for a newer version on PyPI (off with `FONTES_NO_UPDATE_CHECK=1`).
+
+**Privacy and reports**
+
+- Nothing is sent to the developer by default. Usage counts are opt-in; a bug report
+  (`report_bug` tool, `fontes report-bug`) is sent only after you see it and confirm. See
+  [docs/PRIVACY.md](docs/PRIVACY.md).
+
+**Docs**
+
+- README, install guide, privacy notice and landing page in 80 languages.
+- A daily health check of the sources, with a public status page.
+- [FAQ](docs/FAQ.md), [contributing guide](CONTRIBUTING.md), [code of conduct](CODE_OF_CONDUCT.md)
+  and [security policy](SECURITY.md).

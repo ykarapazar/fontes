@@ -1,0 +1,202 @@
+{
+  "code": "is",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.government.is/topics/law-and-order/the-judicial-system-in-iceland",
+    "https://island.is/en/o/the-courts/courts"
+  ],
+  "courts": [
+    {
+      "name": "Hæstiréttur Íslands",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Ísland.is court rulings (Stafrænt Ísland; Hæstiréttur, Landsréttur, héraðsdómstólar)",
+      "note": ""
+    },
+    {
+      "name": "Landsréttur",
+      "en": "Court of Appeal (since 2018)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Ísland.is court rulings (Stafrænt Ísland; Hæstiréttur, Landsréttur, héraðsdómstólar)",
+      "note": ""
+    },
+    {
+      "name": "Héraðsdómstólar (8)",
+      "en": "District Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Ísland.is court rulings (Stafrænt Ísland; Hæstiréttur, Landsréttur, héraðsdómstólar)",
+      "note": "older PDFs without text layer: no OCR"
+    },
+    {
+      "name": "Endurupptökudómur",
+      "en": "Court of Review (retrial court)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Ísland.is court rulings (Stafrænt Ísland; Hæstiréttur, Landsréttur, héraðsdómstólar)",
+      "note": ""
+    },
+    {
+      "name": "Félagsdómur",
+      "en": "Labour Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "felagsdomur.is publishes judgments; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Félagsdómur – Dómar og úrskurðir",
+        "url": "https://www.felagsdomur.is/domar-og-urskurdir/",
+        "evidence": "fetched 2026-11-07: site lists judgments F-5/2026 etc. with summaries and case pages",
+        "note": "Labour Court judgments; older archive depth not seen."
+      }
+    },
+    {
+      "name": "Landsdómur",
+      "en": "Court of Impeachment",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Landsdómur",
+        "url": "https://www.landsdomur.is/",
+        "evidence": "fetched 2026-11-07: landsdomur.is did not connect; search found only press/Wikipedia",
+        "note": "One case ever (Geir Haarde, 2012); official text location not established."
+      }
+    },
+    {
+      "name": "Yfirskattanefnd",
+      "en": "Internal Revenue Board (tax appeals tribunal)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Yfirskattanefnd – Úrskurðir / Leit í úrskurðum",
+        "url": "https://yskn.is/urskurdir/",
+        "evidence": "fetched 2026-11-07: page 'Úrskurðir | Yfirskattanefnd' with 'Leit í úrskurðum' (ruling search), 200; robots.txt only disallows system paths (/bin/, /config/, /data/ ...)",
+        "note": "tax rulings; archive depth not checked"
+      }
+    },
+    {
+      "name": "Kærunefnd útlendingamála",
+      "en": "Immigration and Asylum Appeals Board",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Kærunefnd útlendingamála (on island.is / stjornarradid.is)",
+        "url": null,
+        "evidence": "fetched 2026-11-07: guessed island.is/s/kaerunefnd-utlendingamala answered 404; listing not located",
+        "note": "board is known to publish anonymised rulings; URL not established"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Stjórnarskrá lýðveldisins Íslands",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (althingi.is/lagas Cloudflare JS challenge)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Alþingi – Lagasafn",
+        "url": "https://www.althingi.is/lagas/nuna/1944033.html",
+        "evidence": "fetched 2026-11-07: HTTP 403 Cloudflare challenge; research/chatgpt/r2_b.md",
+        "note": "Consolidated Constitution in lagasafn; Cloudflare JS challenge (reuse itself is welcomed per zip page)."
+      }
+    },
+    {
+      "name": "Lög",
+      "en": "Acts of the Althingi",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (althingi.is/lagas Cloudflare JS challenge)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Alþingi – Lagasafn",
+        "url": "https://www.althingi.is/lagas/nuna/",
+        "evidence": "fetched 2026-11-07: HTTP 403 Cloudflare challenge; research/south_nordic_baltic.md",
+        "note": "Consolidated Acts; Cloudflare JS challenge. Acts as published are also in Stjórnartíðindi A-deild (island.is, see gazette row)."
+      }
+    },
+    {
+      "name": "Reglugerðir",
+      "en": "Regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "island.is/reglugerdir has current regulations; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Reglugerðasafn on Ísland.is",
+        "url": "https://island.is/reglugerdir",
+        "evidence": "fetched 2026-11-07: page describes complete collection of current regulations (B-deild), advanced search",
+        "note": "Same island.is platform Fontes uses for case law."
+      }
+    },
+    {
+      "name": "Stjórnartíðindi",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette on island.is; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Stjórnartíðindi on Ísland.is",
+        "url": "https://island.is/stjornartidindi",
+        "evidence": "fetched 2026-11-07: stjornartidindi.is -> island.is/stjornartidindi; search for A-, B-, C-deild, RSS per deild",
+        "note": "Official gazette (A laws, B regulations/notices, C treaties); years covered not stated."
+      }
+    },
+    {
+      "name": "Samþykktir sveitarfélaga",
+      "en": "Municipal by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Stjórnartíðindi B-deild on Ísland.is",
+        "url": "https://island.is/stjornartidindi",
+        "evidence": "fetched 2026-11-07: landing page shows notices from municipalities; B-deild search",
+        "note": "Municipal samþykktir published in B-deild (shown on landing page)."
+      }
+    },
+    {
+      "name": "Milliríkjasamningar",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Stjórnartíðindi C-deild on Ísland.is",
+        "url": "https://island.is/stjornartidindi",
+        "evidence": "fetched 2026-11-07: C-deild search link present; contents not confirmed",
+        "note": "C-deild is the treaty section; contents not confirmed on page."
+      }
+    }
+  ]
+}

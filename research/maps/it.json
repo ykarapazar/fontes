@@ -1,0 +1,582 @@
+{
+  "code": "it",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-ordinary-courts/it_en"
+  ],
+  "courts": [
+    {
+      "name": "Corte costituzionale",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Corte costituzionale – ricerca pronunce + open data",
+        "url": "https://www.cortecostituzionale.it/elenco-pronunce",
+        "evidence": "research/chatgpt/validation-r2-a.md (POST search works, no captcha; per-decision HTML)",
+        "note": "~18,000 decisions 1956 on; bulk data CC BY-SA 3.0."
+      }
+    },
+    {
+      "name": "Corte suprema di cassazione – sezioni civili (incl. sezione lavoro, tributaria) e Sezioni Unite",
+      "en": "Court of Cassation – civil sections",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable from outside Italy (Italgiure, 2026-11)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Italgiure / SentenzeWeb (Corte di cassazione)",
+        "url": "https://www.italgiure.giustizia.it/sncass/",
+        "evidence": "research/south_nordic_baltic.md (TCP timeout from UK)",
+        "note": "Free last-5-years civil/criminal; unreachable from outside Italy (geo/IP filter)."
+      }
+    },
+    {
+      "name": "Corte suprema di cassazione – sezioni penali",
+      "en": "Court of Cassation – criminal sections",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable from outside Italy (Italgiure, 2026-11)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Italgiure / SentenzeWeb (Corte di cassazione)",
+        "url": "https://www.italgiure.giustizia.it/sncass/",
+        "evidence": "research/south_nordic_baltic.md (TCP timeout from UK)",
+        "note": "Free last-5-years civil/criminal; unreachable from outside Italy (geo/IP filter)."
+      }
+    },
+    {
+      "name": "Corti d'appello (26) – sezioni civili, lavoro e penali",
+      "en": "Courts of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "civil merits decisions only in login-gated BDP",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (opened 14-12-2023, ~3.5M civil decisions of tribunali and corti d'appello since 2016, SPID/CIE/CNS login); fetched 2026-11-07: bdp.giustizia.it HTTP 500",
+        "note": "Login required (SPID/CIE/CNS, Italian identity). Civil only; criminal appeal decisions not covered."
+      }
+    },
+    {
+      "name": "Corti d'assise d'appello",
+      "en": "Assize Courts of Appeal (appeals from Corti d'assise)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (criminal)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (opened 14-12-2023, ~3.5M civil decisions of tribunali and corti d'appello since 2016, SPID/CIE/CNS login); fetched 2026-11-07: bdp.giustizia.it HTTP 500",
+        "note": "BDP is civil only; Corte d'assise d'appello judgments not covered. Login required."
+      }
+    },
+    {
+      "name": "Sezioni per i minorenni delle Corti d'appello",
+      "en": "Juvenile sections of the Courts of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "civil merits decisions only in login-gated BDP",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (opened 14-12-2023, ~3.5M civil decisions of tribunali and corti d'appello since 2016, SPID/CIE/CNS login); fetched 2026-11-07: bdp.giustizia.it HTTP 500",
+        "note": "BDP excludes famiglia/minori; not published (privacy)."
+      }
+    },
+    {
+      "name": "Tribunali ordinari (~140) – sezioni civili",
+      "en": "Ordinary tribunals – civil",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "civil merits decisions only in login-gated BDP",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "Login required; civil only, no family/minors; Corte d'assise not covered."
+      }
+    },
+    {
+      "name": "Tribunali ordinari – sezione lavoro (giudice del lavoro)",
+      "en": "Ordinary tribunals – labour judges",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "Login required (SPID/CIE/CNS, Italian identity); civil decisions since 2016; whether labour decisions are tagged/included is not established."
+      }
+    },
+    {
+      "name": "Sezioni specializzate in materia di impresa (Tribunale delle imprese, 22)",
+      "en": "Specialised business/IP sections of the tribunals",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "Login required (SPID/CIE/CNS, Italian identity); civil decisions since 2016; whether business-section decisions are tagged/included is not established."
+      }
+    },
+    {
+      "name": "Sezioni specializzate immigrazione, protezione internazionale e libera circolazione UE (26)",
+      "en": "Specialised immigration/asylum sections",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "Login required (SPID/CIE/CNS, Italian identity); civil decisions since 2016; whether immigration-section decisions are tagged/included is not established."
+      }
+    },
+    {
+      "name": "Tribunali ordinari – fallimentare / crisi d'impresa",
+      "en": "Insolvency sections of the tribunals",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "Login required (SPID/CIE/CNS, Italian identity); civil decisions since 2016; whether insolvency decisions are tagged/included is not established."
+      }
+    },
+    {
+      "name": "Tribunali ordinari – sezioni penali (monocratico / collegiale, GIP/GUP)",
+      "en": "Ordinary tribunals – criminal",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (criminal)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "BDP is civil only; first-instance criminal judgments are not published online."
+      }
+    },
+    {
+      "name": "Corti d'assise (first instance)",
+      "en": "Assize Courts (murder and gravest crimes, with lay judges)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "BDP is civil only; Corte d'assise not covered."
+      }
+    },
+    {
+      "name": "Tribunali ordinari – sezioni famiglia / Tribunale per le persone, per i minorenni e per le famiglie (Cartabia reform, roll-out pending)",
+      "en": "Family sections / unified family court",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (civil tribunale decisions since 2016; SPID/CIE/CNS login)",
+        "note": "BDP excludes famiglia, minori e stato delle persone (privacy)."
+      }
+    },
+    {
+      "name": "Giudici di pace",
+      "en": "Justices of the peace",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati di merito pubblica (Ministero della Giustizia, PST)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only",
+        "note": "Login required; whether giudice di pace decisions are included not established."
+      }
+    },
+    {
+      "name": "Tribunali per i minorenni (29)",
+      "en": "Juvenile Courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Banca dati di merito pubblica (excludes family/minors)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (BDP excludes famiglia, minori e stato delle persone)",
+        "note": "Juvenile and supervisory court decisions are not published (privacy)."
+      }
+    },
+    {
+      "name": "Tribunali di sorveglianza (29) / Uffici di sorveglianza",
+      "en": "Sentence-supervision courts and judges",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Banca dati di merito pubblica (excludes family/minors)",
+        "url": "https://pst.giustizia.it/",
+        "evidence": "search result only (BDP excludes famiglia, minori e stato delle persone)",
+        "note": "Juvenile and supervisory court decisions are not published (privacy)."
+      }
+    },
+    {
+      "name": "Tribunale superiore delle acque pubbliche / Tribunali regionali delle acque pubbliche (8)",
+      "en": "Public Waters Courts (superior and regional)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not researched",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Corte di cassazione / Italgiure (TSAP decisions)",
+        "url": "https://www.italgiure.giustizia.it/sncass/",
+        "evidence": "search result only; Italgiure unreachable from UK (research/south_nordic_baltic.md)",
+        "note": "whether TSAP decisions sit in Italgiure not verified; regional water courts not published"
+      }
+    },
+    {
+      "name": "Commissari regionali per la liquidazione degli usi civici",
+      "en": "Regional commissioners for civic-use (common land) rights",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not researched",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication of decisions found"
+      }
+    },
+    {
+      "name": "Consiglio di Stato (sezioni giurisdizionali e consultive, Adunanza plenaria)",
+      "en": "Council of State",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Giustizia Amministrativa search works but terms ban automated access",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Giustizia Amministrativa – Decisioni e pareri",
+        "url": "https://www.giustizia-amministrativa.it/web/guest/dcsnprr",
+        "evidence": "fetched 2026-11-07: search covers Consiglio di Stato, CGARS, all TAR; terms (condizioni-di-utilizzo) ban 'accessi massivi ... con strumenti di estrapolazione elettronica (spider)', reuse non-commercial only",
+        "note": "Source works; terms forbid spiders/mass access and commercial reuse. Single lookups might be argued; needs permission for an adapter."
+      }
+    },
+    {
+      "name": "Consiglio di giustizia amministrativa per la Regione siciliana (CGARS)",
+      "en": "Sicilian Administrative Justice Council (appeal for Sicily)",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Giustizia Amministrativa search works but terms ban automated access",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Giustizia Amministrativa – Decisioni e pareri",
+        "url": "https://www.giustizia-amministrativa.it/web/guest/dcsnprr",
+        "evidence": "fetched 2026-11-07: search covers Consiglio di Stato, CGARS, all TAR; terms (condizioni-di-utilizzo) ban 'accessi massivi ... con strumenti di estrapolazione elettronica (spider)', reuse non-commercial only",
+        "note": "Source works; terms forbid spiders/mass access and commercial reuse. Single lookups might be argued; needs permission for an adapter."
+      }
+    },
+    {
+      "name": "Tribunali amministrativi regionali (TAR, 20 + sezioni staccate)",
+      "en": "Regional Administrative Courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Giustizia Amministrativa search works but terms ban automated access",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Giustizia Amministrativa – Decisioni e pareri",
+        "url": "https://www.giustizia-amministrativa.it/web/guest/dcsnprr",
+        "evidence": "fetched 2026-11-07: search covers Consiglio di Stato, CGARS, all TAR; terms (condizioni-di-utilizzo) ban 'accessi massivi ... con strumenti di estrapolazione elettronica (spider)', reuse non-commercial only",
+        "note": "Source works; terms forbid spiders/mass access and commercial reuse. Single lookups might be argued; needs permission for an adapter."
+      }
+    },
+    {
+      "name": "Tribunale regionale di giustizia amministrativa del Trentino-Alto Adige (TRGA Trento, Sezione autonoma Bolzano)",
+      "en": "Regional Administrative Court for Trentino-Alto Adige",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Giustizia Amministrativa search works but terms ban automated access",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Giustizia Amministrativa – Decisioni e pareri",
+        "url": "https://www.giustizia-amministrativa.it/web/guest/dcsnprr",
+        "evidence": "fetched 2026-11-07: search covers Consiglio di Stato, CGARS, all TAR; terms (condizioni-di-utilizzo) ban 'accessi massivi ... con strumenti di estrapolazione elettronica (spider)', reuse non-commercial only",
+        "note": "Giustizia Amministrativa search covers all TAR (TRGA included as a TAR seat); terms forbid spiders/mass access; needs permission."
+      }
+    },
+    {
+      "name": "Corte dei conti – Sezioni riunite e sezioni centrali d'appello",
+      "en": "Court of Audit – united and central appeal sections",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Banca dati della Corte dei conti",
+        "url": "https://banchedati.corteconti.it/",
+        "evidence": "fetched 2026-11-07: page titled 'Banca dati della Corte dei conti'; access terms not visible; corteconti.it robots.txt only disallows admin paths",
+        "note": "Official decisions database; login/captcha status not confirmed."
+      }
+    },
+    {
+      "name": "Corte dei conti – sezioni giurisdizionali regionali (21)",
+      "en": "Court of Audit – regional jurisdictional sections",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Banca dati della Corte dei conti",
+        "url": "https://banchedati.corteconti.it/",
+        "evidence": "fetched 2026-11-07: page titled 'Banca dati della Corte dei conti'; access terms not visible; corteconti.it robots.txt only disallows admin paths",
+        "note": "Official decisions database; login/captcha status not confirmed."
+      }
+    },
+    {
+      "name": "Corti di giustizia tributaria di primo grado (~100)",
+      "en": "First-instance tax courts",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati giurisprudenza tributaria (MEF / Giustizia Tributaria)",
+        "url": "https://bancadatigiurisprudenza.giustiziatributaria.gov.it/",
+        "evidence": "fetched 2026-11-07: Akamai 'Access Denied' 403 to plain request",
+        "note": "Official tax merits case law (CGT 1st/2nd instance, since 2024 launch); Akamai blocks our client."
+      }
+    },
+    {
+      "name": "Corti di giustizia tributaria di secondo grado (21)",
+      "en": "Second-instance tax courts",
+      "tier": "appeal",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Banca dati giurisprudenza tributaria (MEF / Giustizia Tributaria)",
+        "url": "https://bancadatigiurisprudenza.giustiziatributaria.gov.it/",
+        "evidence": "fetched 2026-11-07: Akamai 'Access Denied' 403 to plain request",
+        "note": "Official tax merits case law (CGT 1st/2nd instance, since 2024 launch); Akamai blocks our client."
+      }
+    },
+    {
+      "name": "Tribunali militari (3: Verona, Roma, Napoli)",
+      "en": "Military tribunals",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Giustizia militare (Ministero della Difesa)",
+        "url": null,
+        "evidence": "fetched 2026-11-07: difesa.it/giustiziamilitare no connection; search found no Italian military-court database",
+        "note": "No online publication of military court decisions found."
+      }
+    },
+    {
+      "name": "Corte militare d'appello",
+      "en": "Military Court of Appeal",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Giustizia militare (Ministero della Difesa)",
+        "url": null,
+        "evidence": "fetched 2026-11-07: difesa.it/giustiziamilitare no connection; search found no Italian military-court database",
+        "note": "No online publication of military court decisions found."
+      }
+    },
+    {
+      "name": "Tribunale militare di sorveglianza",
+      "en": "Military sentence-supervision court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Giustizia militare (Ministero della Difesa)",
+        "url": null,
+        "evidence": "fetched 2026-11-07: difesa.it/giustiziamilitare no connection; search found no Italian military-court database",
+        "note": "No online publication of military court decisions found."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Costituzione della Repubblica italiana",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Normattiva — www.normattiva.it (texts by URN:NIR)",
+      "note": "urn:nir:stato:costituzione:1947-12-27; search 'Costituzione' finds it; articles 1-139 plus Disposizioni transitorie e finali I-XVIII as 'art. N (all. 1)'; text in force today (verified 2026-11-10)"
+    },
+    {
+      "name": "Legge / Decreto legislativo / Decreto-legge / Regio decreto",
+      "en": "Acts, legislative decrees, decree-laws, royal decrees",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Normattiva open-data API (Istituto Poligrafico e Zecca dello Stato)",
+      "note": "text in force today from www.normattiva.it (not official; Gazzetta Ufficiale is); leggi costituzionali included (type LEGGE COSTITUZIONALE)"
+    },
+    {
+      "name": "D.P.R. / D.P.C.M. / Decreti ministeriali",
+      "en": "Presidential, prime-ministerial and ministerial decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Normattiva open-data API (Istituto Poligrafico e Zecca dello Stato)",
+      "note": "only acts Normattiva carries (national normative acts); coverage of ministerial decrees not checked",
+      "elsewhere": {
+        "status": "available",
+        "source": "Normattiva (same source)",
+        "url": "https://www.normattiva.it/",
+        "evidence": "src/world_legal_mcp/jurisdictions/it.py (coverage of ministerial decrees not checked)",
+        "note": "Missing part: ministerial decrees Normattiva does not carry; those are in the Gazzetta Ufficiale (see gazette row)."
+      }
+    },
+    {
+      "name": "Gazzetta Ufficiale",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "GU online; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Gazzetta Ufficiale della Repubblica Italiana",
+        "url": "https://www.gazzettaufficiale.it/",
+        "evidence": "fetched 2026-11-07: home lists last-30-day issues per series with full-issue PDF; archive (PDF from 1861) behind 'Accedi all'archivio'; reproduction allowed citing source",
+        "note": "Free recent issues; archive access terms not checked."
+      }
+    },
+    {
+      "name": "Leggi regionali / leggi provinciali (Trento, Bolzano)",
+      "en": "Regional and provincial laws",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "Normattiva's regional federated engine exists; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Normattiva – Motore federato regionale",
+        "url": "https://www.normattiva.it/",
+        "evidence": "search result only (normattiva.it/mfr/static/progetto: regional/provincial law databases converged into Normattiva in 2020)",
+        "note": "Regional laws via Normattiva's federated engine; not all Regions may participate; regional portals also exist."
+      }
+    },
+    {
+      "name": "Regolamenti comunali",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Comuni websites (Amministrazione trasparente)",
+        "url": null,
+        "evidence": "nothing fetched; no national database known",
+        "note": "Each comune publishes its own regulations; no central official source identified."
+      }
+    },
+    {
+      "name": "Trattati internazionali (leggi di ratifica)",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Normattiva (leggi di ratifica)",
+        "url": "https://www.normattiva.it/",
+        "evidence": "src/world_legal_mcp/jurisdictions/it.py (legge type covered)",
+        "note": "Ratification laws (with treaty text annexed) are 'legge' acts in Normattiva; Fontes reaches them as laws but not as a treaty type. MAECI treaty archive not checked."
+      }
+    }
+  ]
+}

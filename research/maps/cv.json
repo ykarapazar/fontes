@@ -1,0 +1,290 @@
+{
+  "code": "cv",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://csmj.cv/wp-content/uploads/2017/09/nova-lei-de-funcionamento-dos-tribunais.pdf",
+    "https://www.stj.cv/"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Constitucional",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv)",
+      "note": "acórdãos 2016-, decisões sumárias; title/metadata search only, not full text"
+    },
+    {
+      "name": "Supremo Tribunal de Justiça (enquanto Tribunal Constitucional, 1995-2015)",
+      "en": "Supreme Court acting as Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv)",
+      "note": "TC-hosted category 1995-2015"
+    },
+    {
+      "name": "Supremo Tribunal de Justiça",
+      "en": "Supreme Court of Justice (apex of judicial, administrative, fiscal, customs and military courts)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "JURIS CV – Jurisprudência Cabo-verdiana (Conselho Superior da Magistratura Judicial)",
+      "note": "JURIS CV: 774 STJ acórdãos 1994-2026, HTML full text, site free-text search (court=stj); plus the stj.cv selection (~360, 2021-). Missing: everything never put online - JURIS CV years are thin (1995-2006 almost none; 2014 and 2016: 2 each), so the published archive is not the whole STJ output"
+    },
+    {
+      "name": "Tribunais da Relação (Sotavento, Barlavento)",
+      "en": "Courts of Appeal (2)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "JURIS CV – Jurisprudência Cabo-verdiana (Conselho Superior da Magistratura Judicial)",
+      "note": "JURIS CV: Relação de Barlavento 228, Sotavento 294 acórdãos (2017-), court=trb / trs; selected decisions, not all"
+    },
+    {
+      "name": "Tribunais Judiciais de Comarca (general jurisdiction)",
+      "en": "First-instance judicial courts (comarcas)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURIS CV – Jurisprudência Cabo-verdiana (CSMJ)",
+        "url": "https://jurisprudencia.cv/",
+        "evidence": "fetched 2026-11-07: /juris page: ECLI codes 'STJ', 'TRB' or 'TRS' (STJ and Relação de Barlavento/Sotavento); /advertencia: 'O acesso ao website ... é gratuito'; robots.txt Crawl-delay: 10",
+        "note": "the official case-law database carries only STJ and the two Relação courts (ECLI court codes STJ, TRB, TRS); no first-instance publication found"
+      }
+    },
+    {
+      "name": "Juízos Cíveis (Praia, São Vicente)",
+      "en": "Specialised civil sections of the larger comarcas",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURIS CV – Jurisprudência Cabo-verdiana (CSMJ)",
+        "url": "https://jurisprudencia.cv/",
+        "evidence": "fetched 2026-11-07: /juris page: ECLI codes 'STJ', 'TRB' or 'TRS' (STJ and Relação de Barlavento/Sotavento); /advertencia: 'O acesso ao website ... é gratuito'; robots.txt Crawl-delay: 10",
+        "note": "the official case-law database carries only STJ and the two Relação courts (ECLI court codes STJ, TRB, TRS); no first-instance publication found"
+      }
+    },
+    {
+      "name": "Juízos Crime (Praia, São Vicente)",
+      "en": "Specialised criminal sections",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURIS CV – Jurisprudência Cabo-verdiana (CSMJ)",
+        "url": "https://jurisprudencia.cv/",
+        "evidence": "fetched 2026-11-07: /juris page: ECLI codes 'STJ', 'TRB' or 'TRS' (STJ and Relação de Barlavento/Sotavento); /advertencia: 'O acesso ao website ... é gratuito'; robots.txt Crawl-delay: 10",
+        "note": "the official case-law database carries only STJ and the two Relação courts (ECLI court codes STJ, TRB, TRS); no first-instance publication found"
+      }
+    },
+    {
+      "name": "Juízos de Família e Menores",
+      "en": "Family and juvenile sections",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURIS CV – Jurisprudência Cabo-verdiana (CSMJ)",
+        "url": "https://jurisprudencia.cv/",
+        "evidence": "fetched 2026-11-07: /juris page: ECLI codes 'STJ', 'TRB' or 'TRS' (STJ and Relação de Barlavento/Sotavento); /advertencia: 'O acesso ao website ... é gratuito'; robots.txt Crawl-delay: 10",
+        "note": "the official case-law database carries only STJ and the two Relação courts (ECLI court codes STJ, TRB, TRS); no first-instance publication found"
+      }
+    },
+    {
+      "name": "Juízos do Trabalho",
+      "en": "Labour sections",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURIS CV – Jurisprudência Cabo-verdiana (CSMJ)",
+        "url": "https://jurisprudencia.cv/",
+        "evidence": "fetched 2026-11-07: /juris page: ECLI codes 'STJ', 'TRB' or 'TRS' (STJ and Relação de Barlavento/Sotavento); /advertencia: 'O acesso ao website ... é gratuito'; robots.txt Crawl-delay: 10",
+        "note": "the official case-law database carries only STJ and the two Relação courts (ECLI court codes STJ, TRB, TRS); no first-instance publication found"
+      }
+    },
+    {
+      "name": "Tribunal Fiscal e Aduaneiro (Praia, São Vicente)",
+      "en": "Tax and customs courts (first instance)",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "first instance see elsewhere; appeals go to STJ administrative section (partly reached)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURIS CV – Jurisprudência Cabo-verdiana (CSMJ)",
+        "url": "https://jurisprudencia.cv/",
+        "evidence": "fetched 2026-11-07: /juris page: ECLI codes 'STJ', 'TRB' or 'TRS' (STJ and Relação de Barlavento/Sotavento); /advertencia: 'O acesso ao website ... é gratuito'; robots.txt Crawl-delay: 10",
+        "note": "the official case-law database carries only STJ and the two Relação courts (ECLI court codes STJ, TRB, TRS); no first-instance publication found"
+      }
+    },
+    {
+      "name": "Tribunais administrativos de 1ª instância",
+      "en": "First-instance administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "first instance see elsewhere; STJ administrative section partly reached",
+      "elsewhere": {
+        "status": "offline",
+        "source": "JURIS CV – Jurisprudência Cabo-verdiana (CSMJ)",
+        "url": "https://jurisprudencia.cv/",
+        "evidence": "fetched 2026-11-07: /juris page: ECLI codes 'STJ', 'TRB' or 'TRS' (STJ and Relação de Barlavento/Sotavento); /advertencia: 'O acesso ao website ... é gratuito'; robots.txt Crawl-delay: 10",
+        "note": "the official case-law database carries only STJ and the two Relação courts (ECLI court codes STJ, TRB, TRS); no first-instance publication found"
+      }
+    },
+    {
+      "name": "Tribunal Militar de Instância",
+      "en": "Military Court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "not researched"
+      }
+    },
+    {
+      "name": "Tribunal de Contas",
+      "en": "Court of Auditors",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tribunal de Contas de Cabo Verde – Acórdãos / Decisões",
+        "url": "https://www.tribunalcontas.cv/index.php/acordaos",
+        "evidence": "fetched 2026-11-07: homepage links /index.php/acordaos, acordaos-do-plenario, decisoes, relatorios",
+        "note": "robots/terms not checked"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constituição da República (1980, 1992 e revisões)",
+      "en": "Constitution and revisions",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv)",
+      "note": "TC-hosted PDFs ('Leis Constitucionais'), not consolidated"
+    },
+    {
+      "name": "Leis e Códigos (Código Civil, Penal, CPP, CPC, leis orgânicas dos tribunais...)",
+      "en": "Acts and codes of the National Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv)",
+      "note": "only ~30 core texts hosted by the TC; not consolidated",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Boletim Oficial (INCV)",
+        "url": "https://boe.incv.cv/",
+        "evidence": "adapter cv.py docstring; research/SIGNUPS.md",
+        "note": "terms 6: 'É proibida a cópia ... sem a prévia autorização da INCV'"
+      }
+    },
+    {
+      "name": "Decretos-Lei, Decretos-Legislativos",
+      "en": "Government decree-laws and legislative decrees",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "Boletim Oficial: INCV terms forbid copying 'sem a prévia autorização'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Boletim Oficial (INCV)",
+        "url": "https://boe.incv.cv/",
+        "evidence": "adapter cv.py docstring; research/SIGNUPS.md",
+        "note": "terms 6: 'É proibida a cópia ... sem a prévia autorização da INCV'"
+      }
+    },
+    {
+      "name": "Decretos, Decretos-Regulamentares, Portarias, Resoluções",
+      "en": "Decrees, regulatory decrees, ministerial orders, resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Boletim Oficial: INCV terms forbid copying without permission",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Boletim Oficial (INCV)",
+        "url": "https://boe.incv.cv/",
+        "evidence": "adapter cv.py docstring; research/SIGNUPS.md",
+        "note": "terms 6: 'É proibida a cópia ... sem a prévia autorização da INCV'"
+      }
+    },
+    {
+      "name": "Boletim Oficial",
+      "en": "Official Gazette (INCV)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "INCV terms forbid copying 'sem a prévia autorização'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Boletim Oficial (INCV)",
+        "url": "https://boe.incv.cv/",
+        "evidence": "adapter cv.py docstring; research/SIGNUPS.md",
+        "note": "terms 6: 'É proibida a cópia ... sem a prévia autorização da INCV'"
+      }
+    },
+    {
+      "name": "Posturas municipais",
+      "en": "Municipal by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "not researched (published in BO II série, which is blocked)"
+      }
+    },
+    {
+      "name": "Tratados e acordos internacionais",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Boletim Oficial (INCV)",
+        "url": "https://boe.incv.cv/",
+        "evidence": "adapter cv.py docstring; research/SIGNUPS.md",
+        "note": "terms 6: 'É proibida a cópia ... sem a prévia autorização da INCV'"
+      }
+    }
+  ]
+}

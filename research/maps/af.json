@@ -1,0 +1,339 @@
+{
+ "code": "af",
+ "checked": "2026-11-07",
+ "structure_sources": [],
+ "unverified": true,
+ "courts": [
+  {
+   "name": "ستره محکمه (Stera Mahkama)",
+   "en": "Supreme Court (divisions: general criminal, public security, civil and public rights, commercial, military)",
+   "tier": "apex",
+   "branch": "civil-criminal",
+   "reached": "no",
+   "via": null,
+   "note": "'final court decisions' and bulletin pages empty, not published online (2026-11-06)",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' and bulletin pages empty",
+    "note": "site up (200 on 2026-11-07) but publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم استیناف ولایات، دیوان جزای عمومی",
+   "en": "Provincial courts of appeal (34), general criminal divisions",
+   "tier": "appeal",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم استیناف ولایات، دیوان امنیت عامه",
+   "en": "Provincial courts of appeal, public (internal and external) security divisions",
+   "tier": "appeal",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم استیناف ولایات، دیوان مدنی و حقوق عامه و احوال شخصیه",
+   "en": "Provincial courts of appeal, civil, public-rights and family divisions",
+   "tier": "appeal",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم استیناف ولایات، دیوان تجارتی",
+   "en": "Provincial courts of appeal, commercial divisions",
+   "tier": "appeal",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم استیناف ولایات، دیوان اطفال",
+   "en": "Provincial courts of appeal, juvenile divisions",
+   "tier": "appeal",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم ابتدائیه ولسوالی و شهری",
+   "en": "Primary courts, district (~360) and urban (general civil and criminal)",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم ابتدائیه امنیت عامه",
+   "en": "Primary public-security courts",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم ابتدائیه تجارتی",
+   "en": "Primary commercial courts",
+   "tier": "first-instance",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم ابتدائیه فامیلی (احوال شخصیه)",
+   "en": "Primary family courts",
+   "tier": "first-instance",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم ابتدائیه اطفال",
+   "en": "Primary juvenile courts",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم منع خشونت علیه زن",
+   "en": "Courts for elimination of violence against women (EVAW special courts; de facto abolished 2021)",
+   "tier": "specialised",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; created under the 2009 EVAW Law, not operating under the de facto administration (unverified)",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "مرکز عدلی و قضایی مبارزه با فساد اداری",
+   "en": "Anti-Corruption Justice Centre (ACJC, primary + appeal; 2016, abolished 2021)",
+   "tier": "specialised",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; abolished after August 2021 (unverified)",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Supreme Court of Afghanistan (Stera Mahkama)",
+    "url": "https://supremecourt.gov.af/",
+    "evidence": "fetched 2026-11-06 (src/world_legal_mcp/jurisdictions/af.py docstring): 'final court decisions' (فیصله های قطعی محاکم) and bulletin pages empty; research/chatgpt/asia.md",
+    "note": "no court publishes decisions online; the Supreme Court site is the only judicial site and publishes news, no judgments"
+   }
+  },
+  {
+   "name": "محاکم نظامی",
+   "en": "Military courts",
+   "tier": "specialised",
+   "branch": "military",
+   "reached": "no",
+   "via": null,
+   "note": "no official online database; structure per 2005 Law on the Organisation and Jurisdiction of Courts, current de facto structure unverified",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "none found",
+    "url": "",
+    "evidence": "research/chatgpt/asia.md",
+    "note": "no military-court site found; only the Supreme Court site was checked"
+   }
+  }
+ ],
+ "legislation": [
+  {
+   "name": "قانون اساسی (2004)",
+   "en": "Constitution of 2004 (suspended by the de facto administration)",
+   "level": "constitution",
+   "reached": "partly",
+   "via": "Ministry of Justice laws database (de facto authority)",
+   "note": "only as a Gazette PDF if listed in the MoJ database; status reflects de facto administration",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Ministry of Justice laws database (laws.moj.gov.af)",
+    "url": "http://laws.moj.gov.af/",
+    "evidence": "used by Fontes af adapter (src/world_legal_mcp/jurisdictions/af.py)",
+    "note": "missing part: the 2004 Constitution as a standalone text; only a Gazette PDF if listed. Tried: the MoJ database is the only official source found; no consolidated or OCR'd official edition found"
+   }
+  },
+  {
+   "name": "قانون",
+   "en": "Laws",
+   "level": "primary",
+   "reached": "partly",
+   "via": "Ministry of Justice laws database (de facto authority)",
+   "note": "Gazette PDFs as published, not consolidated; full text mostly 2021 onwards. Most pre-2021 Gazette PDFs are legacy-font gibberish or scans: metadata and link only",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Ministry of Justice laws database (laws.moj.gov.af)",
+    "url": "http://laws.moj.gov.af/",
+    "evidence": "used by Fontes af adapter (src/world_legal_mcp/jurisdictions/af.py)",
+    "note": "missing part: consolidated texts, and readable text for pre-2021 Gazettes (legacy fonts or scans). Tried: the MoJ database is the only official source found; no consolidated or OCR'd official edition found"
+   }
+  },
+  {
+   "name": "فرمان / حکم (امیر)",
+   "en": "Decrees and orders (incl. Amir's decrees)",
+   "level": "secondary",
+   "reached": "partly",
+   "via": "Ministry of Justice laws database (de facto authority)",
+   "note": "where published in the Official Gazette; same PDF text limits",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Ministry of Justice laws database (laws.moj.gov.af)",
+    "url": "http://laws.moj.gov.af/",
+    "evidence": "used by Fontes af adapter (src/world_legal_mcp/jurisdictions/af.py)",
+    "note": "missing part: decrees not published in the Gazette; readable pre-2021 text. Tried: the MoJ database is the only official source found; no consolidated or OCR'd official edition found"
+   }
+  },
+  {
+   "name": "مقرره",
+   "en": "Regulations",
+   "level": "secondary",
+   "reached": "partly",
+   "via": "Ministry of Justice laws database (de facto authority)",
+   "note": "where published in the Official Gazette; same PDF text limits",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Ministry of Justice laws database (laws.moj.gov.af)",
+    "url": "http://laws.moj.gov.af/",
+    "evidence": "used by Fontes af adapter (src/world_legal_mcp/jurisdictions/af.py)",
+    "note": "missing part: regulations not in the Gazette; readable pre-2021 text. Tried: the MoJ database is the only official source found; no consolidated or OCR'd official edition found"
+   }
+  },
+  {
+   "name": "طرزالعمل / لایحه",
+   "en": "Procedures and by-laws",
+   "level": "secondary",
+   "reached": "partly",
+   "via": "Ministry of Justice laws database (de facto authority)",
+   "note": "only those in the Official Gazette",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Ministry of Justice laws database (laws.moj.gov.af)",
+    "url": "http://laws.moj.gov.af/",
+    "evidence": "used by Fontes af adapter (src/world_legal_mcp/jurisdictions/af.py)",
+    "note": "missing part: procedures and by-laws not in the Gazette. Tried: the MoJ database is the only official source found; no consolidated or OCR'd official edition found"
+   }
+  },
+  {
+   "name": "جریده رسمی",
+   "en": "Official Gazette (No. 1, 1964 to 2025)",
+   "level": "gazette",
+   "reached": "partly",
+   "via": "Ministry of Justice laws database (de facto authority)",
+   "note": "~4,800 instruments indexed by title and Gazette number; full text only where the PDF has a text layer",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Ministry of Justice laws database (laws.moj.gov.af)",
+    "url": "http://laws.moj.gov.af/",
+    "evidence": "used by Fontes af adapter (src/world_legal_mcp/jurisdictions/af.py)",
+    "note": "missing part: full text where the PDF has no usable text layer. Tried: the MoJ database is the only official source found; no consolidated or OCR'd official edition found"
+   }
+  },
+  {
+   "name": "معاهدات بین المللی",
+   "en": "Treaties",
+   "level": "treaty",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; no treaty register found",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "none found",
+    "url": "",
+    "evidence": "search result only",
+    "note": "Ministry of Foreign Affairs site not checked; treaties only appear in the MoJ database if published in the Gazette"
+   }
+  }
+ ]
+}

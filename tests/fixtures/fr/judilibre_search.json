@@ -1,0 +1,41 @@
+{
+  "page": 0,
+  "page_size": 2,
+  "query": {"query": "expropriation", "operator": "or", "sort": "score", "order": "desc", "page_size": 2, "page": 0, "resolve_references": true},
+  "total": 341,
+  "next_page": "query=expropriation&page=1",
+  "took": 14,
+  "max_score": 2428.1362,
+  "relaxed": false,
+  "results": [
+    {
+      "score": 0.6848325044168517,
+      "highlights": {"motivations": ["à la suite de <em>l'expropriation</em>"]},
+      "id": "5fca7d162a251e6bf9c78514",
+      "jurisdiction": "Cour de cassation",
+      "chamber": "Troisième chambre civile",
+      "number": "17-18.194",
+      "numbers": ["17-18.194", "16-21.165"],
+      "ecli": "ECLI:FR:CCASS:2018:C301117",
+      "formation": "Formation de section",
+      "publication": ["Publié au Rapport", "Publié au Bulletin"],
+      "decision_date": "2018-12-20",
+      "type": "Arrêt",
+      "solution": "Rejet",
+      "summary": "Le titulaire d'une autorisation temporaire d'occupation, en vigueur au moment de la procédure d'expropriation, est en droit d'obtenir l'indemnisation de son préjudice résultant de l'expropriation",
+      "themes": ["Expropriation pour cause d'utilité publique", "Indemnité"]
+    },
+    {
+      "score": 0.5,
+      "highlights": {"expose": ["procédure <em>d'expropriation</em> engagée"]},
+      "id": "5fca277de35a255d41ca73ab0ca",
+      "jurisdiction": "Cour d'appel",
+      "chamber": "Chambre commerciale financière et économique",
+      "number": ["20/00804"],
+      "numbers": ["20/00804"],
+      "decision_date": "2020-11-18",
+      "location": "Cour d'appel de Chambéry",
+      "summary": null
+    }
+  ]
+}

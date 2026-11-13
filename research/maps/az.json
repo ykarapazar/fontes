@@ -1,0 +1,351 @@
+{
+  "code": "az",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "Konstitusiya Məhkəməsi",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Constitutional Court of Azerbaijan: decisions",
+        "url": "https://constcourt.gov.az/az/decisions",
+        "evidence": "fetched 2026-11-07: constcourt.gov.az/az returned 200 and links /az/decisions",
+        "note": "missing part: e-qanun route is off (hotlink protection); the court's own site publishes decisions and answers from the UK"
+      }
+    },
+    {
+      "name": "Ali Məhkəmə",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "Plenum guidance resolutions only, no individual cases; off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of Azerbaijan (supremecourt.gov.az)",
+        "url": "https://supremecourt.gov.az/",
+        "evidence": "fetched 2026-11-07: timed out",
+        "note": "missing part: individual cases (e-qanun has Plenum resolutions only, and is gated); court site times out from the UK"
+      }
+    },
+    {
+      "name": "Ali Məhkəmə – kollegiyalar (Mülki, Kommersiya, İnzibati, Cinayət, Hərbi)",
+      "en": "Supreme Court – chambers (individual cassation judgments)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "individual Supreme Court judgments are not in e-qanun (only Plenum resolutions, see row above); not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of Azerbaijan (supremecourt.gov.az)",
+        "url": "https://supremecourt.gov.az/",
+        "evidence": "fetched 2026-11-07: timed out",
+        "note": "missing part: individual cases (e-qanun has Plenum resolutions only, and is gated); court site times out from the UK"
+      }
+    },
+    {
+      "name": "Apellyasiya məhkəmələri (Bakı, Gəncə, Sumqayıt, Şirvan, Şəki, ...)",
+      "en": "Courts of appeal (civil, criminal, administrative and commercial collegia)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    },
+    {
+      "name": "Rayon (şəhər) məhkəmələri (~85)",
+      "en": "District (city) courts – general civil and criminal first instance",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    },
+    {
+      "name": "Ağır cinayətlər məhkəmələri",
+      "en": "Grave crimes courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    },
+    {
+      "name": "İnzibati məhkəmələr",
+      "en": "Administrative courts (first instance)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    },
+    {
+      "name": "Kommersiya məhkəmələri (incl. Bakı Kommersiya Məhkəməsi)",
+      "en": "Commercial courts (first instance)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    },
+    {
+      "name": "Hərbi məhkəmələr",
+      "en": "Military courts (first instance)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    },
+    {
+      "name": "Naxçıvan Muxtar Respublikasının Ali Məhkəməsi",
+      "en": "Supreme Court of the Nakhchivan Autonomous Republic",
+      "tier": "sub-national",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    },
+    {
+      "name": "Naxçıvan MR rayon (şəhər) məhkəmələri, ağır cinayətlər və digər məhkəmələri",
+      "en": "First-instance courts of the Nakhchivan Autonomous Republic",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-qanun; supremecourt.gov.az and courts.gov.az time out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Azerbaijan courts portal (courts.gov.az / supremecourt.gov.az)",
+        "url": "https://courts.gov.az/",
+        "evidence": "fetched 2026-11-07: courts.gov.az, supremecourt.gov.az and e-court.gov.az timed out",
+        "note": "times out from the UK (also 2026-11-06); likely geo-blocked. Whether ordinary judgments are published there: not verified"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Konstitusiya",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Konstitusiya qanunları",
+      "en": "Constitutional laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Qanunlar və məcəllələr",
+      "en": "Laws and codes",
+      "level": "primary",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Milli Məclisin qərarları",
+      "en": "Decisions of the Milli Majlis (parliament)",
+      "level": "primary",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Prezidentin fərmanları və sərəncamları",
+      "en": "Presidential decrees and orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Nazirlər Kabinetinin qərarları və sərəncamları",
+      "en": "Cabinet of Ministers decisions and orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Nazirlik və digər mərkəzi icra hakimiyyəti orqanlarının aktları",
+      "en": "Ministerial and central agency acts",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Beynəlxalq müqavilələr",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+      "note": "off unless WLM_PERMITTED (Referer/hotlink protection)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "used by Fontes az adapter (src/world_legal_mcp/jurisdictions/az.py)",
+        "note": "missing part: text files answer 403 without an e-qanun.az Referer (hotlink protection); no terms page; adapter stays off until the operator permits it (WLM_PERMITTED)"
+      }
+    },
+    {
+      "name": "Naxçıvan Muxtar Respublikasının qanunvericiliyi",
+      "en": "Nakhchivan Autonomous Republic legislation",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "not reached; no NAR source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "none confirmed",
+        "url": "",
+        "evidence": "fetched 2026-11-07: e-qanun title search 'Naxçıvan Muxtar Respublikasının' returned 265 national acts about Nakhchivan, not NAR laws; nmr.az timed out",
+        "note": "NAR's own legislation database not found"
+      }
+    },
+    {
+      "name": "Bələdiyyə aktları",
+      "en": "Municipal acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "in e-qanun (type 'Yerli özünüidarə orqanlarının qərarları'); gated like the rest",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "e-qanun.az (Ministry of Justice)",
+        "url": "https://e-qanun.az",
+        "evidence": "fetched 2026-11-07: e-qanun search 'bələdiyyə' returns acts of type 'YERLİ ÖZÜNÜİDARƏ ORQANLARININ QƏRARLARI' (municipal decisions)",
+        "note": "municipal decisions are in e-qanun but behind the same Referer gate as the rest"
+      }
+    },
+    {
+      "name": "Rəsmi dərc (Azərbaycan qəzeti / Qanunvericilik Toplusu)",
+      "en": "Official publication (gazette)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "not researched in depth",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Azərbaycan newspaper (azerbaijan-news.az)",
+        "url": "https://azerbaijan-news.az/az",
+        "evidence": "fetched 2026-11-07: site answers (302 to /az)",
+        "note": "whether it carries official texts not checked; Qanunvericilik Toplusu not found online"
+      }
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "code": "lu",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://justice.public.lu/fr/organisation-justice.html"
+  ],
+  "courts": [
+    {
+      "name": "Cour constitutionnelle",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legilux – Journal officiel (Mémorial A), arrêts de la Cour constitutionnelle",
+        "url": "https://data.legilux.public.lu/sparqlendpoint",
+        "evidence": "fetched 2026-11-07: JOLux SPARQL returned 'Arrêt de la Cour Constitutionnelle n° 87/13' (eli/etat/leg/acc/...)",
+        "note": "Constitutional Court judgments are published in the Mémorial; same SPARQL endpoint Fontes already uses (type acc), not wired as case law"
+      }
+    },
+    {
+      "name": "Cour de cassation (Cour supérieure de justice)",
+      "en": "Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "data.public.lu — Cour de cassation decisions (Administration judiciaire), yearly ZIPs of PDFs read member by member with HTTP Range",
+      "note": "every published decision (2,459 PDFs, 1971-2026, listed 2026-11-10; ~150-175/yr since 2014, sparse before 2009) opens by id with full text; missing: full-text search (source is ZIPs of PDFs without an index: search lists by year/date/case number and scans text for <=15 narrowed candidates); pre-2000 text is noisy OCR; CC BY-ND"
+    },
+    {
+      "name": "Cour d'appel – chambres civiles et commerciales",
+      "en": "Court of Appeal – civil and commercial chambers",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-2-commerce-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes cour-superieure-de-justice-chambre-2-commerce-1, cour-superieure-de-justice-chambre-2-civil-1, cour-superieure-de-justice-1e-chambre-1, cour-superieure-de-justice-chambre-7-civil-1",
+        "note": "one dataset per chamber; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Cour d'appel – référés",
+      "en": "Court of Appeal – summary proceedings",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-2-refere-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes cour-superieure-de-justice-chambre-2-refere-1, cour-superieure-de-justice-chambre-7-refere-1, cour-superieure-de-justice-chambre-12-refere",
+        "note": "référé appeal datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Cour d'appel – chambres correctionnelles",
+      "en": "Court of Appeal – correctional (misdemeanour) chambers",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-5-correctionnelle-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes cour-superieure-de-justice-chambre-5-correctionnelle-1, cour-superieure-de-justice-chambre-10-correctionnelle-1",
+        "note": "criminal appeal datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Cour d'appel – chambres criminelles",
+      "en": "Court of Appeal – criminal (felony) chambers",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-5-criminelle-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes cour-superieure-de-justice-chambre-5-criminelle-1, cour-superieure-de-justice-chambre-10-criminelle-1",
+        "note": "felony appeal datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Cour d'appel – chambre du conseil",
+      "en": "Court of Appeal – pre-trial (investigation) chamber",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-du-conseil-2/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes cour-superieure-de-justice-chambre-du-conseil-2, cour-superieure-de-justice-chambre-du-conseil-3",
+        "note": "chambre du conseil datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Cour d'appel – chambre de la jeunesse",
+      "en": "Court of Appeal – juvenile chamber",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-de-la-jeunesse-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes cour-superieure-de-justice-chambre-de-la-jeunesse-1",
+        "note": "appeal-level juvenile dataset; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Cour d'appel – chambre de l'application des peines",
+      "en": "Court of Appeal – sentence-enforcement chamber",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-de-lapplication-des-peines-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes cour-superieure-de-justice-chambre-de-lapplication-des-peines-1",
+        "note": "sentence-enforcement dataset; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux d'arrondissement (Luxembourg, Diekirch) – chambres civiles",
+      "en": "District courts – civil chambers",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "bot check on justice.public.lu; yearly ZIPs on data.public.lu exist, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/tribunal-darrondissement-luxembourg-civil-chambre-01-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes tribunal-darrondissement-luxembourg-civil-chambre-01-1, tribunal-darrondissement-diekirch-civil",
+        "note": "datasets per civil chamber; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux d'arrondissement – chambres commerciales (incl. faillites)",
+      "en": "District courts – commercial chambers",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "bot check on justice.public.lu; yearly ZIPs on data.public.lu exist, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/tribunal-darrondissement-luxembourg-commerce-chambre-2/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes tribunal-darrondissement-luxembourg-commerce-chambre-2, tribunal-darrondissement-diekirch-commerce",
+        "note": "commerce datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux d'arrondissement – juge aux affaires familiales",
+      "en": "District courts – family judge (since 2018)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "bot check on justice.public.lu; yearly ZIPs on data.public.lu exist, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/tribunal-darrondissement-luxembourg-civil-juge-aux-affaires-familiales/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes tribunal-darrondissement-luxembourg-civil-juge-aux-affaires-familiales, tribunal-darrondissement-diekirch-civil-jaf, tribunal-darrondissement-diekirch-civil-divorce",
+        "note": "JAF and divorce datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux d'arrondissement – référés",
+      "en": "District courts – summary proceedings (président)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "bot check on justice.public.lu; yearly ZIPs on data.public.lu exist, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/tribunal-darrondissement-luxembourg-refere-ordinaire/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes tribunal-darrondissement-luxembourg-refere-ordinaire, tribunal-darrondissement-luxembourg-refere-divorce, tribunal-darrondissement-diekirch-refere",
+        "note": "référé datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux d'arrondissement – chambres correctionnelles",
+      "en": "District courts – correctional chambers",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check on justice.public.lu; yearly ZIPs on data.public.lu exist, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/tribunal-darrondissement-luxembourg-penal-chambre-12-correctionnelle/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes tribunal-darrondissement-luxembourg-penal-chambre-12-correctionnelle, tribunal-darrondissement-diekirch-penal",
+        "note": "pénal datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux d'arrondissement – chambres criminelles",
+      "en": "District courts – criminal (felony) chambers",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check on justice.public.lu; yearly ZIPs on data.public.lu exist, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/tribunal-darrondissement-luxembourg-penal-chambre-12-criminelle/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes tribunal-darrondissement-luxembourg-penal-chambre-12-criminelle, tribunal-darrondissement-luxembourg-penal-chambre-9-criminelle",
+        "note": "criminelle datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux d'arrondissement – chambre du conseil",
+      "en": "District courts – pre-trial chamber",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check on justice.public.lu; yearly ZIPs on data.public.lu exist, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/tribunal-darrondissement-luxembourg-chambre-du-conseil-chambre-5/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes tribunal-darrondissement-luxembourg-chambre-du-conseil-chambre-5, tribunal-darrondissement-diekirch-chambre-du-conseil",
+        "note": "chambre du conseil datasets; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunal de la jeunesse et des tutelles",
+      "en": "Youth and guardianship court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/cour-superieure-de-justice-chambre-de-la-jeunesse-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API lists 97 datasets of org 'administration-judiciaire' incl. cour-superieure-de-justice-chambre-de-la-jeunesse-1",
+        "note": "only the appeal-level Chambre de la Jeunesse dataset found; no first-instance tribunal de la jeunesse dataset"
+      }
+    },
+    {
+      "name": "Justices de paix (Luxembourg, Esch-sur-Alzette, Diekirch) – civil, bail, saisie-cession, surendettement",
+      "en": "Justices of the peace – civil",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/justice-de-paix-luxembourg-civil-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes justice-de-paix-luxembourg-civil-1, justice-de-paix-luxembourg-bail-1, justice-de-paix-esch-sur-alzette-surendettement",
+        "note": "civil, lease, wage-attachment and over-indebtedness datasets for all three seats; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux de police (at the justices of the peace)",
+      "en": "Police courts (petty offences)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/justice-de-paix-luxembourg-police-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API, organization 'administration-judiciaire' (97 datasets) includes justice-de-paix-luxembourg-police-1, justice-de-paix-esch-sur-alzette-police, justice-de-paix-diekirch-police",
+        "note": "police datasets for all three seats; bulk yearly ZIP/PDF only, no search"
+      }
+    },
+    {
+      "name": "Tribunaux du travail",
+      "en": "Labour courts",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "bot check (FriendlyCaptcha) on justice.public.lu",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/justice-de-paix-luxembourg-travail-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API lists 97 datasets of org 'administration-judiciaire' incl. justice-de-paix-luxembourg-travail-1",
+        "note": "labour tribunals sit at the justices of the peace: 'Justice de Paix … - Travail' datasets for all three seats; bulk only"
+      }
+    },
+    {
+      "name": "Cour administrative",
+      "en": "Higher Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "ja.public.lu answers 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Juridictions administratives (ja.public.lu)",
+        "url": "https://ja.public.lu/",
+        "evidence": "research/eu_dach_fr_benelux.md",
+        "note": "403 to our client; no administrative-court dataset among the 97 on data.public.lu"
+      }
+    },
+    {
+      "name": "Tribunal administratif",
+      "en": "Administrative Tribunal",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "ja.public.lu answers 403",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Juridictions administratives (ja.public.lu)",
+        "url": "https://ja.public.lu/",
+        "evidence": "research/eu_dach_fr_benelux.md",
+        "note": "403 to our client; no administrative-court dataset on data.public.lu"
+      }
+    },
+    {
+      "name": "Conseil supérieur de la sécurité sociale",
+      "en": "Higher Social Security Council (appeal)",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "CSSS decisions on data.public.lu (bulk); CASS not found",
+      "elsewhere": {
+        "status": "available",
+        "source": "data.public.lu – Administration judiciaire datasets (yearly ZIPs of decisions)",
+        "url": "https://data.public.lu/api/1/datasets/conseil-superieur-de-la-securite-sociale-1/",
+        "evidence": "fetched 2026-11-07: data.public.lu API lists 97 datasets of org 'administration-judiciaire' incl. conseil-superieur-de-la-securite-sociale-1",
+        "note": "Conseil supérieur (appeal) decisions as PDFs/ZIPs; no Conseil arbitral (first instance) dataset found"
+      }
+    },
+    {
+      "name": "Conseil arbitral de la sécurité sociale",
+      "en": "Social Security Arbitration Council (first instance)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no dataset on data.public.lu; justice.public.lu behind FriendlyCaptcha",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "justice.public.lu – jurisprudence",
+        "url": "https://justice.public.lu/",
+        "evidence": "fetched 2026-11-07: data.public.lu organization list (97 datasets) has no Conseil arbitral dataset; justice.public.lu search behind FriendlyCaptcha (lu.py gaps)",
+        "note": "only possible route is the captcha-protected justice.public.lu search; whether CASS decisions are there unverified"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+      "note": "consolidated (among the ~1,400 consolidated texts)"
+    },
+    {
+      "name": "Codes",
+      "en": "Codes (civil, penal, etc.)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+      "note": "consolidated"
+    },
+    {
+      "name": "Lois",
+      "en": "Acts of the Chamber of Deputies",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+      "note": "~1,400 consolidated; others only as original Mémorial text",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Legilux",
+        "url": "https://legilux.public.lu/",
+        "evidence": "adapter gaps (lu.py): 'Consolidated text of acts outside the ~1,400 consolidated ones: not published online'",
+        "note": "missing part: consolidated versions of non-consolidated acts are not published anywhere officially"
+      }
+    },
+    {
+      "name": "Règlements grand-ducaux",
+      "en": "Grand-ducal regulations",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+      "note": "original Mémorial text unless consolidated",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Legilux",
+        "url": "https://legilux.public.lu/",
+        "evidence": "adapter gaps (lu.py)",
+        "note": "missing part: consolidation of most règlements is not published; original Mémorial text is what exists"
+      }
+    },
+    {
+      "name": "Arrêtés grand-ducaux / règlements ministériels",
+      "en": "Grand-ducal and ministerial orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+      "note": "original Mémorial text unless consolidated",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Legilux",
+        "url": "https://legilux.public.lu/",
+        "evidence": "adapter gaps (lu.py)",
+        "note": "missing part: consolidation not published; original Mémorial text is what exists"
+      }
+    },
+    {
+      "name": "Journal officiel / Mémorial A",
+      "en": "Official Journal",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+      "note": "every act in the Mémorial (legislation series)"
+    },
+    {
+      "name": "Traités (lois d'approbation)",
+      "en": "Treaties, via their approval laws in the Mémorial",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+      "note": "only as published with the approval law",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministère des Affaires étrangères – traités",
+        "url": "https://maee.gouvernement.lu/",
+        "evidence": "none (not checked)",
+        "note": "missing part: treaty texts outside approval laws; no official treaty database checked"
+      }
+    },
+    {
+      "name": "Règlements communaux",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "in Legilux (eli/etat/adm/rc), not exposed",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legilux – Mémorial B, règlements communaux",
+        "url": "https://data.legilux.public.lu/sparqlendpoint",
+        "evidence": "fetched 2026-11-07: JOLux SPARQL returned 'Règlement communal - Commune de Bertrange …' (eli/etat/adm/rc/...)",
+        "note": "communal regulations are in the Legilux corpus (types rc); same endpoint Fontes already uses, not exposed"
+      }
+    }
+  ]
+}

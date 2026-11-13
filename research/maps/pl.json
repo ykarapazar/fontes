@@ -1,0 +1,393 @@
+{
+  "code": "pl",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://zpe.gov.pl/a/schemat/Dq1nq8fbE",
+    "https://samorzad.gov.pl/web/powiat-siedlecki/struktura-sadow-w-polsce"
+  ],
+  "courts": [
+    {
+      "name": "Trybunał Konstytucyjny",
+      "en": "Constitutional Tribunal",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "ipo.trybunal.gov.pl reachable (not built)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Trybunał Konstytucyjny – Internetowy Portal Orzeczeń (ipo.trybunal.gov.pl)",
+        "url": "https://ipo.trybunal.gov.pl/ipo/Szukaj?cid=1",
+        "evidence": "fetched 2026-11-07: search page 'Wyszukiwanie' (200) with sygnatura/wyrok fields; robots.txt 404",
+        "note": "full TK case law with texts; JSF form search (not built)"
+      }
+    },
+    {
+      "name": "Sąd Najwyższy – Izba Cywilna",
+      "en": "Supreme Court, Civil Chamber",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sn.pl behind Incapsula bot wall",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sąd Najwyższy – Baza orzeczeń (sn.pl)",
+        "url": "https://www.sn.pl/orzecznictwo/SitePages/Baza_orzeczen.aspx",
+        "evidence": "fetched 2026-11-07: sn.pl answers Incapsula 403 ('Request unsuccessful'), incl. robots.txt; WebFetch: redirect loop",
+        "note": "Incapsula bot wall. SAOS mirror (saos.org.pl) frozen at 2016 and its robots.txt disallows /api/"
+      }
+    },
+    {
+      "name": "Sąd Najwyższy – Izba Karna",
+      "en": "Supreme Court, Criminal Chamber (also hears military-court cassations)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sn.pl behind Incapsula bot wall",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sąd Najwyższy – Baza orzeczeń (sn.pl)",
+        "url": "https://www.sn.pl/orzecznictwo/SitePages/Baza_orzeczen.aspx",
+        "evidence": "fetched 2026-11-07: sn.pl answers Incapsula 403 ('Request unsuccessful'), incl. robots.txt; WebFetch: redirect loop",
+        "note": "Incapsula bot wall. SAOS mirror (saos.org.pl) frozen at 2016 and its robots.txt disallows /api/"
+      }
+    },
+    {
+      "name": "Sąd Najwyższy – Izba Pracy i Ubezpieczeń Społecznych",
+      "en": "Supreme Court, Labour and Social Insurance Chamber",
+      "tier": "apex",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "sn.pl behind Incapsula bot wall",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sąd Najwyższy – Baza orzeczeń (sn.pl)",
+        "url": "https://www.sn.pl/orzecznictwo/SitePages/Baza_orzeczen.aspx",
+        "evidence": "fetched 2026-11-07: sn.pl answers Incapsula 403 ('Request unsuccessful'), incl. robots.txt; WebFetch: redirect loop",
+        "note": "Incapsula bot wall. SAOS mirror (saos.org.pl) frozen at 2016 and its robots.txt disallows /api/"
+      }
+    },
+    {
+      "name": "Sąd Najwyższy – Izba Kontroli Nadzwyczajnej i Spraw Publicznych",
+      "en": "Supreme Court, Extraordinary Control and Public Affairs Chamber (election validity, extraordinary complaints)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "sn.pl behind Incapsula bot wall",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sąd Najwyższy – Baza orzeczeń (sn.pl)",
+        "url": "https://www.sn.pl/orzecznictwo/SitePages/Baza_orzeczen.aspx",
+        "evidence": "fetched 2026-11-07: sn.pl answers Incapsula 403 ('Request unsuccessful'), incl. robots.txt; WebFetch: redirect loop",
+        "note": "Incapsula bot wall. SAOS mirror (saos.org.pl) frozen at 2016 and its robots.txt disallows /api/"
+      }
+    },
+    {
+      "name": "Sąd Najwyższy – Izba Odpowiedzialności Zawodowej",
+      "en": "Supreme Court, Professional Liability Chamber (replaced the Disciplinary Chamber in 2022)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "sn.pl behind Incapsula bot wall",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sąd Najwyższy – Baza orzeczeń (sn.pl)",
+        "url": "https://www.sn.pl/orzecznictwo/SitePages/Baza_orzeczen.aspx",
+        "evidence": "fetched 2026-11-07: sn.pl answers Incapsula 403 ('Request unsuccessful'), incl. robots.txt; WebFetch: redirect loop",
+        "note": "Incapsula bot wall. SAOS mirror (saos.org.pl) frozen at 2016 and its robots.txt disallows /api/"
+      }
+    },
+    {
+      "name": "Naczelny Sąd Administracyjny",
+      "en": "Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (orzeczenia.nsa.gov.pl)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Centralna Baza Orzeczeń Sądów Administracyjnych (orzeczenia.nsa.gov.pl)",
+        "url": "https://orzeczenia.nsa.gov.pl/",
+        "evidence": "research/cee_balkans_turkey_cis.md + adapter pl.py",
+        "note": "robots.txt disallows /cbo/find, /cbo/search and /doc/*.txt for all agents"
+      }
+    },
+    {
+      "name": "Wojewódzkie sądy administracyjne (16)",
+      "en": "Regional administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Centralna Baza Orzeczeń Sądów Administracyjnych (orzeczenia.nsa.gov.pl)",
+        "url": "https://orzeczenia.nsa.gov.pl/",
+        "evidence": "research/cee_balkans_turkey_cis.md + adapter pl.py",
+        "note": "robots.txt disallows /cbo/find, /cbo/search, /doc/*.txt"
+      }
+    },
+    {
+      "name": "Sądy apelacyjne (11)",
+      "en": "Courts of appeal (civil, criminal, labour and social insurance divisions)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "probe saw 'Sąd Apelacyjny w Rzeszowie II AKz'"
+    },
+    {
+      "name": "Sądy okręgowe (46) – wydziały cywilne i karne",
+      "en": "Regional courts: civil and criminal divisions (first instance and appeal from district courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "probe saw 'III Ca', 'XVII Ka' cases"
+    },
+    {
+      "name": "Sądy rejonowe (~300) – wydziały cywilne i karne (incl. wykroczenia)",
+      "en": "District courts: civil and criminal divisions incl. petty offences",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "probe saw 'II K', 'V K' cases"
+    },
+    {
+      "name": "Sądy pracy i ubezpieczeń społecznych (wydziały SR / SO)",
+      "en": "Labour and social-insurance divisions of district and regional courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "adapter probe 2026-11-07: 'wynagrodzenie za pracę' returned SR 'IV P' and SO 'VIII Pa' cases (133,478 hits)"
+    },
+    {
+      "name": "Sądy rodzinne i nieletnich (wydziały SR)",
+      "en": "Family and juvenile divisions of district courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "adapter probe 2026-11-07: 'władza rodzicielska' returned SR 'Nsm' cases; 'nieletni' returned SR 'Nkd' cases"
+    },
+    {
+      "name": "Sądy gospodarcze (wydziały gospodarcze SR / SO)",
+      "en": "Commercial divisions of district and regional courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "Fontes' own sample decision is SO 'VIII GC' (commercial)"
+    },
+    {
+      "name": "Sądy własności intelektualnej (SO Warszawa, Gdańsk, Katowice, Lublin, Poznań; SA Warszawa, Poznań)",
+      "en": "IP divisions (since 2020) incl. the EU trade mark and design court (SO Warszawa XXII)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "adapter probe 2026-11-07: 'znak towarowy' returned SO Warszawa 'XXII GWzt' decisions"
+    },
+    {
+      "name": "Sąd Ochrony Konkurencji i Konsumentów (SO Warszawa XVII Wydział)",
+      "en": "Competition and Consumer Protection Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "the portal carries common-court decisions generally; whether SOKiK (AmA/AmC/AmE) decisions are included is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "Portal Orzeczeń Sądów Powszechnych",
+        "url": "https://orzeczenia.ms.gov.pl/",
+        "evidence": "used by Fontes (src/world_legal_mcp/jurisdictions/pl.py)",
+        "note": "the same portal Fontes queries; it is a published selection"
+      }
+    },
+    {
+      "name": "Sąd Zamówień Publicznych (SO Warszawa XXIII Wydział)",
+      "en": "Public Procurement Court (appeals from KIO)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "source covers common-court decisions generally; whether the procurement court is included is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "UZP – Wyszukiwarka orzeczeń",
+        "url": "https://orzeczenia.uzp.gov.pl/",
+        "evidence": "fetched 2026-11-07: search page 'UZP - Wyszukiwarka orzeczeń'; robots.txt 404",
+        "note": "UZP's search also lists court rulings on KIO appeals"
+      }
+    },
+    {
+      "name": "Wydziały ksiąg wieczystych (SR)",
+      "en": "Land and mortgage register divisions of district courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "adapter probe 2026-11-07: 'wpis w księdze wieczystej' returned only SO 'Ca' appeal rulings; first-instance register decisions (mostly by referendaries) not seen",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://orzeczenia.ms.gov.pl/",
+        "evidence": "adapter probe 2026-11-07 (see note)",
+        "note": "first-instance entries are register acts, not published as judgments; only appeals surface"
+      }
+    },
+    {
+      "name": "Sądy rejestrowe KRS (wydziały gospodarcze KRS)",
+      "en": "National Court Register divisions",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+      "note": "source covers common-court decisions generally; whether KRS register decisions are included is unverified",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://orzeczenia.ms.gov.pl/",
+        "evidence": "search result only",
+        "note": "register decisions appear as register entries (ekrs.ms.gov.pl), not as published reasoned judgments"
+      }
+    },
+    {
+      "name": "Wojskowe sądy okręgowe (2: Warszawa, Poznań)",
+      "en": "Military district courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no online database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "WebSearch 2026-11-07: no military-court judgment database found",
+        "note": "not on orzeczenia.ms.gov.pl as far as checked; appeals reach SN (Izba Karna)"
+      }
+    },
+    {
+      "name": "Wojskowe sądy garnizonowe",
+      "en": "Military garrison courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no online database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "WebSearch 2026-11-07: no military-court judgment database found",
+        "note": "not on orzeczenia.ms.gov.pl as far as checked; appeals reach SN (Izba Karna)"
+      }
+    },
+    {
+      "name": "Trybunał Stanu",
+      "en": "State Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "rulings listed on trybunalstanu.pl",
+      "elsewhere": {
+        "status": "available",
+        "source": "Trybunał Stanu – Orzeczenia",
+        "url": "https://trybunalstanu.pl/pl/orzeczenia-trybunalu-stanu",
+        "evidence": "fetched 2026-11-07: WebFetch listed 8 rulings (2023, 2026: TS 2/25, TSZ 1/26) with reasons; plain curl got 403",
+        "note": "tiny corpus; site answered 403 to our curl client but served WebFetch"
+      }
+    },
+    {
+      "name": "Krajowa Izba Odwoławcza (KIO)",
+      "en": "National Appeal Chamber (public-procurement disputes; quasi-judicial)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "UZP – Wyszukiwarka orzeczeń",
+        "url": "https://orzeczenia.uzp.gov.pl/",
+        "evidence": "fetched 2026-11-07: search page 'UZP - Wyszukiwarka orzeczeń' (200) with keyword and article search; robots.txt 404",
+        "note": "full KIO rulings (wyroki, postanowienia)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Konstytucja RP",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Sejm ELI API (Chancellery of the Sejm)",
+      "note": ""
+    },
+    {
+      "name": "Ustawy",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Sejm ELI API (Chancellery of the Sejm)",
+      "note": "newest tekst jednolity (HTML); title search"
+    },
+    {
+      "name": "Rozporządzenia",
+      "en": "Regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Sejm ELI API (Chancellery of the Sejm)",
+      "note": "title search"
+    },
+    {
+      "name": "Dziennik Ustaw / Monitor Polski",
+      "en": "Official journals",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Sejm ELI API (Chancellery of the Sejm)",
+      "note": ""
+    },
+    {
+      "name": "Akty prawa miejscowego (wojewódzkie dzienniki urzędowe)",
+      "en": "Local law",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "16 voivodeship e-journals, not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Wojewódzkie dzienniki urzędowe (16 e-dziennik portals, index by RCL)",
+        "url": "https://dziennikiurzedowe.gov.pl/dzienniki-wojewodztw.html",
+        "evidence": "fetched 2026-11-07: RCL index links 16 portals (edzienniki.duw.pl, edziennik.mazowieckie.pl, …)",
+        "note": "16 separate portals (mostly the same e-dziennik software); not checked one by one"
+      }
+    },
+    {
+      "name": "Umowy międzynarodowe",
+      "en": "Treaties (published in Dz.U.)",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Sejm ELI API (Chancellery of the Sejm)",
+      "note": "only those published in Dziennik Ustaw",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "none (not checked)",
+        "note": "missing part: treaties not published in Dziennik Ustaw; no MSZ treaty database checked"
+      }
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "code": "ro",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-ordinary-courts/ro_en?member=1"
+  ],
+  "courts": [
+    {
+      "name": "Curtea Constituțională a României",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "ccr.ro: 'Verifying your browser' bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Curtea Constituțională – jurisprudență",
+        "url": "https://www.ccr.ro/jurisprudenta/",
+        "evidence": "fetched 2026-11-07: ccr.ro returned 403 (364-byte 'Verifying your browser' page)",
+        "note": "JS bot check; decisions are also published in Monitorul Oficial (itself 403)"
+      }
+    },
+    {
+      "name": "Înalta Curte de Casație și Justiție – Secția I civilă",
+      "en": "High Court of Cassation and Justice – First Civil Section",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Înalta Curte de Casaţie şi Justiţie (High Court of Cassation and Justice), scj.ro",
+      "note": "fetch by id only; robots.txt disallows scj.ro search",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ÎCCJ – scj.ro jurisprudence search",
+        "url": "https://www.scj.ro/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/ro.py): robots.txt 'Disallow: /home/getpage'",
+        "note": "missing part: search; results load only from the robots-disallowed /Home/GetPage"
+      }
+    },
+    {
+      "name": "Înalta Curte de Casație și Justiție – Secția a II-a civilă",
+      "en": "High Court of Cassation and Justice – Second Civil Section (commercial, insolvency)",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Înalta Curte de Casaţie şi Justiţie (High Court of Cassation and Justice), scj.ro",
+      "note": "fetch by id only; robots.txt disallows scj.ro search",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ÎCCJ – scj.ro jurisprudence search",
+        "url": "https://www.scj.ro/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/ro.py): robots.txt 'Disallow: /home/getpage'",
+        "note": "missing part: search; results load only from the robots-disallowed /Home/GetPage"
+      }
+    },
+    {
+      "name": "Înalta Curte de Casație și Justiție – Secția de contencios administrativ și fiscal",
+      "en": "High Court of Cassation and Justice – Administrative and Tax Section",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Înalta Curte de Casaţie şi Justiţie (High Court of Cassation and Justice), scj.ro",
+      "note": "fetch by id only; robots.txt disallows scj.ro search",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ÎCCJ – scj.ro jurisprudence search",
+        "url": "https://www.scj.ro/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/ro.py): robots.txt 'Disallow: /home/getpage'",
+        "note": "missing part: search; results load only from the robots-disallowed /Home/GetPage"
+      }
+    },
+    {
+      "name": "Înalta Curte de Casație și Justiție – Secția penală",
+      "en": "High Court of Cassation and Justice – Criminal Section",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Înalta Curte de Casaţie şi Justiţie (High Court of Cassation and Justice), scj.ro",
+      "note": "fetch by id only; robots.txt disallows scj.ro search",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ÎCCJ – scj.ro jurisprudence search",
+        "url": "https://www.scj.ro/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/ro.py): robots.txt 'Disallow: /home/getpage'",
+        "note": "missing part: search; results load only from the robots-disallowed /Home/GetPage"
+      }
+    },
+    {
+      "name": "Înalta Curte de Casație și Justiție – Completurile de 5 judecători",
+      "en": "High Court of Cassation and Justice – Five-judge panels (appeals in ÎCCJ first-instance cases, disciplinary)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Înalta Curte de Casaţie şi Justiţie (High Court of Cassation and Justice), scj.ro",
+      "note": "fetch by id only; robots.txt disallows scj.ro search",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ÎCCJ – scj.ro jurisprudence search",
+        "url": "https://www.scj.ro/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/ro.py): robots.txt 'Disallow: /home/getpage'",
+        "note": "missing part: search; results load only from the robots-disallowed /Home/GetPage"
+      }
+    },
+    {
+      "name": "Înalta Curte de Casație și Justiție – Completurile pentru recursul în interesul legii / dezlegarea unor chestiuni de drept",
+      "en": "High Court of Cassation and Justice – Panels for appeals in the interest of the law and preliminary rulings on points of law",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Înalta Curte de Casaţie şi Justiţie (High Court of Cassation and Justice), scj.ro",
+      "note": "fetch by id only; binding RIL/HP decisions are also published in Monitorul Oficial (blocked, see legislation rows)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ÎCCJ – scj.ro jurisprudence search",
+        "url": "https://www.scj.ro/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/ro.py): robots.txt 'Disallow: /home/getpage'",
+        "note": "missing part: search; results load only from the robots-disallowed /Home/GetPage"
+      }
+    },
+    {
+      "name": "Curți de apel (15)",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sections: civil, criminal, administrative & tax, labour & social insurance, minors & family (varies by court). ReJust: Cloudflare Turnstile",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ReJust (Consiliul Superior al Magistraturii)",
+        "url": "https://www.rejust.ro/",
+        "evidence": "fetched 2026-11-07: rejust.ro 200 but a 14.8 KB Blazor shell; adapter records Cloudflare Turnstile",
+        "note": "Cloudflare Turnstile bot check; portalquery.just.ro SOAP gives case-file metadata only, no texts"
+      }
+    },
+    {
+      "name": "Tribunale (41 county tribunals + Tribunalul București)",
+      "en": "Tribunals (county level)",
+      "tier": "regional",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sections civil, criminal, administrative & tax, labour; also appeal court for judecătorii. ReJust: Cloudflare Turnstile",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ReJust (Consiliul Superior al Magistraturii)",
+        "url": "https://www.rejust.ro/",
+        "evidence": "fetched 2026-11-07: rejust.ro 200 but a 14.8 KB Blazor shell; adapter records Cloudflare Turnstile",
+        "note": "Cloudflare Turnstile bot check; portalquery.just.ro SOAP gives case-file metadata only, no texts"
+      }
+    },
+    {
+      "name": "Tribunalul pentru Minori și Familie Brașov",
+      "en": "Children and Family Tribunal (Brașov)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "ReJust: Cloudflare Turnstile",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ReJust (Consiliul Superior al Magistraturii)",
+        "url": "https://www.rejust.ro/",
+        "evidence": "fetched 2026-11-07: rejust.ro 200 but a 14.8 KB Blazor shell; adapter records Cloudflare Turnstile",
+        "note": "Cloudflare Turnstile bot check; portalquery.just.ro SOAP gives case-file metadata only, no texts"
+      }
+    },
+    {
+      "name": "Tribunale specializate (Cluj, Mureș)",
+      "en": "Specialised (commercial / insolvency) tribunals",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "Tribunalul Specializat Argeș abolished; ReJust: Cloudflare Turnstile",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ReJust (Consiliul Superior al Magistraturii)",
+        "url": "https://www.rejust.ro/",
+        "evidence": "fetched 2026-11-07: rejust.ro 200 but a 14.8 KB Blazor shell; adapter records Cloudflare Turnstile",
+        "note": "Cloudflare Turnstile bot check; portalquery.just.ro SOAP gives case-file metadata only, no texts"
+      }
+    },
+    {
+      "name": "Judecătorii (176)",
+      "en": "District courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "ReJust: Cloudflare Turnstile",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ReJust (Consiliul Superior al Magistraturii)",
+        "url": "https://www.rejust.ro/",
+        "evidence": "fetched 2026-11-07: rejust.ro 200 but a 14.8 KB Blazor shell; adapter records Cloudflare Turnstile",
+        "note": "Cloudflare Turnstile bot check; portalquery.just.ro SOAP gives case-file metadata only, no texts"
+      }
+    },
+    {
+      "name": "Curtea Militară de Apel București",
+      "en": "Military Court of Appeal",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "ReJust: Cloudflare Turnstile",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ReJust (Consiliul Superior al Magistraturii)",
+        "url": "https://www.rejust.ro/",
+        "evidence": "fetched 2026-11-07: rejust.ro 200 but a 14.8 KB Blazor shell; adapter records Cloudflare Turnstile",
+        "note": "Cloudflare Turnstile bot check; portalquery.just.ro SOAP gives case-file metadata only, no texts"
+      }
+    },
+    {
+      "name": "Tribunale militare (București, Cluj-Napoca, Iași, Timișoara)",
+      "en": "Military tribunals (4)",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "ReJust: Cloudflare Turnstile",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ReJust (Consiliul Superior al Magistraturii)",
+        "url": "https://www.rejust.ro/",
+        "evidence": "fetched 2026-11-07: rejust.ro 200 but a 14.8 KB Blazor shell; adapter records Cloudflare Turnstile",
+        "note": "Cloudflare Turnstile bot check; portalquery.just.ro SOAP gives case-file metadata only, no texts"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constituția României",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Camera Deputaţilor, Constituţia României (cdep.ro), revised text 2003",
+      "note": "full text of the Constitution as revised by Law 429/2003 (156 articles; no revision since), from cdep.ro site2015.page?den=act2_1&par1=1..8; id 15346; fetched 2026-11-10"
+    },
+    {
+      "name": "Legi / Coduri",
+      "en": "Acts of Parliament and codes",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Camera Deputaţilor, Baza de date legislativă (cdep.ro), metadata only",
+      "note": "index metadata only (number, date, status, Monitorul Oficial ref); no text: legislatie.just.ro still unreachable 2026-11-10 (HTTPS no reply; its SOAP API issues tokens but Search faults, Solr down)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal Legislativ (legislatie.just.ro, Ministerul Justiției)",
+        "url": "https://legislatie.just.ro/",
+        "evidence": "fetched 2026-11-07: no reply over HTTPS from our IP; research/cee_balkans_turkey_cis.md: SOAP GetToken works, Search fails (Solr down 2026-11-05)",
+        "note": "missing part: text (consolidated and as published); site drops UK connections (WAF/geo, unverified) and its free SOAP API was down"
+      }
+    },
+    {
+      "name": "Ordonanțe și ordonanțe de urgență ale Guvernului (OG, OUG)",
+      "en": "Government ordinances and emergency ordinances",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Camera Deputaţilor, Baza de date legislativă (cdep.ro), metadata only",
+      "note": "index metadata only (number, date, status, Monitorul Oficial ref); no text: legislatie.just.ro still unreachable 2026-11-10 (HTTPS no reply; its SOAP API issues tokens but Search faults, Solr down)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal Legislativ (legislatie.just.ro, Ministerul Justiției)",
+        "url": "https://legislatie.just.ro/",
+        "evidence": "fetched 2026-11-07: no reply over HTTPS from our IP; research/cee_balkans_turkey_cis.md: SOAP GetToken works, Search fails (Solr down 2026-11-05)",
+        "note": "missing part: text (consolidated and as published); site drops UK connections (WAF/geo, unverified) and its free SOAP API was down"
+      }
+    },
+    {
+      "name": "Hotărâri ale Guvernului",
+      "en": "Government decisions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Camera Deputaţilor, Baza de date legislativă (cdep.ro), metadata only",
+      "note": "index metadata only (number, date, status, Monitorul Oficial ref); no text: legislatie.just.ro unreachable",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal Legislativ (legislatie.just.ro, Ministerul Justiției)",
+        "url": "https://legislatie.just.ro/",
+        "evidence": "fetched 2026-11-07: no reply over HTTPS from our IP; research/cee_balkans_turkey_cis.md: SOAP GetToken works, Search fails (Solr down 2026-11-05)",
+        "note": "missing part: text (consolidated and as published); site drops UK connections (WAF/geo, unverified) and its free SOAP API was down"
+      }
+    },
+    {
+      "name": "Decrete prezidențiale / decrete-lege",
+      "en": "Presidential decrees, decree-laws",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Camera Deputaţilor, Baza de date legislativă (cdep.ro), metadata only",
+      "note": "index metadata only (number, date, status, Monitorul Oficial ref); no text: legislatie.just.ro unreachable",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal Legislativ (legislatie.just.ro, Ministerul Justiției)",
+        "url": "https://legislatie.just.ro/",
+        "evidence": "fetched 2026-11-07: no reply over HTTPS from our IP; research/cee_balkans_turkey_cis.md: SOAP GetToken works, Search fails (Solr down 2026-11-05)",
+        "note": "missing part: text (consolidated and as published); site drops UK connections (WAF/geo, unverified) and its free SOAP API was down"
+      }
+    },
+    {
+      "name": "Ordine ministeriale, norme, regulamente, decizii",
+      "en": "Ministerial orders, norms, regulations, decisions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Camera Deputaţilor, Baza de date legislativă (cdep.ro), metadata only",
+      "note": "index metadata only (number, date, status, Monitorul Oficial ref); no text: legislatie.just.ro unreachable",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal Legislativ (legislatie.just.ro, Ministerul Justiției)",
+        "url": "https://legislatie.just.ro/",
+        "evidence": "fetched 2026-11-07: no reply over HTTPS from our IP; research/cee_balkans_turkey_cis.md: SOAP GetToken works, Search fails (Solr down 2026-11-05)",
+        "note": "missing part: text (consolidated and as published); site drops UK connections (WAF/geo, unverified) and its free SOAP API was down"
+      }
+    },
+    {
+      "name": "Monitorul Oficial al României",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "only cited in cdep.ro metadata; no text source",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Monitorul Oficial (R.A. Monitorul Oficial)",
+        "url": "https://www.monitoruloficial.ro/e-monitor/",
+        "evidence": "fetched 2026-11-07: 403 with a bot-check page (35 KB) from our IP",
+        "note": "bot wall; free e-Monitor is view-only for recent issues"
+      }
+    },
+    {
+      "name": "Hotărâri ale consiliilor locale și județene",
+      "en": "Local and county council decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "published per local authority; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Monitorul Oficial Local (each UAT's website)",
+        "url": null,
+        "evidence": "not checked",
+        "note": "each local authority must publish its decisions on its own site; no central source found"
+      }
+    },
+    {
+      "name": "Tratate internaționale",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Camera Deputaţilor, Baza de date legislativă (cdep.ro), metadata only",
+      "note": "ratifying laws as index metadata only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal Legislativ (legislatie.just.ro, Ministerul Justiției)",
+        "url": "https://legislatie.just.ro/",
+        "evidence": "fetched 2026-11-07: no reply over HTTPS from our IP; research/cee_balkans_turkey_cis.md: SOAP GetToken works, Search fails (Solr down 2026-11-05)",
+        "note": "missing part: text (consolidated and as published); site drops UK connections (WAF/geo, unverified) and its free SOAP API was down"
+      }
+    }
+  ]
+}

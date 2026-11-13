@@ -1,0 +1,408 @@
+{
+  "code": "cl",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.pjud.cl/post/tribunales-del-pais"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Constitucional",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tribunal Constitucional – buscador de sentencias (JSON backend)",
+        "url": "https://buscador.tcchile.cl/",
+        "evidence": "research/chatgpt/validation-r2-b.md; fetched 2026-11-07: buscador-backend.tcchile.cl/robots.txt 'User-agent: * / Disallow:' (empty)",
+        "note": "anonymous JSON search /api/extended/sentencias returns judgment text (OCR errors); per-document route unverified; no reuse terms found"
+      }
+    },
+    {
+      "name": "Corte Suprema",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Cortes de Apelaciones (17)",
+      "en": "Courts of Appeals",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Cortes Marciales (Ejército/Fuerza Aérea/Gendarmería; Armada)",
+      "en": "Courts-martial of appeal (2)",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Juzgados de Letras en lo Civil",
+      "en": "First-instance civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Juzgados de Letras de competencia común",
+      "en": "First-instance courts of mixed jurisdiction (smaller towns)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Juzgados de Garantía",
+      "en": "Criminal guarantee courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Tribunales de Juicio Oral en lo Penal",
+      "en": "Oral criminal trial courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Juzgados de Familia",
+      "en": "Family courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Juzgados de Letras del Trabajo",
+      "en": "Labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Juzgados de Cobranza Laboral y Previsional",
+      "en": "Labour and social-security collection courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "all Poder Judicial courts: juris.pjud.cl robots.txt disallows all",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial – Buscador de Jurisprudencia",
+        "url": "https://juris.pjud.cl/busqueda",
+        "evidence": "fetched 2026-11-07: robots.txt 'User-agent: * / Disallow: /' plus named AI bots (Anthropic-ai, Claude-Web, GPTBot) disallowed",
+        "note": "robots.txt disallows all agents; this is the only official database for ordinary courts"
+      }
+    },
+    {
+      "name": "Tribunales Tributarios y Aduaneros",
+      "en": "Tax and customs courts",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tribunales Tributarios y Aduaneros – buscadores de jurisprudencia y sentencias definitivas (OJV)",
+        "url": "https://www.tta.cl/",
+        "evidence": "fetched 2026-11-07: tta.cl links 'Nuevos Buscadores' for Jurisprudencia and Sentencias Definitivas on ojv.tta.cl",
+        "note": "ojv.tta.cl search itself not opened; robots/terms not checked"
+      }
+    },
+    {
+      "name": "Tribunal de Defensa de la Libre Competencia",
+      "en": "Competition Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "TDLC – sentencias",
+        "url": "https://www.tdlc.cl/sentencias/",
+        "evidence": "fetched 2026-11-07: tdlc.cl/sentencias lists sentencias/resoluciones as pages; tribunalambiental.cl/sentencias-e-informes/sentencias/ links PDFs (e.g. Sentencia-R-516-2025.pdf); tribunaldecontratacionpublica.cl links tcp.lexsoft.cl/tcp/sentencia",
+        "note": "TDLC robots.txt disallows /wp-content/ (attachments may sit there); Tribunal Ambiental robots allows; TCP search on lexsoft not opened"
+      }
+    },
+    {
+      "name": "Tribunales Ambientales (3: Antofagasta, Santiago, Valdivia)",
+      "en": "Environmental tribunals",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tribunales Ambientales – sentencias",
+        "url": "https://tribunalambiental.cl/sentencias-e-informes/sentencias/",
+        "evidence": "fetched 2026-11-07: tdlc.cl/sentencias lists sentencias/resoluciones as pages; tribunalambiental.cl/sentencias-e-informes/sentencias/ links PDFs (e.g. Sentencia-R-516-2025.pdf); tribunaldecontratacionpublica.cl links tcp.lexsoft.cl/tcp/sentencia",
+        "note": "TDLC robots.txt disallows /wp-content/ (attachments may sit there); Tribunal Ambiental robots allows; TCP search on lexsoft not opened"
+      }
+    },
+    {
+      "name": "Tribunal de Contratación Pública",
+      "en": "Public Procurement Tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tribunal de Contratación Pública (tcp.lexsoft.cl)",
+        "url": "https://tcp.lexsoft.cl/",
+        "evidence": "fetched 2026-11-07: tdlc.cl/sentencias lists sentencias/resoluciones as pages; tribunalambiental.cl/sentencias-e-informes/sentencias/ links PDFs (e.g. Sentencia-R-516-2025.pdf); tribunaldecontratacionpublica.cl links tcp.lexsoft.cl/tcp/sentencia",
+        "note": "TDLC robots.txt disallows /wp-content/ (attachments may sit there); Tribunal Ambiental robots allows; TCP search on lexsoft not opened"
+      }
+    },
+    {
+      "name": "Tribunal de Propiedad Industrial (TDPI)",
+      "en": "Industrial Property Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "TDPI – Fallos relevantes de patentes; Boletín de jurisprudencia marcaria",
+        "url": "https://www.tdpi.cl/fallos-relevantes-de-patentes/",
+        "evidence": "fetched 2026-11-07: tdpi.cl links /fallos-relevantes-de-patentes and quarterly 'Boletín de jurisprudencia marcaria' PDFs (2024-2026)",
+        "note": "selected decisions and bulletins only; robots/terms not checked"
+      }
+    },
+    {
+      "name": "Tribunal Calificador de Elecciones (TRICEL)",
+      "en": "Electoral Qualifying Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "TRICEL – buscador de jurisprudencia (lexsoft)",
+        "url": "https://tricel.lexsoft.cl/tce/jurisprudenciaBuscador",
+        "evidence": "fetched 2026-11-07: tribunalcalificador.cl menu 'Jurisprudencia' links tricel.lexsoft.cl/tce/jurisprudenciaBuscador",
+        "note": "search page itself not opened; robots/terms not checked"
+      }
+    },
+    {
+      "name": "Tribunales Electorales Regionales",
+      "en": "Regional electoral tribunals",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "no central publication checked"
+      }
+    },
+    {
+      "name": "Juzgados Militares (tiempo de paz)",
+      "en": "Military courts (first instance)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no official decision database found; military courts sit under the Corte Suprema whose database (juris.pjud.cl) is robots-blocked anyway"
+      }
+    },
+    {
+      "name": "Juzgados de Policía Local",
+      "en": "Municipal local-police courts",
+      "tier": "sub-national",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "municipal courts; no official online decision database found (not exhaustively checked)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Política de la República",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "BCN Ley Chile (Biblioteca del Congreso Nacional)",
+      "note": "latest consolidated version only"
+    },
+    {
+      "name": "Leyes (incl. leyes orgánicas constitucionales, de quórum calificado)",
+      "en": "Acts of Congress",
+      "level": "primary",
+      "reached": "yes",
+      "via": "BCN Ley Chile (Biblioteca del Congreso Nacional)",
+      "note": "latest consolidated version only"
+    },
+    {
+      "name": "Decretos con Fuerza de Ley (DFL) y Decretos Leyes (DL)",
+      "en": "Decrees with force of law and decree-laws",
+      "level": "primary",
+      "reached": "yes",
+      "via": "BCN Ley Chile (Biblioteca del Congreso Nacional)",
+      "note": "latest consolidated version only"
+    },
+    {
+      "name": "Decretos Supremos, reglamentos, resoluciones",
+      "en": "Supreme decrees, regulations, resolutions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "BCN Ley Chile (Biblioteca del Congreso Nacional)",
+      "note": "whatever Ley Chile indexes; search is not type-filtered"
+    },
+    {
+      "name": "Tratados internacionales (decretos promulgatorios)",
+      "en": "Treaties (promulgating decrees)",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "BCN Ley Chile (Biblioteca del Congreso Nacional)",
+      "note": "only as the promulgating decree in Ley Chile",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diario Oficial – Normas Generales section",
+        "url": "https://www.diariooficial.interior.gob.cl/edicionelectronica/",
+        "evidence": "fetched 2026-11-07: robots.txt disallows /publicaciones/ except Normas Generales ('/publicaciones/*/*/*/*/01/') and /edicionelectronica/index.php",
+        "note": "missing part: treaty texts themselves (beyond the promulgating decree); MINREL treaty library not checked"
+      }
+    },
+    {
+      "name": "Diario Oficial",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette editions not built; norms reached via Ley Chile instead",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diario Oficial de la República de Chile – edición electrónica (2016-08-17 on)",
+        "url": "https://www.diariooficial.interior.gob.cl/edicionelectronica/",
+        "evidence": "fetched 2026-11-07: homepage lists Edición Electrónica from 17/08/2016 and Edición Impresa 1877-2016; robots.txt allows only the Normas Generales section and edicionelectronica/index.php",
+        "note": "only the Normas Generales section is robots-allowed; other sections disallowed"
+      }
+    },
+    {
+      "name": "Ordenanzas municipales / normas regionales",
+      "en": "Municipal ordinances / regional norms",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "Ley Chile may index some municipal norms (its search is not type-filtered); no central municipal ordinance database confirmed"
+      }
+    }
+  ]
+}

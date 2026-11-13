@@ -1,0 +1,383 @@
+{
+  "code": "mz",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.ts.gov.mz/rede-judiciaria/"
+  ],
+  "courts": [
+    {
+      "name": "Conselho Constitucional",
+      "en": "Constitutional Council",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Conselho Constitucional (cconstitucional.org.mz): acórdãos and deliberações",
+      "note": "~290 decisions; about half are scans without text",
+      "elsewhere": {
+        "status": "available",
+        "source": "Conselho Constitucional (cconstitucional.org.mz)",
+        "url": "https://cconstitucional.org.mz/",
+        "evidence": "adapter mz.py docstring",
+        "note": "Missing part: about half the decision PDFs are image scans with no text layer; text would need OCR of the same official PDFs."
+      }
+    },
+    {
+      "name": "Tribunal Supremo",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page",
+      "note": "~700 judgments"
+    },
+    {
+      "name": "Tribunais Superiores de Recurso (Maputo, Beira, Nampula)",
+      "en": "Higher Appeal Courts (3)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page",
+      "note": ""
+    },
+    {
+      "name": "Tribunais Judiciais de Província (11)",
+      "en": "Provincial courts (11), incl. Tribunal Judicial da Cidade de Maputo",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "general first instance for serious cases; second instance for district courts; divided into secções (cível, criminal, laboral, comercial, família e menores, instrução criminal)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Provincial court judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Tribunais Judiciais de Distrito de 1.ª classe",
+      "en": "District courts, 1st class",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "District court judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Tribunais Judiciais de Distrito de 2.ª classe",
+      "en": "District courts, 2nd class",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "District court judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Secções Comerciais (Tribunais Judiciais de Província/Cidade)",
+      "en": "Commercial sections of provincial/city courts",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "commercial jurisdiction sits in specialised sections (e.g. Maputo City, Beira, Nampula)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Commercial-section judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Secções Laborais / Tribunais de Trabalho",
+      "en": "Labour sections / labour courts",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Lei 24/2007 allows separate labour courts; in practice labour sections of judicial courts",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Labour judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Secções de Família e Menores / Tribunais de Menores",
+      "en": "Family and minors sections / juvenile courts",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "Tribunal de Menores da Cidade de Maputo plus family-and-minors sections (e.g. Niassa, per TS rede-judiciária page)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Family/minors judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Secções de Instrução Criminal",
+      "en": "Criminal investigation-judge sections",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "created in district courts across ten provinces (TS despacho, July 2024)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Instruction-section rulings: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Secções de Terra e Biodiversidade",
+      "en": "Land and biodiversity sections",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "e.g. 5.ª secção, Tribunal Judicial do Distrito de Marracuene (per TS rede-judiciária page)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Land-section judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Tribunais Marítimos",
+      "en": "Maritime courts",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "provided for by Lei 24/2007; operation unverified",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Maritime court judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Tribunais de Polícia",
+      "en": "Police courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "minor offences; provided for by Lei 24/2007",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Tribunal Supremo website / MozJuris",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring (ts.gov.mz publishes only TS and TSR tables); search result only (2026-11-10 web search found no online publication of first-instance judgments)",
+        "note": "Police court judgments: no official online publication found. MozJuris (TS case-law database) sits behind an Anubis proof-of-work bot wall; whether it holds any first-instance rulings is unverified."
+      }
+    },
+    {
+      "name": "Tribunais Comunitários",
+      "en": "Community courts",
+      "tier": "specialised",
+      "branch": "customary",
+      "reached": "no",
+      "via": null,
+      "note": "Lei 4/92; lay, customary-law mediation bodies outside the judicial hierarchy",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10)",
+        "note": "Community courts work orally; no publication found."
+      }
+    },
+    {
+      "name": "Tribunal Administrativo",
+      "en": "Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "mozjuris behind Anubis bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MozJuris – Tribunal Supremo case-law database",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring; fetched 2026-11-07: mozjuris.ts.gov.mz serves Anubis proof-of-work challenge",
+        "note": "MozJuris (incl. Administrative Tribunal) behind Anubis bot challenge. ta.gov.mz is a JS-only app; no public decision list found."
+      }
+    },
+    {
+      "name": "Tribunais Administrativos Provinciais (10) e Tribunal Administrativo da Cidade de Maputo",
+      "en": "Provincial administrative courts (11)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "MozJuris – Tribunal Supremo case-law database",
+        "url": "https://mozjuris.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring; search result only (2026-11-10)",
+        "note": "No official publication found; ta.gov.mz is a JS-only app with no public decision list; MozJuris bot-walled."
+      }
+    },
+    {
+      "name": "Tribunais Fiscais",
+      "en": "Tax courts",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10)",
+        "note": "No official publication of tax-court judgments found."
+      }
+    },
+    {
+      "name": "Tribunais Aduaneiros",
+      "en": "Customs courts",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10)",
+        "note": "No official publication of customs-court judgments found."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constituição da República",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page",
+      "note": "PDF on the TS legislation page"
+    },
+    {
+      "name": "Leis",
+      "en": "Laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page",
+      "note": "~110 PDFs on the TS page, as published; MozLex banned",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MozLex – Tribunal Supremo legislation database",
+        "url": "https://mozlex.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring; research/SIGNUPS.md",
+        "note": "Missing part: full and consolidated corpus. MozLex robots.txt: 'A recolha automatizada do acervo (raspagem, descarga em massa) nao e autorizada'; needs written permission."
+      }
+    },
+    {
+      "name": "Decretos / Decretos-Lei",
+      "en": "Decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page",
+      "note": "TS selection only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MozLex – Tribunal Supremo legislation database",
+        "url": "https://mozlex.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring",
+        "note": "Missing part: decrees beyond the TS selection. MozLex robots.txt: 'A recolha automatizada do acervo (raspagem, descarga em massa) nao e autorizada'."
+      }
+    },
+    {
+      "name": "Resoluções / Diplomas ministeriais",
+      "en": "Resolutions, ministerial diplomas",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page",
+      "note": "TS selection only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MozLex – Tribunal Supremo legislation database",
+        "url": "https://mozlex.ts.gov.mz/",
+        "evidence": "adapter mz.py docstring",
+        "note": "Missing part: beyond the TS selection. MozLex robots.txt: 'A recolha automatizada do acervo (raspagem, descarga em massa) nao e autorizada'."
+      }
+    },
+    {
+      "name": "Boletim da República",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "BR needs an account",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Imprensa Nacional – Boletim da República (eBR)",
+        "url": "https://www.inm.gov.mz/",
+        "evidence": "adapter mz.py docstring",
+        "note": "PDFs only via account + checkout ('Comprar'); terms: 'É proibida a cópia ... sem a prévia autorização da INM'."
+      }
+    },
+    {
+      "name": "Posturas municipais",
+      "en": "Municipal by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not researched beyond adapter notes",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked; municipal posturas appear in BR III Série (account needed) if at all."
+      }
+    },
+    {
+      "name": "Tratados",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "published in the Boletim da República (account needed)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Imprensa Nacional – Boletim da República (eBR)",
+        "url": "https://www.inm.gov.mz/",
+        "evidence": "adapter mz.py docstring",
+        "note": "Treaty ratification resolutions are published in the BR (account needed, copying barred); MozLex robots-banned."
+      }
+    }
+  ]
+}

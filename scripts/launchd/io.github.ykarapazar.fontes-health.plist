@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Template: daily Fontes source health run at 09:00. Install steps: docs/HEALTH.md. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>io.github.ykarapazar.fontes-health</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/YOU/Development/world-legal-mcp/scripts/health_daily.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/Users/YOU/.local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardOutPath</key><string>/Users/YOU/Library/Logs/fontes-health.log</string>
+  <key>StandardErrorPath</key><string>/Users/YOU/Library/Logs/fontes-health.log</string>
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>

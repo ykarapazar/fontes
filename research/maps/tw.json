@@ -1,0 +1,326 @@
+{
+  "code": "tw",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.judicial.gov.tw/en/cp-1668-84500-f8dba-2.html",
+    "https://www.judicial.gov.tw/en/cp-1588-79757-f2513-2.html"
+  ],
+  "courts": [
+    {
+      "name": "憲法法庭 (司法院大法官)",
+      "en": "Constitutional Court (Grand Justices)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "cons.judicial.gov.tw timed out from the UK (2026-11-05). FJUD's court list includes 憲法法庭 (code JCC), but the adapter's notes exclude it and a probe ('憲判字', 2026-11-07) returned only ordinary courts",
+      "elsewhere": {
+        "status": "available",
+        "source": "FJUD court 憲法法庭 (JCC), Judicial Yuan",
+        "url": "https://judgment.judicial.gov.tw/FJUD/Default_AD.aspx",
+        "evidence": "fetched 2026-11-07: FJUD Default_AD.aspx court list includes ('JCC', '憲法法庭')",
+        "note": "the same official system Fontes already uses lists the Constitutional Court as a court filter; a JCC decision page was not opened. cons.judicial.gov.tw itself times out from the UK (likely geo/IP block)"
+      }
+    },
+    {
+      "name": "最高法院",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "keyword search across all FJUD courts; no court filter"
+    },
+    {
+      "name": "最高行政法院",
+      "en": "Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": null
+    },
+    {
+      "name": "懲戒法院－懲戒法庭",
+      "en": "Disciplinary Court, disciplinary tribunal (civil servants, judges; formerly 公務員懲戒委員會)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD court TPP"
+    },
+    {
+      "name": "懲戒法院－職務法庭",
+      "en": "Disciplinary Court, Court for Judicial Officers (judges' and prosecutors' discipline)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD court TPJ"
+    },
+    {
+      "name": "司法院刑事補償法庭",
+      "en": "Judicial Yuan Criminal Compensation Court (appeals on wrongful-detention compensation)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD court TPC"
+    },
+    {
+      "name": "司法院及臺灣高等法院 訴願決定",
+      "en": "Administrative-appeal (訴願) decisions of the Judicial Yuan and Taiwan High Court",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD codes TPU and 001; quasi-judicial"
+    },
+    {
+      "name": "臺灣高等法院",
+      "en": "Taiwan High Court (Taipei)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD court TPH"
+    },
+    {
+      "name": "臺灣高等法院分院 (臺中、臺南、高雄、花蓮)",
+      "en": "Taiwan High Court branches (4)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD courts TCH, TNH, KSH, HLH"
+    },
+    {
+      "name": "福建高等法院金門分院",
+      "en": "Fujian High Court, Kinmen Branch",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD court KMH"
+    },
+    {
+      "name": "高等行政法院 高等行政訴訟庭 (臺北、臺中、高雄)",
+      "en": "High Administrative Courts (3), high-court divisions",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD courts TPB, TCB, KSB (incl. pre-2023 decisions)"
+    },
+    {
+      "name": "高等行政法院 地方行政訴訟庭 (臺北、臺中、高雄)",
+      "en": "High Administrative Courts, district-level divisions (since 2023; took over district courts' administrative litigation divisions)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD courts TPT, TCT, KST"
+    },
+    {
+      "name": "地方法院行政訴訟庭 (abolished 2023)",
+      "en": "District court administrative litigation divisions (2012-2022)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "older decisions sit under each district court in FJUD; whether all are searchable by the adapter's keyword search is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "FJUD (Judicial Yuan)",
+        "url": "https://judgment.judicial.gov.tw/FJUD/Default_AD.aspx",
+        "evidence": "fetched 2026-11-07: FJUD Default_AD.aspx court list lists every district court",
+        "note": "decisions are filed under the district courts"
+      }
+    },
+    {
+      "name": "智慧財產及商業法院",
+      "en": "Intellectual Property and Commercial Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD court IPC"
+    },
+    {
+      "name": "地方法院 (臺灣 20 + 福建金門、連江 = 22)",
+      "en": "District Courts (22), civil and criminal divisions",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD codes TPD … LCD (22 courts)"
+    },
+    {
+      "name": "地方法院 簡易庭",
+      "en": "Summary divisions of the district courts (簡易庭, small claims and summary criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "source covers district court decisions generally; whether summary-procedure decisions come through the main search is unverified (FJUD has a separate 簡易案件查詢)",
+      "elsewhere": {
+        "status": "available",
+        "source": "FJUD 簡易案件查詢 (Judicial Yuan)",
+        "url": "https://judgment.judicial.gov.tw/FJUD/defaulte.aspx",
+        "evidence": "fetched 2026-11-07: FJUD menu links '簡易案件查詢' (defaulte.aspx) separately from 裁判書查詢",
+        "note": "summary-procedure (簡易) decisions have their own search page; the adapter posts only to default.aspx"
+      }
+    },
+    {
+      "name": "地方法院 家事法庭",
+      "en": "Family divisions of the district courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD carries district family decisions (probe 2026-11-07 returned a 婚 judgment of 屏東地院); confidential family matters are not published",
+      "elsewhere": {
+        "status": "offline",
+        "source": "FJUD (Judicial Yuan)",
+        "url": "https://judgment.judicial.gov.tw/FJUD/default.aspx",
+        "evidence": "search result only",
+        "note": "missing part = family decisions withheld by law from publication; not published anywhere"
+      }
+    },
+    {
+      "name": "地方法院 勞動法庭",
+      "en": "Labour divisions of the district courts (Labour Incident Act 2020)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "filed under each district court in FJUD"
+    },
+    {
+      "name": "國民法官法庭",
+      "en": "Lay-judge (citizen judge) panels in district courts (2023-)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "filed under each district court in FJUD"
+    },
+    {
+      "name": "臺灣高雄少年及家事法院 / 地方法院少年法庭",
+      "en": "Kaohsiung Juvenile and Family Court and juvenile divisions of district courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+      "note": "FJUD court KSY is searched; juvenile protective cases are confidential and largely unpublished",
+      "elsewhere": {
+        "status": "offline",
+        "source": "FJUD (Judicial Yuan)",
+        "url": "https://judgment.judicial.gov.tw/FJUD/Default_AD.aspx",
+        "evidence": "fetched 2026-11-07: FJUD Default_AD.aspx court list includes ('KSY', '臺灣高雄少年及家事法院')",
+        "note": "missing part = juvenile protective decisions, not published (confidentiality)"
+      }
+    },
+    {
+      "name": "軍事法院 (最高、高等、地方軍事法院)",
+      "en": "Military courts (peacetime jurisdiction largely moved to ordinary courts in 2013)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not in FJUD's court list",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministry of National Defense",
+        "url": "https://judgment.judicial.gov.tw/FJUD/Default_AD.aspx",
+        "evidence": "fetched 2026-11-07: FJUD Default_AD.aspx court list has no military court",
+        "note": "whether the MND publishes military-court decisions was not established"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "中華民國憲法",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Ministry of Justice 全國法規資料庫 (law.moj.gov.tw, LawAll.aspx only)",
+      "note": "pcode A0000001"
+    },
+    {
+      "name": "法律 (法、律、條例、通則)",
+      "en": "Statutes of the Legislative Yuan",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Ministry of Justice 全國法規資料庫 (law.moj.gov.tw, LawAll.aspx only)",
+      "note": "opened by MOJ pcode only; no search (robots.txt allows only LawAll.aspx)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MOJ 全國法規資料庫 search and open-data API",
+        "url": "https://law.moj.gov.tw/api/Ch/Law/JSON",
+        "evidence": "src/world_legal_mcp/jurisdictions/tw.py docstring (robots.txt checked 2026-11-05)",
+        "note": "missing part = search: robots.txt is 'Disallow: /' except LawAll.aspx, NewsDetail.aspx and the sitemap, so the search pages and the bulk JSON API are off limits (content itself is under the Open Government Data Licence)"
+      }
+    },
+    {
+      "name": "命令 (規程、規則、細則、辦法、綱要、標準、準則)",
+      "en": "Administrative regulations / orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Ministry of Justice 全國法規資料庫 (law.moj.gov.tw, LawAll.aspx only)",
+      "note": "by pcode only, no search; coverage of all orders unverified",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MOJ 全國法規資料庫 search and open-data API",
+        "url": "https://law.moj.gov.tw/api/Ch/Law/JSON",
+        "evidence": "src/world_legal_mcp/jurisdictions/tw.py docstring (robots.txt checked 2026-11-05)",
+        "note": "missing part = search and a full list of orders: robots.txt 'Disallow: /' except LawAll.aspx"
+      }
+    },
+    {
+      "name": "總統府公報 / 行政院公報",
+      "en": "Presidential Office Gazette / Executive Yuan Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Executive Yuan Gazette online (gazette.nat.gov.tw); Presidential Office Gazette not checked",
+      "elsewhere": {
+        "status": "available",
+        "source": "行政院公報資訊網 (Executive Yuan Gazette Online)",
+        "url": "https://gazette.nat.gov.tw/egFront/",
+        "evidence": "fetched 2026-11-07: HTTP 200, page titled 行政院公報資訊網 with keyword search (advancedSearchResult.do); robots.txt 404",
+        "note": "covers the Executive Yuan Gazette; Presidential Office Gazette (president.gov.tw) not checked"
+      }
+    },
+    {
+      "name": "自治條例 / 自治規則 (直轄市、縣市)",
+      "en": "Local government regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "local databases exist per city/county; timed out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "地方法規資料庫 (local regulation databases, e.g. Taipei law.gov.taipei; MOI glrs.moi.gov.tw)",
+        "url": "https://law.gov.taipei/",
+        "evidence": "fetched 2026-11-07: law.gov.taipei and glrs.moi.gov.tw both TCP timeout from the UK",
+        "note": "likely geo/IP block like other Taiwan government hosts; each city/county runs its own database"
+      }
+    },
+    {
+      "name": "條約及協定",
+      "en": "Treaties and agreements",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "MOFA treaty database exists; timed out from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "外交部 條約協定查詢 (MOFA treaty database)",
+        "url": "https://treaty.mofa.gov.tw/",
+        "evidence": "fetched 2026-11-07: TCP timeout from the UK",
+        "note": "likely geo/IP block; content not seen"
+      }
+    }
+  ]
+}

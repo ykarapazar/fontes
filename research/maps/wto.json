@@ -1,0 +1,230 @@
+{
+  "code": "wto",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.wto.org/english/tratop_e/dispu_e/disp_settlement_cbt_e/c3s1p1_e.htm",
+    "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm"
+  ],
+  "courts": [
+    {
+      "name": "Dispute Settlement Body (DSB)",
+      "en": "Dispute Settlement Body (General Council; adopts reports, authorises retaliation)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "partly",
+      "via": "WTO dispute pages and dispute data files (www.wto.org)",
+      "note": "status, adoption and key facts per dispute from the data files; DSB minutes not fetched",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "WTO Documents Online (docs.wto.org)",
+        "url": "https://docs.wto.org/",
+        "evidence": "fetched 2026-11-07: docs.wto.org robots.txt 'User-agent: * Disallow: /'",
+        "note": "missing part = DSB minutes and decisions (WT/DSB/M/*), held on docs.wto.org"
+      }
+    },
+    {
+      "name": "Panels",
+      "en": "Panels (first instance)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "WTO dispute pages and dispute data files (www.wto.org)",
+      "note": "Secretariat summary of key findings only; report texts on docs.wto.org, robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "WTO Documents Online (docs.wto.org)",
+        "url": "https://docs.wto.org/",
+        "evidence": "fetched 2026-11-07: docs.wto.org robots.txt 'User-agent: * Disallow: /'",
+        "note": "missing part = full panel report texts"
+      }
+    },
+    {
+      "name": "Appellate Body",
+      "en": "Appellate Body (inoperative since Dec 2019)",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "partly",
+      "via": "WTO dispute pages and dispute data files (www.wto.org)",
+      "note": "Secretariat summary only; report texts on docs.wto.org, robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "WTO Documents Online (docs.wto.org)",
+        "url": "https://docs.wto.org/",
+        "evidence": "fetched 2026-11-07: docs.wto.org robots.txt 'User-agent: * Disallow: /'",
+        "note": "missing part = full Appellate Body report texts"
+      }
+    },
+    {
+      "name": "Arbitrators under DSU Art 21.3(c)",
+      "en": "Arbitration on the reasonable period of time for compliance",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "WTO dispute pages and dispute data files (www.wto.org)",
+      "note": "award outcome mentioned in case summaries only; award texts on docs.wto.org, robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "WTO Documents Online (docs.wto.org)",
+        "url": "https://docs.wto.org/",
+        "evidence": "fetched 2026-11-07: docs.wto.org robots.txt 'User-agent: * Disallow: /'",
+        "note": "missing part = award texts"
+      }
+    },
+    {
+      "name": "Arbitrators under DSU Art 22.6",
+      "en": "Arbitration on the level of suspension of concessions (retaliation)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "WTO dispute pages and dispute data files (www.wto.org)",
+      "note": "award outcome mentioned in case summaries only; award texts on docs.wto.org, robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "WTO Documents Online (docs.wto.org)",
+        "url": "https://docs.wto.org/",
+        "evidence": "fetched 2026-11-07: docs.wto.org robots.txt 'User-agent: * Disallow: /'",
+        "note": "missing part = award texts"
+      }
+    },
+    {
+      "name": "Arbitrators under DSU Art 25 (incl. MPIA appeal arbitration)",
+      "en": "Appeal arbitration under Art 25 / Multi-Party Interim Appeal Arbitration Arrangement",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "partly",
+      "via": "WTO dispute pages and dispute data files (www.wto.org)",
+      "note": "award outcome mentioned in case summaries only; award texts on docs.wto.org, robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "WTO Documents Online (docs.wto.org)",
+        "url": "https://docs.wto.org/",
+        "evidence": "fetched 2026-11-07: docs.wto.org robots.txt 'User-agent: * Disallow: /'",
+        "note": "missing part = award texts"
+      }
+    },
+    {
+      "name": "Compliance panels (DSU Art 21.5)",
+      "en": "Compliance panels",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "WTO dispute pages and dispute data files (www.wto.org)",
+      "note": "summary only; texts on docs.wto.org",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "WTO Documents Online (docs.wto.org)",
+        "url": "https://docs.wto.org/",
+        "evidence": "fetched 2026-11-07: docs.wto.org robots.txt 'User-agent: * Disallow: /'",
+        "note": "missing part = compliance report texts"
+      }
+    },
+    {
+      "name": "GATT 1947 panels (pre-1995)",
+      "en": "GATT-era dispute panels",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "GATT-era disputes in gatt-disputes.wto.org; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "GATT disputes database (WTO), gatt-disputes.wto.org",
+        "url": "https://gatt-disputes.wto.org/",
+        "evidence": "fetched 2026-11-07: HTTP 200, 'GATT disputes database (WTO)' with Disputes/Reports/Search, based on 'GATT disputes: 1948-1995' (2018)",
+        "note": "also wto.org list page gt47ds_e.htm links some report PDFs on wto.org and the Stanford GATT archive; robots.txt of gatt-disputes not fully read"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Marrakesh Agreement Establishing the WTO",
+      "en": "WTO Agreement",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "agreement texts not built; only cited agreements listed per dispute",
+      "elsewhere": {
+        "status": "available",
+        "source": "WTO legal texts (wto.org/english/docs_e/legal_e)",
+        "url": "https://www.wto.org/english/docs_e/legal_e/final_e.htm",
+        "evidence": "fetched 2026-11-07: final_e.htm lists agreements, 04-wto.pdf HTTP 200; wto.org robots.txt allows /",
+        "note": "Marrakesh Agreement as PDF (04-wto.pdf)"
+      }
+    },
+    {
+      "name": "Multilateral Agreements on Trade in Goods (GATT 1994, SPS, TBT, Anti-Dumping, SCM, Safeguards, Agriculture, etc.)",
+      "en": "Annex 1A goods agreements",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built; cited agreements/articles appear as dispute metadata",
+      "elsewhere": {
+        "status": "available",
+        "source": "WTO legal texts (wto.org/english/docs_e/legal_e)",
+        "url": "https://www.wto.org/english/docs_e/legal_e/final_e.htm",
+        "evidence": "fetched 2026-11-07: final_e.htm lists agreements, 04-wto.pdf HTTP 200; wto.org robots.txt allows /",
+        "note": "Annex 1A agreements as per-agreement PDFs (05-anx1a.pdf, 06-gatt.pdf, ...)"
+      }
+    },
+    {
+      "name": "GATS, TRIPS",
+      "en": "Services and IP agreements (Annex 1B, 1C)",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "WTO legal texts (wto.org/english/docs_e/legal_e)",
+        "url": "https://www.wto.org/english/docs_e/legal_e/final_e.htm",
+        "evidence": "fetched 2026-11-07: final_e.htm lists agreements, 04-wto.pdf HTTP 200; wto.org robots.txt allows /",
+        "note": "GATS and TRIPS texts on the same page"
+      }
+    },
+    {
+      "name": "Dispute Settlement Understanding (DSU)",
+      "en": "Understanding on Rules and Procedures Governing the Settlement of Disputes",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "WTO legal texts (wto.org/english/docs_e/legal_e)",
+        "url": "https://www.wto.org/english/docs_e/legal_e/28-dsu_e.htm",
+        "evidence": "fetched 2026-11-07: final_e.htm lists agreements, 04-wto.pdf HTTP 200; wto.org robots.txt allows /",
+        "note": "DSU as HTML (28-dsu_e.htm, HTTP 200)"
+      }
+    },
+    {
+      "name": "Plurilateral agreements (GPA, Civil Aircraft)",
+      "en": "Annex 4 plurilateral agreements",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "WTO legal texts (wto.org/english/docs_e/legal_e)",
+        "url": "https://www.wto.org/english/tratop_e/gproc_e/gp_gpa_e.htm",
+        "evidence": "fetched 2026-11-07: final_e.htm lists agreements, 04-wto.pdf HTTP 200; wto.org robots.txt allows /",
+        "note": "GPA page on wto.org (gp_gpa_e.htm, HTTP 200); Civil Aircraft not checked"
+      }
+    },
+    {
+      "name": "Working Procedures for Appellate Review; Ministerial/General Council decisions",
+      "en": "Rules of procedure and decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built; WTO documents on docs.wto.org are robots-disallowed",
+      "elsewhere": {
+        "status": "available",
+        "source": "WTO legal texts (wto.org/english/docs_e/legal_e)",
+        "url": "https://www.wto.org/english/tratop_e/dispu_e/ab_e.htm",
+        "evidence": "fetched 2026-11-07: final_e.htm lists agreements, 04-wto.pdf HTTP 200; wto.org robots.txt allows /",
+        "note": "Working Procedures for Appellate Review on wto.org (ab_e.htm, HTTP 200); most GC/Ministerial decision texts are on docs.wto.org (robots Disallow: /)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "code": "bo",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.tsj.bo/"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Constitucional Plurinacional (TCP)",
+      "en": "Plurinational Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "API needs app-computed X-Hash headers plus a captcha (bot check); needs permission",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "TCP – Buscador de jurisprudencia",
+        "url": "https://buscador.tcpbolivia.bo",
+        "evidence": "research/bo.md",
+        "note": "API needs app-computed X-Hash headers and the app has a captcha (anti-automation)"
+      }
+    },
+    {
+      "name": "Tribunal Supremo de Justicia (TSJ)",
+      "en": "Supreme Court of Justice (ordinary jurisdiction)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "API needs a key hard-coded in the site's JS; needs the court's permission",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "TSJ – Génesis jurisprudencia",
+        "url": "https://genesis.tsj.bo",
+        "evidence": "research/bo.md",
+        "note": "API apigenesis.tsj.bo returns 401 without username/apikey hard-coded in the site's JS; using them would impersonate the official client"
+      }
+    },
+    {
+      "name": "Tribunal Agroambiental",
+      "en": "Agro-environmental Court (top court of that jurisdiction)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Tribunal Agroambiental – Buscador de Resoluciones (SISAGRO consultas)",
+      "note": "full text; source search returns at most 200 rows per query"
+    },
+    {
+      "name": "Tribunales Departamentales de Justicia – Salas Civiles y Comerciales",
+      "en": "Departmental courts (9): civil and commercial chambers",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no departmental-court sentencia search found; tsj.bo lists Tribunales Departamentales but shows only news and revistas jurisprudenciales)",
+        "note": "no departmental-court publication found; whether TSJ Génesis includes them not verified"
+      }
+    },
+    {
+      "name": "Tribunales Departamentales de Justicia – Salas de Familia, Niñez y Adolescencia",
+      "en": "Departmental courts (9): family, children and adolescents chambers",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no departmental-court sentencia search found; tsj.bo lists Tribunales Departamentales but shows only news and revistas jurisprudenciales)",
+        "note": "no departmental-court publication found; whether TSJ Génesis includes them not verified"
+      }
+    },
+    {
+      "name": "Tribunales Departamentales de Justicia – Salas Penales",
+      "en": "Departmental courts (9): criminal chambers",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no departmental-court sentencia search found; tsj.bo lists Tribunales Departamentales but shows only news and revistas jurisprudenciales)",
+        "note": "no departmental-court publication found; whether TSJ Génesis includes them not verified"
+      }
+    },
+    {
+      "name": "Tribunales Departamentales de Justicia – Salas en materia de Trabajo y Seguridad Social, Contenciosa y Contenciosa Administrativa",
+      "en": "Departmental courts (9): labour/social security and administrative chambers",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no departmental-court sentencia search found; tsj.bo lists Tribunales Departamentales but shows only news and revistas jurisprudenciales)",
+        "note": "no departmental-court publication found; whether TSJ Génesis includes them not verified"
+      }
+    },
+    {
+      "name": "Juzgados Públicos en materia Civil y Comercial",
+      "en": "Civil and commercial courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados Públicos de Familia",
+      "en": "Family courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados Públicos de la Niñez y Adolescencia",
+      "en": "Children and adolescents courts (incl. juvenile criminal)",
+      "tier": "first-instance",
+      "branch": "juvenile",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados de Trabajo y Seguridad Social",
+      "en": "Labour and social security courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados Administrativo, Coactivo Fiscal y Tributario",
+      "en": "Administrative, fiscal-enforcement and tax courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados de Instrucción Penal",
+      "en": "Criminal investigation (pre-trial) courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Tribunales de Sentencia Penal",
+      "en": "Collegiate criminal trial courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados de Sentencia Penal",
+      "en": "Single-judge criminal trial courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados y Tribunales Anticorrupción",
+      "en": "Anti-corruption investigation and trial courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados y Tribunales de Violencia contra las Mujeres",
+      "en": "Courts for violence against women (Law 348)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados de Ejecución Penal",
+      "en": "Criminal sentence-enforcement courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados Públicos Mixtos",
+      "en": "Mixed-jurisdiction courts in provincial towns",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07: no juzgado sentencia search found on tsj.bo/Órgano Judicial; a 2024 study used only TCP, TSJ and Tribunal Agroambiental)",
+        "note": "first-instance judgments not published online; none found"
+      }
+    },
+    {
+      "name": "Juzgados Agroambientales",
+      "en": "First-instance agro-environmental courts",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "Tribunal Agroambiental's buscador covers the tribunal's own resolutions; juzgados not verified"
+      }
+    },
+    {
+      "name": "Jurisdicción Indígena Originaria Campesina",
+      "en": "Indigenous original peasant jurisdiction",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "indigenous jurisdiction decisions are largely oral; no online source found"
+      }
+    },
+    {
+      "name": "Tribunal Supremo de Justicia Militar y tribunales militares",
+      "en": "Military justice (Supreme Military Court and military tribunals, under the Ministry of Defence)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-07 searches on Bolivian court publications found nothing on military justice)",
+        "note": "no online source found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Política del Estado (2009)",
+      "en": "Political Constitution of the State",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "LexiVox – Bolivian legislation (constitution, laws, decree-laws, codes; unofficial)",
+      "note": "full text 2026-11-10: Arts. 1–411 + 10 transitional, abrogating and final articles; UNOFFICIAL (LexiVox, GFDL); no amendment since 2009 known (unverified); official Gaceta did not resolve"
+    },
+    {
+      "name": "Leyes de la Asamblea Legislativa Plurinacional",
+      "en": "Laws of the Plurinational Legislative Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "LexiVox – Bolivian legislation (constitution, laws, decree-laws, codes; unofficial); Cámara de Diputados – Leyes Promulgadas (WP REST API), laws as promulgated",
+      "note": "LexiVox (unofficial) has laws up to Ley N° 1694 (7 Nov 2025); laws after that missing (recent ones for registered subscribers only), texts as published, not consolidated; Chamber register (official) Ley 1–~1512 as PDFs",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gaceta Oficial del Estado Plurinacional",
+        "url": "https://www.gacetaoficialdebolivia.gob.bo",
+        "evidence": "fetch failed 2026-11-07 (DNS ENOTFOUND)",
+        "note": "missing part: laws after Nov 2025, an official full-text source, and consolidated texts"
+      }
+    },
+    {
+      "name": "Leyes anteriores a 2010 (Congreso Nacional)",
+      "en": "Laws before 2010",
+      "level": "primary",
+      "reached": "partly",
+      "via": "LexiVox – Bolivian legislation (constitution, laws, decree-laws, codes; unofficial)",
+      "note": "LexiVox (unofficial) has laws back to 1825 plus decree-laws and codes (13,615 laws in total on 2026-11-10); completeness against the Gaceta not verifiable; not consolidated",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gaceta Oficial del Estado Plurinacional",
+        "url": "https://www.gacetaoficialdebolivia.gob.bo",
+        "evidence": "DNS failed 2026-11-07 and 2026-11-10",
+        "note": "missing part: an official source and consolidated texts"
+      }
+    },
+    {
+      "name": "Decretos Supremos",
+      "en": "Supreme decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "LexiVox – Bolivian legislation (constitution, laws, decree-laws, codes; unofficial)",
+      "note": "LexiVox (unofficial) search with type 'decreto supremo'; completeness not checked",
+      "elsewhere": {
+        "status": "available",
+        "source": "LexiVox",
+        "url": "https://www.lexivox.org/norms/BO-DS-29894.html",
+        "evidence": "fetched 2026-11-07: DS 29894 page answers 200 (1.4 MB)",
+        "note": "UNOFFICIAL: private database; completeness not checked; Gaceta Oficial (official) did not resolve"
+      }
+    },
+    {
+      "name": "Resoluciones Supremas / Resoluciones Ministeriales",
+      "en": "Supreme and ministerial resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Gaceta did not resolve",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gaceta Oficial del Estado Plurinacional",
+        "url": "https://www.gacetaoficialdebolivia.gob.bo",
+        "evidence": "fetch failed 2026-11-07 (DNS ENOTFOUND)",
+        "note": "not checked elsewhere"
+      }
+    },
+    {
+      "name": "Gaceta Oficial del Estado Plurinacional de Bolivia",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "name did not resolve from the local resolver (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gaceta Oficial del Estado Plurinacional",
+        "url": "https://www.gacetaoficialdebolivia.gob.bo",
+        "evidence": "fetch failed 2026-11-07 (DNS ENOTFOUND)",
+        "note": "name does not resolve from here (2026-11-06/07); retry from another network"
+      }
+    },
+    {
+      "name": "Estatutos autonómicos y leyes departamentales",
+      "en": "Departmental autonomy statutes and laws",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "departmental assemblies' sites not checked"
+      }
+    },
+    {
+      "name": "Cartas orgánicas y leyes municipales",
+      "en": "Municipal charters and laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "municipal sites not checked"
+      }
+    },
+    {
+      "name": "Tratados internacionales",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "Cancillería treaty register not checked"
+      }
+    }
+  ]
+}

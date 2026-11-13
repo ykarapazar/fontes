@@ -1,0 +1,199 @@
+{
+  "code": "itlos",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.itlos.org/en/main/the-tribunal/chambers/"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal (full bench)",
+      "en": "Tribunal (21 judges)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "case record and PDF links only; texts need the Registrar's written permission (ITLOS Reports)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: judgment/order/advisory opinion texts. PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    },
+    {
+      "name": "Seabed Disputes Chamber",
+      "en": "Seabed Disputes Chamber (incl. Advisory Opinion 2011)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "case record and PDF links only; texts need the Registrar's written permission (ITLOS Reports)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: Seabed Disputes Chamber texts. PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    },
+    {
+      "name": "Ad hoc chambers of the Seabed Disputes Chamber (Statute art. 36)",
+      "en": "Ad hoc chambers of the Seabed Disputes Chamber",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "none constituted so far as seen; any would be on the case list, record and PDF links only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: Seabed Disputes Chamber texts. PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    },
+    {
+      "name": "Chamber of Summary Procedure",
+      "en": "Chamber of Summary Procedure",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "case record and PDF links only; texts need the Registrar's written permission (ITLOS Reports)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: chamber texts. PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    },
+    {
+      "name": "Special chambers (art. 15(2) Statute)",
+      "en": "Special chambers formed at parties' request",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "case record and PDF links only; texts need the Registrar's written permission (ITLOS Reports)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: special chamber texts. PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    },
+    {
+      "name": "Chamber for Fisheries Disputes",
+      "en": "Standing Chamber for Fisheries Disputes",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "no case before them seen; any would be on the case list, record and PDF links only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: texts (if any case). PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    },
+    {
+      "name": "Chamber for Marine Environment Disputes",
+      "en": "Standing Chamber for Marine Environment Disputes",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "no case before them seen; any would be on the case list, record and PDF links only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: texts (if any case). PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    },
+    {
+      "name": "Chamber for Maritime Delimitation Disputes",
+      "en": "Standing Chamber for Maritime Delimitation Disputes",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "no case before them seen; any would be on the case list, record and PDF links only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: texts (if any case). PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "United Nations Convention on the Law of the Sea (UNCLOS)",
+      "en": "UNCLOS",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "UN DOALOS – UNCLOS text",
+        "url": "https://www.un.org/Depts/los/convention_agreements/convention_overview_convention.htm",
+        "evidence": "fetched 2026-11-07: ITLOS basic-texts page links UNCLOS to UN DOALOS",
+        "note": "Official UN text (PDF/HTML)."
+      }
+    },
+    {
+      "name": "Statute of the Tribunal (Annex VI UNCLOS)",
+      "en": "Statute",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "ITLOS website – Basic texts",
+        "url": "https://www.itlos.org/fileadmin/itlos/documents/basic_texts/statute_en.pdf",
+        "evidence": "fetched 2026-11-07: basic-texts page links statute_en.pdf",
+        "note": "PDF; Statute is UNCLOS Annex VI, not an ITLOS Report (permission clause targets Reports/Pleadings)."
+      }
+    },
+    {
+      "name": "Rules of the Tribunal",
+      "en": "Rules of the Tribunal",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "ITLOS website – Basic texts",
+        "url": "https://www.itlos.org/fileadmin/itlos/documents/basic_texts/ITLOS_8_25.03.21.pdf",
+        "evidence": "fetched 2026-11-07: basic-texts page links ITLOS/8 as amended 25 March 2021",
+        "note": "PDF."
+      }
+    },
+    {
+      "name": "Pleadings series",
+      "en": "Pleadings",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "ITLOS case pages (www.itlos.org)",
+      "note": "PDF links only; text needs Registrar's written permission",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "ITLOS website (www.itlos.org) – ITLOS Reports",
+        "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+        "evidence": "src/world_legal_mcp/jurisdictions/itlos.py (disclaimer read 2026-11-05); research/SIGNUPS.md",
+        "note": "Missing part: pleadings text (Pleadings series). PDFs download fine, but terms require Registrar's prior written permission to reproduce/store Reports texts."
+      }
+    }
+  ]
+}

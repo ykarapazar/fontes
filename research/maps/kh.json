@@ -1,0 +1,325 @@
+{
+  "code": "kh",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://eccc.gov.kh/en/about/cambodian-judiciary/supreme-court",
+    "https://eccc.gov.kh/en/about/cambodian-judiciary/courts-of-appeal",
+    "https://www.eccc.gov.kh/en/about/cambodian-judiciary/courts-of-first-instance"
+  ],
+  "courts": [
+    {
+      "name": "ក្រុមប្រឹក្សាធម្មនុញ្ញ",
+      "en": "Constitutional Council",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (ccc.gov.kh F5 firewall)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Constitutional Council of Cambodia (ccc.gov.kh)",
+        "url": "https://www.ccc.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "F5 firewall 'Request Rejected' even on robots.txt; needs the body to allow the User-Agent"
+      }
+    },
+    {
+      "name": "តុលាការកំពូល",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "PDFs mostly 404; the one that loaded was a scan with no text (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court of Cambodia (supremecourt.gov.kh)",
+        "url": "https://supremecourt.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "judgment lists exist but PDFs on asset.cambodia.gov.kh mostly 404; one loaded as a textless scan"
+      }
+    },
+    {
+      "name": "សាលាឧទ្ធរណ៍ (Phnom Penh + regional courts of appeal)",
+      "en": "Courts of Appeal (Phnom Penh; regional appeal courts opened 2019+)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no published decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "r2_c: no usable ordinary Cambodian case law found"
+      }
+    },
+    {
+      "name": "សាលាដំបូងរាជធានី-ខេត្ត (25)",
+      "en": "Capital and provincial courts of first instance (civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no published decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "r2_c: no usable ordinary Cambodian case law found"
+      }
+    },
+    {
+      "name": "Commercial chambers / Commercial Court (Law on Commercial Courts 2023, roll-out unverified)",
+      "en": "Commercial first instance",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no published decisions found; establishment status unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "r2_c: no usable ordinary Cambodian case law found"
+      }
+    },
+    {
+      "name": "Labour Court (provided by Labour Law 1997; not established)",
+      "en": "Labour Court (never set up; disputes go to the Arbitration Council and provincial courts)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "court not established",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "court not established; r2_c: no usable ordinary Cambodian case law found"
+      }
+    },
+    {
+      "name": "Juvenile chambers (Law on Juvenile Justice 2016)",
+      "en": "Juvenile justice chambers of first-instance courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no published decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "r2_c: no usable ordinary Cambodian case law found"
+      }
+    },
+    {
+      "name": "តុលាការយោធា",
+      "en": "Military Court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "no source found; not researched further"
+      }
+    },
+    {
+      "name": "ECCC Co-Investigating Judges and Pre-Trial Chamber",
+      "en": "ECCC investigating judges and Pre-Trial Chamber (closing orders, appeals on investigation)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (archive.eccc.gov.kh HTTP 500 treated as disallow; noindex); main-site case pages not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "ECCC main site case pages (eccc.gov.kh)",
+        "url": "https://www.eccc.gov.kh/en/cases/case-001",
+        "evidence": "research/chatgpt/validation-r2-c.md",
+        "note": "www.eccc.gov.kh robots has no rules; case pages link ~445 public PDFs (judgments mixed with filings), scans with OCR layer; only archive.eccc.gov.kh is the blocked host"
+      }
+    },
+    {
+      "name": "ECCC Trial Chamber",
+      "en": "ECCC Trial Chamber (first instance; Cases 001, 002)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (archive.eccc.gov.kh); main-site case pages not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "ECCC main site case pages (eccc.gov.kh)",
+        "url": "https://www.eccc.gov.kh/en/cases/case-001",
+        "evidence": "research/chatgpt/validation-r2-c.md",
+        "note": "www.eccc.gov.kh robots has no rules; case pages link ~445 public PDFs (judgments mixed with filings), scans with OCR layer; only archive.eccc.gov.kh is the blocked host"
+      }
+    },
+    {
+      "name": "ECCC Supreme Court Chamber (residual functions since 2023)",
+      "en": "ECCC Supreme Court Chamber (appeals)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows (archive.eccc.gov.kh); main-site case pages not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "ECCC main site case pages (eccc.gov.kh)",
+        "url": "https://www.eccc.gov.kh/en/cases/case-001",
+        "evidence": "research/chatgpt/validation-r2-c.md",
+        "note": "www.eccc.gov.kh robots has no rules; case pages link ~445 public PDFs (judgments mixed with filings), scans with OCR layer; only archive.eccc.gov.kh is the blocked host"
+      }
+    },
+    {
+      "name": "Arbitration Council (ក្រុមប្រឹក្សាអាជ្ញាកណ្តាល)",
+      "en": "Arbitration Council – statutory labour-dispute arbitration (quasi-judicial)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Arbitration Council Foundation – arbitral awards",
+        "url": "https://www.arbitrationcouncil.org/arbitral-decision/arbitral-award/",
+        "evidence": "fetched 2026-11-07: home page links 'Decisions', 'Orders', 'arbitral-award' and 'significant-cases'; robots.txt Crawl-delay 10, disallows only admin/system paths",
+        "note": "site run by the Arbitration Council Foundation (the Council's support body), Khmer/English awards; terms not read"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "រដ្ឋធម្មនុញ្ញ",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Council for the Development of Cambodia (CDC): Laws and Regulations",
+      "note": "unofficial English, 1993 text without later amendments",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "រាជកិច្ច Royal Gazette (Office of the Council of Ministers, ocm.gov.kh)",
+        "url": "https://ocm.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "missing part = official Khmer text with amendments; Royal Gazette site: F5 firewall 'Request Rejected' even on robots.txt; needs the body to allow the User-Agent"
+      }
+    },
+    {
+      "name": "ច្បាប់ / ក្រម",
+      "en": "Laws and Codes",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Council for the Development of Cambodia (CDC): Laws and Regulations",
+      "note": "~180 CDC-selected documents, mostly unofficial English; official Khmer: scans/legacy fonts, no text",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "រាជកិច្ច Royal Gazette (Office of the Council of Ministers, ocm.gov.kh)",
+        "url": "https://ocm.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "missing part = official Khmer texts and laws CDC doesn't list; Royal Gazette: F5 firewall 'Request Rejected' even on robots.txt; needs the body to allow the User-Agent. nac.org.kh lists laws but PDFs are scans/legacy fonts"
+      }
+    },
+    {
+      "name": "ព្រះរាជក្រឹត្យ / ព្រះរាជក្រម",
+      "en": "Royal decrees (Kret) / Royal Kram",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Council for the Development of Cambodia (CDC): Laws and Regulations",
+      "note": "only those the CDC lists",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "រាជកិច្ច Royal Gazette (Office of the Council of Ministers, ocm.gov.kh)",
+        "url": "https://ocm.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "missing part = decrees CDC doesn't list; F5 firewall 'Request Rejected' even on robots.txt; needs the body to allow the User-Agent"
+      }
+    },
+    {
+      "name": "អនុក្រឹត្យ",
+      "en": "Sub-decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Council for the Development of Cambodia (CDC): Laws and Regulations",
+      "note": "only those the CDC lists",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "រាជកិច្ច Royal Gazette (Office of the Council of Ministers, ocm.gov.kh)",
+        "url": "https://ocm.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "missing part = sub-decrees CDC doesn't list; F5 firewall 'Request Rejected' even on robots.txt; needs the body to allow the User-Agent"
+      }
+    },
+    {
+      "name": "ប្រកាស",
+      "en": "Prakas (ministerial regulations)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Council for the Development of Cambodia (CDC): Laws and Regulations",
+      "note": "only those the CDC lists",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "រាជកិច្ច Royal Gazette (Office of the Council of Ministers, ocm.gov.kh)",
+        "url": "https://ocm.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "missing part = prakas CDC doesn't list; ministry sites: moj.gov.kh F5, mef.gov.kh Cloudflare challenge, moc.gov.kh 403"
+      }
+    },
+    {
+      "name": "រាជកិច្ច",
+      "en": "Royal Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (ocm.gov.kh F5 'Request Rejected')",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "រាជកិច្ច Royal Gazette (Office of the Council of Ministers, ocm.gov.kh)",
+        "url": "https://ocm.gov.kh/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kh.py docstring; research/SIGNUPS.md",
+        "note": "F5 firewall 'Request Rejected' even on robots.txt; needs the body to allow the User-Agent"
+      }
+    },
+    {
+      "name": "ដីកា / សេចក្តីសម្រេចរាជធានី-ខេត្ត",
+      "en": "Provincial/municipal deka and decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not researched; no source found"
+      }
+    },
+    {
+      "name": "សន្ធិសញ្ញា",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not researched; ratifications likely in the Royal Gazette (blocked), unverified"
+      }
+    }
+  ]
+}

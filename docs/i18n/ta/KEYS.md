@@ -1,0 +1,146 @@
+> இது இயந்திர உதவியுடன் செய்யப்பட்ட மொழிபெயர்ப்பு. ஆங்கிலப் பதிப்பே அதிகாரப்பூர்வமானது.
+
+# API விசைகள்
+
+Fontes-இல் உள்ள கிட்டத்தட்ட ஒவ்வொரு மூலமும் விசை இல்லாமலே செயல்படுகிறது. இரண்டுக்கு மட்டும் இலவச விசை தேவை:
+
+| விசை | திறப்பது | விசை இல்லையெனில் |
+|---|---|---|
+| `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | பிரான்ஸ்: Judilibre (நீதிமன்றத் தீர்ப்புகள்) மற்றும் Légifrance (சட்டவாக்கம்) | பிரான்ஸ் முடக்கத்தில் இருக்கும். `list_jurisdictions` அதைச் செயலற்றது எனக் காட்டும். |
+| `WLM_US_GOVINFO_KEY` | அமெரிக்கா: govinfo தேடல் (கூட்டாட்சி நீதிமன்றக் கருத்துரைகள் (federal court opinions), Statutes at Large, public laws) | Fontes பகிரப்பட்ட `DEMO_KEY`-ஐப் பயன்படுத்துகிறது: ஓர் IP முகவரிக்கு நாளொன்றுக்குச் சுமார் 10 தேடல்கள். ஏற்கெனவே தெரிந்த ஒரு தீர்ப்பைத் திறப்பதற்கும் US Code-க்கும் விசை தேவையில்லை. |
+
+விசைகள் விருப்பத்தேர்வானவை. அவற்றைப் பின்னர் சேர்க்கலாம்.
+
+## விசையைச் சேர்த்தல்
+
+**நிறுவி மூலம்.** நிறுவும்போது, விசைகளைச் சேர்க்க விரும்புகிறீர்களா என்று நிறுவி கேட்கும். தவிர்க்க
+**Not now** (இப்போது வேண்டாம்) என்பதைத் தேர்ந்தெடுக்கவும் (அல்லது Enter அழுத்தவும்). பின்னர் விசைகளைச் சேர்க்க அல்லது மாற்ற, **Add or change keys** என்பதை இயக்கவும்:
+
+- Mac: Fontes Installer செயலியை மீண்டும் திறந்து **Add or change keys** என்பதைத் தேர்ந்தெடுக்கவும், அல்லது நிறுவி
+  கோப்புறையில் உள்ள `Add or change keys.command`-ஐ இருமுறை சொடுக்கவும்.
+- Windows: நிறுவி கோப்புறையில் உள்ள `Add or change keys.cmd`-ஐ இருமுறை சொடுக்கவும். Windows அமைவு
+  நிரல் (setup program) கிடைக்கும்போது, அதுவும் இதை Start menu > Fontes-இல் வைக்கும்.
+
+தட்டச்சு செய்வது மறைக்கப்படும். ஒவ்வொரு விசைக்கும்: அதை ஒட்டவும், ஏற்கெனவே உள்ளதை வைத்திருக்க Enter அழுத்தவும், அல்லது
+நீக்க `-` என்று தட்டச்சு செய்யவும். Fontes ஏற்கெனவே உள்ள ஒவ்வொரு செயலியிலும் விசைகள் சேர்க்கப்படும்.
+
+**Claude Desktop நீட்டிப்பு (.mcpb) மூலம்.** Claude > Settings > Extensions > Fontes-ஐத் திறந்து
+புலங்களை நிரப்பவும். அவை அனைத்தும் விருப்பத்தேர்வானவை.
+
+**கையால்.** உங்கள் செயலியின் MCP அமைப்பில் உள்ள `fontes` பதிவின் `env` தொகுதியில் மாறிகளைச் சேர்க்கவும்:
+
+```json
+"fontes": {
+  "command": "...",
+  "args": ["..."],
+  "env": { "WLM_US_GOVINFO_KEY": "your-key" }
+}
+```
+
+எந்த மாற்றத்துக்குப் பிறகும் செயலியை மறுதொடக்கம் செய்யவும்.
+
+## பிரான்ஸ்: PISTE (இலவசம்)
+
+1. [piste.gouv.fr](https://piste.gouv.fr)-இல் ஒரு கணக்கை உருவாக்கவும். இதன் பொருள் PISTE நிபந்தனைகளை (CGU) ஏற்றுக்கொள்வது.
+2. API > **Consentement CGU API**-க்குச் செல்லவும். **JUDILIBRE** மற்றும் **Légifrance** (production) ஆகியவற்றுக்கான நிபந்தனைகளை ஏற்றுக்கொள்ளவும்.
+3. ஒரு **production application**-ஐ உருவாக்கவும். உங்களுக்காக உருவாக்கப்பட்ட `APP_SANDBOX` production-ஐ அணுக முடியாது.
+   "Modifier l'application" என்பதன் கீழ், **JUDILIBRE (production)** மற்றும் **Légifrance (production)** ஆகியவற்றைத் தேர்வுசெய்து, பின்னர் apply செய்யவும்.
+4. அந்தச் செயலியின் **Authentification** தாவலைத் திறக்கவும். `client_id`, `client_secret` இரண்டையும் நகலெடுக்கவும்.
+5. **Add or change keys**-ஐ இயக்கி அவற்றை ஒட்டவும்.
+
+நிபந்தனைகள், சுருக்கமாக:
+
+- தரவு: Licence Ouverte / Etalab 2.0. மூலத்தைக் குறிப்பிடுவதுடன் (attribution), வணிக மறுபயன்பாடு உட்பட மறுபயன்பாடு அனுமதிக்கப்படுகிறது.
+- உங்கள் நற்சான்றுகளை (credentials) வெளியிடவோ பகிரவோ வேண்டாம். அவை கசிந்தால் PISTE-க்குத் தெரிவிக்கவும்.
+- Légifrance API ஒரு beta சேவை. அது இடைநிறுத்தப்படலாம், மேலும் அதற்கு ஒதுக்கீட்டு வரம்புகள் (quotas) உள்ளன (வினாடி, நிமிடம், நாள் அடிப்படையில்).
+- Légifrance உரைகள் மூலமான (authentic) பதிப்பு அல்ல. கையொப்பமிடப்பட்ட Journal officiel PDF மட்டுமே மூலமானது.
+- Judilibre: நீதிபதிகள் அல்லது நீதிமன்ற எழுத்தர்களின் பெயர்களைப் பயன்படுத்தி அவர்களின் பணியை மதிப்பிடவோ, ஒப்பிடவோ, கணிக்கவோ
+  வேண்டாம் (Code de l'organisation judiciaire art. L111-13; இது ஒரு குற்றம்).
+- Judilibre: GDPR-ஐப் பின்பற்றவும். தரப்பினரை மீண்டும் அடையாளம் காண முயல வேண்டாம்.
+
+உங்கள் ஒதுக்கீட்டு வரம்புகள் PISTE-இல் API Sélectionnées > Actions > Consulter les quotas என்பதன் கீழ் உள்ளன.
+
+## அமெரிக்கா: api.data.gov (இலவசம்)
+
+1. [govinfo.gov/api-signup](https://www.govinfo.gov/api-signup) (விசை திரையில் காட்டப்படும்)
+   அல்லது [api.data.gov/signup](https://api.data.gov/signup/) (விசை உங்களுக்கு மின்னஞ்சலில் அனுப்பப்படும்) என்பதற்குச் செல்லவும்.
+2. உங்கள் பெயரையும் மின்னஞ்சலையும் உள்ளிடவும். "how will you use it" புலம் விருப்பத்தேர்வானது.
+3. 40 எழுத்துகள் கொண்ட விசையை நகலெடுக்கவும்.
+4. **Add or change keys**-ஐ இயக்கி, அதை US விசையாக ஒட்டவும்.
+
+நிபந்தனைகள், சுருக்கமாக:
+
+- உங்கள் சொந்த விசையுடன், govinfo ஒரு மணி நேரத்துக்கு 36,000 கோரிக்கைகள் வரை அனுமதிக்கிறது.
+- API-க்கு மட்டுமான சேவை நிபந்தனைகள் எதையும் நாங்கள் காணவில்லை (api.data.gov/terms/ இல்லை). சரிபார்க்கப்படவில்லை.
+  [govinfo-இன் கொள்கைகள்](https://www.govinfo.gov/about/policies) மற்றும்
+  [data.gov தனியுரிமைக் கொள்கை](https://data.gov/privacy-policy/) ஆகியவற்றைப் பார்க்கவும்.
+- விசையை உங்களிடமே வைத்திருங்கள்.
+
+## விசைகள் எங்கே சேமிக்கப்படுகின்றன
+
+- **நிறுவி மூலம் அல்லது கையால்:** ஒவ்வொரு செயலியின் MCP அமைப்புக் கோப்பிலும், `fontes` பதிவின் `env` தொகுதியில்,
+  சாதாரண உரையாக (plain text). உங்கள் பயனர் கோப்புகளைப் படிக்கக்கூடிய எவரும் விசைகளைப் படிக்கலாம்.
+  - Claude Desktop: `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac),
+    `%APPDATA%\Claude\claude_desktop_config.json` (Windows)
+  - Claude Code: `~/.claude.json`
+  - Codex: `~/.codex/config.toml`
+  - Cursor: `~/.cursor/mcp.json`
+  - VS Code (Copilot): `~/.copilot/mcp-config.json`
+  - Windsurf: `~/.config/devin/mcp_config.json` அல்லது `~/.codeium/windsurf/mcp_config.json`
+    (Windows: `%APPDATA%\devin\mcp_config.json`)
+  - Gemini CLI: `~/.gemini/settings.json`
+  - Zed: `~/.config/zed/settings.json` (Windows: `%APPDATA%\Zed\settings.json`)
+  - LM Studio: `~/.lmstudio/mcp.json`
+  - Cline: `~/.cline/data/settings/cline_mcp_settings.json`
+- **Claude Desktop நீட்டிப்பு (.mcpb):** Claude இந்தப் புலங்களைத் தன் அமைப்புகளில் வைத்து, உங்கள் கணினியின்
+  பாதுகாப்பான சேமிப்பகத்தைக் கொண்டு (Mac-இல் Keychain, Windows-இல் Credential Manager) அவற்றைப் பாதுகாக்கிறது.
+
+ஒவ்வொரு மாற்றத்துக்கும் முன், நிறுவி அமைப்புக் கோப்பின் நகலை அதன் அருகிலேயே சேமிக்கிறது
+(`<file>.fontes-backup-<time>`). நீங்கள் விசைகளைச் சேர்த்த பிறகு உருவான நகல்களிலும் விசைகள் இருக்கும். உங்களுக்குத் தேவையில்லாத
+பழைய நகல்களை நீக்கவும்.
+
+## விசையை மாற்றுதல் அல்லது நீக்குதல்
+
+- **Add or change keys**-ஐ இயக்கவும். மாற்றுவதற்குப் புதிய விசையை ஒட்டவும், அல்லது நீக்க `-` என்று தட்டச்சு செய்யவும்.
+- அல்லது `env` தொகுதியைக் கையால் திருத்தி, செயலியை மறுதொடக்கம் செய்யவும்.
+- Fontes-ஐ நிறுவல் நீக்குவது, விசைகள் உட்பட அதன் முழுப் பதிவையும் நீக்குகிறது. அது காப்பு நகல்களை நீக்காது.
+- ஒரு விசை கசிந்தால், அதை மூலத்திலும் மாற்றவும்: PISTE-இல், உங்கள் செயலிக்குப் புதிய நற்சான்றுகளை உருவாக்கவும்;
+  api.data.gov-க்கு, புதிய விசைக்குப் பதிவு செய்யவும்.
+
+## நீங்கள் காணக்கூடிய செய்திகள்
+
+| செய்தி | பொருள் |
+|---|---|
+| `France needs a free PISTE key: set WLM_FR_PISTE_CLIENT_ID and WLM_FR_PISTE_CLIENT_SECRET.` | பிரான்ஸ் விசை இல்லை. ஒன்றைச் சேர்க்கவும். |
+| `Inactive: needs a free PISTE account. ...` (`list_jurisdictions`-இல்) | மேலே உள்ளதே. |
+| `PISTE refused the client credentials ...` | ID அல்லது secret தவறானது அல்லது இனி செல்லுபடியாகாது. இரண்டையும் Authentification தாவலிலிருந்து மீண்டும் நகலெடுக்கவும். |
+| `PISTE denied access to the ... API: subscribe the application to ... and accept its CGU on piste.gouv.fr.` | உங்கள் செயலி அந்த API-க்குச் சந்தா செய்யப்படவில்லை, அல்லது அதன் நிபந்தனைகளை நீங்கள் ஏற்கவில்லை. படிகள் 2, 3-ஐப் பார்க்கவும். |
+| `Using govinfo DEMO_KEY (about 10 searches/day per IP) ...` | US விசை இல்லை. நாளொன்றுக்குச் சில அழைப்புகளுக்குத் தேடல் வேலை செய்யும். |
+| `govinfo rate limit reached (Retry-After ...). DEMO_KEY allows only about 10 searches a day per IP ...` | demo விசை தீர்ந்துவிட்டது. உங்கள் சொந்த விசையைச் சேர்க்கவும். |
+| `govinfo refused the API key (WLM_US_GOVINFO_KEY).` | விசை தவறானது, அல்லது மின்னஞ்சலிலிருந்து இன்னும் உறுதிப்படுத்தப்படவில்லை. |
+
+வெற்று மதிப்பு, விசை இல்லை என்றே கணக்கிடப்படும்.
+
+## அனுமதிகள் (WLM_PERMITTED)
+
+இது API விசை அல்ல, நிறுவியும் இதை அமைப்பதில்லை. **அந்த அனுமதி உங்களிடமே இருந்தால் மட்டுமே இதை
+அமைக்கவும்.**
+
+சில மூலங்கள் இயல்பாக முடக்கப்பட்டுள்ளன, ஏனெனில் அவற்றின் நிபந்தனைகள் அல்லது robots.txt அனுமதியின்றித் தானியங்கிப் பயன்பாட்டைத்
+தடைசெய்கின்றன. வெளியீட்டாளரிடமிருந்து உங்களுக்கு அனுமதி இருந்தால், ஒரு மூலத்தின் குறியீட்டை `env` தொகுதியில் உள்ள
+`WLM_PERMITTED`-இல் காற்புள்ளியால் பிரித்துச் சேர்த்து அதை இயக்கவும்: `"WLM_PERMITTED": "in,de"`.
+
+| குறியீடு | மூலம் |
+|---|---|
+| `az` | அஜர்பைஜான்: e-qanun.az (Ministry of Justice) |
+| `bh` | பஹ்ரைன்: Legislation and Legal Opinion Commission (lloc.gov.bh) |
+| `co` | கொலம்பியா: Función Pública, Gestor Normativo (ஒருங்கிணைக்கப்பட்ட சட்டவாக்கம்) |
+| `de` | ஜெர்மனி: NeuRIS (கூட்டாட்சிச் சட்டத் தகவல் தளம், சோதனைச் சேவை) |
+| `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
+| `gr` | கிரீஸ்: National Printing Office, Government Gazette தேடல் (search.et.gr) |
+| `in` | இந்தியா: India Code (indiacode.gov.in) |
+| `mu` | மொரிஷியஸ்: Supreme Court (supremecourt.govmu.org) |
+| `sg` | சிங்கப்பூர்: நீதிமன்றத் தீர்ப்புகள் (elitigation.sg) |
+
+அனுமதி இல்லாமல், Fontes இப்படிக் கூறும்: `Off by default (<code>): the terms or robots.txt of ... forbid
+automated use without the operator's permission.`

@@ -1,0 +1,515 @@
+{
+  "code": "eg",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "المحكمة الدستورية العليا",
+      "en": "Supreme Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "المحكمة الدستورية العليا – Supreme Constitutional Court portal (judgments, full text)",
+      "note": "source caps ~25 rulings per query; older ones only by exact number lookup",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Constitutional Court portal",
+        "url": "https://www.sccourt.gov.eg/newportal",
+        "evidence": "used by Fontes eg adapter (src/world_legal_mcp/jurisdictions/eg.py)",
+        "note": "missing part: text search caps ~25 hits; older rulings only by exact number; no other official full set known"
+      }
+    },
+    {
+      "name": "محكمة النقض – الدوائر المدنية والتجارية والأحوال الشخصية",
+      "en": "Court of Cassation – civil, commercial and personal-status circuits",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "policy bans automated extraction (الاستخراج الآلى) and is paid",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Court of Cassation portal (محكمة النقض)",
+        "url": "https://www.cc.gov.eg",
+        "evidence": "used by eg adapter notes (src/world_legal_mcp/jurisdictions/eg.py); research/SIGNUPS.md",
+        "note": "paid personal subscription; policy bans automated extraction ('يُحظر الاستخراج الآلى'); robots disallows /legal/GetJudgment*"
+      }
+    },
+    {
+      "name": "محكمة النقض – الدوائر الجنائية",
+      "en": "Court of Cassation – criminal circuits",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "policy bans automated extraction (الاستخراج الآلى) and is paid",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Court of Cassation portal (محكمة النقض)",
+        "url": "https://www.cc.gov.eg",
+        "evidence": "used by eg adapter notes (src/world_legal_mcp/jurisdictions/eg.py); research/SIGNUPS.md",
+        "note": "paid personal subscription; policy bans automated extraction ('يُحظر الاستخراج الآلى'); robots disallows /legal/GetJudgment*"
+      }
+    },
+    {
+      "name": "محكمة النقض – الهيئتان العامتان للمواد المدنية والجنائية",
+      "en": "Court of Cassation – General Assemblies (civil / criminal; resolve conflicting precedent)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "policy bans automated extraction (الاستخراج الآلى) and is paid",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Court of Cassation portal (محكمة النقض)",
+        "url": "https://www.cc.gov.eg",
+        "evidence": "used by eg adapter notes (src/world_legal_mcp/jurisdictions/eg.py); research/SIGNUPS.md",
+        "note": "paid personal subscription; policy bans automated extraction ('يُحظر الاستخراج الآلى'); robots disallows /legal/GetJudgment*"
+      }
+    },
+    {
+      "name": "محاكم الاستئناف (الدوائر المدنية)",
+      "en": "Courts of Appeal – civil and commercial circuits (~9 appeal courts)",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official appeal-court database known"
+      }
+    },
+    {
+      "name": "محاكم الجنايات المستأنفة",
+      "en": "Felony appeal courts (at the Courts of Appeal; introduced 2014)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official database known"
+      }
+    },
+    {
+      "name": "محاكم الجنايات",
+      "en": "Felony (criminal) courts, first instance for felonies (circuits of the Courts of Appeal)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official database known"
+      }
+    },
+    {
+      "name": "المحاكم الابتدائية (الكلية)",
+      "en": "Primary (plenary) courts – civil first instance and appellate circuits for summary-court judgments",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official first-instance database known"
+      }
+    },
+    {
+      "name": "محاكم الجنح المستأنفة",
+      "en": "Misdemeanour appeal circuits (at the primary courts)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official database known"
+      }
+    },
+    {
+      "name": "المحاكم الجزئية",
+      "en": "Summary (district) courts – minor civil claims",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official database known"
+      }
+    },
+    {
+      "name": "محاكم الجنح والمخالفات",
+      "en": "Misdemeanour and contravention courts (summary-court criminal circuits)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official database known"
+      }
+    },
+    {
+      "name": "المحاكم الاقتصادية – الدوائر الابتدائية",
+      "en": "Economic courts – primary circuits (8 economic courts)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official economic-court database found"
+      }
+    },
+    {
+      "name": "المحاكم الاقتصادية – الدوائر الاستئنافية",
+      "en": "Economic courts – appellate circuits",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "no official economic-court database found"
+      }
+    },
+    {
+      "name": "محاكم الأسرة",
+      "en": "Family courts (personal status; at summary/primary level)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "family judgments believed unpublished (privacy)"
+      }
+    },
+    {
+      "name": "دوائر استئناف الأسرة",
+      "en": "Family appeal circuits (at the Courts of Appeal)",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "believed unpublished (privacy)"
+      }
+    },
+    {
+      "name": "محاكم الطفل",
+      "en": "Child (juvenile) courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "juvenile judgments believed unpublished (privacy)"
+      }
+    },
+    {
+      "name": "المحاكم العمالية",
+      "en": "Labour courts (specialised labour circuits; Labour Law No. 14 of 2025, establishment unverified)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "existence and publication unverified"
+      }
+    },
+    {
+      "name": "محاكم أمن الدولة طوارئ",
+      "en": "Emergency State Security Courts (state of emergency lifted Oct 2021; pending cases continued)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only: 2026-11-07 Arabic search for official publication of Egyptian appeal/economic/lower-court judgments found none (only Manshurat legislation pages)",
+        "note": "decisions not subject to appeal; believed unpublished"
+      }
+    },
+    {
+      "name": "مجلس الدولة – المحكمة الإدارية العليا",
+      "en": "Council of State – Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "UNOFFICIAL: Manshurat (AUC Law and Society Research Unit)",
+        "url": "https://manshurat.org/taxonomy/term/696",
+        "evidence": "search result only; Manshurat itself validated in research/chatgpt/validation-africa.md",
+        "note": "UNOFFICIAL: selected Supreme Administrative Court rulings; official Council of State site not reached (ssc.gov.eg did not connect 2026-11-07); Crawl-delay 10, /search/ disallowed"
+      }
+    },
+    {
+      "name": "مجلس الدولة – محكمة القضاء الإداري",
+      "en": "Council of State – Court of Administrative Justice",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Council of State (مجلس الدولة)",
+        "url": "",
+        "evidence": "fetched 2026-11-07: ssc.gov.eg did not connect",
+        "note": "no official database found; Manshurat has a few State Council rulings (unofficial)"
+      }
+    },
+    {
+      "name": "مجلس الدولة – المحاكم الإدارية",
+      "en": "Council of State – Administrative courts (lower-grade civil-servant disputes)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Council of State (مجلس الدولة)",
+        "url": "",
+        "evidence": "fetched 2026-11-07: ssc.gov.eg did not connect",
+        "note": "no official database found; Manshurat has a few State Council rulings (unofficial)"
+      }
+    },
+    {
+      "name": "مجلس الدولة – المحاكم التأديبية",
+      "en": "Council of State – Disciplinary courts (public employees)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Council of State (مجلس الدولة)",
+        "url": "",
+        "evidence": "fetched 2026-11-07: ssc.gov.eg did not connect",
+        "note": "no official database found; Manshurat has a few State Council rulings (unofficial)"
+      }
+    },
+    {
+      "name": "مجلس الدولة – الجمعية العمومية لقسمي الفتوى والتشريع",
+      "en": "Council of State – General Assembly of the Fatwa and Legislation Departments (binding opinions in inter-agency disputes)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Council of State (مجلس الدولة)",
+        "url": "",
+        "evidence": "fetched 2026-11-07: ssc.gov.eg did not connect",
+        "note": "no official database found; Manshurat has a few State Council rulings (unofficial)"
+      }
+    },
+    {
+      "name": "المحكمة العليا للطعون العسكرية",
+      "en": "Supreme Military Court of Appeals",
+      "tier": "apex",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "military judgments believed unpublished; not verified"
+      }
+    },
+    {
+      "name": "المحاكم العسكرية (جنايات وجنح)",
+      "en": "Military courts – felonies and misdemeanours (also try civilians in some cases)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "military judgments believed unpublished; not verified"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "الدستور",
+      "en": "Constitution (2014, amended 2019)",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "no free official source",
+      "elsewhere": {
+        "status": "available",
+        "source": "UNOFFICIAL: Manshurat (AUC Law and Society Research Unit)",
+        "url": "https://manshurat.org",
+        "evidence": "research/chatgpt/validation-africa.md",
+        "note": "UNOFFICIAL: constitutions in Arabic HTML; Crawl-delay 10; /search/ disallowed"
+      }
+    },
+    {
+      "name": "القوانين",
+      "en": "Laws of the House of Representatives",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "no free official source; Al-Amiria archive needs a paid account",
+      "elsewhere": {
+        "status": "available",
+        "source": "UNOFFICIAL: Manshurat (AUC Law and Society Research Unit)",
+        "url": "https://manshurat.org",
+        "evidence": "research/chatgpt/validation-africa.md",
+        "note": "UNOFFICIAL: laws, some HTML, some scanned-image PDFs, some not up to date; official Al-Amiria archive is paid; GAFI library has only 2 laws"
+      }
+    },
+    {
+      "name": "قرارات بقوانين / القرارات الجمهورية",
+      "en": "Presidential decree-laws and decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "no free official source",
+      "elsewhere": {
+        "status": "available",
+        "source": "UNOFFICIAL: Manshurat (AUC Law and Society Research Unit)",
+        "url": "https://manshurat.org",
+        "evidence": "research/chatgpt/validation-africa.md",
+        "note": "UNOFFICIAL: decree-laws/presidential decrees where held; coverage unverified"
+      }
+    },
+    {
+      "name": "اللوائح والقرارات الوزارية",
+      "en": "Executive regulations and ministerial decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "no free official source",
+      "elsewhere": {
+        "status": "available",
+        "source": "UNOFFICIAL: Manshurat (AUC Law and Society Research Unit)",
+        "url": "https://manshurat.org",
+        "evidence": "research/chatgpt/validation-africa.md",
+        "note": "UNOFFICIAL: some executive regulations; coverage unverified"
+      }
+    },
+    {
+      "name": "الجريدة الرسمية / الوقائع المصرية",
+      "en": "Official Gazette and its supplement",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Al-Amiria archive needs a paid account",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Al-Amiria (Official Gazette publisher)",
+        "url": "https://alamiria.com",
+        "evidence": "used by eg adapter notes (src/world_legal_mcp/jurisdictions/eg.py)",
+        "note": "archive needs a paid account"
+      }
+    },
+    {
+      "name": "المعاهدات الدولية",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "none",
+        "note": "treaties appear as presidential decrees in the gazette (paid); no free official treaty list found"
+      }
+    },
+    {
+      "name": "قرارات المحافظين",
+      "en": "Governorate decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Al-Waqa'i' al-Misriyya via Al-Amiria",
+        "url": "https://alamiria.com",
+        "evidence": "used by eg adapter notes (src/world_legal_mcp/jurisdictions/eg.py)",
+        "note": "governors' decisions appear in the Waqa'i supplement; archive is paid"
+      }
+    }
+  ]
+}

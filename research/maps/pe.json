@@ -1,0 +1,598 @@
+{
+  "code": "pe",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.pj.gob.pe/wps/wcm/connect/CorteSupremaPJ/s_Corte_Suprema/as_Conocenos/definiciones"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Constitucional",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Tribunal Constitucional – Consulta de causas and published resolutions",
+      "note": "search by case number or party"
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala Civil Permanente / Salas Civiles Transitorias",
+      "en": "Supreme Court – civil chambers",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. "
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala Penal Permanente / Salas Penales Transitorias",
+      "en": "Supreme Court – criminal chambers",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. "
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala Penal Especial de la Corte Suprema",
+      "en": "Supreme Court – special criminal chamber (high officials)",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. "
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Salas de Derecho Constitucional y Social (Permanente y Transitorias)",
+      "en": "Supreme Court – constitutional & social (labour, administrative) chambers",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. "
+      }
+    },
+    {
+      "name": "Corte Suprema – Plenos casatorios / Acuerdos plenarios",
+      "en": "Supreme Court plenary cassation rulings",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "binding precedents",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "El Peruano – busquedas.elperuano.pe",
+        "url": "https://busquedas.elperuano.pe/",
+        "evidence": "used by pe.py (legislation source); search result only for plenos (published in the gazette)",
+        "note": "Plenos casatorios are published in El Peruano; the adapter queries El Peruano for norms but does not serve these as case law. Unverified whether the search returns them."
+      }
+    },
+    {
+      "name": "Cortes Superiores de Justicia (35) – salas civiles",
+      "en": "Superior Courts – civil chambers",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. Superior-court coverage in that database unverified."
+      }
+    },
+    {
+      "name": "Cortes Superiores de Justicia (35) – salas penales de apelaciones",
+      "en": "Superior Courts – criminal appeal chambers",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. Superior-court coverage in that database unverified."
+      }
+    },
+    {
+      "name": "Cortes Superiores de Justicia (35) – salas laborales",
+      "en": "Superior Courts – labour chambers",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. Superior-court coverage in that database unverified."
+      }
+    },
+    {
+      "name": "Cortes Superiores de Justicia (35) – salas de familia",
+      "en": "Superior Courts – family chambers",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. Superior-court coverage in that database unverified."
+      }
+    },
+    {
+      "name": "Cortes Superiores de Justicia (35) – salas contencioso-administrativas",
+      "en": "Superior Courts – administrative chambers",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. Superior-court coverage in that database unverified."
+      }
+    },
+    {
+      "name": "Cortes Superiores de Justicia (35) – salas comerciales (Lima)",
+      "en": "Superior Courts – commercial chambers (Lima)",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. Superior-court coverage in that database unverified."
+      }
+    },
+    {
+      "name": "Cortes Superiores de Justicia (35) – salas mixtas",
+      "en": "Superior Courts – mixed chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. Superior-court coverage in that database unverified."
+      }
+    },
+    {
+      "name": "Corte Superior Nacional de Justicia Penal Especializada",
+      "en": "National Specialised Criminal Superior Court (organised crime, corruption, money laundering)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403 even to robots.txt. "
+      }
+    },
+    {
+      "name": "Juzgados Civiles",
+      "en": "Civil courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados Comerciales (Lima)",
+      "en": "Commercial courts",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados de Investigación Preparatoria",
+      "en": "Preliminary-investigation judges",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados Penales Unipersonales y Colegiados",
+      "en": "Criminal trial courts (single-judge and three-judge)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados de Trabajo",
+      "en": "Labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados de Familia",
+      "en": "Family courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados Contencioso-Administrativos",
+      "en": "Administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados Constitucionales",
+      "en": "Constitutional-process courts (amparo, habeas corpus at first instance)",
+      "tier": "first-instance",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados de Extinción de Dominio",
+      "en": "Asset-forfeiture courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados de Violencia contra las Mujeres e Integrantes del Grupo Familiar",
+      "en": "Family-violence courts (sistema nacional especializado)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados Mixtos",
+      "en": "Mixed courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "WAF 403; Jurisprudencia Nacional Sistematizada mainly holds Supreme/Superior Court rulings; first-instance coverage unverified. "
+      }
+    },
+    {
+      "name": "Juzgados de Paz Letrados",
+      "en": "Professional justices of the peace",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial: WAF 403",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial del Perú – Jurisprudencia Nacional Sistematizada",
+        "url": "https://jurisprudencia.pj.gob.pe/",
+        "evidence": "fetched 2026-11-07: HTTP 403 (WAF) from UK; also src/world_legal_mcp/jurisdictions/pe.py",
+        "note": "site blocked; whether these decisions are published at all unverified"
+      }
+    },
+    {
+      "name": "Juzgados de Paz",
+      "en": "Lay justices of the peace",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial: WAF 403",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "lay justices of the peace; no publication found"
+      }
+    },
+    {
+      "name": "Jurisdicción especial comunal (comunidades campesinas y nativas, rondas campesinas)",
+      "en": "Indigenous/peasant community jurisdiction (Const. art. 149)",
+      "tier": "specialised",
+      "branch": "customary",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Customary, oral; no publication."
+      }
+    },
+    {
+      "name": "Fuero Militar Policial",
+      "en": "Military-police jurisdiction",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Fuero Militar Policial",
+        "url": "https://www.fmp.gob.pe/",
+        "evidence": "fetched 2026-11-07: connection timed out",
+        "note": "not reachable from UK; publication unverified"
+      }
+    },
+    {
+      "name": "Jurado Nacional de Elecciones (Pleno)",
+      "en": "National Elections Jury",
+      "tier": "specialised",
+      "branch": "electoral",
+      "reached": "no",
+      "via": null,
+      "note": "final electoral jurisdiction (Const. art. 181)",
+      "elsewhere": {
+        "status": "available",
+        "source": "JNE – Consulta de resoluciones, acuerdos, oficios y autos",
+        "url": "https://resoluciones.jne.gob.pe/",
+        "evidence": "fetched 2026-11-10: search page by date, number, place, subject",
+        "note": "Official; robots.txt on portal.jne.gob.pe 404."
+      }
+    },
+    {
+      "name": "Tribunal Fiscal",
+      "en": "Tax Tribunal (MEF)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "administrative last instance in tax disputes; appeal to the courts",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Tribunal Fiscal – buscador de RTF",
+        "url": "https://apps4.mineco.gob.pe/ServiciosTF/nuevo_busq_rtf.htm",
+        "evidence": "fetched 2026-11-10: HTTP 403 Incapsula 'Request unsuccessful' (also on robots.txt)",
+        "note": "Imperva/Incapsula bot wall."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Política del Perú",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Congreso de la República – Constitución Política del Perú, edición oficial (consolidated)",
+      "note": "consolidated text, Congress official edition (May 2026), id \"constitucion\"; amended articles carry the pending/new wording in notes"
+    },
+    {
+      "name": "Leyes / Decretos Legislativos / Decretos de Urgencia",
+      "en": "Laws, legislative and emergency decrees",
+      "level": "primary",
+      "reached": "partly",
+      "via": "El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published",
+      "note": "as published in El Peruano, ~2009 onwards, not consolidated. Missing: laws before ~2009 and consolidated texts. Congress Archivo Digital (leyes.congreso.gob.pe, all laws since 1904) has them only as PDFs under robots.txt \"Disallow: /*.pdf$\" (ungrouped line above \"User-agent: *\"; honoured); SPIJ still unreachable 2026-11-10",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "SPIJ – Sistema Peruano de Información Jurídica (MINJUS)",
+        "url": "https://spij.minjus.gob.pe/",
+        "evidence": "fetched 2026-11-10: connect timeout (also 2026-11-06/07)",
+        "note": "missing part = consolidated texts and pre-2009 norms; Congress leyes.congreso.gob.pe robots.txt 'Disallow: /*.pdf$' (blocked for PDFs)"
+      }
+    },
+    {
+      "name": "Decretos Supremos / Resoluciones Ministeriales",
+      "en": "Supreme decrees, ministerial resolutions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published",
+      "note": "as published, ~2009 onwards",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "SPIJ – Sistema Peruano de Información Jurídica (MINJUS)",
+        "url": "https://spij.minjus.gob.pe/",
+        "evidence": "fetched 2026-11-07: connection timed out",
+        "note": "missing part = consolidated texts, pre-2009 norms"
+      }
+    },
+    {
+      "name": "Diario Oficial El Peruano",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published",
+      "note": "normas legales section, ~2009 onwards",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "missing part = pre-2009 issues; no other official archive checked"
+      }
+    },
+    {
+      "name": "Ordenanzas regionales",
+      "en": "Regional ordinances",
+      "level": "sub-national",
+      "reached": "partly",
+      "via": "El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published",
+      "note": "only if in El Peruano search; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "missing part = ordinances not in El Peruano's search; regional governments' own sites not checked"
+      }
+    },
+    {
+      "name": "Ordenanzas municipales",
+      "en": "Municipal ordinances",
+      "level": "local",
+      "reached": "partly",
+      "via": "El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published",
+      "note": "only if in El Peruano search; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "missing part = ordinances not in El Peruano's search; municipal sites not checked"
+      }
+    },
+    {
+      "name": "Tratados",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "Archivo Nacional de Tratados – Ministerio de Relaciones Exteriores: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Archivo Nacional de Tratados – Ministerio de Relaciones Exteriores",
+        "url": "https://apps.rree.gob.pe/portal/webtratados.nsf",
+        "evidence": "fetched 2026-11-07: page with 'Tratados Bilaterales', 'Tratados Multilaterales', keyword/theme advanced search",
+        "note": "IBM Domino XPages app with session ids; terms/robots not checked"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+ "data": {
+  "mevzuatList": [
+   {
+    "mevzuatId": "103689",
+    "mevzuatNo": 1136,
+    "mevzuatAdi": "AVUKATLIK KANUNU",
+    "mevzuatTur": {
+     "id": 1,
+     "name": "KANUN",
+     "description": "Kanunlar",
+     "maddeSonuRegex": ".*Bu.*Kanun.*hükümlerini.*yürütür\\."
+    },
+    "mevzuatTertip": 5,
+    "kayitTarihi": "2026-07-21T16:03:13.24",
+    "guncellemeTarihi": null,
+    "resmiGazeteTarihi": null,
+    "resmiGazeteSayisi": "13168",
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1136&MevzuatTur=1&MevzuatTertip=5",
+    "mukerrer": "HAYIR",
+    "ekler": null,
+    "gerekceId": null
+   },
+   {
+    "mevzuatId": "113616",
+    "mevzuatNo": 5780,
+    "mevzuatAdi": "TÜRKİYE BAROLAR BİRLİĞİ AVUKATLIK KANUNU YÖNETMELİĞİ",
+    "mevzuatTur": {
+     "id": 7,
+     "name": "KKY",
+     "description": "Kurum ve Kuruluş Yönetmelikleri",
+     "maddeSonuRegex": ".*Bu Yönetmelik hükümlerini.*yürütür\\."
+    },
+    "mevzuatTertip": 5,
+    "kayitTarihi": "2005-03-01T11:46:00",
+    "guncellemeTarihi": null,
+    "resmiGazeteTarihi": "2002-06-19T11:46:00",
+    "resmiGazeteSayisi": "24790",
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5780&MevzuatTur=7&MevzuatTertip=5",
+    "mukerrer": null,
+    "ekler": null,
+    "gerekceId": null
+   }
+  ],
+  "total": 2,
+  "start": 0
+ },
+ "metadata": {
+  "FMTY": "SUCCESS",
+  "FMC": "ADALET_SUCCESS",
+  "FMTE": "İşlem başarıyla gerçekleştirildi!",
+  "FMU": "İşlem başarıyla gerçekleştirildi!",
+  "PTID": null,
+  "TID": "60c274ca0561c7cd751c1edae3ff4341",
+  "SID": "a45912b5fb7ebdb6"
+ }
+}

@@ -1,0 +1,48 @@
+name: Bug report
+description: Fontes itself does not work (install, start-up, errors, crashes).
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public: do not include client details, search terms you want kept private, or API keys.
+        You can also ask Claude to "report a Fontes bug" or run `fontes report-bug`; you see the report before anything is sent.
+        A problem with one court or legislation source? Use "Broken or wrong source" instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: dropdown
+    id: install
+    attributes:
+      label: How you installed Fontes
+      options:
+        - Installer (macOS)
+        - Installer (Windows)
+        - Claude Desktop extension (.mcpb)
+        - uvx / uv tool
+        - From a checkout
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: App and operating system
+      placeholder: e.g. Claude Desktop on macOS 15
+  - type: input
+    id: version
+    attributes:
+      label: Fontes version (if you know it)
+  - type: textarea
+    id: log
+    attributes:
+      label: Error message or log
+      render: text

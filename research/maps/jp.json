@@ -1,0 +1,336 @@
+{
+  "code": "jp",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.courts.go.jp/english/judicial_sys/index.html",
+    "https://www.courts.go.jp/english/vc-files/courts-en/2024_Courts_in_Japan.pdf"
+  ],
+  "courts": [
+    {
+      "name": "最高裁判所",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可)"
+      }
+    },
+    {
+      "name": "高等裁判所 (8 + 6 支部)",
+      "en": "High Courts (civil, criminal, administrative appeals)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); high-court collection (高裁判例) selective"
+      }
+    },
+    {
+      "name": "知的財産高等裁判所",
+      "en": "Intellectual Property High Court (special branch of Tokyo High Court)",
+      "tier": "appeal",
+      "branch": "ip",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); IP collection (知的財産裁判例); IP High Court grand-panel static index also works (courts.go.jp/ip/hanrei/g_panel/)"
+      }
+    },
+    {
+      "name": "地方裁判所 (50, 203 支部) – 民事",
+      "en": "District Courts – civil (incl. commercial, insolvency)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); lower courts: selected decisions only"
+      }
+    },
+    {
+      "name": "地方裁判所 – 刑事 (incl. 裁判員裁判)",
+      "en": "District Courts – criminal (incl. lay-judge trials)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); lower courts: selected decisions only"
+      }
+    },
+    {
+      "name": "地方裁判所 – 行政事件",
+      "en": "District Courts – administrative cases",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); separate 行政事件裁判例 collection; selective"
+      }
+    },
+    {
+      "name": "地方裁判所 – 労働事件 (incl. 労働審判)",
+      "en": "District Courts – labour cases (incl. labour tribunal proceedings)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); separate 労働事件裁判例 collection (judgments); 労働審判 decisions are not published"
+      }
+    },
+    {
+      "name": "東京・大阪地方裁判所 知的財産権部",
+      "en": "District Court IP divisions (Tokyo, Osaka; exclusive patent jurisdiction)",
+      "tier": "first-instance",
+      "branch": "ip",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); IP collection (知的財産裁判例)"
+      }
+    },
+    {
+      "name": "家庭裁判所 (50) – 家事",
+      "en": "Family Courts – domestic relations (家事審判・調停)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); lower-court collection is selective, family-court decisions few (count unverified)"
+      }
+    },
+    {
+      "name": "家庭裁判所 – 少年",
+      "en": "Family Courts – juvenile cases",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); juvenile decisions very few (anonymised; count unverified)"
+      }
+    },
+    {
+      "name": "簡易裁判所 (438)",
+      "en": "Summary Courts (small claims, minor offences)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "裁判所 裁判例検索 (Courts in Japan, courts.go.jp)",
+        "url": "https://www.courts.go.jp/hanrei/search1/index.html",
+        "evidence": "fetched 2026-11-07: search1 still shows maintenance page; id route verified in research/chatgpt/validation-r2-a.md",
+        "note": "search down (maintenance); by-id route works: /hanrei/<id>/detail2/index.html + /assets/hanrei/hanrei-pdf-<id>.pdf (text PDFs). robots/policy allow; don't alter text (無断で改変不可); lower-court collection is selective, summary-court decisions few (count unverified)"
+      }
+    },
+    {
+      "name": "国税不服審判所",
+      "en": "National Tax Tribunal (administrative tax appeals)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "国税不服審判所 – 公表裁決事例",
+        "url": "https://www.kfs.go.jp/service/index.html",
+        "evidence": "fetched 2026-11-07: '裁決事例集' / '公表裁決事例' pages listed (Shift_JIS page, 200); robots.txt only disallows /other/delivery*",
+        "note": "selected published rulings since 1992 (公表裁決事例); since 2010 web-only"
+      }
+    },
+    {
+      "name": "労働委員会 (中央労働委員会 / 都道府県労働委員会)",
+      "en": "Labour Relations Commissions (unfair-labour-practice orders)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "中央労働委員会 – 労働委員会関係 命令・裁判例データベース",
+        "url": "https://www.mhlw.go.jp/churoi/meirei_db/index.html",
+        "evidence": "fetched 2026-11-07: database page lists 命令一覧 / 判例一覧 for central and prefectural commissions; mhlw robots.txt disallows only /cgi-bin/, /images/",
+        "note": "orders of central and prefectural commissions plus related court judgments"
+      }
+    },
+    {
+      "name": "海難審判所",
+      "en": "Japan Marine Accident Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "海難審判所 – 裁決の閲覧",
+        "url": "https://www.mlit.go.jp/jmat/index.htm",
+        "evidence": "fetched 2026-11-07: site menu '裁決の閲覧' (ruling viewer); mlit.go.jp robots.txt 404 (none)",
+        "note": "rulings (裁決) published; format/depth not checked"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "日本国憲法",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "e-Gov 法令検索 / 法令API Version 2 (Digital Agency)",
+      "note": "law_type Constitution"
+    },
+    {
+      "name": "法律",
+      "en": "Acts of the Diet",
+      "level": "primary",
+      "reached": "yes",
+      "via": "e-Gov 法令検索 / 法令API Version 2 (Digital Agency)",
+      "note": ""
+    },
+    {
+      "name": "政令 / 勅令",
+      "en": "Cabinet Orders / Imperial Ordinances",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "e-Gov 法令検索 / 法令API Version 2 (Digital Agency)",
+      "note": ""
+    },
+    {
+      "name": "府省令",
+      "en": "Ministerial Ordinances",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "e-Gov 法令検索 / 法令API Version 2 (Digital Agency)",
+      "note": ""
+    },
+    {
+      "name": "規則",
+      "en": "Rules (of independent agencies, courts, Diet houses)",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "e-Gov 法令検索 / 法令API Version 2 (Digital Agency)",
+      "note": ""
+    },
+    {
+      "name": "告示 / 通達",
+      "en": "Public notices / circulars",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not in e-Gov law types beyond 'Misc'; 告示 in Kanpō (free 90 days), 通達 on ministry sites",
+      "elsewhere": {
+        "status": "available",
+        "source": "官報 (Kanpō), National Printing Bureau",
+        "url": "https://www.kanpo.go.jp/",
+        "evidence": "fetched 2026-11-07: site says last 90 days free ('直近90日間は全て無料で閲覧できます')",
+        "note": "告示 published in Kanpō: free for 90 days; older search = paid 官報情報検索サービス. 通達 (internal circulars) are on each ministry's site, not centrally"
+      }
+    },
+    {
+      "name": "官報",
+      "en": "Official Gazette (Kanpō)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Kanpō online, free for latest 90 days only; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "官報 (Kanpō), National Printing Bureau",
+        "url": "https://www.kanpo.go.jp/",
+        "evidence": "fetched 2026-11-07: site says last 90 days free",
+        "note": "free for the latest 90 days only; keyword search and older issues via paid 官報情報検索サービス (blocked: paid)"
+      }
+    },
+    {
+      "name": "条例 / 規則 (地方公共団体)",
+      "en": "Local ordinances",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "each municipality runs its own 例規集 (often vendor-hosted); no national database checked"
+      }
+    },
+    {
+      "name": "条約",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "外務省 条約データ検索 (MOFA treaty data search)",
+        "url": "https://www3.mofa.go.jp/mofaj/gaiko/treaty/index.php",
+        "evidence": "search result only",
+        "note": "database exists (search results: current Diet-approved treaties, by keyword/subject/country) but fetch returned HTTP 403 on 2026-11-07; reason not established"
+      }
+    }
+  ]
+}

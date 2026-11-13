@@ -1,0 +1,200 @@
+{
+  "code": "mc",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.gouv.mc/gouvernement-et-institutions/les-institutions/la-justice/le-tribunal-supreme",
+    "https://legimonaco.mc/tnc/loi/2013/06-24-1.398/"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Suprême",
+      "en": "Supreme Court (constitutional and administrative)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": ""
+    },
+    {
+      "name": "Cour de révision",
+      "en": "Court of Revision (cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": ""
+    },
+    {
+      "name": "Cour d'appel",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": ""
+    },
+    {
+      "name": "Tribunal de première instance",
+      "en": "Court of First Instance (civil, commercial, administrative damages)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key tribunal-premiere-instance"
+    },
+    {
+      "name": "Tribunal correctionnel",
+      "en": "Correctional (misdemeanour) Court",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key tribunal-correctionnel"
+    },
+    {
+      "name": "Tribunal criminel",
+      "en": "Criminal Court (felonies, with jurors)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key tribunal-criminel"
+    },
+    {
+      "name": "Justice de paix",
+      "en": "Justice of the Peace (small civil claims)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key juge-paix"
+    },
+    {
+      "name": "Tribunal de simple police",
+      "en": "Police court (petty offences)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key tribunal-simple-police"
+    },
+    {
+      "name": "Tribunal du travail",
+      "en": "Labour Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key tribunal-travail"
+    },
+    {
+      "name": "Juge tutélaire",
+      "en": "Guardianship / juvenile judge",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key juge-tutelaire"
+    },
+    {
+      "name": "Commission arbitrale des loyers d'habitation",
+      "en": "Residential Rent Arbitration Commission",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key commission-arbitrale-loyers-habitation"
+    },
+    {
+      "name": "Commission arbitrale des loyers commerciaux",
+      "en": "Commercial Rent Arbitration Commission",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key commission-arbitrale-loyers-commerciaux"
+    },
+    {
+      "name": "Cour supérieure d'arbitrage",
+      "en": "Superior Arbitration Court (collective labour disputes)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "court key cour-superieure-arbitrage"
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": ""
+    },
+    {
+      "name": "Codes",
+      "en": "Codes",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "current consolidated version only"
+    },
+    {
+      "name": "Lois / Ordonnances-lois",
+      "en": "Laws / law-ordinances",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "current version only"
+    },
+    {
+      "name": "Ordonnances Souveraines",
+      "en": "Sovereign Ordinances",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": "current version only"
+    },
+    {
+      "name": "Arrêtés ministériels / directoriaux / Décisions",
+      "en": "Ministerial and directorial orders, decisions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": ""
+    },
+    {
+      "name": "Arrêtés municipaux",
+      "en": "Municipal orders",
+      "level": "local",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": ""
+    },
+    {
+      "name": "Journal de Monaco",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "HTML per item on journaldemonaco.gouv.mc",
+      "elsewhere": {
+        "status": "available",
+        "source": "Journal de Monaco (journaldemonaco.gouv.mc)",
+        "url": "https://journaldemonaco.gouv.mc/content/search",
+        "evidence": "fetched 2026-11-07: home page lists per-item HTML pages /Journaux/2026/Journal-8823/...; robots.txt disallows '/*.pdf$' and some named items only",
+        "note": "item-level HTML texts; PDFs disallowed. gouv.mc CGU reuse question in research/SIGNUPS.md may extend to this subdomain"
+      }
+    },
+    {
+      "name": "Traités et accords internationaux",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+      "note": ""
+    }
+  ]
+}

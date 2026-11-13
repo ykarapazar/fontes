@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:leg="http://www.legislation.gov.uk/namespaces/legislation" xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" xmlns:theme="http://www.legislation.gov.uk/namespaces/theme" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:parameters="http://a9.com/-/spec/opensearch/extensions/parameters/1.0/">
+			<id>http://www.legislation.gov.uk/title/legal%20services%20act/data.feed</id>
+			<link rel="self" type="application/atom+xml" href="http://www.legislation.gov.uk/title/legal%20services%20act/data.feed?results-count=5"/>
+			
+			<link rel="alternate" type="text/csv" href="http://www.legislation.gov.uk/title/legal%20services%20act/data.csv?results-count=5"/>
+			<updated>2026-10-26T23:59:59Z</updated>
+			<title>Search Results</title>
+			<openSearch:Query role="request" leg:type="all" leg:title="Legal Services Act"> </openSearch:Query>
+			<openSearch:itemsPerPage>5</openSearch:itemsPerPage>
+			<openSearch:startIndex>1</openSearch:startIndex>
+			<leg:page>1</leg:page>
+			<leg:morePages>12</leg:morePages>
+			<leg:facets>
+								
+								<leg:facetTypes><leg:facetType type="UnitedKingdomStatutoryInstrument" href="http://www.legislation.gov.uk/search/data.feed?type=uksi&amp;title=Legal%20Services%20Act&amp;results-count=5" value="77"/><leg:facetType type="ScottishStatutoryInstrument" href="http://www.legislation.gov.uk/search/data.feed?type=ssi&amp;title=Legal%20Services%20Act&amp;results-count=5" value="5"/><leg:facetType type="UnitedKingdomPublicGeneralAct" href="http://www.legislation.gov.uk/search/data.feed?type=ukpga&amp;title=Legal%20Services%20Act&amp;results-count=5" value="3"/><leg:facetType type="ScottishAct" href="http://www.legislation.gov.uk/search/data.feed?type=asp&amp;title=Legal%20Services%20Act&amp;results-count=5" value="2"/></leg:facetTypes>
+								<leg:facetYears><leg:facetYear year="2026" href="http://www.legislation.gov.uk/search/data.feed?year=2026&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="2025" href="http://www.legislation.gov.uk/search/data.feed?year=2025&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="2024" href="http://www.legislation.gov.uk/search/data.feed?year=2024&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="2020" href="http://www.legislation.gov.uk/search/data.feed?year=2020&amp;title=Legal%20Services%20Act&amp;results-count=5" total="3"/><leg:facetYear year="2019" href="http://www.legislation.gov.uk/search/data.feed?year=2019&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="2018" href="http://www.legislation.gov.uk/search/data.feed?year=2018&amp;title=Legal%20Services%20Act&amp;results-count=5" total="2"/><leg:facetYear year="2017" href="http://www.legislation.gov.uk/search/data.feed?year=2017&amp;title=Legal%20Services%20Act&amp;results-count=5" total="2"/><leg:facetYear year="2016" href="http://www.legislation.gov.uk/search/data.feed?year=2016&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="2015" href="http://www.legislation.gov.uk/search/data.feed?year=2015&amp;title=Legal%20Services%20Act&amp;results-count=5" total="3"/><leg:facetYear year="2014" href="http://www.legislation.gov.uk/search/data.feed?year=2014&amp;title=Legal%20Services%20Act&amp;results-count=5" total="12"/><leg:facetYear year="2012" href="http://www.legislation.gov.uk/search/data.feed?year=2012&amp;title=Legal%20Services%20Act&amp;results-count=5" total="5"/><leg:facetYear year="2011" href="http://www.legislation.gov.uk/search/data.feed?year=2011&amp;title=Legal%20Services%20Act&amp;results-count=5" total="12"/><leg:facetYear year="2010" href="http://www.legislation.gov.uk/search/data.feed?year=2010&amp;title=Legal%20Services%20Act&amp;results-count=5" total="7"/><leg:facetYear year="2009" href="http://www.legislation.gov.uk/search/data.feed?year=2009&amp;title=Legal%20Services%20Act&amp;results-count=5" total="8"/><leg:facetYear year="2008" href="http://www.legislation.gov.uk/search/data.feed?year=2008&amp;title=Legal%20Services%20Act&amp;results-count=5" total="10"/><leg:facetYear year="2007" href="http://www.legislation.gov.uk/search/data.feed?year=2007&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="2004" href="http://www.legislation.gov.uk/search/data.feed?year=2004&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="1998" href="http://www.legislation.gov.uk/search/data.feed?year=1998&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="1997" href="http://www.legislation.gov.uk/search/data.feed?year=1997&amp;title=Legal%20Services%20Act&amp;results-count=5" total="2"/><leg:facetYear year="1995" href="http://www.legislation.gov.uk/search/data.feed?year=1995&amp;title=Legal%20Services%20Act&amp;results-count=5" total="2"/><leg:facetYear year="1994" href="http://www.legislation.gov.uk/search/data.feed?year=1994&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="1993" href="http://www.legislation.gov.uk/search/data.feed?year=1993&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="1992" href="http://www.legislation.gov.uk/search/data.feed?year=1992&amp;title=Legal%20Services%20Act&amp;results-count=5" total="1"/><leg:facetYear year="1991" href="http://www.legislation.gov.uk/search/data.feed?year=1991&amp;title=Legal%20Services%20Act&amp;results-count=5" total="5"/><leg:facetYear year="1990" href="http://www.legislation.gov.uk/search/data.feed?year=1990&amp;title=Legal%20Services%20Act&amp;results-count=5" total="3"/></leg:facetYears>
+								<leg:facetHundreds/>
+								
+							</leg:facets>
+			<leg:title><leg:and><leg:term>Legal</leg:term><leg:term>Services</leg:term><leg:term>Act</leg:term></leg:and></leg:title>
+			
+			<link rel="first" type="application/atom+xml" href="http://www.legislation.gov.uk/title/legal%20services%20act/data.feed?results-count=5"/><link rel="next" type="application/atom+xml" href="http://www.legislation.gov.uk/title/legal%20services%20act/data.feed?results-count=5&amp;page=2"/><entry>
+			<id>http://www.legislation.gov.uk/id/asp/2025/8</id>
+			<title>Regulation of Legal Services (Scotland) Act 2025</title>
+			<link rel="self" href="http://www.legislation.gov.uk/id/asp/2025/8"/>
+			<link href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01"/>
+			<link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.xml" title="XML"/><link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.rdf" title="RDF/XML"/><link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.akn" title="AKN"/><link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.xht" title="HTML snippet"/><link rel="alternate" type="application/akn+xhtml" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.html" title="HTML5"/><link rel="alternate" type="text/html" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.htm" title="Website (XHTML) Default View"/><link rel="alternate" type="text/csv" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.csv" title="CSV"/><link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/asp/2025/8/2026-07-01/data.pdf" title="PDF"/>
+			<link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/asp/2025/8/contents" title="Table of Contents"/>
+			<author><name/></author>
+			<updated>2026-07-01T12:31:43Z</updated>
+			<published>2025-06-27T13:06:28.841551Z</published>
+			<ukm:DocumentMainType Value="ScottishAct"/><ukm:Year Value="2025"/><ukm:Number Value="8"/><ukm:ISBN Value="9780105904373"/><ukm:CreationDate Date="2025-06-27"/>
+			
+			
+			
+			<summary>An Act of the Scottish Parliament to make provision in relation to the regulation of legal services.</summary>
+		</entry><entry>
+			<id>http://www.legislation.gov.uk/id/asp/2010/16</id>
+			<title>Legal Services (Scotland) Act 2010</title>
+			<link rel="self" href="http://www.legislation.gov.uk/id/asp/2010/16"/>
+			<link href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01"/>
+			<link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.xml" title="XML"/><link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.rdf" title="RDF/XML"/><link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.akn" title="AKN"/><link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.xht" title="HTML snippet"/><link rel="alternate" type="application/akn+xhtml" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.html" title="HTML5"/><link rel="alternate" type="text/html" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.htm" title="Website (XHTML) Default View"/><link rel="alternate" type="text/csv" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.csv" title="CSV"/><link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/asp/2010/16/2026-07-01/data.pdf" title="PDF"/>
+			<link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/asp/2010/16/contents" title="Table of Contents"/>
+			<author><name/></author>
+			<updated>2026-08-09T00:16:34Z</updated>
+			<published>2010-11-12T09:17:52.127Z</published>
+			<ukm:DocumentMainType Value="ScottishAct"/><ukm:Year Value="2010"/><ukm:Number Value="16"/><ukm:ISBN Value="9780105901624"/><ukm:CreationDate Date="2010-11-09"/>
+			
+			
+			<category term="Legal services"/><category term="Legal aid and advice"/><category term="Legislation"/><category term="Typing services"/><category term="Performance indicators"/>
+			<summary>An Act of the Scottish Parliament to allow and to make provision for regulating the supply of certain legal services by licensed entities; to extend rights to obtain confirmation to the estates of deceased persons; to regulate will and other testamentary writing by non-lawyers; to make provision concerning the Law Society of Scotland and the Faculty of Advocates and for the professional arrangements to which solicitors and advocates are subject; to allow court rules to permit the making of oral submissions by lay representatives in civil cases; and for connected purposes.</summary>
+		</entry><entry>
+			<id>http://www.legislation.gov.uk/id/ukpga/2007/29</id>
+			<title>Legal Services Act 2007</title>
+			<link rel="self" href="http://www.legislation.gov.uk/id/ukpga/2007/29"/>
+			<link href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01"/>
+			<link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.xml" title="XML"/><link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.rdf" title="RDF/XML"/><link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.akn" title="AKN"/><link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.xht" title="HTML snippet"/><link rel="alternate" type="application/akn+xhtml" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.html" title="HTML5"/><link rel="alternate" type="text/html" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.htm" title="Website (XHTML) Default View"/><link rel="alternate" type="text/csv" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.csv" title="CSV"/><link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukpga/2007/29/2025-01-01/data.pdf" title="PDF"/>
+			<link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukpga/2007/29/contents" title="Table of Contents"/>
+			<author><name/></author>
+			<updated>2025-01-08T16:16:02Z</updated>
+			<published>2007-10-30T00:00:00Z</published>
+			<ukm:DocumentMainType Value="UnitedKingdomPublicGeneralAct"/><ukm:Year Value="2007"/><ukm:Number Value="29"/><ukm:ISBN Value="9780105429074"/><ukm:CreationDate Date="2007-10-30"/>
+			
+			
+			<category term="Legal services"/><category term="Trading standards"/><category term="Disclosure"/><category term="Consumer complaints"/><category term="Business practice and regulation"/>
+			<summary>An Act to make provision for the establishment of the Legal Services Board and in respect of its functions; to make provision for, and in connection with, the regulation of persons who carry on certain legal activities; to make provision for the establishment of the Office for Legal Complaints and for a scheme to consider and determine legal complaints; to make provision about claims management services and about immigration advice and immigration services; to make provision in respect of legal representation provided free of charge; to make provision about the application of the Legal Profession and Legal Aid (Scotland) Act 2007; to make provision about the Scottish legal services ombudsman; and for connected purposes.</summary>
+		</entry><entry>
+			<id>http://www.legislation.gov.uk/id/ukpga/1997/35</id>
+			<title>Scottish Legal Services Ombudsman and Commissioner for Local Administration in Scotland Act 1997</title>
+			<link rel="self" href="http://www.legislation.gov.uk/id/ukpga/1997/35"/>
+			<link href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23"/>
+			<link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.xml" title="XML"/><link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.rdf" title="RDF/XML"/><link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.akn" title="AKN"/><link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.xht" title="HTML snippet"/><link rel="alternate" type="application/akn+xhtml" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.html" title="HTML5"/><link rel="alternate" type="text/html" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.htm" title="Website (XHTML) Default View"/><link rel="alternate" type="text/csv" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.csv" title="CSV"/><link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukpga/1997/35/2002-10-23/data.pdf" title="PDF"/>
+			<link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukpga/1997/35/contents" title="Table of Contents"/>
+			<author><name/></author>
+			<updated>2024-05-04T13:38:19Z</updated>
+			<published>1997-03-21T00:00:00Z</published>
+			<ukm:DocumentMainType Value="UnitedKingdomPublicGeneralAct"/><ukm:Year Value="1997"/><ukm:Number Value="35"/><ukm:ISBN Value="010543597X"/><ukm:CreationDate Date="1997-03-21"/>
+			
+			
+			<category term="Professional associations"/><category term="Business associations"/><category term="Ombudsmen"/>
+			<summary>An Act to make further provision about the Scottish legal services ombudsman; to alter the jurisdiction of the Commissioner for Local Administration in Scotland; and for connected purposes.</summary>
+		</entry><entry>
+			<id>http://www.legislation.gov.uk/id/ukpga/1990/41</id>
+			<title>Courts and Legal Services Act 1990</title>
+			<link rel="self" href="http://www.legislation.gov.uk/id/ukpga/1990/41"/>
+			<link href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01"/>
+			<link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.xml" title="XML"/><link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.rdf" title="RDF/XML"/><link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.akn" title="AKN"/><link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.xht" title="HTML snippet"/><link rel="alternate" type="application/akn+xhtml" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.html" title="HTML5"/><link rel="alternate" type="text/html" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.htm" title="Website (XHTML) Default View"/><link rel="alternate" type="text/csv" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.csv" title="CSV"/><link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukpga/1990/41/2026-10-01/data.pdf" title="PDF"/>
+			<link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukpga/1990/41/contents" title="Table of Contents"/>
+			<author><name/></author>
+			<updated>2026-09-30T23:34:04Z</updated>
+			<published>1990-11-01T00:00:00Z</published>
+			<ukm:DocumentMainType Value="UnitedKingdomPublicGeneralAct"/><ukm:Year Value="1990"/><ukm:Number Value="41"/><ukm:ISBN Value="0105441902"/><ukm:CreationDate Date="1990-11-01"/>
+			
+			
+			<category term="County courts"/><category term="Legal services"/><category term="Courts of law"/><category term="Hearings"/><category term="Legislation"/>
+			<summary>An Act to make provision with respect to the procedure in, and allocation of business between, the High Court and other courts; to make provision with respect to legal services; to establish a body to be known as the Lord Chancellor’s Advisory Committee on Legal Education and Conduct and a body to be known as the Authorised Conveyancing Practitioners Board; to provide for the appointment of a Legal Services Ombudsman; to make provision for the establishment of a Conveyancing Ombudsman Scheme; to provide for the establishment of Conveyancing Appeal Tribunals; to amend the law relating to judicial and related pensions and judicial and other appointments; to make provision with respect to certain officers of the Supreme Court; to amend the Solicitors Act 1974; to amend the Arbitration Act 1950; to make provision with respect to certain loans in respect of residential property; to make provision with respect to the jurisdiction of the Parliamentary Commissioner for Administration in connection with the functions of court staff; to amend the Children Act 1989 and make further provision in connection with that Act; and for connected purposes.</summary>
+		</entry>
+		</feed>

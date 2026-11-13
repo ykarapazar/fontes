@@ -1,0 +1,412 @@
+{
+  "code": "dz",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "Cour constitutionnelle (ex-Conseil constitutionnel, 1989-2020)",
+      "en": "Constitutional Court (former Constitutional Council)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Cour constitutionnelle (and former Conseil constitutionnel) of Algeria",
+      "note": "French edition only (Arabic authoritative, not built); TLS chain incomplete, fails on Linux",
+      "elsewhere": {
+        "status": "available",
+        "source": "Cour constitutionnelle – Arabic edition",
+        "url": "https://www.cour-constitutionnelle.dz/ar/",
+        "evidence": "src/world_legal_mcp/jurisdictions/dz.py",
+        "note": "missing part: Arabic (authoritative) decisions are a separate set of posts on the same site; incomplete TLS chain (curl fails verification)"
+      }
+    },
+    {
+      "name": "Cour suprême",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "coursupreme.dz connect timeout on http and https, www and bare (2026-11-05/06/07 and 2026-11-10); retried again 2026-11-10 (www, bare, http, https): ConnectTimeout",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Cour suprême (coursupreme.dz)",
+        "url": "https://www.coursupreme.dz/",
+        "evidence": "fetched 2026-11-07 failed: connection timed out (www and bare host)",
+        "note": "timed out again from UK; may be geo-blocked; retry from DZ"
+      }
+    },
+    {
+      "name": "Conseil d'État",
+      "en": "Council of State",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no official Conseil d'État site found (conseil-etat.dz does not resolve); a 2024 study says few decisions are published, in journals only"
+      }
+    },
+    {
+      "name": "Tribunal des conflits",
+      "en": "Jurisdictional Conflicts Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Cours de justice (one per wilaya)",
+      "en": "Courts of appeal (ordinary)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "lower-court decisions: see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux criminels d'appel (at each cour)",
+      "en": "Criminal courts of appeal (felony appeals)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux criminels de première instance (at each cour)",
+      "en": "First-instance felony courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux – sections civile, foncière, des référés",
+      "en": "First-instance courts – civil, land and summary sections",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux – section des affaires familiales",
+      "en": "First-instance courts – family section",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux – section sociale",
+      "en": "First-instance courts – labour section",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux – sections pénales (délits et contraventions)",
+      "en": "First-instance courts – criminal sections (misdemeanours)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux – section des mineurs / juge des mineurs",
+      "en": "Juvenile courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux de commerce spécialisés (since 2023)",
+      "en": "Specialised commercial courts",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Pôles pénaux spécialisés régionaux et Pôle pénal économique et financier (Sidi M'hamed)",
+      "en": "Specialised criminal hubs (organised crime, terrorism, economic and financial crime)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux administratifs d'appel (6, since 2022)",
+      "en": "Administrative courts of appeal",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux administratifs",
+      "en": "Administrative tribunals",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; mjustice.dz timed out 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunaux militaires (permanent, per military region)",
+      "en": "Military courts (first instance)",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; military-court decisions likely unpublished (unverified)"
+      }
+    },
+    {
+      "name": "Cour d'appel militaire (Blida)",
+      "en": "Military Court of Appeal",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online publication found; military-court decisions likely unpublished (unverified)"
+      }
+    },
+    {
+      "name": "Cour des comptes",
+      "en": "Court of Audit",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Cour des comptes",
+        "url": "https://www.ccomptes.dz/",
+        "evidence": "not checked online",
+        "note": "annual reports likely published; judicial arrêts not checked"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution (2020)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+      "note": "law id 'Constitution': the SGG's French text of the 2020 Constitution (joradp.dz/TRV/FConsti.pdf) with the articles restated by later revision laws applied (Loi n° 26-04 of 26 March 2026; arts 87, 138, 145 are restated only in part, so the old text is shown beside them). French = official translation; Arabic is authoritative"
+    },
+    {
+      "name": "Loi organique / Loi / Ordonnance",
+      "en": "Organic laws, laws, presidential ordinances",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+      "note": "full text from 2002 on (475 Loi/Loi organique/Ordonnance in the JO index), as published, not consolidated. Missing: the 1,794 primary acts published before 2002 (Loi 399, Loi organique 3, Ordonnance 1,354, Décret législatif 38; JO index counts 2026-11-10) are scans with no text layer (no OCR), incl. base texts of codes in force (Code civil Ord. 75-58, Code pénal Ord. 66-156, Code de la famille Loi 84-11) No text source for them: French and Arabic JO issues before 2002 are scans (checked 2026-11-10); droit.mjustice.dz connect timeout.",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JORADP scans / Arabic edition; no third-party text source",
+        "url": "https://www.joradp.dz/FTP/jo-arabe/2008/A2008021.pdf",
+        "evidence": "fetched 2026-11-10: A2003001, A2008021, A2024001 HTTP 200, text extracted with pypdf; F1994001 and F1998001 HTTP 200, 0 characters of text",
+        "note": "Missing part: text of the 1,794 primary acts published before 2002. French JO issues before 2002 are scans without a text layer (rechecked 1994 and 1998 issue 1, 2026-11-10; earlier: 1996, 2000, 2001); text would need OCR, which Fontes does not do. Arabic (authoritative) issues /FTP/jo-arabe/{year}/A{year}{jo:03}.pdf: no text layer in 1975, 1990, 2000, 2001; where there is one the font maps are broken in a different way per era (rechecked 2026-11-10: A2003001 is glyph garbage in a custom encoding; A2008021 has letters in logical order but words in reversed visual order and lam-mim/ba-mim ligatures mapped to 'J', '~', 's'; A2024001 has every line character-reversed with digit runs scrambled), so it is not served; it would not fill the pre-2002 gap anyway. No other text source reached (2026-11-10): www.mjustice.dz, droit.mjustice.dz, apn.dz and coursupreme.dz connect timeout; droit-afrique.com answers 403 even on robots.txt; majliselouma.dz has no law database; joradp.dz has no consolidated codes."
+      }
+    },
+    {
+      "name": "Décret présidentiel / Décret exécutif / Décret",
+      "en": "Presidential and executive decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+      "note": "as published; French only; pre-~2001 scans",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JORADP – Arabic edition",
+        "url": "https://www.joradp.dz/FTP/jo-arabe/2008/A2008021.pdf",
+        "evidence": "fetched 2026-11-10: A2003001, A2008021, A2024001 HTTP 200, text extracted with pypdf; F1994001 and F1998001 HTTP 200, 0 characters of text",
+        "note": "Missing part: Arabic (authoritative) text, pre-2002 text, consolidation. Arabic (authoritative) issues /FTP/jo-arabe/{year}/A{year}{jo:03}.pdf: no text layer in 1975, 1990, 2000, 2001; where there is one the font maps are broken in a different way per era (rechecked 2026-11-10: A2003001 is glyph garbage in a custom encoding; A2008021 has letters in logical order but words in reversed visual order and lam-mim/ba-mim ligatures mapped to 'J', '~', 's'; A2024001 has every line character-reversed with digit runs scrambled), so it is not served. French JO issues before 2002 are scans without a text layer (rechecked 1994 and 1998 issue 1, 2026-11-10; earlier: 1996, 2000, 2001); text would need OCR, which Fontes does not do."
+      }
+    },
+    {
+      "name": "Arrêté / Arrêté interministériel / Décision / Instruction / Circulaire",
+      "en": "Ministerial orders, decisions, circulars",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+      "note": "only those published in the JO; pre-~2001 scans",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JORADP – Arabic edition",
+        "url": "https://www.joradp.dz/FTP/jo-arabe/2008/A2008021.pdf",
+        "evidence": "fetched 2026-11-10: A2003001, A2008021, A2024001 HTTP 200, text extracted with pypdf; F1994001 and F1998001 HTTP 200, 0 characters of text",
+        "note": "Missing part: Arabic (authoritative) text, pre-2002 text, consolidation. Arabic (authoritative) issues /FTP/jo-arabe/{year}/A{year}{jo:03}.pdf: no text layer in 1975, 1990, 2000, 2001; where there is one the font maps are broken in a different way per era (rechecked 2026-11-10: A2003001 is glyph garbage in a custom encoding; A2008021 has letters in logical order but words in reversed visual order and lam-mim/ba-mim ligatures mapped to 'J', '~', 's'; A2024001 has every line character-reversed with digit runs scrambled), so it is not served. French JO issues before 2002 are scans without a text layer (rechecked 1994 and 1998 issue 1, 2026-11-10; earlier: 1996, 2000, 2001); text would need OCR, which Fontes does not do."
+      }
+    },
+    {
+      "name": "Journal Officiel de la République Algérienne",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+      "note": "index since 1962; full text only ~2001+; Arabic (authoritative) edition not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JORADP – Arabic edition",
+        "url": "https://www.joradp.dz/FTP/jo-arabe/2008/A2008021.pdf",
+        "evidence": "fetched 2026-11-10: A2003001, A2008021, A2024001 HTTP 200, text extracted with pypdf; F1994001 and F1998001 HTTP 200, 0 characters of text",
+        "note": "Missing part: Arabic (authoritative) text, pre-2002 text, consolidation. Arabic (authoritative) issues /FTP/jo-arabe/{year}/A{year}{jo:03}.pdf: no text layer in 1975, 1990, 2000, 2001; where there is one the font maps are broken in a different way per era (rechecked 2026-11-10: A2003001 is glyph garbage in a custom encoding; A2008021 has letters in logical order but words in reversed visual order and lam-mim/ba-mim ligatures mapped to 'J', '~', 's'; A2024001 has every line character-reversed with digit runs scrambled), so it is not served. French JO issues before 2002 are scans without a text layer (rechecked 1994 and 1998 issue 1, 2026-11-10; earlier: 1996, 2000, 2001); text would need OCR, which Fontes does not do."
+      }
+    },
+    {
+      "name": "Arrêtés de wali / délibérations des APC et APW",
+      "en": "Wilaya and municipal acts",
+      "level": "local",
+      "reached": "partly",
+      "via": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+      "note": "only arrêtés de wali that appear in the JO; local deliberations see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "missing part: local deliberations (APC/APW) not published centrally as far as found"
+      }
+    },
+    {
+      "name": "Conventions internationales (ratified by décret présidentiel)",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+      "note": "as published in the JO with the ratification decree",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JORADP – Arabic edition",
+        "url": "https://www.joradp.dz/FTP/jo-arabe/2008/A2008021.pdf",
+        "evidence": "fetched 2026-11-10: A2003001, A2008021, A2024001 HTTP 200, text extracted with pypdf; F1994001 and F1998001 HTTP 200, 0 characters of text",
+        "note": "Missing part: Arabic (authoritative) text, pre-2002 text, consolidation. Arabic (authoritative) issues /FTP/jo-arabe/{year}/A{year}{jo:03}.pdf: no text layer in 1975, 1990, 2000, 2001; where there is one the font maps are broken in a different way per era (rechecked 2026-11-10: A2003001 is glyph garbage in a custom encoding; A2008021 has letters in logical order but words in reversed visual order and lam-mim/ba-mim ligatures mapped to 'J', '~', 's'; A2024001 has every line character-reversed with digit runs scrambled), so it is not served. French JO issues before 2002 are scans without a text layer (rechecked 1994 and 1998 issue 1, 2026-11-10; earlier: 1996, 2000, 2001); text would need OCR, which Fontes does not do."
+      }
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "code": "kg",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "Конституционный суд Кыргызской Республики",
+      "en": "Constitutional Court (re-established 2021)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Constitutional Court of the Kyrgyz Republic (constsot.kg)",
+      "note": "1998-now; search over post titles/bodies, not PDF text"
+    },
+    {
+      "name": "Конституционная палата Верховного суда (2010-2021)",
+      "en": "Constitutional Chamber of the Supreme Court (abolished 2021)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Constitutional Court of the Kyrgyz Republic (constsot.kg)",
+      "note": "constsot.kg archive runs 1998-now, so chamber-era acts sit in the same source; search over post titles/bodies, not PDF text"
+    },
+    {
+      "name": "Верховный суд Кыргызской Республики",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable from outside Kyrgyzstan (sot.kg / act.sot.kg, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Судебная система КР: банк судебных актов (act.sot.kg)",
+        "url": "https://act.sot.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring",
+        "note": "refused connection from here (ECONNREFUSED 2026-11-07; earlier refusals/timeouts from UK in kg.py). Geo-block suspected, not proven"
+      }
+    },
+    {
+      "name": "Областные суды (7) и Бишкекский городской суд",
+      "en": "Regional courts and Bishkek City Court (appeal)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable from outside Kyrgyzstan (sot.kg / act.sot.kg, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Судебная система КР: банк судебных актов (act.sot.kg)",
+        "url": "https://act.sot.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring",
+        "note": "refused connection from here (ECONNREFUSED 2026-11-07; earlier refusals/timeouts from UK in kg.py). Geo-block suspected, not proven"
+      }
+    },
+    {
+      "name": "Районные и городские суды (incl. районные суды города Бишкек)",
+      "en": "District and city courts (general civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable from outside Kyrgyzstan (sot.kg / act.sot.kg, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Судебная система КР: банк судебных актов (act.sot.kg)",
+        "url": "https://act.sot.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring",
+        "note": "refused connection from here (ECONNREFUSED 2026-11-07; earlier refusals/timeouts from UK in kg.py). Geo-block suspected, not proven; OGP commitment KG0004 notes not all decisions are published"
+      }
+    },
+    {
+      "name": "Межрайонные суды / административные суды",
+      "en": "Inter-district courts (administrative and economic disputes)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable from outside Kyrgyzstan (sot.kg / act.sot.kg, 2026-11-06); court names changed in successive reforms (unverified)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Судебная система КР: банк судебных актов (act.sot.kg)",
+        "url": "https://act.sot.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring",
+        "note": "refused connection from here (ECONNREFUSED 2026-11-07; earlier refusals/timeouts from UK in kg.py). Geo-block suspected, not proven"
+      }
+    },
+    {
+      "name": "Межрайонные суды – экономические споры (former арбитражные / экономические суды)",
+      "en": "Economic-dispute first instance",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable from outside Kyrgyzstan; exact current allocation of economic cases unverified",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Судебная система КР: банк судебных актов (act.sot.kg)",
+        "url": "https://act.sot.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring",
+        "note": "refused connection from here (ECONNREFUSED 2026-11-07; earlier refusals/timeouts from UK in kg.py). Geo-block suspected, not proven; OGP commitment KG0004 notes not all decisions are published"
+      }
+    },
+    {
+      "name": "Военные суды",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "reportedly abolished by 2016 decree (unverified)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "Wikipedia says military courts abolished Dec 2016; any older acts would be on sot.kg (unreachable)"
+      }
+    },
+    {
+      "name": "Аксакальские суды",
+      "en": "Aksakal (elders') courts – community courts recognised by law",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "community dispute bodies; no publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "decisions not published; local bodies without websites"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Конституция Кыргызской Республики",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (cbd.minjust.gov.kg connection dropped, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централизованный банк данных правовой информации (Минюст КР)",
+        "url": "https://cbd.minjust.gov.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring; research/SIGNUPS.md; research/chatgpt/r2_c.md",
+        "note": "server drops the connection for the project's client (HTTP/2 INTERNAL_ERROR / TLS alert); robots allows all; needs MoJ to allow the User-Agent. FAOLEX has a few old English translations (non-commercial terms)"
+      }
+    },
+    {
+      "name": "Конституционные законы / Кодексы / Законы",
+      "en": "Constitutional laws, codes, laws",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (cbd.minjust.gov.kg connection dropped)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централизованный банк данных правовой информации (Минюст КР)",
+        "url": "https://cbd.minjust.gov.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring; research/SIGNUPS.md; research/chatgpt/r2_c.md",
+        "note": "server drops the connection for the project's client (HTTP/2 INTERNAL_ERROR / TLS alert); robots allows all; needs MoJ to allow the User-Agent. FAOLEX has a few old English translations (non-commercial terms)"
+      }
+    },
+    {
+      "name": "Указы Президента",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (cbd.minjust.gov.kg)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централизованный банк данных правовой информации (Минюст КР)",
+        "url": "https://cbd.minjust.gov.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring; research/SIGNUPS.md; research/chatgpt/r2_c.md",
+        "note": "server drops the connection for the project's client (HTTP/2 INTERNAL_ERROR / TLS alert); robots allows all; needs MoJ to allow the User-Agent. FAOLEX has a few old English translations (non-commercial terms)"
+      }
+    },
+    {
+      "name": "Постановления Кабинета Министров",
+      "en": "Cabinet of Ministers resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (cbd.minjust.gov.kg)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централизованный банк данных правовой информации (Минюст КР)",
+        "url": "https://cbd.minjust.gov.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring; research/SIGNUPS.md; research/chatgpt/r2_c.md",
+        "note": "server drops the connection for the project's client (HTTP/2 INTERNAL_ERROR / TLS alert); robots allows all; needs MoJ to allow the User-Agent. FAOLEX has a few old English translations (non-commercial terms)"
+      }
+    },
+    {
+      "name": "Нормативные акты министерств и ведомств",
+      "en": "Ministerial/agency normative acts",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (cbd.minjust.gov.kg)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централизованный банк данных правовой информации (Минюст КР)",
+        "url": "https://cbd.minjust.gov.kg/",
+        "evidence": "src/world_legal_mcp/jurisdictions/kg.py docstring; research/SIGNUPS.md; research/chatgpt/r2_c.md",
+        "note": "server drops the connection for the project's client (HTTP/2 INTERNAL_ERROR / TLS alert); robots allows all; needs MoJ to allow the User-Agent. FAOLEX has a few old English translations (non-commercial terms)"
+      }
+    },
+    {
+      "name": "Решения местных кенешей",
+      "en": "Local council decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not checked; may be in cbd.minjust.gov.kg (blocked), unverified"
+      }
+    },
+    {
+      "name": "Эркин-Тоо (официальное издание)",
+      "en": "Official publication (Erkin-Too)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Эркин-Тоо",
+        "url": "https://erkintoo.kg/",
+        "evidence": "search result only",
+        "note": "erkintoo.kg did not resolve (2026-11-07); no other online edition found"
+      }
+    },
+    {
+      "name": "Международные договоры",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not checked; ratified treaties may be in cbd.minjust.gov.kg (blocked), unverified"
+      }
+    }
+  ]
+}

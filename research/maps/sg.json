@@ -1,0 +1,425 @@
+{
+  "code": "sg",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.judiciary.gov.sg/who-we-are/about-singapore-courts",
+    "https://www.judiciary.gov.sg/who-we-are/role-structure-state-courts/structure",
+    "https://www.judiciary.gov.sg/who-we-are/role-structure-family-justice-courts/structure",
+    "https://www.iac.gov.sg/arbitration/court-decision"
+  ],
+  "courts": [
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal (apex)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGCA)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "Appellate Division of the High Court (since 2021)",
+      "en": "Appellate Division of the High Court (civil appeals)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGHCA)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "General Division of the High Court",
+      "en": "General Division of the High Court (civil and criminal first instance and appeals from State Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGHC)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "Singapore International Commercial Court",
+      "en": "SICC (division of the General Division)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGHC(I))",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "Registrar of the Supreme Court (High Court registrars)",
+      "en": "Assistant Registrars' / Registrar's decisions",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGHCR)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "Family Division of the High Court",
+      "en": "Family Division of the High Court (Family Justice Courts)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGHCF)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "Family Courts",
+      "en": "Family Courts (Family Justice Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGFC)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "Youth Courts",
+      "en": "Youth Courts (Family Justice Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGYC)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data"
+      }
+    },
+    {
+      "name": "District Courts",
+      "en": "District Courts (State Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only; few lower-court judgments are written (SGDC)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data; only a few lower-court judgments are written at all"
+      }
+    },
+    {
+      "name": "Magistrates' Courts",
+      "en": "Magistrates' Courts (State Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only; few lower-court judgments are written (SGMC)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data; only a few lower-court judgments are written at all"
+      }
+    },
+    {
+      "name": "Protection from Harassment Courts (since 2021)",
+      "en": "Protection from Harassment Courts (State Courts specialist court)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+      "note": "off unless WLM_PERMITTED=sg; eLitigation covers State Courts written judgments generally; whether PHC decisions are included (under SGDC/SGMC) is unverified",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "used by Fontes sg adapter (src/world_legal_mcp/jurisdictions/sg.py)",
+        "note": "adapter built but off: eLitigation/Judiciary terms bar reproduction without written permission (research/SIGNUPS.md); missing part is the permission, not the data; only a few lower-court judgments are written at all"
+      }
+    },
+    {
+      "name": "Coroners' Courts",
+      "en": "Coroners' Courts (State Courts)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not a court code in the adapter",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://www.judiciary.gov.sg/who-we-are/role-structure-state-courts/structure",
+        "evidence": "search result only (2026-11-07: coroners' findings appear only in press reports; 2025 SGHC 178 mentions a written Coroner's Certificate)",
+        "note": "no official collection of coroners' findings found"
+      }
+    },
+    {
+      "name": "Small Claims Tribunals",
+      "en": "Small Claims Tribunals (State Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not a court code in the adapter",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "fetched 2026-11-07: /gd/s/2026_SGECT_1 opens JGP v JGQ, Employment Claims Tribunals grounds of decision (15 May 2026)",
+        "note": "selected ECT/SCT grounds published on eLitigation since May 2026; same written-permission terms; /gd/s/2023_SGSCT_1 gave 'Page Not Found' (fetched 2026-11-07), so nothing older seen"
+      }
+    },
+    {
+      "name": "Employment Claims Tribunals",
+      "en": "Employment Claims Tribunals (State Courts)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not a court code in the adapter",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "fetched 2026-11-07: /gd/s/2026_SGECT_1 opens JGP v JGQ, Employment Claims Tribunals grounds of decision (15 May 2026)",
+        "note": "selected ECT/SCT grounds published on eLitigation since May 2026; same written-permission terms; /gd/s/2023_SGSCT_1 gave 'Page Not Found' (fetched 2026-11-07), so nothing older seen"
+      }
+    },
+    {
+      "name": "Community Disputes Resolution Tribunals",
+      "en": "Community Disputes Resolution Tribunals (State Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not a court code in the adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "SG Courts judgments (eLitigation)",
+        "url": "https://www.elitigation.sg/gd",
+        "evidence": "fetched 2026-11-07: /gd/s/2024_SGCDRT_1 returned an eLitigation system-error notice, so not established",
+        "note": "whether CDRT grounds are published on eLitigation is unverified; same written-permission terms would apply"
+      }
+    },
+    {
+      "name": "Industrial Arbitration Court",
+      "en": "Industrial Arbitration Court (collective labour disputes)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes",
+      "elsewhere": {
+        "status": "available",
+        "source": "IAC Court Awards",
+        "url": "https://www.iac.gov.sg/related-resources/court-awards",
+        "evidence": "fetched 2026-11-07: page 'Court Awards made in recent years' with Year of Decision filter 2000-2019 (list loads by script; individual awards not seen)",
+        "note": "official IAC site; only selected years 2000-2019; full-text format unverified"
+      }
+    },
+    {
+      "name": "Income Tax Board of Review (also GST Board of Review, Valuation Review Board)",
+      "en": "Tax appeal boards",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes",
+      "elsewhere": {
+        "status": "available",
+        "source": "Singapore Law Watch (Singapore Academy of Law)",
+        "url": "https://www.singaporelawwatch.sg/Judgments/Tax-Boards",
+        "evidence": "fetched 2026-11-07: Tax Boards list with PDF links, newest ZYT v Comptroller of Income Tax [2026] SGITBR 3 (16 Jun 2026); also SGGST and SGVRB",
+        "note": "run by the Singapore Academy of Law (statutory body); MOF Board of Review page (fetched 2026-11-07) has procedure only, no decisions"
+      }
+    },
+    {
+      "name": "Syariah Court and Appeal Board (MUIS)",
+      "en": "Syariah Court (Muslim family law) and its Appeal Board",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Singapore Syariah Appeals Reports (Syariah Court, sold via LawNet store)",
+        "url": "https://store.lawnet.com/singapore-syariah-appeals-reports-2021-2024.html",
+        "evidence": "search result only (SAL/LawNet store listings of SSAR volumes)",
+        "note": "paid printed report series; no free online collection found"
+      }
+    },
+    {
+      "name": "Military courts (Subordinate Military Courts, Military Court of Appeal)",
+      "en": "SAF military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": null,
+        "evidence": "search result only (2026-11-07: only a printed 'Military Court of Appeal law reports 1973-1995' and press reports)",
+        "note": "no online publication of military court judgments found"
+      }
+    },
+    {
+      "name": "Intellectual Property Office of Singapore (hearings)",
+      "en": "IPOS Registrar decisions (trade mark / patent oppositions)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "quasi-judicial; not in Fontes",
+      "elsewhere": {
+        "status": "available",
+        "source": "Singapore Law Watch (Singapore Academy of Law)",
+        "url": "https://www.singaporelawwatch.sg/Judgments/Intellectual-Property-Office-of-Singapore",
+        "evidence": "fetched 2026-11-07: SLW Judgments index lists an 'Intellectual Property Office of Singapore' category",
+        "note": "Singapore Academy of Law site; IPOS also publishes its own decisions (not opened)"
+      }
+    },
+    {
+      "name": "Personal Data Protection Commission",
+      "en": "PDPC enforcement decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "quasi-judicial; not in Fontes",
+      "elsewhere": {
+        "status": "available",
+        "source": "Singapore Law Watch (Singapore Academy of Law)",
+        "url": "https://www.singaporelawwatch.sg/Judgments/Personal-Data-Protection-Commission",
+        "evidence": "fetched 2026-11-07: SLW Judgments index lists a 'Personal Data Protection Commission' category",
+        "note": "also on pdpc.gov.sg (not opened)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of the Republic of Singapore",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "Singapore Statutes Online: CloudFront 403 'Request blocked'; terms add conditions for automated use",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Singapore Statutes Online (AGC)",
+        "url": "https://sso.agc.gov.sg",
+        "evidence": "used by Fontes sg adapter docstring (src/world_legal_mcp/jurisdictions/sg.py); research/chatgpt/r2_a.md",
+        "note": "CloudFront 403 'Request blocked' on every path incl. robots.txt (2026-11-05); terms limit automated extraction to 3-7 a.m. SGT; robots Disallow: /search"
+      }
+    },
+    {
+      "name": "Acts of Parliament",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "Singapore Statutes Online blocks our client (403)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Singapore Statutes Online (AGC)",
+        "url": "https://sso.agc.gov.sg",
+        "evidence": "used by Fontes sg adapter docstring (src/world_legal_mcp/jurisdictions/sg.py); research/chatgpt/r2_a.md",
+        "note": "CloudFront 403 'Request blocked' on every path incl. robots.txt (2026-11-05); terms limit automated extraction to 3-7 a.m. SGT; robots Disallow: /search"
+      }
+    },
+    {
+      "name": "Subsidiary legislation",
+      "en": "Subsidiary legislation (rules, regulations, orders, notifications)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Singapore Statutes Online blocks our client (403)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Singapore Statutes Online (AGC)",
+        "url": "https://sso.agc.gov.sg",
+        "evidence": "used by Fontes sg adapter docstring (src/world_legal_mcp/jurisdictions/sg.py); research/chatgpt/r2_a.md",
+        "note": "CloudFront 403 'Request blocked' on every path incl. robots.txt (2026-11-05); terms limit automated extraction to 3-7 a.m. SGT; robots Disallow: /search"
+      }
+    },
+    {
+      "name": "Government Gazette (egazette.gov.sg)",
+      "en": "Government Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "source exists and works but not built yet (archive search is Algolia)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Government Gazette (eGazette, MDDI)",
+        "url": "https://www.egazette.gov.sg",
+        "evidence": "research/chatgpt/validation-r2-a.md",
+        "note": "terms cl. 11 permit reproduction and non-abusive automated extraction (revocable, caching ban); catalogue covers ~3.5 weeks, archive search is Algolia; robots Disallow: /search"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Government Gazette – Treaties Supplement (eGazette)",
+        "url": "https://www.egazette.gov.sg",
+        "evidence": "search result only",
+        "note": "eGazette carries a Treaties Supplement from 1998 (NUS library guide; data.gov.sg dataset); selected bilateral treaties, possible year gaps; AGC Treaties Database is via LawNet (paid)"
+      }
+    }
+  ]
+}

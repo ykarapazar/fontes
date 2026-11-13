@@ -1,0 +1,454 @@
+{
+  "code": "lb",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.euaa.europa.eu/lebanon-country-focus/31-judicial-system"
+  ],
+  "courts": [
+    {
+      "name": "المجلس الدستوري",
+      "en": "Constitutional Council",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "المجلس الدستوري / Constitutional Council of Lebanon (cc.gov.lb)",
+      "note": "constitutionality (1995-) and parliamentary-election (1996-) decisions; PDF text layer faulty"
+    },
+    {
+      "name": "محكمة التمييز",
+      "en": "Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500"
+      }
+    },
+    {
+      "name": "محاكم الاستئناف (civil, commercial and criminal chambers)",
+      "en": "Courts of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500"
+      }
+    },
+    {
+      "name": "محاكم الجنايات",
+      "en": "Criminal (felony) Courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; felony-court coverage not confirmed"
+      }
+    },
+    {
+      "name": "الهيئات الاتهامية",
+      "en": "Indictment Chambers",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; coverage not confirmed"
+      }
+    },
+    {
+      "name": "محاكم الدرجة الأولى",
+      "en": "First-instance courts (collegiate; civil and commercial chambers)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500"
+      }
+    },
+    {
+      "name": "القضاة المنفردون (مدني، جزائي)",
+      "en": "Single judges (civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500"
+      }
+    },
+    {
+      "name": "قضاة الأمور المستعجلة",
+      "en": "Urgent-matters judges",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; coverage not confirmed"
+      }
+    },
+    {
+      "name": "قضاة التحقيق",
+      "en": "Investigating judges",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; coverage not confirmed"
+      }
+    },
+    {
+      "name": "قضاة الأحداث",
+      "en": "Juvenile judges",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; juvenile coverage not confirmed (closed proceedings)"
+      }
+    },
+    {
+      "name": "القاضي العقاري",
+      "en": "Land-registration (cadastral) judges",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; coverage not confirmed"
+      }
+    },
+    {
+      "name": "دوائر التنفيذ",
+      "en": "Enforcement departments",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; coverage not confirmed"
+      }
+    },
+    {
+      "name": "مجالس العمل التحكيمية",
+      "en": "Labour Arbitration Councils",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; coverage not confirmed"
+      }
+    },
+    {
+      "name": "مجلس شورى الدولة",
+      "en": "State Council (Shura)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500"
+      }
+    },
+    {
+      "name": "المجلس العدلي",
+      "en": "Judicial Council (national-security cases)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lebanese University Centre for Legal Informatics (legiliban.ul.edu.lb)",
+        "url": "http://legiliban.ul.edu.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring; research/mena_africa_international.md",
+        "note": "academic, non-official; disclaimer agreement (CustomPage.aspx?id=3) allows personal non-commercial use only and claims IP in the data; robots.txt returns HTTP 500; Judicial Council coverage not confirmed"
+      }
+    },
+    {
+      "name": "المحكمة العسكرية الدائمة",
+      "en": "Permanent Military Court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not found; not researched further"
+      }
+    },
+    {
+      "name": "محكمة التمييز العسكرية",
+      "en": "Military Court of Cassation",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not found; not researched further"
+      }
+    },
+    {
+      "name": "المحاكم الشرعية السنية والجعفرية",
+      "en": "Sunni and Ja'fari Sharia courts",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not found; not researched further"
+      }
+    },
+    {
+      "name": "المحاكم المذهبية الدرزية",
+      "en": "Druze madhhab courts",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not found; not researched further"
+      }
+    },
+    {
+      "name": "المحاكم الروحية المسيحية",
+      "en": "Christian spiritual courts (per community)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not found; not researched further"
+      }
+    },
+    {
+      "name": "ديوان المحاسبة",
+      "en": "Court of Audit",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "own site publishes decisions and advisory opinions; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "ديوان المحاسبة (Court of Audit)",
+        "url": "https://www.coa.gov.lb/ar/decisions",
+        "evidence": "fetched 2026-11-07: site menu 'منشورات' links decisions (/ar/decisions), advisory opinions (/ar/advisories), circulars, reports",
+        "note": "decisions and advisory opinions; robots/terms not checked"
+      }
+    },
+    {
+      "name": "المحكمة الخاصة بلبنان (2009-2023)",
+      "en": "Special Tribunal for Lebanon (international; closed 2023)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not researched in code",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Special Tribunal for Lebanon website",
+        "url": "https://www.stl-tsl.org/en",
+        "evidence": "fetched 2026-11-07: www.stl-tsl.org did not connect",
+        "note": "tribunal closed Dec 2023; where its judgments are now hosted not established"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "الدستور اللبناني",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "المجلس الدستوري / Constitutional Council of Lebanon (cc.gov.lb)",
+      "note": "Arabic; English translation via 'constitution/en'"
+    },
+    {
+      "name": "القوانين",
+      "en": "Laws",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Official Gazette, Presidency of the Council of Ministers (jo.pcm.gov.lb)",
+        "url": "http://jo.pcm.gov.lb/",
+        "evidence": "fetched 2026-11-07: jo.pcm.gov.lb/j2006/default.htm shows subscription pricing, account login and 'subscription ended' notice",
+        "note": "official gazette needs paid subscription; legiliban.ul.edu.lb has laws but personal-use-only terms"
+      }
+    },
+    {
+      "name": "المراسيم الاشتراعية / المراسيم",
+      "en": "Legislative decrees / decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Official Gazette, Presidency of the Council of Ministers (jo.pcm.gov.lb)",
+        "url": "http://jo.pcm.gov.lb/",
+        "evidence": "fetched 2026-11-07: jo.pcm.gov.lb subscription/login page",
+        "note": "paid subscription; legiliban personal-use only"
+      }
+    },
+    {
+      "name": "القرارات الوزارية",
+      "en": "Ministerial decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "no official open source; legiliban.ul.edu.lb needs permission (personal use only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Official Gazette, Presidency of the Council of Ministers (jo.pcm.gov.lb)",
+        "url": "http://jo.pcm.gov.lb/",
+        "evidence": "fetched 2026-11-07: jo.pcm.gov.lb subscription/login page",
+        "note": "paid subscription; legiliban personal-use only"
+      }
+    },
+    {
+      "name": "الجريدة الرسمية",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "official gazette online behind paid subscription",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Official Gazette, Presidency of the Council of Ministers (jo.pcm.gov.lb)",
+        "url": "http://jo.pcm.gov.lb/",
+        "evidence": "fetched 2026-11-07: jo.pcm.gov.lb/j2006/default.htm shows subscription pricing and login; www.jo.pcm.gov.lb does not resolve",
+        "note": "paid subscription (issues 2005 onward per archontology.org listing)"
+      }
+    },
+    {
+      "name": "قوانين المجلس الدستوري (القانون 250/1993، النظام الداخلي)",
+      "en": "Council's own laws (Law 250/1993, internal rules)",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "PDF-only on cc.gov.lb, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "المجلس الدستوري (cc.gov.lb)",
+        "url": "https://www.cc.gov.lb/",
+        "evidence": "src/world_legal_mcp/jurisdictions/lb.py docstring",
+        "note": "PDF-only on the Council's own site (same source the adapter already uses); just not offered"
+      }
+    },
+    {
+      "name": "المعاهدات",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "ratifying laws only in the paid Official Gazette",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Official Gazette, Presidency of the Council of Ministers (jo.pcm.gov.lb)",
+        "url": "http://jo.pcm.gov.lb/",
+        "evidence": "fetched 2026-11-07: jo.pcm.gov.lb subscription/login page",
+        "note": "ratifying laws appear in the paid gazette; no free treaty database found"
+      }
+    }
+  ]
+}

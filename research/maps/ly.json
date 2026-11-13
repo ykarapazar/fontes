@@ -1,0 +1,323 @@
+{
+  "code": "ly",
+  "checked": "2026-11-10",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "المحكمة العليا – الدوائر المدنية والجنائية والتجارية والأحوال الشخصية",
+      "en": "Supreme Court – civil, criminal, commercial and personal-status chambers",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "المحكمة العليا - Supreme Court of Libya (alolya.gov.ly)",
+      "note": "every ruling the court has put online (62 on 2026-11-10, 2020-2026; filters chamber civil/criminal/personal; commercial cases sit under civil), full text, searchable; journal volumes via journal_year; missing: rulings before 2020 except journal volumes; journal years 1-36 not online, years 37-50 sampled as scans (no OCR), 51-60 PDFs with text layer but not searchable inside; the court's principles database (/principle, 8,240+ principles) only via /api/, which robots.txt disallows",
+      "elsewhere": {
+        "status": "available",
+        "source": "المحكمة العليا الليبية (alolya.gov.ly)",
+        "url": "https://www.alolya.gov.ly/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Allow: /' (Disallow /api/, /pdf-viewer, /favorite); /article/<uuid> pages carry full text (facts, reasons+operative part, panel, principles); home page shows constitutional, administrative, civil and criminal chamber rulings; research/chatgpt/r2_c.md",
+        "note": "Now used by Fontes (see via). Missing part: the principles platform /principle is client-side over /api/ (robots.txt Disallow /api/); journal years 1-36 listed as unavailable."
+      }
+    },
+    {
+      "name": "المحكمة العليا – الدائرة الدستورية / الدوائر مجتمعة",
+      "en": "Supreme Court – constitutional chamber / combined chambers",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "المحكمة العليا - Supreme Court of Libya (alolya.gov.ly)",
+      "note": "constitutional and combined-chambers rulings put online (filters chamber constitutional/joint), full text, searchable; missing: rulings before 2020 except journal volumes; journal years 1-36 not online, years 37-50 sampled as scans (no OCR), 51-60 PDFs with text layer but not searchable inside; the court's principles database (/principle, 8,240+ principles) only via /api/, which robots.txt disallows",
+      "elsewhere": {
+        "status": "available",
+        "source": "المحكمة العليا الليبية (alolya.gov.ly)",
+        "url": "https://www.alolya.gov.ly/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Allow: /' (Disallow /api/, /pdf-viewer, /favorite); /article/<uuid> pages carry full text (facts, reasons+operative part, panel, principles); home page shows constitutional, administrative, civil and criminal chamber rulings; research/chatgpt/r2_c.md",
+        "note": "Now used by Fontes (see via). Missing part: the principles platform /principle is client-side over /api/ (robots.txt Disallow /api/); journal years 1-36 listed as unavailable."
+      }
+    },
+    {
+      "name": "المحكمة العليا – الدائرة الإدارية",
+      "en": "Supreme Court – administrative chamber",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "المحكمة العليا - Supreme Court of Libya (alolya.gov.ly)",
+      "note": "administrative tab exists but held 0 rulings on 2026-11-10; administrative rulings only inside the journal volumes (journal_year); missing: rulings before 2020 except journal volumes; journal years 1-36 not online, years 37-50 sampled as scans (no OCR), 51-60 PDFs with text layer but not searchable inside; the court's principles database (/principle, 8,240+ principles) only via /api/, which robots.txt disallows",
+      "elsewhere": {
+        "status": "available",
+        "source": "المحكمة العليا الليبية (alolya.gov.ly)",
+        "url": "https://www.alolya.gov.ly/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Allow: /' (Disallow /api/, /pdf-viewer, /favorite); /article/<uuid> pages carry full text (facts, reasons+operative part, panel, principles); home page shows constitutional, administrative, civil and criminal chamber rulings; research/chatgpt/r2_c.md",
+        "note": "Now used by Fontes (see via). Missing part: the principles platform /principle is client-side over /api/ (robots.txt Disallow /api/); journal years 1-36 listed as unavailable."
+      }
+    },
+    {
+      "name": "المحكمة الدستورية العليا (law 5/2023, Benghazi; legitimacy disputed)",
+      "en": "Supreme Constitutional Court created by the House of Representatives",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "court contested by the Supreme Court in Tripoli; no publication found"
+      }
+    },
+    {
+      "name": "محاكم الاستئناف",
+      "en": "Courts of Appeal (civil, commercial, personal status)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "No official appeal-court publication found; alolya.gov.ly is Supreme Court only. lawsociety.ly (2,117 judgments, private) may hold some but its terms forbid automated extraction; court mix not checked."
+      }
+    },
+    {
+      "name": "محاكم الجنايات (دوائر بمحاكم الاستئناف)",
+      "en": "Felony courts (chambers of the appeal courts)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "No official appeal-court publication found; alolya.gov.ly is Supreme Court only. lawsociety.ly (2,117 judgments, private) may hold some but its terms forbid automated extraction; court mix not checked."
+      }
+    },
+    {
+      "name": "دوائر القضاء الإداري (بمحاكم الاستئناف)",
+      "en": "Administrative chambers of the appeal courts",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found; appeals reach the Supreme Court's administrative chamber (alolya.gov.ly)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "No separate publication found; Supreme Court administrative-chamber rulings on appeal from these chambers are on alolya.gov.ly (quoted in its judgments)."
+      }
+    },
+    {
+      "name": "المحاكم الابتدائية",
+      "en": "Courts of first instance (civil, commercial, misdemeanour appeals)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "No official publication found; alolya.gov.ly is Supreme Court only; lawsociety.ly court coverage not checked (and terms forbid automated use)."
+      }
+    },
+    {
+      "name": "دوائر الأحوال الشخصية بالمحاكم الابتدائية",
+      "en": "Personal-status chambers",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "No official publication found; alolya.gov.ly is Supreme Court only; lawsociety.ly court coverage not checked (and terms forbid automated use)."
+      }
+    },
+    {
+      "name": "المحاكم الجزئية",
+      "en": "Summary courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "No official publication found; alolya.gov.ly is Supreme Court only."
+      }
+    },
+    {
+      "name": "محاكم الأحداث",
+      "en": "Juvenile courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "No official publication found; juvenile proceedings closed; alolya.gov.ly is Supreme Court only."
+      }
+    },
+    {
+      "name": "المحاكم العسكرية",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No military-court publication found; not checked further."
+      }
+    },
+    {
+      "name": "محكمة الشعب (abolished 2005)",
+      "en": "People's Court (political/state-security court, abolished 2005)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "abolished 2005; no online source",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no publication found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "الإعلان الدستوري (2011)",
+      "en": "Constitutional Declaration",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "not in the MoJ selection; no official online copy located",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not on aladel.gov.ly (MoJ selection). lawsociety.ly likely carries it but terms forbid automated extraction; no official copy located."
+      }
+    },
+    {
+      "name": "القوانين",
+      "en": "Laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "وزارة العدل - Ministry of Justice of Libya (aladel.gov.ly)",
+      "note": "MoJ selection (~190 incl. regulations/treaties), as enacted; parliament.ly robots-blocked",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Libyan Law Society (lawsociety.ly, private)",
+        "url": "https://lawsociety.ly/",
+        "evidence": "research/chatgpt/r2_c.md; search result only (lawsociety.ly carries laws and gazette issues 1951-)",
+        "note": "Missing part: full corpus/gazette texts beyond the MoJ's ~190. parliament.ly robots disallow query strings and /wp-; lawsociety.ly terms forbid automated extraction ('استخدام أدوات أو برامج آلية لاستخراج أو نسخ المحتوى'); prior written permission needed"
+      }
+    },
+    {
+      "name": "اللوائح التنفيذية",
+      "en": "Executive regulations",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "وزارة العدل - Ministry of Justice of Libya (aladel.gov.ly)",
+      "note": "MoJ selection only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Libyan Law Society (lawsociety.ly, private)",
+        "url": "https://lawsociety.ly/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "Missing part: regulations outside the MoJ selection; lawsociety.ly terms forbid automated extraction ('استخدام أدوات أو برامج آلية لاستخراج أو نسخ المحتوى'); prior written permission needed"
+      }
+    },
+    {
+      "name": "قرارات وزارية",
+      "en": "Ministerial decisions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "وزارة العدل - Ministry of Justice of Libya (aladel.gov.ly)",
+      "note": "MoJ's own decisions 2012-2016, 2019",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Cabinet / ministries (pm.gov.ly)",
+        "url": "https://pm.gov.ly/",
+        "evidence": "adapter ly.py docstring",
+        "note": "Missing part: other ministries' decisions; pm.gov.ly robots.txt disallows /images/ where documents sit"
+      }
+    },
+    {
+      "name": "قرارات مجلس الوزراء",
+      "en": "Cabinet decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "pm.gov.ly robots.txt disallows /images/",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Presidency of the Council of Ministers (pm.gov.ly)",
+        "url": "https://pm.gov.ly/",
+        "evidence": "adapter ly.py docstring",
+        "note": "robots.txt disallows /images/, where the decision documents sit"
+      }
+    },
+    {
+      "name": "الجريدة الرسمية",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "no official online gazette found; private lawsociety.ly has issues (terms bar automated use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Libyan Law Society (lawsociety.ly, private)",
+        "url": "https://lawsociety.ly/",
+        "evidence": "search result only (lawsociety.ly/gazette/... issues 1963, 2012 listed in search)",
+        "note": "No official online gazette found (Law 8/2011 requires one; not located). lawsociety.ly hosts issues but terms forbid automated extraction ('استخدام أدوات أو برامج آلية لاستخراج أو نسخ المحتوى'); prior written permission needed"
+      }
+    },
+    {
+      "name": "الاتفاقيات والمواثيق",
+      "en": "Treaties and charters",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "وزارة العدل - Ministry of Justice of Libya (aladel.gov.ly)",
+      "note": "MoJ selection only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Libyan Law Society (lawsociety.ly, private)",
+        "url": "https://lawsociety.ly/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "Missing part: treaties outside the MoJ selection; lawsociety.ly terms forbid automated extraction ('استخدام أدوات أو برامج آلية لاستخراج أو نسخ المحتوى'); prior written permission needed"
+      }
+    }
+  ]
+}

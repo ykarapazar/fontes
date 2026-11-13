@@ -1,0 +1,495 @@
+{
+  "code": "py",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.pj.gov.py/ebook/libros_files/Codigo-Organizacion-Judicial-Actualizado-Concordado-2022.pdf",
+    "https://www.pj.gov.py/enlaces/98-organismos-judiciales"
+  ],
+  "courts": [
+    {
+      "name": "Corte Suprema de Justicia – Sala Constitucional",
+      "en": "Supreme Court, Constitutional Chamber",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+      "note": "decisions since 1990s only; official selection with headnotes",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+        "url": "https://www.csj.gov.py/jurisprudencia",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/py.py): filter covers 1993 on",
+        "note": "missing part: pre-1993 decisions; no other online source found"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala Civil y Comercial",
+      "en": "Supreme Court, Civil and Commercial Chamber",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+      "note": "filter covers 1993 on; earlier decisions not in the database",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+        "url": "https://www.csj.gov.py/jurisprudencia",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/py.py): filter covers 1993 on",
+        "note": "missing part: pre-1993 decisions; no other online source found"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala Penal",
+      "en": "Supreme Court, Criminal Chamber",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+      "note": "filter covers 1993 on; earlier decisions not in the database",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+        "url": "https://www.csj.gov.py/jurisprudencia",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/py.py): filter covers 1993 on",
+        "note": "missing part: pre-1993 decisions; no other online source found"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Pleno",
+      "en": "Supreme Court, plenary",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+      "note": "plenary rulings (e.g. unconstitutionality referred by the Sala) in the same database; filter covers 1993 on",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+        "url": "https://www.csj.gov.py/jurisprudencia",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/py.py): filter covers 1993 on",
+        "note": "missing part: pre-1993 decisions; no other online source found"
+      }
+    },
+    {
+      "name": "Tribunales de Apelación en lo Civil y Comercial",
+      "en": "Courts of appeal – civil and commercial",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "CSJ ResolucionesWeb: Capital + Itapúa appeal courts since 2000",
+      "elsewhere": {
+        "status": "available",
+        "source": "Poder Judicial – ResolucionesWeb (Consulta de Resoluciones Judiciales)",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: page says the base holds 'los fallos dictados por los Tribunales de Apelación de la Capital así como de Itapúa, desde el año 2.000', 'libre y gratuita'",
+        "note": "Capital and Itapúa appeal courts only, 2000 on; other circunscripciones not yet"
+      }
+    },
+    {
+      "name": "Tribunales de Apelación en lo Penal",
+      "en": "Courts of appeal – criminal",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "CSJ ResolucionesWeb: Capital + Itapúa appeal courts since 2000",
+      "elsewhere": {
+        "status": "available",
+        "source": "Poder Judicial – ResolucionesWeb (Consulta de Resoluciones Judiciales)",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: page says the base holds 'los fallos dictados por los Tribunales de Apelación de la Capital así como de Itapúa, desde el año 2.000', 'libre y gratuita'",
+        "note": "Capital and Itapúa appeal courts only, 2000 on; other circunscripciones not yet"
+      }
+    },
+    {
+      "name": "Tribunales de Apelación en lo Laboral",
+      "en": "Courts of appeal – labour",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "CSJ ResolucionesWeb: Capital + Itapúa appeal courts since 2000",
+      "elsewhere": {
+        "status": "available",
+        "source": "Poder Judicial – ResolucionesWeb (Consulta de Resoluciones Judiciales)",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: page says the base holds 'los fallos dictados por los Tribunales de Apelación de la Capital así como de Itapúa, desde el año 2.000', 'libre y gratuita'",
+        "note": "Capital and Itapúa appeal courts only, 2000 on; other circunscripciones not yet"
+      }
+    },
+    {
+      "name": "Tribunales de Apelación de la Niñez y la Adolescencia",
+      "en": "Courts of appeal – children and adolescents",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "CSJ ResolucionesWeb: Capital + Itapúa appeal courts since 2000",
+      "elsewhere": {
+        "status": "available",
+        "source": "Poder Judicial – ResolucionesWeb (Consulta de Resoluciones Judiciales)",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: page says the base holds 'los fallos dictados por los Tribunales de Apelación de la Capital así como de Itapúa, desde el año 2.000', 'libre y gratuita'",
+        "note": "Capital and Itapúa appeal courts only, 2000 on; other circunscripciones not yet"
+      }
+    },
+    {
+      "name": "Tribunales de Apelación Penal Especializado en Delitos Económicos y Crimen Organizado",
+      "en": "Courts of appeal – specialised criminal (economic crime, organised crime)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "CSJ ResolucionesWeb: Capital + Itapúa appeal courts since 2000",
+      "elsewhere": {
+        "status": "available",
+        "source": "Poder Judicial – ResolucionesWeb (Consulta de Resoluciones Judiciales)",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: page says the base holds 'los fallos dictados por los Tribunales de Apelación de la Capital así como de Itapúa, desde el año 2.000', 'libre y gratuita'",
+        "note": "Capital and Itapúa appeal courts only, 2000 on; other circunscripciones not yet"
+      }
+    },
+    {
+      "name": "Tribunales de Apelación en lo Civil, Comercial, Laboral y Penal (circunscripciones del interior)",
+      "en": "Courts of appeal – mixed (regional circuits)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "CSJ ResolucionesWeb: Capital + Itapúa appeal courts since 2000",
+      "elsewhere": {
+        "status": "available",
+        "source": "Poder Judicial – ResolucionesWeb (Consulta de Resoluciones Judiciales)",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: page says the base holds 'los fallos dictados por los Tribunales de Apelación de la Capital así como de Itapúa, desde el año 2.000', 'libre y gratuita'",
+        "note": "Capital and Itapúa appeal courts only, 2000 on; other circunscripciones not yet"
+      }
+    },
+    {
+      "name": "Tribunal de Cuentas",
+      "en": "Court of Accounts (administrative litigation)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no decision database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – Tribunal de Cuentas page",
+        "url": "https://www.pj.gov.py/contenido/137-tribunal-de-cuentas/137",
+        "evidence": "fetched 2026-11-07: pj.gov.py lists a Tribunal de Cuentas page; no decision database found",
+        "note": "not checked whether ResolucionesWeb includes it"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia en lo Civil y Comercial",
+      "en": "First-instance courts – civil and commercial",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia en lo Laboral",
+      "en": "First-instance courts – labour",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Juzgados Penales de Garantías",
+      "en": "First-instance courts – criminal guarantee judges",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Tribunales de Sentencia (penal, colegiados y unipersonales)",
+      "en": "First-instance courts – criminal trial courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Juzgados Penales Especializados en Delitos Económicos y Anticorrupción",
+      "en": "First-instance courts – specialised economic-crime / anti-corruption",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Juzgados de Ejecución Penal",
+      "en": "First-instance courts – sentence enforcement",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia de la Niñez y la Adolescencia",
+      "en": "First-instance courts – children and adolescents",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Juzgados Penales de la Adolescencia",
+      "en": "First-instance courts – juvenile criminal",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial – ResolucionesWeb",
+        "url": "https://www.csj.gov.py/resolucionesweb/",
+        "evidence": "fetched 2026-11-07: ResolucionesWeb describes appeal courts only",
+        "note": "no first-instance decision base found"
+      }
+    },
+    {
+      "name": "Juzgados de Paz",
+      "en": "Justices of the peace",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no decision base found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Poder Judicial",
+        "url": "https://www.pj.gov.py/",
+        "evidence": "fetched 2026-11-07: pj.gov.py has a Juzgado de Paz info page only",
+        "note": "no decision base found"
+      }
+    },
+    {
+      "name": "Tribunal Superior de Justicia Electoral",
+      "en": "Superior Electoral Court",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "TSJE site is a JS app; no decision base located",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Justicia Electoral (TSJE)",
+        "url": "https://www.tsje.gov.py/",
+        "evidence": "fetched 2026-11-07: tsje.gov.py is a JS app (2.9 KB shell); no decision base located",
+        "note": "not established"
+      }
+    },
+    {
+      "name": "Tribunales Electorales",
+      "en": "Electoral courts (appeal)",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "TSJE site is a JS app; no decision base located",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Justicia Electoral (TSJE)",
+        "url": "https://www.tsje.gov.py/",
+        "evidence": "fetched 2026-11-07: tsje.gov.py is a JS app (2.9 KB shell); no decision base located",
+        "note": "not established"
+      }
+    },
+    {
+      "name": "Juzgados Electorales",
+      "en": "Electoral first-instance courts",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "TSJE site is a JS app; no decision base located",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Justicia Electoral (TSJE)",
+        "url": "https://www.tsje.gov.py/",
+        "evidence": "fetched 2026-11-07: tsje.gov.py is a JS app (2.9 KB shell); no decision base located",
+        "note": "not established"
+      }
+    },
+    {
+      "name": "Justicia Militar (Suprema Corte de Justicia Militar, tribunales militares)",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "Constitution art. 174; jurisdiction over military offences of serving personnel",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online (2026-11-10)",
+        "note": "No publication located; not searched further."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Nacional (1992)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Biblioteca y Archivo Central del Congreso Nacional (BACN) – Leyes Paraguayas",
+      "note": "BACN id 9580: full text of the 1992 Constitution by article (verified 2026-11-10: TOC 372 entries, art. 137 opens); text includes the 2011 Enmienda N° 1 to art. 120"
+    },
+    {
+      "name": "Leyes",
+      "en": "Acts of Congress",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Biblioteca y Archivo Central del Congreso Nacional (BACN) – Leyes Paraguayas",
+      "note": "as enacted, not consolidated"
+    },
+    {
+      "name": "Códigos",
+      "en": "Codes (enacted as laws)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Biblioteca y Archivo Central del Congreso Nacional (BACN) – Leyes Paraguayas",
+      "note": "as enacted; big codes split over several BACN pages"
+    },
+    {
+      "name": "Decretos del Poder Ejecutivo",
+      "en": "Presidential/executive decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "presidencia.gov.py and gacetaoficial.gov.py timed out from UK",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Presidencia de la República / Gaceta Oficial",
+        "url": "https://www.presidencia.gov.py/",
+        "evidence": "fetched 2026-11-07: presidencia.gov.py and gacetaoficial.gov.py timed out from our IP",
+        "note": "could not open; geo-block or outage unverified"
+      }
+    },
+    {
+      "name": "Resoluciones ministeriales / reglamentos",
+      "en": "Ministerial resolutions and regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "scattered per ministry; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "ministry websites",
+        "url": null,
+        "evidence": "not checked",
+        "note": "scattered per ministry; not checked"
+      }
+    },
+    {
+      "name": "Gaceta Oficial",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gacetaoficial.gov.py timed out from UK (2026-11-07)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gaceta Oficial de la República del Paraguay",
+        "url": "https://www.gacetaoficial.gov.py/",
+        "evidence": "fetched 2026-11-07: connection timed out (https and http)",
+        "note": "could not open; geo-block or outage unverified"
+      }
+    },
+    {
+      "name": "Ordenanzas municipales / departamentales",
+      "en": "Municipal and departmental ordinances",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "scattered per municipality; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "municipal websites",
+        "url": null,
+        "evidence": "not checked",
+        "note": "scattered per municipality"
+      }
+    },
+    {
+      "name": "Tratados (aprobados por ley)",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Biblioteca y Archivo Central del Congreso Nacional (BACN) – Leyes Paraguayas",
+      "note": "only the approving law, where BACN holds it",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministerio de Relaciones Exteriores",
+        "url": null,
+        "evidence": "not checked",
+        "note": "missing part: treaty texts not attached to the approving law"
+      }
+    }
+  ]
+}

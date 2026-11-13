@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ykarapazar/fontes",
+  "title": "Fontes",
+  "description": "Live court decisions and legislation from court and government websites in 120+ jurisdictions.",
+  "version": "0.1.0",
+  "websiteUrl": "https://ykarapazar.github.io/fontes/",
+  "repository": {
+    "url": "https://github.com/ykarapazar/fontes",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "fontes-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "WLM_FR_PISTE_CLIENT_ID",
+          "description": "France only: client ID of a free PISTE app subscribed to Judilibre and Légifrance. France is off without it.",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "WLM_FR_PISTE_CLIENT_SECRET",
+          "description": "France only: client secret of the same PISTE app.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "WLM_US_GOVINFO_KEY",
+          "description": "United States only: free api.data.gov key for case-law search (without it, about 10 searches a day).",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "code": "mm",
+  "checked": "2026-11-10",
+  "structure_sources": [
+    "https://www.unionsupremecourt.gov.mm/news/post/63"
+  ],
+  "courts": [
+    {
+      "name": "နိုင်ငံတော် ဖွဲ့စည်းပုံအခြေခံဥပဒေဆိုင်ရာ ခုံရုံး",
+      "en": "Constitutional Tribunal of the Union",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "no reachable official source (site 403)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Constitutional Tribunal of the Union",
+        "url": "https://www.constitutionaltribunal.gov.mm/",
+        "evidence": "fetched 2026-11-07: HTTP 403 from UK",
+        "note": "site answers 403; no decision archive confirmed; post-2021 status of the tribunal unclear"
+      }
+    },
+    {
+      "name": "ပြည်ထောင်စုတရားလွှတ်တော်ချုပ်",
+      "en": "Supreme Court of the Union",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Supreme Court of the Union: Rulings and Case Management System (rcms.usc.gov.mm)",
+      "note": "all published precedents: the court's law reports (စီရင်ထုံး) 1920s-2022 as Unicode full text, searchable (title, headnote, case number, full text). No later volumes are published: the court's own law-report list (unionsupremecourt.gov.mm/ruling) ends with 2022 and RCMS likewise (checked 2026-11-10). Unreported commercial judgments on cjs.usc.gov.mm not included (scans / garbled text). One-to-one match of RCMS with the printed volumes not verified"
+    },
+    {
+      "name": "တိုင်းဒေသကြီး/ပြည်နယ် တရားလွှတ်တော်များ",
+      "en": "High Courts of the Regions/States (14)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court of the Union website",
+        "url": "https://www.unionsupremecourt.gov.mm/",
+        "evidence": "fetched 2026-11-07: menu has region/state High Court pages and SC cause lists, no High Court judgment database",
+        "note": "no online High Court decisions found; only Supreme Court law reports (RCMS) include some"
+      }
+    },
+    {
+      "name": "ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရ တိုင်း/ဒေသ တရားရုံးများ",
+      "en": "Courts of the Self-Administered Division and Zones (6)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online source found; Supreme Court site has no lower-court decisions"
+      }
+    },
+    {
+      "name": "ခရိုင်တရားရုံးများ",
+      "en": "District courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online source found; Supreme Court site has no lower-court decisions"
+      }
+    },
+    {
+      "name": "မြို့နယ်တရားရုံးများ",
+      "en": "Township courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online source found; Supreme Court site has no lower-court decisions"
+      }
+    },
+    {
+      "name": "ကုန်သွယ်ရေးဆိုင်ရာ တရားရုံးများ",
+      "en": "Commercial courts (Yangon and Mandalay district level, from 2020)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "adapter deliberately skips the Commercial Judgment System (scans, garbled text)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court of the Union – Commercial Judgment System (CJS)",
+        "url": "https://cjs.usc.gov.mm",
+        "evidence": "used by research in adapter docstring (src/world_legal_mcp/jurisdictions/mm.py)",
+        "note": "CJS holds ~320 commercial judgments (2024+ image scans, older text garbled; 'not an official certified copy'); which courts they come from was not checked"
+      }
+    },
+    {
+      "name": "လူငယ်တရားရုံးများ",
+      "en": "Juvenile courts",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online source found; Supreme Court site has no lower-court decisions"
+      }
+    },
+    {
+      "name": "စည်ပင်သာယာ/ယာဉ်စည်းကမ်း တရားရုံးများ",
+      "en": "Municipal and traffic courts (Yangon, Mandalay)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no online decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online source found; Supreme Court site has no lower-court decisions"
+      }
+    },
+    {
+      "name": "တပ်မတော် စစ်ခုံရုံးများ",
+      "en": "Courts-martial",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no online decisions found; includes the military tribunals used under martial law since 2021",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online source found; not checked beyond Supreme Court site"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "ဖွဲ့စည်းပုံအခြေခံဥပဒေ (2008)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "MLIS down; Hluttaw site JavaScript-only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Myanmar Law Information System (MLIS) / Pyidaungsu Hluttaw",
+        "url": "https://www.mlis.gov.mm/",
+        "evidence": "fetched 2026-11-07: mlis.gov.mm timed out; pyidaungsu.hluttaw.mm returns a 944-byte JS shell",
+        "note": "no reachable official text found"
+      }
+    },
+    {
+      "name": "ဥပဒေများ",
+      "en": "Union laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Supreme Court of the Union: laws, procedures and amending laws (unionsupremecourt.gov.mm)",
+      "note": "~25 laws/procedures on the Supreme Court site (incl. CPC, CrPC in English); legacy-font PDFs refused",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Myanmar Law Information System (MLIS)",
+        "url": "https://www.mlis.gov.mm/",
+        "evidence": "fetched 2026-11-07: connection timed out",
+        "note": "missing part = all other Union laws; MLIS (the official database) unreachable; legacy-font Supreme Court PDFs refused"
+      }
+    },
+    {
+      "name": "နည်းဥပဒေများ / အမိန့်ကြော်ငြာစာများ",
+      "en": "Rules, notifications, orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "MLIS down",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Myanmar Law Information System (MLIS)",
+        "url": "https://www.mlis.gov.mm/",
+        "evidence": "fetched 2026-11-07: connection timed out",
+        "note": "Supreme Court site has a 'procedures and notifications' list (court ones only)"
+      }
+    },
+    {
+      "name": "မြန်မာနိုင်ငံပြန်တမ်း",
+      "en": "Myanmar Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "no online gazette found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no online Myanmar Gazette found; MLIS unreachable"
+      }
+    },
+    {
+      "name": "တိုင်းဒေသကြီး/ပြည်နယ် ဥပဒေများ",
+      "en": "Region/State laws",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "no online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "not checked; MLIS unreachable"
+      }
+    },
+    {
+      "name": "နိုင်ငံတကာ စာချုပ်များ",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no treaty database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministry of Foreign Affairs",
+        "url": "https://www.mofa.gov.mm/",
+        "evidence": "fetched 2026-11-07: home page 200, no treaty section linked",
+        "note": "no treaty database found"
+      }
+    }
+  ]
+}

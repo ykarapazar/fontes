@@ -1,0 +1,293 @@
+{
+  "code": "bg",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/bg_en"
+  ],
+  "courts": [
+    {
+      "name": "Конституционен съд",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Конституционен съд (Constitutional Court), constcourt.bg",
+      "note": "site text search broken; query words matched against the act list"
+    },
+    {
+      "name": "Върховен касационен съд",
+      "en": "Supreme Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "vks.bg times out, https and http (2026-11-05/-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Върховен касационен съд",
+        "url": "https://www.vks.bg",
+        "evidence": "fetch failed 2026-11-07 (timeout, https and http)",
+        "note": "vks.bg times out from the UK on 2026-11-05/06/07; could not see what it publishes"
+      }
+    },
+    {
+      "name": "Върховен административен съд",
+      "en": "Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "search only via /wp-json/, which robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Върховен административен съд – търсене на дела и актове",
+        "url": "https://sac.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06)",
+        "note": "search only via /wp-json/vas/v1/edis/ and robots.txt says 'Disallow: /wp-json/'; info-adc.justice.bg answers robots.txt with 403"
+      }
+    },
+    {
+      "name": "Апелативни съдилища",
+      "en": "Courts of appeal (5)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "legalacts.justice.bg: bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    },
+    {
+      "name": "Апелативен специализиран наказателен съд",
+      "en": "Specialised Criminal Court of Appeal (abolished 2022)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "abolished 27 July 2022 (cases moved to Sofia City Court / Sofia Court of Appeal); the e-justice page (fetched 2026-11-07) still lists it",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    },
+    {
+      "name": "Военно-апелативен съд",
+      "en": "Military Court of Appeal (1)",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "legalacts.justice.bg: bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    },
+    {
+      "name": "Окръжни съдилища и Софийски градски съд",
+      "en": "District (provincial) courts (28 incl. Sofia City Court); first instance for serious cases and commercial/company matters, appeal from regional courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "legalacts.justice.bg: bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    },
+    {
+      "name": "Специализиран наказателен съд",
+      "en": "Specialised Criminal Court (abolished 2022)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "abolished 27 July 2022 (cases moved to Sofia City Court / Sofia Court of Appeal); the e-justice page (fetched 2026-11-07) still lists it",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    },
+    {
+      "name": "Районни съдилища",
+      "en": "Regional (district-level) courts (113)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "legalacts.justice.bg: bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    },
+    {
+      "name": "Административни съдилища",
+      "en": "Administrative courts (28 incl. Administrative Court Sofia-City)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "legalacts.justice.bg: bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    },
+    {
+      "name": "Военни съдилища",
+      "en": "Military courts (5 per e-justice)",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "legalacts.justice.bg: bot check",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Централен уеб портал за публикуване на съдебните актове",
+        "url": "https://legalacts.justice.bg",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py (checked 2026-11-06); https timed out again 2026-11-07",
+        "note": "http serves a JavaScript cookie challenge page (bot check); https times out from the UK"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Конституция на Република България",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Народно събрание (National Assembly), parliament.bg API: Constitution and laws as adopted",
+      "note": "consolidated text with all amendments to ДВ бр. 66/2024 (parliament.bg/api/v1/nav/bg/const), id 'const'; fetched 2026-11-10"
+    },
+    {
+      "name": "Закони и кодекси",
+      "en": "Laws and codes of the National Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Народно събрание (National Assembly), parliament.bg API: Constitution and laws as adopted",
+      "note": "as adopted/promulgated, never consolidated; search covers the current Assembly, or 2006 onwards with a 'year' filter (parliament.bg archive, checked 2026-11-10). Missing: consolidated texts of laws and codes, and laws adopted before 2006 (base texts of e.g. Penal Code 1968, ЗЗД 1950 appear only via later amending laws)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "src/world_legal_mcp/jurisdictions/bg.py",
+        "note": "missing part is consolidated text: no official free consolidated source; lex.bg / Ciela / Apis are private"
+      }
+    },
+    {
+      "name": "Укази на президента",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "promulgated in the State Gazette",
+      "elsewhere": {
+        "status": "available",
+        "source": "Държавен вестник (official section)",
+        "url": "https://dv.parliament.bg/DVWeb/index.faces",
+        "evidence": "fetched 2026-11-07: State Gazette JSF app answers 200; no robots.txt (404)",
+        "note": "presidential decrees are promulgated in the State Gazette; search is a stateful JSF postback"
+      }
+    },
+    {
+      "name": "Постановления, наредби, правилници на Министерския съвет",
+      "en": "Council of Ministers decrees, ordinances, regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Secondary legislation: ПРИС (pris.government.bg) and State Gazette",
+      "elsewhere": {
+        "status": "available",
+        "source": "ПРИС – Правно-информационна система на Министерския съвет",
+        "url": "https://pris.government.bg",
+        "evidence": "fetched 2026-11-07: homepage has Документи and Търсене (/folders gave an error page); full-text decree pages seen in search results",
+        "note": "Council of Ministers decrees, decisions, orders; also in the State Gazette"
+      }
+    },
+    {
+      "name": "Наредби и инструкции на министри",
+      "en": "Ministerial ordinances and instructions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "promulgated in the State Gazette",
+      "elsewhere": {
+        "status": "available",
+        "source": "Държавен вестник (official section)",
+        "url": "https://dv.parliament.bg/DVWeb/index.faces",
+        "evidence": "fetched 2026-11-07: State Gazette JSF app answers 200; no robots.txt (404)",
+        "note": "ministerial ordinances are promulgated in the State Gazette; stateful JSF search"
+      }
+    },
+    {
+      "name": "Държавен вестник",
+      "en": "State Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "search is a stateful JSF postback",
+      "elsewhere": {
+        "status": "available",
+        "source": "Държавен вестник",
+        "url": "https://dv.parliament.bg/DVWeb/index.faces",
+        "evidence": "fetched 2026-11-07: State Gazette JSF app answers 200; no robots.txt (404)",
+        "note": "free; hard to automate (stateful JSF postback), not a block"
+      }
+    },
+    {
+      "name": "Наредби на общинските съвети",
+      "en": "Municipal council ordinances",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "on municipal sites; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "ordinances sit on each of 265 municipal sites; none checked"
+      }
+    },
+    {
+      "name": "Международни договори",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "ratification laws via laws as adopted; treaty texts promulgated in the State Gazette",
+      "elsewhere": {
+        "status": "available",
+        "source": "Държавен вестник (official section)",
+        "url": "https://dv.parliament.bg/DVWeb/index.faces",
+        "evidence": "fetched 2026-11-07: State Gazette JSF app answers 200; no robots.txt (404)",
+        "note": "ratified treaties are promulgated in the State Gazette (Constitution art. 5(4)); treaty pages not opened"
+      }
+    }
+  ]
+}

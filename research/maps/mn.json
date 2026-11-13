@@ -1,0 +1,214 @@
+{
+  "code": "mn",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.supremecourt.mn/en/home?page=pages&id=138&pr=137&tp=list&h=0",
+    "https://conscourt.gov.mn/?amp=&lang=en&page_id=842"
+  ],
+  "courts": [
+    {
+      "name": "Үндсэн хуулийн цэц",
+      "en": "Constitutional Court (Tsets)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "legalinfo.mn reachable; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legalinfo – Эрх зүйн мэдээллийн нэгдсэн систем (National Legal Institute)",
+        "url": "https://legalinfo.mn/mn",
+        "evidence": "fetched 2026-11-07: legalinfo.mn home page category list: 'Үндсэн хуулийн цэцийн шийдвэр (333)'",
+        "note": "333 Constitutional Court decisions as HTML; search POST /mn/ajaxList/ (research/chatgpt/validation-r2-c.md); conscourt.gov.mn shows a host 'suspended' page"
+      }
+    },
+    {
+      "name": "Улсын дээд шүүх",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "civil, criminal and administrative chambers (level=supreme)"
+    },
+    {
+      "name": "Нийслэлийн иргэний хэргийн давж заалдах шатны шүүх",
+      "en": "Capital City Civil Appellate Court",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=civil, level=appeal"
+    },
+    {
+      "name": "Нийслэлийн эрүүгийн хэргийн давж заалдах шатны шүүх",
+      "en": "Capital City Criminal Appellate Court",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=criminal, level=appeal"
+    },
+    {
+      "name": "Аймгийн Эрүү, Иргэний хэргийн давж заалдах шатны шүүхүүд",
+      "en": "Aimag appellate courts (civil and criminal)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=civil/criminal, level=appeal; seen 2026-11-07: Zavkhan, Uvs (combined criminal-civil), Darkhan-Uul (civil)"
+    },
+    {
+      "name": "Захиргааны хэргийн давж заалдах шатны шүүх",
+      "en": "Administrative Appellate Court",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=administrative, level=appeal"
+    },
+    {
+      "name": "Нийслэлийн дүүргийн иргэний хэргийн анхан шатны шүүхүүд",
+      "en": "Capital City district civil courts of first instance",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=civil, level=first"
+    },
+    {
+      "name": "Нийслэлийн дүүргийн эрүүгийн хэргийн анхан шатны шүүхүүд",
+      "en": "Capital City district criminal courts of first instance",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=criminal, level=first; seen 2026-11-07: Bayangol, Songinokhairkhan, Khan-Uul district courts and the 2025 merged circuit courts (тойргийн шүүх)"
+    },
+    {
+      "name": "Сумын болон сум дундын шүүхүүд",
+      "en": "Soum and inter-soum courts (aimag first-instance, civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=civil/criminal, level=first; seen 2026-11-07: Selenge, Sükhbaatar, Övörkhangai inter-soum courts"
+    },
+    {
+      "name": "Захиргааны хэргийн анхан шатны шүүхүүд (аймаг, нийслэл)",
+      "en": "Administrative courts of first instance (aimags and capital)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+      "note": "category=administrative, level=first; seen 2026-11-07: capital, Govisümber, Orkhon, Ömnögovi"
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Монгол Улсын Үндсэн хууль",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "legalinfo.mn reachable 2026-11-07; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legalinfo – Эрх зүйн мэдээллийн нэгдсэн систем (National Legal Institute)",
+        "url": "https://legalinfo.mn/mn",
+        "evidence": "fetched 2026-11-07: legalinfo.mn home page category list: 'Монгол Улсын Үндсэн Хууль (1)'",
+        "note": "HTML text; robots.txt 404; rules PDF (scan) says database is free and open to the public (research/chatgpt/validation-r2-c.md)"
+      }
+    },
+    {
+      "name": "Хууль",
+      "en": "Laws of the State Great Khural",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "legalinfo.mn: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legalinfo – Эрх зүйн мэдээллийн нэгдсэн систем (National Legal Institute)",
+        "url": "https://legalinfo.mn/mn",
+        "evidence": "fetched 2026-11-07: legalinfo.mn home page category list: 'Монгол Улсын хууль (956)'",
+        "note": "956 laws + 347 unofficial English translations; search POST /mn/ajaxList/"
+      }
+    },
+    {
+      "name": "Засгийн газрын тогтоол",
+      "en": "Government resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "legalinfo.mn: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legalinfo – Эрх зүйн мэдээллийн нэгдсэн систем (National Legal Institute)",
+        "url": "https://legalinfo.mn/mn",
+        "evidence": "fetched 2026-11-07: legalinfo.mn home page category list: 'Засгийн газрын тогтоол (5800)'",
+        "note": "also Presidential decrees (218), Parliament resolutions (2597)"
+      }
+    },
+    {
+      "name": "Сайдын тушаал",
+      "en": "Ministerial orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "legalinfo.mn: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legalinfo – Эрх зүйн мэдээллийн нэгдсэн систем (National Legal Institute)",
+        "url": "https://legalinfo.mn/mn",
+        "evidence": "fetched 2026-11-07: legalinfo.mn home page category list: 'Сайдын тушаал (987)'",
+        "note": "plus agency heads' orders (219)"
+      }
+    },
+    {
+      "name": "Төрийн мэдээлэл",
+      "en": "State Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette issues not found online",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Parliament of Mongolia (Төрийн мэдээлэл publisher)",
+        "url": "https://www.parliament.mn/",
+        "evidence": "search result only",
+        "note": "gazette issues not found online; the acts it prints are on legalinfo.mn"
+      }
+    },
+    {
+      "name": "Иргэдийн Төлөөлөгчдийн Хурлын шийдвэр",
+      "en": "Local council decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "legalinfo.mn has 1,217 aimag/capital council decisions; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legalinfo – Эрх зүйн мэдээллийн нэгдсэн систем (National Legal Institute)",
+        "url": "https://legalinfo.mn/mn",
+        "evidence": "fetched 2026-11-07: legalinfo.mn home page category list: 'Аймаг, нийслэлийн ИТХ-ын шийдвэр (1217)'",
+        "note": "aimag/capital council decisions only; soum/district councils not listed"
+      }
+    },
+    {
+      "name": "Олон улсын гэрээ",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "legalinfo.mn has 702 treaties; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Legalinfo – Эрх зүйн мэдээллийн нэгдсэн систем (National Legal Institute)",
+        "url": "https://legalinfo.mn/mn",
+        "evidence": "fetched 2026-11-07: legalinfo.mn home page category list: 'Монгол Улсын олон улсын гэрээ (702)'",
+        "note": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "code": "pa",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.organojudicial.gob.pa/corte-suprema-de-justicia-salas"
+  ],
+  "courts": [
+    {
+      "name": "Corte Suprema de Justicia – Pleno",
+      "en": "Supreme Court – Plenary (constitutional)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "only rulings published in the Gaceta (~1,000 FALLO/SENTENCIA)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Procuraduría de la Administración – Infojurídica (jurisprudencia constitucional)",
+        "url": "https://infojuridica.procuraduria-admon.gob.pa/",
+        "evidence": "fetched 2026-11-10: home page offers 'Jurisprudencia constitucional' search of fallos of the Pleno de la CSJ, incl. 'No publicado en Gaceta Oficial'; robots.txt 404",
+        "note": "missing part = Pleno rulings not in the Gaceta; Infojurídica (official, Procuraduría) holds them, plus the OJ consultafallos app."
+      }
+    },
+    {
+      "name": "Sala Primera (Civil)",
+      "en": "Civil Chamber",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "few rulings in the Gaceta; Órgano Judicial: WAF 403",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": "missing part = most Sala Primera rulings. The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Sala Segunda (Penal)",
+      "en": "Criminal Chamber",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "few rulings in the Gaceta; Órgano Judicial: WAF 403",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": "missing part = most Sala Segunda rulings. The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Sala Tercera (Contencioso-Administrativo y Laboral)",
+      "en": "Administrative and Labour Chamber",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "rulings published in the Gaceta",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": "missing part = Sala Tercera rulings not in the Gaceta. The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Sala Cuarta (Negocios Generales)",
+      "en": "General Business Chamber",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Órgano Judicial: WAF 403",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": "Sala Cuarta decides exequatur, habeas data etc. The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunales Superiores de Distrito Judicial – salas civiles",
+      "en": "Superior District Courts – civil chambers",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "four judicial districts (Primer to Cuarto Distrito Judicial)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": " The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunales Superiores de Distrito Judicial – salas penales",
+      "en": "Superior District Courts – criminal chambers (inquisitorial system)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": " The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunales Superiores de Apelaciones del Sistema Penal Acusatorio",
+      "en": "Appeal courts of the accusatorial criminal system",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": " The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunal Superior de Familia",
+      "en": "Superior Family Court",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": " The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunal Superior de Niñez y Adolescencia",
+      "en": "Superior Court for Children and Adolescents",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": " The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunales Superiores de Trabajo (Primer y Segundo Distrito Judicial)",
+      "en": "Superior Labour Courts (2)",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": " The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunal Superior de Libre Competencia y Asuntos del Consumidor",
+      "en": "Superior Court for Competition and Consumer Affairs",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "available",
+        "source": "Órgano Judicial – Consulta de Fallos (CENDOJ / SRJ)",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "fetched 2026-11-10: consultafallos.organojudicial.gob.pa answers 200 (JS app 'OJ Panama'; robots.txt 404); scope from its Manual_SRJ-CENDOJ.pdf (search result only): 'resoluciones judiciales emitidas por la Corte Suprema de Justicia y Tribunales Superiores'",
+        "note": " The main www.organojudicial.gob.pa site answers WAF 403 to plain clients; this sub-site did not."
+      }
+    },
+    {
+      "name": "Tribunal Marítimo de Panamá (Juzgados Primero y Segundo de Circuito Marítimo) / Tribunal Superior de Apelaciones Marítimas",
+      "en": "Maritime courts and maritime appeal court",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": "Whether maritime rulings are in consultafallos is unverified."
+      }
+    },
+    {
+      "name": "Juzgados de Circuito Civil",
+      "en": "Circuit courts – civil",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados de Circuito Penal (sistema inquisitivo)",
+      "en": "Circuit courts – criminal (old system)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Tribunales de Juicio (Sistema Penal Acusatorio)",
+      "en": "Trial courts of the accusatorial system",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Jueces de Garantías",
+      "en": "Guarantee judges",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Jueces de Cumplimiento",
+      "en": "Sentence-enforcement judges",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados de Circuito de Familia",
+      "en": "Circuit family courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados de Niñez y Adolescencia / Juzgados Penales de Adolescentes",
+      "en": "Children's and juvenile criminal courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados Seccionales de Trabajo",
+      "en": "Sectional labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados de Circuito de Libre Competencia y Asuntos del Consumidor",
+      "en": "Competition and consumer circuit courts",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados Agrarios",
+      "en": "Agrarian courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados Municipales (civil, penal, familia)",
+      "en": "Municipal courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Juzgados Comarcales",
+      "en": "Indigenous-district (comarca) courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Jueces de Paz",
+      "en": "Justices of the peace (Ley 16 de 2016)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "community justice under the municipalities",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Órgano Judicial – Consulta de Fallos",
+        "url": "https://consultafallos.organojudicial.gob.pa/",
+        "evidence": "search result only: the consultafallos manual describes CSJ and Tribunales Superiores rulings only; www.organojudicial.gob.pa WAF 403 (fetched 2026-11-07)",
+        "note": " No official publication of first-instance judgments found; unverified because the main judiciary site is WAF-blocked."
+      }
+    },
+    {
+      "name": "Tribunal Electoral",
+      "en": "Electoral Tribunal",
+      "tier": "specialised",
+      "branch": "electoral",
+      "reached": "no",
+      "via": null,
+      "note": "independent constitutional body outside the Órgano Judicial",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tribunal Electoral",
+        "url": "https://www.tribunal-electoral.gob.pa/",
+        "evidence": "search result only (2026-11-10): TE published 'Casuística Electoral 1995-2021'; vLex (paid) indexes ~1,700 TE fallos",
+        "note": "No official online decision database confirmed; vLex copy is commercial (blocked: paid)."
+      }
+    },
+    {
+      "name": "Tribunal Administrativo Tributario",
+      "en": "Tax Administrative Tribunal",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "outside the judiciary; appeal to Sala Tercera",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10): nothing found",
+        "note": "No publication of its resolutions found."
+      }
+    },
+    {
+      "name": "Tribunal de Cuentas",
+      "en": "Court of Accounts",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "fiscal-liability judgments",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10): nothing found",
+        "note": "No publication of its fallos found."
+      }
+    },
+    {
+      "name": "Tribunal Administrativo de la Función Pública",
+      "en": "Civil Service Administrative Tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10): nothing found",
+        "note": "Not checked further."
+      }
+    },
+    {
+      "name": "Tribunal Administrativo de Contrataciones Públicas",
+      "en": "Public Procurement Administrative Tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10): nothing found",
+        "note": "Not checked further."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Política",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "as published"
+    },
+    {
+      "name": "Leyes / Decretos Ley / Textos Únicos",
+      "en": "Laws, decree-laws, consolidated texts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "as published; old ones are scans"
+    },
+    {
+      "name": "Decretos Ejecutivos",
+      "en": "Executive decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "as published"
+    },
+    {
+      "name": "Resoluciones / Acuerdos",
+      "en": "Resolutions and agreements",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "as published"
+    },
+    {
+      "name": "Gaceta Oficial",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "Legispan indexes Gaceta texts; old ones scans",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Gaceta Oficial de Panamá",
+        "url": "https://www.gacetaoficial.gob.pa/",
+        "evidence": "fetched 2026-11-07: 212-byte bot-challenge page; Incapsula per src/world_legal_mcp/jurisdictions/pa.py",
+        "note": "missing part = full gazette issues and clean text of old scanned norms; Incapsula bot challenge"
+      }
+    },
+    {
+      "name": "Acuerdos municipales",
+      "en": "Municipal agreements",
+      "level": "local",
+      "reached": "partly",
+      "via": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+      "note": "ACUERDO type included; municipal coverage not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "missing part = municipal agreements not sent to the Gaceta; municipalities' own sites not checked"
+      }
+    },
+    {
+      "name": "Tratados",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Legislative approval laws in the Gaceta (via Legispan) / Ministerio de Relaciones Exteriores",
+        "url": "https://mire.gob.pa/",
+        "evidence": "fetched 2026-11-07: mire.gob.pa home page has no treaty link",
+        "note": "treaties are approved by law and gazetted, so Legispan may hold the approval laws (unchecked); no treaty database found"
+      }
+    }
+  ]
+}

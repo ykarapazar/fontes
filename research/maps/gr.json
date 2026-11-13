@@ -1,0 +1,484 @@
+{
+  "code": "gr",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-ordinary-courts/el_en",
+    "https://www.mfa.gr/missionsabroad/en/about-greece/government-and-politics/judicial-power.html",
+    "https://dsa.gr/sites/default/files/news/attached/topiki_armodiotita_n_5108_2024.pdf"
+  ],
+  "courts": [
+    {
+      "name": "Ανώτατο Ειδικό Δικαστήριο",
+      "en": "Special Highest Court (Art. 100 Constitution)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "sits ad hoc; no own website or decision database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "one web search found no official publication of its decisions (only press and academic copies); not checked whether they appear on areiospagos.gr or adjustice.gr"
+      }
+    },
+    {
+      "name": "Άρειος Πάγος",
+      "en": "Supreme Civil and Criminal Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Άρειος Πάγος – Νομολογία (Supreme Civil and Criminal Court)",
+      "note": "2006 onward only; search by number/year/subject index (index mostly 2007–2010), no free text",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Άρειος Πάγος – Νομολογία",
+        "url": "https://www.areiospagos.gr/nomologia/apofaseis.asp",
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07): all civil and criminal judgments since 2006, anonymised",
+        "note": "missing part: pre-2006 decisions and free-text search; no official online source for pre-2006"
+      }
+    },
+    {
+      "name": "Συμβούλιο της Επικρατείας",
+      "en": "Council of State (supreme administrative court)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Συμβούλιο της Επικρατείας – Αναζήτηση Νομολογίας (adjustice.gr)",
+        "url": "http://www.adjustice.gr/",
+        "evidence": "fetched 2026-11-07: adjustice.gr pages 302 to /obrar.cgi?encreply=... (bot-manager challenge); adapter gr.py gaps: 'bot check / blocks our client'",
+        "note": "decisions since 1990, anonymised (e-justice); bot-manager challenge on every page"
+      }
+    },
+    {
+      "name": "Ελεγκτικό Συνέδριο",
+      "en": "Hellenic Court of Audit",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "own case-law search on elsyn.gr, not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Ελεγκτικό Συνέδριο – Νομολογία",
+        "url": "https://www.elsyn.gr/el/νομολογία",
+        "evidence": "fetched 2026-11-07 (curl): Drupal search with filters (subject, chamber, document type Απόφαση/Γνωμοδότηση/Πράξη, year 2001-2026, word search); robots.txt standard Drupal (only /search/, /admin/ etc. disallowed)",
+        "note": "decisions, opinions and acts 2001-; site serves an incomplete TLS chain (strict clients fail cert verify); terms not read"
+      }
+    },
+    {
+      "name": "Εφετεία – πολιτικά τμήματα (19)",
+      "en": "Courts of Appeal – civil",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no central database; Piraeus Court of Appeal has its own search",
+      "elsewhere": {
+        "status": "available",
+        "source": "Εφετείο Πειραιώς – Αναζήτηση Νομολογίας (civil and criminal)",
+        "url": "https://www.efeteio-peir.gr/?page_id=2422",
+        "evidence": "fetched 2026-11-07: efeteio-peir.gr homepage links 'Αναζήτηση Νομολογίας (Πολιτικές Αποφάσεις)' (page_id=2422) and '(Ποινικές Αποφάσεις)' (page_id=9331); search pages not opened",
+        "note": "one court only, a selection, anonymised since 2017 (e-justice); Athens Court of Appeal site has no case-law search; other Εφετεία not checked"
+      }
+    },
+    {
+      "name": "Τριμελή / Πενταμελή Εφετεία Κακουργημάτων (ποινικά)",
+      "en": "Courts of Appeal – criminal (felony) panels",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no central database; Piraeus Court of Appeal has its own search",
+      "elsewhere": {
+        "status": "available",
+        "source": "Εφετείο Πειραιώς – Αναζήτηση Νομολογίας (civil and criminal)",
+        "url": "https://www.efeteio-peir.gr/?page_id=2422",
+        "evidence": "fetched 2026-11-07: efeteio-peir.gr homepage links 'Αναζήτηση Νομολογίας (Πολιτικές Αποφάσεις)' (page_id=2422) and '(Ποινικές Αποφάσεις)' (page_id=9331); search pages not opened",
+        "note": "one court only, a selection, anonymised since 2017 (e-justice); Athens Court of Appeal site has no case-law search; other Εφετεία not checked"
+      }
+    },
+    {
+      "name": "Μικτά Ορκωτά Εφετεία",
+      "en": "Mixed jury courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no central database; Piraeus Court of Appeal has its own search",
+      "elsewhere": {
+        "status": "available",
+        "source": "Εφετείο Πειραιώς – Αναζήτηση Νομολογίας (civil and criminal)",
+        "url": "https://www.efeteio-peir.gr/?page_id=2422",
+        "evidence": "fetched 2026-11-07: efeteio-peir.gr homepage links 'Αναζήτηση Νομολογίας (Πολιτικές Αποφάσεις)' (page_id=2422) and '(Ποινικές Αποφάσεις)' (page_id=9331); search pages not opened",
+        "note": "one court only, a selection, anonymised since 2017 (e-justice); Athens Court of Appeal site has no case-law search; other Εφετεία not checked"
+      }
+    },
+    {
+      "name": "Μονομελή Πρωτοδικεία (incl. former Ειρηνοδικεία jurisdiction since 16-9-2024)",
+      "en": "Single-member Courts of First Instance",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no central database; e-justice says Piraeus publishes a selection",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Πρωτοδικείο Πειραιώς (site per e-justice)",
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "e-justice says Piraeus first-instance case law is searchable (selection); protodikeio-ath.gr and protodikeiopeiraia.gr did not answer 2026-11-07; no URL confirmed"
+      }
+    },
+    {
+      "name": "Πολυμελή Πρωτοδικεία",
+      "en": "Multi-member Courts of First Instance",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no central database; e-justice says Piraeus publishes a selection",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Πρωτοδικείο Πειραιώς (site per e-justice)",
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "e-justice says Piraeus first-instance case law is searchable (selection); protodikeio-ath.gr and protodikeiopeiraia.gr did not answer 2026-11-07; no URL confirmed"
+      }
+    },
+    {
+      "name": "Ειρηνοδικεία (abolished 2024, merged into Πρωτοδικεία by ν. 5108/2024)",
+      "en": "Magistrates' (peace) courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no central database; abolished 16-9-2024",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Πρωτοδικείο Πειραιώς (site per e-justice)",
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "e-justice says Piraeus first-instance case law is searchable (selection); protodikeio-ath.gr and protodikeiopeiraia.gr did not answer 2026-11-07; no URL confirmed"
+      }
+    },
+    {
+      "name": "Μονομελή Πλημμελειοδικεία",
+      "en": "Single-member misdemeanour courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "e-justice lists no source for these courts; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Τριμελή Πλημμελειοδικεία",
+      "en": "Three-member misdemeanour courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "e-justice lists no source for these courts; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Μικτά Ορκωτά Δικαστήρια",
+      "en": "Mixed jury courts (felonies)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "e-justice lists no source for these courts; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Δικαστήρια Ανηλίκων",
+      "en": "Juvenile courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "e-justice lists no source for these courts; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Διοικητικά Εφετεία",
+      "en": "Administrative Courts of Appeal",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "selection on adjustice.gr court portals",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Διοικητικό Εφετείο Αθηνών portal (adjustice.gr)",
+        "url": "http://www.adjustice.gr/webcenter/portal/defeteioath",
+        "evidence": "fetched 2026-11-07: adjustice.gr pages 302 to /obrar.cgi?encreply=... (bot-manager challenge); adapter gr.py gaps: 'bot check / blocks our client'",
+        "note": "selection of judgments (e-justice); same bot-manager challenge as the Council of State"
+      }
+    },
+    {
+      "name": "Διοικητικά Πρωτοδικεία",
+      "en": "Administrative Courts of First Instance",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "selection on adjustice.gr court portals",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Διοικητικό Πρωτοδικείο Αθηνών portal (adjustice.gr)",
+        "url": "http://www.adjustice.gr/webcenter/portal/dprotodikeioath",
+        "evidence": "fetched 2026-11-07: adjustice.gr pages 302 to /obrar.cgi?encreply=... (bot-manager challenge); adapter gr.py gaps: 'bot check / blocks our client'",
+        "note": "selection of judgments (e-justice); same bot-manager challenge"
+      }
+    },
+    {
+      "name": "Στρατοδικεία, Ναυτοδικεία, Αεροδικεία",
+      "en": "Courts-martial (army, navy, air force)",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "not listed by e-justice; no military-justice site checked"
+      }
+    },
+    {
+      "name": "Αναθεωρητικό Δικαστήριο",
+      "en": "Military Court of Review (appeal)",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "https://e-justice.europa.eu/topics/legislation-and-case-law/national-case-law/el_en (fetched 2026-11-07)",
+        "note": "not listed by e-justice; no military-justice site checked"
+      }
+    },
+    {
+      "name": "Ειδικό Δικαστήριο άρθρου 86 Συντάγματος",
+      "en": "Special Court for ministerial liability",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sits ad hoc",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official publication found (decisions reported in press)"
+      }
+    },
+    {
+      "name": "Ειδικό Δικαστήριο άρθρου 99 Συντάγματος",
+      "en": "Special Court for judges' liability (αγωγές κακοδικίας)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sits ad hoc",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "not researched"
+      }
+    },
+    {
+      "name": "Μουφτήδες Θράκης (Κομοτηνή, Ξάνθη, Διδυμότειχο)",
+      "en": "Muftis of Thrace (Sharia jurisdiction in family/inheritance for the Muslim minority, opt-in since 2018)",
+      "tier": "specialised",
+      "branch": "religious",
+      "reached": "no",
+      "via": null,
+      "note": "decisions need Πρωτοδικείο exequatur",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "mufti decisions are not published"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Σύνταγμα",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "only as published in ΦΕΚ (full-text gazette search); ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); text as published in ΦΕΚ, not consolidated (Parliament site hellenicparliament.gr answered 403 2026-11-07)"
+      }
+    },
+    {
+      "name": "Νόμος (ν.)",
+      "en": "Acts of Parliament",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "searchable by number/year; ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); no official consolidated text; kodiko.gr / e-nomothesia.gr are private (kodiko is subscription)"
+      }
+    },
+    {
+      "name": "Πράξη Νομοθετικού Περιεχομένου",
+      "en": "Acts of legislative content (emergency decrees)",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "only via ΦΕΚ full-text/issue lookup; ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); no other official source"
+      }
+    },
+    {
+      "name": "Προεδρικό Διάταγμα (π.δ.)",
+      "en": "Presidential Decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "searchable by number/year; ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); no other official source"
+      }
+    },
+    {
+      "name": "Υπουργικές / Κοινές Υπουργικές Αποφάσεις",
+      "en": "Ministerial and joint ministerial decisions (ΦΕΚ Β)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "only via ΦΕΚ full-text/issue lookup; ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); Diavgeia (diavgeia.gov.gr) has administrative acts via open API, not ΦΕΚ B texts as such"
+      }
+    },
+    {
+      "name": "Εφημερίδα της Κυβερνήσεως (ΦΕΚ)",
+      "en": "Government Gazette (all issues)",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "pre-~2000 issues scans only, no OCR; ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); pre-~2000 issues are image scans without text"
+      }
+    },
+    {
+      "name": "Κανονιστικές πράξεις ΟΤΑ",
+      "en": "Regional/municipal regulatory acts",
+      "level": "local",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "only those published in ΦΕΚ; ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); acts not published in ΦΕΚ: only on Diavgeia/municipal sites, not checked"
+      }
+    },
+    {
+      "name": "Διεθνείς συμβάσεις (κυρωτικοί νόμοι)",
+      "en": "Treaties (ratified by law)",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+      "note": "via their ratifying law in ΦΕΚ; ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercial use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ",
+        "url": "https://search.et.gr/el/",
+        "evidence": "research/south_nordic_baltic.md; adapter gr.py (terms_url search.et.gr/el/oroi-xrisis/)",
+        "note": "missing part: hosted use needs ET permission (terms: personal, informational, non-commercial use; research/SIGNUPS.md); no separate official treaty database checked"
+      }
+    },
+    {
+      "name": "Κωδικοποιημένη νομοθεσία",
+      "en": "Consolidated legislation",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "not published online officially (only the ΦΕΚ gazette as published)",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "research/south_nordic_baltic.md ('No consolidated official text (only the FEK gazette)'); fetched 2026-11-07: kodiko.gr is a private subscription service",
+        "note": "only private consolidations (kodiko.gr, paid; e-nomothesia.gr)"
+      }
+    }
+  ]
+}

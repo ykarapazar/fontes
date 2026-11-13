@@ -1,0 +1,333 @@
+{
+  "code": "tj",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://constcourt.tj/en/history-of-the-constitutional-court-of-the-republic-of-tajikistan/",
+    "https://kumitaizabon.tj/en/content/judicial-power"
+  ],
+  "courts": [
+    {
+      "name": "Суди конститутсионӣ / Конституционный суд",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Constitutional Court of the Republic of Tajikistan (constcourt.tj)",
+      "note": "29 acts posted (ru/tj); others not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Constitutional Court (constcourt.tj)",
+        "url": "https://constcourt.tj",
+        "evidence": "used by Fontes tj adapter (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "missing part: the court posts only 29 acts; others not published online"
+      }
+    },
+    {
+      "name": "Суди Олӣ – Пленум / Президиум",
+      "en": "Supreme Court, Plenum and Presidium",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court (sud.tj)",
+        "url": "https://sud.tj",
+        "evidence": "used by Fontes tj adapter docstring (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "sud.tj times out from the UK (2026-11-06); could not see whether it publishes judgments"
+      }
+    },
+    {
+      "name": "Суди Олӣ – коллегияи судӣ оид ба парвандаҳои гражданӣ",
+      "en": "Supreme Court, Civil Collegium",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court (sud.tj)",
+        "url": "https://sud.tj",
+        "evidence": "used by Fontes tj adapter docstring (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "sud.tj times out from the UK (2026-11-06); could not see whether it publishes judgments"
+      }
+    },
+    {
+      "name": "Суди Олӣ – коллегияи судӣ оид ба парвандаҳои ҷиноятӣ",
+      "en": "Supreme Court, Criminal Collegium",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court (sud.tj)",
+        "url": "https://sud.tj",
+        "evidence": "used by Fontes tj adapter docstring (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "sud.tj times out from the UK (2026-11-06); could not see whether it publishes judgments"
+      }
+    },
+    {
+      "name": "Суди Олӣ – коллегияи судӣ оид ба парвандаҳои оилавӣ",
+      "en": "Supreme Court, Family Collegium",
+      "tier": "apex",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court (sud.tj)",
+        "url": "https://sud.tj",
+        "evidence": "used by Fontes tj adapter docstring (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "sud.tj times out from the UK (2026-11-06); could not see whether it publishes judgments"
+      }
+    },
+    {
+      "name": "Суди Олӣ – коллегияи судӣ оид ба парвандаҳои маъмурӣ",
+      "en": "Supreme Court, Administrative Collegium",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court (sud.tj)",
+        "url": "https://sud.tj",
+        "evidence": "used by Fontes tj adapter docstring (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "sud.tj times out from the UK (2026-11-06); could not see whether it publishes judgments"
+      }
+    },
+    {
+      "name": "Суди Олӣ – коллегияи ҳарбӣ",
+      "en": "Supreme Court, Military Collegium",
+      "tier": "apex",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court (sud.tj)",
+        "url": "https://sud.tj",
+        "evidence": "used by Fontes tj adapter docstring (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "sud.tj times out from the UK (2026-11-06); could not see whether it publishes judgments"
+      }
+    },
+    {
+      "name": "Суди Олии иқтисодӣ / Высший экономический суд",
+      "en": "Supreme Economic Court",
+      "tier": "apex",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Economic Court of Tajikistan",
+        "url": "https://www.idlo.int/what-we-do/initiatives/expanding-access-judicial-decisions-tajikistan",
+        "evidence": "search result only",
+        "note": "IDLO/EBRD pilot: a public database of economic-court decisions was being designed and piloted, starting with the Supreme Economic Court; no working portal URL found (search 2026-11-10)"
+      }
+    },
+    {
+      "name": "Courts of GBAO, the regions (viloyat) and Dushanbe (4)",
+      "en": "Regional courts (appeal and first instance for serious cases)",
+      "tier": "regional",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court (sud.tj)",
+        "url": "https://sud.tj",
+        "evidence": "used by Fontes tj adapter docstring",
+        "note": "sud.tj times out from the UK"
+      }
+    },
+    {
+      "name": "Economic courts of GBAO, the regions and Dushanbe (4)",
+      "en": "Regional economic courts (first instance)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Economic Court of Tajikistan",
+        "url": "https://www.idlo.int/what-we-do/initiatives/expanding-access-judicial-decisions-tajikistan",
+        "evidence": "search result only",
+        "note": "IDLO/EBRD pilot: a public database of economic-court decisions was being designed and piloted, starting with the Supreme Economic Court; no working portal URL found (search 2026-11-10)"
+      }
+    },
+    {
+      "name": "City and district (shahr/nohiya) courts (~68)",
+      "en": "City and district courts (first instance: civil, criminal, family, administrative offences)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sud.tj times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "courts of Tajikistan",
+        "url": "https://sud.tj",
+        "evidence": "search result only",
+        "note": "IDLO reports access to judicial decisions in Tajikistan is highly limited and there is no public database (search 2026-11-10); sud.tj times out from the UK"
+      }
+    },
+    {
+      "name": "Суди ҳарбӣ / Военный суд гарнизонов",
+      "en": "Garrison military courts (first instance)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "courts of Tajikistan",
+        "url": "https://sud.tj",
+        "evidence": "search result only",
+        "note": "no publication of military-court judgments found; IDLO reports no public judgment database in Tajikistan (search 2026-11-10)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Конститутсия / Конституция",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Constitutional Court of the Republic of Tajikistan (constcourt.tj)",
+      "note": "text posted by the Constitutional Court (ru/tj/en)"
+    },
+    {
+      "name": "Қонунҳои конститутсионӣ / Конституционные законы",
+      "en": "Constitutional laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Constitutional Court of the Republic of Tajikistan (constcourt.tj); Базаи қонунгузории ҶТ, National Legislation Centre under the President of the Republic of Tajikistan (base.mmk.tj)",
+      "note": "constcourt.tj posts court-related ones; base.mmk.tj (National Legislation Centre) has constitutional laws to Dec 2019 only. Post-2019 constitutional laws/amendments missing (adlia.tj, parlament.tj time out)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice legal database (adlia.tj / minjust.tj)",
+        "url": "https://adlia.tj",
+        "evidence": "used by Fontes tj adapter docstring (src/world_legal_mcp/jurisdictions/tj.py)",
+        "note": "missing part: constitutional laws not about courts; adlia.tj times out from the UK, minjust.tj expired certificate (2026-11-06); likely geo-restricted"
+      }
+    },
+    {
+      "name": "Қонунҳо ва кодексҳо / Законы и кодексы",
+      "en": "Laws and codes",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Базаи қонунгузории ҶТ, National Legislation Centre under the President of the Republic of Tajikistan (base.mmk.tj)",
+      "note": "base.mmk.tj: 621 acts 1993–Dec 2019 incl. 26 codes, full text tj/ru, status as of 2019. Missing: every law/code adopted or amended after Dec 2019 (database frozen; adlia.tj, mmk.tj, parlament.tj, majmilli.tj time out from the UK 2026-11-10)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice legal database (adlia.tj)",
+        "url": "https://adlia.tj",
+        "evidence": "used by Fontes tj adapter docstring",
+        "note": "times out from the UK (re-checked 2026-11-10, http/https, www/non-www); would be needed for post-2019 laws; minjust.tj expired TLS certificate"
+      }
+    },
+    {
+      "name": "Қарорҳои Маҷлиси Олӣ / Постановления Маджлиси Оли",
+      "en": "Parliamentary resolutions",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "parlament.tj, majmilli.tj time out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Majlisi Oli (parlament.tj / majmilli.tj)",
+        "url": "https://parlament.tj",
+        "evidence": "used by Fontes tj adapter docstring",
+        "note": "times out from the UK (2026-11-06)"
+      }
+    },
+    {
+      "name": "Фармон / Указ; Амр / Распоряжение Президента",
+      "en": "Presidential decrees and orders",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Official website of the President of the Republic of Tajikistan (president.tj)",
+      "note": "2000s-now, tj/ru/en"
+    },
+    {
+      "name": "Қарорҳои Ҳукумат / Постановления Правительства",
+      "en": "Government resolutions and directives",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Official website of the President of the Republic of Tajikistan (president.tj)",
+      "note": ""
+    },
+    {
+      "name": "Санадҳои вазоратҳо / Акты министерств",
+      "en": "Ministerial regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice legal database (adlia.tj)",
+        "url": "https://adlia.tj",
+        "evidence": "used by Fontes tj adapter docstring",
+        "note": "times out from the UK; ministerial acts are registered with the MoJ"
+      }
+    },
+    {
+      "name": "Ахбори Маҷлиси Олӣ",
+      "en": "Gazette of the Majlisi Oli",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Majlisi Oli (parlament.tj)",
+        "url": "https://parlament.tj",
+        "evidence": "used by Fontes tj adapter docstring",
+        "note": "times out from the UK; existence of an online Akhbor archive unverified"
+      }
+    },
+    {
+      "name": "Қарорҳои маҳаллӣ (ҳукуматҳо)",
+      "en": "Local government decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked"
+      }
+    },
+    {
+      "name": "Шартномаҳои байналмилалӣ",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice legal database (adlia.tj)",
+        "url": "https://adlia.tj",
+        "evidence": "used by Fontes tj adapter docstring",
+        "note": "times out from the UK; treaty coverage unverified"
+      }
+    }
+  ]
+}

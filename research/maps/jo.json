@@ -1,0 +1,460 @@
+{
+  "code": "jo",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "المحكمة الدستورية",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Constitutional Court of Jordan (المحكمة الدستورية), cco.gov.jo",
+      "note": "judgments and interpretive decisions 2013 on; older PDF library garbled, not used"
+    },
+    {
+      "name": "محكمة التمييز",
+      "en": "Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com shows subscription model and a sample تمييز ruling",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search); Qistas is paid subscription"
+      }
+    },
+    {
+      "name": "محاكم الاستئناف (3: عمّان، إربد، معان)",
+      "en": "Courts of Appeal (Amman, Irbid, Ma'an)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search); Qistas is paid subscription; appeal-court coverage not confirmed"
+      }
+    },
+    {
+      "name": "محاكم البداية",
+      "en": "First Instance Courts (civil and criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search); Qistas is paid subscription; first-instance coverage not confirmed"
+      }
+    },
+    {
+      "name": "محكمة الجنايات الكبرى",
+      "en": "Grand Felonies Court",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search; refetched 2026-11-07: no connection); Qistas is paid subscription; Grand Felonies Court coverage not confirmed"
+      }
+    },
+    {
+      "name": "محاكم الأحداث",
+      "en": "Juvenile Courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search; refetched 2026-11-07: no connection); Qistas is paid subscription; juvenile coverage not confirmed"
+      }
+    },
+    {
+      "name": "محكمة البداية الضريبية / محكمة استئناف قضايا ضريبة الدخل",
+      "en": "Tax first-instance court and income-tax appeals",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search; refetched 2026-11-07: no connection); Qistas is paid subscription; tax court coverage not confirmed"
+      }
+    },
+    {
+      "name": "محاكم تسوية الأراضي والمياه",
+      "en": "Land and Water Settlement Courts",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search; refetched 2026-11-07: no connection); Qistas is paid subscription; land-settlement court coverage not confirmed"
+      }
+    },
+    {
+      "name": "دوائر التنفيذ",
+      "en": "Execution (enforcement) departments of the courts",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search; refetched 2026-11-07: no connection); Qistas is paid subscription; enforcement coverage not confirmed"
+      }
+    },
+    {
+      "name": "محاكم الصلح",
+      "en": "Magistrates' Courts (incl. labour and small civil/criminal cases)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search); Qistas is paid subscription; magistrates' coverage not confirmed"
+      }
+    },
+    {
+      "name": "محاكم البلديات",
+      "en": "Municipal Courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official free source)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com subscription page",
+        "note": "no official free source found (judiciary sites jc.jo, moj.gov.jo fetched 2026-11-07: no judgment search; refetched 2026-11-07: no connection); Qistas is paid subscription; municipal court coverage not confirmed"
+      }
+    },
+    {
+      "name": "المحكمة الإدارية العليا",
+      "en": "Higher Administrative Court (since 2014)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com shows a High Court of Justice (pre-2014 administrative) ruling",
+        "note": "paid; no official free source found in search; post-2014 administrative courts coverage not confirmed"
+      }
+    },
+    {
+      "name": "المحكمة الإدارية",
+      "en": "Administrative Court (since 2014)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com shows a High Court of Justice (pre-2014 administrative) ruling",
+        "note": "paid; no official free source found in search; post-2014 administrative courts coverage not confirmed"
+      }
+    },
+    {
+      "name": "محكمة العدل العليا (abolished 2014)",
+      "en": "High Court of Justice (former administrative court)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Qistas (commercial Arab legal database)",
+        "url": "https://www.qistas.com/",
+        "evidence": "fetched 2026-11-07: qistas.com shows a High Court of Justice (pre-2014 administrative) ruling",
+        "note": "paid; Qistas shows High Court of Justice rulings; no official free source found"
+      }
+    },
+    {
+      "name": "المحكمة العليا الشرعية",
+      "en": "Supreme Sharia Court",
+      "tier": "apex",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "Supreme Judge Department publishes only a digest of principles",
+      "elsewhere": {
+        "status": "offline",
+        "source": "دائرة قاضي القضاة (Supreme Judge Department)",
+        "url": "https://sjd.gov.jo/AR/List/المبادئ_القضائية",
+        "evidence": "fetched 2026-11-07: list holds one PDF 'المبادىء القضائية في قرارات المحكمة العليا الشرعية'",
+        "note": "full decisions not published; only one digest PDF of Supreme Sharia Court principles. Religious-community councils not checked"
+      }
+    },
+    {
+      "name": "محاكم الاستئناف الشرعية",
+      "en": "Sharia Courts of Appeal",
+      "tier": "appeal",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "Supreme Judge Department publishes only a digest of principles",
+      "elsewhere": {
+        "status": "offline",
+        "source": "دائرة قاضي القضاة (Supreme Judge Department)",
+        "url": "https://sjd.gov.jo/AR/List/المبادئ_القضائية",
+        "evidence": "fetched 2026-11-07: list holds one PDF 'المبادىء القضائية في قرارات المحكمة العليا الشرعية'",
+        "note": "full decisions not published; Supreme Judge Department lists only one digest PDF (Supreme Sharia Court principles)"
+      }
+    },
+    {
+      "name": "المحاكم الشرعية الابتدائية",
+      "en": "Sharia first-instance courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "Supreme Judge Department publishes only a digest of principles",
+      "elsewhere": {
+        "status": "offline",
+        "source": "دائرة قاضي القضاة (Supreme Judge Department)",
+        "url": "https://sjd.gov.jo/AR/List/المبادئ_القضائية",
+        "evidence": "fetched 2026-11-07: list holds one PDF 'المبادىء القضائية في قرارات المحكمة العليا الشرعية'",
+        "note": "full decisions not published; Supreme Judge Department lists only one digest PDF (Supreme Sharia Court principles)"
+      }
+    },
+    {
+      "name": "مجالس الطوائف الدينية",
+      "en": "Councils of non-Muslim religious communities",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "Supreme Judge Department publishes only a digest of principles",
+      "elsewhere": {
+        "status": "offline",
+        "source": "دائرة قاضي القضاة (Supreme Judge Department)",
+        "url": "https://sjd.gov.jo/AR/List/المبادئ_القضائية",
+        "evidence": "fetched 2026-11-07: list holds one PDF 'المبادىء القضائية في قرارات المحكمة العليا الشرعية'",
+        "note": "not checked; no official publication found"
+      }
+    },
+    {
+      "name": "محكمة أمن الدولة",
+      "en": "State Security Court",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no source found; not researched further"
+      }
+    },
+    {
+      "name": "المحاكم العسكرية (القضاء العسكري)",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no source found; not researched further"
+      }
+    },
+    {
+      "name": "محكمة الشرطة",
+      "en": "Police Court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no source found; not researched further"
+      }
+    },
+    {
+      "name": "محكمة الجمارك البدائية / محكمة الجمارك الاستئنافية",
+      "en": "Customs Courts (first instance and appeal)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no source found; not researched further"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "الدستور",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (lob.gov.jo API needs an encrypted JS handshake)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Legislation and Opinion Bureau (lob.gov.jo)",
+        "url": "https://www.lob.gov.jo/",
+        "evidence": "src/world_legal_mcp/jurisdictions/jo.py docstring; research/SIGNUPS.md",
+        "note": "API answers 403 to plain requests; needs encrypted JS key handshake (deliberate). MoJ moj.gov.jo/EN/List/Laws has a few English texts only"
+      }
+    },
+    {
+      "name": "القوانين",
+      "en": "Laws",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "blocks our client (lob.gov.jo API needs an encrypted JS handshake); needs permission",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Legislation and Opinion Bureau (lob.gov.jo)",
+        "url": "https://www.lob.gov.jo/",
+        "evidence": "research/SIGNUPS.md; research/chatgpt/asia.md",
+        "note": "encrypted API, no route without consent. Partial: Ministry of Justice https://www.moj.gov.jo/EN/List/Laws has ~10 selected laws 2014-2023 as text PDFs (later 451 errors)"
+      }
+    },
+    {
+      "name": "القوانين المؤقتة",
+      "en": "Provisional laws",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "same as laws (lob.gov.jo)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Legislation and Opinion Bureau (lob.gov.jo)",
+        "url": "https://www.lob.gov.jo/",
+        "evidence": "research/SIGNUPS.md",
+        "note": "same encrypted API as laws"
+      }
+    },
+    {
+      "name": "الأنظمة",
+      "en": "Regulations (by-laws)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "same as laws (lob.gov.jo)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Legislation and Opinion Bureau (lob.gov.jo)",
+        "url": "https://www.lob.gov.jo/",
+        "evidence": "research/SIGNUPS.md",
+        "note": "same encrypted API as laws"
+      }
+    },
+    {
+      "name": "التعليمات والقرارات",
+      "en": "Instructions and decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "same as laws (lob.gov.jo)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Legislation and Opinion Bureau (lob.gov.jo)",
+        "url": "https://www.lob.gov.jo/",
+        "evidence": "research/SIGNUPS.md",
+        "note": "same encrypted API as laws"
+      }
+    },
+    {
+      "name": "الجريدة الرسمية",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "gazette index online at pm.gov.jo; documents in a DocuWare viewer",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Prime Ministry Official Gazette",
+        "url": "https://www.pm.gov.jo/ar/Pages/NewsPaper",
+        "evidence": "fetched 2026-11-07: issue table up to No. 6086 of 5 Nov 2026; research/chatgpt/r2_c.md",
+        "note": "copyright terms allow only personal or internal non-commercial use, other uses need permission; issue text sits in a DocuWare viewer (doc.pm.gov.jo), PDF extraction unverified"
+      }
+    },
+    {
+      "name": "الاتفاقيات الدولية",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no treaty database found; mofa.gov.jo did not resolve (2026-11-07); ratified treaties would be in the gazette (blocked)"
+      }
+    }
+  ]
+}

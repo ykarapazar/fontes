@@ -1,0 +1,230 @@
+{
+  "code": "tm",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.tdh.gov.tm/en/post/46354/decree-president-turkmenistan-establishment-certain-etrap-courts-ahal-dashoguz-lebap-and-mary-velayats",
+    "https://court.gov.tm/"
+  ],
+  "courts": [
+    {
+      "name": "Türkmenistanyň Ýokary kazyýetiniň Plenumy",
+      "en": "Supreme Court Plenum (guiding resolutions)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Turkmenistan (court.gov.tm)",
+      "note": "Plenum guiding resolutions only (87, 1997-2025); no individual judgments published",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court (court.gov.tm)",
+        "url": "https://court.gov.tm",
+        "evidence": "used by Fontes tm adapter (src/world_legal_mcp/jurisdictions/tm.py)",
+        "note": "missing part: individual judgments are not published"
+      }
+    },
+    {
+      "name": "Türkmenistanyň Ýokary kazyýeti – kazyýet kollegiýalary (raýat, jenaýat işleri)",
+      "en": "Supreme Court judicial collegia (civil, criminal cases)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "individual judgments not published online; the collegia breakdown is unverified",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court (court.gov.tm)",
+        "url": "https://court.gov.tm",
+        "evidence": "used by Fontes tm adapter docstring (src/world_legal_mcp/jurisdictions/tm.py)",
+        "note": "only the Plenum collection is public; no individual judgments of any court online"
+      }
+    },
+    {
+      "name": "Türkmenistanyň Arbitraž kazyýeti",
+      "en": "Arbitration (commercial) Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "individual judgments not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court (court.gov.tm)",
+        "url": "https://court.gov.tm",
+        "evidence": "used by Fontes tm adapter docstring (src/world_legal_mcp/jurisdictions/tm.py)",
+        "note": "only the Plenum collection is public; no individual judgments of any court online"
+      }
+    },
+    {
+      "name": "Welaýat kazyýetleri (5)",
+      "en": "Velayat (regional) courts",
+      "tier": "regional",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "individual judgments not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court (court.gov.tm)",
+        "url": "https://court.gov.tm",
+        "evidence": "used by Fontes tm adapter docstring (src/world_legal_mcp/jurisdictions/tm.py)",
+        "note": "only the Plenum collection is public; no individual judgments of any court online"
+      }
+    },
+    {
+      "name": "Aşgabat şäher kazyýeti (and other cities with velayat status)",
+      "en": "Ashgabat city court",
+      "tier": "regional",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "individual judgments not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court (court.gov.tm)",
+        "url": "https://court.gov.tm",
+        "evidence": "used by Fontes tm adapter docstring (src/world_legal_mcp/jurisdictions/tm.py)",
+        "note": "only the Plenum collection is public; no individual judgments of any court online"
+      }
+    },
+    {
+      "name": "Etrap we şäher kazyýetleri",
+      "en": "Etrap (district) and city courts (first instance: civil, criminal, administrative offences)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "individual judgments not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Supreme Court (court.gov.tm)",
+        "url": "https://court.gov.tm",
+        "evidence": "used by Fontes tm adapter docstring (src/world_legal_mcp/jurisdictions/tm.py)",
+        "note": "only the Plenum collection is public; no individual judgments of any court online"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Türkmenistanyň Konstitusiýasy",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Supreme Court of Turkmenistan (court.gov.tm)",
+      "note": "consolidated tm/ru PDF from court.gov.tm (Mejlis page has preamble only)"
+    },
+    {
+      "name": "Kanunlar",
+      "en": "Laws",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Mejlis of Turkmenistan (mejlis.gov.tm)",
+      "note": "~370, tm/ru"
+    },
+    {
+      "name": "Kodeksler",
+      "en": "Codes",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Mejlis of Turkmenistan (mejlis.gov.tm)",
+      "note": "22; very large ones sometimes cut off mid-transfer"
+    },
+    {
+      "name": "Mejlisiň kararlary",
+      "en": "Mejlis resolutions",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Mejlis of Turkmenistan (mejlis.gov.tm)",
+      "note": "~460"
+    },
+    {
+      "name": "Türkmenistanyň Prezidentiniň permanlary we kararlary",
+      "en": "Presidential decrees and resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Turkmenistan.gov.tm – Official section",
+        "url": "https://turkmenistan.gov.tm/en/category/official/1",
+        "evidence": "fetched 2026-11-07: lists presidential decrees, resolutions and orders (newest 04.11.2026), EN/RU/TM; listing shows excerpts, items link to own pages",
+        "note": "official government portal but not a legal gazette; full text per item unverified; robots/terms not checked"
+      }
+    },
+    {
+      "name": "Ministrler Kabinetiniň kararlary",
+      "en": "Cabinet of Ministers resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Adalat (law.minjust.gov.tm)",
+        "url": "https://law.minjust.gov.tm",
+        "evidence": "fetched 2026-11-07: login page: access via +993 phone number for authorised users only",
+        "note": "login required; Cabinet resolutions not seen on turkmenistan.gov.tm Official listing"
+      }
+    },
+    {
+      "name": "Ministrlikleriň we pudak edaralarynyň namalary",
+      "en": "Ministry-level regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Adalat (law.minjust.gov.tm) needs an account login",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Adalat (law.minjust.gov.tm)",
+        "url": "https://law.minjust.gov.tm",
+        "evidence": "fetched 2026-11-07: login page: access only for authorised users (+993 phone)",
+        "note": "login required (research/SIGNUPS.md)"
+      }
+    },
+    {
+      "name": "Türkmenistanyň Mejlisiniň Maglumatlary",
+      "en": "Gazette of the Mejlis",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked; no online archive of the Mejlis Maglumatlary found"
+      }
+    },
+    {
+      "name": "Halk maslahatlarynyň we häkimlikleriň namalary",
+      "en": "Local council and governor acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "",
+        "note": "not checked"
+      }
+    },
+    {
+      "name": "Halkara şertnamalary",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Mejlis (mejlis.gov.tm, ratification resolutions)",
+        "url": "https://mejlis.gov.tm",
+        "evidence": "used by Fontes tm adapter (src/world_legal_mcp/jurisdictions/tm.py)",
+        "note": "treaty texts not checked; Mejlis decrees may include ratifications"
+      }
+    }
+  ]
+}

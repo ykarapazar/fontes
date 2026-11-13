@@ -1,0 +1,358 @@
+{
+  "code": "mg",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.assemblee-nationale.mg/wp-content/uploads/2020/11/Loi-n°-2008-041-portant-harmonisation-de-la-législation-en-vigueur-avec-l’Organisation-des-juridi.pdf"
+  ],
+  "courts": [
+    {
+      "name": "Haute Cour Constitutionnelle (HCC)",
+      "en": "High Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Haute Cour Constitutionnelle (hcc.gov.mg)",
+      "note": ""
+    },
+    {
+      "name": "Cour suprême – Cour de cassation",
+      "en": "Supreme Court – Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "No ordinary-court case law online from an official source; justice.gov.mg has a wrong-host TLS certificate."
+      }
+    },
+    {
+      "name": "Cour suprême – Conseil d'État",
+      "en": "Supreme Court – Council of State",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Conseil d'État decisions not online."
+      }
+    },
+    {
+      "name": "Cour suprême – Cour des comptes",
+      "en": "Supreme Court – Court of Audit",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Cour des comptes decisions not online (coursupreme.mg placeholder)."
+      }
+    },
+    {
+      "name": "Cours d'appel (6)",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online."
+      }
+    },
+    {
+      "name": "Cours criminelles ordinaires et spéciales",
+      "en": "Criminal courts (assizes) attached to the courts of appeal",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online."
+      }
+    },
+    {
+      "name": "Pôles Anti-Corruption (PAC Antananarivo, PAC Mahajanga)",
+      "en": "Anti-corruption courts (first instance and appeal chambers)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no official PAC site or judgment list found (search 2026-11-07 returned only press reports of PAC/HCC decisions)"
+      }
+    },
+    {
+      "name": "Tribunaux de première instance",
+      "en": "Courts of first instance",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database; general civil, criminal (tribunal correctionnel, simple police) and commercial chambers",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online."
+      }
+    },
+    {
+      "name": "Tribunal de commerce d'Antananarivo",
+      "en": "Commercial Court of Antananarivo (commercial chambers of the TPI elsewhere)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online."
+      }
+    },
+    {
+      "name": "Tribunaux du travail (formations des TPI)",
+      "en": "Labour courts (labour sections of the TPI)",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online."
+      }
+    },
+    {
+      "name": "Tribunaux pour enfants",
+      "en": "Juvenile courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online; juvenile proceedings are closed."
+      }
+    },
+    {
+      "name": "Tribunaux terriers ambulants",
+      "en": "Mobile land courts",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "none (not searched specifically)",
+        "note": "no official Malagasy ordinary-court case law is online at all (coursupreme.mg placeholder); land-court decisions not searched separately"
+      }
+    },
+    {
+      "name": "Tribunaux administratifs (6)",
+      "en": "Administrative tribunals",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online."
+      }
+    },
+    {
+      "name": "Tribunaux financiers (6)",
+      "en": "Financial tribunals (local public accounts)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême de Madagascar",
+        "url": "https://www.coursupreme.mg/",
+        "evidence": "fetched 2026-11-07: coursupreme.mg is a bare hosting placeholder page; adapter mg.py gaps",
+        "note": "Not published online."
+      }
+    },
+    {
+      "name": "Juridictions militaires (Tribunal militaire)",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "none (not searched specifically)",
+        "note": "no official Malagasy court case law outside the HCC is online; military court not searched separately"
+      }
+    },
+    {
+      "name": "Haute Cour de Justice",
+      "en": "High Court of Justice",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No HCJ decisions online; the court has barely sat. Not checked further."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg)",
+      "note": "Constitution of 11 December 2010 full text (id Co2010), as published in the JO; no later revision listed in CNLegis (checked 2026-11-10)"
+    },
+    {
+      "name": "Lois / Lois organiques / Ordonnances",
+      "en": "Acts, organic laws, ordinances",
+      "level": "primary",
+      "reached": "partly",
+      "via": "CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg)",
+      "note": "full text since 1998; before 1998 mostly references only: a 2026-11-10 sample of laws/ordinances numbered 62-0*, 75-0*, 85-0*, 93-0* had ~90% without HTML or PDF text (some major ones are full text, e.g. L66-003, O62-041 via its PDF); as published, not consolidated",
+      "elsewhere": {
+        "status": "offline",
+        "source": "CNLegis – Centre National LEGIS (Primature)",
+        "url": "https://www.cnlegis.gov.mg/",
+        "evidence": "adapter mg.py gaps",
+        "note": "Missing part: full texts before 1998 (CNLegis has references only, back to 1897); JO scans need a login (blocked). Not consolidated anywhere official."
+      }
+    },
+    {
+      "name": "Décrets",
+      "en": "Decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg)",
+      "note": "full text since 1998; references only before",
+      "elsewhere": {
+        "status": "offline",
+        "source": "CNLegis – Centre National LEGIS (Primature)",
+        "url": "https://www.cnlegis.gov.mg/",
+        "evidence": "adapter mg.py gaps",
+        "note": "Missing part: full texts before 1998 not online; JO scans behind CNLegis login."
+      }
+    },
+    {
+      "name": "Arrêtés",
+      "en": "Ministerial orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg)",
+      "note": "full text since 1998; references only before",
+      "elsewhere": {
+        "status": "offline",
+        "source": "CNLegis – Centre National LEGIS (Primature)",
+        "url": "https://www.cnlegis.gov.mg/",
+        "evidence": "adapter mg.py gaps",
+        "note": "Missing part: full texts before 1998 not online; JO scans behind CNLegis login."
+      }
+    },
+    {
+      "name": "Journal Officiel de la République de Madagascar",
+      "en": "Official Journal",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg)",
+      "note": "texts via CNLegis; JO scans need a login",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CNLegis – 'Utilisateur Journal Officiel' (JO scans)",
+        "url": "https://www.cnlegis.gov.mg/",
+        "evidence": "adapter mg.py docstring",
+        "note": "Missing part: the JO issues themselves; scans need a login."
+      }
+    },
+    {
+      "name": "Actes des collectivités territoriales décentralisées",
+      "en": "Regional/communal acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not researched beyond a search",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked; no national portal for communal acts found."
+      }
+    },
+    {
+      "name": "Traités (lois de ratification)",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "ratification laws sit in CNLegis as ordinary laws",
+      "elsewhere": {
+        "status": "available",
+        "source": "CNLegis – Centre National LEGIS (Primature)",
+        "url": "https://www.cnlegis.gov.mg/",
+        "evidence": "adapter mg.py docstring (CNLegis holds all laws/decrees since 1998 incl. ratification laws)",
+        "note": "Ratification laws and decrees are in CNLegis, which Fontes already wires for laws; treaty texts themselves only when annexed in the JO. HCC D1 decisions (conventions) are already reached."
+      }
+    }
+  ]
+}

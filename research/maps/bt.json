@@ -1,0 +1,167 @@
+{
+  "code": "bt",
+  "checked": "2026-11-07",
+  "unverified": true,
+  "structure_sources": [],
+  "courts": [
+    {
+      "name": "Supreme Court of Bhutan",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "judiciary.gov.bt times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Royal Court of Justice – Judgments archive",
+        "url": "https://www.judiciary.gov.bt/archive-content/judgments",
+        "evidence": "fetched 2026-11-07: timed out from the UK; research/chatgpt/asia.md and r2_c.md opened the archive and PDFs from elsewhere",
+        "note": "times out from the UK (geo/ASN filtering suspected, unverified); archive is tiny (~7-10 judgments, mixed with reports)"
+      }
+    },
+    {
+      "name": "High Court",
+      "en": "High Court (Khorlo and Reldri Benches)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "judiciary.gov.bt times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Royal Court of Justice – Judgments archive",
+        "url": "https://www.judiciary.gov.bt/archive-content/judgments",
+        "evidence": "fetched 2026-11-07: timed out from the UK; research/chatgpt/asia.md and r2_c.md opened the archive and PDFs from elsewhere",
+        "note": "times out from the UK (geo/ASN filtering suspected, unverified); archive is tiny (~7-10 judgments, mixed with reports); one High Court order (DNT v PDP 2017) verified there"
+      }
+    },
+    {
+      "name": "Dzongkhag Courts (20)",
+      "en": "District courts (20; Thimphu has separate criminal, civil, commercial and family benches)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "judiciary.gov.bt times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Royal Court of Justice",
+        "url": "https://www.judiciary.gov.bt/",
+        "evidence": "fetched 2026-11-07: judiciary.gov.bt timed out",
+        "note": "no Dzongkhag court judgments seen in the archive as described in research/chatgpt/r2_c.md"
+      }
+    },
+    {
+      "name": "Thimphu Dzongkhag Court – Family and Child Bench",
+      "en": "Family and Child Bench (Thimphu)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "judiciary.gov.bt times out from the UK",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Royal Court of Justice",
+        "url": "https://www.judiciary.gov.bt/",
+        "evidence": "fetched 2026-11-07: judiciary.gov.bt timed out",
+        "note": "no Dzongkhag court judgments seen in the archive as described in research/chatgpt/r2_c.md"
+      }
+    },
+    {
+      "name": "Thimphu Dzongkhag Court – Commercial Benches (I and II)",
+      "en": "Commercial Benches (Thimphu)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "judiciary.gov.bt times out from the UK",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Royal Court of Justice",
+        "url": "https://www.judiciary.gov.bt/",
+        "evidence": "fetched 2026-11-07: judiciary.gov.bt timed out",
+        "note": "no Dzongkhag court judgments seen in the archive as described in research/chatgpt/r2_c.md"
+      }
+    },
+    {
+      "name": "Dungkhag Courts",
+      "en": "Sub-district courts (15 per 2024 judiciary report, search result only)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "judiciary.gov.bt times out from the UK (2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Royal Court of Justice",
+        "url": "https://www.judiciary.gov.bt/",
+        "evidence": "fetched 2026-11-07: judiciary.gov.bt timed out",
+        "note": "no Dungkhag court judgments seen in the archive as described in research/chatgpt/r2_c.md"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of the Kingdom of Bhutan (2008)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Depository of Laws (legislation.gov.bt), Office of the Attorney General of Bhutan",
+      "note": "English text"
+    },
+    {
+      "name": "Acts of Parliament",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Depository of Laws (legislation.gov.bt), Office of the Attorney General of Bhutan",
+      "note": "current and repealed, as enacted; amendments are separate Acts; English only (Dzongkha not built yet). Missing: Acts after 2023 (the Depository's newest Acts are from 2023, e.g. Civil Liability, National Digital Identity, Pay Revision Acts 2023; title search for 2024/2025 finds nothing; Budget Appropriation Acts FY 2023-24 on are absent, checked 2026-11-10)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "National Assembly of Bhutan (nab.gov.bt) / National Council (nationalcouncil.bt)",
+        "url": "https://www.nab.gov.bt",
+        "evidence": "fetched 2026-11-10: nab.gov.bt and www.nab.gov.bt over http and https end on a *.systems.gov.bt certificate; nationalcouncil.bt and judiciary.gov.bt connect timeout; oag.gov.bt only links the Depository",
+        "note": "missing part = Acts passed 2024-2026; no reachable official text source"
+      }
+    },
+    {
+      "name": "Rules and Regulations (delegated legislation)",
+      "en": "Delegated legislation",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "public API has them; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Depository of Laws (legislation.gov.bt) public API",
+        "url": "https://www.legislation.gov.bt/api",
+        "evidence": "used by Fontes bt adapter (src/world_legal_mcp/jurisdictions/bt.py, docstring: /p/delegated-legislation/…)",
+        "note": "same no-login API as Acts; separate id space, not wired"
+      }
+    },
+    {
+      "name": "Bills",
+      "en": "Bills",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "public API has them; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Depository of Laws (legislation.gov.bt) public API",
+        "url": "https://www.legislation.gov.bt/api",
+        "evidence": "used by Fontes bt adapter (src/world_legal_mcp/jurisdictions/bt.py, docstring)",
+        "note": "Bills served by the same public API; not wired"
+      }
+    },
+    {
+      "name": "International conventions",
+      "en": "Treaties Bhutan is party to",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "Depository of Laws (legislation.gov.bt), Office of the Attorney General of Bhutan",
+      "note": "type=convention"
+    }
+  ]
+}

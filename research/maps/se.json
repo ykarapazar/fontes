@@ -1,0 +1,357 @@
+{
+  "code": "se",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/se_en"
+  ],
+  "courts": [
+    {
+      "name": "Högsta domstolen",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "case reports since 1981, published judgments since March 2025"
+    },
+    {
+      "name": "Högsta förvaltningsdomstolen (formerly Regeringsrätten)",
+      "en": "Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "case reports since 1981, published judgments since March 2025"
+    },
+    {
+      "name": "Hovrätter (6)",
+      "en": "Courts of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "only decisions chosen for publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "missing part: unpublished judgments: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Kammarrätter (4)",
+      "en": "Administrative Courts of Appeal",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "only decisions chosen for publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "missing part: unpublished judgments: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Tingsrätter (48)",
+      "en": "District Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Rättspraxis",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "district courts: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Förvaltningsrätter (12)",
+      "en": "Administrative Courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in Rättspraxis",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "administrative courts: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Arbetsdomstolen",
+      "en": "Labour Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "yes",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": ""
+    },
+    {
+      "name": "Migrationsöverdomstolen (Kammarrätten i Stockholm)",
+      "en": "Migration Court of Appeal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "code MIOD; only decisions chosen for publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "missing part: unpublished judgments: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Migrationsdomstolar (förvaltningsrätterna i Stockholm, Göteborg, Malmö, Luleå)",
+      "en": "First-instance migration courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in Rättspraxis",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "First-instance migration courts: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Mark- och miljööverdomstolen (Svea hovrätt)",
+      "en": "Land and Environment Court of Appeal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "code MMOD (and former Miljööverdomstolen, MOD); only decisions chosen for publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "missing part: unpublished judgments: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Mark- och miljödomstolar (5 tingsrätter)",
+      "en": "First-instance land and environment courts",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in Rättspraxis",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "First-instance land and environment courts: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Patent- och marknadsöverdomstolen (Svea hovrätt)",
+      "en": "Patent and Market Court of Appeal",
+      "tier": "specialised",
+      "branch": "ip",
+      "reached": "partly",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "code PMOD; only decisions chosen for publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "missing part: unpublished judgments: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Patent- och marknadsdomstolen (Stockholms tingsrätt)",
+      "en": "First-instance Patent and Market Court",
+      "tier": "first-instance",
+      "branch": "ip",
+      "reached": "no",
+      "via": null,
+      "note": "not in Rättspraxis",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "First-instance Patent and Market Court: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Marknadsdomstolen",
+      "en": "Market Court (abolished 2016)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "yes",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "code MDO; competition and marketing case law still cited"
+    },
+    {
+      "name": "Patentbesvärsrätten",
+      "en": "Court of Patent Appeals (abolished 2016)",
+      "tier": "specialised",
+      "branch": "ip",
+      "reached": "yes",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "code PBR"
+    },
+    {
+      "name": "Svea hovrätt – hyresrättsliga avgöranden",
+      "en": "Svea Court of Appeal – tenancy appeals from rent tribunals",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "code HYOD; only decisions chosen for publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/se.py) gaps; research/south_nordic_baltic.md",
+        "note": "missing part: unpublished judgments: not published online; judgments are public documents obtainable on request from the court"
+      }
+    },
+    {
+      "name": "Hyres- och arrendenämnder (8)",
+      "en": "Rent and tenancy tribunals (8)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "quasi-judicial; appeals to Svea hovrätt",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Sveriges Domstolar (allmänna handlingar)",
+        "url": "https://www.domstol.se/",
+        "evidence": "adapter se.py (no such court code in Rättspraxis); research/south_nordic_baltic.md",
+        "note": "Not published online; decisions are public documents obtainable on request."
+      }
+    },
+    {
+      "name": "Försvarsunderrättelsedomstolen",
+      "en": "Foreign Intelligence Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "secret proceedings (signals-intelligence permits)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "adapter se.py (no such court code in Rättspraxis)",
+        "note": "Decisions classified; not published."
+      }
+    },
+    {
+      "name": "Rättshjälpsnämnden",
+      "en": "Legal Aid Board (quasi-judicial)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+      "note": "code RHN"
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Grundlagar (Regeringsformen, Successionsordningen, Tryckfrihetsförordningen, Yttrandefrihetsgrundlagen)",
+      "en": "Fundamental laws",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Riksdagens öppna data, SFS (Källa: Sveriges riksdag)",
+      "note": "current consolidated text only"
+    },
+    {
+      "name": "Lagar (SFS)",
+      "en": "Acts of the Riksdag",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Riksdagens öppna data, SFS (Källa: Sveriges riksdag)",
+      "note": "current consolidated text only; no point-in-time versions"
+    },
+    {
+      "name": "Förordningar (SFS)",
+      "en": "Government ordinances",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Riksdagens öppna data, SFS (Källa: Sveriges riksdag)",
+      "note": "current consolidated text only"
+    },
+    {
+      "name": "Myndighetsföreskrifter",
+      "en": "Agency regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "per-agency författningssamlingar, indexed by Lagrummet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Lagrummet (index of agency författningssamlingar)",
+        "url": "https://www.lagrummet.se/",
+        "evidence": "fetched 2026-11-07: Lagrummet home opened; describes itself as covering 'myndighetsföreskrifter'",
+        "note": "each agency publishes its own författningssamling; Lagrummet links them"
+      }
+    },
+    {
+      "name": "Svensk författningssamling (svenskforfattningssamling.se)",
+      "en": "Official SFS publication (as enacted)",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Riksdagens öppna data, SFS (Källa: Sveriges riksdag)",
+      "note": "Riksdagen's consolidated text, not the authentic as-published SFS",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Svensk författningssamling (svenskforfattningssamling.se)",
+        "url": "https://svenskforfattningssamling.se/",
+        "evidence": "fetched 2026-11-07: 403 'Attention Required! | Cloudflare … you have been blocked' on a plain request",
+        "note": "missing part: authentic as-published SFS; Cloudflare block"
+      }
+    },
+    {
+      "name": "Kommunala och regionala föreskrifter",
+      "en": "Municipal and regional regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "per municipality/region; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "municipal/regional författningssamlingar",
+        "url": null,
+        "evidence": "not checked",
+        "note": "published per municipality/region on their own sites; no central source found"
+      }
+    },
+    {
+      "name": "Sveriges internationella överenskommelser (SÖ)",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "SÖ series on regeringen.se (not wired)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Regeringen – Sveriges internationella överenskommelser (SÖ)",
+        "url": "https://www.regeringen.se/rattsliga-dokument/sveriges-internationella-overenskommelser/",
+        "evidence": "fetched 2026-11-07: page 'Sveriges internationella överenskommelser - Regeringen.se' opened",
+        "note": "SÖ series published by the Government Offices"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Fontes
+
+> Fontes is a free, open-source (Apache 2.0) MCP server. It lets any MCP app (Claude, Codex, Cursor, VS Code, Gemini CLI and others) search court decisions and legislation live on court and government websites in 120+ jurisdictions and international courts (124 adapters). Every result names its source and links to the original.
+
+Facts:
+
+- Runs on the user's computer as a local stdio MCP server. No account, no database, no hosted service. PyPI package: `fontes` (Python 3.13+). MCP Registry name: `io.github.ykarapazar/fontes`.
+- Works in any app that can run a local stdio MCP server, e.g. Claude Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline.
+- Install (once published; not on PyPI yet): command `uvx fontes-mcp` in any MCP client's settings; `codex mcp add fontes -- uvx fontes-mcp` (Codex); `claude mcp add fontes -- uvx fontes-mcp` (Claude Code); a `.mcpb` file for Claude Desktop. A one-click Mac and Windows installer is on its way. `uvx` needs uv.
+- Tools: `list_jurisdictions`, `search_caselaw`, `get_decision`, `search_legislation`, `get_legislation_toc`, `get_legislation_provision`, `get_legislation_text`, plus `report_bug`. The jurisdiction is a parameter.
+- Coverage: 108 UN member states, Hong Kong, Kosovo, Palestine, Taiwan, the DIFC Courts and 11 international courts and bodies. 72 of the 124 count as covered under a strict rule (top court precedents, or constitution and primary acts, reached completely). Coverage differs a lot between jurisdictions.
+- Most sources are government or court websites; unofficial sources are flagged in each answer.
+- API keys: France needs a free PISTE key; US case-law search works better with a free api.data.gov key; no other jurisdiction needs one. Sources whose terms need permission are off by default.
+- Privacy: searches go only to the source. A daily PyPI version check is on by default; usage counts and bug reports are opt-in.
+- Not legal advice; no legal services are offered. Maintained by one person, Yüce Karapazar; no company, no guarantee. Contact: fontesmcp@proton.me.
+
+## Docs
+
+- [README](https://raw.githubusercontent.com/ykarapazar/fontes/main/README.md): what Fontes does, install, tools, coverage and sources tables
+- [FAQ](https://raw.githubusercontent.com/ykarapazar/fontes/main/docs/FAQ.md): official vs unofficial sources, API keys, privacy, legal advice, maintenance, reporting errors
+- [Coverage](https://raw.githubusercontent.com/ykarapazar/fontes/main/docs/COVERAGE.md): per jurisdiction, what is reached, what is not, and why
+- [Install guide](https://raw.githubusercontent.com/ykarapazar/fontes/main/docs/INSTALL.md): steps for each MCP app
+- [Privacy notice](https://raw.githubusercontent.com/ykarapazar/fontes/main/docs/PRIVACY.md): what can leave the user's computer, and when
+
+## Optional
+
+- [Source status](https://ykarapazar.github.io/fontes/status/): daily health check of each source
+- [Changelog](https://raw.githubusercontent.com/ykarapazar/fontes/main/CHANGELOG.md): changes per release
+- [Adapter spec](https://raw.githubusercontent.com/ykarapazar/fontes/main/docs/ADAPTER_SPEC.md): the contract each jurisdiction adapter follows
+- [Source code](https://github.com/ykarapazar/fontes)

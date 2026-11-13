@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/ykarapazar/fontes/blob/main/SECURITY.md
+    about: Please report security problems privately by email (fontesmcp@proton.me), not in an issue.
+  - name: Questions and answers
+    url: https://github.com/ykarapazar/fontes/blob/main/docs/FAQ.md
+    about: Official sources, API keys, privacy, and what Fontes is not.

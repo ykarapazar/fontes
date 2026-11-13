@@ -1,0 +1,329 @@
+{
+  "code": "ee",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.kohus.ee/en/node/3",
+    "https://www.riigikohus.ee/en/print/608"
+  ],
+  "courts": [
+    {
+      "name": "Riigikohtu üldkogu",
+      "en": "Supreme Court en banc (Üldkogu)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Riigikohtu tsiviilkolleegium",
+      "en": "Supreme Court Civil Chamber (cassation)",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Riigikohtu kriminaalkolleegium",
+      "en": "Supreme Court Criminal Chamber (cassation; incl. misdemeanours)",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Riigikohtu halduskolleegium",
+      "en": "Supreme Court Administrative Chamber (cassation)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Riigikohtu põhiseaduslikkuse järelevalve kolleegium",
+      "en": "Supreme Court Constitutional Review Chamber",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Riigikohtu erikogu",
+      "en": "Supreme Court Special Panel (jurisdiction conflicts between chambers)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Ringkonnakohtud – tsiviil- ja kriminaalkolleegiumid (Tallinna, Tartu)",
+      "en": "Circuit courts of appeal, civil and criminal chambers (2 courts)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Ringkonnakohtud – halduskolleegiumid (Tallinna, Tartu)",
+      "en": "Circuit courts of appeal, administrative chambers (2 courts)",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Maakohtud – tsiviilasjad (Harju, Pärnu, Tartu, Viru)",
+      "en": "County courts, civil cases (4 courts; incl. family and labour cases, no separate labour/family court)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Maakohtud – kriminaal- ja väärteoasjad",
+      "en": "County courts, criminal and misdemeanour cases incl. juvenile and pre-trial (eeluurimiskohtunik) judges (4 courts)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Maakohtute kinnistusosakond ja registriosakond",
+      "en": "County court land-registry and commercial-registry departments (Tartu MK; registry rulings)",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Maakohtute maksekäsuosakond",
+      "en": "County court payment-order department (Pärnu MK; expedited payment orders)",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee; payment orders are mostly not issued as reasoned decisions",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Halduskohtud (Tallinna, Tartu)",
+      "en": "Administrative courts, first instance (2)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Riigi Teataja court decisions / Riigikohus RIKOS",
+        "url": "https://www.riigiteataja.ee/kohtulahendid/",
+        "evidence": "src/world_legal_mcp/jurisdictions/ee.py; fetched 2026-11-07: robots.txt 'Disallow: */kohtulahendid/*' and '*/kohtuteave/*'",
+        "note": "robots.txt disallow; rikos.rik.ee robots 'Disallow: /'; Supreme Court English translations forbid reproduction without written permission (research/chatgpt/r2_b.md)"
+      }
+    },
+    {
+      "name": "Töövaidluskomisjonid",
+      "en": "Labour dispute committees (quasi-judicial, at the Labour Inspectorate)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tööinspektsioon (Labour Inspectorate)",
+        "url": "https://www.ti.ee",
+        "evidence": "search result only: 2026-11-07 search found TVK procedural documents on ti.ee but no decisions database",
+        "note": "not established whether TVK decisions are published"
+      }
+    },
+    {
+      "name": "Tarbijavaidluste komisjon",
+      "en": "Consumer Disputes Committee (quasi-judicial, Consumer Protection and Technical Regulatory Authority)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tarbijakaitse ja Tehnilise Järelevalve Amet (TTJA)",
+        "url": "https://ttja.ee",
+        "evidence": "not checked",
+        "note": ""
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Eesti Vabariigi põhiseadus",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Riigi Teataja (State Gazette, Ministry of Justice and Digital Affairs)",
+      "note": ""
+    },
+    {
+      "name": "Seadus",
+      "en": "Acts of the Riigikogu",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Riigi Teataja (State Gazette, Ministry of Justice and Digital Affairs)",
+      "note": "consolidated wordings, Estonian; ~5,600 old acts robots-blocked"
+    },
+    {
+      "name": "Vabariigi Valitsuse määrus",
+      "en": "Government regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Riigi Teataja (State Gazette, Ministry of Justice and Digital Affairs)",
+      "note": "consolidated wordings, Estonian"
+    },
+    {
+      "name": "Ministri määrus",
+      "en": "Ministerial regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Riigi Teataja (State Gazette, Ministry of Justice and Digital Affairs)",
+      "note": "consolidated wordings, Estonian"
+    },
+    {
+      "name": "Välisleping (RT II)",
+      "en": "International agreements",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Riigi Teataja (State Gazette, Ministry of Justice and Digital Affairs)",
+      "note": "search not restricted by act type; whether RT II treaties are returned not confirmed",
+      "elsewhere": {
+        "status": "available",
+        "source": "Riigi Teataja – RT II",
+        "url": "https://www.riigiteataja.ee/",
+        "evidence": "fetched 2026-11-07: public-api/api/v1/avalik/rtOsad lists RT I, RT II, RT III, RT IV, KO",
+        "note": "missing part: search not filtered to RT II; treaties are on the same backend"
+      }
+    },
+    {
+      "name": "Riigi Teataja",
+      "en": "Official gazette (State Gazette)",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Riigi Teataja (State Gazette, Ministry of Justice and Digital Affairs)",
+      "note": "consolidated act texts served; English translations linked only, not served",
+      "elsewhere": {
+        "status": "available",
+        "source": "Riigi Teataja – English translations",
+        "url": "https://www.riigiteataja.ee/en/",
+        "evidence": "research/south_nordic_baltic.md (GET en/akt/{id} returns translation metadata)",
+        "note": "missing part: English translations (not authentic) are linked, not served"
+      }
+    },
+    {
+      "name": "Kohaliku omavalitsuse määrus",
+      "en": "Local government regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Riigi Teataja – RT IV (local government acts)",
+        "url": "https://www.riigiteataja.ee/",
+        "evidence": "fetched 2026-11-07: public-api/api/v1/avalik/rtOsad lists 'RT IV' and 'KO'",
+        "note": "local regulations are published in RT IV; whether Fontes' search returns them unconfirmed"
+      }
+    }
+  ]
+}

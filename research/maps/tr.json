@@ -1,0 +1,664 @@
+{
+  "code": "tr",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+    "https://sgb.adalet.gov.tr/Resimler/Dokuman/28022025145012Adalet%20Bakanl%C4%B1%C4%9F%C4%B1%202024%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu.pdf"
+  ],
+  "courts": [
+    {
+      "name": "Anayasa Mahkemesi",
+      "en": "Constitutional Court (individual applications and norm review)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Anayasa Mahkemesi Kararlar Bilgi Bankası",
+      "note": "both decision banks queried (court=aym_bb / aym_norm)"
+    },
+    {
+      "name": "Yargıtay",
+      "en": "Court of Cassation (civil and criminal chambers, general assemblies)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": "last ~5 weeks not yet in Bedesten (source lag, 2026-11-07); Yargıtay's own karararama.yargitay.gov.tr timed out (connect) from the UK on http and https, 2026-11-10, so the lag is not filled",
+      "elsewhere": {
+        "status": "available",
+        "source": "Yargıtay Karar Arama",
+        "url": "https://karararama.yargitay.gov.tr",
+        "evidence": "used by yargi-mcp 0.2.2 (yargitay_mcp_module/client.py)",
+        "note": "missing part: the newest decisions not yet in Bedesten. Yargıtay's own bank lists all Hukuk and Ceza Daireleri plus HGK/CGK. From the UK it worked once and timed out once on 2026-11-07. A Bedesten probe on 2026-11-07 returned Ceza Dairesi decisions up to 01.10.2026, so the lag is about 5 weeks now, not 5 months. Criminal chambers are already reached through Bedesten YARGITAYKARARI ('hırsızlık': 774,363 hits)"
+      }
+    },
+    {
+      "name": "Danıştay",
+      "en": "Council of State (supreme administrative court)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Uyuşmazlık Mahkemesi",
+      "en": "Court of Jurisdictional Disputes",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Uyuşmazlık Mahkemesi Karar Arama",
+      "note": "court=uyusmazlik: the court's own bank (full-text search, PDF full text); the bank shows no hit count (2026-11-10)"
+    },
+    {
+      "name": "Bölge Adliye Mahkemeleri, hukuk daireleri (17 active BAM, 320 daire)",
+      "en": "Regional courts of appeal, civil chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": "only Bedesten ISTINAFHUKUK (civil) item type; criminal chambers not queried; 18 BAM established, 17 active, Malatya not yet (MoJ 2024 Faaliyet Raporu, fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "available",
+        "source": "UYAP Emsal Karar Arama",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: search form lists 'Bam Hukuk Mahkemeleri' with every BAM Hukuk Dairesi; also used by yargi-mcp 0.2.2 (emsal_mcp_module/client.py)",
+        "note": "missing part: BAM civil decisions that are in UYAP Emsal but not in Bedesten. research/cee_balkans_turkey_cis.md: 49,884 hits for 'kira', newest 16.09.2026. The form carries a reCAPTCHA that is switched off at present (isDisplayCaptcha=false) and can be turned on"
+      }
+    },
+    {
+      "name": "Bölge Adliye Mahkemeleri, ceza daireleri (17 active BAM, 300 daire)",
+      "en": "Regional courts of appeal, criminal chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no Bedesten item type used for criminal appeal chambers",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lexpera (commercial)",
+        "url": "https://www.lexpera.com.tr/ictihat/bolge-adliye-mahkemesi/istanbul-bam26-cd-e-2019-712-k-2020-378-t-5-3-2020",
+        "evidence": "fetched 2026-11-07: İstanbul BAM 26. Ceza Dairesi 2019/712 E. page, full text 'sadece Standart, Profesyonel veya Profesyonel + pakete abone olan üyelerimiz erişebilir'",
+        "note": "paid. No free official source found. Bedesten has only 5 case-law item types: the mevzuat.adalet.gov.tr bundle, fetched 2026-11-07, lists YARGITAYKARARI, DANISTAYKARAR, YERELHUKUK, ISTINAFHUKUK and KYB, with no criminal istinaf type. The UYAP Emsal form (fetched 2026-11-07) offers only Hukuk courts and has 0 'ceza' options. Criminal decisions that are freely reachable are Yargıtay Ceza Daireleri/CGK (Bedesten, Yargıtay Karar Arama) and AYM"
+      }
+    },
+    {
+      "name": "Bölge İdare Mahkemeleri, idari dava daireleri (9 BİM, 83 daire)",
+      "en": "Regional administrative courts, administrative chambers",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Bedesten has no BİM item type (only 5 case-law types); no free official source. Chamber counts: MoJ 2024 Faaliyet Raporu (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lexpera (commercial)",
+        "url": "https://www.lexpera.com.tr/ictihat/bolge-idare-mahkemesi/izmir-bim1-idd-e-2017-1328-k-2017-1336-t-19-12-2017",
+        "evidence": "search result only (Lexpera 'bolge-idare-mahkemesi' pages for İzmir/Gaziantep BİM İdare and Vergi Dava Daireleri, marked subscriber-only)",
+        "note": "paid. No free official source found. Bedesten has no BİM item type (bundle fetched 2026-11-07). In Bedesten, DANISTAYKARAR birimAdi values are Danıştay 'N. Daire' only (probe 2026-11-07). The Danıştay Karar Arama chamber list (fetched 2026-11-07) has Danıştay and AYİM only, and UYAP Emsal is civil-only"
+      }
+    },
+    {
+      "name": "Bölge İdare Mahkemeleri, vergi dava daireleri (9 BİM, 40 daire)",
+      "en": "Regional administrative courts, tax chambers",
+      "tier": "appeal",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "Bedesten has no BİM item type (only 5 case-law types); no free official source. Chamber counts: MoJ 2024 Faaliyet Raporu (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lexpera (commercial)",
+        "url": "https://www.lexpera.com.tr/ictihat/bolge-idare-mahkemesi/izmir-bim1-idd-e-2017-1328-k-2017-1336-t-19-12-2017",
+        "evidence": "search result only (Lexpera 'bolge-idare-mahkemesi' pages for İzmir/Gaziantep BİM İdare and Vergi Dava Daireleri, marked subscriber-only)",
+        "note": "paid. No free official source found. Bedesten has no BİM item type (bundle fetched 2026-11-07). In Bedesten, DANISTAYKARAR birimAdi values are Danıştay 'N. Daire' only (probe 2026-11-07). The Danıştay Karar Arama chamber list (fetched 2026-11-07) has Danıştay and AYİM only, and UYAP Emsal is civil-only"
+      }
+    },
+    {
+      "name": "Asliye Ticaret Mahkemeleri (211)",
+      "en": "Commercial courts of first instance (incl. maritime-specialised chambers)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": "Bedesten YERELHUKUK: a selection of decisions; every YERELHUKUK hit in probes on 2026-11-07 was an Asliye Ticaret court. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "available",
+        "source": "UYAP Emsal Karar Arama",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: 'Hukuk Mahkemeleri' select lists ~110 Asliye Ticaret courts; also used by yargi-mcp 0.2.2 (emsal_mcp_module/client.py)",
+        "note": "a selection only, not all decisions. reCAPTCHA on the form is switched off at present (isDisplayCaptcha=false) and can be turned on"
+      }
+    },
+    {
+      "name": "Fikrî ve Sınaî Haklar Hukuk Mahkemeleri (15)",
+      "en": "IP civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": "source covers first-instance civil decisions generally (Bedesten YERELHUKUK); whether FSH Hukuk courts are included is unverified (probes showed only Asliye Ticaret). count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "available",
+        "source": "UYAP Emsal Karar Arama",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: 'Hukuk Mahkemeleri' select lists ~16 Fikrî ve Sınaî Haklar Hukuk courts (İstanbul, İstanbul Anadolu, Ankara, İzmir, Antalya, Bursa ...); also used by yargi-mcp 0.2.2 (emsal_mcp_module/client.py)",
+        "note": "a selection only, not all decisions. reCAPTCHA on the form is switched off at present (isDisplayCaptcha=false) and can be turned on"
+      }
+    },
+    {
+      "name": "Asliye Hukuk Mahkemeleri (1,835)",
+      "en": "General civil courts of first instance",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten YERELHUKUK probes on 2026-11-07 ('işçilik alacağı' 11,810 hits, 'boşanma' 1,527 hits, earlier 'kira' probe) returned only Asliye Ticaret courts; UYAP Emsal's 'Hukuk Mahkemeleri' list (fetched 2026-11-07) has only Asliye Ticaret (~110) and Fikrî ve Sınaî Haklar Hukuk (~16) courts. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal 'Hukuk Mahkemeleri' list has only Asliye Ticaret and Fikrî ve Sınaî Haklar Hukuk courts; Bedesten YERELHUKUK probes returned only Asliye Ticaret",
+        "note": "not published by any official free source. Case files are in UYAP, open only to parties and their lawyers (e-Devlet / e-imza login). Commercial coverage (Lexpera, Kazancı) unverified"
+      }
+    },
+    {
+      "name": "Sulh Hukuk Mahkemeleri (1,261)",
+      "en": "Civil peace courts (tenancy, partition, guardianship)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten YERELHUKUK probes on 2026-11-07 ('işçilik alacağı' 11,810 hits, 'boşanma' 1,527 hits, earlier 'kira' probe) returned only Asliye Ticaret courts; UYAP Emsal's 'Hukuk Mahkemeleri' list (fetched 2026-11-07) has only Asliye Ticaret (~110) and Fikrî ve Sınaî Haklar Hukuk (~16) courts. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal 'Hukuk Mahkemeleri' list has only Asliye Ticaret and Fikrî ve Sınaî Haklar Hukuk courts; Bedesten YERELHUKUK probes returned only Asliye Ticaret",
+        "note": "not published by any official free source. Case files are in UYAP, open only to parties and their lawyers (e-Devlet / e-imza login). Commercial coverage (Lexpera, Kazancı) unverified"
+      }
+    },
+    {
+      "name": "İş Mahkemeleri (620)",
+      "en": "Labour courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten YERELHUKUK probes on 2026-11-07 ('işçilik alacağı' 11,810 hits, 'boşanma' 1,527 hits, earlier 'kira' probe) returned only Asliye Ticaret courts; UYAP Emsal's 'Hukuk Mahkemeleri' list (fetched 2026-11-07) has only Asliye Ticaret (~110) and Fikrî ve Sınaî Haklar Hukuk (~16) courts. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal 'Hukuk Mahkemeleri' list has only Asliye Ticaret and Fikrî ve Sınaî Haklar Hukuk courts; Bedesten YERELHUKUK probes returned only Asliye Ticaret",
+        "note": "not published by any official free source. Case files are in UYAP, open only to parties and their lawyers (e-Devlet / e-imza login). Commercial coverage (Lexpera, Kazancı) unverified"
+      }
+    },
+    {
+      "name": "Aile Mahkemeleri (714)",
+      "en": "Family courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten YERELHUKUK probes on 2026-11-07 ('işçilik alacağı' 11,810 hits, 'boşanma' 1,527 hits, earlier 'kira' probe) returned only Asliye Ticaret courts; UYAP Emsal's 'Hukuk Mahkemeleri' list (fetched 2026-11-07) has only Asliye Ticaret (~110) and Fikrî ve Sınaî Haklar Hukuk (~16) courts. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal 'Hukuk Mahkemeleri' list has only Asliye Ticaret and Fikrî ve Sınaî Haklar Hukuk courts; Bedesten YERELHUKUK probes returned only Asliye Ticaret",
+        "note": "not published by any official free source. Case files are in UYAP, open only to parties and their lawyers (e-Devlet / e-imza login). Commercial coverage (Lexpera, Kazancı) unverified"
+      }
+    },
+    {
+      "name": "Tüketici Mahkemeleri (164)",
+      "en": "Consumer courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten YERELHUKUK probes on 2026-11-07 ('işçilik alacağı' 11,810 hits, 'boşanma' 1,527 hits, earlier 'kira' probe) returned only Asliye Ticaret courts; UYAP Emsal's 'Hukuk Mahkemeleri' list (fetched 2026-11-07) has only Asliye Ticaret (~110) and Fikrî ve Sınaî Haklar Hukuk (~16) courts. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal 'Hukuk Mahkemeleri' list has only Asliye Ticaret and Fikrî ve Sınaî Haklar Hukuk courts; Bedesten YERELHUKUK probes returned only Asliye Ticaret",
+        "note": "not published by any official free source. Case files are in UYAP, open only to parties and their lawyers (e-Devlet / e-imza login). Commercial coverage (Lexpera, Kazancı) unverified"
+      }
+    },
+    {
+      "name": "Kadastro Mahkemeleri (189)",
+      "en": "Cadastre (land registration) courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten YERELHUKUK probes on 2026-11-07 ('işçilik alacağı' 11,810 hits, 'boşanma' 1,527 hits, earlier 'kira' probe) returned only Asliye Ticaret courts; UYAP Emsal's 'Hukuk Mahkemeleri' list (fetched 2026-11-07) has only Asliye Ticaret (~110) and Fikrî ve Sınaî Haklar Hukuk (~16) courts. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal 'Hukuk Mahkemeleri' list has only Asliye Ticaret and Fikrî ve Sınaî Haklar Hukuk courts; Bedesten YERELHUKUK probes returned only Asliye Ticaret",
+        "note": "not published by any official free source. Case files are in UYAP, open only to parties and their lawyers (e-Devlet / e-imza login). Commercial coverage (Lexpera, Kazancı) unverified"
+      }
+    },
+    {
+      "name": "İcra Hukuk Mahkemeleri",
+      "en": "Enforcement courts, civil side (complaints/objections in execution proceedings)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten YERELHUKUK probes on 2026-11-07 ('işçilik alacağı' 11,810 hits, 'boşanma' 1,527 hits, earlier 'kira' probe) returned only Asliye Ticaret courts; UYAP Emsal's 'Hukuk Mahkemeleri' list (fetched 2026-11-07) has only Asliye Ticaret (~110) and Fikrî ve Sınaî Haklar Hukuk (~16) courts. 361 icra mahkemeleri in total; the MoJ table counts İcra Mahkemesi as one type (2024 Faaliyet Raporu, fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal 'Hukuk Mahkemeleri' list has only Asliye Ticaret and Fikrî ve Sınaî Haklar Hukuk courts; Bedesten YERELHUKUK probes returned only Asliye Ticaret",
+        "note": "not published by any official free source. Case files are in UYAP, open only to parties and their lawyers (e-Devlet / e-imza login). Commercial coverage (Lexpera, Kazancı) unverified"
+      }
+    },
+    {
+      "name": "İcra Ceza Mahkemeleri",
+      "en": "Enforcement courts, criminal side (execution offences under İİK)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried; counted within the 361 icra mahkemeleri (MoJ 2024)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "Fikrî ve Sınaî Haklar Ceza Mahkemeleri (14)",
+      "en": "IP criminal courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "Sulh Ceza Hâkimlikleri (757)",
+      "en": "Criminal judgeships of peace (pre-trial measures: arrest, search, access bans)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "Asliye Ceza Mahkemeleri (2,876)",
+      "en": "General criminal courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "Ağır Ceza Mahkemeleri (651)",
+      "en": "Assize (serious crimes) courts, incl. those designated for terrorism/organised crime (CMK 250-type duties)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "Çocuk Mahkemeleri (114)",
+      "en": "Juvenile courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "Çocuk Ağır Ceza Mahkemeleri (23)",
+      "en": "Juvenile assize courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "İnfaz Hâkimlikleri (249)",
+      "en": "Sentence-enforcement judgeships",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no first-instance criminal item type queried. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://emsal.uyap.gov.tr",
+        "evidence": "fetched 2026-11-07: UYAP Emsal form has no ceza courts; mevzuat.adalet.gov.tr bundle lists no criminal first-instance item type",
+        "note": "no official free publication found. Files are in UYAP, open only to the parties and their lawyers (login). Commercial coverage is unverified: a Lexpera search found no first-instance criminal decisions"
+      }
+    },
+    {
+      "name": "İdare Mahkemeleri (214)",
+      "en": "First-instance administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no free official source; not in Bedesten, Danıştay or UYAP Emsal. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lexpera (commercial)",
+        "url": "https://www.lexpera.com.tr/ictihat/idari-yargi-ilk-derece-mahkemeleri/isparta-1-idare-mahkemesi-e-2015-838-k-2016-422-t-22-4-2016",
+        "evidence": "search result only (Lexpera 'idari-yargi-ilk-derece-mahkemeleri' category, subscriber-only)",
+        "note": "paid, and only a few decisions. No free official source: Bedesten, Danıştay Karar Arama and UYAP Emsal carry no idare/vergi mahkemesi decisions (checked 2026-11-07)"
+      }
+    },
+    {
+      "name": "Vergi Mahkemeleri (90)",
+      "en": "First-instance tax courts",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "no free official source; not in Bedesten, Danıştay or UYAP Emsal. count: Adalet Bakanlığı 2024 Faaliyet Raporu, 'Adli/İdari Yargı İlk Derece Kurulu Mahkeme Sayıları' (fetched 2026-11-07)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lexpera (commercial)",
+        "url": "https://www.lexpera.com.tr/ictihat/idari-yargi-ilk-derece-mahkemeleri/isparta-1-idare-mahkemesi-e-2015-838-k-2016-422-t-22-4-2016",
+        "evidence": "search result only (Lexpera 'idari-yargi-ilk-derece-mahkemeleri' category, subscriber-only)",
+        "note": "paid, and only a few decisions. No free official source: Bedesten, Danıştay Karar Arama and UYAP Emsal carry no idare/vergi mahkemesi decisions (checked 2026-11-07)"
+      }
+    },
+    {
+      "name": "Kanun yararına bozma kararları",
+      "en": "Cassation in the interest of the law (Yargıtay)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": "Bedesten KYB item type"
+    },
+    {
+      "name": "Sayıştay",
+      "en": "Court of Accounts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "yes",
+      "via": "Sayıştay Kararlar (Genel Kurul, Temyiz Kurulu, Daire)",
+      "note": "court=sayistay_gk / sayistay_temyiz / sayistay_daire: everything the site publishes (Genel Kurul lists only 7 decisions; Temyiz ~29.5k; Daire from 2012) (2026-11-10)"
+    },
+    {
+      "name": "Askeri Yüksek İdare Mahkemesi (abolished 2017)",
+      "en": "Supreme Military Administrative Court (historical)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not in Fontes: Bedesten DANISTAYKARAR with chamber 'Askeri Yüksek İdare Mahkemesi' returned 0 hits (Fontes probe 2026-11-07), although yargi-mcp's enum lists AYİM birimAdi values",
+      "elsewhere": {
+        "status": "available",
+        "source": "Danıştay Karar Arama",
+        "url": "https://karararama.danistay.gov.tr",
+        "evidence": "fetched 2026-11-07: chamber list includes 'Askeri Yüksek İdare Mahkemesi', its 1.-3. Daire, Daireler Kurulu and Başsavcılığı",
+        "note": "historical AYİM decisions are hosted in Danıştay's own bank. Same reCAPTCHA switch as UYAP Emsal (off at present)"
+      }
+    },
+    {
+      "name": "Kamu İhale Kurulu (KİK)",
+      "en": "Public Procurement Authority board decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built: the EKAP v2 API requires signed X-Custom-Request-* headers (client-side AES keys) — an anti-automation measure, so out of bounds (2026-11-10)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "EKAP v2 Kurul Kararları",
+        "url": "https://ekapv2.kik.gov.tr/sorgulamalar/kurul-kararlari",
+        "evidence": "fetched 2026-11-07: page loads (EKAP SPA, 200); used by yargi-mcp 0.2.2 (kik_mcp_module/client_v2.py)",
+        "note": "Uyuşmazlık (bid protest), Düzenleyici (regulatory) and Mahkeme (court-ruling follow-up) decisions via the EKAP v2 JSON API"
+      }
+    },
+    {
+      "name": "Rekabet Kurulu",
+      "en": "Competition Board decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Rekabet Kurumu Kurul Kararı Arama",
+      "note": "court=rekabet: full-text search over the decision PDFs, ~10.5k decisions (2026-11-10)"
+    },
+    {
+      "name": "Kişisel Verileri Koruma Kurulu (KVKK)",
+      "en": "Data Protection Board decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built: no official search endpoint found (yargi-mcp reaches it only via a third-party web-search API) (2026-11-10)",
+      "elsewhere": {
+        "status": "available",
+        "source": "KVKK Kurul Karar Özetleri / Kurul Kararları / İlke Kararları",
+        "url": "https://www.kvkk.gov.tr/Icerik/5406/kurul-karar-ozetleri",
+        "evidence": "fetched 2026-11-07: kvkk.gov.tr home (200) links Kurul Karar Özetleri, Kurul Kararları and İlke Kararları; decision page /Icerik/7288/2021-1303 opened",
+        "note": "mostly summaries (karar özeti), not full decisions. No search API: yargi-mcp finds pages through the Brave Search API (paid key) and only then fetches kvkk.gov.tr. The adapter's 'timed out from the UK' did not reproduce on 2026-11-07"
+      }
+    },
+    {
+      "name": "Bankacılık Düzenleme ve Denetleme Kurulu (BDDK)",
+      "en": "Banking Regulation and Supervision Board decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built: no official search endpoint found (yargi-mcp reaches it only via a third-party web-search API) (2026-11-10)",
+      "elsewhere": {
+        "status": "available",
+        "source": "BDDK Mevzuat / Kurul Kararları",
+        "url": "https://www.bddk.org.tr/Mevzuat/Liste/55",
+        "evidence": "fetched 2026-11-07: page returned 200 (644 KB) once, later attempts timed out; used by yargi-mcp 0.2.2 (bddk_mcp_module/client.py)",
+        "note": "decision documents at /Mevzuat/DokumanGetir/<id>. No search API: yargi-mcp finds them through the Tavily API (paid key). The site is intermittently slow from the UK"
+      }
+    },
+    {
+      "name": "Bilgi Teknolojileri ve İletişim Kurulu (BTK)",
+      "en": "ICT Authority board decisions",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built: btk.tr robots.txt has `User-agent: * Disallow: /api/`, and the decision list is served from /api/ (2026-11-10)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BTK Kurul Kararları",
+        "url": "https://www.btk.tr/kurul-kararlari",
+        "evidence": "fetched 2026-11-07: page titled 'Kurul Kararları' with 40 PDF links (btk.gov.tr/s3/...); used by yargi-mcp 0.2.2 (btk_mcp_module/client.py)",
+        "note": "use the HTML page and its PDFs. robots.txt has 'Disallow: /api/', and yargi-mcp's /api/content/board-decisions sits under that path, so it is off-limits"
+      }
+    },
+    {
+      "name": "Gelir İdaresi Başkanlığı özelgeleri",
+      "en": "Revenue Administration advance tax rulings (özelge)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "yes",
+      "via": "Gelir İdaresi Başkanlığı Özelgeler",
+      "note": "court=gib_ozelge: gib.gov.tr portal API, full text (2026-11-10)"
+    },
+    {
+      "name": "Sigorta Tahkim Komisyonu",
+      "en": "Insurance Arbitration Commission awards",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built: no official search endpoint found (yargi-mcp reaches it only via a third-party web-search API) (2026-11-10)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Sigorta Tahkim Komisyonu Hakem Karar Dergisi / E-Bülten (PDF)",
+        "url": "https://www.sigortatahkim.org",
+        "evidence": "fetched 2026-11-07: home page 200; used by yargi-mcp 0.2.2 (sigorta_tahkim_mcp_module/client.py); search result only for the journal (FaaliyetRaporu 2025 lists 'E-Bülten ve Hakem Karar Dergisi')",
+        "note": "only selected awards, published in PDF journals under /content/CmsFiles/. No search: yargi-mcp finds them through the Tavily API (paid key)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Türkiye Cumhuriyeti Anayasası",
+      "en": "Constitution (Law 2709)",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": "via Bedesten as KANUN 2709"
+    },
+    {
+      "name": "Kanun",
+      "en": "Acts of the Grand National Assembly",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Cumhurbaşkanlığı Kararnamesi",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Kanun Hükmünde Kararname",
+      "en": "Decree-laws (pre-2018)",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Tüzük",
+      "en": "Statutory regulations (pre-2018)",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Cumhurbaşkanlığı Yönetmeliği / Cumhurbaşkanı Kararı / Cumhurbaşkanlığı Genelgesi",
+      "en": "Presidential regulations, decisions and circulars",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Yönetmelik (bakanlık), Kurum ve Kuruluş Yönetmeliği, Üniversite Yönetmeliği",
+      "en": "Ministerial, agency and university regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Tebliğ",
+      "en": "Communiqués",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+      "note": null
+    },
+    {
+      "name": "Resmî Gazete",
+      "en": "Official Gazette (as-published texts, daily index)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "source exists (HTML only) but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Resmî Gazete",
+        "url": "https://www.resmigazete.gov.tr",
+        "evidence": "fetched 2026-11-07: issue 33423 with Yürütme ve İdare and İlân sections; item URLs /eskiler/YYYY/MM/YYYYMMDD-N.htm, full issue /eskiler/YYYY/MM/YYYYMMDD.pdf",
+        "note": "HTML/PDF only, no API. Plain curl from here timed out twice on 2026-11-07; the fetch tool got through"
+      }
+    },
+    {
+      "name": "Milletlerarası Andlaşmalar",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "treaty type not in the adapter's MevzuatTur list",
+      "elsewhere": {
+        "status": "available",
+        "source": "Resmî Gazete (Milletlerarası Andlaşma)",
+        "url": "https://www.resmigazete.gov.tr",
+        "evidence": "fetched 2026-11-07: RG search filter has the document type 'Milletlerarası Andlaşma'",
+        "note": "as-published texts only: a treaty's Turkish text is annexed to the approving Cumhurbaşkanı Kararı in RG. No consolidated treaty database found (search result only for MFA)"
+      }
+    },
+    {
+      "name": "Belediye meclis kararları / yerel düzenlemeler",
+      "en": "Municipal by-laws and decisions",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no national database; per-municipality sites only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Each municipality's own site (e.g. Ankara Büyükşehir Belediyesi Meclis Kararları)",
+        "url": "https://www.ankara.bel.tr/meclis-kararlari",
+        "evidence": "fetched 2026-11-07: Ankara BB 'Meclis Kararları' page 200",
+        "note": "fragmented: no national database, so each of about 1,390 municipalities publishes, or does not, on its own site. www.ibb.istanbul/meclis-kararlari returned 404"
+      }
+    }
+  ]
+}

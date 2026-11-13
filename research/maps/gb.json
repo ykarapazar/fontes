@@ -1,0 +1,1166 @@
+{
+  "code": "gb",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.judiciary.uk/about-the-judiciary/the-justice-system/court-structure/",
+    "https://www.judiciary.uk/judgments/",
+    "https://www.scotcourts.gov.uk/courts-and-tribunals/"
+  ],
+  "courts": [
+    {
+      "name": "Supreme Court of the United Kingdom (UKSC)",
+      "en": "UK Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward only (older on BAILII, which forbids scraping)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 judgments; BAILII has no API and forbids scraping"
+      }
+    },
+    {
+      "name": "Judicial Committee of the Privy Council (UKPC)",
+      "en": "Privy Council",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 judgments; BAILII has no API and forbids scraping"
+      }
+    },
+    {
+      "name": "Court of Appeal – Civil Division",
+      "en": "Court of Appeal of England and Wales (Civil)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward only; court code ewca/civ",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 judgments; BAILII has no API and forbids scraping"
+      }
+    },
+    {
+      "name": "Court of Appeal – Criminal Division (incl. Court Martial Appeal Court)",
+      "en": "Court of Appeal of England and Wales (Criminal)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward only; court code ewca/crim",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 judgments; BAILII has no API and forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – King's Bench Division (general list)",
+      "en": "High Court, KBD",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/kb (ewhc/qb before 2022)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Administrative Court (KBD)",
+      "en": "Administrative Court (judicial review)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/admin",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Commercial Court (KBD)",
+      "en": "Commercial Court",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/comm",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Admiralty Court (KBD)",
+      "en": "Admiralty Court",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "source covers High Court decisions generally (FCL code ewhc/admlty); not among the adapter's court-filter codes, reached by unfiltered search only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Technology and Construction Court",
+      "en": "TCC",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/tcc",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Circuit Commercial Court (former Mercantile Courts)",
+      "en": "Circuit Commercial Court",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "source covers High Court decisions generally (FCL code ewhc/mercantile); not among the adapter's court-filter codes",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Chancery Division / Business and Property Courts (Business List, Insolvency and Companies, Property Trusts and Probate, Financial List, Competition List)",
+      "en": "High Court, Chancery Division",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/ch",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Patents Court (Chancery)",
+      "en": "Patents Court",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/pat",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "Intellectual Property Enterprise Court",
+      "en": "IPEC",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/ipec",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "High Court – Family Division",
+      "en": "High Court, Family Division",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "2003 onward; many first-instance decisions only on BAILII; court code ewhc/fam",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "Senior Courts Costs Office",
+      "en": "SCCO (costs)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "source covers High Court decisions generally (FCL code ewhc/costs); not among the adapter's court-filter codes",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: pre-2003 and many unreported first-instance judgments; BAILII forbids scraping"
+      }
+    },
+    {
+      "name": "County Court (~170 hearing centres; incl. small claims track)",
+      "en": "County Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "only the few County Court decisions published to Find Case Law (ewcc); no court-filter code in the adapter",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: most County Court decisions are unpublished; some on BAILII, which forbids scraping"
+      }
+    },
+    {
+      "name": "Family Court",
+      "en": "Family Court (single national court)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "only decisions published to Find Case Law (ewfc, incl. ewfc/b)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: most County Court decisions are unpublished; some on BAILII, which forbids scraping"
+      }
+    },
+    {
+      "name": "Court of Protection",
+      "en": "Court of Protection",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "only decisions published to Find Case Law (ewcop)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: most County Court decisions are unpublished; some on BAILII, which forbids scraping"
+      }
+    },
+    {
+      "name": "Crown Court (~77 locations)",
+      "en": "Crown Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "judgments rarely published; no court-filter code in the adapter; whether Find Case Law holds Crown Court items reachable by unfiltered search is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "Judiciary of England and Wales – Judgments & sentencing remarks",
+        "url": "https://www.judiciary.uk/judgments/",
+        "evidence": "fetched 2026-11-07: judiciary.uk/judgments filter offers judgment types incl. 'Sentencing Remarks' and subjects incl. 'Crown Court'; robots.txt 'Disallow:' (empty)",
+        "note": "selected sentencing remarks and rulings only; most Crown Court decisions are unpublished"
+      }
+    },
+    {
+      "name": "Magistrates' courts (~200)",
+      "en": "Magistrates' courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "decisions not published",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "magistrates' decisions are not published as judgments (oral; court registers only)"
+      }
+    },
+    {
+      "name": "Youth courts",
+      "en": "Youth courts (magistrates)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "decisions not published",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "youth-court proceedings are private and not published"
+      }
+    },
+    {
+      "name": "Coroners' courts",
+      "en": "Coroners' courts (inquests)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Judiciary of England and Wales – Prevention of future deaths reports",
+        "url": "https://www.judiciary.uk/prevention-of-future-death-reports/",
+        "evidence": "fetched 2026-11-07: page lists individual PFD reports (e.g. 'graeme-elliott-prevention-of-future-deaths-report'); robots.txt 'Disallow:' (empty)",
+        "note": "Regulation 28 reports only; inquest conclusions themselves are not published centrally"
+      }
+    },
+    {
+      "name": "Court Martial, Summary Appeal Court, Service Civilian Court",
+      "en": "Service courts (military)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "appeals reach the Court Martial Appeal Court (in Find Case Law as EWCA Crim); first-instance service-court decisions: no publication found"
+      }
+    },
+    {
+      "name": "Upper Tribunal – Administrative Appeals Chamber",
+      "en": "UT AAC",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "what TNA holds (ukut/aac); GOV.UK finder has more",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK specialist finders (e.g. tax and chancery, administrative appeals, UTIAC decisions)",
+        "url": "https://www.gov.uk/administrative-appeals-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: gov.uk/administrative-appeals-tribunal-decisions returned 200; gov.uk robots.txt only disallows /search/all*",
+        "note": "missing part: Upper Tribunal decisions not transferred to Find Case Law; GOV.UK content API (www.gov.uk/api/content) is open"
+      }
+    },
+    {
+      "name": "Upper Tribunal – Immigration and Asylum Chamber",
+      "en": "UT IAC",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "what TNA holds (ukut/iac)",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK specialist finders (e.g. tax and chancery, administrative appeals, UTIAC decisions)",
+        "url": "https://www.gov.uk/administrative-appeals-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: gov.uk/administrative-appeals-tribunal-decisions returned 200; gov.uk robots.txt only disallows /search/all*",
+        "note": "missing part: Upper Tribunal decisions not transferred to Find Case Law; GOV.UK content API (www.gov.uk/api/content) is open"
+      }
+    },
+    {
+      "name": "Upper Tribunal – Lands Chamber",
+      "en": "UT Lands Chamber",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "what TNA holds (ukut/lc)",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK specialist finders (e.g. tax and chancery, administrative appeals, UTIAC decisions)",
+        "url": "https://www.gov.uk/administrative-appeals-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: gov.uk/administrative-appeals-tribunal-decisions returned 200; gov.uk robots.txt only disallows /search/all*",
+        "note": "missing part: Upper Tribunal decisions not transferred to Find Case Law; GOV.UK content API (www.gov.uk/api/content) is open"
+      }
+    },
+    {
+      "name": "Upper Tribunal – Tax and Chancery Chamber",
+      "en": "UT TCC",
+      "tier": "appeal",
+      "branch": "tax",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "what TNA holds (ukut/tcc)",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK specialist finders (e.g. tax and chancery, administrative appeals, UTIAC decisions)",
+        "url": "https://www.gov.uk/administrative-appeals-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: gov.uk/administrative-appeals-tribunal-decisions returned 200; gov.uk robots.txt only disallows /search/all*",
+        "note": "missing part: Upper Tribunal decisions not transferred to Find Case Law; GOV.UK content API (www.gov.uk/api/content) is open"
+      }
+    },
+    {
+      "name": "Employment Appeal Tribunal",
+      "en": "EAT (Great Britain)",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "what TNA holds (eat)",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK – Employment appeal tribunal decisions",
+        "url": "https://www.gov.uk/employment-appeal-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: GOV.UK finder listing (api/search.json filter_format=finder) includes 'Employment appeal tribunal decisions' at /employment-appeal-tribunal-decisions; robots allows",
+        "note": ""
+      }
+    },
+    {
+      "name": "First-tier Tribunal – Tax Chamber",
+      "en": "FtT Tax",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "what TNA holds (ukftt/tc)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: decisions not transferred to Find Case Law; some on BAILII"
+      }
+    },
+    {
+      "name": "First-tier Tribunal – General Regulatory Chamber (information rights, charity, gambling, etc.)",
+      "en": "FtT GRC",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "what TNA holds (ukftt/grc)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII",
+        "url": "https://www.bailii.org",
+        "evidence": "used by uk adapter notes (src/world_legal_mcp/jurisdictions/gb.py)",
+        "note": "missing part: decisions not transferred to Find Case Law; some on BAILII"
+      }
+    },
+    {
+      "name": "First-tier Tribunal – Property Chamber (residential property, land registration, agricultural land and drainage)",
+      "en": "FtT Property Chamber",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in the adapter's court codes; published on gov.uk",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK specialist finders (e.g. residential property tribunal decisions)",
+        "url": "https://www.gov.uk/residential-property-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: gov.uk/residential-property-tribunal-decisions returned 200",
+        "note": "missing part: Property Chamber on GOV.UK; Social Entitlement and Immigration FtT decisions largely unpublished"
+      }
+    },
+    {
+      "name": "First-tier Tribunal – Immigration and Asylum Chamber",
+      "en": "FtT IAC",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "FtT IAC determinations are not published (only UT IAC decisions are)"
+      }
+    },
+    {
+      "name": "First-tier Tribunal – Social Entitlement Chamber (social security, criminal injuries compensation, asylum support)",
+      "en": "FtT SEC",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK – Asylum support tribunal decisions",
+        "url": "https://www.gov.uk/asylum-support-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: GOV.UK finder listing (api/search.json filter_format=finder) includes 'Asylum support tribunal decisions' at /asylum-support-tribunal-decisions; robots allows",
+        "note": "asylum-support decisions only; social-security and CICA decisions are not published"
+      }
+    },
+    {
+      "name": "First-tier Tribunal – Health, Education and Social Care Chamber (care standards, SEND, mental health, primary health lists)",
+      "en": "FtT HESC",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "not among the GOV.UK finders listed 2026-11-07; selected decisions may be on judiciary.uk or Find Case Law (unverified)"
+      }
+    },
+    {
+      "name": "First-tier Tribunal – War Pensions and Armed Forces Compensation Chamber",
+      "en": "FtT WPAFC (England and Wales)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "not among the GOV.UK finders listed 2026-11-07"
+      }
+    },
+    {
+      "name": "Employment Tribunals (England and Wales; Scotland)",
+      "en": "Employment Tribunals",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "published on gov.uk, not Find Case Law; not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK Employment tribunal decisions finder",
+        "url": "https://www.gov.uk/employment-tribunal-decisions",
+        "evidence": "fetched 2026-11-07: finder page 200 with 52 decision links per page; robots allows",
+        "note": "England, Wales and Scotland ET decisions since 2017; GOV.UK search/content APIs open"
+      }
+    },
+    {
+      "name": "Competition Appeal Tribunal",
+      "en": "Competition Appeal Tribunal (UK-wide)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in the adapter's court codes",
+      "elsewhere": {
+        "status": "available",
+        "source": "Competition Appeal Tribunal – Judgments",
+        "url": "https://www.catribunal.org.uk/judgments",
+        "evidence": "fetched 2026-11-07: /judgments lists judgments and rulings with PDFs (e.g. Stephan v Amazon, 26 Oct 2026)",
+        "note": "robots/terms not checked"
+      }
+    },
+    {
+      "name": "Investigatory Powers Tribunal",
+      "en": "IPT (UK-wide)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in the adapter's court codes",
+      "elsewhere": {
+        "status": "available",
+        "source": "Investigatory Powers Tribunal – Judgments",
+        "url": "https://investigatorypowerstribunal.org.uk/judgments/",
+        "evidence": "fetched 2026-11-07: /judgments page 200 listing judgment pages",
+        "note": "robots/terms not checked"
+      }
+    },
+    {
+      "name": "Special Immigration Appeals Commission",
+      "en": "SIAC (UK-wide)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "SIAC decisions",
+        "url": "https://siac.decisions.tribunals.gov.uk/",
+        "evidence": "fetched 2026-11-07: page lists OPEN judgment PDFs (2024-2026)",
+        "note": "OPEN judgments only; CLOSED judgments are not published"
+      }
+    },
+    {
+      "name": "Valuation Tribunal for England",
+      "en": "Valuation Tribunal (council tax, business rates)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Valuation Tribunal Service",
+        "url": "https://www.valuationtribunal.gov.uk/",
+        "evidence": "fetched 2026-11-07: /decisions/ 404; site nav shows 'Appeal & decisions search' (not opened)",
+        "note": "decision search exists per site nav; not opened"
+      }
+    },
+    {
+      "name": "Welsh tribunals (Education Tribunal for Wales, Residential Property Tribunal Wales, Mental Health Review Tribunal for Wales, Agricultural Land Tribunal Wales, Adjudication Panel for Wales, Welsh Language Tribunal)",
+      "en": "Devolved Welsh tribunals",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "each tribunal has its own gov.wales page; publication not checked"
+      }
+    }
+  ],
+  "states": [
+    {
+      "name": "Scotland",
+      "courts": [
+        {
+          "name": "Court of Session – Inner House",
+          "en": "Court of Session, Inner House (civil appeal)",
+          "tier": "appeal",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "Court of Session – Outer House",
+          "en": "Court of Session, Outer House (civil first instance)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "High Court of Justiciary (as appeal court)",
+          "en": "High Court of Justiciary, Court of Criminal Appeal",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "High Court of Justiciary (trial court)",
+          "en": "High Court of Justiciary, trial",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "Sheriff Appeal Court (civil and criminal)",
+          "en": "Sheriff Appeal Court",
+          "tier": "appeal",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "Sheriff Courts (39, incl. All-Scotland Sheriff Personal Injury Court)",
+          "en": "Sheriff Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "Justice of the Peace Courts",
+          "en": "Justice of the Peace Courts (summary crime)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "decisions not published",
+          "elsewhere": {
+            "status": "offline",
+            "source": null,
+            "url": null,
+            "evidence": "search result only",
+            "note": "summary decisions not published as judgments"
+          }
+        },
+        {
+          "name": "Lands Valuation Appeal Court",
+          "en": "Lands Valuation Appeal Court",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "Scottish Land Court",
+          "en": "Scottish Land Court (agricultural tenancy, crofting)",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "not built",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Scottish Land Court",
+            "url": "https://www.scottish-land-court.org.uk/",
+            "evidence": "fetched 2026-11-07 failed: connection error",
+            "note": "could not open the site"
+          }
+        },
+        {
+          "name": "Lands Tribunal for Scotland",
+          "en": "Lands Tribunal for Scotland",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "not built",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Lands Tribunal for Scotland",
+            "url": "https://www.lands-tribunal-scotland.org.uk/",
+            "evidence": "fetched 2026-11-07 failed: connection error",
+            "note": "could not open the site"
+          }
+        },
+        {
+          "name": "Upper Tribunal for Scotland",
+          "en": "Upper Tribunal for Scotland",
+          "tier": "appeal",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "Scottish court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Scottish Courts and Tribunals Service: Judgments",
+            "url": "https://www.scotcourts.gov.uk/judgments/",
+            "evidence": "fetched 2026-11-07: page says search judgments from 1999 by keyword, court or date; robots.txt has 'Disallow: /*?query=*'",
+            "note": "Court of Session, High Court of Justiciary, Sheriff Appeal Court, sheriff courts; keyword search URLs (?query=) are robots-disallowed, so build from sitemap/court/date listings"
+          }
+        },
+        {
+          "name": "First-tier Tribunal for Scotland – Housing and Property Chamber",
+          "en": "FtT Scotland HPC",
+          "tier": "first-instance",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "not built",
+          "elsewhere": {
+            "status": "available",
+            "source": "Housing and Property Chamber – previous tribunal decisions",
+            "url": "https://www.housingandpropertychamber.scot/previous-tribunal-decisions",
+            "evidence": "fetched 2026-11-07: page links decision lists for evictions/civil, letting agents, property factors, rent, right of entry, other private tenancy",
+            "note": "robots/terms not checked"
+          }
+        },
+        {
+          "name": "First-tier Tribunal for Scotland – Tax, Health and Education, General Regulatory, Social Security, Local Taxation chambers",
+          "en": "FtT Scotland, other chambers",
+          "tier": "first-instance",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "not built",
+          "elsewhere": {
+            "status": "unknown",
+            "source": null,
+            "url": null,
+            "evidence": "not checked online",
+            "note": "publication per chamber not checked"
+          }
+        },
+        {
+          "name": "Mental Health Tribunal for Scotland",
+          "en": "Mental Health Tribunal for Scotland",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "not built",
+          "elsewhere": {
+            "status": "offline",
+            "source": null,
+            "url": null,
+            "evidence": "search result only",
+            "note": "decisions on individual patients are not published"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Northern Ireland",
+      "courts": [
+        {
+          "name": "Court of Appeal in Northern Ireland",
+          "en": "NICA",
+          "tier": "appeal",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "NI court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Judiciary NI: Judicial decisions",
+            "url": "https://www.judiciaryni.uk/judicial-decisions",
+            "evidence": "fetched 2026-11-07: listing shows 2026 NICA, NICC, NIKB, NIFam, NIMaster, coroner decisions; robots disallows /search/ only",
+            "note": "NI Court of Appeal, High Court, Crown Court; county/magistrates rarely"
+          }
+        },
+        {
+          "name": "High Court in Northern Ireland – King's Bench Division",
+          "en": "NIKB (incl. judicial review)",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "NI court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Judiciary NI: Judicial decisions",
+            "url": "https://www.judiciaryni.uk/judicial-decisions",
+            "evidence": "fetched 2026-11-07: listing shows 2026 NICA, NICC, NIKB, NIFam, NIMaster, coroner decisions; robots disallows /search/ only",
+            "note": "NI Court of Appeal, High Court, Crown Court; county/magistrates rarely"
+          }
+        },
+        {
+          "name": "High Court in Northern Ireland – Chancery Division",
+          "en": "NICh",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "NI court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Judiciary NI: Judicial decisions",
+            "url": "https://www.judiciaryni.uk/judicial-decisions",
+            "evidence": "fetched 2026-11-07: listing shows 2026 NICA, NICC, NIKB, NIFam, NIMaster, coroner decisions; robots disallows /search/ only",
+            "note": "NI Court of Appeal, High Court, Crown Court; county/magistrates rarely"
+          }
+        },
+        {
+          "name": "High Court in Northern Ireland – Family Division",
+          "en": "NIFam",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "NI court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Judiciary NI: Judicial decisions",
+            "url": "https://www.judiciaryni.uk/judicial-decisions",
+            "evidence": "fetched 2026-11-07: listing shows 2026 NICA, NICC, NIKB, NIFam, NIMaster, coroner decisions; robots disallows /search/ only",
+            "note": "NI Court of Appeal, High Court, Crown Court; county/magistrates rarely"
+          }
+        },
+        {
+          "name": "Crown Court in Northern Ireland",
+          "en": "NICC",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "NI court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Judiciary NI: Judicial decisions",
+            "url": "https://www.judiciaryni.uk/judicial-decisions",
+            "evidence": "fetched 2026-11-07: listing shows 2026 NICA, NICC, NIKB, NIFam, NIMaster, coroner decisions; robots disallows /search/ only",
+            "note": "NI Court of Appeal, High Court, Crown Court; county/magistrates rarely"
+          }
+        },
+        {
+          "name": "County Courts (incl. small claims, Family Care Centres)",
+          "en": "NI County Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "NI court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Judiciary NI: Judicial decisions",
+            "url": "https://www.judiciaryni.uk/judicial-decisions",
+            "evidence": "fetched 2026-11-07: listing shows 2026 NICA, NICC, NIKB, NIFam, NIMaster, coroner decisions; robots disallows /search/ only",
+            "note": "judiciaryni.uk publishes selected county-court decisions only; robots disallows /search"
+          }
+        },
+        {
+          "name": "Magistrates' courts (incl. youth courts, family proceedings courts)",
+          "en": "NI magistrates' courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "decisions not published",
+          "elsewhere": {
+            "status": "offline",
+            "source": null,
+            "url": null,
+            "evidence": "search result only",
+            "note": "summary decisions not published as judgments"
+          }
+        },
+        {
+          "name": "Coroners' courts",
+          "en": "NI coroners (inquest findings on judiciaryni.uk)",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "NI court judgments outside Find Case Law: not built; source exists (see elsewhere)",
+          "elsewhere": {
+            "status": "available",
+            "source": "Judiciary NI: Judicial decisions",
+            "url": "https://www.judiciaryni.uk/judicial-decisions",
+            "evidence": "fetched 2026-11-07: listing shows 2026 NICA, NICC, NIKB, NIFam, NIMaster, coroner decisions; robots disallows /search/ only",
+            "note": "NI Court of Appeal, High Court, Crown Court; county/magistrates rarely"
+          }
+        },
+        {
+          "name": "Industrial Tribunals and Fair Employment Tribunal",
+          "en": "NI employment tribunals",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "not built",
+          "elsewhere": {
+            "status": "available",
+            "source": "OITFET – decision search",
+            "url": "https://oitfet.employmenttribunalsni.co.uk/DecisionSearch.aspx",
+            "evidence": "fetched 2026-11-07: employmenttribunalsni.co.uk links 'DecisionSearch.aspx' on the OITFET subdomain (search page itself not opened)",
+            "note": "robots/terms not checked"
+          }
+        },
+        {
+          "name": "Other NI tribunals (Lands Tribunal, Valuation Tribunal, Appeal Tribunals for social security, Care Tribunal, SENDIST, Mental Health Review Tribunal, Charity Tribunal)",
+          "en": "NI tribunals",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "not built",
+          "elsewhere": {
+            "status": "unknown",
+            "source": null,
+            "url": null,
+            "evidence": "not checked online",
+            "note": "Lands Tribunal decisions may be among judiciaryni.uk judicial decisions (unverified)"
+          }
+        }
+      ]
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Uncodified constitution (constitutional statutes)",
+      "en": "No codified constitution; constitutional Acts",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "legislation.gov.uk, The National Archives",
+      "note": "as ordinary Acts (e.g. Human Rights Act 1998)"
+    },
+    {
+      "name": "Public General Acts (ukpga), Local and Private Acts (ukla, ukppa)",
+      "en": "Acts of the UK Parliament",
+      "level": "primary",
+      "reached": "yes",
+      "via": "legislation.gov.uk, The National Archives",
+      "note": "original-print PDFs excluded (robots.txt)"
+    },
+    {
+      "name": "Statutory Instruments (uksi), Orders in Council, ministerial orders",
+      "en": "UK secondary legislation",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "legislation.gov.uk, The National Archives",
+      "note": null
+    },
+    {
+      "name": "Acts of the Scottish Parliament (asp), Scottish SIs (ssi)",
+      "en": "Scottish legislation",
+      "level": "sub-national",
+      "reached": "yes",
+      "via": "legislation.gov.uk, The National Archives",
+      "note": null
+    },
+    {
+      "name": "Acts of Senedd Cymru (asc/anaw), Welsh SIs (wsi)",
+      "en": "Welsh legislation",
+      "level": "sub-national",
+      "reached": "yes",
+      "via": "legislation.gov.uk, The National Archives",
+      "note": null
+    },
+    {
+      "name": "Acts of the NI Assembly (nia), NI Statutory Rules (nisr)",
+      "en": "Northern Ireland legislation",
+      "level": "sub-national",
+      "reached": "yes",
+      "via": "legislation.gov.uk, The National Archives",
+      "note": null
+    },
+    {
+      "name": "Assimilated (retained) EU law (eur, eudn, eudr)",
+      "en": "Assimilated EU law",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "legislation.gov.uk, The National Archives",
+      "note": null
+    },
+    {
+      "name": "Byelaws",
+      "en": "Local authority byelaws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not on legislation.gov.uk; no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "none",
+        "note": "byelaws are published by each local authority; no central official database"
+      }
+    },
+    {
+      "name": "The Gazette (London, Edinburgh, Belfast)",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "The Gazette (TSO for The National Archives)",
+        "url": "https://www.thegazette.co.uk/all-notices/notice/data.feed",
+        "evidence": "fetched 2026-11-07: notice feed returned 200 Atom; robots Crawl-delay 10, allows notices, disallows per-notice data.xml/pdf/rdf",
+        "note": "London, Edinburgh, Belfast Gazettes; insolvency, statutory notices"
+      }
+    },
+    {
+      "name": "UK Treaty Series",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not on legislation.gov.uk; not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "GOV.UK FCDO Treaty Series + UK Treaties Online",
+        "url": "https://www.gov.uk/guidance/uk-treaties",
+        "evidence": "fetched 2026-11-07: page links Treaty Series 2013-2017 and 2018-present collections; UKTO holds 1892-present; treaties.fcdo.gov.uk answered 504",
+        "note": "Treaty Series PDFs on GOV.UK; UKTO search not reachable at fetch time"
+      }
+    }
+  ]
+}

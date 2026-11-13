@@ -1,0 +1,361 @@
+{
+  "code": "dk",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/dk_da"
+  ],
+  "courts": [
+    {
+      "name": "Højesteret",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "hoejesteret.dk timed out 2026-11-07; programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Landsretter (Østre, Vestre)",
+      "en": "High Courts (2)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Byretter (24) – civil and criminal",
+      "en": "District Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Fogedretten (enforcement division of each byret)",
+      "en": "Bailiff's (enforcement) courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Skifteretten (probate and insolvency division of each byret)",
+      "en": "Probate and insolvency courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Boligretten (housing division of each byret)",
+      "en": "Housing courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Sø- og Handelsretten",
+      "en": "Maritime and Commercial High Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Tinglysningsretten",
+      "en": "Land Registration Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Arbejdsretten",
+      "en": "Labour Court (collective agreements)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Arbejdsretten – afgørelser (also faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne)",
+        "url": "https://www.arbejdsretten.dk/",
+        "evidence": "fetched 2026-11-07: arbejdsretten.dk home lists recent 'kendelse'/'dom' items under /afgoerelser/afgoerelser/2026/... and a search with ContentTags Arbejdsretten, Faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne",
+        "note": "robots/terms not checked; selection of published awards"
+      }
+    },
+    {
+      "name": "Faglige voldgiftsretter",
+      "en": "Industrial arbitration tribunals",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Arbejdsretten – afgørelser (also faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne)",
+        "url": "https://www.arbejdsretten.dk/",
+        "evidence": "fetched 2026-11-07: arbejdsretten.dk home lists recent 'kendelse'/'dom' items under /afgoerelser/afgoerelser/2026/... and a search with ContentTags Arbejdsretten, Faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne",
+        "note": "robots/terms not checked; selection of published awards"
+      }
+    },
+    {
+      "name": "Afskedigelsesnævnet",
+      "en": "Dismissals Board (private-sector collective agreements)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Arbejdsretten – afgørelser (also faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne)",
+        "url": "https://www.arbejdsretten.dk/",
+        "evidence": "fetched 2026-11-07: arbejdsretten.dk home lists recent 'kendelse'/'dom' items under /afgoerelser/afgoerelser/2026/... and a search with ContentTags Arbejdsretten, Faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne",
+        "note": "robots/terms not checked; selection of published awards"
+      }
+    },
+    {
+      "name": "Tjenestemandsretten",
+      "en": "Civil Servants' Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Arbejdsretten – afgørelser (also faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne)",
+        "url": "https://www.arbejdsretten.dk/",
+        "evidence": "fetched 2026-11-07: arbejdsretten.dk home lists recent 'kendelse'/'dom' items under /afgoerelser/afgoerelser/2026/... and a search with ContentTags Arbejdsretten, Faglige voldgiftsretter, Afskedigelsesnævnet, Tjenestemandsretterne",
+        "note": "robots/terms not checked; selection of published awards"
+      }
+    },
+    {
+      "name": "Den Særlige Klageret",
+      "en": "Special Court of Indictment and Revision",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domsdatabasen (Domstolsstyrelsen)",
+        "url": "https://domsdatabasen.dk/",
+        "evidence": "research/chatgpt/validation-r2-a.md; research/south_nordic_baltic.md",
+        "note": "programmatic access needs an approved application (bekendtgørelse om Domsdatabasen § 5); domstol.dk behind Cloudflare challenge; coverage thin before 2022"
+      }
+    },
+    {
+      "name": "Procesbevillingsnævnet",
+      "en": "Appeals Permission Board",
+      "tier": "other",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Procesbevillingsnævnet",
+        "url": "https://www.procesbevillingsnaevnet.dk/",
+        "evidence": "fetched 2026-11-07 failed: connection timed out",
+        "note": "could not open the site; whether it publishes decisions is unconfirmed"
+      }
+    },
+    {
+      "name": "Grønlands Landsret",
+      "en": "High Court of Greenland",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domstolsstyrelsen (domstol.dk) – Grønlands Domstole / Retten på Færøerne",
+        "url": "https://www.domstol.dk/gronland",
+        "evidence": "fetched 2026-11-07: HTTP 403 'Just a moment...' (Cloudflare challenge); domstol.gl timed out",
+        "note": "Cloudflare challenge; Domsdatabasen API needs approval"
+      }
+    },
+    {
+      "name": "Retten i Grønland and Kredsretter (Greenland district and lay district courts)",
+      "en": "First-instance courts of Greenland",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domstolsstyrelsen (domstol.dk) – Grønlands Domstole / Retten på Færøerne",
+        "url": "https://www.domstol.dk/gronland",
+        "evidence": "fetched 2026-11-07: HTTP 403 'Just a moment...' (Cloudflare challenge); domstol.gl timed out",
+        "note": "Cloudflare challenge; Domsdatabasen API needs approval"
+      }
+    },
+    {
+      "name": "Retten på Færøerne",
+      "en": "Faroe Islands Court (first instance; appeals to Østre Landsret)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domstolsstyrelsen (domstol.dk) – Grønlands Domstole / Retten på Færøerne",
+        "url": "https://www.domstol.dk/gronland",
+        "evidence": "fetched 2026-11-07: HTTP 403 'Just a moment...' (Cloudflare challenge); domstol.gl timed out",
+        "note": "Cloudflare challenge; Domsdatabasen API needs approval"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Grundloven",
+      "en": "Constitution Act 1953",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Retsinformation (Civilstyrelsen)",
+      "note": "text from site HTML (XML has metadata only)"
+    },
+    {
+      "name": "Love og lovbekendtgørelser (LBK)",
+      "en": "Acts and consolidated acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Retsinformation (Civilstyrelsen)",
+      "note": "amendments after the latest LBK not in the text until the next LBK"
+    },
+    {
+      "name": "Bekendtgørelser",
+      "en": "Executive orders",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Retsinformation (Civilstyrelsen)",
+      "note": null
+    },
+    {
+      "name": "Cirkulærer og vejledninger",
+      "en": "Circulars and guidance",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Retsinformation (Civilstyrelsen)",
+      "note": "retsinfo/mt ids"
+    },
+    {
+      "name": "Lovtidende A/B/C, Ministerialtidende",
+      "en": "Law Gazette and Ministerial Gazette",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Retsinformation (Civilstyrelsen)",
+      "note": "ELI lta/ltb/ltc/mt"
+    },
+    {
+      "name": "Traktater (Lovtidende C)",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "Retsinformation (Civilstyrelsen)",
+      "note": "via ltc ids"
+    },
+    {
+      "name": "Kommunale forskrifter",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "municipal regulations sit on each kommune's website; not researched further"
+      }
+    },
+    {
+      "name": "Grønlandsk og færøsk lovgivning",
+      "en": "Greenland and Faroe Islands law",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Nalunaarutit (Greenland) / Lógasavn logir.fo (Faroes)",
+        "url": "https://nalunaarutit.gl/",
+        "evidence": "fetched 2026-11-07: nalunaarutit.gl 200, robots disallows only /sitecore/; logir.fo 'Lógasavn' 200, robots disallows /GetFile and /Content (HTML law pages allowed)",
+        "note": "Greenlandic and Faroese own legislation; Danish acts put into force there by anordning are in Retsinformation"
+      }
+    }
+  ]
+}

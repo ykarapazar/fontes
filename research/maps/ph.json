@@ -1,0 +1,425 @@
+{
+  "code": "ph",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.officialgazette.gov.ph/about/gov/judiciary/",
+    "https://sb.judiciary.gov.ph/about/",
+    "https://www.hret.gov.ph/"
+  ],
+  "courts": [
+    {
+      "name": "Supreme Court",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO)",
+      "note": "LawPhil (non-official), 1901 onwards; official SC site blocked"
+    },
+    {
+      "name": "Presidential Electoral Tribunal",
+      "en": "Presidential Electoral Tribunal (Supreme Court en banc)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO)",
+      "note": "PET rulings appear on LawPhil only where it lists them among SC decisions; not separately searched",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of the Philippines (sc.judiciary.gov.ph)",
+        "url": "https://sc.judiciary.gov.ph/",
+        "evidence": "used by adapter notes (src/world_legal_mcp/jurisdictions/ph.py): CloudFront '403 Request blocked'",
+        "note": "PET is the SC en banc; its official pages share the SC block"
+      }
+    },
+    {
+      "name": "Court of Appeals",
+      "en": "Court of Appeals",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Court of Appeals – Recent Decisions and Resolutions: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Court of Appeals – Recent Decisions and Resolutions",
+        "url": "https://services.ca.judiciary.gov.ph/recentdecisions/",
+        "evidence": "fetched 2026-11-07: page 200 (410 KB) with disclaimer 'official print version prevails'",
+        "note": "recent decisions only (depth unverified); case search at services.ca.judiciary.gov.ph/csisver3-war/; robots.txt 404"
+      }
+    },
+    {
+      "name": "Sandiganbayan",
+      "en": "Anti-graft court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Sandiganbayan: blocked",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Sandiganbayan",
+        "url": "https://sb.judiciary.gov.ph/",
+        "evidence": "fetched 2026-11-07: CloudFront '403 Request blocked', robots.txt included",
+        "note": "same block as sc.judiciary.gov.ph"
+      }
+    },
+    {
+      "name": "Court of Tax Appeals",
+      "en": "Court of Tax Appeals",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "Court of Tax Appeals – Decisions / Resolutions: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Court of Tax Appeals – Decisions / Resolutions",
+        "url": "https://cta.judiciary.gov.ph/decres",
+        "evidence": "fetched 2026-11-07: home page links 'Search by Content' (/decres), 'Search by Case Number', 'Search by Filter'",
+        "note": "full-text search over CTA decisions; robots.txt not found"
+      }
+    },
+    {
+      "name": "Regional Trial Courts",
+      "en": "Regional Trial Courts (general jurisdiction; 13 judicial regions + BARMM)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Family Courts (designated RTC branches)",
+      "en": "Family Courts under RA 8369",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Special Commercial Courts (designated RTC branches, incl. IP courts)",
+      "en": "Special Commercial Courts: corporate, insolvency and intellectual-property cases",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Environmental courts (designated RTC/MTC branches)",
+      "en": "Green courts under the Rules of Procedure for Environmental Cases",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Special drug courts (designated RTC branches)",
+      "en": "Courts for RA 9165 drug cases",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Cybercrime courts (designated RTC branches)",
+      "en": "Special cybercrime courts under RA 10175",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Metropolitan Trial Courts (MeTC)",
+      "en": "First-level courts, Metro Manila",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source; small claims are decided by first-level courts",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Municipal Trial Courts in Cities (MTCC)",
+      "en": "First-level courts in cities",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Municipal Trial Courts (MTC)",
+      "en": "First-level courts in municipalities",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Municipal Circuit Trial Courts (MCTC)",
+      "en": "First-level courts covering several municipalities",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://elibrary.judiciary.gov.ph/",
+        "evidence": "search result only (2026-11-07 web search found no official or unofficial database of trial-court decisions; only SC decisions that review them, on LawPhil/ChanRobles); SC E-Library search is login-only (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "trial-court decisions are not published; they surface only when quoted in CA/SC decisions. Case records go to the parties"
+      }
+    },
+    {
+      "name": "Shari'a District Courts (5)",
+      "en": "Shari'a District Courts (PD 1083)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no source; appeals go to the CA/SC (the Bangsamoro Shari'a High Court created by RA 11054 is not yet operating as far as checked)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://chanrobles.com/shariadistrictcourtsofthephilippines.htm",
+        "evidence": "search result only (2026-11-07 web search: no repository of Shari'a court decisions; only SC rulings reviewing them, e.g. G.R. 211089 on sc.judiciary.gov.ph)",
+        "note": "Shari'a court decisions are not published; SC decisions on review are on LawPhil (reached)"
+      }
+    },
+    {
+      "name": "Shari'a Circuit Courts (51)",
+      "en": "Shari'a Circuit Courts (PD 1083)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": "https://chanrobles.com/shariadistrictcourtsofthephilippines.htm",
+        "evidence": "search result only (2026-11-07 web search: no repository of Shari'a court decisions; only SC rulings reviewing them, e.g. G.R. 211089 on sc.judiciary.gov.ph)",
+        "note": "Shari'a court decisions are not published; SC decisions on review are on LawPhil (reached)"
+      }
+    },
+    {
+      "name": "House of Representatives Electoral Tribunal (HRET)",
+      "en": "Electoral contests for House seats",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "HRET – Cases (per Congress, 1995 onward)",
+        "url": "https://www.hret.gov.ph/cases-2022-2025",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow:' (empty); /cases-2022-2025 lists HRET Case No. 22-001 (EP) etc. with dispositive text; menu links back to 1995-1998",
+        "note": "case list with dispositive summaries; decision PDFs linked per case"
+      }
+    },
+    {
+      "name": "Senate Electoral Tribunal (SET)",
+      "en": "Electoral contests for Senate seats",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Senate Electoral Tribunal",
+        "url": "https://www.senate.gov.ph/set/",
+        "evidence": "fetched 2026-11-07: robots.txt allows / but /set/ answered 403 to our client",
+        "note": "403 to a plain request; nothing confirmed beyond that"
+      }
+    },
+    {
+      "name": "Courts-martial (Armed Forces of the Philippines)",
+      "en": "Military courts-martial (Articles of War, CA 408)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none found",
+        "url": null,
+        "evidence": "search result only (2026-11-07 searches on Philippine trial/special courts found no courts-martial publication)",
+        "note": "executive-branch military tribunals; decisions not published"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution (1935, 1943, 1973, 1987)",
+      "en": "Constitutions",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO)",
+      "note": "LawPhil (non-official)"
+    },
+    {
+      "name": "Republic Acts / Acts / Commonwealth Acts / Batas Pambansa",
+      "en": "Statutes",
+      "level": "primary",
+      "reached": "yes",
+      "via": "The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO)",
+      "note": "LawPhil (non-official), as enacted"
+    },
+    {
+      "name": "Presidential Decrees / Executive Orders",
+      "en": "Presidential decrees and executive orders",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO)",
+      "note": "LawPhil (non-official)"
+    },
+    {
+      "name": "Administrative / department orders, IRRs",
+      "en": "Agency issuances",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Office of the National Administrative Register (UP Law Center) / agency sites",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no free central database confirmed; issuances are on each agency's site; Official Gazette blocked"
+      }
+    },
+    {
+      "name": "Official Gazette",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "officialgazette.gov.ph blocked",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Official Gazette of the Philippines",
+        "url": "https://www.officialgazette.gov.ph/",
+        "evidence": "research in adapter docstring (src/world_legal_mcp/jurisdictions/ph.py)",
+        "note": "Cloudflare managed challenge on every path, robots.txt included"
+      }
+    },
+    {
+      "name": "BARMM Bangsamoro Autonomy Acts",
+      "en": "Regional laws",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "Bangsamoro Transition Authority Parliament – Bangsamoro Autonomy Acts: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Bangsamoro Transition Authority Parliament – Bangsamoro Autonomy Acts",
+        "url": "https://parliament.bangsamoro.gov.ph/baa-new/",
+        "evidence": "fetched 2026-11-07: home page links 'Bangsamoro Autonomy Acts' (/baa-new/) and act pages",
+        "note": "WordPress; 94 laws by Oct 2026 per site news"
+      }
+    },
+    {
+      "name": "Ordinances (LGUs)",
+      "en": "Local ordinances",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "per-LGU sites; no central database found"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "LawPhil Project – Treaties: not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "LawPhil Project – Treaties",
+        "url": "https://lawphil.net/international/treaties/treaties.html",
+        "evidence": "fetched 2026-11-07: page 200",
+        "note": "UNOFFICIAL: Arellano Law Foundation, CC BY-NC 4.0 (src/world_legal_mcp/jurisdictions/ph.py); DFA treaty database not checked"
+      }
+    }
+  ]
+}

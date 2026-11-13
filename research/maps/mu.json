@@ -1,0 +1,446 @@
+{
+  "code": "mu",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://govmu.org/EN/infoservices/justiceanddefence/Pages/justice.aspx",
+    "https://supremecourt.govmu.org/about-us"
+  ],
+  "courts": [
+    {
+      "name": "Judicial Committee of the Privy Council",
+      "en": "Final appeal court (London)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments",
+      "note": "JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 100 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Mauritius)' or header 'From the Supreme Court of Mauritius'); known misses: [2016] UKPC 30 (phrase not matched by the source's index) and [2015] UKPC 14 (header 'From the Court of Appeal of Mauritius'). Missing: judgments before Nov 2009.",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII, UKPC collection (unofficial)",
+        "url": "https://www.bailii.org/uk/cases/UKPC/",
+        "evidence": "gb adapter (src/world_legal_mcp/jurisdictions/gb.py): BAILII has no API and forbids scraping; not re-checked 2026-11-10",
+        "note": "missing part: JCPC judgments before Nov 2009"
+      }
+    },
+    {
+      "name": "Supreme Court – Court of Civil Appeal",
+      "en": "Supreme Court – Court of Civil Appeal",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Court of Criminal Appeal",
+      "en": "Supreme Court – Court of Criminal Appeal",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Civil Division (incl. constitutional / judicial review jurisdiction)",
+      "en": "Supreme Court – Civil Division (incl. constitutional / judicial review jurisdiction)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Criminal Division (Assizes)",
+      "en": "Supreme Court – Criminal Division (Assizes)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Commercial Division",
+      "en": "Supreme Court – Commercial Division",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Family Division",
+      "en": "Supreme Court – Family Division",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Financial Crimes Division",
+      "en": "Supreme Court – Financial Crimes Division",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Land Division",
+      "en": "Supreme Court – Land Division",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Mediation Division",
+      "en": "Supreme Court – Mediation Division",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Supreme Court – Master's Court (sales by levy, execution)",
+      "en": "Supreme Court – Master's Court (sales by levy, execution)",
+      "tier": "specialised",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "MauritiusLII blocked; SCJ judgments not built",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring; research/mena_africa_international.md",
+        "note": "SCJ judgments are not in supremecourt.govmu.org's public collection. MauritiusLII has them but robots.txt disallows /judgments/ and sets Content-Signal ai-input=no."
+      }
+    },
+    {
+      "name": "Intermediate Court",
+      "en": "Intermediate Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2020 only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring",
+        "note": "Missing part: judgments before 2020; only MauritiusLII (robots disallow /judgments/, ai-input=no)."
+      }
+    },
+    {
+      "name": "Intermediate Court – Financial Crimes Division",
+      "en": "Intermediate Court – Financial Crimes Division",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "source covers Intermediate Court decisions (INT numbers) from 2020; whether the Financial Crimes Division is included is unverified",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring",
+        "note": "Missing part: judgments before 2020; only MauritiusLII (robots disallow /judgments/, ai-input=no)."
+      }
+    },
+    {
+      "name": "District Courts",
+      "en": "District courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2020 only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring",
+        "note": "Missing part: judgments before 2020; only MauritiusLII (robots disallow /judgments/, ai-input=no)."
+      }
+    },
+    {
+      "name": "Industrial Court",
+      "en": "Industrial Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2020 only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring",
+        "note": "Missing part: judgments before 2020; only MauritiusLII (robots disallow /judgments/, ai-input=no)."
+      }
+    },
+    {
+      "name": "Bail and Remand Court",
+      "en": "Bail and Remand Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2020 only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring",
+        "note": "Missing part: judgments before 2020; only MauritiusLII (robots disallow /judgments/, ai-input=no)."
+      }
+    },
+    {
+      "name": "Children's Court",
+      "en": "Children's Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2020 only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring",
+        "note": "Missing part: judgments before 2020; only MauritiusLII (robots disallow /judgments/, ai-input=no)."
+      }
+    },
+    {
+      "name": "Court of Rodrigues",
+      "en": "Court of Rodrigues",
+      "tier": "regional",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2020 only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "MauritiusLII (Laws.Africa/Peachjam, unofficial)",
+        "url": "https://mauritiuslii.org/",
+        "evidence": "adapter mu.py docstring",
+        "note": "Missing part: judgments before 2020; only MauritiusLII (robots disallow /judgments/, ai-input=no)."
+      }
+    },
+    {
+      "name": "Employment Relations Tribunal",
+      "en": "Employment Relations Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official awards page confirmed; MauritiusLII may carry some (robots disallow /judgments/)"
+      }
+    },
+    {
+      "name": "Assessment Review Committee",
+      "en": "Assessment Review Committee (tax, customs, VAT appeals)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "official publication of decisions not confirmed"
+      }
+    },
+    {
+      "name": "Environment and Land Use Appeal Tribunal",
+      "en": "Environment and Land Use Appeal Tribunal",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "official publication of decisions not confirmed"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of Mauritius",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Revised Laws of Mauritius, Attorney General's Office (attorneygeneral.govmu.org)",
+      "note": "Consolidated text from the AG's Revised Laws (Issue 1; amendments to 2011 merged), searchable, by section; later amendments (e.g. Constitution (Amendment) Acts 2015, 2016) reachable as Acts as passed (National Assembly), not merged. Commercial use needs the Solicitor General's prior approval."
+    },
+    {
+      "name": "Acts",
+      "en": "Acts of the National Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Revised Laws of Mauritius, Attorney General's Office (attorneygeneral.govmu.org); National Assembly of Mauritius (mauritiusassembly.govmu.org): Acts as passed; Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "~660 Acts consolidated in the AG's Revised Laws (mostly to 30 June 2017, a few later issues; title search); Acts as passed 2009-2023 (National Assembly; 2018 from the AG, number only) and 2024 on (Supreme Court library). Missing: post-2017 amendments are not merged into any online consolidation; National Assembly tables lack some PDFs (e.g. 2014: 6 of ~12); whether the AG A-Z list holds every Act in force is unverified.",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "checked 2026-11-10: AG site (Revised Laws to 2017), National Assembly Acts page, Supreme Court library",
+        "note": "Missing part: an up-to-date official consolidation of Acts amended after June 2017; none found online. MauritiusLII (Peachjam) is out (ai-input=no)."
+      }
+    },
+    {
+      "name": "Government Notices (regulations)",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2024, as enacted",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Government Printing Department (e-Gazette)",
+        "url": "https://gpd.govmu.org/",
+        "evidence": "search result only",
+        "note": "Missing part: GNs before 2024. GPD e-Gazette free access status unverified (2022 report said subscribers)."
+      }
+    },
+    {
+      "name": "Proclamations",
+      "en": "Proclamations",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+      "note": "from 2024",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Government Printing Department (e-Gazette)",
+        "url": "https://gpd.govmu.org/",
+        "evidence": "search result only",
+        "note": "Missing part: before 2024; would be in the Gazette, access unverified."
+      }
+    },
+    {
+      "name": "Government Gazette",
+      "en": "Government Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "GPD e-Gazette access unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Government Printing Department (e-Gazette)",
+        "url": "https://gpd.govmu.org/",
+        "evidence": "fetched 2026-11-07: gpd.govmu.org home page (no gazette list seen in static HTML); search result only",
+        "note": "Free online access to issues unverified. UNOFFICIAL copies 2017-2020 at archive.gazettes.africa (terms not checked)."
+      }
+    },
+    {
+      "name": "Rodrigues Regional Assembly Acts / regulations",
+      "en": "Rodrigues legislation",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "no source found on rra.govmu.org",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Rodrigues Regional Assembly",
+        "url": "https://rra.govmu.org/rra",
+        "evidence": "fetched 2026-11-07: 301 to /rra, no legislation links seen",
+        "note": "Not established."
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked."
+      }
+    }
+  ]
+}

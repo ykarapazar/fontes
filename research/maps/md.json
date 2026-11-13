@@ -1,0 +1,208 @@
+{
+  "code": "md",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://justice.gov.md/ro/content/curtea-suprema-de-justitie-va-fi-reformata"
+  ],
+  "courts": [
+    {
+      "name": "Curtea Constituțională",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "constcourt.md publishes decisions (not built)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Curtea Constituțională – hotărâri, decizii, avize",
+        "url": "https://constcourt.md/",
+        "evidence": "fetched 2026-11-07: constcourt.md home links ccdocview.php?tip=hotariri&docid=901 (Hotărârea nr. 14 din 05.11.2026, PDF attached); robots.txt 'Allow: /'",
+        "note": "hotărâri/decizii/avize with PDF texts, Romanian"
+      }
+    },
+    {
+      "name": "Curtea Supremă de Justiție – Colegiul civil",
+      "en": "Supreme Court of Justice, Civil College (incl. commercial and administrative)",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "Curtea Supremă de Justiție (Supreme Court of Justice), jurisprudenta.csj.md",
+      "note": "col_civil_grid.php in the adapter"
+    },
+    {
+      "name": "Curtea Supremă de Justiție – Colegiul penal",
+      "en": "Supreme Court of Justice, Criminal College",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "Curtea Supremă de Justiție (Supreme Court of Justice), jurisprudenta.csj.md",
+      "note": "col_penal_grid.php in the adapter"
+    },
+    {
+      "name": "Curțile de Apel (3: Centru, Nord, Sud – sedii Cahul și Comrat)",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portalul Național al Instanțelor de Judecată (courts of appeal and district courts), instante.justice.md",
+      "note": "slow (10 s per request); all three courts of appeal are in the adapter's instance list (Curtea de Apel Bender was merged in 2023)"
+    },
+    {
+      "name": "Judecătorii (14, with branch seats)",
+      "en": "District courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Portalul Național al Instanțelor de Judecată (courts of appeal and district courts), instante.justice.md",
+      "note": "all 14 district courts in the adapter's instance list (Chișinău, Criuleni, Hîncești, Strășeni, Căușeni, Bălți, Drochia, Edineț, Orhei, Soroca, Ungheni, Cahul, Comrat, Cimișlia); case types civil, contravențional, penal; general-jurisdiction courts that also hold the investigating judges (judecători de instrucție) and juvenile/family matters — Moldova has no separate juvenile, family, labour or commercial courts (the Judecătoria Comercială de Circumscripție and the Judecătoria Militară were abolished in 2017)"
+    },
+    {
+      "name": "Judecători de instrucție (in the judecătorii)",
+      "en": "Investigating judges (pre-trial rulings in district courts)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Portalul Național al Instanțelor de Judecată (courts of appeal and district courts), instante.justice.md",
+      "note": "source covers district-court decisions generally (case type penal); whether investigating-judge rulings (încheieri) are included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Portalul Național al Instanțelor de Judecată",
+        "url": "https://instante.justice.md/ro/hotaririle-instantei",
+        "evidence": "used by Fontes md adapter (src/world_legal_mcp/jurisdictions/md.py)",
+        "note": "no separate source for investigating-judge rulings found"
+      }
+    },
+    {
+      "name": "Contencios administrativ (in courts of appeal / district courts)",
+      "en": "Administrative litigation",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Curtea Supremă de Justiție (Supreme Court of Justice), jurisprudenta.csj.md",
+      "note": "CSJ civil college covers it; lower-court filter has civil/contraventional/penal only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Portalul național al instanțelor de judecată (instante.justice.md)",
+        "url": "https://instante.justice.md/ro/hotaririle-instantei",
+        "evidence": "fetched 2026-11-07: search form case-type options: Civil / Contravențional / Penal only",
+        "note": "missing part: first-instance/appeal administrative cases; may sit under 'Civil' — not verified"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constituția",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Președinția Republicii Moldova: Constituția (consolidated PDF), presedinte.md",
+      "note": "presedinte.md official PDF, consolidated to 20.10.2024 (newest amendment listed: Law 244/2024; later amendments, if any, unverified because legis.md is blocked); all 156 articles + Titlul VII by article"
+    },
+    {
+      "name": "Legi organice și ordinare",
+      "en": "Organic and ordinary laws",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "legis.md and parlament.md: Cloudflare bot check (403, re-checked 2026-11-10); monitorul.gov.md: texts paid-subscription only, terms forbid copying",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Monitorul Oficial al Republicii Moldova (monitorul.gov.md)",
+        "url": "https://monitorul.gov.md/ro/terms-of-use",
+        "evidence": "fetched 2026-11-10: search results mark issues 'Acces limitat'; /ro/subscriptions sells the electronic edition at 245 MDL/month; terms-of-use: access code after payment, 'Orice formă de utilizare ... în scopuri de multiplicare şi difuzare este interzisă'",
+        "note": "paid; legis.md (consolidated laws) Cloudflare 403; lex.justice.md no answer"
+      }
+    },
+    {
+      "name": "Hotărâri ale Guvernului",
+      "en": "Government decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "legis.md: Cloudflare bot check",
+      "elsewhere": {
+        "status": "available",
+        "source": "Monitorul Oficial al Republicii Moldova (monitorul.gov.md)",
+        "url": "https://monitorul.gov.md/ro",
+        "evidence": "fetched 2026-11-07: issue page /ro/monitor/3368 (200) links PDF parts in a FlowPaper viewer; robots.txt 'Disallow:' (empty)",
+        "note": "original texts in issue PDFs; consolidated on legis.md (Cloudflare 403)"
+      }
+    },
+    {
+      "name": "Decrete ale Președintelui",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "legis.md: Cloudflare bot check",
+      "elsewhere": {
+        "status": "available",
+        "source": "Monitorul Oficial al Republicii Moldova (monitorul.gov.md)",
+        "url": "https://monitorul.gov.md/ro",
+        "evidence": "fetched 2026-11-07: issue page /ro/monitor/3368 (200) links PDF parts in a FlowPaper viewer; robots.txt 'Disallow:' (empty)",
+        "note": "original texts in issue PDFs; legis.md Cloudflare 403"
+      }
+    },
+    {
+      "name": "Ordine ministeriale",
+      "en": "Ministerial orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "legis.md: Cloudflare bot check",
+      "elsewhere": {
+        "status": "available",
+        "source": "Monitorul Oficial al Republicii Moldova (monitorul.gov.md)",
+        "url": "https://monitorul.gov.md/ro",
+        "evidence": "fetched 2026-11-07: issue page /ro/monitor/3368 (200) links PDF parts in a FlowPaper viewer; robots.txt 'Disallow:' (empty)",
+        "note": "those published in the gazette; legis.md Cloudflare 403"
+      }
+    },
+    {
+      "name": "Monitorul Oficial",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "free issue PDFs on monitorul.gov.md",
+      "elsewhere": {
+        "status": "available",
+        "source": "Monitorul Oficial al Republicii Moldova (monitorul.gov.md)",
+        "url": "https://monitorul.gov.md/ro",
+        "evidence": "fetched 2026-11-07: issue page /ro/monitor/3368 (200) links PDF parts in a FlowPaper viewer; robots.txt 'Disallow:' (empty)",
+        "note": "whole issues as PDF parts in a viewer, no search API seen"
+      }
+    },
+    {
+      "name": "Acte ale UTA Găgăuzia / autorităților locale",
+      "en": "Gagauzia and local acts",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "actelocale.gov.md 403; Gagauzia site unreachable",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Registrul de stat al actelor locale (actelocale.gov.md)",
+        "url": "https://actelocale.gov.md/",
+        "evidence": "fetched 2026-11-07: actelocale.gov.md and its robots.txt answer 403 (nginx); halktoplusu.md (Gagauzia assembly) no answer",
+        "note": "403 to our client; Gagauzia People's Assembly site unreachable"
+      }
+    },
+    {
+      "name": "Tratate internaționale",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "legis.md: Cloudflare bot check",
+      "elsewhere": {
+        "status": "available",
+        "source": "Monitorul Oficial al Republicii Moldova (monitorul.gov.md)",
+        "url": "https://monitorul.gov.md/ro",
+        "evidence": "fetched 2026-11-07: issue page /ro/monitor/3368 (200) links PDF parts in a FlowPaper viewer; robots.txt 'Disallow:' (empty)",
+        "note": "ratified treaties published in the gazette; legis.md Cloudflare 403"
+      }
+    }
+  ]
+}

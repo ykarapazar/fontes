@@ -1,0 +1,629 @@
+{
+ "code": "at",
+ "checked": "2026-11-07",
+ "structure_sources": [
+  "https://www.oesterreich.gv.at/themen/gesetze_und_recht/gerichtsorganisation_der_justiz/Seite.2310012.html",
+  "https://www.oesterreich.gv.at/de/themen/gesetze_und_recht/gerichtsorganisation_der_justiz/Seite.2310005"
+ ],
+ "courts": [
+  {
+   "name": "Verfassungsgerichtshof (VfGH)",
+   "en": "Constitutional Court",
+   "tier": "constitutional",
+   "branch": "constitutional",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": ""
+  },
+  {
+   "name": "Oberster Gerichtshof (OGH)",
+   "en": "Supreme Court (civil and criminal)",
+   "tier": "apex",
+   "branch": "civil-criminal",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": ""
+  },
+  {
+   "name": "Kartellobergericht (OGH as KOG)",
+   "en": "Supreme Cartel Court (OGH senate)",
+   "tier": "apex",
+   "branch": "other",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "decided by an OGH senate; in RIS Justiz as OGH"
+  },
+  {
+   "name": "Verwaltungsgerichtshof (VwGH)",
+   "en": "Supreme Administrative Court",
+   "tier": "apex",
+   "branch": "administrative",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": ""
+  },
+  {
+   "name": "Oberlandesgerichte (OLG, 4)",
+   "en": "Higher regional courts",
+   "tier": "appeal",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz)",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Kartellgericht (OLG Wien)",
+   "en": "Cartel Court (OLG Wien as first instance)",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); OLG Wien decisions appear in RIS Justiz; whether cartel-court decisions are included is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Landesgerichte (general jurisdiction, civil and criminal; ~14)",
+   "en": "Regional courts outside Vienna/Graz special courts (incl. labour and social chambers outside Vienna)",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); LG decisions seen in RIS results (e.g. 'LG für ZRS Wien', test query 2026-11-10)",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Landesgerichte für Zivilrechtssachen (2: Wien, Graz)",
+   "en": "Regional civil courts",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); 'LG für ZRS Wien' seen in RIS Justiz results (test query Besitzstörung, 2026-11-10)",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Landesgerichte für Strafsachen (2: Wien, Graz)",
+   "en": "Regional criminal courts",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); whether included is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Handelsgericht Wien",
+   "en": "Vienna Commercial Court",
+   "tier": "first-instance",
+   "branch": "other",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); query 'Handelsgericht Wien' (2026-11-10) returned only OLG/OGH hits; whether HG Wien's own decisions are included is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Arbeits- und Sozialgericht Wien (ASG Wien)",
+   "en": "Vienna Labour and Social Court",
+   "tier": "first-instance",
+   "branch": "labour",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); query 'Arbeits- und Sozialgericht' (2026-11-10) returned only OLG/OGH hits; whether ASG Wien's own decisions are included is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Arbeits- und Sozialgerichte (labour/social chambers at the Landesgerichte outside Vienna)",
+   "en": "Labour and social courts",
+   "tier": "first-instance",
+   "branch": "labour",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); whether included is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Jugendgerichte (juvenile divisions at BG/LG; Jugendgerichtshof Wien abolished 2003)",
+   "en": "Juvenile courts",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); whether included is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Bezirksgerichte (BG, ~113)",
+   "en": "District courts",
+   "tier": "first-instance",
+   "branch": "civil-criminal",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); no BG decision seen in 5 test queries (2026-11-10), so inclusion is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Bezirksgericht für Handelssachen Wien",
+   "en": "Vienna District Commercial Court",
+   "tier": "first-instance",
+   "branch": "other",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "RIS Justiz publishes only a selection of lower-court decisions (court=justiz); whether included is unverified",
+   "elsewhere": {
+    "status": "offline",
+    "source": "RIS Justiz",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Justiz",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: decisions RIS Justiz does not carry; lower courts publish only a selection, the rest is not published"
+   }
+  },
+  {
+   "name": "Bundesverwaltungsgericht (BVwG)",
+   "en": "Federal Administrative Court",
+   "tier": "specialised",
+   "branch": "administrative",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": ""
+  },
+  {
+   "name": "Bundesfinanzgericht (BFG)",
+   "en": "Federal Fiscal Court",
+   "tier": "specialised",
+   "branch": "tax",
+   "reached": "no",
+   "via": null,
+   "note": "not in RIS; BFG decisions are in BMF Findok",
+   "elsewhere": {
+    "status": "available",
+    "source": "Findok (BMF): BFG decisions",
+    "url": "https://findok.bmf.gv.at/findok/",
+    "evidence": "fetched 2026-11-07: RIS OGD Judikatur schema has no BFG application (error lists Vfgh, Vwgh, Justiz, Bvwg, Lvwg, ...); findok.bmf.gv.at/findok/ 200 (JS app). BFG coverage per BMF pages: search result only",
+    "note": "BFG decisions are published free in Findok (§ 23 BFGG per BMF help); API and terms not checked"
+   }
+  },
+  {
+   "name": "Asylgerichtshof (AsylGH, 2008–2013, abolished 2013)",
+   "en": "Asylum Court",
+   "tier": "specialised",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'AsylGH' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=AsylGH",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=AsylGH",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "abolished 2013 (replaced by BVwG); decisions remain in RIS"
+   }
+  },
+  {
+   "name": "Unabhängiger Bundesasylsenat (UBAS, abolished 2008)",
+   "en": "Independent Federal Asylum Senate",
+   "tier": "specialised",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Ubas' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Ubas",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Ubas",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "abolished 2008 (replaced by AsylGH); decisions remain in RIS"
+   }
+  },
+  {
+   "name": "Unabhängige Verwaltungssenate in den Ländern (UVS, 9, abolished 2013)",
+   "en": "Independent administrative tribunals of the Länder",
+   "tier": "specialised",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Uvs' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Uvs",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Uvs",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "abolished 2013 (replaced by the LVwG); decisions remain in RIS"
+   }
+  },
+  {
+   "name": "Umweltsenat (abolished 2013)",
+   "en": "Environmental Senate (EIA appeals)",
+   "tier": "specialised",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Umse' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Umse",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Umse",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "abolished 2013 (replaced by BVwG)"
+   }
+  },
+  {
+   "name": "Bundeskommunikationssenat (BKS, abolished 2013)",
+   "en": "Federal Communications Senate",
+   "tier": "specialised",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Bks' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Bks",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Bks",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "abolished 2013 (replaced by BVwG)"
+   }
+  },
+  {
+   "name": "Vergabekontrollbehörden (Bundesvergabeamt and Länder bodies, until 2013)",
+   "en": "Public procurement review bodies",
+   "tier": "specialised",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Verg' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Verg",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Verg",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "procurement review moved to BVwG/LVwG in 2014; quasi-judicial"
+   }
+  },
+  {
+   "name": "Disziplinarkommissionen / Disziplinaroberkommission",
+   "en": "Civil-service disciplinary commissions",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Dok' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Dok",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Dok",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "quasi-judicial; authority, not a court"
+   }
+  },
+  {
+   "name": "Personalvertretungsaufsichtskommission / -behörde (PVAK/PVAB)",
+   "en": "Staff-representation supervisory commission",
+   "tier": "specialised",
+   "branch": "labour",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Pvak' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Pvak",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Pvak",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "quasi-judicial; authority, not a court"
+   }
+  },
+  {
+   "name": "Gleichbehandlungskommissionen (GBK)",
+   "en": "Equal Treatment Commissions",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "RIS Applikation 'Gbk' exists but at.py _COURTS does not query it (justiz, ogh, vfgh, vwgh, bvwg, lvwg, dsb only)",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD Judikatur, Applikation=Gbk",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Judikatur?Applikation=Gbk",
+    "evidence": "fetched 2026-11-10: RIS OGD Judikatur schema error lists Vfgh, Vwgh, Normenliste, Justiz, Bvwg, Lvwg, Dsk, Dok, Pvak, Gbk, Uvs, AsylGH, Ubas, Umse, Bks, Verg",
+    "note": "quasi-judicial (findings, not binding judgments); authority, not a court"
+   }
+  },
+  {
+   "name": "Datenschutzbehörde (DSB)",
+   "en": "Data Protection Authority decisions",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "authority, not a court"
+  }
+ ],
+ "legislation": [
+  {
+   "name": "Bundes-Verfassungsgesetz (B-VG) und Bundesverfassungsgesetze (BVG)",
+   "en": "Federal Constitution and constitutional acts",
+   "level": "constitution",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "current consolidated version only"
+  },
+  {
+   "name": "Bundesgesetze (BG)",
+   "en": "Federal acts",
+   "level": "primary",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "current version only; historical versions not built; per-paragraph text only"
+  },
+  {
+   "name": "Verordnungen des Bundes (V)",
+   "en": "Federal regulations",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "current version only"
+  },
+  {
+   "name": "Staatsverträge",
+   "en": "Treaties",
+   "level": "treaty",
+   "reached": "partly",
+   "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "note": "only as consolidated in Bundesrecht konsolidiert; not checked separately",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD API v2.6: BrKons / BgblAuth",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Bundesrecht?Applikation=BgblAuth",
+    "evidence": "research/eu_dach_fr_benelux.md",
+    "note": "missing part: no treaty filter; treaties are in BGBl III (BgblAuth) and Bundesrecht konsolidiert"
+   }
+  },
+  {
+   "name": "Bundesgesetzblatt (BGBl, authentisch)",
+   "en": "Federal Law Gazette (authentic)",
+   "level": "gazette",
+   "reached": "no",
+   "via": null,
+   "note": "in RIS OGD API; not built yet",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD API v2.6: BgblAuth",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Bundesrecht?Applikation=BgblAuth",
+    "evidence": "fetched 2026-11-07: Applikation=BgblAuth&Suchworte=Mietrechtsgesetz returned 26 hits (e.g. BGBLA_2026_I_55)",
+    "note": "same API Fontes uses; not built"
+   }
+  },
+  {
+   "name": "Landesrecht (Landesgesetze, Landesverordnungen)",
+   "en": "Länder laws and regulations",
+   "level": "sub-national",
+   "reached": "no",
+   "via": null,
+   "note": "in the RIS OGD API (LrKons); source exists but not built yet",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD API v2.6: LrKons",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Landesrecht?Applikation=LrKons",
+    "evidence": "fetched 2026-11-07: Applikation=LrKons&Suchworte=Bauordnung returned 5,338 hits",
+    "note": "same API; not built"
+   }
+  },
+  {
+   "name": "Landesgesetzblätter",
+   "en": "Länder law gazettes",
+   "level": "sub-national",
+   "reached": "no",
+   "via": null,
+   "note": "not built yet",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD API v2.6: LgblAuth",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Landesrecht?Applikation=LgblAuth",
+    "evidence": "fetched 2026-11-07: Applikation=LgblAuth&Suchworte=Bauordnung returned 316 hits (e.g. LGBLA_WI_20260922_34)",
+    "note": "same API; not built"
+   }
+  },
+  {
+   "name": "Gemeinderecht / Bezirksrecht",
+   "en": "Municipal and district law",
+   "level": "local",
+   "reached": "no",
+   "via": null,
+   "note": "Gemeinden/Bezirke endpoints: source exists but not built yet",
+   "elsewhere": {
+    "status": "available",
+    "source": "RIS OGD API v2.6: Gemeinden (Gr)",
+    "url": "https://data.bka.gv.at/ris/api/v2.6/Gemeinden?Applikation=Gr",
+    "evidence": "fetched 2026-11-07: Applikation=Gr&Suchworte=Parkgebühren returned 367 hits (e.g. Althofen)",
+    "note": "same API; Bezirke endpoint not tested"
+   }
+  }
+ ],
+ "states": [
+  {
+   "name": "Burgenland",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Burgenland",
+     "en": "Regional administrative court of Burgenland",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; not seen in 2 small test queries (2026-11-10), inclusion assumed from RIS Lvwg scope"
+    }
+   ]
+  },
+  {
+   "name": "Kärnten",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Kärnten",
+     "en": "Regional administrative court of Kärnten",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; seen in test results 2026-11-10"
+    }
+   ]
+  },
+  {
+   "name": "Niederösterreich",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Niederösterreich",
+     "en": "Regional administrative court of Niederösterreich",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; seen in test results 2026-11-10"
+    }
+   ]
+  },
+  {
+   "name": "Oberösterreich",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Oberösterreich",
+     "en": "Regional administrative court of Oberösterreich",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; not seen in 2 small test queries (2026-11-10), inclusion assumed from RIS Lvwg scope"
+    }
+   ]
+  },
+  {
+   "name": "Salzburg",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Salzburg",
+     "en": "Regional administrative court of Salzburg",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; not seen in 2 small test queries (2026-11-10), inclusion assumed from RIS Lvwg scope"
+    }
+   ]
+  },
+  {
+   "name": "Steiermark",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Steiermark",
+     "en": "Regional administrative court of Steiermark",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; not seen in 2 small test queries (2026-11-10), inclusion assumed from RIS Lvwg scope"
+    }
+   ]
+  },
+  {
+   "name": "Tirol",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Tirol",
+     "en": "Regional administrative court of Tirol",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; seen in test results 2026-11-10"
+    }
+   ]
+  },
+  {
+   "name": "Vorarlberg",
+   "courts": [
+    {
+     "name": "Landesverwaltungsgericht Vorarlberg",
+     "en": "Regional administrative court of Vorarlberg",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; seen in test results 2026-11-10"
+    }
+   ]
+  },
+  {
+   "name": "Wien",
+   "courts": [
+    {
+     "name": "Verwaltungsgericht Wien",
+     "en": "Regional administrative court of Wien",
+     "tier": "first-instance",
+     "branch": "administrative",
+     "reached": "yes",
+     "via": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+     "note": "RIS Applikation Lvwg (court=lvwg) carries the Land administrative courts; seen in test results 2026-11-10"
+    }
+   ]
+  }
+ ]
+}

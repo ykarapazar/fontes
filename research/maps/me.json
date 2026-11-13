@@ -1,0 +1,269 @@
+{
+  "code": "me",
+  "checked": "2026-11-10",
+  "structure_sources": [
+    "https://www.gov.me/clanak/193833--sudovi-cg"
+  ],
+  "courts": [
+    {
+      "name": "Ustavni sud Crne Gore",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Ustavni sud Crne Gore (ustavnisud.me) – Sudska arhiva",
+      "note": "older decisions filed as PDF scans have no text"
+    },
+    {
+      "name": "Vrhovni sud Crne Gore",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents"
+      }
+    },
+    {
+      "name": "Apelacioni sud Crne Gore",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents"
+      }
+    },
+    {
+      "name": "Upravni sud Crne Gore",
+      "en": "Administrative Court",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents"
+      }
+    },
+    {
+      "name": "Viši sudovi (2: Podgorica, Bijelo Polje)",
+      "en": "High courts",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "appeal from basic courts and first instance for serious crimes; sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents"
+      }
+    },
+    {
+      "name": "Specijalno odjeljenje Višeg suda u Podgorici",
+      "en": "Special Division of the High Court in Podgorica (organised crime, corruption, terrorism, war crimes)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents; special-division judgments sit on the Viši sud Podgorica pages of sudovi.me"
+      }
+    },
+    {
+      "name": "Privredni sud Crne Gore (1, Podgorica)",
+      "en": "Commercial Court",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents"
+      }
+    },
+    {
+      "name": "Osnovni sudovi (15)",
+      "en": "Basic courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents"
+      }
+    },
+    {
+      "name": "Viši sud za prekršaje Crne Gore",
+      "en": "High Misdemeanour Court",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "misdemeanour courts joined the judiciary in 2015 and publish on sudovi.me; Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents; misdemeanour courts publish on the same portal"
+      }
+    },
+    {
+      "name": "Sudovi za prekršaje (3: Podgorica, Budva, Bijelo Polje)",
+      "en": "Misdemeanour courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sudovi.me: Cloudflare 403 and robots.txt disallows AI agents",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Portal sudova Crne Gore (sudovi.me)",
+        "url": "https://sudovi.me/",
+        "evidence": "fetched 2026-11-07: sudovi.me 403 to WebFetch; research/cee_balkans_turkey_cis.md",
+        "note": "Cloudflare 403 from UK and US; robots.txt disallows AI agents; misdemeanour courts publish on the same portal"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Ustav Crne Gore",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "sluzbenilist.me: page images only; regis paid, terms forbid copying | 2026-11-10: redesigned sluzbenilist.me (/propisi, filters act=0 Ustav, act=1 Zakon) still serves each act only as base64 JPEG page images, no text or PDF; zakoni.skupstina.me lists adopted laws by parliamentary session only, 2013 onward, no search, not consolidated | 2026-11-10 (build3): zakoni.skupstina.me checked (robots allow; Cloudflare Content-Signal ai-train=no, use=reference): a saziv > zasijedanje > sjednica tree of session agendas with 'Predlog zakona' (bill) documents from 2013, as proposed not as adopted, no constitution, no consolidation; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Službeni list Crne Gore (sluzbenilist.me)",
+        "url": "https://www.sluzbenilist.me/propisi",
+        "evidence": "research/chatgpt/validation-euam.md",
+        "note": "IMAGES ONLY: acts shown as JPEG page images (needs OCR); consolidated REGIS is paid and its terms forbid copying"
+      }
+    },
+    {
+      "name": "Zakoni",
+      "en": "Laws",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "Official Gazette scans only; consolidated texts paid | 2026-11-10: redesigned sluzbenilist.me (/propisi, filters act=0 Ustav, act=1 Zakon) still serves each act only as base64 JPEG page images, no text or PDF; zakoni.skupstina.me lists adopted laws by parliamentary session only, 2013 onward, no search, not consolidated | 2026-11-10 (build3): zakoni.skupstina.me checked (robots allow; Cloudflare Content-Signal ai-train=no, use=reference): a saziv > zasijedanje > sjednica tree of session agendas with 'Predlog zakona' (bill) documents from 2013, as proposed not as adopted, no constitution, no consolidation; not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Službeni list Crne Gore (sluzbenilist.me)",
+        "url": "https://www.sluzbenilist.me/propisi",
+        "evidence": "research/chatgpt/validation-euam.md",
+        "note": "IMAGES ONLY: page images, no text layer; consolidated texts paid (REGIS)"
+      }
+    },
+    {
+      "name": "Uredbe i odluke Vlade",
+      "en": "Government decrees and decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "scans only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Službeni list Crne Gore (sluzbenilist.me)",
+        "url": "https://www.sluzbenilist.me/propisi",
+        "evidence": "research/chatgpt/validation-euam.md",
+        "note": "IMAGES ONLY: page images, no text layer"
+      }
+    },
+    {
+      "name": "Pravilnici",
+      "en": "Ministerial rulebooks",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "scans only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Službeni list Crne Gore (sluzbenilist.me)",
+        "url": "https://www.sluzbenilist.me/propisi",
+        "evidence": "research/chatgpt/validation-euam.md",
+        "note": "IMAGES ONLY: page images, no text layer"
+      }
+    },
+    {
+      "name": "Službeni list Crne Gore",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "acts shown as page images (JPEG), no text",
+      "elsewhere": {
+        "status": "available",
+        "source": "Službeni list Crne Gore (sluzbenilist.me)",
+        "url": "https://www.sluzbenilist.me/propisi",
+        "evidence": "research/chatgpt/validation-euam.md",
+        "note": "IMAGES ONLY: page images; robots Content-Signal ai-train=no, use=reference; named AI crawlers disallowed"
+      }
+    },
+    {
+      "name": "Opštinski propisi",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "separate municipal series on sluzbenilist.me (images)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Službeni list Crne Gore (sluzbenilist.me)",
+        "url": "https://www.sluzbenilist.me/propisi",
+        "evidence": "fetched 2026-11-07: propisi page filter lists 'Službeni list Crne Gore - Opštinski propisi'",
+        "note": "IMAGES ONLY (same platform: page images)"
+      }
+    },
+    {
+      "name": "Međunarodni ugovori",
+      "en": "International treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "treaty series on sluzbenilist.me (images)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Službeni list Crne Gore (sluzbenilist.me)",
+        "url": "https://www.sluzbenilist.me/propisi",
+        "evidence": "fetched 2026-11-07: propisi page filter lists 'Službeni list Crne Gore - Međunarodni ugovori' and 'Potvrđeni međunarodni ugovori'",
+        "note": "IMAGES ONLY (same platform: page images)"
+      }
+    }
+  ]
+}

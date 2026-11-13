@@ -1,0 +1,332 @@
+{
+  "code": "rs",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.vrh.sud.rs/en/node/350"
+  ],
+  "courts": [
+    {
+      "name": "Ustavni sud",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "own case-law database on ustavni.sud.rs",
+      "elsewhere": {
+        "status": "available",
+        "source": "Ustavni sud – Baza sudske prakse",
+        "url": "https://www.ustavni.sud.rs/sudska-praksa/baza-sudske-prakse",
+        "evidence": "fetched 2026-11-07: page 'Пракса Уставног суда' opened (52 KB)",
+        "note": "Constitutional Court decisions database"
+      }
+    },
+    {
+      "name": "Vrhovni sud (pre 2023: Vrhovni kasacioni sud, Vrhovni sud Srbije)",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Vrhovni sud (Supreme Court of Serbia): Baza sudske prakse",
+      "note": "selected, anonymised decisions only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Vrhovni sud",
+        "url": "https://www.vrh.sud.rs/",
+        "evidence": "adapter (src/world_legal_mcp/jurisdictions/rs.py) gaps",
+        "note": "missing part: decisions outside the court's selection are not published online"
+      }
+    },
+    {
+      "name": "Apelacioni sudovi (4)",
+      "en": "Appellate courts",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "sudskapraksa.sud.rs: connection timed out (2026-11-06)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Apelacioni sud u Beogradu – Sudska praksa",
+        "url": "https://www.bg.ap.sud.rs/sekcija/91/sudska-praksa.php",
+        "evidence": "fetched 2026-11-07: bg.ap.sud.rs home links /sekcija/91/sudska-praksa.php; sudskapraksa.sud.rs timed out",
+        "note": "Belgrade appellate court only; Novi Sad, Kragujevac, Niš sites and the unified base not checked/unreachable"
+      }
+    },
+    {
+      "name": "Viši sudovi (25)",
+      "en": "Higher courts",
+      "tier": "regional",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "first instance for serious crimes and certain civil cases; appeal court for basic courts",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Posebno odeljenje za organizovani kriminal (Viši sud u Beogradu)",
+      "en": "Special Department for Organised Crime, Belgrade Higher Court",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Odeljenje za ratne zločine (Viši sud u Beogradu)",
+      "en": "War Crimes Department, Belgrade Higher Court",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Posebna odeljenja za suzbijanje korupcije (4: Beograd, Novi Sad, Kraljevo, Niš)",
+      "en": "Anti-corruption departments of higher courts (4)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "since 2018",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Osnovni sudovi (66)",
+      "en": "Basic courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Privredni apelacioni sud",
+      "en": "Commercial Appellate Court",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Privredni sudovi (16)",
+      "en": "Commercial courts (16)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    },
+    {
+      "name": "Upravni sud",
+      "en": "Administrative Court",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "sudskapraksa.sud.rs: connection timed out (2026-11-06)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Upravni sud – Odluke suda",
+        "url": "https://www.up.sud.rs/odluke-suda-2/",
+        "evidence": "fetched 2026-11-07: up.sud.rs home links 'odluke-suda', 'odluke-u-izbornim-predmetima', 'sudska-praksa-drugih-sudova'",
+        "note": "court's own decisions pages"
+      }
+    },
+    {
+      "name": "Prekršajni apelacioni sud",
+      "en": "Misdemeanour Appellate Court",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "available",
+        "source": "Prekršajni apelacioni sud – Sudska praksa",
+        "url": "https://www.pa.sud.rs/sekcija/91/sudska-praksa.php",
+        "evidence": "fetched 2026-11-10: pa.sud.rs home links /sekcija/91/sudska-praksa.php (same CMS as bg.ap.sud.rs); section page not opened",
+        "note": "Court's own case-law section."
+      }
+    },
+    {
+      "name": "Prekršajni sudovi (44)",
+      "en": "Misdemeanour courts (44)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sudska praksa sudova Srbije (sudskapraksa.sud.rs)",
+        "url": "https://sudskapraksa.sud.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out (also 2026-11-06); 2026-11-10: TLS certificate verification failed",
+        "note": "unified case-law base exists but could not be opened; individual court sites not checked"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Ustav Republike Srbije",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Ustavni sud (Constitutional Court): Ustav RS i propisi",
+      "note": "www.ustavni.sud.rs/ustav-rs-i-propisi/ustav-republike-srbije: consolidated HTML with Amendments I-XXIX (Sl. glasnik 115/2021, 16/2022), all 206 articles; plus the 2006 Constitutional Law"
+    },
+    {
+      "name": "Zakoni",
+      "en": "Acts of the National Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Ustavni sud (Constitutional Court): Ustav RS i propisi",
+      "note": "only the Law on the Constitutional Court (unofficial consolidated text on ustavni.sud.rs); every other act missing: pravno-informacioni-sistem.rs terms forbid automated use without written consent; parlament.gov.rs lists only the current convocation's (2024-) laws as adopted (amending PDFs, never consolidated), not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Narodna skupština – Doneti zakoni",
+        "url": "https://www.parlament.gov.rs/akti/doneti-zakoni/doneti-zakoni.1033.html",
+        "evidence": "research/chatgpt/validation-r2-b.md",
+        "note": "laws as adopted (PDF/DOC, 2024 on in the listing; search reaches back to 2009), not consolidated; consolidated text only on PIS (blocked by terms)"
+      }
+    },
+    {
+      "name": "Uredbe, odluke Vlade",
+      "en": "Government decrees and decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "pravno-informacioni-sistem.rs terms forbid automated use without written consent",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Pravno-informacioni sistem RS (JP Službeni glasnik)",
+        "url": "https://www.pravno-informacioni-sistem.rs/",
+        "evidence": "research/rs.md",
+        "note": "terms: 'Строго је забрањено коришћење било каквих аутоматизованих система...' without written consent of Glasnik"
+      }
+    },
+    {
+      "name": "Pravilnici, naredbe, uputstva ministarstava",
+      "en": "Ministerial rulebooks, orders, instructions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "pravno-informacioni-sistem.rs terms forbid automated use without written consent",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Pravno-informacioni sistem RS (JP Službeni glasnik)",
+        "url": "https://www.pravno-informacioni-sistem.rs/",
+        "evidence": "research/rs.md",
+        "note": "terms: 'Строго је забрањено коришћење било каквих аутоматизованих система...' without written consent of Glasnik"
+      }
+    },
+    {
+      "name": "Službeni glasnik Republike Srbije",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "free texts only via PIS (terms forbid automation)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Službeni glasnik RS (JP Službeni glasnik)",
+        "url": "https://www.slglasnik.com/",
+        "evidence": "fetched 2026-11-07: slglasnik.com homepage opened; free full texts are only via PIS (research/rs.md)",
+        "note": "free route is PIS, whose terms forbid automated use without written consent; publisher's own e-issues not checked for price"
+      }
+    },
+    {
+      "name": "Propisi AP Vojvodine (Službeni list APV)",
+      "en": "Acts of the Autonomous Province of Vojvodina",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "slist.rs timed out from UK (2026-11-07)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Službeni list APV",
+        "url": "http://www.slist.rs/",
+        "evidence": "fetched 2026-11-07: connection timed out",
+        "note": "could not open"
+      }
+    },
+    {
+      "name": "Propisi jedinica lokalne samouprave",
+      "en": "Municipal/city acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "scattered per municipality; not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "municipal official gazettes",
+        "url": null,
+        "evidence": "not checked",
+        "note": "scattered per municipality"
+      }
+    },
+    {
+      "name": "Potvrđeni međunarodni ugovori",
+      "en": "Ratified treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "pravno-informacioni-sistem.rs terms forbid automated use without written consent",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Pravno-informacioni sistem RS (JP Službeni glasnik)",
+        "url": "https://www.pravno-informacioni-sistem.rs/",
+        "evidence": "research/rs.md",
+        "note": "terms: 'Строго је забрањено коришћење било каквих аутоматизованих система...' without written consent of Glasnik"
+      }
+    }
+  ]
+}

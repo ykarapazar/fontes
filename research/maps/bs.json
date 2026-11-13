@@ -1,0 +1,290 @@
+{
+  "code": "bs",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://courts.bs/",
+    "https://courts.bs/judgments/"
+  ],
+  "courts": [
+    {
+      "name": "Judicial Committee of the Privy Council",
+      "en": "Final court of appeal (sits in London)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments",
+      "note": "JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Court of Appeal of the Commonwealth of The Bahamas'); a judgment whose title omits the country and whose header words the court differently (e.g. 'Court of Appeal of The Bahamas') is missed. Missing: judgments before Nov 2009.",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII, UKPC collection (unofficial)",
+        "url": "https://www.bailii.org/uk/cases/UKPC/",
+        "evidence": "gb adapter (src/world_legal_mcp/jurisdictions/gb.py): BAILII has no API and forbids scraping; not re-checked 2026-11-10",
+        "note": "missing part: JCPC judgments before Nov 2009"
+      }
+    },
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Court of Appeal of The Bahamas judgments (courtofappeal.org.bs)",
+      "note": "2003 on; search matches case names, keywords, file number, not full text"
+    },
+    {
+      "name": "Supreme Court – Civil Division",
+      "en": "Supreme Court, civil (incl. Family Island circuit)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+      "note": "courts.bs judgments list has 1218 entries with case-number code 'CLE' (2026-11-07); before ~2019 not published; case-name search only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas – Judgments",
+        "url": "https://www.courts.bs/judgments/",
+        "evidence": "fetched 2026-11-07: judgments page 200, single list; earliest uploads ~2019; CommonLII /bs/ answers Cloudflare 'Just a moment' 403",
+        "note": "missing part: pre-~2019 Supreme Court judgments; no official online source found (vLex has some = paid)"
+      }
+    },
+    {
+      "name": "Supreme Court – Commercial Division",
+      "en": "Supreme Court, commercial",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+      "note": "courts.bs judgments list has 136 entries with case-number code 'COM' (2026-11-07); before ~2019 not published; case-name search only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas – Judgments",
+        "url": "https://www.courts.bs/judgments/",
+        "evidence": "fetched 2026-11-07: judgments page 200, single list; earliest uploads ~2019; CommonLII /bs/ answers Cloudflare 'Just a moment' 403",
+        "note": "missing part: pre-~2019 Supreme Court judgments; no official online source found (vLex has some = paid)"
+      }
+    },
+    {
+      "name": "Supreme Court – Family Division",
+      "en": "Supreme Court, family/divorce",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "partly",
+      "via": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+      "note": "courts.bs judgments list has 173 entries with case-number code 'FAM' (2026-11-07); before ~2019 not published; case-name search only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas – Judgments",
+        "url": "https://www.courts.bs/judgments/",
+        "evidence": "fetched 2026-11-07: judgments page 200, single list; earliest uploads ~2019; CommonLII /bs/ answers Cloudflare 'Just a moment' 403",
+        "note": "missing part: pre-~2019 Supreme Court judgments; no official online source found (vLex has some = paid)"
+      }
+    },
+    {
+      "name": "Supreme Court – Probate Division",
+      "en": "Supreme Court, probate",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+      "note": "courts.bs judgments list has 35 entries with case-number code 'PRO' (2026-11-07); before ~2019 not published; case-name search only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas – Judgments",
+        "url": "https://www.courts.bs/judgments/",
+        "evidence": "fetched 2026-11-07: judgments page 200, single list; earliest uploads ~2019; CommonLII /bs/ answers Cloudflare 'Just a moment' 403",
+        "note": "missing part: pre-~2019 Supreme Court judgments; no official online source found (vLex has some = paid)"
+      }
+    },
+    {
+      "name": "Supreme Court – Public Law (constitutional, judicial review)",
+      "en": "Supreme Court, public law",
+      "tier": "first-instance",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+      "note": "courts.bs judgments list has 110 entries with case-number code 'PUB' (2026-11-07); before ~2019 not published; case-name search only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas – Judgments",
+        "url": "https://www.courts.bs/judgments/",
+        "evidence": "fetched 2026-11-07: judgments page 200, single list; earliest uploads ~2019; CommonLII /bs/ answers Cloudflare 'Just a moment' 403",
+        "note": "missing part: pre-~2019 Supreme Court judgments; no official online source found (vLex has some = paid)"
+      }
+    },
+    {
+      "name": "Supreme Court – Criminal Division",
+      "en": "Supreme Court, criminal (jury trials of indictable offences)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+      "note": "courts.bs judgments list has 340 entries with case-number code 'CRI' (2026-11-07); before ~2019 not published; case-name search only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas – Judgments",
+        "url": "https://www.courts.bs/judgments/",
+        "evidence": "fetched 2026-11-07: judgments page 200, single list; earliest uploads ~2019; CommonLII /bs/ answers Cloudflare 'Just a moment' 403",
+        "note": "missing part: pre-~2019 Supreme Court judgments; no official online source found (vLex has some = paid)"
+      }
+    },
+    {
+      "name": "Supreme Court – appellate jurisdiction (appeals from magistrates)",
+      "en": "Supreme Court, appeals from Magistrates' Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+      "note": "courts.bs judgments list has 34 entries with case-number code 'APP' (2026-11-07); before ~2019 not published; case-name search only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas – Judgments",
+        "url": "https://www.courts.bs/judgments/",
+        "evidence": "fetched 2026-11-07: judgments page 200, single list; earliest uploads ~2019; CommonLII /bs/ answers Cloudflare 'Just a moment' 403",
+        "note": "missing part: pre-~2019 Supreme Court judgments; no official online source found (vLex has some = paid)"
+      }
+    },
+    {
+      "name": "Magistrates' Courts (Stipendiary and Circuit)",
+      "en": "Magistrates' Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "magistrates' decisions not published on courts.bs",
+      "elsewhere": {
+        "status": "offline",
+        "source": "The Judiciary of The Bahamas",
+        "url": "https://www.courts.bs/magistrates-court/",
+        "evidence": "fetched 2026-11-07: magistrates page 200 has contact info only; judgments list carries Supreme Court rulings",
+        "note": "no magistrates' decisions published online found"
+      }
+    },
+    {
+      "name": "Juvenile Court",
+      "en": "Juvenile Court (magistrates sitting under the Child Protection Act)",
+      "tier": "specialised",
+      "branch": "juvenile",
+      "reached": "no",
+      "via": null,
+      "note": "not published",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "fetched 2026-11-07: courts.bs/judgments/ carries no juvenile-court decisions",
+        "note": "juvenile proceedings closed; nothing published online found"
+      }
+    },
+    {
+      "name": "Coroner's Court",
+      "en": "Coroner's Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not published",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "fetched 2026-11-07: courts.bs/judgments/ carries no coroner's findings",
+        "note": "no inquest findings published online found"
+      }
+    },
+    {
+      "name": "Industrial Tribunal",
+      "en": "Industrial Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found; decisions appear only on vLex (paid)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "vLex (Industrial Tribunal decisions)",
+        "url": "https://bs.vlex.com/",
+        "evidence": "search result only",
+        "note": "only source found is vLex (paid); industrialtribunal.gov.bs timed out, no official publication page found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of The Bahamas (1973)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Statute Law of The Bahamas, Law Reform and Revision Commission (laws.bahamas.gov.bs)",
+      "note": "item 1973-1080 'The Constitution' (Revised Edition text with later amendments as separate amd/ items); search 'constitution' ranks it first; provisions by article (e.g. 'art. 15'). Checked 2026-11-10."
+    },
+    {
+      "name": "Acts of Parliament (principal Acts)",
+      "en": "Principal Acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Statute Law of The Bahamas, Law Reform and Revision Commission (laws.bahamas.gov.bs)",
+      "note": "current Revised Edition PDFs, title search only; post-2016 amendments not merged in"
+    },
+    {
+      "name": "Amending Acts / Regulations",
+      "en": "Amending legislation",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Statute Law of The Bahamas, Law Reform and Revision Commission (laws.bahamas.gov.bs)",
+      "note": "separate items (kind amd)"
+    },
+    {
+      "name": "Subsidiary legislation (Regulations, Rules, Orders)",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Statute Law of The Bahamas, Law Reform and Revision Commission (laws.bahamas.gov.bs)",
+      "note": "kind sub; title search only"
+    },
+    {
+      "name": "Official Gazette",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "bahamas.gov.bs answers 403 from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Government of The Bahamas – Official Gazette",
+        "url": "https://www.bahamas.gov.bs/",
+        "evidence": "fetched 2026-11-07: www.bahamas.gov.bs and its gazette path answer 403 Forbidden from the UK",
+        "note": "403 from the UK"
+      }
+    },
+    {
+      "name": "Repealed / historical versions",
+      "en": "Point-in-time legislation",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "source lists current legislation only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "fetched 2026-11-07: CommonLII /bs/ behind Cloudflare challenge (403)",
+        "note": "no official historical-version source found; laws.bahamas.gov.bs lists current text only"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "MFA sites time out; no treaty list found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministry of Foreign Affairs",
+        "url": "https://www.mfa.gov.bs/",
+        "evidence": "fetched 2026-11-07: mfa.gov.bs and mofa.gov.bs timed out",
+        "note": "no official treaty list established"
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "code": "cu",
+  "checked": "2026-11-10",
+  "structure_sources": [
+    "https://dpej.rae.es/eli/cu/l/2021/10/28/140",
+    "https://dpej.rae.es/eli/cu/l/2021/12/21/146"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Supremo Popular (Salas de lo Penal, Civil y Familia, Administrativo, Trabajo y Seguridad Social, Económico, Militar, Delitos contra la Seguridad del Estado)",
+      "en": "People's Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Tribunal Supremo terms forbid automated access; no decision database anyway",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Tribunal Supremo Popular",
+        "url": "https://www.tsp.gob.cu/",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "terms forbid access 'utilizando medios automatizados'; no judgment database anyway (bulletins only)"
+      }
+    },
+    {
+      "name": "Tribunales Provinciales Populares (15 + Isla de la Juventud) – Salas de lo Penal",
+      "en": "Provincial People's Courts – criminal chambers (serious crimes at first instance; appeals)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "no official online decision database"
+      }
+    },
+    {
+      "name": "Tribunales Provinciales Populares – Salas de lo Civil, de Familia y de lo Administrativo",
+      "en": "Provincial People's Courts – civil, family and administrative chambers",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "no official online decision database"
+      }
+    },
+    {
+      "name": "Tribunales Provinciales Populares – Salas de lo Laboral",
+      "en": "Provincial People's Courts – labour chambers",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "no official online decision database"
+      }
+    },
+    {
+      "name": "Tribunales Provinciales Populares – Salas de lo Económico",
+      "en": "Provincial People's Courts – economic (commercial) chambers",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "no official online decision database"
+      }
+    },
+    {
+      "name": "Tribunales Municipales Populares (~160)",
+      "en": "Municipal People's Courts (minor criminal, civil, family)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "no official online decision database"
+      }
+    },
+    {
+      "name": "Tribunales Militares de Región",
+      "en": "Regional military courts",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "no official online decision database"
+      }
+    },
+    {
+      "name": "Tribunales Militares Territoriales",
+      "en": "Territorial military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online database",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/chatgpt/r2_b.md",
+        "note": "no official online decision database"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución de la República (2019)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)",
+      "note": "id 'Constitución' = GOC-2025-487-ES9: the 2019 Constitution as reformed in 2025, republished whole in the Gazette (Edición Especial No. 9, 6 Nov 2025); full text, text layer"
+    },
+    {
+      "name": "Leyes (Asamblea Nacional del Poder Popular)",
+      "en": "Acts of the National Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)",
+      "note": "Gazette norm database (~103 Leyes, search by type/number/year/summary) + issue PDFs; Ley 59/1987 Código Civil not indexed, served from the site's 2022 updated edition; missing: Leyes not indexed (checked 2026-11-10: Ley 41/1983 and Ley 51/1985 absent; Leyes 65, 75, 76, 85, 113 present; the site's issue archive starts in 1990, so pre-1990 acts never republished are not online at all); completeness of the Gazette norm database for pre-2019 in-force acts is unverified (older acts mostly indexed only as later republications); texts as published, amendments not applied; norms without a code open as their whole issue",
+      "elsewhere": {
+        "status": "none",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: www.gacetaoficial.gob.cu wired (norm database /es/normas-juridicas + issue PDFs); robots Crawl-delay 10 obeyed",
+        "note": "no consolidated official source found"
+      }
+    },
+    {
+      "name": "Decretos-Leyes (Consejo de Estado)",
+      "en": "Decree-laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)",
+      "note": "Gazette norm database (~340 Decretos-Leyes, back to 1934 mostly as republications) + issue PDFs; missing: completeness of the Gazette norm database for pre-2019 in-force acts is unverified (older acts mostly indexed only as later republications); texts as published, amendments not applied; norms without a code open as their whole issue",
+      "elsewhere": {
+        "status": "none",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: www.gacetaoficial.gob.cu wired (norm database /es/normas-juridicas + issue PDFs); robots Crawl-delay 10 obeyed",
+        "note": "no consolidated official source found"
+      }
+    },
+    {
+      "name": "Decretos (Presidente / Consejo de Ministros)",
+      "en": "Decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)",
+      "note": "free with the Gazette norm database (same filters) + issue PDFs; as published; pre-2019 coverage of the database unverified",
+      "elsewhere": {
+        "status": "none",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: www.gacetaoficial.gob.cu wired (norm database /es/normas-juridicas + issue PDFs); robots Crawl-delay 10 obeyed",
+        "note": "no consolidated official source found"
+      }
+    },
+    {
+      "name": "Resoluciones ministeriales",
+      "en": "Ministerial resolutions",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)",
+      "note": "free with the Gazette norm database (same filters) + issue PDFs; as published; pre-2019 coverage of the database unverified",
+      "elsewhere": {
+        "status": "none",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: www.gacetaoficial.gob.cu wired (norm database /es/normas-juridicas + issue PDFs); robots Crawl-delay 10 obeyed",
+        "note": "no consolidated official source found"
+      }
+    },
+    {
+      "name": "Gaceta Oficial de la República de Cuba",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)",
+      "note": "free with the Gazette norm database (same filters) + issue PDFs; as published; pre-2019 coverage of the database unverified",
+      "elsewhere": {
+        "status": "none",
+        "source": "",
+        "url": "",
+        "evidence": "2026-11-10: www.gacetaoficial.gob.cu wired (norm database /es/normas-juridicas + issue PDFs); robots Crawl-delay 10 obeyed",
+        "note": "no consolidated official source found"
+      }
+    },
+    {
+      "name": "Acuerdos de asambleas provinciales / municipales",
+      "en": "Provincial and municipal acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "not researched"
+      }
+    },
+    {
+      "name": "Tratados",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gaceta Oficial",
+        "url": "https://www.gacetaoficial.gob.cu/es",
+        "evidence": "not checked online",
+        "note": "whether treaties are published in the Gazette was not checked"
+      }
+    }
+  ]
+}

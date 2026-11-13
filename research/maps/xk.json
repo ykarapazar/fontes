@@ -1,0 +1,418 @@
+{
+  "code": "xk",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://komerciale.gjyqesori-rks.org/mire-se-vini-ne-gjykaten-komerciale/?lang=en",
+    "https://gzk.rks-gov.net/"
+  ],
+  "courts": [
+    {
+      "name": "Gjykata Kushtetuese",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Gjykata Kushtetuese e Republikës së Kosovës (Constitutional Court), gjk-ks.org",
+      "note": "2009-; old scanned documents have no text"
+    },
+    {
+      "name": "Gjykata Supreme",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Dhoma e Posaçme e Gjykatës Supreme (çështjet e privatizimit)",
+      "en": "Special Chamber of the Supreme Court on Privatisation Agency matters (first instance and appellate panels)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Kolegji i Apelit i AKP (Gjykata Supreme)",
+      "en": "Supreme Court Appeals Panel for Kosovo Property Agency claims",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata e Apelit – Departamenti i Përgjithshëm",
+      "en": "Court of Appeals, General Department (civil and criminal)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata e Apelit – Departamenti për Krime të Rënda",
+      "en": "Court of Appeals, Serious Crimes Department",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata e Apelit – Departamenti për Çështje Administrative",
+      "en": "Court of Appeals, Administrative Matters Department",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata e Apelit – Departamenti për të Mitur",
+      "en": "Court of Appeals, Juvenile Department",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata e Apelit – Departamenti i Posaçëm",
+      "en": "Court of Appeals, Special Department (war crimes, terrorism, organised crime)",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykatat Themelore (7) me degë – Departamenti i Përgjithshëm",
+      "en": "Basic Courts, General Department (civil and minor criminal; branches)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykatat Themelore (7) – Departamenti për Krime të Rënda",
+      "en": "Basic Courts, Serious Crimes Department",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykatat Themelore (7) – Departamenti për të Mitur",
+      "en": "Basic Courts, Juvenile Department",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata Themelore e Prishtinës – Departamenti i Posaçëm",
+      "en": "Basic Court of Prishtina, Special Department (national jurisdiction)",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata Themelore e Prishtinës – Departamenti për Çështje Administrative",
+      "en": "Basic Court of Prishtina, Administrative Matters Department (national jurisdiction)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata Komerciale – departamentet e shkallës së parë",
+      "en": "Commercial Court (2022), first-instance departments",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Gjykata Komerciale – Kolegji i Apelit",
+      "en": "Commercial Court, Appellate Panel",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Judicial Council decisions (gjyqesori-rks.org)",
+        "url": "https://www.gjyqesori-rks.org/",
+        "evidence": "fetched 2026-11-07: home page HTTP 403 to a plain client; robots.txt 'Content-Signal: search=yes,ai-train=no,use=reference' and Disallow: / for ClaudeBot, anthropic-ai, Claude-Web, GPTBot",
+        "note": "403 + AI agents disallowed in robots.txt"
+      }
+    },
+    {
+      "name": "Dhomat e Specializuara të Kosovës – Gjykata Themelore e Specializuar",
+      "en": "Kosovo Specialist Chambers, Basic Court (trial panels / pre-trial judge)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "KSC Public Court Records repository; not built (terms need written permission beyond private/educational use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Specialist Chambers Court Records (repository.scp-ks.org)",
+        "url": "https://repository.scp-ks.org/",
+        "evidence": "fetched 2026-11-10 with the Fontes client: repository.scp-ks.org robots.txt 404 (no rules); www.scp-ks.org/en/legal-notice: content 'may be downloaded, copied and reproduced for private use and for the purposes of information and/or education ... free of charge'; 'for any use other than those listed above, and in particular for commercial use must request prior written permission'",
+        "note": "terms limit reuse to private/information/education use; anything else needs KSC written permission, so not built"
+      }
+    },
+    {
+      "name": "Dhomat e Specializuara të Kosovës – Paneli i Gjykatës së Apelit",
+      "en": "Kosovo Specialist Chambers, Court of Appeals Panel",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "KSC Public Court Records repository; not built (terms need written permission beyond private/educational use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Specialist Chambers Court Records (repository.scp-ks.org)",
+        "url": "https://repository.scp-ks.org/",
+        "evidence": "fetched 2026-11-10 with the Fontes client: repository.scp-ks.org robots.txt 404 (no rules); www.scp-ks.org/en/legal-notice: content 'may be downloaded, copied and reproduced for private use and for the purposes of information and/or education ... free of charge'; 'for any use other than those listed above, and in particular for commercial use must request prior written permission'",
+        "note": "terms limit reuse to private/information/education use; anything else needs KSC written permission, so not built"
+      }
+    },
+    {
+      "name": "Dhomat e Specializuara të Kosovës – Paneli i Gjykatës Supreme",
+      "en": "Kosovo Specialist Chambers, Supreme Court Panel",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "KSC Public Court Records repository; not built (terms need written permission beyond private/educational use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Specialist Chambers Court Records (repository.scp-ks.org)",
+        "url": "https://repository.scp-ks.org/",
+        "evidence": "fetched 2026-11-10 with the Fontes client: repository.scp-ks.org robots.txt 404 (no rules); www.scp-ks.org/en/legal-notice: content 'may be downloaded, copied and reproduced for private use and for the purposes of information and/or education ... free of charge'; 'for any use other than those listed above, and in particular for commercial use must request prior written permission'",
+        "note": "terms limit reuse to private/information/education use; anything else needs KSC written permission, so not built"
+      }
+    },
+    {
+      "name": "Dhoma e Specializuar e Gjykatës Kushtetuese",
+      "en": "Specialist Chamber of the Constitutional Court (The Hague)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "KSC Public Court Records repository; not built (terms need written permission beyond private/educational use)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Kosovo Specialist Chambers Court Records (repository.scp-ks.org)",
+        "url": "https://repository.scp-ks.org/",
+        "evidence": "fetched 2026-11-10 with the Fontes client: repository.scp-ks.org robots.txt 404 (no rules); www.scp-ks.org/en/legal-notice: content 'may be downloaded, copied and reproduced for private use and for the purposes of information and/or education ... free of charge'; 'for any use other than those listed above, and in particular for commercial use must request prior written permission'",
+        "note": "terms limit reuse to private/information/education use; anything else needs KSC written permission, so not built"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Kushtetuta",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "Albanian only"
+    },
+    {
+      "name": "Ligje, Kodeks",
+      "en": "Laws and Codes of the Assembly",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "Albanian only; as published; amendments are separate acts; the Gazette's own consolidated versions are separate '(KONSOLIDUAR)' acts"
+    },
+    {
+      "name": "Aktet e Konsoliduara Ligjore / Nënligjore",
+      "en": "Consolidated legal and sub-legal acts",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "all consolidated versions the Gazette publishes are reached (separate acts titled '(KONSOLIDUAR)', 158 on 2026-11-10; search 'konsoliduar'). The Gazette has not consolidated most laws: for those, the act plus its amending acts"
+    },
+    {
+      "name": "Dekretet e Presidentit",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "Albanian only; as published, not consolidated"
+    },
+    {
+      "name": "Rregullore, Udhëzime Administrative, Vendime të Qeverisë",
+      "en": "Government regulations, administrative instructions and decisions",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "Albanian only; as published, not consolidated"
+    },
+    {
+      "name": "Gazeta Zyrtare",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "searched by title/keywords/content; first 200 hits per query reachable"
+    },
+    {
+      "name": "Aktet e Komunave",
+      "en": "Municipal acts",
+      "level": "local",
+      "reached": "partly",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "Gazette lists them separately (LocalInstActsList); whether the adapter's search includes them unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "Gazeta Zyrtare: Lista e Akteve të Komunave",
+        "url": "https://gzk.rks-gov.net/LocalInstActsList.aspx",
+        "evidence": "fetched 2026-11-07: gzk home page links LocalInstActsList.aspx ('Lista e Akteve të Komunave')",
+        "note": "missing part = whether Fontes' search reaches this separate list"
+      }
+    },
+    {
+      "name": "Marrëveshje ndërkombëtare",
+      "en": "International agreements",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+      "note": "Gazette act type; whether the adapter's search includes them unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "Gazeta Zyrtare: International agreements list",
+        "url": "https://gzk.rks-gov.net/InternationalAgreementsList.aspx",
+        "evidence": "fetched 2026-11-07: InternationalAgreementsList.aspx HTTP 200",
+        "note": "missing part = whether Fontes' search reaches this separate list"
+      }
+    },
+    {
+      "name": "Rregulloret e UNMIK-ut",
+      "en": "UNMIK regulations (1999-2008)",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "UNMIK sites 403/timeout from the UK",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "UNMIK regulations archive (unmik.unmissions.org; old unmikonline.org/regulations)",
+        "url": "https://unmik.unmissions.org/",
+        "evidence": "fetched 2026-11-07: unmik.unmissions.org HTTP 403; unmikonline.org timed out",
+        "note": "not found in gzk.rks-gov.net categories; may exist elsewhere"
+      }
+    }
+  ]
+}

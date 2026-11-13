@@ -1,0 +1,52 @@
+name: Broken or wrong source
+description: A source fails, a text is wrong or out of date, or a result is marked official when it is not.
+title: "[source] <jurisdiction code>: "
+labels: ["source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Issues are public: do not include client details or other confidential facts.
+        If you run this source and the problem is your terms, robots.txt or rate limits, email fontesmcp@proton.me instead.
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      description: The code or name, e.g. `nl`, `gb`, `echr`, "Brazil".
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - The source fails or returns nothing
+        - The text is wrong or out of date
+        - The text is not the official version, but is not flagged as unofficial
+        - A link or identifier does not work
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: asked
+    attributes:
+      label: What you asked or which tool you used
+      description: The question to Claude, or the tool and its arguments.
+    validations:
+      required: true
+  - type: textarea
+    id: got
+    attributes:
+      label: What you got
+      description: The answer or error. Shorten long texts.
+    validations:
+      required: true
+  - type: input
+    id: official
+    attributes:
+      label: Official page that shows the right text (if you have one)
+      placeholder: https://
+  - type: input
+    id: version
+    attributes:
+      label: Fontes version (if you know it)

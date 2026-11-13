@@ -1,0 +1,3441 @@
+{
+  "code": "ng",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://njc.gov.ng/federal-judicial-overview",
+    "https://www.courtofappeal.gov.ng/jurisdiction",
+    "https://nigerialii.org/judgments/"
+  ],
+  "courts": [
+    {
+      "name": "Supreme Court of Nigeria",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Nigeria (supremecourt.gov.ng) – Judgments",
+      "note": "full text 1960s–2012; 2023+ scans, metadata only; 2013–2022 missing; title search only",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Supreme Court of Nigeria",
+        "url": "https://supremecourt.gov.ng/",
+        "evidence": "adapter ng.py docstring",
+        "note": "Missing part: 2013-2022 judgments (not in the Court's database) and text of 2023+ scans (OCR needed). NigeriaLII has SC judgments but robots Content-Signal ai-input=no and terms ban scraping (blocked)."
+      }
+    },
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "official site lists ~20 judgments (Google Drive links); not built",
+      "elsewhere": {
+        "status": "available",
+        "source": "Court of Appeal of Nigeria (coa-admin API)",
+        "url": "https://courtofappeal.gov.ng/",
+        "evidence": "adapter ng.py docstring",
+        "note": "~20 judgments listed by the site's API, text only via Google Drive links. Small. Not built."
+      }
+    },
+    {
+      "name": "Federal High Court",
+      "en": "Federal High Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no judgments on fhc.gov.ng",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Federal High Court",
+        "url": "https://fhc.gov.ng/",
+        "evidence": "fetched 2026-11-07: robots.txt allows all; wp-sitemap page list has rules/judges pages, no judgments",
+        "note": "Court site publishes no judgments."
+      }
+    },
+    {
+      "name": "National Industrial Court",
+      "en": "National Industrial Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "NICN site has a judgments section, empty except unopened 2023 archive links",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "National Industrial Court of Nigeria",
+        "url": "https://www.nicn.gov.ng/judgments",
+        "evidence": "fetched 2026-11-07: /judgments shows 'No judgments published yet' plus 'Archived Judgments 2023' links per division (contents not seen)",
+        "note": "New Next.js site; archive contents not established."
+      }
+    },
+    {
+      "name": "Presidential Election Petition Court (Court of Appeal sitting at first instance)",
+      "en": "Presidential Election Petition Court",
+      "tier": "specialised",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "appeals to the Supreme Court",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Court of Appeal of Nigeria",
+        "url": "https://courtofappeal.gov.ng/",
+        "evidence": "adapter ng.py docstring",
+        "note": "not found among the ~20 judgments on the Court of Appeal site (per ng.py docstring); not checked further"
+      }
+    },
+    {
+      "name": "Governorship, National and State Houses of Assembly Election Petition Tribunals",
+      "en": "Election petition tribunals",
+      "tier": "specialised",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "ad hoc tribunals constituted for each election cycle",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none",
+        "url": "",
+        "evidence": "search result only",
+        "note": "ad hoc tribunals with no publication channel; judgments circulate via law reports (paid) and press"
+      }
+    },
+    {
+      "name": "Code of Conduct Tribunal",
+      "en": "Code of Conduct Tribunal",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "asset declaration breaches by public officers",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Code of Conduct Tribunal",
+        "url": "https://cct.gov.ng/",
+        "evidence": "not opened",
+        "note": "no judgment database confirmed"
+      }
+    },
+    {
+      "name": "Investments and Securities Tribunal",
+      "en": "Investments and Securities Tribunal",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "capital-market disputes",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Investments and Securities Tribunal",
+        "url": "https://ist.gov.ng/",
+        "evidence": "not opened",
+        "note": "no judgment database confirmed"
+      }
+    },
+    {
+      "name": "Tax Appeal Tribunal",
+      "en": "Tax Appeal Tribunal",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "federal tax disputes; appeals to the Federal High Court",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Tax Appeal Tribunal",
+        "url": "https://tat.gov.ng/",
+        "evidence": "not opened",
+        "note": "selected decisions appear in paid tax law reports; official publication not confirmed"
+      }
+    },
+    {
+      "name": "Competition and Consumer Protection Tribunal",
+      "en": "Competition and Consumer Protection Tribunal",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "established under FCCPA 2018",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "none",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no publication channel confirmed"
+      }
+    },
+    {
+      "name": "Courts-martial (General and Special Courts-Martial, Armed Forces Act)",
+      "en": "Military courts",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "appeals to the Court of Appeal",
+      "elsewhere": {
+        "status": "offline",
+        "source": "none",
+        "url": "",
+        "evidence": "search result only",
+        "note": "courts-martial decisions are not published"
+      }
+    }
+  ],
+  "states": [
+    {
+      "name": "Abia State",
+      "courts": [
+        {
+          "name": "High Court of Abia State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Abia State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Abia State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Abia State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Abia State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adamawa State",
+      "courts": [
+        {
+          "name": "High Court of Adamawa State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Adamawa State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Adamawa State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Adamawa State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Adamawa State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Adamawa State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Adamawa State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of Adamawa State",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Akwa Ibom State",
+      "courts": [
+        {
+          "name": "High Court of Akwa Ibom State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Akwa Ibom State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Akwa Ibom State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Akwa Ibom State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Akwa Ibom State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anambra State",
+      "courts": [
+        {
+          "name": "High Court of Anambra State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Anambra State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Anambra State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Anambra State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Anambra State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bauchi State",
+      "courts": [
+        {
+          "name": "High Court of Bauchi State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "blocked",
+            "source": "NigeriaLII",
+            "url": "https://nigerialii.org/judgments/NGBAHC/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII (non-official LII) has this collection, but robots Content-Signal ai-input=no is stated as a condition of access and its terms ban scraping; official judiciary site not checked"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Bauchi State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Bauchi State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Bauchi State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Bauchi State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Bauchi State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bayelsa State",
+      "courts": [
+        {
+          "name": "High Court of Bayelsa State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Bayelsa State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Bayelsa State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Bayelsa State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Bayelsa State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Benue State",
+      "courts": [
+        {
+          "name": "High Court of Benue State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "blocked",
+            "source": "NigeriaLII",
+            "url": "https://nigerialii.org/judgments/NGBEHC/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII (non-official LII) has this collection, but robots Content-Signal ai-input=no is stated as a condition of access and its terms ban scraping; official judiciary site not checked"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Benue State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Benue State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Benue State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of Benue State",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Benue State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Borno State",
+      "courts": [
+        {
+          "name": "High Court of Borno State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Borno State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Borno State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Borno State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Borno State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Borno State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Borno State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cross River State",
+      "courts": [
+        {
+          "name": "High Court of Cross River State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Cross River State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Cross River State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Cross River State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Cross River State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Delta State",
+      "courts": [
+        {
+          "name": "High Court of Delta State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Delta State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Delta State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Delta State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Delta State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ebonyi State",
+      "courts": [
+        {
+          "name": "High Court of Ebonyi State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "blocked",
+            "source": "NigeriaLII",
+            "url": "https://nigerialii.org/judgments/NGEBHC/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII (non-official LII) has this collection, but robots Content-Signal ai-input=no is stated as a condition of access and its terms ban scraping; official judiciary site not checked"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Ebonyi State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Ebonyi State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Ebonyi State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Edo State",
+      "courts": [
+        {
+          "name": "High Court of Edo State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Edo State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Edo State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Edo State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Edo State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ekiti State",
+      "courts": [
+        {
+          "name": "High Court of Ekiti State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Ekiti State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Ekiti State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Ekiti State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Ekiti State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Enugu State",
+      "courts": [
+        {
+          "name": "High Court of Enugu State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Enugu State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Enugu State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Enugu State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Enugu State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gombe State",
+      "courts": [
+        {
+          "name": "High Court of Gombe State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Gombe State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Gombe State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Gombe State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Gombe State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Gombe State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Gombe State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Gombe State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Imo State",
+      "courts": [
+        {
+          "name": "High Court of Imo State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Imo State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Imo State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Imo State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Imo State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jigawa State",
+      "courts": [
+        {
+          "name": "High Court of Jigawa State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Jigawa State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Jigawa State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Jigawa State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Jigawa State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Jigawa State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Jigawa State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kaduna State",
+      "courts": [
+        {
+          "name": "High Court of Kaduna State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Kaduna State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Kaduna State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Kaduna State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Kaduna State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Kaduna State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Kaduna State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Kaduna State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Kaduna State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kano State",
+      "courts": [
+        {
+          "name": "High Court of Kano State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "blocked",
+            "source": "NigeriaLII",
+            "url": "https://nigerialii.org/judgments/NGKNHC/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII (non-official LII) has this collection, but robots Content-Signal ai-input=no is stated as a condition of access and its terms ban scraping; official judiciary site not checked"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Kano State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Kano State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Kano State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Kano State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Kano State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Katsina State",
+      "courts": [
+        {
+          "name": "High Court of Katsina State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Katsina State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Katsina State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Katsina State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Katsina State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Katsina State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Katsina State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kebbi State",
+      "courts": [
+        {
+          "name": "High Court of Kebbi State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Kebbi State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Kebbi State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Kebbi State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Kebbi State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Kebbi State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Kebbi State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kogi State",
+      "courts": [
+        {
+          "name": "High Court of Kogi State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Kogi State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Kogi State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Kogi State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Kogi State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Kogi State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Kogi State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of Kogi State",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kwara State",
+      "courts": [
+        {
+          "name": "High Court of Kwara State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Kwara State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Kwara State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Kwara State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Kwara State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Kwara State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Kwara State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of Kwara State",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lagos State",
+      "courts": [
+        {
+          "name": "High Court of Lagos State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "blocked",
+            "source": "NigeriaLII",
+            "url": "https://nigerialii.org/judgments/NGLAHC/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII (non-official LII) has this collection, but robots Content-Signal ai-input=no is stated as a condition of access and its terms ban scraping; official judiciary site not checked"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Lagos State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Lagos State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Family Courts of Lagos State (Child's Rights Act/Law)",
+          "en": "Family Courts",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "children's matters; High Court and Magistrate levels",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Lagos State Small Claims Court (Magistrates' Courts, claims up to N5m)",
+          "en": "Small Claims Court",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "since 2019",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Lagos State Special Offences (Mobile) Court",
+          "en": "Special Offences (Mobile) Court",
+          "tier": "specialised",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "environmental and traffic offences",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nasarawa State",
+      "courts": [
+        {
+          "name": "High Court of Nasarawa State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Nasarawa State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Nasarawa State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Nasarawa State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Nasarawa State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Nasarawa State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Nasarawa State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of Nasarawa State",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Niger State",
+      "courts": [
+        {
+          "name": "High Court of Niger State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Niger State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Niger State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Niger State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Niger State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Niger State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Niger State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Niger State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ogun State",
+      "courts": [
+        {
+          "name": "High Court of Ogun State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Ogun State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Ogun State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Ogun State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Ogun State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ondo State",
+      "courts": [
+        {
+          "name": "High Court of Ondo State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Ondo State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Ondo State (existence unverified)",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Ondo State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Ondo State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Osun State",
+      "courts": [
+        {
+          "name": "High Court of Osun State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Osun State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Osun State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Osun State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Osun State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Oyo State",
+      "courts": [
+        {
+          "name": "High Court of Oyo State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Oyo State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Oyo State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Oyo State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Oyo State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plateau State",
+      "courts": [
+        {
+          "name": "High Court of Plateau State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Plateau State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Plateau State (existence unverified)",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Plateau State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Plateau State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Plateau State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Plateau State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of Plateau State",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Plateau State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rivers State",
+      "courts": [
+        {
+          "name": "High Court of Rivers State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Rivers State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Rivers State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Rivers State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Rivers State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sokoto State",
+      "courts": [
+        {
+          "name": "High Court of Sokoto State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Sokoto State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Sokoto State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Sokoto State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Sokoto State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Sokoto State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Sokoto State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Taraba State",
+      "courts": [
+        {
+          "name": "High Court of Taraba State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Taraba State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Taraba State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Taraba State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of Taraba State",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Taraba State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Taraba State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of Taraba State",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Customary Courts of Taraba State",
+          "en": "Customary Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary marriage, land and inheritance matters",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yobe State",
+      "courts": [
+        {
+          "name": "High Court of Yobe State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Yobe State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Yobe State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Yobe State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Yobe State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Yobe State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Yobe State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zamfara State",
+      "courts": [
+        {
+          "name": "High Court of Zamfara State",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Zamfara State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; state judiciary site not checked; most state High Court judgments reach the public only via paid law reports"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of Zamfara State",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of Zamfara State",
+            "url": "",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of Zamfara State",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of Zamfara State",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Sharia Courts (Upper Sharia Courts and Sharia Courts) of Zamfara State",
+          "en": "Sharia Courts",
+          "tier": "first-instance",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Sharia penal and civil jurisdiction under the state's Sharia Courts Law (post-1999)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Federal Capital Territory (Abuja)",
+      "courts": [
+        {
+          "name": "High Court of FCT",
+          "en": "State High Court",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "superior court of record; general civil and criminal jurisdiction; appeals to the Court of Appeal",
+          "elsewhere": {
+            "status": "blocked",
+            "source": "NigeriaLII",
+            "url": "https://nigerialii.org/judgments/NGFCHC/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII (non-official LII) has this collection, but robots Content-Signal ai-input=no is stated as a condition of access and its terms ban scraping; official judiciary site not checked"
+          }
+        },
+        {
+          "name": "Sharia Court of Appeal of FCT",
+          "en": "Sharia Court of Appeal",
+          "tier": "appeal",
+          "branch": "religious",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic personal law appeals from Sharia/Area courts; headed by a Grand Kadi",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sharia Court of Appeal of FCT",
+            "url": "https://fctshariacourt.gov.ng",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/) - no collection for this court",
+            "note": "no NigeriaLII collection; no official publication found"
+          }
+        },
+        {
+          "name": "Customary Court of Appeal of FCT",
+          "en": "Customary Court of Appeal",
+          "tier": "appeal",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "customary-law appeals from Customary/Area courts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "NigeriaLII – Customary Court of Appeal of Nigeria (state not specified)",
+            "url": "https://nigerialii.org/judgments/NGCCA/",
+            "evidence": "fetched 2026-11-10: nigerialii.org/judgments/ court list (robots.txt: Content-Signal ai-input=no, ai-train=no; Disallow /api/)",
+            "note": "NigeriaLII has one combined Customary Court of Appeal collection (blocked: ai-input=no); whether it holds this state's judgments is unverified"
+          }
+        },
+        {
+          "name": "Magistrates' Courts of FCT",
+          "en": "Magistrates' Courts",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "summary criminal trials and lower-value civil claims",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "District Courts of FCT",
+          "en": "District Courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "northern civil courts (District Courts Law)",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Area Courts (Upper Area Courts and Area Courts) of FCT",
+          "en": "Area Courts",
+          "tier": "first-instance",
+          "branch": "customary",
+          "reached": "no",
+          "via": null,
+          "note": "Islamic and customary law for Muslims and others",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        },
+        {
+          "name": "Family Courts of FCT (Child's Rights Act/Law)",
+          "en": "Family Courts",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "children's matters; High Court and Magistrate levels",
+          "elsewhere": {
+            "status": "offline",
+            "source": "none",
+            "url": "",
+            "evidence": "search result only",
+            "note": "lower-court decisions are not reported online as a rule; not verified for this state"
+          }
+        }
+      ]
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of the Federal Republic of Nigeria 1999",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "FAOLEX (FAO) – Constitution of Nigeria 1999, consolidated to 2023 (PLAC print)",
+      "note": "full text with the 1st-5th Alterations (to April 2023), sections searchable by number; unofficial (PLAC print hosted by FAOLEX, FAO terms non-commercial); not verified whether any alteration after 2023 exists; as-enacted NASS copy (id 5820) also listed",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Federal Ministry of Justice",
+        "url": "https://justice.gov.ng/nigerian-constitution/",
+        "evidence": "fetched 2026-11-10: linked PDF wp-content/uploads/2020/09/Nigerian-Constitution.pdf returns HTML (dead link)",
+        "note": "No working official consolidated copy found; National Assembly copy (nass.gov.ng id 5820) is as enacted 1999 and lacks section numbers for ss. 1-91 in its text layer."
+      }
+    },
+    {
+      "name": "Acts of the National Assembly",
+      "en": "Federal Acts",
+      "level": "primary",
+      "reached": "partly",
+      "via": "National Assembly of Nigeria (nass.gov.ng) – Acts as passed; Nigerian Investment Promotion Commission (nipc.gov.ng) – Acts; PLAC Laws of Nigeria (unofficial, LFN 2004)",
+      "note": "~160 Acts as passed (NASS, mostly 2001-2017 + 2025 tax Acts, Electoral Act 2026), 38 investment Acts (NIPC) and 413 Acts of the unrevised LFN 2004 from PLAC (unofficial, law as at 31 Dec 2002, licence unknown); title search, section lookup; not consolidated; Acts after 2002 mostly missing, and PLAC's index lists 413 of ~550 slots",
+      "elsewhere": {
+        "status": "available",
+        "source": "PLAC Laws of Nigeria (NGO, unofficial)",
+        "url": "https://lawsofnigeria.placng.org/",
+        "evidence": "fetched 2026-11-10: index pages, view2.php?sn=N; no robots rules; no terms page",
+        "note": "missing part: Acts after 2002 and amendments to LFN 2004 Acts; no free official consolidated LFN found"
+      }
+    },
+    {
+      "name": "Subsidiary legislation (regulations, orders)",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "no official collection found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official collection of subsidiary legislation found; agency sites publish their own regulations piecemeal."
+      }
+    },
+    {
+      "name": "Federal Government Official Gazette",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "no official online gazette found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Federal Government Printer",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official online gazette found; not checked further."
+      }
+    },
+    {
+      "name": "State Laws (Houses of Assembly)",
+      "en": "State laws",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "not researched (36 states)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "36 state assemblies; not checked one by one."
+      }
+    },
+    {
+      "name": "Local Government bye-laws",
+      "en": "Local bye-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not researched",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked."
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not researched",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked; no official treaty database found."
+      }
+    }
+  ]
+}

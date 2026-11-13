@@ -1,0 +1,325 @@
+{
+  "code": "np",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://supremecourt.gov.np/web/assets/downloads/Supreme%20Court%20Booklet-2080.pdf",
+    "https://supremecourt.gov.np/court/specialcourt"
+  ],
+  "courts": [
+    {
+      "name": "सर्वोच्च अदालत",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Nepal Kanoon Patrika (नेपाल कानून पत्रिका), Supreme Court of Nepal",
+      "note": "NKP precedents since 2015 BS only; Nepali only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download",
+        "note": "missing part = unreported judgments and Gregorian dates; this portal has all SC final decisions since July 2012 (PDF). lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali"
+      }
+    },
+    {
+      "name": "संवैधानिक इजलास",
+      "en": "Constitutional Bench of the Supreme Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "partly",
+      "via": "Nepal Kanoon Patrika (नेपाल कानून पत्रिका), Supreme Court of Nepal",
+      "note": "only rulings published in NKP",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download",
+        "note": "missing part = Constitutional Bench rulings not reported in NKP; lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali"
+      }
+    },
+    {
+      "name": "उच्च अदालतहरू (7)",
+      "en": "High Courts",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "supremecourt.gov.np/cp/ full-text portal; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download",
+        "note": "lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali; High Court CMS (supremecourt.gov.np/appeal/) has cause lists and case status only"
+      }
+    },
+    {
+      "name": "जिल्ला अदालतहरू (77)",
+      "en": "District Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "supremecourt.gov.np/cp/ full-text portal; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download",
+        "note": "lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali"
+      }
+    },
+    {
+      "name": "विशेष अदालत",
+      "en": "Special Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "supremecourt.gov.np/cp/ full-text portal; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download",
+        "note": "lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali"
+      }
+    },
+    {
+      "name": "राजस्व न्यायाधिकरण",
+      "en": "Revenue Tribunals",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "supremecourt.gov.np/cp/ full-text portal; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download",
+        "note": "Revenue Tribunal Kathmandu in the portal; also revenuetribunal.gov.np/rajaswoFaisalaPdf (JS page). lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali"
+      }
+    },
+    {
+      "name": "प्रशासकीय अदालत",
+      "en": "Administrative Court",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "supremecourt.gov.np/cp/ full-text portal; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download; fetched 2026-11-07: admincourt.gov.np/adminCourtFaisalaPdf/ full-text form",
+        "note": "also on admincourt.gov.np's own full-text page; lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali"
+      }
+    },
+    {
+      "name": "श्रम अदालत",
+      "en": "Labour Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "labourcourt.gov.np full-text page; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Labour Court – पूर्ण पाठ फैसला / आदेश",
+        "url": "https://labourcourt.gov.np/labourFaisalaPdf/index.php",
+        "evidence": "fetched 2026-11-07: home page links 'पूर्ण पाठ फैसला / आदेश' to this page (content rendered by JS)",
+        "note": "Labour Court not in the Supreme Court portal's court list; search fields not seen"
+      }
+    },
+    {
+      "name": "वैदेशिक रोजगार न्यायाधिकरण",
+      "en": "Foreign Employment Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "listed as a court type in the Supreme Court full-text portal",
+      "elsewhere": {
+        "status": "available",
+        "source": "Supreme Court of Nepal – फैसला / आदेश को पुर्ण पाठ (full-text decisions)",
+        "url": "https://supremecourt.gov.np/cp/",
+        "evidence": "fetched 2026-11-07: form lists court types सर्वोच्च, उच्च, जिल्ला, बिषेश अदालत, वैदेशिक रोजगार न्यायाधिकरण, राजश्व न्यायाधिकरण, प्रशासकीय अदालत; says all final decisions since 2069-04-01 BS are public to view/download",
+        "note": "lookup by court + case registration no. / registration or decision date (no keyword search); PDFs; Nepali"
+      }
+    },
+    {
+      "name": "ऋण असुली न्यायाधिकरण",
+      "en": "Debt Recovery Tribunal",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "bank and financial-institution loan claims (Debt Recovery Act 2058)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10): no official decision page found",
+        "note": "Not listed in the Supreme Court portal's court types; no own publication found."
+      }
+    },
+    {
+      "name": "ऋण असुली पुनरावेदन न्यायाधिकरण",
+      "en": "Debt Recovery Appellate Tribunal",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10): no official decision page found",
+        "note": "No publication found."
+      }
+    },
+    {
+      "name": "सैनिक अदालत",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no publication found; Nepal Army site not checked"
+      }
+    },
+    {
+      "name": "स्थानीय तहका न्यायिक समिति (753)",
+      "en": "Judicial committees of local governments (753)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "Constitution art. 217: deputy mayor / vice-chair hears listed minor civil disputes; appeal to District Court",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only (2026-11-10)",
+        "note": "Decisions are kept by each municipality; no central or regular online publication found."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "नेपालको संविधान",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "lawcommission.gov.np PDFs: broken text layer",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nepal Law Commission",
+        "url": "https://lawcommission.gov.np/pages/alphabetical-index-of-acts/",
+        "evidence": "research in adapter docstring (src/world_legal_mcp/jurisdictions/np.py)",
+        "note": "source exists and is free (robots Crawl-delay 10), but PDF text layer is broken (Kalimati/Mangal fonts without ToUnicode); needs OCR"
+      }
+    },
+    {
+      "name": "ऐन",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "broken PDF text layer",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nepal Law Commission",
+        "url": "https://lawcommission.gov.np/pages/alphabetical-index-of-acts/",
+        "evidence": "fetched 2026-11-07: Acts index 200; text issue per src/world_legal_mcp/jurisdictions/np.py",
+        "note": "broken PDF text layer; CDN drops full GETs of some large PDFs; FAOLEX English copies are non-commercial only (research/chatgpt/validation-r2-c.md)"
+      }
+    },
+    {
+      "name": "नियमावली / आदेश",
+      "en": "Regulations and orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "broken PDF text layer",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nepal Law Commission",
+        "url": "https://lawcommission.gov.np/",
+        "evidence": "research in adapter docstring (src/world_legal_mcp/jurisdictions/np.py)",
+        "note": "broken PDF text layer"
+      }
+    },
+    {
+      "name": "नेपाल राजपत्र",
+      "en": "Nepal Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "rajpatra.dop.gov.np timed out from UK",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Nepal Gazette – Department of Printing (राजपत्र)",
+        "url": "http://rajpatra.dop.gov.np/",
+        "evidence": "fetched 2026-11-07: dop.gov.np links 'राजपत्र हेर्नुहोस्' to rajpatra.dop.gov.np, which timed out from UK",
+        "note": "may be geo-blocked or down; unconfirmed"
+      }
+    },
+    {
+      "name": "प्रदेश कानून",
+      "en": "Provincial laws (7 provinces)",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "provincial law ministry sites; not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Provincial Ministries of Internal Affairs and Law (e.g. Bagmati)",
+        "url": "https://moial.bagamati.gov.np/",
+        "evidence": "fetched 2026-11-07: Bagmati MoIAL menu has ऐन, अन्य कानूनहरु, प्रदेश राजपत्र",
+        "note": "one site per province (7); only Bagmati checked; PDF text quality unverified"
+      }
+    },
+    {
+      "name": "स्थानीय कानून",
+      "en": "Local laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "per-municipality sites; no central database",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "published per municipality (753 local levels) on their own sites; no central database found"
+      }
+    },
+    {
+      "name": "सन्धि",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no treaty database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Ministry of Foreign Affairs",
+        "url": "https://mofa.gov.np/",
+        "evidence": "fetched 2026-11-07: home page has no treaty link",
+        "note": "no treaty database found"
+      }
+    }
+  ]
+}

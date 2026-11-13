@@ -1,0 +1,253 @@
+{
+ "code": "ad",
+ "checked": "2026-11-10",
+ "structure_sources": [
+  "https://www.consellgeneral.ad/fitxers/documents/constitucio/titol-vii-de-la-justicia",
+  "https://www.consellgeneral.ad/fitxers/documents/lleis-1989-2002/llei-qualificada-de-la-justicia.pdf",
+  "https://www.justicia.ad/batllia-2/",
+  "https://www.justicia.ad/tribunal-de-corts-2/",
+  "https://www.justicia.ad/tribunal-superior-de-justicia/",
+  "https://www.justicia.ad/wp-content/uploads/2026/01/CERCADOR-Manual-dajuda-1-1.pdf"
+ ],
+ "courts": [
+  {
+   "name": "Tribunal Constitucional",
+   "en": "Constitutional Court",
+   "tier": "constitutional",
+   "branch": "constitutional",
+   "reached": "yes",
+   "via": "Tribunal Constitucional del Principat d'Andorra: sentències and autes",
+   "note": "sentències and autes since 1993"
+  },
+  {
+   "name": "Tribunal Superior de Justícia, Sala Civil",
+   "en": "High Court of Justice, Civil Chamber",
+   "tier": "apex",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad TLS now verifies (2026-11-10), but its search is the CGPJ/CENDOJ instance jurisprudencia.poderjudicial.es/andorra: POST search.action answers 403 without browser XHR headers, CAPTCHA flow in its JS, meta robots 'none', notice allows personal consultation only, no bulk download",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://jurisprudencia.poderjudicial.es/andorra/",
+    "evidence": "fetched 2026-11-10 with the Fontes client: search.action POST -> 403; Avís legal in the page: personal use only, no commercial use, no massive download, reuse for databases only through CGPJ/CENDOJ procedure",
+    "note": "needs CGPJ (CENDOJ) reuse permission; same platform and terms as Spain's CENDOJ"
+   }
+  },
+  {
+   "name": "Tribunal Superior de Justícia, Sala Penal",
+   "en": "High Court of Justice, Criminal Chamber (also appeals from the Tribunal de Menors)",
+   "tier": "apex",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad TLS now verifies (2026-11-10), but its search is the CGPJ/CENDOJ instance jurisprudencia.poderjudicial.es/andorra: POST search.action answers 403 without browser XHR headers, CAPTCHA flow in its JS, meta robots 'none', notice allows personal consultation only, no bulk download",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://jurisprudencia.poderjudicial.es/andorra/",
+    "evidence": "fetched 2026-11-10 with the Fontes client: search.action POST -> 403; Avís legal in the page: personal use only, no commercial use, no massive download, reuse for databases only through CGPJ/CENDOJ procedure",
+    "note": "needs CGPJ (CENDOJ) reuse permission; same platform and terms as Spain's CENDOJ"
+   }
+  },
+  {
+   "name": "Tribunal Superior de Justícia, Sala Administrativa",
+   "en": "High Court of Justice, Administrative Chamber",
+   "tier": "apex",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad TLS now verifies (2026-11-10), but its search is the CGPJ/CENDOJ instance jurisprudencia.poderjudicial.es/andorra: POST search.action answers 403 without browser XHR headers, CAPTCHA flow in its JS, meta robots 'none', notice allows personal consultation only, no bulk download",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://jurisprudencia.poderjudicial.es/andorra/",
+    "evidence": "fetched 2026-11-10 with the Fontes client: search.action POST -> 403; Avís legal in the page: personal use only, no commercial use, no massive download, reuse for databases only through CGPJ/CENDOJ procedure",
+    "note": "needs CGPJ (CENDOJ) reuse permission; same platform and terms as Spain's CENDOJ"
+   }
+  },
+  {
+   "name": "Tribunal de Corts",
+   "en": "Criminal court: first instance for major/minor offences and contraventions; appeals from investigating judges; prison-supervision (vigilància penitenciària) via its president",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad: TLS certificate chain incomplete, fails verification",
+   "elsewhere": {
+    "status": "available",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://www.justicia.ad/cercador-jurisprudencia/",
+    "evidence": "fetched 2026-11-07: search manual (justicia.ad/wp-content/uploads/2026/01/CERCADOR-Manual-dajuda-1-1.pdf) says the search gives 'resolucions judicials del Tribunal Superior de Justícia i del Tribunal de Corts, així com les ordenances penals de la Batllia. Progressivament s'hi incorporaran altres resolucions'; robots.txt only disallows /wp-admin/",
+    "note": "WordPress site. Python TLS verification fails (incomplete chain, per adapter); curl with the macOS trust store loads it, so bundling the intermediate certificate would fix it"
+   }
+  },
+  {
+   "name": "Tribunal de Batlles / Batllia, seccions civils (7)",
+   "en": "First-instance court, civil sections (7)",
+   "tier": "first-instance",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad: TLS certificate chain incomplete, fails verification",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://www.justicia.ad/cercador-jurisprudencia/",
+    "evidence": "fetched 2026-11-07: search manual (justicia.ad/wp-content/uploads/2026/01/CERCADOR-Manual-dajuda-1-1.pdf) says the search gives 'resolucions judicials del Tribunal Superior de Justícia i del Tribunal de Corts, així com les ordenances penals de la Batllia. Progressivament s'hi incorporaran altres resolucions'; robots.txt only disallows /wp-admin/",
+    "note": "Batllia civil decisions not in the official search (manual lists only TSJ, Tribunal de Corts and Batllia penal ordinances); no other official source found"
+   }
+  },
+  {
+   "name": "Batllia, seccions administratives (2)",
+   "en": "First-instance court, administrative sections (2)",
+   "tier": "first-instance",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad: TLS certificate chain incomplete, fails verification",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://www.justicia.ad/cercador-jurisprudencia/",
+    "evidence": "fetched 2026-11-07: search manual (justicia.ad/wp-content/uploads/2026/01/CERCADOR-Manual-dajuda-1-1.pdf) says the search gives 'resolucions judicials del Tribunal Superior de Justícia i del Tribunal de Corts, així com les ordenances penals de la Batllia. Progressivament s'hi incorporaran altres resolucions'; robots.txt only disallows /wp-admin/",
+    "note": "Batllia administrative decisions not in the official search (manual lists only TSJ, Tribunal de Corts and Batllia penal ordinances); no other official source found"
+   }
+  },
+  {
+   "name": "Batllia, ordenances penals (batlle unipersonal)",
+   "en": "First-instance court, penal orders (ordenances penals) by a single batlle",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad: TLS certificate chain incomplete, fails verification",
+   "elsewhere": {
+    "status": "available",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://www.justicia.ad/cercador-jurisprudencia/",
+    "evidence": "fetched 2026-11-07: search manual (justicia.ad/wp-content/uploads/2026/01/CERCADOR-Manual-dajuda-1-1.pdf) says the search gives 'resolucions judicials del Tribunal Superior de Justícia i del Tribunal de Corts, així com les ordenances penals de la Batllia. Progressivament s'hi incorporaran altres resolucions'; robots.txt only disallows /wp-admin/",
+    "note": "Manual names 'ordenances penals de la Batllia' as included. WordPress site. Python TLS verification fails (incomplete chain, per adapter); curl with the macOS trust store loads it, so bundling the intermediate certificate would fix it"
+   }
+  },
+  {
+   "name": "Batllia, seccions d'instrucció (general 5, especialitzada 3)",
+   "en": "Investigating judges (5 general, 3 specialised sections)",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad: TLS certificate chain incomplete, fails verification",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://www.justicia.ad/cercador-jurisprudencia/",
+    "evidence": "fetched 2026-11-07: search manual (justicia.ad/wp-content/uploads/2026/01/CERCADOR-Manual-dajuda-1-1.pdf) says the search gives 'resolucions judicials del Tribunal Superior de Justícia i del Tribunal de Corts, així com les ordenances penals de la Batllia. Progressivament s'hi incorporaran altres resolucions'; robots.txt only disallows /wp-admin/",
+    "note": "Investigating-judge rulings not in the official search (manual lists only TSJ, Tribunal de Corts and Batllia penal ordinances); no other official source found"
+   }
+  },
+  {
+   "name": "Batllia, secció de menors (2) / Tribunal de Menors",
+   "en": "Juvenile sections and Juvenile Court (criminal cases of minors)",
+   "tier": "specialised",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "justicia.ad: TLS certificate chain incomplete, fails verification",
+   "elsewhere": {
+    "status": "offline",
+    "source": "Justícia d'Andorra: Cercador de jurisprudència",
+    "url": "https://www.justicia.ad/cercador-jurisprudencia/",
+    "evidence": "fetched 2026-11-07: search manual (justicia.ad/wp-content/uploads/2026/01/CERCADOR-Manual-dajuda-1-1.pdf) says the search gives 'resolucions judicials del Tribunal Superior de Justícia i del Tribunal de Corts, així com les ordenances penals de la Batllia. Progressivament s'hi incorporaran altres resolucions'; robots.txt only disallows /wp-admin/",
+    "note": "Juvenile decisions not in the official search (manual lists only TSJ, Tribunal de Corts and Batllia penal ordinances); no other official source found"
+   }
+  }
+ ],
+ "legislation": [
+  {
+   "name": "Constitució del Principat d'Andorra (1993)",
+   "en": "Constitution",
+   "level": "constitution",
+   "reached": "yes",
+   "via": "Consell General del Principat d'Andorra: Constitució (Catalan booklet PDF)",
+   "note": "Catalan, full text with Títol/Capítol structure, id CONSTITUCIO; from the Consell General's PDF booklet (const-cat)"
+  },
+  {
+   "name": "Lleis qualificades i lleis ordinàries",
+   "en": "Qualified and ordinary laws of the Consell General",
+   "level": "primary",
+   "reached": "yes",
+   "via": "Portal Jurídic del Principat d'Andorra (BOPA service, Govern d'Andorra / Consell General): consolidated laws and Government regulations",
+   "note": "consolidated, in force and earlier versions; personal use only"
+  },
+  {
+   "name": "Decrets legislatius",
+   "en": "Legislative decrees (consolidated texts)",
+   "level": "primary",
+   "reached": "partly",
+   "via": "Portal Jurídic del Principat d'Andorra (BOPA service, Govern d'Andorra / Consell General): consolidated laws and Government regulations",
+   "note": "only where Portal Jurídic files the consolidated text under the law's own id (text refós); 'decret legislatiu' is not a separate type and a llei-type search for it returns nothing (2026-11-10)",
+   "elsewhere": {
+    "status": "available",
+    "source": "Portal Jurídic del Principat d'Andorra",
+    "url": "https://portaljuridicandorra.ad/",
+    "evidence": "used by Fontes ad adapter (src/world_legal_mcp/jurisdictions/ad.py)",
+    "note": "missing part: decrets legislatius are not a separate type in Portal Jurídic; same source, just no filter. Personal-use-only terms"
+   }
+  },
+  {
+   "name": "Reglaments i decrets del Govern",
+   "en": "Government regulations and decrees",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "Portal Jurídic del Principat d'Andorra (BOPA service, Govern d'Andorra / Consell General): consolidated laws and Government regulations",
+   "note": "type=reglament; personal use only"
+  },
+  {
+   "name": "Butlletí Oficial del Principat d'Andorra (BOPA)",
+   "en": "Official Gazette",
+   "level": "gazette",
+   "reached": "no",
+   "via": null,
+   "note": "bopa.ad search runs through Azure Functions keyed from its public JS; no official key or open endpoint",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "BOPA (Butlletí Oficial del Principat d'Andorra)",
+    "url": "https://www.bopa.ad/",
+    "evidence": "research/SIGNUPS.md",
+    "note": "search runs through Azure Functions with function keys embedded in the site JS; no official key or open endpoint, and the project does not use lifted keys"
+   }
+  },
+  {
+   "name": "Ordinacions i edictes comunals",
+   "en": "Ordinances of the seven comuns (parishes)",
+   "level": "local",
+   "reached": "no",
+   "via": null,
+   "note": "published in BOPA, not reached; BOPA search is keyed (see gazette row)",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "BOPA (Butlletí Oficial del Principat d'Andorra)",
+    "url": "https://www.bopa.ad/",
+    "evidence": "research/SIGNUPS.md",
+    "note": "ordinacions are published in BOPA (keyed Azure Functions, see gazette row). Comú sites (canillo.ad, lamassana.ad answer 200) not checked for ordinance lists"
+   }
+  },
+  {
+   "name": "Tractats internacionals",
+   "en": "Treaties",
+   "level": "treaty",
+   "reached": "no",
+   "via": null,
+   "note": "Consell General publishes ratification proposals with texts; not built",
+   "elsewhere": {
+    "status": "available",
+    "source": "Consell General: Tractats internacionals (iniciatives legislatives)",
+    "url": "https://www.consellgeneral.ad/ca/activitat-parlamentaria/iniciatives-legislatives/tractats-internacionals",
+    "evidence": "search result only",
+    "note": "ratification proposals with treaty-text PDFs per legislature; final texts also in BOPA (keyed)"
+   }
+  }
+ ]
+}

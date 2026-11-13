@@ -1,0 +1,366 @@
+{
+  "code": "jm",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://supremecourt.gov.jm/node/18"
+  ],
+  "courts": [
+    {
+      "name": "Judicial Committee of the Privy Council",
+      "en": "Privy Council (final appeal)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments",
+      "note": "JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 65 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Jamaica)' or header 'From the Court of Appeal of Jamaica'); known miss: [2017] UKPC 21 (header 'From the Court of Appeal Jamaica'). Missing: judgments before Nov 2009.",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "BAILII, UKPC collection (unofficial)",
+        "url": "https://www.bailii.org/uk/cases/UKPC/",
+        "evidence": "gb adapter (src/world_legal_mcp/jurisdictions/gb.py): BAILII has no API and forbids scraping; not re-checked 2026-11-10",
+        "note": "missing part: JCPC judgments before Nov 2009"
+      }
+    },
+    {
+      "name": "Court of Appeal",
+      "en": "Court of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Court of Appeal of Jamaica judgments (courtofappeal.gov.jm)",
+      "note": "title/citation search only; last 3 years unless year filter"
+    },
+    {
+      "name": "Supreme Court of Judicature – Civil Division",
+      "en": "Supreme Court – civil claims",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "Supreme Court of Jamaica judgments (supremecourt.gov.jm)",
+      "note": "title/citation search only; older judgments: scans only, no text",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CariLaw (UWI Faculty of Law / vLex)",
+        "url": "https://www.justis.com/carilaw/",
+        "evidence": "search result only",
+        "note": "missing part = full-text search and text of old scanned judgments; only paid databases (CariLaw/vLex, Lexis West Indian Reports) offer it"
+      }
+    },
+    {
+      "name": "Supreme Court – Commercial Division",
+      "en": "Commercial Division",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "partly",
+      "via": "Supreme Court of Jamaica judgments (supremecourt.gov.jm)",
+      "note": "source covers Supreme Court judgments generally (title/citation search only); whether Commercial Division judgments are included is unverified (Fontes test queries 2026-11-07 could not tell divisions apart)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CariLaw (UWI Faculty of Law / vLex)",
+        "url": "https://www.justis.com/carilaw/",
+        "evidence": "search result only",
+        "note": "missing part = full-text search and text of old scanned judgments; only paid databases (CariLaw/vLex, Lexis West Indian Reports) offer it"
+      }
+    },
+    {
+      "name": "Supreme Court – Family / Matrimonial and Probate Divisions",
+      "en": "Family, matrimonial and probate",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "partly",
+      "via": "Supreme Court of Jamaica judgments (supremecourt.gov.jm)",
+      "note": "source covers Supreme Court judgments generally (title/citation search only); whether Family/Probate Division judgments are included is unverified (Fontes test queries 2026-11-07 could not tell divisions apart)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CariLaw (UWI Faculty of Law / vLex)",
+        "url": "https://www.justis.com/carilaw/",
+        "evidence": "search result only",
+        "note": "missing part = full-text search and text of old scanned judgments; only paid databases (CariLaw/vLex, Lexis West Indian Reports) offer it"
+      }
+    },
+    {
+      "name": "Revenue Court",
+      "en": "Revenue Court (tax appeals, Supreme Court judges)",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "partly",
+      "via": "Supreme Court of Jamaica judgments (supremecourt.gov.jm)",
+      "note": "source covers Supreme Court judgments generally (title/citation search only); whether Revenue Court judgments are included is unverified (Fontes test queries 2026-11-07 could not tell divisions apart)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CariLaw (UWI Faculty of Law / vLex)",
+        "url": "https://www.justis.com/carilaw/",
+        "evidence": "search result only",
+        "note": "missing part = full-text search and text of old scanned judgments; only paid databases (CariLaw/vLex, Lexis West Indian Reports) offer it"
+      }
+    },
+    {
+      "name": "Home Circuit Court and Circuit Courts (criminal assizes)",
+      "en": "Supreme Court criminal circuits (jury trials)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Jamaica judgments (supremecourt.gov.jm)",
+      "note": "source covers Supreme Court judgments generally (title/citation search only); whether Circuit Court (criminal) judgments are included is unverified (Fontes test queries 2026-11-07 could not tell divisions apart)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CariLaw (UWI Faculty of Law / vLex)",
+        "url": "https://www.justis.com/carilaw/",
+        "evidence": "search result only",
+        "note": "missing part = full-text search and text of old scanned judgments; only paid databases (CariLaw/vLex, Lexis West Indian Reports) offer it"
+      }
+    },
+    {
+      "name": "Gun Court – High Court and Circuit Court Divisions",
+      "en": "Gun Court (firearms offences)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "partly",
+      "via": "Supreme Court of Jamaica judgments (supremecourt.gov.jm)",
+      "note": "source covers Supreme Court judgments generally (title/citation search only); whether Gun Court judgments are included is unverified (Fontes test queries 2026-11-07 could not tell divisions apart)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "CariLaw (UWI Faculty of Law / vLex)",
+        "url": "https://www.justis.com/carilaw/",
+        "evidence": "search result only",
+        "note": "missing part = full-text search and text of old scanned judgments; only paid databases (CariLaw/vLex, Lexis West Indian Reports) offer it"
+      }
+    },
+    {
+      "name": "Parish Courts (14; civil, criminal)",
+      "en": "Parish Courts (formerly Resident Magistrates' Courts)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no own judgment collection found; appeals from Parish Courts appear on courtofappeal.gov.jm",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "web search found no Parish Court judgment collection; only Court of Appeal decisions on Parish Court appeals (courtofappeal.gov.jm, already reached)"
+      }
+    },
+    {
+      "name": "Gun Court – Parish Court Division",
+      "en": "Gun Court lower division",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no own judgment collection found; appeals from Parish Courts appear on courtofappeal.gov.jm",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "web search found no collection; appeals appear on courtofappeal.gov.jm"
+      }
+    },
+    {
+      "name": "Family Courts / Children's Courts (Parish Court level)",
+      "en": "Family and juvenile courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no own judgment collection found; appeals from Parish Courts appear on courtofappeal.gov.jm",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no published decisions found; family/juvenile proceedings private"
+      }
+    },
+    {
+      "name": "Traffic Court",
+      "en": "Traffic Court (Kingston)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no own judgment collection found; appeals from Parish Courts appear on courtofappeal.gov.jm",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no published decisions found"
+      }
+    },
+    {
+      "name": "Drug Treatment Courts",
+      "en": "Drug Treatment Courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no own judgment collection found; appeals from Parish Courts appear on courtofappeal.gov.jm",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no published decisions found"
+      }
+    },
+    {
+      "name": "Coroner's Courts",
+      "en": "Coroners' inquests",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no own judgment collection found; appeals from Parish Courts appear on courtofappeal.gov.jm",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no published findings found"
+      }
+    },
+    {
+      "name": "Petty Sessions Courts",
+      "en": "Petty Sessions (Justices of the Peace)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "lay-justice courts; no published decisions found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no online source found in one search; likely unpublished but not confirmed"
+      }
+    },
+    {
+      "name": "Court Martial",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not checked beyond general search; no source found"
+      }
+    },
+    {
+      "name": "Industrial Disputes Tribunal",
+      "en": "Industrial Disputes Tribunal (labour awards)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not researched in code",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Industrial Disputes Tribunal",
+        "url": "https://idt.gov.jm/",
+        "evidence": "fetched 2026-11-07: idt.gov.jm and www.idt.gov.jm did not connect",
+        "note": "IDT awards appear in Supreme Court judicial-review judgments; own publication not established"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of Jamaica",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "laws.moj.gov.jm down (HTTP 503 maintenance notice, 2026-11-10); LIPJ needs written consent",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Laws of Jamaica (Ministry of Justice)",
+        "url": "https://laws.moj.gov.jm/",
+        "evidence": "fetched 2026-11-10 with the project client: HTTP 503; src/world_legal_mcp/jurisdictions/jm.py gaps",
+        "note": "laws.moj.gov.jm answers HTTP 503 'Website Maintenance Notice' pointing to LIPJ (http and https; www does not resolve; checked 2026-11-10; earlier: incomplete TLS chain). LIPJ needs written consent (terms §3 non-commercial, §6 no exploiting portal functionality) per research/chatgpt/validation-r2-b.md"
+      }
+    },
+    {
+      "name": "Acts of Parliament",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "consolidated laws: laws.moj.gov.jm down (503 maintenance, 2026-11-10); as-passed PDFs (japarliament.gov.jm, 2009-2024) not built (would not give the Constitution or pre-2009 Acts); LIPJ needs permission",
+      "elsewhere": {
+        "status": "available",
+        "source": "Houses of Parliament of Jamaica: Acts of Parliament by year",
+        "url": "https://japarliament.gov.jm/",
+        "evidence": "fetched 2026-11-07: Publications > Acts > Acts of Parliament menu lists yearly pages 2009-2024; rechecked 2026-11-10: laws.moj.gov.jm https still 503; japarliament robots `*` Crawl-delay: 15 (yearly pages list as-passed Act PDFs 2009-2024, Joomla); not built: as-passed only, no Constitution, nothing pre-2009, 15 s per request",
+        "note": "as-passed Acts PDFs only, not consolidated; robots allow (only Joomla system paths disallowed); Crawl-delay 15 per jm.py docstring. Consolidated: laws.moj.gov.jm down for maintenance (503), LIPJ needs consent"
+      }
+    },
+    {
+      "name": "Regulations / subsidiary legislation",
+      "en": "Subsidiary legislation",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "LIPJ portal needs permission (terms: lawful, non-commercial purposes only)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Legal Information Portal Jamaica (LIPJ, Ministry of Legal and Constitutional Affairs)",
+        "url": "https://lipj.gov.jm/advanced-search",
+        "evidence": "research/chatgpt/validation-r2-b.md",
+        "note": "~18k records incl. regulations and notices (OCR text); terms §3 'only for lawful, non-commercial purposes', §6 no exploiting portal functionality without written consent"
+      }
+    },
+    {
+      "name": "Jamaica Gazette",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "no standalone official gazette site found; LIPJ holds gazette material from 1962",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Legal Information Portal Jamaica (LIPJ, Ministry of Legal and Constitutional Affairs)",
+        "url": "https://lipj.gov.jm/advanced-search",
+        "evidence": "research/chatgpt/r2_b.md; research/chatgpt/validation-r2-b.md",
+        "note": "LIPJ lists gazette material from 1962 on; terms need written consent for automated use (§3, §6)"
+      }
+    },
+    {
+      "name": "Municipal by-laws",
+      "en": "Local law",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not found as a separate collection; may sit in LIPJ (blocked) as subsidiary legislation, unverified"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "no official Jamaican treaty database found; not researched further"
+      }
+    }
+  ]
+}

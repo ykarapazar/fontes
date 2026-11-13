@@ -1,0 +1,310 @@
+{
+  "code": "no",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.domstol.no/en/the-courts-of-justice/the-ordinary-courts-of-norway/",
+    "https://www.domstol.no/en/The-Courts-of-Justice/The-ordinary-courts-of-Norway/courts-of-appeal/"
+  ],
+  "courts": [
+    {
+      "name": "Høyesterett",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Domstoladministrasjonen: domstol.no, Høyesterett decision pages (summaries)",
+      "note": "summary pages only, 2000 onwards; avdeling/ankeutvalg filter",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domstoladministrasjonen – Høyesterett full judgment PDFs",
+        "url": "https://www.domstol.no/no/hoyesterett/avgjorelser/",
+        "evidence": "fetched 2026-11-07: domstol.no/robots.txt 'Disallow: /globalassets/' (where the PDFs sit)",
+        "note": "missing part: full texts (PDF under /globalassets/, robots-disallowed) and decisions before 2000; Lovdata also robots-disallowed"
+      }
+    },
+    {
+      "name": "Høyesteretts ankeutvalg",
+      "en": "Supreme Court Appeals Selection Committee",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Domstoladministrasjonen: domstol.no, Høyesterett decision pages (summaries)",
+      "note": "adapter filter court='ankeutvalg'; only rulings that get a domstol.no summary page; summaries only, 2000 onwards",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Domstoladministrasjonen – Høyesterett full judgment PDFs",
+        "url": "https://www.domstol.no/no/hoyesterett/avgjorelser/",
+        "evidence": "fetched 2026-11-07: domstol.no/robots.txt 'Disallow: /globalassets/' (where the PDFs sit)",
+        "note": "missing part: full texts (PDF under /globalassets/, robots-disallowed) and decisions before 2000; Lovdata also robots-disallowed"
+      }
+    },
+    {
+      "name": "Lagmannsrettene (6)",
+      "en": "Courts of appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows; adapter covers Høyesterett only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt disallows all agents; Lovdata Pro is paid"
+      }
+    },
+    {
+      "name": "Lagmannsrettene som jordskifteoverrett (6)",
+      "en": "Courts of appeal sitting as land consolidation appeal courts",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "adapter covers Høyesterett only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt disallows; Lovdata Pro paid"
+      }
+    },
+    {
+      "name": "Tingrettene (28 since June 2025)",
+      "en": "District courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "adapter covers Høyesterett only; count from search result only (partial reversal of the 2021 court reform, 23 -> 28)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt disallows; only selected decisions published, Lovdata Pro paid"
+      }
+    },
+    {
+      "name": "Jordskifterettene (19)",
+      "en": "Land consolidation courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt disallows; Lovdata Pro paid"
+      }
+    },
+    {
+      "name": "Arbeidsretten",
+      "en": "Labour Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "available",
+        "source": "Arbeidsretten – Avgjorte saker",
+        "url": "https://www.arbeidsretten.no/avgjorelser",
+        "evidence": "fetched 2026-11-07: case page /saker-og-avgjorelser/2025-14 links /assets/AR-2025-20-sak-25-14.pdf; /robots.txt is a 404 page",
+        "note": "Labour Court publishes its judgments as PDFs on its own site"
+      }
+    },
+    {
+      "name": "Forliksrådene (one per municipality)",
+      "en": "Conciliation boards",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "none (not checked online)",
+        "note": "no public source found; Forliksråd decisions are generally unpublished but this was not verified"
+      }
+    },
+    {
+      "name": "Riksretten",
+      "en": "Court of Impeachment",
+      "tier": "constitutional",
+      "branch": "public",
+      "reached": "no",
+      "via": null,
+      "note": "adapter covers Høyesterett only; last case 1927",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "historic (only 8 cases, last 1926-27); no official online decision collection found"
+      }
+    },
+    {
+      "name": "Trygderetten",
+      "en": "National Insurance Court",
+      "tier": "specialised",
+      "branch": "social-security",
+      "reached": "no",
+      "via": null,
+      "note": "adapter covers Høyesterett only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata – register/trygderetten",
+        "url": "https://lovdata.no/register/trygderetten",
+        "evidence": "fetched 2026-11-07: trygderetten.no front page links its full decision set to lovdata.no/register/trygderetten; lovdata.no/robots.txt disallows all agents",
+        "note": "full kjennelser only via Lovdata (robots-disallowed); trygderetten.no/nb/prinsipielle-kjennelser carries a few summarised principal rulings"
+      }
+    },
+    {
+      "name": "Utlendingsnemnda (UNE)",
+      "en": "Immigration Appeals Board",
+      "tier": "specialised",
+      "branch": "immigration",
+      "reached": "no",
+      "via": null,
+      "note": "adapter covers Høyesterett only; quasi-judicial board",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "UNE praksisbase",
+        "url": "https://www.une.no/kildesamling/praksisbase-landingsside/",
+        "evidence": "fetched 2026-11-07: une.no/robots.txt 'Disallow: /kildesamling/praksisbase-landingsside/sok-praksisbasen/' and /globalassets",
+        "note": "anonymised practice summaries exist but the search path is robots-disallowed"
+      }
+    },
+    {
+      "name": "Barneverns- og helsenemnda (fylkesnemndene, 12)",
+      "en": "County social welfare boards (child welfare / compulsory health care)",
+      "tier": "specialised",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "adapter covers Høyesterett only; quasi-judicial; decisions reviewable by tingrett",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "decisions are confidential and not published (selected anonymised ones only via Lovdata, robots-disallowed)"
+      }
+    },
+    {
+      "name": "Skatteklagenemnda",
+      "en": "Tax Appeals Board",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "adapter covers Høyesterett only; quasi-judicial",
+      "elsewhere": {
+        "status": "available",
+        "source": "Skatteetaten – rettskilder, vedtak Skatteklagenemnda",
+        "url": "https://www.skatteetaten.no/rettskilder/type/vedtak/skatteklagenemnda/",
+        "evidence": "search result only (skatteetaten.no/nn/rettskjelder/type/vedtak/skatteklagenemnda/... decision pages); robots.txt fetched 2026-11-07 does not disallow /rettskilder",
+        "note": "selected anonymised decisions; not opened"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Grunnloven",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt 'Disallow: /'; free NLOD bulk files on api.lovdata.no also 'Disallow: /'"
+      }
+    },
+    {
+      "name": "Lover",
+      "en": "Acts",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt 'Disallow: /'; NLOD bulk (gjeldende-lover.tar.bz2) on api.lovdata.no also disallowed; per-doc API paid"
+      }
+    },
+    {
+      "name": "Forskrifter",
+      "en": "Regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt; NLOD bulk sentrale forskrifter also disallowed"
+      }
+    },
+    {
+      "name": "Norsk Lovtidend",
+      "en": "Official law gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt; Lovtidend bulk files disallowed"
+      }
+    },
+    {
+      "name": "Lokale forskrifter",
+      "en": "Local regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt 'Disallow: /'"
+      }
+    },
+    {
+      "name": "Traktater",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "Lovdata robots.txt disallows",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Lovdata (lovdata.no)",
+        "url": "https://lovdata.no/",
+        "evidence": "fetched 2026-11-07: lovdata.no/robots.txt (named search bots allowed, ends 'User-agent: * / Disallow: /'); research/south_nordic_baltic.md",
+        "note": "robots.txt disallows /pro/TRAKTAT/* etc."
+      }
+    }
+  ]
+}

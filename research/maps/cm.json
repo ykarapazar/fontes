@@ -1,0 +1,372 @@
+{
+  "code": "cm",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://coursupreme.cm/images/webcsc_medias/files/Historique_de_la_Cour_Suprême.pdf",
+    "https://www.ohada.com/etats-membres/cameroun.html"
+  ],
+  "courts": [
+    {
+      "name": "Cour suprême – Chambre judiciaire (sections civile, pénale, sociale, commerciale; Common Law Division)",
+      "en": "Supreme Court – Judicial Bench",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Cour suprême du Cameroun (coursupreme.cm)",
+      "note": "only the few dozen judgments on coursupreme.cm",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême du Cameroun",
+        "url": "https://coursupreme.cm/",
+        "evidence": "research/cm.md",
+        "note": "missing part: everything beyond the few dozen judgments coursupreme.cm posts; MINJUSTICE LÉGALIS has 0 judgments; no other official database"
+      }
+    },
+    {
+      "name": "Cour suprême – Chambre administrative",
+      "en": "Supreme Court – Administrative Bench",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "Cour suprême du Cameroun (coursupreme.cm)",
+      "note": "only what coursupreme.cm publishes (few dozen judgments overall)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Cour suprême du Cameroun",
+        "url": "https://coursupreme.cm/",
+        "evidence": "research/cm.md",
+        "note": "missing part: the rest of the chamber's output is not published online"
+      }
+    },
+    {
+      "name": "Cour suprême – Chambre des comptes",
+      "en": "Supreme Court – Audit Bench",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Cour suprême du Cameroun (coursupreme.cm)",
+      "note": "only what coursupreme.cm publishes (few dozen judgments overall)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Chambre des comptes de la Cour suprême – Publications > Jugements",
+        "url": "https://chambredescomptes.cm/publications/categories/jugements",
+        "evidence": "fetched 2026-11-07: chambredescomptes.cm (Framer site) has publications/categories/jugements and rapports-et-avis; robots.txt 'Allow: /'",
+        "note": "the Chambre's own site, not built; number of judgments not counted"
+      }
+    },
+    {
+      "name": "Conseil constitutionnel",
+      "en": "Constitutional Council",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (no official site found, 2026-11-06)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "no official site found (candidate domains do not resolve, 2026-11-06)"
+      }
+    },
+    {
+      "name": "Cours d'appel (10, one per region)",
+      "en": "Courts of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (LÉGALIS holds 0)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "LÉGALIS (minjustice.cm) holds 0 judgments; no other official source"
+      }
+    },
+    {
+      "name": "Tribunaux de grande instance / High Courts (one per department, ~58)",
+      "en": "High Courts (TGI) – major civil, criminal (felonies) and family status",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "no official publication found"
+      }
+    },
+    {
+      "name": "Tribunaux de première instance / Courts of First Instance (Magistrates' Courts, ~80)",
+      "en": "Courts of First Instance – minor civil, misdemeanours, labour (social) disputes",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "no official publication found"
+      }
+    },
+    {
+      "name": "Tribunaux de première instance – chambre sociale",
+      "en": "Labour (social) chambers of the first-instance courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "no official publication found"
+      }
+    },
+    {
+      "name": "Tribunaux administratifs (10, regional)",
+      "en": "Administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "no official publication found"
+      }
+    },
+    {
+      "name": "Juridictions inférieures des comptes (tribunaux régionaux des comptes)",
+      "en": "Regional audit courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "regional audit courts: no site found; chambredescomptes.cm covers only the Chambre itself"
+      }
+    },
+    {
+      "name": "Tribunal criminel spécial",
+      "en": "Special Criminal Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "no official decision database found"
+      }
+    },
+    {
+      "name": "Tribunaux militaires (10)",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "no official decision database found"
+      }
+    },
+    {
+      "name": "Tribunaux de premier degré / Tribunaux coutumiers",
+      "en": "Customary courts (francophone regions)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "customary courts do not publish"
+      }
+    },
+    {
+      "name": "Customary Courts and Alkali Courts (anglophone regions and northern Muslim areas)",
+      "en": "Customary and Alkali courts",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "customary courts do not publish"
+      }
+    },
+    {
+      "name": "Haute Cour de justice",
+      "en": "High Court of Justice (trials of President / ministers for high treason etc.)",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not known to have sat; no publication",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked online",
+        "note": "no publication known"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "not a separate source; prc.cm only carries lois/ordonnances/décrets as signed",
+      "elsewhere": {
+        "status": "available",
+        "source": "Chambre des comptes – La_Constitution.pdf",
+        "url": "https://chambredescomptes.cm/",
+        "evidence": "search result only",
+        "note": "official copy hosted as a PDF by the Chambre des comptes; assnat.cm cited as source by third parties but no constitution link found on its homepage (2026-11-07)"
+      }
+    },
+    {
+      "name": "Lois",
+      "en": "Acts of Parliament",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Présidence de la République du Cameroun (prc.cm), Actes: lois, ordonnances, décrets",
+      "note": "as signed, not consolidated; newer acts (mostly 2015+) scans without text",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "missing part: consolidated texts and text of post-2015 scans; LÉGALIS has 2 laws and the Journal officiel is not online"
+      }
+    },
+    {
+      "name": "Ordonnances",
+      "en": "Presidential ordinances",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Présidence de la République du Cameroun (prc.cm), Actes: lois, ordonnances, décrets",
+      "note": "as signed; newer ones often scans without text",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "missing part: OCR/consolidation of newer scanned acts; no other official source"
+      }
+    },
+    {
+      "name": "Décrets présidentiels",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Présidence de la République du Cameroun (prc.cm), Actes: lois, ordonnances, décrets",
+      "note": "as signed; newer ones often scans without text",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "missing part: text of newer scanned decrees; no other official source"
+      }
+    },
+    {
+      "name": "Arrêtés, décisions, circulaires (Premier ministre, ministres)",
+      "en": "Prime-ministerial / ministerial orders",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not on prc.cm",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Services du Premier Ministre (spm.gov.cm)",
+        "url": "https://www.spm.gov.cm/",
+        "evidence": "search result only",
+        "note": "spm.gov.cm hosts scattered PDFs (decrees, communiqués) but no arrêté listing was found"
+      }
+    },
+    {
+      "name": "Journal officiel de la République du Cameroun",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "not published online (LÉGALIS has 2 laws)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "Journal officiel not published online"
+      }
+    },
+    {
+      "name": "Actes des collectivités territoriales décentralisées (régions, communes)",
+      "en": "Regional and municipal acts",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "not researched; no central source known"
+      }
+    },
+    {
+      "name": "Traités (OHADA, CEMAC, etc.) et décrets de ratification",
+      "en": "Treaties and ratification decrees",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Présidence de la République du Cameroun (prc.cm), Actes: lois, ordonnances, décrets",
+      "note": "only ratification laws/decrees that prc.cm lists",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cm.md",
+        "note": "missing part: treaty texts (OHADA/CEMAC texts are on those bodies' own sites, not Cameroonian ones)"
+      }
+    }
+  ]
+}

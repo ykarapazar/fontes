@@ -1,0 +1,403 @@
+{
+ "code": "al",
+ "checked": "2026-11-10",
+ "structure_sources": [
+  "https://aksesdrejtesi.al/dokumenta/1721650205VENDIM-Nr.505-datë-21.11.2022-PËR-FILLIMIN-E-FUNKSIONIMIT-TË-GJYKATËS-SË-APELIT-TË-JURIDIKSIONIT-TË-PËRGJITHSHËM.pdf",
+  "https://gjykata.gov.al/media/5225/gjkko_analiza_vjetore_2023_4940.pdf"
+ ],
+ "courts": [
+  {
+   "name": "Gjykata Kushtetuese",
+   "en": "Constitutional Court",
+   "tier": "constitutional",
+   "branch": "constitutional",
+   "reached": "no",
+   "via": null,
+   "note": "WordPress pages with PDFs, Imunify bot check present; not built yet",
+   "elsewhere": {
+    "status": "available",
+    "source": "Gjykata Kushtetuese: Vendime dhe statistika",
+    "url": "https://www.gjykatakushtetuese.gov.al/vendime-dhe-statistika/",
+    "evidence": "fetched 2026-11-07: home and decisions page returned 200; research/al.md",
+    "note": "monthly WordPress pages with PDFs; Imunify bot-check present. Its decisions are also published in Fletorja Zyrtare and appear in QBZ (type Vendim, e.g. id 67617), which Fontes already reaches"
+   }
+  },
+  {
+   "name": "Gjykata e Lartë, Kolegji Civil",
+   "en": "High Court, Civil College",
+   "tier": "apex",
+   "branch": "civil",
+   "reached": "yes",
+   "via": "Gjykata e Lartë (High Court of Albania, gjykataelarte.gov.al)",
+   "note": "full-text search; not anonymised; category CV; full-text search covers 2005 on; 1999-2004 decisions only in the court's monthly volumes (filter archive_year, full text of each month, not content-searchable)"
+  },
+  {
+   "name": "Gjykata e Lartë, Kolegji Penal",
+   "en": "High Court, Criminal College",
+   "tier": "apex",
+   "branch": "criminal",
+   "reached": "yes",
+   "via": "Gjykata e Lartë (High Court of Albania, gjykataelarte.gov.al)",
+   "note": "full-text search; not anonymised; category CR; full-text search covers 2005 on; 1999-2004 decisions only in the court's monthly volumes (filter archive_year, full text of each month, not content-searchable)"
+  },
+  {
+   "name": "Gjykata e Lartë, Kolegji Administrativ",
+   "en": "High Court, Administrative College",
+   "tier": "apex",
+   "branch": "administrative",
+   "reached": "yes",
+   "via": "Gjykata e Lartë (High Court of Albania, gjykataelarte.gov.al)",
+   "note": "full-text search; not anonymised; category CA; full-text search covers 2005 on; 1999-2004 decisions only in the court's monthly volumes (filter archive_year, full text of each month, not content-searchable)"
+  },
+  {
+   "name": "Gjykata e Lartë, Kolegjet e Bashkuara",
+   "en": "High Court, Joint Colleges (unifying decisions)",
+   "tier": "apex",
+   "branch": "civil-criminal",
+   "reached": "yes",
+   "via": "Gjykata e Lartë (High Court of Albania, gjykataelarte.gov.al)",
+   "note": "verified 2026-11-10: Joint Colleges decisions are in the full-text index from 2005 under the case's own category (CV/CR/CA, header 'KOLEGJET E BASHKUARA'); category=joint lists the court's own list of unifying decisions 1999-2016 and 2018 on (157 files); 1999-2004 decisions only in the court's monthly volumes (filter archive_year, full text of each month, not content-searchable)"
+  },
+  {
+   "name": "Gjykata e Apelit e Juridiksionit të Përgjithshëm (Tiranë), seksioni civil",
+   "en": "Court of Appeal of General Jurisdiction (single court since 2023), civil section",
+   "tier": "appeal",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykata e Apelit e Juridiksionit të Përgjithshëm (Tiranë), seksioni penal",
+   "en": "Court of Appeal of General Jurisdiction, criminal section (incl. juvenile appeals)",
+   "tier": "appeal",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykatat e shkallës së parë të juridiksionit të përgjithshëm, seksioni civil (~12 gjykata pas hartës gjyqësore 2023)",
+   "en": "First-instance courts of general jurisdiction (~12 after the 2023 judicial map), civil sections",
+   "tier": "first-instance",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykatat e shkallës së parë të juridiksionit të përgjithshëm, seksioni penal",
+   "en": "First-instance courts of general jurisdiction, criminal sections",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykatat e shkallës së parë, seksioni i familjes",
+   "en": "First-instance courts, family sections",
+   "tier": "first-instance",
+   "branch": "civil",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykatat e shkallës së parë, seksioni për të miturit",
+   "en": "First-instance courts, juvenile sections (Code of Criminal Justice for Children)",
+   "tier": "first-instance",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykatat e shkallës së parë, seksioni tregtar (Tiranë)",
+   "en": "First-instance commercial section (Tirana)",
+   "tier": "first-instance",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests; existence of a separate commercial section after the 2023 map unverified",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykata Administrative e Apelit",
+   "en": "Administrative Court of Appeal",
+   "tier": "appeal",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykatat administrative të shkallës së parë (Tiranë, Lushnjë)",
+   "en": "First-instance administrative courts (2)",
+   "tier": "first-instance",
+   "branch": "administrative",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykata e Posaçme e Shkallës së Parë për Korrupsionin dhe Krimin e Organizuar (GJKKO)",
+   "en": "Special Court of First Instance against Corruption and Organised Crime",
+   "tier": "specialised",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykata e Posaçme e Apelit për Korrupsionin dhe Krimin e Organizuar",
+   "en": "Special Court of Appeal against Corruption and Organised Crime",
+   "tier": "appeal",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; gjykata.gov.al portal blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykata e Shkallës së Parë për Krime të Rënda / Gjykata e Apelit për Krime të Rënda (abolished 2019)",
+   "en": "Serious Crimes Courts, first instance and appeal (abolished 2019, replaced by GJKKO)",
+   "tier": "specialised",
+   "branch": "criminal",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; older decisions sat on the court subsites of gjykata.gov.al, which blocks our requests",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al, common court portal)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: every page incl. robots.txt returns HTTP 500 'Web Page Blocked!' firewall page; www.gjykata.gov.al no answer",
+    "note": "portal hosts the courts' subsites (GJKKO annual report sits under /media/); a firewall blocks our requests, likely WAF/geo. Whether decisions are listed there: search result only"
+   }
+  },
+  {
+   "name": "Gjykatat ushtarake (abolished 2017)",
+   "en": "Military courts (abolished 2017 by the justice reform)",
+   "tier": "specialised",
+   "branch": "military",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; no official online archive found",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Gjykatat e Shqipërisë (gjykata.gov.al)",
+    "url": "https://gjykata.gov.al/",
+    "evidence": "fetched 2026-11-07: portal returns HTTP 500 'Web Page Blocked!' to every path incl. robots.txt",
+    "note": "whether any military-court decisions survive online could not be checked"
+   }
+  },
+  {
+   "name": "Kolegji i Posaçëm i Apelimit (KPA)",
+   "en": "Special Appeal Chamber (vetting appeals; also disciplinary cases against judges and prosecutors)",
+   "tier": "specialised",
+   "branch": "other",
+   "reached": "no",
+   "via": null,
+   "note": "not built",
+   "elsewhere": {
+    "status": "available",
+    "source": "Kolegji i Posaçëm i Apelimit: Vendime",
+    "url": "https://kpa.al/vendime/",
+    "evidence": "fetched 2026-11-07: Vendime page lists decision PDFs (e.g. /wp-content/uploads/2018/03/vendimi-nr.1-Dt.12.03.2018.pdf), English /en/decisions/; robots.txt disallows only /wp-admin/ and ?date= / ?_page= query paths",
+    "note": "official WordPress site; pagination via ?_page= is robots-disallowed, so listing must use other paths"
+   }
+  }
+ ],
+ "legislation": [
+  {
+   "name": "Kushtetuta e Republikës së Shqipërisë",
+   "en": "Constitution",
+   "level": "constitution",
+   "reached": "partly",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "only as indexed in QBZ's act archive; search matches title/number, not full text",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Qendra e Botimeve Zyrtare (qbz.gov.al)",
+    "url": "https://qbz.gov.al/",
+    "evidence": "fetched 2026-11-07: QBZ search 'Kushtetuta e Republikës së Shqipërisë' (type Ligj) lists only amending laws (9675/2007, 88/2012, 137/2015, 115/2020, 16/2022)",
+    "note": "missing part: base law 8417/1998 not in QBZ's act archive. No official consolidated text confirmed; copies on other gov sites are partial or old"
+   }
+  },
+  {
+   "name": "Ligj",
+   "en": "Laws of the Kuvendi",
+   "level": "primary",
+   "reached": "yes",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "latest consolidated version where QBZ has one; 1990s base codes (Civil, Penal, Labour) missing, only their amendments"
+  },
+  {
+   "name": "Kodet (Civil, Penal, Punës etj.)",
+   "en": "Codes",
+   "level": "primary",
+   "reached": "partly",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "1990s base codes not in QBZ's act archive; priced code editions not used",
+   "elsewhere": {
+    "status": "blocked",
+    "source": "Qendra e Botimeve Zyrtare (qbz.gov.al): code editions",
+    "url": "https://qbz.gov.al/",
+    "evidence": "research/al.md",
+    "note": "1990s base codes exist only as priced QBZ code editions (/publications?type=kode, priceLek): paid"
+   }
+  },
+  {
+   "name": "Akt normativ me fuqinë e ligjit",
+   "en": "Council of Ministers normative acts with force of law",
+   "level": "primary",
+   "reached": "partly",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "in QBZ archive as published in Fletorja Zyrtare; QBZ type name not checked",
+   "elsewhere": {
+    "status": "available",
+    "source": "Qendra e Botimeve Zyrtare (qbz.gov.al)",
+    "url": "https://qbz.gov.al/api/v1/acts/types",
+    "evidence": "fetched 2026-11-07: /api/v1/acts/types lists 'Akt normativ' (210 acts)",
+    "note": "same source Fontes uses; only needs type=Akt normativ"
+   }
+  },
+  {
+   "name": "Dekret i Presidentit",
+   "en": "Presidential decrees",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "type=Dekret"
+  },
+  {
+   "name": "Vendim i Këshillit të Ministrave",
+   "en": "Council of Ministers decisions",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "type=Vendim"
+  },
+  {
+   "name": "Udhëzim / Urdhër / Rregullore",
+   "en": "Ministerial instructions, orders, regulations",
+   "level": "secondary",
+   "reached": "yes",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "type=Udhëzim, Urdhër, ..."
+  },
+  {
+   "name": "Fletorja Zyrtare",
+   "en": "Official Journal",
+   "level": "gazette",
+   "reached": "yes",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "acts as published, searchable by title/number/institution only"
+  },
+  {
+   "name": "Akte të njësive të vetëqeverisjes vendore",
+   "en": "Local self-government acts",
+   "level": "local",
+   "reached": "no",
+   "via": null,
+   "note": "not reached; no central register found",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "municipal websites (e.g. tirana.al council 'Vendime')",
+    "url": "",
+    "evidence": "search result only",
+    "note": "no central register of local acts found; individual bashki publish council decisions on their own sites"
+   }
+  },
+  {
+   "name": "Marrëveshje ndërkombëtare",
+   "en": "International agreements",
+   "level": "treaty",
+   "reached": "partly",
+   "via": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "note": "ratification laws in QBZ; treaty texts only where attached",
+   "elsewhere": {
+    "status": "unknown",
+    "source": "Qendra e Botimeve Zyrtare (qbz.gov.al)",
+    "url": "https://qbz.gov.al/",
+    "evidence": "fetched 2026-11-07: QBZ types include Marrëveshje (16) and Konventë (15), mostly entry-into-force notices",
+    "note": "missing part: treaty texts beyond ratification laws; MFA treaty register not checked"
+   }
+  }
+ ]
+}

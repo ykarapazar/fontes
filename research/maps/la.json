@@ -1,0 +1,276 @@
+{
+  "code": "la",
+  "checked": "2026-11-07",
+  "structure_sources": [],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "ສານປະຊາຊົນສູງສຸດ",
+      "en": "People's Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "ສານປະຊາຊົນພາກ (3: ພາກເໜືອ, ພາກກາງ, ພາກໃຕ້)",
+      "en": "Regional People's Courts (northern, central, southern; appeal)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "ສານປະຊາຊົນແຂວງ / ນະຄອນຫຼວງ (18)",
+      "en": "Provincial and Vientiane Capital People's Courts (civil, criminal)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "Commercial chambers of the provincial People's Courts",
+      "en": "Commercial chambers",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "Family and juvenile chambers of the provincial People's Courts",
+      "en": "Family and juvenile chambers",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "Labour chambers of the provincial People's Courts",
+      "en": "Labour chambers",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "Administrative chambers of the People's Courts",
+      "en": "Administrative chambers (Law on People's Courts 2017)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "ສານປະຊາຊົນເຂດ (~39 area courts)",
+      "en": "Area (district-level) People's Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "People's Supreme Court of Lao PDR (peoplecourt.gov.la)",
+        "url": "https://www.peoplecourt.gov.la/la/",
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "peoplecourt.gov.la did not resolve (2026-11-07), spc.gov.la does not resolve (la.py); no other judgment collection found (research/chatgpt/r2_c.md)"
+      }
+    },
+    {
+      "name": "ສານທະຫານ",
+      "en": "Military courts",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "research/chatgpt/r2_c.md",
+        "note": "no source found"
+      }
+    },
+    {
+      "name": "ຫ້ອງການແກ້ໄຂຂໍ້ຂັດແຍ່ງທາງດ້ານເສດຖະກິດ",
+      "en": "Office of Economic Dispute Resolution (Ministry of Justice; arbitration/mediation)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "quasi-judicial; awards confidential",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only; research/chatgpt/r2_c.md (no Lao decision collection found)",
+        "note": "no publication of awards found"
+      }
+    },
+    {
+      "name": "ໜ່ວຍໄກ່ເກ່ຍບ້ານ",
+      "en": "Village mediation units",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "customary/community mediation, no decisions published",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "community mediation, nothing published"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "ລັດຖະທຳມະນູນ",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Official Gazette of the Lao PDR (Ministry of Justice): search index",
+      "note": "titles and metadata only: Gazette PDFs are scans (no text layer, no OCR)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Official Gazette of the Lao PDR / National Assembly law PDFs",
+        "url": "https://na.gov.la/",
+        "evidence": "src/world_legal_mcp/jurisdictions/la.py docstring",
+        "note": "missing part = text: every Gazette and na.gov.la PDF checked is a scan with no text layer; no text edition published (would need OCR)"
+      }
+    },
+    {
+      "name": "ກົດໝາຍ",
+      "en": "Laws of the National Assembly",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Official Gazette of the Lao PDR (Ministry of Justice): search index",
+      "note": "titles and metadata only: Gazette PDFs are scans (no text layer, no OCR)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Official Gazette of the Lao PDR / National Assembly law PDFs",
+        "url": "https://na.gov.la/",
+        "evidence": "src/world_legal_mcp/jurisdictions/la.py docstring",
+        "note": "missing part = text: every Gazette and na.gov.la PDF checked is a scan with no text layer; no text edition published (would need OCR); na.gov.la lists 186 law PDFs (robots allows)"
+      }
+    },
+    {
+      "name": "ລັດຖະບັນຍັດ / ດຳລັດ",
+      "en": "Presidential ordinances / decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Official Gazette of the Lao PDR (Ministry of Justice): search index",
+      "note": "titles and metadata only: Gazette PDFs are scans (no text layer, no OCR)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Official Gazette of the Lao PDR / National Assembly law PDFs",
+        "url": "https://na.gov.la/",
+        "evidence": "src/world_legal_mcp/jurisdictions/la.py docstring",
+        "note": "missing part = text: every Gazette and na.gov.la PDF checked is a scan with no text layer; no text edition published (would need OCR)"
+      }
+    },
+    {
+      "name": "ຂໍ້ຕົກລົງ / ຄຳສັ່ງ / ຄຳແນະນຳ",
+      "en": "Decisions, orders, instructions (ministerial)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Official Gazette of the Lao PDR (Ministry of Justice): search index",
+      "note": "titles and metadata only: Gazette PDFs are scans (no text layer, no OCR)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Official Gazette of the Lao PDR / National Assembly law PDFs",
+        "url": "https://na.gov.la/",
+        "evidence": "src/world_legal_mcp/jurisdictions/la.py docstring",
+        "note": "missing part = text: every Gazette and na.gov.la PDF checked is a scan with no text layer; no text edition published (would need OCR); moj.gov.la robots 'Disallow: /'"
+      }
+    },
+    {
+      "name": "ຈົດໝາຍເຫດທາງລັດຖະການ",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Official Gazette of the Lao PDR (Ministry of Justice): search index",
+      "note": "index search only; ~2,600 acts",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Official Gazette of the Lao PDR / National Assembly law PDFs",
+        "url": "https://na.gov.la/",
+        "evidence": "src/world_legal_mcp/jurisdictions/la.py docstring",
+        "note": "missing part = text of issues (scans only, Gazette About page says binding texts are PDF images)"
+      }
+    },
+    {
+      "name": "ສົນທິສັນຍາ",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "looked 2026-11-07, source not established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "not researched; no treaty database found"
+      }
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "code": "co",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://portalhistorico.ramajudicial.gov.co/documents/3196516/6888220/09+Estructura+Rama+Judicial.pdf/4c1d1242-3fa8-4fed-a97c-0c7fece7a9da",
+    "https://www.ramajudicial.gov.co/documents/10228/1468683/estructura+y+funciones+de+la+administracion+de+la+justicia.pdf/d016a449-f9c7-44ed-b1fc-fbdac24b6575"
+  ],
+  "courts": [
+    {
+      "name": "Corte Constitucional",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Corte Constitucional – relatoría (sentencias, full text)",
+      "note": "C, T, SU sentencias since 1992; search over metadata (via datos.gov.co), not text; autos not covered"
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala de Casación Civil, Agraria y Rural",
+      "en": "Supreme Court – Civil Cassation Chamber",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "relatoría hosts answer 403 'Bloqueo por WafPolicy'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Suprema – Consulta de Providencias (full text)",
+        "url": "https://consultaprovidencias.cortesuprema.gov.co/",
+        "evidence": "adapter note (403 'Bloqueo por WafPolicy'); fetched 2026-11-07: consultaprovidencias SPA shell answered 200, API not tested",
+        "note": "WAF 403 on the relatoría hosts; the new SPA was not probed further"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala de Casación Penal (incl. Sala Especial de Primera Instancia and Sala Especial de Instrucción)",
+      "en": "Supreme Court – Criminal Cassation Chamber and special first-instance/investigation chambers (trials of congress members)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "relatoría hosts answer 403 'Bloqueo por WafPolicy'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Suprema – Consulta de Providencias (full text)",
+        "url": "https://consultaprovidencias.cortesuprema.gov.co/",
+        "evidence": "adapter note (403 'Bloqueo por WafPolicy'); fetched 2026-11-07: consultaprovidencias SPA shell answered 200, API not tested",
+        "note": "WAF 403 on the relatoría hosts; the new SPA was not probed further"
+      }
+    },
+    {
+      "name": "Corte Suprema de Justicia – Sala de Casación Laboral (incl. Salas de Descongestión)",
+      "en": "Supreme Court – Labour Cassation Chamber",
+      "tier": "apex",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "relatoría hosts answer 403 'Bloqueo por WafPolicy'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Corte Suprema – Consulta de Providencias (full text)",
+        "url": "https://consultaprovidencias.cortesuprema.gov.co/",
+        "evidence": "adapter note (403 'Bloqueo por WafPolicy'); fetched 2026-11-07: consultaprovidencias SPA shell answered 200, API not tested",
+        "note": "WAF 403 on the relatoría hosts; the new SPA was not probed further"
+      }
+    },
+    {
+      "name": "Consejo de Estado",
+      "en": "Council of State",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "SAMAI robots.txt disallows search and document pages",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "SAMAI (Consejo de Estado)",
+        "url": "https://samai.consejodeestado.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /*.aspx?*' (relatoria.consejodeestado.gov.co redirects to SAMAI)",
+        "note": "search and document pages are .aspx?query URLs, all disallowed"
+      }
+    },
+    {
+      "name": "Comisión Nacional de Disciplina Judicial",
+      "en": "National Judicial Disciplinary Commission (apex of disciplinary jurisdiction)",
+      "tier": "apex",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Comisión Nacional de Disciplina Judicial",
+        "url": "https://comisiondedisciplinajudicial.gov.co/",
+        "evidence": "not checked online",
+        "note": "connection failed 2026-11-07"
+      }
+    },
+    {
+      "name": "Comisiones Seccionales de Disciplina Judicial",
+      "en": "Sectional judicial disciplinary commissions",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Comisión Nacional de Disciplina Judicial",
+        "url": "https://comisiondedisciplinajudicial.gov.co/",
+        "evidence": "not checked online",
+        "note": "connection failed 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunales Superiores de Distrito Judicial (33; salas civil, penal, laboral, familia, agraria)",
+      "en": "Superior District Courts",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Tribunales Administrativos (departamentales, ~26)",
+      "en": "Administrative tribunals",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Civiles del Circuito",
+      "en": "Circuit civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Civiles Municipales",
+      "en": "Municipal civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados de Pequeñas Causas y Competencia Múltiple",
+      "en": "Small-claims and multi-competence courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Promiscuos (del circuito y municipales)",
+      "en": "Mixed-jurisdiction courts (smaller towns)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Civiles Especializados en Restitución de Tierras",
+      "en": "Land-restitution courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados de Familia (and Promiscuos de Familia)",
+      "en": "Family courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Laborales del Circuito",
+      "en": "Circuit labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Municipales de Pequeñas Causas Laborales",
+      "en": "Small labour-claims courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Penales del Circuito (and Penales del Circuito Especializados)",
+      "en": "Circuit criminal courts and specialised criminal courts (organised crime, terrorism)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Penales Municipales (con función de control de garantías / de conocimiento)",
+      "en": "Municipal criminal courts (guarantee control and trial)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Penales para Adolescentes",
+      "en": "Juvenile criminal courts (SRPA)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados de Ejecución de Penas y Medidas de Seguridad",
+      "en": "Sentence-enforcement courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Civiles / de Ejecución Civil (del circuito y municipales)",
+      "en": "Civil judgment-enforcement courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Juzgados Administrativos (~300)",
+      "en": "Administrative courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rama Judicial – portal (tribunal/juzgado decision PDFs)",
+        "url": "https://www.ramajudicial.gov.co/",
+        "evidence": "fetched 2026-11-07: robots.txt 'Disallow: /documents/'; search results show tribunal decisions served under /documents/...pdf",
+        "note": "no central database; decision PDFs sit under the robots-disallowed /documents/ path"
+      }
+    },
+    {
+      "name": "Jurisdicción Especial para la Paz – Tribunal para la Paz (secciones) y Salas de Justicia",
+      "en": "Special Jurisdiction for Peace: Peace Tribunal sections and justice chambers",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "JEP – Relatoría",
+        "url": "https://www.jep.gov.co/",
+        "evidence": "not checked online",
+        "note": "jep.gov.co connection failed 2026-11-07"
+      }
+    },
+    {
+      "name": "Tribunal Superior Militar y Policial",
+      "en": "Superior Military and Police Tribunal",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "not researched"
+      }
+    },
+    {
+      "name": "Juzgados Penales Militares y Policiales",
+      "en": "Military and police criminal courts (first instance)",
+      "tier": "first-instance",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked online",
+        "note": "not researched"
+      }
+    },
+    {
+      "name": "Jurisdicción Especial Indígena",
+      "en": "Indigenous special jurisdiction",
+      "tier": "sub-national",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no central publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "adapter note",
+        "note": "no central publication of indigenous-jurisdiction decisions"
+      }
+    },
+    {
+      "name": "Jueces de Paz",
+      "en": "Justices of the peace (equity)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "community equity judges; no publication",
+      "elsewhere": {
+        "status": "offline",
+        "source": null,
+        "url": null,
+        "evidence": "search result only",
+        "note": "community equity decisions; no official publication found"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Política de 1991 y Actos Legislativos",
+      "en": "Constitution and constitutional amendments",
+      "level": "constitution",
+      "reached": "partly",
+      "via": "Función Pública – Gestor Normativo (consolidated legislation)",
+      "note": "off unless WLM_PERMITTED=co (terms forbid automated copying); a selection of norms only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Secretaría General del Senado – Leyes y Antecedentes (basedoc)",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/",
+        "evidence": "fetched 2026-11-10: robots.txt is the Joomla default (basedoc allowed); every basedoc page (e.g. ley_1437_2011.html) carries 'Derechos de autor reservados - Prohibida su reproducción'; no other terms page found; its 'Búsqueda avanzada' links off-site to normograma.info/senado/buscador (not a government host)",
+        "note": "reproduction expressly prohibited, so not built. SUIN-Juriscol (Ministerio de Justicia) checked 2026-11-10: now a CMS SPA (api-cms.minjusticia.gov.co), old viewDocument.asp URLs return the SPA shell; no legislation endpoint found"
+      }
+    },
+    {
+      "name": "Leyes (estatutarias, orgánicas, ordinarias) y códigos",
+      "en": "Acts of Congress and codes",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Función Pública – Gestor Normativo (consolidated legislation)",
+      "note": "off unless WLM_PERMITTED=co (terms forbid automated copying); a selection of norms only; e.g. no Código Civil",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Secretaría General del Senado – Leyes y Antecedentes (basedoc)",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/",
+        "evidence": "fetched 2026-11-10: robots.txt is the Joomla default (basedoc allowed); every basedoc page (e.g. ley_1437_2011.html) carries 'Derechos de autor reservados - Prohibida su reproducción'; no other terms page found; its 'Búsqueda avanzada' links off-site to normograma.info/senado/buscador (not a government host)",
+        "note": "reproduction expressly prohibited, so not built. SUIN-Juriscol (Ministerio de Justicia) checked 2026-11-10: now a CMS SPA (api-cms.minjusticia.gov.co), old viewDocument.asp URLs return the SPA shell; no legislation endpoint found"
+      }
+    },
+    {
+      "name": "Decretos con fuerza de ley / decretos ley",
+      "en": "Decree-laws",
+      "level": "primary",
+      "reached": "partly",
+      "via": "Función Pública – Gestor Normativo (consolidated legislation)",
+      "note": "off unless WLM_PERMITTED=co (terms forbid automated copying); a selection of norms only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Secretaría General del Senado – Leyes y Antecedentes (basedoc)",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/",
+        "evidence": "fetched 2026-11-10: robots.txt is the Joomla default (basedoc allowed); every basedoc page (e.g. ley_1437_2011.html) carries 'Derechos de autor reservados - Prohibida su reproducción'; no other terms page found; its 'Búsqueda avanzada' links off-site to normograma.info/senado/buscador (not a government host)",
+        "note": "reproduction expressly prohibited, so not built. SUIN-Juriscol (Ministerio de Justicia) checked 2026-11-10: now a CMS SPA (api-cms.minjusticia.gov.co), old viewDocument.asp URLs return the SPA shell; no legislation endpoint found"
+      }
+    },
+    {
+      "name": "Decretos reglamentarios (incl. Decretos Únicos Reglamentarios)",
+      "en": "Regulatory decrees",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Función Pública – Gestor Normativo (consolidated legislation)",
+      "note": "off unless WLM_PERMITTED=co (terms forbid automated copying); a selection of norms only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diario Oficial (Imprenta Nacional)",
+        "url": "https://svrpubindc.imprenta.gov.co/diario/",
+        "evidence": "fetched 2026-11-07: DIARIO OFICIAL page with search by diary number, norm type, entity and date",
+        "note": "missing part: Gestor is permission-gated and a selection; Diario Oficial has the as-published texts; login link present, free access not confirmed"
+      }
+    },
+    {
+      "name": "Resoluciones, circulares, directivas, acuerdos",
+      "en": "Resolutions, circulars, directives, agreements",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Función Pública – Gestor Normativo (consolidated legislation)",
+      "note": "off unless WLM_PERMITTED=co (terms forbid automated copying); a selection of norms only",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diario Oficial (Imprenta Nacional)",
+        "url": "https://svrpubindc.imprenta.gov.co/diario/",
+        "evidence": "fetched 2026-11-07: DIARIO OFICIAL page with search by norm type and entity",
+        "note": "missing part: Gestor permission-gated; Diario Oficial as published; free access not confirmed"
+      }
+    },
+    {
+      "name": "Diario Oficial",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Diario Oficial (Imprenta Nacional)",
+        "url": "https://svrpubindc.imprenta.gov.co/diario/",
+        "evidence": "fetched 2026-11-07: search form (diary number, norm type, entity, date range) and recent editions list",
+        "note": "an 'Iniciar Sesión' link exists; whether download needs login not confirmed"
+      }
+    },
+    {
+      "name": "Ordenanzas departamentales y acuerdos municipales/distritales",
+      "en": "Departmental ordinances, municipal agreements",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "Régimen Legal de Bogotá empty to non-browser; others not researched",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Régimen Legal de Bogotá",
+        "url": "https://www.alcaldiabogota.gov.co/sisjur/",
+        "evidence": "adapter note",
+        "note": "empty to non-browser clients; other departments/municipalities not checked"
+      }
+    },
+    {
+      "name": "Tratados (leyes aprobatorias)",
+      "en": "Treaties (approving acts)",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "Función Pública – Gestor Normativo (consolidated legislation)",
+      "note": "only approving laws in the Gestor; off unless WLM_PERMITTED=co (terms forbid automated copying); a selection of norms only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Secretaría General del Senado – Leyes y Antecedentes (basedoc)",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/",
+        "evidence": "fetched 2026-11-10: robots.txt is the Joomla default (basedoc allowed); every basedoc page (e.g. ley_1437_2011.html) carries 'Derechos de autor reservados - Prohibida su reproducción'; no other terms page found; its 'Búsqueda avanzada' links off-site to normograma.info/senado/buscador (not a government host)",
+        "note": "reproduction expressly prohibited, so not built. SUIN-Juriscol (Ministerio de Justicia) checked 2026-11-10: now a CMS SPA (api-cms.minjusticia.gov.co), old viewDocument.asp URLs return the SPA shell; no legislation endpoint found"
+      }
+    }
+  ]
+}

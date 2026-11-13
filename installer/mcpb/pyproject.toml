@@ -1,0 +1,13 @@
+# Bundle-only project for the Claude Desktop extension (.mcpb, server type "uv").
+# No dependencies on purpose: the launcher fetches and updates Fontes itself via uv.
+[project]
+name = "fontes-mcpb"
+version = "0.0.0"
+requires-python = ">=3.10"
+dependencies = []
+
+# Only uv's own Python, never a system one: on a Mac without developer tools, probing
+# /usr/bin/python3 pops up an "install developer tools" dialog (same reason as the launcher's
+# --managed-python).
+[tool.uv]
+python-preference = "only-managed"

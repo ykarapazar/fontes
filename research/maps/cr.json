@@ -1,0 +1,465 @@
+{
+  "code": "cr",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://pj.poder-judicial.go.cr/images/documentos/generalidades/historia-organizacion-funcionamiento.pdf"
+  ],
+  "courts": [
+    {
+      "name": "Sala Constitucional (Sala IV)",
+      "en": "Constitutional Chamber of the Supreme Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Sala Primera",
+      "en": "First Chamber (civil, commercial, administrative, agrarian cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Sala Segunda",
+      "en": "Second Chamber (labour, family cassation)",
+      "tier": "apex",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Sala Tercera",
+      "en": "Third Chamber (criminal cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunales de Apelación de Sentencia Penal (and Penal Juvenil)",
+      "en": "Criminal sentence appeal tribunals",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunal de Apelación Civil y Trabajo / Tribunales Colegiados civiles",
+      "en": "Civil and labour appeal tribunals",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunal de Familia",
+      "en": "Family Appeal Tribunal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunal Agrario",
+      "en": "Agrarian Appeal Tribunal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunal de Apelación de lo Contencioso Administrativo y Civil de Hacienda",
+      "en": "Administrative Appeal Tribunal",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunal Contencioso Administrativo y Civil de Hacienda (first instance)",
+      "en": "Administrative Tribunal (first-instance trial court)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunales Penales (de juicio)",
+      "en": "Criminal trial tribunals",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados Penales (etapa intermedia / garantías)",
+      "en": "Criminal courts (preliminary stage)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados Penales Juveniles",
+      "en": "Juvenile criminal courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados de Ejecución de la Pena",
+      "en": "Sentence-enforcement courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados Civiles",
+      "en": "Civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados de Cobro / Civil de Menor Cuantía",
+      "en": "Debt-collection and small-claims civil courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados de Trabajo",
+      "en": "Labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados de Familia",
+      "en": "Family courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados de Pensiones Alimentarias",
+      "en": "Child-support (alimony) courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados de Violencia Doméstica",
+      "en": "Domestic-violence courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados Agrarios",
+      "en": "Agrarian courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados Contravencionales",
+      "en": "Petty-offence courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Juzgados Notariales",
+      "en": "Notarial disciplinary courts",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Nexus PJ (Poder Judicial)",
+        "url": "https://nexuspj.poder-judicial.go.cr/",
+        "evidence": "adapter cr.py docstring; research/SIGNUPS.md",
+        "note": "legal notice (Reglamento de datos personales, art. 37) forbids building parallel databases with robotic/AI tools; bot-protection script"
+      }
+    },
+    {
+      "name": "Tribunal Supremo de Elecciones",
+      "en": "Supreme Electoral Tribunal",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "TSE – Jurisprudencia electoral",
+        "url": "https://www.tse.go.cr/juris/search.asp",
+        "evidence": "research/chatgpt/r2_b.md; fetched 2026-11-07: robots.txt disallows only /cgi-bin/, /images/, /tmp/, /private/",
+        "note": "direct requests triggered a Radware captcha (r2_b); content itself free (terms: 'El acceso al sitio es gratuito', CC BY-SA footer)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución Política",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ)",
+      "note": "latest version only"
+    },
+    {
+      "name": "Leyes",
+      "en": "Acts of the Legislative Assembly",
+      "level": "primary",
+      "reached": "yes",
+      "via": "SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ)",
+      "note": "latest version only; earlier versions not built"
+    },
+    {
+      "name": "Decretos Ejecutivos",
+      "en": "Executive decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ)",
+      "note": "latest version only"
+    },
+    {
+      "name": "Reglamentos, circulares, directrices, acuerdos",
+      "en": "Regulations, circulars, guidelines",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ)",
+      "note": "as far as SINALEVI holds them"
+    },
+    {
+      "name": "Tratados internacionales",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ)",
+      "note": "type TI"
+    },
+    {
+      "name": "La Gaceta (Diario Oficial)",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Imprenta Nacional – La Gaceta (Diario Oficial)",
+        "url": "https://www.imprentanacional.go.cr/gaceta/",
+        "evidence": "search result only",
+        "note": "free per press reports; dated PDFs /pub/YYYY/MM/DD/; site returned Cloudflare 522 on 2026-11-07"
+      }
+    },
+    {
+      "name": "Reglamentos municipales",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "SINALEVI",
+        "url": "https://sinalevi.go.cr/",
+        "evidence": "not checked online",
+        "note": "whether SINALEVI indexes municipal regulations was not tested; they are published in La Gaceta"
+      }
+    }
+  ]
+}

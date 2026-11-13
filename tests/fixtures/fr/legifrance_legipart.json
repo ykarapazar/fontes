@@ -1,0 +1,22 @@
+{
+  "cid": "LEGITEXT000006070721",
+  "id": "LEGITEXT000006070721_01-01-2026",
+  "title": "Code civil",
+  "nor": "",
+  "eli": "",
+  "articles": [],
+  "sections": [
+    {"title": "Livre III : Des différentes manières dont on acquiert la propriété", "intOrdre": 1, "cid": "LEGISCTA000006090264",
+     "articles": [],
+     "sections": [
+       {"title": "Sous-titre II : La responsabilité extracontractuelle", "intOrdre": 1, "cid": "LEGISCTA000032041571",
+        "sections": [],
+        "articles": [
+          {"id": "LEGIARTI000032041571", "num": "1240", "intOrdre": 1, "etat": "VIGUEUR",
+           "content": "<p>Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer.</p>"},
+          {"id": "LEGIARTI000032041567", "num": "1241", "intOrdre": 2, "etat": "VIGUEUR",
+           "content": "<p>Chacun est responsable du dommage qu'il a causé non seulement par son fait, mais encore par sa négligence ou par son imprudence.</p>"}
+        ]}
+     ]}
+  ]
+}

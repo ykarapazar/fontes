@@ -1,0 +1,381 @@
+{
+  "code": "ma",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://juriscassation.cspj.ma/en",
+    "https://adala.justice.gov.ma/api/uploads/2024/11/29/%D8%B8%D9%87%D9%8A%D8%B1%20%D8%B4%D8%B1%D9%8A%D9%81%20%D8%B1%D9%82%D9%85%201.22.38%20%D8%A8%D8%AA%D9%86%D9%81%D9%8A%D8%B0%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%2038.15%20%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D9%84%D9%82%20%D8%A8%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%20%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A6%D9%8A-1732876024873.pdf"
+  ],
+  "courts": [
+    {
+      "name": "المحكمة الدستورية",
+      "en": "Constitutional Court (and predecessors: Constitutional Council 1994-2017, Constitutional Chamber 1963-1994)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Constitutional Court of Morocco (cour-constitutionnelle.ma) – Decisions",
+      "note": ""
+    },
+    {
+      "name": "المجلس الدستوري (1994-2017)",
+      "en": "Constitutional Council (predecessor, 1994-2017)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Constitutional Court of Morocco (cour-constitutionnelle.ma) – Decisions",
+      "note": "same source; decision numbers identify the institution"
+    },
+    {
+      "name": "الغرفة الدستورية بالمجلس الأعلى (1963-1994)",
+      "en": "Constitutional Chamber of the Supreme Court (1963-1994)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "yes",
+      "via": "Constitutional Court of Morocco (cour-constitutionnelle.ma) – Decisions",
+      "note": "same source; decision numbers identify the institution"
+    },
+    {
+      "name": "محكمة النقض",
+      "en": "Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "juriscassation.cspj.ma unreachable (timed out 2026-11-05/06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "JurisCassation – Conseil Supérieur du Pouvoir Judiciaire",
+        "url": "https://juriscassation.cspj.ma/",
+        "evidence": "research/mena_africa_international.md; connection timeout again 2026-11-07 (also cspj.ma, courdecassation.ma)",
+        "note": "Official Court of Cassation database exists but is unreachable from a UK IP (connect timeout 2026-11-05/06/07); likely geo-block, unverified. Re-test from another region."
+      }
+    },
+    {
+      "name": "محاكم الاستئناف (~22) – الغرف المدنية والاجتماعية والأسرية",
+      "en": "Courts of Appeal – civil, social and family chambers",
+      "tier": "appeal",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found (mahakim.ma is case tracking)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official appeal-court decision database found (mahakim.ma is an e-services/case-tracking portal, Angular app). Private databases exist (Juridia, Artemis), access terms not checked."
+      }
+    },
+    {
+      "name": "غرف الجنايات بمحاكم الاستئناف (ابتدائية واستئنافية)",
+      "en": "Criminal (felony) chambers of the Courts of Appeal",
+      "tier": "appeal",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found (mahakim.ma is case tracking)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official appeal-court decision database found (mahakim.ma is an e-services/case-tracking portal, Angular app). Private databases exist (Juridia, Artemis), access terms not checked."
+      }
+    },
+    {
+      "name": "أقسام الجرائم المالية (Rabat, Casablanca, Fès, Marrakech)",
+      "en": "Financial-crimes sections of four Courts of Appeal",
+      "tier": "specialised",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found (mahakim.ma is case tracking)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official appeal-court decision database found (mahakim.ma is an e-services/case-tracking portal, Angular app). Private databases exist (Juridia, Artemis), access terms not checked."
+      }
+    },
+    {
+      "name": "المحاكم الابتدائية (~83) – القضاء المدني والزجري",
+      "en": "First-instance courts – civil and criminal",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only. Private databases exist, not checked."
+      }
+    },
+    {
+      "name": "أقسام قضاء الأسرة",
+      "en": "Family-justice sections of first-instance courts",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only. Private databases exist, not checked."
+      }
+    },
+    {
+      "name": "الأقسام الاجتماعية (نزاعات الشغل)",
+      "en": "Social (labour) sections of first-instance courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only. Private databases exist, not checked."
+      }
+    },
+    {
+      "name": "قضاء الأحداث",
+      "en": "Juvenile judges/chambers",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only. Private databases exist, not checked."
+      }
+    },
+    {
+      "name": "أقسام قضاء القرب",
+      "en": "Proximity-justice sections (small civil and petty criminal cases)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only. Private databases exist, not checked."
+      }
+    },
+    {
+      "name": "مراكز القضاة المقيمين",
+      "en": "Resident-judge centres",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only. Private databases exist, not checked."
+      }
+    },
+    {
+      "name": "محاكم الاستئناف التجارية (3+)",
+      "en": "Commercial Courts of Appeal",
+      "tier": "appeal",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only."
+      }
+    },
+    {
+      "name": "المحاكم التجارية (8+)",
+      "en": "Commercial Courts",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; mahakim.ma is case tracking only."
+      }
+    },
+    {
+      "name": "محاكم الاستئناف الإدارية",
+      "en": "Administrative Courts of Appeal",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; single rulings circulate on private sites (maroclaw.com etc.)."
+      }
+    },
+    {
+      "name": "المحاكم الإدارية (7+)",
+      "en": "Administrative Courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official database found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No official database found; single rulings circulate on private sites (maroclaw.com etc.)."
+      }
+    },
+    {
+      "name": "المحكمة العسكرية",
+      "en": "Military Court",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "not published online",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "No publication of military court decisions found; not expected online."
+      }
+    },
+    {
+      "name": "المجلس الأعلى للحسابات والمجالس الجهوية للحسابات",
+      "en": "Court of Audit and regional audit courts (jurisdictional chambers)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not researched in code",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Cour des comptes (courdescomptes.ma)",
+        "url": "https://www.courdescomptes.ma/",
+        "evidence": "search result only",
+        "note": "publishes annual reports; whether individual jurisdictional arrêts are published not established"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "الدستور",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+      "note": "title search only"
+    },
+    {
+      "name": "القوانين التنظيمية",
+      "en": "Organic laws",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+      "note": "title search only (type=1)"
+    },
+    {
+      "name": "الظهائر والقوانين",
+      "en": "Dahirs and laws (incl. consolidated codes)",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+      "note": "Adala PDFs; title search only"
+    },
+    {
+      "name": "المراسيم",
+      "en": "Decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+      "note": "type=5; title search only"
+    },
+    {
+      "name": "القرارات",
+      "en": "Ministerial orders",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+      "note": "type=7; title search only"
+    },
+    {
+      "name": "الدوريات",
+      "en": "Circulars",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+      "note": "resource=280"
+    },
+    {
+      "name": "الجريدة الرسمية",
+      "en": "Bulletin officiel",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "sgg.gov.ma PDFs: source exists and works but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Secrétariat Général du Gouvernement – Bulletin officiel",
+        "url": "https://www.sgg.gov.ma/",
+        "evidence": "adapter ma.py docstring ('source exists and works'); fetched 2026-11-07: sgg.gov.ma redirects to /arabe/Accueil.aspx (200)",
+        "note": "BO issues as published (PDF, Arabic/French). Not built (Adala consolidated texts used instead)."
+      }
+    },
+    {
+      "name": "الاتفاقيات الدولية",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "yes",
+      "via": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+      "note": "resource=681"
+    },
+    {
+      "name": "القرارات الجماعية",
+      "en": "Regional/communal by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "Not checked; communal by-laws are not in Adala."
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "code": "fi",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://tuomioistuimet.fi/en/index.html"
+  ],
+  "courts": [
+    {
+      "name": "Korkein oikeus (KKO)",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Finlex website (www.finlex.fi), KKO/KHO published decisions",
+      "note": "every Finlex KKO section: precedents (1926-, full text from 1980), other published decisions (muut päätökset, 1995-), leave-to-appeal grants (valitusluvat, 2025-); filter kind=. Search matches the yearly lists' keywords (asiasanat), not full text; Finlex publishes only selected decisions. Checked 2026-11-10"
+    },
+    {
+      "name": "Korkein hallinto-oikeus (KHO)",
+      "en": "Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Finlex website (www.finlex.fi), KKO/KHO published decisions",
+      "note": "every Finlex KHO section: precedents, other published decisions (muut päätökset, 2013-), short summaries (lyhyet ratkaisuselosteet, 1946-2021); filter kind=. Search matches list keywords, not full text. Checked 2026-11-10"
+    },
+    {
+      "name": "Hovioikeudet (5)",
+      "en": "Courts of Appeal",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex oikeuskäytäntö (Ministry of Justice)",
+        "url": "https://www.finlex.fi/fi/oikeuskaytanto/hovioikeudet",
+        "evidence": "fetched 2026-11-07: finlex.fi/fi/oikeuskaytanto links a section /hovioikeudet",
+        "note": "selected courts of appeal decisions; HTML only (case law not in Finlex open-data API); robots only disallows /_next/image"
+      }
+    },
+    {
+      "name": "Käräjäoikeudet (20)",
+      "en": "District Courts (civil, criminal, petitionary and insolvency matters; also military criminal cases)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Finlex oikeuskäytäntö (Ministry of Justice)",
+        "url": "https://www.finlex.fi/fi/oikeuskaytanto",
+        "evidence": "fetched 2026-11-07: Finlex case-law menu lists KKO, KHO, hallinto-oikeudet, hovioikeudet, markkinaoikeus, työtuomioistuin, vakuutusoikeus only; search 2026-11-07 found no district-court decision publication",
+        "note": "district-court judgments are public documents obtainable on request from the court, not published online"
+      }
+    },
+    {
+      "name": "Hallinto-oikeudet (6)",
+      "en": "Regional Administrative Courts (Helsinki, Hämeenlinna, Itä-Suomi, Pohjois-Suomi, Turku, Vaasa; incl. tax and immigration cases)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex oikeuskäytäntö (Ministry of Justice)",
+        "url": "https://www.finlex.fi/fi/oikeuskaytanto/hallinto-oikeudet",
+        "evidence": "fetched 2026-11-07: finlex.fi/fi/oikeuskaytanto links a section /hallinto-oikeudet",
+        "note": "selected administrative court decisions; HTML only (case law not in Finlex open-data API); robots only disallows /_next/image"
+      }
+    },
+    {
+      "name": "Ahvenanmaan hallintotuomioistuin",
+      "en": "Åland Administrative Court",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not built; Finlex hallinto-oikeudet section; whether Åland decisions appear there is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex oikeuskäytäntö (Ministry of Justice)",
+        "url": "https://www.finlex.fi/fi/oikeuskaytanto/hallinto-oikeudet",
+        "evidence": "fetched 2026-11-07: finlex.fi/fi/oikeuskaytanto links a section /hallinto-oikeudet",
+        "note": "selected administrative court decisions; HTML only (case law not in Finlex open-data API); robots only disallows /_next/image"
+      }
+    },
+    {
+      "name": "Markkinaoikeus",
+      "en": "Market Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex oikeuskäytäntö (Ministry of Justice)",
+        "url": "https://www.finlex.fi/fi/oikeuskaytanto/markkinaoikeus",
+        "evidence": "fetched 2026-11-07: finlex.fi/fi/oikeuskaytanto links a section /markkinaoikeus",
+        "note": "Market Court decisions; HTML only (case law not in Finlex open-data API); robots only disallows /_next/image"
+      }
+    },
+    {
+      "name": "Työtuomioistuin",
+      "en": "Labour Court",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex oikeuskäytäntö (Ministry of Justice)",
+        "url": "https://www.finlex.fi/fi/oikeuskaytanto/tyotuomioistuin",
+        "evidence": "fetched 2026-11-07: finlex.fi/fi/oikeuskaytanto links a section /tyotuomioistuin",
+        "note": "Labour Court decisions; HTML only (case law not in Finlex open-data API); robots only disallows /_next/image"
+      }
+    },
+    {
+      "name": "Vakuutusoikeus",
+      "en": "Insurance Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex oikeuskäytäntö (Ministry of Justice)",
+        "url": "https://www.finlex.fi/fi/oikeuskaytanto/vakuutusoikeus",
+        "evidence": "fetched 2026-11-07: finlex.fi/fi/oikeuskaytanto links a section /vakuutusoikeus",
+        "note": "Insurance Court decisions; HTML only (case law not in Finlex open-data API); robots only disallows /_next/image"
+      }
+    },
+    {
+      "name": "Valtakunnanoikeus",
+      "en": "High Court of Impeachment",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "fetched 2026-11-07: Finlex case-law menu has no valtakunnanoikeus section",
+        "note": "sits very rarely; no database found"
+      }
+    },
+    {
+      "name": "Kuluttajariitalautakunta",
+      "en": "Consumer Disputes Board (non-binding recommendations)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "fetched 2026-11-07: Finlex case-law menu lists no boards section",
+        "note": "boards publish on their own sites (e.g. kuluttajariitalautakunta.fi); not checked"
+      }
+    },
+    {
+      "name": "Sosiaaliturvan muutoksenhakulautakunta",
+      "en": "Social Security Appeal Board (appeal to Insurance Court)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "fetched 2026-11-07: Finlex case-law menu lists no boards section",
+        "note": "boards publish on their own sites (e.g. kuluttajariitalautakunta.fi); not checked"
+      }
+    },
+    {
+      "name": "Muut muutoksenhakulautakunnat",
+      "en": "Other appeal and complaint boards (e.g. Accident Appeal Board, Student Financial Aid Appeal Board)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "not in adapter",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "fetched 2026-11-07: Finlex case-law menu lists no boards section",
+        "note": "boards publish on their own sites (e.g. kuluttajariitalautakunta.fi); not checked"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Suomen perustuslaki (731/1999)",
+      "en": "Constitution of Finland",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Finlex avoin data (Ministry of Justice / Legal Register Centre)",
+      "note": "consolidated text"
+    },
+    {
+      "name": "Laki",
+      "en": "Acts of Parliament",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Finlex avoin data (Ministry of Justice / Legal Register Centre)",
+      "note": "consolidated texts; title search only; Swedish via '/swe'"
+    },
+    {
+      "name": "Asetus (valtioneuvoston / tasavallan presidentin / ministeriön)",
+      "en": "Decrees (Government, President, Ministry)",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "Finlex avoin data (Ministry of Justice / Legal Register Centre)",
+      "note": "only those in the consolidated statute set (statute-consolidated)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex avoin data: act/statute (original publications)",
+        "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/list",
+        "evidence": "research/south_nordic_baltic.md",
+        "note": "missing part: decrees never consolidated are in act/statute, not statute-consolidated"
+      }
+    },
+    {
+      "name": "Viranomaisten määräykset",
+      "en": "Regulations of authorities",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex avoin data: doc/authority-regulation",
+        "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/doc/authority-regulation/list?format=json",
+        "evidence": "fetched 2026-11-07: list returned Traficom regulation 2025/51209 (fin/swe)",
+        "note": "authority regulations (määräykset)"
+      }
+    },
+    {
+      "name": "Suomen säädöskokoelma",
+      "en": "Statute Book of Finland (original texts as published)",
+      "level": "gazette",
+      "reached": "partly",
+      "via": "Finlex avoin data (Ministry of Justice / Legal Register Centre)",
+      "note": "adapter fetches consolidated versions only, not original publications",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex avoin data: act/statute",
+        "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/list",
+        "evidence": "research/south_nordic_baltic.md",
+        "note": "missing part: original publications as issued"
+      }
+    },
+    {
+      "name": "Suomen säädöskokoelman sopimussarja",
+      "en": "Treaty Series",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Finlex avoin data: doc/treaty",
+        "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/treaty/list?format=json",
+        "evidence": "fetched 2026-11-07: list returned doc/treaty/2025/6 (fin/swe)",
+        "note": "Treaty Series (sopimussarja)"
+      }
+    },
+    {
+      "name": "Ahvenanmaan maakuntalait",
+      "en": "Åland Acts and decrees",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "not built; source exists (see elsewhere)",
+      "elsewhere": {
+        "status": "available",
+        "source": "Ålands landskapsregering: Ålands författningssamling / lagsamling",
+        "url": "https://www.regeringen.ax/lagstiftning",
+        "evidence": "fetched 2026-11-07: page lists Ålands författningssamling, Ålands lagsamling",
+        "note": "Swedish only; machine interface not checked"
+      }
+    },
+    {
+      "name": "Kunnalliset järjestyssäännöt ja määräykset",
+      "en": "Municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no source established (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "none",
+        "note": "published on each municipality's own site; no central database"
+      }
+    }
+  ]
+}

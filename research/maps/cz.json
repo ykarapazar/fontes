@@ -1,0 +1,203 @@
+{
+  "code": "cz",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://e-justice.europa.eu/topics/taking-legal-action/legal-systems-eu-and-national/national-justice-systems/cz_en"
+  ],
+  "courts": [
+    {
+      "name": "Ústavní soud",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "nalus.usoud.cz works (HTML search) but not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "NALUS (Ústavní soud)",
+        "url": "https://nalus.usoud.cz/Search/Search.aspx",
+        "evidence": "fetched 2026-11-07: free search form; page states electronic versions are free; robots.txt 404",
+        "note": "ASP.NET HTML search; adapter already lists it as not built"
+      }
+    },
+    {
+      "name": "Nejvyšší soud",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Sbírka soudních rozhodnutí a stanovisek (Nejvyšší soud), sbirka.nsoud.cz",
+      "note": "all decisions published in the official Sbírka (1919-), full text, full-text search, filter court='NS'; checked 2026-11-10. NS decisions outside the Sbírka: rozhodnuti.nsoud.cz robots.txt 'User-agent: * Disallow: /' (only DG_JUSTICE_CRAWLER allowed), so not used"
+    },
+    {
+      "name": "Nejvyšší správní soud",
+      "en": "Supreme Administrative Court",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "Vyhledávač NSS (Nejvyšší správní soud), vyhledavac.nssoud.cz",
+      "note": "Vyhledávač NSS: full-text search, all NSS decisions in the database (court='NSS'); robots.txt 404, no terms page; checked 2026-11-10"
+    },
+    {
+      "name": "Vrchní soudy (Praha, Olomouc)",
+      "en": "High Courts (2)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "rozhodnuti.justice.cz (Ministry of Justice)",
+      "note": "decisions published since 2020 only",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cee_balkans_turkey_cis.md",
+        "note": "missing part: pre-2020 decisions; no official online source found for them"
+      }
+    },
+    {
+      "name": "Krajské soudy a Městský soud v Praze (8, incl. pobočky) – civil and criminal",
+      "en": "Regional Courts – civil/criminal (appeal from district courts; first instance for serious cases)",
+      "tier": "regional",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "rozhodnuti.justice.cz (Ministry of Justice)",
+      "note": "since 2020 only",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rozhodnutí a stanoviska Nejvyššího soudu (court filter lists krajské soudy)",
+        "url": "https://rozhodnuti.nsoud.cz/",
+        "evidence": "fetched 2026-11-07: court filter lists Krajský soud v Brně, ... ; robots.txt disallows all",
+        "note": "missing part: pre-2020 decisions and regional administrative-justice decisions; NS database carries some regional decisions but is robots-blocked"
+      }
+    },
+    {
+      "name": "Krajské soudy a Městský soud v Praze – správní úseky",
+      "en": "Regional Courts – administrative-justice sections (first-instance administrative courts)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "partly",
+      "via": "rozhodnuti.justice.cz (Ministry of Justice)",
+      "note": "source covers regional-court decisions generally; whether administrative-justice decisions are included is unverified (live test query 2026-11-07 failed with a network error); also partly via Vyhledávač NSS (Nejvyšší správní soud), vyhledavac.nssoud.cz (court='SPRAVNI': regional administrative decisions held in the NSS database, e.g. KSBR 31 A 23/2025, completeness unverified; 2026-11-10)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Rozhodnutí a stanoviska Nejvyššího soudu (court filter lists krajské soudy)",
+        "url": "https://rozhodnuti.nsoud.cz/",
+        "evidence": "fetched 2026-11-07: court filter lists Krajský soud v Brně, ... ; robots.txt disallows all",
+        "note": "missing part: pre-2020 decisions and regional administrative-justice decisions; NS database carries some regional decisions but is robots-blocked"
+      }
+    },
+    {
+      "name": "Okresní soudy (~74)",
+      "en": "District Courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "rozhodnuti.justice.cz (Ministry of Justice)",
+      "note": "since 2020 only; older decisions see elsewhere",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cee_balkans_turkey_cis.md",
+        "note": "missing part: pre-2020 decisions, not published centrally"
+      }
+    },
+    {
+      "name": "Obvodní soudy pro Prahu 1-10 and Městský soud v Brně (district-level)",
+      "en": "Prague district courts (10) and Brno Municipal Court (district level)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "rozhodnuti.justice.cz (Ministry of Justice)",
+      "note": "since 2020 only (Prague obvodní soudy: whether all ten are in the dataset is unverified)",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "research/cee_balkans_turkey_cis.md",
+        "note": "missing part: pre-2020 decisions, not published centrally"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Ústava a ústavní zákony, Listina základních práv a svobod",
+      "en": "Constitution, constitutional acts, Charter of Fundamental Rights",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "e-Sbírka (Ministry of the Interior)",
+      "note": "consolidated, current and point-in-time"
+    },
+    {
+      "name": "Zákony",
+      "en": "Acts of Parliament",
+      "level": "primary",
+      "reached": "yes",
+      "via": "e-Sbírka (Ministry of the Interior)",
+      "note": null
+    },
+    {
+      "name": "Zákonná opatření Senátu",
+      "en": "Legal measures of the Senate",
+      "level": "primary",
+      "reached": "yes",
+      "via": "e-Sbírka (Ministry of the Interior)",
+      "note": "in Sbírka zákonů"
+    },
+    {
+      "name": "Nařízení vlády",
+      "en": "Government regulations",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "e-Sbírka (Ministry of the Interior)",
+      "note": "in Sbírka zákonů"
+    },
+    {
+      "name": "Vyhlášky ministerstev a ústředních úřadů",
+      "en": "Ministerial decrees",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "e-Sbírka (Ministry of the Interior)",
+      "note": "in Sbírka zákonů"
+    },
+    {
+      "name": "Sbírka zákonů",
+      "en": "Collection of Laws (official gazette)",
+      "level": "gazette",
+      "reached": "yes",
+      "via": "e-Sbírka (Ministry of the Interior)",
+      "note": null
+    },
+    {
+      "name": "Sbírka mezinárodních smluv",
+      "en": "Collection of International Treaties",
+      "level": "treaty",
+      "reached": "partly",
+      "via": "e-Sbírka (Ministry of the Interior)",
+      "note": "full-text search spans e-Sbírka; law ids accept 'N/YYYY Sb. m. s.' and 'sm/YYYY/N' (/sm/), but fetching treaty texts is unverified",
+      "elsewhere": {
+        "status": "available",
+        "source": "e-Sbírka",
+        "url": "https://e-sbirka.gov.cz/",
+        "evidence": "research/cee_balkans_turkey_cis.md",
+        "note": "missing part: treaty texts via the same sbr-cache API already used (/sm/ staleUrl); not wired"
+      }
+    },
+    {
+      "name": "Právní předpisy krajů a obcí (obecně závazné vyhlášky, nařízení)",
+      "en": "Regional and municipal regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "see elsewhere",
+      "elsewhere": {
+        "status": "available",
+        "source": "Sbírka právních předpisů územních samosprávných celků (SPP, Ministry of the Interior)",
+        "url": "https://sbirkapp.gov.cz/vyhledavani",
+        "evidence": "fetched 2026-11-07: Vyhledávání page with simple search over municipal/regional regulations",
+        "note": "official register; robots.txt not served (HTML), terms not checked"
+      }
+    }
+  ]
+}

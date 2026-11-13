@@ -1,0 +1,25 @@
+{
+  "executionTime": 120,
+  "totalResultNumber": 1560,
+  "typePagination": "DEFAULT",
+  "facets": [],
+  "results": [
+    {
+      "titles": [{"cid": "LEGITEXT000006070721", "id": "LEGITEXT000006070721_01-01-2026", "title": "Code civil", "legalStatus": "VIGUEUR", "nature": "CODE", "startDate": "1803-03-15T00:00:00.000+0000"}],
+      "nature": "CODE",
+      "etat": "VIGUEUR",
+      "date": "2021-04-15T16:49:47.707+0000",
+      "sections": [{"id": "LEGISCTA000032041571", "title": "Sous-titre II : La responsabilité extracontractuelle",
+                    "extracts": [{"id": "LEGIARTI000032041571", "num": "1240", "legalStatus": "VIGUEUR",
+                                  "values": ["Tout fait quelconque de l'homme, qui cause à autrui un <mark>dommage</mark>, oblige celui par la faute duquel il est arrivé à le réparer."]}]}]
+    },
+    {
+      "titles": [{"cid": "JORFTEXT000000886460", "title": "Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés", "legalStatus": "VIGUEUR", "nature": "LOI"}],
+      "nature": "LOI",
+      "num": "78-17",
+      "dateSignature": "1978-01-06T00:00:00.000+0000",
+      "sections": []
+    },
+    {"titles": [{"cid": "KALICONT000005635221", "title": "not a LEGI/JORF text"}]}
+  ]
+}

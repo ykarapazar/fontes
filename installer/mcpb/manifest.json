@@ -1,0 +1,45 @@
+{
+  "manifest_version": "0.4",
+  "name": "fontes",
+  "display_name": "Fontes",
+  "version": "0.0.0",
+  "description": "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original.",
+  "long_description": "Fontes fetches court decisions and legislation live from official sources at the moment you ask, and every result links to the original. This extension is a small launcher: on first start it downloads Fontes from PyPI with uv, and afterwards keeps it up to date once a day in the background, always falling back to the last version that worked.",
+  "author": {"name": "Yüce Karapazar", "url": "https://github.com/ykarapazar"},
+  "repository": {"type": "git", "url": "https://github.com/ykarapazar/fontes"},
+  "homepage": "https://github.com/ykarapazar/fontes",
+  "license": "Apache-2.0",
+  "keywords": ["law", "case law", "legislation", "legal research", "official sources"],
+  "server": {
+    "type": "uv",
+    "entry_point": "server/fontes_launcher.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": ["run", "--directory", "${__dirname}", "server/fontes_launcher.py"],
+      "env": {
+        "WLM_FR_PISTE_CLIENT_ID": "${user_config.fr_piste_client_id}",
+        "WLM_FR_PISTE_CLIENT_SECRET": "${user_config.fr_piste_client_secret}",
+        "WLM_US_GOVINFO_KEY": "${user_config.us_govinfo_key}"
+      }
+    }
+  },
+  "user_config": {
+    "fr_piste_client_id": {"type": "string", "title": "France: PISTE client ID", "description": "Optional. From a free PISTE account; turns France on. Guide: https://github.com/ykarapazar/fontes/blob/main/docs/KEYS.md", "sensitive": true, "required": false, "default": ""},
+    "fr_piste_client_secret": {"type": "string", "title": "France: PISTE client secret", "description": "Optional. The secret that goes with the PISTE client ID.", "sensitive": true, "required": false, "default": ""},
+    "us_govinfo_key": {"type": "string", "title": "United States: api.data.gov key", "description": "Optional. A free api.data.gov key; without it US case-law search allows about 10 searches a day.", "sensitive": true, "required": false, "default": ""}
+  },
+  "tools": [
+    {"name": "list_jurisdictions", "description": "List the jurisdictions covered, their sources, tools and filters."},
+    {"name": "search_caselaw", "description": "Full-text search of court decisions in one jurisdiction."},
+    {"name": "get_decision", "description": "Fetch one court decision as markdown with its source URL."},
+    {"name": "search_legislation", "description": "Find laws, acts and statutory instruments in one jurisdiction."},
+    {"name": "get_legislation_toc", "description": "Table of contents of a law with provision labels."},
+    {"name": "get_legislation_provision", "description": "Current text of one article or section."},
+    {"name": "get_legislation_text", "description": "Full consolidated text of a law, pageable."},
+    {"name": "report_bug", "description": "Prepare a Fontes bug report; sent only if the user confirms it."}
+  ],
+  "compatibility": {
+    "platforms": ["darwin", "win32"],
+    "runtimes": {"python": ">=3.10"}
+  }
+}

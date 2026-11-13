@@ -1,0 +1,29 @@
+name: Request a jurisdiction
+description: Ask for a new country, court, or type of legislation.
+title: "[request] "
+labels: ["jurisdiction request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check [docs/COVERAGE.md](https://github.com/ykarapazar/fontes/blob/main/docs/COVERAGE.md) first: it lists, for each jurisdiction, what Fontes does not reach and why (for example, a source whose terms or robots.txt forbid automated access).
+        Fontes only uses official or public-body sources that allow automated access.
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      description: Country, region or international court.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is missing
+      description: Which courts or which kind of legislation.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Official website or API (if you know it)
+      description: Links to where the publisher puts the decisions or laws, and its terms of use if you found them.

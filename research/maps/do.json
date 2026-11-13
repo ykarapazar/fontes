@@ -1,0 +1,438 @@
+{
+  "code": "do",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://poderjudicial.gob.do/sobre-nosotros/organizacion-judicial/cortes-de-apelacion-y-equivalentes/",
+    "https://poderjudicial.gob.do/sobre-nosotros/organizacion-judicial/juzgados-de-paz-y-equivalentes/",
+    "https://poderjudicial.gob.do/suprema-corte-de-justicia/atribuciones-scj/"
+  ],
+  "courts": [
+    {
+      "name": "Tribunal Constitucional",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "its Azure Front Door blocks our client (HTTP 406)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Tribunal Constitucional (tc.gob.do)",
+        "url": "https://tribunalconstitucional.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Front Door HTTP 406 to our UA on every path incl. robots.txt; datos.gob.do sentencias dataset: robots Disallow /api/, bulk only"
+      }
+    },
+    {
+      "name": "Suprema Corte de Justicia",
+      "en": "Supreme Court of Justice (cassation)",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client; www times out",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Tribunal Superior Electoral",
+      "en": "Superior Electoral Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "partly",
+      "via": "Tribunal Superior Electoral – visor de sentencias (visorpdf.tse.do)",
+      "note": "contentious judgments 2021+ only; 2012-2020 on tse.do pages, not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Tribunal Superior Electoral – tse.do pages",
+        "url": "https://www.tse.do/",
+        "evidence": "src/world_legal_mcp/jurisdictions/do_.py; fetched 2026-11-07: tse.do robots.txt 'User-agent: * Allow: /' (Content-Signal use=reference)",
+        "note": "missing part: 2012-2020 judgments on tse.do WordPress pages, not wired in"
+      }
+    },
+    {
+      "name": "Cortes de Apelación – Cámaras Civiles y Comerciales",
+      "en": "Courts of Appeal – civil and commercial chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Cortes de Apelación – Cámaras Penales",
+      "en": "Courts of Appeal – criminal chambers",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Cortes de Apelación de Niños, Niñas y Adolescentes",
+      "en": "Children and adolescents courts of appeal",
+      "tier": "appeal",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Cortes de Trabajo",
+      "en": "Labour courts of appeal",
+      "tier": "appeal",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Tribunales Superiores de Tierras (5 departamentos)",
+      "en": "Superior Land Courts",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Tribunal Superior Administrativo (incl. former Tribunal Contencioso Tributario)",
+      "en": "Superior Administrative Court (administrative and tax)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia – Cámaras Civiles y Comerciales",
+      "en": "First-instance civil and commercial courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados de Primera Instancia – Salas de Familia / asuntos de familia",
+      "en": "First-instance family chambers",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Tribunales Colegiados y Unipersonales Penales (juicio)",
+      "en": "Criminal trial courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados de la Instrucción",
+      "en": "Criminal investigating-judge courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados de Ejecución de la Pena",
+      "en": "Sentence-enforcement courts",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados de Trabajo",
+      "en": "Labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Tribunales de Tierras de Jurisdicción Original",
+      "en": "Land courts of original jurisdiction",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Tribunales de Niños, Niñas y Adolescentes",
+      "en": "Children and adolescents courts (first instance)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados de Paz (ordinarios)",
+      "en": "Justice of the peace courts",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados Especiales de Tránsito",
+      "en": "Special traffic courts (peace level)",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    },
+    {
+      "name": "Juzgados de Paz para Asuntos Municipales",
+      "en": "Municipal-affairs peace courts",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "Poder Judicial site: Azure gateway 403 to our client",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Poder Judicial (poderjudicial.gob.do)",
+        "url": "https://poderjudicial.gob.do/",
+        "evidence": "research/do.md",
+        "note": "Azure Application Gateway 403 to our client; www times out; may be geo-restricted (retry from a DO IP)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitución de la República (2010, rev. 2015/2024)",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "Consultoría Jurídica: Cloudflare challenge on its search API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Consultoría Jurídica del Poder Ejecutivo",
+        "url": "https://www.consultoria.gov.do/consultas?tab=legislacion",
+        "evidence": "research/do.md; research/chatgpt/r2_b.md",
+        "note": "search API POST /api/consultas/search returns a Cloudflare managed challenge; terms §3 ban scraping that degrades service"
+      }
+    },
+    {
+      "name": "Leyes (incl. leyes orgánicas)",
+      "en": "Acts of Congress",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "Consultoría Jurídica Cloudflare challenge; Senado robots Crawl-delay 120 s; Cámara SIL enacted texts are scans",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Consultoría Jurídica del Poder Ejecutivo",
+        "url": "https://www.consultoria.gov.do/consultas?tab=legislacion",
+        "evidence": "research/do.md; research/chatgpt/r2_b.md",
+        "note": "search API POST /api/consultas/search returns a Cloudflare managed challenge; terms §3 ban scraping that degrades service"
+      }
+    },
+    {
+      "name": "Decretos del Poder Ejecutivo",
+      "en": "Presidential decrees",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "Consultoría Jurídica: Cloudflare challenge on its search API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Consultoría Jurídica del Poder Ejecutivo",
+        "url": "https://www.consultoria.gov.do/consultas?tab=legislacion",
+        "evidence": "research/do.md; research/chatgpt/r2_b.md",
+        "note": "search API POST /api/consultas/search returns a Cloudflare managed challenge; terms §3 ban scraping that degrades service"
+      }
+    },
+    {
+      "name": "Reglamentos y resoluciones",
+      "en": "Regulations and agency resolutions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Consultoría Jurídica del Poder Ejecutivo",
+        "url": "https://www.consultoria.gov.do/consultas?tab=legislacion",
+        "evidence": "research/do.md; research/chatgpt/r2_b.md",
+        "note": "resolutions are a Consultoría document type; search API POST /api/consultas/search returns a Cloudflare managed challenge; terms §3 ban scraping that degrades service"
+      }
+    },
+    {
+      "name": "Gaceta Oficial",
+      "en": "Official Gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "Consultoría Jurídica: Cloudflare challenge on its search API",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Consultoría Jurídica del Poder Ejecutivo",
+        "url": "https://www.consultoria.gov.do/consultas?tab=legislacion",
+        "evidence": "research/do.md; research/chatgpt/r2_b.md",
+        "note": "search API POST /api/consultas/search returns a Cloudflare managed challenge; terms §3 ban scraping that degrades service"
+      }
+    },
+    {
+      "name": "Resoluciones y ordenanzas municipales",
+      "en": "Municipal ordinances",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "municipal ordinances: not researched; no central source found"
+      }
+    },
+    {
+      "name": "Tratados y convenios internacionales",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "not built; see elsewhere",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Consultoría Jurídica del Poder Ejecutivo",
+        "url": "https://www.consultoria.gov.do/consultas?tab=legislacion",
+        "evidence": "research/do.md; research/chatgpt/r2_b.md",
+        "note": "treaties appear as ratifying resolutions in the Gaceta (coverage in Consultoría unverified); search API POST /api/consultas/search returns a Cloudflare managed challenge; terms §3 ban scraping that degrades service"
+      }
+    }
+  ]
+}

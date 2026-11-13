@@ -1,0 +1,2044 @@
+{
+  "code": "pk",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.lhc.gov.pk/district_judiciary",
+    "https://sindhhighcourt.gov.pk/district_courts_sindh.php",
+    "https://cases.districtcourtssindh.gos.pk/",
+    "https://www.peshawarhighcourt.gov.pk/app/site/",
+    "https://bhc.gov.pk/district-judiciary",
+    "https://ajkhighcourt.gok.pk/Userside/Judgement",
+    "https://www.gbcc.gov.pk/index.aspx"
+  ],
+  "unverified": true,
+  "courts": [
+    {
+      "name": "Federal Constitutional Court",
+      "en": "Federal Constitutional Court (27th Amendment, 2025)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Federal Constitutional Court of Pakistan",
+        "url": "https://fccp.gov.pk/",
+        "evidence": "fetched 2026-11-07: home page returns a 446-byte stub; search result shows cause lists and /download/ PDFs",
+        "note": "court set up 13 Nov 2025; judgments archive not confirmed"
+      }
+    },
+    {
+      "name": "Supreme Court of Pakistan",
+      "en": "Supreme Court",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "Akamai bot check (403)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of Pakistan – judgment search",
+        "url": "https://www.supremecourt.gov.pk/judgement-search/",
+        "evidence": "research in adapter docstring (src/world_legal_mcp/jurisdictions/pk.py)",
+        "note": "Akamai 'Access Denied' (403), robots.txt included"
+      }
+    },
+    {
+      "name": "Shariat Appellate Bench of the Supreme Court",
+      "en": "Shariat Appellate Bench (appeals from Federal Shariat Court)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "Akamai bot check (403) on the Supreme Court site",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of Pakistan – judgment search",
+        "url": "https://www.supremecourt.gov.pk/judgement-search/",
+        "evidence": "research in adapter docstring (src/world_legal_mcp/jurisdictions/pk.py)",
+        "note": "Akamai 'Access Denied' (403), robots.txt included; same site serves all SC benches"
+      }
+    },
+    {
+      "name": "Constitutional Benches of the Supreme Court (abolished 2025)",
+      "en": "Constitutional Benches (26th Amendment 2024; replaced by Federal Constitutional Court, 27th Amendment 2025)",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "Akamai bot check (403) on the Supreme Court site",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Court of Pakistan – judgment search",
+        "url": "https://www.supremecourt.gov.pk/judgement-search/",
+        "evidence": "research in adapter docstring (src/world_legal_mcp/jurisdictions/pk.py)",
+        "note": "Akamai 'Access Denied' (403), robots.txt included; same site serves all SC benches"
+      }
+    },
+    {
+      "name": "Federal Shariat Court",
+      "en": "Federal Shariat Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "times out",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Federal Shariat Court",
+        "url": "https://www.federalshariatcourt.gov.pk/",
+        "evidence": "fetched 2026-11-10: connection timed out (also 2026-11-06 and 2026-11-07)",
+        "note": "not reachable from UK"
+      }
+    },
+    {
+      "name": "Accountability Courts",
+      "en": "Accountability Courts (National Accountability Ordinance 1999)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Accountability Courts' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Banking Courts",
+      "en": "Banking Courts (Financial Institutions (Recovery of Finances) Ordinance 2001)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Banking Courts' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Special Courts (Offences in Banks)",
+      "en": "Special Courts (Offences in Banks)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Special Court (Offence in Banks)' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Special Courts (Control of Narcotic Substances)",
+      "en": "Special Courts CNS (Control of Narcotic Substances Act 1997; federal, ANF cases)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Special Court (CNS)' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Special Judges (Customs, Taxation & Anti-Smuggling)",
+      "en": "Customs, Taxation & Anti-Smuggling Courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Custom, Taxation & Anti Smuggling Court' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Special Judges Central",
+      "en": "Special Judge Central (FIA cases, Pakistan Criminal Law Amendment Act 1958)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "Special Judge Central: no source checked in this round"
+      }
+    },
+    {
+      "name": "Gas Utility Courts",
+      "en": "Gas Utility Courts (Gas (Theft Control and Recovery) Act 2016)",
+      "tier": "first-instance",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Gas Theft' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Intellectual Property Tribunals (3)",
+      "en": "IP Tribunals (IPO-Pakistan Act 2012: Islamabad, Lahore, Karachi)",
+      "tier": "first-instance",
+      "branch": "ip",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "IPO-Pakistan – IP Tribunals page",
+        "url": "https://ipo.gov.pk/resources_tribunals",
+        "evidence": "fetched 2026-11-10: IPO 'IP Tribunals' page opened; PDFs linked are IPO Act/rules/filing guides, no tribunal decisions seen",
+        "note": "Sindh CFMS also lists 'Intellectual Property Tribunal' as a court type (case status only)"
+      }
+    },
+    {
+      "name": "Insurance Tribunals",
+      "en": "Insurance Tribunals (Insurance Ordinance 2000)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Insurance Tribunal' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Appellate Tribunal Inland Revenue",
+      "en": "ATIR (income tax / sales tax appeals; benches Islamabad, Lahore, Karachi, Peshawar, Multan)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Appellate Tribunal Inland Revenue – Judgements",
+        "url": "https://atir.gov.pk/Judgements",
+        "evidence": "fetched 2026-11-10: page 200 but 'Judgments No Record Found In Database'",
+        "note": "judgments page exists but is empty"
+      }
+    },
+    {
+      "name": "Customs Appellate Tribunal",
+      "en": "Customs, Excise & Sales Tax Appellate Tribunal (Customs Act 1969 s.194)",
+      "tier": "specialised",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Customs, Excise & Sales Tax Appellate Tribunal' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Federal Service Tribunal",
+      "en": "Federal Service Tribunal (civil servants' service appeals)",
+      "tier": "specialised",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Federal Service Tribunal",
+        "url": "https://www.fst.gov.pk/",
+        "evidence": "fetched 2026-11-10: www.fst.gov.pk redirects to /cgi-sys/suspendedpage.cgi (hosting account suspended)",
+        "note": "Sindh CFMS also lists 'Federal Service Tribunal' as a court type (case status only)"
+      }
+    },
+    {
+      "name": "Foreign Exchange Appellate Tribunal",
+      "en": "Foreign Exchange Appellate Tribunal",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Sindh District Courts – CFMS case search",
+        "url": "https://cases.districtcourtssindh.gos.pk/",
+        "evidence": "fetched 2026-11-10: public case search lists court type 'Foreign Exchange Appellate Tribunal' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+        "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+      }
+    },
+    {
+      "name": "Competition Appellate Tribunal",
+      "en": "Competition Appellate Tribunal (Competition Act 2010)",
+      "tier": "specialised",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Competition Appellate Tribunal",
+        "url": "https://cat.gov.pk/",
+        "evidence": "fetched 2026-11-10: connection timed out",
+        "note": ""
+      }
+    },
+    {
+      "name": "National Industrial Relations Commission",
+      "en": "NIRC (Industrial Relations Act 2012; trans-provincial labour disputes)",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "National Industrial Relations Commission",
+        "url": "https://nirc.gov.pk/",
+        "evidence": "fetched 2026-11-10: connection timed out",
+        "note": ""
+      }
+    },
+    {
+      "name": "Election Tribunals",
+      "en": "Election Tribunals (Elections Act 2017; serving/retired High Court judges)",
+      "tier": "specialised",
+      "branch": "electoral",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "Election tribunals: no source checked in this round"
+      }
+    },
+    {
+      "name": "Courts martial",
+      "en": "General / Field General / District Courts Martial (Pakistan Army Act 1952, Navy Ordinance 1961, Air Force Act 1953)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "Courts martial (incl. trials of civilians 2015-2019 and 2023): no source checked in this round"
+      }
+    },
+    {
+      "name": "Military Courts of Appeal",
+      "en": "Court of Appeal (Pakistan Army Act 1952 s.133-B)",
+      "tier": "appeal",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "not checked",
+        "note": "Military Courts of Appeal: no source checked in this round"
+      }
+    }
+  ],
+  "states": [
+    {
+      "name": "Islamabad Capital Territory",
+      "courts": [
+        {
+          "name": "Islamabad High Court",
+          "en": "Islamabad High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "yes",
+          "via": "Islamabad High Court (mis.ihc.gov.pk) – Case Law System",
+          "note": ""
+        },
+        {
+          "name": "Sessions Courts (District & Sessions Judges, Additional Sessions Judges)",
+          "en": "Sessions courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; Islamabad East and Islamabad West sessions divisions",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "District Courts (District Judges, Additional District Judges)",
+          "en": "District courts (civil appeals and suits)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; Islamabad East and Islamabad West sessions divisions",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Civil Courts (Senior Civil Judges, Civil Judges)",
+          "en": "Civil judges' courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; Islamabad East and Islamabad West sessions divisions",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Judicial Magistrates",
+          "en": "Judicial magistrates' courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; Islamabad East and Islamabad West sessions divisions",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Family Courts",
+          "en": "Family courts (West Pakistan Family Courts Act 1964)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; Islamabad East and Islamabad West sessions divisions",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Guardian Courts",
+          "en": "Guardian courts (Guardians and Wards Act 1890)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; Islamabad East and Islamabad West sessions divisions",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Juvenile Courts",
+          "en": "Juvenile courts (Juvenile Justice System Act 2018)",
+          "tier": "first-instance",
+          "branch": "juvenile",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; Islamabad East and Islamabad West sessions divisions",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Rent Controllers (Islamabad)",
+          "en": "Rent controllers (Islamabad Rent Restriction Ordinance 2001)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Anti-Terrorism Courts (Islamabad)",
+          "en": "Anti-Terrorism Courts (Anti-Terrorism Act 1997)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Consumer Courts (Islamabad)",
+          "en": "Consumer courts (ICT Consumers Protection Act 1995)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        },
+        {
+          "name": "Environmental Protection Tribunal (Islamabad)",
+          "en": "Environmental Protection Tribunal (Pakistan Environmental Protection Act 1997)",
+          "tier": "specialised",
+          "branch": "environment",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "District & Sessions Courts Islamabad",
+            "url": "https://dsjislamabad.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (no response within 20 s)",
+            "note": "no other source checked"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Punjab",
+      "courts": [
+        {
+          "name": "Lahore High Court",
+          "en": "Lahore High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "times out; principal seat Lahore, benches Rawalpindi, Multan, Bahawalpur",
+          "elsewhere": {
+            "status": "available",
+            "source": "Lahore High Court – Reported Judgments",
+            "url": "https://www.lhc.gov.pk/reported_judgments",
+            "evidence": "fetched 2026-11-07: page 200 with 'Judgments Approved for Reporting by Sitting Judges / Former Judges'",
+            "note": "judgment database data.lhc.gov.pk timed out (2026-11-06 and 2026-11-07); this list on the main site is reachable"
+          }
+        },
+        {
+          "name": "Sessions Courts (District & Sessions Judges, Additional Sessions Judges)",
+          "en": "Sessions courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "District Courts (District Judges, Additional District Judges)",
+          "en": "District courts (civil appeals and suits)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Civil Courts (Senior Civil Judges, Civil Judges)",
+          "en": "Civil judges' courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Judicial Magistrates",
+          "en": "Judicial magistrates' courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Family Courts",
+          "en": "Family courts (West Pakistan Family Courts Act 1964)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Guardian Courts",
+          "en": "Guardian courts (Guardians and Wards Act 1890)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Juvenile Courts",
+          "en": "Juvenile courts (Juvenile Justice System Act 2018)",
+          "tier": "first-instance",
+          "branch": "juvenile",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Commercial Courts (Punjab)",
+          "en": "Commercial courts (designated civil courts for commercial disputes)",
+          "tier": "first-instance",
+          "branch": "commercial",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Lahore High Court – Commercial Courts",
+            "url": "https://commercial.lhc.gov.pk",
+            "evidence": "fetched 2026-11-10: linked from LHC District Judiciary page; site did not respond",
+            "note": ""
+          }
+        },
+        {
+          "name": "Rent Tribunals (Punjab)",
+          "en": "Rent tribunals (Punjab Rented Premises Act 2009)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Anti-Terrorism Courts (Punjab)",
+          "en": "Anti-Terrorism Courts (Anti-Terrorism Act 1997)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Special Judges Anti-Corruption (Punjab)",
+          "en": "Anti-corruption courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Special Courts CNS (Punjab, provincial)",
+          "en": "Narcotics courts (Punjab Control of Narcotic Substances Act)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Drug Courts (Punjab)",
+          "en": "Drug courts (Drugs Act 1976)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Consumer Courts (Punjab)",
+          "en": "District consumer courts (Punjab Consumer Protection Act 2005)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Labour Courts (Punjab)",
+          "en": "Labour courts (Punjab Industrial Relations Act 2010)",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "offline",
+            "source": "Lahore High Court – District Judiciary",
+            "url": "https://www.lhc.gov.pk/district_judiciary",
+            "evidence": "fetched 2026-11-10: LHC District Judiciary page links case management plan, judicial officer lists, 'Performance Reports of District Judiciary' (dsj.punjab.gov.pk/login) and Commercial Courts; no judgment database",
+            "note": "no publication of district court judgments found on the LHC hub; dsj.punjab.gov.pk did not respond; individual district sites not checked"
+          }
+        },
+        {
+          "name": "Punjab Labour Appellate Tribunal",
+          "en": "Punjab Labour Appellate Tribunal",
+          "tier": "appeal",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Punjab Labour Appellate Tribunal: no source checked in this round"
+          }
+        },
+        {
+          "name": "Environmental Protection Tribunal (Punjab)",
+          "en": "Punjab Environmental Protection Tribunal",
+          "tier": "specialised",
+          "branch": "environment",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Punjab Environmental Protection Tribunal: no source checked in this round"
+          }
+        },
+        {
+          "name": "Punjab Service Tribunal",
+          "en": "Punjab Service Tribunal",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Punjab Service Tribunal",
+            "url": "https://pst.punjab.gov.pk/",
+            "evidence": "fetched 2026-11-10: connection timed out",
+            "note": ""
+          }
+        },
+        {
+          "name": "Revenue Courts (Punjab Board of Revenue, Commissioners, Collectors)",
+          "en": "Revenue courts (Punjab Land Revenue Act 1967)",
+          "tier": "specialised",
+          "branch": "land",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Punjab revenue courts: no source checked in this round"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sindh",
+      "courts": [
+        {
+          "name": "Sindh High Court",
+          "en": "Sindh High Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "needs a login; principal seat Karachi (also original civil jurisdiction for Karachi), benches/circuit courts Sukkur, Hyderabad, Larkana, Mirpurkhas",
+          "elsewhere": {
+            "status": "blocked",
+            "source": "Sindh High Court case law",
+            "url": "https://caselaw.shc.gov.pk/",
+            "evidence": "research in adapter docstring (src/world_legal_mcp/jurisdictions/pk.py)",
+            "note": "caselaw.shc.gov.pk redirects to a login page. Re-checked 2026-11-10: the SHC home page links caselaw pages on raw-IP hosts (43.245.130.98:8056) through 'Login.jsp?u=shc&p=shc' links that pass a shared login in the URL, and a 'Caselaw V2.0 (Beta)' page with Search/View/Download plus Sign Up/Login; its 'Seat/Bench/Court Wise' link returned 404. Not used (login)."
+          }
+        },
+        {
+          "name": "Sindh Subordinate Judiciary Service Tribunal",
+          "en": "Service tribunal for subordinate judicial officers (sits in SHC)",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh High Court – cause lists",
+            "url": "https://sindhhighcourt.gov.pk/causelist.php",
+            "evidence": "fetched 2026-11-10: SHC home page links 'Cause List of Sindh Subordinate Judiciary Service Tribunal'",
+            "note": "decisions not located"
+          }
+        },
+        {
+          "name": "Sessions Courts (District & Sessions Judges, Additional Sessions Judges)",
+          "en": "Sessions courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; 28 judicial districts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "District Courts (District Judges, Additional District Judges)",
+          "en": "District courts (civil appeals and suits)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; 28 judicial districts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "Civil Courts (Senior Civil Judges, Civil Judges)",
+          "en": "Civil judges' courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; 28 judicial districts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "Judicial Magistrates",
+          "en": "Judicial magistrates' courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; 28 judicial districts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "Family Courts",
+          "en": "Family courts (West Pakistan Family Courts Act 1964)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; 28 judicial districts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "Guardian Courts",
+          "en": "Guardian courts (Guardians and Wards Act 1890)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; 28 judicial districts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "Juvenile Courts",
+          "en": "Juvenile courts (Juvenile Justice System Act 2018)",
+          "tier": "first-instance",
+          "branch": "juvenile",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; 28 judicial districts",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "Rent Controllers (Sindh)",
+          "en": "Rent controllers (Sindh Rented Premises Ordinance 1979)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search over 28 judicial districts (5 Karachi + 23 others), court type 'District Courts', case categories and police stations; robots.txt 'Disallow:' (empty)",
+            "note": "case-status search and cause lists; whether judgment/order text is attached is unverified"
+          }
+        },
+        {
+          "name": "Commercial Courts (Sindh)",
+          "en": "Special Court Commercial and Commercial Courts (Magistrate)",
+          "tier": "first-instance",
+          "branch": "commercial",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Special Court Commercial' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Anti-Terrorism Courts (Sindh)",
+          "en": "Anti-Terrorism Courts (Anti-Terrorism Act 1997)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Anti-Terrorism Courts' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Anti-Corruption Courts (Sindh)",
+          "en": "Special Judges Anti-Corruption",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Anti Corruption Courts' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Special Courts CNS (Sindh, provincial)",
+          "en": "Narcotics courts (Sindh Control of Narcotic Substances Act 2024)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Special Court (CNS,Provincial)' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Drug Courts (Sindh)",
+          "en": "Drug courts (Drugs Act 1976)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Drug Court' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Consumer Protection Courts (Sindh)",
+          "en": "Consumer courts (Sindh Consumer Protection Act 2014)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Consumer Protection Court' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Labour Courts (Sindh)",
+          "en": "Labour courts (Sindh Industrial Relations Act 2013)",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Labour Courts' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Sindh Labour Appellate Tribunal",
+          "en": "Sindh Labour Appellate Tribunal",
+          "tier": "appeal",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Sindh Labour Appellate Tribunal: no source checked in this round"
+          }
+        },
+        {
+          "name": "Environmental Protection Tribunal (Sindh)",
+          "en": "Sindh Environmental Protection Tribunal",
+          "tier": "specialised",
+          "branch": "environment",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Environmental Protection Tribunal' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Anti-Encroachment Tribunals (Sindh)",
+          "en": "Anti-encroachment tribunals (Sindh Public Property (Removal of Encroachment) Act 2010)",
+          "tier": "specialised",
+          "branch": "land",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Removal of Anti Encroachment' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Appellate Tribunal Sindh Revenue Board",
+          "en": "Appellate Tribunal SRB (sales tax on services)",
+          "tier": "specialised",
+          "branch": "tax",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Appellate Tribunal Sindh Revenue Board' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Appellate Tribunal Local Councils Sindh",
+          "en": "Appellate Tribunal Local Councils Sindh",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Appellate Tribunal Local Councils Sindh' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Karachi Water & Sewerage Corporation Tribunal",
+          "en": "KW&SC Tribunal",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh District Courts – CFMS case search",
+            "url": "https://cases.districtcourtssindh.gos.pk/",
+            "evidence": "fetched 2026-11-10: public case search lists court type 'Karachi Water & Sewearge Corporation Tribunal' (case status / cause lists); robots.txt 'Disallow:' (empty)",
+            "note": "case-status search for courts sitting in Sindh; whether judgment/order text is attached is unverified; no other source checked"
+          }
+        },
+        {
+          "name": "Sindh Service Tribunal",
+          "en": "Sindh Service Tribunal",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Sindh Service Tribunal",
+            "url": "https://www.sindhservicestribunal.gos.pk/",
+            "evidence": "fetched 2026-11-10: connection timed out",
+            "note": ""
+          }
+        },
+        {
+          "name": "Revenue Courts (Board of Revenue Sindh)",
+          "en": "Revenue courts (Sindh Land Revenue Act 1967)",
+          "tier": "specialised",
+          "branch": "land",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Sindh revenue courts: no source checked in this round"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Khyber Pakhtunkhwa",
+      "courts": [
+        {
+          "name": "Peshawar High Court",
+          "en": "Peshawar High Court (principal seat Peshawar; benches Abbottabad, Mingora (Dar-ul-Qaza, Swat), Bannu, D.I. Khan)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "not built yet",
+          "elsewhere": {
+            "status": "available",
+            "source": "Peshawar High Court – Reported Judgments",
+            "url": "https://www.peshawarhighcourt.gov.pk/PHCCMS/reportedJudgments.php",
+            "evidence": "fetched 2026-11-10: page 200, 'Peshawar High Court Reported Judgment' filter by year (2010-2026) and judge; 2026-11-07: site menu 'Judgments: All the Referred, Reported Judgments'",
+            "note": ""
+          }
+        },
+        {
+          "name": "Dar-ul-Qaza and Qazi courts (Malakand Division)",
+          "en": "Dar-ul-Qaza (PHC appellate bench) and Zila/Ilaqa Qazi courts (Shari Nizam-e-Adl Regulation 2009)",
+          "tier": "specialised",
+          "branch": "other",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; status after the 2018 PATA/FATA merger unverified",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Sessions Courts (District & Sessions Judges, Additional Sessions Judges)",
+          "en": "Sessions courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; includes merged ex-FATA districts since 2018",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "District Courts (District Judges, Additional District Judges)",
+          "en": "District courts (civil appeals and suits)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; includes merged ex-FATA districts since 2018",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Civil Courts (Senior Civil Judges, Civil Judges)",
+          "en": "Civil judges' courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; includes merged ex-FATA districts since 2018",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Judicial Magistrates",
+          "en": "Judicial magistrates' courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; includes merged ex-FATA districts since 2018",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Family Courts",
+          "en": "Family courts (West Pakistan Family Courts Act 1964)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; includes merged ex-FATA districts since 2018",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Guardian Courts",
+          "en": "Guardian courts (Guardians and Wards Act 1890)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; includes merged ex-FATA districts since 2018",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Juvenile Courts",
+          "en": "Juvenile courts (Juvenile Justice System Act 2018)",
+          "tier": "first-instance",
+          "branch": "juvenile",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed; includes merged ex-FATA districts since 2018",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Rent Controllers (KP)",
+          "en": "Rent controllers (KP Rented Premises Act 2019)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Anti-Terrorism Courts (KP)",
+          "en": "Anti-Terrorism Courts (Anti-Terrorism Act 1997)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Special Judges Anti-Corruption (KP)",
+          "en": "Anti-corruption courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Drug Courts (KP)",
+          "en": "Drug courts (Drugs Act 1976)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Consumer Courts (KP)",
+          "en": "Consumer courts (KP Consumers Protection Act 1997)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Labour Courts (KP)",
+          "en": "Labour courts (KP Industrial Relations Act 2010)",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "KP District Courts – CFMIS portal / district court websites",
+            "url": "https://cfmisdcportal.peshawarhighcourt.gov.pk/",
+            "evidence": "fetched 2026-11-10: CFMIS district courts portal is an empty JavaScript app shell; PHC home page links ~20 separate district court websites (e.g. mardandc.peshawarhighcourt.gov.pk returned nothing)",
+            "note": "whether any district site publishes judgments is unverified"
+          }
+        },
+        {
+          "name": "Environmental Protection Tribunal (KP)",
+          "en": "KP Environmental Protection Tribunal",
+          "tier": "specialised",
+          "branch": "environment",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "KP Environmental Protection Tribunal: no source checked in this round"
+          }
+        },
+        {
+          "name": "Khyber Pakhtunkhwa Service Tribunal",
+          "en": "KP Service Tribunal",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "available",
+            "source": "KP Service Tribunal – Judgments & Orders Repository",
+            "url": "http://cfmis.kpst.gov.pk/kpstjudgment/Appeal.php",
+            "evidence": "fetched 2026-11-10: page 200 'Judgments & Orders Repository' with search by appeal no., title, author, bench, type (Judgment/Order/Short); robots.txt 404; linked from kpst.gov.pk",
+            "note": "plain http; results not yet opened"
+          }
+        },
+        {
+          "name": "Revenue Courts (Board of Revenue KP)",
+          "en": "Revenue courts (KP Land Revenue Act 1967)",
+          "tier": "specialised",
+          "branch": "land",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "KP revenue courts: no source checked in this round"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Balochistan",
+      "courts": [
+        {
+          "name": "High Court of Balochistan",
+          "en": "Balochistan High Court (principal seat Quetta; benches Sibi, Turbat)",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "not built yet",
+          "elsewhere": {
+            "status": "available",
+            "source": "Balochistan High Court – judgments portal",
+            "url": "https://portal.bhc.gov.pk/judgments",
+            "evidence": "fetched 2026-11-10: portal.bhc.gov.pk/judgments 200 (2.8 KB JavaScript app shell); 2026-11-07: bhc.gov.pk links it and 'Significant Judgments' (bhc.gov.pk/resources/judgments)",
+            "note": "portal is JavaScript-rendered; portal robots.txt request got Mod_Security 406"
+          }
+        },
+        {
+          "name": "Sessions Courts (District & Sessions Judges, Additional Sessions Judges)",
+          "en": "Sessions courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "District Courts (District Judges, Additional District Judges)",
+          "en": "District courts (civil appeals and suits)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Civil Courts (Senior Civil Judges, Civil Judges)",
+          "en": "Civil judges' courts",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Judicial Magistrates",
+          "en": "Judicial magistrates' courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Family Courts",
+          "en": "Family courts (West Pakistan Family Courts Act 1964)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Guardian Courts",
+          "en": "Guardian courts (Guardians and Wards Act 1890)",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Juvenile Courts",
+          "en": "Juvenile courts (Juvenile Justice System Act 2018)",
+          "tier": "first-instance",
+          "branch": "juvenile",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Anti-Terrorism Courts (Balochistan)",
+          "en": "Anti-Terrorism Courts (Anti-Terrorism Act 1997)",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Special Judges Anti-Corruption (Balochistan)",
+          "en": "Anti-corruption courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Consumer Courts (Balochistan)",
+          "en": "Consumer courts (Balochistan Consumer Protection Act 2003)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Labour Courts (Balochistan)",
+          "en": "Labour courts (Balochistan Industrial Relations Act)",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "High Court of Balochistan – District Judiciary",
+            "url": "https://bhc.gov.pk/district-judiciary",
+            "evidence": "fetched 2026-11-10: District Judiciary page opened; only judgments link is the BHC portal; district statistics page linked (bhc.gov.pk/publications/statistics/district-courts)",
+            "note": "no district court judgment publication found; not confirmed absent"
+          }
+        },
+        {
+          "name": "Environmental Protection Tribunal (Balochistan)",
+          "en": "Balochistan Environmental Protection Tribunal",
+          "tier": "specialised",
+          "branch": "environment",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Balochistan Environmental Protection Tribunal: no source checked in this round"
+          }
+        },
+        {
+          "name": "Balochistan Service Tribunal",
+          "en": "Balochistan Service Tribunal",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Balochistan Service Tribunal: no source checked in this round"
+          }
+        },
+        {
+          "name": "Revenue Courts (Board of Revenue Balochistan)",
+          "en": "Revenue courts",
+          "tier": "specialised",
+          "branch": "land",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "",
+            "url": "",
+            "evidence": "not checked",
+            "note": "Balochistan revenue courts: no source checked in this round"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Azad Jammu and Kashmir",
+      "courts": [
+        {
+          "name": "Supreme Court of Azad Jammu and Kashmir",
+          "en": "AJK Supreme Court",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Supreme Court of AJ&K",
+            "url": "https://ajksupremecourt.gok.pk/",
+            "evidence": "fetched 2026-11-10: HTTP 500 (72 KB error page)",
+            "note": ""
+          }
+        },
+        {
+          "name": "High Court of Azad Jammu and Kashmir",
+          "en": "AJK High Court (Muzaffarabad; circuit benches Mirpur, Rawalakot, Kotli)",
+          "tier": "appeal",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "available",
+            "source": "AJK High Court – Judgments",
+            "url": "https://ajkhighcourt.gok.pk/Userside/Judgement",
+            "evidence": "fetched 2026-11-10: 'AJK High Court Judgments – Search published judgments by year, bench and case category' (years 1950-2026; civil, constitutional, corporate, criminal, family, revenue, service, writ)",
+            "note": "results not yet opened"
+          }
+        },
+        {
+          "name": "District Courts and Qazi Courts (AJK)",
+          "en": "District & Sessions Judges, Civil Judges, District/Tehsil Qazis, magistrates",
+          "tier": "first-instance",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "AJ&K District Courts",
+            "url": "https://ajkdistrictcourts.gok.pk/",
+            "evidence": "fetched 2026-11-10: connection failed (linked from ajkhighcourt.gok.pk)",
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gilgit-Baltistan",
+      "courts": [
+        {
+          "name": "Supreme Appellate Court Gilgit-Baltistan",
+          "en": "Supreme Appellate Court GB",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Supreme Appellate Court GB",
+            "url": "https://www.supremeappellatecourt.gog.pk/",
+            "evidence": "fetched 2026-11-10: connection timed out",
+            "note": ""
+          }
+        },
+        {
+          "name": "Gilgit-Baltistan Chief Court",
+          "en": "GB Chief Court",
+          "tier": "appeal",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "available",
+            "source": "GB Chief Court – Reported Judgments & Orders",
+            "url": "https://www.gbcc.gov.pk/ReportedJudgments.aspx",
+            "evidence": "fetched 2026-11-10: page 200 'Reported Judgments & Orders – Search by Keyword, Bench, or Decision Year'",
+            "note": "ASP.NET form; results not yet opened"
+          }
+        },
+        {
+          "name": "Sessions Courts (GB)",
+          "en": "District & Sessions Judges, Additional D&SJ",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Gilgit-Baltistan Chief Court – District Judiciary",
+            "url": "https://www.gbcc.gov.pk/DistrictJudiciary.aspx",
+            "evidence": "fetched 2026-11-10: GBCC site lists District & Sessions Judges, Addl. D&SJ, Senior Civil Judges, Civil Judges; only judgments link is the Chief Court's own",
+            "note": "no district court judgment publication found"
+          }
+        },
+        {
+          "name": "Civil Courts (GB)",
+          "en": "Senior Civil Judges, Civil Judges",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no source confirmed",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Gilgit-Baltistan Chief Court – District Judiciary",
+            "url": "https://www.gbcc.gov.pk/DistrictJudiciary.aspx",
+            "evidence": "fetched 2026-11-10: GBCC site lists District & Sessions Judges, Addl. D&SJ, Senior Civil Judges, Civil Judges; only judgments link is the Chief Court's own",
+            "note": "no district court judgment publication found"
+          }
+        }
+      ]
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Constitution of Pakistan 1973",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice",
+      "note": "Linux TLS issue on pakistancode.gov.pk"
+    },
+    {
+      "name": "Federal Acts / Ordinances",
+      "en": "Federal Acts and ordinances",
+      "level": "primary",
+      "reached": "yes",
+      "via": "The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice",
+      "note": "Linux TLS issue"
+    },
+    {
+      "name": "Federal Rules / SROs",
+      "en": "Rules and statutory orders",
+      "level": "secondary",
+      "reached": "partly",
+      "via": "The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice",
+      "note": "categories on Pakistan Code; coverage not checked",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gazette of Pakistan – Printing Corporation of Pakistan",
+        "url": "https://www.pcp.gov.pk/",
+        "evidence": "fetched 2026-11-07: connection timed out",
+        "note": "missing part = SROs not on Pakistan Code (coverage unverified); gazette host unreachable"
+      }
+    },
+    {
+      "name": "Gazette of Pakistan",
+      "en": "Gazette of Pakistan",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Gazette of Pakistan – Printing Corporation of Pakistan",
+        "url": "https://www.pcp.gov.pk/",
+        "evidence": "fetched 2026-11-07: connection timed out",
+        "note": "not reachable from UK"
+      }
+    },
+    {
+      "name": "Provincial Acts",
+      "en": "Provincial legislation",
+      "level": "sub-national",
+      "reached": "no",
+      "via": null,
+      "note": "Provincial codes: Sindh Laws, KP Code, Balochistan Code (Punjab Code): not built yet",
+      "elsewhere": {
+        "status": "available",
+        "source": "Provincial codes: Sindh Laws, KP Code, Balochistan Code (Punjab Code)",
+        "url": "https://sindhlaws.gov.pk/",
+        "evidence": "fetched 2026-11-07: sindhlaws.gov.pk 200 (Acts list), kpcode.kp.gov.pk 200, balochistancode.gob.pk 200 (alphabetical/chronological lists); punjabcode.punjab.gov.pk timed out",
+        "note": "one site per province; Punjab unreachable from UK"
+      }
+    },
+    {
+      "name": "Treaties",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "no source confirmed",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no treaty database found; MOFA not checked"
+      }
+    }
+  ]
+}

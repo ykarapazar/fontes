@@ -1,0 +1,212 @@
+{
+  "code": "lv",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://www.tiesas.lv/tiesu-sistema"
+  ],
+  "courts": [
+    {
+      "name": "Satversmes tiesa",
+      "en": "Constitutional Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "site unreachable from our client (timeout)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Satversmes tiesa – nolēmumi",
+        "url": "https://www.satv.tiesa.gov.lv/",
+        "evidence": "tried 2026-11-07: satv.tiesa.gov.lv timed out from our client and from WebFetch; search results show judgment PDFs hosted there",
+        "note": "site unreachable from UK/US (maybe geo-filtered); judgments also printed in Latvijas Vēstnesis (re-use needs consent)"
+      }
+    },
+    {
+      "name": "Augstākā tiesa (Senāts) – Civillietu departaments",
+      "en": "Supreme Court (Senate) – Civil Cases Department",
+      "tier": "apex",
+      "branch": "civil",
+      "reached": "yes",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "decisions since 2007 (court filter 'supreme')"
+    },
+    {
+      "name": "Augstākā tiesa (Senāts) – Krimināllietu departaments",
+      "en": "Supreme Court (Senate) – Criminal Cases Department",
+      "tier": "apex",
+      "branch": "criminal",
+      "reached": "yes",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "decisions since 2007 (court filter 'supreme')"
+    },
+    {
+      "name": "Augstākās tiesas Administratīvo lietu departaments",
+      "en": "Supreme Court, Administrative Cases Department",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "process_type=administrative; since 2007"
+    },
+    {
+      "name": "Apgabaltiesas (5: Rīga, Vidzeme, Kurzeme, Zemgale, Latgale)",
+      "en": "Regional courts (appeal; some first instance)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "anonymised decisions published since 2007"
+    },
+    {
+      "name": "Administratīvā apgabaltiesa",
+      "en": "Administrative Regional Court",
+      "tier": "appeal",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "anonymised decisions since 2007"
+    },
+    {
+      "name": "Rajona (pilsētas) tiesas (9)",
+      "en": "District (city) courts – civil and criminal",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "anonymised decisions since 2007"
+    },
+    {
+      "name": "Rajona (pilsētas) tiesu zemesgrāmatu nodaļas",
+      "en": "Land registry offices of the district courts (land-book judges)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "partly",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "source covers district-court decisions generally; whether land-registry judges' decisions are included is unverified",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Valsts vienotā datorizētā zemesgrāmata (land register)",
+        "url": "https://www.zemesgramata.lv/",
+        "evidence": "search result only",
+        "note": "land-book decisions are register entries; no separate case-law publication found"
+      }
+    },
+    {
+      "name": "Administratīvā rajona tiesa",
+      "en": "Administrative District Court",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "yes",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "anonymised decisions since 2007"
+    },
+    {
+      "name": "Ekonomisko lietu tiesa",
+      "en": "Economic Court",
+      "tier": "specialised",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+      "note": "portal searches all courts but no economic-court filter; coverage not checked",
+      "elsewhere": {
+        "status": "available",
+        "source": "Anonimizētie nolēmumi – CC0 CSV index (data.gov.lv / dagr.gov.lv)",
+        "url": "https://dagr.gov.lv/public/kkp_prod_anon_nolemumi?filename=kkp_prod_anon_nolemumi.csv",
+        "evidence": "fetched 2026-11-07: CSV has 588 rows with Court='Ekonomisko lietu tiesa'",
+        "note": "decisions ARE in the corpus Fontes reaches; missing part is a court filter (CSV Court column / API department)"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Satversme",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "likumi.lv robots.txt disallows search; re-use needs Latvijas Vēstnesis written consent",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Likumi.lv (Latvijas Vēstnesis)",
+        "url": "https://likumi.lv/",
+        "evidence": "research/SIGNUPS.md + research/chatgpt/validation-euam.md",
+        "note": "robots.txt disallows /search.php*; re-use needs Latvijas Vēstnesis written consent (law pages /ta/id/ are allowed)"
+      }
+    },
+    {
+      "name": "Likumi",
+      "en": "Laws of the Saeima",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "likumi.lv: robots.txt / written consent required; titania.saeima.lv Disallow: /",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Likumi.lv (Latvijas Vēstnesis)",
+        "url": "https://likumi.lv/",
+        "evidence": "research/SIGNUPS.md + research/chatgpt/validation-euam.md",
+        "note": "robots.txt disallows search; written consent for re-use; titania.saeima.lv 'Disallow: /'"
+      }
+    },
+    {
+      "name": "Ministru kabineta noteikumi",
+      "en": "Cabinet regulations",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "likumi.lv: robots.txt / written consent required",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Likumi.lv (Latvijas Vēstnesis)",
+        "url": "https://likumi.lv/",
+        "evidence": "research/SIGNUPS.md + research/chatgpt/validation-euam.md",
+        "note": "robots.txt disallows search; written consent for re-use"
+      }
+    },
+    {
+      "name": "Latvijas Vēstnesis",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "re-use needs written consent",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Latvijas Vēstnesis (vestnesis.lv)",
+        "url": "https://www.vestnesis.lv/",
+        "evidence": "research/chatgpt/validation-euam.md + research/SIGNUPS.md",
+        "note": "robots Crawl-delay 1 only, but re-use needs written consent (SIGNUPS)"
+      }
+    },
+    {
+      "name": "Pašvaldību saistošie noteikumi",
+      "en": "Municipal binding regulations",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "on likumi.lv; same restriction",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Likumi.lv (Latvijas Vēstnesis)",
+        "url": "https://likumi.lv/",
+        "evidence": "research/SIGNUPS.md + research/chatgpt/validation-euam.md",
+        "note": "on likumi.lv; same consent requirement"
+      }
+    },
+    {
+      "name": "Starptautiskie līgumi",
+      "en": "International agreements",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "on likumi.lv; same restriction",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Likumi.lv (Latvijas Vēstnesis)",
+        "url": "https://likumi.lv/",
+        "evidence": "research/SIGNUPS.md + research/chatgpt/validation-euam.md",
+        "note": "on likumi.lv; same consent requirement"
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+> Šis ir tulkojums, kas sagatavots ar mašīntulkošanas palīdzību. Noteicošā ir angļu valodas versija.
+
+# Fontes: jautājumi un atbildes
+
+## Kas ir Fontes?
+
+Bezmaksas atvērtā koda MCP serveris (Apache 2.0). Tas ļauj jebkurai lietotnei, kas izmanto
+Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI un citām), tiešsaistē meklēt
+tiesu nolēmumus un tiesību aktus tiesu un valsts iestāžu tīmekļa vietnēs vairāk nekā 120
+jurisdikcijās un starptautiskajās tiesās (124 adapteri). Katrs rezultāts nosauc savu avotu un
+sniedz saiti uz oriģinālu.
+
+## Vai teksti ir oficiāli?
+
+Lielākoties, bet ne vienmēr.
+
+- Lielāko daļu avotu uztur tiesa, ministrija vai oficiālais izdevums.
+- Dažus konsolidētos tekstus publicē valdība, taču tie ir skaidri norādīti kā neoficiāli:
+  autentisks ir tikai oficiālais izdevums.
+- Daži avoti vispār nav valsts iestāžu vietnes (piemēram, LexiVox, LawPhil, Maqam,
+  Wikisource).
+
+Katrai atbildei, kas nāk no kāda no šiem avotiem, Fontes pievieno paziņojumu “Unofficial
+source”. Pirms kaut ko citējat, pārbaudiet oficiālo publikāciju. Pārklājuma tabula
+[README](README.md#pārklājums) un `list_jurisdictions` nosauc avotu katrai jurisdikcijai.
+
+## Kuras jurisdikcijas tas aptver un cik labi?
+
+124 adapteri: 108 ANO dalībvalstis, Honkonga, Kosova, Palestīna, Taivāna, DIFC Courts un
+11 starptautiskās tiesas un institūcijas (piemēram, Eiropas Cilvēktiesību tiesa, ES, Starptautiskā Tiesa un
+PTO).
+
+Pārklājums ļoti atšķiras. Pēc stingra kritērija (pilnībā sasniegti augstākās vispārējās
+jurisdikcijas tiesas precedenti vai konstitūcija un primārie likumi) 72 no 124 tiek uzskatītas
+par aptvertām. [COVERAGE.md](../../COVERAGE.md) katrai jurisdikcijai uzskaita, ko Fontes
+sasniedz, ko nesasniedz un kāpēc.
+
+## Vai man vajadzīga API atslēga?
+
+Gandrīz visās jurisdikcijās – nē. Dažiem avotiem vajadzīga bezmaksas atslēga: skatiet
+[KEYS.md](KEYS.md).
+
+- **Francija:** jā. Francija ir izslēgta, līdz iestatāt `WLM_FR_PISTE_CLIENT_ID` un
+  `WLM_FR_PISTE_CLIENT_SECRET`. Tos iegūst no bezmaksas PISTE konta (piste.gouv.fr) ar
+  lietotni, kas abonē Judilibre un Légifrance.
+- **Amerikas Savienotās Valstis:** pēc izvēles. Tiesu prakses meklēšana darbojas bez atslēgas,
+  taču koplietotā demonstrācijas atslēga ļauj tikai aptuveni 10 meklējumus dienā no vienas IP
+  adreses. Bezmaksas api.data.gov atslēga mainīgajā `WLM_US_GOVINFO_KEY` šo ierobežojumu
+  palielina.
+
+Iestatiet tos kā vides mainīgos Fontes serverim savas lietotnes MCP iestatījumos. Kad
+instalētājs būs izlaists, tas pēc instalēšanas jautās pēc tiem, un tā palaidējs **Add or change
+keys** ļaus tos vēlāk mainīt.
+
+Atsevišķi: daži avoti savos noteikumos norāda, ka automatizētai piekļuvei vajadzīga izdevēja
+atļauja. Tie ir atzīmēti kā OFF un paliek izslēgti. Atslēga to nemaina; to maina tikai
+izdevēja atļauja (tad iestatiet `WLM_PERMITTED=<codes>`).
+
+## Kas atstāj manu datoru?
+
+Jūsu meklējumi nonāk tikai avotā, kurā meklējat. Fontes neuztur datubāzi, un tam nav vajadzīgs
+konts.
+
+Bez avotiem Fontes reizi dienā jautā PyPI, vai ir jaunāka versija (to var izslēgt ar
+`FONTES_NO_UPDATE_CHECK=1`). Lietojuma skaitļi ir izslēgti, ja vien tos neieslēdzat, un kļūdas
+ziņojums tiek nosūtīts tikai pēc tam, kad esat to redzējis un apstiprinājis. Jūsu MI lietotne
+redz jūsu sarunu saskaņā ar saviem noteikumiem.
+
+Sīkāk: [PRIVACY.md](PRIVACY.md).
+
+## Vai tā ir juridiska konsultācija?
+
+Nē. Fontes ir izpētes rīks. Tas atrod tekstus; tas nesaka, ko tie nozīmē jūsu lietā, un tā
+lietošana ne ar vienu nenodibina advokāta un klienta attiecības. MI lietotne var nepareizi
+izlasīt tekstu, tāpēc pirms paļaušanās uz to izlasiet pilnu nolēmumu vai normu. Lai saņemtu
+konsultāciju, vērsieties pie jurista, kas ir kvalificēts tajā vietā, kur rodas jūsu jautājums.
+
+## Kas to uztur? Vai tas turpinās darboties?
+
+Viens cilvēks: Yüce Karapazar. Aiz Fontes nav uzņēmuma, nav atbalsta līguma un nav pakalpojumu
+līmeņa solījuma. Juridiskie pakalpojumi netiek piedāvāti.
+
+Avoti tiek pārbaudīti reizi dienā, un rezultāti tiek publicēti
+[statusa lapā](https://ykarapazar.github.io/fontes/status/?lang=lv). Tiesu un valsts iestāžu
+tīmekļa vietnes mainās bez brīdinājuma, tāpēc avots var jebkurā brīdī pārstāt darboties. Nav
+garantijas, ka kāds avots vai pats Fontes turpinās darboties. Fontes tiek nodrošināts “tāds,
+kāds ir” (“as is”), bez garantijām ([LICENSE](../../../LICENSE) 7. un 8. sadaļa).
+
+## Teksts ir nepareizs, novecojis vai avots nedarbojas. Kā par to ziņot?
+
+- Atveriet problēmu (issue) ar veidlapu “Broken or wrong source”:
+  <https://github.com/ykarapazar/fontes/issues/new/choose>. Norādiet jurisdikciju, ko jautājāt,
+  ko saņēmāt, un oficiālo lapu, kurā redzams pareizais teksts.
+- Vai lūdziet savai MI lietotnei “ziņot par Fontes kļūdu” (vai palaidiet `fontes report-bug`).
+  Jūs redzat ziņojumu, pirms kaut kas tiek nosūtīts.
+- Vai rakstiet uz fontesmcp@proton.me.
+
+Neiekļaujiet ziņojumā klientu datus vai konfidenciālus faktus.
+
+**Ja jūs uzturat kādu no avotiem** un kaut kas nav kārtībā (jūsu noteikumi, jūsu robots.txt,
+jūsu pieprasījumu ierobežojumi), rakstiet uz fontesmcp@proton.me. Avots tiks salabots vai
+izslēgts.
+
+## Ar ko Fontes atšķiras no mākoņā mitinātiem juridiskās izpētes rīkiem?
+
+- **Tas darbojas jūsu datorā.** Nav Fontes servera un nav konta. Tas arī nozīmē, ka tas
+  darbojas tikai lietotnēs, kas var palaist lokālu MCP serveri (Claude Desktop, Codex, Cursor,
+  VS Code un līdzīgās), nevis tikai tīmekļa lietotnēs, kas pieņem tikai mitinātus savienotājus.
+- **Tam nav datubāzes.** Katrs meklējums tiešsaistē nonāk izdevēja paša tīmekļa vietnē vai
+  API, tāpēc rezultāti ir tikpat aktuāli kā avots, un meklēšanas kvalitāte ir paša avota
+  kvalitāte. Nav semantiskās meklēšanas pa atlasītu indeksu.
+- **Tas nenosaka lietojuma ierobežojumu.** Fontes nav mēneša izsaukumu limita. Tas izkliedē
+  savus pieprasījumus katrai tīmekļa vietnei, un daži avoti ierobežo, cik ātri vai cik bieži
+  tiem var veikt vaicājumus.
+- **Tas ir atvērtā koda.** Jūs varat izlasīt katru adapteri un precīzi redzēt, no kurienes nāk
+  katrs teksts.
+- **Aiz tā nav piegādātāja.** Nav līguma, atbalsta dienesta vai darbspējas solījuma (skatiet
+  “Kas to uztur?”).
+
+## Ar kurām lietotnēm un sistēmām tas darbojas?
+
+Ar jebkuru MCP lietotni, kas var palaist lokālu (stdio) serveri, piemēram, Claude Desktop,
+Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio un
+Cline. Fontes darbojas macOS, Windows un Linux, visur, kur darbojas uv (Python 3.13+). Tas vēl
+nav PyPI; kad būs, lielākajai daļai lietotņu pietiks ar vienu komandu vai vienu konfigurācijas
+ierakstu, un Claude Desktop pieņem `.mcpb` failu ar dubultklikšķi. Drīzumā būs pieejams Mac un
+Windows instalētājs ar vienu klikšķi. Tas vienā reizē iestata Claude Desktop, Codex, Claude
+Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio un Cline. Darbības katrai lietotnei:
+[INSTALL.md](INSTALL.md).
+
+## Vai varu sniegt savu ieguldījumu kodā?
+
+Pašlaik nē. Problēmu ziņojumi (issues), ziņojumi par avotiem un jurisdikciju pieprasījumi ir
+laipni gaidīti. Skatiet [CONTRIBUTING.md](../../../CONTRIBUTING.md).

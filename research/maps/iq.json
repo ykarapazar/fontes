@@ -1,0 +1,573 @@
+{
+  "code": "iq",
+  "checked": "2026-11-07",
+  "structure_sources": [
+    "https://sjc.iq/Judicial-system-en.php"
+  ],
+  "courts": [
+    {
+      "name": "المحكمة الاتحادية العليا",
+      "en": "Federal Supreme Court",
+      "tier": "constitutional",
+      "branch": "constitutional",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare, iraqfsc.iq)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Federal Supreme Court (iraqfsc.iq)",
+        "url": "https://www.iraqfsc.iq/",
+        "evidence": "research/iq.md; research/chatgpt/r2_c.md",
+        "note": "Arabic constitutional decisions; Cloudflare 403 on every path incl. robots.txt."
+      }
+    },
+    {
+      "name": "محكمة التمييز الاتحادية",
+      "en": "Federal Court of Cassation",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare, Supreme Judicial Council)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Cassation decisions in the SJC legal database; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم الاستئناف (رئاسات محاكم الاستئناف الاتحادية، ~16)",
+      "en": "Federal Courts of Appeal (incl. sitting in cassation capacity)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Appeal court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم البداءة",
+      "en": "Courts of first instance (civil)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "المحاكم التجارية",
+      "en": "Commercial courts (Baghdad etc.)",
+      "tier": "first-instance",
+      "branch": "commercial",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم الأحوال الشخصية",
+      "en": "Personal status courts (Muslims)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم المواد الشخصية",
+      "en": "Personal matters courts (non-Muslims, inheritance)",
+      "tier": "first-instance",
+      "branch": "family",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم العمل",
+      "en": "Labour courts",
+      "tier": "first-instance",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم التحقيق",
+      "en": "Investigation courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم الجنح",
+      "en": "Misdemeanour courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم الجنايات",
+      "en": "Felony courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "المحكمة الجنائية المركزية العراقية",
+      "en": "Central Criminal Court of Iraq (terrorism, serious crime)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم النزاهة (تحقيق وجنايات وجنح النزاهة)",
+      "en": "Integrity (anti-corruption) courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم الأحداث",
+      "en": "Juvenile courts",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محاكم الكمارك",
+      "en": "Customs courts",
+      "tier": "first-instance",
+      "branch": "tax",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "محكمة النشر والإعلام",
+      "en": "Publication and Media Court",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (Cloudflare)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Supreme Judicial Council – Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md (hjc.iq and iraqld 403 Cloudflare/WAF)",
+        "note": "Lower court decisions; Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "المحكمة الإدارية العليا (مجلس الدولة)",
+      "en": "Supreme Administrative Court (Council of State)",
+      "tier": "apex",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Council of State (مجلس الدولة)",
+        "url": null,
+        "evidence": "search result only: academic papers, no official decisions page found",
+        "note": "Council of State decisions are printed in yearbooks; no official online source found."
+      }
+    },
+    {
+      "name": "محاكم القضاء الإداري",
+      "en": "Courts of Administrative Justice",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Council of State (مجلس الدولة)",
+        "url": null,
+        "evidence": "search result only: academic papers, no official decisions page found",
+        "note": "Council of State decisions are printed in yearbooks; no official online source found."
+      }
+    },
+    {
+      "name": "محاكم قضاء الموظفين",
+      "en": "Courts of Employees' Justice (civil-service disputes)",
+      "tier": "first-instance",
+      "branch": "administrative",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Council of State (مجلس الدولة)",
+        "url": null,
+        "evidence": "search result only: academic papers, no official decisions page found",
+        "note": "Council of State decisions are printed in yearbooks; no official online source found."
+      }
+    },
+    {
+      "name": "المحاكم العسكرية / محكمة التمييز العسكرية",
+      "en": "Military courts and Military Court of Cassation",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked beyond one search",
+        "note": "No publication route found for military/internal-security court decisions."
+      }
+    },
+    {
+      "name": "محاكم قوى الأمن الداخلي",
+      "en": "Internal Security Forces courts (police)",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no official online source found (see elsewhere)",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "not checked beyond one search",
+        "note": "No publication route found for military/internal-security court decisions."
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "دستور جمهورية العراق 2005",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (parliament.iq, iraqld Cloudflare 403)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Iraqi Legal Database (iraqld) / Council of Representatives (parliament.iq)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md",
+        "note": "Both Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "القوانين الاتحادية",
+      "en": "Federal laws",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (parliament.iq, Iraqi Legal Database iraqld: Cloudflare 403)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Iraqi Legal Database (iraqld) / Council of Representatives (parliament.iq)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md",
+        "note": "Both Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "الأنظمة والتعليمات والقرارات الاتحادية",
+      "en": "Federal regulations, instructions, decisions",
+      "level": "secondary",
+      "reached": "no",
+      "via": null,
+      "note": "bot check / blocks our client (iraqld Cloudflare 403)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md",
+        "note": "Cloudflare/WAF 403 from UK."
+      }
+    },
+    {
+      "name": "الوقائع العراقية",
+      "en": "Al-Waqai Al-Iraqiya (official gazette)",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "site down / unreachable (moj.gov.iq timeout, 2026-11-06)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Ministry of Justice – Al-Waqai Al-Iraqiya",
+        "url": "https://moj.gov.iq/",
+        "evidence": "research/iq.md (connect timeout 2026-11-06)",
+        "note": "Gazette site unreachable from UK; iraqld (also blocked) carries gazette-published texts."
+      }
+    },
+    {
+      "name": "قوانين إقليم كوردستان",
+      "en": "Kurdistan Region laws",
+      "level": "sub-national",
+      "reached": "yes",
+      "via": "Kurdistan Parliament legislation database (قاعدة التشريعات), legislation.krd (Kurdistan Region of Iraq only)",
+      "note": "as enacted, title search only; consolidated amended texts (PDF/Word) not built yet"
+    },
+    {
+      "name": "قرارات وأنظمة وتعليمات إقليم كوردستان",
+      "en": "Kurdistan Region decisions, regulations, instructions",
+      "level": "sub-national",
+      "reached": "yes",
+      "via": "Kurdistan Parliament legislation database (قاعدة التشريعات), legislation.krd (Kurdistan Region of Iraq only)",
+      "note": "as enacted, title search only"
+    },
+    {
+      "name": "المعاهدات",
+      "en": "Treaties",
+      "level": "treaty",
+      "reached": "no",
+      "via": null,
+      "note": "source exists but blocked (see elsewhere)",
+      "elsewhere": {
+        "status": "blocked",
+        "source": "Iraqi Legal Database (iraqld)",
+        "url": "https://iraqld.e-sjc-services.iq/",
+        "evidence": "research/iq.md",
+        "note": "Ratifying laws in iraqld / Al-Waqai; both blocked or unreachable."
+      }
+    }
+  ],
+  "states": [
+    {
+      "name": "Kurdistan Region (إقليم كوردستان)",
+      "courts": [
+        {
+          "name": "محكمة تمييز إقليم كوردستان",
+          "en": "Kurdistan Region Court of Cassation",
+          "tier": "apex",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        },
+        {
+          "name": "محاكم الاستئناف في الإقليم (Erbil, Sulaymaniyah, Duhok, Garmiyan, ...)",
+          "en": "Kurdistan courts of appeal",
+          "tier": "appeal",
+          "branch": "civil-criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        },
+        {
+          "name": "محاكم البداءة",
+          "en": "Courts of first instance (civil)",
+          "tier": "first-instance",
+          "branch": "civil",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        },
+        {
+          "name": "محاكم الأحوال الشخصية / المواد الشخصية",
+          "en": "Personal status courts",
+          "tier": "first-instance",
+          "branch": "family",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        },
+        {
+          "name": "محاكم العمل",
+          "en": "Labour courts",
+          "tier": "first-instance",
+          "branch": "labour",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        },
+        {
+          "name": "محاكم التحقيق / الجنح / الجنايات",
+          "en": "Investigation, misdemeanour and felony courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        },
+        {
+          "name": "محاكم الأحداث",
+          "en": "Juvenile courts",
+          "tier": "first-instance",
+          "branch": "criminal",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        },
+        {
+          "name": "مجلس شورى إقليم كوردستان (القضاء الإداري)",
+          "en": "Kurdistan Shura Council (administrative justice)",
+          "tier": "specialised",
+          "branch": "administrative",
+          "reached": "no",
+          "via": null,
+          "note": "no Kurdistan court decisions site found",
+          "elsewhere": {
+            "status": "unknown",
+            "source": "Kurdistan Region judicial council",
+            "url": null,
+            "evidence": "research/iq.md ('No Kurdistan Region court decisions site found')",
+            "note": "No official online source found for Kurdistan court decisions."
+          }
+        }
+      ]
+    }
+  ]
+}

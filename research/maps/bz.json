@@ -1,0 +1,246 @@
+{
+  "code": "bz",
+  "checked": "2026-11-10",
+  "structure_sources": [
+    "https://www.nationalassembly.gov.bz/wp-content/uploads/2022/11/Act-No-27-of-2022-Senior-Courts-Act-2022..pdf",
+    "https://www.nationalassembly.gov.bz/wp-content/uploads/2022/11/Act-No.-25-of-2022-Belize-Constitution-Tenth-Amendment-Act-2022..pdf",
+    "https://www.belizejudiciary.org/"
+  ],
+  "courts": [
+    {
+      "name": "Caribbean Court of Justice (appellate jurisdiction)",
+      "en": "Final court of appeal since 2010",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "CCJ judgment lists and PDFs (ccj.org)",
+      "note": "FINAL COURT (since 2010). Served in bz with court=ccj from the ccj adapter's appellate list, kept to appeals from Belize: country from the list ('BZ', most rows since 2020) or from page 1 of the judgment PDF, read lazily (max 10 PDFs a call, remembered). Full text from the official PDF; search matches citation and parties, not judgment text. Checked 2026-11-10",
+      "final": true
+    },
+    {
+      "name": "Judicial Committee of the Privy Council (appeals from Belize, pre-2010)",
+      "en": "Former final court of appeal",
+      "tier": "apex",
+      "branch": "civil-criminal",
+      "reached": "partly",
+      "via": "Find Case Law, The National Archives",
+      "note": "former final court (before 2010). court=jcpc: Privy Council appeals from Belize on Find Case Law (through the gb adapter), Nov 2009 on: 8 judgments 2009-2011 (checked 2026-11-10); the Judiciary site's own Privy Council judgments (19 in its category) come with the default search. Missing: older Privy Council appeals not hosted by the Judiciary site",
+      "elsewhere": {
+        "status": "available",
+        "source": "Judicial Committee of the Privy Council – cases",
+        "url": "https://www.jcpc.uk/cases",
+        "evidence": "fetched 2026-11-07: jcpc.uk home 200 links /cases",
+        "note": "missing part: Privy Council appeals from Belize before Nov 2009 not hosted by belizejudiciary.org; BAILII UKPC has them but forbids scraping"
+      }
+    },
+    {
+      "name": "Court of Appeal of Belize",
+      "en": "Court of Appeal (Senior Courts)",
+      "tier": "appeal",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judgments of the Senior Courts of Belize, Belize Judiciary (belizejudiciary.org)",
+      "note": "mostly 2000-"
+    },
+    {
+      "name": "High Court of Justice (former Supreme Court, renamed 2022)",
+      "en": "High Court (Senior Courts), incl. constitutional claims and inferior appeals",
+      "tier": "first-instance",
+      "branch": "civil-criminal",
+      "reached": "yes",
+      "via": "Judgments of the Senior Courts of Belize, Belize Judiciary (belizejudiciary.org)",
+      "note": "mostly 2000-"
+    },
+    {
+      "name": "Magistrates' Courts (summary jurisdiction, criminal)",
+      "en": "Magistrates' Courts, one per district (summary criminal jurisdiction)",
+      "tier": "first-instance",
+      "branch": "criminal",
+      "reached": "no",
+      "via": null,
+      "note": "no decisions published on belizejudiciary.org; adapter gap 'Magistrates' courts and tribunals: not researched yet'",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Belize Judiciary – Magistrates' Court",
+        "url": "https://www.belizejudiciary.org/magistrates-court/",
+        "evidence": "fetched 2026-11-07: page 200 with court info only, no judgments",
+        "note": "no magistrates' decisions published online found"
+      }
+    },
+    {
+      "name": "District Courts (civil jurisdiction of magistrates)",
+      "en": "District Courts (small civil claims, heard by magistrates)",
+      "tier": "first-instance",
+      "branch": "civil",
+      "reached": "no",
+      "via": null,
+      "note": "no decisions published on belizejudiciary.org",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Belize Judiciary – Magistrates' Court",
+        "url": "https://www.belizejudiciary.org/magistrates-court/",
+        "evidence": "fetched 2026-11-07: page 200 with court info only, no judgments",
+        "note": "no magistrates' decisions published online found"
+      }
+    },
+    {
+      "name": "Family Court",
+      "en": "Family Court",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no decisions published on belizejudiciary.org",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Belize Judiciary – Family Court",
+        "url": "https://www.belizejudiciary.org/family-court/",
+        "evidence": "fetched 2026-11-07: page 200 with court info only, no judgments",
+        "note": "no Family Court decisions published (family matters usually private)"
+      }
+    },
+    {
+      "name": "Coroners' Courts",
+      "en": "Coroners' Courts (inquests)",
+      "tier": "specialised",
+      "branch": "other",
+      "reached": "no",
+      "via": null,
+      "note": "no publication found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "Belize Judiciary",
+        "url": "https://www.belizejudiciary.org/",
+        "evidence": "fetched 2026-11-07: belizejudiciary.org robots.txt 404; judgment categories in the adapter are High Court / Court of Appeal only",
+        "note": "inquest findings not published online"
+      }
+    },
+    {
+      "name": "Alcalde courts (Alcaldes Jurisdiction Act)",
+      "en": "Village alcalde courts (Maya villages, Toledo / Stann Creek), inferior courts",
+      "tier": "first-instance",
+      "branch": "customary",
+      "reached": "no",
+      "via": null,
+      "note": "no publication found",
+      "elsewhere": {
+        "status": "offline",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "customary inferior courts; no decisions published online found"
+      }
+    },
+    {
+      "name": "Labour Complaints Tribunal",
+      "en": "Labour Complaints Tribunal",
+      "tier": "specialised",
+      "branch": "labour",
+      "reached": "no",
+      "via": null,
+      "note": "no official publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": null,
+        "url": null,
+        "evidence": "fetched 2026-11-07: laborunion.bz timed out; no tribunal page found on belizejudiciary.org or agm.gov.bz",
+        "note": "not established"
+      }
+    },
+    {
+      "name": "Court Martial (Belize Defence Force)",
+      "en": "Courts-martial",
+      "tier": "specialised",
+      "branch": "military",
+      "reached": "no",
+      "via": null,
+      "note": "no publication found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "",
+        "url": "",
+        "evidence": "search result only",
+        "note": "no official publication found; not established"
+      }
+    }
+  ],
+  "legislation": [
+    {
+      "name": "Belize Constitution, Cap. 4",
+      "en": "Constitution",
+      "level": "constitution",
+      "reached": "yes",
+      "via": "Laws of Belize, Attorney General's Ministry (agm.gov.bz)",
+      "note": "as Cap. 4 in the Revised Edition 2020 PDFs"
+    },
+    {
+      "name": "Substantive Laws (Revised Edition 2020, by chapter)",
+      "en": "Acts as revised to 2020",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Laws of Belize, Attorney General's Ministry (agm.gov.bz)",
+      "note": "PDF; site search max 10 hits, no paging; no historical versions"
+    },
+    {
+      "name": "Acts (since 2020/2021)",
+      "en": "Acts of the National Assembly",
+      "level": "primary",
+      "reached": "yes",
+      "via": "Laws of Belize, Attorney General's Ministry (agm.gov.bz)",
+      "note": "PDF; site search max 10 hits"
+    },
+    {
+      "name": "Subsidiary Laws (Revised Edition 2020) and Statutory Instruments",
+      "en": "Regulations, orders, rules",
+      "level": "secondary",
+      "reached": "yes",
+      "via": "Laws of Belize, Attorney General's Ministry (agm.gov.bz)",
+      "note": "PDF; 'Cap Ns' ids"
+    },
+    {
+      "name": "Laws before the 2020 Revised Edition",
+      "en": "Historical / repealed versions",
+      "level": "primary",
+      "reached": "no",
+      "via": null,
+      "note": "no official pre-2020 source found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Attorney General's Ministry – Laws of Belize",
+        "url": "https://www.agm.gov.bz/",
+        "evidence": "fetched 2026-11-07: agm.gov.bz lists R.E. 2020 and later Acts only; belizelaw.org timed out; CommonLII /bz/ Cloudflare 403",
+        "note": "no official online source for pre-2020 revised editions found"
+      }
+    },
+    {
+      "name": "Belize Government Gazette",
+      "en": "Official gazette",
+      "level": "gazette",
+      "reached": "no",
+      "via": null,
+      "note": "no working official gazette archive found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Government of Belize",
+        "url": "https://www.belize.gov.bz/",
+        "evidence": "fetched 2026-11-07: agm.gov.bz/gazettes returns 'Something Went Wrong'; belize.gov.bz 503 'Site Maintenance'; Yale guide (search result) says not online",
+        "note": "no working official gazette archive found"
+      }
+    },
+    {
+      "name": "Municipal by-laws (city and town councils)",
+      "en": "Local by-laws",
+      "level": "local",
+      "reached": "no",
+      "via": null,
+      "note": "no municipal by-law collection found",
+      "elsewhere": {
+        "status": "unknown",
+        "source": "Belize City Council",
+        "url": "https://www.belizecity.bz/",
+        "evidence": "fetched 2026-11-07: belizecity.bz returns a 114-byte page",
+        "note": "no by-law collection found"
+      }
+    }
+  ]
+}
