@@ -8,8 +8,6 @@ għandu link għall-oriġinal. Huwa server MCP standard, għalhekk jaħdem fi kw
 tħaddem server MCP lokali: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline u oħrajn.
 
-**Fontes għadu mhux fuq PyPI.** Il-passi hawn taħt jaħdmu ladarba toħroġ l-ewwel verżjoni.
-
 Agħżel l-app tiegħek, segwi l-passi tagħha, imbagħad [iċċekkja li jaħdem](#kif-tiċċekkja-li-jaħdem).
 
 ## Claude Desktop

@@ -7,8 +7,6 @@ và cơ quan nhà nước ở hơn 120 phạm vi tài phán. Mọi kết quả �
 nên hoạt động trong mọi ứng dụng có thể chạy máy chủ MCP cục bộ: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline và các ứng dụng khác.
 
-**Fontes chưa có trên PyPI.** Các bước dưới đây sẽ dùng được khi bản phát hành đầu tiên ra mắt.
-
 Hãy chọn ứng dụng của bạn, làm theo các bước, rồi [kiểm tra xem đã hoạt động chưa](#kiểm-tra-xem-đã-hoạt-động-chưa).
 
 ## Claude Desktop

@@ -119,9 +119,7 @@ richieste), scriva a fontesmcp@proton.me. La fonte verrà corretta o disattivata
 
 Con qualsiasi app MCP in grado di eseguire un server locale (stdio), ad esempio Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio e Cline.
-Fontes funziona su macOS, Windows e Linux, ovunque funzioni uv (Python 3.13+). Non è ancora su PyPI;
-quando lo sarà, la maggior parte delle app richiederà un comando o una voce di configurazione, e
-Claude Desktop accetta un file `.mcpb` che si apre con un doppio clic. È in arrivo un programma di
+Fontes funziona su macOS, Windows e Linux, ovunque funzioni uv (Python 3.13+). È in arrivo un programma di
 installazione con un clic per Mac e Windows. Configura Claude Desktop, Codex, Claude Code, Cursor,
 VS Code, Windsurf, Gemini CLI, Zed, LM Studio e Cline in una volta sola. Passaggi per ogni app:
 [INSTALL.md](INSTALL.md).

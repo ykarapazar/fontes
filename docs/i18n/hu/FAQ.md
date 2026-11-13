@@ -124,9 +124,7 @@ lekérési korlátai), írjon a fontesmcp@proton.me címre. A forrást kijavítj
 Bármely MCP-alkalmazással, amely helyi (stdio) szervert tud futtatni, például a Claude
 Desktoppal, a Claude Code-dal, a Codexszel, a Cursorral, a VS Code-dal (GitHub Copilot), a
 Gemini CLI-vel, a Windsurffel, a Zeddel, az LM Studióval és a Cline-nal. A Fontes macOS-en,
-Windowson és Linuxon fut, mindenhol, ahol az uv fut (Python 3.13+). Még nincs fent a PyPI-n;
-amint fent lesz, a legtöbb alkalmazáshoz egy parancs vagy egy konfigurációs bejegyzés kell, a
-Claude Desktop pedig egy duplakattintással megnyitott `.mcpb` fájlt fogad. Egy egykattintásos
+Windowson és Linuxon fut, mindenhol, ahol az uv fut (Python 3.13+). Egy egykattintásos
 telepítő Machez és Windowshoz készülőben van. Egy lépésben beállítja a Claude Desktopot, a
 Codexet, a Claude Code-ot, a Cursort, a VS Code-ot, a Windsurfot, a Gemini CLI-t, a Zedet, az LM
 Studiót és a Cline-t. Lépések az egyes alkalmazásokhoz: [INSTALL.md](INSTALL.md).

@@ -8,8 +8,6 @@ Fontes омогућава вашој AI апликацији да претраж
 Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline и другим.
 
-**Fontes још није на PyPI.** Кораци испод ће радити када изађе прво издање.
-
 Одаберите своју апликацију, слиједите њене кораке, а затим [провјерите да ли ради](#провјера-да-ли-ради).
 
 ## Claude Desktop

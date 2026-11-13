@@ -119,9 +119,7 @@ Schreift keng Donnéeë vu Clienten a keng vertraulech Fakten an e Bericht.
 
 Mat all MCP-App, déi e lokale (stdio-)Server lafe loosse kann, zum Beispill Claude Desktop, Claude
 Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio a Cline. Fontes
-leeft op macOS, Windows a Linux, iwwerall do, wou uv leeft (Python 3.13+). Et ass nach net op PyPI;
-soubal et do ass, brauchen déi meescht Apps ee Befeel oder eng Konfiguratiounsentrée, a Claude
-Desktop hëlt en `.mcpb`-Fichier, op deen Dir duebel klickt. En Installatiounsprogramm mat engem
+leeft op macOS, Windows a Linux, iwwerall do, wou uv leeft (Python 3.13+). En Installatiounsprogramm mat engem
 Klick fir Mac a Windows ass ënnerwee. En riicht Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio a Cline an engem Gang an. Schrëtt fir all App:
 [INSTALL.md](INSTALL.md).

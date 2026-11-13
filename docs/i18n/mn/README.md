@@ -59,8 +59,6 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 
 ## Хурдан эхлэх
 
-Fontes **PyPI-д хараахан байхгүй**. Доорх алхмууд анхны хувилбар гарсны дараа ажиллана.
-
 1. **Fontes-ийг аппдаа нэмнэ үү.**
    - **Claude Desktop:** Fontes-ийн `.mcpb` файлыг
      [сүүлийн хувилбараас](https://github.com/ykarapazar/fontes/releases/latest) татаж, давхар товшоод,
@@ -322,13 +320,12 @@ OFF = эх сурвалжийн нөхцөлөөр операторын зөвш
 ## Суулгах
 
 Апп тус бүрийн алхмууд (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes PyPI-д хараахан байхгүй; эдгээр алхмууд
-тэнд гарсны дараа ажиллана.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Хөгжүүлэгчид:** [uv](https://docs.astral.sh/uv/getting-started/installation/) хэрэгтэй.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ api.data.gov түлхүүр), `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SE
   }
 }
 ```
-
-Fontes PyPI-д гарах хүртэл `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`-ийг ашиглана уу.
 
 ### Ажиллаж байгааг шалгана уу
 

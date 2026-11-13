@@ -61,8 +61,6 @@ Windsurf, Zed, LM Studio ва бошқалар.
 
 ## Тезкор бошлаш
 
-Fontes **ҳали PyPI'да йўқ**. Қуйидаги қадамлар биринчи релиз чиққандан кейин ишлайди.
-
 1. **Fontes'ни иловангизга қўшинг.**
    - **Claude Desktop:** Fontes `.mcpb` файлини
      [охирги релиз](https://github.com/ykarapazar/fontes/releases/latest) саҳифасидан юклаб олинг,
@@ -332,13 +330,12 @@ OFF = манбанинг шартлари операторнинг рухсат�
 ## Ўрнатиш
 
 Ҳар бир илова учун босқичма-босқич (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ҳали PyPI'да йўқ; бу
-қадамлар у чиққандан кейин ишлайди.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Дастурчилар:** сизга [uv](https://docs.astral.sh/uv/getting-started/installation/) керак.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -371,8 +368,6 @@ Fontes — stdio MCP сервер: уни MCP мижоз ишга туширад
   }
 }
 ```
-
-Fontes PyPI'да пайдо бўлгунча `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` дан фойдаланинг.
 
 ### Ишлаётганини текшириш
 

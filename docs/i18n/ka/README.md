@@ -62,8 +62,6 @@ Claude Code, OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsur
 
 ## სწრაფი დაწყება
 
-Fontes **ჯერ არ არის PyPI-ზე**. ქვემოთ მოცემული ნაბიჯები პირველი რელიზის შემდეგ იმუშავებს.
-
 1. **დაამატეთ Fontes თქვენს აპს.**
    - **Claude Desktop:** ჩამოტვირთეთ Fontes-ის `.mcpb` ფაილი
      [უახლესი რელიზიდან](https://github.com/ykarapazar/fontes/releases/latest), ორჯერ
@@ -333,13 +331,12 @@ OFF = წყაროს პირობები მოითხოვს ო�
 ## ინსტალაცია
 
 ნაბიჯ-ნაბიჯ ინსტრუქციები თითოეული აპისთვის (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ჯერ არ არის PyPI-ზე; ეს
-ნაბიჯები იმუშავებს, როცა ის იქ იქნება.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **დეველოპერებს:** დაგჭირდებათ [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -372,8 +369,6 @@ Fontes არის stdio MCP სერვერი: მას თქვენ�
   }
 }
 ```
-
-სანამ Fontes PyPI-ზე არ არის, გამოიყენეთ `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### შეამოწმეთ, რომ მუშაობს
 

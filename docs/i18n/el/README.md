@@ -62,9 +62,6 @@ LM Studio και άλλες.
 
 ## Γρήγορο ξεκίνημα
 
-**Το Fontes δεν είναι ακόμη στο PyPI.** Τα παρακάτω βήματα θα λειτουργούν μόλις κυκλοφορήσει η
-πρώτη έκδοση.
-
 1. **Προσθέστε το Fontes στην εφαρμογή σας.**
    - **Claude Desktop:** κατεβάστε το αρχείο `.mcpb` του Fontes από την
      [τελευταία έκδοση](https://github.com/ykarapazar/fontes/releases/latest), κάντε διπλό
@@ -335,13 +332,12 @@ OFF = οι όροι της πηγής απαιτούν την άδεια του 
 ## Εγκατάσταση
 
 Βήμα προς βήμα για κάθε εφαρμογή (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini
-CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Το Fontes δεν είναι ακόμη στο PyPI· αυτά
-τα βήματα θα λειτουργούν μόλις είναι.
+CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Για προγραμματιστές:** απαιτείται το [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -374,8 +370,6 @@ uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
   }
 }
 ```
-
-Μέχρι το Fontes να είναι στο PyPI, χρησιμοποιήστε `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Πώς να ελέγξετε ότι λειτουργεί
 

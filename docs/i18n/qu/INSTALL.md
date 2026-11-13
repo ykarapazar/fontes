@@ -8,9 +8,6 @@ kutichiymi originalman t'inkin. Huk estándar MCP servidormi, chayrayku local MC
 purichiyta atiq mayqin aplicacionpipas llamk'an: Claude Desktop, Codex, Claude Code, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline, hukkunapipas.
 
-**Fontesqa manaraqmi PyPI nisqapichu.** Uraypi ruraykunaqa ñawpaq kaq lluqsiy (release)
-lluqsiptinmi llamk'anqa.
-
 Aplicacionniykita akllay, ruraykunanta qatiy, chaymanta [llamk'asqanta qhaway](#llamkasqanta-qhaway).
 
 ## Claude Desktop

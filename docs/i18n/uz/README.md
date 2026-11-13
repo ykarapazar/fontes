@@ -61,8 +61,6 @@ Manbalar holati (har kuni tekshiriladi): [ykarapazar.github.io/fontes/status/](h
 
 ## Tezkor boshlash
 
-Fontes **hali PyPI’da yoʻq**. Quyidagi qadamlar birinchi relizdan keyin ishlaydi.
-
 1. **Fontes’ni ilovangizga qoʻshing.**
    - **Claude Desktop:** Fontes `.mcpb` faylini
      [soʻnggi relizdan](https://github.com/ykarapazar/fontes/releases/latest) yuklab oling, uni
@@ -330,13 +328,12 @@ etiladi):
 ## Oʻrnatish
 
 Har bir ilova uchun bosqichma-bosqich koʻrsatmalar (Claude Desktop, Codex, Claude Code, Cursor,
-VS Code, Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes hali PyPI’da yoʻq;
-bu qadamlar u yerda paydo boʻlganda ishlaydi.
+VS Code, Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Dasturchilar:** sizga [uv](https://docs.astral.sh/uv/getting-started/installation/) kerak.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -368,8 +365,6 @@ farq qiladi ([INSTALL.md](INSTALL.md#boshqa-ilovalar) ga qarang):
   }
 }
 ```
-
-Fontes PyPI’da paydo boʻlguncha `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` dan foydalaning.
 
 ### Ishlayotganini tekshiring
 

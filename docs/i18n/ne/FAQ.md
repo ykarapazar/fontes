@@ -106,8 +106,7 @@ OFF चिन्ह लगाइएको हुन्छ र ती बन्�
 
 स्थानीय (stdio) सर्भर चलाउन सक्ने कुनै पनि MCP एप, उदाहरणका लागि Claude Desktop, Claude Code, Codex, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio र Cline। Fontes macOS, Windows र Linux मा, uv
-चल्ने जुनसुकै ठाउँमा (Python 3.13+) चल्छ। यो अहिलेसम्म PyPI मा छैन; आएपछि, धेरैजसो एपलाई एउटा command वा एउटा
-config प्रविष्टि चाहिन्छ, र Claude Desktop ले डबल-क्लिक गरिएको `.mcpb` फाइल लिन्छ। Mac र Windows का लागि
+चल्ने जुनसुकै ठाउँमा (Python 3.13+) चल्छ। Mac र Windows का लागि
 एक-क्लिक इन्स्टलर आउँदै छ। यसले Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
 LM Studio र Cline एकै पटक सेट अप गर्छ। प्रत्येक एपका चरणहरू: [INSTALL.md](INSTALL.md)।
 

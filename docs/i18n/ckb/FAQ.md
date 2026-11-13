@@ -115,9 +115,7 @@ Fontes ئاگادارکردنەوەی "Unofficial source" (سەرچاوەی نا
 
 هەر بەرنامەیەکی MCP کە بتوانێت ڕاژەکارێکی ناوخۆیی (stdio) کار پێ بکات، بۆ نموونە Claude Desktop، Claude Code،
 Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed، LM Studio و Cline. Fontes
-لەسەر macOS، Windows و Linux کار دەکات، لە هەر شوێنێک uv کار بکات (Python 3.13+). هێشتا لە PyPI نییە؛ کاتێک
-گەیشتە ئەوێ، زۆربەی بەرنامەکان پێویستیان بە یەک فەرمان یان یەک تۆماری ڕێکخستن دەبێت، و Claude Desktop
-فایلێکی `.mcpb` وەردەگرێت کە دوو جار کلیکی لەسەر دەکرێت. دامەزرێنەرێکی یەک-کلیک بۆ Mac و Windows لە ڕێگەدایە.
+لەسەر macOS، Windows و Linux کار دەکات، لە هەر شوێنێک uv کار بکات (Python 3.13+). دامەزرێنەرێکی یەک-کلیک بۆ Mac و Windows لە ڕێگەدایە.
 Claude Desktop، Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio و
 Cline بە یەکجار ڕێکدەخات. هەنگاوەکانی هەر بەرنامەیەک: [INSTALL.md](INSTALL.md).
 

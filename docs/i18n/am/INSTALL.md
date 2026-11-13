@@ -7,8 +7,6 @@ Fontes የ AI መተግበሪያዎ ከ120 በላይ በሆኑ የሕግ ክል�
 ስለሆነ፣ አካባቢያዊ (local) የ MCP አገልጋይ ማስኬድ በሚችል በማንኛውም መተግበሪያ ውስጥ ይሠራል፦ Claude Desktop፣ Codex፣
 Claude Code፣ Cursor፣ VS Code (GitHub Copilot)፣ Gemini CLI፣ Windsurf፣ Zed፣ LM Studio፣ Cline እና ሌሎችም።
 
-**Fontes ገና በ PyPI ላይ የለም።** ከታች ያሉት ደረጃዎች የሚሠሩት የመጀመሪያው ልቀት (release) ከወጣ በኋላ ነው።
-
 መተግበሪያዎን ይምረጡ፣ ደረጃዎቹን ይከተሉ፣ ከዚያም [መሥራቱን ያረጋግጡ](#መሥራቱን-ማረጋገጥ)።
 
 ## Claude Desktop

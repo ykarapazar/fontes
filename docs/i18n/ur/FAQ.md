@@ -115,9 +115,7 @@ Fontes ہر اس جواب میں جو ان میں سے کسی ماخذ سے آئ
 
 کوئی بھی MCP ایپ جو مقامی (stdio) سرور چلا سکتی ہو، مثال کے طور پر Claude Desktop، Claude Code،
 Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed، LM Studio اور Cline۔ Fontes
-macOS، Windows اور Linux پر چلتا ہے، جہاں بھی uv چلتا ہو (Python 3.13+)۔ یہ ابھی PyPI پر نہیں ہے؛ جب
-آ جائے گا، تو زیادہ تر ایپس کو ایک کمانڈ یا ایک config اندراج کی ضرورت ہوگی، اور Claude Desktop ایک
-ڈبل کلک کی گئی `.mcpb` فائل لیتا ہے۔ Mac اور Windows کے لیے ایک ون کلک انسٹالر آنے والا ہے۔ یہ
+macOS، Windows اور Linux پر چلتا ہے، جہاں بھی uv چلتا ہو (Python 3.13+)۔ Mac اور Windows کے لیے ایک ون کلک انسٹالر آنے والا ہے۔ یہ
 Claude Desktop، Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio اور
 Cline کو ایک ہی بار میں سیٹ اپ کرتا ہے۔ ہر ایپ کے مراحل: [INSTALL.md](INSTALL.md)۔
 

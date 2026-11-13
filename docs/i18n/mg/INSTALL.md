@@ -8,9 +8,6 @@ amin'ny antontan-taratasy tany am-boalohany ny valiny tsirairay. Mpizara MCP mah
 amin'ny rindranasa rehetra afaka mandefa mpizara MCP eo an-toerana: Claude Desktop, Codex, Claude Code,
 Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline sy ny hafa.
 
-**Mbola tsy ao amin'ny PyPI ny Fontes.** Handeha ireo dingana etsy ambany rehefa navoaka ny famoahana
-voalohany.
-
 Safidio ny rindranasanao, araho ny dingana, dia [hamarino fa mandeha izy](#fanamarinana-fa-mandeha-izy).
 
 ## Claude Desktop

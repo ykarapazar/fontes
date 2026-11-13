@@ -8,8 +8,6 @@ standard MCP-server, så den fungerer i enhver app som kan kjøre en lokal MCP-s
 Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline og andre.
 
-**Fontes er ikke på PyPI ennå.** Trinnene nedenfor fungerer når den første utgivelsen er ute.
-
 Velg appen din, følg trinnene for den, og [sjekk deretter at det fungerer](#sjekk-at-det-fungerer).
 
 ## Claude Desktop

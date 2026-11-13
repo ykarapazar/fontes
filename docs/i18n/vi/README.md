@@ -59,8 +59,6 @@ Trạng thái nguồn (kiểm tra hằng ngày): [ykarapazar.github.io/fontes/st
 
 ## Bắt đầu nhanh
 
-Fontes **chưa có trên PyPI**. Các bước dưới đây sẽ dùng được khi bản phát hành đầu tiên ra mắt.
-
 1. **Thêm Fontes vào ứng dụng của bạn.**
    - **Claude Desktop:** tải tệp `.mcpb` của Fontes từ
      [bản phát hành mới nhất](https://github.com/ykarapazar/fontes/releases/latest), nhấp đúp vào tệp,
@@ -322,13 +320,12 @@ Bộ lọc theo từng phạm vi tài phán (tên bộ lọc không xác định
 ## Cài đặt
 
 Hướng dẫn từng bước cho mỗi ứng dụng (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes chưa có trên PyPI; các bước đó
-sẽ dùng được khi Fontes có mặt trên PyPI.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Nhà phát triển:** bạn cần [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ Phần lớn ứng dụng dùng cùng một mục cấu hình; tệp và khóa c
   }
 }
 ```
-
-Cho đến khi Fontes có trên PyPI, hãy dùng `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Kiểm tra xem đã hoạt động chưa
 

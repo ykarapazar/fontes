@@ -59,8 +59,6 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 
 ## ເລີ່ມຕົ້ນຢ່າງວ່ອງໄວ
 
-Fontes **ຍັງບໍ່ມີຢູ່ໃນ PyPI ເທື່ອ**. ຂັ້ນຕອນຂ້າງລຸ່ມນີ້ຈະໃຊ້ໄດ້ ເມື່ອການເປີດຕົວຄັ້ງທຳອິດອອກມາ.
-
 1. **ເພີ່ມ Fontes ເຂົ້າໃນແອັບຂອງທ່ານ.**
    - **Claude Desktop:** ດາວໂຫຼດໄຟລ໌ `.mcpb` ຂອງ Fontes ຈາກ
      [ການເປີດຕົວລ່າສຸດ](https://github.com/ykarapazar/fontes/releases/latest), ຄລິກສອງເທື່ອໃສ່ມັນ,
@@ -322,13 +320,12 @@ OFF = ເງື່ອນໄຂຂອງແຫຼ່ງ ກຳນົດໃຫ້�
 ## ການຕິດຕັ້ງ
 
 ຂັ້ນຕອນລະອຽດສຳລັບແຕ່ລະແອັບ (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ຍັງບໍ່ມີຢູ່ໃນ PyPI ເທື່ອ; ຂັ້ນຕອນເຫຼົ່ານັ້ນ
-ຈະໃຊ້ໄດ້ເມື່ອມັນມີ.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **ນັກພັດທະນາ:** ທ່ານຕ້ອງມີ [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ Fontes ເປັນເຊີບເວີ MCP ແບບ stdio: ໂປຣແກຣ
   }
 }
 ```
-
-ຈົນກວ່າ Fontes ຈະມີຢູ່ໃນ PyPI, ໃຫ້ໃຊ້ `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### ກວດວ່າມັນເຮັດວຽກ
 

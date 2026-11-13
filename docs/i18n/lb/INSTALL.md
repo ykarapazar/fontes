@@ -8,9 +8,6 @@ d'Original. Et ass e Standard-MCP-Server a funktionéiert dofir an all App, déi
 lafe loosse kann: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline an anerer.
 
-**Fontes ass nach net op PyPI.** D'Schrëtt hei drënner funktionéieren, soubal déi éischt Versioun
-eraus ass.
-
 Wielt Är App, maacht d'Schrëtt, an
 [kontrolléiert dann, ob et funktionéiert](#kontrolléieren-ob-et-funktionéiert).
 

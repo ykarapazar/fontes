@@ -8,8 +8,6 @@ original. É um servidor MCP normal, pelo que funciona em qualquer aplicação c
 servidor MCP local: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline e outras.
 
-**O Fontes ainda não está no PyPI.** Os passos abaixo funcionarão quando sair a primeira versão.
-
 Escolha a sua aplicação, siga os respetivos passos e depois
 [verifique se funciona](#verificar-se-funciona).
 

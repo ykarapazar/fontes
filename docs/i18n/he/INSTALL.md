@@ -7,8 +7,6 @@ Fontes מאפשר ליישום ה-AI שלכם לאתר פסקי דין וחקי�
 להפעיל שרת MCP מקומי: Claude Desktop, ‏Codex, ‏Claude Code, ‏Cursor, ‏VS Code (GitHub Copilot),
 ‏Gemini CLI, ‏Windsurf, ‏Zed, ‏LM Studio, ‏Cline ואחרים.
 
-**Fontes עדיין אינו זמין ב-PyPI.** השלבים שלהלן יעבדו לאחר שתצא הגרסה הראשונה.
-
 בחרו את היישום שלכם, בצעו את השלבים שלו, ואז [בדקו שזה עובד](#בדיקה-שזה-עובד).
 
 ## Claude Desktop

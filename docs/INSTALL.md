@@ -5,8 +5,6 @@ websites in over 120 jurisdictions. Every result links to the original. It is a 
 server, so it works in any app that can run a local MCP server: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline and others.
 
-**Fontes is not on PyPI yet.** The steps below work once the first release is out.
-
 Pick your app, follow its steps, then [check that it works](#checking-it-works).
 
 ## Claude Desktop

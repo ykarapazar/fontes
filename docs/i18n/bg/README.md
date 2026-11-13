@@ -59,8 +59,6 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 
 ## Бърз старт
 
-Fontes **все още не е в PyPI**. Стъпките по-долу ще работят след излизането на първата версия.
-
 1. **Добавете Fontes към приложението си.**
    - **Claude Desktop:** изтеглете файла `.mcpb` на Fontes от
      [последната версия](https://github.com/ykarapazar/fontes/releases/latest), щракнете двукратно
@@ -329,13 +327,12 @@ OFF = условията на източника изискват разреше
 ## Инсталиране
 
 Стъпка по стъпка за всяко приложение (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini
-CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes все още не е в PyPI; тези стъпки
-ще работят, когато бъде публикуван там.
+CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **За разработчици:** нужен ви е [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -367,8 +364,6 @@ Légifrance, стъпките са в `research/fr.md`), `WLM_PERMITTED=<codes>`
   }
 }
 ```
-
-Докато Fontes не е в PyPI, използвайте `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Проверете дали работи
 

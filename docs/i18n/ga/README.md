@@ -61,8 +61,6 @@ Stádas na bhfoinsí (seiceáilte go laethúil): [ykarapazar.github.io/fontes/st
 
 ## Mearthosú
 
-**Níl Fontes ar PyPI fós.** Oibreoidh na céimeanna thíos nuair a bheidh an chéad eisiúint amuigh.
-
 1. **Cuir Fontes le d'aip.**
    - **Claude Desktop:** íoslódáil an comhad Fontes `.mcpb` ón
      [eisiúint is déanaí](https://github.com/ykarapazar/fontes/releases/latest), déchliceáil é,
@@ -330,13 +328,12 @@ gcinn bhailí):
 ## Suiteáil
 
 Céim ar chéim do gach aip (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Níl Fontes ar PyPI fós; oibreoidh na céimeanna
-sin nuair a bheidh.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Forbróirí:** teastaíonn [uv](https://docs.astral.sh/uv/getting-started/installation/) uait.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -368,8 +365,6 @@ difriúil de réir aipe (féach [INSTALL.md](INSTALL.md#aipeanna-eile)):
   }
 }
 ```
-
-Go dtí go mbeidh Fontes ar PyPI, úsáid `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Seiceáil go n-oibríonn sé
 

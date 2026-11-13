@@ -8,8 +8,6 @@ Fontes AI иловангизга 120 дан ортиқ юрисдикцияда 
 иловада ишлайди: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline ва бошқалар.
 
-**Fontes ҳали PyPI'да йўқ.** Қуйидаги қадамлар биринчи релиз чиққандан кейин ишлайди.
-
 Иловангизни танланг, унинг қадамларини бажаринг, сўнг [ишлаётганини текширинг](#ишлаётганини-текшириш).
 
 ## Claude Desktop

@@ -62,8 +62,6 @@ Jalsunakax kunjamäski (sapa uru uñakipata): [ykarapazar.github.io/fontes/statu
 
 ## Jank'ak qalltaña
 
-Fontes ukax **janiw PyPI ukankiti**. Aka lurawinakax nayrïr apsuwix mistuni ukhakiw irnaqani.
-
 1. **Fontes aplicacionamar yapxatam.**
    - **Claude Desktop:** Fontes `.mcpb` archivo
      [qhipa apsuwita](https://github.com/ykarapazar/fontes/releases/latest) apaqam, pä kuti
@@ -332,13 +330,12 @@ jark'atäpxi):
 ## Instalaña
 
 Sapa aplicacionatak lurawinaka (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ukax janiw PyPI ukankiti; uka
-lurawinakax ukankxani ukhakiw irnaqani.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Desarrolladoranaka:** [uv](https://docs.astral.sh/uv/getting-started/installation/) wakisiwa.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -372,8 +369,6 @@ mayjawa ([INSTALL.md](INSTALL.md#yaqha-aplicacionanaka) uñjam):
   }
 }
 ```
-
-Fontes PyPI ukankañapkama, `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` apnaqam.
 
 ### Irnaqatap uñakipaña
 

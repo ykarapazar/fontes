@@ -124,9 +124,7 @@ keys** ишга туширгичи эса уларни кейинроқ ўзга
 Маҳаллий (stdio) серверни ишга тушира оладиган ҳар қандай MCP илова, масалан, Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ва
 Cline. Fontes macOS, Windows ва Linux'да, uv ишлайдиган ҳар қандай жойда (Python 3.13+)
-ишлайди. У ҳали PyPI'да йўқ; у пайдо бўлгач, аксарият иловаларга битта буйруқ ёки битта
-созлама ёзуви керак бўлади, Claude Desktop эса икки марта босиладиган `.mcpb` файлини қабул
-қилади. Mac ва Windows учун бир босишда ўрнатувчи тез орада чиқади. У Claude Desktop, Codex,
+ишлайди. Mac ва Windows учун бир босишда ўрнатувчи тез орада чиқади. У Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ва Cline'ни бирданига
 созлайди. Ҳар бир илова учун қадамлар: [INSTALL.md](INSTALL.md).
 

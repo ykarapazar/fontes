@@ -56,8 +56,6 @@ OpenAI Codex、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Ze
 
 ## 快速入門
 
-Fontes **尚未發布到 PyPI**。以下步驟在第一個版本發布後即可使用。
-
 1. **將 Fontes 加入您的應用程式。**
    - **Claude Desktop：** 從[最新版本](https://github.com/ykarapazar/fontes/releases/latest)下載
      Fontes 的 `.mcpb` 檔案，按兩下該檔案，然後點選 **Install**。
@@ -305,12 +303,12 @@ OFF = 該來源的條款要求取得營運者的許可，因此預設關閉。�
 ## 安裝
 
 各應用程式（Claude Desktop、Codex、Claude Code、Cursor、VS Code、Gemini CLI、Zed、LM Studio、Cline）的
-逐步說明：[INSTALL.md](INSTALL.md)。Fontes 尚未發布到 PyPI；這些步驟在發布後即可使用。
+逐步說明：[INSTALL.md](INSTALL.md)。
 
 **開發者：** 您需要 [uv](https://docs.astral.sh/uv/getting-started/installation/)。
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -342,8 +340,6 @@ Judilibre 與 Légifrance 的免費 piste.gouv.fr 應用程式，步驟見 `rese
   }
 }
 ```
-
-在 Fontes 發布到 PyPI 之前，請使用 `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`。
 
 ### 確認是否正常運作
 

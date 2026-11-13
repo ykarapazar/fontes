@@ -124,10 +124,7 @@ robots.txt, ваши ограничения частоты), напишите н
 
 С любым MCP-приложением, способным запускать локальный (stdio) сервер, например Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio и
-Cline. Fontes работает в macOS, Windows и Linux — везде, где работает uv (Python 3.13+). Его пока
-нет на PyPI; когда он там появится, большинству приложений понадобится одна команда или одна
-запись в конфигурации, а Claude Desktop принимает файл `.mcpb`, открытый двойным щелчком.
-Готовится установщик в один клик для Mac и Windows. Он настраивает Claude Desktop, Codex,
+Cline. Fontes работает в macOS, Windows и Linux — везде, где работает uv (Python 3.13+). Готовится установщик в один клик для Mac и Windows. Он настраивает Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio и Cline за один раз. Шаги для
 каждого приложения: [INSTALL.md](INSTALL.md).
 

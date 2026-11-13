@@ -8,8 +8,6 @@ is een standaard MCP-server en werkt dus in elke app die een lokale MCP-server k
 Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio,
 Cline en andere.
 
-**Fontes staat nog niet op PyPI.** De stappen hieronder werken zodra de eerste release uit is.
-
 Kies uw app, volg de stappen en [controleer daarna of het werkt](#controleren-of-het-werkt).
 
 ## Claude Desktop

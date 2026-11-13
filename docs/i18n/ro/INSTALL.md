@@ -8,8 +8,6 @@ link către original. Este un server MCP standard, deci funcționează în orice
 server MCP local: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf,
 Zed, LM Studio, Cline și altele.
 
-**Fontes nu este încă pe PyPI.** Pașii de mai jos vor funcționa după apariția primei versiuni.
-
 Alegeți aplicația, urmați pașii pentru ea, apoi [verificați că funcționează](#verificarea-funcționării).
 
 ## Claude Desktop

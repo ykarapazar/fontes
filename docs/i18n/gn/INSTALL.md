@@ -8,9 +8,6 @@ rehe. Ha'e peteĩ servidor MCP estándar, upévare oiko oimeraẽ aplicación ik
 peteĩ servidor MCP local: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ha ambue.
 
-**Fontes ndaipóri gueteri PyPI-pe.** Ko'ã tembiapo iguýpe oikóta pe ñemosẽ (release)
-peteĩha osẽ rire.
-
 Eiporavo nde aplicación, ejapo hembiapo, upéi [ehecha oikópa](#ehecha-oikópa).
 
 ## Claude Desktop

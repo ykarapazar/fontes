@@ -61,8 +61,6 @@ Status tas-sorsi (iċċekkjat kuljum): [ykarapazar.github.io/fontes/status/](htt
 
 ## Bidu malajr
 
-Fontes **għadu mhux fuq PyPI**. Il-passi hawn taħt jaħdmu ladarba toħroġ l-ewwel verżjoni.
-
 1. **Żid Fontes mal-app tiegħek.**
    - **Claude Desktop:** niżżel il-fajl `.mcpb` ta' Fontes mill-
      [aħħar verżjoni (latest release)](https://github.com/ykarapazar/fontes/releases/latest),
@@ -329,13 +327,12 @@ dawk validi):
 ## Installazzjoni
 
 Pass pass għal kull app (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI, Zed,
-LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes għadu mhux fuq PyPI; dawk il-passi jaħdmu
-ladarba jkun.
+LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Żviluppaturi:** għandek bżonn [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -368,8 +365,6 @@ ivarjaw minn app għal oħra (ara [INSTALL.md](INSTALL.md#apps-oħra)):
   }
 }
 ```
-
-Sakemm Fontes ma jkunx fuq PyPI, uża `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Iċċekkja li jaħdem
 

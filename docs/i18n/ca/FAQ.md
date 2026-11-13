@@ -117,9 +117,7 @@ els límits de peticions), escriviu a fontesmcp@proton.me. La font es corregirà
 
 Amb qualsevol aplicació MCP que pugui executar un servidor local (stdio), per exemple Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio i Cline.
-Fontes funciona a macOS, Windows i Linux, a qualsevol lloc on funcioni uv (Python 3.13+). Encara no és
-a PyPI; quan hi sigui, la majoria d'aplicacions necessitaran una ordre o una entrada de configuració, i
-Claude Desktop accepta un fitxer `.mcpb` que s'obre amb doble clic. Hi ha en camí un instal·lador d'un
+Fontes funciona a macOS, Windows i Linux, a qualsevol lloc on funcioni uv (Python 3.13+). Hi ha en camí un instal·lador d'un
 clic per a Mac i Windows. Configura Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
 Gemini CLI, Zed, LM Studio i Cline alhora. Passos per a cada aplicació: [INSTALL.md](INSTALL.md).
 

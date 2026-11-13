@@ -122,9 +122,7 @@ tuzatiladi yoki oʻchiriladi.
 Lokal (stdio) serverni ishga tushira oladigan har qanday MCP ilovasi bilan, masalan Claude
 Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio va Cline. Fontes macOS, Windows va Linux’da, uv ishlaydigan har qanday joyda ishlaydi
-(Python 3.13+). U hali PyPI’da yoʻq; u yerda paydo boʻlganda aksariyat ilovalarga bitta buyruq
-yoki bitta sozlama yozuvi kerak boʻladi, Claude Desktop esa ikki marta bosiladigan `.mcpb`
-faylini qabul qiladi. Mac va Windows uchun bir bosishda ishlaydigan oʻrnatuvchi tez orada
+(Python 3.13+). Mac va Windows uchun bir bosishda ishlaydigan oʻrnatuvchi tez orada
 chiqadi. U Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
 LM Studio va Cline’ni birdaniga sozlaydi. Har bir ilova uchun qadamlar: [INSTALL.md](INSTALL.md).
 

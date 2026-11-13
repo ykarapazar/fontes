@@ -8,8 +8,6 @@ pelayan MCP standard, jadi ia berfungsi dalam mana-mana aplikasi yang boleh menj
 setempat: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline dan lain-lain.
 
-**Fontes belum ada di PyPI.** Langkah-langkah di bawah berfungsi sebaik sahaja keluaran pertama diterbitkan.
-
 Pilih aplikasi anda, ikut langkah-langkahnya, kemudian [semak bahawa ia berfungsi](#menyemak-bahawa-ia-berfungsi).
 
 ## Claude Desktop

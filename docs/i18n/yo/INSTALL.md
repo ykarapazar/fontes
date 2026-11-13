@@ -7,8 +7,6 @@ Fontes ń jẹ́ kí áàpù AI rẹ wá àwọn ìdájọ́ ilé-ẹjọ́ àti
 ó ń ṣiṣẹ́ nínú áàpù èyíkéyìí tí ó lè ṣe ìfilọ́lẹ̀ sáfà MCP lórí kọ̀ǹpútà rẹ: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline àti àwọn mìíràn.
 
-**Fontes kò tíì sí lórí PyPI.** Àwọn ìgbésẹ̀ ìsàlẹ̀ yìí yóò ṣiṣẹ́ nígbà tí a bá ti tẹ ẹ̀dà àkọ́kọ́ jáde.
-
 Yan áàpù rẹ, tẹ̀lé àwọn ìgbésẹ̀, lẹ́yìn náà [ṣàyẹ̀wò pé ó ń ṣiṣẹ́](#ṣíṣàyẹ̀wò-pé-ó-ń-ṣiṣẹ́).
 
 ## Claude Desktop

@@ -123,9 +123,7 @@ oñemyatyrõta térã oñembogue.
 Oimeraẽ aplicación MCP ikatúva omboguata peteĩ servidor local (stdio), techapyrãramo Claude
 Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM
 Studio ha Cline. Fontes oiko macOS, Windows ha Linux-pe, oimeraẽ hendápe uv oikohápe (Python
-3.13+). Ndaipóri gueteri PyPI-pe; oĩ rire, hetavéva aplicación oikotevẽ peteĩ comando térã
-peteĩ entrada configuración-pe, ha Claude Desktop oguerohory peteĩ archivo `.mcpb` mokõi jey
-ojejopýva. Peteĩ instalador peteĩ click-pe Mac ha Windows-pe g̃uarã oúma. Omohenda Claude
+3.13+). Peteĩ instalador peteĩ click-pe Mac ha Windows-pe g̃uarã oúma. Omohenda Claude
 Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ha Cline
 peteĩ jeýpe. Tembiapo peteĩteĩ aplicación-pe g̃uarã: [INSTALL.md](INSTALL.md).
 

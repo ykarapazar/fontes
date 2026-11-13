@@ -8,8 +8,6 @@ toradh. Is freastalaí MCP caighdeánach é, mar sin oibríonn sé in aon aip ar
 MCP áitiúil a rith: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini
 CLI, Windsurf, Zed, LM Studio, Cline agus aipeanna eile.
 
-**Níl Fontes ar PyPI fós.** Oibreoidh na céimeanna thíos nuair a bheidh an chéad eisiúint amuigh.
-
 Roghnaigh d'aip, lean a céimeanna, ansin [seiceáil go n-oibríonn sé](#seiceáil-go-n-oibríonn-sé).
 
 ## Claude Desktop

@@ -118,9 +118,7 @@ söndürüləcək.
 
 Yerli (stdio) serveri işə sala bilən istənilən MCP proqramı ilə, məsələn Claude Desktop, Claude
 Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio və Cline. Fontes
-macOS, Windows və Linux-da, uv işləyən hər yerdə (Python 3.13+) işləyir. O, hələ PyPI-da yoxdur;
-çıxdıqdan sonra əksər proqramlar bir əmr və ya bir konfiqurasiya qeydi tələb edəcək, Claude
-Desktop isə iki dəfə klikləmə ilə açılan `.mcpb` faylını qəbul edir. Mac və Windows üçün bir
+macOS, Windows və Linux-da, uv işləyən hər yerdə (Python 3.13+) işləyir. Mac və Windows üçün bir
 kliklə quraşdırıcı yoldadır. O, Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
 Gemini CLI, Zed, LM Studio və Cline-ı bir dəfəyə quraşdırır. Hər proqram üçün addımlar:
 [INSTALL.md](INSTALL.md).

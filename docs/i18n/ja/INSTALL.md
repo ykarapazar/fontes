@@ -7,8 +7,6 @@ Fontes を使うと、AI アプリが 120 以上の法域について、裁判�
 ローカルの MCP サーバーを実行できるアプリならどれでも動作します: Claude Desktop、Codex、Claude Code、
 Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio、Cline など。
 
-**Fontes はまだ PyPI で公開されていません。** 以下の手順は最初のリリース後に使えるようになります。
-
 お使いのアプリを選んで手順に従い、[動作を確認](#動作の確認)してください。
 
 ## Claude Desktop

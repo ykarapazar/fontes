@@ -61,8 +61,6 @@ VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio жана башк
 
 ## Тез баштоо
 
-Fontes **азырынча PyPI'да жок**. Төмөнкү кадамдар биринчи релиз чыккандан кийин иштейт.
-
 1. **Fontes'ти тиркемеңизге кошуңуз.**
    - **Claude Desktop:** Fontes `.mcpb` файлын
      [акыркы релизден](https://github.com/ykarapazar/fontes/releases/latest) жүктөп алып,
@@ -335,13 +333,12 @@ Yüce Karapazar
 ## Орнотуу
 
 Ар бир тиркеме үчүн кадам-кадамы менен (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes азырынча PyPI'да жок;
-бул кадамдар ал пайда болгондон кийин иштейт.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Иштеп чыгуучулар:** сизге [uv](https://docs.astral.sh/uv/getting-started/installation/) керек.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -374,8 +371,6 @@ Fontes — stdio MCP сервери: аны MCP кардары ишке кирг
   }
 }
 ```
-
-Fontes PyPI'да пайда болгонго чейин `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` колдонуңуз.
 
 ### Иштеп жатканын текшериңиз
 

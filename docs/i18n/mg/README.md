@@ -61,9 +61,6 @@ Toetry ny loharano (hamarinina isan'andro): [ykarapazar.github.io/fontes/status/
 
 ## Fanombohana haingana
 
-**Mbola tsy ao amin'ny PyPI** ny Fontes. Handeha ireo dingana etsy ambany rehefa navoaka ny famoahana
-voalohany.
-
 1. **Ampidiro ao amin'ny rindranasanao ny Fontes.**
    - **Claude Desktop:** alaivo ny rakitra `.mcpb` an'ny Fontes avy amin'ny
      [famoahana farany](https://github.com/ykarapazar/fontes/releases/latest), tsindrio indroa izy, dia
@@ -334,13 +331,12 @@ manan-kery):
 ## Fametrahana
 
 Dingana tsikelikely ho an'ny rindranasa tsirairay (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Mbola tsy ao amin'ny PyPI ny Fontes; handeha
-ireo dingana ireo rehefa tonga ao izy.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Mpamorona rindrambaiko:** mila [uv](https://docs.astral.sh/uv/getting-started/installation/) ianao.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -373,8 +369,6 @@ fanalahidy ambony indrindra (jereo ny [INSTALL.md](INSTALL.md#rindranasa-hafa)):
   }
 }
 ```
-
-Raha mbola tsy ao amin'ny PyPI ny Fontes, ampiasao ny `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Hamarino fa mandeha izy
 

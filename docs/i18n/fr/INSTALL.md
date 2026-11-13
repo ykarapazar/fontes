@@ -8,8 +8,6 @@ C'est un serveur MCP standard : il fonctionne donc dans toute application capabl
 local : Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline et d'autres.
 
-**Fontes n'est pas encore sur PyPI.** Les étapes ci-dessous fonctionneront dès la sortie de la première version.
-
 Choisissez votre application, suivez ses étapes, puis [vérifiez que cela fonctionne](#vérifier-que-cela-fonctionne).
 
 ## Claude Desktop

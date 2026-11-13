@@ -7,8 +7,6 @@ Fontes آپ کی AI ایپ کو 120 سے زیادہ جورسڈکشنز میں ع
 اس لیے یہ ہر اس ایپ میں کام کرتا ہے جو مقامی MCP سرور چلا سکتی ہو: Claude Desktop، Codex، Claude
 Code، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed، LM Studio، Cline اور دیگر۔
 
-**Fontes ابھی PyPI پر نہیں ہے۔** نیچے دیے گئے مراحل پہلی ریلیز آنے کے بعد کام کریں گے۔
-
 اپنی ایپ منتخب کریں، اس کے مراحل پر عمل کریں، پھر [چیک کریں کہ یہ کام کرتا ہے](#چیک-کریں-کہ-یہ-کام-کرتا-ہے)۔
 
 ## Claude Desktop

@@ -8,8 +8,6 @@ mu njëkk mi. Serwëer MCP bu ñépp mën a jëfandikoo la, kon dafay dox ci bé
 ab serwëer MCP ci ordinatëer bi: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline ak yeneen.
 
-**Fontes nekkagul ci PyPI.** Tànk yi ci suuf dinañu dox bu sumb bu jëkk bi génnee.
-
 Tànnal sa aplikasioŋ, toppal tànk yi, te ginnaaw loolu [saytul ndax mu ngi dox](#saytu-ndax-mu-ngi-dox).
 
 ## Claude Desktop

@@ -8,8 +8,6 @@ standardní server MCP, takže funguje v každé aplikaci, která umí spustit l
 Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline a dalších.
 
-**Fontes zatím není na PyPI.** Níže uvedené kroky budou fungovat, jakmile vyjde první vydání.
-
 Vyberte svou aplikaci, postupujte podle jejích kroků a pak [ověřte, že funguje](#ověření-funkčnosti).
 
 ## Claude Desktop

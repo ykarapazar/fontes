@@ -60,8 +60,6 @@ Windsurf, Zed, LM Studio et d'autres.
 
 ## Démarrage rapide
 
-Fontes **n'est pas encore sur PyPI**. Les étapes ci-dessous fonctionneront dès la sortie de la première version.
-
 1. **Ajoutez Fontes à votre application.**
    - **Claude Desktop :** téléchargez le fichier `.mcpb` de Fontes depuis la
      [dernière version](https://github.com/ykarapazar/fontes/releases/latest), double-cliquez dessus,
@@ -326,13 +324,12 @@ Filtres par juridiction (les noms de filtre inconnus sont rejetés avec la liste
 ## Installation
 
 Pas à pas pour chaque application (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline) : [INSTALL.md](INSTALL.md). Fontes n'est pas encore sur PyPI ; ces étapes
-fonctionneront dès qu'il le sera.
+Zed, LM Studio, Cline) : [INSTALL.md](INSTALL.md).
 
 **Développeurs :** vous avez besoin de [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -364,8 +361,6 @@ selon l'application (voir [INSTALL.md](INSTALL.md#autres-applications)) :
   }
 }
 ```
-
-Tant que Fontes n'est pas sur PyPI, utilisez `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Vérifier que cela fonctionne
 

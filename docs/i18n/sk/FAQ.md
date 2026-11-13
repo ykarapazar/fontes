@@ -119,9 +119,7 @@ alebo vypne.
 
 S každou MCP aplikáciou, ktorá dokáže spustiť lokálny (stdio) server, napríklad Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio a
-Cline. Fontes beží na macOS, Windows a Linuxe, všade, kde beží uv (Python 3.13+). Zatiaľ nie je
-na PyPI; keď tam bude, väčšina aplikácií potrebuje jeden príkaz alebo jeden záznam v
-konfigurácii a Claude Desktop prijme súbor `.mcpb`, na ktorý dvakrát kliknete. Inštalátor na
+Cline. Fontes beží na macOS, Windows a Linuxe, všade, kde beží uv (Python 3.13+). Inštalátor na
 jedno kliknutie pre Mac a Windows sa pripravuje. Naraz nastaví Claude Desktop, Codex, Claude Code,
 Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio a Cline. Postup pre každú aplikáciu:
 [INSTALL.md](INSTALL.md).

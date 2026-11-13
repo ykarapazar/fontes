@@ -115,9 +115,7 @@ bindal ci fontesmcp@proton.me. Dinañu defar cosaan bi walla fey ko.
 
 Bépp aplikasioŋ MCP bu mën a doxal ab serwëer ci ordinatëer bi (stdio), misaal Claude Desktop, Claude
 Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ak Cline. Fontes dafay
-dox ci macOS, Windows ak Linux, fépp fu uv di dox (Python 3.13+). Nekkagul ci PyPI; bu fa nekkee, li ëpp
-ci aplikasioŋ yi dañuy soxla benn commande walla benn xaaju réglage, te Claude Desktop dafay nangu ab
-fichier `.mcpb` boo cuq ñaari yoon. Programu samp ci benn klig ngir Mac ak Windows mu ngi ñëw. Dafay samp
+dox ci macOS, Windows ak Linux, fépp fu uv di dox (Python 3.13+). Programu samp ci benn klig ngir Mac ak Windows mu ngi ñëw. Dafay samp
 Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ak Cline ci benn
 yoon. Tànk yi ci aplikasioŋ bu nekk: [INSTALL.md](INSTALL.md).
 

@@ -7,8 +7,6 @@ Fontes ले तपाईंको AI एपलाई १२० भन्दा
 सर्भर चलाउन सक्ने कुनै पनि एपमा काम गर्छ: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline र अन्य।
 
-**Fontes अहिलेसम्म PyPI मा छैन।** तलका चरणहरू पहिलो रिलिज निस्केपछि काम गर्छन्।
-
 आफ्नो एप छान्नुहोस्, त्यसका चरणहरू पालना गर्नुहोस्, त्यसपछि [काम गर्छ कि गर्दैन जाँच्नुहोस्](#काम-गर्छ-कि-गर्दैन-जाँच्ने)।
 
 ## Claude Desktop

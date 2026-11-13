@@ -57,8 +57,6 @@ OpenAI Codex፣ Cursor፣ VS Code (GitHub Copilot)፣ Gemini CLI፣ Windsurf፣ 
 
 ## ፈጣን ጅምር
 
-Fontes **ገና በ PyPI ላይ የለም**። ከታች ያሉት ደረጃዎች የሚሠሩት የመጀመሪያው ልቀት (release) ከወጣ በኋላ ነው።
-
 1. **Fontesን ወደ መተግበሪያዎ ያክሉ።**
    - **Claude Desktop:** የ Fontes `.mcpb` ፋይልን ከ
      [የቅርብ ጊዜው ልቀት](https://github.com/ykarapazar/fontes/releases/latest) ያውርዱ፣ ሁለት ጊዜ ጠቅ ያድርጉበት፣
@@ -317,12 +315,12 @@ OFF = የምንጩ ውሎች የኦፕሬተሩን (operator) ፈቃድ ስለ�
 ## መጫን
 
 ለእያንዳንዱ መተግበሪያ ደረጃ በደረጃ (Claude Desktop፣ Codex፣ Claude Code፣ Cursor፣ VS Code፣ Gemini CLI፣ Zed፣
-LM Studio፣ Cline): [INSTALL.md](INSTALL.md)። Fontes ገና በ PyPI ላይ የለም፤ እነዚያ ደረጃዎች የሚሠሩት እዚያ ከወጣ በኋላ ነው።
+LM Studio፣ Cline): [INSTALL.md](INSTALL.md)።
 
 **አልሚዎች:** [uv](https://docs.astral.sh/uv/getting-started/installation/) ያስፈልግዎታል።
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -353,8 +351,6 @@ Fontes የ stdio MCP አገልጋይ ነው፦ የ MCP ደንበኛ (client) ያ
   }
 }
 ```
-
-Fontes በ PyPI ላይ እስኪወጣ ድረስ `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` ን ይጠቀሙ።
 
 ### መሥራቱን ያረጋግጡ
 

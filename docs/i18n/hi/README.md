@@ -59,8 +59,6 @@ Fontes एक मुफ़्त, ओपन-सोर्स MCP सर्वर 
 
 ## त्वरित शुरुआत
 
-Fontes **अभी PyPI पर नहीं है**। नीचे दिए गए चरण पहली रिलीज़ आने के बाद काम करेंगे।
-
 1. **Fontes को अपने ऐप में जोड़ें।**
    - **Claude Desktop:** [नवीनतम रिलीज़](https://github.com/ykarapazar/fontes/releases/latest) से Fontes
      की `.mcpb` फ़ाइल डाउनलोड करें, उस पर डबल-क्लिक करें, फिर **Install** पर क्लिक करें।
@@ -317,12 +315,12 @@ OFF = स्रोत की शर्तों के लिए ऑपरेट
 ## इंस्टॉल करें
 
 हर ऐप के लिए चरण-दर-चरण (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI, Zed, LM Studio,
-Cline): [INSTALL.md](INSTALL.md)। Fontes अभी PyPI पर नहीं है; वे चरण उसके आने के बाद काम करेंगे।
+Cline): [INSTALL.md](INSTALL.md)।
 
 **डेवलपर्स:** आपको [uv](https://docs.astral.sh/uv/getting-started/installation/) चाहिए।
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -353,8 +351,6 @@ Fontes एक stdio MCP सर्वर है: कोई MCP क्लाइं
   }
 }
 ```
-
-जब तक Fontes PyPI पर नहीं है, `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` का उपयोग करें।
 
 ### जाँचें कि यह काम करता है
 

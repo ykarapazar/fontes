@@ -61,9 +61,6 @@ Status das fontes (verificado diariamente): [ykarapazar.github.io/fontes/status/
 
 ## Início rápido
 
-O Fontes **ainda não está no PyPI**. As etapas abaixo funcionarão quando a primeira versão for
-lançada.
-
 1. **Adicione o Fontes ao seu app.**
    - **Claude Desktop:** baixe o arquivo `.mcpb` do Fontes na
      [versão mais recente](https://github.com/ykarapazar/fontes/releases/latest), clique duas vezes
@@ -327,13 +324,12 @@ Filtros por jurisdição (nomes de filtro desconhecidos são rejeitados com a li
 ## Instalação
 
 Passo a passo para cada app (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI, Zed,
-LM Studio, Cline): [INSTALL.md](INSTALL.md). O Fontes ainda não está no PyPI; essas etapas
-funcionarão quando estiver.
+LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Desenvolvedores:** você precisa do [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -365,8 +361,6 @@ app (veja [INSTALL.md](INSTALL.md#outros-apps)):
   }
 }
 ```
-
-Até o Fontes estar no PyPI, use `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Verifique se funciona
 

@@ -8,8 +8,6 @@ dokumen aslinya. Fontes adalah server MCP standar, sehingga berfungsi di aplikas
 menjalankan server MCP lokal: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline, dan lainnya.
 
-**Fontes belum tersedia di PyPI.** Langkah-langkah di bawah ini berfungsi setelah rilis pertama keluar.
-
 Pilih aplikasi Anda, ikuti langkah-langkahnya, lalu [periksa apakah Fontes berfungsi](#memeriksa-apakah-fontes-berfungsi).
 
 ## Claude Desktop

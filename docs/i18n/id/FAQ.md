@@ -117,9 +117,7 @@ permintaan Anda), kirim email ke fontesmcp@proton.me. Sumber tersebut akan diper
 
 Aplikasi MCP apa pun yang dapat menjalankan server lokal (stdio), misalnya Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, dan Cline. Fontes berjalan
-di macOS, Windows, dan Linux, di mana pun uv berjalan (Python 3.13+). Fontes belum tersedia di PyPI;
-setelah tersedia, sebagian besar aplikasi memerlukan satu perintah atau satu entri konfigurasi, dan Claude
-Desktop menerima berkas `.mcpb` yang diklik dua kali. Penginstal sekali klik untuk Mac dan Windows sedang
+di macOS, Windows, dan Linux, di mana pun uv berjalan (Python 3.13+). Penginstal sekali klik untuk Mac dan Windows sedang
 disiapkan. Penginstal ini menyiapkan Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
 Gemini CLI, Zed, LM Studio, dan Cline sekaligus. Langkah untuk setiap aplikasi: [INSTALL.md](INSTALL.md).
 

@@ -59,8 +59,6 @@ Claude Code, OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsur
 
 ## விரைவுத் தொடக்கம்
 
-Fontes **இன்னும் PyPI-இல் இல்லை**. முதல் வெளியீடு வந்ததும் கீழே உள்ள படிகள் வேலை செய்யும்.
-
 1. **உங்கள் செயலியில் Fontes-ஐச் சேர்க்கவும்.**
    - **Claude Desktop:** [சமீபத்திய வெளியீட்டிலிருந்து](https://github.com/ykarapazar/fontes/releases/latest) Fontes
      `.mcpb` கோப்பைப் பதிவிறக்கி, அதை இருமுறை சொடுக்கி, பின்னர் **Install**-ஐச் சொடுக்கவும்.
@@ -320,13 +318,12 @@ OFF = மூலத்தின் நிபந்தனைகளுக்கு 
 ## நிறுவுதல்
 
 ஒவ்வொரு செயலிக்குமான படிப்படியான வழிமுறைகள் (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes இன்னும் PyPI-இல் இல்லை; அது வந்ததும் அந்தப்
-படிகள் வேலை செய்யும்.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **உருவாக்குநர்கள்:** உங்களுக்கு [uv](https://docs.astral.sh/uv/getting-started/installation/) தேவை.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -358,8 +355,6 @@ Fontes ஒரு stdio MCP server: ஒரு MCP client அதைத் தொ�
   }
 }
 ```
-
-Fontes PyPI-இல் வரும் வரை, `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` பயன்படுத்தவும்.
 
 ### இது வேலை செய்கிறதா என்று சரிபார்க்கவும்
 

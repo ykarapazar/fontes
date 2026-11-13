@@ -8,8 +8,6 @@ oriģinālu. Tas ir standarta MCP serveris, tāpēc tas darbojas jebkurā lietot
 lokālu MCP serveri: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline un citās.
 
-**Fontes vēl nav PyPI.** Tālāk norādītās darbības darbosies, kad būs iznākusi pirmā versija.
-
 Izvēlieties savu lietotni, izpildiet tās darbības, pēc tam
 [pārbaudiet, vai darbojas](#kā-pārbaudīt-vai-darbojas).
 

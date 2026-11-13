@@ -8,8 +8,6 @@ siti web giudiziari e istituzionali di oltre 120 giurisdizioni. Ogni risultato r
 Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline e altre.
 
-**Fontes non è ancora su PyPI.** I passaggi seguenti funzioneranno quando uscirà la prima versione.
-
 Scelga la Sua app, segua i relativi passaggi e poi [verifichi che funzioni](#verificare-che-funzioni).
 
 ## Claude Desktop

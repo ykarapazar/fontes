@@ -7,8 +7,6 @@ verkkosivustoilta yli 120 lainkäyttöalueelta. Jokaisessa tuloksessa on linkki 
 joten se toimii missä tahansa sovelluksessa, joka voi ajaa paikallista MCP-palvelinta: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ja muut.
 
-**Fontes ei ole vielä PyPI:ssä.** Alla olevat vaiheet toimivat, kun ensimmäinen versio on julkaistu.
-
 Valitse sovelluksesi, noudata sen vaiheita ja [tarkista sitten, että se toimii](#tarkista-että-se-toimii).
 
 ## Claude Desktop

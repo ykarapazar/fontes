@@ -118,9 +118,7 @@ pedidos), escreva para fontesmcp@proton.me. A fonte será corrigida ou desativad
 
 Com qualquer aplicação MCP capaz de executar um servidor local (stdio), por exemplo Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio e Cline. O
-Fontes funciona em macOS, Windows e Linux, em qualquer sítio onde o uv funcione (Python 3.13+). Ainda
-não está no PyPI; quando estiver, a maioria das aplicações precisará de um comando ou de uma entrada
-de configuração, e o Claude Desktop aceita um ficheiro `.mcpb` aberto com duplo clique. Está a
+Fontes funciona em macOS, Windows e Linux, em qualquer sítio onde o uv funcione (Python 3.13+). Está a
 caminho um instalador de um clique para Mac e Windows. Configura o Claude Desktop, Codex, Claude
 Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio e Cline de uma só vez. Passos para cada
 aplicação: [INSTALL.md](INSTALL.md).

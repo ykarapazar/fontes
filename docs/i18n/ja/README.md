@@ -57,8 +57,6 @@ VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio など。
 
 ## クイックスタート
 
-Fontes は**まだ PyPI で公開されていません**。以下の手順は最初のリリース後に使えるようになります。
-
 1. **Fontes をアプリに追加します。**
    - **Claude Desktop:** [最新リリース](https://github.com/ykarapazar/fontes/releases/latest)から
      Fontes の `.mcpb` ファイルをダウンロードしてダブルクリックし、**Install** をクリックします。
@@ -315,13 +313,12 @@ OFF = 情報源の利用条件により運用者の許可が必要なため、�
 ## インストール
 
 アプリごとの手順（Claude Desktop、Codex、Claude Code、Cursor、VS Code、Gemini CLI、Zed、LM Studio、
-Cline）: [INSTALL.md](INSTALL.md)。Fontes はまだ PyPI で公開されていません。これらの手順は公開後に
-使えるようになります。
+Cline）: [INSTALL.md](INSTALL.md)。
 
 **開発者の方:** [uv](https://docs.astral.sh/uv/getting-started/installation/) が必要です。
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -353,8 +350,6 @@ Légifrance を購読した無料の piste.gouv.fr アプリが必要。手順�
   }
 }
 ```
-
-Fontes が PyPI で公開されるまでは、`"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` を使ってください。
 
 ### 動作の確認
 

@@ -59,8 +59,6 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 
 ## အမြန်စတင်ရန်
 
-Fontes သည် **PyPI တွင် မရှိသေးပါ**။ အောက်ပါအဆင့်များသည် ပထမဆုံး ထုတ်ဝေမှု ထွက်ရှိပြီးမှ အလုပ်လုပ်ပါမည်။
-
 1. **Fontes ကို သင့်အက်ပ်သို့ ထည့်ပါ။**
    - **Claude Desktop:** Fontes `.mcpb` ဖိုင်ကို
      [နောက်ဆုံးထုတ်ဝေမှု](https://github.com/ykarapazar/fontes/releases/latest) မှ ဒေါင်းလုဒ်လုပ်ပါ၊ ၎င်းကို နှစ်ချက်နှိပ်ပါ၊
@@ -322,13 +320,12 @@ OFF = ရင်းမြစ်၏ စည်းကမ်းချက်မျာ�
 ## တပ်ဆင်ခြင်း
 
 အက်ပ်တစ်ခုချင်းစီအတွက် အဆင့်ဆင့် (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md)။ Fontes သည် PyPI တွင် မရှိသေးပါ၊ ထိုအဆင့်များသည်
-ရှိလာပြီးမှ အလုပ်လုပ်ပါမည်။
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md)။
 
 **Developer များ:** [uv](https://docs.astral.sh/uv/getting-started/installation/) လိုအပ်သည်။
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ Fontes သည် stdio MCP server ဖြစ်သည်: MCP client က ၎င�
   }
 }
 ```
-
-Fontes သည် PyPI တွင် မရှိမချင်း `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` ကို အသုံးပြုပါ။
 
 ### အလုပ်လုပ်ကြောင်း စစ်ဆေးပါ
 

@@ -7,8 +7,6 @@ styresmakter i over 120 jurisdiksjonar. Kvart resultat lenkjer til originalen. D
 MCP-server, så han verkar i alle appar som kan køyre ein lokal MCP-server: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline og andre.
 
-**Fontes er ikkje på PyPI enno.** Stega nedanfor verkar når den første utgåva er ute.
-
 Vel appen din, følg stega for han, og [sjekk så at det verkar](#sjekk-at-det-verkar).
 
 ## Claude Desktop

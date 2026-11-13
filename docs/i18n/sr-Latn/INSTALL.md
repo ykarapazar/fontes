@@ -8,8 +8,6 @@ To je standardni MCP server, pa radi u svakoj aplikaciji koja može da pokrene l
 server: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline i drugima.
 
-**Fontes još nije na PyPI.** Koraci u nastavku funkcionišu kada izađe prvo izdanje.
-
 Izaberite svoju aplikaciju, pratite njene korake, a zatim
 [proverite da li radi](#proverite-da-li-radi).
 

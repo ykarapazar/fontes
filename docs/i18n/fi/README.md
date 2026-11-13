@@ -59,8 +59,6 @@ Lähteiden tila (tarkistetaan päivittäin): [ykarapazar.github.io/fontes/status
 
 ## Pika-aloitus
 
-Fontes **ei ole vielä PyPI:ssä**. Alla olevat vaiheet toimivat, kun ensimmäinen versio on julkaistu.
-
 1. **Lisää Fontes sovellukseesi.**
    - **Claude Desktop:** lataa Fontesin `.mcpb`-tiedosto
      [uusimmasta julkaisusta](https://github.com/ykarapazar/fontes/releases/latest), kaksoisnapsauta sitä
@@ -322,13 +320,12 @@ Lainkäyttöaluekohtaiset suodattimet (tuntemattomat suodatinnimet hylätään j
 ## Asennus
 
 Vaihe vaiheelta jokaiselle sovellukselle (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ei ole vielä PyPI:ssä; nuo
-vaiheet toimivat, kun se on.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Kehittäjät:** tarvitset [uv](https://docs.astral.sh/uv/getting-started/installation/)-työkalun.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ Useimmat sovellukset käyttävät samaa merkintää; tiedosto ja ylimmän tason 
   }
 }
 ```
-
-Kunnes Fontes on PyPI:ssä, käytä `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Tarkista, että se toimii
 

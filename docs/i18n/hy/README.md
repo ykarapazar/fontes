@@ -61,8 +61,6 @@ Fontes-ը անվճար, բաց կոդով MCP սերվեր է։ Այն թույ�
 
 ## Արագ մեկնարկ
 
-Fontes-ը **դեռ PyPI-ում չէ**։ Ստորև նշված քայլերը կաշխատեն առաջին թողարկումից հետո։
-
 1. **Ավելացրեք Fontes-ը ձեր հավելվածին։**
    - **Claude Desktop.** ներբեռնեք Fontes-ի `.mcpb` ֆայլը
      [վերջին թողարկումից](https://github.com/ykarapazar/fontes/releases/latest), կրկնակի սեղմեք
@@ -332,13 +330,12 @@ OFF = աղբյուրի պայմանները պահանջում են օպերատ
 ## Տեղադրում
 
 Քայլ առ քայլ հրահանգներ յուրաքանչյուր հավելվածի համար (Claude Desktop, Codex, Claude Code,
-Cursor, VS Code, Gemini CLI, Zed, LM Studio, Cline)՝ [INSTALL.md](INSTALL.md)։ Fontes-ը դեռ
-PyPI-ում չէ. այս քայլերը կաշխատեն, երբ այն այնտեղ լինի։
+Cursor, VS Code, Gemini CLI, Zed, LM Studio, Cline)՝ [INSTALL.md](INSTALL.md)։
 
 **Մշակողներ.** ձեզ անհրաժեշտ է [uv](https://docs.astral.sh/uv/getting-started/installation/)։
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -372,8 +369,6 @@ Fontes-ը stdio MCP սերվեր է. այն գործարկում է MCP հաճա
   }
 }
 ```
-
-Քանի դեռ Fontes-ը PyPI-ում չէ, օգտագործեք `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`։
 
 ### Ստուգեք, որ այն աշխատում է
 

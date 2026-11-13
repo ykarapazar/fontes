@@ -119,9 +119,7 @@ ang iyong mga rate limit), mag-email sa fontesmcp@proton.me. Aayusin o io-off an
 
 Anumang MCP app na kayang magpatakbo ng lokal (stdio) na server, halimbawa Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio at Cline. Tumatakbo ang Fontes
-sa macOS, Windows at Linux, saanman tumatakbo ang uv (Python 3.13+). Wala pa ito sa PyPI; kapag naroon na,
-karamihan ng mga app ay nangangailangan ng isang command o isang config entry, at tumatanggap ang Claude
-Desktop ng `.mcpb` file na dina-double click. Paparating na ang one-click installer para sa Mac at Windows.
+sa macOS, Windows at Linux, saanman tumatakbo ang uv (Python 3.13+). Paparating na ang one-click installer para sa Mac at Windows.
 Sine-set up nito ang Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
 LM Studio at Cline nang sabay-sabay. Mga hakbang para sa bawat app: [INSTALL.md](INSTALL.md).
 

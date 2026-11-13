@@ -60,8 +60,6 @@ Avotu statuss (pārbauda katru dienu): [ykarapazar.github.io/fontes/status/](htt
 
 ## Ātrais sākums
 
-**Fontes vēl nav PyPI.** Tālāk norādītās darbības darbosies, kad būs iznākusi pirmā versija.
-
 1. **Pievienojiet Fontes savai lietotnei.**
    - **Claude Desktop:** lejupielādējiet Fontes `.mcpb` failu no
      [jaunākās versijas](https://github.com/ykarapazar/fontes/releases/latest), veiciet uz tā
@@ -327,13 +325,12 @@ Filtri pa jurisdikcijām (nezināmi filtru nosaukumi tiek noraidīti, uzskaitot 
 ## Instalēšana
 
 Soli pa solim katrai lietotnei (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes vēl nav PyPI; šīs darbības darbosies,
-kad tas tur būs.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Izstrādātājiem:** nepieciešams [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -366,8 +363,6 @@ atšķiras (skatiet [INSTALL.md](INSTALL.md#citas-lietotnes)):
   }
 }
 ```
-
-Kamēr Fontes nav PyPI, izmantojiet `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Kā pārbaudīt, vai darbojas
 

@@ -115,9 +115,7 @@ Ekki setja upplýsingar um skjólstæðinga eða trúnaðarupplýsingar í skýr
 
 Hvaða MCP-forriti sem getur keyrt staðbundinn þjón (stdio), til dæmis Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio og Cline. Fontes
-keyrir á macOS, Windows og Linux, alls staðar þar sem uv keyrir (Python 3.13+). Það er ekki enn á PyPI; þegar
-það kemur þangað þurfa flest forrit eina skipun eða eina stillingafærslu, og Claude Desktop tekur
-`.mcpb`-skrá sem tvísmellt er á. Uppsetningarforrit með einum smelli fyrir Mac og Windows er væntanlegt. Það
+keyrir á macOS, Windows og Linux, alls staðar þar sem uv keyrir (Python 3.13+). Uppsetningarforrit með einum smelli fyrir Mac og Windows er væntanlegt. Það
 setur upp Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio og
 Cline í einu. Skref fyrir hvert forrit: [INSTALL.md](INSTALL.md).
 

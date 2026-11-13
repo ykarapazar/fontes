@@ -59,8 +59,6 @@ OpenAI Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed،
 
 ## شروع سریع
 
-Fontes **هنوز در PyPI نیست**. مراحل زیر پس از انتشار نخستین نسخه کار می‌کنند.
-
 1. **Fontes را به برنامه خود اضافه کنید.**
    - **Claude Desktop:** فایل `.mcpb` مربوط به Fontes را از
      [آخرین نسخه](https://github.com/ykarapazar/fontes/releases/latest) دریافت کنید، روی آن دوبار کلیک کنید،
@@ -320,13 +318,12 @@ OFF = شرایط منبع به اجازه گرداننده نیاز دارد، �
 ## نصب
 
 گام‌به‌گام برای هر برنامه (Claude Desktop، Codex، Claude Code، Cursor، VS Code، Gemini CLI،
-Zed، LM Studio، Cline): [INSTALL.md](INSTALL.md). Fontes هنوز در PyPI نیست؛ آن
-مراحل پس از انتشار آن کار می‌کنند.
+Zed، LM Studio، Cline): [INSTALL.md](INSTALL.md).
 
 **توسعه‌دهندگان:** به [uv](https://docs.astral.sh/uv/getting-started/installation/) نیاز دارید.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -358,8 +355,6 @@ Fontes یک سرور MCP از نوع stdio است: یک کلاینت MCP آن ر
   }
 }
 ```
-
-تا زمانی که Fontes در PyPI نیست، از `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` استفاده کنید.
 
 ### بررسی اینکه کار می‌کند
 

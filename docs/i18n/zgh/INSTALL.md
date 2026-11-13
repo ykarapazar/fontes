@@ -7,8 +7,6 @@ Fontes ⵉⵜⵜⴰⴵⵊⴰ ⴰⵙⵏⵙ ⵏⵏⴽ ⵏ AI ⴰⴷ ⵉⵔⵣⵓ �
 ⴰⵏⴰⵡⵍⴰⵏ, ⵙ ⵓⵢⴰ ⵉⵙⵡⵓⵔⵉ ⴳ ⴽⵓ ⴰⵙⵏⵙ ⵉⵣⵎⵔⵏ ⴰⴷ ⵉⵙⵙⵡⵓⵔⵉ ⴰⵎⵥⵍⴰ MCP ⴰⴷⵖⵔⴰⵏ: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ⴷ ⵡⵉⵢⵢⴰⴹ.
 
-**Fontes ⵓⵔ ⵉⵍⵍⵉ ⴰⵙⵍⴰ ⴳ PyPI.** ⵜⵉⴼⵓⵍⴰ ⴷⴷⴰⵡ ⴰⴷ ⵙⵡⵓⵔⵉⵏⵜ ⵎⴽ ⴷ ⵉⴼⴼⵖ ⵓⵙⵓⴼⵖ ⴰⵎⵣⵡⴰⵔⵓ.
-
 ⵙⵜⵢ ⴰⵙⵏⵙ ⵏⵏⴽ, ⴹⴼⵓ ⵜⵉⴼⵓⵍⴰ ⵏⵏⵙ, ⵙⴳ ⵎⴰⵏ [ⵙⵙⵉⵡⵙ ⵎⴰ ⵉⵙⵡⵓⵔⵉ](#ⴰⵙⵙⵉⵡⵙ-ⵎⴰ-ⵉⵙⵡⵓⵔⵉ).
 
 ## Claude Desktop

@@ -60,8 +60,6 @@ LM Studio и другим.
 
 ## Брзи почетак
 
-Fontes **још није на PyPI**. Кораци испод ће радити када изађе прво издање.
-
 1. **Додајте Fontes у своју апликацију.**
    - **Claude Desktop:** преузмите Fontes датотеку `.mcpb` из
      [најновијег издања](https://github.com/ykarapazar/fontes/releases/latest), двапут кликните на њу,
@@ -325,13 +323,12 @@ OFF = услови извора захтијевају дозволу опера
 ## Инсталација
 
 Корак по корак за сваку апликацију (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini
-CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes још није на PyPI; ти кораци ће
-радити када буде.
+CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Програмери:** потребан вам је [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -363,8 +360,6 @@ Légifrance, кораци у `research/fr.md`), `WLM_PERMITTED=<codes>` (укљ�
   }
 }
 ```
-
-Док Fontes не буде на PyPI, користите `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Провјерите да ли ради
 

@@ -59,8 +59,6 @@ Staða heimilda (athuguð daglega): [ykarapazar.github.io/fontes/status/](https:
 
 ## Fljótleg byrjun
 
-Fontes er **ekki enn á PyPI**. Skrefin hér að neðan virka þegar fyrsta útgáfan er komin út.
-
 1. **Bættu Fontes við forritið þitt.**
    - **Claude Desktop:** sæktu `.mcpb`-skrá Fontes úr
      [nýjustu útgáfunni](https://github.com/ykarapazar/fontes/releases/latest), tvísmelltu á hana
@@ -322,13 +320,12 @@ Síur eftir lögsögu (óþekkt síuheiti er hafnað með lista yfir gild heiti)
 ## Uppsetning
 
 Skref fyrir skref fyrir hvert forrit (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes er ekki enn á PyPI; þau
-skref virka þegar það kemur þangað.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Forritarar:** þú þarft [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ Flest forrit nota sömu færslu; skráin og efsta lykilorðið eru mismunandi ef
   }
 }
 ```
-
-Þar til Fontes er komið á PyPI skaltu nota `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Athugaðu hvort það virki
 

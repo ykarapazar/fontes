@@ -58,8 +58,6 @@ Windsurf، Zed، LM Studio އަދި އެހެނިހެން.
 
 ## އަވަސް ފެށުން
 
-Fontes **އަދި PyPI ގައި ނެތެވެ**. ތިރީގައިވާ ފިޔަވަޅުތައް މަސައްކަތްކުރާނީ ފުރަތަމަ ރިލީސް ނެރުމުންނެވެ.
-
 1. **ތިބާގެ އެޕަށް Fontes އިތުރުކުރައްވާ.**
    - **Claude Desktop:** Fontes ގެ `.mcpb` ފައިލު
      [އެންމެ ފަހުގެ ރިލީސް](https://github.com/ykarapazar/fontes/releases/latest) އިން ޑައުންލޯޑްކޮށް، އޭގެ މަތީގައި
@@ -324,13 +322,12 @@ OFF = މަސްދަރުގެ ޝަރުޠުތަކުގެ ދަށުން އޮޕަރޭޓ�
 ## އިންސްޓޯލްކުރުން
 
 ކޮންމެ އެޕަކަށް ފިޔަވަޅުން ފިޔަވަޅަށް (Claude Desktop، Codex، Claude Code، Cursor، VS Code، Gemini CLI، Zed،
-LM Studio، Cline): [INSTALL.md](INSTALL.md). Fontes އަދި PyPI ގައި ނެތެވެ؛ އެ ފިޔަވަޅުތައް މަސައްކަތްކުރާނީ އެތަނުގައި
-ލިބެން ފެށުމުންނެވެ.
+LM Studio، Cline): [INSTALL.md](INSTALL.md).
 
 **ޑިވެލޮޕަރުން:** [uv](https://docs.astral.sh/uv/getting-started/installation/) ބޭނުންވާނެއެވެ.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -362,8 +359,6 @@ Fontes އަކީ stdio MCP ސަރވަރެކެވެ: އެ ފަށައިދެނީ MCP 
   }
 }
 ```
-
-Fontes PyPI ގައި ލިބެންދެން، `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` ބޭނުންކުރައްވާ.
 
 ### މަސައްކަތްކުރާތޯ ޗެކްކުރުން
 

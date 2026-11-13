@@ -61,8 +61,6 @@ Uko inkomoko zihagaze (bigenzurwa buri munsi): [ykarapazar.github.io/fontes/stat
 
 ## Gutangira vuba
 
-Fontes **ntiraba kuri PyPI**. Intambwe zikurikira zizakora nyuma y'uko verisiyo ya mbere isohotse.
-
 1. **Ongera Fontes muri porogaramu yawe.**
    - **Claude Desktop:** kuramo dosiye `.mcpb` ya Fontes muri
      [verisiyo iheruka](https://github.com/ykarapazar/fontes/releases/latest), uyikandeho kabiri,
@@ -327,13 +325,12 @@ Uburyo bwo kuyungurura kuri buri fasi y'ubutabera (amazina atazwi arirengagizwa,
 ## Kuyishyiraho
 
 Intambwe ku yindi kuri buri porogaramu (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ntiraba kuri PyPI; izo ntambwe zizakora nimara
-kuhaba.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Abakora porogaramu:** mukeneye [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -365,8 +362,6 @@ bitandukana bitewe na porogaramu (reba [INSTALL.md](INSTALL.md#izindi-porogaramu
   }
 }
 ```
-
-Kugeza Fontes igeze kuri PyPI, koresha `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Genzura ko ikora
 

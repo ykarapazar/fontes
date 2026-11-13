@@ -60,9 +60,6 @@ Status vun de Quellen (all Dag kontrolléiert): [ykarapazar.github.io/fontes/sta
 
 ## Séier ufänken
 
-Fontes ass **nach net op PyPI**. D'Schrëtt hei drënner funktionéieren, soubal déi éischt Versioun
-eraus ass.
-
 1. **Fontes an Är App derbäisetzen.**
    - **Claude Desktop:** Luet de Fontes-Fichier `.mcpb` aus der
      [neister Release](https://github.com/ykarapazar/fontes/releases/latest) erof, klickt duebel
@@ -331,13 +328,12 @@ Filtere pro Rechtsuerdnung (onbekannt Filternimm ginn ofgeleent, mat der Lëscht
 ## Installatioun
 
 Schrëtt fir Schrëtt fir all App (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ass nach net op PyPI; dës Schrëtt
-funktionéieren, soubal et do ass.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Entwéckler:** Dir braucht [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -369,8 +365,6 @@ sech vun App zu App (kuckt [INSTALL.md](INSTALL.md#aner-apps)):
   }
 }
 ```
-
-Bis Fontes op PyPI ass, benotzt `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Kontrolléieren, ob et funktionéiert
 

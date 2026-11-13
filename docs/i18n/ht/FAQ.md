@@ -109,9 +109,7 @@ demann ou yo), voye yon imèl bay fontesmcp@proton.me. Y ap repare sous la oswa 
 
 Nenpòt aplikasyon MCP ki ka fè yon sèvè lokal (stdio) mache, pa egzanp Claude Desktop, Claude Code, Codex,
 Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ak Cline. Fontes mache sou macOS,
-Windows ak Linux, tout kote uv mache (Python 3.13+). Li poko sou PyPI; lè l sou li, pifò aplikasyon ap
-bezwen yon sèl kòmand oswa yon sèl antre konfigirasyon, e Claude Desktop pran yon fichye `.mcpb` ou klike
-de fwa sou li. Yon enstalatè an yon sèl klik pou Mac ak Windows ap vini. Li konfigire Claude Desktop,
+Windows ak Linux, tout kote uv mache (Python 3.13+). Yon enstalatè an yon sèl klik pou Mac ak Windows ap vini. Li konfigire Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ak Cline an yon sèl fwa. Etap
 pou chak aplikasyon: [INSTALL.md](INSTALL.md).
 

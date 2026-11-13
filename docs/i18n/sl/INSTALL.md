@@ -8,8 +8,6 @@ izvirnika. Gre za standardni strežnik MCP, zato deluje v vsaki aplikaciji, ki l
 lokalni strežnik MCP: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline in drugih.
 
-**Fontes še ni na PyPI.** Spodnji koraki bodo delovali, ko bo izšla prva izdaja.
-
 Izberite svojo aplikacijo, sledite njenim korakom in nato [preverite, ali deluje](#preverjanje-delovanja).
 
 ## Claude Desktop

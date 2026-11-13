@@ -61,8 +61,6 @@ Mbiru cosaan yi (ñu saytu ko bés bu nekk): [ykarapazar.github.io/fontes/status
 
 ## Tàmbali gaaw
 
-Fontes **nekkagul ci PyPI**. Tànk yi ci suuf dinañu dox bu sumb (version) bu jëkk bi génnee.
-
 1. **Yokkal Fontes ci sa aplikasioŋ.**
    - **Claude Desktop:** yebal fichier `.mcpb` bu Fontes ci
      [sumb bu mujj bi](https://github.com/ykarapazar/fontes/releases/latest), cuqal ko ñaari yoon, te nga
@@ -323,12 +321,12 @@ Filtre yi ci juridiction bu nekk (turu filtre yu ñu xamul dañu leen di bañ, a
 ## Samp
 
 Tànk-tànk ngir aplikasioŋ bu nekk (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI, Zed,
-LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes nekkagul ci PyPI; tànk yooyu dinañu dox bu mu fa nekkee.
+LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Defarkat yi:** soxla ngeen [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +358,6 @@ bu nekk (xoolal [INSTALL.md](INSTALL.md#yeneen-aplikasioŋ)):
   }
 }
 ```
-
-Ba Fontes di nekk ci PyPI, jëfandikool `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Saytu ndax mu ngi dox
 

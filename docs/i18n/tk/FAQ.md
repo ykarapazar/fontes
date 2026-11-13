@@ -122,9 +122,7 @@ düzediler ýa-da öçüriler.
 Ýerli (stdio) serweri işledip bilýän islendik MCP programmasy, meselem, Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio we
 Cline. Fontes macOS, Windows we Linux-da, uv işleýän islendik ýerde (Python 3.13+) işleýär.
-Ol entek PyPI-da ýok; ol peýda bolandan soň, programmalaryň köpüsine bir buýruk ýa-da bir
-sazlama ýazgysy gerek bolar, Claude Desktop bolsa iki gezek basylýan `.mcpb` faýlyny kabul
-edýär. Mac we Windows üçin bir basyşda gurnaýjy ýakynda çykar. Ol Claude Desktop, Codex,
+Mac we Windows üçin bir basyşda gurnaýjy ýakynda çykar. Ol Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio we Cline programmalaryny
 birbada sazlaýar. Her programma üçin ädimler: [INSTALL.md](INSTALL.md).
 

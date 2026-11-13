@@ -8,8 +8,6 @@ nuorodą į originalą. Tai standartinis MCP serveris, todėl jis veikia bet kur
 galinčioje paleisti vietinį MCP serverį: Claude Desktop, Codex, Claude Code, Cursor, VS Code
 (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ir kitose.
 
-**Fontes dar nėra PyPI.** Toliau nurodyti veiksmai veiks, kai bus išleista pirmoji versija.
-
 Pasirinkite savo programą, atlikite jos veiksmus, tada
 [patikrinkite, ar veikia](#kaip-patikrinti-ar-veikia).
 

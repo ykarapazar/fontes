@@ -116,9 +116,7 @@ limit များ) fontesmcp@proton.me သို့ အီးမေးလ်ပ
 
 local (stdio) server ကို run နိုင်သော မည်သည့် MCP အက်ပ်မဆို၊ ဥပမာ Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio နှင့် Cline။ Fontes
-သည် macOS, Windows နှင့် Linux တွင်၊ uv run နိုင်သည့် မည်သည့်နေရာတွင်မဆို (Python 3.13+) run သည်။ ၎င်းသည် PyPI တွင် မရှိသေးပါ၊
-ရှိလာပြီးနောက် အက်ပ်အများစုသည် command တစ်ခု သို့မဟုတ် config entry တစ်ခုသာ လိုအပ်ပြီး Claude Desktop သည်
-နှစ်ချက်နှိပ်ထားသော `.mcpb` ဖိုင်ကို လက်ခံသည်။ Mac နှင့် Windows အတွက် တစ်ချက်နှိပ် တပ်ဆင်ရေးပရိုဂရမ် လာမည်ဖြစ်သည်။ ၎င်းသည်
+သည် macOS, Windows နှင့် Linux တွင်၊ uv run နိုင်သည့် မည်သည့်နေရာတွင်မဆို (Python 3.13+) run သည်။ Mac နှင့် Windows အတွက် တစ်ချက်နှိပ် တပ်ဆင်ရေးပရိုဂရမ် လာမည်ဖြစ်သည်။ ၎င်းသည်
 Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio နှင့်
 Cline ကို တစ်ကြိမ်တည်းဖြင့် စနစ်ထည့်သွင်းပေးသည်။ အက်ပ်တစ်ခုချင်းစီအတွက် အဆင့်များ: [INSTALL.md](INSTALL.md)။
 

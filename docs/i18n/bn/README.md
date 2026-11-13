@@ -59,8 +59,6 @@ Gemini CLI, Windsurf, Zed, LM Studio এবং আরও অনেক।
 
 ## দ্রুত শুরু
 
-Fontes **এখনো PyPI-তে নেই**। নিচের ধাপগুলো প্রথম রিলিজ প্রকাশিত হলে কাজ করবে।
-
 1. **আপনার অ্যাপে Fontes যোগ করুন।**
    - **Claude Desktop:** [সর্বশেষ রিলিজ](https://github.com/ykarapazar/fontes/releases/latest) থেকে Fontes-এর
      `.mcpb` ফাইলটি ডাউনলোড করুন, এতে ডাবল-ক্লিক করুন, তারপর **Install**-এ ক্লিক করুন।
@@ -317,12 +315,12 @@ OFF = উৎসের শর্ত অনুযায়ী অপারেট�
 ## ইনস্টল
 
 প্রতিটি অ্যাপের জন্য ধাপে ধাপে নির্দেশনা (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md)। Fontes এখনো PyPI-তে নেই; সেখানে এলে ওই ধাপগুলো কাজ করবে।
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md)।
 
 **ডেভেলপার:** আপনার [uv](https://docs.astral.sh/uv/getting-started/installation/) প্রয়োজন।
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -354,8 +352,6 @@ Légifrance-এ সাবস্ক্রাইব করা বিনামূ�
   }
 }
 ```
-
-Fontes PyPI-তে না আসা পর্যন্ত `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` ব্যবহার করুন।
 
 ### এটি কাজ করছে কি না পরীক্ষা করুন
 

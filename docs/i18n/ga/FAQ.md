@@ -122,9 +122,7 @@ fhoinse nó múchfar í.
 
 Aon aip MCP ar féidir léi freastalaí áitiúil (stdio) a rith, mar shampla Claude Desktop, Claude
 Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio agus Cline.
-Ritheann Fontes ar macOS, Windows agus Linux, áit ar bith a ritheann uv (Python 3.13+). Níl sé ar
-PyPI fós; nuair a bheidh, ní theastóidh ach ordú amháin nó iontráil chumraíochta amháin ó fhormhór
-na n-aipeanna, agus glacann Claude Desktop le comhad `.mcpb` a ndéantar déchliceáil air. Tá
+Ritheann Fontes ar macOS, Windows agus Linux, áit ar bith a ritheann uv (Python 3.13+). Tá
 suiteálaí aon chliceáil do Mac agus Windows ar an mbealach. Socraíonn sé Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio agus Cline in aon iarraidh
 amháin. Céimeanna do gach aip: [INSTALL.md](INSTALL.md).

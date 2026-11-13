@@ -121,9 +121,7 @@ ribos), rašykite fontesmcp@proton.me. Šaltinis bus pataisytas arba išjungtas.
 
 Su bet kuria MCP programa, galinčia paleisti vietinį (stdio) serverį, pavyzdžiui, Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ir
-Cline. Fontes veikia macOS, Windows ir Linux sistemose, visur, kur veikia uv (Python 3.13+). Jo
-dar nėra PyPI; kai jis ten atsiras, daugumai programų reikės vienos komandos arba vieno
-konfigūracijos įrašo, o Claude Desktop priima dukart spustelėjamą `.mcpb` failą. Diegimo
+Cline. Fontes veikia macOS, Windows ir Linux sistemose, visur, kur veikia uv (Python 3.13+). Diegimo
 programa vienu spustelėjimu, skirta Mac ir Windows, netrukus bus išleista. Ji vienu kartu
 nustato Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio
 ir Cline. Kiekvienos programos veiksmai: [INSTALL.md](INSTALL.md).

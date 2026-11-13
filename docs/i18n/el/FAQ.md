@@ -126,9 +126,7 @@ Fontes, τι όχι και γιατί.
 Με κάθε εφαρμογή MCP που μπορεί να εκτελέσει τοπικό διακομιστή (stdio), για παράδειγμα Claude
 Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio και Cline. Το Fontes εκτελείται σε macOS, Windows και Linux, οπουδήποτε εκτελείται το
-uv (Python 3.13+). Δεν είναι ακόμη στο PyPI· μόλις είναι, οι περισσότερες εφαρμογές χρειάζονται
-μία εντολή ή μία καταχώριση ρυθμίσεων, και το Claude Desktop δέχεται ένα αρχείο `.mcpb` με διπλό
-κλικ. Ένα πρόγραμμα εγκατάστασης με ένα κλικ για Mac και Windows έρχεται σύντομα. Ρυθμίζει
+uv (Python 3.13+). Ένα πρόγραμμα εγκατάστασης με ένα κλικ για Mac και Windows έρχεται σύντομα. Ρυθμίζει
 μονομιάς τα Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
 LM Studio και Cline. Βήματα για κάθε εφαρμογή: [INSTALL.md](INSTALL.md).
 

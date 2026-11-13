@@ -8,8 +8,6 @@ Standart bir MCP sunucusu olduğundan, yerel bir MCP sunucusu çalıştırabilen
 Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline ve diğerleri.
 
-**Fontes henüz PyPI'da yok.** Aşağıdaki adımlar ilk sürüm yayımlandığında çalışır.
-
 Uygulamanızı seçin, adımlarını izleyin, ardından [çalıştığını kontrol edin](#çalıştığını-kontrol-etmek).
 
 ## Claude Desktop

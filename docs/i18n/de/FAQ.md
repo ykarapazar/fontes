@@ -121,9 +121,7 @@ oder abgeschaltet.
 
 Mit jeder MCP-App, die einen lokalen (stdio-)Server ausführen kann, zum Beispiel Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio und Cline.
-Fontes läuft unter macOS, Windows und Linux, überall dort, wo uv läuft (Python 3.13+). Es ist noch
-nicht auf PyPI; sobald es dort ist, brauchen die meisten Apps einen Befehl oder einen
-Konfigurationseintrag, und Claude Desktop nimmt eine per Doppelklick geöffnete `.mcpb`-Datei. Ein
+Fontes läuft unter macOS, Windows und Linux, überall dort, wo uv läuft (Python 3.13+). Ein
 Ein-Klick-Installationsprogramm für Mac und Windows ist in Vorbereitung. Es richtet Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio und Cline in einem Durchgang
 ein. Schritte für jede App: [INSTALL.md](INSTALL.md).

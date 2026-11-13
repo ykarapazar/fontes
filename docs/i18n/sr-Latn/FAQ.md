@@ -118,10 +118,7 @@ ograničenja broja zahteva), pišite na fontesmcp@proton.me. Izvor će biti ispr
 
 Sa svakom MCP aplikacijom koja može da pokrene lokalni (stdio) server, na primer Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio i
-Cline. Fontes radi na macOS-u, Windows-u i Linux-u, svuda gde radi uv (Python 3.13+). Još nije
-na PyPI; kada bude, većini aplikacija biće potrebna jedna komanda ili jedan unos u
-konfiguraciji, a Claude Desktop prihvata datoteku `.mcpb` otvorenu dvostrukim klikom.
-Instalacioni program na jedan klik za Mac i Windows je u pripremi. On podešava Claude Desktop,
+Cline. Fontes radi na macOS-u, Windows-u i Linux-u, svuda gde radi uv (Python 3.13+). Instalacioni program na jedan klik za Mac i Windows je u pripremi. On podešava Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio i Cline odjednom.
 Koraci za svaku aplikaciju: [INSTALL.md](INSTALL.md).
 

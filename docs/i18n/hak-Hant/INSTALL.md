@@ -7,8 +7,6 @@ Fontes 分你个 AI 應用程式在法院同政府个網站頂即時查法院裁
 Claude Desktop、Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、
 LM Studio、Cline 等等。
 
-**Fontes 還吂發布到 PyPI。** 下背个步驟愛等第一个版本發布以後正做得用。
-
 揀你个應用程式，照佢个步驟做，再[確定有正常運作](#確定有正常運作)。
 
 ## Claude Desktop

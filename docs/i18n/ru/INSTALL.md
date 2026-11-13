@@ -8,8 +8,6 @@ Fontes позволяет вашему ИИ-приложению находит�
 приложении, способном запускать локальный MCP-сервер: Claude Desktop, Codex, Claude Code, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline и других.
 
-**Fontes пока нет на PyPI.** Описанные ниже шаги заработают после выхода первого релиза.
-
 Выберите своё приложение, выполните его шаги, затем [проверьте работу](#проверка-работы).
 
 ## Claude Desktop

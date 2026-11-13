@@ -59,8 +59,6 @@ Fontes خادم MCP مجاني ومفتوح المصدر. يتيح لتطبيق 
 
 ## البدء السريع
 
-Fontes **ليس متاحًا على PyPI بعد**. تعمل الخطوات أدناه بعد صدور الإصدار الأول.
-
 1. **أضِف Fontes إلى تطبيقك.**
    - **Claude Desktop:** نزّل ملف Fontes بصيغة `.mcpb` من
      [أحدث إصدار](https://github.com/ykarapazar/fontes/releases/latest)، وانقر عليه نقرًا مزدوجًا،
@@ -320,13 +318,12 @@ OFF = شروط المصدر تتطلب إذنًا للمشغّل، لذا فهو
 ## التثبيت
 
 خطوات مفصّلة لكل تطبيق (Claude Desktop وCodex وClaude Code وCursor وVS Code وGemini CLI
-وZed وLM Studio وCline): [INSTALL.md](INSTALL.md). Fontes ليس متاحًا على PyPI بعد؛ تعمل تلك
-الخطوات بعد أن يصبح متاحًا.
+وZed وLM Studio وCline): [INSTALL.md](INSTALL.md).
 
 **للمطوّرين:** تحتاج إلى [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -358,8 +355,6 @@ Fontes خادم MCP يعمل عبر stdio: يشغّله عميل MCP، ولا ت
   }
 }
 ```
-
-إلى أن يصبح Fontes متاحًا على PyPI، استخدم `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### التحقق من أنه يعمل
 

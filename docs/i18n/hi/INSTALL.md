@@ -7,8 +7,6 @@ Fontes आपके AI ऐप को 120 से अधिक क्षेत्�
 काम करता है जो स्थानीय MCP सर्वर चला सकता है: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline और अन्य।
 
-**Fontes अभी PyPI पर नहीं है।** नीचे दिए गए चरण पहली रिलीज़ आने के बाद काम करेंगे।
-
 अपना ऐप चुनें, उसके चरणों का पालन करें, फिर [जाँचें कि यह काम करता है](#जाँचना-कि-यह-काम-करता-है)।
 
 ## Claude Desktop

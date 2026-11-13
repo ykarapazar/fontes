@@ -8,8 +8,6 @@ juridiksione. Çdo rezultat lidhet me origjinalin. Është një server standard 
 në çdo aplikacion që mund të nisë një server MCP lokal: Claude Desktop, Codex, Claude Code, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline dhe të tjerë.
 
-**Fontes nuk është ende në PyPI.** Hapat më poshtë funksionojnë sapo të dalë versioni i parë.
-
 Zgjidhni aplikacionin tuaj, ndiqni hapat e tij, pastaj
 [kontrolloni që funksionon](#kontrolli-që-funksionon).
 

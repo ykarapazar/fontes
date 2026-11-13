@@ -8,8 +8,6 @@ sèvè MCP estanda, kidonk li mache nan nenpòt aplikasyon ki ka fè yon sèvè 
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ak lòt
 ankò.
 
-**Fontes poko sou PyPI.** Etap ki anba yo ap mache lè premye vèsyon an soti.
-
 Chwazi aplikasyon ou, swiv etap pou li yo, epi [verifye si li mache](#verifye-si-li-mache).
 
 ## Claude Desktop

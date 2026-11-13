@@ -62,9 +62,6 @@ Ypykue mba'éichapa oĩ (ojehechajey ára ha ára): [ykarapazar.github.io/fontes
 
 ## Ñepyrũ pya'e
 
-Fontes **ndaipóri gueteri PyPI-pe**. Ko'ã tembiapo iguýpe oikóta pe ñemosẽ (release)
-peteĩha osẽ rire.
-
 1. **Embojoapy Fontes nde aplicación-pe.**
    - **Claude Desktop:** emboguejy Fontes archivo `.mcpb`
      [ñemosẽ ipyahuvévagui](https://github.com/ykarapazar/fontes/releases/latest), ejopy
@@ -332,13 +329,12 @@ umi oikóva lista):
 ## Ñemohenda
 
 Tembiapo peteĩteĩ aplicación-pe g̃uarã (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ndaipóri gueteri PyPI-pe;
-umi tembiapo oikóta oĩ rire.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Desarrollador-kuéra:** reikotevẽ [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -370,8 +366,6 @@ iñambue peteĩteĩ aplicación-pe (ehecha [INSTALL.md](INSTALL.md#ambue-aplicac
   }
 }
 ```
-
-Fontes oĩ peve PyPI-pe, eipuru `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Ehecha oikópa
 

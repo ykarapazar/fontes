@@ -6,8 +6,6 @@ Fontes 讓您的 AI 應用程式在法院與政府網站上即時查詢法院裁
 原文連結。它是標準的 MCP 伺服器，因此可在任何能執行本機 MCP 伺服器的應用程式中使用：Claude Desktop、
 Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio、Cline 等。
 
-**Fontes 尚未發布到 PyPI。** 以下步驟在第一個版本發布後即可使用。
-
 選擇您的應用程式，依照其步驟操作，然後[確認是否正常運作](#確認是否正常運作)。
 
 ## Claude Desktop

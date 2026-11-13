@@ -123,9 +123,7 @@ Fontes-ն «Unofficial source» ծանուցում է ավելացնում դր�
 Ցանկացած MCP հավելվածի հետ, որը կարող է գործարկել տեղային (stdio) սերվեր, օրինակ՝ Claude
 Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio և Cline։ Fontes-ն աշխատում է macOS-ում, Windows-ում և Linux-ում՝ ամենուր, որտեղ
-աշխատում է uv-ն (Python 3.13+)։ Այն դեռ PyPI-ում չէ. երբ լինի, հավելվածների մեծ մասին
-կանհրաժեշտ լինի մեկ հրաման կամ կարգավորման մեկ գրառում, իսկ Claude Desktop-ն ընդունում է
-`.mcpb` ֆայլ, որի վրա կրկնակի սեղմում եք։ Mac-ի և Windows-ի համար մեկ սեղմումով տեղադրիչը շուտով
+աշխատում է uv-ն (Python 3.13+)։ Mac-ի և Windows-ի համար մեկ սեղմումով տեղադրիչը շուտով
 կլինի։ Այն միանգամից կարգավորում է Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio և Cline։ Յուրաքանչյուր հավելվածի քայլերը՝
 [INSTALL.md](INSTALL.md)։

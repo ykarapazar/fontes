@@ -115,9 +115,7 @@ Protocol (Claude وCodex وCursor وVS Code وGemini CLI وغيرها) البح�
 
 أي تطبيق MCP يستطيع تشغيل خادم محلي (stdio)، مثل Claude Desktop وClaude Code
 وCodex وCursor وVS Code (GitHub Copilot) وGemini CLI وWindsurf وZed وLM Studio وCline. يعمل Fontes
-على macOS وWindows وLinux، وفي أي مكان يعمل فيه uv (Python 3.13+). ليس متاحًا على PyPI بعد؛ وبعد أن
-يصبح متاحًا، تحتاج معظم التطبيقات إلى أمر واحد أو إدخال إعداد واحد، ويقبل Claude Desktop
-ملف `.mcpb` يُفتح بنقرة مزدوجة. أداة تثبيت بنقرة واحدة لنظامَي Mac وWindows قادمة قريبًا. تُعدّ
+على macOS وWindows وLinux، وفي أي مكان يعمل فيه uv (Python 3.13+). أداة تثبيت بنقرة واحدة لنظامَي Mac وWindows قادمة قريبًا. تُعدّ
 Claude Desktop وCodex وClaude Code وCursor وVS Code وWindsurf وGemini CLI وZed وLM Studio و
 Cline دفعة واحدة. خطوات كل تطبيق: [INSTALL.md](INSTALL.md).
 

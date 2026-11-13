@@ -8,9 +8,6 @@ Original. Fontes ist ein standardkonformer MCP-Server und funktioniert daher in 
 lokalen MCP-Server ausführen kann: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline und weiteren.
 
-**Fontes ist noch nicht auf PyPI.** Die folgenden Schritte funktionieren, sobald die erste Version
-erschienen ist.
-
 Wählen Sie Ihre App, folgen Sie ihren Schritten und [prüfen Sie dann, ob es funktioniert](#prüfen-ob-es-funktioniert).
 
 ## Claude Desktop

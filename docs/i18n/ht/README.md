@@ -59,8 +59,6 @@ Eta sous yo (verifye chak jou): [ykarapazar.github.io/fontes/status/](https://yk
 
 ## Kòmanse rapid
 
-Fontes **poko sou PyPI**. Etap ki anba yo ap mache lè premye vèsyon an soti.
-
 1. **Ajoute Fontes nan aplikasyon ou.**
    - **Claude Desktop:** telechaje fichye `.mcpb` Fontes la nan
      [dènye vèsyon an](https://github.com/ykarapazar/fontes/releases/latest), klike de fwa sou li, epi
@@ -319,12 +317,12 @@ Filt pa jiridiksyon (non filt yo pa konnen yo rejte, ak lis filt ki valab yo):
 ## Enstalasyon
 
 Etap pa etap pou chak aplikasyon (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI, Zed,
-LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes poko sou PyPI; etap sa yo ap mache lè l sou li.
+LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Devlopè:** ou bezwen [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -356,8 +354,6 @@ Pifò aplikasyon pran menm antre a; fichye a ak kle nivo siperyè a chanje dapre
   }
 }
 ```
-
-Tank Fontes poko sou PyPI, sèvi ak `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Verifye si li mache
 

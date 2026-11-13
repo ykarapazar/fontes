@@ -7,8 +7,6 @@ Fontes ستاسو AI اپ ته اجازه ورکوي چې د محکمو فیصل
 سرور دی، نو په هر هغه اپ کې کار کوي چې محلي MCP سرور چلولای شي: Claude Desktop، Codex، Claude
 Code، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed، LM Studio، Cline او نور.
 
-**Fontes لا تر اوسه په PyPI کې نشته.** لاندې ګامونه د لومړۍ خپرونې له راوتو وروسته کار کوي.
-
 خپل اپ وټاکئ، د هغه ګامونه تعقیب کړئ، بیا [وګورئ چې کار کوي](#وګورئ-چې-کار-کوي).
 
 ## Claude Desktop

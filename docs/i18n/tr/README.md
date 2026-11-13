@@ -58,8 +58,6 @@ Kaynak durumu (her gün kontrol edilir): [ykarapazar.github.io/fontes/status/](h
 
 ## Hızlı başlangıç
 
-Fontes **henüz PyPI'da yok**. Aşağıdaki adımlar ilk sürüm yayımlandığında çalışır.
-
 1. **Fontes'i uygulamanıza ekleyin.**
    - **Claude Desktop:** Fontes `.mcpb` dosyasını
      [en son sürümden](https://github.com/ykarapazar/fontes/releases/latest) indirin, üzerine çift
@@ -322,13 +320,12 @@ Yargı alanına göre filtreler (bilinmeyen filtre adları, geçerli olanların 
 ## Kurulum
 
 Her uygulama için adım adım (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI, Zed,
-LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes henüz PyPI'da yok; bu adımlar yayımlandığında
-çalışır.
+LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Geliştiriciler:** [uv](https://docs.astral.sh/uv/getting-started/installation/) gerekir.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ kaynakları açar; yalnızca bu izne sahip olduktan sonra), `FONTES_NO_UPDATE_CH
   }
 }
 ```
-
-Fontes PyPI'da yayımlanana kadar `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` kullanın.
 
 ### Çalıştığını kontrol edin
 

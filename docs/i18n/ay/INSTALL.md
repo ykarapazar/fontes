@@ -8,8 +8,6 @@ jaysäwix originalaruw mayachata. Mä estándar MCP servidorawa, ukatwa mä loca
 irnaqayañ puedki uka kuna aplicacionansa irnaqi: Claude Desktop, Codex, Claude Code, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline, yaqhanakansa.
 
-**Fontes ukax janiw PyPI ukankiti.** Aka lurawinakax nayrïr apsuwix mistuni ukhakiw irnaqani.
-
 Aplicacionam ajllim, lurawinakap lurtam, ukat [irnaqatap uñakipam](#irnaqatap-uñakipaña).
 
 ## Claude Desktop

@@ -8,8 +8,6 @@ Fontes-ը թույլ է տալիս ձեր AI հավելվածին դատական
 գործարկել տեղային MCP սերվեր՝ Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline և այլն։
 
-**Fontes-ը դեռ PyPI-ում չէ։** Ստորև նշված քայլերը կաշխատեն առաջին թողարկումից հետո։
-
 Ընտրեք ձեր հավելվածը, կատարեք դրա քայլերը, ապա
 [ստուգեք, որ այն աշխատում է](#ստուգում-որ-այն-աշխատում-է)։
 

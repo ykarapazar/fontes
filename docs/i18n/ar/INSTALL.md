@@ -7,8 +7,6 @@
 وهو خادم MCP قياسي، لذا يعمل في أي تطبيق يستطيع تشغيل خادم MCP محلي: Claude Desktop وCodex
 وClaude Code وCursor وVS Code (GitHub Copilot) وGemini CLI وWindsurf وZed وLM Studio وCline وغيرها.
 
-**Fontes ليس متاحًا على PyPI بعد.** تعمل الخطوات أدناه بعد صدور الإصدار الأول.
-
 اختر تطبيقك، واتبع خطواته، ثم [تحقّق من أنه يعمل](#التحقق-من-أنه-يعمل).
 
 ## Claude Desktop

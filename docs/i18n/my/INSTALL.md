@@ -7,8 +7,6 @@ Fontes သည် သင်၏ AI အက်ပ်အား စီရင်ပိ�
 server ဖြစ်သောကြောင့် local MCP server ကို run နိုင်သော မည်သည့်အက်ပ်တွင်မဆို အလုပ်လုပ်သည်: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline နှင့် အခြားအက်ပ်များ။
 
-**Fontes သည် PyPI တွင် မရှိသေးပါ။** အောက်ပါအဆင့်များသည် ပထမဆုံး ထုတ်ဝေမှု ထွက်ရှိပြီးမှ အလုပ်လုပ်ပါမည်။
-
 သင့်အက်ပ်ကို ရွေးပါ၊ ၎င်း၏အဆင့်များကို လိုက်နာပါ၊ ထို့နောက် [အလုပ်လုပ်ကြောင်း စစ်ဆေးပါ](#အလုပ်လုပ်ကြောင်း-စစ်ဆေးခြင်း)။
 
 ## Claude Desktop

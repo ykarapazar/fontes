@@ -59,8 +59,6 @@ OpenAI Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed،
 
 ## فوری آغاز
 
-Fontes **ابھی PyPI پر نہیں ہے**۔ نیچے دیے گئے مراحل پہلی ریلیز آنے کے بعد کام کریں گے۔
-
 1. **Fontes کو اپنی ایپ میں شامل کریں۔**
    - **Claude Desktop:** Fontes کی `.mcpb` فائل
      [تازہ ترین ریلیز](https://github.com/ykarapazar/fontes/releases/latest) سے ڈاؤن لوڈ کریں، اس پر ڈبل کلک کریں،
@@ -322,13 +320,12 @@ OFF = ماخذ کی شرائط کے تحت آپریٹر کی اجازت درکا
 ## انسٹال
 
 ہر ایپ کے لیے مرحلہ وار ہدایات (Claude Desktop، Codex، Claude Code، Cursor، VS Code، Gemini CLI،
-Zed، LM Studio، Cline): [INSTALL.md](INSTALL.md)۔ Fontes ابھی PyPI پر نہیں ہے؛ یہ
-مراحل اس کے آنے کے بعد کام کریں گے۔
+Zed، LM Studio، Cline): [INSTALL.md](INSTALL.md)۔
 
 **ڈویلپرز:** آپ کو [uv](https://docs.astral.sh/uv/getting-started/installation/) درکار ہے۔
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ piste.gouv.fr پر ایک مفت ایپ جو Judilibre اور Légifrance کی �
   }
 }
 ```
-
-جب تک Fontes، PyPI پر نہیں آتا، `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` استعمال کریں۔
 
 ### چیک کریں کہ یہ کام کرتا ہے
 

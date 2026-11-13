@@ -7,8 +7,6 @@ veebisaitidelt enam kui 120 jurisdiktsioonis. Iga tulemus sisaldab linki origina
 nii et see töötab igas rakenduses, mis suudab käivitada kohalikku MCP-serverit: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ja teised.
 
-**Fontes ei ole veel PyPI-s.** Allolevad sammud toimivad pärast esimese versiooni avaldamist.
-
 Valige oma rakendus, järgige selle samme ja seejärel [kontrollige, et see töötab](#kontrollige-et-see-töötab).
 
 ## Claude Desktop

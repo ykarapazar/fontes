@@ -60,8 +60,6 @@ VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ir kitose.
 
 ## Greita pradžia
 
-**Fontes dar nėra PyPI.** Toliau nurodyti veiksmai veiks, kai bus išleista pirmoji versija.
-
 1. **Pridėkite Fontes prie savo programos.**
    - **Claude Desktop:** atsisiųskite Fontes `.mcpb` failą iš
      [naujausios versijos](https://github.com/ykarapazar/fontes/releases/latest), dukart jį
@@ -329,13 +327,12 @@ sąrašą):
 ## Diegimas
 
 Žingsnis po žingsnio kiekvienai programai (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes dar nėra PyPI; šie veiksmai
-veiks, kai jis ten atsiras.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Kūrėjams:** reikia [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -368,8 +365,6 @@ programoje skiriasi (žr. [INSTALL.md](INSTALL.md#kitos-programos)):
   }
 }
 ```
-
-Kol Fontes nėra PyPI, naudokite `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Kaip patikrinti, ar veikia
 

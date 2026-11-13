@@ -60,8 +60,6 @@ Stanje virov (preverjeno vsak dan): [ykarapazar.github.io/fontes/status/](https:
 
 ## Hiter začetek
 
-Fontes **še ni na PyPI**. Spodnji koraki bodo delovali, ko bo izšla prva izdaja.
-
 1. **Dodajte Fontes v svojo aplikacijo.**
    - **Claude Desktop:** prenesite datoteko Fontes `.mcpb` iz
      [najnovejše izdaje](https://github.com/ykarapazar/fontes/releases/latest), jo dvakrat
@@ -326,13 +324,12 @@ Filtri po jurisdikcijah (neznana imena filtrov so zavrnjena s seznamom veljavnih
 ## Namestitev
 
 Korak za korakom za vsako aplikacijo (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini
-CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes še ni na PyPI; ti koraki bodo
-delovali, ko bo.
+CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Razvijalci:** potrebujete [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -364,8 +361,6 @@ razlikujeta (glejte [INSTALL.md](INSTALL.md#druge-aplikacije)):
   }
 }
 ```
-
-Dokler Fontes ni na PyPI, uporabite `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Preverite, ali deluje
 

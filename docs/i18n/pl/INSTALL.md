@@ -8,8 +8,6 @@ Jest to standardowy serwer MCP, więc działa w każdej aplikacji, która potraf
 serwer MCP: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline i innych.
 
-**Fontes nie jest jeszcze dostępny w PyPI.** Poniższe kroki zadziałają po pierwszym wydaniu.
-
 Wybierz swoją aplikację, wykonaj jej kroki, a następnie
 [sprawdź, czy działa](#sprawdzenie-czy-działa).
 

@@ -116,9 +116,7 @@
 
 உள்ளூர் (stdio) server-ஐ இயக்கக்கூடிய எந்த MCP செயலியும், எடுத்துக்காட்டாக Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio மற்றும் Cline. Fontes
-macOS, Windows, Linux ஆகியவற்றில், uv இயங்கும் எந்த இடத்திலும் (Python 3.13+) இயங்குகிறது. இது இன்னும் PyPI-இல் இல்லை;
-வந்ததும், பெரும்பாலான செயலிகளுக்கு ஒரு கட்டளை அல்லது ஒரு config பதிவு போதும், Claude Desktop இருமுறை சொடுக்கப்பட்ட
-`.mcpb` கோப்பை ஏற்கும். Mac மற்றும் Windows-க்கான ஒரே சொடுக்கு நிறுவி வரவிருக்கிறது. அது Claude Desktop, Codex,
+macOS, Windows, Linux ஆகியவற்றில், uv இயங்கும் எந்த இடத்திலும் (Python 3.13+) இயங்குகிறது. Mac மற்றும் Windows-க்கான ஒரே சொடுக்கு நிறுவி வரவிருக்கிறது. அது Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio மற்றும் Cline ஆகியவற்றை ஒரே முறையில்
 அமைக்கிறது. ஒவ்வொரு செயலிக்குமான படிகள்: [INSTALL.md](INSTALL.md).
 

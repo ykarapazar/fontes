@@ -8,8 +8,6 @@ na dokumento. Ito ay isang karaniwang MCP server, kaya gumagana ito sa anumang a
 lokal na MCP server: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline at iba pa.
 
-**Wala pa sa PyPI ang Fontes.** Gagana ang mga hakbang sa ibaba kapag nailabas na ang unang release.
-
 Piliin ang iyong app, sundin ang mga hakbang nito, at saka [tingnan kung gumagana ito](#pagtingin-kung-gumagana-ito).
 
 ## Claude Desktop

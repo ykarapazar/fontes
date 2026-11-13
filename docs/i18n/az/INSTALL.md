@@ -8,8 +8,6 @@ orijinala keçid verir. Bu, standart MCP serveridir, buna görə yerli MCP serve
 istənilən proqramda işləyir: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline və digərləri.
 
-**Fontes hələ PyPI-da yoxdur.** Aşağıdakı addımlar ilk buraxılış çıxdıqdan sonra işləyəcək.
-
 Proqramınızı seçin, onun addımlarını izləyin, sonra
 [işlədiyini yoxlayın](#fontes-in-işlədiyini-yoxlamaq).
 

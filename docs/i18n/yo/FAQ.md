@@ -111,9 +111,7 @@ Má ṣe fi àlàyé oníbàárà tàbí ìwífún àṣírí sínú ìròyìn.
 
 Áàpù MCP èyíkéyìí tí ó lè ṣe ìfilọ́lẹ̀ sáfà lórí kọ̀ǹpútà (stdio), fún àpẹẹrẹ Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio àti Cline. Fontes ń ṣiṣẹ́ lórí
-macOS, Windows àti Linux, níbikíbi tí uv bá ti ń ṣiṣẹ́ (Python 3.13+). Kò tíì sí lórí PyPI; nígbà tí ó bá dé
-ibẹ̀, ọ̀pọ̀ jùlọ áàpù nílò àṣẹ kan tàbí ìtẹ̀sí ètò kan, Claude Desktop sì ń gba fáìlì `.mcpb` tí o ń tẹ̀
-lẹ́ẹ̀mejì. Ẹ̀rọ ìfisílẹ̀ onítẹ̀-ẹ̀ẹ̀kan fún Mac àti Windows ń bọ̀ láìpẹ́. Ó ń ṣètò Claude Desktop, Codex, Claude
+macOS, Windows àti Linux, níbikíbi tí uv bá ti ń ṣiṣẹ́ (Python 3.13+). Ẹ̀rọ ìfisílẹ̀ onítẹ̀-ẹ̀ẹ̀kan fún Mac àti Windows ń bọ̀ láìpẹ́. Ó ń ṣètò Claude Desktop, Codex, Claude
 Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio àti Cline lẹ́ẹ̀kan náà. Àwọn ìgbésẹ̀ fún áàpù
 kọ̀ọ̀kan: [INSTALL.md](INSTALL.md).
 

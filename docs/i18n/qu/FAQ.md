@@ -127,9 +127,7 @@ allichasqam kanqa utaq wañuchisqam.
 Local (stdio) servidorta purichiyta atiq mayqin MCP aplicacionpas, kayhina: Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio,
 Cline. Fontesqa macOS, Windows, Linux nisqakunapim purin, uv purisqan maypipas (Python 3.13+).
-Manaraqmi PyPI nisqapichu; chaypi kaptinña, achka aplicacionkunaqa huk kamachiyllatam utaq huk
-configuración qillqallatam necesitanqa, Claude Desktoptaq iskay kuti clickasqa `.mcpb`
-archivotam chaskin. Mac, Windows nisqapaq huk clickllawan instaladormi hamuchkan. Claude
+Mac, Windows nisqapaq huk clickllawan instaladormi hamuchkan. Claude
 Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio, Cline
 nisqakunatam huk kutillapi churan. Sapa aplicacionpaq ruraykuna: [INSTALL.md](INSTALL.md).
 

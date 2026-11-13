@@ -7,8 +7,6 @@ Fontes আপনার AI অ্যাপকে ১২০টিরও বেশ�
 চালাতে পারে তার যেকোনোটিতে এটি কাজ করে: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline এবং অন্যান্য।
 
-**Fontes এখনো PyPI-তে নেই।** নিচের ধাপগুলো প্রথম রিলিজ প্রকাশিত হলে কাজ করবে।
-
 আপনার অ্যাপ বেছে নিন, তার ধাপগুলো অনুসরণ করুন, তারপর [এটি কাজ করছে কি না যাচাই করুন](#এটি-কাজ-করছে-কি-না-যাচাই-করা)।
 
 ## Claude Desktop

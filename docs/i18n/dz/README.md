@@ -59,8 +59,6 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 
 ## མགྱོགས་དྲགས་འགོ་བཙུགས
 
-Fontes **ད་ཚུན་ PyPI གུ་ མེད**། འོག་གི་རིམ་པ་ཚུ་ འགྲེམ་སྤེལ་དང་པ་ ཐོན་ཚར་བའི་ཤུལ་ལུ་ ལཱ་འབདཝ་ཨིན།
-
 1. **Fontes ཁྱོད་ཀྱི་གློག་རིམ་ལུ་ ཁ་སྐོང་རྐྱབ།**
    - **Claude Desktop:** [འགྲེམ་སྤེལ་གསར་ཤོས](https://github.com/ykarapazar/fontes/releases/latest) ལས་
      Fontes གི་ `.mcpb` ཡིག་སྣོད་ ཕབ་ལེན་འབད་ དེ་ལུ་ ཚར་གཉིས་ཨེབ་ཞིནམ་ལས་ **Install** ཨེབ།
@@ -320,12 +318,12 @@ OFF = འབྱུང་ཁུངས་ཀྱི་ཆ་རྐྱེན་ལ�
 ## གཞི་བཙུགས
 
 གློག་རིམ་རེ་རེའི་དོན་ལུ་ རིམ་པ་རེ་རེ་བཞིན (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md)། Fontes ད་ཚུན་ PyPI གུ་ མེད། རིམ་པ་དེ་ཚུ་ དེ་ ཐོན་ཚར་བའི་ཤུལ་ལུ་ ལཱ་འབདཝ་ཨིན།
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md)།
 
 **གོང་འཕེལ་པ:** ཁྱོད་ལུ་ [uv](https://docs.astral.sh/uv/getting-started/installation/) དགོ།
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -357,8 +355,6 @@ Judilibre དང་ Légifrance ལུ་ མིང་ཐོ་བཀོད་�
   }
 }
 ```
-
-Fontes PyPI གུ་ མ་ཐོན་ཚུན་ `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` ལག་ལེན་འཐབ།
 
 ### ལཱ་འབདཝ་ཨིན་ན་ བརྟག་ཞིབ
 

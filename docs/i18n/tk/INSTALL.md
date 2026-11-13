@@ -8,8 +8,6 @@ salgylanýar. Ol adaty MCP serweri, şonuň üçin ýerli MCP serweri işledip b
 programmada işleýär: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline we beýlekiler.
 
-**Fontes entek PyPI-da ýok.** Aşakdaky ädimler ilkinji çykarylyşdan soň işlär.
-
 Programmaňyzy saýlaň, onuň ädimlerini ýerine ýetiriň, soňra
 [işleýändigini barlaň](#işleýändigini-barlamak).
 

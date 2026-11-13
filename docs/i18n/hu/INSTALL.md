@@ -8,8 +8,6 @@ az eredetire hivatkozik. Szabványos MCP-szerver, így minden olyan alkalmazásb
 helyi MCP-szervert tud futtatni: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline és mások.
 
-**A Fontes még nincs fent a PyPI-n.** Az alábbi lépések az első kiadás megjelenése után működnek.
-
 Válassza ki az alkalmazását, kövesse a lépéseit, majd
 [ellenőrizze, hogy működik](#a-működés-ellenőrzése).
 

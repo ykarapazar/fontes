@@ -9,8 +9,6 @@ Fontes ба барномаи зеҳни сунъии шумо имкон мед�
 Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ва
 дигарон.
 
-**Fontes ҳанӯз дар PyPI нест.** Қадамҳои зер пас аз баромадани нашри аввал кор мекунанд.
-
 Барномаи худро интихоб кунед, қадамҳои онро иҷро кунед, сипас [санҷед, ки кор мекунад](#санҷидани-кор).
 
 ## Claude Desktop

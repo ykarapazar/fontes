@@ -8,8 +8,6 @@ standart MCP server, shuning uchun u lokal MCP serverni ishga tushira oladigan h
 ishlaydi: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline va boshqalar.
 
-**Fontes hali PyPI’da yoʻq.** Quyidagi qadamlar birinchi relizdan keyin ishlaydi.
-
 Ilovangizni tanlang, uning qadamlarini bajaring, soʻng
 [ishlayotganini tekshiring](#ishlashini-tekshirish).
 

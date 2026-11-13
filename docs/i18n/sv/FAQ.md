@@ -115,9 +115,7 @@ anropsgränser), mejla fontesmcp@proton.me. Källan rättas eller stängs av.
 
 Alla MCP-appar som kan köra en lokal server (stdio), till exempel Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio och Cline. Fontes
-körs på macOS, Windows och Linux, överallt där uv körs (Python 3.13+). Det finns inte på PyPI ännu; när
-det gör det behöver de flesta appar ett kommando eller en konfigurationspost, och Claude Desktop tar en
-`.mcpb`-fil som du dubbelklickar på. Ett installationsprogram med ett klick för Mac och Windows är på väg. Det
+körs på macOS, Windows och Linux, överallt där uv körs (Python 3.13+). Ett installationsprogram med ett klick för Mac och Windows är på väg. Det
 konfigurerar Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio och
 Cline på en gång. Steg för varje app: [INSTALL.md](INSTALL.md).
 

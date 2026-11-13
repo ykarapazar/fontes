@@ -8,8 +8,6 @@ Ni seriveri MCP isanzwe, bityo ikora muri porogaramu iyo ari yo yose ishobora gu
 kuri mudasobwa: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline n'izindi.
 
-**Fontes ntiraba kuri PyPI.** Intambwe zikurikira zizakora nyuma y'uko verisiyo ya mbere isohotse.
-
 Hitamo porogaramu yawe, ukurikize intambwe zayo, hanyuma [ugenzure ko ikora](#genzura-ko-ikora).
 
 ## Claude Desktop

@@ -61,8 +61,6 @@ A források állapota (naponta ellenőrizve): [ykarapazar.github.io/fontes/statu
 
 ## Gyors kezdés
 
-A Fontes **még nincs fent a PyPI-n**. Az alábbi lépések az első kiadás megjelenése után működnek.
-
 1. **Adja hozzá a Fontest az alkalmazásához.**
    - **Claude Desktop:** töltse le a Fontes `.mcpb` fájlját a
      [legújabb kiadásból](https://github.com/ykarapazar/fontes/releases/latest), kattintson rá
@@ -335,13 +333,12 @@ Szűrők joghatóságonként (az ismeretlen szűrőneveket a rendszer elutasítj
 ## Telepítés
 
 Lépésről lépésre minden alkalmazáshoz (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). A Fontes még nincs fent a PyPI-n;
-ezek a lépések akkor működnek, amikor már fent lesz.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Fejlesztők:** szükség van az [uv](https://docs.astral.sh/uv/getting-started/installation/)-re.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -375,8 +372,6 @@ alkalmazásonként eltér (lásd [INSTALL.md](INSTALL.md#egyéb-alkalmazások)):
   }
 }
 ```
-
-Amíg a Fontes nincs fent a PyPI-n, használja ezt: `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Működés ellenőrzése
 

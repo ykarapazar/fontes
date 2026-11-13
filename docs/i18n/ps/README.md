@@ -59,8 +59,6 @@ OpenAI Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed،
 
 ## چټک پیل
 
-Fontes **لا تر اوسه په PyPI کې نشته**. لاندې ګامونه د لومړۍ خپرونې (release) له راوتو وروسته کار کوي.
-
 1. **Fontes خپل اپ ته ور زیات کړئ.**
    - **Claude Desktop:** د Fontes `.mcpb` فایل له
      [وروستۍ خپرونې](https://github.com/ykarapazar/fontes/releases/latest) څخه ښکته کړئ، پرې دوه ځله کلیک وکړئ،
@@ -322,13 +320,12 @@ OFF = د سرچینې شرطونه د چلوونکي (operator) اجازې ته 
 ## نصب
 
 د هر اپ لپاره ګام په ګام (Claude Desktop، Codex، Claude Code، Cursor، VS Code، Gemini CLI،
-Zed، LM Studio، Cline): [INSTALL.md](INSTALL.md). Fontes لا تر اوسه په PyPI کې نشته؛ هغه
-ګامونه به هغه وخت کار وکړي چې پکې راشي.
+Zed، LM Studio، Cline): [INSTALL.md](INSTALL.md).
 
 **پراختیا کوونکي:** تاسو [uv](https://docs.astral.sh/uv/getting-started/installation/) ته اړتیا لرئ.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ Fontes یو stdio MCP سرور دی: یو MCP مراجع (client) یې پیلو�
   }
 }
 ```
-
-تر هغه چې Fontes په PyPI کې نه وي، `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` وکاروئ.
 
 ### وګورئ چې کار کوي
 

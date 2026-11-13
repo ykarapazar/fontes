@@ -62,8 +62,6 @@ LM Studio ва дигарон.
 
 ## Оғози зуд
 
-Fontes **ҳанӯз дар PyPI нест**. Қадамҳои зер пас аз баромадани нашри аввал кор мекунанд.
-
 1. **Fontes-ро ба барномаи худ илова кунед.**
    - **Claude Desktop:** файли `.mcpb`-и Fontes-ро аз
      [нашри охирин](https://github.com/ykarapazar/fontes/releases/latest) боргирӣ кунед, ба он
@@ -333,13 +331,12 @@ Yüce Karapazar
 ## Насб
 
 Қадам ба қадам барои ҳар барнома (Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ҳанӯз дар PyPI нест; ин
-қадамҳо пас аз пайдо шудани он кор мекунанд.
+Gemini CLI, Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Таҳиягарон:** ба шумо [uv](https://docs.astral.sh/uv/getting-started/installation/) лозим аст.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -372,8 +369,6 @@ Fontes сервери stdio MCP аст: мизоҷи MCP онро оғоз ме�
   }
 }
 ```
-
-То пайдо шудани Fontes дар PyPI, `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`-ро истифода баред.
 
 ### Санҷед, ки кор мекунад
 

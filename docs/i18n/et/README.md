@@ -59,8 +59,6 @@ Allikate seisund (kontrollitakse iga päev): [ykarapazar.github.io/fontes/status
 
 ## Kiirjuhend
 
-Fontes **ei ole veel PyPI-s**. Allolevad sammud toimivad pärast esimese versiooni avaldamist.
-
 1. **Lisage Fontes oma rakendusse.**
    - **Claude Desktop:** laadige Fontese `.mcpb`-fail alla
      [viimasest väljalaskest](https://github.com/ykarapazar/fontes/releases/latest), tehke sellel topeltklõps
@@ -322,13 +320,12 @@ Jurisdiktsioonipõhised filtrid (tundmatud filtrinimed lükatakse tagasi ja keht
 ## Paigaldamine
 
 Samm-sammult iga rakenduse jaoks (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes ei ole veel PyPI-s; need
-sammud toimivad, kui see seal on.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Arendajad:** vajate tööriista [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -360,8 +357,6 @@ Enamik rakendusi kasutab sama kirjet; fail ja ülemise taseme võti erinevad rak
   }
 }
 ```
-
-Kuni Fontes pole PyPI-s, kasutage `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Kontrollige, et see töötab
 

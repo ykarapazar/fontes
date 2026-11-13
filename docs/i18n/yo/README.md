@@ -59,8 +59,6 @@ Ipò àwọn orísun (a ń ṣàyẹ̀wò rẹ̀ lójoojúmọ́): [ykarapazar.g
 
 ## Ìbẹ̀rẹ̀ kíákíá
 
-Fontes **kò tíì sí lórí PyPI**. Àwọn ìgbésẹ̀ ìsàlẹ̀ yìí yóò ṣiṣẹ́ nígbà tí a bá ti tẹ ẹ̀dà àkọ́kọ́ jáde.
-
 1. **Fi Fontes kún áàpù rẹ.**
    - **Claude Desktop:** gba fáìlì `.mcpb` ti Fontes sílẹ̀ láti inú
      [ẹ̀dà tuntun jùlọ](https://github.com/ykarapazar/fontes/releases/latest), tẹ̀ ẹ́ lẹ́ẹ̀mejì, lẹ́yìn náà tẹ
@@ -321,13 +319,12 @@ OFF = òfin ìlò orísun náà béèrè àṣẹ olùṣiṣẹ́ (operator), n
 ## Ìfisílẹ̀
 
 Àwọn ìgbésẹ̀ fún áàpù kọ̀ọ̀kan (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI, Zed,
-LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes kò tíì sí lórí PyPI; àwọn ìgbésẹ̀ wọ̀nyí yóò ṣiṣẹ́ nígbà
-tí ó bá dé ibẹ̀.
+LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Àwọn olùgbéejáde:** o nílò [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -359,8 +356,6 @@ ní i), `FONTES_NO_UPDATE_CHECK=1`.
   }
 }
 ```
-
-Nígbà tí Fontes kò tíì sí lórí PyPI, lo `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]`.
 
 ### Ṣàyẹ̀wò pé ó ń ṣiṣẹ́
 

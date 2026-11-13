@@ -6,8 +6,6 @@ Fontes 让您的 AI 应用在法院和政府网站上实时查询裁判文书和
 原文链接。它是一个标准的 MCP 服务器，因此可在任何能够运行本地 MCP 服务器的应用中使用：Claude Desktop、
 Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio、Cline 等。
 
-**Fontes 尚未发布到 PyPI。** 以下步骤在首个版本发布后即可使用。
-
 选择您的应用，按照其步骤操作，然后[检查是否正常运行](#检查是否正常运行)。
 
 ## Claude Desktop

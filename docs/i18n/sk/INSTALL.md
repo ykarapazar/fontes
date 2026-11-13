@@ -8,8 +8,6 @@ originál. Je to štandardný MCP server, takže funguje v každej aplikácii, k
 lokálny MCP server: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline a ďalšie.
 
-**Fontes zatiaľ nie je na PyPI.** Nasledujúce kroky budú fungovať po vydaní prvej verzie.
-
 Vyberte si aplikáciu, postupujte podľa jej krokov a potom
 [overte, že to funguje](#overenie-že-to-funguje).
 

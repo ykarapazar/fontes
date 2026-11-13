@@ -61,8 +61,6 @@ Windsurf, Zed, LM Studio we beýlekiler.
 
 ## Çalt başlamak
 
-Fontes **entek PyPI-da ýok**. Aşakdaky ädimler ilkinji çykarylyşdan soň işlär.
-
 1. **Fontes-i programmaňyza goşuň.**
    - **Claude Desktop:** Fontes `.mcpb` faýlyny
      [iň soňky çykarylyşdan](https://github.com/ykarapazar/fontes/releases/latest) ýükläň,
@@ -330,13 +328,12 @@ OFF = çeşmäniň şertleri operatoryň rugsadyny talap edýär, şonuň üçin
 ## Gurnamak
 
 Her programma üçin ädimme-ädim (Claude Desktop, Codex, Claude Code, Cursor, VS Code, Gemini CLI,
-Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md). Fontes entek PyPI-da ýok; bu ädimler ol
-peýda bolandan soň işlär.
+Zed, LM Studio, Cline): [INSTALL.md](INSTALL.md).
 
 **Işläp düzüjiler:** size [uv](https://docs.astral.sh/uv/getting-started/installation/) gerek.
 
 ```bash
-uvx fontes-mcp                 # from PyPI, once published
+uvx fontes-mcp                 # from PyPI
 uvx --from git+https://github.com/ykarapazar/fontes fontes   # straight from GitHub
 uvx fontes-mcp --only nl,gb    # expose only some jurisdictions
 ```
@@ -369,8 +366,6 @@ tapawutlanýar ([INSTALL.md](INSTALL.md#beýleki-programmalar) serediň):
   }
 }
 ```
-
-Fontes PyPI-da peýda bolýança, `"args": ["--from", "git+https://github.com/ykarapazar/fontes", "fontes"]` ulanyň.
 
 ### Işleýändigini barlaň
 

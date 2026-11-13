@@ -7,8 +7,6 @@ webbplatser i fler än 120 jurisdiktioner. Varje resultat länkar till originale
 så den fungerar i alla appar som kan köra en lokal MCP-server: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline med flera.
 
-**Fontes finns inte på PyPI ännu.** Stegen nedan fungerar när den första versionen har släppts.
-
 Välj din app, följ stegen för den och [kontrollera sedan att det fungerar](#kontrollera-att-det-fungerar).
 
 ## Claude Desktop

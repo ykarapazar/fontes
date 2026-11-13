@@ -7,8 +7,6 @@ stjórnvalda í meira en 120 lögsögum. Hver niðurstaða tengir á frumritið.
 svo hann virkar í hvaða forriti sem getur keyrt staðbundinn MCP-þjón: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline og fleirum.
 
-**Fontes er ekki enn á PyPI.** Skrefin hér að neðan virka þegar fyrsta útgáfan er komin út.
-
 Veldu forritið þitt, fylgdu skrefunum fyrir það og [athugaðu svo hvort það virki](#athugaðu-hvort-það-virki).
 
 ## Claude Desktop
