@@ -1,0 +1,5916 @@
+{
+ "checked_at": "2026-11-13T00:35:31+00:00",
+ "fontes_version": "0.1.0",
+ "results": [
+  {
+   "jurisdiction": "ad",
+   "source": "Tribunal Constitucional del Principat d'Andorra: sentències and autes",
+   "url": "https://www.tribunalconstitucional.ad/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 8.75,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.95
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "46385 chars",
+     "latency": 2.58
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ad",
+   "source": "Portal Jurídic del Principat d'Andorra (BOPA service, Govern d'Andorra / Consell General): consolidated laws and Government regulations",
+   "url": "https://portaljuridicandorra.ad/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 20.51,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 20.51
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "264 chars",
+     "latency": 11.47
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ad",
+   "source": "Consell General del Principat d'Andorra: Constitució (Catalan booklet PDF)",
+   "url": "https://www.consellgeneral.ad/fitxers/documents/constitucio",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 1.72,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "af",
+   "source": "Ministry of Justice laws database (de facto authority)",
+   "url": "http://laws.moj.gov.af/",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 33s",
+   "latency": 32.75,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 32.75
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "181 chars",
+     "latency": 18.53
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "afchpr",
+   "source": "AJUDATA, the African Court's case database (ajudata.african-court.org)",
+   "url": "https://ajudata.african-court.org/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 21.83,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.48
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "92150 chars",
+     "latency": 21.83
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "afchpr",
+   "source": "African Union treaty page: African Charter on Human and Peoples' Rights and the Court's Protocol",
+   "url": "https://au.int/en/treaties/african-charter-human-and-peoples-rights",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 1.68,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "afchpr",
+   "source": "African Court website (Rules of Court)",
+   "url": "https://www.african-court.org/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 6.96,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "al",
+   "source": "Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice)",
+   "url": "https://qbz.gov.al",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 4.31,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 0.87
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "302 chars",
+     "latency": 4.31
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "al",
+   "source": "Gjykata e Lartë (High Court of Albania, gjykataelarte.gov.al)",
+   "url": "https://gjykataelarte.gov.al",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.05,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.57
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "28389 chars",
+     "latency": 4.05
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "am",
+   "source": "ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC)",
+   "url": "https://www.arlis.am",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 19.54,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 19.54
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "19645 chars",
+     "latency": 1.17
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.42
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "2509 chars",
+     "latency": 3.27
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ar",
+   "source": "InfoLEG – search (servicios.infoleg.gob.ar, Ministerio de Justicia)",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 33s",
+   "latency": 32.71,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 32.71
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ar",
+   "source": "InfoLEG – Leyes Argentinas (Ministerio de Justicia, argentina.gob.ar/normativa)",
+   "url": "https://www.argentina.gob.ar/normativa",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 33s",
+   "latency": 32.71,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 32.71
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "223 chars",
+     "latency": 0.7
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "at",
+   "source": "RIS — Rechtsinformationssystem des Bundes (OGD API v2.6)",
+   "url": "https://data.bka.gv.at/ris/api/v2.6/",
+   "status": "blocked",
+   "detail": "robots.txt disallows https://data.bka.gv.at/ris/api/v2.6/Judikatur (+1 more); source URL disallowed by robots.txt, not fetched; robots.txt HTTP 503",
+   "latency": 16.85,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.94
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "5015 chars",
+     "latency": 1.27
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 0.46
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "282 chars",
+     "latency": 16.85
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "au",
+   "source": "Federal Register of Legislation, Office of Parliamentary Counsel",
+   "url": "https://www.legislation.gov.au",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 11.11,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.75
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1891 chars",
+     "latency": 11.11
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "az",
+   "source": "e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice)",
+   "url": "https://e-qanun.az",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ba",
+   "source": "Ustavni sud Bosne i Hercegovine (ustavnisud.ba) – decisions database",
+   "url": "https://www.ustavnisud.ba/bs/odluke",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 7.53,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.47
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "314125 chars",
+     "latency": 7.53
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ba",
+   "source": "Vlada Federacije BiH (fbihvlada.gov.ba) – Hronološki registar zakona (Federation laws as published)",
+   "url": "https://fbihvlada.gov.ba/bs/zakoni",
+   "status": "ok",
+   "detail": "probes ok: get_legislation_provision",
+   "latency": 11.27,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "356 chars",
+     "latency": 11.27
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ba",
+   "source": "Parlamentarna skupština BiH (parlament.ba) – Ustav BiH and Prečišćeni tekstovi zakona (state level)",
+   "url": "https://www.parlament.ba/law/Read?categoryId=3",
+   "status": "down",
+   "detail": "search_legislation: error: timeout after 90s",
+   "latency": 90.35,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "timeout after 90s",
+     "latency": 90.35
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "bb",
+   "source": "Barbados Judicial System: judgments (barbadoslawcourts.gov.bb)",
+   "url": "https://www.barbadoslawcourts.gov.bb/judgments/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 21.9,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.41
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "45813 chars",
+     "latency": 20.71
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bb",
+   "source": "Barbados Judicial System: Consolidated Laws (barbadoslawcourts.gov.bb)",
+   "url": "https://www.barbadoslawcourts.gov.bb/laws/consolidated-laws",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 32s",
+   "latency": 31.57,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 31.57
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "2684 chars",
+     "latency": 20.31
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bb",
+   "source": "CCJ judgment lists and PDFs (ccj.org)",
+   "url": "https://ccj.org/judgments-proceedings/judgments/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.11,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bd",
+   "source": "Laws of Bangladesh (bdlaws.minlaw.gov.bd), Legislative and Parliamentary Affairs Division",
+   "url": "https://bdlaws.minlaw.gov.bd",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 7.22,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 1.74
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "503 chars",
+     "latency": 2.87
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "bd",
+   "source": "Supreme Court of Bangladesh (supremecourt.gov.bd) – Judgments and Orders",
+   "url": "https://www.supremecourt.gov.bd/web/?page=judgments.php&menu=00&div_id=1&type_id=5",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 23.13,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 23.13
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "36451 chars",
+     "latency": 4.04
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bg",
+   "source": "Конституционен съд (Constitutional Court), constcourt.bg",
+   "url": "https://www.constcourt.bg",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 2.4,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.4
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "16172 chars",
+     "latency": 0.26
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bg",
+   "source": "Народно събрание (National Assembly), parliament.bg API: Constitution and laws as adopted",
+   "url": "https://www.parliament.bg/bg/laws",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 14.53,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.76
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "599 chars",
+     "latency": 2.64
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bh",
+   "source": "Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh",
+   "url": "https://www.lloc.gov.bh",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bj",
+   "source": "Cour constitutionnelle du Bénin: décisions (courconstitutionnelle.bj)",
+   "url": "https://courconstitutionnelle.bj/fr/decisions",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 20.68,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.84
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "2938 chars",
+     "latency": 20.68
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "bj",
+   "source": "Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj)",
+   "url": "https://sgg.gouv.bj/documentheque/lois/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 17.91,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.6
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "752 chars",
+     "latency": 17.91
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bo",
+   "source": "Tribunal Agroambiental – Buscador de Resoluciones (SISAGRO consultas)",
+   "url": "https://arbol.tribunalagroambiental.bo/consultas/web/index.php?r=site/busquedaresoluciones",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 12.88,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 12.88
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "47418 chars",
+     "latency": 7.85
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bo",
+   "source": "Cámara de Diputados – Leyes Promulgadas (WP REST API), laws as promulgated",
+   "url": "https://diputados.gob.bo/leyes-promulgadas/",
+   "status": "degraded",
+   "detail": "slow: get_legislation_provision took 32s",
+   "latency": 32.13,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "221 chars",
+     "latency": 32.13
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "bo",
+   "source": "LexiVox – Bolivian legislation (constitution, laws, decree-laws, codes; unofficial)",
+   "url": "https://www.lexivox.org/packages/lexml/buscar_normas.php",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 3.91,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.63
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "br",
+   "source": "STF – Pesquisa de Jurisprudência (Supremo Tribunal Federal)",
+   "url": "https://jurisprudencia.stf.jus.br/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 7.71,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.73
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "7267 chars",
+     "latency": 1.07
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "br",
+   "source": "normas.leg.br (Senado Federal / Câmara dos Deputados) – consolidated federal legislation",
+   "url": "https://normas.leg.br/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 2.41,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 2.41
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "176 chars",
+     "latency": 2.37
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bs",
+   "source": "Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments",
+   "url": "https://caselaw.nationalarchives.gov.uk",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw",
+   "latency": 23.46,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 23.46
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "bs",
+   "source": "Statute Law of The Bahamas, Law Reform and Revision Commission (laws.bahamas.gov.bs)",
+   "url": "https://laws.bahamas.gov.bs/cms/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 20.01,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.08
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "3339 chars",
+     "latency": 20.01
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "bs",
+   "source": "Court of Appeal of The Bahamas judgments (courtofappeal.org.bs)",
+   "url": "https://www.courtofappeal.org.bs/judgments.php",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 23.46,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 23.46
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "15030 chars",
+     "latency": 2.34
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "bs",
+   "source": "Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs)",
+   "url": "https://courts.bs/judgments/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw",
+   "latency": 23.46,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 23.46
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "bt",
+   "source": "Depository of Laws (legislation.gov.bt), Office of the Attorney General of Bhutan",
+   "url": "https://legislation.gov.bt",
+   "status": "down",
+   "detail": "search_legislation: error: ConnectTimeout: no detail",
+   "latency": 34.79,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 34.79
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 27.99
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "bz",
+   "source": "Judgments of the Senior Courts of Belize, Belize Judiciary (belizejudiciary.org)",
+   "url": "https://www.belizejudiciary.org/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 7.72,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 5.15
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "61941 chars",
+     "latency": 7.72
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bz",
+   "source": "Laws of Belize, Attorney General's Ministry (agm.gov.bz)",
+   "url": "https://agm.gov.bz/laws/law_substantive",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 22.35,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.88
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "3278 chars",
+     "latency": 22.35
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bz",
+   "source": "CCJ judgment lists and PDFs (ccj.org)",
+   "url": "https://ccj.org/judgments-proceedings/judgments/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.22,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "bz",
+   "source": "Find Case Law, The National Archives",
+   "url": "https://caselaw.nationalarchives.gov.uk",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.25,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ca",
+   "source": "Supreme Court of Canada judgments (decisions.scc-csc.ca, hosted by Lexum for the Court)",
+   "url": "https://decisions.scc-csc.ca",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 15.71,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.67
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "525038 chars",
+     "latency": 1.08
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ca",
+   "source": "Justice Laws Website, Department of Justice Canada",
+   "url": "https://laws-lois.justice.gc.ca",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 16.87,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.08
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "908 chars",
+     "latency": 16.87
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "ccj",
+   "source": "CCJ judgment lists and PDFs (ccj.org)",
+   "url": "https://ccj.org/judgments-proceedings/judgments/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 9.82,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.54
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "130252 chars",
+     "latency": 9.82
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ch",
+   "source": "Bundesgericht / Tribunal fédéral — Rechtsprechung (gratis), eurospider search",
+   "url": "https://search.bger.ch/ext/eurospider/live/de/php/aza/http/index.php?lang=de",
+   "status": "blocked",
+   "detail": "search_caselaw: bger.ch answered with a bot check instead of results. Search it in a browser: https://search.bger.ch/ (HTTP 503)",
+   "latency": 15.09,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "blocked",
+     "detail": "bger.ch answered with a bot check instead of results. Search it in a browser: https://search.bger.ch/ (HTTP 503)",
+     "latency": 1.91
+    },
+    {
+     "method": "get_decision",
+     "kind": "blocked",
+     "detail": "bger.ch answered with a bot check instead of results. Search it in a browser: https://search.bger.ch/ (HTTP 503)",
+     "latency": 0.56
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ch",
+   "source": "Fedlex — Systematische Rechtssammlung (Federal Chancellery): SPARQL + filestore",
+   "url": "https://www.fedlex.admin.ch/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 14.65,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.32
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "694 chars",
+     "latency": 14.65
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ci",
+   "source": "Cour de cassation de Côte d'Ivoire: jurisprudence (eservices / sigcc)",
+   "url": "https://eservices.courdecassation.ci/search/stoppages",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: HTTP 500",
+   "latency": 2.81,
+   "http_status": 500,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.81
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "5088 chars",
+     "latency": 2.32
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ci",
+   "source": "Assemblée nationale de Côte d'Ivoire: lois (assnat.ci)",
+   "url": "https://www.assnat.ci/?-lois-82-",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 39s",
+   "latency": 38.88,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 38.88
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "108 chars",
+     "latency": 4.69
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "cl",
+   "source": "BCN Ley Chile (Biblioteca del Congreso Nacional)",
+   "url": "https://www.bcn.cl/leychile/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 2.79,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.79
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "212 chars",
+     "latency": 0.64
+    }
+   ],
+   "since": "2026-11-10T14:38:39+00:00"
+  },
+  {
+   "jurisdiction": "cm",
+   "source": "Cour suprême du Cameroun (coursupreme.cm)",
+   "url": "https://coursupreme.cm/publication/arret",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 11.55,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.31
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "10187 chars",
+     "latency": 11.55
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cm",
+   "source": "Présidence de la République du Cameroun (prc.cm), Actes: lois, ordonnances, décrets",
+   "url": "https://www.prc.cm/fr/actualites/actes",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 20.29,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.04
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1166 chars",
+     "latency": 20.29
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cn",
+   "source": "Supreme People's Court of the PRC (最高人民法院), guiding cases (指导性案例)",
+   "url": "https://www.court.gov.cn/shenpan/gengduo/77.html",
+   "status": "degraded",
+   "detail": "slow: search_caselaw took 59s",
+   "latency": 58.87,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 58.87
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "1651 chars",
+     "latency": 22.41
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "co",
+   "source": "Corte Constitucional – relatoría (sentencias, full text)",
+   "url": "https://www.corteconstitucional.gov.co/relatoria/",
+   "status": "ok",
+   "detail": "probes ok: get_decision",
+   "latency": 5.7,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "102223 chars",
+     "latency": 5.7
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "co",
+   "source": "datos.gov.co – 'Sentencias proferidas por la Corte Constitucional' (metadata, search)",
+   "url": "https://www.datos.gov.co/Justicia-y-Derecho/Sentencias-proferidas-por-la-Corte-Constitucional/v2k4-2t8s",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 5.7,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.28
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "102223 chars",
+     "latency": 5.7
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "co",
+   "source": "Función Pública – Gestor Normativo (consolidated legislation)",
+   "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/consulta_avanzada.php",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cr",
+   "source": "SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ)",
+   "url": "https://sinalevi.go.cr/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision; robots.txt unreadable (RemoteProtocolError)",
+   "latency": 8.43,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.53
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "593 chars",
+     "latency": 8.43
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cu",
+   "source": "Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)",
+   "url": "https://www.gacetaoficial.gob.cu/es/normas-juridicas",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 10.86,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 10.86
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cu",
+   "source": "Ministerio de Justicia de Cuba (Gaceta Oficial reposts)",
+   "url": "https://www.minjus.gob.cu/es/publicaciones/normas_juridicas",
+   "status": "ok",
+   "detail": "probes ok: get_legislation_provision",
+   "latency": 7.75,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "399 chars",
+     "latency": 7.75
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cv",
+   "source": "Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv)",
+   "url": "https://www.tribunalconstitucional.cv/index.php/acordaos/",
+   "status": "ok",
+   "detail": "probes ok: get_decision, search_legislation, get_legislation_provision",
+   "latency": 24.16,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "40766 chars",
+     "latency": 9.89
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 10.37
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "346 chars",
+     "latency": 24.16
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "cv",
+   "source": "Supremo Tribunal de Justiça de Cabo Verde, jurisprudência (stj.cv)",
+   "url": "https://www.stj.cv/index.php/1a-sec-civel/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 3.1,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "cv",
+   "source": "JURIS CV – Jurisprudência Cabo-verdiana (Conselho Superior da Magistratura Judicial)",
+   "url": "https://jurisprudencia.cv/items",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 17.48,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 17.48
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "23187 chars",
+     "latency": 6.58
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "cz",
+   "source": "rozhodnuti.justice.cz (Ministry of Justice)",
+   "url": "https://rozhodnuti.justice.cz",
+   "status": "degraded",
+   "detail": "slow: search_caselaw took 62s",
+   "latency": 61.8,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 61.8
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "7715 chars",
+     "latency": 1.67
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cz",
+   "source": "e-Sbírka (Ministry of the Interior)",
+   "url": "https://e-sbirka.gov.cz",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 5.21,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.37
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "726 chars",
+     "latency": 5.21
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "cz",
+   "source": "Sbírka soudních rozhodnutí a stanovisek (Nejvyšší soud), sbirka.nsoud.cz",
+   "url": "https://sbirka.nsoud.cz",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 1.63,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "cz",
+   "source": "Vyhledávač NSS (Nejvyšší správní soud), vyhledavac.nssoud.cz",
+   "url": "https://vyhledavac.nssoud.cz",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 14.9,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "de",
+   "source": "NeuRIS – Rechtsinformationsportal des Bundes (API, trial service)",
+   "url": "https://docs.rechtsinformationen.bund.de",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "de",
+   "source": "Bundesfinanzhof – Entscheidungen online (bundesfinanzhof.de)",
+   "url": "https://www.bundesfinanzhof.de/de/entscheidungen/entscheidungen-online/",
+   "status": "degraded",
+   "detail": "slow: get_decision took 62s",
+   "latency": 62.41,
+   "http_status": null,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 16.24
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "24585 chars",
+     "latency": 62.41
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "de",
+   "source": "Gesetze im Internet (Bundesamt für Justiz / BMJV)",
+   "url": "https://www.gesetze-im-internet.de",
+   "status": "down",
+   "detail": "search_legislation: error: ConnectTimeout: no detail; robots.txt unreadable (ConnectTimeout)",
+   "latency": 23.83,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.0
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 23.83
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "difc",
+   "source": "DIFC Courts (difccourts.ae) – Judgments & Orders",
+   "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "dk",
+   "source": "Retsinformation (Civilstyrelsen)",
+   "url": "https://www.retsinformation.dk",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 4.43,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.02
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "309 chars",
+     "latency": 4.43
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "do",
+   "source": "Tribunal Superior Electoral – visor de sentencias (visorpdf.tse.do)",
+   "url": "https://visorpdf.tse.do/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.92,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.92
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "20648 chars",
+     "latency": 2.82
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "dz",
+   "source": "Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement",
+   "url": "https://www.joradp.dz",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 11.49,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.78
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "274 chars",
+     "latency": 10.94
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "dz",
+   "source": "Cour constitutionnelle (and former Conseil constitutionnel) of Algeria",
+   "url": "https://cour-constitutionnelle.dz",
+   "status": "down",
+   "detail": "search_caselaw: error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081); robots.txt unreadable (ConnectError)",
+   "latency": 1.71,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 1.29
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 0.99
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "ec",
+   "source": "Corte Constitucional del Ecuador – Buscador de Sentencias (public JSON backend) and signed decision PDFs (esacc storage)",
+   "url": "https://buscador.corteconstitucional.gob.ec/buscador-externo/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 6.26,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.12
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "256037 chars",
+     "latency": 6.26
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "echr",
+   "source": "HUDOC (European Court of Human Rights)",
+   "url": "https://hudoc.echr.coe.int",
+   "status": "blocked",
+   "detail": "bot wall on source URL (cloudflare challenge, HTTP 403)",
+   "latency": 1.51,
+   "http_status": 403,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "Error (HUDOC): search failed (HTTP 403). Check the query syntax (balanced quotes/parentheses). (HTTP 403)",
+     "latency": 0.39
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "Error (HUDOC): search failed (HTTP 403). Check the query syntax (balanced quotes/parentheses). (HTTP 403)",
+     "latency": 0.78
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "echr",
+   "source": "European Convention on Human Rights and Protocols (official PDF, read it there; not available through this server)",
+   "url": "https://www.echr.coe.int/documents/d/echr/convention_eng",
+   "status": "blocked",
+   "detail": "bot wall on source URL (cloudflare challenge, HTTP 403)",
+   "latency": 0.06,
+   "http_status": 403,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ecowas",
+   "source": "ECOWAS Community Court of Justice website (courtecowas.org)",
+   "url": "https://courtecowas.org/pending-cases-and-decisions/decisions-of-the-court/",
+   "status": "degraded",
+   "detail": "slow: search_caselaw took 55s",
+   "latency": 54.57,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 54.57
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "78194 chars",
+     "latency": 14.63
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ecowas",
+   "source": "ECOWAS Court Law Reports (CCJELR), English volumes 2004-2017 (courtecowas.org)",
+   "url": "https://courtecowas.org/wp-content/uploads/2024/09/CCJE-LAW-REPORT-2010-ENGLISH.pdf",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 3.57,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 3.57
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "39537 chars",
+     "latency": 0.0
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "ee",
+   "source": "Riigi Teataja (State Gazette, Ministry of Justice and Digital Affairs)",
+   "url": "https://www.riigiteataja.ee",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 5.2,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 2.32
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1583 chars",
+     "latency": 5.2
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "efta",
+   "source": "EFTA Court website (eftacourt.int, api.eftacourt.int)",
+   "url": "https://eftacourt.int/cases",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.75,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.58
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "54127 chars",
+     "latency": 4.75
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "eg",
+   "source": "المحكمة الدستورية العليا – Supreme Constitutional Court portal (judgments, full text)",
+   "url": "https://www.sccourt.gov.eg/newportal/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 6.25,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.85
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "36960 chars",
+     "latency": 3.44
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "es",
+   "source": "BOE — Agencia Estatal Boletín Oficial del Estado, Datos abiertos: legislación consolidada",
+   "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: HTTP 400",
+   "latency": 3.93,
+   "http_status": 400,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.93
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "364 chars",
+     "latency": 2.99
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "es",
+   "source": "Tribunal Constitucional — Buscador de jurisprudencia constitucional (Sistema HJ)",
+   "url": "https://hj.tribunalconstitucional.es/",
+   "status": "degraded",
+   "detail": "partial: get_decision: error: ConnectTimeout: no detail",
+   "latency": 21.33,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 7.95
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 19.91
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "et",
+   "source": "House of Peoples' Representatives: published laws (Federal Negarit Gazeta PDFs, hopr.gov.et)",
+   "url": "https://www.hopr.gov.et/Home/PublishedLaws",
+   "status": "degraded",
+   "detail": "slow: get_legislation_provision took 31s",
+   "latency": 30.88,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 3.74
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1479 chars",
+     "latency": 30.88
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "eu",
+   "source": "Publications Office CELLAR (EUR-Lex data): SPARQL + REST",
+   "url": "https://publications.europa.eu/webapi/rdf/sparql",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 11.91,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.66
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "92661 chars",
+     "latency": 3.27
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 8.13
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "4147 chars",
+     "latency": 11.91
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "fi",
+   "source": "Finlex avoin data (Ministry of Justice / Legal Register Centre)",
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: HTTP 404",
+   "latency": 2.35,
+   "http_status": 404,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 1.4
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "236 chars",
+     "latency": 1.28
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "fi",
+   "source": "Finlex website (www.finlex.fi), KKO/KHO published decisions",
+   "url": "https://www.finlex.fi/fi/oikeuskaytanto",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 11.65,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.65
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "35392 chars",
+     "latency": 0.2
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "fr",
+   "source": "Judilibre (Cour de cassation, via PISTE)",
+   "url": "https://www.courdecassation.fr/acces-rapide-judilibre/open-data-et-api",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.8,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "fr",
+   "source": "Légifrance API (DILA, via PISTE)",
+   "url": "https://www.legifrance.gouv.fr",
+   "status": "blocked",
+   "detail": "bot wall on source URL (cloudflare challenge, HTTP 403)",
+   "latency": 0.82,
+   "http_status": 403,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "gb",
+   "source": "Find Case Law, The National Archives",
+   "url": "https://caselaw.nationalarchives.gov.uk",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 0.72,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.72
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "211422 chars",
+     "latency": 0.28
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "gb",
+   "source": "legislation.gov.uk, The National Archives",
+   "url": "https://www.legislation.gov.uk",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 0.89,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.4
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "3055 chars",
+     "latency": 0.67
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ge",
+   "source": "Legislative Herald of Georgia (Matsne), Ministry of Justice",
+   "url": "https://matsne.gov.ge",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 11.84,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.7
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "146 chars",
+     "latency": 11.84
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ge",
+   "source": "Courts of Georgia decision database (ecd.court.ge)",
+   "url": "https://ecd.court.ge/Decision",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 19.26,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 10.5
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "41394 chars",
+     "latency": 19.26
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "gr",
+   "source": "Άρειος Πάγος – Νομολογία (Supreme Civil and Criminal Court)",
+   "url": "https://www.areiospagos.gr/nomologia/apofaseis.asp",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 11.13,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 9.12
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "90852 chars",
+     "latency": 11.13
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "gr",
+   "source": "Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)",
+   "url": "https://search.et.gr/el/",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "gt",
+   "source": "Corte de Constitucionalidad – sentencias PDF (jurisprudencia.cc.gob.gt)",
+   "url": "https://jurisprudencia.cc.gob.gt/Sentencias/",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: HTTP 403",
+   "latency": 2.79,
+   "http_status": 403,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "34184 chars",
+     "latency": 2.79
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "gy",
+   "source": "Laws of Guyana, Ministry of Legal Affairs (mola.gov.gy)",
+   "url": "https://mola.gov.gy/laws-of-guyana",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 16.92,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.61
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "3454 chars",
+     "latency": 16.92
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "gy",
+   "source": "CCJ judgment lists and PDFs (ccj.org)",
+   "url": "https://ccj.org/judgments-proceedings/judgments/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.94,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.0
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "4168 chars",
+     "latency": 2.84
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "hk",
+   "source": "Hong Kong e-Legislation (Department of Justice) open data on DATA.GOV.HK",
+   "url": "https://data.gov.hk/en-data/dataset/hk-doj-hkel-legislation-current",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 11.59,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 6.11
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "11853 chars",
+     "latency": 11.59
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "hn",
+   "source": "Biblioteca Virtual del Tribunal Superior de Cuentas (TSC) – laws, codes, regulations and decrees as published (PDF, mostly La Gaceta copies)",
+   "url": "https://www.tsc.gob.hn/biblioteca/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 10.9,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 10.9
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "231 chars",
+     "latency": 9.33
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "hn",
+   "source": "ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras)",
+   "url": "https://www.enag.gob.hn/index.php/gaceta-digital",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 2.66,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "hr",
+   "source": "Narodne novine (official gazette of the Republic of Croatia)",
+   "url": "https://narodne-novine.nn.hr",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 10.85,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 10.85
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "54152 chars",
+     "latency": 9.49
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.15
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "393 chars",
+     "latency": 3.75
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ht",
+   "source": "Conseil Supérieur du Pouvoir Judiciaire (CSPJ): document library",
+   "url": "https://cspj.ht/bibliotheque-de-documents/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 18.96,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.51
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "522 chars",
+     "latency": 18.96
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ht",
+   "source": "Cour de cassation d'Haïti: Constitution PDF (1987 original)",
+   "url": "https://www.courdecassation.ht/publication/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.28,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:38:39+00:00"
+  },
+  {
+   "jurisdiction": "hu",
+   "source": "Bírósági Határozatok Gyűjteménye (eakta.birosag.hu, Országos Bírósági Hivatal)",
+   "url": "https://eakta.birosag.hu",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 17.91,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 17.91
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "35173 chars",
+     "latency": 4.53
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "icj",
+   "source": "International Court of Justice website (www.icj-cij.org): case pages and document search",
+   "url": "https://www.icj-cij.org/list-of-all-cases",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 11.18,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.18
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "39463 chars",
+     "latency": 7.6
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 0.0
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "807 chars",
+     "latency": 0.24
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "icsid",
+   "source": "ICSID case database (icsid.worldbank.org, icsidfiles.worldbank.org)",
+   "url": "https://icsid.worldbank.org/cases/case-database",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 8.6,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.61
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "9293 chars",
+     "latency": 8.6
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "id",
+   "source": "JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum",
+   "url": "https://jdih.setneg.go.id/peraturan",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 15.0,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 7.98
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "2624 chars",
+     "latency": 15.0
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "id",
+   "source": "Majelis Permusyawaratan Rakyat (www.mpr.go.id) – UUD NRI 1945",
+   "url": "https://www.mpr.go.id/sosialisasi/uud-nri-1945",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 2.04,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ie",
+   "source": "Irish Statute Book (eISB, Office of the Attorney General)",
+   "url": "https://www.irishstatutebook.ie",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 7.73,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 7.73
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ie",
+   "source": "Law Reform Commission Revised Acts",
+   "url": "https://revisedacts.lawreform.ie",
+   "status": "ok",
+   "detail": "probes ok: get_legislation_provision",
+   "latency": 1.97,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "15570 chars",
+     "latency": 1.73
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "il",
+   "source": "Knesset OData (ParliamentInfo) – Israeli law database (official)",
+   "url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 2.86,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.55
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "il",
+   "source": "Sefer HaChukim (ספר החוקים, Reshumot) as-published PDFs on fs.knesset.gov.il (official)",
+   "url": "https://fs.knesset.gov.il/",
+   "status": "ok",
+   "detail": "probes ok: get_legislation_provision",
+   "latency": 9.2,
+   "http_status": 247,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "2026 chars",
+     "latency": 9.2
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "il",
+   "source": "Open Law Book (ספר החוקים הפתוח), Hebrew Wikisource – non-official (crowd-maintained, Wikimedia Foundation)",
+   "url": "https://he.wikisource.org/wiki/ספר_החוקים_הפתוח",
+   "status": "ok",
+   "detail": "probes ok: get_legislation_provision",
+   "latency": 1.96,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "2010 chars",
+     "latency": 0.26
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "in",
+   "source": "India Code (Legislative Department, Ministry of Law and Justice; run by NIC)",
+   "url": "https://indiacode.gov.in/",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "in",
+   "source": "Indian Supreme Court Judgments (AWS Open Data; Dattam Labs mirror of the Supreme Court's e-SCR)",
+   "url": "https://registry.opendata.aws/indian-supreme-court-judgments/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision; robots.txt unreadable (SourceError)",
+   "latency": 3.39,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 3.39
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "42186 chars",
+     "latency": 2.04
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "iq",
+   "source": "Kurdistan Parliament legislation database (قاعدة التشريعات), legislation.krd (Kurdistan Region of Iraq only)",
+   "url": "https://legislation.krd",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 1.26,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.26
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1008 chars",
+     "latency": 0.44
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "is",
+   "source": "Ísland.is court rulings (Stafrænt Ísland; Hæstiréttur, Landsréttur, héraðsdómstólar)",
+   "url": "https://island.is/domar",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.35,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.35
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "38108 chars",
+     "latency": 1.96
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "it",
+   "source": "Normattiva open-data API (Istituto Poligrafico e Zecca dello Stato)",
+   "url": "https://dati.normattiva.it/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 1.06,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "it",
+   "source": "Normattiva — www.normattiva.it (texts by URN:NIR)",
+   "url": "https://www.normattiva.it/",
+   "status": "down",
+   "detail": "get_legislation_provision: error: ReadError: no detail",
+   "latency": 25.15,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "ReadError: no detail",
+     "latency": 25.15
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "itlos",
+   "source": "ITLOS case pages (www.itlos.org)",
+   "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 2.27,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 1.53
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "12342 chars",
+     "latency": 1.37
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "jm",
+   "source": "Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments",
+   "url": "https://caselaw.nationalarchives.gov.uk",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw",
+   "latency": 8.09,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.09
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "jm",
+   "source": "Supreme Court of Jamaica judgments (supremecourt.gov.jm)",
+   "url": "https://supremecourt.gov.jm/content/judgments",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 8.09,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.09
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "52950 chars",
+     "latency": 2.9
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "jm",
+   "source": "Court of Appeal of Jamaica judgments (courtofappeal.gov.jm)",
+   "url": "https://courtofappeal.gov.jm/content/judgmentsmemoranda-reasonsendorsements",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw",
+   "latency": 8.09,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.09
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "jo",
+   "source": "Constitutional Court of Jordan (المحكمة الدستورية), cco.gov.jo",
+   "url": "https://www.cco.gov.jo",
+   "status": "down",
+   "detail": "search_caselaw: error: ConnectTimeout: no detail; robots.txt unreadable (ConnectTimeout)",
+   "latency": 18.82,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.0
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.0
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "jp",
+   "source": "Case law: 裁判所 裁判例検索 (courts.go.jp), NOT wired in, search down since 2026-11-05 (e-Gov has no case law)",
+   "url": "https://www.courts.go.jp/app/hanrei_jp/search1",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.63,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "jp",
+   "source": "e-Gov 法令検索 / 法令API Version 2 (Digital Agency)",
+   "url": "https://laws.e-gov.go.jp",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 1.32,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.25
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "81 chars",
+     "latency": 0.39
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "kg",
+   "source": "Constitutional Court of the Kyrgyz Republic (constsot.kg)",
+   "url": "https://constsot.kg/ru/akty-lary/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 6.01,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 2.55
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "33147 chars",
+     "latency": 6.01
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "kh",
+   "source": "Council for the Development of Cambodia (CDC): Laws and Regulations",
+   "url": "https://cdc.gov.kh/laws-and-regulations/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 2.11,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 1.52
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "264 chars",
+     "latency": 2.11
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "la",
+   "source": "Official Gazette of the Lao PDR (Ministry of Justice): search index",
+   "url": "https://www.laoofficialgazette.gov.la/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 1.64,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.64
+    }
+   ],
+   "since": "2026-11-10T14:38:39+00:00"
+  },
+  {
+   "jurisdiction": "lb",
+   "source": "المجلس الدستوري / Constitutional Council of Lebanon (cc.gov.lb)",
+   "url": "https://www.cc.gov.lb",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 8.52,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.7
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "48060 chars",
+     "latency": 3.27
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 0.0
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "640 chars",
+     "latency": 8.52
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "li",
+   "source": "Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung)",
+   "url": "https://www.gesetze.li",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 26.17,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 26.17
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "616 chars",
+     "latency": 3.72
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "li",
+   "source": "Fürstlicher Oberster Gerichtshof – Entscheidungen (www.ogh.li)",
+   "url": "https://www.ogh.li/entscheidungen-des-ogh",
+   "status": "degraded",
+   "detail": "slow: search_caselaw took 47s",
+   "latency": 46.59,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 46.59
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "19639 chars",
+     "latency": 2.06
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "lu",
+   "source": "Legilux — Journal officiel du Grand-Duché de Luxembourg (Ministère d'État, Service central de législation): JOLux SPARQL + Akoma Ntoso XML",
+   "url": "https://legilux.public.lu/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 5.34,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.66
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "314 chars",
+     "latency": 5.34
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "lu",
+   "source": "data.public.lu — Cour de cassation decisions (Administration judiciaire), yearly ZIPs of PDFs read member by member with HTTP Range",
+   "url": "https://data.public.lu/fr/datasets/cour-de-cassation-1/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 5.4,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 5.4
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "42919 chars",
+     "latency": 2.8
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "lv",
+   "source": "E-lietas portāls – anonimizētie nolēmumi (Tiesu administrācija / Court Administration)",
+   "url": "https://elieta.lv/web/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 2.54,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.32
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "26436 chars",
+     "latency": 2.54
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ly",
+   "source": "وزارة العدل - Ministry of Justice of Libya (aladel.gov.ly)",
+   "url": "https://aladel.gov.ly/home/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 13.68,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.85
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "278 chars",
+     "latency": 4.23
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ly",
+   "source": "المحكمة العليا - Supreme Court of Libya (alolya.gov.ly)",
+   "url": "https://www.alolya.gov.ly/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 27.25,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 27.25
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "11762 chars",
+     "latency": 2.19
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ma",
+   "source": "Constitutional Court of Morocco (cour-constitutionnelle.ma) – Decisions",
+   "url": "https://www.cour-constitutionnelle.ma/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 2.13,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.13
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "22330 chars",
+     "latency": 1.51
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ma",
+   "source": "Ministry of Justice legal portal Adala (adala.justice.gov.ma)",
+   "url": "https://adala.justice.gov.ma/",
+   "status": "down",
+   "detail": "search_legislation: error: AdapterError: could not reach adala.justice.gov.ma (ConnectTimeout: ). Try again shortly. Official source: https://adala.justice.gov.m; robots.txt unreadable (ConnectTimeout)",
+   "latency": 21.66,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "AdapterError: could not reach adala.justice.gov.ma (ConnectTimeout: ). Try again shortly. Official source: https://adala.justice.gov.m",
+     "latency": 21.66
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "AdapterError: could not reach adala.justice.gov.ma (ConnectTimeout: ). Try again shortly. Official source: https://adala.justice.gov.m",
+     "latency": 15.0
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mc",
+   "source": "Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions",
+   "url": "https://legimonaco.mc/",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: ConnectError: ",
+   "latency": 12.94,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.5
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "23167 chars",
+     "latency": 0.49
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.93
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "298 chars",
+     "latency": 1.91
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "md",
+   "source": "Curtea Supremă de Justiție (Supreme Court of Justice), jurisprudenta.csj.md",
+   "url": "https://jurisprudenta.csj.md/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.25,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.64
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "15510 chars",
+     "latency": 4.25
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "md",
+   "source": "Președinția Republicii Moldova: Constituția (consolidated PDF), presedinte.md",
+   "url": "https://presedinte.md/rom/constitutia-republicii-moldova",
+   "status": "down",
+   "detail": "search_legislation: error: ReadError: no detail; robots.txt unreadable (ReadError)",
+   "latency": 1.46,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "ReadError: no detail",
+     "latency": 1.46
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "ReadError: no detail",
+     "latency": 0.68
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "md",
+   "source": "Portalul Național al Instanțelor de Judecată (courts of appeal and district courts), instante.justice.md",
+   "url": "https://instante.justice.md/ro/hotaririle-instantei",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 15.21,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "me",
+   "source": "Ustavni sud Crne Gore (ustavnisud.me) – Sudska arhiva",
+   "url": "https://www.ustavnisud.me/ustavnisud/arhiva.php",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 13.03,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.94
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "19699 chars",
+     "latency": 3.96
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "mg",
+   "source": "Haute Cour Constitutionnelle (hcc.gov.mg)",
+   "url": "https://www.hcc.gov.mg/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 3.86,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 2.47
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "10967 chars",
+     "latency": 3.67
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "mg",
+   "source": "CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg)",
+   "url": "https://www.cnlegis.gov.mg/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 16.9,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 6.36
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "127 chars",
+     "latency": 16.9
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mm",
+   "source": "Supreme Court of the Union: laws, procedures and amending laws (unionsupremecourt.gov.mm)",
+   "url": "https://www.unionsupremecourt.gov.mm/laws",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 25.03,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 25.03
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "428 chars",
+     "latency": 6.19
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mm",
+   "source": "Supreme Court of the Union: Rulings and Case Management System (rcms.usc.gov.mm)",
+   "url": "https://rcms.usc.gov.mm/precedents",
+   "status": "down",
+   "detail": "search_caselaw: error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081); robots.txt unreadable (ConnectError)",
+   "latency": 2.15,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 0.75
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 2.15
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "mn",
+   "source": "shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia)",
+   "url": "https://shuukh.mn",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 7.84,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.44
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "36778 chars",
+     "latency": 7.84
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "mt",
+   "source": "Legislation Malta (legislation.mt), Office of the State Advocate / Legislation Unit",
+   "url": "https://legislation.mt",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 17.53,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.41
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "14362 chars",
+     "latency": 17.53
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mu",
+   "source": "Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments",
+   "url": "https://caselaw.nationalarchives.gov.uk",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 0.88,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 0.88
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "34351 chars",
+     "latency": 0.33
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mu",
+   "source": "Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library",
+   "url": "https://supremecourt.govmu.org",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "mu",
+   "source": "Revised Laws of Mauritius, Attorney General's Office (attorneygeneral.govmu.org)",
+   "url": "https://attorneygeneral.govmu.org/Pages/Laws%20of%20Mauritius/A-Z%20Acts/ActsAZ.aspx",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 19.4,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 19.4
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1373 chars",
+     "latency": 9.96
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mu",
+   "source": "National Assembly of Mauritius (mauritiusassembly.govmu.org): Acts as passed",
+   "url": "https://mauritiusassembly.govmu.org/mauritiusassembly/index.php/acts-2/",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: HTTP 500",
+   "latency": 19.4,
+   "http_status": 500,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 19.4
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "mv",
+   "source": "MvLaw (mvlaw.gov.mv), Attorney General's Office legislation database",
+   "url": "https://mvlaw.gov.mv",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 13.78,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 13.78
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "596 chars",
+     "latency": 2.6
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mv",
+   "source": "Government Gazette of the Maldives (gazette.gov.mv), President's Office",
+   "url": "https://www.gazette.gov.mv",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 3.27,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "mz",
+   "source": "Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page",
+   "url": "https://www.ts.gov.mz/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 23.38,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 23.38
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "12348 chars",
+     "latency": 11.07
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 7.72
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "217 chars",
+     "latency": 9.74
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "mz",
+   "source": "Conselho Constitucional (cconstitucional.org.mz): acórdãos and deliberações",
+   "url": "https://cconstitucional.org.mz/jurisprudencia/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 6.1,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ng",
+   "source": "Supreme Court of Nigeria (supremecourt.gov.ng) – Judgments",
+   "url": "https://supremecourt.gov.ng/judgment",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 11.88,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 7.99
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "32982 chars",
+     "latency": 11.88
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ng",
+   "source": "National Assembly of Nigeria (nass.gov.ng) – Acts as passed",
+   "url": "https://nass.gov.ng/documents/magazine",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 5.44,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 5.44
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ng",
+   "source": "Nigerian Investment Promotion Commission (nipc.gov.ng) – Acts",
+   "url": "https://nipc.gov.ng/external-resources/document-types/act",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 5.44,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 5.44
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1517 chars",
+     "latency": 2.48
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ng",
+   "source": "PLAC Laws of Nigeria (lawsofnigeria.placng.org): unrevised LFN 2004 (unofficial)",
+   "url": "https://lawsofnigeria.placng.org/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 1.13,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "ng",
+   "source": "FAOLEX (FAO) – Constitution of Nigeria 1999, consolidated to 2023 (PLAC print)",
+   "url": "https://faolex.fao.org/docs/pdf/nig164561.pdf",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.79,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "nl",
+   "source": "rechtspraak.nl (case law)",
+   "url": "https://uitspraken.rechtspraak.nl",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 0.93,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.67
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "18049 chars",
+     "latency": 0.93
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "nl",
+   "source": "wetten.overheid.nl / BWB (legislation)",
+   "url": "https://wetten.overheid.nl",
+   "status": "blocked",
+   "detail": "robots.txt disallows https://zoekservice.overheid.nl/sru/Search",
+   "latency": 3.93,
+   "http_status": 403,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.04
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "367 chars",
+     "latency": 3.93
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "no",
+   "source": "Domstoladministrasjonen: domstol.no, Høyesterett decision pages (summaries)",
+   "url": "https://www.domstol.no/no/hoyesterett/avgjorelser/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 10.57,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 10.57
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "2135 chars",
+     "latency": 3.9
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "np",
+   "source": "Nepal Kanoon Patrika (नेपाल कानून पत्रिका), Supreme Court of Nepal",
+   "url": "https://nkp.gov.np",
+   "status": "degraded",
+   "detail": "partial: search_caselaw: error: timeout after 90s",
+   "latency": 90.68,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "timeout after 90s",
+     "latency": 90.68
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "59390 chars",
+     "latency": 2.02
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "pa",
+   "source": "Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there)",
+   "url": "https://legispan.asamblea.gob.pa/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 10.21,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.55
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "26637 chars",
+     "latency": 1.21
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 10.21
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "194 chars",
+     "latency": 6.49
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "pe",
+   "source": "Tribunal Constitucional – Consulta de causas and published resolutions",
+   "url": "https://www.tc.gob.pe/consultas-de-causas/",
+   "status": "degraded",
+   "detail": "slow: get_decision took 33s",
+   "latency": 32.62,
+   "http_status": null,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.72
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "8869 chars",
+     "latency": 32.62
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "pe",
+   "source": "El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published",
+   "url": "https://busquedas.elperuano.pe",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 7.43,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 7.43
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "403 chars",
+     "latency": 1.22
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "pe",
+   "source": "Congreso de la República – Constitución Política del Perú, edición oficial (consolidated)",
+   "url": "https://www.congreso.gob.pe/constitucion-del-peru-y-reglamento/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 1.6,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ph",
+   "source": "The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO)",
+   "url": "https://lawphil.net",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 4.79,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.1
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "73192 chars",
+     "latency": 1.5
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 1.08
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "4197 chars",
+     "latency": 3.11
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "pk",
+   "source": "Islamabad High Court (mis.ihc.gov.pk) – Case Law System",
+   "url": "https://mis.ihc.gov.pk/frmSrchOrdr.aspx",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 12.54,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 12.54
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "29581 chars",
+     "latency": 2.25
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "pk",
+   "source": "The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice",
+   "url": "https://pakistancode.gov.pk/english/",
+   "status": "down",
+   "detail": "search_legislation: error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081); robots.txt unreadable (ConnectError)",
+   "latency": 2.83,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 2.83
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 0.56
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "pl",
+   "source": "Portal Orzeczeń Sądów Powszechnych (Ministry of Justice)",
+   "url": "https://orzeczenia.ms.gov.pl",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 5.34,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.17
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "1101 chars",
+     "latency": 5.34
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "pl",
+   "source": "Sejm ELI API (Chancellery of the Sejm)",
+   "url": "https://api.sejm.gov.pl",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 15.07,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.92
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "570 chars",
+     "latency": 15.07
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "ps",
+   "source": "Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic)",
+   "url": "https://maqam.najah.edu",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 3.94,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.49
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "7297 chars",
+     "latency": 0.84
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.94
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "176 chars",
+     "latency": 1.65
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "pt",
+   "source": "DGSI – Bases Jurídico-Documentais (IGFEJ, Ministério da Justiça)",
+   "url": "https://www.dgsi.pt",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.38,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.23
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "12937 chars",
+     "latency": 0.84
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "pt",
+   "source": "Tribunal Constitucional – Acórdãos",
+   "url": "https://www.tribunalconstitucional.pt/tc/acordaos/",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 3.58,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "pt",
+   "source": "PGDL – Legislação (Procuradoria-Geral Distrital de Lisboa, Ministério Público); unofficial consolidations",
+   "url": "https://www.pgdlisboa.pt/leis/lei_main.php",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 11.12,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.12
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "157 chars",
+     "latency": 1.41
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "py",
+   "source": "Biblioteca y Archivo Central del Congreso Nacional (BACN) – Leyes Paraguayas",
+   "url": "https://www.bacn.gov.py/leyes-paraguayas",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 11.5,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.5
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1319 chars",
+     "latency": 1.66
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "py",
+   "source": "Corte Suprema de Justicia – Sistema de Información de Jurisprudencia",
+   "url": "https://www.csj.gov.py/jurisprudencia/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 11.62,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.62
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "8368 chars",
+     "latency": 5.45
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "ro",
+   "source": "Înalta Curte de Casaţie şi Justiţie (High Court of Cassation and Justice), scj.ro",
+   "url": "https://www.scj.ro",
+   "status": "down",
+   "detail": "get_decision: error: ConnectTimeout: no detail; robots.txt unreadable (ConnectTimeout)",
+   "latency": 15.32,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.32
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "ro",
+   "source": "Camera Deputaţilor, Baza de date legislativă (cdep.ro), metadata only",
+   "url": "https://www.cdep.ro/ords/pls/legis/legis_pck.frame",
+   "status": "down",
+   "detail": "search_legislation: error: ConnectTimeout: no detail; robots.txt unreadable (ConnectTimeout)",
+   "latency": 23.69,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.32
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.39
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "ro",
+   "source": "Camera Deputaţilor, Constituţia României (cdep.ro), revised text 2003",
+   "url": "https://www.cdep.ro/ords/pls/dic/site.page?id=339",
+   "status": "down",
+   "detail": "search_legislation: error: ConnectTimeout: no detail; robots.txt unreadable (ConnectTimeout)",
+   "latency": 23.69,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.32
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "ConnectTimeout: no detail",
+     "latency": 15.39
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "rs",
+   "source": "Vrhovni sud (Supreme Court of Serbia): Baza sudske prakse",
+   "url": "https://www.vrh.sud.rs/sr-lat/baza-sudske-prakse-suda",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: ConnectError: ",
+   "latency": 22.77,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.66
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "6719 chars",
+     "latency": 7.92
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "rs",
+   "source": "Ustavni sud (Constitutional Court): Ustav RS i propisi",
+   "url": "https://www.ustavni.sud.rs/ustav-rs-i-propisi/ustav-republike-srbije",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 3.84,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.0
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "754 chars",
+     "latency": 3.84
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "rw",
+   "source": "Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda",
+   "url": "https://amategeko.gov.rw",
+   "status": "degraded",
+   "detail": "partial: search_caselaw: error: RemoteProtocolError: Server disconnected without sending a response.",
+   "latency": 61.44,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "RemoteProtocolError: Server disconnected without sending a response.",
+     "latency": 61.44
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "33104 chars",
+     "latency": 5.03
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.38
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "2909 chars",
+     "latency": 25.06
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "sc",
+   "source": "Judiciary of Seychelles website (judiciary.sc): Decisions from the Courts",
+   "url": "https://www.judiciary.sc/resources/court-decisions/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 7.82,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 2.2
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "85447 chars",
+     "latency": 7.82
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sc",
+   "source": "Official Gazette of Seychelles (gazette.sc): Acts, S.I.s and Bills",
+   "url": "https://www.gazette.sc",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 6.64,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 6.64
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "659 chars",
+     "latency": 2.2
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sc",
+   "source": "Judiciary of Seychelles website (judiciary.sc): Laws of Seychelles (Constitution and main codes)",
+   "url": "https://www.judiciary.sc/seychelles-law/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 6.64,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 6.64
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "se",
+   "source": "Rättspraxis open data (Domstolsverket / Sveriges Domstolar)",
+   "url": "https://rattspraxis.etjanst.domstol.se/sok/sokning",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 4.05,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.05
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "24484 chars",
+     "latency": 0.68
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "se",
+   "source": "Riksdagens öppna data, SFS (Källa: Sveriges riksdag)",
+   "url": "https://data.riksdagen.se/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 4.5,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.5
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "419 chars",
+     "latency": 1.21
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sg",
+   "source": "SG Courts judgments (elitigation.sg/gd, Singapore Judiciary)",
+   "url": "https://www.elitigation.sg/gd/",
+   "status": "skipped",
+   "detail": "skipped (permission): needs WLM_PERMITTED",
+   "latency": null,
+   "http_status": null,
+   "probe": "",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sg",
+   "source": "Singapore Statutes Online (sso.agc.gov.sg): statutes live here, not queryable by this server because it blocks automated clients; check it in a browser",
+   "url": "https://sso.agc.gov.sg/",
+   "status": "down",
+   "detail": "source URL: HTTP 403",
+   "latency": 0.04,
+   "http_status": 403,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "si",
+   "source": "Sodna praksa (sodnapraksa.si, Supreme Court of Slovenia)",
+   "url": "https://www.sodnapraksa.si",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 2.19,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.94
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "7684 chars",
+     "latency": 2.19
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "si",
+   "source": "PISRS (Pravni informacijski sistem RS, Government of Slovenia)",
+   "url": "https://pisrs.si",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 2.66,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 0.69
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "273 chars",
+     "latency": 2.66
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sk",
+   "source": "Najvyšší súd SR open data (Supreme Court)",
+   "url": "https://www.nsud.sk/opendata/",
+   "status": "down",
+   "detail": "search_caselaw: error: nsud.sk search: Server disconnected without sending a response. (HTTP network); robots.txt unreadable (RemoteProtocolError)",
+   "latency": 1.62,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "nsud.sk search: Server disconnected without sending a response. (HTTP network)",
+     "latency": 0.66
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "nsud.sk lookup: Server disconnected without sending a response. (HTTP network)",
+     "latency": 1.62
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "sk",
+   "source": "Slov-Lex (Ministry of Justice)",
+   "url": "https://www.slov-lex.sk",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 4.0,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.63
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "423 chars",
+     "latency": 4.0
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sn",
+   "source": "Conseil constitutionnel du Sénégal (decisions and consolidated Constitution)",
+   "url": "https://conseilconstitutionnel.sn",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, get_legislation_provision",
+   "latency": 3.88,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 3.63
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "5103 chars",
+     "latency": 1.59
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "869 chars",
+     "latency": 3.88
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sn",
+   "source": "Primature / Secrétariat général du Gouvernement (lois, décrets, codes)",
+   "url": "https://primature.sn/publications/lois-et-reglements",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 53s",
+   "latency": 53.17,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 53.17
+    }
+   ],
+   "since": "2026-11-10T14:38:39+00:00"
+  },
+  {
+   "jurisdiction": "sn",
+   "source": "Ministère de la Justice du Sénégal (codes, lois and décrets as PDF)",
+   "url": "https://justice.sec.gouv.sn/publications/textes/",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 53s",
+   "latency": 53.17,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 53.17
+    }
+   ],
+   "since": "2026-11-10T14:38:39+00:00"
+  },
+  {
+   "jurisdiction": "sn",
+   "source": "JURICAF (AHJUCAF): Cour suprême decisions (unofficial)",
+   "url": "https://juricaf.org",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 0.57,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sr",
+   "source": "Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr)",
+   "url": "https://rechtspraak.sr/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 12.52,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 12.52
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "16546 chars",
+     "latency": 0.59
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "sr",
+   "source": "Surinaamse wetten, De Nationale Assemblee (dna.sr)",
+   "url": "https://www.dna.sr/wetgeving/surinaamse-wetten/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 7.21,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 5.89
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "211 chars",
+     "latency": 7.21
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tj",
+   "source": "Constitutional Court of the Republic of Tajikistan (constcourt.tj)",
+   "url": "https://constcourt.tj/ru/qarorho/",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 11.48,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 4.78
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "19556 chars",
+     "latency": 6.1
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.48
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "374 chars",
+     "latency": 5.27
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "tj",
+   "source": "Official website of the President of the Republic of Tajikistan (president.tj)",
+   "url": "https://president.tj/event/documents",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 6.45,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tj",
+   "source": "Базаи қонунгузории ҶТ, National Legislation Centre under the President of the Republic of Tajikistan (base.mmk.tj)",
+   "url": "http://base.mmk.tj/view_sanadholist.php",
+   "status": "ok",
+   "detail": "probes ok: search_legislation",
+   "latency": 11.48,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 11.48
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "tm",
+   "source": "Mejlis of Turkmenistan (mejlis.gov.tm)",
+   "url": "https://mejlis.gov.tm",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 20.65,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 8.72
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "389 chars",
+     "latency": 1.64
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tm",
+   "source": "Supreme Court of Turkmenistan (court.gov.tm)",
+   "url": "https://court.gov.tm",
+   "status": "degraded",
+   "detail": "slow: search_caselaw took 41s",
+   "latency": 40.82,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 40.82
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "17672 chars",
+     "latency": 0.0
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "tr",
+   "source": "Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)",
+   "url": "https://mevzuat.adalet.gov.tr",
+   "status": "degraded",
+   "detail": "partial: get_decision: error: ReadError: no detail",
+   "latency": 16.84,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 16.84
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "ReadError: no detail",
+     "latency": 14.27
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 6.59
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "184 chars",
+     "latency": 3.95
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "tr",
+   "source": "Anayasa Mahkemesi Kararlar Bilgi Bankası",
+   "url": "https://kararlarbilgibankasi.anayasa.gov.tr",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 6.37,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.28
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "19700 chars",
+     "latency": 1.06
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tr",
+   "source": "Uyuşmazlık Mahkemesi Karar Arama",
+   "url": "https://kararlar.uyusmazlik.gov.tr",
+   "status": "degraded",
+   "detail": "slow: search_caselaw took 31s",
+   "latency": 30.7,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 30.7
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "34616 chars",
+     "latency": 6.7
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "tr",
+   "source": "Sayıştay Kararlar (Genel Kurul, Temyiz Kurulu, Daire)",
+   "url": "https://www.sayistay.gov.tr/KararlarDaire",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 8.65,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.65
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "9518 chars",
+     "latency": 1.69
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tr",
+   "source": "Rekabet Kurumu Kurul Kararı Arama",
+   "url": "https://www.rekabet.gov.tr/tr/Kararlar",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: ConnectTimeout: ",
+   "latency": 15.11,
+   "http_status": null,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.27
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "352150 chars",
+     "latency": 7.34
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "tr",
+   "source": "Gelir İdaresi Başkanlığı Özelgeler",
+   "url": "https://gib.gov.tr/mevzuat/ozelgeler",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 8.65,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.65
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "6487 chars",
+     "latency": 1.08
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tt",
+   "source": "Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org)",
+   "url": "https://www.ttlawcourts.org/media-public-information/recent-judgments",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 15.22,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 6.74
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "18665 chars",
+     "latency": 3.1
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tt",
+   "source": "Digital Legislative Library, Law Revision Commission (laws.gov.tt)",
+   "url": "https://laws.gov.tt/ttdll-web/revision/list",
+   "status": "degraded",
+   "detail": "slow: search_legislation took 44s",
+   "latency": 44.03,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 44.03
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "168 chars",
+     "latency": 4.44
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tt",
+   "source": "Find Case Law, The National Archives",
+   "url": "https://caselaw.nationalarchives.gov.uk",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 3.74,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "tw",
+   "source": "Judicial Yuan 裁判書查詢 (FJUD, judgment.judicial.gov.tw)",
+   "url": "https://judgment.judicial.gov.tw/FJUD/default.aspx",
+   "status": "degraded",
+   "detail": "probes ok, but source URL: ConnectError: ",
+   "latency": 14.44,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 7.95
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "2857 chars",
+     "latency": 1.9
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "tw",
+   "source": "Ministry of Justice 全國法規資料庫 (law.moj.gov.tw, LawAll.aspx only)",
+   "url": "https://law.moj.gov.tw",
+   "status": "ok",
+   "detail": "probes ok: get_legislation_provision; source URL disallowed by robots.txt, not fetched",
+   "latency": 26.17,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "106 chars",
+     "latency": 26.17
+    }
+   ],
+   "since": "2026-11-10T14:38:39+00:00"
+  },
+  {
+   "jurisdiction": "untc",
+   "source": "United Nations Treaty Collection (treaties.un.org), MTDSG status records and certified true copies",
+   "url": "https://treaties.un.org/Pages/ParticipationStatus.aspx?clang=_en",
+   "status": "degraded",
+   "detail": "partial: search_legislation: error: timeout after 90s",
+   "latency": 90.0,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "timeout after 90s",
+     "latency": 90.0
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "237 chars",
+     "latency": 9.24
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "us",
+   "source": "govinfo (U.S. Government Publishing Office): USCOURTS opinions and U.S. Reports",
+   "url": "https://www.govinfo.gov",
+   "status": "ok",
+   "detail": "probes ok: get_decision",
+   "latency": 21.99,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "29946 chars",
+     "latency": 21.99
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "us",
+   "source": "Supreme Court of the United States: opinions of the Court (supremecourt.gov)",
+   "url": "https://www.supremecourt.gov",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 6.0,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "us",
+   "source": "National Archives: Constitution of the United States (transcription)",
+   "url": "https://www.archives.gov",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 23.25,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "us",
+   "source": "govinfo (U.S. Government Publishing Office): Statutes at Large and Public and Private Laws",
+   "url": "https://www.govinfo.gov",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 6.04,
+   "http_status": 200,
+   "probe": "specific",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 4.69
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1409 chars",
+     "latency": 0.0
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "us",
+   "source": "United States Code (Office of the Law Revision Counsel, U.S. House)",
+   "url": "https://uscode.house.gov",
+   "status": "ok",
+   "detail": "probes ok: get_legislation_provision",
+   "latency": 4.05,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1080 chars",
+     "latency": 0.14
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "uy",
+   "source": "IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales)",
+   "url": "https://www.impo.com.uy/datos-abiertos/",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 17.12,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "1 hits",
+     "latency": 0.0
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "731 chars",
+     "latency": 5.61
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "uy",
+   "source": "Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial",
+   "url": "https://bjn.poderjudicial.gub.uy/BJNPUBLICA/busquedaSelectiva.seam",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 29.18,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 8.55
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "17856 chars",
+     "latency": 29.18
+    }
+   ],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "uz",
+   "source": "lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre)",
+   "url": "https://lex.uz",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision, search_legislation, get_legislation_provision",
+   "latency": 15.37,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 1.52
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "25335 chars",
+     "latency": 5.09
+    },
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 15.37
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "1192 chars",
+     "latency": 9.42
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "vn",
+   "source": "Bộ Tư pháp: Cơ sở dữ liệu quốc gia về văn bản pháp luật (vbpl.vn)",
+   "url": "https://vbpl.vn",
+   "status": "down",
+   "detail": "search_legislation: error: Error (vbpl.vn): sitemap index failed (HTTP 403). (HTTP 403)",
+   "latency": 12.94,
+   "http_status": 403,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "error",
+     "detail": "Error (vbpl.vn): sitemap index failed (HTTP 403). (HTTP 403)",
+     "latency": 1.08
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "error",
+     "detail": "Error (vbpl.vn): document page failed (HTTP 403). (HTTP 403)",
+     "latency": 4.16
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "vn",
+   "source": "Cổng Thông tin điện tử Chính phủ: Hệ thống văn bản (vanban.chinhphu.vn)",
+   "url": "https://vanban.chinhphu.vn",
+   "status": "ok",
+   "detail": "source URL reachable (no functional probe reaches this source)",
+   "latency": 9.7,
+   "http_status": 200,
+   "probe": "url",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [],
+   "since": "2026-11-13T00:35:31+00:00"
+  },
+  {
+   "jurisdiction": "vn",
+   "source": "Tòa án nhân dân tối cao: Trang tin điện tử về án lệ (anle.toaan.gov.vn)",
+   "url": "https://anle.toaan.gov.vn",
+   "status": "down",
+   "detail": "search_caselaw: error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081); robots.txt unreadable (ConnectError)",
+   "latency": 6.54,
+   "http_status": null,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 1.38
+    },
+    {
+     "method": "get_decision",
+     "kind": "error",
+     "detail": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)",
+     "latency": 2.64
+    }
+   ],
+   "since": "2026-11-11T12:42:04+00:00"
+  },
+  {
+   "jurisdiction": "wto",
+   "source": "WTO dispute pages and dispute data files (www.wto.org)",
+   "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 13.87,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "2 hits",
+     "latency": 6.11
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "15457 chars",
+     "latency": 13.87
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "xk",
+   "source": "Gjykata Kushtetuese e Republikës së Kosovës (Constitutional Court), gjk-ks.org",
+   "url": "https://gjk-ks.org",
+   "status": "ok",
+   "detail": "probes ok: search_caselaw, get_decision",
+   "latency": 16.41,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_caselaw",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 16.41
+    },
+    {
+     "method": "get_decision",
+     "kind": "ok",
+     "detail": "49117 chars",
+     "latency": 7.02
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  },
+  {
+   "jurisdiction": "xk",
+   "source": "Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net",
+   "url": "https://gzk.rks-gov.net",
+   "status": "ok",
+   "detail": "probes ok: search_legislation, get_legislation_provision",
+   "latency": 14.96,
+   "http_status": 200,
+   "probe": "adapter",
+   "checked_at": "2026-11-13T00:35:31+00:00",
+   "fontes_version": "0.1.0",
+   "calls": [
+    {
+     "method": "search_legislation",
+     "kind": "ok",
+     "detail": "3 hits",
+     "latency": 14.96
+    },
+    {
+     "method": "get_legislation_provision",
+     "kind": "ok",
+     "detail": "743 chars",
+     "latency": 7.66
+    }
+   ],
+   "since": "2026-11-10T14:32:43+00:00"
+  }
+ ],
+ "duration_s": 227
+}
