@@ -13,12 +13,12 @@ Tá eochracha roghnach. Is féidir leat iad a chur leis níos déanaí.
 
 ## Eochair a chur leis
 
-**Leis an suiteálaí.** Le linn na suiteála, fiafraíonn an suiteálaí ar mhaith leat eochracha a chur
-leis. Roghnaigh **Not now** (nó brúigh Enter) chun scipeáil. Chun eochracha a chur leis nó a athrú
-níos déanaí, rith **Add or change keys**:
+**Leis an suiteálaí.** Nuair atá Fontes socraithe, tairgeann an suiteálaí eochracha a chur leis. Ar
+Mac, cliceáil **Cuir eochracha leis**, nó **Déanta** chun scipeáil; ar Windows, freagair an cheist
+(brúigh Enter chun scipeáil). Chun eochracha a chur leis nó a athrú níos déanaí, rith
+**Add or change keys**:
 
-- Mac: oscail aip Fontes Installer arís agus roghnaigh **Add or change keys**, nó déchliceáil
-  `Add or change keys.command` i bhfillteán an tsuiteálaí.
+- Mac: oscail aip Fontes Installer arís agus roghnaigh **Cuir eochracha leis nó athraigh iad**.
 - Windows: déchliceáil `Add or change keys.cmd` i bhfillteán an tsuiteálaí. Cuirfidh clár socraithe
   Windows, nuair a bheidh sé ar fáil, é in Start menu > Fontes freisin.
 

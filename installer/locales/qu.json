@@ -34,9 +34,7 @@
  "app_button_cancel": "Saqiy",
  "app_button_ok": "Allinmi",
  "app_button_keys": "Llavekunata yapay utaq tikray",
- "app_button_skip": "Mana kunanchu",
  "app_button_guide": "Pusana qillqata kichay",
- "app_keys_ask": "Llavekunata kunan yapankichu? Qhipatapas ruwayta atinki: instaladorta wakmanta kichay hinaspa \"Llavekunata yapay utaq tikray\" nisqata akllay.",
  "sh_installing_uv": "uv instalachkan, Fontesta uraykuchiq musuqchaq llamk'ana (huk kutillata)...",
  "sh_no_uv": "uv mana instalasqachu; manam imapas qichunapaq kanchu.",
  "sh_press_enter": "Kay ventanata wichqanapaq Enter ñit'iy.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Huk kamachiypa índicen, artículonkunap sutinkunantin.",
  "mcpb_tool_get_legislation_provision": "Huk artículop utaq secciónpa kunan qillqan.",
  "mcpb_tool_get_legislation_text": "Huk kamachiypa llapan consolidado qillqan, raphinkunapi.",
- "mcpb_tool_report_bug": "Fontes pantay willakuyta wakichiy; usuario ari nisqanllapim kachakun."
+ "mcpb_tool_report_bug": "Fontes pantay willakuyta wakichiy; usuario ari nisqanllapim kachakun.",
+ "app_keys_offer": "Mana kamachisqa: mana qullqiyuq llavekunaqa Franciata kichan, Estados Unidospa jurisprudencia maskay limitentataq hatunyachin. Kunan yapay, utaq qhipaman kay instaladorta wakmanta kichaspa.",
+ "app_button_add_keys": "Llavekunata yapay",
+ "app_button_done": "Tukusqa",
+ "app_button_continue": "Qatipay",
+ "app_key_unset": "{name}\n\nUraypi k'askachiy, utaq saltanaykipaq cajata ch'usaqta saqiy.",
+ "app_key_set": "{name} waqaychasqañam.\n\nTikranaykipaq musuqta k'askachiy, kaqllata waqaychanaykipaq cajata ch'usaqta saqiy, utaq qichunaykipaq - qillqay."
 }

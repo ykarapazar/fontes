@@ -73,10 +73,11 @@ Fontes एक मुफ़्त, ओपन-सोर्स MCP सर्वर 
 2. **ऐप को पुनः आरंभ करें।** उसे पूरी तरह बंद करें और फिर से खोलें।
 3. **पूछें:** *"Fontes किन क्षेत्राधिकारों में खोज सकता है?"* उसे देशों की सूची देनी चाहिए।
 
-Mac और Windows के लिए एक-क्लिक इंस्टॉलर आने वाला है। यह आपके कंप्यूटर पर मौजूद Claude Desktop, Codex,
-Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio और Cline, हर एक में Fontes सेट अप करता है,
-फिर आपकी कुंजियाँ जोड़ने की पेशकश करता है। इसे चलाने से पहले उन ऐप को बंद करें। विवरण:
-[INSTALL.md](INSTALL.md#एक-क्लिक-इंस्टॉलर-आने-वाला-है)।
+**Mac पर**, एक-क्लिक इंस्टॉलर आपके कंप्यूटर पर मौजूद Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio और Cline, हर एक में Fontes सेट अप करता है, फिर आपकी कुंजियाँ
+जोड़ने की पेशकश करता है। Mac इंस्टॉलर [नवीनतम रिलीज़](https://github.com/ykarapazar/fontes/releases/latest) से डाउनलोड करें और इसे चलाने से पहले उन ऐप को
+बंद करें। Windows इंस्टॉलर आने वाला है। विवरण:
+[INSTALL.md](INSTALL.md#एक-क्लिक-इंस्टॉलर-mac)।
 कुछ स्रोतों के लिए मुफ़्त कुंजी चाहिए: देखें [KEYS.md](KEYS.md)।
 
 <!-- map:start -->

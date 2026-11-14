@@ -13,12 +13,12 @@ Schlëssele sinn fakultativ. Dir kënnt se méi spéit derbäisetzen.
 
 ## E Schlëssel derbäisetzen
 
-**Mam Installatiounsprogramm.** Wärend der Installatioun freet den Installatiounsprogramm, ob Dir
-Schlësselen derbäisetze wëllt. Wielt **Net elo** (oder dréckt Enter), fir ze iwwersprangen. Fir
-méi spéit Schlësselen derbäizesetzen oder z'änneren, lafe loosst **Add or change keys**:
+**Mam Installatiounsprogramm.** Soubal Fontes ageriicht ass, proposéiert den Installatiounsprogramm,
+Schlësselen derbäizesetzen. Op engem Mac klickt op **Schlësselen derbäisetzen**, oder op **Fäerdeg**,
+fir ze iwwersprangen; op Windows beäntwert d'Fro (dréckt Enter, fir ze iwwersprangen). Fir méi
+spéit Schlësselen derbäizesetzen oder z'änneren, lafe loosst **Add or change keys**:
 
-- Mac: Maacht d'App Fontes Installer nees op a wielt **Schlësselen derbäisetzen oder änneren**,
-  oder klickt duebel op `Add or change keys.command` am Dossier vum Installatiounsprogramm.
+- Mac: Maacht d'App Fontes Installer nees op a wielt **Schlësselen derbäisetzen oder änneren**.
 - Windows: Klickt duebel op `Add or change keys.cmd` am Dossier vum Installatiounsprogramm. De
   Windows-Setup-Programm setzt et, soubal en disponibel ass, och an Start menu > Fontes.
 

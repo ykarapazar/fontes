@@ -13,12 +13,11 @@ As chaves são opcionais. Você pode adicioná-las depois.
 
 ## Adicionar uma chave
 
-**Com o instalador.** Durante a instalação, o instalador pergunta se você quer adicionar chaves.
-Escolha **Agora não** (ou pressione Enter) para pular. Para adicionar ou alterar chaves depois,
-execute **Add or change keys**:
+**Com o instalador.** Depois que o Fontes é configurado, o instalador oferece adicionar chaves. No Mac,
+clique em **Adicionar chaves**, ou em **Concluído** para pular; no Windows, responda à pergunta (pressione
+Enter para pular). Para adicionar ou alterar chaves depois, execute **Add or change keys**:
 
-- Mac: abra de novo o app Fontes Installer e escolha **Adicionar ou alterar chaves**, ou clique duas
-  vezes em `Add or change keys.command` na pasta do instalador.
+- Mac: abra de novo o app Fontes Installer e escolha **Adicionar ou alterar chaves**.
 - Windows: clique duas vezes em `Add or change keys.cmd` na pasta do instalador. O programa de
   instalação para Windows, quando estiver disponível, também o coloca em Start menu > Fontes.
 

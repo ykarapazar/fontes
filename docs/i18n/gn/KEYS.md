@@ -13,12 +13,11 @@ Clave-kuéra ojeiporavo hag̃ua. Ikatu rembojoapy upéi.
 
 ## Clave ñembojoapy
 
-**Instalador reheve.** Omohenda aja, instalador ndeporandu rembojoapysépa clave. Eiporavo
-**Not now** (térã ejopy Enter) rehasa hag̃ua. Rembojoapy térã remoambue hag̃ua upéi, emboguata
-**Add or change keys**:
+**Instalador reheve.** Fontes oñemohenda rire, instalador oikuave'ẽ rembojoapy hag̃ua clave. Mac-pe,
+ejopy **Embojoapy clave**, térã **Opáma** rehasa hag̃ua; Windows-pe, embohovái porandu (ejopy Enter
+rehasa hag̃ua). Rembojoapy térã remoambue hag̃ua upéi, emboguata **Add or change keys**:
 
-- Mac: eipe'a jey aplicación Fontes Installer ha eiporavo **Add or change keys**, térã ejopy
-  mokõi jey `Add or change keys.command` ári instalador carpeta-pe.
+- Mac: eipe'a jey aplicación Fontes Installer ha eiporavo **Embojoapy térã emoambue clave**.
 - Windows: ejopy mokõi jey `Add or change keys.cmd` ári instalador carpeta-pe. Programa de
   instalación Windows-pe g̃uarã, oĩ rire, omoĩta avei Start menu > Fontes-pe.
 

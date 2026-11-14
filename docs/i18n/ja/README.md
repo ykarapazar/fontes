@@ -71,10 +71,11 @@ VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio など。
 2. **アプリを再起動します。** 完全に終了してから、もう一度開きます。
 3. **質問します:** *「Fontes はどの法域を検索できますか？」* 国の一覧が表示されるはずです。
 
-Mac と Windows 用のワンクリックインストーラーを準備中です。Claude Desktop、Codex、Claude Code、Cursor、
-VS Code、Windsurf、Gemini CLI、Zed、LM Studio、Cline のうち、お使いのコンピューターにあるものすべてに
-Fontes を設定し、その後キーの追加を案内します。実行する前にこれらのアプリを終了してください。詳細:
-[INSTALL.md](INSTALL.md#ワンクリックインストーラー近日公開)。
+**Mac では**、ワンクリックインストーラーが Claude Desktop、Codex、Claude Code、Cursor、VS Code、
+Windsurf、Gemini CLI、Zed、LM Studio、Cline のうち、お使いのコンピューターにあるものすべてに Fontes を
+設定し、その後キーの追加を案内します。Mac 用インストーラーを[最新リリース](https://github.com/ykarapazar/fontes/releases/latest)からダウンロードし、
+実行する前にこれらのアプリを終了してください。Windows 用インストーラーは準備中です。詳細:
+[INSTALL.md](INSTALL.md#ワンクリックインストーラーmac)。
 一部の情報源には無料のキーが必要です: [KEYS.md](KEYS.md) をご覧ください。
 
 <!-- map:start -->

@@ -34,9 +34,7 @@
  "app_button_cancel": "Cancel·la",
  "app_button_ok": "D'acord",
  "app_button_keys": "Afegeix o canvia claus",
- "app_button_skip": "Ara no",
  "app_button_guide": "Obre la guia",
- "app_keys_ask": "Voleu afegir les claus ara? També ho podeu fer més tard: torneu a obrir l'instal·lador i trieu «Afegeix o canvia claus».",
  "sh_installing_uv": "S'està instal·lant uv, l'eina que baixa i actualitza Fontes (només un cop)...",
  "sh_no_uv": "uv no està instal·lat; no hi ha res a eliminar.",
  "sh_press_enter": "Premeu Retorn per tancar aquesta finestra.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Índex d'una llei amb les etiquetes de les disposicions.",
  "mcpb_tool_get_legislation_provision": "Text vigent d'un article o secció.",
  "mcpb_tool_get_legislation_text": "Text consolidat complet d'una llei, paginable.",
- "mcpb_tool_report_bug": "Prepara un informe d'error de Fontes; només s'envia si l'usuari el confirma."
+ "mcpb_tool_report_bug": "Prepara un informe d'error de Fontes; només s'envia si l'usuari el confirma.",
+ "app_keys_offer": "Opcional: les claus gratuïtes activen França i amplien el límit de jurisprudència dels Estats Units. Afegiu-les ara, o més tard tornant a obrir aquest instal·lador.",
+ "app_button_add_keys": "Afegeix claus",
+ "app_button_done": "Fet",
+ "app_button_continue": "Continua",
+ "app_key_unset": "{name}\n\nEnganxeu-la a sota o deixeu el quadre buit per ometre-la.",
+ "app_key_set": "{name} ja està desada.\n\nEnganxeu-ne una de nova per substituir-la, deixeu el quadre buit per conservar-la o escriviu - per eliminar-la."
 }

@@ -34,9 +34,7 @@
  "app_button_cancel": "Foano",
  "app_button_ok": "OK",
  "app_button_keys": "Hanampy na hanova fanalahidy",
- "app_button_skip": "Tsy izao",
  "app_button_guide": "Sokafy ny torolalana",
- "app_keys_ask": "Hanampy ny fanalahidy izao ve? Azonao atao any aoriana koa izany: sokafy indray ny mpametraka ary safidio ny \"Hanampy na hanova fanalahidy\".",
  "sh_installing_uv": "Mametraka ny uv, ilay fitaovana maka sy manavao ny Fontes (indray mandeha monja)...",
  "sh_no_uv": "Tsy voapetraka ny uv; tsy misy hesorina.",
  "sh_press_enter": "Tsindrio Enter hanakatonana ity varavarankely ity.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Votoatin'ny lalàna iray miaraka amin'ny mari-panondroana ny andininy.",
  "mcpb_tool_get_legislation_provision": "Lahatsoratra ankehitriny amin'ny andininy na fizarana iray.",
  "mcpb_tool_get_legislation_text": "Lahatsoratra natambatra (consolidé) feno amin'ny lalàna iray, azo vakiana isaky ny pejy.",
- "mcpb_tool_report_bug": "Manomana tatitra momba ny olana ao amin'ny Fontes; alefa ihany izy raha manamafy izany ny mpampiasa."
+ "mcpb_tool_report_bug": "Manomana tatitra momba ny olana ao amin'ny Fontes; alefa ihany izy raha manamafy izany ny mpampiasa.",
+ "app_keys_offer": "Tsy voatery: ny fanalahidy maimaim-poana dia mampandeha an'i Frantsa ary mampiakatra ny fetran'ny fikarohana jurisprudence any Etazonia. Ampidiro izao izy ireo, na any aoriana amin'ny fanokafana indray ity mpametraka ity.",
+ "app_button_add_keys": "Hanampy fanalahidy",
+ "app_button_done": "Vita",
+ "app_button_continue": "Tohizo",
+ "app_key_unset": "{name}\n\nApetaho eo ambany izy, na avelao ho foana ilay boaty mba handingana azy.",
+ "app_key_set": "Efa voatahiry ny {name}.\n\nApetaho ny vaovao hanoloana azy, avelao ho foana ilay boaty hitazonana azy, na soraty - hanesorana azy."
 }

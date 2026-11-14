@@ -34,9 +34,7 @@
  "app_button_cancel": "Tühista",
  "app_button_ok": "OK",
  "app_button_keys": "Lisa või muuda võtmeid",
- "app_button_skip": "Mitte praegu",
  "app_button_guide": "Ava juhend",
- "app_keys_ask": "Kas lisada võtmed kohe? Saate seda teha ka hiljem: avage paigaldusprogramm uuesti ja valige „Lisa või muuda võtmeid“.",
  "sh_installing_uv": "Paigaldatakse uv, tööriist, mis laadib Fontese alla ja uuendab seda (ühekordselt)...",
  "sh_no_uv": "uv ei ole paigaldatud; pole midagi eemaldada.",
  "sh_press_enter": "Selle akna sulgemiseks vajutage Enter.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Seaduse sisukord koos sätete tähistega.",
  "mcpb_tool_get_legislation_provision": "Ühe artikli või paragrahvi kehtiv tekst.",
  "mcpb_tool_get_legislation_text": "Seaduse täielik terviktekst, lehekülgedena.",
- "mcpb_tool_report_bug": "Valmista ette Fontese veaaruanne; see saadetakse ainult siis, kui kasutaja selle kinnitab."
+ "mcpb_tool_report_bug": "Valmista ette Fontese veaaruanne; see saadetakse ainult siis, kui kasutaja selle kinnitab.",
+ "app_keys_offer": "Valikuline: tasuta võtmed lülitavad sisse Prantsusmaa ja tõstavad Ameerika Ühendriikide kohtupraktika otsingu piirangut. Lisage need kohe või hiljem, avades selle paigaldaja uuesti.",
+ "app_button_add_keys": "Lisa võtmed",
+ "app_button_done": "Valmis",
+ "app_button_continue": "Jätka",
+ "app_key_unset": "{name}\n\nKleepige see allolevasse lahtrisse või jätke lahter vahelejätmiseks tühjaks.",
+ "app_key_set": "{name} on juba salvestatud.\n\nAsendamiseks kleepige uus, säilitamiseks jätke lahter tühjaks või eemaldamiseks sisestage -."
 }

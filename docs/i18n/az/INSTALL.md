@@ -133,11 +133,12 @@ Bəzi mənbələr pulsuz açar tələb edir: bax [KEYS.md](KEYS.md).
 Yeni söhbətdə soruşun: *"Fontes hansı yurisdiksiyalarda axtarış apara bilər?"* Proqram ölkələrin
 siyahısı ilə cavab verməlidir. Vermirsə, proqramı bir daha bağlayıb yenidən açın.
 
-## Bir kliklə quraşdırıcı (yoldadır)
+## Bir kliklə quraşdırıcı (Mac)
 
-Fontes-i bütün proqramlarınızda bir dəfəyə quraşdıran Mac və Windows quraşdırıcısı yoldadır. O,
-Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed,
-LM Studio və Cline-ı quraşdırır. O çıxdıqdan sonra:
+Mac quraşdırıcısı Fontes-i bütün proqramlarınızda bir dəfəyə quraşdırır: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio və Cline.
+Windows quraşdırıcısı yoldadır; o vaxta qədər yuxarıda proqramınız üçün olan addımlardan istifadə
+edin.
 
 **Başlamazdan əvvəl:** bu proqramların hər birini tamamilə bağlayın. Bu, ən çox Claude Code üçün
 vacibdir: o işləyərkən `~/.claude.json` faylını yenidən yazır və quraşdırıcının dəyişikliyini geri
@@ -146,18 +147,17 @@ ilə əlavə edin (bax [Claude Code](#claude-code)).
 
 **Mac**
 
-1. Yüklənmiş **Fontes Installer** qovluğunu açın.
-2. **Install Fontes.command** faylına iki dəfə klikləyin.
-   - Mac-iniz faylın "naməlum tərtibatçıdan olduğu üçün açıla bilmədiyini" desə: fayla sağ klikləyin
-     (və ya Control ilə klikləyin), **Open** seçin, sonra yenidən **Open** klikləyin. Bunu yalnız
-     bir dəfə edirsiniz.
-3. Pəncərə açılır və anonim istifadə saylarının göndərilib-göndərilməməsini soruşur; "xeyr" üçün
-   Enter basın.
-4. Açarların indi əlavə edilib-edilməməsini soruşur. Ötürmək üçün Enter basın; bax
-   [Açarlar addımı](#açarlar-addımı).
-5. **Hazırdır** dedikdə süni intellekt proqramlarınızı yenidən açın.
+1. Mac quraşdırıcısını (`Fontes-Installer-…-mac.zip`) [son
+   buraxılışdan](https://github.com/ykarapazar/fontes/releases/latest) yükləyin və arxivi açmaq üçün
+   ona iki dəfə klikləyin.
+2. **Fontes Installer** proqramına iki dəfə klikləyin. Mac-iniz internetdən yüklənmiş proqramı açmaq
+   istəyib-istəmədiyinizi soruşsa, **Open** klikləyin.
+3. **Quraşdır** seçin və **OK** klikləyin. Quraşdırma təxminən bir dəqiqə çəkir.
+4. Mesaj quraşdırılmış proqramları sadalayır. **Hazır** klikləyin, sonra həmin proqramları yenidən
+   açın. Əvvəlcə istəyə bağlı pulsuz açarları əlavə etmək üçün bunun əvəzinə **Açarları əlavə et**
+   klikləyin; bax [Açarlar addımı](#açarlar-addımı).
 
-**Windows**
+**Windows** (Windows quraşdırıcısı buraxıldıqdan sonra)
 
 1. Yüklənmiş **Fontes Installer** arxivini açın (sağ klik → Extract All).
 2. **Install Fontes.cmd** faylına iki dəfə klikləyin.
@@ -202,8 +202,7 @@ VS Code, `~/.copilot` və ya VS Code-un öz parametrlər qovluğu mövcuddursa q
 Quraşdırmadan dərhal sonra quraşdırıcı pulsuz Fransa və ABŞ açarlarını əlavə etməyi təklif edir.
 Onları sonra əlavə etmək və ya dəyişmək üçün:
 
-- **Mac:** quraşdırıcı qovluğundakı **Add or change keys.command** faylına iki dəfə klikləyin və ya
-  Fontes Installer proqramını yenidən açıb **Açarları əlavə et və ya dəyiş** seçin.
+- **Mac:** **Fontes Installer** proqramını yenidən açıb **Açarları əlavə et və ya dəyiş** seçin.
 - **Windows:** quraşdırıcı qovluğundakı **Add or change keys.cmd** faylına iki dəfə klikləyin.
 
 Yazdığınız görünmür. Açarlar Fontes-in artıq olduğu hər proqrama əlavə olunur. Sonra proqramları
@@ -217,8 +216,9 @@ Faylı dəyişməzdən əvvəl onun yanında `<file>.fontes-backup-<date>` adlı
 O, həmçinin uv-ni quraşdırır. Onu yenidən işə salmaq təhlükəsizdir: quraşdırmanı bərpa edir və başqa
 heç nəyi dəyişmir.
 
-Fontes-i silmək üçün **Uninstall Fontes.command** (Mac) və ya **Uninstall Fontes.cmd** (Windows)
-faylına iki dəfə klikləyin. O, `fontes` qeydini, açarlar daxil olmaqla, hər proqramdan silir.
+Fontes-i silmək üçün **Fontes Installer** proqramını açıb **Sil** seçin (Mac) və ya **Uninstall
+Fontes.cmd** (Windows) faylına iki dəfə klikləyin. O, `fontes` qeydini, açarlar daxil olmaqla, hər
+proqramdan silir.
 Digər parametrləriniz və ehtiyat nüsxələr qalır.
 
 ## Yeniləmələr

@@ -13,12 +13,12 @@ Atslēgas nav obligātas. Tās var pievienot vēlāk.
 
 ## Atslēgas pievienošana
 
-**Ar instalētāju.** Instalēšanas laikā instalētājs jautā, vai vēlaties pievienot atslēgas. Lai
-izlaistu, izvēlieties **Not now** (vai nospiediet Enter). Lai pievienotu vai mainītu atslēgas
+**Ar instalētāju.** Kad Fontes ir iestatīts, instalētājs piedāvā pievienot atslēgas. Mac datorā
+noklikšķiniet uz **Pievienot atslēgas** vai, lai izlaistu, uz **Gatavs**; Windows datorā atbildiet uz
+jautājumu (lai izlaistu, nospiediet Enter). Lai pievienotu vai mainītu atslēgas
 vēlāk, palaidiet **Add or change keys**:
 
-- Mac: vēlreiz atveriet lietotni Fontes Installer un izvēlieties **Add or change keys** vai
-  instalētāja mapē veiciet dubultklikšķi uz `Add or change keys.command`.
+- Mac: vēlreiz atveriet lietotni Fontes Installer un izvēlieties **Pievienot vai mainīt atslēgas**.
 - Windows: instalētāja mapē veiciet dubultklikšķi uz `Add or change keys.cmd`. Windows
   instalēšanas programma, kad tā būs pieejama, to ievietos arī izvēlnē Start > Fontes.
 

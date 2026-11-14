@@ -74,10 +74,12 @@ Eta sous yo (verifye chak jou): [ykarapazar.github.io/fontes/status/](https://yk
 2. **Relanse aplikasyon an.** Fèmen l nèt epi louvri l ankò.
 3. **Mande:** *"Nan ki jiridiksyon Fontes ka fè rechèch?"* Li ta dwe bay lis peyi yo.
 
-Yon enstalatè an yon sèl klik pou Mac ak Windows ap vini. Li mete Fontes nan Claude Desktop, Codex, Claude
-Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ak Cline, nan chak ladan yo ki sou òdinatè ou,
-epi apre sa li ofri w pou ajoute kle ou yo. Fèmen aplikasyon sa yo anvan ou lanse l. Detay:
-[INSTALL.md](INSTALL.md#enstalatè-an-yon-sèl-klik-ap-vini).
+**Sou Mac**, yon enstalatè an yon sèl klik mete Fontes nan Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio ak Cline, nan chak ladan yo ki sou òdinatè ou, epi apre sa
+li ofri w pou ajoute kle ou yo. Telechaje enstalatè Mac la nan
+[dènye vèsyon an](https://github.com/ykarapazar/fontes/releases/latest) epi fèmen aplikasyon sa yo anvan
+ou lanse l. Yon enstalatè pou Windows ap vini. Detay:
+[INSTALL.md](INSTALL.md#enstalatè-an-yon-sèl-klik-mac).
 Kèk sous bezwen yon kle gratis: gade [KEYS.md](KEYS.md).
 
 <!-- map:start -->

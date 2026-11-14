@@ -13,13 +13,13 @@ A kulcsok opcionálisak. Később is hozzáadhatja őket.
 
 ## Kulcs hozzáadása
 
-**A telepítővel.** Telepítés közben a telepítő megkérdezi, szeretne-e kulcsokat hozzáadni. A
-kihagyáshoz válassza a **Not now** lehetőséget (vagy nyomja meg az Entert). A kulcsok későbbi
-hozzáadásához vagy módosításához futtassa az **Add or change keys** elemet:
+**A telepítővel.** Miután a Fontes be van állítva, a telepítő felajánlja a kulcsok hozzáadását.
+Macen kattintson a **Kulcsok hozzáadása** gombra, vagy a kihagyáshoz a **Kész** gombra; Windowson
+válaszoljon a kérdésre (a kihagyáshoz nyomja meg az Entert). A kulcsok későbbi hozzáadásához vagy
+módosításához futtassa a **Kulcsok hozzáadása vagy módosítása** elemet:
 
-- Mac: nyissa meg újra a Fontes Installer alkalmazást, és válassza az **Add or change keys**
-  lehetőséget, vagy kattintson duplán az `Add or change keys.command` fájlra a telepítő
-  mappájában.
+- Mac: nyissa meg újra a Fontes Installer alkalmazást, és válassza a **Kulcsok hozzáadása vagy
+  módosítása** lehetőséget.
 - Windows: kattintson duplán az `Add or change keys.cmd` fájlra a telepítő mappájában. A
   Windows-telepítőprogram, amint elérhető lesz, a Start menu > Fontes alá is elhelyezi.
 

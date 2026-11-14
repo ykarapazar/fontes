@@ -70,10 +70,10 @@ OpenAI Codex、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Ze
 2. **重新啟動應用程式。** 共伊完全關掉，閣再拍開。
 3. **問：** *「Fontes 會當檢索佗一寡法域？」* 伊應該會列出這寡國家。
 
-Mac 佮 Windows 的一鍵安裝程式就欲推出。伊會佇 Claude Desktop、Codex、Claude Code、Cursor、
-VS Code、Windsurf、Gemini CLI、Zed、LM Studio 佮 Cline 內底設定 Fontes（你電腦頂有的逐个），
-閣問你欲加金鑰無。執行進前請先關掉這寡應用程式。詳細：
-[INSTALL.md](INSTALL.md#一鍵安裝程式就欲推出)。
+**佇 Mac**，一鍵安裝程式會佇 Claude Desktop、Codex、Claude Code、Cursor、VS Code、Windsurf、
+Gemini CLI、Zed、LM Studio 佮 Cline 內底設定 Fontes（你電腦頂有的逐个），閣問你欲加金鑰無。
+請對[最新版本](https://github.com/ykarapazar/fontes/releases/latest)下載 Mac 安裝程式，執行進前請先關掉這寡應用程式。
+Windows 安裝程式就欲推出。詳細：[INSTALL.md](INSTALL.md#一鍵安裝程式mac)。
 有一寡來源需要免費的金鑰：請看 [KEYS.md](KEYS.md)。
 
 <!-- map:start -->

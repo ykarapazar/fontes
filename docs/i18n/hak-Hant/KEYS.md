@@ -13,11 +13,11 @@ Fontes 肚項幾乎所有个來源無金鑰都做得用。有兩个需要免費�
 
 ## 加金鑰
 
-**用安裝程式。** 安裝个時節，安裝程式會問你愛毋愛加金鑰。揀 **Not now**（或者撳 Enter）略過。以後愛加或者
+**用安裝程式。** Fontes 設定好以後，安裝程式會問你愛毋愛加金鑰。在 Mac 頂，撳 **加入金鑰**，或者撳 **完成**
+略過；在 Windows 頂，回答問題（撳 Enter 略過）。以後愛加或者
 改金鑰，請執行 **Add or change keys**：
 
-- Mac：再打開 Fontes Installer 應用程式，揀 **Add or change keys**，或者撳兩下安裝程式資料夾肚項个
-  `Add or change keys.command`。
+- Mac：再打開 Fontes Installer 應用程式，揀 **加入或者修改金鑰**。
 - Windows：撳兩下安裝程式資料夾肚項个 `Add or change keys.cmd`。Windows 安裝程式推出以後，也會將佢放在
   開始功能表 > Fontes 肚項。
 

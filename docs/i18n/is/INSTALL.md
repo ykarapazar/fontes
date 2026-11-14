@@ -128,11 +128,12 @@ Sumar heimildir þurfa ókeypis lykil: sjá [KEYS.md](KEYS.md).
 Spyrðu í nýju spjalli: *„Í hvaða lögsögum getur Fontes leitað?“* Forritið ætti að svara með
 lista yfir lönd. Ef það gerir það ekki, lokaðu forritinu og opnaðu það einu sinni enn.
 
-## Uppsetningarforrit með einum smelli (væntanlegt)
+## Uppsetningarforrit með einum smelli (Mac)
 
-Uppsetningarforrit fyrir Mac og Windows sem setur Fontes upp í öllum forritunum þínum í einu er væntanlegt. Það
-setur upp Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI,
-Zed, LM Studio og Cline. Þegar það er komið út:
+Mac-uppsetningarforritið setur Fontes upp í öllum forritunum þínum í einu: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio og Cline.
+Uppsetningarforrit fyrir Windows er væntanlegt; þangað til skaltu nota skrefin fyrir forritið þitt
+hér að ofan.
 
 **Áður en þú byrjar:** lokaðu hverju þessara forrita alveg. Það skiptir mestu fyrir Claude Code:
 á meðan það keyrir endurskrifar það `~/.claude.json` og getur afturkallað breytingu uppsetningarforritsins. Ef þú getur ekki
@@ -140,16 +141,17 @@ lokað Claude Code, bættu Fontes frekar við það með `claude mcp add` (sjá 
 
 **Mac**
 
-1. Opnaðu niðurhalaða möppuna **Fontes Installer**.
-2. Tvísmelltu á **Install Fontes.command**.
-   - Ef Mac-tölvan segir að ekki sé hægt að opna skrána („cannot be opened because it is from an unidentified developer“):
-     hægrismelltu (eða Control-smelltu) á skrána, veldu **Open** og svo **Open** aftur. Þetta þarftu
-     aðeins að gera einu sinni.
-3. Gluggi opnast og spyr hvort senda eigi nafnlausar notkunartölur; ýttu á Enter fyrir nei.
-4. Hann spyr hvort bæta eigi við lyklum núna. Ýttu á Enter til að sleppa því; sjá [Lyklaskrefið](#lyklaskrefið).
-5. Þegar stendur **Done**, opnaðu gervigreindarforritin þín aftur.
+1. Sæktu Mac-uppsetningarforritið (`Fontes-Installer-…-mac.zip`) úr [nýjustu
+   útgáfunni](https://github.com/ykarapazar/fontes/releases/latest) og tvísmelltu á það til að
+   afþjappa það.
+2. Tvísmelltu á **Fontes Installer**. Ef Mac-tölvan spyr hvort opna eigi forrit sem var sótt af
+   netinu, smelltu á **Open**.
+3. Veldu **Setja upp** og smelltu á **Í lagi**. Uppsetningin tekur um eina mínútu.
+4. Skilaboð telja upp forritin sem það setti upp. Smelltu á **Lokið** og opnaðu svo þessi forrit
+   aftur. Til að bæta fyrst við valfrjálsu ókeypis lyklunum skaltu frekar smella á **Bæta við
+   lyklum**; sjá [Lyklaskrefið](#lyklaskrefið).
 
-**Windows**
+**Windows** (þegar Windows-uppsetningarforritið er komið út)
 
 1. Afþjappaðu niðurhalaða **Fontes Installer** (hægrismella → Extract All).
 2. Tvísmelltu á **Install Fontes.cmd**.
@@ -192,8 +194,7 @@ Tvö forrit þurfa eitt skref í viðbót:
 Strax eftir uppsetningu býðst uppsetningarforritið til að bæta við ókeypis lyklunum fyrir Frakkland og Bandaríkin. Til að bæta þeim við eða
 breyta þeim síðar:
 
-- **Mac:** tvísmelltu á **Add or change keys.command** í uppsetningarmöppunni, eða opnaðu
-  forritið Fontes Installer aftur og veldu **Add or change keys**.
+- **Mac:** opnaðu **Fontes Installer** aftur og veldu **Bæta við eða breyta lyklum**.
 - **Windows:** tvísmelltu á **Add or change keys.cmd** í uppsetningarmöppunni.
 
 Það sem þú slærð inn er falið. Lyklarnir fara í öll forrit sem þegar hafa Fontes. Lokaðu forritunum og opnaðu þau
@@ -206,8 +207,8 @@ Uppsetningarforritið breytir aðeins færslunni `fontes`. Allar aðrar stilling
 sem gerð eru eftir að þú bættir við lyklum innihalda þá lykla: eyddu þeim sem þú þarft ekki lengur. Það
 setur einnig upp uv. Óhætt er að keyra það aftur: það lagfærir uppsetninguna og breytir engu öðru.
 
-Til að fjarlægja Fontes, tvísmelltu á **Uninstall Fontes.command** (Mac) eða **Uninstall Fontes.cmd**
-(Windows). Það fjarlægir færsluna `fontes`, lykla meðtalda, úr hverju forriti. Aðrar stillingar þínar
+Til að fjarlægja Fontes, opnaðu **Fontes Installer** og veldu **Fjarlægja** (Mac), eða tvísmelltu á
+**Uninstall Fontes.cmd** (Windows). Það fjarlægir færsluna `fontes`, lykla meðtalda, úr hverju forriti. Aðrar stillingar þínar
 og afritin eru áfram til staðar.
 
 ## Uppfærslur

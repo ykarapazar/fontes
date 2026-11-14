@@ -74,10 +74,12 @@ OpenAI Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed،
 2. **ایپ کو دوبارہ شروع کریں۔** اسے مکمل طور پر بند کریں اور دوبارہ کھولیں۔
 3. **پوچھیں:** *"Fontes کن جورسڈکشنز میں تلاش کر سکتا ہے؟"* اسے ممالک کی فہرست دینی چاہیے۔
 
-Mac اور Windows کے لیے ایک ون کلک انسٹالر آنے والا ہے۔ یہ Fontes کو Claude Desktop،
+**Mac پر**، ایک ون کلک انسٹالر Fontes کو Claude Desktop،
 Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio اور Cline میں، ان میں سے ہر اس ایپ میں
-جو آپ کے کمپیوٹر پر ہو، سیٹ اپ کرتا ہے، پھر آپ کی کیز شامل کرنے کی پیشکش کرتا ہے۔ اسے چلانے سے پہلے ان ایپس کو بند کر دیں۔ تفصیلات:
-[INSTALL.md](INSTALL.md#ون-کلک-انسٹالر-جلد-آ-رہا-ہے)۔
+جو آپ کے کمپیوٹر پر ہو، سیٹ اپ کرتا ہے، پھر آپ کی کیز شامل کرنے کی پیشکش کرتا ہے۔ Mac انسٹالر
+[تازہ ترین ریلیز](https://github.com/ykarapazar/fontes/releases/latest) سے ڈاؤن لوڈ کریں اور اسے چلانے سے پہلے ان ایپس کو بند کر دیں۔
+Windows انسٹالر آنے والا ہے۔ تفصیلات:
+[INSTALL.md](INSTALL.md#ون-کلک-انسٹالر-mac)۔
 کچھ ذرائع کو ایک مفت کی (key) درکار ہے: [KEYS.md](KEYS.md) دیکھیں۔
 
 <!-- map:start -->

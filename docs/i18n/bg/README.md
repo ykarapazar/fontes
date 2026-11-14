@@ -75,11 +75,12 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 3. **Попитайте:** *„В кои юрисдикции може да търси Fontes?“* Приложението трябва да изброи
    държавите.
 
-Подготвя се инсталатор с едно щракване за Mac и Windows. Той настройва Fontes в Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio и Cline — във всяко от
-тях, което е на компютъра ви — и след това предлага да добави вашите ключове. Затворете тези
-приложения, преди да го стартирате. Подробности:
-[INSTALL.md](INSTALL.md#инсталатор-с-едно-щракване-скоро).
+**На Mac** инсталатор с едно щракване настройва Fontes в Claude Desktop, Codex, Claude Code,
+Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio и Cline — във всяко от тях, което е на
+компютъра ви — и след това предлага да добави вашите ключове. Изтеглете инсталатора за Mac от
+[последната версия](https://github.com/ykarapazar/fontes/releases/latest) и затворете тези
+приложения, преди да го стартирате. Инсталатор за Windows се подготвя. Подробности:
+[INSTALL.md](INSTALL.md#инсталатор-с-едно-щракване-mac).
 Някои източници изискват безплатен ключ: вижте [KEYS.md](KEYS.md).
 
 <!-- map:start -->

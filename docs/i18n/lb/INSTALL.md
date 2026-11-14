@@ -131,11 +131,11 @@ E puer Quelle brauchen e gratis Schlëssel: kuckt [KEYS.md](KEYS.md).
 Frot an engem neie Chat: *„Wéi eng Rechtsuerdnunge kann Fontes duerchsichen?“* D'App sollt mat
 enger Lëscht vu Länner äntweren. Wann net, maacht d'App nach eng Kéier zou a nees op.
 
-## Installatiounsprogramm mat engem Klick (ënnerwee)
+## Installatiounsprogramm mat engem Klick (Mac)
 
-En Installatiounsprogramm fir Mac a Windows, deen Fontes an engem Gang an all Ären Apps ariicht,
-ass ënnerwee. En riicht Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio a Cline an. Soubal en eraus ass:
+Den Installatiounsprogramm fir Mac riicht Fontes an engem Gang an all Ären Apps an: Claude Desktop,
+Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio a Cline.
+En Installatiounsprogramm fir Windows ass ënnerwee; bis dohin benotzt d'Schrëtt fir Är App hei uewen.
 
 **Ier Dir ufänkt:** Maacht all dës Apps komplett zou. Dat ass besonnesch fir Claude Code wichteg:
 Wärend et leeft, schreift et `~/.claude.json` nei a kann d'Ännerung vum Installatiounsprogramm
@@ -144,17 +144,17 @@ réckgängeg maachen. Wann Dir Claude Code net zoumaache kënnt, setzt Fontes am
 
 **Mac**
 
-1. Maacht den erofgeluedenen Dossier **Fontes Installer** op.
-2. Klickt duebel op **Install Fontes.command**.
-   - Wann Äre Mac seet, datt de Fichier "cannot be opened because it is from an unidentified
-     developer": Klickt mat der rietser Maustast (oder Control-Klick) op de Fichier, wielt **Open**
-     an dann nach eng Kéier **Open**. Dat musst Dir just eemol maachen.
-3. Eng Fënster geet op a freet, ob Dir anonym Notzungszuele schécke wëllt; dréckt Enter fir nee.
-4. Se freet, ob Dir elo Schlësselen derbäisetze wëllt. Dréckt Enter fir ze iwwersprangen; kuckt
+1. Luet den Installatiounsprogramm fir Mac (`Fontes-Installer-…-mac.zip`) vun der
+   [neister Versioun](https://github.com/ykarapazar/fontes/releases/latest) erof a klickt duebel drop, fir en auszepaken.
+2. Klickt duebel op **Fontes Installer**. Wann Äre Mac freet, ob en eng App opmaache soll, déi vum
+   Internet erofgeluede gouf, klickt op **Open**.
+3. Wielt **Installéieren** a klickt op **OK**. D'Ariichten dauert ongeféier eng Minutt.
+4. E Message weist d'Apps, déi en ageriicht huet. Klickt op **Fäerdeg** a maacht dës Apps dann nees
+   op. Fir d'éischt déi fakultativ gratis Schlësselen derbäizesetzen, klickt amplaz op
+   **Schlësselen derbäisetzen**; kuckt
    [Schlësselen am Installatiounsprogramm](#schlësselen-am-installatiounsprogramm).
-5. Wann **Fäerdeg** erschéngt, maacht Är KI-Apps nees op.
 
-**Windows**
+**Windows** (soubal den Installatiounsprogramm fir Windows eraus ass)
 
 1. Paakt den erofgeluedenen **Fontes Installer** aus (Klick mat der rietser Maustast → **Extract
    All**).
@@ -201,8 +201,7 @@ Zwou Apps brauchen nach ee Schrëtt:
 Direkt no der Installatioun proposéiert den Installatiounsprogramm, déi gratis Schlësselen fir
 Frankräich an d'USA derbäizesetzen. Fir se méi spéit derbäizesetzen oder z'änneren:
 
-- **Mac:** Klickt duebel op **Add or change keys.command** am Dossier vum Installatiounsprogramm,
-  oder maacht d'App Fontes Installer nees op a wielt **Schlësselen derbäisetzen oder änneren**.
+- **Mac:** Maacht **Fontes Installer** nees op a wielt **Schlësselen derbäisetzen oder änneren**.
 - **Windows:** Klickt duebel op **Add or change keys.cmd** am Dossier vum Installatiounsprogramm.
 
 Wat Dir tippt, bleift verstoppt. D'Schlësselen ginn an all App derbäigesat, déi Fontes schonn huet.
@@ -217,9 +216,9 @@ bleiwen, wéi se waren. Ier en e Fichier ännert, späichert en eng Kopie dernie
 enthalen dës Schlësselen: läscht déi Kopien, déi Dir net méi braucht. En installéiert och uv. Nach
 eng Kéier lafe loossen ass ouni Risiko: et fléckt d'Installatioun an ännert soss näischt.
 
-Fir Fontes ewechzehuelen, klickt duebel op **Uninstall Fontes.command** (Mac) oder
-**Uninstall Fontes.cmd** (Windows). Dat hëlt d'Entrée `fontes`, mat de Schlësselen, aus all App
-eraus. Är aner Astellungen an d'Sécherheetskopie bleiwen.
+Fir Fontes ewechzehuelen, maacht **Fontes Installer** op a wielt **Ewechhuelen** (Mac), oder
+klickt duebel op **Uninstall Fontes.cmd** (Windows). Dat hëlt d'Entrée `fontes`, mat de
+Schlësselen, aus all App eraus. Är aner Astellungen an d'Sécherheetskopie bleiwen.
 
 ## Updates
 

@@ -34,9 +34,7 @@
  "app_button_cancel": "Otkaži",
  "app_button_ok": "U redu",
  "app_button_keys": "Dodaj ili promijeni ključeve",
- "app_button_skip": "Ne sada",
  "app_button_guide": "Otvori uputstvo",
- "app_keys_ask": "Dodati ključeve sada? To možete uraditi i kasnije: ponovo otvorite instalacijski program i odaberite „Dodaj ili promijeni ključeve“.",
  "sh_installing_uv": "Instalira se uv, alat koji preuzima i ažurira Fontes (jednokratno)...",
  "sh_no_uv": "uv nije instaliran; nema ničega za uklanjanje.",
  "sh_press_enter": "Pritisnite Enter da zatvorite ovaj prozor.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Sadržaj zakona sa oznakama odredaba.",
  "mcpb_tool_get_legislation_provision": "Važeći tekst jednog člana ili odjeljka.",
  "mcpb_tool_get_legislation_text": "Puni prečišćeni tekst zakona, po stranicama.",
- "mcpb_tool_report_bug": "Priprema prijavu greške za Fontes; šalje se samo ako je korisnik potvrdi."
+ "mcpb_tool_report_bug": "Priprema prijavu greške za Fontes; šalje se samo ako je korisnik potvrdi.",
+ "app_keys_offer": "Opcionalno: besplatni ključevi uključuju Francusku i podižu ograničenje pretrage sudske prakse za Sjedinjene Američke Države. Dodajte ih sada ili kasnije tako što ćete ponovo otvoriti ovaj instalacijski program.",
+ "app_button_add_keys": "Dodaj ključeve",
+ "app_button_done": "Gotovo",
+ "app_button_continue": "Nastavi",
+ "app_key_unset": "{name}\n\nZalijepite ga ispod ili ostavite polje prazno da ga preskočite.",
+ "app_key_set": "{name} je već sačuvan.\n\nZalijepite novi da ga zamijenite, ostavite polje prazno da ga zadržite ili ukucajte - da ga uklonite."
 }

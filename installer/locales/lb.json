@@ -34,9 +34,7 @@
  "app_button_cancel": "Ofbriechen",
  "app_button_ok": "OK",
  "app_button_keys": "Schlësselen derbäisetzen oder änneren",
- "app_button_skip": "Net elo",
  "app_button_guide": "Guide opmaachen",
- "app_keys_ask": "D'Schlësselen elo derbäisetzen? Dir kënnt et och méi spéit maachen: maacht den Installer nees op a wielt „Schlësselen derbäisetzen oder änneren“.",
  "sh_installing_uv": "uv gëtt installéiert, d'Tool, dat Fontes erofluet an aktualiséiert (eemol)...",
  "sh_no_uv": "uv ass net installéiert; näischt ewechzehuelen.",
  "sh_press_enter": "Dréckt Enter, fir dës Fënster zouzemaachen.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Inhaltsverzeechnes vun engem Gesetz mat de Bezeechnunge vun de Bestëmmungen.",
  "mcpb_tool_get_legislation_provision": "Aktuellen Text vun engem Artikel oder Paragraf.",
  "mcpb_tool_get_legislation_text": "Komplette konsolidéierten Text vun engem Gesetz, a Säiten opgedeelt.",
- "mcpb_tool_report_bug": "E Feelerbericht fir Fontes virbereeden; e gëtt just geschéckt, wann de Benotzer en bestätegt."
+ "mcpb_tool_report_bug": "E Feelerbericht fir Fontes virbereeden; e gëtt just geschéckt, wann de Benotzer en bestätegt.",
+ "app_keys_offer": "Fakultativ: gratis Schlësselen schalten Frankräich an an hiewen d'Limit fir d'Rechtsprechung vun de Vereenegte Staaten. Setzt se elo derbäi, oder méi spéit, andeems Dir dësen Installatiounsprogramm nees opmaacht.",
+ "app_button_add_keys": "Schlësselen derbäisetzen",
+ "app_button_done": "Fäerdeg",
+ "app_button_continue": "Weider",
+ "app_key_unset": "{name}\n\nFügt en hei ënnen an, oder loosst d'Feld eidel, fir en ze iwwersprangen.",
+ "app_key_set": "{name} ass scho gespäichert.\n\nFügt en neien an, fir en z'ersetzen, loosst d'Feld eidel, fir en ze halen, oder tippt - fir en ze läschen."
 }

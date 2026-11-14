@@ -76,10 +76,11 @@ Mbiru cosaan yi (ñu saytu ko bés bu nekk): [ykarapazar.github.io/fontes/status
 2. **Tàmbaliwaatal aplikasioŋ bi.** Tëjal ko ba mu jeex te nga ubbiwaat ko.
 3. **Laajal:** *"Ci ban juridiction la Fontes mën a wut?"* Dafa war a joxe limu réew yi.
 
-Programu samp (installer) ci benn klig ngir Mac ak Windows mu ngi ñëw. Dafay samp Fontes ci Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ak Cline, ci bu nekk ci yu nekk ci
-sa ordinatëer, te ginnaaw loolu dafay la laaj ndax mu yokk say caabi. Tëjal aplikasioŋ yooyu balaa ngay
-doxal programu samp bi. Leeral yi: [INSTALL.md](INSTALL.md#programu-samp-ci-benn-klig-mu-ngi-ñëw).
+**Ci Mac**, programu samp (installer) ci benn klig dafay samp Fontes ci Claude Desktop, Codex, Claude Code,
+Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ak Cline, ci bu nekk ci yu nekk ci sa ordinatëer, te
+ginnaaw loolu dafay la laaj ndax mu yokk say caabi. Yebal programu samp bu Mac bi ci [sumb bu mujj bi](https://github.com/ykarapazar/fontes/releases/latest) te
+tëjal aplikasioŋ yooyu balaa ngay ko doxal. Programu samp bu Windows mu ngi ñëw. Leeral yi:
+[INSTALL.md](INSTALL.md#programu-samp-ci-benn-klig-mac).
 Am na ay cosaan yu soxla caabi bu ñu joxe ci neen: xoolal [KEYS.md](KEYS.md).
 
 <!-- map:start -->

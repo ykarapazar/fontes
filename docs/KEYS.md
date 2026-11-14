@@ -11,11 +11,11 @@ Keys are optional. You can add them later.
 
 ## Adding a key
 
-**With the installer.** While it installs, the installer asks if you want to add keys. Choose
-**Not now** (or press Enter) to skip. To add or change keys later, run **Add or change keys**:
+**With the installer.** Once Fontes is set up, the installer offers to add keys. On a Mac, click
+**Add keys**, or **Done** to skip; on Windows, answer the question (press Enter to skip). To add
+or change keys later, run **Add or change keys**:
 
-- Mac: open the Fontes Installer app again and choose **Add or change keys**, or double-click
-  `Add or change keys.command` in the installer folder.
+- Mac: open the Fontes Installer app again and choose **Add or change keys**.
 - Windows: double-click `Add or change keys.cmd` in the installer folder. The Windows setup
   program, once available, also puts it in Start menu > Fontes.
 

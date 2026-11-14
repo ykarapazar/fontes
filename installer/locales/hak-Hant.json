@@ -34,9 +34,7 @@
  "app_button_cancel": "取消",
  "app_button_ok": "確定",
  "app_button_keys": "加入或者修改金鑰",
- "app_button_skip": "這下毋使",
  "app_button_guide": "打開說明",
- "app_keys_ask": "這下愛加金鑰無？你也做得等一下再做：再打開安裝程式，揀「加入或者修改金鑰」。",
  "sh_installing_uv": "當在安裝 uv，就係用來下載同更新 Fontes 个工具（單淨一擺）……",
  "sh_no_uv": "無安裝 uv；無需要移除个東西。",
  "sh_press_enter": "撳 Enter 關忒這个視窗。",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "法律个目次，有條文編號。",
  "mcpb_tool_get_legislation_provision": "某一條或者某一節个現行條文。",
  "mcpb_tool_get_legislation_text": "法律經過整合个完整現行條文，做得分頁。",
- "mcpb_tool_report_bug": "準備一份 Fontes 錯誤回報；單淨在使用者確認以後正送出。"
+ "mcpb_tool_report_bug": "準備一份 Fontes 錯誤回報；單淨在使用者確認以後正送出。",
+ "app_keys_offer": "選擇性：免費个金鑰會打開法國，也會提高美國裁判檢索个限制。這下就加，或者以後再打開這个安裝程式來加。",
+ "app_button_add_keys": "加入金鑰",
+ "app_button_done": "完成",
+ "app_button_continue": "繼續",
+ "app_key_unset": "{name}\n\n貼在下背，或者將格仔留空來跳過。",
+ "app_key_set": "{name} 已經儲存好了。\n\n貼一个新个來取代佢，將格仔留空來保留佢，或者輸入 - 來移除佢。"
 }

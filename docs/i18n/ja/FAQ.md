@@ -106,8 +106,9 @@ OFF と表示され、オフのままです。キーでは変わりません。�
 
 ローカル（stdio）サーバーを実行できる MCP アプリならどれでも。たとえば Claude Desktop、Claude Code、Codex、
 Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio、Cline。Fontes は macOS、Windows、
-Linux で、uv が動く環境ならどこでも動作します（Python 3.13+）。Mac と Windows 用のワンクリックインストーラーを準備中です。Claude Desktop、
+Linux で、uv が動く環境ならどこでも動作します（Python 3.13+）。Mac では、ワンクリックインストーラーが Claude Desktop、
 Codex、Claude Code、Cursor、VS Code、Windsurf、Gemini CLI、Zed、LM Studio、Cline を一度に設定します。
+Windows 用インストーラーは準備中です。
 アプリごとの手順: [INSTALL.md](INSTALL.md)。
 
 ## コードを提供（コントリビュート）できますか？

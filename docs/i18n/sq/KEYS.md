@@ -13,12 +13,12 @@ Pothuajse çdo burim në Fontes funksionon pa çelës. Dy prej tyre kërkojnë n
 
 ## Shtimi i një çelësi
 
-**Me instaluesin.** Gjatë instalimit, instaluesi pyet nëse doni të shtoni çelësa. Zgjidhni
-**Jo tani** (ose shtypni Enter) për ta anashkaluar. Për të shtuar ose ndryshuar çelësat më vonë,
-ekzekutoni **Add or change keys**:
+**Me instaluesin.** Pasi Fontes të jetë konfiguruar, instaluesi ofron të shtojë çelësa. Në Mac,
+klikoni **Shto çelësa**, ose **U krye** për ta anashkaluar; në Windows, përgjigjuni pyetjes (shtypni
+Enter për ta anashkaluar). Për të shtuar ose ndryshuar çelësat më vonë, ekzekutoni
+**Add or change keys**:
 
-- Mac: hapni sërish aplikacionin Fontes Installer dhe zgjidhni **Shto ose ndrysho çelësat**, ose
-  klikoni dy herë `Add or change keys.command` në dosjen e instaluesit.
+- Mac: hapni sërish aplikacionin Fontes Installer dhe zgjidhni **Shto ose ndrysho çelësat**.
 - Windows: klikoni dy herë `Add or change keys.cmd` në dosjen e instaluesit. Programi i
   instalimit për Windows, sapo të jetë i disponueshëm, e vendos gjithashtu te Start menu > Fontes.
 

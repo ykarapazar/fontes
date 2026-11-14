@@ -13,11 +13,10 @@ Võtmed on valikulised. Saate need lisada hiljem.
 
 ## Võtme lisamine
 
-**Paigaldajaga.** Paigaldamise ajal küsib paigaldaja, kas soovite võtmeid lisada. Valige
-**Not now** (või vajutage Enter), et vahele jätta. Võtmete lisamiseks või muutmiseks hiljem käivitage **Add or change keys**:
+**Paigaldajaga.** Kui Fontes on seadistatud, pakub paigaldaja võtmete lisamist. Macis klõpsake
+**Lisa võtmed** või vahelejätmiseks **Valmis**; Windowsis vastake küsimusele (vahelejätmiseks vajutage Enter). Võtmete lisamiseks või muutmiseks hiljem käivitage **Add or change keys**:
 
-- Mac: avage rakendus Fontes Installer uuesti ja valige **Add or change keys** või tehke paigaldaja kaustas
-  topeltklõps failil `Add or change keys.command`.
+- Mac: avage rakendus Fontes Installer uuesti ja valige **Lisa või muuda võtmeid**.
 - Windows: tehke paigaldaja kaustas topeltklõps failil `Add or change keys.cmd`. Windowsi
   paigaldusprogramm paneb selle, kui see on saadaval, ka menüüsse Start > Fontes.
 

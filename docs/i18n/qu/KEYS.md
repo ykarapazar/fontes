@@ -13,12 +13,13 @@ Llavekunaqa akllanapaqmi. Qhipamanpas yapayta atinki.
 
 ## Huk llaveta yapay
 
-**Instaladorwan.** Instalachkaspa, instaladorqa llavekunata yapayta munasqaykita tapusunki.
-Saltanaykipaq **Not now** akllay (utaq Enter ñit'iy). Qhipaman llavekunata yapanaykipaq utaq
+**Instaladorwan.** Fontes churasqaña kaptin, instaladorqa llavekunata yapayta munasqaykita
+tapusunki. Macpiqa **Llavekunata yapay** nisqapi click ruway, utaq saltanaykipaq **Tukusqa**
+nisqapi; Windowspiqa tapuyta kutichiy (saltanaykipaq Enter ñit'iy). Qhipaman llavekunata yapanaykipaq utaq
 tikranaykipaq, **Add or change keys** nisqata purichiy:
 
-- Mac: Fontes Installer aplicacionta wakmanta kichay hinaspa **Add or change keys** akllay,
-  utaq instalador carpetapi `Add or change keys.command` nisqapi iskay kuti click ruway.
+- Mac: Fontes Installer aplicacionta wakmanta kichay hinaspa **Llavekunata yapay utaq tikray**
+  akllay.
 - Windows: instalador carpetapi `Add or change keys.cmd` nisqapi iskay kuti click ruway.
   Windows instalana programaqa, kaptinña, Start menu > Fontes nisqapipas churanqa.
 

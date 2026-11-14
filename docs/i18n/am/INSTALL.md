@@ -127,11 +127,11 @@ Astral የተገኘ ትንሽ ነፃ መሣሪያ ነው። ለመጫን [የ As
 በአዲስ ውይይት (chat) ውስጥ ይጠይቁ: *"Fontes በየትኞቹ የሕግ ክልሎች መፈለግ ይችላል?"* መተግበሪያው በአገሮች ዝርዝር
 መመለስ አለበት። ካልመለሰ፣ መተግበሪያውን አንድ ጊዜ እንደገና ዘግተው ይክፈቱ።
 
-## በአንድ ጠቅታ የሚጭን መጫኛ (በመምጣት ላይ)
+## በአንድ ጠቅታ የሚጭን መጫኛ (Mac)
 
-Fontesን በሁሉም መተግበሪያዎችዎ ውስጥ በአንድ ጊዜ የሚያዘጋጅ የ Mac እና የ Windows መጫኛ (installer) በመምጣት ላይ ነው።
-Claude Desktop፣ Codex፣ Claude Code፣ Cursor፣ VS Code (GitHub Copilot)፣ Windsurf፣ Gemini CLI፣ Zed፣ LM Studio እና
-Cline ን ያዘጋጃል። ከተለቀቀ በኋላ:
+የ Mac መጫኛው Fontesን በሁሉም መተግበሪያዎችዎ ውስጥ በአንድ ጊዜ ያዘጋጃል፦ Claude Desktop፣ Codex፣ Claude Code፣ Cursor፣ VS
+Code (GitHub Copilot)፣ Windsurf፣ Gemini CLI፣ Zed፣ LM Studio እና Cline። የ Windows መጫኛ በመምጣት ላይ ነው፤
+እስከዚያው ድረስ ከላይ ያሉትን የመተግበሪያዎን ደረጃዎች ይጠቀሙ።
 
 **ከመጀመርዎ በፊት:** ከእነዚህ መተግበሪያዎች እያንዳንዱን ሙሉ በሙሉ ይዝጉ። ይህ ይበልጥ የሚያስፈልገው ለ Claude Code ነው፦
 በሚሠራበት ጊዜ `~/.claude.json` ን እንደገና ይጽፋል፣ የመጫኛውን ለውጥም ሊቀለብሰው ይችላል። Claude Code ን መዝጋት ካልቻሉ፣
@@ -139,15 +139,15 @@ Cline ን ያዘጋጃል። ከተለቀቀ በኋላ:
 
 **Mac**
 
-1. የወረደውን **Fontes Installer** አቃፊ (folder) ይክፈቱ።
-2. **Install Fontes.command** ን ሁለት ጊዜ ጠቅ ያድርጉ።
-   - Macዎ "cannot be opened because it is from an unidentified developer" ካለ፦ ፋይሉን በቀኝ ጠቅ ያድርጉ (ወይም
-     Control-click)፣ **Open** ን ይምረጡ፣ ከዚያም እንደገና **Open** ን። ይህን የሚያደርጉት አንድ ጊዜ ብቻ ነው።
-3. አንድ መስኮት ይከፈትና ማንነትን የማይገልጹ (anonymous) የአጠቃቀም ቆጠራዎችን ለመላክ ይጠይቃል፤ ለ"አይ" Enter ን ይጫኑ።
-4. ቁልፎችን አሁን ለመጨመር ይጠይቃል። ለመዝለል Enter ን ይጫኑ፤ [የቁልፎች ደረጃ](#የቁልፎች-ደረጃ) ን ይመልከቱ።
-5. **ተጠናቋል** ሲል፣ የ AI መተግበሪያዎችዎን እንደገና ይክፈቱ።
+1. የ Mac መጫኛውን (`Fontes-Installer-…-mac.zip`) ከ[የቅርብ ጊዜው
+   ልቀት](https://github.com/ykarapazar/fontes/releases/latest) ያውርዱ፣ ለመፍታት (unzip) ሁለት ጊዜ ጠቅ ያድርጉት።
+2. **Fontes Installer** ን ሁለት ጊዜ ጠቅ ያድርጉ። Macዎ ከበይነመረብ የወረደ መተግበሪያ መክፈት ይፈልጉ እንደሆነ ከጠየቀ፣ **Open** ን
+   ጠቅ ያድርጉ።
+3. **ጫን** ን ይምረጡ፣ **እሺ** ን ጠቅ ያድርጉ። ማዘጋጀቱ አንድ ደቂቃ ያህል ይወስዳል።
+4. አንድ መልእክት ያዘጋጃቸውን መተግበሪያዎች ይዘረዝራል። **ተጠናቋል** ን ጠቅ ያድርጉ፣ ከዚያም እነዚያን መተግበሪያዎች እንደገና ይክፈቱ። አማራጭ ነፃ
+   ቁልፎቹን መጀመሪያ ለመጨመር፣ በምትኩ **ቁልፎችን አክል** ን ጠቅ ያድርጉ፤ [የቁልፎች ደረጃ](#የቁልፎች-ደረጃ) ን ይመልከቱ።
 
-**Windows**
+**Windows** (የ Windows መጫኛው ከተለቀቀ በኋላ)
 
 1. የወረደውን **Fontes Installer** ይፍቱ (unzip) (በቀኝ ጠቅ → Extract All)።
 2. **Install Fontes.cmd** ን ሁለት ጊዜ ጠቅ ያድርጉ።
@@ -189,8 +189,7 @@ VS Code የሚዘጋጀው `~/.copilot` ወይም የ VS Code የራሱ የቅ�
 
 ከተጫነ በኋላ ወዲያውኑ፣ መጫኛው ነፃዎቹን የፈረንሳይና የአሜሪካ ቁልፎች ለመጨመር ያቀርባል። በኋላ ለመጨመር ወይም ለመቀየር:
 
-- **Mac:** በመጫኛው አቃፊ ውስጥ **Add or change keys.command** ን ሁለት ጊዜ ጠቅ ያድርጉ፣ ወይም የ Fontes Installer
-  መተግበሪያን እንደገና ከፍተው **ቁልፎችን አክል ወይም ቀይር** ን ይምረጡ።
+- **Mac:** **Fontes Installer** ን እንደገና ከፍተው **ቁልፎችን አክል ወይም ቀይር** ን ይምረጡ።
 - **Windows:** በመጫኛው አቃፊ ውስጥ **Add or change keys.cmd** ን ሁለት ጊዜ ጠቅ ያድርጉ።
 
 የሚተይቡት አይታይም። ቁልፎቹ Fontes ቀድሞውኑ ወዳለባቸው መተግበሪያዎች ሁሉ ይገባሉ። ከዚያ በኋላ መተግበሪያዎቹን ዘግተው እንደገና
@@ -203,8 +202,8 @@ VS Code የሚዘጋጀው `~/.copilot` ወይም የ VS Code የራሱ የቅ�
 ቅጂዎች እነዚያን ቁልፎች ይይዛሉ፦ ከእንግዲህ የማያስፈልጉዎትን ይሰርዙ። uvንም ይጭናል። እንደገና ማስኬዱ ችግር የለውም፦ ቅንብሩን
 ይጠግናል፣ ሌላ ምንም አይቀይርም።
 
-Fontesን ለማስወገድ **Uninstall Fontes.command** (Mac) ወይም **Uninstall Fontes.cmd** (Windows) ን ሁለት ጊዜ ጠቅ
-ያድርጉ። የ `fontes` ግቤቱን፣ ቁልፎቹን ጨምሮ፣ ከእያንዳንዱ መተግበሪያ ያስወግዳል። ሌሎቹ ቅንብሮችዎና የምትኬ ቅጂዎቹ ይቆያሉ።
+Fontesን ለማስወገድ **Fontes Installer** ን ከፍተው **አስወግድ** ን ይምረጡ (Mac)፣ ወይም **Uninstall Fontes.cmd** ን
+ሁለት ጊዜ ጠቅ ያድርጉ (Windows)። የ `fontes` ግቤቱን፣ ቁልፎቹን ጨምሮ፣ ከእያንዳንዱ መተግበሪያ ያስወግዳል። ሌሎቹ ቅንብሮችዎና የምትኬ ቅጂዎቹ ይቆያሉ።
 
 ## ዝማኔዎች
 

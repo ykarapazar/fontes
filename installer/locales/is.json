@@ -34,9 +34,7 @@
  "app_button_cancel": "Hætta við",
  "app_button_ok": "Í lagi",
  "app_button_keys": "Bæta við eða breyta lyklum",
- "app_button_skip": "Ekki núna",
  "app_button_guide": "Opna leiðbeiningar",
- "app_keys_ask": "Bæta lyklunum við núna? Þú getur líka gert það síðar: opnaðu uppsetningarforritið aftur og veldu „Bæta við eða breyta lyklum“.",
  "sh_installing_uv": "Set upp uv, verkfærið sem sækir og uppfærir Fontes (aðeins einu sinni)...",
  "sh_no_uv": "uv er ekki uppsett; ekkert að fjarlægja.",
  "sh_press_enter": "Ýttu á Enter til að loka þessum glugga.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Efnisyfirlit laga með auðkennum ákvæða.",
  "mcpb_tool_get_legislation_provision": "Gildandi texti einnar greinar eða málsgreinar.",
  "mcpb_tool_get_legislation_text": "Allur uppfærður texti laga, í síðum.",
- "mcpb_tool_report_bug": "Undirbúa villuskýrslu Fontes; hún er aðeins send ef notandinn staðfestir hana."
+ "mcpb_tool_report_bug": "Undirbúa villuskýrslu Fontes; hún er aðeins send ef notandinn staðfestir hana.",
+ "app_keys_offer": "Valfrjálst: ókeypis lyklar virkja Frakkland og hækka mörkin á leit í bandarískri dómaframkvæmd. Bættu þeim við núna, eða síðar með því að opna þetta uppsetningarforrit aftur.",
+ "app_button_add_keys": "Bæta við lyklum",
+ "app_button_done": "Lokið",
+ "app_button_continue": "Halda áfram",
+ "app_key_unset": "{name}\n\nLímdu hann hér fyrir neðan, eða skildu reitinn eftir auðan til að sleppa honum.",
+ "app_key_set": "{name} er þegar vistaður.\n\nLímdu inn nýjan til að skipta honum út, skildu reitinn eftir auðan til að halda honum, eða sláðu inn - til að fjarlægja hann."
 }

@@ -117,9 +117,9 @@ rranġat jew mitfi.
 
 Kwalunkwe app MCP li tista' tħaddem server lokali (stdio), pereżempju Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio u Cline. Fontes
-jaħdem fuq macOS, Windows u Linux, kull fejn jaħdem uv (Python 3.13+). Installer bi klikk waħda għal Mac
-u Windows qiegħed fi triqtu. Jissettja Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Windsurf, Gemini CLI, Zed, LM Studio u Cline f'daqqa. Il-passi għal kull app: [INSTALL.md](INSTALL.md).
+jaħdem fuq macOS, Windows u Linux, kull fejn jaħdem uv (Python 3.13+). Fuq Mac, installer bi klikk
+waħda jissettja Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio
+u Cline f'daqqa; installer għal Windows qiegħed fi triqtu. Il-passi għal kull app: [INSTALL.md](INSTALL.md).
 
 ## Nista' nikkontribwixxi kodiċi?
 

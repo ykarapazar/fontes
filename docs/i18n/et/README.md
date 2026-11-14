@@ -74,10 +74,11 @@ Allikate seisund (kontrollitakse iga päev): [ykarapazar.github.io/fontes/status
 2. **Taaskäivitage rakendus.** Sulgege see täielikult ja avage uuesti.
 3. **Küsige:** *„Millistes jurisdiktsioonides saab Fontes otsida?“* See peaks loetlema riigid.
 
-Ühe klõpsuga paigaldaja Macile ja Windowsile on tulekul. See seadistab Fontese rakendustes Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ja Cline, igaühes neist,
-mis teie arvutis on, ja pakub seejärel teie võtmete lisamist. Sulgege need rakendused enne selle käivitamist. Üksikasjad:
-[INSTALL.md](INSTALL.md#ühe-klõpsuga-paigaldaja-tulekul).
+**Macis** seadistab ühe klõpsuga paigaldaja Fontese rakendustes Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio ja Cline, igaühes neist, mis teie arvutis on, ja pakub
+seejärel teie võtmete lisamist. Laadige Maci paigaldaja alla [viimasest väljalaskest](https://github.com/ykarapazar/fontes/releases/latest) ja sulgege
+need rakendused enne selle käivitamist. Windowsi paigaldaja on tulekul. Üksikasjad:
+[INSTALL.md](INSTALL.md#ühe-klõpsuga-paigaldaja-mac).
 Mõni allikas vajab tasuta võtit: vt [KEYS.md](KEYS.md).
 
 <!-- map:start -->

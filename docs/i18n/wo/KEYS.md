@@ -13,12 +13,11 @@ Caabi yi, su la neexee lañu. Mën nga leen yokk ginnaaw.
 
 ## Yokk ab caabi
 
-**Ak programu samp bi.** Bu muy samp, programu samp bi dafay la laaj ndax danga bëgg a yokk ay caabi.
-Tànnal **Léegi déet** (walla bës Enter) ngir bàyyi ko. Ngir yokk walla soppi caabi yi ginnaaw, doxal
-**Yokk walla soppi caabi yi**:
+**Ak programu samp bi.** Bu Fontes sampu ba noppi, programu samp bi dafay la laaj ndax mu yokk ay caabi.
+Ci Mac, cuqal **Yokk caabi yi**, walla **Jeex na** ngir bàyyi ko; ci Windows, tontu laaj bi (bësal Enter ngir
+bàyyi ko). Ngir yokk walla soppi caabi yi ginnaaw, doxal **Yokk walla soppi caabi yi**:
 
-- Mac: ubbiwaatal aplikasioŋ Fontes Installer te tànn **Yokk walla soppi caabi yi**, walla cuq ñaari yoon
-  `Add or change keys.command` ci kàggu programu samp bi.
+- Mac: ubbiwaatal aplikasioŋ Fontes Installer te tànn **Yokk walla soppi caabi yi**.
 - Windows: cuqal ñaari yoon `Add or change keys.cmd` ci kàggu programu samp bi. Programu samp bu Windows,
   bu génnee, dina ko def itam ci Start menu > Fontes.
 

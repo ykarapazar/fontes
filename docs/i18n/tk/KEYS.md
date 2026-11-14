@@ -13,12 +13,11 @@ Açarlar islege bagly. Olary soňra goşup bilersiňiz.
 
 ## Açar goşmak
 
-**Gurnaýjy arkaly.** Gurnalanda gurnaýjy açar goşmak isleýändigiňizi soraýar. Geçmek üçin
-**Häzir däl** saýlaň (ýa-da Enter düwmesine basyň). Açarlary soňra goşmak ýa-da üýtgetmek üçin
-**Add or change keys** işlediň:
+**Gurnaýjy arkaly.** Fontes sazlanandan soň, gurnaýjy açar goşmagy teklip edýär. Mac-da
+**Açarlary goş** basyň ýa-da geçmek üçin **Taýýar** basyň; Windows-da soraga jogap beriň (geçmek
+üçin Enter basyň). Açarlary soňra goşmak ýa-da üýtgetmek üçin **Add or change keys** işlediň:
 
-- Mac: Fontes Installer programmasyny täzeden açyň we **Açarlary goş ýa-da üýtget** saýlaň
-  ýa-da gurnaýjy bukjasyndaky `Add or change keys.command` faýlyna iki gezek basyň.
+- Mac: Fontes Installer programmasyny täzeden açyň we **Açarlary goş ýa-da üýtget** saýlaň.
 - Windows: gurnaýjy bukjasyndaky `Add or change keys.cmd` faýlyna iki gezek basyň. Windows
   gurnaýjysy çykanda, ony Start menu > Fontes içine hem ýerleşdirýär.
 

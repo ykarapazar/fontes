@@ -13,12 +13,12 @@ Ključevi nisu obvezni. Možete ih dodati i kasnije.
 
 ## Dodavanje ključa
 
-**Pomoću instalacijskog programa.** Tijekom instalacije instalacijski program pita želite li
-dodati ključeve. Odaberite **Ne sada** (ili pritisnite Enter) da biste preskočili. Da biste
-ključeve dodali ili promijenili kasnije, pokrenite **Add or change keys**:
+**Pomoću instalacijskog programa.** Nakon što je Fontes postavljen, instalacijski program nudi
+dodavanje ključeva. Na Macu kliknite **Dodaj ključeve** ili **Gotovo** da biste preskočili; na
+Windowsima odgovorite na pitanje (pritisnite Enter da biste preskočili). Da biste ključeve dodali
+ili promijenili kasnije, pokrenite **Add or change keys**:
 
-- Mac: ponovno otvorite aplikaciju Fontes Installer i odaberite **Dodaj ili promijeni ključeve**
-  ili dvaput kliknite na `Add or change keys.command` u mapi instalacijskog programa.
+- Mac: ponovno otvorite aplikaciju Fontes Installer i odaberite **Dodaj ili promijeni ključeve**.
 - Windows: dvaput kliknite na `Add or change keys.cmd` u mapi instalacijskog programa.
   Instalacijski program za Windows, kada bude dostupan, stavit će ga i u Start menu > Fontes.
 

@@ -34,9 +34,7 @@
  "app_button_cancel": "Vazgeç",
  "app_button_ok": "Tamam",
  "app_button_keys": "Anahtar ekle veya değiştir",
- "app_button_skip": "Şimdi değil",
  "app_button_guide": "Kılavuzu aç",
- "app_keys_ask": "Anahtarlar şimdi eklensin mi? Bunu daha sonra da yapabilirsiniz: yükleyiciyi yeniden açın ve \"Anahtar ekle veya değiştir\" seçeneğini seçin.",
  "sh_installing_uv": "Fontes'i indiren ve güncelleyen araç uv kuruluyor (yalnızca bir kez)...",
  "sh_no_uv": "uv kurulu değil; kaldırılacak bir şey yok.",
  "sh_press_enter": "Bu pencereyi kapatmak için Enter'a basın.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Bir kanunun hüküm etiketleriyle birlikte içindekiler tablosu.",
  "mcpb_tool_get_legislation_provision": "Tek bir madde veya bölümün güncel metni.",
  "mcpb_tool_get_legislation_text": "Bir kanunun değişiklikleri işlenmiş (konsolide) tam metni, sayfa sayfa.",
- "mcpb_tool_report_bug": "Bir Fontes hata bildirimi hazırlar; yalnızca kullanıcı onaylarsa gönderilir."
+ "mcpb_tool_report_bug": "Bir Fontes hata bildirimi hazırlar; yalnızca kullanıcı onaylarsa gönderilir.",
+ "app_keys_offer": "İsteğe bağlı: ücretsiz anahtarlar Fransa'yı açar ve ABD içtihat arama sınırını yükseltir. Bunları şimdi ekleyin ya da daha sonra bu kurulum programını yeniden açarak ekleyin.",
+ "app_button_add_keys": "Anahtar ekle",
+ "app_button_done": "Bitti",
+ "app_button_continue": "Devam",
+ "app_key_unset": "{name}\n\nAşağıya yapıştırın veya atlamak için kutuyu boş bırakın.",
+ "app_key_set": "{name} zaten kayıtlı.\n\nDeğiştirmek için yenisini yapıştırın, korumak için kutuyu boş bırakın veya kaldırmak için - yazın."
 }

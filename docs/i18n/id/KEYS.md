@@ -13,12 +13,11 @@ Kunci bersifat opsional. Anda dapat menambahkannya nanti.
 
 ## Menambahkan kunci
 
-**Dengan penginstal.** Saat menginstal, penginstal menanyakan apakah Anda ingin menambahkan kunci. Pilih
-**Nanti saja** (atau tekan Enter) untuk melewati. Untuk menambahkan atau mengubah kunci nanti, jalankan
-**Add or change keys**:
+**Dengan penginstal.** Setelah Fontes disiapkan, penginstal menawarkan untuk menambahkan kunci. Di Mac,
+klik **Tambah kunci**, atau **Selesai** untuk melewati; di Windows, jawab pertanyaannya (tekan Enter
+untuk melewati). Untuk menambahkan atau mengubah kunci nanti, jalankan **Add or change keys**:
 
-- Mac: buka kembali aplikasi Fontes Installer dan pilih **Tambah atau ubah kunci**, atau klik dua kali
-  `Add or change keys.command` di folder penginstal.
+- Mac: buka kembali aplikasi Fontes Installer dan pilih **Tambah atau ubah kunci**.
 - Windows: klik dua kali `Add or change keys.cmd` di folder penginstal. Program penyiapan Windows,
   setelah tersedia, juga menaruhnya di menu Start > Fontes.
 

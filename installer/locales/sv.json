@@ -34,9 +34,7 @@
  "app_button_cancel": "Avbryt",
  "app_button_ok": "OK",
  "app_button_keys": "Lägg till eller ändra nycklar",
- "app_button_skip": "Inte nu",
  "app_button_guide": "Öppna guiden",
- "app_keys_ask": "Lägga till nycklarna nu? Du kan också göra det senare: öppna installationsprogrammet igen och välj ”Lägg till eller ändra nycklar”.",
  "sh_installing_uv": "Installerar uv, verktyget som laddar ned och uppdaterar Fontes (en gång)...",
  "sh_no_uv": "uv är inte installerat; inget att ta bort.",
  "sh_press_enter": "Tryck Enter för att stänga det här fönstret.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Innehållsförteckning för en lag med bestämmelsernas beteckningar.",
  "mcpb_tool_get_legislation_provision": "Gällande lydelse av en artikel eller paragraf.",
  "mcpb_tool_get_legislation_text": "Fullständig konsoliderad text av en lag, sidindelad.",
- "mcpb_tool_report_bug": "Förbered en felrapport för Fontes; skickas endast om användaren bekräftar den."
+ "mcpb_tool_report_bug": "Förbered en felrapport för Fontes; skickas endast om användaren bekräftar den.",
+ "app_keys_offer": "Valfritt: kostnadsfria nycklar aktiverar Frankrike och höjer gränsen för sökning i USA:s rättspraxis. Lägg till dem nu, eller senare genom att öppna det här installationsprogrammet igen.",
+ "app_button_add_keys": "Lägg till nycklar",
+ "app_button_done": "Klar",
+ "app_button_continue": "Fortsätt",
+ "app_key_unset": "{name}\n\nKlistra in den nedan, eller lämna rutan tom för att hoppa över den.",
+ "app_key_set": "{name} är redan sparad.\n\nKlistra in en ny för att ersätta den, lämna rutan tom för att behålla den eller skriv - för att ta bort den."
 }

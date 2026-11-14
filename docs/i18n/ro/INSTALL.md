@@ -130,11 +130,12 @@ Unele surse necesită o cheie gratuită: vedeți [KEYS.md](KEYS.md).
 Într-o conversație nouă, întrebați: *„În ce jurisdicții poate căuta Fontes?”* Aplicația ar trebui să
 răspundă cu o listă de țări. Dacă nu, închideți și redeschideți aplicația încă o dată.
 
-## Program de instalare cu un clic (în pregătire)
+## Program de instalare cu un clic (Mac)
 
-Un program de instalare pentru Mac și Windows care configurează Fontes în toate aplicațiile
-dumneavoastră deodată este în pregătire. Acesta configurează Claude Desktop, Codex, Claude Code, Cursor,
-VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio și Cline. După ce va fi lansat:
+Programul de instalare pentru Mac configurează Fontes în toate aplicațiile dumneavoastră deodată: Claude
+Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio și
+Cline. Un program de instalare pentru Windows este în pregătire; până atunci, urmați pașii pentru aplicația
+dumneavoastră de mai sus.
 
 **Înainte de a începe:** închideți complet fiecare dintre aceste aplicații. Acest lucru contează cel mai
 mult pentru Claude Code: cât timp rulează, rescrie `~/.claude.json` și poate anula modificarea făcută de
@@ -143,18 +144,16 @@ programul de instalare. Dacă nu puteți închide Claude Code, adăugați Fontes
 
 **Mac**
 
-1. Deschideți folderul descărcat **Fontes Installer**.
-2. Faceți dublu clic pe **Install Fontes.command**.
-   - Dacă Mac-ul spune că fișierul „nu poate fi deschis deoarece provine de la un dezvoltator
-     neidentificat”: faceți clic dreapta (sau Control-clic) pe fișier, alegeți **Deschide**, apoi din nou
-     **Deschide**. Faceți acest lucru o singură dată.
-3. Se deschide o fereastră care vă întreabă dacă doriți să trimiteți contorizări anonime de utilizare;
-   apăsați Enter pentru nu.
-4. Vă întreabă dacă doriți să adăugați chei acum. Apăsați Enter pentru a sări peste acest pas; vedeți
-   [Pasul pentru chei](#pasul-pentru-chei).
-5. Când apare **Gata**, deschideți din nou aplicațiile de IA.
+1. Descărcați programul de instalare pentru Mac (`Fontes-Installer-…-mac.zip`) din
+   [cea mai recentă versiune](https://github.com/ykarapazar/fontes/releases/latest) și faceți dublu clic pe el pentru a-l dezarhiva.
+2. Faceți dublu clic pe **Fontes Installer**. Dacă Mac-ul vă întreabă dacă doriți să deschideți o aplicație
+   descărcată de pe internet, faceți clic pe **Deschide**.
+3. Alegeți **Instalare** și faceți clic pe **OK**. Configurarea durează aproximativ un minut.
+4. Un mesaj afișează aplicațiile configurate. Faceți clic pe **Gata**, apoi deschideți din nou acele
+   aplicații. Pentru a adăuga mai întâi cheile gratuite opționale, faceți clic în schimb pe **Adăugare chei**;
+   vedeți [Pasul pentru chei](#pasul-pentru-chei).
 
-**Windows**
+**Windows** (după lansarea programului de instalare pentru Windows)
 
 1. Dezarhivați **Fontes Installer** descărcat (clic dreapta → Extragere totală).
 2. Faceți dublu clic pe **Install Fontes.cmd**.
@@ -199,8 +198,7 @@ Două aplicații necesită un pas în plus:
 Imediat după instalare, programul de instalare se oferă să adauge cheile gratuite pentru Franța și SUA.
 Pentru a le adăuga sau modifica mai târziu:
 
-- **Mac:** faceți dublu clic pe **Add or change keys.command** în folderul programului de instalare sau
-  deschideți din nou aplicația Fontes Installer și alegeți **Adăugați sau modificați cheile**.
+- **Mac:** deschideți din nou **Fontes Installer** și alegeți **Adăugați sau modificați cheile**.
 - **Windows:** faceți dublu clic pe **Add or change keys.cmd** în folderul programului de instalare.
 
 Textul tastat este ascuns. Cheile ajung în fiecare aplicație care are deja Fontes. Închideți și
@@ -214,8 +212,8 @@ Copiile făcute după ce ați adăugat chei conțin acele chei: ștergeți-le pe
 De asemenea, instalează uv. Rularea lui din nou este sigură: repară configurația și nu modifică nimic
 altceva.
 
-Pentru a elimina Fontes, faceți dublu clic pe **Uninstall Fontes.command** (Mac) sau **Uninstall
-Fontes.cmd** (Windows). Acesta elimină intrarea `fontes`, inclusiv cheile, din fiecare aplicație. Celelalte
+Pentru a elimina Fontes, deschideți **Fontes Installer** și alegeți **Eliminare** (Mac) sau faceți dublu
+clic pe **Uninstall Fontes.cmd** (Windows). Acesta elimină intrarea `fontes`, inclusiv cheile, din fiecare aplicație. Celelalte
 setări și copiile de rezervă rămân.
 
 ## Actualizări

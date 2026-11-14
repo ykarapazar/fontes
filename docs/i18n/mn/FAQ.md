@@ -115,9 +115,7 @@ Fontes эдгээрийн аль нэгээс ирсэн хариулт бүрт
 
 Локал (stdio) сервер ажиллуулж чаддаг аливаа MCP апп, жишээ нь Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio болон Cline. Fontes
-macOS, Windows болон Linux дээр, uv ажилладаг хаана ч (Python 3.13+) ажилладаг. Mac болон Windows-д зориулсан нэг товшилтын суулгагч удахгүй гарна. Энэ нь
-Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio болон
-Cline-ийг нэг дор тохируулна. Апп бүрийн алхмууд: [INSTALL.md](INSTALL.md).
+macOS, Windows болон Linux дээр, uv ажилладаг хаана ч (Python 3.13+) ажилладаг. Mac дээр нэг товшилтын суулгагч Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio болон Cline-ийг нэг дор тохируулна; Windows-ийн суулгагч удахгүй гарна. Апп бүрийн алхмууд: [INSTALL.md](INSTALL.md).
 
 ## Би код оруулж болох уу
 

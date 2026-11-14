@@ -34,9 +34,7 @@
  "app_button_cancel": "Hủy",
  "app_button_ok": "OK",
  "app_button_keys": "Thêm hoặc đổi khóa",
- "app_button_skip": "Để sau",
  "app_button_guide": "Mở hướng dẫn",
- "app_keys_ask": "Thêm khóa ngay bây giờ? Bạn cũng có thể làm sau: mở lại trình cài đặt và chọn “Thêm hoặc đổi khóa”.",
  "sh_installing_uv": "Đang cài đặt uv, công cụ tải và cập nhật Fontes (chỉ một lần)...",
  "sh_no_uv": "uv chưa được cài đặt; không có gì để gỡ.",
  "sh_press_enter": "Nhấn Enter để đóng cửa sổ này.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Mục lục của một văn bản luật, kèm số hiệu điều khoản.",
  "mcpb_tool_get_legislation_provision": "Nội dung hiện hành của một điều hoặc một mục.",
  "mcpb_tool_get_legislation_text": "Toàn văn văn bản hợp nhất của một văn bản luật, có phân trang.",
- "mcpb_tool_report_bug": "Chuẩn bị một báo cáo lỗi Fontes; chỉ gửi khi người dùng xác nhận."
+ "mcpb_tool_report_bug": "Chuẩn bị một báo cáo lỗi Fontes; chỉ gửi khi người dùng xác nhận.",
+ "app_keys_offer": "Tùy chọn: các khóa miễn phí sẽ bật Pháp và nâng giới hạn tìm kiếm án lệ của Hoa Kỳ. Hãy thêm ngay bây giờ, hoặc thêm sau bằng cách mở lại trình cài đặt này.",
+ "app_button_add_keys": "Thêm khóa",
+ "app_button_done": "Xong",
+ "app_button_continue": "Tiếp tục",
+ "app_key_unset": "{name}\n\nDán vào ô bên dưới, hoặc để trống ô để bỏ qua.",
+ "app_key_set": "{name} đã được lưu.\n\nDán khóa mới để thay thế, để trống ô để giữ nguyên, hoặc gõ - để xóa."
 }

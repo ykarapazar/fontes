@@ -13,12 +13,12 @@ Les clés sont facultatives. Vous pouvez les ajouter plus tard.
 
 ## Ajouter une clé
 
-**Avec le programme d'installation.** Pendant l'installation, le programme d'installation vous demande si vous
-souhaitez ajouter des clés. Choisissez **Plus tard** (ou appuyez sur Entrée) pour passer. Pour ajouter ou
-modifier des clés plus tard, lancez **Ajouter ou modifier des clés** :
+**Avec le programme d'installation.** Une fois Fontes configuré, le programme d'installation propose d'ajouter
+des clés. Sur un Mac, cliquez sur **Ajouter des clés**, ou sur **Terminé** pour passer ; sous Windows, répondez à
+la question (appuyez sur Entrée pour passer). Pour ajouter ou modifier des clés plus tard, lancez **Ajouter ou
+modifier des clés** :
 
-- Mac : rouvrez l'application Fontes Installer et choisissez **Ajouter ou modifier des clés**, ou double-cliquez
-  sur `Add or change keys.command` dans le dossier du programme d'installation.
+- Mac : rouvrez l'application Fontes Installer et choisissez **Ajouter ou modifier des clés**.
 - Windows : double-cliquez sur `Add or change keys.cmd` dans le dossier du programme d'installation. Le
   programme d'installation Windows, une fois disponible, le placera aussi dans menu Démarrer > Fontes.
 

@@ -34,9 +34,7 @@
  "app_button_cancel": "Cealaigh",
  "app_button_ok": "OK",
  "app_button_keys": "Cuir eochracha leis nó athraigh iad",
- "app_button_skip": "Ní anois",
  "app_button_guide": "Oscail an treoir",
- "app_keys_ask": "An bhfuil tú ag iarraidh na heochracha a chur leis anois? Is féidir leat é a dhéanamh níos déanaí freisin: oscail an suiteálaí arís agus roghnaigh \"Cuir eochracha leis nó athraigh iad\".",
  "sh_installing_uv": "uv á shuiteáil, an uirlis a íoslódálann agus a nuashonraíonn Fontes (uair amháin)...",
  "sh_no_uv": "Níl uv suiteáilte; níl aon rud le baint.",
  "sh_press_enter": "Brúigh Enter chun an fhuinneog seo a dhúnadh.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Clár ábhair dlí le lipéid na bhforálacha.",
  "mcpb_tool_get_legislation_provision": "Téacs reatha airteagail nó ailt amháin.",
  "mcpb_tool_get_legislation_text": "Téacs comhdhlúite iomlán dlí, ina leathanaigh.",
- "mcpb_tool_report_bug": "Ullmhaigh tuairisc ar fhabht in Fontes; ní sheoltar í ach má dheimhníonn an t-úsáideoir í."
+ "mcpb_tool_report_bug": "Ullmhaigh tuairisc ar fhabht in Fontes; ní sheoltar í ach má dheimhníonn an t-úsáideoir í.",
+ "app_keys_offer": "Roghnach: cuireann eochracha saor in aisce an Fhrainc ar siúl agus ardaíonn siad teorainn an chásdlí do na Stáit Aontaithe. Cuir leis iad anois, nó níos déanaí tríd an suiteálaí seo a oscailt arís.",
+ "app_button_add_keys": "Cuir eochracha leis",
+ "app_button_done": "Déanta",
+ "app_button_continue": "Lean ar aghaidh",
+ "app_key_unset": "{name}\n\nGreamaigh thíos é, nó fág an bosca folamh chun é a scipeáil.",
+ "app_key_set": "Tá {name} sábháilte cheana féin.\n\nGreamaigh ceann nua chun é a athsholáthar, fág an bosca folamh chun é a choinneáil, nó clóscríobh - chun é a bhaint."
 }

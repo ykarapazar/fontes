@@ -74,10 +74,12 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 2. **ចាប់ផ្ដើមកម្មវិធីឡើងវិញ។** បិទវាទាំងស្រុង ហើយបើកវាម្ដងទៀត។
 3. **សួរ៖** *"តើ Fontes អាចស្វែងរកនៅក្នុងយុត្តាធិការណាខ្លះ?"* វាគួរតែរាយឈ្មោះប្រទេសនានា។
 
-កម្មវិធីដំឡើងចុចតែម្ដងសម្រាប់ Mac និង Windows នឹងមកដល់ឆាប់ៗ។ វារៀបចំ Fontes នៅក្នុង Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio និង Cline នៅក្នុងកម្មវិធីនីមួយៗ
-ដែលមាននៅលើកុំព្យូទ័ររបស់អ្នក បន្ទាប់មកស្នើបន្ថែមកូនសោរបស់អ្នក។ សូមបិទកម្មវិធីទាំងនោះ មុនពេលអ្នកដំណើរការវា។ ព័ត៌មានលម្អិត៖
-[INSTALL.md](INSTALL.md#កម្មវិធីដំឡើងចុចតែម្ដង-នឹងមកដល់ឆាប់ៗ)។
+**នៅលើ Mac** កម្មវិធីដំឡើងចុចតែម្ដងរៀបចំ Fontes នៅក្នុង Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio និង Cline នៅក្នុងកម្មវិធីនីមួយៗដែលមាននៅលើកុំព្យូទ័ររបស់អ្នក
+បន្ទាប់មកស្នើបន្ថែមកូនសោរបស់អ្នក។ ទាញយកកម្មវិធីដំឡើងសម្រាប់ Mac ពី
+[កំណែចេញផ្សាយចុងក្រោយ](https://github.com/ykarapazar/fontes/releases/latest) ហើយបិទកម្មវិធីទាំងនោះ
+មុនពេលអ្នកដំណើរការវា។ កម្មវិធីដំឡើងសម្រាប់ Windows នឹងមកដល់ឆាប់ៗ។ ព័ត៌មានលម្អិត៖
+[INSTALL.md](INSTALL.md#កម្មវិធីដំឡើងចុចតែម្ដង-mac)។
 ប្រភពមួយចំនួនត្រូវការកូនសោឥតគិតថ្លៃ៖ សូមមើល [KEYS.md](KEYS.md)។
 
 <!-- map:start -->

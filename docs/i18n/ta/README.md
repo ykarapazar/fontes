@@ -73,10 +73,11 @@ Claude Code, OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsur
 2. **செயலியை மறுதொடக்கம் செய்யவும்.** அதை முழுமையாக மூடி மீண்டும் திறக்கவும்.
 3. **கேளுங்கள்:** *"Fontes எந்த அதிகார வரம்புகளில் தேட முடியும்?"* அது நாடுகளைப் பட்டியலிட வேண்டும்.
 
-Mac மற்றும் Windows-க்கான ஒரே சொடுக்கு நிறுவி வரவிருக்கிறது. அது Claude Desktop, Codex, Claude Code, Cursor,
-VS Code, Windsurf, Gemini CLI, Zed, LM Studio மற்றும் Cline ஆகியவற்றில், உங்கள் கணினியில் உள்ள ஒவ்வொன்றிலும்,
-Fontes-ஐ அமைத்து, பின்னர் உங்கள் விசைகளைச் சேர்க்க முன்வருகிறது. அதை இயக்குவதற்கு முன் அந்தச் செயலிகளை மூடவும். விவரங்கள்:
-[INSTALL.md](INSTALL.md#ஒரே-சொடுக்கு-நிறுவி-வரவிருக்கிறது).
+**Mac-இல்**, ஒரே சொடுக்கு நிறுவி Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI,
+Zed, LM Studio மற்றும் Cline ஆகியவற்றில், உங்கள் கணினியில் உள்ள ஒவ்வொன்றிலும், Fontes-ஐ அமைத்து, பின்னர் உங்கள்
+விசைகளைச் சேர்க்க முன்வருகிறது. Mac நிறுவியைச் [சமீபத்திய வெளியீட்டிலிருந்து](https://github.com/ykarapazar/fontes/releases/latest) பதிவிறக்கி, அதை இயக்குவதற்கு முன் அந்தச்
+செயலிகளை மூடவும். Windows நிறுவி வரவிருக்கிறது. விவரங்கள்:
+[INSTALL.md](INSTALL.md#ஒரே-சொடுக்கு-நிறுவி-mac).
 சில மூலங்களுக்கு இலவச விசை தேவை: [KEYS.md](KEYS.md) பார்க்கவும்.
 
 <!-- map:start -->

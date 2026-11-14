@@ -34,9 +34,7 @@
  "app_button_cancel": "取消",
  "app_button_ok": "确定",
  "app_button_keys": "添加或更改密钥",
- "app_button_skip": "暂不",
  "app_button_guide": "打开指南",
- "app_keys_ask": "现在添加密钥吗？您也可以稍后再添加：重新打开安装程序，然后选择“添加或更改密钥”。",
  "sh_installing_uv": "正在安装 uv，即用于下载和更新 Fontes 的工具（仅需一次）……",
  "sh_no_uv": "未安装 uv；没有需要移除的内容。",
  "sh_press_enter": "按 Enter 关闭此窗口。",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "法律的目录，含条文编号。",
  "mcpb_tool_get_legislation_provision": "某一条或某一节的现行文本。",
  "mcpb_tool_get_legislation_text": "法律的完整现行整合文本，可分页。",
- "mcpb_tool_report_bug": "准备一份 Fontes 错误报告；仅在用户确认后发送。"
+ "mcpb_tool_report_bug": "准备一份 Fontes 错误报告；仅在用户确认后发送。",
+ "app_keys_offer": "可选：免费密钥可开启法国，并提高美国判例检索的次数限制。现在添加，或以后再次打开此安装程序添加。",
+ "app_button_add_keys": "添加密钥",
+ "app_button_done": "完成",
+ "app_button_continue": "继续",
+ "app_key_unset": "{name}\n\n请在下方粘贴，或将输入框留空以跳过。",
+ "app_key_set": "{name} 已保存。\n\n粘贴新的密钥以替换，将输入框留空以保留，或输入 - 将其删除。"
 }

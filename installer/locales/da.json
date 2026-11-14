@@ -34,9 +34,7 @@
  "app_button_cancel": "Annuller",
  "app_button_ok": "OK",
  "app_button_keys": "Tilføj eller skift nøgler",
- "app_button_skip": "Ikke nu",
  "app_button_guide": "Åbn vejledningen",
- "app_keys_ask": "Vil du tilføje nøglerne nu? Du kan også gøre det senere: åbn installationsprogrammet igen, og vælg »Tilføj eller skift nøgler«.",
  "sh_installing_uv": "Installerer uv, værktøjet der henter og opdaterer Fontes (én gang)...",
  "sh_no_uv": "uv er ikke installeret; intet at fjerne.",
  "sh_press_enter": "Tryk Enter for at lukke dette vindue.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Indholdsfortegnelse for en lov med bestemmelsernes betegnelser.",
  "mcpb_tool_get_legislation_provision": "Gældende tekst for én paragraf eller ét afsnit.",
  "mcpb_tool_get_legislation_text": "En lovs fulde konsoliderede tekst, opdelt i sider.",
- "mcpb_tool_report_bug": "Forbered en fejlrapport for Fontes; sendes kun, hvis brugeren bekræfter den."
+ "mcpb_tool_report_bug": "Forbered en fejlrapport for Fontes; sendes kun, hvis brugeren bekræfter den.",
+ "app_keys_offer": "Valgfrit: gratis nøgler slår Frankrig til og hæver grænsen for retspraksis i USA. Tilføj dem nu, eller senere ved at åbne dette installationsprogram igen.",
+ "app_button_add_keys": "Tilføj nøgler",
+ "app_button_done": "Færdig",
+ "app_button_continue": "Fortsæt",
+ "app_key_unset": "{name}\n\nIndsæt den nedenfor, eller lad feltet stå tomt for at springe den over.",
+ "app_key_set": "{name} er allerede gemt.\n\nIndsæt en ny for at erstatte den, lad feltet stå tomt for at beholde den, eller skriv - for at fjerne den."
 }

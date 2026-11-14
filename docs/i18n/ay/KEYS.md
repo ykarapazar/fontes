@@ -13,12 +13,12 @@ Llavenakax ajlliñatakiwa. Qhipat yapxatasmawa.
 
 ## Mä llave yapxataña
 
-**Instaladorampi.** Instalaskasa, instaladorax llavenak yapxatañ munasmati sasaw jiskt'i.
-Pasañatakix **Not now** ajllim (jan ukax Enter limt'am). Qhipat llavenak yapxatañataki jan
-ukax mayjt'ayañataki, **Add or change keys** irnaqayam:
+**Instaladorampi.** Fontes wakicht'atäxi ukhaxa, instaladorax llavenak yapxatañ uñacht'ayi. Mac
+ukanxa **Llavenak yapxataña** ukar click lurtam, jan ukax pasañatakix **Tukuyatawa**; Windows ukanxa
+jiskt'ar jaysam (pasañatakix Enter limt'am). Qhipat llavenak yapxatañataki jan ukax mayjt'ayañataki,
+**Add or change keys** irnaqayam:
 
-- Mac: Fontes Installer aplicación wasitat jist'aram ukat **Add or change keys** ajllim, jan
-  ukax instalador carpetan `Add or change keys.command` ukar pä kuti click lurtam.
+- Mac: Fontes Installer aplicación wasitat jist'aram ukat **Llavenak yapxataña jan ukax mayjt'ayaña** ajllim.
 - Windows: instalador carpetan `Add or change keys.cmd` ukar pä kuti click lurtam. Windows
   instalañ programax, utjxani ukhaxa, Start menu > Fontes ukarus uchaniwa.
 

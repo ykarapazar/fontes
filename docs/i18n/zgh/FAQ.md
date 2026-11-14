@@ -110,9 +110,9 @@ Fontes ⵉⵔⵏⵓ ⴰⵙⵍⵖⵓ "ⴰⵙⴰⴳⵎ ⵓⵔ ⵉⴳⵉⵏ ⴰⵏ�
 
 ⴽⵓ ⴰⵙⵏⵙ MCP ⵉⵣⵎⵔⵏ ⴰⴷ ⵉⵙⵙⵡⵓⵔⵉ ⵢⴰⵏ ⵓⵎⵥⵍⴰ ⴰⴷⵖⴰⵔⴰⵏ (stdio), ⴰⵎⴷ. Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ⴷ Cline. Fontes
-ⵉⵜⵜⵡⵓⵔⵉ ⴳ macOS, Windows ⴷ Linux, ⴳ ⴽⵓ ⴰⵎⴽⴰⵏ ⴳ ⵉⵜⵜⵡⵓⵔⵉ uv (Python 3.13+). ⵢⴰⵏ ⵓⵎⵙⵔⵙ ⵙ ⵢⴰⵏ ⵓⴽⵍⵉⴽ ⵉ Mac ⴷ Windows ⵉⵍⵍⴰ ⴳ ⵓⴱⵔⵉⴷ. ⴰⴷ ⵉⵙⵖⵜⵉ
+ⵉⵜⵜⵡⵓⵔⵉ ⴳ macOS, Windows ⴷ Linux, ⴳ ⴽⵓ ⴰⵎⴽⴰⵏ ⴳ ⵉⵜⵜⵡⵓⵔⵉ uv (Python 3.13+). ⴳ Mac, ⵢⴰⵏ ⵓⵎⵙⵔⵙ ⵙ ⵢⴰⵏ ⵓⴽⵍⵉⴽ ⴰⵔ ⵉⵙⵖⵜⴰ
 Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ⴷ
-Cline ⵙ ⵢⴰⵜ ⵜⵉⴽⴽⵍⵜ. ⵜⵉⵙⵓⴷⵓⵔ ⵉ ⴽⵓ ⴰⵙⵏⵙ: [INSTALL.md](INSTALL.md).
+Cline ⵙ ⵢⴰⵜ ⵜⵉⴽⴽⵍⵜ; ⵢⴰⵏ ⵓⵎⵙⵔⵙ ⵉ Windows ⵉⵍⵍⴰ ⴳ ⵓⴱⵔⵉⴷ. ⵜⵉⵙⵓⴷⵓⵔ ⵉ ⴽⵓ ⴰⵙⵏⵙ: [INSTALL.md](INSTALL.md).
 
 ## ⵉⵙ ⵣⵎⵔⵖ ⴰⴷ ⴼⴽⵖ ⴰⵏⴳⵍ (code)?
 

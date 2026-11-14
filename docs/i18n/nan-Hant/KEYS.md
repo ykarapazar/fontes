@@ -13,11 +13,10 @@ Fontes 內底差不多所有的來源無金鑰攏會當用。有兩个需要免�
 
 ## 加金鑰
 
-**用安裝程式。** 安裝的時，安裝程式會問你欲加金鑰無。揀 **Not now**（抑是揤 Enter）跳過。以後欲加抑是
-改金鑰，請執行 **Add or change keys**：
+**用安裝程式。** Fontes 設定好了後，安裝程式會問你欲加金鑰無。佇 Mac，揤 **加入金鑰**，抑是揤 **完成** 跳過；
+佇 Windows，回答問題（揤 Enter 跳過）。以後欲加抑是改金鑰，請執行 **Add or change keys**：
 
-- Mac：閣拍開 Fontes Installer 應用程式，揀 **Add or change keys**，抑是揤兩下安裝程式資料夾內底的
-  `Add or change keys.command`。
+- Mac：閣拍開 Fontes Installer 應用程式，揀 **加入抑是更改金鑰**。
 - Windows：揤兩下安裝程式資料夾內底的 `Add or change keys.cmd`。Windows 安裝程式推出了後，嘛會共伊囥佇
   開始功能表 > Fontes 內底。
 

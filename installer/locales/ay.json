@@ -34,9 +34,7 @@
  "app_button_cancel": "Jaytaña",
  "app_button_ok": "Walikiwa",
  "app_button_keys": "Llavenak yapxataña jan ukax mayjt'ayaña",
- "app_button_skip": "Jichhax janiwa",
  "app_button_guide": "Irpañ qillqat jist'araña",
- "app_keys_ask": "Llavenak jichhpach yapxatañaspati? Qhiparus lurasmawa: instalador wasitat jist'aram ukat \"Llavenak yapxataña jan ukax mayjt'ayaña\" ajllim.",
  "sh_installing_uv": "uv instalaski, Fontes descargiri, machaqtayiri irnaqaña (mä kutiki)...",
  "sh_no_uv": "uv janiw instalatäkiti; janiw kunas apaqañax utjkiti.",
  "sh_press_enter": "Aka ventana jist'antañataki Enter limt'am.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Mä kamachin índicepa, artículonakan sutinakapampi.",
  "mcpb_tool_get_legislation_provision": "Mä artículon jan ukax secciónan jichha qillqatapa.",
  "mcpb_tool_get_legislation_text": "Mä kamachin taqpach consolidado qillqatapa, laphinakan.",
- "mcpb_tool_report_bug": "Fontes pantjat yatiyäwi wakicht'aña; usuariox jïsa sichixa ukakiw apayasi."
+ "mcpb_tool_report_bug": "Fontes pantjat yatiyäwi wakicht'aña; usuariox jïsa sichixa ukakiw apayasi.",
+ "app_keys_offer": "Munasaw: inaki llavenakax Francia jist'ari, Estados Unidos jurisprudencia thaqhäwin limitepsa jilxati. Jichhpach yapxatam, jan ukax qhipatx aka instalador wasitat jist'arasa.",
+ "app_button_add_keys": "Llavenak yapxataña",
+ "app_button_done": "Tukuyatawa",
+ "app_button_continue": "Sarantaña",
+ "app_key_unset": "{name}\n\nAka manqhar pegam, jan ukax jaytañatakix caja ch'usak jaytam.",
+ "app_key_set": "{name} imatawa.\n\nMayjt'ayañatakix machaqa pegam, imañatakix caja ch'usak jaytam, jan ukax apaqañatakix - qillqt'am."
 }

@@ -78,11 +78,12 @@ Claude Code, OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsur
 3. **იკითხეთ:** *„რომელ იურისდიქციებში შეუძლია Fontes-ს ძიება?“* აპმა უნდა აჩვენოს ქვეყნების
    სია.
 
-Mac-ისა და Windows-ისთვის ერთი დაწკაპუნებით ინსტალერი მალე გამოვა. ის აყენებს Fontes-ს Claude
-Desktop-ში, Codex-ში, Claude Code-ში, Cursor-ში, VS Code-ში, Windsurf-ში, Gemini CLI-ში, Zed-ში,
-LM Studio-სა და Cline-ში, თითოეულ მათგანში, რომელიც თქვენს კომპიუტერზეა, შემდეგ კი გთავაზობთ
-თქვენი გასაღებების დამატებას. გაშვებამდე დახურეთ ეს აპები. დეტალები:
-[INSTALL.md](INSTALL.md#ერთი-დაწკაპუნებით-ინსტალერი-მალე).
+**Mac-ზე** ერთი დაწკაპუნებით ინსტალერი აყენებს Fontes-ს Claude Desktop-ში, Codex-ში, Claude Code-ში,
+Cursor-ში, VS Code-ში, Windsurf-ში, Gemini CLI-ში, Zed-ში, LM Studio-სა და Cline-ში, თითოეულ
+მათგანში, რომელიც თქვენს კომპიუტერზეა, შემდეგ კი გთავაზობთ თქვენი გასაღებების დამატებას. ჩამოტვირთეთ
+Mac-ის ინსტალერი [უახლესი რელიზიდან](https://github.com/ykarapazar/fontes/releases/latest) და
+გაშვებამდე დახურეთ ეს აპები. Windows-ის ინსტალერი მალე გამოვა. დეტალები:
+[INSTALL.md](INSTALL.md#ერთი-დაწკაპუნებით-ინსტალერი-mac).
 ზოგიერთ წყაროს უფასო გასაღები სჭირდება: იხილეთ [KEYS.md](KEYS.md).
 
 <!-- map:start -->

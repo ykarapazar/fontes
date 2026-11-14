@@ -126,11 +126,11 @@ Some sources need a free key: see [KEYS.md](KEYS.md).
 In a new chat, ask: *"Which jurisdictions can Fontes search?"* The app should answer with a
 list of countries. If it doesn't, quit and reopen the app once more.
 
-## One-click installer (on its way)
+## One-click installer (Mac)
 
-A Mac and Windows installer that sets up Fontes in all your apps at once is on its way. It sets
-up Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI,
-Zed, LM Studio and Cline. Once it is released:
+The Mac installer sets up Fontes in all your apps at once: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio and Cline. A Windows
+installer is on its way; until then, use the steps for your app above.
 
 **Before you start:** quit each of these apps completely. This matters most for Claude Code:
 while it runs, it rewrites `~/.claude.json` and can undo the installer's change. If you cannot
@@ -138,16 +138,15 @@ quit Claude Code, add Fontes to it with `claude mcp add` instead (see [Claude Co
 
 **Mac**
 
-1. Open the downloaded **Fontes Installer** folder.
-2. Double-click **Install Fontes.command**.
-   - If your Mac says it "cannot be opened because it is from an unidentified developer":
-     right-click (or Control-click) the file, choose **Open**, then **Open** again. You only
-     do this once.
-3. A window opens and asks whether to send anonymous usage counts; press Enter for no.
-4. It asks whether to add keys now. Press Enter to skip; see [The keys step](#the-keys-step).
-5. When it says **Done**, open your AI apps again.
+1. Download the Mac installer (`Fontes-Installer-…-mac.zip`) from the
+   [latest release](https://github.com/ykarapazar/fontes/releases/latest) and double-click it to unzip.
+2. Double-click **Fontes Installer**. If your Mac asks whether to open an app downloaded from
+   the internet, click **Open**.
+3. Choose **Install** and click **OK**. Setting up takes about a minute.
+4. A message lists the apps it set up. Click **Done**, then open those apps again. To add the
+   optional free keys first, click **Add keys** instead; see [The keys step](#the-keys-step).
 
-**Windows**
+**Windows** (once the Windows installer is released)
 
 1. Unzip the downloaded **Fontes Installer** (right-click → Extract All).
 2. Double-click **Install Fontes.cmd**.
@@ -190,8 +189,7 @@ Two apps need one more step:
 Right after installing, the installer offers to add the free France and US keys. To add or
 change them later:
 
-- **Mac:** double-click **Add or change keys.command** in the installer folder, or open the
-  Fontes Installer app again and choose **Add or change keys**.
+- **Mac:** open **Fontes Installer** again and choose **Add or change keys**.
 - **Windows:** double-click **Add or change keys.cmd** in the installer folder.
 
 Typing is hidden. The keys go into every app that already has Fontes. Quit and reopen the apps
@@ -204,8 +202,8 @@ Before it changes a file, it saves a copy next to it, named `<file>.fontes-backu
 made after you added keys contain those keys: delete the ones you no longer need. It also
 installs uv. Running it again is safe: it repairs the setup and changes nothing else.
 
-To remove Fontes, double-click **Uninstall Fontes.command** (Mac) or **Uninstall Fontes.cmd**
-(Windows). It removes the `fontes` entry, keys included, from every app. Your other settings
+To remove Fontes, open **Fontes Installer** and choose **Remove** (Mac), or double-click
+**Uninstall Fontes.cmd** (Windows). It removes the `fontes` entry, keys included, from every app. Your other settings
 and the backup copies stay.
 
 ## Updates

@@ -13,12 +13,12 @@ Fere gbogbo orísun nínú Fontes ń ṣiṣẹ́ láìsí kọ́kọ́rọ́. M
 
 ## Fífi kọ́kọ́rọ́ kún un
 
-**Pẹ̀lú ẹ̀rọ ìfisílẹ̀.** Nígbà ìfisílẹ̀, ẹ̀rọ ìfisílẹ̀ ń béèrè bóyá o fẹ́ fi kọ́kọ́rọ́ kún un. Yan **Kì í ṣe
-báyìí** (tàbí tẹ Enter) láti fò ó. Láti fi kọ́kọ́rọ́ kún un tàbí yí wọn padà lẹ́yìn náà, ṣe ìfilọ́lẹ̀
-**Add or change keys**:
+**Pẹ̀lú ẹ̀rọ ìfisílẹ̀.** Lẹ́yìn tí a bá ti ṣètò Fontes, ẹ̀rọ ìfisílẹ̀ yóò fún ọ ní àǹfààní láti fi
+kọ́kọ́rọ́ kún un. Lórí Mac, tẹ **Fi kọ́kọ́rọ́ kún**, tàbí **Ó ti parí** láti fò ó; lórí Windows,
+dáhùn ìbéèrè náà (tẹ Enter láti fò ó). Láti fi kọ́kọ́rọ́ kún un tàbí yí wọn padà lẹ́yìn náà, ṣe
+ìfilọ́lẹ̀ **Add or change keys**:
 
-- Mac: tún áàpù Fontes Installer ṣí kí o sì yan **Fi kọ́kọ́rọ́ kún tàbí yí i padà**, tàbí tẹ
-  `Add or change keys.command` lẹ́ẹ̀mejì nínú fódà ẹ̀rọ ìfisílẹ̀.
+- Mac: tún áàpù Fontes Installer ṣí kí o sì yan **Fi kọ́kọ́rọ́ kún tàbí yí i padà**.
 - Windows: tẹ `Add or change keys.cmd` lẹ́ẹ̀mejì nínú fódà ẹ̀rọ ìfisílẹ̀. Ètò ìfisílẹ̀ fún Windows, nígbà tí
   ó bá wà, yóò tún fi í sínú Start menu > Fontes.
 

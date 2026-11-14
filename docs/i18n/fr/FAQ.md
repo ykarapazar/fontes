@@ -118,10 +118,10 @@ limites de requêtes), écrivez à fontesmcp@proton.me. La source sera corrigée
 
 Toute application MCP capable d'exécuter un serveur local (stdio), par exemple Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio et Cline. Fontes fonctionne sous
-macOS, Windows et Linux, partout où uv fonctionne (Python 3.13+). Un programme d'installation en un clic pour
-Mac et Windows est en préparation. Il configure Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
-Gemini CLI, Zed, LM Studio et Cline en une seule fois. Les étapes pour chaque application :
-[INSTALL.md](INSTALL.md).
+macOS, Windows et Linux, partout où uv fonctionne (Python 3.13+). Sur un Mac, un programme d'installation en un
+clic configure Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio et Cline
+en une seule fois ; un programme d'installation pour Windows est en préparation. Les étapes pour chaque
+application : [INSTALL.md](INSTALL.md).
 
 ## Puis-je contribuer du code ?
 

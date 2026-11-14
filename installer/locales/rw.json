@@ -34,9 +34,7 @@
  "app_button_cancel": "Hagarika",
  "app_button_ok": "OK",
  "app_button_keys": "Ongeraho cyangwa uhindure imfunguzo",
- "app_button_skip": "Ubu oya",
  "app_button_guide": "Fungura ubuyobozi",
- "app_keys_ask": "Urashaka kongeraho imfunguzo ubu? Ushobora no kubikora nyuma: ongera ufungure porogaramu yo gushyiraho maze uhitemo \"Ongeraho cyangwa uhindure imfunguzo\".",
  "sh_installing_uv": "Turimo gushyiraho uv, igikoresho gikuramo kandi kikavugurura Fontes (rimwe gusa)...",
  "sh_no_uv": "uv ntiyashyizweho; nta kintu cyo gukuraho.",
  "sh_press_enter": "Kanda Enter kugira ngo ufunge iri dirishya.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Ishakiro (imbonerahamwe y'ibirimo) ry'itegeko hamwe n'imitwe y'ingingo.",
  "mcpb_tool_get_legislation_provision": "Inyandiko iriho ubu y'ingingo imwe cyangwa igice kimwe.",
  "mcpb_tool_get_legislation_text": "Inyandiko yose ivuguruye (consolidated) y'itegeko, isomwa ku mapaji.",
- "mcpb_tool_report_bug": "Gutegura raporo y'ikosa rya Fontes; yoherezwa gusa iyo ukoresha abyemeje."
+ "mcpb_tool_report_bug": "Gutegura raporo y'ikosa rya Fontes; yoherezwa gusa iyo ukoresha abyemeje.",
+ "app_keys_offer": "Bitari itegeko: imfunguzo z'ubuntu zifungura u Bufaransa kandi zikongera umubare ntarengwa wo gushakisha imanza za Leta Zunze Ubumwe za Amerika. Zongereho ubu, cyangwa nyuma wongeye gufungura iyi porogaramu yo gushyiraho.",
+ "app_button_add_keys": "Ongeraho imfunguzo",
+ "app_button_done": "Byarangiye",
+ "app_button_continue": "Komeza",
+ "app_key_unset": "{name}\n\nRwomeke hasi aha, cyangwa usige agasanduku karimo ubusa kugira ngo urusimbuke.",
+ "app_key_set": "{name} rwamaze kubikwa.\n\nOmeka urushya kugira ngo urusimbuze, usige agasanduku karimo ubusa kugira ngo urugumane, cyangwa wandike - kugira ngo urukureho."
 }

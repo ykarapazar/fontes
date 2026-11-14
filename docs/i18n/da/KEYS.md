@@ -13,12 +13,12 @@ Nøgler er valgfrie. Du kan tilføje dem senere.
 
 ## Tilføj en nøgle
 
-**Med installationsprogrammet.** Under installationen spørger installationsprogrammet, om du vil
-tilføje nøgler. Vælg **Ikke nu** (eller tryk Enter) for at springe over. For at tilføje eller
-ændre nøgler senere skal du køre **Add or change keys**:
+**Med installationsprogrammet.** Når Fontes er sat op, tilbyder installationsprogrammet at tilføje
+nøgler. På en Mac skal du klikke på **Tilføj nøgler** eller på **Færdig** for at springe over; på
+Windows skal du besvare spørgsmålet (tryk Enter for at springe over). For at tilføje eller ændre
+nøgler senere skal du køre **Add or change keys**:
 
-- Mac: åbn appen Fontes Installer igen, og vælg **Tilføj eller skift nøgler**, eller dobbeltklik på
-  `Add or change keys.command` i installationsprogrammets mappe.
+- Mac: åbn appen Fontes Installer igen, og vælg **Tilføj eller skift nøgler**.
 - Windows: dobbeltklik på `Add or change keys.cmd` i installationsprogrammets mappe. Windows-
   installationsprogrammet lægger den også i Start menu > Fontes, når det er tilgængeligt.
 

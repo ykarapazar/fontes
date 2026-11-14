@@ -122,9 +122,9 @@ robots.txt, вашите ограничения на заявките), пише
 
 С всяко MCP приложение, което може да стартира локален (stdio) сървър, например Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio и
-Cline. Fontes работи на macOS, Windows и Linux — навсякъде, където работи uv (Python 3.13+). Подготвя се
-инсталатор с едно щракване за Mac и Windows. Той настройва Claude Desktop, Codex, Claude Code,
-Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio и Cline наведнъж. Стъпки за всяко
+Cline. Fontes работи на macOS, Windows и Linux — навсякъде, където работи uv (Python 3.13+). На Mac
+инсталатор с едно щракване настройва Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
+Gemini CLI, Zed, LM Studio и Cline наведнъж; инсталатор за Windows се подготвя. Стъпки за всяко
 приложение: [INSTALL.md](INSTALL.md).
 
 ## Мога ли да допринеса с код?

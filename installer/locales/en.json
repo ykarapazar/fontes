@@ -34,9 +34,7 @@
  "app_button_cancel": "Cancel",
  "app_button_ok": "OK",
  "app_button_keys": "Add or change keys",
- "app_button_skip": "Not now",
  "app_button_guide": "Open the guide",
- "app_keys_ask": "Add the keys now? You can also do it later: open the installer again and choose \"Add or change keys\".",
  "sh_installing_uv": "Installing uv, the tool that downloads and updates Fontes (one time)...",
  "sh_no_uv": "uv is not installed; nothing to remove.",
  "sh_press_enter": "Press Enter to close this window.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Table of contents of a law with provision labels.",
  "mcpb_tool_get_legislation_provision": "Current text of one article or section.",
  "mcpb_tool_get_legislation_text": "Full consolidated text of a law, pageable.",
- "mcpb_tool_report_bug": "Prepare a Fontes bug report; sent only if the user confirms it."
+ "mcpb_tool_report_bug": "Prepare a Fontes bug report; sent only if the user confirms it.",
+ "app_keys_offer": "Optional: free keys turn on France and raise the United States case-law limit. Add them now, or later by opening this installer again.",
+ "app_button_add_keys": "Add keys",
+ "app_button_done": "Done",
+ "app_button_continue": "Continue",
+ "app_key_unset": "{name}\n\nPaste it below, or leave the box empty to skip it.",
+ "app_key_set": "{name} is already saved.\n\nPaste a new one to replace it, leave the box empty to keep it, or type - to remove it."
 }

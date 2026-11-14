@@ -34,9 +34,7 @@
  "app_button_cancel": "ሰርዝ",
  "app_button_ok": "እሺ",
  "app_button_keys": "ቁልፎችን አክል ወይም ቀይር",
- "app_button_skip": "አሁን አይደለም",
  "app_button_guide": "መመሪያውን ክፈት",
- "app_keys_ask": "ቁልፎቹን አሁን ማከል ይፈልጋሉ? በኋላም ማድረግ ይችላሉ፤ መጫኛውን እንደገና ከፍተው \"ቁልፎችን አክል ወይም ቀይር\" ን ይምረጡ።",
  "sh_installing_uv": "Fontes ን የሚያወርድና የሚያዘምን መሣሪያ uv በመጫን ላይ ነው (አንድ ጊዜ ብቻ)...",
  "sh_no_uv": "uv አልተጫነም፤ የሚወገድ ነገር የለም።",
  "sh_press_enter": "ይህን መስኮት ለመዝጋት Enter ይጫኑ።",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "የአንድ ሕግ ማውጫ ከድንጋጌዎቹ መለያዎች ጋር።",
  "mcpb_tool_get_legislation_provision": "የአንድ አንቀጽ ወይም ክፍል የአሁኑ ጽሑፍ።",
  "mcpb_tool_get_legislation_text": "ማሻሻያዎች የተካተቱበት (consolidated) የአንድ ሕግ ሙሉ ጽሑፍ፣ በገጽ የሚከፋፈል።",
- "mcpb_tool_report_bug": "የ Fontes የስህተት ሪፖርት ያዘጋጃል፤ የሚላከው ተጠቃሚው ካረጋገጠ ብቻ ነው።"
+ "mcpb_tool_report_bug": "የ Fontes የስህተት ሪፖርት ያዘጋጃል፤ የሚላከው ተጠቃሚው ካረጋገጠ ብቻ ነው።",
+ "app_keys_offer": "አማራጭ: ነፃ ቁልፎች ፈረንሳይን ያበራሉ፣ የዩናይትድ ስቴትስ የፍርድ ቤት ውሳኔ ፍለጋ ገደብንም ከፍ ያደርጋሉ። አሁን ያክሏቸው፣ ወይም በኋላ ይህን መጫኛ እንደገና በመክፈት።",
+ "app_button_add_keys": "ቁልፎችን አክል",
+ "app_button_done": "ተጠናቋል",
+ "app_button_continue": "ቀጥል",
+ "app_key_unset": "{name}\n\nከታች ይለጥፉት፣ ወይም ለመዝለል ሳጥኑን ባዶ ይተዉት።",
+ "app_key_set": "{name} አስቀድሞ ተቀምጧል።\n\nለመተካት አዲስ ይለጥፉ፣ ለማቆየት ሳጥኑን ባዶ ይተዉት፣ ወይም ለማስወገድ - ብለው ይተይቡ።"
 }

@@ -131,11 +131,12 @@ Mu kiganiro gishya, baza: *"Ni ayahe mafasi y'ubutabera Fontes ishobora gushakis
 igomba gusubiza itanga urutonde rw'ibihugu. Niba itabikoze, yifunge burundu wongere uyifungure indi
 nshuro imwe.
 
-## Porogaramu yo gushyiraho ukanze rimwe (iri hafi)
+## Porogaramu yo gushyiraho ukanze rimwe (Mac)
 
-Porogaramu yo gushyiraho ya Mac na Windows ishyira Fontes muri porogaramu zawe zose icyarimwe iri hafi.
-Ishyiraho Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI,
-Zed, LM Studio na Cline. Nimara gusohoka:
+Porogaramu yo gushyiraho ya Mac ishyira Fontes muri porogaramu zawe zose icyarimwe: Claude Desktop,
+Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio na Cline.
+Porogaramu yo gushyiraho ya Windows iri hafi; kugeza icyo gihe, koresha intambwe zagenewe porogaramu
+yawe ziri haruguru.
 
 **Mbere yo gutangira:** funga burundu buri porogaramu muri izi. Ibi ni ingenzi cyane kuri Claude Code:
 iyo ikora, yongera kwandika `~/.claude.json` kandi ishobora gusiba impinduka porogaramu yo gushyiraho
@@ -144,18 +145,17 @@ utyo (reba [Claude Code](#claude-code)).
 
 **Mac**
 
-1. Fungura ububiko **Fontes Installer** wakuyemo.
-2. Kanda kabiri kuri **Install Fontes.command**.
-   - Niba Mac yawe ivuze ko "cannot be opened because it is from an unidentified developer":
-     kanda iburyo (cyangwa Control-ukande) kuri dosiye, uhitemo **Open**, hanyuma wongere **Open**.
-     Ubikora rimwe gusa.
-3. Idirishya rirafunguka rikakubaza niba ryakohereza imibare y'ikoreshwa itagaragaza nyirayo; kanda
-   Enter kugira ngo uvuge oya.
-4. Irabaza niba yakongeraho imfunguzo ubu. Kanda Enter kugira ngo usimbuke; reba
-   [Intambwe y'imfunguzo](#intambwe-yimfunguzo).
-5. Nivuga **Byarangiye.**, ongera ufungure porogaramu zawe za AI.
+1. Kuramo porogaramu yo gushyiraho ya Mac (`Fontes-Installer-…-mac.zip`) muri [verisiyo iheruka
+   gusohoka](https://github.com/ykarapazar/fontes/releases/latest) hanyuma uyikandeho kabiri kugira
+   ngo uyifungure.
+2. Kanda kabiri kuri **Fontes Installer**. Niba Mac yawe ikubajije niba ushaka gufungura porogaramu
+   yakuwe kuri internet, kanda **Open**.
+3. Hitamo **Shyiraho** hanyuma ukande **OK**. Gushyiraho bifata nk'umunota umwe.
+4. Ubutumwa bugaragaza porogaramu yashyizemo Fontes. Kanda **Byarangiye**, hanyuma wongere ufungure
+   izo porogaramu. Niba ushaka kubanza kongeraho imfunguzo z'ubuntu zitari itegeko, ahubwo kanda
+   **Ongeraho imfunguzo**; reba [Intambwe y'imfunguzo](#intambwe-yimfunguzo).
 
-**Windows**
+**Windows** (porogaramu yo gushyiraho ya Windows nimara gusohoka)
 
 1. Fungura (unzip) **Fontes Installer** wakuyemo (kanda iburyo → Extract All).
 2. Kanda kabiri kuri **Install Fontes.cmd**.
@@ -199,8 +199,7 @@ Porogaramu ebyiri zikenera indi ntambwe imwe:
 Ako kanya nyuma yo gushyiraho, porogaramu yo gushyiraho igusaba niba yakongeraho imfunguzo z'ubuntu z'u
 Bufaransa n'iza Leta Zunze Ubumwe za Amerika. Kugira ngo uzongereho cyangwa uzihindure nyuma:
 
-- **Mac:** kanda kabiri kuri **Add or change keys.command** mu bubiko bwa porogaramu yo gushyiraho,
-  cyangwa wongere ufungure porogaramu Fontes Installer uhitemo **Ongeraho cyangwa uhindure imfunguzo**.
+- **Mac:** ongera ufungure **Fontes Installer** uhitemo **Ongeraho cyangwa uhindure imfunguzo**.
 - **Windows:** kanda kabiri kuri **Add or change keys.cmd** mu bubiko bwa porogaramu yo gushyiraho.
 
 Ibyo wandika ntibigaragara. Imfunguzo zijya muri buri porogaramu isanzwe ifite Fontes. Nyuma yaho, funga
@@ -214,8 +213,7 @@ yitwa `<file>.fontes-backup-<date>`. Kopi zakozwe nyuma y'uko wongeyeho imfunguz
 siba izo utagikeneye. Inashyiraho uv. Kongera kuyikoresha nta kibazo biteza: ikosora ibyashyizweho kandi
 ntigire ikindi ihindura.
 
-Kugira ngo ukureho Fontes, kanda kabiri kuri **Uninstall Fontes.command** (Mac) cyangwa
-**Uninstall Fontes.cmd** (Windows). Ikuraho icyanditswe cya `fontes`, imfunguzo zirimo, muri buri
+Kugira ngo ukureho Fontes, fungura **Fontes Installer** uhitemo **Kuraho** (Mac), cyangwa ukande kabiri kuri **Uninstall Fontes.cmd** (Windows). Ikuraho icyanditswe cya `fontes`, imfunguzo zirimo, muri buri
 porogaramu. Irindi genamiterere ryawe na kopi z'ububiko bigumaho.
 
 ## Ivugurura

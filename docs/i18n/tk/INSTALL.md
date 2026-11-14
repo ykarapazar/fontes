@@ -135,11 +135,11 @@ Käbir çeşmelere mugt açar gerek: [KEYS.md](KEYS.md) serediň.
 Täze söhbetdeşlikde soraň: *“Fontes haýsy ýurisdiksiýalarda gözläp bilýär?”* Programma ýurtlaryň
 sanawy bilen jogap bermeli. Eger bermese, programmany ýene bir gezek ýapyň we täzeden açyň.
 
-## Bir basyşda gurnaýjy (ýakynda)
+## Bir basyşda gurnaýjy (Mac)
 
-Fontes-i ähli programmalaryňyzda birbada sazlaýan Mac we Windows üçin gurnaýjy ýakynda çykar.
-Ol Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI,
-Zed, LM Studio we Cline programmalaryny sazlaýar. Ol çykandan soň:
+Mac üçin gurnaýjy Fontes-i ähli programmalaryňyzda birbada sazlaýar: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio we Cline. Windows
+üçin gurnaýjy ýakynda çykar; oňa çenli ýokardaky öz programmaňyz üçin ädimleri ulanyň.
 
 **Başlamazdan öň:** bu programmalaryň her birini doly ýapyň. Bu iň köp Claude Code üçin möhüm:
 ol işläp durka `~/.claude.json` faýlyny täzeden ýazýar we gurnaýjynyň üýtgetmesini yzyna
@@ -148,18 +148,17 @@ bilen goşuň ([Claude Code](#claude-code) serediň).
 
 **Mac**
 
-1. Ýüklenen **Fontes Installer** bukjasyny açyň.
-2. **Install Fontes.command** faýlyna iki gezek basyň.
-   - Eger Mac kompýuteriňiz “cannot be opened because it is from an unidentified developer”
-     diýse: faýla sag düwme bilen basyň (ýa-da Control düwmesini basyp saklap basyň),
-     **Open** saýlaň, soňra ýene **Open** basyň. Muny diňe bir gezek edýärsiňiz.
-3. Penjire açylýar we anonim ulanyş sanlaryny ibermelidigini soraýar; “ýok” üçin Enter
-   düwmesine basyň.
-4. Ol açarlary häzir goşmalydygyny soraýar. Geçmek üçin Enter düwmesine basyň;
-   [Açarlar ädimi](#açarlar-ädimi) serediň.
-5. **Taýýar** diýende, AI programmalaryňyzy täzeden açyň.
+1. Mac üçin gurnaýjyny (`Fontes-Installer-…-mac.zip`)
+   [iň soňky neşirden](https://github.com/ykarapazar/fontes/releases/latest) ýükläň we arhiwi
+   açmak üçin oňa iki gezek basyň.
+2. **Fontes Installer** programmasyna iki gezek basyň. Eger Mac kompýuteriňiz internetden ýüklenen
+   programmany açmalydygyny sorasa, **Open** basyň.
+3. **Gurnamak** saýlaň we **OK** basyň. Sazlamak takmynan bir minut alýar.
+4. Habar sazlanan programmalaryň sanawyny görkezýär. **Taýýar** basyň, soňra şol programmalary
+   täzeden açyň. Ilki islege bagly mugt açarlary goşmak üçin, onuň ýerine **Açarlary goş**
+   basyň; [Açarlar ädimi](#açarlar-ädimi) serediň.
 
-**Windows**
+**Windows** (Windows üçin gurnaýjy çykandan soň)
 
 1. Ýüklenen **Fontes Installer** arhiwini açyň (sag düwme → Extract All).
 2. **Install Fontes.cmd** faýlyna iki gezek basyň.
@@ -205,8 +204,7 @@ Iki programma üçin ýene bir ädim gerek:
 Gurnalandan dessine soň gurnaýjy Fransiýa we ABŞ üçin mugt açarlary goşmagy teklip edýär.
 Olary soňra goşmak ýa-da üýtgetmek üçin:
 
-- **Mac:** gurnaýjy bukjasyndaky **Add or change keys.command** faýlyna iki gezek basyň ýa-da
-  Fontes Installer programmasyny täzeden açyň we **Açarlary goş ýa-da üýtget** saýlaň.
+- **Mac:** **Fontes Installer** programmasyny täzeden açyň we **Açarlary goş ýa-da üýtget** saýlaň.
 - **Windows:** gurnaýjy bukjasyndaky **Add or change keys.cmd** faýlyna iki gezek basyň.
 
 Ýazylýan tekst gizlin bolýar. Açarlar Fontes eýýäm bar bolan her programma girizilýär. Soňra
@@ -221,9 +219,9 @@ saklaýar. Açarlary goşanyňyzdan soň döredilen nusgalarda şol açarlar bol
 bolmadyklaryny pozuň. Ol uv-ni hem gurnaýar. Ony gaýtadan işletmek howpsuz: ol sazlamany
 düzedýär we başga hiç zady üýtgetmeýär.
 
-Fontes-i aýyrmak üçin **Uninstall Fontes.command** (Mac) ýa-da **Uninstall Fontes.cmd**
-(Windows) faýlyna iki gezek basyň. Ol `fontes` ýazgysyny, açarlar bilen bilelikde, ähli
-programmalardan aýyrýar. Beýleki sazlamalaryňyz we ätiýaçlyk nusgalar galýar.
+Fontes-i aýyrmak üçin **Fontes Installer** programmasyny açyň we **Aýyrmak** saýlaň (Mac) ýa-da
+**Uninstall Fontes.cmd** (Windows) faýlyna iki gezek basyň. Ol `fontes` ýazgysyny, açarlar bilen
+bilelikde, ähli programmalardan aýyrýar. Beýleki sazlamalaryňyz we ätiýaçlyk nusgalar galýar.
 
 ## Täzelenmeler
 

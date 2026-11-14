@@ -132,11 +132,12 @@ Algunes fonts necessiten una clau gratuïta: vegeu [KEYS.md](KEYS.md).
 En un xat nou, pregunteu: *«En quines jurisdiccions pot cercar Fontes?»* L'aplicació hauria de
 respondre amb una llista de països. Si no ho fa, tanqueu i torneu a obrir l'aplicació un cop més.
 
-## Instal·lador d'un clic (en camí)
+## Instal·lador d'un clic (Mac)
 
-Hi ha en camí un instal·lador per a Mac i Windows que configura Fontes a totes les vostres aplicacions
-alhora. Configura Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf,
-Gemini CLI, Zed, LM Studio i Cline. Quan surti:
+L'instal·lador per a Mac configura Fontes a totes les vostres aplicacions alhora: Claude Desktop,
+Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio i Cline.
+Hi ha en camí un instal·lador per a Windows; mentrestant, seguiu els passos de la vostra aplicació
+que trobareu més amunt.
 
 **Abans de començar:** tanqueu completament cadascuna d'aquestes aplicacions. És més important per a
 Claude Code: mentre s'executa, reescriu `~/.claude.json` i pot desfer el canvi de l'instal·lador. Si
@@ -145,18 +146,17 @@ no podeu tancar Claude Code, afegiu-hi Fontes amb `claude mcp add` (vegeu
 
 **Mac**
 
-1. Obriu la carpeta **Fontes Installer** baixada.
-2. Feu doble clic a **Install Fontes.command**.
-   - Si el Mac diu que "cannot be opened because it is from an unidentified developer" (no es pot obrir
-     perquè és d'un desenvolupador no identificat): feu clic amb el botó dret (o Control-clic) al
-     fitxer, trieu **Open** i després **Open** una altra vegada. Només ho heu de fer un cop.
-3. S'obre una finestra que pregunta si s'han d'enviar recomptes d'ús anònims; premeu Retorn per dir
-   que no.
-4. Pregunta si voleu afegir claus ara. Premeu Retorn per ometre-ho; vegeu
-   [El pas de les claus](#el-pas-de-les-claus).
-5. Quan aparegui **Fet**, torneu a obrir les vostres aplicacions d'IA.
+1. Baixeu l'instal·lador per a Mac (`Fontes-Installer-…-mac.zip`) de la [darrera
+   versió](https://github.com/ykarapazar/fontes/releases/latest) i feu-hi doble clic per
+   descomprimir-lo.
+2. Feu doble clic a **Fontes Installer**. Si el Mac us pregunta si voleu obrir una aplicació baixada
+   d'internet, feu clic a **Obre**.
+3. Trieu **Instal·la** i feu clic a **D'acord**. La configuració triga aproximadament un minut.
+4. Un missatge llista les aplicacions que ha configurat. Feu clic a **Fet** i torneu a obrir
+   aquestes aplicacions. Per afegir primer les claus gratuïtes opcionals, feu clic a **Afegeix
+   claus**; vegeu [El pas de les claus](#el-pas-de-les-claus).
 
-**Windows**
+**Windows** (quan surti l'instal·lador per a Windows)
 
 1. Descomprimiu el **Fontes Installer** baixat (botó dret → Extract All).
 2. Feu doble clic a **Install Fontes.cmd**.
@@ -202,8 +202,7 @@ Dues aplicacions necessiten un pas més:
 Just després de la instal·lació, l'instal·lador us ofereix afegir les claus gratuïtes de França i dels
 EUA. Per afegir-les o canviar-les més tard:
 
-- **Mac:** feu doble clic a **Add or change keys.command** a la carpeta de l'instal·lador, o torneu a
-  obrir l'aplicació Fontes Installer i trieu **Afegeix o canvia claus**.
+- **Mac:** torneu a obrir **Fontes Installer** i trieu **Afegeix o canvia claus**.
 - **Windows:** feu doble clic a **Add or change keys.cmd** a la carpeta de l'instal·lador.
 
 El que escriviu no es mostra. Les claus van a totes les aplicacions que ja tenen Fontes. Després,
@@ -217,8 +216,8 @@ queden com estaven. Abans de modificar un fitxer, en desa una còpia al costat, 
 suprimiu les que ja no necessiteu. També instal·la uv. Tornar-lo a executar és segur: repara la
 configuració i no modifica res més.
 
-Per eliminar Fontes, feu doble clic a **Uninstall Fontes.command** (Mac) o **Uninstall Fontes.cmd**
-(Windows). Elimina l'entrada `fontes`, incloses les claus, de totes les aplicacions. La resta de la
+Per eliminar Fontes, obriu **Fontes Installer** i trieu **Elimina** (Mac), o feu doble clic a
+**Uninstall Fontes.cmd** (Windows). Elimina l'entrada `fontes`, incloses les claus, de totes les aplicacions. La resta de la
 vostra configuració i les còpies de seguretat es mantenen.
 
 ## Actualitzacions

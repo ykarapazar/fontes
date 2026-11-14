@@ -13,12 +13,11 @@ Klucze są opcjonalne. Możesz je dodać później.
 
 ## Dodawanie klucza
 
-**Za pomocą instalatora.** Podczas instalacji instalator pyta, czy chcesz dodać klucze. Wybierz
-**Nie teraz** (lub naciśnij Enter), aby pominąć. Aby dodać lub zmienić klucze później, uruchom
-**Add or change keys**:
+**Za pomocą instalatora.** Po skonfigurowaniu Fontes instalator proponuje dodanie kluczy. Na komputerze
+Mac kliknij **Dodaj klucze** lub **Gotowe**, aby pominąć; w systemie Windows odpowiedz na pytanie
+(naciśnij Enter, aby pominąć). Aby dodać lub zmienić klucze później, uruchom **Add or change keys**:
 
-- Mac: ponownie otwórz aplikację Fontes Installer i wybierz **Dodaj lub zmień klucze** albo
-  kliknij dwukrotnie `Add or change keys.command` w folderze instalatora.
+- Mac: ponownie otwórz aplikację Fontes Installer i wybierz **Dodaj lub zmień klucze**.
 - Windows: kliknij dwukrotnie `Add or change keys.cmd` w folderze instalatora. Instalator dla
   systemu Windows, gdy będzie dostępny, umieści go także w menu Start > Fontes.
 

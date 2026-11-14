@@ -34,9 +34,7 @@
  "app_button_cancel": "Anulo",
  "app_button_ok": "OK",
  "app_button_keys": "Shto ose ndrysho çelësat",
- "app_button_skip": "Jo tani",
  "app_button_guide": "Hap udhëzuesin",
- "app_keys_ask": "Të shtohen çelësat tani? Mund ta bëni edhe më vonë: hapni sërish instaluesin dhe zgjidhni “Shto ose ndrysho çelësat”.",
  "sh_installing_uv": "Po instalohet uv, mjeti që shkarkon dhe përditëson Fontes (vetëm një herë)...",
  "sh_no_uv": "uv nuk është i instaluar; nuk ka asgjë për të hequr.",
  "sh_press_enter": "Shtypni Enter për të mbyllur këtë dritare.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Pasqyra e lëndës e një ligji me etiketat e dispozitave.",
  "mcpb_tool_get_legislation_provision": "Teksti aktual i një neni ose seksioni.",
  "mcpb_tool_get_legislation_text": "Teksti i plotë i konsoliduar i një ligji, me faqe.",
- "mcpb_tool_report_bug": "Përgatit një raport gabimi të Fontes; dërgohet vetëm nëse përdoruesi e konfirmon."
+ "mcpb_tool_report_bug": "Përgatit një raport gabimi të Fontes; dërgohet vetëm nëse përdoruesi e konfirmon.",
+ "app_keys_offer": "Opsionale: çelësat falas aktivizojnë Francën dhe rritin kufirin e praktikës gjyqësore për Shtetet e Bashkuara. Shtojini tani, ose më vonë duke e hapur sërish këtë instalues.",
+ "app_button_add_keys": "Shto çelësa",
+ "app_button_done": "U krye",
+ "app_button_continue": "Vazhdo",
+ "app_key_unset": "{name}\n\nNgjiteni më poshtë, ose lëreni kutinë bosh për ta anashkaluar.",
+ "app_key_set": "{name} është ruajtur tashmë.\n\nNgjitni një të ri për ta zëvendësuar, lëreni kutinë bosh për ta mbajtur, ose shkruani - për ta hequr."
 }

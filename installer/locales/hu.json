@@ -34,9 +34,7 @@
  "app_button_cancel": "Mégse",
  "app_button_ok": "OK",
  "app_button_keys": "Kulcsok hozzáadása vagy módosítása",
- "app_button_skip": "Most nem",
  "app_button_guide": "Útmutató megnyitása",
- "app_keys_ask": "Hozzáadja most a kulcsokat? Később is megteheti: nyissa meg újra a telepítőt, és válassza a „Kulcsok hozzáadása vagy módosítása” lehetőséget.",
  "sh_installing_uv": "Az uv telepítése; ez az eszköz tölti le és frissíti a Fontest (egyszeri lépés)...",
  "sh_no_uv": "Az uv nincs telepítve; nincs mit eltávolítani.",
  "sh_press_enter": "Az ablak bezárásához nyomja meg az Entert.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Egy jogszabály tartalomjegyzéke a rendelkezések jelölésével.",
  "mcpb_tool_get_legislation_provision": "Egy cikk vagy szakasz hatályos szövege.",
  "mcpb_tool_get_legislation_text": "Egy jogszabály teljes, egységes szerkezetbe foglalt hatályos szövege, lapozható.",
- "mcpb_tool_report_bug": "Fontes hibajelentés előkészítése; csak akkor kerül elküldésre, ha a felhasználó megerősíti."
+ "mcpb_tool_report_bug": "Fontes hibajelentés előkészítése; csak akkor kerül elküldésre, ha a felhasználó megerősíti.",
+ "app_keys_offer": "Opcionális: az ingyenes kulcsok bekapcsolják Franciaországot, és megemelik az Egyesült Államok ítélkezési gyakorlatának keresési korlátját. Adja hozzá őket most, vagy később, a telepítő újbóli megnyitásával.",
+ "app_button_add_keys": "Kulcsok hozzáadása",
+ "app_button_done": "Kész",
+ "app_button_continue": "Tovább",
+ "app_key_unset": "{name}\n\nIllessze be alább, vagy a kihagyáshoz hagyja üresen a mezőt.",
+ "app_key_set": "A(z) {name} már el van mentve.\n\nA cseréjéhez illesszen be egy újat, a megtartásához hagyja üresen a mezőt, a törléséhez pedig írja be: -"
 }

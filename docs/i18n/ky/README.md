@@ -77,11 +77,12 @@ VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio жана башк
 3. **Сураңыз:** *“Fontes кайсы юрисдикцияларда издей алат?”* Ал өлкөлөрдүн тизмесин бериши
    керек.
 
-Mac жана Windows үчүн бир басуу менен орнотуучу жакында чыгат. Ал Fontes'ти Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio жана Cline'да,
-компьютериңиздеги алардын ар биринде орнотот, андан кийин ачкычтарыңызды кошууну сунуштайт.
-Аны иштетүүдөн мурун ошол тиркемелерди жабыңыз. Толук маалымат:
-[INSTALL.md](INSTALL.md#бир-басуу-менен-орнотуучу-жакында).
+**Mac'те** бир басуу менен орнотуучу Fontes'ти Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+Windsurf, Gemini CLI, Zed, LM Studio жана Cline'да, компьютериңиздеги алардын ар биринде орнотот,
+андан кийин ачкычтарыңызды кошууну сунуштайт. Mac орнотуучусун
+[акыркы релизден](https://github.com/ykarapazar/fontes/releases/latest) жүктөп алыңыз жана аны иштетүүдөн
+мурун ошол тиркемелерди жабыңыз. Windows үчүн орнотуучу жакында чыгат. Толук маалымат:
+[INSTALL.md](INSTALL.md#бир-басуу-менен-орнотуучу-mac).
 Айрым булактарга акысыз ачкыч керек: [KEYS.md](KEYS.md) караңыз.
 
 <!-- map:start -->

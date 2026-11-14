@@ -72,10 +72,11 @@ Copilot), ‏Gemini CLI, ‏Windsurf, ‏Zed, ‏LM Studio ועוד.
 2. **הפעילו מחדש את היישום.** צאו ממנו לגמרי ופתחו אותו שוב.
 3. **שאלו:** *"באילו תחומי שיפוט Fontes יכול לחפש?"* הוא אמור להציג את רשימת המדינות.
 
-תוכנית התקנה בלחיצה אחת ל-Mac ול-Windows נמצאת בדרך. היא מגדירה את Fontes ב-Claude Desktop,
-‏Codex, ‏Claude Code, ‏Cursor, ‏VS Code, ‏Windsurf, ‏Gemini CLI, ‏Zed, ‏LM Studio ו-Cline, בכל אחד מהם
-שנמצא במחשב שלכם, ואז מציעה להוסיף את המפתחות שלכם. צאו מיישומים אלה לפני שאתם מפעילים אותה.
-פרטים: [INSTALL.md](INSTALL.md#תוכנית-התקנה-בלחיצה-אחת-בדרך).
+**ב-Mac**, תוכנית התקנה בלחיצה אחת מגדירה את Fontes ב-Claude Desktop, ‏Codex, ‏Claude Code, ‏Cursor,
+‏VS Code, ‏Windsurf, ‏Gemini CLI, ‏Zed, ‏LM Studio ו-Cline, בכל אחד מהם שנמצא במחשב שלכם, ואז
+מציעה להוסיף את המפתחות שלכם. הורידו את תוכנית ההתקנה ל-Mac מ[הגרסה האחרונה](https://github.com/ykarapazar/fontes/releases/latest) וצאו
+מיישומים אלה לפני שאתם מפעילים אותה. תוכנית התקנה ל-Windows נמצאת בדרך.
+פרטים: [INSTALL.md](INSTALL.md#תוכנית-התקנה-בלחיצה-אחת-mac).
 חלק מהמקורות דורשים מפתח חינמי: ראו [KEYS.md](KEYS.md).
 
 <!-- map:start -->

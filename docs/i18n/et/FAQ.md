@@ -115,9 +115,9 @@ kirjutage aadressile fontesmcp@proton.me. Allikas parandatakse või lülitatakse
 
 Iga MCP-rakendusega, mis suudab käivitada kohalikku (stdio) serverit, näiteks Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ja Cline. Fontes
-töötab macOS-is, Windowsis ja Linuxis, kõikjal, kus töötab uv (Python 3.13+). Ühe klõpsuga paigaldaja Macile ja Windowsile on tulekul. See
-seadistab korraga Claude Desktopi, Codexi, Claude Code'i, Cursori, VS Code'i, Windsurfi, Gemini CLI, Zedi, LM Studio ja
-Cline'i. Sammud iga rakenduse jaoks: [INSTALL.md](INSTALL.md).
+töötab macOS-is, Windowsis ja Linuxis, kõikjal, kus töötab uv (Python 3.13+). Macis
+seadistab ühe klõpsuga paigaldaja korraga Claude Desktopi, Codexi, Claude Code'i, Cursori, VS Code'i, Windsurfi, Gemini CLI, Zedi, LM Studio ja
+Cline'i; Windowsi paigaldaja on tulekul. Sammud iga rakenduse jaoks: [INSTALL.md](INSTALL.md).
 
 ## Kas ma saan koodi panustada?
 

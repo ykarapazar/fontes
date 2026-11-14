@@ -34,9 +34,7 @@
  "app_button_cancel": "Anile",
  "app_button_ok": "OK",
  "app_button_keys": "Ajoute oswa chanje kle",
- "app_button_skip": "Pa kounye a",
  "app_button_guide": "Louvri gid la",
- "app_keys_ask": "Ajoute kle yo kounye a? Ou ka fè l pita tou: louvri enstalatè a ankò epi chwazi \"Ajoute oswa chanje kle\".",
  "sh_installing_uv": "N ap enstale uv, zouti ki telechaje epi mete Fontes ajou (yon sèl fwa)...",
  "sh_no_uv": "uv pa enstale; pa gen anyen pou retire.",
  "sh_press_enter": "Peze Enter pou fèmen fenèt sa a.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Tab matyè yon lwa ak etikèt dispozisyon yo.",
  "mcpb_tool_get_legislation_provision": "Tèks aktyèl yon atik oswa yon seksyon.",
  "mcpb_tool_get_legislation_text": "Tout tèks konsolide yon lwa, paj pa paj.",
- "mcpb_tool_report_bug": "Prepare yon rapò erè Fontes; li voye sèlman si itilizatè a konfime l."
+ "mcpb_tool_report_bug": "Prepare yon rapò erè Fontes; li voye sèlman si itilizatè a konfime l.",
+ "app_keys_offer": "Opsyonèl: kle gratis yo limen Lafrans epi yo ogmante limit jirisprudans Etazini. Ajoute yo kounye a, oswa pita lè ou louvri enstalatè sa a ankò.",
+ "app_button_add_keys": "Ajoute kle",
+ "app_button_done": "Fini",
+ "app_button_continue": "Kontinye",
+ "app_key_unset": "{name}\n\nKole l anba a, oswa kite bwat la vid pou sote l.",
+ "app_key_set": "{name} deja anrejistre.\n\nKole yon nouvo pou ranplase l, kite bwat la vid pou kenbe l, oswa tape - pou retire l."
 }

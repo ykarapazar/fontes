@@ -13,12 +13,12 @@ Sleutels zijn optioneel. U kunt ze later toevoegen.
 
 ## Een sleutel toevoegen
 
-**Met het installatieprogramma.** Tijdens de installatie vraagt het installatieprogramma of u
-sleutels wilt toevoegen. Kies **Niet nu** (of druk op Enter) om over te slaan. Om later sleutels toe
-te voegen of te wijzigen, voert u **Add or change keys** uit:
+**Met het installatieprogramma.** Zodra Fontes is ingesteld, biedt het installatieprogramma aan
+sleutels toe te voegen. Klik op een Mac op **Sleutels toevoegen**, of op **Klaar** om over te slaan;
+beantwoord op Windows de vraag (druk op Enter om over te slaan). Om later sleutels toe te voegen of
+te wijzigen, voert u **Add or change keys** uit:
 
-- Mac: open de app Fontes Installer opnieuw en kies **Sleutels toevoegen of wijzigen**, of
-  dubbelklik op `Add or change keys.command` in de map van het installatieprogramma.
+- Mac: open de app Fontes Installer opnieuw en kies **Sleutels toevoegen of wijzigen**.
 - Windows: dubbelklik op `Add or change keys.cmd` in de map van het installatieprogramma. Het
   Windows-installatieprogramma zet het, zodra het beschikbaar is, ook in Startmenu > Fontes.
 

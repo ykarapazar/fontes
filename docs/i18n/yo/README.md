@@ -74,10 +74,12 @@ Ipò àwọn orísun (a ń ṣàyẹ̀wò rẹ̀ lójoojúmọ́): [ykarapazar.g
 2. **Tún áàpù náà bẹ̀rẹ̀.** Pa áàpù náà dé pátápátá, lẹ́yìn náà tún un ṣí.
 3. **Béèrè:** *"Àwọn agbègbè ìdájọ́ wo ni Fontes lè wá nínú wọn?"* Ó yẹ kí ó ka àwọn orílẹ̀-èdè náà.
 
-Ẹ̀rọ ìfisílẹ̀ onítẹ̀-ẹ̀ẹ̀kan fún Mac àti Windows ń bọ̀ láìpẹ́. Ó ń ṣètò Fontes nínú Claude Desktop, Codex,
-Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio àti Cline, nínú èyí tí ó bá wà lórí
-kọ̀ǹpútà rẹ, lẹ́yìn náà ó ń fún ọ ní àǹfààní láti fi àwọn kọ́kọ́rọ́ rẹ kún un. Pa àwọn áàpù wọ̀nyẹn dé kí o
-tó ṣe ìfilọ́lẹ̀ rẹ̀. Àlàyé: [INSTALL.md](INSTALL.md#ẹ̀rọ-ìfisílẹ̀-onítẹ̀-ẹ̀ẹ̀kan-ń-bọ̀-láìpẹ́).
+**Lórí Mac**, ẹ̀rọ ìfisílẹ̀ onítẹ̀-ẹ̀ẹ̀kan ń ṣètò Fontes nínú Claude Desktop, Codex, Claude Code,
+Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio àti Cline, nínú èyí tí ó bá wà lórí kọ̀ǹpútà
+rẹ, lẹ́yìn náà ó ń fún ọ ní àǹfààní láti fi àwọn kọ́kọ́rọ́ rẹ kún un. Gba ẹ̀rọ ìfisílẹ̀ Mac sílẹ̀
+láti inú [ìtújáde tuntun jùlọ](https://github.com/ykarapazar/fontes/releases/latest), kí o sì pa
+àwọn áàpù wọ̀nyẹn dé kí o tó ṣe ìfilọ́lẹ̀ rẹ̀. Ẹ̀rọ ìfisílẹ̀ fún Windows ń bọ̀ láìpẹ́. Àlàyé:
+[INSTALL.md](INSTALL.md#ẹ̀rọ-ìfisílẹ̀-onítẹ̀-ẹ̀ẹ̀kan-mac).
 Àwọn orísun kan nílò kọ́kọ́rọ́ ọ̀fẹ́: wo [KEYS.md](KEYS.md).
 
 <!-- map:start -->

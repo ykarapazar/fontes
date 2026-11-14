@@ -34,9 +34,7 @@
  "app_button_cancel": "Zrušiť",
  "app_button_ok": "OK",
  "app_button_keys": "Pridať alebo zmeniť kľúče",
- "app_button_skip": "Teraz nie",
  "app_button_guide": "Otvoriť návod",
- "app_keys_ask": "Pridať kľúče teraz? Môžete to urobiť aj neskôr: znova otvorte inštalátor a zvoľte „Pridať alebo zmeniť kľúče“.",
  "sh_installing_uv": "Inštaluje sa uv, nástroj, ktorý sťahuje a aktualizuje Fontes (jednorazovo)...",
  "sh_no_uv": "uv nie je nainštalovaný; nie je čo odstrániť.",
  "sh_press_enter": "Stlačením Enter zatvoríte toto okno.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Obsah zákona s označeniami ustanovení.",
  "mcpb_tool_get_legislation_provision": "Aktuálne znenie jedného článku alebo paragrafu.",
  "mcpb_tool_get_legislation_text": "Úplné konsolidované znenie zákona, po stranách.",
- "mcpb_tool_report_bug": "Pripraví hlásenie chyby Fontes; odošle sa iba vtedy, ak ho používateľ potvrdí."
+ "mcpb_tool_report_bug": "Pripraví hlásenie chyby Fontes; odošle sa iba vtedy, ak ho používateľ potvrdí.",
+ "app_keys_offer": "Voliteľné: bezplatné kľúče zapnú Francúzsko a zvýšia limit judikatúry Spojených štátov. Pridajte ich teraz alebo neskôr opätovným otvorením tohto inštalátora.",
+ "app_button_add_keys": "Pridať kľúče",
+ "app_button_done": "Hotovo",
+ "app_button_continue": "Pokračovať",
+ "app_key_unset": "{name}\n\nVložte ho nižšie alebo nechajte pole prázdne, ak ho chcete preskočiť.",
+ "app_key_set": "{name} je už uložený.\n\nVložte nový, ak ho chcete nahradiť, nechajte pole prázdne, ak ho chcete ponechať, alebo zadajte -, ak ho chcete odstrániť."
 }

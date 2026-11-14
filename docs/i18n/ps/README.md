@@ -74,10 +74,11 @@ OpenAI Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed،
 2. **اپ بیا پیل کړئ.** په بشپړه توګه یې وتړئ او بیا یې پرانیزئ.
 3. **وپوښتئ:** *«Fontes په کومو قضايي حوزو کې لټون کولای شي؟»* باید د هېوادونو لېست درکړي.
 
-د Mac او Windows لپاره یو یو-کلیک نصبوونکی په لاره کې دی. دا Fontes په Claude Desktop،
-Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio او Cline کې، په هر هغه یوه کې
-چې ستاسو په کمپیوټر کې وي، جوړوي، بیا وړاندیز کوي چې ستاسو کیلي ور زیاتې کړي. د چلولو مخکې هغه اپونه وتړئ. جزئیات:
-[INSTALL.md](INSTALL.md#یو-کلیک-نصبوونکی-ډېر-ژر).
+**په Mac کې**، یو یو-کلیک نصبوونکی Fontes په Claude Desktop، Codex، Claude Code، Cursor، VS Code،
+Windsurf، Gemini CLI، Zed، LM Studio او Cline کې، په هر هغه یوه کې چې ستاسو په کمپیوټر کې وي، جوړوي، بیا
+وړاندیز کوي چې ستاسو کیلي ور زیاتې کړي. د Mac نصبوونکی له [وروستۍ خپرونې](https://github.com/ykarapazar/fontes/releases/latest)
+څخه ښکته کړئ او د چلولو مخکې هغه اپونه وتړئ. د Windows نصبوونکی په لاره کې دی. جزئیات:
+[INSTALL.md](INSTALL.md#یو-کلیک-نصبوونکی-mac).
 ځینې سرچینې یوې وړیا کیلي (key) ته اړتیا لري: [KEYS.md](KEYS.md) وګورئ.
 
 <!-- map:start -->

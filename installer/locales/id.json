@@ -34,9 +34,7 @@
  "app_button_cancel": "Batal",
  "app_button_ok": "OK",
  "app_button_keys": "Tambah atau ubah kunci",
- "app_button_skip": "Nanti saja",
  "app_button_guide": "Buka panduan",
- "app_keys_ask": "Tambahkan kunci sekarang? Anda juga bisa melakukannya nanti: buka penginstal lagi dan pilih \"Tambah atau ubah kunci\".",
  "sh_installing_uv": "Menginstal uv, alat yang mengunduh dan memperbarui Fontes (satu kali)...",
  "sh_no_uv": "uv tidak terpasang; tidak ada yang perlu dihapus.",
  "sh_press_enter": "Tekan Enter untuk menutup jendela ini.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Daftar isi suatu peraturan beserta label ketentuannya.",
  "mcpb_tool_get_legislation_provision": "Teks yang berlaku dari satu pasal atau bagian.",
  "mcpb_tool_get_legislation_text": "Teks konsolidasi lengkap suatu peraturan, dapat dibaca per halaman.",
- "mcpb_tool_report_bug": "Menyiapkan laporan bug Fontes; hanya dikirim jika pengguna mengonfirmasinya."
+ "mcpb_tool_report_bug": "Menyiapkan laporan bug Fontes; hanya dikirim jika pengguna mengonfirmasinya.",
+ "app_keys_offer": "Opsional: kunci gratis mengaktifkan Prancis dan menaikkan batas pencarian putusan Amerika Serikat. Tambahkan sekarang, atau nanti dengan membuka penginstal ini lagi.",
+ "app_button_add_keys": "Tambah kunci",
+ "app_button_done": "Selesai",
+ "app_button_continue": "Lanjutkan",
+ "app_key_unset": "{name}\n\nTempel di bawah, atau biarkan kotak kosong untuk melewatinya.",
+ "app_key_set": "{name} sudah tersimpan.\n\nTempel kunci baru untuk menggantinya, biarkan kotak kosong untuk mempertahankannya, atau ketik - untuk menghapusnya."
 }

@@ -34,9 +34,7 @@
  "app_button_cancel": "Atšaukti",
  "app_button_ok": "Gerai",
  "app_button_keys": "Pridėti arba keisti raktus",
- "app_button_skip": "Ne dabar",
  "app_button_guide": "Atidaryti vadovą",
- "app_keys_ask": "Pridėti raktus dabar? Tai galite padaryti ir vėliau: vėl atidarykite diegimo programą ir pasirinkite „Pridėti arba keisti raktus“.",
  "sh_installing_uv": "Diegiama uv – įrankis, kuris atsisiunčia ir atnaujina Fontes (vieną kartą)...",
  "sh_no_uv": "uv neįdiegta; nėra ką šalinti.",
  "sh_press_enter": "Paspauskite Enter, kad uždarytumėte šį langą.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Teisės akto turinys su nuostatų žymenimis.",
  "mcpb_tool_get_legislation_provision": "Galiojantis vieno straipsnio ar skirsnio tekstas.",
  "mcpb_tool_get_legislation_text": "Visas teisės akto suvestinės redakcijos tekstas, skaidomas puslapiais.",
- "mcpb_tool_report_bug": "Parengia Fontes klaidos ataskaitą; ji siunčiama tik naudotojui patvirtinus."
+ "mcpb_tool_report_bug": "Parengia Fontes klaidos ataskaitą; ji siunčiama tik naudotojui patvirtinus.",
+ "app_keys_offer": "Neprivaloma: nemokami raktai įjungia Prancūziją ir padidina Jungtinių Valstijų teismų praktikos paieškos limitą. Pridėkite juos dabar arba vėliau, dar kartą atidarę šią diegimo programą.",
+ "app_button_add_keys": "Pridėti raktus",
+ "app_button_done": "Baigta",
+ "app_button_continue": "Tęsti",
+ "app_key_unset": "{name}\n\nĮklijuokite jį žemiau arba palikite laukelį tuščią, kad praleistumėte.",
+ "app_key_set": "{name} jau išsaugotas.\n\nĮklijuokite naują, kad jį pakeistumėte, palikite laukelį tuščią, kad jį paliktumėte, arba įveskite -, kad jį pašalintumėte."
 }

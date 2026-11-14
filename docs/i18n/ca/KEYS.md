@@ -13,12 +13,12 @@ Les claus són opcionals. Les podeu afegir més tard.
 
 ## Afegir una clau
 
-**Amb l'instal·lador.** Durant la instal·lació, l'instal·lador pregunta si voleu afegir claus. Trieu
-**Ara no** (o premeu Retorn) per ometre-ho. Per afegir o canviar claus més tard, executeu
+**Amb l'instal·lador.** Un cop configurat Fontes, l'instal·lador us ofereix afegir claus.
+En un Mac, feu clic a **Afegeix claus**, o a **Fet** per ometre-ho; a Windows, responeu la pregunta
+(premeu Retorn per ometre-ho). Per afegir o canviar claus més tard, executeu
 **Add or change keys**:
 
-- Mac: torneu a obrir l'aplicació Fontes Installer i trieu **Afegeix o canvia claus**, o feu doble
-  clic a `Add or change keys.command` a la carpeta de l'instal·lador.
+- Mac: torneu a obrir l'aplicació Fontes Installer i trieu **Afegeix o canvia claus**.
 - Windows: feu doble clic a `Add or change keys.cmd` a la carpeta de l'instal·lador. El programa
   d'instal·lació per a Windows, quan estigui disponible, també el posa a Start menu > Fontes.
 

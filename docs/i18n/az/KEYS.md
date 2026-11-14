@@ -13,12 +13,12 @@ Açarlar istəyə bağlıdır. Onları sonra əlavə edə bilərsiniz.
 
 ## Açar əlavə etmək
 
-**Quraşdırıcı ilə.** Quraşdırma zamanı quraşdırıcı açar əlavə etmək istəyib-istəmədiyinizi
-soruşur. Ötürmək üçün **İndi yox** seçin (və ya Enter basın). Açarları sonra əlavə etmək və ya
-dəyişmək üçün **Açarları əlavə et və ya dəyiş** işə salın:
+**Quraşdırıcı ilə.** Fontes quraşdırıldıqdan sonra quraşdırıcı açar əlavə etməyi təklif edir. Mac-da
+**Açarları əlavə et** və ya ötürmək üçün **Hazır** klikləyin; Windows-da suala cavab verin (ötürmək
+üçün Enter basın). Açarları sonra əlavə etmək və ya dəyişmək üçün **Açarları əlavə et və ya dəyiş**
+işə salın:
 
-- Mac: Fontes Installer proqramını yenidən açıb **Açarları əlavə et və ya dəyiş** seçin və ya
-  quraşdırıcı qovluğundakı `Add or change keys.command` faylına iki dəfə klikləyin.
+- Mac: Fontes Installer proqramını yenidən açıb **Açarları əlavə et və ya dəyiş** seçin.
 - Windows: quraşdırıcı qovluğundakı `Add or change keys.cmd` faylına iki dəfə klikləyin. Windows
   quraşdırma proqramı, əlçatan olduqdan sonra, onu həmçinin Start menu > Fontes-ə yerləşdirir.
 

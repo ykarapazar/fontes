@@ -131,11 +131,12 @@ Nekim izvorima potreban je besplatan ključ: pogledajte [KEYS.md](KEYS.md).
 U novom razgovoru pitajte: *„Koje jurisdikcije Fontes može pretraživati?”* Aplikacija bi trebala
 odgovoriti popisom država. Ako to ne učini, još jednom zatvorite i ponovno otvorite aplikaciju.
 
-## Instalacijski program jednim klikom (u pripremi)
+## Instalacijski program jednim klikom (Mac)
 
-U pripremi je instalacijski program za Mac i Windows koji postavlja Fontes u sve vaše aplikacije
-odjednom. Postavlja Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio i Cline. Kada bude objavljen:
+Instalacijski program za Mac postavlja Fontes u sve vaše aplikacije odjednom: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio i Cline.
+Instalacijski program za Windows je u pripremi; do tada slijedite gore navedene korake za svoju
+aplikaciju.
 
 **Prije nego što počnete:** potpuno zatvorite svaku od tih aplikacija. To je najvažnije za Claude
 Code: dok radi, on ponovno zapisuje `~/.claude.json` i može poništiti promjenu instalacijskog
@@ -144,17 +145,17 @@ programa. Ako ne možete zatvoriti Claude Code, dodajte Fontes u njega naredbom 
 
 **Mac**
 
-1. Otvorite preuzetu mapu **Fontes Installer**.
-2. Dvaput kliknite na **Install Fontes.command**.
-   - Ako vaš Mac javi da se datoteka "cannot be opened because it is from an unidentified developer":
-     kliknite desnom tipkom (ili uz Control) na datoteku, odaberite **Open**, a zatim ponovno **Open**.
-     To činite samo jednom.
-3. Otvara se prozor koji pita želite li slati anonimne brojeve korištenja; pritisnite Enter za ne.
-4. Pita želite li sada dodati ključeve. Pritisnite Enter da biste preskočili; pogledajte
-   [Korak s ključevima](#korak-s-ključevima).
-5. Kada se pojavi **Gotovo**, ponovno otvorite svoje AI aplikacije.
+1. Preuzmite instalacijski program za Mac (`Fontes-Installer-…-mac.zip`) iz [najnovijeg
+   izdanja](https://github.com/ykarapazar/fontes/releases/latest) i dvaput kliknite na njega da
+   biste ga raspakirali.
+2. Dvaput kliknite na **Fontes Installer**. Ako vas Mac pita želite li otvoriti aplikaciju preuzetu
+   s interneta, kliknite **Open**.
+3. Odaberite **Instaliraj** i kliknite **U redu**. Postavljanje traje otprilike minutu.
+4. Poruka navodi aplikacije koje je postavio. Kliknite **Gotovo**, a zatim ponovno otvorite te
+   aplikacije. Da biste najprije dodali neobavezne besplatne ključeve, umjesto toga kliknite **Dodaj
+   ključeve**; pogledajte [Korak s ključevima](#korak-s-ključevima).
 
-**Windows**
+**Windows** (kada instalacijski program za Windows bude objavljen)
 
 1. Raspakirajte preuzeti **Fontes Installer** (desni klik → Extract All).
 2. Dvaput kliknite na **Install Fontes.cmd**.
@@ -199,8 +200,7 @@ Dvije aplikacije zahtijevaju još jedan korak:
 Odmah nakon instalacije instalacijski program nudi da dodate besplatne ključeve za Francusku i
 SAD. Da biste ih dodali ili promijenili kasnije:
 
-- **Mac:** dvaput kliknite na **Add or change keys.command** u mapi instalacijskog programa ili
-  ponovno otvorite aplikaciju Fontes Installer i odaberite **Dodaj ili promijeni ključeve**.
+- **Mac:** ponovno otvorite **Fontes Installer** i odaberite **Dodaj ili promijeni ključeve**.
 - **Windows:** dvaput kliknite na **Add or change keys.cmd** u mapi instalacijskog programa.
 
 Unos se ne prikazuje. Ključevi se upisuju u svaku aplikaciju koja već ima Fontes. Nakon toga
@@ -214,8 +214,7 @@ su bili. Prije nego što promijeni datoteku, pokraj nje spremi kopiju pod nazivo
 izbrišite one koje vam više ne trebaju. Instalira i uv. Ponovno pokretanje je sigurno: popravlja
 postavku i ne mijenja ništa drugo.
 
-Da biste uklonili Fontes, dvaput kliknite na **Uninstall Fontes.command** (Mac) ili
-**Uninstall Fontes.cmd** (Windows). Uklanja unos `fontes`, zajedno s ključevima, iz svake
+Da biste uklonili Fontes, otvorite **Fontes Installer** i odaberite **Ukloni** (Mac) ili dvaput kliknite na **Uninstall Fontes.cmd** (Windows). Uklanja unos `fontes`, zajedno s ključevima, iz svake
 aplikacije. Vaše ostale postavke i sigurnosne kopije ostaju.
 
 ## Ažuriranja

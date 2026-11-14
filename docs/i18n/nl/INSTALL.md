@@ -131,11 +131,12 @@ Sommige bronnen hebben een gratis sleutel nodig: zie [KEYS.md](KEYS.md).
 Vraag in een nieuwe chat: *"Welke rechtsstelsels kan Fontes doorzoeken?"* De app hoort te antwoorden
 met een lijst van landen. Gebeurt dat niet, sluit de app dan nog een keer af en open hem opnieuw.
 
-## Installatieprogramma met één klik (in voorbereiding)
+## Installatieprogramma met één klik (Mac)
 
-Een installatieprogramma voor Mac en Windows dat Fontes in één keer in al uw apps instelt, is in
-voorbereiding. Het stelt Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio en Cline in. Zodra het is uitgebracht:
+Het Mac-installatieprogramma stelt Fontes in één keer in al uw apps in: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio en Cline. Een
+installatieprogramma voor Windows is in voorbereiding; gebruik tot die tijd de stappen voor uw app
+hierboven.
 
 **Voordat u begint:** sluit elk van deze apps volledig af. Dat is vooral belangrijk voor Claude Code:
 terwijl het draait, herschrijft het `~/.claude.json` en kan het de wijziging van het
@@ -144,18 +145,17 @@ plaats daarvan aan toe met `claude mcp add` (zie [Claude Code](#claude-code)).
 
 **Mac**
 
-1. Open de gedownloade map **Fontes Installer**.
-2. Dubbelklik op **Install Fontes.command**.
-   - Als uw Mac meldt dat het bestand "niet kan worden geopend omdat het afkomstig is van een
-     niet-geïdentificeerde ontwikkelaar": klik met de rechtermuisknop (of Control-klik) op het
-     bestand, kies **Open** en daarna nogmaals **Open**. Dit hoeft maar één keer.
-3. Er opent een venster dat vraagt of u anonieme gebruiksaantallen wilt verzenden; druk op Enter voor
-   nee.
-4. Het vraagt of u nu sleutels wilt toevoegen. Druk op Enter om over te slaan; zie
-   [Sleutels in het installatieprogramma](#sleutels-in-het-installatieprogramma).
-5. Wanneer **Klaar** verschijnt, opent u uw AI-apps weer.
+1. Download het Mac-installatieprogramma (`Fontes-Installer-…-mac.zip`) uit de
+   [nieuwste release](https://github.com/ykarapazar/fontes/releases/latest) en dubbelklik erop om
+   het uit te pakken.
+2. Dubbelklik op **Fontes Installer**. Als uw Mac vraagt of u een van internet gedownloade app wilt
+   openen, klik dan op **Open**.
+3. Kies **Installeren** en klik op **OK**. Het instellen duurt ongeveer een minuut.
+4. Een melding toont de apps die zijn ingesteld. Klik op **Klaar** en open die apps daarna opnieuw.
+   Wilt u eerst de optionele gratis sleutels toevoegen, klik dan in plaats daarvan op
+   **Sleutels toevoegen**; zie [Sleutels in het installatieprogramma](#sleutels-in-het-installatieprogramma).
 
-**Windows**
+**Windows** (zodra het installatieprogramma voor Windows is uitgebracht)
 
 1. Pak de gedownloade **Fontes Installer** uit (rechtsklik → **Alles uitpakken**).
 2. Dubbelklik op **Install Fontes.cmd**.
@@ -200,8 +200,7 @@ Twee apps hebben nog één stap nodig:
 Direct na de installatie biedt het installatieprogramma aan de gratis sleutels voor Frankrijk en de
 VS toe te voegen. Om ze later toe te voegen of te wijzigen:
 
-- **Mac:** dubbelklik op **Add or change keys.command** in de map van het installatieprogramma, of
-  open de app Fontes Installer opnieuw en kies **Sleutels toevoegen of wijzigen**.
+- **Mac:** open **Fontes Installer** opnieuw en kies **Sleutels toevoegen of wijzigen**.
 - **Windows:** dubbelklik op **Add or change keys.cmd** in de map van het installatieprogramma.
 
 Wat u typt blijft verborgen. De sleutels worden toegevoegd aan elke app die Fontes al heeft. Sluit de
@@ -215,9 +214,9 @@ op, met de naam `<file>.fontes-backup-<date>`. Kopieën die zijn gemaakt nadat u
 toegevoegd, bevatten die sleutels: verwijder de kopieën die u niet meer nodig hebt. Het installeert
 ook uv. Opnieuw uitvoeren is veilig: het herstelt de installatie en wijzigt verder niets.
 
-Om Fontes te verwijderen, dubbelklikt u op **Uninstall Fontes.command** (Mac) of
-**Uninstall Fontes.cmd** (Windows). Dit verwijdert de vermelding `fontes`, inclusief sleutels, uit
-elke app. Uw andere instellingen en de reservekopieën blijven staan.
+Om Fontes te verwijderen, opent u **Fontes Installer** en kiest u **Verwijderen** (Mac), of
+dubbelklikt u op **Uninstall Fontes.cmd** (Windows). Dit verwijdert de vermelding `fontes`, inclusief
+sleutels, uit elke app. Uw andere instellingen en de reservekopieën blijven staan.
 
 ## Updates
 

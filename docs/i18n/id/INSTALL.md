@@ -132,11 +132,11 @@ Beberapa sumber memerlukan kunci gratis: lihat [KEYS.md](KEYS.md).
 Dalam obrolan baru, tanyakan: *"Yurisdiksi mana saja yang dapat dicari oleh Fontes?"* Aplikasi seharusnya
 menjawab dengan daftar negara. Jika tidak, tutup lalu buka kembali aplikasi sekali lagi.
 
-## Penginstal sekali klik (sedang disiapkan)
+## Penginstal sekali klik (Mac)
 
-Penginstal untuk Mac dan Windows yang menyiapkan Fontes di semua aplikasi Anda sekaligus sedang disiapkan.
-Penginstal ini menyiapkan Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf,
-Gemini CLI, Zed, LM Studio, dan Cline. Setelah dirilis:
+Penginstal Mac menyiapkan Fontes di semua aplikasi Anda sekaligus: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio, dan Cline. Penginstal Windows
+sedang disiapkan; sampai saat itu, gunakan langkah untuk aplikasi Anda di atas.
 
 **Sebelum Anda mulai:** tutup setiap aplikasi ini sepenuhnya. Hal ini paling penting untuk Claude Code:
 selama berjalan, Claude Code menulis ulang `~/.claude.json` dan dapat membatalkan perubahan yang dibuat
@@ -145,18 +145,16 @@ penginstal. Jika Anda tidak dapat menutup Claude Code, tambahkan Fontes ke dalam
 
 **Mac**
 
-1. Buka folder **Fontes Installer** yang telah diunduh.
-2. Klik dua kali **Install Fontes.command**.
-   - Jika Mac Anda menyatakan berkas itu "cannot be opened because it is from an unidentified developer":
-     klik kanan (atau Control-klik) berkas tersebut, pilih **Open**, lalu **Open** lagi. Anda hanya
-     perlu melakukan ini sekali.
-3. Sebuah jendela terbuka dan menanyakan apakah akan mengirim jumlah penggunaan anonim; tekan Enter
-   untuk tidak.
-4. Penginstal menanyakan apakah akan menambahkan kunci sekarang. Tekan Enter untuk melewati; lihat
-   [Langkah kunci](#langkah-kunci).
-5. Ketika muncul **Selesai**, buka kembali aplikasi AI Anda.
+1. Unduh penginstal Mac (`Fontes-Installer-…-mac.zip`) dari
+   [rilis terbaru](https://github.com/ykarapazar/fontes/releases/latest) lalu klik dua kali untuk mengekstraknya.
+2. Klik dua kali **Fontes Installer**. Jika Mac Anda menanyakan apakah akan membuka aplikasi yang
+   diunduh dari internet, klik **Open**.
+3. Pilih **Instal** lalu klik **OK**. Penyiapan memakan waktu sekitar satu menit.
+4. Sebuah pesan mencantumkan aplikasi yang telah disiapkan. Klik **Selesai**, lalu buka kembali
+   aplikasi-aplikasi itu. Untuk menambahkan kunci gratis opsional terlebih dahulu, klik
+   **Tambah kunci**; lihat [Langkah kunci](#langkah-kunci).
 
-**Windows**
+**Windows** (setelah penginstal Windows dirilis)
 
 1. Ekstrak **Fontes Installer** yang telah diunduh (klik kanan → Extract All).
 2. Klik dua kali **Install Fontes.cmd**.
@@ -200,8 +198,7 @@ Dua aplikasi memerlukan satu langkah tambahan:
 Tepat setelah instalasi, penginstal menawarkan untuk menambahkan kunci gratis untuk Prancis dan AS. Untuk
 menambahkan atau mengubahnya nanti:
 
-- **Mac:** klik dua kali **Add or change keys.command** di folder penginstal, atau buka kembali aplikasi
-  Fontes Installer dan pilih **Tambah atau ubah kunci**.
+- **Mac:** buka kembali **Fontes Installer** dan pilih **Tambah atau ubah kunci**.
 - **Windows:** klik dua kali **Add or change keys.cmd** di folder penginstal.
 
 Ketikan disembunyikan. Kunci dimasukkan ke setiap aplikasi yang sudah memiliki Fontes. Setelah itu, tutup
@@ -215,8 +212,8 @@ Sebelum mengubah suatu berkas, penginstal menyimpan salinannya di sebelahnya, de
 hapus salinan yang tidak Anda perlukan lagi. Penginstal juga menginstal uv. Menjalankannya lagi aman:
 penginstal memperbaiki penyiapan dan tidak mengubah hal lain.
 
-Untuk menghapus Fontes, klik dua kali **Uninstall Fontes.command** (Mac) atau **Uninstall Fontes.cmd**
-(Windows). Ini menghapus entri `fontes`, termasuk kuncinya, dari setiap aplikasi. Pengaturan Anda yang lain
+Untuk menghapus Fontes, buka **Fontes Installer** dan pilih **Hapus** (Mac), atau klik dua kali
+**Uninstall Fontes.cmd** (Windows). Ini menghapus entri `fontes`, termasuk kuncinya, dari setiap aplikasi. Pengaturan Anda yang lain
 dan salinan cadangan tetap ada.
 
 ## Pembaruan

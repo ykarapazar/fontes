@@ -128,11 +128,11 @@ Vissa källor kräver en kostnadsfri nyckel: se [KEYS.md](KEYS.md).
 Fråga i en ny chatt: *”Vilka jurisdiktioner kan Fontes söka i?”* Appen bör svara med en
 lista över länder. Om den inte gör det, avsluta och öppna appen en gång till.
 
-## Installationsprogram med ett klick (på väg)
+## Installationsprogram med ett klick (Mac)
 
-Ett installationsprogram för Mac och Windows som konfigurerar Fontes i alla dina appar på en gång är på väg. Det
-konfigurerar Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI,
-Zed, LM Studio och Cline. När det har släppts:
+Mac-installationsprogrammet konfigurerar Fontes i alla dina appar på en gång: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio och Cline. Ett installationsprogram
+för Windows är på väg; använd fram till dess stegen för din app ovan.
 
 **Innan du börjar:** avsluta var och en av dessa appar helt. Det är viktigast för Claude Code:
 medan den körs skriver den om `~/.claude.json` och kan ångra installationsprogrammets ändring. Om du inte kan
@@ -140,16 +140,16 @@ avsluta Claude Code, lägg i stället till Fontes i den med `claude mcp add` (se
 
 **Mac**
 
-1. Öppna den nedladdade mappen **Fontes Installer**.
-2. Dubbelklicka på **Install Fontes.command**.
-   - Om din Mac säger att filen ”cannot be opened because it is from an unidentified developer”:
-     högerklicka (eller Ctrl-klicka) på filen, välj **Open** och sedan **Open** igen. Det behöver du
-     bara göra en gång.
-3. Ett fönster öppnas och frågar om anonyma användningssiffror ska skickas; tryck Enter för nej.
-4. Det frågar om nycklar ska läggas till nu. Tryck Enter för att hoppa över; se [Nyckelsteget](#nyckelsteget).
-5. När det står **Done**, öppna dina AI-appar igen.
+1. Ladda ner Mac-installationsprogrammet (`Fontes-Installer-…-mac.zip`) från
+   [den senaste versionen](https://github.com/ykarapazar/fontes/releases/latest) och dubbelklicka på det för att packa upp det.
+2. Dubbelklicka på **Fontes Installer**. Om din Mac frågar om du vill öppna en app som hämtats från
+   internet, klicka på **Öppna**.
+3. Välj **Installera** och klicka på **OK**. Konfigurationen tar ungefär en minut.
+4. Ett meddelande räknar upp apparna som konfigurerades. Klicka på **Klar** och öppna sedan de apparna igen.
+   Om du först vill lägga till de valfria kostnadsfria nycklarna, klicka i stället på **Lägg till nycklar**;
+   se [Nyckelsteget](#nyckelsteget).
 
-**Windows**
+**Windows** (när Windows-installationsprogrammet har släppts)
 
 1. Packa upp den nedladdade **Fontes Installer** (högerklicka → Extract All).
 2. Dubbelklicka på **Install Fontes.cmd**.
@@ -192,8 +192,7 @@ Två appar behöver ett steg till:
 Direkt efter installationen erbjuder installationsprogrammet att lägga till de kostnadsfria nycklarna för Frankrike och USA. För att lägga till eller
 ändra dem senare:
 
-- **Mac:** dubbelklicka på **Add or change keys.command** i installationsmappen, eller öppna
-  appen Fontes Installer igen och välj **Add or change keys**.
+- **Mac:** öppna **Fontes Installer** igen och välj **Lägg till eller ändra nycklar**.
 - **Windows:** dubbelklicka på **Add or change keys.cmd** i installationsmappen.
 
 Det du skriver döljs. Nycklarna läggs in i alla appar som redan har Fontes. Avsluta och öppna apparna
@@ -206,8 +205,8 @@ Innan det ändrar en fil sparar det en kopia bredvid den, med namnet `<file>.fon
 som gjorts efter att du lagt till nycklar innehåller de nycklarna: radera dem du inte längre behöver. Det
 installerar också uv. Det är säkert att köra det igen: det reparerar konfigurationen och ändrar inget annat.
 
-För att ta bort Fontes, dubbelklicka på **Uninstall Fontes.command** (Mac) eller **Uninstall Fontes.cmd**
-(Windows). Det tar bort posten `fontes`, nycklarna inräknade, från alla appar. Dina övriga inställningar
+För att ta bort Fontes, öppna **Fontes Installer** och välj **Ta bort** (Mac), eller dubbelklicka på
+**Uninstall Fontes.cmd** (Windows). Det tar bort posten `fontes`, nycklarna inräknade, från alla appar. Dina övriga inställningar
 och säkerhetskopiorna finns kvar.
 
 ## Uppdateringar

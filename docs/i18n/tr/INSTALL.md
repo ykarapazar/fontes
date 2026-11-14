@@ -131,11 +131,11 @@ Bazı kaynaklar ücretsiz bir anahtar gerektirir: bkz. [KEYS.md](KEYS.md).
 Yeni bir sohbette sorun: *"Fontes hangi yargı alanlarında arama yapabilir?"* Uygulamanın bir ülke
 listesiyle yanıt vermesi gerekir. Vermezse uygulamayı bir kez daha kapatıp yeniden açın.
 
-## Tek tıkla kurulum programı (yolda)
+## Tek tıkla kurulum programı (Mac)
 
-Fontes'i tüm uygulamalarınızda tek seferde kuran bir Mac ve Windows kurulum programı yolda. Claude
-Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio
-ve Cline'ı kurar. Yayımlandığında:
+Mac kurulum programı Fontes'i tüm uygulamalarınızda tek seferde kurar: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ve Cline. Windows kurulum programı
+yolda; o zamana kadar yukarıdaki, uygulamanıza ait adımları izleyin.
 
 **Başlamadan önce:** bu uygulamaların her birini tamamen kapatın. Bu en çok Claude Code için
 önemlidir: Claude Code çalışırken `~/.claude.json` dosyasını yeniden yazar ve kurulum programının
@@ -144,18 +144,16 @@ yaptığı değişikliği geri alabilir. Claude Code'u kapatamıyorsanız, Fonte
 
 **Mac**
 
-1. İndirilen **Fontes Installer** klasörünü açın.
-2. **Install Fontes.command** dosyasına çift tıklayın.
-   - Mac'iniz dosyanın "kimliği belirlenemeyen bir geliştiriciden geldiği için açılamadığını"
-     söylerse: dosyaya sağ tıklayın (veya Control tuşuyla tıklayın), **Open**'ı seçin, ardından
-     yeniden **Open**'a tıklayın. Bunu yalnızca bir kez yaparsınız.
-3. Bir pencere açılır ve anonim kullanım sayılarının gönderilip gönderilmeyeceğini sorar; hayır
-   için Enter'a basın.
-4. Anahtarların şimdi eklenip eklenmeyeceğini sorar. Atlamak için Enter'a basın; bkz.
+1. Mac kurulum programını (`Fontes-Installer-…-mac.zip`) [son sürümden](https://github.com/ykarapazar/fontes/releases/latest)
+   indirin ve zipten çıkarmak için üzerine çift tıklayın.
+2. **Fontes Installer**'a çift tıklayın. Mac'iniz internetten indirilen bir uygulamayı açmak isteyip
+   istemediğinizi sorarsa **Aç**'a tıklayın.
+3. **Kur**'u seçin ve **Tamam**'a tıklayın. Kurulum yaklaşık bir dakika sürer.
+4. Bir mesaj, kurduğu uygulamaları listeler. **Bitti**'ye tıklayın, ardından bu uygulamaları yeniden açın.
+   Önce isteğe bağlı ücretsiz anahtarları eklemek için bunun yerine **Anahtar ekle**'ye tıklayın; bkz.
    [Anahtar adımı](#anahtar-adımı).
-5. **Tamamlandı** dediğinde yapay zekâ uygulamalarınızı yeniden açın.
 
-**Windows**
+**Windows** (Windows kurulum programı yayımlandığında)
 
 1. İndirilen **Fontes Installer** dosyasını zipten çıkarın (sağ tık → Extract All).
 2. **Install Fontes.cmd** dosyasına çift tıklayın.
@@ -200,8 +198,7 @@ VS Code, `~/.copilot` veya VS Code'un kendi ayar klasörü varsa kurulur.
 Kurulumdan hemen sonra kurulum programı, ücretsiz Fransa ve ABD anahtarlarını eklemeyi önerir.
 Bunları daha sonra eklemek veya değiştirmek için:
 
-- **Mac:** kurulum programı klasöründeki **Add or change keys.command** dosyasına çift tıklayın ya da
-  Fontes Installer uygulamasını yeniden açıp **Anahtar ekle veya değiştir**'i seçin.
+- **Mac:** **Fontes Installer**'ı yeniden açın ve **Anahtar ekle veya değiştir**'i seçin.
 - **Windows:** kurulum programı klasöründeki **Add or change keys.cmd** dosyasına çift tıklayın.
 
 Yazdıklarınız gizlenir. Anahtarlar, Fontes'in zaten kurulu olduğu her uygulamaya eklenir. Ardından
@@ -216,8 +213,8 @@ kaydeder. Anahtarları ekledikten sonra alınan kopyalar bu anahtarları içerir
 olmayanları silin. Ayrıca uv'yi de kurar. Yeniden çalıştırmak güvenlidir: kurulumu onarır ve başka
 hiçbir şeyi değiştirmez.
 
-Fontes'i kaldırmak için **Uninstall Fontes.command** (Mac) veya **Uninstall Fontes.cmd** (Windows)
-dosyasına çift tıklayın. `fontes` girdisini, anahtarlar dahil, her uygulamadan kaldırır. Diğer
+Fontes'i kaldırmak için **Fontes Installer**'ı açıp **Kaldır**'ı seçin (Mac) veya **Uninstall Fontes.cmd**
+dosyasına çift tıklayın (Windows). `fontes` girdisini, anahtarlar dahil, her uygulamadan kaldırır. Diğer
 ayarlarınız ve yedek kopyalar kalır.
 
 ## Güncellemeler

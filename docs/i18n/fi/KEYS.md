@@ -13,11 +13,12 @@ Avaimet ovat valinnaisia. Voit lisätä ne myöhemmin.
 
 ## Avaimen lisääminen
 
-**Asennusohjelmalla.** Asennuksen aikana asennusohjelma kysyy, haluatko lisätä avaimia. Valitse
-**Not now** (tai paina Enter) ohittaaksesi. Lisää tai muuta avaimia myöhemmin ajamalla **Add or change keys**:
+**Asennusohjelmalla.** Kun Fontes on otettu käyttöön, asennusohjelma tarjoutuu lisäämään avaimet.
+Macilla napsauta **Lisää avaimet** tai ohita napsauttamalla **Valmis**; Windowsissa vastaa
+kysymykseen (ohita painamalla Enter). Lisää tai muuta avaimia myöhemmin ajamalla **Add or change
+keys**:
 
-- Mac: avaa Fontes Installer -sovellus uudelleen ja valitse **Add or change keys**, tai kaksoisnapsauta
-  `Add or change keys.command` asennuskansiossa.
+- Mac: avaa Fontes Installer -sovellus uudelleen ja valitse **Lisää tai vaihda avaimia**.
 - Windows: kaksoisnapsauta `Add or change keys.cmd` asennuskansiossa. Windowsin asennusohjelma
   lisää sen myös, kun se on saatavilla, Käynnistä-valikkoon > Fontes.
 

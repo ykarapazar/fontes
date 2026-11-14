@@ -76,11 +76,12 @@ Status tas-sorsi (iċċekkjat kuljum): [ykarapazar.github.io/fontes/status/](htt
 2. **Erġa' ibda l-app.** Agħlaqha għal kollox u erġa' iftaħha.
 3. **Staqsi:** *"F'liema ġurisdizzjonijiet jista' jfittex Fontes?"* Għandha telenka l-pajjiżi.
 
-Installer bi klikk waħda għal Mac u Windows qiegħed fi triqtu. Jissettja Fontes f'Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio u Cline, f'kull waħda
-minnhom li tinsab fuq il-kompjuter tiegħek, imbagħad joffri li jżid iċ-ċwievet tiegħek. Agħlaq
-dawk l-apps qabel ma tħaddmu. Dettalji:
-[INSTALL.md](INSTALL.md#installer-bi-klikk-waħda-fi-triqtu).
+**Fuq Mac**, installer bi klikk waħda jissettja Fontes f'Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio u Cline, f'kull waħda minnhom li tinsab fuq il-kompjuter
+tiegħek, imbagħad joffri li jżid iċ-ċwievet tiegħek. Niżżel l-installer għal Mac
+mill-[aħħar release](https://github.com/ykarapazar/fontes/releases/latest) u agħlaq dawk l-apps qabel ma tħaddmu.
+Installer għal Windows qiegħed fi triqtu. Dettalji:
+[INSTALL.md](INSTALL.md#installer-bi-klikk-waħda-mac).
 Xi sorsi jeħtieġu ċavetta b'xejn: ara [KEYS.md](KEYS.md).
 
 <!-- map:start -->

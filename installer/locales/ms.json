@@ -34,9 +34,7 @@
  "app_button_cancel": "Batal",
  "app_button_ok": "OK",
  "app_button_keys": "Tambah atau tukar kunci",
- "app_button_skip": "Bukan sekarang",
  "app_button_guide": "Buka panduan",
- "app_keys_ask": "Tambah kunci sekarang? Anda juga boleh melakukannya kemudian: buka pemasang semula dan pilih \"Tambah atau tukar kunci\".",
  "sh_installing_uv": "Memasang uv, alat yang memuat turun dan mengemas kini Fontes (sekali sahaja)...",
  "sh_no_uv": "uv tidak dipasang; tiada apa-apa untuk dibuang.",
  "sh_press_enter": "Tekan Enter untuk menutup tetingkap ini.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Kandungan sesuatu undang-undang beserta label peruntukannya.",
  "mcpb_tool_get_legislation_provision": "Teks semasa satu perkara atau seksyen.",
  "mcpb_tool_get_legislation_text": "Teks disatukan penuh sesuatu undang-undang, boleh dibaca mengikut halaman.",
- "mcpb_tool_report_bug": "Sediakan laporan pepijat Fontes; dihantar hanya jika pengguna mengesahkannya."
+ "mcpb_tool_report_bug": "Sediakan laporan pepijat Fontes; dihantar hanya jika pengguna mengesahkannya.",
+ "app_keys_offer": "Pilihan: kunci percuma menghidupkan Perancis dan menaikkan had undang-undang kes Amerika Syarikat. Tambahkannya sekarang, atau kemudian dengan membuka semula pemasang ini.",
+ "app_button_add_keys": "Tambah kunci",
+ "app_button_done": "Selesai",
+ "app_button_continue": "Teruskan",
+ "app_key_unset": "{name}\n\nTampalkannya di bawah, atau biarkan kotak kosong untuk melangkaunya.",
+ "app_key_set": "{name} sudah disimpan.\n\nTampal yang baharu untuk menggantikannya, biarkan kotak kosong untuk mengekalkannya, atau taip - untuk membuangnya."
 }

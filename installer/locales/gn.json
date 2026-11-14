@@ -34,9 +34,7 @@
  "app_button_cancel": "Heja",
  "app_button_ok": "Oĩ porã",
  "app_button_keys": "Embojoapy térã emoambue clave",
- "app_button_skip": "Ko'ág̃a ndaha'éi",
  "app_button_guide": "Eipe'a ñepytyvõ",
- "app_keys_ask": "Rembojoapysépa umi clave ko'ág̃a? Ikatu avei rejapo upéi: epe'a jey instalador ha eiporavo \"Embojoapy térã emoambue clave\".",
  "sh_installing_uv": "Oñemohenda uv, tembiporu omboguejy ha ombopyahúva Fontes (peteĩ jey añoite)...",
  "sh_no_uv": "uv noñemohendái; ndaipóri mba'eve ojenohẽ hag̃ua.",
  "sh_press_enter": "Ejopy Enter emboty hag̃ua ko ovetã.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Peteĩ léi índice, artículokuéra réra reheve.",
  "mcpb_tool_get_legislation_provision": "Peteĩ artículo térã sección jehaipy ko'ag̃agua.",
  "mcpb_tool_get_legislation_text": "Peteĩ léi jehaipy consolidado opaite, rogue rogue.",
- "mcpb_tool_report_bug": "Ombosako'i peteĩ Fontes jejavy marandu; oñemondo usuario he'írõ héẽ añoite."
+ "mcpb_tool_report_bug": "Ombosako'i peteĩ Fontes jejavy marandu; oñemondo usuario he'írõ héẽ añoite.",
+ "app_keys_offer": "Ndaha'éi tekotevẽ: umi clave rei omyendy Francia ha ohupi Estados Unidos jurisprudencia jeheka límite. Embojoapy ko'ág̃a, térã upéi, epe'a jeývo ko instalador.",
+ "app_button_add_keys": "Embojoapy clave",
+ "app_button_done": "Opáma",
+ "app_button_continue": "Eho tenonde",
+ "app_key_unset": "{name}\n\nEmoĩ iguýpe, térã eheja nandi pe jehaiha ehasa hag̃ua.",
+ "app_key_set": "{name} oñeñongatúma.\n\nEmoĩ ipyahúva emyengovia hag̃ua, eheja nandi pe jehaiha eñongatu hag̃ua, térã ehai - enohẽ hag̃ua."
 }

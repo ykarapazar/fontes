@@ -135,12 +135,12 @@ Egy új csevegésben kérdezze meg: *„Mely joghatóságokban tud keresni a Fon
 alkalmazásnak az országok listájával kell válaszolnia. Ha nem így történik, lépjen ki az
 alkalmazásból, és nyissa meg még egyszer.
 
-## Egykattintásos telepítő (készülőben)
+## Egykattintásos telepítő (Mac)
 
-Készülőben van egy Mac- és Windows-telepítő, amely egyszerre az összes alkalmazásában beállítja
-a Fontest. Beállítja a Claude Desktopot, a Codexet, a Claude Code-ot, a Cursort, a VS Code-ot
-(GitHub Copilot), a Windsurfot, a Gemini CLI-t, a Zedet, az LM Studiót és a Cline-t. Amint
-megjelenik:
+A Mac-telepítő egyszerre az összes alkalmazásában beállítja a Fontest: a Claude Desktopban, a
+Codexben, a Claude Code-ban, a Cursorban, a VS Code-ban (GitHub Copilot), a Windsurfben, a Gemini
+CLI-ben, a Zedben, az LM Studióban és a Cline-ban. Windows-telepítő készülőben van; addig kövesse
+a fenti, az alkalmazására vonatkozó lépéseket.
 
 **Mielőtt elkezdené:** lépjen ki teljesen ezekből az alkalmazásokból. Ez a Claude Code esetében
 a legfontosabb: futás közben újraírja a `~/.claude.json` fájlt, és visszavonhatja a telepítő
@@ -149,18 +149,17 @@ hozzá a Fontest (lásd [Claude Code](#claude-code)).
 
 **Mac**
 
-1. Nyissa meg a letöltött **Fontes Installer** mappát.
-2. Kattintson duplán az **Install Fontes.command** fájlra.
-   - Ha a Mac azt írja, hogy „nem nyitható meg, mert azonosítatlan fejlesztőtől származik”:
-     kattintson a jobb gombbal (vagy Control-kattintással) a fájlra, válassza az **Open**
-     lehetőséget, majd ismét az **Open** gombot. Ezt csak egyszer kell megtennie.
-3. Megnyílik egy ablak, és megkérdezi, küldjön-e névtelen használati számadatokat; a „nem”
-   válaszhoz nyomja meg az Entert.
-4. Megkérdezi, hogy most adja-e hozzá a kulcsokat. Kihagyáshoz nyomja meg az Entert; lásd
-   [A kulcsok megadása](#a-kulcsok-megadása).
-5. Amikor kiírja, hogy **Done**, nyissa meg újra az MI-alkalmazásait.
+1. Töltse le a Mac-telepítőt (`Fontes-Installer-…-mac.zip`) a
+   [legújabb kiadásból](https://github.com/ykarapazar/fontes/releases/latest), és kattintson rá duplán a kicsomagoláshoz.
+2. Kattintson duplán a **Fontes Installer** alkalmazásra. Ha a Mac megkérdezi, megnyit-e egy
+   internetről letöltött alkalmazást, kattintson a **Megnyitás** gombra.
+3. Válassza a **Telepítés** lehetőséget, és kattintson az **OK** gombra. A beállítás körülbelül
+   egy percig tart.
+4. Egy üzenet felsorolja a beállított alkalmazásokat. Kattintson a **Kész** gombra, majd nyissa meg
+   újra ezeket az alkalmazásokat. Ha előbb az opcionális ingyenes kulcsokat szeretné hozzáadni,
+   kattintson inkább a **Kulcsok hozzáadása** gombra; lásd [A kulcsok megadása](#a-kulcsok-megadása).
 
-**Windows**
+**Windows** (amint a Windows-telepítő megjelenik)
 
 1. Csomagolja ki a letöltött **Fontes Installer** fájlt (jobb gomb → Extract All).
 2. Kattintson duplán az **Install Fontes.cmd** fájlra.
@@ -209,9 +208,8 @@ Két alkalmazás egy további lépést igényel:
 Közvetlenül a telepítés után a telepítő felajánlja az ingyenes francia és egyesült államokbeli
 kulcsok hozzáadását. Későbbi hozzáadásukhoz vagy módosításukhoz:
 
-- **Mac:** kattintson duplán az **Add or change keys.command** fájlra a telepítő mappájában, vagy
-  nyissa meg újra a Fontes Installer alkalmazást, és válassza az **Add or change keys**
-  lehetőséget.
+- **Mac:** nyissa meg újra a **Fontes Installer** alkalmazást, és válassza a **Kulcsok hozzáadása vagy
+  módosítása** lehetőséget.
 - **Windows:** kattintson duplán az **Add or change keys.cmd** fájlra a telepítő mappájában.
 
 A begépelt szöveg rejtve marad. A kulcsok minden olyan alkalmazásba bekerülnek, amelyben már
@@ -226,9 +224,10 @@ kulcsok hozzáadása után készült másolatok tartalmazzák ezeket a kulcsokat
 amelyekre már nincs szüksége. Az uv-t is telepíti. Az újrafuttatás biztonságos: helyreállítja a
 beállítást, és semmi mást nem módosít.
 
-A Fontes eltávolításához kattintson duplán az **Uninstall Fontes.command** (Mac) vagy az
-**Uninstall Fontes.cmd** (Windows) fájlra. Ez minden alkalmazásból eltávolítja a `fontes`
-bejegyzést, a kulcsokkal együtt. A többi beállítása és a biztonsági másolatok megmaradnak.
+A Fontes eltávolításához nyissa meg a **Fontes Installer** alkalmazást, és válassza az
+**Eltávolítás** lehetőséget (Mac), vagy kattintson duplán az **Uninstall Fontes.cmd** fájlra
+(Windows). Ez minden alkalmazásból eltávolítja a `fontes` bejegyzést, a kulcsokkal együtt. A többi
+beállítása és a biztonsági másolatok megmaradnak.
 
 ## Frissítések
 

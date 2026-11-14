@@ -75,10 +75,11 @@ Status sumber (diperiksa setiap hari): [ykarapazar.github.io/fontes/status/](htt
 2. **Mulai ulang aplikasi.** Tutup aplikasi sepenuhnya lalu buka kembali.
 3. **Tanyakan:** *"Yurisdiksi mana saja yang dapat dicari oleh Fontes?"* Aplikasi seharusnya mencantumkan negara-negaranya.
 
-Penginstal sekali klik untuk Mac dan Windows sedang disiapkan. Penginstal ini menyiapkan Fontes di Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio, dan Cline, di setiap aplikasi tersebut
-yang ada di komputer Anda, lalu menawarkan untuk menambahkan kunci Anda. Tutup aplikasi-aplikasi itu sebelum Anda
-menjalankannya. Rincian: [INSTALL.md](INSTALL.md#penginstal-sekali-klik-sedang-disiapkan).
+**Di Mac**, penginstal sekali klik menyiapkan Fontes di Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio, dan Cline, di setiap aplikasi tersebut yang ada di komputer
+Anda, lalu menawarkan untuk menambahkan kunci Anda. Unduh penginstal Mac dari [rilis terbaru](https://github.com/ykarapazar/fontes/releases/latest) dan
+tutup aplikasi-aplikasi itu sebelum Anda menjalankannya. Penginstal Windows sedang disiapkan. Rincian:
+[INSTALL.md](INSTALL.md#penginstal-sekali-klik-mac).
 Beberapa sumber memerlukan kunci gratis: lihat [KEYS.md](KEYS.md).
 
 <!-- map:start -->

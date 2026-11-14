@@ -117,9 +117,9 @@ kapatılacaktır.
 
 Yerel (stdio) bir sunucu çalıştırabilen her MCP uygulamasıyla, örneğin Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ve Cline. Fontes macOS,
-Windows ve Linux'ta, uv'nin çalıştığı her yerde (Python 3.13+) çalışır. Mac ve Windows için tek tıkla kurulum programı
-yolda. Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ve
-Cline'ı tek seferde kurar. Her uygulama için adımlar: [INSTALL.md](INSTALL.md).
+Windows ve Linux'ta, uv'nin çalıştığı her yerde (Python 3.13+) çalışır. Mac'te tek tıkla kurulum programı
+Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ve Cline'ı tek
+seferde kurar; Windows kurulum programı yolda. Her uygulama için adımlar: [INSTALL.md](INSTALL.md).
 
 ## Kod katkısında bulunabilir miyim?
 

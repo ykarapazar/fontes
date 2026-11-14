@@ -76,11 +76,13 @@ VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ir kitose.
 3. **Paklauskite:** *„Kuriose jurisdikcijose gali ieškoti Fontes?“* Turėtumėte gauti šalių
    sąrašą.
 
-Diegimo programa vienu spustelėjimu, skirta Mac ir Windows, netrukus bus išleista. Ji nustato
+**Mac kompiuteryje** diegimo programa vienu spustelėjimu nustato
 Fontes programose Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
 LM Studio ir Cline – kiekvienoje, kuri yra jūsų kompiuteryje, – ir pasiūlo pridėti jūsų raktus.
-Prieš ją paleisdami, uždarykite tas programas. Išsamiau:
-[INSTALL.md](INSTALL.md#diegimo-programa-vienu-spustelėjimu-netrukus).
+Atsisiųskite Mac diegimo programą iš
+[naujausios laidos](https://github.com/ykarapazar/fontes/releases/latest) ir, prieš ją paleisdami, uždarykite tas
+programas. Windows diegimo programa netrukus bus išleista. Išsamiau:
+[INSTALL.md](INSTALL.md#diegimo-programa-vienu-spustelėjimu-mac).
 Kai kuriems šaltiniams reikia nemokamo rakto: žr. [KEYS.md](KEYS.md).
 
 <!-- map:start -->

@@ -34,9 +34,7 @@
  "app_button_cancel": "Abbrechen",
  "app_button_ok": "OK",
  "app_button_keys": "Schlüssel hinzufügen oder ändern",
- "app_button_skip": "Nicht jetzt",
  "app_button_guide": "Anleitung öffnen",
- "app_keys_ask": "Schlüssel jetzt hinzufügen? Sie können das auch später tun: Öffnen Sie das Installationsprogramm erneut und wählen Sie „Schlüssel hinzufügen oder ändern“.",
  "sh_installing_uv": "uv, das Tool, das Fontes herunterlädt und aktualisiert, wird installiert (einmalig)...",
  "sh_no_uv": "uv ist nicht installiert; nichts zu entfernen.",
  "sh_press_enter": "Drücken Sie Enter, um dieses Fenster zu schließen.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Inhaltsverzeichnis eines Gesetzes mit den Bezeichnungen der Vorschriften.",
  "mcpb_tool_get_legislation_provision": "Aktueller Text eines Artikels oder Paragrafen.",
  "mcpb_tool_get_legislation_text": "Vollständige konsolidierte Fassung eines Gesetzes, seitenweise abrufbar.",
- "mcpb_tool_report_bug": "Einen Fontes-Fehlerbericht vorbereiten; er wird nur gesendet, wenn der Nutzer ihn bestätigt."
+ "mcpb_tool_report_bug": "Einen Fontes-Fehlerbericht vorbereiten; er wird nur gesendet, wenn der Nutzer ihn bestätigt.",
+ "app_keys_offer": "Optional: Kostenlose Schlüssel schalten Frankreich frei und erhöhen das Limit für die Rechtsprechung der Vereinigten Staaten. Fügen Sie sie jetzt hinzu oder später, indem Sie dieses Installationsprogramm erneut öffnen.",
+ "app_button_add_keys": "Schlüssel hinzufügen",
+ "app_button_done": "Fertig",
+ "app_button_continue": "Weiter",
+ "app_key_unset": "{name}\n\nFügen Sie ihn unten ein oder lassen Sie das Feld leer, um ihn zu überspringen.",
+ "app_key_set": "{name} ist bereits gespeichert.\n\nFügen Sie einen neuen ein, um ihn zu ersetzen, lassen Sie das Feld leer, um ihn zu behalten, oder geben Sie - ein, um ihn zu entfernen."
 }

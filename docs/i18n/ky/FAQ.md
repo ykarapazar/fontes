@@ -123,9 +123,9 @@ change keys** ишке киргизгичи аларды кийин өзгөрт
 Жергиликтүү (stdio) серверди иштете алган ар кандай MCP тиркемеси, мисалы, Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio жана
 Cline. Fontes macOS, Windows жана Linux'та, uv иштеген ар кандай жерде иштейт (Python 3.13+).
-Mac жана Windows үчүн бир басуу менен орнотуучу жакында чыгат. Ал Claude Desktop, Codex,
-Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio жана Cline'ды бир жолу
-жөндөйт. Ар бир тиркеме үчүн кадамдар: [INSTALL.md](INSTALL.md).
+Mac'те бир басуу менен орнотуучу Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
+Gemini CLI, Zed, LM Studio жана Cline'ды бир жолу жөндөйт; Windows үчүн орнотуучу жакында чыгат.
+Ар бир тиркеме үчүн кадамдар: [INSTALL.md](INSTALL.md).
 
 ## Кодго салым кошо аламбы?
 

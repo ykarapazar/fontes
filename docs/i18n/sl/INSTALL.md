@@ -131,11 +131,12 @@ Nekateri viri potrebujejo brezplačen ključ: glejte [KEYS.md](KEYS.md).
 V novem pogovoru vprašajte: *»Katere jurisdikcije lahko preišče Fontes?«* Aplikacija bi morala
 odgovoriti s seznamom držav. Če ne, aplikacijo še enkrat zaprite in znova odprite.
 
-## Namestitveni program z enim klikom (v pripravi)
+## Namestitveni program z enim klikom (Mac)
 
-V pripravi je namestitveni program za Mac in Windows, ki Fontes nastavi v vseh vaših aplikacijah
-naenkrat. Nastavi Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio in Cline. Ko bo objavljen:
+Namestitveni program za Mac nastavi Fontes v vseh vaših aplikacijah naenkrat: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio in Cline.
+Namestitveni program za Windows je v pripravi; do takrat uporabite zgornje korake za svojo
+aplikacijo.
 
 **Preden začnete:** vsako od teh aplikacij popolnoma zaprite. To je najpomembneje pri Claude
 Code: medtem ko teče, znova zapisuje `~/.claude.json` in lahko razveljavi spremembo
@@ -144,17 +145,16 @@ namestitvenega programa. Če Claude Code ne morete zapreti, vanj dodajte Fontes 
 
 **Mac**
 
-1. Odprite preneseno mapo **Fontes Installer**.
-2. Dvakrat kliknite **Install Fontes.command**.
-   - Če vaš Mac sporoči, da datoteke "cannot be opened because it is from an unidentified developer":
-     z desno tipko (ali s tipko Control) kliknite datoteko, izberite **Open** in nato znova **Open**.
-     To naredite samo enkrat.
-3. Odpre se okno, ki vpraša, ali želite pošiljati anonimne števce uporabe; za ne pritisnite Enter.
-4. Vpraša, ali želite zdaj dodati ključe. Pritisnite Enter, da to preskočite; glejte
-   [Korak s ključi](#korak-s-ključi).
-5. Ko se prikaže **Končano**, znova odprite svoje aplikacije AI.
+1. Namestitveni program za Mac (`Fontes-Installer-…-mac.zip`) prenesite iz
+   [najnovejše izdaje](https://github.com/ykarapazar/fontes/releases/latest) in ga dvakrat kliknite, da ga razširite.
+2. Dvakrat kliknite **Fontes Installer**. Če vas Mac vpraša, ali želite odpreti aplikacijo, preneseno
+   z interneta, kliknite **Odpri**.
+3. Izberite **Namesti** in kliknite **V redu**. Nastavitev traja približno minuto.
+4. Sporočilo navede aplikacije, ki jih je nastavil. Kliknite **Končano** in nato znova odprite te
+   aplikacije. Če želite najprej dodati neobvezne brezplačne ključe, namesto tega kliknite
+   **Dodaj ključe**; glejte [Korak s ključi](#korak-s-ključi).
 
-**Windows**
+**Windows** (ko bo namestitveni program za Windows objavljen)
 
 1. Razširite preneseni **Fontes Installer** (desni klik → Extract All).
 2. Dvakrat kliknite **Install Fontes.cmd**.
@@ -199,8 +199,7 @@ Dve aplikaciji potrebujeta še en korak:
 Takoj po namestitvi namestitveni program ponudi, da dodate brezplačna ključa za Francijo in ZDA.
 Če ju želite dodati ali spremeniti pozneje:
 
-- **Mac:** dvakrat kliknite **Add or change keys.command** v mapi namestitvenega programa ali
-  znova odprite aplikacijo Fontes Installer in izberite **Dodaj ali spremeni ključe**.
+- **Mac:** znova odprite **Fontes Installer** in izberite **Dodaj ali spremeni ključe**.
 - **Windows:** dvakrat kliknite **Add or change keys.cmd** v mapi namestitvenega programa.
 
 Vnos se ne prikazuje. Ključi se zapišejo v vsako aplikacijo, ki že ima Fontes. Nato aplikacije
@@ -214,8 +213,8 @@ nespremenjeni. Preden spremeni datoteko, poleg nje shrani kopijo z imenom
 vsebujejo: izbrišite tiste, ki jih ne potrebujete več. Namesti tudi uv. Ponovni zagon je varen:
 popravi nastavitev in ne spremeni ničesar drugega.
 
-Če želite Fontes odstraniti, dvakrat kliknite **Uninstall Fontes.command** (Mac) ali
-**Uninstall Fontes.cmd** (Windows). Iz vsake aplikacije odstrani vnos `fontes`, skupaj s ključi.
+Če želite Fontes odstraniti, odprite **Fontes Installer** in izberite **Odstrani** (Mac) ali dvakrat
+kliknite **Uninstall Fontes.cmd** (Windows). Iz vsake aplikacije odstrani vnos `fontes`, skupaj s ključi.
 Vaše druge nastavitve in varnostne kopije ostanejo.
 
 ## Posodobitve

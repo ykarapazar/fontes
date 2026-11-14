@@ -76,11 +76,12 @@ Stádas na bhfoinsí (seiceáilte go laethúil): [ykarapazar.github.io/fontes/st
 2. **Atosaigh an aip.** Scoir di go hiomlán agus oscail arís í.
 3. **Fiafraigh:** *"Cé na dlínsí ar féidir le Fontes a chuardach?"* Ba cheart di na tíortha a liostú.
 
-Tá suiteálaí aon chliceáil do Mac agus Windows ar an mbealach. Socraíonn sé Fontes in Claude
-Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio agus Cline, i
-ngach ceann acu atá ar do ríomhaire, agus ansin tairgeann sé d'eochracha a chur leis. Scoir de na
-haipeanna sin sula ritheann tú é. Sonraí:
-[INSTALL.md](INSTALL.md#suiteálaí-aon-chliceáil-ar-an-mbealach).
+**Ar Mac**, socraíonn suiteálaí aon chliceáil Fontes in Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio agus Cline, i ngach ceann acu atá ar do ríomhaire,
+agus ansin tairgeann sé d'eochracha a chur leis. Íoslódáil suiteálaí Mac ón
+[eisiúint is déanaí](https://github.com/ykarapazar/fontes/releases/latest) agus scoir de na haipeanna sin sula
+ritheann tú é. Tá suiteálaí Windows ar an mbealach. Sonraí:
+[INSTALL.md](INSTALL.md#suiteálaí-aon-chliceáil-mac).
 Teastaíonn eochair saor in aisce ó roinnt foinsí: féach [KEYS.md](KEYS.md).
 
 <!-- map:start -->

@@ -133,11 +133,12 @@ Niektóre źródła wymagają bezpłatnego klucza: zobacz [KEYS.md](KEYS.md).
 W nowym czacie zapytaj: *„W jakich jurysdykcjach może wyszukiwać Fontes?”* Aplikacja powinna
 odpowiedzieć listą krajów. Jeśli tak się nie stanie, zamknij i otwórz aplikację jeszcze raz.
 
-## Instalator jednym kliknięciem (w przygotowaniu)
+## Instalator jednym kliknięciem (Mac)
 
-W przygotowaniu jest instalator dla komputerów Mac i systemu Windows, który konfiguruje Fontes we
-wszystkich Twoich aplikacjach naraz. Konfiguruje Claude Desktop, Codex, Claude Code, Cursor,
-VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio i Cline. Po jego wydaniu:
+Instalator dla komputerów Mac konfiguruje Fontes we wszystkich Twoich aplikacjach naraz: Claude Desktop,
+Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio i Cline.
+Instalator dla systemu Windows jest w przygotowaniu; do tego czasu korzystaj z instrukcji dla swojej
+aplikacji powyżej.
 
 **Zanim zaczniesz:** całkowicie zamknij każdą z tych aplikacji. Najważniejsze jest to w przypadku
 Claude Code: gdy działa, nadpisuje `~/.claude.json` i może cofnąć zmianę wprowadzoną przez
@@ -146,18 +147,17 @@ instalator. Jeśli nie możesz zamknąć Claude Code, dodaj do niego Fontes za p
 
 **Mac**
 
-1. Otwórz pobrany folder **Fontes Installer**.
-2. Kliknij dwukrotnie **Install Fontes.command**.
-   - Jeśli Twój Mac informuje, że pliku „cannot be opened because it is from an unidentified
-     developer”: kliknij plik prawym przyciskiem myszy (lub z wciśniętym klawiszem Control),
-     wybierz **Open**, a potem ponownie **Open**. Robisz to tylko raz.
-3. Otworzy się okno z pytaniem, czy wysyłać anonimowe liczniki użycia; naciśnij Enter, aby
-   odpowiedzieć „nie”.
-4. Zapyta, czy dodać klucze teraz. Naciśnij Enter, aby pominąć; zobacz
-   [Krok z kluczami](#krok-z-kluczami).
-5. Gdy wyświetli **Gotowe**, ponownie otwórz swoje aplikacje AI.
+1. Pobierz instalator dla komputerów Mac (`Fontes-Installer-…-mac.zip`) z
+   [najnowszego wydania](https://github.com/ykarapazar/fontes/releases/latest) i kliknij go
+   dwukrotnie, aby go rozpakować.
+2. Kliknij dwukrotnie **Fontes Installer**. Jeśli Twój Mac zapyta, czy otworzyć aplikację pobraną
+   z internetu, kliknij **Open**.
+3. Wybierz **Zainstaluj** i kliknij **OK**. Konfiguracja trwa około minuty.
+4. Komunikat wyświetli listę skonfigurowanych aplikacji. Kliknij **Gotowe**, a następnie ponownie
+   otwórz te aplikacje. Aby najpierw dodać opcjonalne bezpłatne klucze, kliknij zamiast tego
+   **Dodaj klucze**; zobacz [Krok z kluczami](#krok-z-kluczami).
 
-**Windows**
+**Windows** (po wydaniu instalatora dla systemu Windows)
 
 1. Rozpakuj pobrany **Fontes Installer** (prawy przycisk myszy → Extract All).
 2. Kliknij dwukrotnie **Install Fontes.cmd**.
@@ -203,8 +203,7 @@ Dwie aplikacje wymagają jeszcze jednego kroku:
 Zaraz po instalacji instalator proponuje dodanie bezpłatnych kluczy dla Francji i USA. Aby dodać
 je lub zmienić później:
 
-- **Mac:** kliknij dwukrotnie **Add or change keys.command** w folderze instalatora albo ponownie
-  otwórz aplikację Fontes Installer i wybierz **Dodaj lub zmień klucze**.
+- **Mac:** ponownie otwórz **Fontes Installer** i wybierz **Dodaj lub zmień klucze**.
 - **Windows:** kliknij dwukrotnie **Add or change keys.cmd** w folderze instalatora.
 
 Wpisywane znaki są ukryte. Klucze trafiają do każdej aplikacji, która ma już Fontes. Następnie
@@ -218,7 +217,7 @@ Kopie utworzone po dodaniu kluczy zawierają te klucze: usuń te, których już 
 Instaluje też uv. Ponowne uruchomienie jest bezpieczne: naprawia konfigurację i niczego innego
 nie zmienia.
 
-Aby usunąć Fontes, kliknij dwukrotnie **Uninstall Fontes.command** (Mac) lub
+Aby usunąć Fontes, otwórz **Fontes Installer** i wybierz **Usuń** (Mac) lub kliknij dwukrotnie
 **Uninstall Fontes.cmd** (Windows). Usuwa on wpis `fontes`, łącznie z kluczami, ze wszystkich
 aplikacji. Twoje pozostałe ustawienia i kopie zapasowe pozostają.
 

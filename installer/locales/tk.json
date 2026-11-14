@@ -34,9 +34,7 @@
  "app_button_cancel": "Ýatyrmak",
  "app_button_ok": "OK",
  "app_button_keys": "Açarlary goş ýa-da üýtget",
- "app_button_skip": "Häzir däl",
  "app_button_guide": "Gollanmany aç",
- "app_keys_ask": "Açarlar häzir goşulsynmy? Muny soňra hem edip bilersiňiz: gurnaýjyny täzeden açyň we “Açarlary goş ýa-da üýtget” saýlaň.",
  "sh_installing_uv": "Fontes programmasyny ýükleýän we täzeleýän uv guraly gurnalýar (bir gezeklik)...",
  "sh_no_uv": "uv gurnalmadyk; aýryljak zat ýok.",
  "sh_press_enter": "Bu penjiräni ýapmak üçin Enter düwmesine basyň.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Kanunyň madda belgileri görkezilen mazmuny.",
  "mcpb_tool_get_legislation_provision": "Bir maddanyň ýa-da bölümiň häzirki teksti.",
  "mcpb_tool_get_legislation_text": "Kanunyň ähli üýtgetmeler girizilen doly teksti, sahypalara bölüp.",
- "mcpb_tool_report_bug": "Fontes ýalňyşlyk hasabatyny taýýarlamak; diňe ulanyjy tassyklasa iberilýär."
+ "mcpb_tool_report_bug": "Fontes ýalňyşlyk hasabatyny taýýarlamak; diňe ulanyjy tassyklasa iberilýär.",
+ "app_keys_offer": "Islege bagly: mugt açarlar Fransiýany açýar we ABŞ-nyň kazyýet tejribesi boýunça çägi ýokarlandyrýar. Olary häzir goşuň ýa-da soňra bu gurnaýjyny täzeden açyp goşuň.",
+ "app_button_add_keys": "Açarlary goş",
+ "app_button_done": "Taýýar",
+ "app_button_continue": "Dowam et",
+ "app_key_unset": "{name}\n\nOny aşakda goýuň ýa-da geçmek üçin meýdany boş galdyryň.",
+ "app_key_set": "{name} eýýäm saklanan.\n\nOny çalyşmak üçin täzesini goýuň, saklamak üçin meýdany boş galdyryň ýa-da aýyrmak üçin - ýazyň."
 }

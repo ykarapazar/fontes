@@ -326,6 +326,37 @@ def test_install_asks_keys_once_and_keeps_them_on_rerun(home, monkeypatch, capsy
     assert S.read_servers(by_name("Zed"))["fontes"]["env"] == {"WLM_US_GOVINFO_KEY": "secret-us-key"}
 
 
+def test_install_offers_keys_only_after_apps_are_set_up(home, monkeypatch, capsys):
+    monkeypatch.setattr(S.sys.stdin, "isatty", lambda: True, raising=False)
+    monkeypatch.setattr(S, "ask_stats", lambda: False)
+    seen = []
+    def want():
+        seen.append(all(S.is_ours(S.read_servers(c).get("fontes")) for c in S.clients()))
+        return False
+    monkeypatch.setattr(S, "want_keys", want)
+    assert S.main(["install"]) == 0
+    assert seen == [True]   # asked once, with every app already set up
+
+
+def test_mac_app_install_never_asks_for_keys(home, monkeypatch, capsys):
+    monkeypatch.setattr(S.sys, "platform", "darwin")
+    monkeypatch.setenv("FONTES_GUI", "1")
+    monkeypatch.setattr(S, "want_keys", lambda: pytest.fail("keys asked during install"))
+    monkeypatch.setattr(S, "_dialog", lambda *a: pytest.fail("dialog during install"))
+    assert S.main(["install"]) == 0
+    out = capsys.readouterr().out
+    assert S.t("done") in out and S.t("start") not in out
+
+
+def test_mac_app_key_prompts_use_dialog_wording(monkeypatch):
+    monkeypatch.setattr(S.sys, "platform", "darwin")
+    monkeypatch.setenv("FONTES_GUI", "1")
+    prompts = []
+    S.ask_keys({"WLM_US_GOVINFO_KEY": "x"}, ask=lambda p: prompts.append(p) or "")
+    assert all("Enter" not in p for p in prompts)
+    assert prompts[-1] == S.t("app_key_set", name=S.t("key_us"))
+
+
 def test_ask_keys_keep_change_remove_cancel(monkeypatch):
     env = {"WLM_US_GOVINFO_KEY": "old", "FONTES_STATS": "1"}
     prompts = []

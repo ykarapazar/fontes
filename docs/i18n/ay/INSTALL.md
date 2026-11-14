@@ -135,11 +135,11 @@ Mä machaq chat ukana jiskt'am: *"Kawkïr jurisdiccionanakansa Fontes thaqaspa?"
 Aplicacionax mä markanak siqimpiw jaysañapa. Jan ukham lurkchixa, aplicación mä kuti
 jist'antam, wasitat jist'aram.
 
-## Mä click instalador (jutaskiwa)
+## Mä click instalador (Mac)
 
-Mac, Windows ukatak mä instalador, Fontes taqi aplicacionanakaman mä kutik wakicht'iri,
-jutaskiwa. Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf,
-Gemini CLI, Zed, LM Studio, Cline ukanak wakicht'i. Mistuni ukhaxa:
+Mac instaladorax Fontes taqi aplicacionanakaman mä kutik wakicht'i: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio, Cline.
+Windows instaladorax jutaskiwa; ukkañkamaxa, aplicacionamatak aka patanakan lurawinak apnaqam.
 
 **Janïr qalltkasa:** aka aplicacionanakat kawkïrinakas jist'arataki ukanak jist'antam. Akax
 Claude Code ukatakix juk'amp wakiskiriwa: irnaqkasax `~/.claude.json` wasitat qillqi, ukat
@@ -148,18 +148,17 @@ ukar `claude mcp add` ukamp yapxatam ([Claude Code](#claude-code) uñjam).
 
 **Mac**
 
-1. Apaqkta uka **Fontes Installer** carpeta jist'aram.
-2. **Install Fontes.command** ukar pä kuti click lurtam.
-   - Macamax "cannot be opened because it is from an unidentified developer" sistaspa
-     ukhaxa: archivo ukar kupi click (jan ukax Control-click) lurtam, **Open** ajllim, ukat
-     wasitat **Open**. Mä kutikiw akax lurasi.
-3. Mä ventana jist'arasi, jan sutin apnaqat jakhunak apayañ munasmati sasaw jiskt'i; jan
-   sañatakix Enter limt'am.
-4. Jichhax llave yapxatañ munasmati sasaw jiskt'i. Pasañatakix Enter limt'am;
-   [Llave yapxataña](#llave-yapxataña) uñjam.
-5. **Done** siski ukhaxa, IA aplicacionanakam wasitat jist'aram.
+1. Mac instalador (`Fontes-Installer-…-mac.zip`)
+   [qhipa apsuwita](https://github.com/ykarapazar/fontes/releases/latest) ukat apaqam, ukat
+   jist'arañatakix pä kuti click lurtam.
+2. **Fontes Installer** ukar pä kuti click lurtam. Macamax internet ukat apaqat aplicación
+   jist'arañ munasmati sasin jiskt'ani ukhaxa, **Open** ukar click lurtam.
+3. **Instalaña** ajllim ukat **Walikiwa** ukar click lurtam. Wakicht'añax niya mä minutow alt'i.
+4. Mä yatiyäwiw wakicht'at aplicacionanak uñacht'ayi. **Tukuyatawa** ukar click lurtam, ukat uka
+   aplicacionanak wasitat jist'aram. Nayraqat munasaw inaki llavenak yapxatañatakix, **Llavenak yapxataña**
+   ukar click lurtam; [Llave yapxataña](#llave-yapxataña) uñjam.
 
-**Windows**
+**Windows** (Windows instalador mistuni ukhaxa)
 
 1. Apaqkta uka **Fontes Installer** ZIP ukat apsum (kupi click → Extract All).
 2. **Install Fontes.cmd** ukar pä kuti click lurtam.
@@ -207,8 +206,7 @@ Pä aplicacionax yaqha lurawi munapxi:
 Instalasax mäkiw, instaladorax Francia, Estados Unidos ukatak inaki llavenak yapxatañ
 munasmati sasaw jiskt'i. Qhipat yapxatañataki jan ukax mayjt'ayañataki:
 
-- **Mac:** instalador carpetan **Add or change keys.command** ukar pä kuti click lurtam, jan
-  ukax Fontes Installer aplicación wasitat jist'aram ukat **Add or change keys** ajllim.
+- **Mac:** **Fontes Installer** wasitat jist'aram ukat **Llavenak yapxataña jan ukax mayjt'ayaña** ajllim.
 - **Windows:** instalador carpetan **Add or change keys.cmd** ukar pä kuti click lurtam.
 
 Qillqkta ukax imantatawa. Llavenakax Fontes utjki uka taqi aplicacionanakaruw mantapxi.
@@ -223,9 +221,9 @@ kunjamäkänsa ukhamaw qhiparapxi. Mä archivo mayjt'ayañat nayraqatax jak'apan
 jan wakiskir copianak chhaqtayam. uv ukas wakicht'arakiwa. Wasitat irnaqayañax janiw
 jan walt'äwïkiti: instalación askichi, janirakiw yaqha kunas mayjt'aykiti.
 
-Fontes apsuñatakix **Uninstall Fontes.command** (Mac) jan ukax **Uninstall Fontes.cmd**
-(Windows) ukar pä kuti click lurtam. `fontes` qillqat taqi aplicacionanakat apsu, llavenakapampi.
-Yaqha configuracionamax, copianakas qhiparapxiwa.
+Fontes apsuñatakix **Fontes Installer** jist'aram ukat **Apaqaña** ajllim (Mac), jan ukax
+**Uninstall Fontes.cmd** (Windows) ukar pä kuti click lurtam. `fontes` qillqat taqi aplicacionanakat
+apsu, llavenakapampi. Yaqha configuracionamax, copianakas qhiparapxiwa.
 
 ## Machaqtayäwinaka
 

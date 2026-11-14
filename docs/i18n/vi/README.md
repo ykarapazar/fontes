@@ -74,10 +74,11 @@ Trạng thái nguồn (kiểm tra hằng ngày): [ykarapazar.github.io/fontes/st
 2. **Khởi động lại ứng dụng.** Thoát hẳn ứng dụng rồi mở lại.
 3. **Hỏi:** *"Fontes có thể tìm kiếm ở những phạm vi tài phán nào?"* Ứng dụng sẽ liệt kê các quốc gia.
 
-Một trình cài đặt một lần nhấp cho Mac và Windows sắp ra mắt. Trình cài đặt thiết lập Fontes trong Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio và Cline, trong từng ứng dụng có
-trên máy tính của bạn, rồi đề nghị thêm khóa của bạn. Hãy thoát các ứng dụng đó trước khi chạy trình cài đặt. Chi tiết:
-[INSTALL.md](INSTALL.md#trình-cài-đặt-một-lần-nhấp-sắp-ra-mắt).
+**Trên máy Mac**, một trình cài đặt một lần nhấp thiết lập Fontes trong Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio và Cline, trong từng ứng dụng có trên máy tính của bạn, rồi
+đề nghị thêm khóa của bạn. Hãy tải trình cài đặt cho Mac từ [bản phát hành mới nhất](https://github.com/ykarapazar/fontes/releases/latest) và thoát
+các ứng dụng đó trước khi chạy trình cài đặt. Trình cài đặt cho Windows sắp ra mắt. Chi tiết:
+[INSTALL.md](INSTALL.md#trình-cài-đặt-một-lần-nhấp-mac).
 Một số nguồn cần khóa miễn phí: xem [KEYS.md](KEYS.md).
 
 <!-- map:start -->

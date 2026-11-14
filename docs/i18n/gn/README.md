@@ -77,11 +77,11 @@ Ypykue mba'éichapa oĩ (ojehechajey ára ha ára): [ykarapazar.github.io/fontes
 2. **Emoñepyrũ jey aplicación.** Emboty opaite ha eipe'a jey.
 3. **Eporandu:** *"Mba'e jurisdicción-pepa ikatu oheka Fontes?"* Ohechaukava'erã tetã lista.
 
-Peteĩ instalador peteĩ click-pe Mac ha Windows-pe g̃uarã oúma. Omohenda Fontes Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ha Cline-pe, peteĩteĩ
-oĩvape nde computadora-pe, upéi ndeporandu rembojoapysépa nde clave-kuéra. Emboty umi
-aplicación remboguata mboyve. Mba'emimi:
-[INSTALL.md](INSTALL.md#instalador-peteĩ-click-pe-oúma).
+**Mac-pe**, peteĩ instalador peteĩ click-pe omohenda Fontes Claude Desktop, Codex, Claude Code,
+Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ha Cline-pe, peteĩteĩ oĩvape nde
+computadora-pe, upéi ndeporandu rembojoapysépa nde clave-kuéra. Emboguejy instalador Mac-pe g̃uarã [ñemosẽ ipyahuvévagui](https://github.com/ykarapazar/fontes/releases/latest)
+ha emboty umi aplicación remboguata mboyve. Peteĩ instalador Windows-pe g̃uarã oúma. Mba'emimi:
+[INSTALL.md](INSTALL.md#instalador-peteĩ-click-pe-mac).
 Oĩ ypykue oikotevẽva peteĩ clave reigua: ehecha [KEYS.md](KEYS.md).
 
 <!-- map:start -->

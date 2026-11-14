@@ -75,11 +75,13 @@ Estat de les fonts (comprovat cada dia): [ykarapazar.github.io/fontes/status/](h
 2. **Reinicieu l'aplicació.** Tanqueu-la completament i torneu-la a obrir.
 3. **Pregunteu:** *«En quines jurisdiccions pot cercar Fontes?»* Hauria de llistar els països.
 
-Hi ha en camí un instal·lador d'un clic per a Mac i Windows. Configura Fontes a Claude Desktop,
+**En un Mac**, un instal·lador d'un clic configura Fontes a Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio i Cline, en cadascuna
 d'aquestes aplicacions que tingueu a l'ordinador, i després us ofereix afegir les vostres claus.
-Tanqueu aquestes aplicacions abans d'executar-lo. Detalls:
-[INSTALL.md](INSTALL.md#installador-dun-clic-en-camí). Algunes fonts necessiten una clau gratuïta:
+Baixeu l'instal·lador per a Mac de la
+[darrera versió](https://github.com/ykarapazar/fontes/releases/latest) i tanqueu aquestes aplicacions abans d'executar-lo.
+Hi ha en camí un instal·lador per a Windows. Detalls:
+[INSTALL.md](INSTALL.md#installador-dun-clic-mac). Algunes fonts necessiten una clau gratuïta:
 vegeu [KEYS.md](KEYS.md).
 
 <!-- map:start -->

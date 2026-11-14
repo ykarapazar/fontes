@@ -34,9 +34,7 @@
  "app_button_cancel": "Annuleren",
  "app_button_ok": "OK",
  "app_button_keys": "Sleutels toevoegen of wijzigen",
- "app_button_skip": "Niet nu",
  "app_button_guide": "Handleiding openen",
- "app_keys_ask": "Nu de sleutels toevoegen? U kunt dit ook later doen: open het installatieprogramma opnieuw en kies 'Sleutels toevoegen of wijzigen'.",
  "sh_installing_uv": "uv wordt geïnstalleerd, de tool die Fontes downloadt en bijwerkt (eenmalig)...",
  "sh_no_uv": "uv is niet geïnstalleerd; niets te verwijderen.",
  "sh_press_enter": "Druk op Enter om dit venster te sluiten.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Inhoudsopgave van een wet, met de aanduidingen van de bepalingen.",
  "mcpb_tool_get_legislation_provision": "Actuele tekst van één artikel of afdeling.",
  "mcpb_tool_get_legislation_text": "Volledige geconsolideerde tekst van een wet, per pagina op te vragen.",
- "mcpb_tool_report_bug": "Een foutrapport voor Fontes opstellen; het wordt alleen verzonden als de gebruiker het bevestigt."
+ "mcpb_tool_report_bug": "Een foutrapport voor Fontes opstellen; het wordt alleen verzonden als de gebruiker het bevestigt.",
+ "app_keys_offer": "Optioneel: gratis sleutels zetten Frankrijk aan en verhogen de limiet voor jurisprudentie uit de Verenigde Staten. Voeg ze nu toe, of later door dit installatieprogramma opnieuw te openen.",
+ "app_button_add_keys": "Sleutels toevoegen",
+ "app_button_done": "Klaar",
+ "app_button_continue": "Doorgaan",
+ "app_key_unset": "{name}\n\nPlak deze hieronder, of laat het vak leeg om deze over te slaan.",
+ "app_key_set": "{name} is al opgeslagen.\n\nPlak een nieuwe om deze te vervangen, laat het vak leeg om deze te behouden, of typ - om deze te verwijderen."
 }

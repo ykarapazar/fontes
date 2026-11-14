@@ -133,11 +133,12 @@ Ao amin'ny resaka vaovao, anontanio: *"Faritra ara-pitsarana inona avy no azon'n
 hamaly amin'ny lisitry ny firenena ilay rindranasa. Raha tsy izany, akatony ary sokafy indray ilay
 rindranasa indray mandeha fanampiny.
 
-## Mpametraka tsindry iray (ho avy tsy ho ela)
+## Mpametraka tsindry iray (Mac)
 
-Ho avy tsy ho ela ny mpametraka ho an'ny Mac sy Windows izay mametraka ny Fontes ao amin'ny rindranasanao
-rehetra indray mandeha. Mametraka ny Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio ary Cline izy. Rehefa navoaka izy:
+Mametraka ny Fontes ao amin'ny rindranasanao rehetra indray mandeha ny mpametraka ho an'ny Mac: Claude
+Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ary Cline.
+Ho avy tsy ho ela ny mpametraka ho an'ny Windows; mandra-pahatongan'izay, ampiasao ny dingana ho an'ny
+rindranasanao etsy ambony.
 
 **Alohan'ny hanombohanao:** akatony tanteraka ny tsirairay amin'ireo rindranasa ireo. Zava-dehibe indrindra
 izany ho an'ny Claude Code: raha mandeha izy dia manoratra indray ny `~/.claude.json` ary mety hanafoana izay
@@ -146,18 +147,16 @@ novain'ny mpametraka. Raha tsy afaka manakatona ny Claude Code ianao, ampidiro a
 
 **Mac**
 
-1. Sokafy ny lahatahiry **Fontes Installer** nalaina.
-2. Tsindrio indroa ny **Install Fontes.command**.
-   - Raha milaza ny Mac-nao fa "cannot be opened because it is from an unidentified developer": tsindrio
-     amin'ny havanana (na Control-tsindrio) ilay rakitra, safidio ny **Open**, dia **Open** indray. Indray
-     mandeha ihany no tokony hanaovanao izany.
-3. Misokatra ny varavarankely iray ary manontany raha handefa isa fampiasana tsy mitonona anarana; tsindrio
-   ny Enter raha tsia.
-4. Manontany izy raha hanampy fanalahidy izao. Tsindrio ny Enter handinganana; jereo ny
-   [Dingana fanalahidy](#dingana-fanalahidy).
-5. Rehefa aseho ny **Vita**, sokafy indray ireo rindranasa AI-nao.
+1. Alaivo avy amin'ny [famoahana farany](https://github.com/ykarapazar/fontes/releases/latest) ny mpametraka
+   ho an'ny Mac (`Fontes-Installer-…-mac.zip`) ary tsindrio indroa izy mba hamoahana azy.
+2. Tsindrio indroa ny **Fontes Installer**. Raha manontany ny Mac-nao raha hanokatra rindranasa nalaina
+   tamin'ny Internet, tsindrio ny **Open**.
+3. Safidio ny **Apetraho** ary tsindrio ny **OK**. Iray minitra eo ho eo ny fametrahana.
+4. Misy hafatra mitanisa ireo rindranasa napetrany. Tsindrio ny **Vita**, dia sokafy indray ireo rindranasa
+   ireo. Raha te hanampy aloha ireo fanalahidy maimaim-poana tsy voatery ianao, tsindrio kosa ny
+   **Hanampy fanalahidy**; jereo ny [Dingana fanalahidy](#dingana-fanalahidy).
 
-**Windows**
+**Windows** (rehefa navoaka ny mpametraka ho an'ny Windows)
 
 1. Sokafy (unzip) ny **Fontes Installer** nalaina (tsindrio amin'ny havanana → Extract All).
 2. Tsindrio indroa ny **Install Fontes.cmd**.
@@ -202,8 +201,7 @@ Rindranasa roa no mila dingana iray fanampiny:
 Avy hatrany aorian'ny fametrahana, manolotra ny hanampy ireo fanalahidy maimaim-poana ho an'i Frantsa sy
 Etazonia ny mpametraka. Raha hanampy na hanova azy ireo any aoriana:
 
-- **Mac:** tsindrio indroa ny **Add or change keys.command** ao amin'ny lahatahirin'ny mpametraka, na
-  sokafy indray ny rindranasa Fontes Installer ary safidio ny **Hanampy na hanova fanalahidy**.
+- **Mac:** sokafy indray ny **Fontes Installer** ary safidio ny **Hanampy na hanova fanalahidy**.
 - **Windows:** tsindrio indroa ny **Add or change keys.cmd** ao amin'ny lahatahirin'ny mpametraka.
 
 Tsy aseho ny soratanao. Miditra ao amin'ny rindranasa rehetra efa manana ny Fontes ireo fanalahidy. Akatony
@@ -217,9 +215,9 @@ rehetra. Alohan'ny hanovany rakitra iray, mitahiry dika eo akaikiny izy, antsoin
 fafao izay tsy ilainao intsony. Mametraka ny uv koa izy. Azo antoka ny mamerina mandefa azy: manamboatra ny
 fametrahana izy ary tsy manova zavatra hafa.
 
-Raha hanala ny Fontes, tsindrio indroa ny **Uninstall Fontes.command** (Mac) na **Uninstall Fontes.cmd**
-(Windows). Esoriny amin'ny rindranasa tsirairay ny fidirana `fontes`, anisan'izany ny fanalahidy. Mijanona ny
-fandrindrana hafa sy ny dika fiarovana.
+Raha hanala ny Fontes, sokafy ny **Fontes Installer** ary safidio ny **Esory** (Mac), na tsindrio indroa
+ny **Uninstall Fontes.cmd** (Windows). Esoriny amin'ny rindranasa tsirairay ny fidirana `fontes`, anisan'izany
+ny fanalahidy. Mijanona ny fandrindrana hafa sy ny dika fiarovana.
 
 ## Fanavaozana
 

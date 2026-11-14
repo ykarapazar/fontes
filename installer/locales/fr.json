@@ -34,9 +34,7 @@
  "app_button_cancel": "Annuler",
  "app_button_ok": "OK",
  "app_button_keys": "Ajouter ou modifier des clés",
- "app_button_skip": "Plus tard",
  "app_button_guide": "Ouvrir le guide",
- "app_keys_ask": "Ajouter les clés maintenant ? Vous pourrez aussi le faire plus tard : rouvrez le programme d'installation et choisissez « Ajouter ou modifier des clés ».",
  "sh_installing_uv": "Installation de uv, l'outil qui télécharge et met à jour Fontes (une seule fois)...",
  "sh_no_uv": "uv n'est pas installé ; rien à retirer.",
  "sh_press_enter": "Appuyez sur Entrée pour fermer cette fenêtre.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Table des matières d'une loi avec les libellés de ses dispositions.",
  "mcpb_tool_get_legislation_provision": "Texte en vigueur d'un article ou d'une section.",
  "mcpb_tool_get_legislation_text": "Texte consolidé intégral d'une loi, paginable.",
- "mcpb_tool_report_bug": "Prépare un rapport de bogue Fontes ; envoyé uniquement si l'utilisateur le confirme."
+ "mcpb_tool_report_bug": "Prépare un rapport de bogue Fontes ; envoyé uniquement si l'utilisateur le confirme.",
+ "app_keys_offer": "Facultatif : des clés gratuites activent la France et relèvent la limite de recherche de jurisprudence aux États-Unis. Ajoutez-les maintenant, ou plus tard en rouvrant ce programme d'installation.",
+ "app_button_add_keys": "Ajouter des clés",
+ "app_button_done": "Terminé",
+ "app_button_continue": "Continuer",
+ "app_key_unset": "{name}\n\nCollez la valeur ci-dessous, ou laissez le champ vide pour passer.",
+ "app_key_set": "{name} est déjà enregistré.\n\nCollez une nouvelle valeur pour le remplacer, laissez le champ vide pour le conserver, ou tapez - pour le supprimer."
 }

@@ -34,9 +34,7 @@
  "app_button_cancel": "Ləğv et",
  "app_button_ok": "OK",
  "app_button_keys": "Açarları əlavə et və ya dəyiş",
- "app_button_skip": "İndi yox",
  "app_button_guide": "Bələdçini aç",
- "app_keys_ask": "Açarlar indi əlavə edilsin? Bunu sonra da edə bilərsiniz: quraşdırıcını yenidən açın və \"Açarları əlavə et və ya dəyiş\" seçin.",
  "sh_installing_uv": "Fontes-i yükləyən və yeniləyən uv aləti quraşdırılır (bir dəfəlik)...",
  "sh_no_uv": "uv quraşdırılmayıb; silinəcək heç nə yoxdur.",
  "sh_press_enter": "Bu pəncərəni bağlamaq üçün Enter düyməsini basın.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Qanunun müddəa nişanları ilə mündəricatı.",
  "mcpb_tool_get_legislation_provision": "Bir maddənin və ya bölmənin qüvvədə olan mətni.",
  "mcpb_tool_get_legislation_text": "Qanunun konsolidə edilmiş tam mətni, səhifə-səhifə.",
- "mcpb_tool_report_bug": "Fontes xəta hesabatı hazırlayır; yalnız istifadəçi təsdiq etdikdə göndərilir."
+ "mcpb_tool_report_bug": "Fontes xəta hesabatı hazırlayır; yalnız istifadəçi təsdiq etdikdə göndərilir.",
+ "app_keys_offer": "İstəyə bağlı: pulsuz açarlar Fransanı aktivləşdirir və ABŞ üçün məhkəmə təcrübəsi limitini artırır. Onları indi və ya sonra bu quraşdırıcını yenidən açaraq əlavə edin.",
+ "app_button_add_keys": "Açarları əlavə et",
+ "app_button_done": "Hazır",
+ "app_button_continue": "Davam et",
+ "app_key_unset": "{name}\n\nOnu aşağıya yapışdırın və ya ötürmək üçün xananı boş saxlayın.",
+ "app_key_set": "{name} artıq saxlanılıb.\n\nƏvəz etmək üçün yenisini yapışdırın, saxlamaq üçün xananı boş saxlayın və ya silmək üçün - yazın."
 }

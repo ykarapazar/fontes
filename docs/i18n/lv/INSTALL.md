@@ -133,11 +133,11 @@ Dažiem avotiem nepieciešama bezmaksas atslēga: skatiet [KEYS.md](KEYS.md).
 Jaunā sarunā pajautājiet: *“Kurās jurisdikcijās Fontes var meklēt?”* Lietotnei vajadzētu
 atbildēt ar valstu sarakstu. Ja tā nenotiek, vēlreiz aizveriet lietotni un atveriet to no jauna.
 
-## Instalētājs ar vienu klikšķi (drīzumā)
+## Instalētājs ar vienu klikšķi (Mac)
 
-Drīzumā būs pieejams Mac un Windows instalētājs, kas iestata Fontes visās jūsu lietotnēs
-uzreiz. Tas iestata Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio un Cline. Kad tas būs izlaists:
+Mac instalētājs iestata Fontes visās jūsu lietotnēs uzreiz: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio un Cline. Windows
+instalētājs būs pieejams drīzumā; līdz tam izmantojiet augstāk norādītās darbības savai lietotnei.
 
 **Pirms sākat:** pilnībā aizveriet katru no šīm lietotnēm. Visvairāk tas attiecas uz Claude
 Code: darbības laikā tā pārraksta `~/.claude.json` un var atsaukt instalētāja izmaiņas. Ja
@@ -146,18 +146,16 @@ nevarat aizvērt Claude Code, labāk pievienojiet tai Fontes ar `claude mcp add`
 
 **Mac**
 
-1. Atveriet lejupielādēto mapi **Fontes Installer**.
-2. Veiciet dubultklikšķi uz **Install Fontes.command**.
-   - Ja jūsu Mac ziņo, ka failu “nevar atvērt, jo tas ir no neidentificēta izstrādātāja”:
-     noklikšķiniet uz faila ar peles labo pogu (vai ar Control-klikšķi), izvēlieties **Open**,
-     pēc tam vēlreiz **Open**. Tas jādara tikai vienreiz.
-3. Atveras logs un jautā, vai sūtīt anonīmus lietojuma skaitļus; lai atbildētu “nē”, nospiediet
-   Enter.
-4. Tas jautā, vai pievienot atslēgas tagad. Lai izlaistu, nospiediet Enter; skatiet
-   [Atslēgu solis](#atslēgu-solis).
-5. Kad tas parāda **Done**, atkal atveriet savas MI lietotnes.
+1. Lejupielādējiet Mac instalētāju (`Fontes-Installer-…-mac.zip`) no
+   [jaunākās versijas](https://github.com/ykarapazar/fontes/releases/latest) un veiciet uz tā dubultklikšķi, lai to izpakotu.
+2. Veiciet dubultklikšķi uz **Fontes Installer**. Ja jūsu Mac jautā, vai atvērt no interneta
+   lejupielādētu lietotni, noklikšķiniet uz **Open**.
+3. Izvēlieties **Instalēt** un noklikšķiniet uz **Labi**. Iestatīšana aizņem apmēram minūti.
+4. Ziņojumā ir uzskaitītas lietotnes, kuras tas iestatīja. Noklikšķiniet uz **Gatavs** un pēc tam atkal
+   atveriet šīs lietotnes. Lai vispirms pievienotu neobligātās bezmaksas atslēgas, tā vietā
+   noklikšķiniet uz **Pievienot atslēgas**; skatiet [Atslēgu solis](#atslēgu-solis).
 
-**Windows**
+**Windows** (kad Windows instalētājs būs izlaists)
 
 1. Izpakojiet lejupielādēto **Fontes Installer** (labā poga → Extract All).
 2. Veiciet dubultklikšķi uz **Install Fontes.cmd**.
@@ -204,8 +202,7 @@ Divām lietotnēm vajadzīgs vēl viens solis:
 Uzreiz pēc instalēšanas instalētājs piedāvā pievienot bezmaksas Francijas un ASV atslēgas. Lai
 tās pievienotu vai mainītu vēlāk:
 
-- **Mac:** instalētāja mapē veiciet dubultklikšķi uz **Add or change keys.command** vai vēlreiz
-  atveriet lietotni Fontes Installer un izvēlieties **Add or change keys**.
+- **Mac:** vēlreiz atveriet **Fontes Installer** un izvēlieties **Pievienot vai mainīt atslēgas**.
 - **Windows:** instalētāja mapē veiciet dubultklikšķi uz **Add or change keys.cmd**.
 
 Ievadītais teksts netiek rādīts. Atslēgas tiek ierakstītas katrā lietotnē, kurā jau ir Fontes.
@@ -220,8 +217,8 @@ Kopijās, kas izveidotas pēc atslēgu pievienošanas, ir šīs atslēgas: izdz�
 vajadzīgas. Tas arī instalē uv. Atkārtota palaišana ir droša: tā salabo iestatījumus un neko
 citu nemaina.
 
-Lai noņemtu Fontes, veiciet dubultklikšķi uz **Uninstall Fontes.command** (Mac) vai
-**Uninstall Fontes.cmd** (Windows). Tas no visām lietotnēm noņem ierakstu `fontes`, ieskaitot
+Lai noņemtu Fontes, atveriet **Fontes Installer** un izvēlieties **Noņemt** (Mac) vai veiciet
+dubultklikšķi uz **Uninstall Fontes.cmd** (Windows). Tas no visām lietotnēm noņem ierakstu `fontes`, ieskaitot
 atslēgas. Jūsu pārējie iestatījumi un rezerves kopijas paliek.
 
 ## Atjauninājumi

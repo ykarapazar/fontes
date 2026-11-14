@@ -74,10 +74,11 @@ Fontes خادم MCP مجاني ومفتوح المصدر. يتيح لتطبيق 
 2. **أعِد تشغيل التطبيق.** أغلقه تمامًا ثم افتحه من جديد.
 3. **اسأل:** *"ما الولايات القضائية التي يستطيع Fontes البحث فيها؟"* ينبغي أن يسرد الدول.
 
-أداة تثبيت بنقرة واحدة لنظامَي Mac وWindows قادمة قريبًا. تُعدّ Fontes في Claude Desktop
-وCodex وClaude Code وCursor وVS Code وWindsurf وGemini CLI وZed وLM Studio وCline، في كلٍّ منها
-موجود على حاسوبك، ثم تعرض إضافة مفاتيحك. أغلق تلك التطبيقات قبل تشغيلها. التفاصيل:
-[INSTALL.md](INSTALL.md#أداة-التثبيت-بنقرة-واحدة-قريبا).
+**على جهاز Mac**، تُعدّ أداة تثبيت بنقرة واحدة Fontes في Claude Desktop وCodex وClaude Code وCursor
+وVS Code وWindsurf وGemini CLI وZed وLM Studio وCline، في كلٍّ منها موجود على حاسوبك، ثم
+تعرض إضافة مفاتيحك. نزّل أداة التثبيت لنظام Mac من [أحدث إصدار](https://github.com/ykarapazar/fontes/releases/latest) وأغلق
+تلك التطبيقات قبل تشغيلها. أداة تثبيت لنظام Windows قادمة قريبًا. التفاصيل:
+[INSTALL.md](INSTALL.md#أداة-التثبيت-بنقرة-واحدة-mac).
 بعض المصادر تحتاج إلى مفتاح مجاني: راجع [KEYS.md](KEYS.md).
 
 <!-- map:start -->

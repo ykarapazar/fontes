@@ -119,9 +119,10 @@ of uitgezet.
 
 Elke MCP-app die een lokale (stdio-)server kan draaien, bijvoorbeeld Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio en Cline. Fontes
-draait op macOS, Windows en Linux, overal waar uv draait (Python 3.13+). Een installatieprogramma met één
-klik voor Mac en Windows is in voorbereiding. Het stelt Claude Desktop, Codex, Claude Code, Cursor,
-VS Code, Windsurf, Gemini CLI, Zed, LM Studio en Cline in één keer in. Stappen voor elke app:
+draait op macOS, Windows en Linux, overal waar uv draait (Python 3.13+). Op een Mac stelt een
+installatieprogramma met één klik Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
+Gemini CLI, Zed, LM Studio en Cline in één keer in; een installatieprogramma voor Windows is in
+voorbereiding. Stappen voor elke app:
 [INSTALL.md](INSTALL.md).
 
 ## Kan ik code bijdragen?

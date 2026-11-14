@@ -13,12 +13,12 @@ Tsy voatery ireo fanalahidy. Azonao ampiana any aoriana izy ireo.
 
 ## Fanampiana fanalahidy
 
-**Amin'ny mpametraka.** Mandritra ny fametrahana, manontany ny mpametraka raha te hanampy fanalahidy ianao.
-Safidio ny **Tsy izao** (na tsindrio ny Enter) handinganana. Raha hanampy na hanova fanalahidy any aoriana,
-alefaso ny **Add or change keys**:
+**Amin'ny mpametraka.** Rehefa voapetraka ny Fontes, manolotra ny hanampy fanalahidy ny mpametraka. Amin'ny
+Mac, tsindrio ny **Hanampy fanalahidy**, na ny **Vita** handinganana; amin'ny Windows, valio ilay fanontaniana
+(tsindrio ny Enter handinganana). Raha hanampy na hanova fanalahidy any aoriana, alefaso ny
+**Add or change keys**:
 
-- Mac: sokafy indray ny rindranasa Fontes Installer ary safidio ny **Hanampy na hanova fanalahidy**, na
-  tsindrio indroa ny `Add or change keys.command` ao amin'ny lahatahirin'ny mpametraka.
+- Mac: sokafy indray ny rindranasa Fontes Installer ary safidio ny **Hanampy na hanova fanalahidy**.
 - Windows: tsindrio indroa ny `Add or change keys.cmd` ao amin'ny lahatahirin'ny mpametraka. Hapetraky ny
   programa fametrahana ho an'ny Windows koa izany, rehefa misy, ao amin'ny Start menu > Fontes.
 

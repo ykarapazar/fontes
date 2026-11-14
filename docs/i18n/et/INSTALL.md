@@ -128,11 +128,11 @@ Mõni allikas vajab tasuta võtit: vt [KEYS.md](KEYS.md).
 Küsige uues vestluses: *„Millistes jurisdiktsioonides saab Fontes otsida?“* Rakendus peaks vastama
 riikide loeteluga. Kui ei vasta, sulgege rakendus ja avage see veel kord.
 
-## Ühe klõpsuga paigaldaja (tulekul)
+## Ühe klõpsuga paigaldaja (Mac)
 
-Maci ja Windowsi paigaldaja, mis seadistab Fontese korraga kõigis teie rakendustes, on tulekul. See
-seadistab Claude Desktopi, Codexi, Claude Code'i, Cursori, VS Code'i (GitHub Copilot), Windsurfi, Gemini CLI,
-Zedi, LM Studio ja Cline'i. Kui see on avaldatud:
+Maci paigaldaja seadistab Fontese korraga kõigis teie rakendustes: Claude Desktopis, Codexis, Claude Code'is,
+Cursoris, VS Code'is (GitHub Copilot), Windsurfis, Gemini CLI-s, Zedis, LM Studios ja Cline'is. Windowsi
+paigaldaja on tulekul; seni kasutage ülal oma rakenduse samme.
 
 **Enne alustamist:** sulgege kõik need rakendused täielikult. See on kõige olulisem Claude Code'i puhul:
 töötamise ajal kirjutab see faili `~/.claude.json` üle ja võib paigaldaja muudatuse tagasi võtta. Kui te ei saa
@@ -140,16 +140,15 @@ Claude Code'i sulgeda, lisage Fontes sellesse hoopis käsuga `claude mcp add` (v
 
 **Mac**
 
-1. Avage allalaaditud kaust **Fontes Installer**.
-2. Tehke topeltklõps failil **Install Fontes.command**.
-   - Kui Mac ütleb, et seda ei saa avada ("cannot be opened because it is from an unidentified developer"):
-     paremklõpsake faili (või Control-klõps), valige **Open** ja seejärel uuesti **Open**. Seda on vaja teha
-     ainult üks kord.
-3. Avaneb aken, mis küsib, kas saata anonüümseid kasutuskordade arve; vajutage Enter, et vastata ei.
-4. See küsib, kas lisada võtmed kohe. Vahelejätmiseks vajutage Enter; vt [Võtmete samm](#võtmete-samm).
-5. Kui näete **Done**, avage oma tehisintellekti rakendus uuesti.
+1. Laadige Maci paigaldaja (`Fontes-Installer-…-mac.zip`) alla
+   [viimasest väljalaskest](https://github.com/ykarapazar/fontes/releases/latest) ja tehke sellel lahtipakkimiseks topeltklõps.
+2. Tehke topeltklõps rakendusel **Fontes Installer**. Kui Mac küsib, kas avada internetist allalaaditud
+   rakendus, klõpsake **Open**.
+3. Valige **Paigalda** ja klõpsake **OK**. Seadistamine võtab umbes minuti.
+4. Teade loetleb rakendused, mille see seadistas. Klõpsake **Valmis** ja avage need rakendused uuesti. Kui soovite
+   enne lisada valikulised tasuta võtmed, klõpsake hoopis **Lisa võtmed**; vt [Võtmete samm](#võtmete-samm).
 
-**Windows**
+**Windows** (kui Windowsi paigaldaja on avaldatud)
 
 1. Pakkige allalaaditud **Fontes Installer** lahti (paremklõps → Extract All).
 2. Tehke topeltklõps failil **Install Fontes.cmd**.
@@ -192,8 +191,7 @@ Kaks rakendust vajavad ühte lisasammu:
 Kohe pärast paigaldamist pakub paigaldaja Prantsusmaa ja USA tasuta võtmete lisamist. Võtmete lisamiseks või
 muutmiseks hiljem:
 
-- **Mac:** tehke paigaldaja kaustas topeltklõps failil **Add or change keys.command** või avage
-  rakendus Fontes Installer uuesti ja valige **Add or change keys**.
+- **Mac:** avage **Fontes Installer** uuesti ja valige **Lisa või muuda võtmeid**.
 - **Windows:** tehke paigaldaja kaustas topeltklõps failil **Add or change keys.cmd**.
 
 Sisestatav tekst on peidetud. Võtmed lisatakse igasse rakendusse, kus Fontes juba on. Seejärel sulgege rakendused ja avage
@@ -206,8 +204,8 @@ Enne faili muutmist salvestab see selle kõrvale koopia nimega `<file>.fontes-ba
 mis on tehtud pärast võtmete lisamist, sisaldavad neid võtmeid: kustutage need, mida te enam ei vaja. See
 paigaldab ka uv. Seda on ohutu uuesti käivitada: see parandab seadistuse ega muuda midagi muud.
 
-Fontese eemaldamiseks tehke topeltklõps failil **Uninstall Fontes.command** (Mac) või **Uninstall Fontes.cmd**
-(Windows). See eemaldab `fontes`-kirje koos võtmetega igast rakendusest. Teie muud seaded
+Fontese eemaldamiseks avage **Fontes Installer** ja valige **Eemalda** (Mac) või tehke topeltklõps failil
+**Uninstall Fontes.cmd** (Windows). See eemaldab `fontes`-kirje koos võtmetega igast rakendusest. Teie muud seaded
 ja varukoopiad jäävad alles.
 
 ## Uuendused

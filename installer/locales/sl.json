@@ -34,9 +34,7 @@
  "app_button_cancel": "Prekliči",
  "app_button_ok": "V redu",
  "app_button_keys": "Dodaj ali spremeni ključe",
- "app_button_skip": "Ne zdaj",
  "app_button_guide": "Odpri vodnik",
- "app_keys_ask": "Želite ključe dodati zdaj? To lahko storite tudi pozneje: znova odprite namestitveni program in izberite »Dodaj ali spremeni ključe«.",
  "sh_installing_uv": "Nameščanje orodja uv, ki prenaša in posodablja Fontes (samo enkrat) ...",
  "sh_no_uv": "uv ni nameščen; ničesar ni za odstranitev.",
  "sh_press_enter": "Pritisnite Enter, da zaprete to okno.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Kazalo predpisa z oznakami določb.",
  "mcpb_tool_get_legislation_provision": "Veljavno besedilo enega člena ali razdelka.",
  "mcpb_tool_get_legislation_text": "Celotno prečiščeno besedilo predpisa, po straneh.",
- "mcpb_tool_report_bug": "Pripravi prijavo napake v orodju Fontes; pošlje se samo, če jo uporabnik potrdi."
+ "mcpb_tool_report_bug": "Pripravi prijavo napake v orodju Fontes; pošlje se samo, če jo uporabnik potrdi.",
+ "app_keys_offer": "Neobvezno: brezplačni ključi vklopijo Francijo in zvišajo omejitev iskanja po sodni praksi Združenih držav. Dodajte jih zdaj ali pozneje, tako da znova odprete ta namestitveni program.",
+ "app_button_add_keys": "Dodaj ključe",
+ "app_button_done": "Končano",
+ "app_button_continue": "Nadaljuj",
+ "app_key_unset": "{name}\n\nPrilepite ga spodaj ali pustite polje prazno, da ga preskočite.",
+ "app_key_set": "{name} je že shranjen.\n\nPrilepite novega, da ga zamenjate, pustite polje prazno, da ga obdržite, ali vpišite -, da ga odstranite."
 }

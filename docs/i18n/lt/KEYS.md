@@ -13,12 +13,12 @@ Raktai neprivalomi. Galite juos pridėti vėliau.
 
 ## Rakto pridėjimas
 
-**Su diegimo programa.** Diegimo metu diegimo programa klausia, ar norite pridėti raktus.
-Norėdami praleisti, pasirinkite **Not now** (arba paspauskite Enter). Norėdami pridėti arba
+**Su diegimo programa.** Kai Fontes nustatyta, diegimo programa pasiūlo pridėti raktus.
+Mac kompiuteryje spustelėkite **Pridėti raktus** arba, norėdami praleisti, **Baigta**; Windows
+sistemoje atsakykite į klausimą (norėdami praleisti, paspauskite Enter). Norėdami pridėti arba
 pakeisti raktus vėliau, paleiskite **Add or change keys**:
 
-- Mac: vėl atidarykite programą Fontes Installer ir pasirinkite **Add or change keys** arba
-  diegimo programos aplanke dukart spustelėkite `Add or change keys.command`.
+- Mac: vėl atidarykite programą Fontes Installer ir pasirinkite **Pridėti arba keisti raktus**.
 - Windows: diegimo programos aplanke dukart spustelėkite `Add or change keys.cmd`. Windows
   sąrankos programa, kai bus prieinama, taip pat įdės jį į Start menu > Fontes.
 

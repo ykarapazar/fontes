@@ -132,11 +132,12 @@ Kailangan ng ilang sanggunian ng libreng key: tingnan ang [KEYS.md](KEYS.md).
 Sa isang bagong chat, itanong: *"Aling mga hurisdiksyon ang kayang hanapan ng Fontes?"* Dapat sumagot ang app
 ng listahan ng mga bansa. Kung hindi, isara at buksang muli ang app nang isa pang beses.
 
-## One-click installer (paparating)
+## One-click installer (Mac)
 
-Paparating na ang installer para sa Mac at Windows na nagse-set up ng Fontes sa lahat ng iyong app nang
-sabay-sabay. Sine-set up nito ang Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio at Cline. Kapag nailabas na ito:
+Sine-set up ng installer para sa Mac ang Fontes sa lahat ng iyong app nang sabay-sabay: Claude Desktop,
+Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio at Cline.
+Paparating na ang installer para sa Windows; hanggang doon, gamitin ang mga hakbang para sa iyong app sa
+itaas.
 
 **Bago ka magsimula:** isara nang tuluyan ang bawat isa sa mga app na ito. Pinakamahalaga ito para sa Claude
 Code: habang tumatakbo ito, isinusulat nitong muli ang `~/.claude.json` at maaaring mabura ang binago ng
@@ -145,18 +146,17 @@ installer. Kung hindi mo maisara ang Claude Code, idagdag ang Fontes dito gamit 
 
 **Mac**
 
-1. Buksan ang na-download na folder na **Fontes Installer**.
-2. I-double click ang **Install Fontes.command**.
-   - Kung sinasabi ng iyong Mac na "cannot be opened because it is from an unidentified developer":
-     i-right click (o Control-click) ang file, piliin ang **Open**, at saka **Open** muli. Isang beses mo lang
-     ito kailangang gawin.
-3. Magbubukas ang isang window at magtatanong kung magpapadala ng anonymous na bilang ng paggamit; pindutin
-   ang Enter para sa hindi.
-4. Magtatanong ito kung idaragdag na ang mga key ngayon. Pindutin ang Enter para laktawan; tingnan ang
-   [Hakbang ng mga key](#hakbang-ng-mga-key).
-5. Kapag ipinakita nito ang **Tapos na**, buksang muli ang iyong mga AI app.
+1. I-download ang installer para sa Mac (`Fontes-Installer-…-mac.zip`) mula sa
+   [pinakabagong release](https://github.com/ykarapazar/fontes/releases/latest) at i-double click ito
+   para i-unzip.
+2. I-double click ang **Fontes Installer**. Kung itanong ng iyong Mac kung bubuksan ang isang app na
+   na-download mula sa internet, i-click ang **Open**.
+3. Piliin ang **I-install** at i-click ang **OK**. Mga isang minuto ang pag-set up.
+4. May mensaheng maglilista ng mga app na na-set up nito. I-click ang **Tapos na**, at saka buksang muli
+   ang mga app na iyon. Para idagdag muna ang mga opsyonal na libreng key, i-click sa halip ang
+   **Magdagdag ng mga key**; tingnan ang [Hakbang ng mga key](#hakbang-ng-mga-key).
 
-**Windows**
+**Windows** (kapag nailabas na ang installer para sa Windows)
 
 1. I-unzip ang na-download na **Fontes Installer** (i-right click → Extract All).
 2. I-double click ang **Install Fontes.cmd**.
@@ -202,8 +202,7 @@ Dalawang app ang nangangailangan ng isa pang hakbang:
 Pagkatapos mismo ng pag-install, nag-aalok ang installer na idagdag ang mga libreng key para sa France at US.
 Para idagdag o palitan ang mga ito sa ibang pagkakataon:
 
-- **Mac:** i-double click ang **Add or change keys.command** sa folder ng installer, o buksang muli ang
-  Fontes Installer app at piliin ang **Magdagdag o magpalit ng mga key**.
+- **Mac:** buksang muli ang **Fontes Installer** at piliin ang **Magdagdag o magpalit ng mga key**.
 - **Windows:** i-double click ang **Add or change keys.cmd** sa folder ng installer.
 
 Nakatago ang tina-type. Napupunta ang mga key sa bawat app na mayroon nang Fontes. Isara at buksang muli ang
@@ -217,9 +216,9 @@ nito baguhin ang isang file, nagse-save ito ng kopya sa tabi nito, na pinangalan
 key: burahin ang mga hindi mo na kailangan. Ini-install din nito ang uv. Ligtas itong patakbuhin muli:
 inaayos nito ang setup at wala nang ibang binabago.
 
-Para alisin ang Fontes, i-double click ang **Uninstall Fontes.command** (Mac) o **Uninstall Fontes.cmd**
-(Windows). Inaalis nito ang `fontes` entry, kasama ang mga key, mula sa bawat app. Nananatili ang iba mo pang
-setting at ang mga backup na kopya.
+Para alisin ang Fontes, buksan ang **Fontes Installer** at piliin ang **Alisin** (Mac), o i-double click
+ang **Uninstall Fontes.cmd** (Windows). Inaalis nito ang `fontes` entry, kasama ang mga key, mula sa bawat
+app. Nananatili ang iba mo pang setting at ang mga backup na kopya.
 
 ## Mga update
 

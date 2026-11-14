@@ -76,11 +76,12 @@ Stanje izvora (provjerava se svakodnevno): [ykarapazar.github.io/fontes/status/]
 2. **Ponovno pokrenite aplikaciju.** Potpuno je zatvorite i ponovno otvorite.
 3. **Pitajte:** *„Koje jurisdikcije Fontes može pretraživati?”* Trebala bi navesti države.
 
-Instalacijski program jednim klikom za Mac i Windows je u pripremi. Postavlja Fontes u Claude
-Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio i Cline, u
-svaku od njih koja je na vašem računalu, a zatim nudi da dodate svoje ključeve. Zatvorite te
-aplikacije prije nego što ga pokrenete. Pojedinosti:
-[INSTALL.md](INSTALL.md#instalacijski-program-jednim-klikom-u-pripremi).
+**Na Macu** instalacijski program jednim klikom postavlja Fontes u Claude Desktop, Codex, Claude
+Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio i Cline, u svaku od njih koja je na
+vašem računalu, a zatim nudi da dodate svoje ključeve. Preuzmite instalacijski program za Mac iz
+[najnovijeg izdanja](https://github.com/ykarapazar/fontes/releases/latest) i zatvorite te aplikacije
+prije nego što ga pokrenete. Instalacijski program za Windows je u pripremi. Pojedinosti:
+[INSTALL.md](INSTALL.md#instalacijski-program-jednim-klikom-mac).
 Nekim izvorima potreban je besplatan ključ: pogledajte [KEYS.md](KEYS.md).
 
 <!-- map:start -->

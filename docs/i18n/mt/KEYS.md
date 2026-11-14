@@ -13,12 +13,11 @@ Iċ-ċwievet mhumiex obbligatorji. Tista' żżidhom aktar tard.
 
 ## Kif iżżid ċavetta
 
-**Bl-installer.** Waqt l-installazzjoni, l-installer jistaqsik jekk tridx iżżid ċwievet. Agħżel
-**Not now** (jew agħfas Enter) biex taqbeż. Biex iżżid jew tibdel iċ-ċwievet aktar tard, ħaddem
-**Add or change keys**:
+**Bl-installer.** Ladarba Fontes ikun issettjat, l-installer joffri li jżid iċ-ċwievet. Fuq Mac, agħfas
+**Żid iċ-ċwievet**, jew **Lest** biex taqbeż; fuq Windows, wieġeb il-mistoqsija (agħfas Enter biex
+taqbeż). Biex iżżid jew tibdel iċ-ċwievet aktar tard, ħaddem **Żid jew ibdel iċ-ċwievet**:
 
-- Mac: erġa' iftaħ l-app Fontes Installer u agħżel **Add or change keys**, jew agħfas darbtejn
-  fuq `Add or change keys.command` fil-folder tal-installer.
+- Mac: erġa' iftaħ l-app Fontes Installer u agħżel **Żid jew ibdel iċ-ċwievet**.
 - Windows: agħfas darbtejn fuq `Add or change keys.cmd` fil-folder tal-installer. Il-programm
   tal-installazzjoni għal Windows, ladarba jkun disponibbli, ipoġġih ukoll f'Start menu > Fontes.
 

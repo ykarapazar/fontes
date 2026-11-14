@@ -75,10 +75,12 @@ Kjeldestatus (kontrollert dagleg): [ykarapazar.github.io/fontes/status/](https:/
 2. **Start appen på nytt.** Avslutt han heilt og opne han igjen.
 3. **Spør:** *«Kva jurisdiksjonar kan Fontes søkje i?»* Han skal då liste opp landa.
 
-Eit installasjonsprogram med eitt klikk for Mac og Windows er på veg. Det set opp Fontes i Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio og Cline, i kvar av dei
-som finst på datamaskina di, og tilbyr deretter å leggje til nøklane dine. Avslutt desse appane før du køyrer det. Detaljar:
-[INSTALL.md](INSTALL.md#installasjonsprogram-med-eitt-klikk-på-veg).
+**På Mac** set eit installasjonsprogram med eitt klikk opp Fontes i Claude Desktop, Codex, Claude
+Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio og Cline, i kvar av dei som finst på
+datamaskina di, og tilbyr deretter å leggje til nøklane dine. Last ned Mac-installasjonsprogrammet
+frå den [nyaste utgjevinga](https://github.com/ykarapazar/fontes/releases/latest), og avslutt desse
+appane før du køyrer det. Eit installasjonsprogram for Windows er på veg. Detaljar:
+[INSTALL.md](INSTALL.md#installasjonsprogram-med-eitt-klikk-mac).
 Somme kjelder krev ein gratis nøkkel: sjå [KEYS.md](KEYS.md).
 
 <!-- map:start -->

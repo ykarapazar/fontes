@@ -136,11 +136,11 @@ Yangi suhbatda soʻrang: *“Fontes qaysi yurisdiksiyalarda qidira oladi?”* Il
 roʻyxati bilan javob berishi kerak. Agar bunday boʻlmasa, ilovani yana bir bor yopib, qayta
 oching.
 
-## Bir bosishda ishlaydigan oʻrnatuvchi (tez orada)
+## Bir bosishda ishlaydigan oʻrnatuvchi (Mac)
 
-Tez orada Fontes’ni barcha ilovalaringizda birdaniga sozlaydigan Mac va Windows oʻrnatuvchisi
-chiqadi. U Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini
-CLI, Zed, LM Studio va Cline’ni sozlaydi. U chiqqandan keyin:
+Mac oʻrnatuvchisi Fontes’ni barcha ilovalaringizda birdaniga sozlaydi: Claude Desktop, Codex, Claude
+Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio va Cline. Windows
+oʻrnatuvchisi tez orada chiqadi; ungacha yuqoridagi ilovangiz uchun qadamlardan foydalaning.
 
 **Boshlashdan oldin:** bu ilovalarning har birini butunlay yoping. Bu ayniqsa Claude Code uchun
 muhim: u ishlayotganda `~/.claude.json` ni qayta yozadi va oʻrnatuvchi kiritgan oʻzgarishni bekor
@@ -149,18 +149,17 @@ qoʻshing ([Claude Code](#claude-code) ga qarang).
 
 **Mac**
 
-1. Yuklab olingan **Fontes Installer** jildini oching.
-2. **Install Fontes.command** ni ikki marta bosing.
-   - Agar Mac’ingiz fayl “cannot be opened because it is from an unidentified developer” deb
-     aytsa: faylni sichqonchaning oʻng tugmasi bilan (yoki Control tugmasini bosib turib) bosing,
-     **Open** ni tanlang, soʻng yana **Open** ni bosing. Buni faqat bir marta qilasiz.
-3. Oyna ochiladi va anonim foydalanish hisoblarini yuborish-yubormaslikni soʻraydi; “yoʻq” deb
-   javob berish uchun Enter tugmasini bosing.
-4. U kalitlarni hozir qoʻshish-qoʻshmaslikni soʻraydi. Oʻtkazib yuborish uchun Enter tugmasini
-   bosing; [Kalitlar qadami](#kalitlar-qadami) ga qarang.
-5. U **Tayyor** deb koʻrsatganda, AI ilovalaringizni qayta oching.
+1. Mac oʻrnatuvchisini (`Fontes-Installer-…-mac.zip`) [soʻnggi
+   relizdan](https://github.com/ykarapazar/fontes/releases/latest) yuklab oling va arxivdan
+   chiqarish uchun uni ikki marta bosing.
+2. **Fontes Installer** ni ikki marta bosing. Agar Mac’ingiz internetdan yuklab olingan ilovani
+   ochish-ochmaslikni soʻrasa, **Open** ni bosing.
+3. **Oʻrnatish** ni tanlang va **OK** ni bosing. Sozlash taxminan bir daqiqa davom etadi.
+4. Xabarda u sozlagan ilovalar roʻyxati koʻrsatiladi. **Tayyor** ni bosing, soʻng bu ilovalarni
+   qayta oching. Avval ixtiyoriy bepul kalitlarni qoʻshish uchun buning oʻrniga **Kalitlarni
+   qoʻshish** ni bosing; [Kalitlar qadami](#kalitlar-qadami) ga qarang.
 
-**Windows**
+**Windows** (Windows oʻrnatuvchisi chiqqandan keyin)
 
 1. Yuklab olingan **Fontes Installer** arxivini oching (oʻng tugma → Extract All).
 2. **Install Fontes.cmd** ni ikki marta bosing.
@@ -208,8 +207,7 @@ Ikki ilovaga yana bitta qadam kerak:
 Oʻrnatishdan soʻng darhol oʻrnatuvchi Fransiya va AQSh uchun bepul kalitlarni qoʻshishni taklif
 qiladi. Ularni keyinroq qoʻshish yoki oʻzgartirish uchun:
 
-- **Mac:** oʻrnatuvchi jildidagi **Add or change keys.command** ni ikki marta bosing yoki Fontes
-  Installer ilovasini qayta oching va **Kalitlarni qoʻshish yoki oʻzgartirish** ni tanlang.
+- **Mac:** **Fontes Installer** ni qayta oching va **Kalitlarni qoʻshish yoki oʻzgartirish** ni tanlang.
 - **Windows:** oʻrnatuvchi jildidagi **Add or change keys.cmd** ni ikki marta bosing.
 
 Yozilgan matn yashirin. Kalitlar Fontes allaqachon oʻrnatilgan har bir ilovaga yoziladi. Shundan
@@ -224,8 +222,8 @@ saqlaydi. Kalitlar qoʻshilgandan keyin yaratilgan nusxalarda shu kalitlar boʻl
 boʻlganlarini oʻchiring. U uv’ni ham oʻrnatadi. Uni qayta ishga tushirish xavfsiz: u sozlamani
 tiklaydi va boshqa hech narsani oʻzgartirmaydi.
 
-Fontes’ni olib tashlash uchun **Uninstall Fontes.command** (Mac) yoki **Uninstall Fontes.cmd**
-(Windows) ni ikki marta bosing. U barcha ilovalardan `fontes` yozuvini, kalitlar bilan birga,
+Fontes’ni olib tashlash uchun **Fontes Installer** ni oching va **Olib tashlash** ni tanlang (Mac) yoki
+**Uninstall Fontes.cmd** ni ikki marta bosing (Windows). U barcha ilovalardan `fontes` yozuvini, kalitlar bilan birga,
 olib tashlaydi. Boshqa sozlamalaringiz va zaxira nusxalar qoladi.
 
 ## Yangilanishlar

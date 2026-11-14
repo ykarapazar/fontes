@@ -73,10 +73,11 @@ Gemini CLI, Windsurf, Zed, LM Studio এবং আরও অনেক।
 2. **অ্যাপটি রিস্টার্ট করুন।** এটি পুরোপুরি বন্ধ করে আবার খুলুন।
 3. **জিজ্ঞাসা করুন:** *"Fontes কোন কোন এখতিয়ারে অনুসন্ধান করতে পারে?"* এটি দেশগুলোর তালিকা দেবে।
 
-Mac ও Windows-এর জন্য এক-ক্লিকের একটি ইনস্টলার আসছে। এটি আপনার কম্পিউটারে থাকা Claude Desktop, Codex,
-Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ও Cline-এর প্রতিটিতে Fontes সেট আপ করে,
-তারপর আপনার কী (key) যোগ করার প্রস্তাব দেয়। এটি চালানোর আগে ওই অ্যাপগুলো বন্ধ করুন। বিস্তারিত:
-[INSTALL.md](INSTALL.md#এক-ক্লিকের-ইনস্টলার-আসছে)।
+**Mac-এ**, এক-ক্লিকের একটি ইনস্টলার আপনার কম্পিউটারে থাকা Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio ও Cline-এর প্রতিটিতে Fontes সেট আপ করে, তারপর আপনার কী (key) যোগ
+করার প্রস্তাব দেয়। [সর্বশেষ রিলিজ](https://github.com/ykarapazar/fontes/releases/latest) থেকে Mac ইনস্টলারটি ডাউনলোড করুন
+এবং এটি চালানোর আগে ওই অ্যাপগুলো বন্ধ করুন। Windows-এর জন্য একটি ইনস্টলার আসছে। বিস্তারিত:
+[INSTALL.md](INSTALL.md#এক-ক্লিকের-ইনস্টলার-mac)।
 কিছু উৎসের জন্য বিনামূল্যের একটি কী প্রয়োজন: দেখুন [KEYS.md](KEYS.md)।
 
 <!-- map:start -->

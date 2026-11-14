@@ -115,9 +115,9 @@ ICJ និង WTO)។
 
 កម្មវិធី MCP ណាក៏ដោយដែលអាចដំណើរការម៉ាស៊ីនមេមូលដ្ឋាន (stdio) បាន ឧទាហរណ៍ Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio និង Cline។ Fontes
-ដំណើរការនៅលើ macOS, Windows និង Linux គ្រប់ទីកន្លែងដែល uv ដំណើរការ (Python 3.13+)។ កម្មវិធីដំឡើងចុចតែម្ដងសម្រាប់ Mac និង Windows នឹងមកដល់ឆាប់ៗ។ វារៀបចំ
+ដំណើរការនៅលើ macOS, Windows និង Linux គ្រប់ទីកន្លែងដែល uv ដំណើរការ (Python 3.13+)។ នៅលើ Mac កម្មវិធីដំឡើងចុចតែម្ដងរៀបចំ
 Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio និង
-Cline ក្នុងពេលតែមួយ។ ជំហានសម្រាប់កម្មវិធីនីមួយៗ៖ [INSTALL.md](INSTALL.md)។
+Cline ក្នុងពេលតែមួយ; កម្មវិធីដំឡើងសម្រាប់ Windows នឹងមកដល់ឆាប់ៗ។ ជំហានសម្រាប់កម្មវិធីនីមួយៗ៖ [INSTALL.md](INSTALL.md)។
 
 ## តើខ្ញុំអាចចូលរួមចំណែកកូដបានឬទេ?
 

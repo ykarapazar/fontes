@@ -34,9 +34,7 @@
  "app_button_cancel": "Anulare",
  "app_button_ok": "OK",
  "app_button_keys": "Adăugați sau modificați cheile",
- "app_button_skip": "Nu acum",
  "app_button_guide": "Deschideți ghidul",
- "app_keys_ask": "Adăugați cheile acum? Puteți face asta și mai târziu: deschideți din nou programul de instalare și alegeți „Adăugați sau modificați cheile”.",
  "sh_installing_uv": "Se instalează uv, instrumentul care descarcă și actualizează Fontes (o singură dată)...",
  "sh_no_uv": "uv nu este instalat; nimic de eliminat.",
  "sh_press_enter": "Apăsați Enter pentru a închide această fereastră.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Cuprinsul unei legi, cu etichetele dispozițiilor.",
  "mcpb_tool_get_legislation_provision": "Textul în vigoare al unui articol sau al unei secțiuni.",
  "mcpb_tool_get_legislation_text": "Textul integral în formă consolidată al unei legi, pe pagini.",
- "mcpb_tool_report_bug": "Pregătește un raport de eroare Fontes; trimis doar dacă utilizatorul îl confirmă."
+ "mcpb_tool_report_bug": "Pregătește un raport de eroare Fontes; trimis doar dacă utilizatorul îl confirmă.",
+ "app_keys_offer": "Opțional: cheile gratuite activează Franța și măresc limita de căutare în jurisprudența Statelor Unite. Adăugați-le acum sau mai târziu, deschizând din nou acest program de instalare.",
+ "app_button_add_keys": "Adăugare chei",
+ "app_button_done": "Gata",
+ "app_button_continue": "Continuare",
+ "app_key_unset": "{name}\n\nLipiți-o mai jos sau lăsați câmpul gol pentru a o sări.",
+ "app_key_set": "{name} este deja salvat.\n\nLipiți una nouă pentru a o înlocui, lăsați câmpul gol pentru a o păstra sau tastați - pentru a o elimina."
 }

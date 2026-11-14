@@ -115,9 +115,9 @@ Fontes هر هغه ځواب ته چې له دې څخه له یوې څخه راځ
 
 هر MCP اپ چې محلي (stdio) سرور چلولای شي، د بېلګې په توګه Claude Desktop، Claude Code،
 Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed، LM Studio او Cline. Fontes
-په macOS، Windows او Linux کې چلېږي، هر چېرې چې uv چلېږي (Python 3.13+). د Mac او Windows لپاره یو یو-کلیک نصبوونکی په لاره کې دی. دا
+په macOS، Windows او Linux کې چلېږي، هر چېرې چې uv چلېږي (Python 3.13+). په Mac کې، یو یو-کلیک نصبوونکی
 Claude Desktop، Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio او
-Cline په یو ځل جوړوي. د هر اپ ګامونه: [INSTALL.md](INSTALL.md).
+Cline په یو ځل جوړوي؛ د Windows نصبوونکی په لاره کې دی. د هر اپ ګامونه: [INSTALL.md](INSTALL.md).
 
 ## ایا کوډ کې ونډه اخیستلای شم؟
 

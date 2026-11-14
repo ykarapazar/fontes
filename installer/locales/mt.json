@@ -34,9 +34,7 @@
  "app_button_cancel": "Ikkanċella",
  "app_button_ok": "OK",
  "app_button_keys": "Żid jew ibdel iċ-ċwievet",
- "app_button_skip": "Mhux issa",
  "app_button_guide": "Iftaħ il-gwida",
- "app_keys_ask": "Iżżid iċ-ċwievet issa? Tista' tagħmel dan ukoll aktar tard: erġa' iftaħ l-installer u agħżel \"Żid jew ibdel iċ-ċwievet\".",
  "sh_installing_uv": "Qed jiġi installat uv, l-għodda li tniżżel u taġġorna Fontes (darba biss)...",
  "sh_no_uv": "uv mhuwiex installat; m'hemm xejn x'jitneħħa.",
  "sh_press_enter": "Agħfas Enter biex tagħlaq din it-tieqa.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Werrej ta' liġi bit-tikketti tad-dispożizzjonijiet.",
  "mcpb_tool_get_legislation_provision": "It-test kurrenti ta' artikolu jew sezzjoni waħda.",
  "mcpb_tool_get_legislation_text": "It-test konsolidat sħiħ ta' liġi, f'paġni.",
- "mcpb_tool_report_bug": "Iħejji rapport ta' żball ta' Fontes; jintbagħat biss jekk l-utent jikkonfermah."
+ "mcpb_tool_report_bug": "Iħejji rapport ta' żball ta' Fontes; jintbagħat biss jekk l-utent jikkonfermah.",
+ "app_keys_offer": "Mhux obbligatorju: ċwievet b'xejn jixgħelu Franza u jgħollu l-limitu tat-tfittxija tal-ġurisprudenza tal-Istati Uniti. Żidhom issa, jew aktar tard billi terġa' tiftaħ dan l-installer.",
+ "app_button_add_keys": "Żid iċ-ċwievet",
+ "app_button_done": "Lest",
+ "app_button_continue": "Kompli",
+ "app_key_unset": "{name}\n\nWaħħlu hawn taħt, jew ħalli l-kaxxa vojta biex taqbżu.",
+ "app_key_set": "{name} huwa diġà salvat.\n\nWaħħal wieħed ġdid biex tissostitwih, ħalli l-kaxxa vojta biex iżżommu, jew ikteb - biex tneħħih."
 }

@@ -128,11 +128,12 @@ Jotkin lähteet tarvitsevat maksuttoman avaimen: katso [KEYS.md](KEYS.md).
 Kysy uudessa keskustelussa: *”Mistä lainkäyttöalueista Fontes voi hakea?”* Sovelluksen pitäisi vastata
 luettelolla maista. Jos se ei vastaa, sulje sovellus ja avaa se vielä kerran.
 
-## Yhden napsautuksen asennusohjelma (tulossa)
+## Yhden napsautuksen asennusohjelma (Mac)
 
-Macin ja Windowsin asennusohjelma, joka ottaa Fontesin käyttöön kaikissa sovelluksissasi kerralla, on tulossa. Se
-ottaa käyttöön Claude Desktopin, Codexin, Claude Coden, Cursorin, VS Coden (GitHub Copilot), Windsurfin, Gemini CLI:n,
-Zedin, LM Studion ja Clinen. Kun se on julkaistu:
+Macin asennusohjelma ottaa Fontesin käyttöön kaikissa sovelluksissasi kerralla: Claude Desktopissa,
+Codexissa, Claude Codessa, Cursorissa, VS Codessa (GitHub Copilot), Windsurfissa, Gemini CLI:ssä,
+Zedissä, LM Studiossa ja Clinessä. Windowsin asennusohjelma on tulossa; käytä siihen asti yllä
+olevia oman sovelluksesi ohjeita.
 
 **Ennen kuin aloitat:** sulje jokainen näistä sovelluksista kokonaan. Tämä on tärkeintä Claude Coden kohdalla:
 käynnissä ollessaan se kirjoittaa tiedoston `~/.claude.json` uudelleen ja voi kumota asennusohjelman muutoksen. Jos et voi
@@ -140,16 +141,17 @@ sulkea Claude Codea, lisää Fontes siihen sen sijaan komennolla `claude mcp add
 
 **Mac**
 
-1. Avaa ladattu **Fontes Installer** -kansio.
-2. Kaksoisnapsauta **Install Fontes.command**.
-   - Jos Mac ilmoittaa, ettei tiedostoa voi avata ("cannot be opened because it is from an unidentified developer"):
-     napsauta tiedostoa hiiren oikealla painikkeella (tai Control-napsauta), valitse **Open** ja sitten uudelleen **Open**. Tämä tarvitsee
-     tehdä vain kerran.
-3. Avautuu ikkuna, joka kysyy, lähetetäänkö nimettömiä käyttömääriä; paina Enter vastataksesi ei.
-4. Se kysyy, lisätäänkö avaimet nyt. Paina Enter ohittaaksesi; katso [Avainvaihe](#avainvaihe).
-5. Kun näkyy **Done**, avaa tekoälysovelluksesi uudelleen.
+1. Lataa Macin asennusohjelma (`Fontes-Installer-…-mac.zip`) [uusimmasta
+   julkaisusta](https://github.com/ykarapazar/fontes/releases/latest) ja pura se
+   kaksoisnapsauttamalla.
+2. Kaksoisnapsauta **Fontes Installer**. Jos Mac kysyy, haluatko avata internetistä ladatun
+   sovelluksen, napsauta **Open**.
+3. Valitse **Asenna** ja napsauta **OK**. Käyttöönotto kestää noin minuutin.
+4. Ilmoitus luettelee sovellukset, jotka se otti käyttöön. Napsauta **Valmis** ja avaa sitten nämä
+   sovellukset uudelleen. Jos haluat lisätä valinnaiset ilmaiset avaimet ensin, napsauta sen sijaan
+   **Lisää avaimet**; katso [Avainvaihe](#avainvaihe).
 
-**Windows**
+**Windows** (kun Windowsin asennusohjelma on julkaistu)
 
 1. Pura ladattu **Fontes Installer** (hiiren oikea painike → Extract All).
 2. Kaksoisnapsauta **Install Fontes.cmd**.
@@ -192,8 +194,7 @@ Kaksi sovellusta tarvitsee yhden lisävaiheen:
 Heti asennuksen jälkeen asennusohjelma tarjoutuu lisäämään maksuttomat avaimet Ranskaa ja Yhdysvaltoja varten. Avainten lisääminen tai
 muuttaminen myöhemmin:
 
-- **Mac:** kaksoisnapsauta **Add or change keys.command** asennuskansiossa tai avaa
-  Fontes Installer -sovellus uudelleen ja valitse **Add or change keys**.
+- **Mac:** avaa **Fontes Installer** uudelleen ja valitse **Lisää tai vaihda avaimia**.
 - **Windows:** kaksoisnapsauta **Add or change keys.cmd** asennuskansiossa.
 
 Kirjoittamasi teksti on piilotettu. Avaimet lisätään jokaiseen sovellukseen, jossa Fontes jo on. Sulje sovellukset ja avaa ne
@@ -206,8 +207,7 @@ Ennen tiedoston muuttamista se tallentaa sen viereen kopion nimeltä `<file>.fon
 jotka on tehty avainten lisäämisen jälkeen, sisältävät nuo avaimet: poista ne, joita et enää tarvitse. Se
 asentaa myös uv:n. Sen voi turvallisesti ajaa uudelleen: se korjaa asetukset eikä muuta mitään muuta.
 
-Poista Fontes kaksoisnapsauttamalla **Uninstall Fontes.command** (Mac) tai **Uninstall Fontes.cmd**
-(Windows). Se poistaa `fontes`-merkinnän avaimineen jokaisesta sovelluksesta. Muut asetuksesi
+Poista Fontes avaamalla **Fontes Installer** ja valitsemalla **Poista** (Mac) tai kaksoisnapsauttamalla **Uninstall Fontes.cmd** (Windows). Se poistaa `fontes`-merkinnän avaimineen jokaisesta sovelluksesta. Muut asetuksesi
 ja varmuuskopiot säilyvät.
 
 ## Päivitykset

@@ -132,11 +132,11 @@ I gcomhrá nua, fiafraigh: *"Cé na dlínsí ar féidir le Fontes a chuardach?"*
 liosta tíortha a thabhairt mar fhreagra. Mura dtugann, scoir den aip agus oscail arís í uair
 amháin eile.
 
-## Suiteálaí aon chliceáil (ar an mbealach)
+## Suiteálaí aon chliceáil (Mac)
 
-Tá suiteálaí Mac agus Windows ar an mbealach a shocraíonn Fontes i do chuid aipeanna go léir in
-éineacht. Socraíonn sé Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio agus Cline. Nuair a bheidh sé eisithe:
+Socraíonn suiteálaí Mac Fontes i do chuid aipeanna go léir in éineacht: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio agus Cline. Tá
+suiteálaí Windows ar an mbealach; go dtí sin, lean na céimeanna do d'aip thuas.
 
 **Sula dtosaíonn tú:** scoir go hiomlán de gach ceann de na haipeanna seo. Is tábhachtaí é seo i
 gcás Claude Code: fad atá sé ag rith, athscríobhann sé `~/.claude.json` agus féadann sé athrú an
@@ -145,18 +145,16 @@ ionad sin (féach [Claude Code](#claude-code)).
 
 **Mac**
 
-1. Oscail an fillteán **Fontes Installer** a d'íoslódáil tú.
-2. Déchliceáil **Install Fontes.command**.
-   - Má deir do Mac nach féidir é a oscailt "because it is from an unidentified developer":
-     deaschliceáil (nó Control-cliceáil) an comhad, roghnaigh **Open**, ansin **Open** arís. Ní
-     dhéanann tú é seo ach uair amháin.
-3. Osclaítear fuinneog agus fiafraíonn sé ar cheart comhairimh úsáide gan ainm a sheoladh; brúigh
-   Enter le haghaidh "ní hea".
-4. Fiafraíonn sé ar mhaith leat eochracha a chur leis anois. Brúigh Enter chun scipeáil; féach
-   [Céim na n-eochracha](#céim-na-n-eochracha).
-5. Nuair a deir sé **Done**, oscail do chuid aipeanna IS arís.
+1. Íoslódáil suiteálaí Mac (`Fontes-Installer-…-mac.zip`) ón
+   [eisiúint is déanaí](https://github.com/ykarapazar/fontes/releases/latest) agus déchliceáil é chun é a dhízipeáil.
+2. Déchliceáil **Fontes Installer**. Má fhiafraíonn do Mac ar cheart aip a íoslódáladh ón
+   idirlíon a oscailt, cliceáil **Open**.
+3. Roghnaigh **Suiteáil** agus cliceáil **OK**. Tógann an socrú thart ar nóiméad.
+4. Liostaíonn teachtaireacht na haipeanna a shocraigh sé. Cliceáil **Déanta**, ansin oscail na
+   haipeanna sin arís. Chun na heochracha roghnacha saor in aisce a chur leis ar dtús, cliceáil
+   **Cuir eochracha leis** ina ionad sin; féach [Céim na n-eochracha](#céim-na-n-eochracha).
 
-**Windows**
+**Windows** (nuair a bheidh suiteálaí Windows eisithe)
 
 1. Dízipeáil an **Fontes Installer** a d'íoslódáil tú (deaschliceáil → Extract All).
 2. Déchliceáil **Install Fontes.cmd**.
@@ -201,8 +199,7 @@ Teastaíonn céim amháin eile ó dhá aip:
 Díreach tar éis na suiteála, tairgeann an suiteálaí na heochracha saor in aisce don Fhrainc agus
 do na SA a chur leis. Chun iad a chur leis nó a athrú níos déanaí:
 
-- **Mac:** déchliceáil **Add or change keys.command** i bhfillteán an tsuiteálaí, nó oscail aip
-  Fontes Installer arís agus roghnaigh **Add or change keys**.
+- **Mac:** oscail **Fontes Installer** arís agus roghnaigh **Cuir eochracha leis nó athraigh iad**.
 - **Windows:** déchliceáil **Add or change keys.cmd** i bhfillteán an tsuiteálaí.
 
 Tá an clóscríobh folaithe. Téann na heochracha isteach i ngach aip a bhfuil Fontes inti cheana.
@@ -217,9 +214,9 @@ bhí. Sula n-athraíonn sé comhad, sábhálann sé cóip in aice leis, darb ain
 chur leis: scrios na cinn nach bhfuil uait a thuilleadh. Suiteálann sé uv freisin. Is sábháilte é a
 rith arís: deisíonn sé an socrú agus ní athraíonn sé aon rud eile.
 
-Chun Fontes a bhaint, déchliceáil **Uninstall Fontes.command** (Mac) nó **Uninstall Fontes.cmd**
-(Windows). Baineann sé an iontráil `fontes`, eochracha san áireamh, de gach aip. Fanann do
-shocruithe eile agus na cóipeanna cúltaca.
+Chun Fontes a bhaint, oscail **Fontes Installer** agus roghnaigh **Bain** (Mac), nó déchliceáil
+**Uninstall Fontes.cmd** (Windows). Baineann sé an iontráil `fontes`, eochracha san áireamh, de
+gach aip. Fanann do shocruithe eile agus na cóipeanna cúltaca.
 
 ## Nuashonruithe
 

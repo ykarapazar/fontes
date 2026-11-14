@@ -13,12 +13,12 @@ Imfunguzo si itegeko. Ushobora kuzongeraho nyuma.
 
 ## Kongeraho urufunguzo
 
-**Ukoresheje porogaramu yo gushyiraho.** Mu gihe cyo gushyiraho, porogaramu yo gushyiraho ikubaza niba
-ushaka kongeraho imfunguzo. Hitamo **Ubu oya** (cyangwa ukande Enter) kugira ngo usimbuke. Kugira ngo
-wongereho cyangwa uhindure imfunguzo nyuma, koresha **Ongeraho cyangwa uhindure imfunguzo**:
+**Ukoresheje porogaramu yo gushyiraho.** Fontes imaze gushyirwaho, porogaramu yo gushyiraho igusaba
+kongeraho imfunguzo. Kuri Mac, kanda **Ongeraho imfunguzo**, cyangwa **Byarangiye** kugira ngo
+usimbuke; kuri Windows, subiza ikibazo (kanda Enter kugira ngo usimbuke). Kugira ngo wongereho
+cyangwa uhindure imfunguzo nyuma, koresha **Ongeraho cyangwa uhindure imfunguzo**:
 
-- Mac: ongera ufungure porogaramu Fontes Installer uhitemo **Ongeraho cyangwa uhindure imfunguzo**,
-  cyangwa ukande kabiri kuri `Add or change keys.command` mu bubiko bwa porogaramu yo gushyiraho.
+- Mac: ongera ufungure porogaramu Fontes Installer uhitemo **Ongeraho cyangwa uhindure imfunguzo**.
 - Windows: kanda kabiri kuri `Add or change keys.cmd` mu bubiko bwa porogaramu yo gushyiraho. Porogaramu
   yo gushyiraho ya Windows, nimara kuboneka, izabishyira no muri Start menu > Fontes.
 

@@ -13,12 +13,12 @@ Cheile sunt opționale. Le puteți adăuga mai târziu.
 
 ## Adăugarea unei chei
 
-**Cu programul de instalare.** În timpul instalării, programul de instalare vă întreabă dacă doriți să
-adăugați chei. Alegeți **Nu acum** (sau apăsați Enter) pentru a sări peste acest pas. Pentru a adăuga sau
+**Cu programul de instalare.** După ce Fontes este configurat, programul de instalare se oferă să adauge
+chei. Pe Mac, faceți clic pe **Adăugare chei** sau pe **Gata** pentru a sări peste acest pas; pe Windows,
+răspundeți la întrebare (apăsați Enter pentru a sări peste ea). Pentru a adăuga sau
 modifica cheile mai târziu, rulați **Adăugați sau modificați cheile**:
 
-- Mac: deschideți din nou aplicația Fontes Installer și alegeți **Adăugați sau modificați cheile** sau faceți
-  dublu clic pe `Add or change keys.command` în folderul programului de instalare.
+- Mac: deschideți din nou aplicația Fontes Installer și alegeți **Adăugați sau modificați cheile**.
 - Windows: faceți dublu clic pe `Add or change keys.cmd` în folderul programului de instalare. Programul de
   instalare pentru Windows, după ce va fi disponibil, îl pune și în Start menu > Fontes.
 

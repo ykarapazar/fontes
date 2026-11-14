@@ -130,11 +130,12 @@ Algunas fuentes necesitan una clave gratuita: consulte [KEYS.md](KEYS.md).
 En un chat nuevo, pregunte: *«¿En qué jurisdicciones puede buscar Fontes?»* La aplicación debería
 responder con una lista de países. Si no lo hace, cierre y vuelva a abrir la aplicación una vez más.
 
-## Instalador en un clic (en camino)
+## Instalador en un clic (Mac)
 
-Está en camino un instalador para Mac y Windows que configura Fontes en todas sus aplicaciones a la
-vez. Configura Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf,
-Gemini CLI, Zed, LM Studio y Cline. Cuando se publique:
+El instalador para Mac configura Fontes en todas sus aplicaciones a la vez: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio y Cline. Está en
+camino un instalador para Windows; mientras tanto, siga los pasos de su aplicación que aparecen más
+arriba.
 
 **Antes de empezar:** cierre por completo cada una de estas aplicaciones. Esto es especialmente
 importante para Claude Code: mientras se ejecuta, reescribe `~/.claude.json` y puede deshacer el
@@ -143,19 +144,17 @@ cambio del instalador. Si no puede cerrar Claude Code, añada Fontes con `claude
 
 **Mac**
 
-1. Abra la carpeta descargada **Fontes Installer**.
-2. Haga doble clic en **Install Fontes.command**.
-   - Si su Mac dice que "cannot be opened because it is from an unidentified developer" (no se puede
-     abrir porque procede de un desarrollador no identificado): haga clic con el botón derecho (o
-     Control-clic) en el archivo, elija **Open** y luego **Open** otra vez. Solo tiene que hacerlo
-     una vez.
-3. Se abre una ventana que le pregunta si desea enviar recuentos de uso anónimos; pulse Intro para
-   responder que no.
-4. Le pregunta si desea añadir claves ahora. Pulse Intro para omitirlo; consulte
-   [El paso de las claves](#el-paso-de-las-claves).
-5. Cuando diga **Listo**, vuelva a abrir sus aplicaciones de IA.
+1. Descargue el instalador para Mac (`Fontes-Installer-…-mac.zip`) de la [última
+   versión](https://github.com/ykarapazar/fontes/releases/latest) y haga doble clic en él para
+   descomprimirlo.
+2. Haga doble clic en **Fontes Installer**. Si su Mac le pregunta si desea abrir una aplicación
+   descargada de internet, haga clic en **Abrir**.
+3. Elija **Instalar** y haga clic en **Aceptar**. La configuración tarda alrededor de un minuto.
+4. Un mensaje enumera las aplicaciones que ha configurado. Haga clic en **Listo** y vuelva a abrir
+   esas aplicaciones. Para añadir antes las claves gratuitas opcionales, haga clic en **Añadir
+   claves**; consulte [El paso de las claves](#el-paso-de-las-claves).
 
-**Windows**
+**Windows** (cuando se publique el instalador para Windows)
 
 1. Descomprima el archivo descargado **Fontes Installer** (botón derecho → Extract All).
 2. Haga doble clic en **Install Fontes.cmd**.
@@ -201,8 +200,7 @@ Dos aplicaciones necesitan un paso más:
 Justo después de instalar, el instalador le ofrece añadir las claves gratuitas de Francia y de
 EE. UU. Para añadirlas o cambiarlas más tarde:
 
-- **Mac:** haga doble clic en **Add or change keys.command** en la carpeta del instalador, o vuelva a
-  abrir la aplicación Fontes Installer y elija **Añadir o cambiar claves**.
+- **Mac:** vuelva a abrir **Fontes Installer** y elija **Añadir o cambiar claves**.
 - **Windows:** haga doble clic en **Add or change keys.cmd** en la carpeta del instalador.
 
 Lo que escriba no se muestra. Las claves se añaden a todas las aplicaciones que ya tienen Fontes.
@@ -217,8 +215,8 @@ estaban. Antes de modificar un archivo, guarda una copia junto a él, llamada
 elimine las que ya no necesite. También instala uv. Volver a ejecutarlo es seguro: repara la
 configuración y no cambia nada más.
 
-Para quitar Fontes, haga doble clic en **Uninstall Fontes.command** (Mac) o **Uninstall Fontes.cmd**
-(Windows). Elimina la entrada `fontes`, claves incluidas, de todas las aplicaciones. Sus demás ajustes
+Para quitar Fontes, abra **Fontes Installer** y elija **Eliminar** (Mac), o haga doble clic en
+**Uninstall Fontes.cmd** (Windows). Elimina la entrada `fontes`, claves incluidas, de todas las aplicaciones. Sus demás ajustes
 y las copias de seguridad se conservan.
 
 ## Actualizaciones

@@ -97,9 +97,9 @@ fontesmcp@proton.me。該來源會改正或者關忒。
 
 任何做得執行本機（stdio）伺服器个 MCP 應用程式，例如 Claude Desktop、Claude Code、Codex、Cursor、
 VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio 同 Cline。Fontes 做得在 macOS、Windows 同
-Linux 頂執行，凡係 uv 做得執行个所在都做得（Python 3.13+）。Mac 同 Windows 个一鍵安裝程式
-就會推出。佢會一擺設定好 Claude Desktop、Codex、Claude Code、Cursor、VS Code、Windsurf、Gemini CLI、Zed、
-LM Studio 同 Cline。每一个應用程式个步驟：[INSTALL.md](INSTALL.md)。
+Linux 頂執行，凡係 uv 做得執行个所在都做得（Python 3.13+）。在 Mac 頂，一鍵安裝程式
+會一擺設定好 Claude Desktop、Codex、Claude Code、Cursor、VS Code、Windsurf、Gemini CLI、Zed、
+LM Studio 同 Cline；Windows 个安裝程式就會推出。每一个應用程式个步驟：[INSTALL.md](INSTALL.md)。
 
 ## 𠊎做得貢獻程式碼無？
 

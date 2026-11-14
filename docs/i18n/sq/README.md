@@ -74,11 +74,12 @@ Gjendja e burimeve (kontrollohet çdo ditë): [ykarapazar.github.io/fontes/statu
 2. **Rinisni aplikacionin.** Mbylleni plotësisht dhe hapeni sërish.
 3. **Pyesni:** *"Në cilat juridiksione mund të kërkojë Fontes?"* Duhet të listojë vendet.
 
-Një instalues me një klik për Mac dhe Windows është në rrugë. Ai e konfiguron Fontes në Claude
-Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio dhe Cline, në
-secilin prej tyre që gjendet në kompjuterin tuaj, pastaj ofron të shtojë çelësat tuaj. Mbyllini
-këto aplikacione para se ta ekzekutoni. Hollësi:
-[INSTALL.md](INSTALL.md#instaluesi-me-një-klik-së-shpejti).
+**Në Mac**, një instalues me një klik e konfiguron Fontes në Claude Desktop, Codex, Claude Code,
+Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio dhe Cline, në secilin prej tyre që gjendet në
+kompjuterin tuaj, pastaj ofron të shtojë çelësat tuaj. Shkarkoni instaluesin për Mac nga
+[versioni më i fundit](https://github.com/ykarapazar/fontes/releases/latest) dhe mbyllini këto aplikacione para
+se ta ekzekutoni. Një instalues për Windows është në rrugë. Hollësi:
+[INSTALL.md](INSTALL.md#instaluesi-me-një-klik-mac).
 Disa burime kërkojnë një çelës falas: shihni [KEYS.md](KEYS.md).
 
 <!-- map:start -->

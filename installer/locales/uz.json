@@ -34,9 +34,7 @@
  "app_button_cancel": "Bekor qilish",
  "app_button_ok": "OK",
  "app_button_keys": "Kalitlarni qoʻshish yoki oʻzgartirish",
- "app_button_skip": "Hozir emas",
  "app_button_guide": "Qoʻllanmani ochish",
- "app_keys_ask": "Kalitlar hozir qoʻshilsinmi? Buni keyinroq ham qilishingiz mumkin: oʻrnatuvchini qayta oching va “Kalitlarni qoʻshish yoki oʻzgartirish”ni tanlang.",
  "sh_installing_uv": "Fontes dasturini yuklab oladigan va yangilaydigan uv vositasi oʻrnatilmoqda (bir martalik)...",
  "sh_no_uv": "uv oʻrnatilmagan; olib tashlanadigan narsa yoʻq.",
  "sh_press_enter": "Bu oynani yopish uchun Enter tugmasini bosing.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Qonunning modda belgilari koʻrsatilgan mundarijasi.",
  "mcpb_tool_get_legislation_provision": "Bitta modda yoki boʻlimning amaldagi matni.",
  "mcpb_tool_get_legislation_text": "Qonunning barcha oʻzgartishlar kiritilgan toʻliq matni, sahifalab.",
- "mcpb_tool_report_bug": "Fontes xatolik hisobotini tayyorlash; faqat foydalanuvchi tasdiqlasa yuboriladi."
+ "mcpb_tool_report_bug": "Fontes xatolik hisobotini tayyorlash; faqat foydalanuvchi tasdiqlasa yuboriladi.",
+ "app_keys_offer": "Ixtiyoriy: bepul kalitlar Fransiyani yoqadi va AQSh sud amaliyoti boʻyicha qidiruv cheklovini oshiradi. Ularni hozir qoʻshing yoki keyinroq ushbu oʻrnatuvchini qayta ochib qoʻshing.",
+ "app_button_add_keys": "Kalitlarni qoʻshish",
+ "app_button_done": "Tayyor",
+ "app_button_continue": "Davom etish",
+ "app_key_unset": "{name}\n\nUni quyiga qoʻying yoki oʻtkazib yuborish uchun maydonni boʻsh qoldiring.",
+ "app_key_set": "{name} allaqachon saqlangan.\n\nAlmashtirish uchun yangisini qoʻying, saqlab qolish uchun maydonni boʻsh qoldiring yoki olib tashlash uchun - ni kiriting."
 }

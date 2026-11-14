@@ -13,12 +13,12 @@ Anahtarlar isteğe bağlıdır. Bunları daha sonra ekleyebilirsiniz.
 
 ## Anahtar eklemek
 
-**Kurulum programıyla.** Kurulum sırasında kurulum programı anahtar eklemek isteyip istemediğinizi
-sorar. Atlamak için **Şimdi değil**'i seçin (veya Enter'a basın). Anahtarları daha sonra eklemek veya
-değiştirmek için **Anahtar ekle veya değiştir**'i çalıştırın:
+**Kurulum programıyla.** Fontes kurulduktan sonra kurulum programı anahtar eklemeyi önerir. Mac'te
+**Anahtar ekle**'ye ya da atlamak için **Bitti**'ye tıklayın; Windows'ta soruyu yanıtlayın (atlamak için
+Enter'a basın). Anahtarları daha sonra eklemek veya değiştirmek için **Anahtar ekle veya değiştir**'i
+çalıştırın:
 
-- Mac: Fontes Installer uygulamasını yeniden açıp **Anahtar ekle veya değiştir**'i seçin ya da kurulum
-  programı klasöründeki `Add or change keys.command` dosyasına çift tıklayın.
+- Mac: Fontes Installer uygulamasını yeniden açıp **Anahtar ekle veya değiştir**'i seçin.
 - Windows: kurulum programı klasöründeki `Add or change keys.cmd` dosyasına çift tıklayın. Windows
   kurulum programı, kullanıma sunulduğunda, bunu Start menu > Fontes altına da koyar.
 

@@ -13,12 +13,12 @@ Opsyonal ang mga key. Maaari mo itong idagdag sa ibang pagkakataon.
 
 ## Pagdaragdag ng key
 
-**Gamit ang installer.** Habang nag-i-install, tinatanong ng installer kung gusto mong magdagdag ng mga key.
-Piliin ang **Hindi ngayon** (o pindutin ang Enter) para laktawan. Para magdagdag o magpalit ng mga key sa ibang
-pagkakataon, patakbuhin ang **Add or change keys**:
+**Gamit ang installer.** Kapag na-set up na ang Fontes, nag-aalok ang installer na magdagdag ng mga key.
+Sa Mac, i-click ang **Magdagdag ng mga key**, o ang **Tapos na** para laktawan; sa Windows, sagutin ang
+tanong (pindutin ang Enter para laktawan). Para magdagdag o magpalit ng mga key sa ibang pagkakataon,
+patakbuhin ang **Add or change keys**:
 
-- Mac: buksang muli ang Fontes Installer app at piliin ang **Magdagdag o magpalit ng mga key**, o i-double
-  click ang `Add or change keys.command` sa folder ng installer.
+- Mac: buksang muli ang Fontes Installer app at piliin ang **Magdagdag o magpalit ng mga key**.
 - Windows: i-double click ang `Add or change keys.cmd` sa folder ng installer. Ilalagay rin ito ng setup
   program para sa Windows, kapag available na, sa Start menu > Fontes.
 

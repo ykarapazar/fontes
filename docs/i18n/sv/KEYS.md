@@ -13,11 +13,10 @@ Nycklar är valfria. Du kan lägga till dem senare.
 
 ## Lägga till en nyckel
 
-**Med installationsprogrammet.** Under installationen frågar installationsprogrammet om du vill lägga till nycklar. Välj
-**Not now** (eller tryck Enter) för att hoppa över. För att lägga till eller ändra nycklar senare, kör **Add or change keys**:
+**Med installationsprogrammet.** När Fontes har konfigurerats erbjuder installationsprogrammet att lägga till nycklar. På en Mac
+klickar du på **Lägg till nycklar**, eller på **Klar** för att hoppa över; på Windows svarar du på frågan (tryck Enter för att hoppa över). För att lägga till eller ändra nycklar senare, kör **Add or change keys**:
 
-- Mac: öppna appen Fontes Installer igen och välj **Add or change keys**, eller dubbelklicka på
-  `Add or change keys.command` i installationsmappen.
+- Mac: öppna appen Fontes Installer igen och välj **Lägg till eller ändra nycklar**.
 - Windows: dubbelklicka på `Add or change keys.cmd` i installationsmappen. Windows-installationsprogrammet
   lägger, när det finns tillgängligt, också in den under Start-menyn > Fontes.
 

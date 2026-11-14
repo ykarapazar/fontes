@@ -34,9 +34,7 @@
  "app_button_cancel": "Peruuta",
  "app_button_ok": "OK",
  "app_button_keys": "Lisää tai vaihda avaimia",
- "app_button_skip": "Ei nyt",
  "app_button_guide": "Avaa ohje",
- "app_keys_ask": "Lisätäänkö avaimet nyt? Voit tehdä sen myös myöhemmin: avaa asennusohjelma uudelleen ja valitse ”Lisää tai vaihda avaimia”.",
  "sh_installing_uv": "Asennetaan uv, työkalu joka lataa ja päivittää Fontesin (kertaluonteisesti)...",
  "sh_no_uv": "uv ei ole asennettuna; ei mitään poistettavaa.",
  "sh_press_enter": "Sulje tämä ikkuna painamalla Enter.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Lain sisällysluettelo säännösten tunnisteineen.",
  "mcpb_tool_get_legislation_provision": "Yhden pykälän tai artiklan voimassa oleva teksti.",
  "mcpb_tool_get_legislation_text": "Lain koko ajantasainen teksti, sivutettavissa.",
- "mcpb_tool_report_bug": "Valmistele Fontes-virheraportti; se lähetetään vain, jos käyttäjä vahvistaa sen."
+ "mcpb_tool_report_bug": "Valmistele Fontes-virheraportti; se lähetetään vain, jos käyttäjä vahvistaa sen.",
+ "app_keys_offer": "Valinnainen: ilmaiset avaimet ottavat Ranskan käyttöön ja nostavat Yhdysvaltojen oikeuskäytännön hakurajaa. Lisää ne nyt tai myöhemmin avaamalla tämä asennusohjelma uudelleen.",
+ "app_button_add_keys": "Lisää avaimet",
+ "app_button_done": "Valmis",
+ "app_button_continue": "Jatka",
+ "app_key_unset": "{name}\n\nLiitä se alle tai jätä kenttä tyhjäksi ohittaaksesi sen.",
+ "app_key_set": "{name} on jo tallennettu.\n\nLiitä uusi korvataksesi sen, jätä kenttä tyhjäksi säilyttääksesi sen tai kirjoita - poistaaksesi sen."
 }

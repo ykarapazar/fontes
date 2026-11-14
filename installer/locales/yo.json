@@ -34,9 +34,7 @@
  "app_button_cancel": "Fagilé",
  "app_button_ok": "Ó dáa",
  "app_button_keys": "Fi kọ́kọ́rọ́ kún tàbí yí i padà",
- "app_button_skip": "Kì í ṣe báyìí",
  "app_button_guide": "Ṣí ìtọ́sọ́nà",
- "app_keys_ask": "Ṣé kí o fi àwọn kọ́kọ́rọ́ kún báyìí? O tún lè ṣe é lẹ́yìn náà: tún ṣí ẹ̀rọ ìfisílẹ̀ kí o sì yan \"Fi kọ́kọ́rọ́ kún tàbí yí i padà\".",
  "sh_installing_uv": "À ń fi uv sí i, irinṣẹ́ tí ó ń gba Fontes sílẹ̀ tí ó sì ń mú un dé ìgbàlódé (ẹ̀ẹ̀kan ṣoṣo)...",
  "sh_no_uv": "uv kò sí lórí kọ̀ǹpútà; kò sí nǹkan láti yọ.",
  "sh_press_enter": "Tẹ Enter láti pa fèrèsé yìí dé.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Àtòjọ àkóónú òfin kan pẹ̀lú orúkọ àwọn abala rẹ̀ (provisions).",
  "mcpb_tool_get_legislation_provision": "Ọ̀rọ̀ lọ́wọ́lọ́wọ́ ti abala (article tàbí section) kan.",
  "mcpb_tool_get_legislation_text": "Gbogbo ọ̀rọ̀ àkójọpọ̀ (consolidated text) òfin kan, tí a lè ka ní ojú-ìwé-ojú-ìwé.",
- "mcpb_tool_report_bug": "Pèsè ìjábọ̀ àṣìṣe Fontes; a ń fi ránṣẹ́ kìkì tí olùlò bá jẹ́rìísí rẹ̀."
+ "mcpb_tool_report_bug": "Pèsè ìjábọ̀ àṣìṣe Fontes; a ń fi ránṣẹ́ kìkì tí olùlò bá jẹ́rìísí rẹ̀.",
+ "app_keys_offer": "Àṣàyàn: àwọn kọ́kọ́rọ́ ọ̀fẹ́ ń tan Faransé, wọ́n sì ń gbé òpin ìwádìí ìdájọ́ ilé-ẹjọ́ Amẹ́ríkà sókè. Fi wọ́n kún báyìí, tàbí lẹ́yìn náà nípa ṣíṣí ẹ̀rọ ìfisílẹ̀ yìí lẹ́ẹ̀kan sí i.",
+ "app_button_add_keys": "Fi kọ́kọ́rọ́ kún",
+ "app_button_done": "Ó ti parí",
+ "app_button_continue": "Tẹ̀síwájú",
+ "app_key_unset": "{name}\n\nLẹ̀ ẹ́ sísàlẹ̀, tàbí fi àpótí náà sílẹ̀ ní òfo láti fò ó.",
+ "app_key_set": "{name} ti wà ní ìpamọ́ tẹ́lẹ̀.\n\nLẹ̀ tuntun láti fi rọ́pò rẹ̀, fi àpótí náà sílẹ̀ ní òfo láti pa á mọ́, tàbí tẹ - láti yọ ọ́ kúrò."
 }

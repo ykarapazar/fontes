@@ -131,11 +131,11 @@ Sesetengah sumber memerlukan kunci percuma: lihat [KEYS.md](KEYS.md).
 Dalam sembang baharu, tanya: *"Bidang kuasa manakah yang boleh dicari oleh Fontes?"* Aplikasi sepatutnya
 menjawab dengan senarai negara. Jika tidak, tutup dan buka semula aplikasi sekali lagi.
 
-## Pemasang satu klik (akan datang)
+## Pemasang satu klik (Mac)
 
-Pemasang Mac dan Windows yang menyediakan Fontes dalam semua aplikasi anda sekali gus akan datang. Ia
-menyediakan Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI,
-Zed, LM Studio dan Cline. Sebaik sahaja ia dikeluarkan:
+Pemasang Mac menyediakan Fontes dalam semua aplikasi anda sekali gus: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio dan Cline. Pemasang Windows akan
+datang; sehingga itu, gunakan langkah untuk aplikasi anda di atas.
 
 **Sebelum anda bermula:** tutup setiap aplikasi ini sepenuhnya. Ini paling penting untuk Claude Code:
 semasa ia berjalan, ia menulis semula `~/.claude.json` dan boleh membatalkan perubahan yang dibuat oleh
@@ -144,18 +144,17 @@ pemasang. Jika anda tidak dapat menutup Claude Code, tambah Fontes kepadanya den
 
 **Mac**
 
-1. Buka folder **Fontes Installer** yang telah dimuat turun.
-2. Klik dua kali **Install Fontes.command**.
-   - Jika Mac anda menyatakan ia "cannot be opened because it is from an unidentified developer":
-     klik kanan (atau Control-klik) fail itu, pilih **Open**, kemudian **Open** sekali lagi. Anda hanya
-     perlu melakukannya sekali.
-3. Satu tetingkap dibuka dan bertanya sama ada hendak menghantar kiraan penggunaan tanpa nama; tekan
-   Enter untuk tidak.
-4. Ia bertanya sama ada hendak menambah kunci sekarang. Tekan Enter untuk melangkau; lihat
-   [Langkah kunci](#langkah-kunci).
-5. Apabila ia memaparkan **Selesai**, buka semula aplikasi AI anda.
+1. Muat turun pemasang Mac (`Fontes-Installer-…-mac.zip`) daripada
+   [keluaran terkini](https://github.com/ykarapazar/fontes/releases/latest) dan klik dua kali padanya
+   untuk menyahzipnya.
+2. Klik dua kali **Fontes Installer**. Jika Mac anda bertanya sama ada hendak membuka aplikasi yang
+   dimuat turun dari internet, klik **Open**.
+3. Pilih **Pasang** dan klik **OK**. Penyediaan mengambil masa kira-kira seminit.
+4. Satu mesej menyenaraikan aplikasi yang telah disediakannya. Klik **Selesai**, kemudian buka semula
+   aplikasi-aplikasi itu. Untuk menambah kunci percuma pilihan dahulu, klik **Tambah kunci**
+   sebaliknya; lihat [Langkah kunci](#langkah-kunci).
 
-**Windows**
+**Windows** (sebaik sahaja pemasang Windows dikeluarkan)
 
 1. Nyahzip **Fontes Installer** yang telah dimuat turun (klik kanan → Extract All).
 2. Klik dua kali **Install Fontes.cmd**.
@@ -199,8 +198,7 @@ Dua aplikasi memerlukan satu langkah lagi:
 Sejurus selepas pemasangan, pemasang menawarkan untuk menambah kunci percuma Perancis dan AS. Untuk
 menambah atau menukarnya kemudian:
 
-- **Mac:** klik dua kali **Add or change keys.command** dalam folder pemasang, atau buka semula aplikasi
-  Fontes Installer dan pilih **Tambah atau tukar kunci**.
+- **Mac:** buka semula **Fontes Installer** dan pilih **Tambah atau tukar kunci**.
 - **Windows:** klik dua kali **Add or change keys.cmd** dalam folder pemasang.
 
 Taipan disembunyikan. Kunci dimasukkan ke dalam setiap aplikasi yang sudah mempunyai Fontes. Tutup dan
@@ -214,9 +212,9 @@ Salinan yang dibuat selepas anda menambah kunci mengandungi kunci tersebut: pada
 lagi anda perlukan. Ia juga memasang uv. Menjalankannya semula adalah selamat: ia membaiki persediaan dan
 tidak mengubah apa-apa yang lain.
 
-Untuk membuang Fontes, klik dua kali **Uninstall Fontes.command** (Mac) atau **Uninstall Fontes.cmd**
-(Windows). Ia membuang entri `fontes`, termasuk kunci, daripada setiap aplikasi. Tetapan anda yang lain
-dan salinan sandaran kekal.
+Untuk membuang Fontes, buka **Fontes Installer** dan pilih **Buang** (Mac), atau klik dua kali
+**Uninstall Fontes.cmd** (Windows). Ia membuang entri `fontes`, termasuk kunci, daripada setiap aplikasi.
+Tetapan anda yang lain dan salinan sandaran kekal.
 
 ## Kemas kini
 

@@ -109,8 +109,8 @@ Fontes מוסיף הודעת "מקור לא רשמי" לכל תשובה שמגי
 
 כל יישום MCP שיכול להפעיל שרת מקומי (stdio), למשל Claude Desktop, ‏Claude Code, ‏Codex, ‏Cursor,
 ‏VS Code (GitHub Copilot), ‏Gemini CLI, ‏Windsurf, ‏Zed, ‏LM Studio ו-Cline. Fontes פועל ב-macOS,
-‏Windows ו-Linux, בכל מקום שבו uv פועל (Python 3.13+). תוכנית התקנה בלחיצה אחת ל-Mac ול-Windows נמצאת בדרך. היא מגדירה את Claude Desktop,
-‏Codex, ‏Claude Code, ‏Cursor, ‏VS Code, ‏Windsurf, ‏Gemini CLI, ‏Zed, ‏LM Studio ו-Cline בבת אחת.
+‏Windows ו-Linux, בכל מקום שבו uv פועל (Python 3.13+). ב-Mac, תוכנית התקנה בלחיצה אחת מגדירה את Claude Desktop,
+‏Codex, ‏Claude Code, ‏Cursor, ‏VS Code, ‏Windsurf, ‏Gemini CLI, ‏Zed, ‏LM Studio ו-Cline בבת אחת; תוכנית התקנה ל-Windows נמצאת בדרך.
 שלבים לכל יישום: [INSTALL.md](INSTALL.md).
 
 ## האם אפשר לתרום קוד?

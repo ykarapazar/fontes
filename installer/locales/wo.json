@@ -34,9 +34,7 @@
  "app_button_cancel": "Neenal",
  "app_button_ok": "OK",
  "app_button_keys": "Yokk walla soppi caabi yi",
- "app_button_skip": "Léegi déet",
  "app_button_guide": "Ubbi gindikaay bi",
- "app_keys_ask": "Ndax nu yokk caabi yi léegi? Mën nga ko def ci kanam itam: ubbiwaatal jumtukaayu samp bi te tànn \"Yokk walla soppi caabi yi\".",
  "sh_installing_uv": "Mi ngi samp uv, jumtukaay bi di yeb te di yeesal Fontes (benn yoon rekk)...",
  "sh_no_uv": "uv sampeesu ko; amul dara lu ñu war a dindi.",
  "sh_press_enter": "Bësal Enter ngir tëj palanteer bii.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Tabalu xaaj yi (sommaire) ci benn yoon, ak turu xaaj yi (articles).",
  "mcpb_tool_get_legislation_provision": "Mbind mu léegi mi ci benn xaaj (article walla section).",
  "mcpb_tool_get_legislation_text": "Mbind mépp mu ñu yeesal (texte consolidé) ci benn yoon, ci xët yu bare.",
- "mcpb_tool_report_bug": "Waajal benn yégle njuumte (bug) ci Fontes; dees koy yónne rekk su jëfandikookat bi dëggalee."
+ "mcpb_tool_report_bug": "Waajal benn yégle njuumte (bug) ci Fontes; dees koy yónne rekk su jëfandikookat bi dëggalee.",
+ "app_keys_offer": "Bu la neexee: caabi yu ñu joxe ci neen dañuy taal Faraas te yokk digg wut ci àtte yi ci Etaa-Sini. Yokkal leen leegi, walla ginnaaw bi bu nga ubbiwaatee programu samp bii.",
+ "app_button_add_keys": "Yokk caabi yi",
+ "app_button_done": "Jeex na",
+ "app_button_continue": "Dem ci kanam",
+ "app_key_unset": "{name}\n\nTaccal ko ci suuf, walla bàyyi barab bi mu neen ngir romb ko.",
+ "app_key_set": "{name} denc nañu ko ba noppi.\n\nTaccal bu bees ngir wecci ko, bàyyi barab bi mu neen ngir denc ko, walla bindal - ngir dindi ko."
 }

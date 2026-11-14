@@ -74,10 +74,11 @@ OpenAI Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed،
 2. **بەرنامەکە دووبارە دەست پێ بکەنەوە.** بە تەواوی دایبخەن و دووبارە بیکەنەوە.
 3. **بپرسن:** *«Fontes لە کام ناوچە دادوەرییەکاندا دەتوانێت بگەڕێت؟»* دەبێت لیستێکی وڵاتان بداتەوە.
 
-دامەزرێنەرێکی یەک-کلیک بۆ Mac و Windows لە ڕێگەدایە. Fontes لە Claude Desktop،
-Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio و Cline ڕێکدەخات، لە هەر یەکێکیان
-کە لە کۆمپیوتەرەکەتاندا هەبێت، پاشان پێشنیاری زیادکردنی کلیلەکانتان دەکات. پێش کارپێکردنی ئەو بەرنامانە دابخەن. وردەکاری:
-[INSTALL.md](INSTALL.md#دامەزرێنەری-یەک-کلیک-بەم-زووانە).
+**لەسەر Mac**، دامەزرێنەرێکی یەک-کلیک Fontes لە Claude Desktop، Codex، Claude Code، Cursor،
+VS Code، Windsurf، Gemini CLI، Zed، LM Studio و Cline ڕێکدەخات، لە هەر یەکێکیان کە لە کۆمپیوتەرەکەتاندا هەبێت، پاشان
+پێشنیاری زیادکردنی کلیلەکانتان دەکات. دامەزرێنەری Mac لە [دوایین وەشان](https://github.com/ykarapazar/fontes/releases/latest) دابگرن و
+پێش کارپێکردنی ئەو بەرنامانە دابخەن. دامەزرێنەرێک بۆ Windows لە ڕێگەدایە. وردەکاری:
+[INSTALL.md](INSTALL.md#دامەزرێنەری-یەک-کلیک-mac).
 هەندێک سەرچاوە پێویستیان بە کلیلێکی (key) خۆڕایی هەیە: سەیری [KEYS.md](KEYS.md) بکەن.
 
 <!-- map:start -->

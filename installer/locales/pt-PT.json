@@ -34,9 +34,7 @@
  "app_button_cancel": "Cancelar",
  "app_button_ok": "OK",
  "app_button_keys": "Adicionar ou alterar chaves",
- "app_button_skip": "Agora não",
  "app_button_guide": "Abrir o guia",
- "app_keys_ask": "Adicionar as chaves agora? Também pode fazê-lo mais tarde: abra novamente o instalador e escolha \"Adicionar ou alterar chaves\".",
  "sh_installing_uv": "A instalar o uv, a ferramenta que transfere e atualiza o Fontes (apenas uma vez)...",
  "sh_no_uv": "O uv não está instalado; nada a remover.",
  "sh_press_enter": "Prima Enter para fechar esta janela.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Índice de uma lei, com a identificação das disposições.",
  "mcpb_tool_get_legislation_provision": "Texto em vigor de um artigo ou secção.",
  "mcpb_tool_get_legislation_text": "Texto consolidado integral de uma lei, paginável.",
- "mcpb_tool_report_bug": "Prepara um relatório de erro do Fontes; só é enviado se o utilizador o confirmar."
+ "mcpb_tool_report_bug": "Prepara um relatório de erro do Fontes; só é enviado se o utilizador o confirmar.",
+ "app_keys_offer": "Opcional: chaves gratuitas ativam a França e aumentam o limite de jurisprudência dos Estados Unidos. Adicione-as agora ou mais tarde, abrindo novamente este instalador.",
+ "app_button_add_keys": "Adicionar chaves",
+ "app_button_done": "Concluído",
+ "app_button_continue": "Continuar",
+ "app_key_unset": "{name}\n\nCole-o abaixo ou deixe a caixa vazia para o ignorar.",
+ "app_key_set": "{name} já está guardado.\n\nCole um novo para o substituir, deixe a caixa vazia para o manter ou escreva - para o remover."
 }

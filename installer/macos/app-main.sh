@@ -28,5 +28,15 @@ else
 fi
 status=$?
 summary=$(printf '%s\n' "$out" | tail -8)
+if [ "$choice" = "$INSTALL" ] && [ $status -eq 0 ]; then
+  # Installed. Keys are optional, so they come last, as a second button; Done is the default.
+  b=$(dialog 'button returned of (display dialog (item 1 of argv) with title (item 2 of argv) buttons {item 3 of argv, item 4 of argv} default button (item 4 of argv))' \
+    "$summary"$'\n\n'"$(s app_keys_offer)" "$TITLE" "$(s app_button_add_keys)" "$(s app_button_done)")
+  [ "$b" = "$(s app_button_add_keys)" ] || exit 0
+  out=$("$R/install.sh" keys 2>&1 </dev/null)
+  status=$?
+  summary=$(printf '%s\n' "$out" | tail -8)
+fi
+[ -n "$summary" ] || exit $status   # keys cancelled at the first step: nothing to report
 dialog 'display dialog (item 1 of argv) with title (item 2 of argv) buttons {item 3 of argv} default button (item 3 of argv)' "$summary" "$TITLE" "$OK" >/dev/null
 exit $status

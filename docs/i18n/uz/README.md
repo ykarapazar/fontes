@@ -77,11 +77,13 @@ Manbalar holati (har kuni tekshiriladi): [ykarapazar.github.io/fontes/status/](h
 3. **Soʻrang:** *“Fontes qaysi yurisdiksiyalarda qidira oladi?”* Ilova mamlakatlar roʻyxatini
    koʻrsatishi kerak.
 
-Mac va Windows uchun bir bosishda ishlaydigan oʻrnatuvchi tez orada chiqadi. U Fontes’ni Claude
+**Mac’da** bir bosishda ishlaydigan oʻrnatuvchi Fontes’ni Claude
 Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio va Cline’dan
 kompyuteringizda mavjud boʻlganlarining har birida sozlaydi, soʻng kalitlaringizni qoʻshishni
-taklif qiladi. Uni ishga tushirishdan oldin bu ilovalarni yoping. Batafsil:
-[INSTALL.md](INSTALL.md#bir-bosishda-ishlaydigan-oʻrnatuvchi-tez-orada).
+taklif qiladi. Mac oʻrnatuvchisini
+[soʻnggi relizdan](https://github.com/ykarapazar/fontes/releases/latest) yuklab oling va uni ishga tushirishdan oldin bu
+ilovalarni yoping. Windows oʻrnatuvchisi tez orada chiqadi. Batafsil:
+[INSTALL.md](INSTALL.md#bir-bosishda-ishlaydigan-oʻrnatuvchi-mac).
 Baʼzi manbalar bepul kalit talab qiladi: [KEYS.md](KEYS.md) ga qarang.
 
 <!-- map:start -->

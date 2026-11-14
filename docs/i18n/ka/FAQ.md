@@ -124,9 +124,7 @@ Fontes მოწოდებულია „როგორც არის“, 
 ნებისმიერ MCP აპთან, რომელსაც ლოკალური (stdio) სერვერის გაშვება შეუძლია, მაგალითად Claude
 Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio და Cline. Fontes მუშაობს macOS-ზე, Windows-სა და Linux-ზე, ყველგან, სადაც uv მუშაობს
-(Python 3.13+). Mac-ისა და Windows-ისთვის ერთი დაწკაპუნებით ინსტალერი მალე გამოვა. ის ერთბაშად
-აყენებს Claude Desktop-ს, Codex-ს, Claude Code-ს, Cursor-ს, VS Code-ს, Windsurf-ს, Gemini CLI-ს,
-Zed-ს, LM Studio-სა და Cline-ს. თითოეული აპის ნაბიჯები: [INSTALL.md](INSTALL.md).
+(Python 3.13+). Mac-ზე ერთი დაწკაპუნებით ინსტალერი ერთბაშად აყენებს Claude Desktop-ს, Codex-ს, Claude Code-ს, Cursor-ს, VS Code-ს, Windsurf-ს, Gemini CLI-ს, Zed-ს, LM Studio-სა და Cline-ს; Windows-ის ინსტალერი მალე გამოვა. თითოეული აპის ნაბიჯები: [INSTALL.md](INSTALL.md).
 
 ## შემიძლია თუ არა კოდის შეტანა
 

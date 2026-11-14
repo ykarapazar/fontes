@@ -75,11 +75,11 @@ Stav zdrojů (kontrolováno denně): [ykarapazar.github.io/fontes/status/](https
 2. **Restartujte aplikaci.** Úplně ji ukončete a znovu otevřete.
 3. **Zeptejte se:** *„Které jurisdikce umí Fontes prohledávat?“* Měla by vypsat země.
 
-Instalátor na jedno kliknutí pro Mac a Windows připravujeme. Nastaví Fontes v Claude Desktop,
-Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio a Cline, v každé z nich,
-která je ve vašem počítači, a pak nabídne přidání vašich klíčů. Před spuštěním tyto aplikace
-ukončete. Podrobnosti:
-[INSTALL.md](INSTALL.md#instalátor-na-jedno-kliknutí-připravujeme).
+**Na Macu** nastaví instalátor na jedno kliknutí Fontes v Claude Desktop, Codex, Claude Code,
+Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio a Cline, v každé z nich, která je ve vašem
+počítači, a pak nabídne přidání vašich klíčů. Instalátor pro Mac si stáhněte z [nejnovějšího vydání](https://github.com/ykarapazar/fontes/releases/latest) a
+před spuštěním tyto aplikace ukončete. Instalátor pro Windows připravujeme. Podrobnosti:
+[INSTALL.md](INSTALL.md#instalátor-na-jedno-kliknutí-mac).
 Některé zdroje vyžadují bezplatný klíč: viz [KEYS.md](KEYS.md).
 
 <!-- map:start -->

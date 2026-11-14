@@ -34,9 +34,7 @@
  "app_button_cancel": "Avbryt",
  "app_button_ok": "OK",
  "app_button_keys": "Legg til eller endre nøklar",
- "app_button_skip": "Ikkje no",
  "app_button_guide": "Opne rettleiinga",
- "app_keys_ask": "Leggje til nøklane no? Du kan òg gjere det seinare: opne installasjonsprogrammet igjen og vel «Legg til eller endre nøklar».",
  "sh_installing_uv": "Installerer uv, verktøyet som lastar ned og oppdaterer Fontes (éin gong)...",
  "sh_no_uv": "uv er ikkje installert; ingenting å fjerne.",
  "sh_press_enter": "Trykk Enter for å lukke dette vindauget.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Innhaldsliste for ei lov med nemningane på føresegnene.",
  "mcpb_tool_get_legislation_provision": "Gjeldande tekst i éin artikkel eller paragraf.",
  "mcpb_tool_get_legislation_text": "Full konsolidert tekst av ei lov, delt i sider.",
- "mcpb_tool_report_bug": "Lag ein feilrapport for Fontes; blir berre sendt om brukaren stadfestar han."
+ "mcpb_tool_report_bug": "Lag ein feilrapport for Fontes; blir berre sendt om brukaren stadfestar han.",
+ "app_keys_offer": "Valfritt: gratisnøklar slår på Frankrike og hevar grensa for søk i rettspraksis i USA. Legg dei til no, eller seinare ved å opne dette installasjonsprogrammet igjen.",
+ "app_button_add_keys": "Legg til nøklar",
+ "app_button_done": "Ferdig",
+ "app_button_continue": "Hald fram",
+ "app_key_unset": "{name}\n\nLim han inn nedanfor, eller la feltet stå tomt for å hoppe over han.",
+ "app_key_set": "{name} er allereie lagra.\n\nLim inn ein ny for å byte han ut, la feltet stå tomt for å behalde han, eller skriv - for å fjerne han."
 }

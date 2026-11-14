@@ -13,12 +13,13 @@ Kalitlar ixtiyoriy. Ularni keyinroq qoʻshishingiz mumkin.
 
 ## Kalit qoʻshish
 
-**Oʻrnatuvchi bilan.** Oʻrnatish vaqtida oʻrnatuvchi kalitlar qoʻshishni xohlaysizmi, deb soʻraydi.
-Oʻtkazib yuborish uchun **Hozir emas** ni tanlang (yoki Enter tugmasini bosing). Kalitlarni
+**Oʻrnatuvchi bilan.** Fontes sozlangach, oʻrnatuvchi kalitlar qoʻshishni taklif qiladi. Mac’da
+**Kalitlarni qoʻshish** ni yoki oʻtkazib yuborish uchun **Tayyor** ni bosing; Windows’da savolga
+javob bering (oʻtkazib yuborish uchun Enter tugmasini bosing). Kalitlarni
 keyinroq qoʻshish yoki oʻzgartirish uchun **Add or change keys** ni ishga tushiring:
 
 - Mac: Fontes Installer ilovasini qayta oching va **Kalitlarni qoʻshish yoki oʻzgartirish** ni
-  tanlang yoki oʻrnatuvchi jildidagi `Add or change keys.command` ni ikki marta bosing.
+  tanlang.
 - Windows: oʻrnatuvchi jildidagi `Add or change keys.cmd` ni ikki marta bosing. Windows oʻrnatish
   dasturi, mavjud boʻlganda, uni Start menyusi > Fontes’ga ham joylashtiradi.
 

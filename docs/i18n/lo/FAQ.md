@@ -115,9 +115,9 @@ Fontes ເພີ່ມແຈ້ງການ "ແຫຼ່ງບໍ່ເປັ�
 
 ແອັບ MCP ໃດກໍຕາມທີ່ສາມາດແລ່ນເຊີບເວີໃນເຄື່ອງ (stdio) ໄດ້, ຕົວຢ່າງ Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ແລະ Cline. Fontes
-ແລ່ນໃນ macOS, Windows ແລະ Linux, ທຸກບ່ອນທີ່ uv ແລ່ນໄດ້ (Python 3.13+). ໂປຣແກຣມຕິດຕັ້ງແບບຄລິກດຽວ ສຳລັບ Mac ແລະ Windows ກຳລັງຈະມາ. ມັນຕັ້ງຄ່າ
+ແລ່ນໃນ macOS, Windows ແລະ Linux, ທຸກບ່ອນທີ່ uv ແລ່ນໄດ້ (Python 3.13+). ໃນ Mac, ໂປຣແກຣມຕິດຕັ້ງແບບຄລິກດຽວ ຕັ້ງຄ່າ
 Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ແລະ
-Cline ໃນຄັ້ງດຽວ. ຂັ້ນຕອນສຳລັບແຕ່ລະແອັບ: [INSTALL.md](INSTALL.md).
+Cline ໃນຄັ້ງດຽວ; ໂປຣແກຣມຕິດຕັ້ງສຳລັບ Windows ກຳລັງຈະມາ. ຂັ້ນຕອນສຳລັບແຕ່ລະແອັບ: [INSTALL.md](INSTALL.md).
 
 ## ຂ້ອຍສາມາດປະກອບສ່ວນລະຫັດໄດ້ບໍ?
 

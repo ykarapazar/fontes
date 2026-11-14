@@ -13,11 +13,11 @@ Lyklar eru valkvæðir. Þú getur bætt þeim við síðar.
 
 ## Að bæta við lykli
 
-**Með uppsetningarforritinu.** Meðan á uppsetningu stendur spyr uppsetningarforritið hvort þú viljir bæta við lyklum. Veldu
-**Not now** (eða ýttu á Enter) til að sleppa því. Til að bæta við eða breyta lyklum síðar, keyrðu **Add or change keys**:
+**Með uppsetningarforritinu.** Þegar Fontes hefur verið sett upp býðst uppsetningarforritið til að bæta
+við lyklum. Á Mac skaltu smella á **Bæta við lyklum**, eða **Lokið** til að sleppa því; á Windows
+skaltu svara spurningunni (ýttu á Enter til að sleppa því). Til að bæta við eða breyta lyklum síðar, keyrðu **Add or change keys**:
 
-- Mac: opnaðu forritið Fontes Installer aftur og veldu **Add or change keys**, eða tvísmelltu á
-  `Add or change keys.command` í uppsetningarmöppunni.
+- Mac: opnaðu forritið Fontes Installer aftur og veldu **Bæta við eða breyta lyklum**.
 - Windows: tvísmelltu á `Add or change keys.cmd` í uppsetningarmöppunni. Uppsetningarforritið fyrir Windows
   setur það einnig, þegar það verður fáanlegt, í Start-valmyndina > Fontes.
 

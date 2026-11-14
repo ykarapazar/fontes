@@ -134,11 +134,12 @@ Naujame pokalbyje paklauskite: *„Kuriose jurisdikcijose gali ieškoti Fontes?�
 atsakyti šalių sąrašu. Jei taip neatsitinka, dar kartą uždarykite programą ir vėl ją
 atidarykite.
 
-## Diegimo programa vienu spustelėjimu (netrukus)
+## Diegimo programa vienu spustelėjimu (Mac)
 
-Netrukus bus išleista Mac ir Windows diegimo programa, kuri iš karto nustato Fontes visose jūsų
-programose. Ji nustato Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio ir Cline. Kai ji bus išleista:
+Mac diegimo programa iš karto nustato Fontes visose jūsų programose: Claude Desktop, Codex, Claude
+Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ir Cline. Windows
+diegimo programa netrukus bus išleista; iki tol naudokitės aukščiau pateiktais savo programos
+veiksmais.
 
 **Prieš pradėdami:** visiškai uždarykite kiekvieną iš šių programų. Labiausiai tai svarbu Claude
 Code: veikdama ji perrašo `~/.claude.json` ir gali atšaukti diegimo programos pakeitimą. Jei
@@ -147,18 +148,17 @@ negalite uždaryti Claude Code, verčiau pridėkite Fontes į ją komanda `claud
 
 **Mac**
 
-1. Atidarykite atsisiųstą aplanką **Fontes Installer**.
-2. Dukart spustelėkite **Install Fontes.command**.
-   - Jei jūsų Mac praneša, kad failo „negalima atidaryti, nes jis yra nuo nenustatyto
-     kūrėjo“: spustelėkite failą dešiniuoju pelės mygtuku (arba spustelėkite laikydami
-     Control), pasirinkite **Open**, tada dar kartą **Open**. Tai reikia padaryti tik kartą.
-3. Atsidaro langas ir klausia, ar siųsti anoniminius naudojimo skaičius; norėdami atsakyti „ne“,
-   paspauskite Enter.
-4. Jis klausia, ar pridėti raktus dabar. Norėdami praleisti, paspauskite Enter; žr.
-   [Raktų žingsnis](#raktų-žingsnis).
-5. Kai parodomas užrašas **Done**, vėl atidarykite savo DI programas.
+1. Atsisiųskite Mac diegimo programą (`Fontes-Installer-…-mac.zip`) iš [naujausios
+   laidos](https://github.com/ykarapazar/fontes/releases/latest) ir dukart ją spustelėkite, kad
+   išskleistumėte.
+2. Dukart spustelėkite **Fontes Installer**. Jei jūsų Mac klausia, ar atidaryti iš interneto
+   atsisiųstą programą, spustelėkite **Open**.
+3. Pasirinkite **Įdiegti** ir spustelėkite **Gerai**. Nustatymas trunka maždaug minutę.
+4. Pranešime išvardijamos programos, kurias ji nustatė. Spustelėkite **Baigta**, tada vėl
+   atidarykite tas programas. Jei pirmiau norite pridėti neprivalomus nemokamus raktus, verčiau
+   spustelėkite **Pridėti raktus**; žr. [Raktų žingsnis](#raktų-žingsnis).
 
-**Windows**
+**Windows** (kai bus išleista Windows diegimo programa)
 
 1. Išskleiskite atsisiųstą **Fontes Installer** (dešinysis pelės mygtukas → Extract All).
 2. Dukart spustelėkite **Install Fontes.cmd**.
@@ -205,8 +205,7 @@ Dviem programoms reikia dar vieno veiksmo:
 Iškart po diegimo diegimo programa pasiūlo pridėti nemokamus Prancūzijos ir JAV raktus. Norėdami
 juos pridėti arba pakeisti vėliau:
 
-- **Mac:** diegimo programos aplanke dukart spustelėkite **Add or change keys.command** arba vėl
-  atidarykite programą Fontes Installer ir pasirinkite **Add or change keys**.
+- **Mac:** vėl atidarykite **Fontes Installer** ir pasirinkite **Pridėti arba keisti raktus**.
 - **Windows:** diegimo programos aplanke dukart spustelėkite **Add or change keys.cmd**.
 
 Įvedami simboliai nerodomi. Raktai įrašomi į kiekvieną programą, kurioje jau yra Fontes. Po to
@@ -220,8 +219,8 @@ buvo. Prieš keisdama failą, ji šalia jo išsaugo kopiją pavadinimu `<file>.f
 Kopijose, padarytose pridėjus raktus, yra tie raktai: ištrinkite tas, kurių nebereikia. Ji taip
 pat įdiegia uv. Paleisti ją dar kartą saugu: ji sutvarko sąranką ir nieko kito nekeičia.
 
-Norėdami pašalinti Fontes, dukart spustelėkite **Uninstall Fontes.command** (Mac) arba
-**Uninstall Fontes.cmd** (Windows). Tai pašalina įrašą `fontes` kartu su raktais iš visų
+Norėdami pašalinti Fontes, atidarykite **Fontes Installer** ir pasirinkite **Pašalinti** (Mac) arba
+dukart spustelėkite **Uninstall Fontes.cmd** (Windows). Tai pašalina įrašą `fontes` kartu su raktais iš visų
 programų. Kiti jūsų nustatymai ir atsarginės kopijos lieka.
 
 ## Atnaujinimai

@@ -13,11 +13,12 @@ Nøklane er valfrie. Du kan leggje dei til seinare.
 
 ## Leggje til ein nøkkel
 
-**Med installasjonsprogrammet.** Medan det installerer, spør installasjonsprogrammet om du vil leggje til nøklar. Vel
-**Not now** (eller trykk Enter) for å hoppe over. For å leggje til eller endre nøklar seinare, køyr **Add or change keys**:
+**Med installasjonsprogrammet.** Når Fontes er sett opp, tilbyr installasjonsprogrammet å leggje til
+nøklar. På Mac klikkar du på **Legg til nøklar**, eller **Ferdig** for å hoppe over; på Windows
+svarar du på spørsmålet (trykk Enter for å hoppe over). For å leggje til eller endre nøklar seinare,
+køyr **Add or change keys**:
 
-- Mac: opne Fontes Installer-appen igjen og vel **Add or change keys**, eller dobbeltklikk på
-  `Add or change keys.command` i installasjonsmappa.
+- Mac: opne Fontes Installer-appen igjen og vel **Legg til eller endre nøklar**.
 - Windows: dobbeltklikk på `Add or change keys.cmd` i installasjonsmappa. Installasjonsprogrammet for Windows
   legg han òg, når det blir tilgjengeleg, i Start-menyen > Fontes.
 

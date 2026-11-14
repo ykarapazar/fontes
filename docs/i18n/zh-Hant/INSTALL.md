@@ -124,11 +124,11 @@ Codex、Claude Code 與其他應用程式透過 `uvx` 啟動 Fontes，`uvx` 隨 
 在新的對話中詢問：*「Fontes 可以檢索哪些法域？」* 應用程式應該會回覆一份國家清單。如果沒有，請再結束並
 重新開啟應用程式一次。
 
-## 一鍵安裝程式（即將推出）
+## 一鍵安裝程式（Mac）
 
-一個可一次在您所有應用程式中設定 Fontes 的 Mac 與 Windows 安裝程式即將推出。它會設定 Claude Desktop、
-Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 與
-Cline。發布之後：
+Mac 安裝程式可一次在您所有的應用程式中設定 Fontes：Claude Desktop、Codex、Claude Code、Cursor、
+VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 與 Cline。Windows 安裝程式即將推出；
+在那之前，請依照上方您所用應用程式的步驟操作。
 
 **開始之前：** 完全結束上述每個應用程式。這一點對 Claude Code 最重要：它執行時會改寫 `~/.claude.json`，
 可能復原安裝程式所做的變更。如果您無法結束 Claude Code，請改用 `claude mcp add` 將 Fontes 加入其中
@@ -136,16 +136,15 @@ Cline。發布之後：
 
 **Mac**
 
-1. 開啟下載的 **Fontes Installer** 資料夾。
-2. 按兩下 **Install Fontes.command**。
-   - 如果您的 Mac 顯示「無法打開，因為它來自未識別的開發者」：
-     在檔案上按右鍵（或按住 Control 鍵點按），選擇 **打開**，然後再按一次 **打開**。這個步驟
-     只需要做一次。
-3. 會開啟一個視窗，詢問是否傳送匿名使用次數統計；按 Enter 表示否。
-4. 它會詢問是否現在新增金鑰。按 Enter 略過；請參閱[金鑰步驟](#金鑰步驟)。
-5. 顯示 **Done** 時，重新開啟您的 AI 應用程式。
+1. 從[最新發行版本](https://github.com/ykarapazar/fontes/releases/latest)下載 Mac 安裝程式
+   （`Fontes-Installer-…-mac.zip`），然後按兩下將其解壓縮。
+2. 按兩下 **Fontes Installer**。如果您的 Mac 詢問是否要打開從網際網路下載的應用程式，請按一下
+   **打開**。
+3. 選擇 **安裝**，然後按一下 **確定**。設定約需一分鐘。
+4. 訊息會列出已設定的應用程式。按一下 **完成**，然後重新開啟這些應用程式。若要先新增選用的免費
+   金鑰，請改按 **新增金鑰**；請參閱[金鑰步驟](#金鑰步驟)。
 
-**Windows**
+**Windows**（Windows 安裝程式發布之後）
 
 1. 解壓縮下載的 **Fontes Installer**（按右鍵 → 解壓縮全部）。
 2. 按兩下 **Install Fontes.cmd**。
@@ -187,8 +186,7 @@ Cline。發布之後：
 
 安裝完成後，安裝程式會立即提供新增免費的法國與美國金鑰的選項。日後要新增或變更金鑰：
 
-- **Mac：** 按兩下安裝程式資料夾中的 **Add or change keys.command**，或再次開啟 Fontes Installer 應用程式並
-  選擇 **Add or change keys**。
+- **Mac：** 再次開啟 **Fontes Installer** 並選擇 **新增或變更金鑰**。
 - **Windows：** 按兩下安裝程式資料夾中的 **Add or change keys.cmd**。
 
 輸入內容不會顯示。金鑰會寫入每個已安裝 Fontes 的應用程式。之後請結束並重新開啟這些應用程式。金鑰的取得
@@ -200,8 +198,8 @@ Cline。發布之後：
 名稱為 `<file>.fontes-backup-<date>`。在您新增金鑰之後產生的副本包含這些金鑰：請刪除您不再需要的副本。它也會
 安裝 uv。再次執行是安全的：它會修復設定，不會變更其他任何內容。
 
-要移除 Fontes，請按兩下 **Uninstall Fontes.command**（Mac）或 **Uninstall Fontes.cmd**（Windows）。它會從
-每個應用程式中移除 `fontes` 項目（包括金鑰）。您的其他設定與備份副本會保留。
+要移除 Fontes，請開啟 **Fontes Installer** 並選擇 **移除**（Mac），或按兩下 **Uninstall Fontes.cmd**
+（Windows）。它會從每個應用程式中移除 `fontes` 項目（包括金鑰）。您的其他設定與備份副本會保留。
 
 ## 更新
 

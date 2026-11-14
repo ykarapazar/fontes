@@ -13,12 +13,12 @@ Le chiavi sono facoltative. Può aggiungerle in seguito.
 
 ## Aggiungere una chiave
 
-**Con il programma di installazione.** Durante l'installazione, il programma chiede se aggiungere
-chiavi. Scelga **Non ora** (o prema Invio) per saltare. Per aggiungere o modificare chiavi in seguito,
+**Con il programma di installazione.** Una volta configurato Fontes, il programma propone di aggiungere
+chiavi. Su Mac, faccia clic su **Aggiungi chiavi**, oppure su **Fine** per saltare; su Windows, risponda
+alla domanda (prema Invio per saltare). Per aggiungere o modificare chiavi in seguito,
 esegua **Add or change keys**:
 
-- Mac: riapra l'app Fontes Installer e scelga **Aggiungi o modifica chiavi**, oppure faccia doppio
-  clic su `Add or change keys.command` nella cartella del programma di installazione.
+- Mac: riapra l'app Fontes Installer e scelga **Aggiungi o modifica chiavi**.
 - Windows: faccia doppio clic su `Add or change keys.cmd` nella cartella del programma di
   installazione. Il programma di setup per Windows, quando sarà disponibile, lo inserisce anche in
   Start menu > Fontes.

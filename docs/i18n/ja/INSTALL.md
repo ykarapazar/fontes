@@ -128,11 +128,11 @@ Codex、Claude Code、その他のアプリは `uvx` で Fontes を起動しま�
 新しいチャットで *「Fontes はどの法域を検索できますか？」* と質問してください。アプリが国の一覧で
 答えるはずです。そうならない場合は、アプリをもう一度終了して開き直してください。
 
-## ワンクリックインストーラー（近日公開）
+## ワンクリックインストーラー（Mac）
 
-すべてのアプリに一度に Fontes を設定する Mac 用と Windows 用のインストーラーを準備中です。Claude Desktop、
-Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio、Cline を
-設定します。公開後は次のとおりです。
+Mac 用インストーラーは、すべてのアプリに一度に Fontes を設定します: Claude Desktop、Codex、
+Claude Code、Cursor、VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio、Cline。Windows 用
+インストーラーは準備中です。それまでは、上にあるお使いのアプリ用の手順を使ってください。
 
 **始める前に:** これらのアプリをすべて完全に終了してください。特に Claude Code が重要です。実行中は
 `~/.claude.json` を書き換えるため、インストーラーの変更が元に戻ることがあります。Claude Code を終了
@@ -140,17 +140,16 @@ Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Windsurf、Gemini C
 
 **Mac**
 
-1. ダウンロードした **Fontes Installer** フォルダーを開きます。
-2. **Install Fontes.command** をダブルクリックします。
-   - Mac に「開発元が未確認のため開けません」と表示された場合: ファイルを右クリック（または
-     Control キーを押しながらクリック）し、**開く** を選んでから、もう一度 **開く** を選びます。
-     これは最初の 1 回だけです。
-3. ウィンドウが開き、匿名の利用回数を送信するかどうかを尋ねます。送信しない場合は Enter を押します。
-4. 今すぐキーを追加するかどうかを尋ねます。スキップするには Enter を押します。
+1. [最新リリース](https://github.com/ykarapazar/fontes/releases/latest)から Mac 用インストーラー
+   （`Fontes-Installer-…-mac.zip`）をダウンロードし、ダブルクリックして展開します。
+2. **Fontes Installer** をダブルクリックします。インターネットからダウンロードしたアプリを開くかどうか
+   Mac に尋ねられたら、**開く** をクリックします。
+3. **インストール** を選び、**OK** をクリックします。設定には 1 分ほどかかります。
+4. 設定したアプリの一覧がメッセージで表示されます。**完了** をクリックし、それらのアプリをもう一度
+   開きます。先に任意の無料キーを追加するには、代わりに **キーを追加** をクリックします。
    [キーの手順](#キーの手順)をご覧ください。
-5. **Done** と表示されたら、AI アプリをもう一度開きます。
 
-**Windows**
+**Windows**（Windows 用インストーラーの公開後）
 
 1. ダウンロードした **Fontes Installer** を展開します（右クリック → **すべて展開**）。
 2. **Install Fontes.cmd** をダブルクリックします。
@@ -195,8 +194,7 @@ VS Code は、`~/.copilot` または VS Code 自体の設定フォルダーが�
 インストールの直後に、インストーラーがフランスと米国の無料キーの追加を提案します。後で追加または変更する
 には:
 
-- **Mac:** インストーラーフォルダー内の **Add or change keys.command** をダブルクリックするか、
-  Fontes Installer アプリをもう一度開いて **Add or change keys** を選びます。
+- **Mac:** **Fontes Installer** をもう一度開き、**キーを追加・変更** を選びます。
 - **Windows:** インストーラーフォルダー内の **Add or change keys.cmd** をダブルクリックします。
 
 入力内容は表示されません。キーは、Fontes がすでに設定されているすべてのアプリに書き込まれます。その後、
@@ -209,9 +207,9 @@ VS Code は、`~/.copilot` または VS Code 自体の設定フォルダーが�
 後に作られたコピーにはそのキーが含まれるので、不要になったものは削除してください。uv もインストール
 します。再実行しても問題ありません。設定を修復するだけで、ほかには何も変更しません。
 
-Fontes を削除するには、**Uninstall Fontes.command**（Mac）または **Uninstall Fontes.cmd**（Windows）を
-ダブルクリックします。すべてのアプリから `fontes` エントリーをキーごと削除します。その他の設定と
-バックアップのコピーは残ります。
+Fontes を削除するには、**Fontes Installer** を開いて **削除** を選ぶ（Mac）か、
+**Uninstall Fontes.cmd** をダブルクリックします（Windows）。すべてのアプリから `fontes` エントリーを
+キーごと削除します。その他の設定とバックアップのコピーは残ります。
 
 ## アップデート
 

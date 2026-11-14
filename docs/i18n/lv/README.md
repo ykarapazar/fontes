@@ -76,11 +76,11 @@ Avotu statuss (pārbauda katru dienu): [ykarapazar.github.io/fontes/status/](htt
 3. **Pajautājiet:** *“Kurās jurisdikcijās Fontes var meklēt?”* Jums vajadzētu saņemt valstu
    sarakstu.
 
-Drīzumā būs pieejams instalētājs ar vienu klikšķi Mac un Windows datoriem. Tas iestata Fontes
-lietotnēs Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
-LM Studio un Cline – katrā, kas ir jūsu datorā, – un piedāvā pievienot jūsu atslēgas. Pirms tā
-palaišanas aizveriet šīs lietotnes. Sīkāk:
-[INSTALL.md](INSTALL.md#instalētājs-ar-vienu-klikšķi-drīzumā).
+**Mac datorā** instalētājs ar vienu klikšķi iestata Fontes lietotnēs Claude Desktop, Codex, Claude Code,
+Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio un Cline – katrā, kas ir jūsu datorā, – un
+piedāvā pievienot jūsu atslēgas. Lejupielādējiet Mac instalētāju no [jaunākās versijas](https://github.com/ykarapazar/fontes/releases/latest)
+un pirms tā palaišanas aizveriet šīs lietotnes. Windows instalētājs būs pieejams drīzumā. Sīkāk:
+[INSTALL.md](INSTALL.md#instalētājs-ar-vienu-klikšķi-mac).
 Dažiem avotiem nepieciešama bezmaksas atslēga: skatiet [KEYS.md](KEYS.md).
 
 <!-- map:start -->

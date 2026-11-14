@@ -13,11 +13,10 @@ Khóa là tùy chọn. Bạn có thể thêm sau.
 
 ## Thêm khóa
 
-**Bằng trình cài đặt.** Trong khi cài đặt, trình cài đặt hỏi bạn có muốn thêm khóa không. Chọn
-**Not now** (hoặc nhấn Enter) để bỏ qua. Để thêm hoặc thay đổi khóa sau này, hãy chạy **Add or change keys**:
+**Bằng trình cài đặt.** Sau khi Fontes được thiết lập, trình cài đặt đề nghị thêm khóa. Trên máy Mac, nhấp
+**Thêm khóa**, hoặc **Xong** để bỏ qua; trên Windows, trả lời câu hỏi (nhấn Enter để bỏ qua). Để thêm hoặc thay đổi khóa sau này, hãy chạy **Add or change keys**:
 
-- Mac: mở lại ứng dụng Fontes Installer và chọn **Add or change keys**, hoặc nhấp đúp vào
-  `Add or change keys.command` trong thư mục trình cài đặt.
+- Mac: mở lại ứng dụng Fontes Installer và chọn **Thêm hoặc đổi khóa**.
 - Windows: nhấp đúp vào `Add or change keys.cmd` trong thư mục trình cài đặt. Chương trình cài đặt cho Windows,
   khi có, cũng đặt mục này trong Start menu > Fontes.
 

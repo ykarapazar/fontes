@@ -34,9 +34,7 @@
  "app_button_cancel": "キャンセル",
  "app_button_ok": "OK",
  "app_button_keys": "キーを追加・変更",
- "app_button_skip": "後で",
  "app_button_guide": "ガイドを開く",
- "app_keys_ask": "今すぐキーを追加しますか？後で追加することもできます。インストーラーをもう一度開き、「キーを追加・変更」を選んでください。",
  "sh_installing_uv": "Fontes のダウンロードと更新を行うツール uv をインストールしています（初回のみ）...",
  "sh_no_uv": "uv はインストールされていません。削除するものはありません。",
  "sh_press_enter": "Enter キーを押すとこのウィンドウを閉じます。",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "条項番号付きの法令の目次。",
  "mcpb_tool_get_legislation_provision": "1 つの条または節の現行の条文。",
  "mcpb_tool_get_legislation_text": "法令の現行統合版の全文（ページ分割可）。",
- "mcpb_tool_report_bug": "Fontes のバグ報告を作成します。ユーザーが確認した場合にのみ送信されます。"
+ "mcpb_tool_report_bug": "Fontes のバグ報告を作成します。ユーザーが確認した場合にのみ送信されます。",
+ "app_keys_offer": "任意: 無料のキーを追加すると、フランスが有効になり、米国の判例検索の上限が上がります。今すぐ追加するか、後でこのインストーラーをもう一度開いて追加してください。",
+ "app_button_add_keys": "キーを追加",
+ "app_button_done": "完了",
+ "app_button_continue": "続ける",
+ "app_key_unset": "{name}\n\n下に貼り付けてください。スキップするには空欄のままにしてください。",
+ "app_key_set": "{name} は保存済みです。\n\n置き換えるには新しいキーを貼り付け、そのままにするには空欄のまま、削除するには - と入力してください。"
 }

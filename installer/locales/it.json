@@ -34,9 +34,7 @@
  "app_button_cancel": "Annulla",
  "app_button_ok": "OK",
  "app_button_keys": "Aggiungi o modifica chiavi",
- "app_button_skip": "Non ora",
  "app_button_guide": "Apri la guida",
- "app_keys_ask": "Aggiungere le chiavi adesso? Può farlo anche più tardi: riapra il programma di installazione e scelga \"Aggiungi o modifica chiavi\".",
  "sh_installing_uv": "Installazione di uv, lo strumento che scarica e aggiorna Fontes (una sola volta)...",
  "sh_no_uv": "uv non è installato; niente da rimuovere.",
  "sh_press_enter": "Prema Invio per chiudere questa finestra.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Indice di una legge con le etichette delle disposizioni.",
  "mcpb_tool_get_legislation_provision": "Testo vigente di un articolo o di una sezione.",
  "mcpb_tool_get_legislation_text": "Testo consolidato completo di una legge, a pagine.",
- "mcpb_tool_report_bug": "Prepara una segnalazione di errore di Fontes; inviata solo se l'utente conferma."
+ "mcpb_tool_report_bug": "Prepara una segnalazione di errore di Fontes; inviata solo se l'utente conferma.",
+ "app_keys_offer": "Facoltativo: le chiavi gratuite attivano la Francia e alzano il limite di ricerca della giurisprudenza degli Stati Uniti. Le aggiunga ora, oppure più tardi riaprendo questo programma di installazione.",
+ "app_button_add_keys": "Aggiungi chiavi",
+ "app_button_done": "Fine",
+ "app_button_continue": "Continua",
+ "app_key_unset": "{name}\n\nLo incolli qui sotto, oppure lasci il campo vuoto per saltarlo.",
+ "app_key_set": "{name} è già salvato.\n\nNe incolli uno nuovo per sostituirlo, lasci il campo vuoto per mantenerlo o digiti - per rimuoverlo."
 }

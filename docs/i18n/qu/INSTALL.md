@@ -134,11 +134,11 @@ Musuq rimanakuypi tapuy: *"Mayqin jurisdicciónkunapi Fontes maskanman?"* Aplica
 suyukunap listanwanmi kutichinan. Mana chhayna kaptinqa, aplicacionta huk kutitawan wichqay
 hinaspa wakmanta kichay.
 
-## Huk clickllawan instalador (hamuchkanmi)
+## Huk clickllawan instalador (Mac)
 
-Mac, Windows nisqapaq huk instaladormi hamuchkan, Fontesta llapan aplicacionniykikunapi huk
-kutillapi churaq. Churan Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
-Windsurf, Gemini CLI, Zed, LM Studio, Cline nisqakunapi. Lluqsiptinña:
+Mac instaladorqa Fontesta llapan aplicacionniykikunapi huk kutillapi churan: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio, Cline.
+Windowspaq instaladormi hamuchkan; chaykamaqa, hanaqpi aplicacionniykipaq ruraykunata llamk'achiy.
 
 **Manaraq qallarichkaspa:** kay aplicacionkunap sapakamanta tukuy-tukuyta wichqay. Kayqa
 Claude Codepaqmi aswan ancha: purichkaptinqa `~/.claude.json` nisqata wakmanta qillqan,
@@ -147,18 +147,18 @@ Fontestaqa `claude mcp add` nisqawan yapay ([Claude Code](#claude-code) qhaway).
 
 **Mac**
 
-1. Uraykuchisqa **Fontes Installer** carpetata kichay.
-2. **Install Fontes.command** nisqapi iskay kuti click ruway.
-   - Macniyki "cannot be opened because it is from an unidentified developer" nispa ninqa:
-     archivopi paña clickta ruway (utaq Control-click), **Open** akllay, chaymanta wakmanta
-     **Open**. Huk kutillatam kayta ruwanki.
-3. Huk ventanam kichakun, sutinnaq llamk'achiy yupaykunata kachananmanta tapusunki; mana
-   nispaqa Enter ñit'iy.
-4. Kunanpacha llavekunata yapananmanta tapusunki. Saltanaykipaq Enter ñit'iy;
-   [Llavekuna yapay](#llavekuna-yapay) qhaway.
-5. **Done** nisqanpi, IA aplicacionniykikunata wakmanta kichay.
+1. Mac instaladorta (`Fontes-Installer-…-mac.zip`) [qhipa kaq
+   lluqsiymanta](https://github.com/ykarapazar/fontes/releases/latest) uraykuchiy, hinaspa
+   paskanaykipaq iskay kuti click ruway.
+2. **Fontes Installer** nisqapi iskay kuti click ruway. Macniyki internetmanta uraykuchisqa
+   aplicacionta kichanaykimanta tapusuptinki, **Open** nisqapi click ruway.
+3. **Instalay** akllay, hinaspa **Allinmi** nisqapi click ruway. Churayqa yaqa huk minutotam unan.
+4. Huk willakuymi churasqan aplicacionkunata rikuchin. **Tukusqa** nisqapi click ruway, chaymanta
+   chay aplicacionkunata wakmanta kichay. Ñawpaqta mana kamachisqa, mana qullqiyuq llavekunata
+   yapanaykipaqqa, **Llavekunata yapay** nisqapi click ruway; [Llavekuna yapay](#llavekuna-yapay)
+   qhaway.
 
-**Windows**
+**Windows** (Windows instalador lluqsiptinña)
 
 1. Uraykuchisqa **Fontes Installer** nisqata kichay (paña click → Extract All).
 2. **Install Fontes.cmd** nisqapi iskay kuti click ruway.
@@ -203,8 +203,7 @@ Iskay aplicacionkunam huk rurayta aswan necesitanku:
 Instalasqa qhipallamanmi, instaladorqa Francia, Estados Unidos nisqakunapaq mana qullqiyuq
 llavekunata yapayta munanki chayqa tapusunki. Qhipaman yapanaykipaq utaq tikranaykipaq:
 
-- **Mac:** instalador carpetapi **Add or change keys.command** nisqapi iskay kuti click ruway,
-  utaq Fontes Installer aplicacionta wakmanta kichay hinaspa **Add or change keys** akllay.
+- **Mac:** **Fontes Installer** nisqata wakmanta kichay hinaspa **Llavekunata yapay utaq tikray** akllay.
 - **Windows:** instalador carpetapi **Add or change keys.cmd** nisqapi iskay kuti click ruway.
 
 Qillqasqaykiqa pakasqam. Llavekunaqa Fontesniyuqña llapan aplicacionkunamanmi yaykunku.
@@ -219,8 +218,8 @@ kasqanman hinam qhipakun. Huk archivota manaraq tikrachkaspa, qayllanpi huk copi
 llavekunatam apanku: mana necesitasqaykikunata qichuy. uv nisqatapas instalanmi. Wakmanta
 purichiyqa mana sasachakuyniyuqmi: churasqata allichan, manataq huk imatapas tikranchu.
 
-Fontesta qichunaykipaq, **Uninstall Fontes.command** (Mac) utaq **Uninstall Fontes.cmd**
-(Windows) nisqapi iskay kuti click ruway. `fontes` qillqata, llavekunantinta, llapan
+Fontesta qichunaykipaq, **Fontes Installer** nisqata kichay hinaspa **Qichuy** akllay (Mac), utaq
+**Uninstall Fontes.cmd** nisqapi iskay kuti click ruway (Windows). `fontes` qillqata, llavekunantinta, llapan
 aplicacionkunamanta qichun. Huk configuracionniykikuna, backup copiakunapas qhipakunmi.
 
 ## Musuqchaykuna

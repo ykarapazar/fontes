@@ -460,7 +460,8 @@ def ask_stats(ask=input) -> bool:
 
 def prefetch(uv: str, app: str) -> bool:
     """Download the newest version now (so the first start is fast) and record it as good."""
-    print(t("fetch", app=app))
+    if not gui():  # the Mac app shows its own "working" notice; its closing dialog stays short
+        print(t("fetch", app=app))
     env = {**os.environ, "UV": uv}
     if app == "fontes" and env.get("FONTES_FROM"):  # development source, not PyPI
         cmd = [uv, "tool", "run", "--quiet", "--managed-python", "--python", "3.13",
@@ -471,7 +472,8 @@ def prefetch(uv: str, app: str) -> bool:
                str(launcher.state_dir() / LAUNCHER_NAME), "--update", app]
         out = subprocess.run(cmd, env=env, capture_output=True, text=True, stdin=subprocess.DEVNULL)
         ok = out.stdout.strip() in ("updated", "current")
-    print(t("fetch_ok" if ok else "fetch_fail", app=app))
+    if not (ok and gui()):
+        print(t("fetch_ok" if ok else "fetch_fail", app=app))
     return ok
 
 
@@ -501,10 +503,9 @@ def want_keys(ask=input) -> bool:
             b = _dialog('button returned of (display dialog (item 1 of argv) with title "Fontes" '
                         'buttons {item 2 of argv, item 3 of argv, item 4 of argv} '
                         'default button (item 4 of argv) cancel button (item 2 of argv))',
-                        intro + "\n\n" + t("app_keys_ask"), t("app_button_skip"),
-                        t("app_button_guide"), t("app_button_keys"))
+                        intro, t("app_button_cancel"), t("app_button_guide"), t("app_button_continue"))
             if b != t("app_button_guide"):
-                return b == t("app_button_keys")
+                return b == t("app_button_continue")
             subprocess.run(["open", KEYS_URL])
     try:
         return i18n.yes(ask(intro + "\n" + t("keys_ask")))
@@ -530,7 +531,9 @@ def ask_keys(env: dict[str, str], ask=ask_secret) -> bool:
     True if anything changed; a cancel leaves env as it was."""
     new = dict(env)
     for var, label in KEYS.items():
-        answer = ask(t("keys_set" if new.get(var) else "keys_unset", name=t(label)))
+        key = ("app_key_set" if new.get(var) else "app_key_unset") if gui() else \
+            ("keys_set" if new.get(var) else "keys_unset")
+        answer = ask(t(key, name=t(label)))
         if answer is None:
             return False
         answer = answer.strip()
@@ -545,7 +548,8 @@ def ask_keys(env: dict[str, str], ask=ask_secret) -> bool:
 
 
 def install() -> int:
-    print(t("start"))
+    if not gui():
+        print(t("start"))
     uv = find_uv()
     if not uv:
         print(t("no_uv"))
@@ -564,11 +568,14 @@ def install() -> int:
 
     for app in launcher.APPS:
         prefetch(uv, app)
-    if (gui() or sys.stdin.isatty()) and want_keys():
-        ask_keys(fontes_env)
     done = configure({"fontes": entry(uv, "fontes", fontes_env)})
     if done:
         print(t("apps_list", clients=", ".join(done)))
+    # Keys are optional, so they are offered only once Fontes is set up. The Mac app offers
+    # them in its closing dialog instead.
+    if not gui() and sys.stdin.isatty() and want_keys() and ask_keys(fontes_env):
+        configure({"fontes": entry(uv, "fontes", fontes_env)}, only_ours=True)
+        print(t("keys_saved"))
     print(t("done"))
     return 0
 

@@ -13,12 +13,12 @@ Klíče jsou volitelné. Můžete je přidat i později.
 
 ## Přidání klíče
 
-**Pomocí instalátoru.** Během instalace se instalátor zeptá, zda chcete přidat klíče. Zvolte
-**Teď ne** (nebo stiskněte Enter) a krok přeskočíte. Chcete-li klíče přidat nebo změnit později,
-spusťte **Add or change keys**:
+**Pomocí instalátoru.** Jakmile je Fontes nastaven, instalátor nabídne přidání klíčů. Na Macu
+klikněte na **Přidat klíče**, nebo na **Hotovo**, pokud krok chcete přeskočit; ve Windows odpovězte
+na otázku (stisknutím Enter krok přeskočíte). Chcete-li klíče přidat nebo změnit později, spusťte
+**Add or change keys**:
 
-- Mac: znovu otevřete aplikaci Fontes Installer a zvolte **Přidat nebo změnit klíče**,
-  nebo dvakrát klikněte na `Add or change keys.command` ve složce instalátoru.
+- Mac: znovu otevřete aplikaci Fontes Installer a zvolte **Přidat nebo změnit klíče**.
 - Windows: dvakrát klikněte na `Add or change keys.cmd` ve složce instalátoru.
   Instalátor pro Windows ho po vydání umístí také do Start menu > Fontes.
 

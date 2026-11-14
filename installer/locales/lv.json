@@ -34,9 +34,7 @@
  "app_button_cancel": "Atcelt",
  "app_button_ok": "Labi",
  "app_button_keys": "Pievienot vai mainīt atslēgas",
- "app_button_skip": "Ne tagad",
  "app_button_guide": "Atvērt ceļvedi",
- "app_keys_ask": "Pievienot atslēgas tagad? To var izdarīt arī vēlāk: vēlreiz atveriet instalētāju un izvēlieties “Pievienot vai mainīt atslēgas”.",
  "sh_installing_uv": "Notiek uv instalēšana – rīka, kas lejupielādē un atjaunina Fontes (vienreiz)...",
  "sh_no_uv": "uv nav instalēts; nav nekā, ko noņemt.",
  "sh_press_enter": "Nospiediet Enter, lai aizvērtu šo logu.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Tiesību akta satura rādītājs ar tiesību normu apzīmējumiem.",
  "mcpb_tool_get_legislation_provision": "Viena panta vai sadaļas spēkā esošais teksts.",
  "mcpb_tool_get_legislation_text": "Pilns tiesību akta konsolidētās versijas teksts, sadalīts lapās.",
- "mcpb_tool_report_bug": "Sagatavo Fontes kļūdas ziņojumu; tas tiek nosūtīts tikai tad, ja lietotājs to apstiprina."
+ "mcpb_tool_report_bug": "Sagatavo Fontes kļūdas ziņojumu; tas tiek nosūtīts tikai tad, ja lietotājs to apstiprina.",
+ "app_keys_offer": "Neobligāti: bezmaksas atslēgas ieslēdz Franciju un paaugstina ASV tiesu prakses meklēšanas limitu. Pievienojiet tās tagad vai vēlāk, atkal atverot šo instalētāju.",
+ "app_button_add_keys": "Pievienot atslēgas",
+ "app_button_done": "Gatavs",
+ "app_button_continue": "Turpināt",
+ "app_key_unset": "{name}\n\nIelīmējiet to zemāk vai atstājiet lauku tukšu, lai to izlaistu.",
+ "app_key_set": "{name} jau ir saglabāta.\n\nIelīmējiet jaunu, lai to aizstātu, atstājiet lauku tukšu, lai to paturētu, vai ierakstiet -, lai to noņemtu."
 }

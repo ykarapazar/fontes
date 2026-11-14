@@ -34,9 +34,7 @@
  "app_button_cancel": "Anuluj",
  "app_button_ok": "OK",
  "app_button_keys": "Dodaj lub zmień klucze",
- "app_button_skip": "Nie teraz",
  "app_button_guide": "Otwórz przewodnik",
- "app_keys_ask": "Dodać klucze teraz? Możesz to zrobić także później: otwórz ponownie instalator i wybierz „Dodaj lub zmień klucze”.",
  "sh_installing_uv": "Instalowanie uv, narzędzia, które pobiera i aktualizuje Fontes (jednorazowo)...",
  "sh_no_uv": "uv nie jest zainstalowane; nie ma nic do usunięcia.",
  "sh_press_enter": "Naciśnij Enter, aby zamknąć to okno.",
@@ -68,5 +66,11 @@
  "mcpb_tool_get_legislation_toc": "Spis treści aktu prawnego z oznaczeniami przepisów.",
  "mcpb_tool_get_legislation_provision": "Aktualne brzmienie jednego artykułu lub paragrafu.",
  "mcpb_tool_get_legislation_text": "Pełny tekst jednolity aktu prawnego, stronicowany.",
- "mcpb_tool_report_bug": "Przygotowuje zgłoszenie błędu Fontes; wysyłane tylko wtedy, gdy użytkownik je potwierdzi."
+ "mcpb_tool_report_bug": "Przygotowuje zgłoszenie błędu Fontes; wysyłane tylko wtedy, gdy użytkownik je potwierdzi.",
+ "app_keys_offer": "Opcjonalnie: bezpłatne klucze włączają Francję i podnoszą limit orzecznictwa Stanów Zjednoczonych. Dodaj je teraz lub później, ponownie otwierając ten instalator.",
+ "app_button_add_keys": "Dodaj klucze",
+ "app_button_done": "Gotowe",
+ "app_button_continue": "Dalej",
+ "app_key_unset": "{name}\n\nWklej go poniżej lub zostaw pole puste, aby go pominąć.",
+ "app_key_set": "{name} jest już zapisany.\n\nWklej nowy, aby go zastąpić, zostaw pole puste, aby go zachować, lub wpisz -, aby go usunąć."
 }
