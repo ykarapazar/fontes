@@ -699,11 +699,14 @@ saját időközeink. A `list_jurisdictions` ugyanezeket az adatokat adja vissza.
 
 ## Ismert problémák ebben a bétában
 
-Állapot: 2026. november 12. Az [állapotoldal](https://ykarapazar.github.io/fontes/status/?lang=hu) mutatja az egyes források mai állapotát.
+Állapot: 2026. november 18. Az [állapotoldal](https://ykarapazar.github.io/fontes/status/?lang=hu) mutatja az egyes források mai állapotát.
 
-- **Leállt vagy blokkolt.** A svájci Szövetségi Legfelsőbb Bíróság webhelye robotellenőrzést jelenít meg; a Fontes leáll,
-  és megadja a hivatkozást, hogy böngészőben kereshessen rajta. Ausztria és Palesztina szerverhibát ad vissza,
-  Szenegál és Jordánia gyakran elérhetetlen, Laosz pedig nagyon lassú.
+- **Leállt vagy blokkolt.** A svájci Szövetségi Legfelsőbb Bíróság webhelye robotellenőrzést jelenít meg; a Fontes
+  leáll, és megadja a hivatkozást, hogy böngészőben kereshessen rajta. A jordán Alkotmánybíróság egy hete nem
+  válaszol, a szenegáli kormányzati jogszabályoldalak pedig gyakran elérhetetlenek.
+- **Egyes oldalak csak közelről válaszolnak.** A német Gesetze im Internet, a román Képviselőház és Felsőbíróság, a
+  szlovák Legfelsőbb Bíróság és a portugál Alkotmánybíróság Európából működik, de az Egyesült Államokból, ahonnan az
+  állapotoldal napi ellenőrzése fut, gyakran időtúllépés lép fel.
 - **Alapértelmezés szerint kikapcsolva.** Bahrein és Kolumbia felhasználási feltételei engedély nélkül tiltják
   az automatizált hozzáférést, ezért a Fontes nem nyúl hozzájuk, hacsak Ön be nem kapcsolja őket.
 - **Nincs jogszabályforrás.** Egyiptom, Izland, Laosz és Mongólia: csak ítélkezési gyakorlat.

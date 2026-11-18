@@ -686,11 +686,15 @@ retorna os mesmos dados.
 
 ## Problemas conhecidos nesta versão beta
 
-Situação em 12 de novembro de 2026. A [página de status](https://ykarapazar.github.io/fontes/status/?lang=pt) mostra o estado de hoje de cada fonte.
+Situação em 18 de novembro de 2026. A [página de status](https://ykarapazar.github.io/fontes/status/?lang=pt) mostra o estado de hoje de cada fonte.
 
-- **Fora do ar ou bloqueadas.** O site do Supremo Tribunal Federal da Suíça exibe uma verificação anti-robô; o Fontes para
-  e passa a você o link para pesquisar no navegador. Áustria e Palestina retornam erros de servidor,
-  Senegal e Jordânia ficam muitas vezes inacessíveis, e o Laos é muito lento.
+- **Fora do ar ou bloqueadas.** O site do Supremo Tribunal Federal da Suíça exibe uma verificação anti-robô; o
+  Fontes para e passa a você o link para pesquisar no navegador. O Tribunal Constitucional da Jordânia não
+  responde há uma semana, e os sites de legislação do governo do Senegal ficam muitas vezes inacessíveis.
+- **Alguns sites respondem só de perto.** O Gesetze im Internet da Alemanha, a Câmara dos Deputados e a Alta
+  Corte da Romênia, o Supremo Tribunal da Eslováquia e o Tribunal Constitucional de Portugal funcionam a
+  partir da Europa, mas muitas vezes expiram a partir dos EUA, onde roda a verificação diária da página de
+  status.
 - **Desativadas por padrão.** Os termos do Bahrein e da Colômbia proíbem o acesso automatizado sem
   permissão, então o Fontes não as acessa a menos que você as ative.
 - **Sem fonte de legislação.** Egito, Islândia, Laos e Mongólia: apenas jurisprudência.

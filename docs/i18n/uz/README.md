@@ -694,11 +694,15 @@ maʼlumotlarni qaytaradi.
 
 ## Ushbu beta versiyadagi maʼlum muammolar
 
-2026-yil 12-noyabr holatiga koʻra. [Holat sahifasi](https://ykarapazar.github.io/fontes/status/?lang=uz) har bir manbaning bugungi holatini koʻrsatadi.
+2026-yil 18-noyabr holatiga koʻra. [Holat sahifasi](https://ykarapazar.github.io/fontes/status/?lang=uz) har bir manbaning bugungi holatini koʻrsatadi.
 
-- **Ishlamayapti yoki bloklangan.** Shveytsariya Federal Oliy sudi sayti bot tekshiruvini koʻrsatadi; Fontes toʻxtaydi
-  va brauzerda qidirishingiz uchun havolani beradi. Avstriya va Falastin server xatoliklarini qaytaradi,
-  Senegal va Iordaniyaga koʻpincha ulanib boʻlmaydi, Laos esa juda sekin.
+- **Ishlamayapti yoki bloklangan.** Shveytsariya Federal Oliy sudi sayti bot tekshiruvini koʻrsatadi; Fontes
+  toʻxtaydi va brauzerda qidirishingiz uchun havolani beradi. Iordaniya Konstitutsiyaviy sudi bir haftadan
+  beri javob bermayapti, Senegalning hukumat qonunchilik saytlariga esa koʻpincha ulanib boʻlmaydi.
+- **Baʼzi saytlar faqat yaqindan javob beradi.** Germaniyaning Gesetze im Internet, Ruminiyaning Deputatlar
+  palatasi va Oliy sudi, Slovakiyaning Oliy sudi hamda Portugaliyaning Konstitutsiyaviy sudi Yevropadan
+  ishlaydi, lekin holat sahifasining kundalik tekshiruvi ishga tushadigan AQShdan koʻpincha vaqt tugab
+  qoladi.
 - **Standart holatda oʻchirilgan.** Bahrayn va Kolumbiya shartlari ruxsatsiz avtomatlashtirilgan kirishni
   taqiqlaydi, shuning uchun Fontes ularni siz yoqmaguningizcha ishlatmaydi.
 - **Qonunchilik manbasi yoʻq.** Misr, Islandiya, Laos va Moʻgʻuliston: faqat sud amaliyoti.

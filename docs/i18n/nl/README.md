@@ -686,11 +686,15 @@ tussenpoos. `list_jurisdictions` geeft dezelfde gegevens.
 
 ## Bekende problemen in deze bètaversie
 
-Stand op 12 november 2026. De pagina [Status van de bronnen](https://ykarapazar.github.io/fontes/status/?lang=nl) toont de stand van elke bron vandaag.
+Stand op 18 november 2026. De pagina [Status van de bronnen](https://ykarapazar.github.io/fontes/status/?lang=nl) toont de stand van elke bron vandaag.
 
-- **Uitgevallen of geblokkeerd.** De site van het Zwitserse Federale Hooggerechtshof toont een botcontrole; Fontes stopt
-  en geeft u de link om er in een browser te zoeken. Oostenrijk en Palestina geven serverfouten,
-  Senegal en Jordanië zijn vaak onbereikbaar en Laos is erg traag.
+- **Uitgevallen of geblokkeerd.** De site van het Zwitserse Federale Hooggerechtshof toont een botcontrole;
+  Fontes stopt en geeft u de link om er in een browser te zoeken. Het Constitutionele Hof van Jordanië heeft
+  een week niet gereageerd en de sites van de Senegalese overheid voor wetgeving zijn vaak onbereikbaar.
+- **Sommige sites reageren alleen van dichtbij.** Gesetze im Internet in Duitsland, de Kamer van
+  Afgevaardigden en het Hooggerechtshof van Roemenië, het Hooggerechtshof van Slowakije en het Constitutionele
+  Hof van Portugal werken vanuit Europa, maar lopen vanuit de VS, waar de dagelijkse controle van de
+  statuspagina draait, vaak op een time-out.
 - **Standaard uit.** De voorwaarden van Bahrein en Colombia verbieden geautomatiseerde toegang zonder
   toestemming, dus Fontes raakt ze niet aan tenzij u ze aanzet.
 - **Geen bron voor wetgeving.** Egypte, IJsland, Laos en Mongolië: alleen jurisprudentie.

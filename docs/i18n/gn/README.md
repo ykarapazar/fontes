@@ -691,11 +691,14 @@ peteĩchagua.
 
 ## Apañuãi ojekuaáva ko beta-pe
 
-12 jasypateĩ 2026 peve. [Kuatiarogue mba'éichapa oĩ](https://ykarapazar.github.io/fontes/status/?lang=gn) ohechauka mba'éichapa oĩ peteĩteĩ ypykue ko árape.
+18 jasypateĩ 2026 peve. [Kuatiarogue mba'éichapa oĩ](https://ykarapazar.github.io/fontes/status/?lang=gn) ohechauka mba'éichapa oĩ peteĩteĩ ypykue ko árape.
 
 - **Ndoikói térã ojejoko.** Suiza Tribunal Supremo Federal sitio ohechauka peteĩ jehechajey bot rehegua; Fontes opyta
-  ha ome'ẽ ndéve joaju reheka hag̃ua navegador-pe. Austria ha Palestina ome'ẽ jejavy servidor rehegua,
-  Senegal ha Jordania-pe heta jey ndaikatúi ojeike, ha Laos ipuku eterei.
+  ha ome'ẽ ndéve joaju reheka hag̃ua navegador-pe. Jordania Tribunal Constitucional ndombohováiri peteĩ arapokõindy
+  guare, ha Senegal-pe gobierno ley rehegua sitiokuéra heta jey ndaikatúi ojeike.
+- **Heta sitio ombohovái ag̃uígui añoite.** Alemania Gesetze im Internet, Rumania Cámara de Diputados ha Tribunal
+  Superior, Eslovaquia Tribunal Supremo ha Portugal Tribunal Constitucional oñemba'apo Europa-gui, ha katu heta jey
+  ndombohováiri Estados Unidos-gui, moõ ojejapo pe kuatiarogue mba'éichapa oĩ jehecha ára ha ára.
 - **Mbogue ijypýpe.** Baréin ha Colombia condicionkuéra ombotove jeike automatizado permiso'ỹre,
   upévare Fontes ndopokói hese ndembojeráiramo.
 - **Ndaipóri léikuéra ypykue.** Egipto, Islandia, Laos ha Mongolia: jurisprudencia añoite.

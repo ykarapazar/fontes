@@ -690,11 +690,14 @@ tar-rati mmarkati "documented" ġejjin mis-sors; kull ħaġa oħra hija l-ispazj
 
 ## Problemi magħrufa f'din il-beta
 
-Sat-12 ta' Novembru 2026. Il-[paġna tal-istatus](https://ykarapazar.github.io/fontes/status/?lang=mt) turi l-istat tal-lum ta' kull sors.
+Sat-18 ta' Novembru 2026. Il-[paġna tal-istatus](https://ykarapazar.github.io/fontes/status/?lang=mt) turi l-istat tal-lum ta' kull sors.
 
-- **Ma jaħdmux jew imblukkati.** Is-sit tal-Qorti Suprema Federali tal-Iżvizzera juri verifika kontra l-bots; Fontes jieqaf
-  u jagħtik il-link biex tfittex fih minn browser. L-Awstrija u l-Palestina jagħtu żbalji tas-server,
-  is-Senegal u l-Ġordan spiss ma jintlaħqux, u l-Laos huwa bil-mod ħafna.
+- **Ma jaħdmux jew imblukkati.** Is-sit tal-Qorti Suprema Federali tal-Iżvizzera juri verifika kontra l-bots;
+  Fontes jieqaf u jagħtik il-link biex tfittex fih minn browser. Il-Qorti Kostituzzjonali tal-Ġordan ilha
+  ġimgħa ma twieġeb, u s-siti tal-leġiżlazzjoni tal-gvern tas-Senegal spiss ma jintlaħqux.
+- **Xi siti jwieġbu biss minn qrib.** Gesetze im Internet tal-Ġermanja, il-Kamra tad-Deputati u l-Qorti Għolja
+  tar-Rumanija, il-Qorti Suprema tas-Slovakkja u l-Qorti Kostituzzjonali tal-Portugall jaħdmu mill-Ewropa iżda
+  spiss jegħlbu l-ħin mill-Istati Uniti, fejn jimxi l-kontroll ta' kuljum tal-paġna tal-istatus.
 - **Mitfija awtomatikament.** It-termini tal-Bahrain u tal-Kolombja jipprojbixxu l-aċċess awtomatizzat mingħajr
   permess, għalhekk Fontes ma jmissx magħhom sakemm ma tixgħelhomx int.
 - **L-ebda sors ta' leġiżlazzjoni.** L-Eġittu, l-Iżlanda, il-Laos u l-Mongolja: ġurisprudenza biss.

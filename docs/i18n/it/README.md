@@ -686,11 +686,14 @@ distanziamento. `list_jurisdictions` restituisce gli stessi dati.
 
 ## Problemi noti in questa beta
 
-Aggiornato al 12 novembre 2026. La [pagina di stato](https://ykarapazar.github.io/fontes/status/?lang=it) mostra lo stato attuale di ogni fonte.
+Aggiornato al 18 novembre 2026. La [pagina di stato](https://ykarapazar.github.io/fontes/status/?lang=it) mostra lo stato attuale di ogni fonte.
 
-- **Non disponibili o bloccate.** Il sito del Tribunale federale svizzero mostra un controllo anti-bot; Fontes si ferma
-  e Le fornisce il link per cercare nel sito con un browser. Austria e Palestina restituiscono errori del server,
-  Senegal e Giordania sono spesso irraggiungibili e il Laos è molto lento.
+- **Non disponibili o bloccate.** Il sito del Tribunale federale svizzero mostra un controllo anti-bot; Fontes si
+  ferma e Le fornisce il link per cercare nel sito con un browser. La Corte costituzionale della Giordania non
+  risponde da una settimana e i siti della normativa governativa del Senegal sono spesso irraggiungibili.
+- **Alcuni siti rispondono solo da vicino.** Gesetze im Internet (Germania), la Camera dei deputati e l'Alta Corte
+  della Romania, la Corte suprema della Slovacchia e la Corte costituzionale del Portogallo funzionano dall'Europa ma
+  spesso vanno in timeout dagli Stati Uniti, da cui parte il controllo quotidiano della pagina di stato.
 - **Disattivate per impostazione predefinita.** Le condizioni del Bahrein e della Colombia vietano l'accesso automatizzato senza
   autorizzazione, quindi Fontes non vi accede a meno che non sia Lei ad attivarle.
 - **Nessuna fonte di normativa.** Egitto, Islanda, Laos e Mongolia: solo giurisprudenza.

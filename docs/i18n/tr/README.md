@@ -682,11 +682,14 @@ aralıklandırmamızdır. `list_jurisdictions` aynı verileri döndürür.
 
 ## Bu beta sürümündeki bilinen sorunlar
 
-12 Kasım 2026 itibarıyla. [Durum sayfası](https://ykarapazar.github.io/fontes/status/?lang=tr) her kaynağın bugünkü durumunu gösterir.
+18 Kasım 2026 itibarıyla. [Durum sayfası](https://ykarapazar.github.io/fontes/status/?lang=tr) her kaynağın bugünkü durumunu gösterir.
 
-- **Erişilemiyor veya engelli.** İsviçre Federal Yüksek Mahkemesi'nin sitesi bir bot doğrulaması gösteriyor; Fontes
-  durur ve size tarayıcıda arama yapabileceğiniz bağlantıyı verir. Avusturya ve Filistin sunucu hatası döndürüyor,
-  Senegal ve Ürdün'e çoğu zaman erişilemiyor, Laos ise çok yavaş.
+- **Erişilemiyor veya engelli.** İsviçre Federal Yüksek Mahkemesi'nin sitesi bir bot doğrulaması gösteriyor;
+  Fontes durur ve size tarayıcıda arama yapabileceğiniz bağlantıyı verir. Ürdün Anayasa Mahkemesi bir
+  haftadır yanıt vermiyor, Senegal'in hükümet mevzuat sitelerine de çoğu zaman erişilemiyor.
+- **Bazı siteler yalnızca yakından yanıt veriyor.** Almanya'nın Gesetze im Internet'i, Romanya Temsilciler
+  Meclisi ve Yüksek Mahkemesi, Slovakya Yüksek Mahkemesi ve Portekiz Anayasa Mahkemesi Avrupa'dan çalışıyor,
+  ancak durum sayfasının günlük kontrolünün çalıştığı ABD'den çoğu zaman zaman aşımına uğruyor.
 - **Varsayılan olarak kapalı.** Bahreyn'in ve Kolombiya'nın kullanım koşulları izinsiz otomatik erişimi
   yasaklıyor; bu yüzden Fontes, siz açmadıkça bu kaynaklara dokunmaz.
 - **Mevzuat kaynağı yok.** Mısır, İzlanda, Laos ve Moğolistan: yalnızca içtihat.

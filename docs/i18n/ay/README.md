@@ -695,11 +695,14 @@ jayankañasawa. `list_jurisdictions` ukax pachpa yatiyäwinak kutt'ayi.
 
 ## Aka betan uñt'at jan walt'awinaka
 
-2026 mara noviembre phaxsi 12 urkama. [Jalsunakan kunjamäkipa](https://ykarapazar.github.io/fontes/status/?lang=ay) laphix sapa jalsun jichhürunak kunjamäkipa uñacht'ayi.
+2026 mara noviembre phaxsi 18 urkama. [Jalsunakan kunjamäkipa](https://ykarapazar.github.io/fontes/status/?lang=ay) laphix sapa jalsun jichhürunak kunjamäkipa uñacht'ayi.
 
 - **Jiwt'ata jan ukax jark'ata.** Suiza markan Federal Corte Suprema ukan sitiopax bot uñakipäwi uñacht'ayi; Fontes ukax sayt'i
-  ukat navegadoran thaqañamatakix enlace churtamxi. Austria, Palestina markanakax servidoran pantjäwinakap kutt'ayi,
-  Senegal, Jordania markanakar walja kutiw jan puriñjamäki, Laos markax wali k'achatwa.
+  ukat navegadoran thaqañamatakix enlace churtamxi. Jordania markan Corte Constitucional ukax mä semana jan kuns jaysawayiwa,
+  Senegal markan gobiernopan leyinak sitionakapax walja kutiw jan puriñjamäki.
+- **Maynit jak'ata sapakiw jaysi.** Alemania markan Gesetze im Internet, Rumania markan Cámara de Diputados ukat Corte Suprema,
+  Eslovaquia markan Corte Suprema ukat Portugal markan Corte Constitucional ukanakax Europat irnaqapxi, ukampis Estados Unidos markat
+  walja kutiw timeout ukar puri, kawkhantix Jalsunakan kunjamäkipa laphin sapa uru uñakipäwipax sarantki ukanx.
 - **Nayratpach jiwt'ata.** Bahrein, Colombia markanakan condicionanakapax jan permisompix automatizado mantaña
   jark'i, ukatwa Fontes ukax jan llamkt'kiti, jumax jan naktayktaxa.
 - **Kamachinakan jalsupax janiw utjkiti.** Egipto, Islandia, Laos, Mongolia: jurisprudenciakiwa.

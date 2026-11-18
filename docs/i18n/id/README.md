@@ -683,11 +683,14 @@ sendiri. `list_jurisdictions` mengembalikan data yang sama.
 
 ## Masalah yang diketahui dalam versi beta ini
 
-Per 12 November 2026. [Halaman status](https://ykarapazar.github.io/fontes/status/?lang=id) menunjukkan kondisi setiap sumber hari ini.
+Per 18 November 2026. [Halaman status](https://ykarapazar.github.io/fontes/status/?lang=id) menunjukkan kondisi setiap sumber hari ini.
 
-- **Mati atau diblokir.** Situs Mahkamah Agung Federal Swiss menampilkan pemeriksaan bot; Fontes berhenti
-  dan memberi Anda tautan untuk mencarinya di peramban. Austria dan Palestina mengembalikan galat server,
-  Senegal dan Yordania sering tidak dapat dijangkau, dan Laos sangat lambat.
+- **Mati atau diblokir.** Situs Mahkamah Agung Federal Swiss menampilkan pemeriksaan bot; Fontes berhenti dan memberi
+  Anda tautan untuk mencarinya di peramban. Mahkamah Konstitusi Yordania sudah seminggu tidak menjawab, dan situs
+  legislasi pemerintah Senegal sering tidak dapat dijangkau.
+- **Beberapa situs hanya menjawab dari dekat.** Gesetze im Internet milik Jerman, Dewan Perwakilan dan Mahkamah Tinggi
+  Rumania, Mahkamah Agung Slovakia, dan Mahkamah Konstitusi Portugal berfungsi dari Eropa, tetapi sering kehabisan
+  waktu dari AS, tempat pemeriksaan harian halaman status dijalankan.
 - **Nonaktif secara bawaan.** Ketentuan Bahrain dan Kolombia melarang akses otomatis tanpa
   izin, jadi Fontes tidak menyentuhnya kecuali Anda mengaktifkannya.
 - **Tidak ada sumber peraturan perundang-undangan.** Mesir, Islandia, Laos, dan Mongolia: hanya putusan pengadilan.

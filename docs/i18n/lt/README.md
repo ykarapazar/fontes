@@ -693,11 +693,14 @@ pažymėtos „documented“, gautos iš šaltinio; visos kitos yra mūsų pači
 
 ## Žinomos šios beta versijos problemos
 
-2026 m. lapkričio 12 d. duomenimis. [Būsenos puslapis](https://ykarapazar.github.io/fontes/status/?lang=lt) rodo šiandienę kiekvieno šaltinio būseną.
+2026 m. lapkričio 18 d. duomenimis. [Būsenos puslapis](https://ykarapazar.github.io/fontes/status/?lang=lt) rodo šiandienę kiekvieno šaltinio būseną.
 
-- **Neveikia arba užblokuoti.** Šveicarijos Federalinio Aukščiausiojo Teismo svetainė rodo robotų patikrą; Fontes sustoja
-  ir pateikia jums nuorodą, kad galėtumėte ieškoti naršyklėje. Austrijos ir Palestinos šaltiniai grąžina serverio klaidas,
-  Senegalo ir Jordanijos šaltiniai dažnai nepasiekiami, o Laoso šaltinis veikia labai lėtai.
+- **Neveikia arba užblokuoti.** Šveicarijos Federalinio Aukščiausiojo Teismo svetainė rodo robotų patikrą;
+  Fontes sustoja ir pateikia jums nuorodą, kad galėtumėte ieškoti naršyklėje. Jordanijos Konstitucinis Teismas
+  nebeatsako jau savaitę, o Senegalo vyriausybės teisės aktų svetainės dažnai nepasiekiamos.
+- **Kai kurios svetainės atsako tik iš netoli.** Vokietijos Gesetze im Internet, Rumunijos Deputatų rūmai ir
+  Aukščiausiasis Teismas, Slovakijos Aukščiausiasis Teismas ir Portugalijos Konstitucinis Teismas veikia iš
+  Europos, bet dažnai nustoja atsakyti iš JAV, kur vykdomas kasdienis būsenos puslapio patikrinimas.
 - **Pagal numatytuosius nustatymus išjungti.** Bahreino ir Kolumbijos sąlygos draudžia automatizuotą prieigą be
   leidimo, todėl Fontes jų neliečia, nebent juos įjungtumėte.
 - **Nėra teisės aktų šaltinio.** Egiptas, Islandija, Laosas ir Mongolija: tik teismų praktika.

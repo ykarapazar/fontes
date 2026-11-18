@@ -691,11 +691,14 @@ Tugann `list_jurisdictions` na sonraí céanna ar ais.
 
 ## Fadhbanna aitheanta sa leagan béite seo
 
-Amhail an 12 Samhain 2026. Taispeánann an [leathanach stádais](https://ykarapazar.github.io/fontes/status/?lang=ga) staid gach foinse inniu.
+Amhail an 18 Samhain 2026. Taispeánann an [leathanach stádais](https://ykarapazar.github.io/fontes/status/?lang=ga) staid gach foinse inniu.
 
-- **As feidhm nó blocáilte.** Taispeánann suíomh Chúirt Uachtarach Chónaidhme na hEilvéise seiceáil bot; stopann Fontes
-  agus tugann sé an nasc duit chun é a chuardach i mbrabhsálaí. Tugann an Ostair agus an Phalaistín earráidí freastalaí,
-  is minic nach féidir an tSeineagáil ná an Iordáin a bhaint amach, agus tá Laos an-mhall.
+- **As feidhm nó blocáilte.** Taispeánann suíomh Chúirt Uachtarach Chónaidhme na hEilvéise seiceáil bot; stopann
+  Fontes agus tugann sé an nasc duit chun é a chuardach i mbrabhsálaí. Níor fhreagair Cúirt Bhunreachtúil na hIordáine
+  le seachtain, agus is minic nach féidir suíomhanna reachtaíochta rialtas na Seineagáile a bhaint amach.
+- **Ní fhreagraíonn roinnt suíomhanna ach ó chóngar.** Oibríonn Gesetze im Internet na Gearmáine, Seomra na dTeachtaí
+  agus Ard-Chúirt na Rómáine, Cúirt Uachtarach na Slóvaice agus Cúirt Bhunreachtúil na Portaingéile ón Eoraip, ach is
+  minic a théann siad thar am ó na Stáit Aontaithe, áit a ritheann seiceáil laethúil an leathanaigh stádais.
 - **Múchta de réir réamhshocraithe.** Cuireann téarmaí Bhairéin agus na Colóime cosc ar rochtain uathoibrithe gan
   chead, mar sin ní bhaineann Fontes leo mura gcasann tú air iad.
 - **Gan foinse reachtaíochta.** An Éigipt, an Íoslainn, Laos agus an Mhongóil: cásdlí amháin.

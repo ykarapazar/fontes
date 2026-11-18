@@ -681,11 +681,14 @@ delloo ay done yu mel noonu.
 
 ## Jafe-jafe yi ñu xam ci beta bii
 
-Ba 12 nowàmbar 2026. Xëtu [Mbiru cosaan yi](https://ykarapazar.github.io/fontes/status/?lang=wo) dafay won nekkinu cosaan bu nekk tey.
+Ba 18 nowàmbar 2026. Xëtu [Mbiru cosaan yi](https://ykarapazar.github.io/fontes/status/?lang=wo) dafay won nekkinu cosaan bu nekk tey.
 
-- **Doxul walla tëj nañu ko.** Situ Àttekaay bu Kawe bu Federaal bu Suwis dafay won ab saytu robot (bot); Fontes dafay taxaw
-  te may la lëkkalekaay bi ngir nga wut ci biir ci ab navigateur. Otris ak Palestin dañuy delloo ay njuumteg serwëer,
-  Senegaal ak Jordani yenn saa yi mënuñu leen a jot, te Lawos dafa ndànk lool.
+- **Doxul walla tëj nañu ko.** Situ Àttekaay bu Kawe bu Federaal bu Suwis dafay won ab saytu robot (bot);
+  Fontes dafay taxaw te may la lëkkalekaay bi ngir nga wut ci biir ci ab navigateur. Àttekaayu Konstitisoŋ
+  bu Jordani tontuwul ba benn ayubés, te saytu yoon yu nguur-gi yu Senegaal yenn saa yi mënuñu leen a jot.
+- **Yenn sayt dañuy tontu rekk ci wetu.** Gesetze im Internet bu Almaañ, Néegu Ndawi-Réew yi ak Àttekaay bu
+  Kawe bu Romani, Àttekaay bu Kawe bu Slowaki ak Àttekaayu Konstitisoŋ bu Portigaal dañuy dox ci Europ,
+  waaye ci US, fu ñuy def saytu bés bu Mbiru cosaan yi, dañuy yàgg ba mu jeex.
 - **Dafa fey (OFF) ci njëkk.** Sàrti Bahrayn ak Kolombi tere nañu dugg ci masin (automatique) bu amul
   sañ-sañ, kon Fontes du leen laal ba nga leen taal.
 - **Amul cosaanu yoon.** Esipt, Islànd, Lawos ak Mongoli: àtte yi rekk.

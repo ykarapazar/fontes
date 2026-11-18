@@ -678,11 +678,14 @@ jẹ́ àlàfo tí àwa fúnra wa ṣètò. `list_jurisdictions` ń dá dátà k
 
 ## Àwọn ìṣòro tí a mọ̀ nínú beta yìí
 
-Bí ó ti rí ní 12 Oṣù Bélú 2026. [Ojú-ìwé ipò](https://ykarapazar.github.io/fontes/status/?lang=yo) ń fi ipò òní ti orísun kọ̀ọ̀kan hàn.
+Bí ó ti rí ní 18 Oṣù Bélú 2026. [Ojú-ìwé ipò](https://ykarapazar.github.io/fontes/status/?lang=yo) ń fi ipò òní ti orísun kọ̀ọ̀kan hàn.
 
-- **Ti dákẹ́ tàbí a dí i.** Ojú-ìwé ayélujára Ilé-ẹjọ́ Gíga Jùlọ Àpapọ̀ ti Switzerland ń fi àyẹ̀wò bot hàn; Fontes yóò dúró,
-  yóò sì fún ọ ní ìjápọ̀ láti wá a nínú aṣàwákiri. Austria àti Palestine ń dá àṣìṣe sáfà padà,
-  a kì í sábà lè dé Senegal àti Jordan, Laos sì lọ́ra púpọ̀.
+- **Ti dákẹ́ tàbí a dí i.** Ojú-ìwé ayélujára Ilé-ẹjọ́ Gíga Jùlọ Àpapọ̀ ti Switzerland ń fi àyẹ̀wò bot hàn;
+  Fontes yóò dúró, yóò sì fún ọ ní ìjápọ̀ láti wá a nínú aṣàwákiri. Ilé-ẹjọ́ Òfin Orílẹ̀-èdè Jordan kò tíì
+  dáhùn fún ọ̀sẹ̀ kan, a kì í sì í sábà lè dé àwọn ojú-ìwé òfin ìjọba Senegal.
+- **Àwọn ojú-ìwé kan ń dáhùn láti ibi tí ó sún mọ́ nìkan.** Gesetze im Internet ti Germany, Ilé Aṣòfin àti
+  Ilé-ẹjọ́ Gíga ti Romania, Ilé-ẹjọ́ Gíga Jùlọ ti Slovakia àti Ilé-ẹjọ́ Òfin Orílẹ̀-èdè ti Portugal ń ṣiṣẹ́
+  láti Europe ṣùgbọ́n wọ́n máa ń kọjá àkókò láti US, níbi tí àyẹ̀wò ojoojúmọ́ ti ojú-ìwé ipò ti ń ṣiṣẹ́.
 - **Ó wà ní pípa gẹ́gẹ́ bí àṣàyàn àkọ́kọ́.** Òfin ìlò Bahrain àti Colombia kò gba ìwọlé aládàáṣe láìsí
   àṣẹ, nítorí náà Fontes kò ní fọwọ́ kàn wọ́n àyàfi tí o bá tàn wọ́n.
 - **Kò sí orísun òfin.** Egypt, Iceland, Laos àti Mongolia: ìdájọ́ ilé-ẹjọ́ nìkan.

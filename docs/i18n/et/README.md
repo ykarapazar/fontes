@@ -680,11 +680,14 @@ allikalt; kõik muu on meie enda päringute hajutamine. `list_jurisdictions` tag
 
 ## Selle beetaversiooni teadaolevad probleemid
 
-Seisuga 12. november 2026. [Seisundileht](https://ykarapazar.github.io/fontes/status/?lang=et) näitab iga allika tänast seisundit.
+Seisuga 18. november 2026. [Seisundileht](https://ykarapazar.github.io/fontes/status/?lang=et) näitab iga allika tänast seisundit.
 
 - **Ei tööta või on blokeeritud.** Šveitsi Föderaalse Ülemkohtu sait näitab robotikontrolli; Fontes peatub
-  ja annab teile lingi, et saaksite seal brauseris otsida. Austria ja Palestiina annavad serverivigu,
-  Senegal ja Jordaania on sageli kättesaamatud ning Laos on väga aeglane.
+  ja annab teile lingi, et saaksite seal brauseris otsida. Jordaania Konstitutsioonikohus ei ole nädala jooksul vastanud
+  ning Senegali valitsuse õigusaktide saidid on sageli kättesaamatud.
+- **Mõned saidid vastavad ainult lähedalt.** Saksamaa Gesetze im Internet, Rumeenia Saadikutekoda ja Kõrgeim Kohus,
+  Slovakkia Ülemkohus ja Portugali Konstitutsioonikohus töötavad Euroopast, kuid USA-st, kus töötab seisundilehe
+  igapäevane kontroll, aeguvad need sageli.
 - **Vaikimisi välja lülitatud.** Bahreini ja Colombia kasutustingimused keelavad automatiseeritud kasutamise ilma
   loata, seega Fontes neid ei puuduta, kui te neid ise sisse ei lülita.
 - **Õigusaktide allikas puudub.** Egiptus, Island, Laos ja Mongoolia: ainult kohtupraktika.

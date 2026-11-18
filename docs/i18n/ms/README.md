@@ -686,11 +686,14 @@ memulangkan data yang sama.
 
 ## Isu yang diketahui dalam beta ini
 
-Setakat 12 November 2026. [Halaman status](https://ykarapazar.github.io/fontes/status/?lang=ms) menunjukkan keadaan setiap sumber hari ini.
+Setakat 18 November 2026. [Halaman status](https://ykarapazar.github.io/fontes/status/?lang=ms) menunjukkan keadaan setiap sumber hari ini.
 
-- **Tidak berfungsi atau disekat.** Laman Mahkamah Agung Persekutuan Switzerland memaparkan semakan bot; Fontes berhenti
-  dan memberi anda pautan untuk mencarinya dalam pelayar. Austria dan Palestin mengembalikan ralat pelayan,
-  Senegal dan Jordan sering tidak dapat dicapai, dan Laos sangat perlahan.
+- **Tidak berfungsi atau disekat.** Laman Mahkamah Agung Persekutuan Switzerland memaparkan semakan bot;
+  Fontes berhenti dan memberi anda pautan untuk mencarinya dalam pelayar. Mahkamah Perlembagaan Jordan tidak
+  menjawab selama seminggu, dan laman perundangan kerajaan Senegal sering tidak dapat dicapai.
+- **Sesetengah laman hanya menjawab dari dekat.** Gesetze im Internet Jerman, Dewan Perwakilan dan Mahkamah
+  Tinggi Romania, Mahkamah Agung Slovakia dan Mahkamah Perlembagaan Portugal berfungsi dari Eropah tetapi
+  sering tamat masa dari AS, tempat semakan harian halaman status dijalankan.
 - **Dimatikan secara lalai.** Terma Bahrain dan Colombia melarang akses automatik tanpa
   kebenaran, jadi Fontes tidak menyentuhnya melainkan anda menghidupkannya.
 - **Tiada sumber perundangan.** Mesir, Iceland, Laos dan Mongolia: undang-undang kes sahaja.

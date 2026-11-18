@@ -684,11 +684,15 @@ të njëjtat të dhëna.
 
 ## Probleme të njohura në këtë version beta
 
-Gjendja më 12 nëntor 2026. [Faqja e gjendjes](https://ykarapazar.github.io/fontes/status/?lang=sq) tregon gjendjen e sotme të çdo burimi.
+Gjendja më 18 nëntor 2026. [Faqja e gjendjes](https://ykarapazar.github.io/fontes/status/?lang=sq) tregon gjendjen e sotme të çdo burimi.
 
-- **Jashtë funksionit ose të bllokuara.** Faqja e Gjykatës Federale Supreme të Zvicrës shfaq një kontroll për robotë; Fontes ndalon
-  dhe ju jep lidhjen për ta kërkuar në shfletues. Austria dhe Palestina kthejnë gabime serveri,
-  Senegali dhe Jordania shpesh nuk arrihen, dhe Laosi është shumë i ngadaltë.
+- **Jashtë funksionit ose të bllokuara.** Faqja e Gjykatës Federale Supreme të Zvicrës shfaq një kontroll
+  për robotë; Fontes ndalon dhe ju jep lidhjen për ta kërkuar në shfletues. Gjykata Kushtetuese e Jordanisë
+  nuk ka dhënë përgjigje prej një jave, dhe faqet qeveritare të legjislacionit të Senegalit shpesh nuk
+  arrihen.
+- **Disa faqe përgjigjen vetëm nga afër.** Gesetze im Internet i Gjermanisë, Dhoma e Deputetëve dhe Gjykata
+  e Lartë e Rumanisë, Gjykata Supreme e Sllovakisë dhe Gjykata Kushtetuese e Portugalisë funksionojnë nga
+  Evropa, por shpesh skadojnë nga SHBA-ja, ku kryhet kontrolli ditor i faqes së gjendjes.
 - **Të çaktivizuara si parazgjedhje.** Kushtet e Bahreinit dhe të Kolumbisë e ndalojnë aksesin e automatizuar pa
   leje, prandaj Fontes nuk i prek nëse nuk i aktivizoni ju.
 - **Pa burim legjislacioni.** Egjipti, Islanda, Laosi dhe Mongolia: vetëm praktikë gjyqësore.

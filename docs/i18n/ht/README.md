@@ -678,11 +678,14 @@ sous la; tout lòt yo se pwòp espasman pa nou. `list_jurisdictions` bay menm do
 
 ## Pwoblèm nou konnen nan beta sa a
 
-Jiska 12 novanm 2026. [Paj eta a](https://ykarapazar.github.io/fontes/status/?lang=ht) montre eta chak sous jodi a.
+Jiska 18 novanm 2026. [Paj eta a](https://ykarapazar.github.io/fontes/status/?lang=ht) montre eta chak sous jodi a.
 
-- **Pa mache oswa bloke.** Sit Tribinal Federal Siprèm Swis la montre yon verifikasyon bot; Fontes sispann
-  epi li ba ou lyen an pou w chèche ladan l nan yon navigatè. Otrich ak Palestin bay erè sèvè,
-  Senegal ak Jòdani souvan pa ka jwenn, epi Laos trè dousman.
+- **Pa mache oswa bloke.** Sit Tribinal Federal Siprèm Swis la montre yon verifikasyon bot; Fontes sispann epi li ba
+  ou lyen an pou w chèche ladan l nan yon navigatè. Tribinal Konstitisyonèl Jòdani an pa reponn depi yon semèn, epi
+  sit lejislasyon gouvènman Senegal yo souvan pa ka jwenn.
+- **Gen sit ki reponn sèlman de pre.** Gesetze im Internet Almay la, Chanm Depite yo ak Wo Tribinal Woumani an,
+  Tribinal Siprèm Slovaki a ak Tribinal Konstitisyonèl Pòtigal la mache depi Ewòp, men souvan yo depase tan depi
+  Etazini, kote verifikasyon chak jou paj eta a fèt.
 - **Fèmen pa default.** Kondisyon Bahreyn ak Kolonbi entèdi aksè otomatik san
   pèmisyon, kidonk Fontes pa manyen yo sòf si ou limen yo.
 - **Pa gen sous lejislasyon.** Ejip, Islann, Laos ak Mongoli: jirisprudans sèlman.

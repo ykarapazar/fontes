@@ -689,11 +689,16 @@ kw'ibisabwa. `list_jurisdictions` igarura amakuru amwe.
 
 ## Ibibazo bizwi muri iyi beta
 
-Kugeza ku wa 12 Ugushyingo 2026. [Urupapuro rw'uko inkomoko zihagaze](https://ykarapazar.github.io/fontes/status/?lang=rw) rwerekana uko buri nkomoko ihagaze uyu munsi.
+Kugeza ku wa 18 Ugushyingo 2026. [Urupapuro rw'uko inkomoko zihagaze](https://ykarapazar.github.io/fontes/status/?lang=rw) rwerekana uko buri nkomoko ihagaze uyu munsi.
 
-- **Ntikora cyangwa yarafunzwe.** Urubuga rw'Urukiko rw'Ikirenga rwa Federasiyo y'Ubusuwisi rugaragaza igenzura rya bot;
-  Fontes irahagarara ikaguha ihuza kugira ngo urushakishemo ukoresheje mushakisha. Otirishe na Palesitina bigarura
-  amakosa ya seriveri, Senegali na Yorudaniya akenshi ntibigerwaho, naho Lawosi iratinda cyane.
+- **Ntikora cyangwa yarafunzwe.** Urubuga rw'Urukiko rw'Ikirenga rwa Federasiyo y'Ubusuwisi rugaragaza
+  igenzura rya bot; Fontes irahagarara ikaguha ihuza kugira ngo urushakishemo ukoresheje mushakisha. Urukiko
+  rw'Itegeko Nshinga rwa Yorudaniya rumaze icyumweru ntirusubiza, naho imbuga z'amategeko za guverinoma ya
+  Senegali akenshi ntizigerwaho.
+- **Imbuga zimwe zisubiza gusa uziri hafi.** Gesetze im Internet y'Ubudage, Inteko y'Abadepite n'Urukiko
+  Rukuru rwa Romaniya, Urukiko rw'Ikirenga rwa Silovakiya n'Urukiko rw'Itegeko Nshinga rwa Portigali bikora
+  biturutse i Burayi ariko akenshi birananirwa gusubiza biturutse muri Amerika, aho igenzura rya buri munsi
+  ry'urupapuro rw'uko inkomoko zihagaze rikorerwa.
 - **Bifunze mu buryo busanzwe.** Amabwiriza ya Bahirayini na Kolombiya abuza kwinjira hakoreshejwe ikoranabuhanga
   ryikora nta ruhushya, bityo Fontes ntibikoraho keretse ubifunguye.
 - **Nta nkomoko y'amategeko.** Misiri, Isilande, Lawosi na Mongoliya: imanza gusa.

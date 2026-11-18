@@ -694,11 +694,15 @@ diýlip bellenen haýyş çäkleri çeşmeden alnan; galanlary biziň öz aralyk
 
 ## Bu beta wersiýadaky belli meseleler
 
-2026-njy ýylyň 12-nji noýabryna çenli. [Ýagdaý sahypasy](https://ykarapazar.github.io/fontes/status/?lang=tk) her bir çeşmäniň şu günki ýagdaýyny görkezýär.
+2026-njy ýylyň 18-nji noýabryna çenli. [Ýagdaý sahypasy](https://ykarapazar.github.io/fontes/status/?lang=tk) her bir çeşmäniň şu günki ýagdaýyny görkezýär.
 
-- **Işlemeýär ýa-da petiklenen.** Şweýsariýanyň Federal Ýokary Kazyýetiniň sahypasy bot barlagyny görkezýär; Fontes saklanýar
-  we brauzerde gözlemegiňiz üçin size baglanyşygy berýär. Awstriýa we Palestina serwer ýalňyşlyklaryny berýär,
-  Senegal we Iordaniýa köplenç elýetersiz, Laos bolsa örän haýal.
+- **Işlemeýär ýa-da petiklenen.** Şweýsariýanyň Federal Ýokary Kazyýetiniň sahypasy bot barlagyny görkezýär;
+  Fontes saklanýar we brauzerde gözlemegiňiz üçin size baglanyşygy berýär. Iordaniýanyň Konstitusiýa
+  kazyýeti bir hepdeden bäri jogap bermeýär, Senegalyň hökümet kanunçylyk sahypalaryna bolsa köplenç
+  elýetmek mümkin däl.
+- **Käbir sahypalar diňe golaýdan jogap berýär.** Germaniýanyň Gesetze im Internet, Rumyniýanyň Deputatlar
+  palatasy we Ýokary kazyýeti, Slowakiýanyň Ýokary kazyýeti we Portugaliýanyň Konstitusiýa kazyýeti
+  Ýewropadan işleýär, ýöne ýagdaý sahypasynyň gündelik barlagy işleýän ABŞ-dan köplenç wagt gutarýar.
 - **Deslapky ýagdaýda öçürilen.** Bahreýniň we Kolumbiýanyň şertleri rugsatsyz awtomatlaşdyrylan girişi
   gadagan edýär, şonuň üçin Fontes olary siz açmasaňyz degmeýär.
 - **Kanunçylyk çeşmesi ýok.** Müsür, Islandiýa, Laos we Mongoliýa: diňe kazyýet tejribesi.

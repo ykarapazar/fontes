@@ -682,11 +682,14 @@ er vores egen afstand mellem forespørgsler. `list_jurisdictions` returnerer de 
 
 ## Kendte problemer i denne beta
 
-Pr. 12. november 2026. [Statussiden](https://ykarapazar.github.io/fontes/status/?lang=da) viser hver kildes tilstand i dag.
+Pr. 18. november 2026. [Statussiden](https://ykarapazar.github.io/fontes/status/?lang=da) viser hver kildes tilstand i dag.
 
 - **Nede eller blokeret.** Den schweiziske forbundshøjesterets websted viser et bot-tjek; Fontes stopper
-  og giver dig linket, så du kan søge der i en browser. Østrig og Palæstina returnerer serverfejl,
-  Senegal og Jordan kan ofte ikke nås, og Laos er meget langsom.
+  og giver dig linket, så du kan søge der i en browser. Jordans forfatningsdomstol har ikke svaret i en uge,
+  og Senegals regeringswebsteder med lovgivning kan ofte ikke nås.
+- **Nogle websteder svarer kun fra nærheden.** Tysklands Gesetze im Internet, Rumæniens Deputeretkammer og Højesteret,
+  Slovakiets Højesteret og Portugals forfatningsdomstol virker fra Europa, men får ofte timeout fra USA, hvor
+  statussidens daglige tjek kører.
 - **Slået fra som standard.** Bahrains og Colombias vilkår forbyder automatiseret adgang uden
   tilladelse, så Fontes rører dem ikke, medmindre du slår dem til.
 - **Ingen kilde til lovgivning.** Egypten, Island, Laos og Mongoliet: kun retspraksis.

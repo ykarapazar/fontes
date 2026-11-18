@@ -688,11 +688,14 @@ kimi işarələnmiş sorğu limitləri mənbədən gəlir; qalan hər şey bizim
 
 ## Bu beta versiyada məlum problemlər
 
-12 noyabr 2026-cı il tarixinə. [Vəziyyət səhifəsi](https://ykarapazar.github.io/fontes/status/?lang=az) hər mənbənin bugünkü vəziyyətini göstərir.
+18 noyabr 2026-cı il tarixinə. [Vəziyyət səhifəsi](https://ykarapazar.github.io/fontes/status/?lang=az) hər mənbənin bugünkü vəziyyətini göstərir.
 
 - **İşləmir və ya bloklanıb.** İsveçrə Federal Ali Məhkəməsinin saytı bot yoxlaması göstərir; Fontes dayanır
-  və brauzerdə axtarmağınız üçün sizə keçidi verir. Avstriya və Fələstin server xətaları qaytarır,
-  Seneqal və İordaniyaya çox vaxt qoşulmaq mümkün olmur, Laos isə çox yavaşdır.
+  və brauzerdə axtarmağınız üçün sizə keçidi verir. İordaniya Konstitusiya Məhkəməsi bir həftədir cavab vermir,
+  Seneqalın hökumət qanunvericilik saytlarına isə çox vaxt qoşulmaq mümkün olmur.
+- **Bəzi saytlar yalnız yaxından cavab verir.** Almaniyanın Gesetze im Internet saytı, Rumıniya Deputatlar Palatası və Ali Məhkəmə,
+  Slovakiya Ali Məhkəməsi və Portuqaliya Konstitusiya Məhkəməsi Avropadan işləyir, lakin vəziyyət səhifəsinin gündəlik yoxlamasının
+  işlədiyi ABŞ-dan tez-tez vaxt aşımına uğrayır.
 - **Defolt olaraq söndürülüb.** Bəhreyn və Kolumbiyanın şərtləri icazəsiz avtomatlaşdırılmış girişi
   qadağan edir, buna görə siz onları yandırmasanız, Fontes onlara toxunmur.
 - **Qanunvericilik mənbəyi yoxdur.** Misir, İslandiya, Laos və Monqolustan: yalnız məhkəmə təcrübəsi.

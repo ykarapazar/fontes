@@ -680,11 +680,14 @@ källan; allt annat är vår egen utglesning av förfrågningarna. `list_jurisdi
 
 ## Kända problem i den här betan
 
-Läget den 12 november 2026. [Statussidan](https://ykarapazar.github.io/fontes/status/?lang=sv) visar varje källas status i dag.
+Läget den 18 november 2026. [Statussidan](https://ykarapazar.github.io/fontes/status/?lang=sv) visar varje källas status i dag.
 
-- **Nere eller blockerade.** Webbplatsen för Schweiz federala högsta domstol visar en robotkontroll; Fontes avbryter
-  och ger dig länken så att du kan söka där i en webbläsare. Österrike och Palestina ger serverfel,
-  Senegal och Jordanien går ofta inte att nå, och Laos är mycket långsamt.
+- **Nere eller blockerade.** Webbplatsen för Schweiz federala högsta domstol visar en robotkontroll; Fontes
+  avbryter och ger dig länken så att du kan söka där i en webbläsare. Jordaniens författningsdomstol har
+  inte svarat på en vecka, och Senegals statliga lagstiftningswebbplatser går ofta inte att nå.
+- **Vissa webbplatser svarar bara på nära håll.** Tysklands Gesetze im Internet, Rumäniens deputeradekammare
+  och högsta domstol, Slovakiens högsta domstol och Portugals författningsdomstol fungerar från Europa men
+  får ofta timeout från USA, där statussidans dagliga kontroll körs.
 - **Avstängda som standard.** Bahrains och Colombias villkor förbjuder automatiserad åtkomst utan
   tillstånd, så Fontes rör dem inte om du inte slår på dem.
 - **Ingen källa för lagstiftning.** Egypten, Island, Laos och Mongoliet: endast rättspraxis.

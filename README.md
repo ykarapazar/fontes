@@ -678,11 +678,14 @@ source; everything else is our own spacing. `list_jurisdictions` returns the sam
 
 ## Known issues in this beta
 
-As of 12 November 2026. The [status page](https://ykarapazar.github.io/fontes/status/) shows each source's state today.
+As of 18 November 2026. The [status page](https://ykarapazar.github.io/fontes/status/) shows each source's state today.
 
 - **Down or blocked.** Switzerland's Federal Supreme Court site shows a bot check; Fontes stops
-  and gives you the link to search it in a browser. Austria and Palestine return server errors,
-  Senegal and Jordan are often unreachable, and Laos is very slow.
+  and gives you the link to search it in a browser. Jordan's Constitutional Court has not answered
+  for a week, and Senegal's government legislation sites are often unreachable.
+- **Some sites answer only from nearby.** Germany's Gesetze im Internet, Romania's Chamber of
+  Deputies and High Court, Slovakia's Supreme Court and Portugal's Constitutional Court work from
+  Europe but often time out from the US, where the status page's daily check runs.
 - **Off by default.** Bahrain's and Colombia's terms forbid automated access without
   permission, so Fontes doesn't touch them unless you switch them on.
 - **No legislation source.** Egypt, Iceland, Laos and Mongolia: case law only.

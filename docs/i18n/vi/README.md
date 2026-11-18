@@ -680,11 +680,15 @@ nguồn; mọi giới hạn khác là khoảng giãn cách do chúng tôi tự �
 
 ## Các vấn đề đã biết trong bản beta này
 
-Tính đến ngày 12 tháng 11 năm 2026. [Trang trạng thái](https://ykarapazar.github.io/fontes/status/?lang=vi) cho thấy tình trạng hôm nay của từng nguồn.
+Tính đến ngày 18 tháng 11 năm 2026. [Trang trạng thái](https://ykarapazar.github.io/fontes/status/?lang=vi) cho thấy tình trạng hôm nay của từng nguồn.
 
-- **Ngừng hoạt động hoặc bị chặn.** Trang web của Tòa án Tối cao Liên bang Thụy Sĩ hiển thị bước kiểm tra chống bot; Fontes dừng lại
-  và đưa cho bạn liên kết để tìm kiếm trên trang đó bằng trình duyệt. Áo và Palestine trả về lỗi máy chủ,
-  Senegal và Jordan thường không truy cập được, còn Lào thì rất chậm.
+- **Ngừng hoạt động hoặc bị chặn.** Trang web của Tòa án Tối cao Liên bang Thụy Sĩ hiển thị bước kiểm tra
+  chống bot; Fontes dừng lại và đưa cho bạn liên kết để tìm kiếm trên trang đó bằng trình duyệt. Tòa án Hiến
+  pháp Jordan đã một tuần không phản hồi, còn các trang pháp luật của chính phủ Senegal thường không truy
+  cập được.
+- **Một số trang chỉ phản hồi từ gần.** Gesetze im Internet của Đức, Hạ viện và Tòa án Tối cao của Romania,
+  Tòa án Tối cao của Slovakia và Tòa án Hiến pháp của Bồ Đào Nha hoạt động được từ châu Âu nhưng thường bị
+  hết thời gian chờ từ Hoa Kỳ, nơi diễn ra lần kiểm tra hằng ngày của trang trạng thái.
 - **Mặc định tắt.** Điều khoản của Bahrain và Colombia cấm truy cập tự động khi chưa được
   phép, nên Fontes không động tới các nguồn này trừ khi bạn bật chúng lên.
 - **Không có nguồn văn bản quy phạm pháp luật.** Ai Cập, Iceland, Lào và Mông Cổ: chỉ có án lệ.

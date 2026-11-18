@@ -682,11 +682,15 @@ kjelda; alt anna er vår eiga spreiing av førespurnadene. `list_jurisdictions` 
 
 ## Kjende problem i denne betaen
 
-Per 12. november 2026. [Statussida](https://ykarapazar.github.io/fontes/status/?lang=nn) viser tilstanden til kvar kjelde i dag.
+Per 18. november 2026. [Statussida](https://ykarapazar.github.io/fontes/status/?lang=nn) viser tilstanden til kvar kjelde i dag.
 
-- **Nede eller blokkert.** Nettstaden til den sveitsiske forbundshøgsteretten viser ein bot-sjekk; Fontes stoppar
-  og gjev deg lenkja, slik at du kan søkje der i ein nettlesar. Austerrike og Palestina gjev serverfeil,
-  Senegal og Jordan er ofte ikkje tilgjengelege, og Laos er svært treg.
+- **Nede eller blokkert.** Nettstaden til den sveitsiske forbundshøgsteretten viser ein bot-sjekk; Fontes
+  stoppar og gjev deg lenkja, slik at du kan søkje der i ein nettlesar. Den konstitusjonelle domstolen i
+  Jordan har ikkje svart på ei veke, og nettstadene til Senegal for offentleg lovgjeving er ofte ikkje
+  tilgjengelege.
+- **Nokre nettstadar svarar berre frå nærleiken.** Gesetze im Internet i Tyskland, deputertkammeret og
+  høgsteretten i Romania, høgsteretten i Slovakia og den konstitusjonelle domstolen i Portugal fungerer frå
+  Europa, men får ofte tidsavbrot frå USA, der den daglege sjekken til statussida køyrer.
 - **Slått av som standard.** Vilkåra til Bahrain og Colombia forbyr automatisert tilgang utan
   løyve, så Fontes rører dei ikkje med mindre du slår dei på.
 - **Inga kjelde for lovgjeving.** Egypt, Island, Laos og Mongolia: berre rettspraksis.

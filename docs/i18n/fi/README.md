@@ -681,11 +681,14 @@ lähteeltä; kaikki muu on omaa pyyntöjemme harventamista. `list_jurisdictions`
 
 ## Tunnetut ongelmat tässä betassa
 
-Tilanne 12. marraskuuta 2026. [Tilasivu](https://ykarapazar.github.io/fontes/status/?lang=fi) näyttää kunkin lähteen tämänpäiväisen tilan.
+Tilanne 18. marraskuuta 2026. [Tilasivu](https://ykarapazar.github.io/fontes/status/?lang=fi) näyttää kunkin lähteen tämänpäiväisen tilan.
 
 - **Poissa käytöstä tai estetty.** Sveitsin liittovaltion korkeimman oikeuden sivusto näyttää bottitarkistuksen;
-  Fontes pysähtyy ja antaa sinulle linkin, jotta voit hakea sieltä selaimessa. Itävalta ja Palestiina
-  palauttavat palvelinvirheitä, Senegaliin ja Jordaniaan ei usein saada yhteyttä, ja Laos on hyvin hidas.
+  Fontes pysähtyy ja antaa sinulle linkin, jotta voit hakea sieltä selaimessa. Jordanian perustuslakituomioistuin
+  ei ole vastannut viikkoon, ja Senegalin hallituksen lainsäädäntösivustoihin ei usein saada yhteyttä.
+- **Jotkin sivustot vastaavat vain läheltä.** Saksan Gesetze im Internet, Romanian edustajainhuone ja ylin oikeus,
+  Slovakian korkein oikeus sekä Portugalin perustuslakituomioistuin toimivat Euroopasta, mutta Yhdysvalloista,
+  jossa tilasivun päivittäinen tarkistus ajetaan, ne umpeutuvat usein aikakatkaisuun.
 - **Oletuksena pois päältä.** Bahrainin ja Kolumbian käyttöehdot kieltävät automaattisen käytön ilman
   lupaa, joten Fontes ei koske niihin, ellet kytke niitä päälle.
 - **Ei lainsäädäntölähdettä.** Egypti, Islanti, Laos ja Mongolia: vain oikeuskäytäntö.

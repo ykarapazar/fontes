@@ -689,11 +689,14 @@ intervāli. `list_jurisdictions` atgriež tos pašus datus.
 
 ## Zināmās problēmas šajā beta versijā
 
-Stāvoklis uz 2026. gada 12. novembri. [Statusa lapā](https://ykarapazar.github.io/fontes/status/?lang=lv) redzams katra avota šodienas stāvoklis.
+Stāvoklis uz 2026. gada 18. novembri. [Statusa lapā](https://ykarapazar.github.io/fontes/status/?lang=lv) redzams katra avota šodienas stāvoklis.
 
 - **Nedarbojas vai bloķēti.** Šveices Federālās augstākās tiesas vietne rāda robotu pārbaudi; Fontes apstājas
-  un sniedz jums saiti, lai jūs varētu meklēt tajā pārlūkā. Austrija un Palestīna atgriež servera kļūdas,
-  Senegāla un Jordānija bieži nav sasniedzamas, un Laosa ir ļoti lēna.
+  un sniedz jums saiti, lai jūs varētu meklēt tajā pārlūkā. Jordānijas Konstitucionālā tiesa nav atbildējusi
+  nedēļu, un Senegālas valdības tiesību aktu vietnes bieži nav sasniedzamas.
+- **Dažas vietnes atbild tikai no tuvuma.** Vācijas Gesetze im Internet, Rumānijas Deputātu palāta un Augstākā
+  tiesa, Slovākijas Augstākā tiesa un Portugāles Konstitucionālā tiesa darbojas no Eiropas, bet bieži beidzas
+  noildze no ASV, kur darbojas statusa lapas ikdienas pārbaude.
 - **Pēc noklusējuma izslēgti.** Bahreinas un Kolumbijas noteikumi aizliedz automatizētu piekļuvi bez
   atļaujas, tāpēc Fontes tiem nepiekļūst, ja vien jūs tos neieslēdzat.
 - **Nav tiesību aktu avota.** Ēģipte, Islande, Laosa un Mongolija: tikai tiesu prakse.

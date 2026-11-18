@@ -687,11 +687,14 @@ source ; tout le reste est notre propre espacement. `list_jurisdictions` renvoie
 
 ## Problèmes connus de cette bêta
 
-État au 12 novembre 2026. La [page d'état](https://ykarapazar.github.io/fontes/status/?lang=fr) indique l'état du jour de chaque source.
+État au 18 novembre 2026. La [page d'état](https://ykarapazar.github.io/fontes/status/?lang=fr) indique l'état du jour de chaque source.
 
-- **Hors service ou bloquées.** Le site du Tribunal fédéral suisse affiche une vérification anti-robot ; Fontes s'arrête
-  et vous donne le lien pour y chercher dans un navigateur. L'Autriche et la Palestine renvoient des erreurs serveur,
-  le Sénégal et la Jordanie sont souvent injoignables, et le Laos est très lent.
+- **Hors service ou bloquées.** Le site du Tribunal fédéral suisse affiche une vérification anti-robot ; Fontes
+  s'arrête et vous donne le lien pour y chercher dans un navigateur. La Cour constitutionnelle de Jordanie ne répond
+  plus depuis une semaine, et les sites de législation du gouvernement sénégalais sont souvent injoignables.
+- **Certains sites ne répondent que de près.** Gesetze im Internet (Allemagne), la Chambre des députés et la Haute
+  Cour de Roumanie, la Cour suprême de Slovaquie et la Cour constitutionnelle du Portugal fonctionnent depuis
+  l'Europe, mais expirent souvent depuis les États-Unis, d'où part la vérification quotidienne de la page d'état.
 - **Désactivées par défaut.** Les conditions d'utilisation de Bahreïn et de la Colombie interdisent l'accès automatisé
   sans autorisation : Fontes n'y touche donc pas, sauf si vous les activez.
 - **Aucune source de législation.** Égypte, Islande, Laos et Mongolie : jurisprudence uniquement.

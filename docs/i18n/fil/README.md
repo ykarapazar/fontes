@@ -691,11 +691,14 @@ na may markang "documented" ay mula sa sanggunian; ang iba ay sarili naming pagi
 
 ## Mga kilalang isyu sa beta na ito
 
-Hanggang 12 Nobyembre 2026. Ipinapakita ng [status page](https://ykarapazar.github.io/fontes/status/?lang=fil) ang kalagayan ngayon ng bawat sanggunian.
+Hanggang 18 Nobyembre 2026. Ipinapakita ng [status page](https://ykarapazar.github.io/fontes/status/?lang=fil) ang kalagayan ngayon ng bawat sanggunian.
 
-- **Hindi gumagana o naka-block.** Nagpapakita ng bot check ang site ng Federal Supreme Court ng Switzerland; humihinto ang Fontes
-  at ibinibigay sa iyo ang link para hanapin ito sa browser. Nagbabalik ng server error ang Austria at Palestine,
-  madalas hindi maabot ang Senegal at Jordan, at napakabagal ng Laos.
+- **Hindi gumagana o naka-block.** Nagpapakita ng bot check ang site ng Federal Supreme Court ng Switzerland;
+  humihinto ang Fontes at ibinibigay sa iyo ang link para hanapin ito sa browser. Hindi sumasagot nang isang linggo
+  ang Constitutional Court ng Jordan, at madalas hindi maabot ang mga site ng lehislasyon ng pamahalaan ng Senegal.
+- **Gumagana lang ang ilang site mula sa malapit.** Gumagana mula sa Europa ang Gesetze im Internet ng Germany, ang
+  Chamber of Deputies at High Court ng Romania, ang Supreme Court ng Slovakia at ang Constitutional Court ng Portugal,
+  pero madalas silang mag-time out mula sa US, kung saan tumatakbo ang araw-araw na pagsusuri ng status page.
 - **Naka-off bilang default.** Ipinagbabawal ng mga tuntunin ng Bahrain at Colombia ang automated na access nang walang
   pahintulot, kaya hindi ginagalaw ng Fontes ang mga ito maliban kung i-on mo.
 - **Walang sanggunian ng lehislasyon.** Egypt, Iceland, Laos at Mongolia: jurisprudence lamang.

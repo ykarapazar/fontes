@@ -684,11 +684,14 @@ kao „documented“ potiču od izvora; sve ostalo je naš vlastiti razmak izme�
 
 ## Poznati problemi u ovoj beta verziji
 
-Stanje na dan 12. novembra 2026. [Statusna stranica](https://ykarapazar.github.io/fontes/status/?lang=bs) prikazuje današnje stanje svakog izvora.
+Stanje na dan 18. novembra 2026. [Statusna stranica](https://ykarapazar.github.io/fontes/status/?lang=bs) prikazuje današnje stanje svakog izvora.
 
 - **Ne radi ili je blokirano.** Stranica Saveznog vrhovnog suda Švicarske prikazuje provjeru za botove; Fontes staje
-  i daje vam link da je pretražite u pregledniku. Austrija i Palestina vraćaju greške servera,
-  Senegal i Jordan su često nedostupni, a Laos je vrlo spor.
+  i daje vam link da je pretražite u pregledniku. Ustavni sud Jordana nije odgovorio već sedmicu dana,
+  a stranice vlade Senegala sa zakonodavstvom često su nedostupne.
+- **Neke stranice odgovaraju samo iz blizine.** Njemački Gesetze im Internet, rumunski Zastupnički dom i Visoki sud,
+  slovački Vrhovni sud i portugalski Ustavni sud rade iz Evrope, ali iz SAD-a, odakle se pokreće dnevna provjera
+  statusne stranice, često istekne vrijeme čekanja.
 - **Isključeno po zadanim postavkama.** Uslovi Bahreina i Kolumbije zabranjuju automatizovani pristup bez
   dozvole, pa ih Fontes ne dira dok ih ne uključite.
 - **Nema izvora za propise.** Egipat, Island, Laos i Mongolija: samo sudska praksa.

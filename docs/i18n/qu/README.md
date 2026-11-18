@@ -696,11 +696,15 @@ permitisqachu). "Documented" nisqawan qillqasqa rate limitkunaqa pukyumantam ham
 
 ## Kay betapi riqsisqa sasachakuykuna
 
-2026 watapi noviembre killap 12 p'unchawninkama. [Imayna kasqan p'anqam](https://ykarapazar.github.io/fontes/status/?lang=qu) sapa pukyup kunan p'unchaw imayna kasqanta rikuchin.
+2026 watapi noviembre killap 18 p'unchawninkama. [Imayna kasqan p'anqam](https://ykarapazar.github.io/fontes/status/?lang=qu) sapa pukyup kunan p'unchaw imayna kasqanta rikuchin.
 
-- **Wañusqa utaq hark'asqa.** Suizap Tribunal Federal Supremonpa sitionqa bot qhawariyta rikuchin; Fontesqa sayan,
-  navegadorpi maskanaykipaqtaq t'inkita qusunki. Austriapas Palestinapas servidor pantaykunata kutichinku,
-  Senegalmanpas Jordaniamanpas sapa kuti mana chayanchu, Laostaq ancha pisi pisillamanta.
+- **Wañusqa utaq hark'asqa.** Suizap Tribunal Federal Supremonpa sitionqa bot qhawariyta rikuchin; Fontesqa
+  sayan, navegadorpi maskanaykipaqtaq t'inkita qusunki. Jordaniap Tribunal Constitucionalninqa huk simana mana
+  kutichinchu, Senegalpa gobiernonpa kamachiy sitionkunaqa sapa kuti mana chayanchu.
+- **Wakin sitiokuna qayllamantallam kutichinku.** Alemaniap Gesetze im Internet nisqan, Rumaniap Diputadokuna
+  Wasin hinallataq Alto Tribunal, Eslovaquiap Tribunal Supremonpa, Portugalpa Tribunal Constitucionalnin ima
+  Europamanta llamk'ankuman, ichaqa Estados Unidosmanta sapa kuti tiempon tukukun, chaypim imayna kasqan
+  p'anqap sapa p'unchaw qhawariynin purin.
 - **Ñawpaqmantapacha wañusqa.** Bahreinpa Colombiapa condicionninkunaqa mana permisoyuq automatizado yaykuyta
   hark'anku, chayrayku Fontesqa manam llamiykunchu, qam mana hap'ichiptiykiqa.
 - **Mana kamachiy pukyuyuq.** Egipto, Islandia, Laos, Mongolia: jurisprudenciallam.

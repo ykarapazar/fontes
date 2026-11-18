@@ -692,11 +692,14 @@ den Anfragen. `list_jurisdictions` liefert dieselben Daten.
 
 ## Bekannte Probleme in dieser Beta
 
-Stand: 12. November 2026. Die [Statusseite](https://ykarapazar.github.io/fontes/status/?lang=de) zeigt den heutigen Zustand jeder Quelle.
+Stand: 18. November 2026. Die [Statusseite](https://ykarapazar.github.io/fontes/status/?lang=de) zeigt den heutigen Zustand jeder Quelle.
 
 - **Ausgefallen oder gesperrt.** Die Website des Schweizerischen Bundesgerichts zeigt eine Bot-Prüfung; Fontes bricht ab
-  und gibt Ihnen den Link, um dort im Browser zu suchen. Österreich und Palästina liefern Serverfehler,
-  Senegal und Jordanien sind oft nicht erreichbar, und Laos ist sehr langsam.
+  und gibt Ihnen den Link, um dort im Browser zu suchen. Das Verfassungsgericht Jordaniens hat seit einer Woche nicht
+  geantwortet, und die Gesetzgebungsseiten der Regierung Senegals sind oft nicht erreichbar.
+- **Nur aus der Nähe erreichbar.** Deutschlands Gesetze im Internet, Rumäniens Abgeordnetenkammer und Oberster Gerichtshof,
+  der Oberste Gerichtshof der Slowakei und das Verfassungsgericht Portugals funktionieren aus Europa, laufen aber aus den
+  USA, wo die tägliche Prüfung der Statusseite läuft, oft in ein Timeout.
 - **Standardmäßig aus.** Die Nutzungsbedingungen von Bahrain und Kolumbien verbieten den automatisierten Zugriff ohne
   Erlaubnis, daher greift Fontes nicht darauf zu, solange Sie sie nicht einschalten.
 - **Keine Quelle für Rechtsvorschriften.** Ägypten, Island, Laos und die Mongolei: nur Rechtsprechung.

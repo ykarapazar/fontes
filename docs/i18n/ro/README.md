@@ -684,11 +684,15 @@ noastră spațiere a cererilor. `list_jurisdictions` returnează aceleași date.
 
 ## Probleme cunoscute în această versiune beta
 
-Situația la 12 noiembrie 2026. [Pagina de stare](https://ykarapazar.github.io/fontes/status/?lang=ro) arată starea de azi a fiecărei surse.
+Situația la 18 noiembrie 2026. [Pagina de stare](https://ykarapazar.github.io/fontes/status/?lang=ro) arată starea de azi a fiecărei surse.
 
-- **Indisponibile sau blocate.** Site-ul Tribunalului Federal Suprem al Elveției afișează o verificare anti-bot; Fontes se oprește
-  și vă oferă linkul pentru a căuta acolo într-un browser. Austria și Palestina returnează erori de server,
-  Senegalul și Iordania sunt adesea inaccesibile, iar Laosul este foarte lent.
+- **Indisponibile sau blocate.** Site-ul Tribunalului Federal Suprem al Elveției afișează o verificare
+  anti-bot; Fontes se oprește și vă oferă linkul pentru a căuta acolo într-un browser. Curtea Constituțională
+  a Iordaniei nu a răspuns de o săptămână, iar site-urile guvernamentale de legislație ale Senegalului sunt
+  adesea inaccesibile.
+- **Unele site-uri răspund doar de aproape.** Gesetze im Internet din Germania, Camera Deputaților și Înalta
+  Curte din România, Curtea Supremă a Slovaciei și Curtea Constituțională a Portugaliei funcționează din
+  Europa, dar adesea expiră din SUA, de unde rulează verificarea zilnică a paginii de stare.
 - **Dezactivate implicit.** Condițiile Bahrainului și ale Columbiei interzic accesul automatizat fără
   permisiune, așa că Fontes nu le accesează decât dacă le activați dumneavoastră.
 - **Nicio sursă de legislație.** Egipt, Islanda, Laos și Mongolia: doar jurisprudență.

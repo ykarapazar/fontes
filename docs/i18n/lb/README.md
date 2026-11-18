@@ -689,11 +689,15 @@ sinn, kommen vun der Quell; alles anescht ass eisen eegenen Ofstand tëscht den 
 
 ## Bekannte Problemer an dëser Beta
 
-Stand: 12. November 2026. D'[Statussäit](https://ykarapazar.github.io/fontes/status/?lang=lb) weist den haitegen Zoustand vun all Quell.
+Stand: 18. November 2026. D'[Statussäit](https://ykarapazar.github.io/fontes/status/?lang=lb) weist den haitegen Zoustand vun all Quell.
 
-- **Ausgefall oder blockéiert.** D'Websäit vum Schwäizer Bundesgeriicht weist eng Bot-Kontroll; Fontes hält op
-  a gëtt Iech de Link, fir se am Browser ze duerchsichen. Éisträich a Palestina ginn Serverfeeler zréck,
-  de Senegal a Jordanien sinn dacks net z'erreechen, a Laos ass ganz lues.
+- **Ausgefall oder blockéiert.** D'Websäit vum Schwäizer Bundesgeriicht weist eng Bot-Kontroll; Fontes hält op a gëtt
+  Iech de Link, fir se am Browser ze duerchsichen. D'Verfassungsgeriicht vu Jordanien huet zënter enger Woch net
+  geäntwert, an d'Gesetzgebungssäite vun der Regierung vum Senegal sinn dacks net z'erreechen.
+- **E puer Säite äntwerten nëmmen aus der Noperschaft.** Gesetze im Internet vun Däitschland, d'Deputéiertekammer an
+  den Héije Geriichtshaff vu Rumänien, den Ieweschte Geriichtshaff vun der Slowakei an d'Verfassungsgeriicht vu
+  Portugal funktionéieren aus Europa, ginn awer dacks aus den USA an en Timeout, wou den deegleche Check vun der
+  Statussäit leeft.
 - **Standardméisseg ausgeschalt.** D'Konditioune vu Bahrain a Kolumbien verbidden automatiséierten Zougrëff ouni
   Erlaabnes, dofir rührt Fontes se net un, ausser Dir schalt se an.
 - **Keng Quell fir Gesetzgebung.** Egypten, Island, Laos an d'Mongolei: nëmme Rechtsprechung.

@@ -681,11 +681,14 @@ AI/TDM („neuvedeno“ znamená, že o tom mlčí, ne že je to povoleno). Limi
 
 ## Známé problémy v této betaverzi
 
-Stav k 12. listopadu 2026. Stránka [Stav zdrojů](https://ykarapazar.github.io/fontes/status/?lang=cs) ukazuje dnešní stav každého zdroje.
+Stav k 18. listopadu 2026. Stránka [Stav zdrojů](https://ykarapazar.github.io/fontes/status/?lang=cs) ukazuje dnešní stav každého zdroje.
 
 - **Mimo provoz nebo blokováno.** Web švýcarského Spolkového nejvyššího soudu zobrazuje kontrolu proti botům; Fontes se
-  zastaví a dá vám odkaz, abyste v něm hledali v prohlížeči. Rakousko a Palestina vracejí chyby serveru,
-  Senegal a Jordánsko jsou často nedostupné a Laos je velmi pomalý.
+  zastaví a dá vám odkaz, abyste v něm hledali v prohlížeči. Ústavní soud Jordánska již týden neodpovídá
+  a vládní weby Senegalu s právními předpisy jsou často nedostupné.
+- **Některé weby odpovídají jen zblízka.** Německý Gesetze im Internet, rumunská Poslanecká sněmovna a Vysoký soud,
+  slovenský Nejvyšší soud a portugalský Ústavní soud fungují z Evropy, ale z USA, odkud běží denní kontrola stránky
+  Stav zdrojů, často vyprší časový limit.
 - **Ve výchozím stavu vypnuto.** Podmínky Bahrajnu a Kolumbie zakazují automatizovaný přístup bez
   povolení, takže se jich Fontes nedotkne, dokud je nezapnete.
 - **Žádný zdroj právních předpisů.** Egypt, Island, Laos a Mongolsko: pouze judikatura.

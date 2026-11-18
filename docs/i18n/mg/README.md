@@ -695,11 +695,16 @@ loharano iray ("Tsy voalaza" dia midika hoe mangina, fa tsy hoe avela). Ny fetra
 
 ## Olana fantatra ao amin'ity beta ity
 
-Araka ny toe-javatra tamin'ny 12 Novambra 2026. Ny pejy [Toetry ny loharano](https://ykarapazar.github.io/fontes/status/?lang=mg) dia mampiseho ny toetry ny loharano tsirairay androany.
+Araka ny toe-javatra tamin'ny 18 Novambra 2026. Ny pejy [Toetry ny loharano](https://ykarapazar.github.io/fontes/status/?lang=mg) dia mampiseho ny toetry ny loharano tsirairay androany.
 
-- **Tapaka na voasakana.** Mampiseho fanamarinana bot ny tranonkalan'ny Fitsarana Tampony Federaly any Soisa; mijanona ny Fontes
-  ary manome anao ny rohy hitadiavana ao aminy amin'ny navigateur. Mamerina fahadisoan'ny mpizara i Aotrisy sy Palestina,
-  matetika tsy azo idirana i Senegal sy Jordania, ary miadana be i Laos.
+- **Tapaka na voasakana.** Mampiseho fanamarinana bot ny tranonkalan'ny Fitsarana Tampony Federaly any Soisa;
+  mijanona ny Fontes ary manome anao ny rohy hitadiavana ao aminy amin'ny navigateur. Tsy namaly nandritra ny
+  herinandro ny Fitsarana Ara-Panorenana any Jordania, ary matetika tsy azo idirana ny tranokalan'ny lalàna ao
+  amin'ny governemanta any Senegal.
+- **Misy tranonkala mamaly rehefa avy any akaiky ihany.** Ny Gesetze im Internet any Alemaina, ny
+  Antenimierandoholona sy ny Fitsarana Avo any Romania, ny Fitsarana Tampony any Slovakia ary ny Fitsarana
+  Ara-Panorenana any Portiogaly dia mandeha avy any Eoropa fa matetika tapitra ny fotoana avy any Etazonia,
+  izay andehanan'ny fanamarinana isan'andro ny pejy Toetry ny loharano.
 - **Maty raha tsy misy fanovana.** Mandrara ny fidirana mandeha ho azy raha tsy misy alalana ny fepetran'i Bahrain sy Kolombia,
   ka tsy mikasika azy ireo ny Fontes raha tsy alefanao.
 - **Tsy misy loharanon'ny lalàna.** Ejipta, Islandy, Laos ary Mongolia: jurisprudence ihany.

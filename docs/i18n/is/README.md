@@ -681,11 +681,14 @@ heimildinni; allt annað er okkar eigin dreifing beiðna. `list_jurisdictions` s
 
 ## Þekkt vandamál í þessari beta-útgáfu
 
-Staðan 12. nóvember 2026. [Stöðusíðan](https://ykarapazar.github.io/fontes/status/?lang=is) sýnir stöðu hverrar heimildar í dag.
+Staðan 18. nóvember 2026. [Stöðusíðan](https://ykarapazar.github.io/fontes/status/?lang=is) sýnir stöðu hverrar heimildar í dag.
 
-- **Óvirkar eða lokaðar.** Vefsíða Hæstaréttar Sviss (sambandsdómstóls) sýnir vélmennaprófun; Fontes stöðvar
-  og gefur þér tengilinn til að leita þar í vafra. Austurríki og Palestína skila villum frá netþjóni,
-  oft næst ekki samband við Senegal og Jórdaníu, og Laos er mjög hægt.
+- **Óvirkar eða lokaðar.** Vefsíða Hæstaréttar Sviss (sambandsdómstóls) sýnir vélmennaprófun; Fontes stöðvar og gefur
+  þér tengilinn til að leita þar í vafra. Stjórnlagadómstóll Jórdaníu hefur ekki svarað í viku og lagavefir
+  stjórnvalda í Senegal eru oft óaðgengilegir.
+- **Sumar síður svara aðeins úr nálægð.** Gesetze im Internet í Þýskalandi, fulltrúadeild og Æðri dómstóll Rúmeníu,
+  Hæstiréttur Slóvakíu og stjórnlagadómstóll Portúgals virka frá Evrópu en renna oft út á tíma frá Bandaríkjunum, þar
+  sem daglega athugun stöðusíðunnar fer fram.
 - **Óvirkar sjálfgefið.** Skilmálar Barein og Kólumbíu banna sjálfvirkan aðgang án
   leyfis, svo Fontes snertir þær ekki nema þú kveikir á þeim.
 - **Engin heimild um löggjöf.** Egyptaland, Ísland, Laos og Mongólía: aðeins dómaframkvæmd.

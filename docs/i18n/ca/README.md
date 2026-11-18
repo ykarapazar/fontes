@@ -688,11 +688,14 @@ marcats com a "documented" provenen de la font; tota la resta és el nostre prop
 
 ## Problemes coneguts en aquesta beta
 
-A 12 de novembre de 2026. La [pàgina d'estat](https://ykarapazar.github.io/fontes/status/?lang=ca) mostra l'estat actual de cada font.
+A 18 de novembre de 2026. La [pàgina d'estat](https://ykarapazar.github.io/fontes/status/?lang=ca) mostra l'estat actual de cada font.
 
 - **Caigudes o bloquejades.** El lloc del Tribunal Suprem Federal de Suïssa mostra una verificació antibots; Fontes s'atura
-  i us dona l'enllaç per cercar-hi amb un navegador. Àustria i Palestina retornen errors del servidor,
-  el Senegal i Jordània sovint no són accessibles, i Laos és molt lent.
+  i us dona l'enllaç per cercar-hi amb un navegador. El Tribunal Constitucional de Jordània fa una setmana que no respon,
+  i els llocs de legislació del govern del Senegal sovint no són accessibles.
+- **Només responen des de prop.** Gesetze im Internet d'Alemanya, la Cambra de Diputats i l'Alt Tribunal de Romania,
+  el Tribunal Suprem d'Eslovàquia i el Tribunal Constitucional de Portugal funcionen des d'Europa, però sovint esgoten
+  el temps d'espera des dels Estats Units, on s'executa la comprovació diària de la pàgina d'estat.
 - **Desactivades per defecte.** Les condicions de Bahrain i de Colòmbia prohibeixen l'accés automatitzat sense
   permís, de manera que Fontes no les toca si no les activeu.
 - **Sense font de legislació.** Egipte, Islàndia, Laos i Mongòlia: només jurisprudència.
