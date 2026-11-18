@@ -1,6 +1,7 @@
 """Health check of every Source of every adapter: reachability, robots.txt, one functional probe.
 
     uv run python scripts/health.py [--only tr,nl] [--json out.json] [--md docs/HEALTH.md] [--prev old.json]
+                                    [--prev2 older.json]   # exit 1 only if down/blocked two runs in a row
     uv run python scripts/health.py --diff old.json new.json     # exit 1 if a source newly broke
 
 Per source: (a) GET the source URL (status, latency, bot wall); (b) robots.txt for `*` /
@@ -30,7 +31,8 @@ from dotenv import load_dotenv
 
 from world_legal_mcp import _http, registry
 from world_legal_mcp.base import BadRequest, NotFound, SourceError, blocked_sources, permitted_codes
-from world_legal_mcp.health import bot_wall, carry_since, classify, diff, diff_text, markdown, robots_allows
+from world_legal_mcp.health import (bot_wall, carry_since, classify, diff, diff_text, markdown,
+                                    robots_allows, still_broken)
 
 ROOT = Path(__file__).resolve().parents[1]
 CALL_TIMEOUT = 90.0       # one adapter call, throttle waits included
@@ -314,6 +316,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--json", metavar="PATH", help="write the report here")
     p.add_argument("--md", metavar="PATH", help="write the markdown table here (e.g. docs/HEALTH.md)")
     p.add_argument("--prev", metavar="PATH", help="previous report: carry `since` dates and print a diff")
+    p.add_argument("--prev2", metavar="PATH",
+                   help="report before --prev: then exit 1 only for sources down/blocked in both of the last two runs")
     p.add_argument("--diff", nargs=2, metavar=("OLD", "NEW"), help="only compare two reports")
     a = p.parse_args(argv)
     if a.diff:
@@ -345,7 +349,13 @@ def main(argv: list[str] | None = None) -> int:
     if old:
         d = diff(old, report)
         print(diff_text(d))
-        return 1 if d["newly_broken"] else 0
+        if not a.prev2:
+            return 1 if d["newly_broken"] else 0
+        alert = still_broken(json.loads(Path(a.prev2).read_text()), old, report)
+        print(f"Down/blocked two runs in a row (alert): {len(alert)}")
+        for r in alert:
+            print(f"  {r['jurisdiction']} | {r['source']}: {r['was']} -> {r['now']} ({r['detail']})")
+        return 1 if alert else 0
     return 0
 
 

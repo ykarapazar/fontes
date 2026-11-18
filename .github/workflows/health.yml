@@ -2,7 +2,8 @@
 # commits research/health/<date>.json, docs/HEALTH.md and docs/status/index.html to the
 # branch, so the GitHub Pages status page (source: main, /docs -> /status/) and the local
 # page (scripts/health_daily.sh builds it from origin/main) show the same data.
-# The run fails (owner notification) when a source newly went down/blocked.
+# The run fails (owner notification) when a source is down/blocked two runs in a row after
+# being up: a one-day outage of a flaky site shows on the page but does not alert.
 # Note: runners sit in US data centres; a few sources geo-block or answer slower there.
 # Pages needs a public repo (or a paid plan); until then the page lives in the repo only.
 name: source-health
@@ -34,8 +35,10 @@ jobs:
         run: |
           new="research/health/$(date -u +%F).json"
           prev=$(ls research/health/????-??-??.json 2>/dev/null | grep -v "$new" | sort | tail -n 1)
+          prev2=$(ls research/health/????-??-??.json 2>/dev/null | grep -v "$new" | sort | tail -n 2 | head -n 1)
+          [ "$prev2" = "$prev" ] && prev2=
           set +e
-          uv run python scripts/health.py --json "$new" --md docs/HEALTH.md ${prev:+--prev "$prev"}
+          uv run python scripts/health.py --json "$new" --md docs/HEALTH.md ${prev:+--prev "$prev"} ${prev2:+--prev2 "$prev2"}
           echo "rc=$?" >> "$GITHUB_OUTPUT"
           set -e
           uv run python scripts/status_page.py --history research/health --out docs/status/index.html

@@ -178,6 +178,15 @@ def diff(old: dict, new: dict) -> dict[str, list[dict]]:
     return out
 
 
+def still_broken(older: dict, prev: dict, new: dict) -> list[dict]:
+    """Sources that newly broke between `older` and `prev` and are still down/blocked in `new`:
+    two runs in a row, so a one-day outage of a flaky site does not alert."""
+    now = {_key(r): r for r in new["results"]}
+    return [{**row, "now": now[k]["status"], "detail": now[k]["detail"]}
+            for row in diff(older, prev)["newly_broken"]
+            if (k := (row["jurisdiction"], row["source"])) in now and now[k]["status"] in BROKEN]
+
+
 def diff_text(d: dict[str, list[dict]]) -> str:
     lines = []
     for label, rows in (("Newly down/blocked", d["newly_broken"]), ("Recovered", d["recovered"]),

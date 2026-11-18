@@ -85,6 +85,15 @@ def test_diff_and_since():
     assert "| at | C | down | 2026-11-01 |" in health.markdown(new)
 
 
+def test_still_broken_needs_two_runs():
+    d1 = _report("2026-11-01T00:00:00", ("nl", "A", "ok", ""), ("tr", "B", "ok", ""), ("at", "C", "down", "y"))
+    d2 = _report("2026-11-02T00:00:00", ("nl", "A", "down", "x"), ("tr", "B", "down", "x"), ("at", "C", "down", "y"))
+    d3 = _report("2026-11-03T00:00:00", ("nl", "A", "blocked", "z"), ("tr", "B", "ok", ""), ("at", "C", "down", "y"))
+    assert health.still_broken(d1, d1, d2) == []          # down one day only: no alert yet
+    alert = health.still_broken(d1, d2, d3)
+    assert [(r["jurisdiction"], r["was"], r["now"]) for r in alert] == [("nl", "ok", "blocked")]
+
+
 async def test_list_jurisdictions_shows_known_down(tmp_path, monkeypatch):
     registry.discover()
     j = registry.get("gb")
