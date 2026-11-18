@@ -1,0 +1,15 @@
+{
+  "name": "fontes-legal",
+  "owner": {
+    "name": "Yüce Karapazar"
+  },
+  "description": "Fontes: live case law and legislation from official sources.",
+  "plugins": [
+    {
+      "name": "fontes",
+      "source": "./plugin",
+      "description": "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original.",
+      "category": "research"
+    }
+  ]
+}

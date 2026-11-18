@@ -1,0 +1,30 @@
+# Publish fontes-mcp to PyPI when a GitHub release is published on the public repo.
+# Uses PyPI Trusted Publishing (OIDC): no token in the repo. One-time setup on pypi.org:
+# project fontes-mcp → Publishing → add a GitHub publisher: owner ykarapazar, repo fontes,
+# workflow publish.yml, environment pypi. Then create the "pypi" environment in the repo settings.
+name: publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  pypi:
+    if: github.repository == 'ykarapazar/fontes'
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Tag matches the package version
+        run: |
+          ver=$(sed -n 's/^version = "\(.*\)"/\1/p' pyproject.toml | head -1)
+          [ "${GITHUB_REF_NAME#v}" = "$ver" ] || { echo "tag $GITHUB_REF_NAME != version $ver"; exit 1; }
+      - run: uv sync
+      - run: uv run pytest -q tests --ignore=tests/live
+      - run: uv build
+      - name: Wheel installs and starts
+        run: uvx --from dist/*.whl fontes --help
+      - run: uv publish --trusted-publishing always

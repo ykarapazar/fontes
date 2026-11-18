@@ -1,0 +1,47 @@
+{
+  "name": "fontes",
+  "displayName": "Fontes",
+  "version": "0.1.0",
+  "description": "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original.",
+  "author": {
+    "name": "Yüce Karapazar",
+    "url": "https://github.com/ykarapazar"
+  },
+  "homepage": "https://ykarapazar.github.io/fontes/",
+  "repository": "https://github.com/ykarapazar/fontes",
+  "license": "Apache-2.0",
+  "keywords": [
+    "law",
+    "case law",
+    "legislation",
+    "legal research",
+    "official sources"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://github.com/ykarapazar/fontes#readme",
+  "supportUrl": "https://github.com/ykarapazar/fontes/issues",
+  "privacyPolicyUrl": "https://github.com/ykarapazar/fontes/blob/main/docs/PRIVACY.md",
+  "userConfig": {
+    "fr_piste_client_id": {
+      "type": "string",
+      "title": "France: PISTE client ID",
+      "description": "Optional. From a free PISTE account; turns France on. Guide: https://github.com/ykarapazar/fontes/blob/main/docs/KEYS.md",
+      "sensitive": true,
+      "required": false
+    },
+    "fr_piste_client_secret": {
+      "type": "string",
+      "title": "France: PISTE client secret",
+      "description": "Optional. The secret that goes with the PISTE client ID.",
+      "sensitive": true,
+      "required": false
+    },
+    "us_govinfo_key": {
+      "type": "string",
+      "title": "United States: api.data.gov key",
+      "description": "Optional. A free api.data.gov key; without it US case-law search allows about 10 searches a day.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

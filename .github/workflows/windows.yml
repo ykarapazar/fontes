@@ -1,0 +1,38 @@
+# Build the Windows installer (Fontes-Setup-<ver>.exe, Inno Setup) on a Windows runner.
+# SignPath Foundation signs only artifacts built in CI like this one. Once the SignPath
+# project exists, add its signing action after the build step (see docs/RELEASING.md).
+# On a release the exe is attached to it; on a manual run it is a workflow artifact.
+name: windows-installer
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.repository == 'ykarapazar/fontes'
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Inno Setup
+        run: choco install innosetup --no-progress -y
+      - name: Build
+        shell: bash
+        run: |
+          ver=$(sed -n 's/^version = "\(.*\)"/\1/p' pyproject.toml | head -1)
+          echo "VER=$ver" >> "$GITHUB_ENV"
+          cd installer/windows
+          "/c/Program Files (x86)/Inno Setup 6/ISCC.exe" "//DAppVersion=$ver" fontes.iss
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Fontes-Setup-${{ env.VER }}
+          path: installer/windows/Output/Fontes-Setup-${{ env.VER }}.exe
+      - name: Attach to the release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.ref_name }}" "installer/windows/Output/Fontes-Setup-${{ env.VER }}.exe" --clobber
