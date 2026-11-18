@@ -3,7 +3,7 @@
 Fontes fetches court decisions and legislation live from official sources at the moment you ask, and every result links to the original. It is a research tool, not legal advice.
 
 This plugin adds the Fontes MCP server to Claude. It runs on your computer with
-`uvx fontes-mcp==0.1.0` (needs [uv](https://docs.astral.sh/uv/)): no account and no hosted
+`uvx fontes-mcp==0.1.1` (needs [uv](https://docs.astral.sh/uv/)): no account and no hosted
 service. Source code, licence (Apache 2.0) and full documentation: https://github.com/ykarapazar/fontes
 
 Install in Claude Code:

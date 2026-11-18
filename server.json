@@ -3,7 +3,7 @@
   "name": "io.github.ykarapazar/fontes",
   "title": "Fontes",
   "description": "Live court decisions and legislation from court and government websites in 120+ jurisdictions.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://ykarapazar.github.io/fontes/",
   "repository": {
     "url": "https://github.com/ykarapazar/fontes",
@@ -14,7 +14,7 @@
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "fontes-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"

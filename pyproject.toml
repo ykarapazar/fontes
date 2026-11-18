@@ -1,6 +1,6 @@
 [project]
 name = "fontes-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original."
 dynamic = ["readme"]
 license = "Apache-2.0"
