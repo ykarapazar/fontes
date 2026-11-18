@@ -16,6 +16,7 @@
  "not_found": "  {client} nije instaliran; preskočeno.",
  "apps_list": "Fontes je podešen u: {clients}",
  "done": "Gotovo. Potpuno zatvorite svaku od ovih aplikacija i ponovo je otvorite. Fontes će se tada pojaviti među njenim alatima.",
+ "no_apps": "Na ovom računaru nije pronađena nijedna AI aplikacija, pa se Fontes još ne koristi. Instalirajte Claude Desktop (claude.ai/download) i Fontes će se pojaviti među njegovim alatkama. Za druge aplikacije pogledajte {url}",
  "done_uninstall": "Fontes je uklonjen. Zatvorite i ponovo otvorite svoje aplikacije. Sam alat uv je ostao instaliran.",
  "keys_intro": "Opcioni besplatni ključevi otključavaju više izvora. Za Francusku je potreban besplatan PISTE nalog (client ID i secret); bez njega je Francuska isključena. Sjedinjene Države rade bez ključa, ali je pretraga sudske prakse ograničena na oko 10 pretraga dnevno. Uputstvo korak po korak: {url}",
  "keys_ask": "Dodati ili promeniti ključeve sada? Možete i kasnije preko „Dodaj ili promeni ključeve“. [d/N]: ",

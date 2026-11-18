@@ -16,6 +16,7 @@
  "not_found": "  {client} kurulu değil; atlandı.",
  "apps_list": "Fontes şu uygulamalarda kurulu: {clients}",
  "done": "Tamamlandı. Bu uygulamaların her birini tamamen kapatıp yeniden açın. Fontes araçlar arasında görünecek.",
+ "no_apps": "Bu bilgisayarda hiçbir yapay zekâ uygulaması bulunamadı, bu yüzden Fontes henüz kullanılmıyor. Claude Desktop'u (claude.ai/download) kurun, Fontes araçları arasında görünecek. Diğer uygulamalar için bkz. {url}",
  "done_uninstall": "Fontes kaldırıldı. Uygulamalarınızı kapatıp yeniden açın. uv kurulu bırakıldı.",
  "keys_intro": "İsteğe bağlı ücretsiz anahtarlar daha fazla kaynağı açar. Fransa için ücretsiz bir PISTE hesabı (client ID ve secret) gerekir; bu olmadan Fransa kapalı kalır. ABD anahtarsız çalışır, ancak içtihat araması günde yaklaşık 10 aramayla sınırlıdır. Adım adım kılavuz: {url}",
  "keys_ask": "Anahtarlar şimdi eklensin veya değiştirilsin mi? Bunu daha sonra \"Anahtar ekle veya değiştir\" ile de yapabilirsiniz. [e/H]: ",

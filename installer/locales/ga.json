@@ -16,6 +16,7 @@
  "not_found": "  Níl {client} suiteáilte; scipeáladh é.",
  "apps_list": "Tá Fontes socraithe in: {clients}",
  "done": "Déanta. Scoir go hiomlán de gach ceann de na haipeanna seo agus oscail arís é. Beidh Fontes le feiceáil i measc a chuid uirlisí ansin.",
+ "no_apps": "Níor aimsíodh aon aip AI ar an ríomhaire seo, mar sin níl Fontes in úsáid fós. Suiteáil Claude Desktop (claude.ai/download) agus beidh Fontes le feiceáil i measc a uirlisí. Le haghaidh aipeanna eile, féach {url}",
  "done_uninstall": "Baineadh Fontes. Scoir de d'aipeanna agus oscail arís iad. Fágadh uv féin suiteáilte.",
  "keys_intro": "Díghlasálann eochracha saor in aisce roghnacha tuilleadh foinsí. Teastaíonn cuntas PISTE saor in aisce don Fhrainc (client ID agus secret); gan é, tá an Fhrainc múchta. Oibríonn na Stáit Aontaithe gan eochair, ach tá cuardach cásdlí teoranta do thart ar 10 gcuardach sa lá. Treoir céim ar chéim: {url}",
  "keys_ask": "Eochracha a chur leis nó a athrú anois? Is féidir leat é a dhéanamh níos déanaí freisin le \"Cuir eochracha leis nó athraigh iad\". [y/N]: ",

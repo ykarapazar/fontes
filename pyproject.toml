@@ -25,6 +25,7 @@ dependencies = [
     "pypdf>=6.21.4",
     "python-dotenv>=1.2.4",
     "truststore>=0.10",
+    "tzdata>=2024.1",  # zoneinfo has no time-zone database on Windows without it
 ]
 
 [project.urls]

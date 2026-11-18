@@ -16,6 +16,7 @@
  "not_found": "  {client} ist nicht installiert; übersprungen.",
  "apps_list": "Fontes ist eingerichtet in: {clients}",
  "done": "Fertig. Beenden Sie jede dieser Apps vollständig und öffnen Sie sie erneut. Fontes erscheint dann in ihren Tools.",
+ "no_apps": "Auf diesem Computer wurde keine KI-App gefunden, daher wird Fontes noch nicht genutzt. Installieren Sie Claude Desktop (claude.ai/download), dann erscheint Fontes unter seinen Werkzeugen. Für andere Apps siehe {url}",
  "done_uninstall": "Fontes wurde entfernt. Beenden Sie Ihre Apps und öffnen Sie sie erneut. uv selbst bleibt installiert.",
  "keys_intro": "Optionale kostenlose Schlüssel schalten weitere Quellen frei. Frankreich benötigt ein kostenloses PISTE-Konto (Client-ID und Secret); ohne es ist Frankreich deaktiviert. Die Vereinigten Staaten funktionieren ohne Schlüssel, aber die Suche in der Rechtsprechung ist auf etwa 10 Suchen pro Tag begrenzt. Schritt-für-Schritt-Anleitung: {url}",
  "keys_ask": "Schlüssel jetzt hinzufügen oder ändern? Sie können das auch später mit „Add or change keys“ tun. [j/N]: ",

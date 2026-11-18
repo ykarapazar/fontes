@@ -16,6 +16,7 @@
  "not_found": "  {client} pa enstale; nou sote l.",
  "apps_list": "Fontes konfigire nan: {clients}",
  "done": "Fini. Fèmen chak aplikasyon sa yo nèt epi louvri l ankò. Lè sa a, Fontes ap parèt nan zouti li yo.",
+ "no_apps": "Pa gen okenn aplikasyon AI ki jwenn sou òdinatè sa a, kidonk Fontes poko itilize. Enstale Claude Desktop (claude.ai/download) epi Fontes ap parèt nan zouti li yo. Pou lòt aplikasyon, gade {url}",
  "done_uninstall": "Fontes retire. Fèmen epi relouvri aplikasyon ou yo. uv li menm rete enstale.",
  "keys_intro": "Kle gratis ki opsyonèl yo debloke plis sous. Lafrans bezwen yon kont PISTE gratis (client ID ak secret); san li, Lafrans etenn. Etazini mache san kle, men rechèch jirisprudans limite a anviwon 10 rechèch pa jou. Gid etap pa etap: {url}",
  "keys_ask": "Ajoute oswa chanje kle kounye a? Ou ka fè l pita tou ak \"Ajoute oswa chanje kle\". [wi/N]: ",

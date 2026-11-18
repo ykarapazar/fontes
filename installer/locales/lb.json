@@ -16,6 +16,7 @@
  "not_found": "  {client} ass net installéiert; iwwersprongen.",
  "apps_list": "Fontes ass ageriicht an: {clients}",
  "done": "Fäerdeg. Maacht all eenzel vun dësen Apps komplett zou a maacht se nees op. Fontes erschéngt dann a sengen Tools.",
+ "no_apps": "Op dësem Computer gouf keng KI-App fonnt, dofir gëtt Fontes nach net benotzt. Installéiert Claude Desktop (claude.ai/download), da steet Fontes bei sengen Tools. Fir aner Appen, kuckt {url}",
  "done_uninstall": "Fontes gouf ewechgeholl. Maacht Är Apps zou an nees op. uv selwer bleift installéiert.",
  "keys_intro": "Fakultativ gratis Schlësselen maache méi Quellen zougänglech. Frankräich brauch e gratis PISTE-Kont (Client-ID a Secret); ouni dee bleift Frankräich aus. D'Vereenegt Staaten funktionéieren ouni Schlëssel, mä d'Sich no Rechtsprechung ass op ongeféier 10 Sichen den Dag limitéiert. Guide Schrëtt fir Schrëtt: {url}",
  "keys_ask": "Schlësselen elo derbäisetzen oder änneren? Dir kënnt et och méi spéit mat „Add or change keys“ maachen. [j/N]: ",

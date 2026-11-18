@@ -16,6 +16,7 @@
  "not_found": "  {client} er ikke installeret; sprunget over.",
  "apps_list": "Fontes er sat op i: {clients}",
  "done": "Færdig. Afslut hver af disse apps helt, og åbn den igen. Fontes vil derefter vises blandt dens værktøjer.",
+ "no_apps": "Der blev ikke fundet nogen AI-app på denne computer, så Fontes er ikke i brug endnu. Installer Claude Desktop (claude.ai/download), så vises Fontes blandt dens værktøjer. For andre apps, se {url}",
  "done_uninstall": "Fontes er blevet fjernet. Afslut og genåbn dine apps. Selve uv er fortsat installeret.",
  "keys_intro": "Valgfrie gratis nøgler giver adgang til flere kilder. Frankrig kræver en gratis PISTE-konto (client ID og secret); uden den er Frankrig slået fra. USA virker uden nøgle, men søgning i retspraksis er begrænset til omkring 10 søgninger om dagen. Trin-for-trin-vejledning: {url}",
  "keys_ask": "Vil du tilføje eller skifte nøgler nu? Du kan også gøre det senere med »Add or change keys«. [j/N]: ",

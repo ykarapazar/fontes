@@ -16,6 +16,7 @@
  "not_found": "  {client} tidak terpasang; dilewati.",
  "apps_list": "Fontes sudah disiapkan di: {clients}",
  "done": "Selesai. Tutup setiap aplikasi ini sepenuhnya lalu buka kembali. Fontes kemudian akan muncul di daftar alatnya.",
+ "no_apps": "Tidak ada aplikasi AI yang ditemukan di komputer ini, jadi Fontes belum digunakan. Instal Claude Desktop (claude.ai/download) dan Fontes akan muncul di alat-alatnya. Untuk aplikasi lain, lihat {url}",
  "done_uninstall": "Fontes telah dihapus. Tutup lalu buka kembali aplikasi Anda. uv sendiri tetap terpasang.",
  "keys_intro": "Kunci gratis opsional membuka lebih banyak sumber. Prancis memerlukan akun PISTE gratis (client ID dan secret); tanpa itu, Prancis nonaktif. Amerika Serikat berfungsi tanpa kunci, tetapi pencarian putusan dibatasi sekitar 10 pencarian per hari. Panduan langkah demi langkah: {url}",
  "keys_ask": "Tambahkan atau ubah kunci sekarang? Anda juga bisa melakukannya nanti melalui \"Add or change keys\". [y/T]: ",

@@ -16,6 +16,7 @@
  "not_found": "  {client} pole paigaldatud; jäeti vahele.",
  "apps_list": "Fontes on seadistatud: {clients}",
  "done": "Valmis. Sulgege kõik need rakendused täielikult ja avage need uuesti. Seejärel ilmub Fontes nende tööriistade hulka.",
+ "no_apps": "Selles arvutis ei leitud ühtegi tehisintellekti rakendust, seega Fontes pole veel kasutusel. Paigaldage Claude Desktop (claude.ai/download) ja Fontes ilmub selle tööriistade hulka. Teiste rakenduste kohta vaadake {url}",
  "done_uninstall": "Fontes on eemaldatud. Sulgege oma rakendused ja avage need uuesti. uv ise jäeti paigaldatuks.",
  "keys_intro": "Valikulised tasuta võtmed avavad rohkem allikaid. Prantsusmaa jaoks on vaja tasuta PISTE kontot (client ID ja secret); ilma selleta on Prantsusmaa välja lülitatud. Ameerika Ühendriigid töötavad ilma võtmeta, kuid kohtupraktika otsing on piiratud umbes 10 otsinguga päevas. Samm-sammuline juhend: {url}",
  "keys_ask": "Kas lisada või muuta võtmeid kohe? Saate seda teha ka hiljem valikuga „Lisa või muuda võtmeid“. [j/E]: ",

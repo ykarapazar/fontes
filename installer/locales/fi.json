@@ -16,6 +16,7 @@
  "not_found": "  {client} ei ole asennettu; ohitettiin.",
  "apps_list": "Fontes on määritetty kohteisiin: {clients}",
  "done": "Valmis. Sulje jokainen näistä sovelluksista kokonaan ja avaa se uudelleen. Fontes näkyy sen jälkeen sen työkaluissa.",
+ "no_apps": "Tältä tietokoneelta ei löytynyt yhtään tekoälysovellusta, joten Fontes ei ole vielä käytössä. Asenna Claude Desktop (claude.ai/download), niin Fontes näkyy sen työkaluissa. Muita sovelluksia varten katso {url}",
  "done_uninstall": "Fontes on poistettu. Sulje sovelluksesi ja avaa ne uudelleen. Itse uv jätettiin asennetuksi.",
  "keys_intro": "Valinnaiset ilmaiset avaimet avaavat lisää lähteitä. Ranska vaatii ilmaisen PISTE-tilin (client ID ja secret); ilman sitä Ranska on pois käytöstä. Yhdysvallat toimii ilman avainta, mutta oikeuskäytännön haku on rajattu noin 10 hakuun päivässä. Vaiheittainen ohje: {url}",
  "keys_ask": "Lisätäänkö tai vaihdetaanko avaimia nyt? Voit tehdä sen myös myöhemmin valinnalla ”Lisää tai vaihda avaimia”. [k/E]: ",

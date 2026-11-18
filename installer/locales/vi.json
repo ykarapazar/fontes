@@ -16,6 +16,7 @@
  "not_found": "  {client} chưa được cài đặt; đã bỏ qua.",
  "apps_list": "Fontes đã được thiết lập trong: {clients}",
  "done": "Hoàn tất. Hãy thoát hẳn từng ứng dụng này rồi mở lại. Khi đó Fontes sẽ xuất hiện trong các công cụ của ứng dụng.",
+ "no_apps": "Không tìm thấy ứng dụng AI nào trên máy tính này, nên Fontes chưa được dùng. Hãy cài Claude Desktop (claude.ai/download) và Fontes sẽ xuất hiện trong các công cụ của nó. Với các ứng dụng khác, xem {url}",
  "done_uninstall": "Đã gỡ Fontes. Hãy thoát và mở lại các ứng dụng của bạn. Bản thân uv vẫn được giữ lại.",
  "keys_intro": "Các khóa miễn phí tùy chọn giúp mở thêm nhiều nguồn. Pháp cần một tài khoản PISTE miễn phí (client ID và secret); nếu không có, Pháp sẽ bị tắt. Hoa Kỳ hoạt động không cần khóa, nhưng tìm kiếm án lệ bị giới hạn khoảng 10 lượt mỗi ngày. Hướng dẫn từng bước: {url}",
  "keys_ask": "Thêm hoặc đổi khóa ngay bây giờ? Bạn cũng có thể làm sau bằng “Thêm hoặc đổi khóa”. [y/N]: ",

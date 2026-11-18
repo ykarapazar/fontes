@@ -16,6 +16,7 @@
  "not_found": "  {client} nu este instalat; omis.",
  "apps_list": "Fontes este configurat în: {clients}",
  "done": "Gata. Închideți complet fiecare dintre aceste aplicații și deschideți-o din nou. Fontes va apărea apoi printre instrumentele sale.",
+ "no_apps": "Nu a fost găsită nicio aplicație AI pe acest computer, așa că Fontes nu este încă folosit. Instalați Claude Desktop (claude.ai/download) și Fontes va apărea printre instrumentele sale. Pentru alte aplicații, vedeți {url}",
  "done_uninstall": "Fontes a fost eliminat. Închideți și redeschideți aplicațiile. uv a rămas instalat.",
  "keys_intro": "Cheile gratuite opționale deblochează mai multe surse. Franța necesită un cont PISTE gratuit (client ID și secret); fără el, Franța este dezactivată. Statele Unite funcționează fără cheie, dar căutarea în jurisprudență este limitată la aproximativ 10 căutări pe zi. Ghid pas cu pas: {url}",
  "keys_ask": "Adăugați sau modificați cheile acum? Puteți face asta și mai târziu cu „Adăugați sau modificați cheile”. [d/N]: ",

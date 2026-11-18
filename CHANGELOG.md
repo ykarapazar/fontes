@@ -2,7 +2,18 @@
 
 Plain-language notes for each release. Newest first.
 
-## 0.1.0 (not yet released)
+## 0.1.1 (not yet released)
+
+**Fixed**
+
+- Windows: jurisdictions from Latvia onwards (alphabetically, 47 of 124, among them the
+  Netherlands and the US) did not load, because Windows has no time-zone database. Fontes now
+  brings its own (tzdata), and one jurisdiction that fails to load no longer hides the others.
+- Windows installer: the window now waits for Enter, so the summary can be read.
+- Installer: if no AI app is found, it says so and points to Claude Desktop, instead of
+  reporting success.
+
+## 0.1.0 (2026-11-18)
 
 The first public version.
 

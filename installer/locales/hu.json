@@ -16,6 +16,7 @@
  "not_found": "  A(z) {client} nincs telepítve; kihagyva.",
  "apps_list": "A Fontes be van állítva itt: {clients}",
  "done": "Kész. Lépjen ki teljesen ezekből az alkalmazásokból, majd nyissa meg őket újra. A Fontes ezután megjelenik az eszközeik között.",
+ "no_apps": "Ezen a számítógépen nem található MI-alkalmazás, ezért a Fontes még nincs használatban. Telepítse a Claude Desktopot (claude.ai/download), és a Fontes megjelenik az eszközei között. Más alkalmazásokhoz lásd: {url}",
  "done_uninstall": "A Fontes eltávolítva. Lépjen ki az alkalmazásaiból, és nyissa meg őket újra. Maga az uv telepítve maradt.",
  "keys_intro": "Az opcionális ingyenes kulcsok további forrásokat nyitnak meg. Franciaországhoz ingyenes PISTE-fiók kell (client ID és secret); enélkül Franciaország ki van kapcsolva. Az Egyesült Államok kulcs nélkül is működik, de az ítélkezési gyakorlat keresése napi kb. 10 keresésre korlátozódik. Lépésről lépésre útmutató: {url}",
  "keys_ask": "Hozzáad vagy módosít most kulcsokat? Később is megteheti a(z) „Kulcsok hozzáadása vagy módosítása” lehetőséggel. [i/N]: ",

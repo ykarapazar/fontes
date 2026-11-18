@@ -16,6 +16,7 @@
  "not_found": "  {client} kò sí lórí kọ̀ǹpútà; a fò ó.",
  "apps_list": "A ti ṣètò Fontes nínú: {clients}",
  "done": "Ó ti parí. Pa ọ̀kọ̀ọ̀kan àwọn áàpù wọ̀nyí dé pátápátá kí o sì tún un ṣí. Fontes yóò hàn nínú àwọn irinṣẹ́ rẹ̀ nígbà náà.",
+ "no_apps": "Kò sí áàpù AI kankan lórí kọ̀ǹpútà yìí, nítorí náà a kò tíì lo Fontes. Fi Claude Desktop (claude.ai/download) sílẹ̀, Fontes yóò sì hàn nínú àwọn irinṣẹ́ rẹ̀. Fún àwọn áàpù mìíràn, wo {url}",
  "done_uninstall": "A ti yọ Fontes kúrò. Pa àwọn áàpù rẹ dé kí o sì tún wọn ṣí. A fi uv fúnra rẹ̀ sílẹ̀ bí ó ṣe wà.",
  "keys_intro": "Àwọn kọ́kọ́rọ́ ọ̀fẹ́ tí kò pọn dandan ń ṣí àwọn orísun púpọ̀ sí i. Faransé nílò àkọọ́lẹ̀ PISTE ọ̀fẹ́ (client ID àti secret); láìsí i, Faransé wà ní pípa. Amẹ́ríkà ń ṣiṣẹ́ láìsí kọ́kọ́rọ́, ṣùgbọ́n ìwádìí ìdájọ́ ilé-ẹjọ́ mọ níwọ̀n bí ìwádìí 10 lójúmọ́. Ìtọ́sọ́nà ní ìgbésẹ̀-ìgbésẹ̀: {url}",
  "keys_ask": "Ṣé kí o fi kọ́kọ́rọ́ kún tàbí yí wọn padà báyìí? O tún lè ṣe é lẹ́yìn náà pẹ̀lú \"Add or change keys\". [y/N]: ",

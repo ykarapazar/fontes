@@ -529,3 +529,18 @@ def test_cached_good_version_starts_offline(monkeypatch):
         L.main(["fontes"])
     assert execs[0][:4] == ["/x/uv", "tool", "run", "--offline"] and "fontes-mcp==0.1.0" in execs[0]
     assert "--offline" not in execs[1]
+
+
+def test_install_says_so_when_no_ai_app_is_found(tmp_path, monkeypatch, capsys):
+    """A PC with no AI app: settings are prepared for Claude Desktop, but the user is told."""
+    monkeypatch.setattr(S.sys, "platform", "darwin")
+    monkeypatch.setattr(S.Path, "home", classmethod(lambda cls: tmp_path))
+    monkeypatch.setenv("CODEX_HOME", str(tmp_path / ".codex"))
+    monkeypatch.setattr(S, "find_uv", lambda: "/x/uv")
+    monkeypatch.setattr(S, "prefetch", lambda uv, app: True)
+    monkeypatch.setattr(S.sys.stdin, "isatty", lambda: False, raising=False)
+    monkeypatch.setattr(S, "claude_desktop_present", lambda: False)
+    assert S.main(["install"]) == 0
+    out = capsys.readouterr().out
+    assert "No AI app was found" in out and "set up in" not in out
+    assert by_name("Claude Desktop").path.exists()   # ready for when Claude Desktop is installed

@@ -16,6 +16,7 @@
  "not_found": "  {client} není nainstalován; přeskočeno.",
  "apps_list": "Fontes je nastaven v: {clients}",
  "done": "Hotovo. Každou z těchto aplikací úplně ukončete a znovu otevřete. Fontes se pak objeví mezi jejími nástroji.",
+ "no_apps": "Na tomto počítači nebyla nalezena žádná AI aplikace, takže Fontes se zatím nepoužívá. Nainstalujte Claude Desktop (claude.ai/download) a Fontes se objeví mezi jeho nástroji. Pro jiné aplikace viz {url}",
  "done_uninstall": "Fontes byl odebrán. Ukončete a znovu otevřete své aplikace. Samotný uv zůstal nainstalován.",
  "keys_intro": "Volitelné bezplatné klíče zpřístupní další zdroje. Francie vyžaduje bezplatný účet PISTE (client ID a secret); bez něj je Francie vypnutá. Spojené státy fungují bez klíče, ale vyhledávání v judikatuře je omezeno přibližně na 10 hledání denně. Návod krok za krokem: {url}",
  "keys_ask": "Přidat nebo změnit klíče teď? Můžete to udělat i později pomocí „Add or change keys“. [a/N]: ",

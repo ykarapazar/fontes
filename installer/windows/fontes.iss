@@ -1,5 +1,5 @@
 ; Inno Setup script: a signable Setup.exe wrapping install.ps1 (for SmartScreen / SignPath).
-; Not built yet: needs Windows (or wine) + Inno Setup 6. Build from installer\windows with:
+; Built in CI by .github/workflows/windows.yml. By hand: Windows + Inno Setup 6, from installer\windows:
 ;   iscc /DAppVersion=0.1.0 fontes.iss
 ; Signing slot: add  SignTool=signpath  (configured in the Inno IDE) or sign Output\*.exe
 ; afterwards in the SignPath CI step.
@@ -31,7 +31,7 @@ Source: "Add or change keys.cmd"; DestDir: "{app}"
 Name: "{userprograms}\Fontes\Add or change keys"; Filename: "{app}\Add or change keys.cmd"
 
 [Run]
-Filename: "powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\install.ps1"" install"; StatusMsg: "Setting up Fontes for your AI apps..."; Flags: waituntilterminated
+Filename: "powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\install.ps1"" install -Pause"; StatusMsg: "Setting up Fontes for your AI apps..."; Flags: waituntilterminated
 
 [UninstallRun]
 Filename: "powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\install.ps1"" uninstall"; RunOnceId: "FontesUninstall"; Flags: waituntilterminated

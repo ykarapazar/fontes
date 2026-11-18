@@ -16,6 +16,7 @@
  "not_found": "  {client}無安裝；跳過。",
  "apps_list": "Fontes 已經設定在：{clients}",
  "done": "完成。請將這兜應用程式逐隻完全結束，再打開。這下 Fontes 就會出現在佢个工具肚項。",
+ "no_apps": "這部電腦上冇尋著任何 AI 應用程式，所以 Fontes 還冇用著。請安裝 Claude Desktop（claude.ai/download），Fontes 就會出現在佢个工具裡肚。其他應用程式請看 {url}",
  "done_uninstall": "Fontes 已經移除了。請結束你个應用程式再打開。uv 本身還係保留安裝。",
  "keys_intro": "選擇性个免費金鑰做得開放較多資料來源。法國愛一個免費个 PISTE 帳號（client ID 同 secret）；無个話，法國就係關忒个。美國毋使金鑰也用得，毋過裁判檢索一日限制大約 10 擺。一步一步个說明：{url}",
  "keys_ask": "這下愛加或者改金鑰無？你也做得等一下用「Add or change keys」來做。[y/N]： ",

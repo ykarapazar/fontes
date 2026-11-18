@@ -16,6 +16,7 @@
  "not_found": "  {client} sampeesu ko; nu romb ko.",
  "apps_list": "Fontes samp nañu ko ci: {clients}",
  "done": "Jeex na. Tëjal bépp aplikasioŋ ci yii ba mu jeex te nga ubbiwaat ko. Fontes dina feeñ ci jumtukaay yi.",
+ "no_apps": "Amul benn aplikasioŋ AI ci ordinaatër bii, looloo tax Fontes jëfandikoowul ba léegi. Samp Claude Desktop (claude.ai/download) te Fontes dina feeñ ci jumtukaay yi. Ngir yeneen aplikasioŋ, xoolal {url}",
  "done_uninstall": "Dindi nañu Fontes. Tëjal te ubbiwaat say aplikasioŋ. uv moom, bàyyi nañu ko ni mu sampe.",
  "keys_intro": "Ay caabi yu ñu joxe ci neen (bu la neexee) dañuy ubbi yeneen bërëb yu ñuy jële xibaar. Faraas dafa soxla benn kontu PISTE bu ñu joxe ci neen (client ID ak secret); bu amul, Faraas dafay fey. Etaa-Sini mën na dox te amul caabi, waaye wut ci àtte yi am na digg: lu tollu ci 10 wut ci bés bi. Gindikaay tànk-tànk: {url}",
  "keys_ask": "Ndax nu yokk walla soppi caabi yi léegi? Mën nga ko def ci kanam itam ak \"Yokk walla soppi caabi yi\". [w/N]: ",

@@ -58,6 +58,21 @@ def claude_configs() -> list[Path]:
     return [Path(os.environ.get("XDG_CONFIG_HOME") or Path.home() / ".config") / "Claude/claude_desktop_config.json"]
 
 
+def claude_desktop_present() -> bool:
+    """Claude Desktop itself, or a settings folder it made. Call before configure(), which
+    writes its settings file whether or not the app is there (so a later install finds Fontes)."""
+    if sys.platform == "win32":
+        local = os.environ.get("LOCALAPPDATA") or str(Path.home() / "AppData/Local")
+        if Path(local, "AnthropicClaude").exists() or glob.glob(os.path.join(local, "Packages", "Claude_*")):
+            return True
+    elif sys.platform == "darwin":
+        if any(p.exists() for p in (Path("/Applications/Claude.app"), Path.home() / "Applications/Claude.app")):
+            return True
+    else:
+        return True  # no official Linux app to look for
+    return any(p.parent.exists() for p in claude_configs())
+
+
 def codex_config() -> Path:
     return Path(os.environ.get("CODEX_HOME") or Path.home() / ".codex") / "config.toml"
 
@@ -481,6 +496,7 @@ def prefetch(uv: str, app: str) -> bool:
 KEYS = {"WLM_FR_PISTE_CLIENT_ID": "key_fr_id", "WLM_FR_PISTE_CLIENT_SECRET": "key_fr_secret",
         "WLM_US_GOVINFO_KEY": "key_us"}
 KEYS_URL = f"{i18n.REPO}docs/KEYS.md"
+INSTALL_URL = f"{i18n.REPO}docs/INSTALL.md"
 
 
 def gui() -> bool:
@@ -568,7 +584,9 @@ def install() -> int:
 
     for app in launcher.APPS:
         prefetch(uv, app)
+    claude_seen = claude_desktop_present()
     done = configure({"fontes": entry(uv, "fontes", fontes_env)})
+    done = [c for c in done if c != "Claude Desktop" or claude_seen]
     if done:
         print(t("apps_list", clients=", ".join(done)))
     # Keys are optional, so they are offered only once Fontes is set up. The Mac app offers
@@ -576,7 +594,7 @@ def install() -> int:
     if not gui() and sys.stdin.isatty() and want_keys() and ask_keys(fontes_env):
         configure({"fontes": entry(uv, "fontes", fontes_env)}, only_ours=True)
         print(t("keys_saved"))
-    print(t("done"))
+    print(t("done") if done else t("no_apps", url=INSTALL_URL))
     return 0
 
 

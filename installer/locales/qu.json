@@ -16,6 +16,7 @@
  "not_found": "  {client} mana instalasqachu; saqisqa.",
  "apps_list": "Fontesqa kaykunapi churasqam: {clients}",
  "done": "Tukurqanña. Sapanka kay appkunata tukuy-tukuyta wichqay hinaspa wakmanta kichay. Chaymantam Fontes llamk'anankunapi rikhurinqa.",
+ "no_apps": "Kay computadorapiqa manam ima AI aplicacionpas tarikurqanchu, chayraykum Fontes manaraq llamk'achisqachu. Claude Desktop (claude.ai/download) churay, Fontes llamk'anankunapi rikhurinqa. Huk aplicacionkunapaqqa {url} qhaway",
  "done_uninstall": "Fontes qichusqañam. Appniykikunata wichqay hinaspa wakmanta kichay. uv nisqaqa instalasqallam saqisqa.",
  "keys_intro": "Mana kamachisqa, mana qullqiyuq llavekunaqa astawan pukyukunata kicharin. Franciapaqqa mana qullqiyuq PISTE cuentam necesitakun (client ID, secretpas); mana kaptinqa Francia wañuchisqam. Estados Unidosqa mana llaveyuqpas llamk'anmi, ichaqa jurisprudencia maskayqa p'unchawpi yaqa 10 kutillam. Paso paso pusana: {url}",
  "keys_ask": "Llavekunata kunan yapankichu utaq tikrankichu? Qhipatapas \"Llavekunata yapay utaq tikray\" nisqawan ruwayta atinki. [y/N]: ",

@@ -16,6 +16,7 @@
  "not_found": "  {client} er ekki uppsett; sleppt.",
  "apps_list": "Fontes er sett upp í: {clients}",
  "done": "Lokið. Lokaðu hverju þessara forrita alveg og opnaðu það aftur. Fontes birtist þá í verkfærum þess.",
+ "no_apps": "Ekkert gervigreindarforrit fannst á þessari tölvu, svo Fontes er ekki enn í notkun. Settu upp Claude Desktop (claude.ai/download) og Fontes birtist meðal verkfæra þess. Fyrir önnur forrit, sjá {url}",
  "done_uninstall": "Fontes hefur verið fjarlægt. Lokaðu forritunum þínum og opnaðu þau aftur. uv sjálft er áfram uppsett.",
  "keys_intro": "Valfrjálsir ókeypis lyklar opna fyrir fleiri heimildir. Frakkland krefst ókeypis PISTE-aðgangs (client ID og secret); án hans er Frakkland óvirkt. Bandaríkin virka án lykils, en leit í dómaframkvæmd takmarkast við um 10 leitir á dag. Leiðbeiningar skref fyrir skref: {url}",
  "keys_ask": "Bæta við eða breyta lyklum núna? Þú getur líka gert það síðar með „Bæta við eða breyta lyklum“. [j/N]: ",

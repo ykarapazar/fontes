@@ -16,6 +16,7 @@
  "not_found": "  O {client} não está instalado; ignorado.",
  "apps_list": "O Fontes está configurado em: {clients}",
  "done": "Pronto. Feche completamente cada um desses apps e abra-o novamente. O Fontes aparecerá então nas ferramentas dele.",
+ "no_apps": "Nenhum aplicativo de IA foi encontrado neste computador, então o Fontes ainda não está em uso. Instale o Claude Desktop (claude.ai/download) e o Fontes aparecerá nas ferramentas dele. Para outros aplicativos, veja {url}",
  "done_uninstall": "O Fontes foi removido. Feche e abra novamente seus apps. O uv continua instalado.",
  "keys_intro": "Chaves gratuitas opcionais liberam mais fontes. A França exige uma conta PISTE gratuita (client ID e secret); sem ela, a França fica desativada. Os Estados Unidos funcionam sem chave, mas a pesquisa de jurisprudência é limitada a cerca de 10 pesquisas por dia. Guia passo a passo: {url}",
  "keys_ask": "Adicionar ou alterar chaves agora? Você também pode fazer isso depois com \"Adicionar ou alterar chaves\". [s/N]: ",

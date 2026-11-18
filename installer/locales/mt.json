@@ -16,6 +16,7 @@
  "not_found": "  {client} mhuwiex installat; inqabeż.",
  "apps_list": "Fontes huwa ssettjat f': {clients}",
  "done": "Lest. Agħlaq għal kollox kull waħda minn dawn l-apps u erġa' iftaħha. Fontes imbagħad jidher fost l-għodod tagħha.",
+ "no_apps": "Ma nstabet l-ebda app tal-IA fuq dan il-kompjuter, għalhekk Fontes għadu mhux qed jintuża. Installa Claude Desktop (claude.ai/download) u Fontes jidher fost l-għodod tiegħu. Għal apps oħra, ara {url}",
  "done_uninstall": "Fontes tneħħa. Agħlaq u erġa' iftaħ l-apps tiegħek. uv innifsu baqa' installat.",
  "keys_intro": "Ċwievet b'xejn u mhux obbligatorji jiftħu aktar sorsi. Franza teħtieġ kont PISTE b'xejn (client ID u secret); mingħajru Franza tkun mitfija. L-Istati Uniti jaħdmu mingħajr ċavetta, iżda t-tfittxija tal-ġurisprudenza hija limitata għal madwar 10 tfittxijiet kuljum. Gwida pass pass: {url}",
  "keys_ask": "Iżżid jew tibdel iċ-ċwievet issa? Tista' tagħmel dan ukoll aktar tard b'\"Żid jew ibdel iċ-ċwievet\". [i/N]: ",

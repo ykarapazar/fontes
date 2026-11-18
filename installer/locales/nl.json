@@ -16,6 +16,7 @@
  "not_found": "  {client} is niet geïnstalleerd; overgeslagen.",
  "apps_list": "Fontes is ingesteld in: {clients}",
  "done": "Klaar. Sluit elk van deze apps volledig af en open ze opnieuw. Fontes verschijnt dan tussen de tools.",
+ "no_apps": "Er is geen AI-app gevonden op deze computer, dus Fontes wordt nog niet gebruikt. Installeer Claude Desktop (claude.ai/download) en Fontes verschijnt tussen de tools. Voor andere apps, zie {url}",
  "done_uninstall": "Fontes is verwijderd. Sluit uw apps af en open ze opnieuw. uv zelf blijft geïnstalleerd.",
  "keys_intro": "Optionele gratis sleutels ontsluiten meer bronnen. Voor Frankrijk is een gratis PISTE-account nodig (client-ID en secret); zonder dat staat Frankrijk uit. De Verenigde Staten werken zonder sleutel, maar zoeken in jurisprudentie is beperkt tot ongeveer 10 zoekopdrachten per dag. Stapsgewijze handleiding: {url}",
  "keys_ask": "Nu sleutels toevoegen of wijzigen? U kunt dit ook later doen met 'Add or change keys'. [j/N]: ",

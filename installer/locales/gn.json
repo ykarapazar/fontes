@@ -16,6 +16,7 @@
  "not_found": "  {client} noñemohendái; ojepo'i.",
  "apps_list": "Fontes oñemboheko ko'ápe: {clients}",
  "done": "Opáma. Emboty opaite ko'ã aplicación ha epe'a jey. Upéi Fontes osẽta hembiporukuérape.",
+ "no_apps": "Ndojejuhúi mba'eveichagua AI aplicación ko computadora-pe, upévare Fontes ndojeporúi gueteri. Emoĩ Claude Desktop (claude.ai/download) ha Fontes osẽta umi herramienta apytépe. Ambue aplicación-rã, ehecha {url}",
  "done_uninstall": "Fontes ojenohẽma. Emboty ha epe'a jey nde aplicación-kuéra. uv katu opyta oñemohendahápe.",
  "keys_intro": "Umi clave rei, ndaha'éiva tekotevẽ, oipe'a hetave ñemoñe'ẽrenda. Francia oikotevẽ peteĩ cuenta PISTE rei (client ID ha secret); ndorekóiramo, Francia ndoikói. Estados Unidos oiko clave'ỹre, ha katu jurisprudencia jeheka ojejoko 10 jeheka rupi ára ha ára. Ñepytyvõ mbegue mbegue: {url}",
  "keys_ask": "Rembojoapy térã remoambuépa umi clave ko'ág̃a? Ikatu avei rejapo upéi \"Embojoapy térã emoambue clave\" rupive. [y/N]: ",

@@ -16,6 +16,7 @@
  "not_found": "  {client} janiw instalatäkiti; jaytatawa.",
  "apps_list": "Fontes akanakan wakicht'atawa: {clients}",
  "done": "Tukuyatawa. Sapa aplicación taqpach jist'antam ukat wasitat jist'aram. Ukatxa Fontes ukax irnaqañanakapan uñstani.",
+ "no_apps": "Aka computadoran janiw kuna AI aplicacionas jikxatatäkiti, ukatwa Fontes janïr apnaqaskiti. Claude Desktop (claude.ai/download) uchantam, ukatsti Fontes herramientanakapan uñstani. Yaqha aplicacionanakatakix {url} uñakipt'am",
  "done_uninstall": "Fontes ukax apaqatawa. Aplicacionanakam jist'antam ukat wasitat jist'aram. uv ukax instalatarakiw jaytata.",
  "keys_intro": "Munasax inaki llavenak apnaqasmawa, juk'amp jalsunak jist'ari. Franciatakix inaki PISTE cuenta munasi (client ID, secret); jan ukampix Francia jiwt'ayatawa. Estados Unidos ukax jan llaveni irnaqi, ukampis jurisprudencia thaqhañax sapa uru niya 10 thaqhäwinakakiw. Sapa kayut irpañ qillqata: {url}",
  "keys_ask": "Llavenak jichhpach yapxatañaspati jan ukax mayjt'ayañaspati? Qhiparus \"Llavenak yapxataña jan ukax mayjt'ayaña\" ukamp lurasmawa. [y/N]: ",

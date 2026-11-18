@@ -16,6 +16,7 @@
  "not_found": "  Hindi naka-install ang {client}; nilaktawan.",
  "apps_list": "Naka-set up ang Fontes sa: {clients}",
  "done": "Tapos na. Isara nang tuluyan ang bawat isa sa mga app na ito at buksan itong muli. Lalabas na ang Fontes sa mga tool nito.",
+ "no_apps": "Walang nakitang AI app sa computer na ito, kaya hindi pa nagagamit ang Fontes. I-install ang Claude Desktop (claude.ai/download) at lalabas ang Fontes sa mga tool nito. Para sa ibang app, tingnan ang {url}",
  "done_uninstall": "Naalis na ang Fontes. Isara at buksan muli ang iyong mga app. Naiwang naka-install ang uv mismo.",
  "keys_intro": "May mga opsyonal na libreng key na nagbubukas ng mas maraming source. Kailangan ng France ng libreng PISTE account (client ID at secret); kung wala ito, naka-off ang France. Gumagana ang United States nang walang key, pero limitado ang paghahanap ng jurisprudence sa mga 10 paghahanap bawat araw. Gabay na hakbang-hakbang: {url}",
  "keys_ask": "Magdagdag o magpalit ng mga key ngayon? Puwede mo rin itong gawin mamaya gamit ang \"Add or change keys\". [oo/N]: ",

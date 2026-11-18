@@ -243,3 +243,27 @@ def test_warnings_skip_gated_sources_unless_permitted(monkeypatch):
 async def test_list_jurisdictions_carries_beta_notice():
     assert (await server.list_jurisdictions("gb")).startswith("Fontes is in beta")
     assert "Fontes is in beta" in await server.list_jurisdictions()
+
+
+def test_one_broken_adapter_does_not_hide_the_rest(monkeypatch):
+    """Windows without tzdata broke lv's import and every adapter after it (nl, us, ...)."""
+    real = registry.importlib.import_module
+
+    def fake(name):
+        if name.endswith(".lv"):
+            raise ModuleNotFoundError("No time zone found with key Europe/Riga")
+        return real(name)
+
+    monkeypatch.setattr(registry, "_all", {})
+    monkeypatch.setattr(registry, "_aliases", {})
+    monkeypatch.setattr(registry, "_broken", {})
+    monkeypatch.setattr(registry.importlib, "import_module", fake)
+    codes = {j.code for j in registry.available()}
+    assert "lv" not in codes and {"lu", "nl", "us", "wto"} <= codes
+    assert "Europe/Riga" in server._resolve("lv", "search_caselaw")
+
+
+def test_zoneinfo_works_without_system_tz():
+    """tzdata must be installed so zoneinfo works where the OS has no tz database (Windows)."""
+    import importlib.util
+    assert importlib.util.find_spec("tzdata"), "tzdata is a declared dependency"

@@ -16,6 +16,7 @@
  "not_found": "  {client} gurnalmadyk; geçildi.",
  "apps_list": "Fontes şu programmalarda sazlandy: {clients}",
  "done": "Taýýar. Bu programmalaryň her birini doly ýapyň we täzeden açyň. Şondan soň Fontes onuň gurallarynyň arasynda peýda bolar.",
+ "no_apps": "Bu kompýuterde hiç hili AI programmasy tapylmady, şonuň üçin Fontes entek ulanylmaýar. Claude Desktop-y (claude.ai/download) gurnaň, Fontes onuň gurallarynda peýda bolar. Beýleki programmalar üçin seret: {url}",
  "done_uninstall": "Fontes aýryldy. Programmalaryňyzy ýapyp, täzeden açyň. uv guralynyň özi gurnalan ýagdaýda galdyryldy.",
  "keys_intro": "Islege bagly mugt açarlar has köp çeşmäni açýar. Fransiýa üçin mugt PISTE hasaby (client ID we secret) gerek; ol bolmasa, Fransiýa öçük. ABŞ açarsyz işleýär, emma kazyýet tejribesi boýunça gözleg günde takmynan 10 gözleg bilen çäklendirilýär. Ädimme-ädim gollanma: {url}",
  "keys_ask": "Açarlar häzir goşulsynmy ýa-da üýtgedilsinmi? Muny soňra “Açarlary goş ýa-da üýtget” arkaly hem edip bilersiňiz. [hawa/ÝOK]: ",

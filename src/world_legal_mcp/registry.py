@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import importlib
 import pkgutil
+import sys
 
 from . import _http, jurisdictions
 from .base import Jurisdiction
@@ -10,6 +11,7 @@ from .base import Jurisdiction
 _all: dict[str, Jurisdiction] = {}      # code -> adapter instance
 _aliases: dict[str, str] = {}           # alias -> code
 _enabled: set[str] | None = None        # None = all (see enable_only)
+_broken: dict[str, str] = {}            # module -> why it failed to import
 
 
 def register(j: Jurisdiction) -> None:
@@ -27,7 +29,12 @@ def discover() -> None:
     for mod in pkgutil.iter_modules(jurisdictions.__path__):
         if mod.name.startswith("_"):
             continue
-        module = importlib.import_module(f"{jurisdictions.__name__}.{mod.name}")
+        try:
+            module = importlib.import_module(f"{jurisdictions.__name__}.{mod.name}")
+        except Exception as e:  # one broken adapter must not hide the ones after it
+            _broken[mod.name] = f"{type(e).__name__}: {e}"
+            print(f"fontes: could not load {mod.name}: {_broken[mod.name]}", file=sys.stderr)
+            continue
         for obj in vars(module).values():
             if (isinstance(obj, type) and issubclass(obj, Jurisdiction)
                     and obj is not Jurisdiction and obj.code):

@@ -78,6 +78,10 @@ def _unsupported(j: Jurisdiction, method: str) -> str:
 def _resolve(code: str, method: str) -> Jurisdiction | str:
     j = registry.get(code)
     if j is None:
+        why = registry._broken.get(registry.canonical(code))
+        if why:
+            return (f"Jurisdiction {code!r} failed to load on this computer ({why}). "
+                    "Please report it with report_bug.")
         codes = ", ".join(x.code for x in registry.available())
         return (f"Unknown or disabled jurisdiction {code!r}. Available here: {codes}. "
                 "Use list_jurisdictions() to see them.")

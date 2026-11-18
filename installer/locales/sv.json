@@ -16,6 +16,7 @@
  "not_found": "  {client} är inte installerat; hoppades över.",
  "apps_list": "Fontes är konfigurerat i: {clients}",
  "done": "Klart. Avsluta var och en av de här apparna helt och öppna den igen. Fontes visas då bland dess verktyg.",
+ "no_apps": "Ingen AI-app hittades på den här datorn, så Fontes används inte ännu. Installera Claude Desktop (claude.ai/download) så visas Fontes bland dess verktyg. För andra appar, se {url}",
  "done_uninstall": "Fontes har tagits bort. Avsluta och öppna dina appar igen. Själva uv lämnades installerat.",
  "keys_intro": "Valfria kostnadsfria nycklar ger tillgång till fler källor. Frankrike kräver ett kostnadsfritt PISTE-konto (client ID och secret); utan det är Frankrike avstängt. USA fungerar utan nyckel, men sökning i rättspraxis är begränsad till cirka 10 sökningar per dag. Steg-för-steg-guide: {url}",
  "keys_ask": "Lägga till eller ändra nycklar nu? Du kan också göra det senare med ”Lägg till eller ändra nycklar”. [j/N]: ",

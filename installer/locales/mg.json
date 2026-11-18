@@ -16,6 +16,7 @@
  "not_found": "  Tsy voapetraka ny {client}; nodinganina.",
  "apps_list": "Efa voapetraka ny Fontes ao amin'ny: {clients}",
  "done": "Vita. Akatony tanteraka tsirairay ireo rindranasa ireo dia sokafy indray. Hiseho ao amin'ny fitaovany ny Fontes avy eo.",
+ "no_apps": "Tsy nisy rindranasa AI hita tamin'ity solosaina ity, ka mbola tsy ampiasaina ny Fontes. Apetraho ny Claude Desktop (claude.ai/download) dia hiseho ao amin'ny fitaovany ny Fontes. Ho an'ny rindranasa hafa, jereo {url}",
  "done_uninstall": "Nesorina ny Fontes. Akatony dia sokafy indray ny rindranasanao. Navela ho voapetraka ihany ny uv.",
  "keys_intro": "Fanalahidy maimaim-poana tsy voatery no manokatra loharano maro kokoa. Mila kaonty PISTE maimaim-poana i Frantsa (client ID sy secret); raha tsy misy izany dia maty i Frantsa. Mandeha tsy misy fanalahidy i Etazonia, saingy voafetra ho karoka 10 eo ho eo isan'andro ny fikarohana jurisprudence. Torolalana tsikelikely: {url}",
  "keys_ask": "Hanampy na hanova fanalahidy izao ve? Azonao atao any aoriana koa izany amin'ny \"Add or change keys\". [e/T]: ",

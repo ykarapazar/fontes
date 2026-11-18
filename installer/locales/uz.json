@@ -16,6 +16,7 @@
  "not_found": "  {client} oʻrnatilmagan; oʻtkazib yuborildi.",
  "apps_list": "Fontes quyidagilarda sozlangan: {clients}",
  "done": "Tayyor. Bu ilovalarning har birini butunlay yoping va qayta oching. Shundan soʻng Fontes uning vositalari orasida paydo boʻladi.",
+ "no_apps": "Bu kompyuterda hech qanday AI ilova topilmadi, shuning uchun Fontes hali ishlatilmayapti. Claude Desktop'ni (claude.ai/download) o'rnating, Fontes uning vositalari orasida paydo bo'ladi. Boshqa ilovalar uchun qarang: {url}",
  "done_uninstall": "Fontes olib tashlandi. Ilovalaringizni yopib, qayta oching. uv vositasining oʻzi oʻrnatilgan holda qoldirildi.",
  "keys_intro": "Ixtiyoriy bepul kalitlar koʻproq manbalarni ochadi. Fransiya uchun bepul PISTE hisobi (client ID va secret) kerak; usiz Fransiya oʻchiq boʻladi. AQSh kalitsiz ishlaydi, lekin sud amaliyoti boʻyicha qidiruv kuniga taxminan 10 ta qidiruv bilan cheklangan. Bosqichma-bosqich qoʻllanma: {url}",
  "keys_ask": "Kalitlar hozir qoʻshilsinmi yoki oʻzgartirilsinmi? Buni keyinroq “Kalitlarni qoʻshish yoki oʻzgartirish” orqali ham qilishingiz mumkin. [ha/YOʻQ]: ",

@@ -16,6 +16,7 @@
  "not_found": "  未安裝 {client}；已略過。",
  "apps_list": "已在以下應用程式中設定 Fontes：{clients}",
  "done": "完成。請完全結束上述每個應用程式，然後重新開啟。之後 Fontes 就會出現在其工具中。",
+ "no_apps": "這台電腦上沒有找到任何 AI 應用程式，所以 Fontes 尚未被使用。請安裝 Claude Desktop（claude.ai/download），Fontes 就會出現在它的工具中。其他應用程式請參閱 {url}",
  "done_uninstall": "Fontes 已移除。請結束並重新開啟您的應用程式。uv 本身仍保留安裝。",
  "keys_intro": "選用的免費金鑰可解鎖更多來源。法國需要免費的 PISTE 帳戶（client ID 和 secret）；沒有它，法國將維持關閉。美國不需金鑰即可使用，但裁判檢索每天限約 10 次。逐步指南：{url}",
  "keys_ask": "現在要新增或變更金鑰嗎？您也可以稍後透過「Add or change keys」進行。[y/N]： ",

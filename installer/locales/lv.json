@@ -16,6 +16,7 @@
  "not_found": "  {client} nav instalēts; izlaists.",
  "apps_list": "Fontes ir iestatīts: {clients}",
  "done": "Gatavs. Pilnībā aizveriet katru no šīm lietotnēm un atveriet to vēlreiz. Tad Fontes parādīsies tās rīkos.",
+ "no_apps": "Šajā datorā netika atrasta neviena MI lietotne, tāpēc Fontes vēl netiek izmantots. Instalējiet Claude Desktop (claude.ai/download), un Fontes parādīsies tās rīkos. Citām lietotnēm skatiet {url}",
  "done_uninstall": "Fontes ir noņemts. Aizveriet un atkal atveriet savas lietotnes. Pats uv palika instalēts.",
  "keys_intro": "Neobligātas bezmaksas atslēgas atver vairāk avotu. Francijai vajadzīgs bezmaksas PISTE konts (klienta ID un noslēpums); bez tā Francija ir izslēgta. ASV darbojas bez atslēgas, bet tiesu prakses meklēšana ir ierobežota līdz aptuveni 10 meklējumiem dienā. Ceļvedis soli pa solim: {url}",
  "keys_ask": "Pievienot vai mainīt atslēgas tagad? To var izdarīt arī vēlāk ar “Pievienot vai mainīt atslēgas”. [j/N]: ",

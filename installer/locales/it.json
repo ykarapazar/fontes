@@ -16,6 +16,7 @@
  "not_found": "  {client} non è installato; saltato.",
  "apps_list": "Fontes è configurato in: {clients}",
  "done": "Fatto. Chiuda completamente ciascuna di queste app e la riapra. Fontes comparirà allora tra i suoi strumenti.",
+ "no_apps": "Su questo computer non è stata trovata alcuna app di IA, quindi Fontes non è ancora in uso. Installa Claude Desktop (claude.ai/download) e Fontes comparirà tra i suoi strumenti. Per altre app, vedi {url}",
  "done_uninstall": "Fontes è stato rimosso. Chiuda e riapra le sue app. uv è rimasto installato.",
  "keys_intro": "Chiavi gratuite facoltative sbloccano altre fonti. La Francia richiede un account PISTE gratuito (client ID e secret); senza, la Francia è disattivata. Gli Stati Uniti funzionano senza chiave, ma la ricerca di giurisprudenza è limitata a circa 10 ricerche al giorno. Guida passo passo: {url}",
  "keys_ask": "Aggiungere o modificare le chiavi adesso? Può farlo anche più tardi con \"Aggiungi o modifica chiavi\". [s/N]: ",

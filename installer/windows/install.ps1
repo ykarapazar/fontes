@@ -1,6 +1,6 @@
 # Fontes installer core for Windows: make sure uv is present, then run fontes_setup.py.
 # Usage: install.ps1 [install|keys|uninstall]
-param([ValidateSet('install', 'keys', 'uninstall')][string]$Action = 'install')
+param([ValidateSet('install', 'keys', 'uninstall')][string]$Action = 'install', [switch]$Pause)
 $ErrorActionPreference = 'Stop'
 $UvVersion = '0.11.4'   # uv release fetched from astral.sh when uv is missing; bump deliberately
 
@@ -42,4 +42,6 @@ if (-not $uv) {
 }
 $uvArgs = @('run', '--managed-python', '--python', '3.13', '--no-project', '--quiet', $setup, $Action)
 & $uv @uvArgs
-exit $LASTEXITCODE
+$code = $LASTEXITCODE
+if ($Pause) { Read-Host (T 'sh_press_enter') | Out-Null }   # Setup.exe's window would close before the summary is read
+exit $code

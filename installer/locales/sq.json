@@ -16,6 +16,7 @@
  "not_found": "  {client} nuk është i instaluar; u anashkalua.",
  "apps_list": "Fontes është konfiguruar në: {clients}",
  "done": "U krye. Mbyllni plotësisht secilin nga këto aplikacione dhe hapeni sërish. Fontes do të shfaqet pastaj te mjetet e tij.",
+ "no_apps": "Në këtë kompjuter nuk u gjet asnjë aplikacion AI, prandaj Fontes nuk përdoret ende. Instaloni Claude Desktop (claude.ai/download) dhe Fontes do të shfaqet te mjetet e tij. Për aplikacione të tjera, shihni {url}",
  "done_uninstall": "Fontes u hoq. Mbyllni dhe rihapni aplikacionet tuaja. Vetë uv mbeti i instaluar.",
  "keys_intro": "Çelësat opsionalë falas hapin më shumë burime. Për Francën duhet një llogari falas PISTE (client ID dhe secret); pa të, Franca është joaktive. Shtetet e Bashkuara funksionojnë pa çelës, por kërkimi i praktikës gjyqësore kufizohet në rreth 10 kërkime në ditë. Udhëzues hap pas hapi: {url}",
  "keys_ask": "Të shtohen ose ndryshohen çelësat tani? Mund ta bëni edhe më vonë me “Shto ose ndrysho çelësat”. [p/N]: ",
