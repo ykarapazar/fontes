@@ -12,7 +12,8 @@
   DEFAULT_INTERVAL.
 * Certificates are checked against the operating system's trust store (truststore),
   like a browser: macOS and Windows fetch missing intermediate certificates, which
-  several court and gazette servers fail to send. Verification stays on.
+  several court and gazette servers fail to send. Linux does not, so there we also load
+  those intermediates from intermediates.pem (shipped with the package). Verification stays on.
 * Size cap: a response body over MAX_BYTES (or a call's `max_bytes`) is refused
   with a SourceError instead of being read into memory.
 * Rate limits: a 429/503 with Retry-After is waited out and retried once
@@ -26,7 +27,9 @@ import datetime
 import io
 import re
 import ssl
+import sys
 import time
+from pathlib import Path
 from urllib.parse import urlsplit
 
 import httpx
@@ -42,6 +45,7 @@ except Exception:  # running from a source tree without install metadata
 CONTACT = "fontesmcp@proton.me"   # for source operators: mistakes, blocks, permission questions
 UA = f"Fontes/{_VER} (+https://github.com/ykarapazar/fontes; {CONTACT})"
 DEFAULT_INTERVAL = 0.25
+INTERMEDIATES = str(Path(__file__).with_name("intermediates.pem"))
 
 _client: httpx.AsyncClient | None = None
 _intervals: dict[str, float] = {}
@@ -60,6 +64,8 @@ def get_client() -> httpx.AsyncClient:
         # still require (www.sccourt.gov.eg). Certificates are verified as usual.
         ctx = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
         ctx.set_ciphers("DEFAULT")
+        if sys.platform.startswith("linux"):   # macOS/Windows fetch missing intermediates themselves
+            ctx.load_verify_locations(INTERMEDIATES)
         _client = httpx.AsyncClient(
             timeout=httpx.Timeout(60.0, connect=15.0),
             follow_redirects=True,

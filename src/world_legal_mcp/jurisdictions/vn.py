@@ -22,7 +22,7 @@ Gotchas this code encodes (verified 2026-11-06 from a UK IP):
   * anle.toaan.gov.vn serves an incomplete TLS chain (leaf CN=toaan.gov.vn without the
     "GlobalSign RSA OV SSL CA 2018" intermediate). It works only because _http verifies
     against the OS trust store, which fetches the intermediate on macOS/Windows; on Linux
-    certificate verification still fails. It is Oracle WebCenter: the keyword search is an
+    _http loads it from intermediates.pem. It is Oracle WebCenter: the keyword search is an
     ADF postback, but the list of all precedents (~90, 10 a page) is plain GET
     (`?selectedPage=N`), so search reads that list (cached in memory for 6 h) and matches
     number, title and field locally. Full text: precedents 01-26 (2016-2018) are inline HTML
@@ -458,8 +458,7 @@ class Vietnam(Jurisdiction):
             rate_limit="unknown; 1 s spacing, no 429 seen in ~40 requests (2026-11)",
             terms_url=AL + "/webcenter/portal/anle/home",
             warning="Attribution required: name 'Trang tin điện tử về án lệ (anle.toaan.gov.vn)' "
-                    "when republishing. Needs the OS certificate store (works on macOS/Windows, "
-                    "not Linux): the site sends an incomplete certificate chain.",
+                    "when republishing.",
         ),
     )
     legislation_filters = {
@@ -496,7 +495,6 @@ class Vietnam(Jurisdiction):
         "Codification (phapdien.moj.gov.vn): timed out from the UK",
         ("vanban.chinhphu.vn scanned PDFs (e.g. its copy of the 2015 Civil Code; vbpl.vn has the "
          "text) and the 2026 precedents 83-90: scans only, no text"),
-        "Precedents on Linux hosts: anle.toaan.gov.vn sends an incomplete certificate chain",
     )
     samples = {
         "caselaw_query": "quyền sử dụng đất",

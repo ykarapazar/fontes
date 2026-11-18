@@ -1970,7 +1970,7 @@
       "level": "constitution",
       "reached": "yes",
       "via": "The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice",
-      "note": "Linux TLS issue on pakistancode.gov.pk"
+      "note": ""
     },
     {
       "name": "Federal Acts / Ordinances",
@@ -1978,7 +1978,7 @@
       "level": "primary",
       "reached": "yes",
       "via": "The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice",
-      "note": "Linux TLS issue"
+      "note": ""
     },
     {
       "name": "Federal Rules / SROs",

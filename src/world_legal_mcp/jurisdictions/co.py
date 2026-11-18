@@ -23,8 +23,8 @@ Gotchas this code encodes (verified 2026-11-05 from a UK IP):
     It is a selection, not every Colombian norm: e.g. the Código Civil (Ley 84 de 1873) is
     not in it.
       - Needs the OS trust store (`truststore` in _http): the host serves an incomplete TLS
-        chain, which macOS/Windows complete by fetching the intermediate; plain certifi
-        (Linux) still fails verification. http:// gives 503.
+        chain, which macOS/Windows complete by fetching the intermediate; on Linux
+        _http loads it from intermediates.pem. http:// gives 503.
       - robots.txt: "Disallow:" (empty) for every agent.
       - Terms ("Política de Privacidad y Condiciones de Uso", Limitaciones de acceso) forbid
         any manual or automatic process to capture or copy portal content without the
@@ -318,8 +318,8 @@ class Colombia(Jurisdiction):
             ai_use=None,
             auth="none",
             rate_limit=("unknown; 1 s spacing, no 429 seen in ~25 requests (2026-11-06); robots.txt "
-                        "'Disallow:' (allows all). TLS chain incomplete: works only with the OS trust "
-                        "store (macOS/Windows), fails certificate verification on Linux"),
+                        "'Disallow:' (allows all). TLS chain incomplete: the missing intermediate is "
+                        "bundled (intermediates.pem) for Linux"),
             terms_url="https://www.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso",
             needs_permission=True,
             warning=("Función Pública's terms forbid using 'ningún mecanismo o hardware u otro proceso manual o "
@@ -346,8 +346,7 @@ class Colombia(Jurisdiction):
              "subject or full text: it runs only over the Court's open metadata (number, magistrate, "
              "process), so you need the sentencia number. Legislation: Función "
              "Pública's Gestor Normativo, consolidated texts with amendment notes (a selection of norms, "
-             "not all; no Código Civil); its terms need written consent for automated use (WLM_PERMITTED=co) "
-             "and its TLS chain needs the OS trust store (fails on Linux).")
+             "not all; no Código Civil); its terms need written consent for automated use (WLM_PERMITTED=co).")
     gaps = (
         "Consolidated legislation (Gestor Normativo): terms forbid automated 'capturar ... o copiar'; off unless WLM_PERMITTED=co",
         "Corte Suprema de Justicia decisions: relatoría hosts answer 403 'Bloqueo por WafPolicy' to our client",

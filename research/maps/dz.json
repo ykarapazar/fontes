@@ -11,7 +11,7 @@
       "branch": "constitutional",
       "reached": "partly",
       "via": "Cour constitutionnelle (and former Conseil constitutionnel) of Algeria",
-      "note": "French edition only (Arabic authoritative, not built); TLS chain incomplete, fails on Linux",
+      "note": "French edition only (Arabic authoritative, not built)",
       "elsewhere": {
         "status": "available",
         "source": "Cour constitutionnelle – Arabic edition",

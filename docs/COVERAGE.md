@@ -424,7 +424,7 @@ _Court and legislation lists drafted 2026-11-10; references: https://aksesdrejte
 
 | Court | Level | In Fontes | Via / what is missing | If not in Fontes: can it be reached? |
 |---|---|---|---|---|
-| Cour constitutionnelle (ex-Conseil constitutionnel, 1989-2020) (Constitutional Court (former Constitutional Council)) | constitutional | ◐ partly | Cour constitutionnelle (and former Conseil constitutionnel) of Algeria; French edition only (Arabic authoritative, not built); TLS chain incomplete, fails on Linux | 🟢 available — [Cour constitutionnelle – Arabic edition](https://www.cour-constitutionnelle.dz/ar/) — missing part: Arabic (authoritative) decisions are a separate set of posts on the same site; incomplete TLS chain (curl fails verification) — _evidence: src/world_legal_mcp/jurisdictions/dz.py_ |
+| Cour constitutionnelle (ex-Conseil constitutionnel, 1989-2020) (Constitutional Court (former Constitutional Council)) | constitutional | ◐ partly | Cour constitutionnelle (and former Conseil constitutionnel) of Algeria; French edition only (Arabic authoritative, not built) | 🟢 available — [Cour constitutionnelle – Arabic edition](https://www.cour-constitutionnelle.dz/ar/) — missing part: Arabic (authoritative) decisions are a separate set of posts on the same site; incomplete TLS chain (curl fails verification) — _evidence: src/world_legal_mcp/jurisdictions/dz.py_ |
 | Cour suprême (Supreme Court) | apex | ❌ no | coursupreme.dz connect timeout on http and https, www and bare (2026-11-05/06/07 and 2026-11-10); retried again 2026-11-10 (www, bare, http, https): ConnectTimeout | ❓ unknown — [Cour suprême (coursupreme.dz)](https://www.coursupreme.dz/) — timed out again from UK; may be geo-blocked; retry from DZ — _evidence: fetched 2026-11-07 failed: connection timed out (www and bare host)_ |
 | Conseil d'État (Council of State) | apex | ❌ no | not built; see elsewhere | ❓ unknown — no official Conseil d'État site found (conseil-etat.dz does not resolve); a 2024 study says few decisions are published, in journals only — _evidence: search result only_ |
 | Tribunal des conflits (Jurisdictional Conflicts Court) | specialised | ❌ no | not built; see elsewhere | ❓ unknown — no online publication found; mjustice.dz timed out 2026-11-07 — _evidence: search result only_ |
@@ -463,7 +463,7 @@ _Court and legislation lists drafted 2026-11-07; references: UNVERIFIED (no offi
 - Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement — https://www.joradp.dz (legislation) — unknown (no terms of use published on joradp.dz)
 - Cour constitutionnelle (and former Conseil constitutionnel) of Algeria — https://cour-constitutionnelle.dz (caselaw) — unknown (no terms of use, legal notice or copyright line on cour-constitutionnelle.dz)
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
-- Notes: Legislation: Journal Officiel index since 1962, texts as published (not consolidated) in the French edition (official translation; Arabic is authoritative), full text only for issues from 2002 (older ones are scans). Law id 'Constitution': the 2020 text with later revision laws applied. Keywords must be JORADP lexicon words. Case law: decisions and opinions (avis) of the Constitutional Court and the former Constitutional Council, 1989 onward (French edition; Arabic is authoritative). cour-constitutionnelle.dz sends an incomplete TLS chain: it works with the OS trust store on macOS/Windows and fails on Linux. No Supreme Court or Council of State case law (coursupreme.dz did not respond).
+- Notes: Legislation: Journal Officiel index since 1962, texts as published (not consolidated) in the French edition (official translation; Arabic is authoritative), full text only for issues from 2002 (older ones are scans). Law id 'Constitution': the 2020 text with later revision laws applied. Keywords must be JORADP lexicon words. Case law: decisions and opinions (avis) of the Constitutional Court and the former Constitutional Council, 1989 onward (French edition; Arabic is authoritative). No Supreme Court or Council of State case law (coursupreme.dz did not respond).
 
 **Does not reach**
 
@@ -474,7 +474,6 @@ _Court and legislation lists drafted 2026-11-07; references: UNVERIFIED (no offi
 - Arabic (authoritative) JO issues: /FTP/jo-arabe/{year}/A{year}{jo:03}.pdf, HTTP 200; 1975, 1990, 2000 and 2001 have no text layer; where a text layer exists its font map is broken differently per era (2003: custom-encoded glyph garbage; 2008: letters in order but words reversed and ligatures mapped to 'J', '~', 's'; 2024: each line character-reversed, digits scrambled), so the Arabic text is not served (checked 2026-11-10)
 - Laws are as published, not consolidated (no official consolidation on joradp.dz; mjustice.dz, droit.mjustice.dz and apn.dz timed out from the UK, 2026-11-10)
 - Arabic (authoritative) edition of laws and Constitutional Court decisions: source has it, not built (French only)
-- Constitutional Court on Linux: its TLS chain is incomplete, works only with the OS trust store (macOS/Windows)
 
 ## Andorra (`ad`)
 
@@ -3509,7 +3508,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://portalhisto
 - Función Pública – Gestor Normativo (consolidated legislation) — https://www.funcionpublica.gov.co/eva/gestornormativo/consulta_avanzada.php (legislation) — no open licence: terms say the content 'podrá ser utilizada teniendo en cuenta las normas que protegen el derecho a la propiedad intelectual' and forbid automated capture/copying without written consent (checked 2026-11-06); off unless WLM_PERMITTED
   - ⚠ Función Pública's terms forbid using 'ningún mecanismo o hardware u otro proceso manual o automático para capturar, monitorizar como propio o copiar' the portal or its content without its written consent. No consent held. The Gestor also says it is informative only and does not vouch for a norm's current validity (vigencia).
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
-- Notes: Corte Constitucional sentencias (C, T, SU) since 1992, full text. Search is NOT by subject or full text: it runs only over the Court's open metadata (number, magistrate, process), so you need the sentencia number. Legislation: Función Pública's Gestor Normativo, consolidated texts with amendment notes (a selection of norms, not all; no Código Civil); its terms need written consent for automated use (WLM_PERMITTED=co) and its TLS chain needs the OS trust store (fails on Linux).
+- Notes: Corte Constitucional sentencias (C, T, SU) since 1992, full text. Search is NOT by subject or full text: it runs only over the Court's open metadata (number, magistrate, process), so you need the sentencia number. Legislation: Función Pública's Gestor Normativo, consolidated texts with amendment notes (a selection of norms, not all; no Código Civil); its terms need written consent for automated use (WLM_PERMITTED=co).
 
 **Does not reach**
 
@@ -7665,7 +7664,7 @@ _Court and legislation lists drafted 2026-11-10; references: https://www.unionsu
   - ⚠ Text extracted from PDFs; many Burmese PDFs use legacy fonts, so letters can be substituted or out of order. Check the PDF before quoting.
 - Supreme Court of the Union: Rulings and Case Management System (rcms.usc.gov.mm) — https://rcms.usc.gov.mm/precedents (caselaw) — No terms of use published; footer 'Copyright © 2020 - The Supreme Court of The Union. All Rights Reserved.'; needs none (public JSON API behind the site's JavaScript app)
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
-- Notes: Case law: ~6,900 law-report rulings (Supreme Court and predecessors, 1920s to 2022; English before independence, Burmese after) as Unicode text, from the court's RCMS. Needs the OS certificate store: unreachable on Linux (incomplete TLS chain). Laws: a small selection (~30) of laws, court procedures and amending laws posted by the Supreme Court, incl. the Code of Civil Procedure and Code of Criminal Procedure in English. No full statute book is reachable (MLIS offline, Hluttaw JavaScript-only).
+- Notes: Case law: ~6,900 law-report rulings (Supreme Court and predecessors, 1920s to 2022; English before independence, Burmese after) as Unicode text, from the court's RCMS. Laws: a small selection (~30) of laws, court procedures and amending laws posted by the Supreme Court, incl. the Code of Civil Procedure and Code of Criminal Procedure in English. No full statute book is reachable (MLIS offline, Hluttaw JavaScript-only).
 
 **Does not reach**
 
@@ -7674,7 +7673,6 @@ _Court and legislation lists drafted 2026-11-10; references: https://www.unionsu
 - Rulings after Dec 2022: none published; the court's own law-report list (unionsupremecourt.gov.mm/ruling) ends with the 2022 volume and RCMS likewise (checked 2026-11-10)
 - Unreported Supreme Court commercial judgments (Commercial Judgment System, cjs.usc.gov.mm: 148 of ~316, up to 2026): recent ones scans only, older text garbled (checked 2026-11-10); not built
 - Burmese laws in legacy-font PDFs: broken text layer, refused (no usable text)
-- Case law on Linux: rcms.usc.gov.mm sends an incomplete TLS chain; works only via the macOS/Windows trust store
 
 ## Nepal (`np`)
 
@@ -8424,8 +8422,8 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.domstol
 
 | Instrument | Level | In Fontes | Via / what is missing | If not in Fontes: can it be reached? |
 |---|---|---|---|---|
-| Constitution of Pakistan 1973 (Constitution) | constitution | ✅ yes | The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice; Linux TLS issue on pakistancode.gov.pk |  |
-| Federal Acts / Ordinances (Federal Acts and ordinances) | primary | ✅ yes | The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice; Linux TLS issue |  |
+| Constitution of Pakistan 1973 (Constitution) | constitution | ✅ yes | The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice |  |
+| Federal Acts / Ordinances (Federal Acts and ordinances) | primary | ✅ yes | The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice |  |
 | Federal Rules / SROs (Rules and statutory orders) | secondary | ◐ partly | The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice; categories on Pakistan Code; coverage not checked | ❓ unknown — [Gazette of Pakistan – Printing Corporation of Pakistan](https://www.pcp.gov.pk/) — missing part = SROs not on Pakistan Code (coverage unverified); gazette host unreachable — _evidence: fetched 2026-11-07: connection timed out_ |
 | Gazette of Pakistan | gazette | ❌ no | no source confirmed | ❓ unknown — [Gazette of Pakistan – Printing Corporation of Pakistan](https://www.pcp.gov.pk/) — not reachable from UK — _evidence: fetched 2026-11-07: connection timed out_ |
 | Provincial Acts (Provincial legislation) | sub-national | ❌ no | Provincial codes: Sindh Laws, KP Code, Balochistan Code (Punjab Code): not built yet | 🟢 available — [Provincial codes: Sindh Laws, KP Code, Balochistan Code (Punjab Code)](https://sindhlaws.gov.pk/) — one site per province; Punjab unreachable from UK — _evidence: fetched 2026-11-07: sindhlaws.gov.pk 200 (Acts list), kpcode.kp.gov.pk 200, balochistancode.gob.pk 200 (alphabetical/chronological lists); punjabcode.punjab.gov.pk timed out_ |
@@ -8439,7 +8437,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.lhc.gov
 - The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice — https://pakistancode.gov.pk/english/ (legislation) — unknown: no terms of use or licence; footer '© Copyright 2022 - Ministry of Law and Justice'
   - ⚠ Pakistan Code texts are 'for information purposes only' and 'under review'; the Gazette notification is the authentic text.
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
-- Notes: Case law: Islamabad High Court judgments only (Supreme Court site blocks automated clients). Legislation from the Pakistan Code; its server sends an incomplete TLS chain, which macOS/Windows complete via the OS trust store (fails on Linux).
+- Notes: Case law: Islamabad High Court judgments only (Supreme Court site blocks automated clients). Legislation from the Pakistan Code.
 
 **Does not reach**
 
@@ -8447,7 +8445,6 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.lhc.gov
 - Federal Shariat Court and Lahore High Court: site down / unreachable (connection timeout, 2026-11-06)
 - Sindh High Court case law (caselaw.shc.gov.pk): needs a login (whether registration is public is unverified)
 - Peshawar and Balochistan High Courts, lower courts and provincial legislation: not researched yet
-- Legislation on Linux: pakistancode.gov.pk sends an incomplete TLS chain; works only via the macOS/Windows trust store
 
 ## Palestine (`ps`)
 
@@ -11281,7 +11278,7 @@ _Court and legislation lists drafted 2026-11-10; references: https://english.lua
 - Cổng Thông tin điện tử Chính phủ: Hệ thống văn bản (vanban.chinhphu.vn) — https://vanban.chinhphu.vn (legislation) — © Cục Thông tin và Truyền thông Chính phủ; republication allowed with the source named (site footer)
   - ⚠ Attribution required: name 'Cục Thông tin và Truyền thông Chính phủ' or 'www.chinhphu.vn' when republishing. Texts are as issued, not consolidated.
 - Tòa án nhân dân tối cao: Trang tin điện tử về án lệ (anle.toaan.gov.vn) — https://anle.toaan.gov.vn (caselaw) — © Tòa án nhân dân tối cao; republication allowed with the source named (site footer)
-  - ⚠ Attribution required: name 'Trang tin điện tử về án lệ (anle.toaan.gov.vn)' when republishing. Needs the OS certificate store (works on macOS/Windows, not Linux): the site sends an incomplete certificate chain.
+  - ⚠ Attribution required: name 'Trang tin điện tử về án lệ (anle.toaan.gov.vn)' when republishing.
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
 - Notes: Legislation: the Ministry of Justice database vbpl.vn (all constitutions, codes, laws, ordinances, resolutions and lower central texts, HTML as issued; consolidated texts are separate documents), searched by URL slug; filter source=chinhphu for the Government Portal PDFs. Case law: only the Supreme People's Court precedents (án lệ, ~90), searched by number, title and field; the 2026 ones are scans and can't be read. Published judgments (congbobanan.toaan.gov.vn) are unreachable. Vietnamese only.
 
@@ -11293,7 +11290,6 @@ _Court and legislation lists drafted 2026-11-10; references: https://english.lua
 - Published court judgments (congbobanan.toaan.gov.vn): connection reset / timed out from the UK (2026-11-06)
 - Codification (phapdien.moj.gov.vn): timed out from the UK
 - vanban.chinhphu.vn scanned PDFs (e.g. its copy of the 2015 Civil Code; vbpl.vn has the text) and the 2026 precedents 83-90: scans only, no text
-- Precedents on Linux hosts: anle.toaan.gov.vn sends an incomplete certificate chain
 
 ## WTO dispute settlement (World Trade Organization) (`wto`)
 

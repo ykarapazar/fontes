@@ -282,8 +282,8 @@ class _PakistanCodeLegislation:
     "GoGetSSL RSA DV CA", but the server sends "GoGetSSL RSA DV SSL CA 2" instead of that
     intermediate. A client using only bundled CAs fails with CERTIFICATE_VERIFY_FAILED; _http
     checks certificates against the OS trust store (truststore), which completes the chain on
-    macOS/Windows but not on Linux. This class is already in Pakistan's bases and SOURCE in
-    Pakistan.sources.
+    macOS/Windows; on Linux _http loads the intermediate from intermediates.pem. This class is
+    already in Pakistan's bases and SOURCE in Pakistan.sources.
     """
     SOURCE = Source(
         name="The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice",
@@ -471,8 +471,7 @@ class Pakistan(_PakistanCodeLegislation, Jurisdiction):
     }
     min_interval = {PC_HOST: 1.0, IHC_HOST: 1.0}
     notes = ("Case law: Islamabad High Court judgments only (Supreme Court site blocks automated "
-             "clients). Legislation from the Pakistan Code; its server sends an incomplete TLS chain, "
-             "which macOS/Windows complete via the OS trust store (fails on Linux).")
+             "clients). Legislation from the Pakistan Code.")
     gaps = (
         "Supreme Court judgments (supremecourt.gov.pk): Akamai 'Access Denied' (403) blocks our "
          "client",
@@ -482,8 +481,6 @@ class Pakistan(_PakistanCodeLegislation, Jurisdiction):
          "public is unverified)",
         "Peshawar and Balochistan High Courts, lower courts and provincial legislation: not "
          "researched yet",
-        "Legislation on Linux: pakistancode.gov.pk sends an incomplete TLS chain; works only via "
-         "the macOS/Windows trust store",
     )
     samples = {
         "caselaw_query": "khula",

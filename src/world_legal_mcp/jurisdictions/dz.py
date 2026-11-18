@@ -20,8 +20,8 @@ Gotchas this code encodes (verified 2026-11-06):
 
 Case law (cour-constitutionnelle.dz, WordPress, verified 2026-11-06):
   * The server sends an incomplete TLS certificate chain. It works through the OS trust
-    store (_http uses truststore; macOS and Windows fetch the missing intermediate), but
-    fails verification on Linux.
+    store (_http uses truststore; macOS and Windows fetch the missing intermediate); on Linux
+    _http loads it from intermediates.pem.
   * Decisions and opinions (avis) of the Court and of the former Conseil constitutionnel
     (1989-2020) are French posts, mostly one post per year and kind ("Décisions 2025",
     "Avis 1997"), each decision a WPBakery accordion section whose title is the decision's
@@ -630,8 +630,7 @@ class Algeria(Jurisdiction):
              "with later revision laws applied. Keywords must be JORADP lexicon words. "
              "Case law: decisions and opinions (avis) of the Constitutional Court and the former "
              "Constitutional Council, 1989 onward (French edition; Arabic is authoritative). "
-             "cour-constitutionnelle.dz sends an incomplete TLS chain: it works with the OS trust "
-             "store on macOS/Windows and fails on Linux. No Supreme Court or Council of State "
+             "No Supreme Court or Council of State "
              "case law (coursupreme.dz did not respond).")
     gaps = (
         ("Supreme Court case law: coursupreme.dz connect timeout on http and https, www and bare "
@@ -651,7 +650,6 @@ class Algeria(Jurisdiction):
         "Laws are as published, not consolidated (no official consolidation on joradp.dz; "
         "mjustice.dz, droit.mjustice.dz and apn.dz timed out from the UK, 2026-11-10)",
         "Arabic (authoritative) edition of laws and Constitutional Court decisions: source has it, not built (French only)",
-        "Constitutional Court on Linux: its TLS chain is incomplete, works only with the OS trust store (macOS/Windows)",
     )
     samples = {
         "caselaw_query": "procédure civile",

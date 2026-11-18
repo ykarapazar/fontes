@@ -17,8 +17,8 @@ Case law: Rulings and Case Management System (RCMS, rcms.usc.gov.mm), verified 2
     (has_child on the text paragraphs), each word as a substring (*word*), all words required, like
     the site's own search. Dates are the site's published_date (the judgment date in the report).
   * Needs the OS trust store (_http uses truststore): rcms.usc.gov.mm does not send its
-    intermediate certificate. macOS/Windows fetch it; on Linux (OpenSSL) the TLS check fails and
-    case law is unreachable.
+    intermediate certificate. macOS/Windows fetch it; on Linux _http loads it from
+    intermediates.pem.
 
 Laws: www.unionsupremecourt.gov.mm (verified 2026-11-06, UK IP, honest User-Agent).
 
@@ -353,8 +353,8 @@ class Myanmar(Jurisdiction):
     legislation_filters = {"type": "law, procedure or amendment"}
     min_interval = {HOST: 1.0, RCMS: 1.0}
     notes = ("Case law: ~6,900 law-report rulings (Supreme Court and predecessors, 1920s to 2022; "
-             "English before independence, Burmese after) as Unicode text, from the court's RCMS. Needs the OS certificate store: unreachable on "
-             "Linux (incomplete TLS chain). Laws: a small selection (~30) of laws, court procedures and "
+             "English before independence, Burmese after) as Unicode text, from the court's RCMS. "
+             "Laws: a small selection (~30) of laws, court procedures and "
              "amending laws posted by the Supreme Court, incl. the Code of Civil Procedure and Code of "
              "Criminal Procedure in English. No full statute book is reachable (MLIS offline, Hluttaw "
              "JavaScript-only).")
@@ -368,8 +368,6 @@ class Myanmar(Jurisdiction):
         ("Unreported Supreme Court commercial judgments (Commercial Judgment System, cjs.usc.gov.mm: 148 "
          "of ~316, up to 2026): recent ones scans only, older text garbled (checked 2026-11-10); not built"),
         "Burmese laws in legacy-font PDFs: broken text layer, refused (no usable text)",
-        "Case law on Linux: rcms.usc.gov.mm sends an incomplete TLS chain; works only via the "
-         "macOS/Windows trust store",
     )
     samples = {
         "caselaw_query": "ပဋိညာဉ်",
