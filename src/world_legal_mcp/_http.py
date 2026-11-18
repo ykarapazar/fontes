@@ -66,6 +66,11 @@ def get_client() -> httpx.AsyncClient:
         ctx.set_ciphers("DEFAULT")
         if sys.platform.startswith("linux"):   # macOS/Windows fetch missing intermediates themselves
             ctx.load_verify_locations(INTERMEDIATES)
+            # A loaded intermediate is a trust anchor (Python 3.13's default context does the
+            # same). Without this, OpenSSL picks e.g. Let's Encrypt YR1 from the bundle, then
+            # needs its new root "Root YR", which older system stores lack, and fails sites
+            # whose own chain (YR1 -> Root YR cross-signed by ISRG X1) verifies fine.
+            ctx.verify_flags |= ssl.VERIFY_X509_PARTIAL_CHAIN
         _client = httpx.AsyncClient(
             timeout=httpx.Timeout(60.0, connect=15.0),
             follow_redirects=True,
