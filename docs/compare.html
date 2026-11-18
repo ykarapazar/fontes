@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- favicon:start -->
+<link rel="icon" href="assets/brand/favicon.ico" sizes="32x32">
+<link rel="icon" href="assets/brand/favicon-32.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+<!-- favicon:end -->
+<title>Fontes compared</title>
+<meta name="description" content="Fontes, Moonlit and an AI app with no legal tool, compared on coverage, where the text comes from, search, account, limits and where it runs. Dated 18 November 2026.">
+<link rel="canonical" href="https://ykarapazar.github.io/fontes/compare.html">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mute:#5f5f5f;--line:#e5e5e5;--card:#f6f6f6;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}}
+:root[data-theme="dark"]{--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:960px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px}
+p,li{max-width:70ch}a{color:var(--link)}a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.mute{color:var(--mute)}.note{border-left:3px solid var(--line);padding:4px 12px;color:var(--mute)}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+thead th{background:var(--card)}tbody th{font-weight:600;width:16%}
+tr:last-child th,tr:last-child td{border-bottom:0}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-size:14px;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<p><a href="./">← Fontes</a></p>
+<h1>Fontes compared</h1>
+<p class="mute">Checked 18 November 2026. Written by the author of Fontes, so read it with that in mind.
+Corrections are welcome: <a href="mailto:fontesmcp@proton.me">fontesmcp@proton.me</a> or a
+<a href="https://github.com/ykarapazar/fontes/issues">GitHub issue</a>.</p>
+
+<p>Three ways to put a legal question to an AI app: Fontes, Moonlit's MCP connector, or the app on
+its own. Moonlit facts come from <a href="https://www.moonlit.ai/pricing">moonlit.ai/pricing</a> and
+its <a href="https://glama.ai/mcp/servers/oaq3cl5ui3">Glama listing</a>, read on the date above.
+We have not tested Moonlit.</p>
+
+<div class="wrap">
+<table>
+<thead><tr><th scope="col"></th><th scope="col">Fontes</th><th scope="col">Moonlit (MCP connector)</th><th scope="col">An AI app with no legal tool</th></tr></thead>
+<tbody>
+<tr><th scope="row">What it is</th>
+<td>An open-source MCP server that runs on your computer</td>
+<td>A hosted MCP connector to Moonlit's legal data layer</td>
+<td>The model's training data, plus web search if the app has it</td></tr>
+<tr><th scope="row">Coverage</th>
+<td>120+ jurisdictions and international courts (124 adapters). 72 of them are covered completely under a strict rule; the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/COVERAGE.md">coverage page</a> lists what is missing</td>
+<td>35+ jurisdictions, 130+ official portals, 3,900+ sources, 20M+ documents (Glama listing). Europe first</td>
+<td>Whatever the model saw in training or finds on the web</td></tr>
+<tr><th scope="row">Where the text comes from</th>
+<td>Fetched live from the court or government website at the moment you ask. Fontes keeps no copy</td>
+<td>Moonlit's own curated index of official portals</td>
+<td>Memory or web pages. Can be out of date, or a citation can be made up</td></tr>
+<tr><th scope="row">Search</th>
+<td>Each source's own search, usually keyword. Quality varies from site to site</td>
+<td>Keyword, hybrid (keyword plus semantic) and reranked search; citation search across 100M+ references</td>
+<td>The model's recall, or a general web search</td></tr>
+<tr><th scope="row">Links to the original</th>
+<td>Every result names its source and links to it</td>
+<td>Not checked</td>
+<td>Sometimes, with web search</td></tr>
+<tr><th scope="row">Account</th>
+<td>None</td>
+<td>A Moonlit account</td>
+<td>The app's own</td></tr>
+<tr><th scope="row">Price and limits</th>
+<td>Free. No call limit from Fontes; each website's own rate limits apply. France needs a free government key</td>
+<td>Free plan: 100 calls a month. Paid: MCP Basic (500 calls a month) and MCP Pro (1,200). Prices on the pricing page and the Glama listing differ, so check there</td>
+<td>The app's own</td></tr>
+<tr><th scope="row">Where it runs</th>
+<td>On your computer, in apps that run local MCP servers: Claude Desktop, Claude Code, Codex, Cursor, VS Code and others. Not in browser-only apps</td>
+<td>Hosted (<code>mcp.moonlit.ai</code>). Works in apps that support remote MCP, including ChatGPT, Microsoft 365 Copilot, Le Chat, Perplexity and Claude</td>
+<td>Anywhere the app runs</td></tr>
+<tr><th scope="row">Who sees your questions</th>
+<td>The website being searched, and your AI app</td>
+<td>Moonlit, and your AI app</td>
+<td>Your AI app, and any search engine it uses</td></tr>
+<tr><th scope="row">Source code</th>
+<td>Open source, Apache 2.0</td>
+<td>A GitHub repository is listed; the listing gives no licence for the server. Its skills are MIT</td>
+<td>n/a</td></tr>
+<tr><th scope="row">Behind it</th>
+<td>One independent developer</td>
+<td>A company (Moonlit, Amsterdam)</td>
+<td>The app's maker</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Where Moonlit is likely stronger</h2>
+<ul>
+<li>Semantic search over a curated, uniform index, where Fontes depends on each website's own search.</li>
+<li>A citation network across its documents.</li>
+<li>It works in browser apps such as ChatGPT and claude.ai with nothing to install.</li>
+<li>A company with support behind it.</li>
+</ul>
+
+<h2>Where Fontes differs</h2>
+<ul>
+<li>No account and no monthly call limit.</li>
+<li>It runs on your computer, and your questions go only to the website being searched.</li>
+<li>It covers more jurisdictions, including many outside Europe.</li>
+<li>Every text comes from the publisher at the moment you ask, with the link to check it.</li>
+<li>The code is open, so anyone can see exactly what it sends and where.</li>
+</ul>
+
+<h2>And the app on its own?</h2>
+<p>A model answering from memory can be fluent and wrong: a law since amended, a case number
+that does not exist. Web search helps, but rarely reaches the court databases themselves. Both
+tools above exist to put the actual text in front of the model, and in front of you.</p>
+
+<p class="note">Fontes is a research aid, not legal advice. Read the full decision or provision before you rely on it.</p>
+
+<footer>
+<p>Fontes is open source under the Apache 2.0 licence. Moonlit is a trademark of its owner; Fontes is not affiliated with it.</p>
+</footer>
+</main>
+</body>
+</html>

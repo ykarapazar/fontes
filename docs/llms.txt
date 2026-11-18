@@ -25,6 +25,8 @@ Facts:
 ## Optional
 
 - [Source status](https://ykarapazar.github.io/fontes/status/): daily health check of each source
+- [Comparison](https://ykarapazar.github.io/fontes/compare.html): Fontes, Moonlit and an AI app with no legal tool, side by side
+- [Press kit](https://ykarapazar.github.io/fontes/press.html): facts, descriptions, logos and contact
 - [Changelog](https://raw.githubusercontent.com/ykarapazar/fontes/main/CHANGELOG.md): changes per release
 - [Adapter spec](https://raw.githubusercontent.com/ykarapazar/fontes/main/docs/ADAPTER_SPEC.md): the contract each jurisdiction adapter follows
 - [Source code](https://github.com/ykarapazar/fontes)
