@@ -115,7 +115,7 @@ for førespurnader), send e-post til fontesmcp@proton.me. Kjelda blir retta elle
 
 Alle MCP-appar som kan køyre ein lokal server (stdio), til dømes Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio og Cline. Fontes
-køyrer på macOS, Windows og Linux, overalt der uv køyrer (Python 3.13+). På Mac set eit installasjonsprogram med eitt klikk opp Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio og Cline i éin omgang; eit installasjonsprogram for Windows er på veg. Steg for kvar app: [INSTALL.md](INSTALL.md).
+køyrer på macOS, Windows og Linux, overalt der uv køyrer (Python 3.13+). På Mac eller Windows-PC set eit installasjonsprogram med eitt klikk opp Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio og Cline i éin omgang. Steg for kvar app: [INSTALL.md](INSTALL.md).
 
 ## Kan eg bidra med kode?
 

@@ -135,12 +135,11 @@ Egy új csevegésben kérdezze meg: *„Mely joghatóságokban tud keresni a Fon
 alkalmazásnak az országok listájával kell válaszolnia. Ha nem így történik, lépjen ki az
 alkalmazásból, és nyissa meg még egyszer.
 
-## Egykattintásos telepítő (Mac)
+## Egykattintásos telepítő (Mac és Windows)
 
-A Mac-telepítő egyszerre az összes alkalmazásában beállítja a Fontest: a Claude Desktopban, a
+A telepítő egyszerre az összes alkalmazásában beállítja a Fontest: a Claude Desktopban, a
 Codexben, a Claude Code-ban, a Cursorban, a VS Code-ban (GitHub Copilot), a Windsurfben, a Gemini
-CLI-ben, a Zedben, az LM Studióban és a Cline-ban. Windows-telepítő készülőben van; addig kövesse
-a fenti, az alkalmazására vonatkozó lépéseket.
+CLI-ben, a Zedben, az LM Studióban és a Cline-ban.
 
 **Mielőtt elkezdené:** lépjen ki teljesen ezekből az alkalmazásokból. Ez a Claude Code esetében
 a legfontosabb: futás közben újraírja a `~/.claude.json` fájlt, és visszavonhatja a telepítő
@@ -159,12 +158,12 @@ hozzá a Fontest (lásd [Claude Code](#claude-code)).
    újra ezeket az alkalmazásokat. Ha előbb az opcionális ingyenes kulcsokat szeretné hozzáadni,
    kattintson inkább a **Kulcsok hozzáadása** gombra; lásd [A kulcsok megadása](#a-kulcsok-megadása).
 
-**Windows** (amint a Windows-telepítő megjelenik)
+**Windows**
 
-1. Csomagolja ki a letöltött **Fontes Installer** fájlt (jobb gomb → Extract All).
-2. Kattintson duplán az **Install Fontes.cmd** fájlra.
+1. Töltse le a Windows-telepítőt (`Fontes-Setup-….exe`) a [legújabb kiadásból](https://github.com/ykarapazar/fontes/releases/latest), és kattintson rá duplán.
    - Ha a Windows azt írja ki, hogy „Windows protected your PC”: kattintson a **More info**,
      majd a **Run anyway** gombra.
+2. Kattintson a **Telepítés** gombra. Megnyílik egy ablak, amely beállítja a Fontest.
 3. Amikor megkérdezi, küldjön-e névtelen használati számadatokat, a „nem” válaszhoz nyomja meg
    az Entert.
 4. Megkérdezi, hogy most adja-e hozzá a kulcsokat. Kihagyáshoz nyomja meg az Entert; lásd
@@ -210,7 +209,7 @@ kulcsok hozzáadását. Későbbi hozzáadásukhoz vagy módosításukhoz:
 
 - **Mac:** nyissa meg újra a **Fontes Installer** alkalmazást, és válassza a **Kulcsok hozzáadása vagy
   módosítása** lehetőséget.
-- **Windows:** kattintson duplán az **Add or change keys.cmd** fájlra a telepítő mappájában.
+- **Windows:** nyissa meg a Start menüt, majd válassza a **Fontes** → **Add or change keys** lehetőséget.
 
 A begépelt szöveg rejtve marad. A kulcsok minden olyan alkalmazásba bekerülnek, amelyben már
 megvan a Fontes. Utána lépjen ki az alkalmazásokból, és nyissa meg őket újra. Honnan szerezheti
@@ -225,7 +224,7 @@ amelyekre már nincs szüksége. Az uv-t is telepíti. Az újrafuttatás biztons
 beállítást, és semmi mást nem módosít.
 
 A Fontes eltávolításához nyissa meg a **Fontes Installer** alkalmazást, és válassza az
-**Eltávolítás** lehetőséget (Mac), vagy kattintson duplán az **Uninstall Fontes.cmd** fájlra
+**Eltávolítás** lehetőséget (Mac), vagy távolítsa el a **Fontes** alkalmazást a Beállítások → Alkalmazások menüben
 (Windows). Ez minden alkalmazásból eltávolítja a `fontes` bejegyzést, a kulcsokkal együtt. A többi
 beállítása és a biztonsági másolatok megmaradnak.
 

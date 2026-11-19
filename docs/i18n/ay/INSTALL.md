@@ -135,11 +135,10 @@ Mä machaq chat ukana jiskt'am: *"Kawkïr jurisdiccionanakansa Fontes thaqaspa?"
 Aplicacionax mä markanak siqimpiw jaysañapa. Jan ukham lurkchixa, aplicación mä kuti
 jist'antam, wasitat jist'aram.
 
-## Mä click instalador (Mac)
+## Mä click instalador (Mac ukat Windows)
 
-Mac instaladorax Fontes taqi aplicacionanakaman mä kutik wakicht'i: Claude Desktop, Codex,
+Instaladorax Fontes taqi aplicacionanakaman mä kutik wakicht'i: Claude Desktop, Codex,
 Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio, Cline.
-Windows instaladorax jutaskiwa; ukkañkamaxa, aplicacionamatak aka patanakan lurawinak apnaqam.
 
 **Janïr qalltkasa:** aka aplicacionanakat kawkïrinakas jist'arataki ukanak jist'antam. Akax
 Claude Code ukatakix juk'amp wakiskiriwa: irnaqkasax `~/.claude.json` wasitat qillqi, ukat
@@ -158,12 +157,12 @@ ukar `claude mcp add` ukamp yapxatam ([Claude Code](#claude-code) uñjam).
    aplicacionanak wasitat jist'aram. Nayraqat munasaw inaki llavenak yapxatañatakix, **Llavenak yapxataña**
    ukar click lurtam; [Llave yapxataña](#llave-yapxataña) uñjam.
 
-**Windows** (Windows instalador mistuni ukhaxa)
+**Windows**
 
-1. Apaqkta uka **Fontes Installer** ZIP ukat apsum (kupi click → Extract All).
-2. **Install Fontes.cmd** ukar pä kuti click lurtam.
+1. Windows instalador (`Fontes-Setup-….exe`) [qhipa apsuwita](https://github.com/ykarapazar/fontes/releases/latest) ukat apaqam, ukat pä kuti click lurtam.
    - Windows "Windows protected your PC" uñacht'ayi ukhaxa: **More info** ukar click lurtam,
      ukat **Run anyway**.
+2. **Instalaña** ajllim. Mä wintana uñacht'ayi, ukat Fontes wakicht'i.
 3. Jan sutin apnaqat jakhunak apayañ munasmati sasin jiskt'kätam ukhaxa, jan sañatakix
    Enter limt'am.
 4. Jichhax llave yapxatañ munasmati sasaw jiskt'i. Pasañatakix Enter limt'am;
@@ -207,7 +206,7 @@ Instalasax mäkiw, instaladorax Francia, Estados Unidos ukatak inaki llavenak ya
 munasmati sasaw jiskt'i. Qhipat yapxatañataki jan ukax mayjt'ayañataki:
 
 - **Mac:** **Fontes Installer** wasitat jist'aram ukat **Llavenak yapxataña jan ukax mayjt'ayaña** ajllim.
-- **Windows:** instalador carpetan **Add or change keys.cmd** ukar pä kuti click lurtam.
+- **Windows:** Start menu ukar jist'aram, ukat **Fontes** → **Llavenak yapxataña jan ukax mayjt'ayaña** ajllim.
 
 Qillqkta ukax imantatawa. Llavenakax Fontes utjki uka taqi aplicacionanakaruw mantapxi.
 Ukat aplicacionanak jist'antam, wasitat jist'aram. Kawkits llave jikxatasi, kunsa jist'ari:
@@ -222,7 +221,7 @@ jan wakiskir copianak chhaqtayam. uv ukas wakicht'arakiwa. Wasitat irnaqayañax 
 jan walt'äwïkiti: instalación askichi, janirakiw yaqha kunas mayjt'aykiti.
 
 Fontes apsuñatakix **Fontes Installer** jist'aram ukat **Apaqaña** ajllim (Mac), jan ukax
-**Uninstall Fontes.cmd** (Windows) ukar pä kuti click lurtam. `fontes` qillqat taqi aplicacionanakat
+Settings → Apps (Windows) ukan **Fontes** apsuña. `fontes` qillqat taqi aplicacionanakat
 apsu, llavenakapampi. Yaqha configuracionamax, copianakas qhiparapxiwa.
 
 ## Machaqtayäwinaka

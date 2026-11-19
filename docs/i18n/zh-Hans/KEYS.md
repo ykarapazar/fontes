@@ -18,8 +18,7 @@ Fontes 中几乎所有来源都无需密钥即可使用。有两个需要免费�
 **添加或更改密钥**：
 
 - Mac：再次打开 Fontes Installer 应用并选择 **添加或更改密钥**。
-- Windows：双击安装程序文件夹中的 `Add or change keys.cmd`。Windows 安装程序推出后，也会把它放在
-  开始菜单 > Fontes 中。
+- Windows：打开开始菜单，然后点击 **Fontes** → **添加或更改密钥**。
 
 输入内容不会显示。对于每个密钥：粘贴密钥，按 Enter 保留现有值，或输入 `-` 将其删除。密钥会写入每个已安装
 Fontes 的应用。

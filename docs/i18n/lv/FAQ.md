@@ -121,9 +121,9 @@ izslēgts.
 
 Ar jebkuru MCP lietotni, kas var palaist lokālu (stdio) serveri, piemēram, Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio un
-Cline. Fontes darbojas macOS, Windows un Linux, visur, kur darbojas uv (Python 3.13+). Mac datorā
+Cline. Fontes darbojas macOS, Windows un Linux, visur, kur darbojas uv (Python 3.13+). Mac vai Windows datorā
 instalētājs ar vienu klikšķi vienā reizē iestata Claude Desktop, Codex, Claude
-Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio un Cline; Windows instalētājs būs pieejams drīzumā. Darbības katrai lietotnei:
+Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio un Cline. Darbības katrai lietotnei:
 [INSTALL.md](INSTALL.md).
 
 ## Vai varu sniegt savu ieguldījumu kodā?

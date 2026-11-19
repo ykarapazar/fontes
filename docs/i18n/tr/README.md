@@ -73,11 +73,11 @@ Kaynak durumu (her gün kontrol edilir): [ykarapazar.github.io/fontes/status/](h
 2. **Uygulamayı yeniden başlatın.** Tamamen kapatıp yeniden açın.
 3. **Sorun:** *"Fontes hangi yargı alanlarında arama yapabilir?"* Ülkeleri listelemesi gerekir.
 
-**Mac'te** tek tıkla kurulum programı Fontes'i Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**Mac'te veya Windows bilgisayarda** tek tıkla kurulum programı Fontes'i Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio ve Cline'da, bilgisayarınızda bulunan her birinde kurar, ardından
-anahtarlarınızı eklemeyi önerir. Mac kurulum programını [son sürümden](https://github.com/ykarapazar/fontes/releases/latest) indirin
-ve çalıştırmadan önce bu uygulamaları kapatın. Windows kurulum programı yolda. Ayrıntılar:
-[INSTALL.md](INSTALL.md#tek-tıkla-kurulum-programı-mac).
+anahtarlarınızı eklemeyi önerir. Bilgisayarınız için kurulum programını [son sürümden](https://github.com/ykarapazar/fontes/releases/latest) indirin
+ve çalıştırmadan önce bu uygulamaları kapatın. Ayrıntılar:
+[INSTALL.md](INSTALL.md#tek-tıkla-kurulum-programı-mac-ve-windows).
 Bazı kaynaklar ücretsiz bir anahtar gerektirir: bkz. [KEYS.md](KEYS.md).
 
 <!-- map:start -->

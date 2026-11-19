@@ -132,12 +132,10 @@ Kailangan ng ilang sanggunian ng libreng key: tingnan ang [KEYS.md](KEYS.md).
 Sa isang bagong chat, itanong: *"Aling mga hurisdiksyon ang kayang hanapan ng Fontes?"* Dapat sumagot ang app
 ng listahan ng mga bansa. Kung hindi, isara at buksang muli ang app nang isa pang beses.
 
-## One-click installer (Mac)
+## One-click installer (Mac at Windows)
 
-Sine-set up ng installer para sa Mac ang Fontes sa lahat ng iyong app nang sabay-sabay: Claude Desktop,
+Sine-set up ng installer ang Fontes sa lahat ng iyong app nang sabay-sabay: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio at Cline.
-Paparating na ang installer para sa Windows; hanggang doon, gamitin ang mga hakbang para sa iyong app sa
-itaas.
 
 **Bago ka magsimula:** isara nang tuluyan ang bawat isa sa mga app na ito. Pinakamahalaga ito para sa Claude
 Code: habang tumatakbo ito, isinusulat nitong muli ang `~/.claude.json` at maaaring mabura ang binago ng
@@ -156,12 +154,13 @@ installer. Kung hindi mo maisara ang Claude Code, idagdag ang Fontes dito gamit 
    ang mga app na iyon. Para idagdag muna ang mga opsyonal na libreng key, i-click sa halip ang
    **Magdagdag ng mga key**; tingnan ang [Hakbang ng mga key](#hakbang-ng-mga-key).
 
-**Windows** (kapag nailabas na ang installer para sa Windows)
+**Windows**
 
-1. I-unzip ang na-download na **Fontes Installer** (i-right click → Extract All).
-2. I-double click ang **Install Fontes.cmd**.
+1. I-download ang Windows installer (`Fontes-Setup-….exe`) mula sa
+   [pinakabagong release](https://github.com/ykarapazar/fontes/releases/latest) at i-double click ito.
    - Kung ipinapakita ng Windows ang "Windows protected your PC": i-click ang **More info**, at saka
      **Run anyway**.
+2. I-click ang **I-install**. Magbubukas ang isang window at ise-set up nito ang Fontes.
 3. Kapag tinanong kung magpapadala ng anonymous na bilang ng paggamit, pindutin ang Enter para sa hindi.
 4. Magtatanong ito kung idaragdag na ang mga key ngayon. Pindutin ang Enter para laktawan; tingnan ang
    [Hakbang ng mga key](#hakbang-ng-mga-key).
@@ -203,7 +202,7 @@ Pagkatapos mismo ng pag-install, nag-aalok ang installer na idagdag ang mga libr
 Para idagdag o palitan ang mga ito sa ibang pagkakataon:
 
 - **Mac:** buksang muli ang **Fontes Installer** at piliin ang **Magdagdag o magpalit ng mga key**.
-- **Windows:** i-double click ang **Add or change keys.cmd** sa folder ng installer.
+- **Windows:** buksan ang Start menu, pagkatapos **Fontes** → **Add or change keys**.
 
 Nakatago ang tina-type. Napupunta ang mga key sa bawat app na mayroon nang Fontes. Isara at buksang muli ang
 mga app pagkatapos. Kung saan kukuha ng mga key at kung ano ang binubuksan ng mga ito: [KEYS.md](KEYS.md).
@@ -216,8 +215,8 @@ nito baguhin ang isang file, nagse-save ito ng kopya sa tabi nito, na pinangalan
 key: burahin ang mga hindi mo na kailangan. Ini-install din nito ang uv. Ligtas itong patakbuhin muli:
 inaayos nito ang setup at wala nang ibang binabago.
 
-Para alisin ang Fontes, buksan ang **Fontes Installer** at piliin ang **Alisin** (Mac), o i-double click
-ang **Uninstall Fontes.cmd** (Windows). Inaalis nito ang `fontes` entry, kasama ang mga key, mula sa bawat
+Para alisin ang Fontes, buksan ang **Fontes Installer** at piliin ang **Alisin** (Mac), o i-uninstall ang
+**Fontes** sa Settings → Apps (Windows). Inaalis nito ang `fontes` entry, kasama ang mga key, mula sa bawat
 app. Nananatili ang iba mo pang setting at ang mga backup na kopya.
 
 ## Mga update

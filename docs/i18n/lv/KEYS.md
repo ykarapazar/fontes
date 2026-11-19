@@ -19,8 +19,7 @@ jautājumu (lai izlaistu, nospiediet Enter). Lai pievienotu vai mainītu atslēg
 vēlāk, palaidiet **Add or change keys**:
 
 - Mac: vēlreiz atveriet lietotni Fontes Installer un izvēlieties **Pievienot vai mainīt atslēgas**.
-- Windows: instalētāja mapē veiciet dubultklikšķi uz `Add or change keys.cmd`. Windows
-  instalēšanas programma, kad tā būs pieejama, to ievietos arī izvēlnē Start > Fontes.
+- Windows: atveriet izvēlni Start, pēc tam **Fontes** → **Pievienot vai mainīt atslēgas**.
 
 Ievadītais teksts netiek rādīts. Katrai atslēgai: ielīmējiet to, nospiediet Enter, lai saglabātu
 esošo, vai ierakstiet `-`, lai to noņemtu. Atslēgas tiek ierakstītas katrā lietotnē, kurā jau ir

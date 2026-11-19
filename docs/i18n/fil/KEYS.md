@@ -19,8 +19,7 @@ tanong (pindutin ang Enter para laktawan). Para magdagdag o magpalit ng mga key 
 patakbuhin ang **Add or change keys**:
 
 - Mac: buksang muli ang Fontes Installer app at piliin ang **Magdagdag o magpalit ng mga key**.
-- Windows: i-double click ang `Add or change keys.cmd` sa folder ng installer. Ilalagay rin ito ng setup
-  program para sa Windows, kapag available na, sa Start menu > Fontes.
+- Windows: buksan ang Start menu, pagkatapos **Fontes** → **Magdagdag o magpalit ng mga key**.
 
 Nakatago ang tina-type. Para sa bawat key: i-paste ito, pindutin ang Enter para panatilihin ang naroon na, o
 i-type ang `-` para alisin ito. Napupunta ang mga key sa bawat app na mayroon nang Fontes.

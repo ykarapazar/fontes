@@ -19,8 +19,7 @@ sistemoje atsakykite į klausimą (norėdami praleisti, paspauskite Enter). Nor�
 pakeisti raktus vėliau, paleiskite **Add or change keys**:
 
 - Mac: vėl atidarykite programą Fontes Installer ir pasirinkite **Pridėti arba keisti raktus**.
-- Windows: diegimo programos aplanke dukart spustelėkite `Add or change keys.cmd`. Windows
-  sąrankos programa, kai bus prieinama, taip pat įdės jį į Start menu > Fontes.
+- Windows: atidarykite Start menu, tada **Fontes** → **Pridėti arba keisti raktus**.
 
 Įvedami simboliai nerodomi. Kiekvienam raktui: įklijuokite jį, paspauskite Enter, kad
 paliktumėte esamą, arba įveskite `-`, kad jį pašalintumėte. Raktai įrašomi į kiekvieną programą,

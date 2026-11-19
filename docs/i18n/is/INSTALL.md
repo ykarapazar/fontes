@@ -128,12 +128,10 @@ Sumar heimildir þurfa ókeypis lykil: sjá [KEYS.md](KEYS.md).
 Spyrðu í nýju spjalli: *„Í hvaða lögsögum getur Fontes leitað?“* Forritið ætti að svara með
 lista yfir lönd. Ef það gerir það ekki, lokaðu forritinu og opnaðu það einu sinni enn.
 
-## Uppsetningarforrit með einum smelli (Mac)
+## Uppsetningarforrit með einum smelli (Mac og Windows)
 
-Mac-uppsetningarforritið setur Fontes upp í öllum forritunum þínum í einu: Claude Desktop, Codex,
+Uppsetningarforritið setur Fontes upp í öllum forritunum þínum í einu: Claude Desktop, Codex,
 Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio og Cline.
-Uppsetningarforrit fyrir Windows er væntanlegt; þangað til skaltu nota skrefin fyrir forritið þitt
-hér að ofan.
 
 **Áður en þú byrjar:** lokaðu hverju þessara forrita alveg. Það skiptir mestu fyrir Claude Code:
 á meðan það keyrir endurskrifar það `~/.claude.json` og getur afturkallað breytingu uppsetningarforritsins. Ef þú getur ekki
@@ -151,11 +149,11 @@ lokað Claude Code, bættu Fontes frekar við það með `claude mcp add` (sjá 
    aftur. Til að bæta fyrst við valfrjálsu ókeypis lyklunum skaltu frekar smella á **Bæta við
    lyklum**; sjá [Lyklaskrefið](#lyklaskrefið).
 
-**Windows** (þegar Windows-uppsetningarforritið er komið út)
+**Windows**
 
-1. Afþjappaðu niðurhalaða **Fontes Installer** (hægrismella → Extract All).
-2. Tvísmelltu á **Install Fontes.cmd**.
+1. Sæktu Windows-uppsetningarforritið (`Fontes-Setup-….exe`) úr [nýjustu útgáfunni](https://github.com/ykarapazar/fontes/releases/latest) og tvísmelltu á það.
    - Ef Windows sýnir „Windows protected your PC“: smelltu á **More info** og svo **Run anyway**.
+2. Smelltu á **Setja upp**. Gluggi opnast og setur upp Fontes.
 3. Þegar spurt er hvort senda eigi nafnlausar notkunartölur, ýttu á Enter fyrir nei.
 4. Það spyr hvort bæta eigi við lyklum núna. Ýttu á Enter til að sleppa því; sjá [Lyklaskrefið](#lyklaskrefið).
 5. Þegar stendur **Done**, opnaðu gervigreindarforritin þín aftur. Ef eitthvert þeirra var enn í gangi, lokaðu því
@@ -195,7 +193,7 @@ Strax eftir uppsetningu býðst uppsetningarforritið til að bæta við ókeypi
 breyta þeim síðar:
 
 - **Mac:** opnaðu **Fontes Installer** aftur og veldu **Bæta við eða breyta lyklum**.
-- **Windows:** tvísmelltu á **Add or change keys.cmd** í uppsetningarmöppunni.
+- **Windows:** opnaðu Start-valmyndina, og veldu síðan **Fontes** → **Add or change keys**.
 
 Það sem þú slærð inn er falið. Lyklarnir fara í öll forrit sem þegar hafa Fontes. Lokaðu forritunum og opnaðu þau
 aftur á eftir. Hvar á að fá lyklana og hvað þeir opna: [KEYS.md](KEYS.md).
@@ -207,8 +205,8 @@ Uppsetningarforritið breytir aðeins færslunni `fontes`. Allar aðrar stilling
 sem gerð eru eftir að þú bættir við lyklum innihalda þá lykla: eyddu þeim sem þú þarft ekki lengur. Það
 setur einnig upp uv. Óhætt er að keyra það aftur: það lagfærir uppsetninguna og breytir engu öðru.
 
-Til að fjarlægja Fontes, opnaðu **Fontes Installer** og veldu **Fjarlægja** (Mac), eða tvísmelltu á
-**Uninstall Fontes.cmd** (Windows). Það fjarlægir færsluna `fontes`, lykla meðtalda, úr hverju forriti. Aðrar stillingar þínar
+Til að fjarlægja Fontes, opnaðu **Fontes Installer** og veldu **Fjarlægja** (Mac), eða fjarlægðu
+**Fontes** í Settings → Apps (Windows). Það fjarlægir færsluna `fontes`, lykla meðtalda, úr hverju forriti. Aðrar stillingar þínar
 og afritin eru áfram til staðar.
 
 ## Uppfærslur

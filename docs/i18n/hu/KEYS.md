@@ -20,8 +20,7 @@ módosításához futtassa a **Kulcsok hozzáadása vagy módosítása** elemet:
 
 - Mac: nyissa meg újra a Fontes Installer alkalmazást, és válassza a **Kulcsok hozzáadása vagy
   módosítása** lehetőséget.
-- Windows: kattintson duplán az `Add or change keys.cmd` fájlra a telepítő mappájában. A
-  Windows-telepítőprogram, amint elérhető lesz, a Start menu > Fontes alá is elhelyezi.
+- Windows: nyissa meg a Start menüt, majd **Fontes** → **Kulcsok hozzáadása vagy módosítása**.
 
 A begépelt szöveg rejtve marad. Minden kulcsnál: illessze be, nyomja meg az Entert a meglévő
 érték megtartásához, vagy írjon be `-` jelet az eltávolításához. A kulcsok minden olyan

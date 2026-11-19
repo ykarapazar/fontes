@@ -19,8 +19,7 @@ la question (appuyez sur Entrée pour passer). Pour ajouter ou modifier des clé
 modifier des clés** :
 
 - Mac : rouvrez l'application Fontes Installer et choisissez **Ajouter ou modifier des clés**.
-- Windows : double-cliquez sur `Add or change keys.cmd` dans le dossier du programme d'installation. Le
-  programme d'installation Windows, une fois disponible, le placera aussi dans menu Démarrer > Fontes.
+- Windows : ouvrez le menu Démarrer, puis **Fontes** → **Ajouter ou modifier des clés**.
 
 La saisie est masquée. Pour chaque clé : collez-la, appuyez sur Entrée pour conserver la valeur existante, ou
 tapez `-` pour la supprimer. Les clés sont ajoutées à toutes les applications où Fontes est déjà installé.

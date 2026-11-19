@@ -128,12 +128,10 @@ Một số nguồn cần khóa miễn phí: xem [KEYS.md](KEYS.md).
 Trong một cuộc trò chuyện mới, hãy hỏi: *"Fontes có thể tìm kiếm ở những phạm vi tài phán nào?"* Ứng dụng sẽ trả lời bằng
 một danh sách các quốc gia. Nếu không, hãy thoát và mở lại ứng dụng thêm một lần nữa.
 
-## Trình cài đặt một lần nhấp (Mac)
+## Trình cài đặt một lần nhấp (Mac và Windows)
 
-Trình cài đặt cho Mac thiết lập Fontes trong tất cả ứng dụng của bạn cùng lúc: Claude Desktop, Codex, Claude Code,
-Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio và Cline. Trình cài đặt cho Windows
-sắp ra mắt; trong lúc chờ, hãy làm theo các bước cho ứng dụng của bạn ở trên.
-
+Trình cài đặt thiết lập Fontes trong tất cả ứng dụng của bạn cùng lúc: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio và Cline.
 **Trước khi bắt đầu:** hãy thoát hẳn từng ứng dụng này. Điều này quan trọng nhất với Claude Code:
 trong khi chạy, Claude Code ghi lại `~/.claude.json` và có thể hoàn tác thay đổi của trình cài đặt. Nếu bạn không thể
 thoát Claude Code, hãy thêm Fontes vào đó bằng `claude mcp add` (xem [Claude Code](#claude-code)).
@@ -148,11 +146,11 @@ thoát Claude Code, hãy thêm Fontes vào đó bằng `claude mcp add` (xem [Cl
 4. Một thông báo liệt kê các ứng dụng đã được thiết lập. Nhấp **Xong**, rồi mở lại các ứng dụng đó. Để thêm
    các khóa miễn phí tùy chọn trước, hãy nhấp **Thêm khóa** thay vào đó; xem [Bước thêm khóa](#bước-thêm-khóa).
 
-**Windows** (khi trình cài đặt cho Windows được phát hành)
+**Windows**
 
-1. Giải nén **Fontes Installer** đã tải về (nhấp chuột phải → Extract All).
-2. Nhấp đúp vào **Install Fontes.cmd**.
+1. Tải trình cài đặt Windows (`Fontes-Setup-….exe`) từ [bản phát hành mới nhất](https://github.com/ykarapazar/fontes/releases/latest) và nhấp đúp vào tệp.
    - Nếu Windows hiện "Windows protected your PC": nhấp **More info**, rồi **Run anyway**.
+2. Nhấp **Install**. Một cửa sổ mở ra và thiết lập Fontes.
 3. Khi được hỏi có gửi số liệu sử dụng ẩn danh hay không, nhấn Enter để chọn không.
 4. Trình cài đặt hỏi có thêm khóa ngay bây giờ hay không. Nhấn Enter để bỏ qua; xem [Bước thêm khóa](#bước-thêm-khóa).
 5. Khi trình cài đặt báo **Done**, hãy mở lại các ứng dụng AI của bạn. Nếu có ứng dụng vẫn đang chạy, hãy đóng hẳn ứng dụng đó
@@ -192,7 +190,7 @@ Ngay sau khi cài đặt, trình cài đặt đề nghị thêm các khóa miễ
 thay đổi chúng sau này:
 
 - **Mac:** mở lại **Fontes Installer** và chọn **Thêm hoặc đổi khóa**.
-- **Windows:** nhấp đúp vào **Add or change keys.cmd** trong thư mục trình cài đặt.
+- **Windows:** mở menu Start, rồi chọn **Fontes** → **Thêm hoặc đổi khóa**.
 
 Nội dung bạn gõ sẽ bị ẩn. Các khóa được đưa vào mọi ứng dụng đã có Fontes. Sau đó hãy thoát và mở lại các ứng dụng.
 Nơi lấy khóa và những gì khóa mở ra: [KEYS.md](KEYS.md).
@@ -204,8 +202,7 @@ Trước khi thay đổi một tệp, trình cài đặt lưu một bản sao b�
 được tạo sau khi bạn thêm khóa sẽ chứa các khóa đó: hãy xóa những bản bạn không còn cần. Trình cài đặt cũng
 cài đặt uv. Chạy lại trình cài đặt là an toàn: nó sửa lại phần thiết lập và không thay đổi gì khác.
 
-Để gỡ Fontes, mở **Fontes Installer** và chọn **Gỡ bỏ** (Mac), hoặc nhấp đúp vào
-**Uninstall Fontes.cmd** (Windows). Thao tác này gỡ mục `fontes`, kể cả các khóa, khỏi mọi ứng dụng. Các thiết lập khác của bạn
+Để gỡ Fontes, mở **Fontes Installer** và chọn **Gỡ bỏ** (Mac), hoặc gỡ cài đặt **Fontes** trong Cài đặt → Ứng dụng (Windows). Thao tác này gỡ mục `fontes`, kể cả các khóa, khỏi mọi ứng dụng. Các thiết lập khác của bạn
 và các bản sao lưu vẫn được giữ lại.
 
 ## Cập nhật

@@ -18,8 +18,7 @@ Mac kliknij **Dodaj klucze** lub **Gotowe**, aby pominąć; w systemie Windows o
 (naciśnij Enter, aby pominąć). Aby dodać lub zmienić klucze później, uruchom **Add or change keys**:
 
 - Mac: ponownie otwórz aplikację Fontes Installer i wybierz **Dodaj lub zmień klucze**.
-- Windows: kliknij dwukrotnie `Add or change keys.cmd` w folderze instalatora. Instalator dla
-  systemu Windows, gdy będzie dostępny, umieści go także w menu Start > Fontes.
+- Windows: otwórz menu Start, a następnie wybierz **Fontes** → **Dodaj lub zmień klucze**.
 
 Wpisywane znaki są ukryte. Przy każdym kluczu: wklej go, naciśnij Enter, aby zachować
 istniejący, lub wpisz `-`, aby go usunąć. Klucze trafiają do każdej aplikacji, która ma już

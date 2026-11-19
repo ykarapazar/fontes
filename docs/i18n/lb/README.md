@@ -75,12 +75,11 @@ Status vun de Quellen (all Dag kontrolléiert): [ykarapazar.github.io/fontes/sta
 2. **Start d'App nei.** Maacht se komplett zou a maacht se nees op.
 3. **Frot:** *„Wéi eng Rechtsuerdnunge kann Fontes duerchsichen?“* D'App sollt d'Länner opzielen.
 
-**Op engem Mac** riicht en Installatiounsprogramm mat engem Klick Fontes an Claude Desktop, Codex,
+**Op engem Mac oder Windows-Rechner** riicht en Installatiounsprogramm mat engem Klick Fontes an Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio a Cline an, an all eenzel vun
 dësen Apps op Ärem Computer, a proposéiert Iech dann, Är Schlësselen derbäizesetzen. Luet den
-Installatiounsprogramm fir Mac vun der [neister Versioun](https://github.com/ykarapazar/fontes/releases/latest)
-erof a maacht dës Apps zou, ier Dir en ausféiert. En Installatiounsprogramm fir Windows ass
-ënnerwee. Detailer: [INSTALL.md](INSTALL.md#installatiounsprogramm-mat-engem-klick-mac).
+Installatiounsprogramm fir Äre Computer vun der [neister Versioun](https://github.com/ykarapazar/fontes/releases/latest)
+erof a maacht dës Apps zou, ier Dir en ausféiert. Detailer: [INSTALL.md](INSTALL.md#installatiounsprogramm-mat-engem-klick-mac-an-windows).
 E puer Quelle brauchen e gratis Schlëssel: kuckt [KEYS.md](KEYS.md).
 
 <!-- map:start -->

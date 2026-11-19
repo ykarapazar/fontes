@@ -125,11 +125,10 @@ Codex、Claude Code 佮其他的應用程式用 `uvx` 啟動 Fontes，`uvx` 是�
 佇新的對話內底問：*「Fontes 會當檢索佗一寡法域？」* 應用程式應該會用一張國家清單回答。若無，請共應用程式
 關掉，閣拍開一擺。
 
-## 一鍵安裝程式（Mac）
+## 一鍵安裝程式（Mac 佮 Windows）
 
-Mac 安裝程式會一擺就佇你所有的應用程式內底設定好 Fontes：Claude Desktop、Codex、Claude Code、Cursor、
-VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 佮 Cline。Windows 安裝程式就欲推出；
-佇彼進前，請用頂懸你的應用程式的步驟。
+安裝程式會一擺就佇你所有的應用程式內底設定好 Fontes：Claude Desktop、Codex、Claude Code、Cursor、
+VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 佮 Cline。
 
 **開始進前：** 共這寡應用程式逐个攏完全關掉。這對 Claude Code 上要緊：伊咧執行的時會重寫
 `~/.claude.json`，可能會共安裝程式的修改復原。若是你關袂掉 Claude Code，請改用 `claude mcp add` 共 Fontes
@@ -144,11 +143,11 @@ VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 佮 Cline�
 4. 會有一个訊息列出伊設定好的應用程式。揤 **完成**，才閣拍開遐的應用程式。若欲先加選擇性的免費金鑰，
    就改揤 **加入金鑰**；請看[金鑰步驟](#金鑰步驟)。
 
-**Windows**（Windows 安裝程式發布了後）
+**Windows**
 
-1. 共下載的 **Fontes Installer** 解壓縮（滑鼠正爿揤 → 全部解壓縮）。
-2. 揤兩下 **Install Fontes.cmd**。
+1. 對[最新版本](https://github.com/ykarapazar/fontes/releases/latest)下載 Windows 安裝程式（`Fontes-Setup-….exe`），揤兩下伊。
    - 若是 Windows 顯示「Windows 已保護您的電腦」：揤 **其他資訊**，閣揤 **仍要執行**。
+2. 揤 **安裝**。會拍開一个視窗，設定好 Fontes。
 3. 問你欲傳送匿名的使用次數統計無的時，揤 Enter 就是無愛。
 4. 伊會問你這馬欲加金鑰無。揤 Enter 跳過；請看[金鑰步驟](#金鑰步驟)。
 5. 伊講 **Done** 的時，閣拍開你的 AI 應用程式。若是有一个猶咧執行，請共伊完全關掉（嘛愛對時鐘邊仔的
@@ -186,7 +185,7 @@ VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 佮 Cline�
 安裝好了後，安裝程式隨會問你欲加免費的法國佮美國金鑰無。以後欲加抑是改金鑰：
 
 - **Mac：** 閣拍開 **Fontes Installer**，揀 **加入抑是更改金鑰**。
-- **Windows：** 揤兩下安裝程式資料夾內底的 **Add or change keys.cmd**。
+- **Windows：** 佇開始功能表揤 **Fontes** → **加入抑是更改金鑰**。
 
 輸入的內容袂顯示。金鑰會寫入逐个已經有 Fontes 的應用程式。做好了後，請共應用程式關掉閣拍開。
 金鑰對佗位提、會當拍開啥物：[KEYS.md](KEYS.md)。
@@ -197,7 +196,7 @@ VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 佮 Cline�
 號做 `<file>.fontes-backup-<date>`。佇你加金鑰了後做的副本包含這寡金鑰：無愛的請刪掉。伊嘛會安裝 uv。
 閣執行一擺是安全的：伊會修復設定，其他的攏袂改。
 
-欲移除 Fontes，請拍開 **Fontes Installer** 揀 **移除**（Mac），抑是揤兩下 **Uninstall Fontes.cmd**（Windows）。
+欲移除 Fontes，請拍開 **Fontes Installer** 揀 **移除**（Mac），抑是佇 Settings → Apps 解除安裝 **Fontes**（Windows）。
 伊會對逐个應用程式移除 `fontes` 項目，連金鑰嘛做伙。你其他的設定佮備份副本會保留。
 
 ## 更新

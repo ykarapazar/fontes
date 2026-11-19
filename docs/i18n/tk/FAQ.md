@@ -122,9 +122,8 @@ düzediler ýa-da öçüriler.
 Ýerli (stdio) serweri işledip bilýän islendik MCP programmasy, meselem, Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio we
 Cline. Fontes macOS, Windows we Linux-da, uv işleýän islendik ýerde (Python 3.13+) işleýär.
-Mac-da bir basyşda gurnaýjy Claude Desktop, Codex, Claude Code, Cursor,
-VS Code, Windsurf, Gemini CLI, Zed, LM Studio we Cline programmalaryny birbada sazlaýar; Windows
-üçin gurnaýjy ýakynda çykar. Her programma üçin ädimler: [INSTALL.md](INSTALL.md).
+Mac-da ýa-da Windows PC-de bir basyşda gurnaýjy Claude Desktop, Codex, Claude Code, Cursor,
+VS Code, Windsurf, Gemini CLI, Zed, LM Studio we Cline programmalaryny birbada sazlaýar. Her programma üçin ädimler: [INSTALL.md](INSTALL.md).
 
 ## Kod bilen goşant goşup bilerinmi?
 

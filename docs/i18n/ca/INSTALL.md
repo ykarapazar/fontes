@@ -132,12 +132,10 @@ Algunes fonts necessiten una clau gratuïta: vegeu [KEYS.md](KEYS.md).
 En un xat nou, pregunteu: *«En quines jurisdiccions pot cercar Fontes?»* L'aplicació hauria de
 respondre amb una llista de països. Si no ho fa, tanqueu i torneu a obrir l'aplicació un cop més.
 
-## Instal·lador d'un clic (Mac)
+## Instal·lador d'un clic (Mac i Windows)
 
-L'instal·lador per a Mac configura Fontes a totes les vostres aplicacions alhora: Claude Desktop,
+L'instal·lador configura Fontes a totes les vostres aplicacions alhora: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio i Cline.
-Hi ha en camí un instal·lador per a Windows; mentrestant, seguiu els passos de la vostra aplicació
-que trobareu més amunt.
 
 **Abans de començar:** tanqueu completament cadascuna d'aquestes aplicacions. És més important per a
 Claude Code: mentre s'executa, reescriu `~/.claude.json` i pot desfer el canvi de l'instal·lador. Si
@@ -156,12 +154,12 @@ no podeu tancar Claude Code, afegiu-hi Fontes amb `claude mcp add` (vegeu
    aquestes aplicacions. Per afegir primer les claus gratuïtes opcionals, feu clic a **Afegeix
    claus**; vegeu [El pas de les claus](#el-pas-de-les-claus).
 
-**Windows** (quan surti l'instal·lador per a Windows)
+**Windows**
 
-1. Descomprimiu el **Fontes Installer** baixat (botó dret → Extract All).
-2. Feu doble clic a **Install Fontes.cmd**.
+1. Baixeu l'instal·lador per a Windows (`Fontes-Setup-….exe`) de la [darrera versió](https://github.com/ykarapazar/fontes/releases/latest) i feu-hi doble clic.
    - Si Windows mostra "Windows protected your PC": feu clic a **More info** i després a
      **Run anyway**.
+2. Feu clic a **Instal·la**. S'obre una finestra i configura Fontes.
 3. Quan us pregunti si s'han d'enviar recomptes d'ús anònims, premeu Retorn per dir que no.
 4. Pregunta si voleu afegir claus ara. Premeu Retorn per ometre-ho; vegeu
    [El pas de les claus](#el-pas-de-les-claus).
@@ -203,7 +201,7 @@ Just després de la instal·lació, l'instal·lador us ofereix afegir les claus 
 EUA. Per afegir-les o canviar-les més tard:
 
 - **Mac:** torneu a obrir **Fontes Installer** i trieu **Afegeix o canvia claus**.
-- **Windows:** feu doble clic a **Add or change keys.cmd** a la carpeta de l'instal·lador.
+- **Windows:** obriu el menú Inici, després **Fontes** → **Afegeix o canvia claus**.
 
 El que escriviu no es mostra. Les claus van a totes les aplicacions que ja tenen Fontes. Després,
 tanqueu i torneu a obrir les aplicacions. On obtenir les claus i què desbloquegen: [KEYS.md](KEYS.md).
@@ -216,8 +214,7 @@ queden com estaven. Abans de modificar un fitxer, en desa una còpia al costat, 
 suprimiu les que ja no necessiteu. També instal·la uv. Tornar-lo a executar és segur: repara la
 configuració i no modifica res més.
 
-Per eliminar Fontes, obriu **Fontes Installer** i trieu **Elimina** (Mac), o feu doble clic a
-**Uninstall Fontes.cmd** (Windows). Elimina l'entrada `fontes`, incloses les claus, de totes les aplicacions. La resta de la
+Per eliminar Fontes, obriu **Fontes Installer** i trieu **Elimina** (Mac), o elimineu **Fontes** des de Configuració → Aplicacions (Windows). Elimina l'entrada `fontes`, incloses les claus, de totes les aplicacions. La resta de la
 vostra configuració i les còpies de seguretat es mantenen.
 
 ## Actualitzacions

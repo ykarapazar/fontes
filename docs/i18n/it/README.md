@@ -75,12 +75,12 @@ Stato delle fonti (verificato ogni giorno): [ykarapazar.github.io/fontes/status/
 2. **Riavvii l'app.** La chiuda completamente e la riapra.
 3. **Chieda:** *«In quali giurisdizioni può cercare Fontes?»* Dovrebbe elencare i paesi.
 
-**Su Mac**, un programma di installazione con un clic configura Fontes in Claude Desktop, Codex,
+**Su Mac o PC Windows**, un programma di installazione con un clic configura Fontes in Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio e Cline, in ciascuna di queste app
 presente sul Suo computer, e poi Le propone di aggiungere le Sue chiavi. Scarichi il programma di
-installazione per Mac dall'[ultima versione](https://github.com/ykarapazar/fontes/releases/latest) e chiuda queste app prima di eseguirlo.
-È in arrivo un programma di installazione per Windows. Dettagli:
-[INSTALL.md](INSTALL.md#programma-di-installazione-con-un-clic-mac). Alcune fonti richiedono
+installazione per il Suo computer dall'[ultima versione](https://github.com/ykarapazar/fontes/releases/latest) e chiuda queste app prima di eseguirlo.
+Dettagli:
+[INSTALL.md](INSTALL.md#programma-di-installazione-con-un-clic-mac-e-windows). Alcune fonti richiedono
 una chiave gratuita: veda [KEYS.md](KEYS.md).
 
 <!-- map:start -->

@@ -128,12 +128,11 @@ Jotkin lähteet tarvitsevat maksuttoman avaimen: katso [KEYS.md](KEYS.md).
 Kysy uudessa keskustelussa: *”Mistä lainkäyttöalueista Fontes voi hakea?”* Sovelluksen pitäisi vastata
 luettelolla maista. Jos se ei vastaa, sulje sovellus ja avaa se vielä kerran.
 
-## Yhden napsautuksen asennusohjelma (Mac)
+## Yhden napsautuksen asennusohjelma (Mac ja Windows)
 
-Macin asennusohjelma ottaa Fontesin käyttöön kaikissa sovelluksissasi kerralla: Claude Desktopissa,
+Asennusohjelma ottaa Fontesin käyttöön kaikissa sovelluksissasi kerralla: Claude Desktopissa,
 Codexissa, Claude Codessa, Cursorissa, VS Codessa (GitHub Copilot), Windsurfissa, Gemini CLI:ssä,
-Zedissä, LM Studiossa ja Clinessä. Windowsin asennusohjelma on tulossa; käytä siihen asti yllä
-olevia oman sovelluksesi ohjeita.
+Zedissä, LM Studiossa ja Clinessä.
 
 **Ennen kuin aloitat:** sulje jokainen näistä sovelluksista kokonaan. Tämä on tärkeintä Claude Coden kohdalla:
 käynnissä ollessaan se kirjoittaa tiedoston `~/.claude.json` uudelleen ja voi kumota asennusohjelman muutoksen. Jos et voi
@@ -151,11 +150,11 @@ sulkea Claude Codea, lisää Fontes siihen sen sijaan komennolla `claude mcp add
    sovellukset uudelleen. Jos haluat lisätä valinnaiset ilmaiset avaimet ensin, napsauta sen sijaan
    **Lisää avaimet**; katso [Avainvaihe](#avainvaihe).
 
-**Windows** (kun Windowsin asennusohjelma on julkaistu)
+**Windows**
 
-1. Pura ladattu **Fontes Installer** (hiiren oikea painike → Extract All).
-2. Kaksoisnapsauta **Install Fontes.cmd**.
+1. Lataa Windowsin asennusohjelma (`Fontes-Setup-….exe`) [uusimmasta julkaisusta](https://github.com/ykarapazar/fontes/releases/latest) ja kaksoisnapsauta sitä.
    - Jos Windows näyttää ilmoituksen ”Windows protected your PC”: napsauta **More info** ja sitten **Run anyway**.
+2. Napsauta **Asenna**. Ikkuna avautuu ja asentaa Fontesin.
 3. Kun sinulta kysytään, lähetetäänkö nimettömiä käyttömääriä, paina Enter vastataksesi ei.
 4. Se kysyy, lisätäänkö avaimet nyt. Paina Enter ohittaaksesi; katso [Avainvaihe](#avainvaihe).
 5. Kun näkyy **Done**, avaa tekoälysovelluksesi uudelleen. Jos jokin oli yhä käynnissä, sulje se
@@ -195,7 +194,7 @@ Heti asennuksen jälkeen asennusohjelma tarjoutuu lisäämään maksuttomat avai
 muuttaminen myöhemmin:
 
 - **Mac:** avaa **Fontes Installer** uudelleen ja valitse **Lisää tai vaihda avaimia**.
-- **Windows:** kaksoisnapsauta **Add or change keys.cmd** asennuskansiossa.
+- **Windows:** avaa Käynnistä-valikko ja valitse **Fontes** → **Lisää tai vaihda avaimia**.
 
 Kirjoittamasi teksti on piilotettu. Avaimet lisätään jokaiseen sovellukseen, jossa Fontes jo on. Sulje sovellukset ja avaa ne
 uudelleen sen jälkeen. Mistä avaimet saa ja mitä ne avaavat: [KEYS.md](KEYS.md).
@@ -207,7 +206,7 @@ Ennen tiedoston muuttamista se tallentaa sen viereen kopion nimeltä `<file>.fon
 jotka on tehty avainten lisäämisen jälkeen, sisältävät nuo avaimet: poista ne, joita et enää tarvitse. Se
 asentaa myös uv:n. Sen voi turvallisesti ajaa uudelleen: se korjaa asetukset eikä muuta mitään muuta.
 
-Poista Fontes avaamalla **Fontes Installer** ja valitsemalla **Poista** (Mac) tai kaksoisnapsauttamalla **Uninstall Fontes.cmd** (Windows). Se poistaa `fontes`-merkinnän avaimineen jokaisesta sovelluksesta. Muut asetuksesi
+Poista Fontes avaamalla **Fontes Installer** ja valitsemalla **Poista** (Mac) tai poista **Fontes** kohdasta Asetukset → Sovellukset (Windows). Se poistaa `fontes`-merkinnän avaimineen jokaisesta sovelluksesta. Muut asetuksesi
 ja varmuuskopiot säilyvät.
 
 ## Päivitykset

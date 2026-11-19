@@ -132,12 +132,10 @@ Fragen Sie in einem neuen Chat: *„Welche Rechtsordnungen kann Fontes durchsuch
 mit einer Liste von Ländern antworten. Falls nicht, beenden Sie die App und öffnen Sie sie noch
 einmal.
 
-## Ein-Klick-Installationsprogramm (Mac)
+## Ein-Klick-Installationsprogramm (Mac und Windows)
 
-Das Installationsprogramm für Mac richtet Fontes in allen Ihren Apps auf einmal ein: Claude Desktop,
+Das Installationsprogramm richtet Fontes in allen Ihren Apps auf einmal ein: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio und Cline.
-Ein Installationsprogramm für Windows ist in Vorbereitung; verwenden Sie bis dahin die Schritte für
-Ihre App weiter oben.
 
 **Bevor Sie beginnen:** Beenden Sie jede dieser Apps vollständig. Das ist vor allem bei Claude Code
 wichtig: Solange es läuft, schreibt es `~/.claude.json` neu und kann die Änderung des
@@ -157,12 +155,13 @@ stattdessen mit `claude mcp add` hinzu (siehe [Claude Code](#claude-code)).
    stattdessen auf **Schlüssel hinzufügen**; siehe
    [Schlüssel im Installationsprogramm](#schlüssel-im-installationsprogramm).
 
-**Windows** (sobald das Installationsprogramm für Windows erschienen ist)
+**Windows**
 
-1. Entpacken Sie den heruntergeladenen **Fontes Installer** (Rechtsklick → **Alle extrahieren**).
-2. Doppelklicken Sie auf **Install Fontes.cmd**.
+1. Laden Sie das Windows-Installationsprogramm (`Fontes-Setup-….exe`) aus dem
+   [neuesten Release](https://github.com/ykarapazar/fontes/releases/latest) herunter und doppelklicken Sie darauf.
    - Wenn Windows „Der Computer wurde durch Windows geschützt“ anzeigt: Klicken Sie auf **Weitere
      Informationen** und dann auf **Trotzdem ausführen**.
+2. Klicken Sie auf **Installieren**. Ein Fenster öffnet sich und richtet Fontes ein.
 3. Wenn Sie gefragt werden, ob anonyme Nutzungszahlen gesendet werden sollen, drücken Sie Enter für
    Nein.
 4. Es fragt, ob Sie jetzt Schlüssel hinzufügen möchten. Drücken Sie Enter, um das zu überspringen;
@@ -204,7 +203,7 @@ Direkt nach der Installation bietet das Installationsprogramm an, die kostenlose
 Frankreich und die USA hinzuzufügen. So fügen Sie sie später hinzu oder ändern sie:
 
 - **Mac:** Öffnen Sie **Fontes Installer** erneut und wählen Sie **Schlüssel hinzufügen oder ändern**.
-- **Windows:** Doppelklicken Sie im Ordner des Installationsprogramms auf **Add or change keys.cmd**.
+- **Windows:** Öffnen Sie das Startmenü und wählen Sie dann **Fontes** → **Schlüssel hinzufügen oder ändern**.
 
 Die Eingabe wird nicht angezeigt. Die Schlüssel werden in jede App eingetragen, die Fontes bereits
 hat. Beenden Sie die Apps anschließend und öffnen Sie sie erneut. Wo Sie die Schlüssel erhalten und
@@ -219,7 +218,7 @@ enthalten diese Schlüssel: Löschen Sie die, die Sie nicht mehr brauchen. Es in
 Ein erneutes Ausführen ist unbedenklich: Es repariert die Einrichtung und ändert sonst nichts.
 
 Um Fontes zu entfernen, öffnen Sie **Fontes Installer** und wählen Sie **Entfernen** (Mac), oder
-doppelklicken Sie auf **Uninstall Fontes.cmd** (Windows). Das entfernt den Eintrag `fontes`,
+deinstallieren Sie **Fontes** unter Einstellungen → Apps (Windows). Das entfernt den Eintrag `fontes`,
 einschließlich der Schlüssel, aus jeder App. Ihre übrigen Einstellungen und die Sicherungskopien
 bleiben erhalten.
 

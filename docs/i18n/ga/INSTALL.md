@@ -132,11 +132,10 @@ I gcomhrá nua, fiafraigh: *"Cé na dlínsí ar féidir le Fontes a chuardach?"*
 liosta tíortha a thabhairt mar fhreagra. Mura dtugann, scoir den aip agus oscail arís í uair
 amháin eile.
 
-## Suiteálaí aon chliceáil (Mac)
+## Suiteálaí aon chliceáil (Mac agus Windows)
 
-Socraíonn suiteálaí Mac Fontes i do chuid aipeanna go léir in éineacht: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio agus Cline. Tá
-suiteálaí Windows ar an mbealach; go dtí sin, lean na céimeanna do d'aip thuas.
+Socraíonn suiteálaí Fontes i do chuid aipeanna go léir in éineacht: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio agus Cline.
 
 **Sula dtosaíonn tú:** scoir go hiomlán de gach ceann de na haipeanna seo. Is tábhachtaí é seo i
 gcás Claude Code: fad atá sé ag rith, athscríobhann sé `~/.claude.json` agus féadann sé athrú an
@@ -154,11 +153,12 @@ ionad sin (féach [Claude Code](#claude-code)).
    haipeanna sin arís. Chun na heochracha roghnacha saor in aisce a chur leis ar dtús, cliceáil
    **Cuir eochracha leis** ina ionad sin; féach [Céim na n-eochracha](#céim-na-n-eochracha).
 
-**Windows** (nuair a bheidh suiteálaí Windows eisithe)
+**Windows**
 
-1. Dízipeáil an **Fontes Installer** a d'íoslódáil tú (deaschliceáil → Extract All).
-2. Déchliceáil **Install Fontes.cmd**.
+1. Íoslódáil suiteálaí Windows (`Fontes-Setup-….exe`) ón
+   [eisiúint is déanaí](https://github.com/ykarapazar/fontes/releases/latest) agus déchliceáil é.
    - Má thaispeánann Windows "Windows protected your PC": cliceáil **More info**, ansin **Run anyway**.
+2. Cliceáil **Suiteáil**. Osclaítear fuinneog agus socraíonn sí Fontes.
 3. Nuair a fhiafraítear díot ar cheart comhairimh úsáide gan ainm a sheoladh, brúigh Enter le
    haghaidh "ní hea".
 4. Fiafraíonn sé ar mhaith leat eochracha a chur leis anois. Brúigh Enter chun scipeáil; féach
@@ -200,7 +200,7 @@ Díreach tar éis na suiteála, tairgeann an suiteálaí na heochracha saor in a
 do na SA a chur leis. Chun iad a chur leis nó a athrú níos déanaí:
 
 - **Mac:** oscail **Fontes Installer** arís agus roghnaigh **Cuir eochracha leis nó athraigh iad**.
-- **Windows:** déchliceáil **Add or change keys.cmd** i bhfillteán an tsuiteálaí.
+- **Windows:** oscail roghchlár Start, ansin **Fontes** → **Add or change keys**.
 
 Tá an clóscríobh folaithe. Téann na heochracha isteach i ngach aip a bhfuil Fontes inti cheana.
 Scoir de na haipeanna agus oscail arís iad ina dhiaidh sin. Cá bhfaighidh tú na heochracha agus cad
@@ -214,8 +214,8 @@ bhí. Sula n-athraíonn sé comhad, sábhálann sé cóip in aice leis, darb ain
 chur leis: scrios na cinn nach bhfuil uait a thuilleadh. Suiteálann sé uv freisin. Is sábháilte é a
 rith arís: deisíonn sé an socrú agus ní athraíonn sé aon rud eile.
 
-Chun Fontes a bhaint, oscail **Fontes Installer** agus roghnaigh **Bain** (Mac), nó déchliceáil
-**Uninstall Fontes.cmd** (Windows). Baineann sé an iontráil `fontes`, eochracha san áireamh, de
+Chun Fontes a bhaint, oscail **Fontes Installer** agus roghnaigh **Bain** (Mac), nó díshuiteáil **Fontes**
+in Settings → Apps (Windows). Baineann sé an iontráil `fontes`, eochracha san áireamh, de
 gach aip. Fanann do shocruithe eile agus na cóipeanna cúltaca.
 
 ## Nuashonruithe

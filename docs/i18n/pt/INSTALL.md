@@ -131,11 +131,10 @@ Algumas fontes precisam de uma chave gratuita: veja [KEYS.md](KEYS.md).
 Em um novo chat, pergunte: *"Em quais jurisdições o Fontes pode pesquisar?"* O app deve responder com
 uma lista de países. Se não responder, feche e abra o app mais uma vez.
 
-## Instalador de um clique (Mac)
+## Instalador de um clique (Mac e Windows)
 
-O instalador para Mac configura o Fontes em todos os seus apps de uma vez: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio e Cline. Um
-instalador para Windows está a caminho; até lá, use as etapas do seu app acima.
+O instalador configura o Fontes em todos os seus apps de uma vez: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio e Cline.
 
 **Antes de começar:** feche completamente cada um desses apps. Isso é mais importante para o Claude
 Code: enquanto está em execução, ele reescreve `~/.claude.json` e pode desfazer a alteração do
@@ -153,12 +152,13 @@ instalador. Se você não puder fechar o Claude Code, adicione o Fontes a ele co
    novo. Para adicionar antes as chaves gratuitas opcionais, clique em **Adicionar chaves**; veja
    [A etapa das chaves](#a-etapa-das-chaves).
 
-**Windows** (quando o instalador para Windows for lançado)
+**Windows**
 
-1. Descompacte o **Fontes Installer** baixado (botão direito → Extract All).
-2. Clique duas vezes em **Install Fontes.cmd**.
+1. Baixe o instalador para Windows (`Fontes-Setup-….exe`) da
+   [versão mais recente](https://github.com/ykarapazar/fontes/releases/latest) e clique duas vezes nele.
    - Se o Windows mostrar "Windows protected your PC": clique em **More info** e depois em
      **Run anyway**.
+2. Clique em **Instalar**. Abre-se uma janela e configura o Fontes.
 3. Quando perguntado se deve enviar contagens de uso anônimas, pressione Enter para não.
 4. Ele pergunta se você quer adicionar chaves agora. Pressione Enter para pular; veja
    [A etapa das chaves](#a-etapa-das-chaves).
@@ -200,7 +200,7 @@ Logo após a instalação, o instalador oferece adicionar as chaves gratuitas da
 adicioná-las ou alterá-las depois:
 
 - **Mac:** abra de novo o **Fontes Installer** e escolha **Adicionar ou alterar chaves**.
-- **Windows:** clique duas vezes em **Add or change keys.cmd** na pasta do instalador.
+- **Windows:** abra o menu Iniciar e escolha **Fontes** → **Adicionar ou alterar chaves**.
 
 O que você digita fica oculto. As chaves vão para todos os apps que já têm o Fontes. Depois, feche e
 abra os apps de novo. Onde obter as chaves e o que elas liberam: [KEYS.md](KEYS.md).
@@ -213,8 +213,8 @@ como estavam. Antes de alterar um arquivo, ele salva uma cópia ao lado, chamada
 apague as que não precisar mais. Ele também instala o uv. Executá-lo de novo é seguro: ele repara a
 configuração e não altera mais nada.
 
-Para remover o Fontes, abra o **Fontes Installer** e escolha **Remover** (Mac), ou clique duas vezes em
-**Uninstall Fontes.cmd** (Windows). Ele remove a entrada `fontes`, inclusive as chaves, de todos os
+Para remover o Fontes, abra o **Fontes Installer** e escolha **Remover** (Mac), ou desinstale o
+**Fontes** em Configurações → Apps (Windows). Ele remove a entrada `fontes`, inclusive as chaves, de todos os
 apps. As suas outras configurações e as cópias de backup permanecem.
 
 ## Atualizações

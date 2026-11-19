@@ -19,8 +19,7 @@ Mac, cliceáil **Cuir eochracha leis**, nó **Déanta** chun scipeáil; ar Windo
 **Add or change keys**:
 
 - Mac: oscail aip Fontes Installer arís agus roghnaigh **Cuir eochracha leis nó athraigh iad**.
-- Windows: déchliceáil `Add or change keys.cmd` i bhfillteán an tsuiteálaí. Cuirfidh clár socraithe
-  Windows, nuair a bheidh sé ar fáil, é in Start menu > Fontes freisin.
+- Windows: oscail an roghchlár Start, ansin **Fontes** → **Cuir eochracha leis nó athraigh iad**.
 
 Tá an clóscríobh folaithe. Do gach eochair: greamaigh í, brúigh Enter chun an méid atá ann a
 choinneáil, nó clóscríobh `-` chun í a bhaint. Téann na heochracha isteach i ngach aip a bhfuil

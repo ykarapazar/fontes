@@ -130,11 +130,10 @@ Xi sorsi jeħtieġu ċavetta b'xejn: ara [KEYS.md](KEYS.md).
 F'chat ġdid, staqsi: *"F'liema ġurisdizzjonijiet jista' jfittex Fontes?"* L-app għandha twieġeb
 b'lista ta' pajjiżi. Jekk ma tagħmilx hekk, agħlaq u erġa' iftaħ l-app darba oħra.
 
-## Installer bi klikk waħda (Mac)
+## Installer bi klikk waħda (Mac u Windows)
 
-L-installer għal Mac jissettja Fontes fl-apps kollha tiegħek f'daqqa: Claude Desktop, Codex, Claude Code,
-Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio u Cline. Installer għal Windows
-qiegħed fi triqtu; sa dakinhar, uża l-passi għall-app tiegħek hawn fuq.
+L-installer jissettja Fontes fl-apps kollha tiegħek f'daqqa: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio u Cline.
 
 **Qabel ma tibda:** agħlaq kull waħda minn dawn l-apps għal kollox. Dan huwa l-aktar importanti
 għal Claude Code: waqt li jkun qed jaħdem, jerġa' jikteb `~/.claude.json` u jista' jħassar
@@ -152,11 +151,11 @@ minflok (ara [Claude Code](#claude-code)).
    l-ewwel iċ-ċwievet b'xejn mhux obbligatorji, agħfas **Żid iċ-ċwievet** minflok; ara
    [Il-pass taċ-ċwievet](#il-pass-taċ-ċwievet).
 
-**Windows** (ladarba joħroġ l-installer għal Windows)
+**Windows**
 
-1. Ħoll iż-zip ta' **Fontes Installer** li niżżilt (buttuna tal-lemin → Extract All).
-2. Agħfas darbtejn fuq **Install Fontes.cmd**.
+1. Niżżel l-installer għal Windows (`Fontes-Setup-….exe`) mill-[aħħar release](https://github.com/ykarapazar/fontes/releases/latest) u agħfas darbtejn fuqu.
    - Jekk Windows juri "Windows protected your PC": agħfas **More info**, imbagħad **Run anyway**.
+2. Agħfas **Installa**. Tiftaħ tieqa li tissettja Fontes.
 3. Meta tiġi mistoqsi jekk tibgħatx għadd anonimu tal-użu, agħfas Enter għal le.
 4. Tistaqsik jekk iżżidx iċ-ċwievet issa. Agħfas Enter biex taqbeż; ara
    [Il-pass taċ-ċwievet](#il-pass-taċ-ċwievet).
@@ -197,7 +196,7 @@ Eżatt wara l-installazzjoni, l-installer joffri li jżid iċ-ċwievet b'xejn g�
 Uniti. Biex iżżidhom jew tibdilhom aktar tard:
 
 - **Mac:** erġa' iftaħ **Fontes Installer** u agħżel **Żid jew ibdel iċ-ċwievet**.
-- **Windows:** agħfas darbtejn fuq **Add or change keys.cmd** fil-folder tal-installer.
+- **Windows:** fil-menu Start, agħfas **Fontes** → **Żid jew ibdel iċ-ċwievet**.
 
 It-tajpjar huwa moħbi. Iċ-ċwievet imorru f'kull app li diġà għandha Fontes. Wara, agħlaq u erġa'
 iftaħ l-apps. Minn fejn tikseb iċ-ċwievet u x'jiftħu: [KEYS.md](KEYS.md).
@@ -209,8 +208,7 @@ ma jibdel fajl, jissejvja kopja ħdejh, bl-isem `<file>.fontes-backup-<date>`. I
 wara li żidt iċ-ċwievet fihom dawk iċ-ċwievet: ħassar dawk li m'għadekx bżonn. Jinstalla wkoll
 uv. Li tħaddmu mill-ġdid huwa sigur: isewwi s-setup u ma jibdel xejn ieħor.
 
-Biex tneħħi Fontes, iftaħ **Fontes Installer** u agħżel **Neħħi** (Mac), jew agħfas darbtejn fuq
-**Uninstall Fontes.cmd** (Windows). Ineħħi l-entrata `fontes`, iċ-ċwievet inklużi, minn kull app.
+Biex tneħħi Fontes, iftaħ **Fontes Installer** u agħżel **Neħħi** (Mac), jew neħħi **Fontes** f'Settings → Apps (Windows). Ineħħi l-entrata `fontes`, iċ-ċwievet inklużi, minn kull app.
 Is-settings l-oħra tiegħek u l-kopji ta' riżerva jibqgħu.
 
 ## Aġġornamenti

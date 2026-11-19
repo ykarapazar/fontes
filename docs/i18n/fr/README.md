@@ -75,11 +75,10 @@ Windsurf, Zed, LM Studio et d'autres.
 2. **Redémarrez l'application.** Quittez-la complètement, puis rouvrez-la.
 3. **Demandez :** *« Dans quelles juridictions Fontes peut-il chercher ? »* Elle devrait afficher la liste des pays.
 
-**Sur un Mac**, un programme d'installation en un clic configure Fontes dans Claude Desktop, Codex, Claude Code,
+**Sur un Mac ou un PC Windows**, un programme d'installation en un clic configure Fontes dans Claude Desktop, Codex, Claude Code,
 Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio et Cline, dans chacune de ces applications présente sur
-votre ordinateur, puis propose d'ajouter vos clés. Téléchargez le programme d'installation pour Mac depuis la
-[dernière version](https://github.com/ykarapazar/fontes/releases/latest) et quittez ces applications avant de le lancer. Un
-programme d'installation pour Windows est en préparation. Détails : [INSTALL.md](INSTALL.md#programme-dinstallation-en-un-clic-mac).
+votre ordinateur, puis propose d'ajouter vos clés. Téléchargez le programme d'installation pour votre ordinateur depuis la
+[dernière version](https://github.com/ykarapazar/fontes/releases/latest) et quittez ces applications avant de le lancer. Détails : [INSTALL.md](INSTALL.md#programme-dinstallation-en-un-clic-mac-et-windows).
 Certaines sources nécessitent une clé gratuite : voir [KEYS.md](KEYS.md).
 
 <!-- map:start -->

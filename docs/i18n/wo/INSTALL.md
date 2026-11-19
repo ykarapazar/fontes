@@ -130,12 +130,10 @@ Am na ay cosaan yu soxla caabi bu ñu joxe ci neen: xoolal [KEYS.md](KEYS.md).
 Ci benn waxtaan bu bees, laajal: *"Ci ban juridiction la Fontes mën a wut?"* Aplikasioŋ bi dafa war a
 tontu ak limu réew yi. Su deful loolu, tëjal aplikasioŋ bi ba mu jeex te ubbiwaat ko benn yoon.
 
-## Programu samp ci benn klig (Mac)
+## Programu samp ci benn klig (Mac ak Windows)
 
-Programu samp bu Mac bi dafay samp Fontes ci say aplikasioŋ yépp ci benn yoon: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ak Cline. Programu samp
-bu Windows mu ngi ñëw; ba keroog, jëfandikool tànk yi ci sa aplikasioŋ ci kaw.
-
+Programu samp bi dafay samp Fontes ci say aplikasioŋ yépp ci benn yoon: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ak Cline.
 **Balaa ngay tàmbali:** tëjal aplikasioŋ yooyu yépp ba ñu jeex. Lii moo gën a am solo ci Claude Code: su
 dee dox, dafay bindaat `~/.claude.json` te mën na far coppite bu programu samp bi def. Su doo mën a tëj
 Claude Code, yokkal ci Fontes ak `claude mcp add` (xoolal [Claude Code](#claude-code)).
@@ -151,11 +149,11 @@ Claude Code, yokkal ci Fontes ak `claude mcp add` (xoolal [Claude Code](#claude-
    Ngir jëkk a yokk caabi yu ñu joxe ci neen yi (bu la neexee), cuqal **Yokk caabi yi** ci barab bi;
    xoolal [Tànk bu caabi yi](#tànk-bu-caabi-yi).
 
-**Windows** (bu programu samp bu Windows bi génnee)
+**Windows**
 
-1. Ubbil (unzip) **Fontes Installer** bi nga yeb (cuq ci ndeyjoor → Extract All).
-2. Cuqal ñaari yoon **Install Fontes.cmd**.
+1. Yebal programu samp bu Windows bi (`Fontes-Setup-….exe`) ci [sumb bu mujj bi](https://github.com/ykarapazar/fontes/releases/latest) te cuqal ñaari yoon.
    - Su Windows wonee "Windows protected your PC": cuqal **More info**, te **Run anyway**.
+2. Cuqal **Samp**. Ab fenêtre dina ubbiwaat, te Fontes dina samp.
 3. Bu ñu la laajee ndax mu yónne limu jëfandikoo yu amul tur, bësal Enter ngir wax déedéet.
 4. Dafay laaj ndax mu yokk caabi yi léegi. Bësal Enter ngir bàyyi ko; xoolal [Tànk bu caabi yi](#tànk-bu-caabi-yi).
 5. Bu waxee **Jeex na.**, ubbiwaatal say aplikasioŋ AI. Su benn ci ñoom a ngi doxagum, tëjal ko ba mu
@@ -195,7 +193,7 @@ Ci saa si ginnaaw samp bi, programu samp bi dafay la laaj ndax mu yokk caabi yu 
 ñu joxe ci neen. Ngir yokk walla soppi leen ginnaaw:
 
 - **Mac:** ubbiwaatal **Fontes Installer** te tànn **Yokk walla soppi caabi yi**.
-- **Windows:** cuqal ñaari yoon **Add or change keys.cmd** ci kàggu programu samp bi.
+- **Windows:** ubbil **Start** menu, te cuqal **Fontes** → **Yokk walla soppi caabi yi**.
 
 Li ngay bind dafa nëbbu. Caabi yi dañuy dugg ci bépp aplikasioŋ bu am Fontes ba noppi. Tëjal aplikasioŋ yi
 ba ñu jeex te ubbiwaat leen ginnaaw loolu. Fu ñuy jële caabi yi ak lan lañuy ubbi: [KEYS.md](KEYS.md).
@@ -207,8 +205,7 @@ Programu samp bi xaaju `fontes` bi rekk lay soppi. Yeneen réglage yépp ak comm
 Kopi yi ñu def ginnaaw bi nga yokkee caabi yi am nañu caabi yooyu: faral yi nga soxlaatul. Dafay samp uv
 itam. Doxalaat ko amul benn loraange: dafay defar samp bi te du soppi leneen.
 
-Ngir dindi Fontes, ubbil **Fontes Installer** te tànn **Dindi** (Mac), walla cuqal ñaari yoon
-**Uninstall Fontes.cmd** (Windows). Dafay dindi xaaju `fontes` bi, ak caabi yi, ci bépp aplikasioŋ. Say
+Ngir dindi Fontes, ubbil **Fontes Installer** te tànn **Dindi** (Mac), walla dindi **Fontes** ci Settings → Apps (Windows). Dafay dindi xaaju `fontes` bi, ak caabi yi, ci bépp aplikasioŋ. Say
 yeneen réglage ak kopi yi ñu denc dañuy des.
 
 ## Yeesal yi

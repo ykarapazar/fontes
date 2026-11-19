@@ -105,9 +105,9 @@ fontesmcp@proton.me ኢሜይል ይላኩ። ምንጩ ይስተካከላል �
 
 አካባቢያዊ (stdio) አገልጋይ ማስኬድ ከሚችል ከማንኛውም የ MCP መተግበሪያ ጋር፣ ለምሳሌ Claude Desktop፣ Claude Code፣ Codex፣
 Cursor፣ VS Code (GitHub Copilot)፣ Gemini CLI፣ Windsurf፣ Zed፣ LM Studio እና Cline። Fontes በ macOS፣ Windows እና Linux
-ላይ፣ uv በሚሠራበት በማንኛውም ቦታ ይሠራል (Python 3.13+)። በ Mac ላይ፣
+ላይ፣ uv በሚሠራበት በማንኛውም ቦታ ይሠራል (Python 3.13+)። በ Mac ወይም Windows PC ላይ፣
 በአንድ ጠቅታ የሚጭን መጫኛ Claude Desktop፣ Codex፣ Claude Code፣ Cursor፣ VS Code፣ Windsurf፣ Gemini CLI፣ Zed፣
-LM Studio እና Cline ን በአንድ ጊዜ ያዘጋጃል፤ የ Windows መጫኛ በመምጣት ላይ ነው። ለእያንዳንዱ መተግበሪያ ደረጃዎቹ: [INSTALL.md](INSTALL.md)።
+LM Studio እና Cline ን በአንድ ጊዜ ያዘጋጃል። ለእያንዳንዱ መተግበሪያ ደረጃዎቹ: [INSTALL.md](INSTALL.md)።
 
 ## ኮድ ማበርከት እችላለሁ?
 

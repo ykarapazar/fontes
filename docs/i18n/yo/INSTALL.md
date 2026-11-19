@@ -125,12 +125,10 @@ tàbí ṣe ìfilọ́lẹ̀:
 Nínú ìjíròrò tuntun, béèrè: *"Àwọn agbègbè ìdájọ́ wo ni Fontes lè wá nínú wọn?"* Áàpù náà yẹ kí ó dáhùn pẹ̀lú
 àtòjọ àwọn orílẹ̀-èdè. Bí kò bá ṣe bẹ́ẹ̀, pa áàpù náà dé kí o sì tún un ṣí lẹ́ẹ̀kan sí i.
 
-## Ẹ̀rọ ìfisílẹ̀ onítẹ̀-ẹ̀ẹ̀kan (Mac)
+## Ẹ̀rọ ìfisílẹ̀ onítẹ̀-ẹ̀ẹ̀kan (Mac àti Windows)
 
-Ẹ̀rọ ìfisílẹ̀ Mac ń ṣètò Fontes nínú gbogbo áàpù rẹ lẹ́ẹ̀kan náà: Claude Desktop, Codex, Claude
-Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio àti Cline. Ẹ̀rọ
-ìfisílẹ̀ fún Windows ń bọ̀ láìpẹ́; títí di ìgbà náà, lo àwọn ìgbésẹ̀ fún áàpù rẹ lókè.
-
+Ẹ̀rọ ìfisílẹ̀ ń ṣètò Fontes nínú gbogbo áàpù rẹ lẹ́ẹ̀kan náà: Claude Desktop, Codex, Claude
+Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio àti Cline.
 **Kí o tó bẹ̀rẹ̀:** pa ọ̀kọ̀ọ̀kan àwọn áàpù wọ̀nyẹn dé pátápátá. Èyí ṣe pàtàkì jùlọ fún Claude Code: bí ó bá
 ń ṣiṣẹ́, ó ń kọ `~/.claude.json` sílẹ̀ lẹ́ẹ̀kan sí i ó sì lè pa ohun tí ẹ̀rọ ìfisílẹ̀ yí padà rẹ́. Bí o kò bá
 lè pa Claude Code dé, fi Fontes kún un pẹ̀lú `claude mcp add` (wo [Claude Code](#claude-code)).
@@ -146,11 +144,11 @@ lè pa Claude Code dé, fi Fontes kún un pẹ̀lú `claude mcp add` (wo [Claude
    Láti kọ́kọ́ fi àwọn kọ́kọ́rọ́ ọ̀fẹ́ tí kò pọn dandan kún un, tẹ **Fi kọ́kọ́rọ́ kún** dípò bẹ́ẹ̀;
    wo [Ìgbésẹ̀ kọ́kọ́rọ́](#ìgbésẹ̀-kọ́kọ́rọ́).
 
-**Windows** (nígbà tí a bá tẹ ẹ̀rọ ìfisílẹ̀ Windows jáde)
+**Windows**
 
-1. Ṣí (unzip) **Fontes Installer** tí o gbà sílẹ̀ (tẹ pẹ̀lú bọ́tìnnì ọ̀tún → Extract All).
-2. Tẹ **Install Fontes.cmd** lẹ́ẹ̀mejì.
+1. Gba ẹ̀rọ ìfisílẹ̀ Windows (`Fontes-Setup-….exe`) sílẹ̀ láti inú [ìtújáde tuntun jùlọ](https://github.com/ykarapazar/fontes/releases/latest), kí o sì tẹ ẹ́ lẹ́ẹ̀mejì.
    - Bí Windows bá fi "Windows protected your PC" hàn: tẹ **More info**, lẹ́yìn náà **Run anyway**.
+2. Tẹ **Fi sí i**. Fèrèsé kan yóò ṣí, yóò sì ṣètò Fontes.
 3. Nígbà tí a bá béèrè bóyá kí ó fi iye ìlò aláìlórúkọ ránṣẹ́, tẹ Enter fún "bẹ́ẹ̀kọ́".
 4. Ó máa béèrè bóyá kí o fi àwọn kọ́kọ́rọ́ kún un báyìí. Tẹ Enter láti fò ó; wo
    [Ìgbésẹ̀ kọ́kọ́rọ́](#ìgbésẹ̀-kọ́kọ́rọ́).
@@ -191,7 +189,7 @@ Lẹ́sẹ̀kẹsẹ̀ lẹ́yìn ìfisílẹ̀, ẹ̀rọ ìfisílẹ̀ ń fún
 States kún un. Láti fi wọ́n kún un tàbí yí wọn padà lẹ́yìn náà:
 
 - **Mac:** tún **Fontes Installer** ṣí kí o sì yan **Fi kọ́kọ́rọ́ kún tàbí yí i padà**.
-- **Windows:** tẹ **Add or change keys.cmd** lẹ́ẹ̀mejì nínú fódà ẹ̀rọ ìfisílẹ̀.
+- **Windows:** ṣí Start menu, lẹ́yìn náà yan **Fontes** → **Fi kọ́kọ́rọ́ kún tàbí yí i padà**.
 
 Ohun tí o bá tẹ kò ní hàn. Àwọn kọ́kọ́rọ́ náà ń lọ sí gbogbo áàpù tí ó ti ní Fontes. Pa àwọn áàpù náà dé kí o
 sì tún wọn ṣí lẹ́yìn náà. Ibi tí a ti lè gba kọ́kọ́rọ́ àti ohun tí ọ̀kọ̀ọ̀kan ń ṣí: [KEYS.md](KEYS.md).
@@ -203,7 +201,7 @@ kan padà, ó ń fi ẹ̀dà kan pamọ́ sí ẹ̀gbẹ́ rẹ̀, tí a ń pè 
 lẹ́yìn tí o fi kọ́kọ́rọ́ kún un ní àwọn kọ́kọ́rọ́ náà nínú: pa àwọn tí o kò nílò mọ́ rẹ́. Ó tún ń fi uv sílẹ̀.
 Kò léwu láti tún un ṣe ìfilọ́lẹ̀: ó ń tún ìfisílẹ̀ ṣe kò sì yí ohunkóhun mìíràn padà.
 
-Láti yọ Fontes kúrò, ṣí **Fontes Installer** kí o sì yan **Yọ ọ́ kúrò** (Mac), tàbí tẹ **Uninstall Fontes.cmd** (Windows) lẹ́ẹ̀mejì. Ó ń yọ ìtẹ̀sí `fontes` kúrò nínú áàpù kọ̀ọ̀kan, pẹ̀lú àwọn kọ́kọ́rọ́ rẹ̀. Àwọn ètò mìíràn àti àwọn
+Láti yọ Fontes kúrò, ṣí **Fontes Installer** kí o sì yan **Yọ ọ́ kúrò** (Mac), tàbí yọ **Fontes** kúrò ní Settings → Apps (Windows). Ó ń yọ ìtẹ̀sí `fontes` kúrò nínú áàpù kọ̀ọ̀kan, pẹ̀lú àwọn kọ́kọ́rọ́ rẹ̀. Àwọn ètò mìíràn àti àwọn
 ẹ̀dà ìpamọ́ ń wà níbẹ̀.
 
 ## Àwọn ìmúdójúìwọ̀n

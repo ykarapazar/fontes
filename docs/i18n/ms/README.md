@@ -75,12 +75,12 @@ Status sumber (disemak setiap hari): [ykarapazar.github.io/fontes/status/](https
 2. **Mulakan semula aplikasi.** Tutup aplikasi sepenuhnya dan buka semula.
 3. **Tanya:** *"Bidang kuasa manakah yang boleh dicari oleh Fontes?"* Ia sepatutnya menyenaraikan negara-negara.
 
-**Pada Mac**, pemasang satu klik menyediakan Fontes dalam Claude Desktop, Codex, Claude Code, Cursor,
+**Pada Mac atau PC Windows**, pemasang satu klik menyediakan Fontes dalam Claude Desktop, Codex, Claude Code, Cursor,
 VS Code, Windsurf, Gemini CLI, Zed, LM Studio dan Cline, dalam setiap satu yang ada pada komputer anda,
-kemudian menawarkan untuk menambah kunci anda. Muat turun pemasang Mac daripada
+kemudian menawarkan untuk menambah kunci anda. Muat turun pemasang untuk komputer anda daripada
 [keluaran terkini](https://github.com/ykarapazar/fontes/releases/latest) dan tutup aplikasi-aplikasi itu
-sebelum anda menjalankannya. Pemasang Windows akan datang. Butiran:
-[INSTALL.md](INSTALL.md#pemasang-satu-klik-mac).
+sebelum anda menjalankannya. Butiran:
+[INSTALL.md](INSTALL.md#pemasang-satu-klik-mac-dan-windows).
 Sesetengah sumber memerlukan kunci percuma: lihat [KEYS.md](KEYS.md).
 
 <!-- map:start -->

@@ -18,8 +18,7 @@ clique em **Adicionar chaves**, ou em **Concluído** para pular; no Windows, res
 Enter para pular). Para adicionar ou alterar chaves depois, execute **Add or change keys**:
 
 - Mac: abra de novo o app Fontes Installer e escolha **Adicionar ou alterar chaves**.
-- Windows: clique duas vezes em `Add or change keys.cmd` na pasta do instalador. O programa de
-  instalação para Windows, quando estiver disponível, também o coloca em Start menu > Fontes.
+- Windows: abra o menu Iniciar e escolha **Fontes** → **Adicionar ou alterar chaves**.
 
 O que você digita fica oculto. Para cada chave: cole-a, pressione Enter para manter a atual ou digite
 `-` para removê-la. As chaves vão para todos os apps que já têm o Fontes.

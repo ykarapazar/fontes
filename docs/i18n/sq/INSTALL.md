@@ -132,11 +132,10 @@ Disa burime kërkojnë një çelës falas: shihni [KEYS.md](KEYS.md).
 Në një bisedë të re, pyesni: *"Në cilat juridiksione mund të kërkojë Fontes?"* Aplikacioni duhet
 të përgjigjet me një listë vendesh. Nëse jo, mbylleni dhe rihapeni aplikacionin edhe një herë.
 
-## Instaluesi me një klik (Mac)
+## Instaluesi me një klik (Mac dhe Windows)
 
-Instaluesi për Mac e konfiguron Fontes në të gjitha aplikacionet tuaja njëherësh: Claude Desktop,
+Instaluesi e konfiguron Fontes në të gjitha aplikacionet tuaja njëherësh: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio dhe Cline.
-Një instalues për Windows është në rrugë; deri atëherë, ndiqni hapat për aplikacionin tuaj më lart.
 
 **Para se të filloni:** mbyllni plotësisht secilin nga këto aplikacione. Kjo ka më shumë rëndësi
 për Claude Code: ndërsa punon, ai rishkruan `~/.claude.json` dhe mund ta zhbëjë ndryshimin e
@@ -154,11 +153,12 @@ instaluesit. Nëse nuk mund ta mbyllni Claude Code, shtojeni Fontes në të me `
    aplikacione. Për të shtuar më parë çelësat opsionalë falas, klikoni në vend të kësaj
    **Shto çelësa**; shihni [Hapi i çelësave](#hapi-i-çelësave).
 
-**Windows** (sapo të publikohet instaluesi për Windows)
+**Windows**
 
-1. Shpaketoni **Fontes Installer** të shkarkuar (klik i djathtë → Extract All).
-2. Klikoni dy herë **Install Fontes.cmd**.
+1. Shkarkoni instaluesin për Windows (`Fontes-Setup-….exe`) nga
+   [versioni më i fundit](https://github.com/ykarapazar/fontes/releases/latest) dhe klikoni dy herë mbi të.
    - Nëse Windows shfaq "Windows protected your PC": klikoni **More info**, pastaj **Run anyway**.
+2. Klikoni **Instalo**. Hapet një dritare dhe konfiguron Fontes.
 3. Kur pyetet nëse të dërgohen numërime anonime të përdorimit, shtypni Enter për jo.
 4. Pyet nëse të shtohen çelësat tani. Shtypni Enter për ta anashkaluar; shihni
    [Hapi i çelësave](#hapi-i-çelësave).
@@ -200,7 +200,7 @@ Menjëherë pas instalimit, instaluesi ofron të shtojë çelësat falas për Fr
 shtuar ose ndryshuar më vonë:
 
 - **Mac:** hapni sërish **Fontes Installer** dhe zgjidhni **Shto ose ndrysho çelësat**.
-- **Windows:** klikoni dy herë **Add or change keys.cmd** në dosjen e instaluesit.
+- **Windows:** hapni menynë Start, pastaj **Fontes** → **Shto ose ndrysho çelësat**.
 
 Shkrimi është i fshehur. Çelësat shkojnë në çdo aplikacion që e ka tashmë Fontes. Pas kësaj,
 mbyllni dhe rihapni aplikacionet. Ku merren çelësat dhe çfarë hapin: [KEYS.md](KEYS.md).
@@ -213,8 +213,8 @@ bëra pasi keni shtuar çelësa i përmbajnë ata çelësa: fshini ato që nuk j
 gjithashtu uv. Riekzekutimi i tij është i sigurt: e riparon konfigurimin dhe nuk ndryshon asgjë
 tjetër.
 
-Për ta hequr Fontes, hapni **Fontes Installer** dhe zgjidhni **Hiq** (Mac), ose klikoni dy herë
-**Uninstall Fontes.cmd** (Windows). Ai heq hyrjen `fontes`, bashkë me çelësat, nga çdo aplikacion.
+Për ta hequr Fontes, hapni **Fontes Installer** dhe zgjidhni **Hiq** (Mac), ose çinstaloni
+**Fontes** te Cilësimet → Aplikacionet (Windows). Ai heq hyrjen `fontes`, bashkë me çelësat, nga çdo aplikacion.
 Cilësimet tuaja të tjera dhe kopjet rezervë mbeten.
 
 ## Përditësimet

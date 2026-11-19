@@ -72,12 +72,11 @@ OpenAI Codex፣ Cursor፣ VS Code (GitHub Copilot)፣ Gemini CLI፣ Windsurf፣ 
 2. **መተግበሪያውን እንደገና ያስጀምሩ።** ሙሉ በሙሉ ዘግተው እንደገና ይክፈቱት።
 3. **ይጠይቁ:** *"Fontes በየትኞቹ የሕግ ክልሎች መፈለግ ይችላል?"* የአገሮቹን ዝርዝር ማሳየት አለበት።
 
-**በ Mac ላይ**፣ በአንድ ጠቅታ የሚጭን መጫኛ (installer) Fontesን በ Claude Desktop፣ Codex፣
+**በ Mac ወይም Windows ፒሲ ላይ**፣ በአንድ ጠቅታ የሚጭን መጫኛ (installer) Fontesን በ Claude Desktop፣ Codex፣
 Claude Code፣ Cursor፣ VS Code፣ Windsurf፣ Gemini CLI፣ Zed፣ LM Studio እና Cline ውስጥ፣ በኮምፒውተርዎ ላይ ባለው
-በእያንዳንዱ ውስጥ ያዘጋጃል፣ ከዚያም ቁልፎችዎን (keys) ለመጨመር ያቀርብልዎታል። የ Mac መጫኛውን
+በእያንዳንዱ ውስጥ ያዘጋጃል፣ ከዚያም ቁልፎችዎን (keys) ለመጨመር ያቀርብልዎታል። ለኮምፒውተርዎ የሚሆነውን መጫኛ
 ከ[የቅርብ ጊዜው ልቀት](https://github.com/ykarapazar/fontes/releases/latest) ያውርዱ፣ ከማስኬድዎ በፊትም እነዚያን መተግበሪያዎች ይዝጉ።
-የ Windows መጫኛ በመምጣት ላይ ነው።
-ዝርዝሩ: [INSTALL.md](INSTALL.md#በአንድ-ጠቅታ-የሚጭን-መጫኛ-mac)።
+ዝርዝሩ: [INSTALL.md](INSTALL.md#በአንድ-ጠቅታ-የሚጭን-መጫኛ-mac-እና-windows)።
 አንዳንድ ምንጮች ነፃ ቁልፍ ያስፈልጋቸዋል: [KEYS.md](KEYS.md) ን ይመልከቱ።
 
 <!-- map:start -->

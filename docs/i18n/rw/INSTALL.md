@@ -131,12 +131,10 @@ Mu kiganiro gishya, baza: *"Ni ayahe mafasi y'ubutabera Fontes ishobora gushakis
 igomba gusubiza itanga urutonde rw'ibihugu. Niba itabikoze, yifunge burundu wongere uyifungure indi
 nshuro imwe.
 
-## Porogaramu yo gushyiraho ukanze rimwe (Mac)
+## Porogaramu yo gushyiraho ukanze rimwe (Mac na Windows)
 
-Porogaramu yo gushyiraho ya Mac ishyira Fontes muri porogaramu zawe zose icyarimwe: Claude Desktop,
+Porogaramu yo gushyiraho ishyira Fontes muri porogaramu zawe zose icyarimwe: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio na Cline.
-Porogaramu yo gushyiraho ya Windows iri hafi; kugeza icyo gihe, koresha intambwe zagenewe porogaramu
-yawe ziri haruguru.
 
 **Mbere yo gutangira:** funga burundu buri porogaramu muri izi. Ibi ni ingenzi cyane kuri Claude Code:
 iyo ikora, yongera kwandika `~/.claude.json` kandi ishobora gusiba impinduka porogaramu yo gushyiraho
@@ -155,11 +153,11 @@ utyo (reba [Claude Code](#claude-code)).
    izo porogaramu. Niba ushaka kubanza kongeraho imfunguzo z'ubuntu zitari itegeko, ahubwo kanda
    **Ongeraho imfunguzo**; reba [Intambwe y'imfunguzo](#intambwe-yimfunguzo).
 
-**Windows** (porogaramu yo gushyiraho ya Windows nimara gusohoka)
+**Windows**
 
-1. Fungura (unzip) **Fontes Installer** wakuyemo (kanda iburyo → Extract All).
-2. Kanda kabiri kuri **Install Fontes.cmd**.
+1. Kuramo porogaramu yo gushyiraho ya Windows (`Fontes-Setup-….exe`) muri [verisiyo iheruka gusohoka](https://github.com/ykarapazar/fontes/releases/latest) hanyuma uyikandeho kabiri.
    - Niba Windows yerekanye "Windows protected your PC": kanda **More info**, hanyuma **Run anyway**.
+2. Kanda **Shyiraho**. Hazagaragara idirishya rishyiraho Fontes.
 3. Nibakubaza niba yakohereza imibare y'ikoreshwa itagaragaza nyirayo, kanda Enter kugira ngo uvuge oya.
 4. Irabaza niba yakongeraho imfunguzo ubu. Kanda Enter kugira ngo usimbuke; reba
    [Intambwe y'imfunguzo](#intambwe-yimfunguzo).
@@ -200,7 +198,7 @@ Ako kanya nyuma yo gushyiraho, porogaramu yo gushyiraho igusaba niba yakongeraho
 Bufaransa n'iza Leta Zunze Ubumwe za Amerika. Kugira ngo uzongereho cyangwa uzihindure nyuma:
 
 - **Mac:** ongera ufungure **Fontes Installer** uhitemo **Ongeraho cyangwa uhindure imfunguzo**.
-- **Windows:** kanda kabiri kuri **Add or change keys.cmd** mu bubiko bwa porogaramu yo gushyiraho.
+- **Windows:** fungura menu ya Start, hanyuma uhitemo **Fontes** → **Ongeraho cyangwa uhindure imfunguzo**.
 
 Ibyo wandika ntibigaragara. Imfunguzo zijya muri buri porogaramu isanzwe ifite Fontes. Nyuma yaho, funga
 porogaramu burundu wongere uzifungure. Aho wabona imfunguzo n'icyo zifungura: [KEYS.md](KEYS.md).
@@ -213,7 +211,7 @@ yitwa `<file>.fontes-backup-<date>`. Kopi zakozwe nyuma y'uko wongeyeho imfunguz
 siba izo utagikeneye. Inashyiraho uv. Kongera kuyikoresha nta kibazo biteza: ikosora ibyashyizweho kandi
 ntigire ikindi ihindura.
 
-Kugira ngo ukureho Fontes, fungura **Fontes Installer** uhitemo **Kuraho** (Mac), cyangwa ukande kabiri kuri **Uninstall Fontes.cmd** (Windows). Ikuraho icyanditswe cya `fontes`, imfunguzo zirimo, muri buri
+Kugira ngo ukureho Fontes, fungura **Fontes Installer** uhitemo **Kuraho** (Mac), cyangwa ukureho **Fontes** muri Settings → Apps (Windows). Ikuraho icyanditswe cya `fontes`, imfunguzo zirimo, muri buri
 porogaramu. Irindi genamiterere ryawe na kopi z'ububiko bigumaho.
 
 ## Ivugurura

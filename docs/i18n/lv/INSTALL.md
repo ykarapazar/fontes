@@ -133,11 +133,10 @@ Dažiem avotiem nepieciešama bezmaksas atslēga: skatiet [KEYS.md](KEYS.md).
 Jaunā sarunā pajautājiet: *“Kurās jurisdikcijās Fontes var meklēt?”* Lietotnei vajadzētu
 atbildēt ar valstu sarakstu. Ja tā nenotiek, vēlreiz aizveriet lietotni un atveriet to no jauna.
 
-## Instalētājs ar vienu klikšķi (Mac)
+## Instalētājs ar vienu klikšķi (Mac un Windows)
 
-Mac instalētājs iestata Fontes visās jūsu lietotnēs uzreiz: Claude Desktop, Codex, Claude Code,
-Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio un Cline. Windows
-instalētājs būs pieejams drīzumā; līdz tam izmantojiet augstāk norādītās darbības savai lietotnei.
+Instalētājs iestata Fontes visās jūsu lietotnēs uzreiz: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio un Cline.
 
 **Pirms sākat:** pilnībā aizveriet katru no šīm lietotnēm. Visvairāk tas attiecas uz Claude
 Code: darbības laikā tā pārraksta `~/.claude.json` un var atsaukt instalētāja izmaiņas. Ja
@@ -155,12 +154,13 @@ nevarat aizvērt Claude Code, labāk pievienojiet tai Fontes ar `claude mcp add`
    atveriet šīs lietotnes. Lai vispirms pievienotu neobligātās bezmaksas atslēgas, tā vietā
    noklikšķiniet uz **Pievienot atslēgas**; skatiet [Atslēgu solis](#atslēgu-solis).
 
-**Windows** (kad Windows instalētājs būs izlaists)
+**Windows**
 
-1. Izpakojiet lejupielādēto **Fontes Installer** (labā poga → Extract All).
-2. Veiciet dubultklikšķi uz **Install Fontes.cmd**.
+1. Lejupielādējiet Windows instalētāju (`Fontes-Setup-….exe`) no
+   [jaunākās versijas](https://github.com/ykarapazar/fontes/releases/latest) un veiciet uz tā dubultklikšķi.
    - Ja Windows parāda “Windows protected your PC”: noklikšķiniet uz **More info**, pēc tam uz
      **Run anyway**.
+2. Noklikšķiniet uz **Instalēt**. Atveras logs, kas iestata Fontes.
 3. Kad tiek jautāts, vai sūtīt anonīmus lietojuma skaitļus, lai atbildētu “nē”, nospiediet
    Enter.
 4. Tas jautā, vai pievienot atslēgas tagad. Lai izlaistu, nospiediet Enter; skatiet
@@ -203,7 +203,7 @@ Uzreiz pēc instalēšanas instalētājs piedāvā pievienot bezmaksas Francijas
 tās pievienotu vai mainītu vēlāk:
 
 - **Mac:** vēlreiz atveriet **Fontes Installer** un izvēlieties **Pievienot vai mainīt atslēgas**.
-- **Windows:** instalētāja mapē veiciet dubultklikšķi uz **Add or change keys.cmd**.
+- **Windows:** izvēlnē Sākt atveriet **Fontes** → **Pievienot vai mainīt atslēgas**.
 
 Ievadītais teksts netiek rādīts. Atslēgas tiek ierakstītas katrā lietotnē, kurā jau ir Fontes.
 Pēc tam aizveriet lietotnes un atveriet tās vēlreiz. Kur iegūt atslēgas un ko tās atver:
@@ -217,8 +217,8 @@ Kopijās, kas izveidotas pēc atslēgu pievienošanas, ir šīs atslēgas: izdz�
 vajadzīgas. Tas arī instalē uv. Atkārtota palaišana ir droša: tā salabo iestatījumus un neko
 citu nemaina.
 
-Lai noņemtu Fontes, atveriet **Fontes Installer** un izvēlieties **Noņemt** (Mac) vai veiciet
-dubultklikšķi uz **Uninstall Fontes.cmd** (Windows). Tas no visām lietotnēm noņem ierakstu `fontes`, ieskaitot
+Lai noņemtu Fontes, atveriet **Fontes Installer** un izvēlieties **Noņemt** (Mac) vai noņemiet
+**Fontes** sadaļā Settings → Apps (Windows). Tas no visām lietotnēm noņem ierakstu `fontes`, ieskaitot
 atslēgas. Jūsu pārējie iestatījumi un rezerves kopijas paliek.
 
 ## Atjauninājumi

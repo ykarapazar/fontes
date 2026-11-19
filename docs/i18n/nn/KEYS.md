@@ -19,8 +19,7 @@ svarar du på spørsmålet (trykk Enter for å hoppe over). For å leggje til el
 køyr **Add or change keys**:
 
 - Mac: opne Fontes Installer-appen igjen og vel **Legg til eller endre nøklar**.
-- Windows: dobbeltklikk på `Add or change keys.cmd` i installasjonsmappa. Installasjonsprogrammet for Windows
-  legg han òg, når det blir tilgjengeleg, i Start-menyen > Fontes.
+- Windows: opne Start-menyen, vel så **Fontes** → **Legg til eller endre nøklar**.
 
 Det du skriv, blir ikkje vist. For kvar nøkkel: lim han inn, trykk Enter for å behalde det som står der, eller skriv `-` for å
 fjerne han. Nøklane går inn i alle appar som allereie har Fontes.

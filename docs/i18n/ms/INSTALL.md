@@ -131,11 +131,10 @@ Sesetengah sumber memerlukan kunci percuma: lihat [KEYS.md](KEYS.md).
 Dalam sembang baharu, tanya: *"Bidang kuasa manakah yang boleh dicari oleh Fontes?"* Aplikasi sepatutnya
 menjawab dengan senarai negara. Jika tidak, tutup dan buka semula aplikasi sekali lagi.
 
-## Pemasang satu klik (Mac)
+## Pemasang satu klik (Mac dan Windows)
 
-Pemasang Mac menyediakan Fontes dalam semua aplikasi anda sekali gus: Claude Desktop, Codex, Claude Code,
-Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio dan Cline. Pemasang Windows akan
-datang; sehingga itu, gunakan langkah untuk aplikasi anda di atas.
+Pemasang menyediakan Fontes dalam semua aplikasi anda sekali gus: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio dan Cline.
 
 **Sebelum anda bermula:** tutup setiap aplikasi ini sepenuhnya. Ini paling penting untuk Claude Code:
 semasa ia berjalan, ia menulis semula `~/.claude.json` dan boleh membatalkan perubahan yang dibuat oleh
@@ -154,11 +153,12 @@ pemasang. Jika anda tidak dapat menutup Claude Code, tambah Fontes kepadanya den
    aplikasi-aplikasi itu. Untuk menambah kunci percuma pilihan dahulu, klik **Tambah kunci**
    sebaliknya; lihat [Langkah kunci](#langkah-kunci).
 
-**Windows** (sebaik sahaja pemasang Windows dikeluarkan)
+**Windows**
 
-1. Nyahzip **Fontes Installer** yang telah dimuat turun (klik kanan → Extract All).
-2. Klik dua kali **Install Fontes.cmd**.
+1. Muat turun pemasang Windows (`Fontes-Setup-….exe`) daripada
+   [keluaran terkini](https://github.com/ykarapazar/fontes/releases/latest) dan klik dua kali padanya.
    - Jika Windows memaparkan "Windows protected your PC": klik **More info**, kemudian **Run anyway**.
+2. Klik **Pasang**. Tetingkap dibuka dan menyediakan Fontes.
 3. Apabila ditanya sama ada hendak menghantar kiraan penggunaan tanpa nama, tekan Enter untuk tidak.
 4. Ia bertanya sama ada hendak menambah kunci sekarang. Tekan Enter untuk melangkau; lihat
    [Langkah kunci](#langkah-kunci).
@@ -199,7 +199,7 @@ Sejurus selepas pemasangan, pemasang menawarkan untuk menambah kunci percuma Per
 menambah atau menukarnya kemudian:
 
 - **Mac:** buka semula **Fontes Installer** dan pilih **Tambah atau tukar kunci**.
-- **Windows:** klik dua kali **Add or change keys.cmd** dalam folder pemasang.
+- **Windows:** dalam menu Start, klik **Fontes** → **Tambah atau tukar kunci**.
 
 Taipan disembunyikan. Kunci dimasukkan ke dalam setiap aplikasi yang sudah mempunyai Fontes. Tutup dan
 buka semula aplikasi selepas itu. Di mana untuk mendapatkan kunci dan apa yang dibukanya: [KEYS.md](KEYS.md).
@@ -212,8 +212,8 @@ Salinan yang dibuat selepas anda menambah kunci mengandungi kunci tersebut: pada
 lagi anda perlukan. Ia juga memasang uv. Menjalankannya semula adalah selamat: ia membaiki persediaan dan
 tidak mengubah apa-apa yang lain.
 
-Untuk membuang Fontes, buka **Fontes Installer** dan pilih **Buang** (Mac), atau klik dua kali
-**Uninstall Fontes.cmd** (Windows). Ia membuang entri `fontes`, termasuk kunci, daripada setiap aplikasi.
+Untuk membuang Fontes, buka **Fontes Installer** dan pilih **Buang** (Mac), atau nyahpasang **Fontes** dalam
+Settings → Apps (Windows). Ia membuang entri `fontes`, termasuk kunci, daripada setiap aplikasi.
 Tetapan anda yang lain dan salinan sandaran kekal.
 
 ## Kemas kini

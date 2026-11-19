@@ -76,12 +76,12 @@ Windsurf, Zed, LM Studio we beýlekiler.
 2. **Programmany täzeden açyň.** Ony doly ýapyň we täzeden açyň.
 3. **Soraň:** *“Fontes haýsy ýurisdiksiýalarda gözläp bilýär?”* Ol ýurtlaryň sanawyny bermeli.
 
-**Mac-da** bir basyşda gurnaýjy Fontes-i Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**Mac-da ýa-da Windows kompýuterinde** bir basyşda gurnaýjy Fontes-i Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio we Cline programmalarynda, kompýuteriňizdäki olaryň her birinde
-sazlaýar, soňra açarlaryňyzy goşmagy teklip edýär. Mac üçin gurnaýjyny
+sazlaýar, soňra açarlaryňyzy goşmagy teklip edýär. Kompýuteriňiz üçin gurnaýjyny
 [iň soňky neşirden](https://github.com/ykarapazar/fontes/releases/latest) ýükläň we ony işletmezden
-öň şol programmalary ýapyň. Windows üçin gurnaýjy ýakynda çykar. Jikme-jiklikler:
-[INSTALL.md](INSTALL.md#bir-basyşda-gurnaýjy-mac).
+öň şol programmalary ýapyň. Jikme-jiklikler:
+[INSTALL.md](INSTALL.md#bir-basyşda-gurnaýjy-mac-we-windows).
 Käbir çeşmelere mugt açar gerek: [KEYS.md](KEYS.md) serediň.
 
 <!-- map:start -->

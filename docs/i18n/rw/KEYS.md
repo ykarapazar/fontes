@@ -19,8 +19,7 @@ usimbuke; kuri Windows, subiza ikibazo (kanda Enter kugira ngo usimbuke). Kugira
 cyangwa uhindure imfunguzo nyuma, koresha **Ongeraho cyangwa uhindure imfunguzo**:
 
 - Mac: ongera ufungure porogaramu Fontes Installer uhitemo **Ongeraho cyangwa uhindure imfunguzo**.
-- Windows: kanda kabiri kuri `Add or change keys.cmd` mu bubiko bwa porogaramu yo gushyiraho. Porogaramu
-  yo gushyiraho ya Windows, nimara kuboneka, izabishyira no muri Start menu > Fontes.
+- Windows: fungura menu ya Start, hanyuma uhitemo **Fontes** → **Ongeraho cyangwa uhindure imfunguzo**.
 
 Ibyo wandika ntibigaragara. Kuri buri rufunguzo: rwomeke, kanda Enter kugira ngo ugumane urusanzwe,
 cyangwa wandike `-` kugira ngo urukureho. Imfunguzo zijya muri buri porogaramu isanzwe ifite Fontes.

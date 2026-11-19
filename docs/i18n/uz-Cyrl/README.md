@@ -76,11 +76,11 @@ Windsurf, Zed, LM Studio ва бошқалар.
 2. **Иловани қайта ишга туширинг.** Уни бутунлай ёпинг ва қайта очинг.
 3. **Сўранг:** *“Fontes қайси юрисдикцияларда қидира олади?”* У мамлакатлар рўйхатини бериши керак.
 
-**Mac'да** бир босишда ўрнатувчи Fontes'ни Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**Mac ёки Windows ПК'да** бир босишда ўрнатувчи Fontes'ни Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio ва Cline иловаларида, компьютерингиздаги ҳар бирида созлайди,
-сўнг калитларингизни қўшишни таклиф қилади. Mac учун ўрнатувчини [охирги релиз](https://github.com/ykarapazar/fontes/releases/latest) саҳифасидан юклаб олинг
-ва уни ишга туширишдан олдин бу иловаларни ёпинг. Windows учун ўрнатувчи тез орада чиқади. Батафсил:
-[INSTALL.md](INSTALL.md#бир-босишда-ўрнатувчи-mac).
+сўнг калитларингизни қўшишни таклиф қилади. Компьютерингиз учун ўрнатувчини [охирги релиз](https://github.com/ykarapazar/fontes/releases/latest) саҳифасидан юклаб олинг
+ва уни ишга туширишдан олдин бу иловаларни ёпинг. Батафсил:
+[INSTALL.md](INSTALL.md#бир-босишда-ўрнатувчи-mac-ва-windows).
 Баъзи манбалар учун бепул калит керак: қаранг [KEYS.md](KEYS.md).
 
 <!-- map:start -->

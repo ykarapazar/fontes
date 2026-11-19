@@ -19,8 +19,7 @@ En un Mac, feu clic a **Afegeix claus**, o a **Fet** per ometre-ho; a Windows, r
 **Add or change keys**:
 
 - Mac: torneu a obrir l'aplicació Fontes Installer i trieu **Afegeix o canvia claus**.
-- Windows: feu doble clic a `Add or change keys.cmd` a la carpeta de l'instal·lador. El programa
-  d'instal·lació per a Windows, quan estigui disponible, també el posa a Start menu > Fontes.
+- Windows: obriu el menú Inici, després **Fontes** → **Afegeix o canvia claus**.
 
 El que escriviu no es mostra. Per a cada clau: enganxeu-la, premeu Retorn per conservar l'actual o
 escriviu `-` per eliminar-la. Les claus van a totes les aplicacions que ja tenen Fontes.

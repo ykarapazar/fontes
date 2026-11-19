@@ -131,11 +131,10 @@ E puer Quelle brauchen e gratis Schlëssel: kuckt [KEYS.md](KEYS.md).
 Frot an engem neie Chat: *„Wéi eng Rechtsuerdnunge kann Fontes duerchsichen?“* D'App sollt mat
 enger Lëscht vu Länner äntweren. Wann net, maacht d'App nach eng Kéier zou a nees op.
 
-## Installatiounsprogramm mat engem Klick (Mac)
+## Installatiounsprogramm mat engem Klick (Mac an Windows)
 
-Den Installatiounsprogramm fir Mac riicht Fontes an engem Gang an all Ären Apps an: Claude Desktop,
+Den Installatiounsprogramm riicht Fontes an engem Gang an all Ären Apps an: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio a Cline.
-En Installatiounsprogramm fir Windows ass ënnerwee; bis dohin benotzt d'Schrëtt fir Är App hei uewen.
 
 **Ier Dir ufänkt:** Maacht all dës Apps komplett zou. Dat ass besonnesch fir Claude Code wichteg:
 Wärend et leeft, schreift et `~/.claude.json` nei a kann d'Ännerung vum Installatiounsprogramm
@@ -154,13 +153,12 @@ réckgängeg maachen. Wann Dir Claude Code net zoumaache kënnt, setzt Fontes am
    **Schlësselen derbäisetzen**; kuckt
    [Schlësselen am Installatiounsprogramm](#schlësselen-am-installatiounsprogramm).
 
-**Windows** (soubal den Installatiounsprogramm fir Windows eraus ass)
+**Windows**
 
-1. Paakt den erofgeluedenen **Fontes Installer** aus (Klick mat der rietser Maustast → **Extract
-   All**).
-2. Klickt duebel op **Install Fontes.cmd**.
+1. Luet den Windows-Installatiounsprogramm (`Fontes-Setup-….exe`) vun der [neister Versioun](https://github.com/ykarapazar/fontes/releases/latest) erof a klickt duebel drop.
    - Wann Windows "Windows protected your PC" weist: Klickt op **More info**, an dann op
      **Run anyway**.
+2. Klickt op **Installéieren**. Et mécht sech e Fenster op, dat Fontes ageriicht.
 3. Wann et freet, ob Dir anonym Notzungszuele schécke wëllt, dréckt Enter fir nee.
 4. Et freet, ob Dir elo Schlësselen derbäisetze wëllt. Dréckt Enter fir ze iwwersprangen; kuckt
    [Schlësselen am Installatiounsprogramm](#schlësselen-am-installatiounsprogramm).
@@ -202,7 +200,7 @@ Direkt no der Installatioun proposéiert den Installatiounsprogramm, déi gratis
 Frankräich an d'USA derbäizesetzen. Fir se méi spéit derbäizesetzen oder z'änneren:
 
 - **Mac:** Maacht **Fontes Installer** nees op a wielt **Schlësselen derbäisetzen oder änneren**.
-- **Windows:** Klickt duebel op **Add or change keys.cmd** am Dossier vum Installatiounsprogramm.
+- **Windows:** Maacht de Start-Menü op a wielt **Fontes** → **Add or change keys**.
 
 Wat Dir tippt, bleift verstoppt. D'Schlësselen ginn an all App derbäigesat, déi Fontes schonn huet.
 Maacht d'Apps duerno zou an nees op. Wou Dir d'Schlësselen kritt a wat se zougänglech maachen:
@@ -217,7 +215,7 @@ enthalen dës Schlësselen: läscht déi Kopien, déi Dir net méi braucht. En i
 eng Kéier lafe loossen ass ouni Risiko: et fléckt d'Installatioun an ännert soss näischt.
 
 Fir Fontes ewechzehuelen, maacht **Fontes Installer** op a wielt **Ewechhuelen** (Mac), oder
-klickt duebel op **Uninstall Fontes.cmd** (Windows). Dat hëlt d'Entrée `fontes`, mat de
+huelt **Fontes** an de Settings → Apps ewech (Windows). Dat hëlt d'Entrée `fontes`, mat de
 Schlësselen, aus all App eraus. Är aner Astellungen an d'Sécherheetskopie bleiwen.
 
 ## Updates

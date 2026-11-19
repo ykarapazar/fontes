@@ -77,13 +77,13 @@ Pukyukunap imayna kasqan (sapa p'unchaw qhawasqa): [ykarapazar.github.io/fontes/
 2. **Aplicacionta wakmanta qallarichiy.** Tukuy-tukuyta wichqay, hinaspa wakmanta kichay.
 3. **Tapuy:** *"Mayqin jurisdicciónkunapi Fontes maskanman?"* Suyukunap listantam qunan.
 
-**Macpiqa** huk clickllawan instaladormi Fontesta churan Claude Desktop,
+**Macpiqa utaq Windows computadorapiqa** huk clickllawan instaladormi Fontesta churan Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio, Cline nisqakunapi,
 computadoraykipi kaq sapakamapi, chaymanta llaveykikunata yapayta munanki chayqa tapusunki.
-Mac instaladorta
+computadoraykipaq instaladorta
 [qhipa kaq lluqsiymanta](https://github.com/ykarapazar/fontes/releases/latest) uraykuchiy, manaraq purichichkaspataq chay
-aplicacionkunata wichqay. Windowspaq instaladormi hamuchkan. Sut'inchaykuna:
-[INSTALL.md](INSTALL.md#huk-clickllawan-instalador-mac).
+aplicacionkunata wichqay. Sut'inchaykuna:
+[INSTALL.md](INSTALL.md#huk-clickllawan-instalador-mac-utaq-windows).
 Wakin pukyukunaqa mana qullqiyuq llavetam necesitan: [KEYS.md](KEYS.md) qhaway.
 
 <!-- map:start -->

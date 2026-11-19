@@ -115,9 +115,9 @@ của bạn), hãy gửi email tới fontesmcp@proton.me. Nguồn đó sẽ đư
 
 Mọi ứng dụng MCP có thể chạy máy chủ cục bộ (stdio), ví dụ Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio và Cline. Fontes
-chạy trên macOS, Windows và Linux, ở bất kỳ đâu uv chạy được (Python 3.13+). Trên máy Mac, một trình cài đặt một lần nhấp thiết lập
+chạy trên macOS, Windows và Linux, ở bất kỳ đâu uv chạy được (Python 3.13+). Trên máy Mac hoặc PC Windows, một trình cài đặt một lần nhấp thiết lập
 Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio và
-Cline trong một lần; trình cài đặt cho Windows sắp ra mắt. Các bước cho từng ứng dụng: [INSTALL.md](INSTALL.md).
+Cline trong một lần. Các bước cho từng ứng dụng: [INSTALL.md](INSTALL.md).
 
 ## Tôi có thể đóng góp mã không?
 

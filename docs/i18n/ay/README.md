@@ -77,11 +77,11 @@ Jalsunakax kunjamäski (sapa uru uñakipata): [ykarapazar.github.io/fontes/statu
 2. **Aplicación wasitat qalltayam.** Taqpach jist'antam, ukat wasitat jist'aram.
 3. **Jiskt'am:** *"Kawkïr jurisdiccionanakansa Fontes thaqaspa?"* Markanak siqichañapawa.
 
-**Mac ukanxa**, mä click instaladorax Fontes Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**Mac jan ukax Windows ukanxa**, mä click instaladorax Fontes Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio, Cline ukanakan wakicht'i, computadoraman sapa maynin, ukat
-llavenakam yapxatañ munasmati sasaw jiskt'i. Mac instalador [qhipa apsuwita](https://github.com/ykarapazar/fontes/releases/latest) ukat apaqam, ukat
-janïr irnaqaykasax uka aplicacionanak jist'antam. Windows instaladorax jutaskiwa. Juk'ampi:
-[INSTALL.md](INSTALL.md#mä-click-instalador-mac).
+llavenakam yapxatañ munasmati sasaw jiskt'i. Computadoraman instalador [qhipa apsuwita](https://github.com/ykarapazar/fontes/releases/latest) ukat apaqam, ukat
+janïr irnaqaykasax uka aplicacionanak jist'antam. Juk'ampi:
+[INSTALL.md](INSTALL.md#mä-click-instalador-mac-ukat-windows).
 Yaqhip jalsunakax inaki llaveniw wakisi: [KEYS.md](KEYS.md) uñjam.
 
 <!-- map:start -->

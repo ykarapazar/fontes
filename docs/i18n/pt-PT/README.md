@@ -76,12 +76,12 @@ Estado das fontes (verificado diariamente): [ykarapazar.github.io/fontes/status/
 2. **Reinicie a aplicação.** Feche-a completamente e volte a abri-la.
 3. **Pergunte:** *"Em que jurisdições pode o Fontes pesquisar?"* Deverá listar os países.
 
-**Num Mac**, um instalador de um clique configura o Fontes no Claude Desktop, Codex, Claude Code,
+**Num Mac ou PC com Windows**, um instalador de um clique configura o Fontes no Claude Desktop, Codex, Claude Code,
 Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio e Cline, em cada uma destas aplicações que
-exista no seu computador, e depois propõe-lhe adicionar as suas chaves. Transfira o instalador para
-Mac da [versão mais recente](https://github.com/ykarapazar/fontes/releases/latest) e feche essas aplicações antes
-de o executar. Está a caminho um instalador para Windows. Pormenores:
-[INSTALL.md](INSTALL.md#instalador-de-um-clique-mac).
+exista no seu computador, e depois propõe-lhe adicionar as suas chaves. Transfira o instalador para o seu computador da
+[versão mais recente](https://github.com/ykarapazar/fontes/releases/latest) e feche essas aplicações antes
+de o executar. Pormenores:
+[INSTALL.md](INSTALL.md#instalador-de-um-clique-mac-e-windows).
 Algumas fontes precisam de uma chave gratuita: consulte [KEYS.md](KEYS.md).
 
 <!-- map:start -->

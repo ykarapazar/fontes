@@ -19,8 +19,7 @@ răspundeți la întrebare (apăsați Enter pentru a sări peste ea). Pentru a a
 modifica cheile mai târziu, rulați **Adăugați sau modificați cheile**:
 
 - Mac: deschideți din nou aplicația Fontes Installer și alegeți **Adăugați sau modificați cheile**.
-- Windows: faceți dublu clic pe `Add or change keys.cmd` în folderul programului de instalare. Programul de
-  instalare pentru Windows, după ce va fi disponibil, îl pune și în Start menu > Fontes.
+- Windows: deschideți meniul Start, apoi alegeți **Fontes** → **Adăugați sau modificați cheile**.
 
 Textul tastat este ascuns. Pentru fiecare cheie: lipiți-o, apăsați Enter pentru a păstra ce există deja sau
 tastați `-` pentru a o elimina. Cheile ajung în fiecare aplicație care are deja Fontes.

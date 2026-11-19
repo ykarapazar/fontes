@@ -77,12 +77,12 @@ Fontes-ը անվճար, բաց կոդով MCP սերվեր է։ Այն թույ�
 3. **Հարցրեք.** *«Ո՞ր իրավազորություններում կարող է որոնել Fontes-ը»։* Հավելվածը պետք է ցույց տա
    երկրների ցանկ։
 
-**Mac-ում** մեկ սեղմումով տեղադրիչը կարգավորում է Fontes-ը Claude Desktop, Codex, Claude Code,
+**Mac-ում կամ Windows PC-ում** մեկ սեղմումով տեղադրիչը կարգավորում է Fontes-ը Claude Desktop, Codex, Claude Code,
 Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio և Cline հավելվածներում՝ դրանցից
 յուրաքանչյուրում, որը կա ձեր համակարգչում, ապա առաջարկում է ավելացնել ձեր բանալիները։ Ներբեռնեք
-Mac-ի տեղադրիչը [վերջին թողարկումից](https://github.com/ykarapazar/fontes/releases/latest) և գործարկելուց առաջ
-փակեք այդ հավելվածները։ Windows-ի տեղադրիչը շուտով կլինի։ Մանրամասները՝
-[INSTALL.md](INSTALL.md#մեկ-սեղմումով-տեղադրիչ-mac)։
+ձեր համակարգչի տեղադրիչը [վերջին թողարկումից](https://github.com/ykarapazar/fontes/releases/latest) և գործարկելուց առաջ
+փակեք այդ հավելվածները։ Մանրամասները՝
+[INSTALL.md](INSTALL.md#մեկ-սեղմումով-տեղադրիչ-mac-և-windows)։
 Որոշ աղբյուրներ պահանջում են անվճար բանալի. տե՛ս [KEYS.md](KEYS.md)։
 
 <!-- map:start -->

@@ -19,8 +19,7 @@ Açarlar istəyə bağlıdır. Onları sonra əlavə edə bilərsiniz.
 işə salın:
 
 - Mac: Fontes Installer proqramını yenidən açıb **Açarları əlavə et və ya dəyiş** seçin.
-- Windows: quraşdırıcı qovluğundakı `Add or change keys.cmd` faylına iki dəfə klikləyin. Windows
-  quraşdırma proqramı, əlçatan olduqdan sonra, onu həmçinin Start menu > Fontes-ə yerləşdirir.
+- Windows: Start menu-nu açın, sonra **Fontes** → **Açarları əlavə et və ya dəyiş**.
 
 Yazdığınız görünmür. Hər açar üçün: onu yapışdırın, mövcud olanı saxlamaq üçün Enter basın və ya
 silmək üçün `-` yazın. Açarlar Fontes-in artıq olduğu hər proqrama əlavə olunur.

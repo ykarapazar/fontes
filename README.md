@@ -72,11 +72,11 @@ Source status (checked daily): [ykarapazar.github.io/fontes/status/](https://yka
 2. **Restart the app.** Quit it completely and open it again.
 3. **Ask:** *"Which jurisdictions can Fontes search?"* It should list the countries.
 
-**On a Mac**, a one-click installer sets up Fontes in Claude Desktop, Codex, Claude Code, Cursor,
+**On a Mac or Windows PC**, a one-click installer sets up Fontes in Claude Desktop, Codex, Claude Code, Cursor,
 VS Code, Windsurf, Gemini CLI, Zed, LM Studio and Cline, in each one on your computer, then
-offers to add your keys. Download the Mac installer from the [latest release](https://github.com/ykarapazar/fontes/releases/latest) and quit
-those apps before you run it. A Windows installer is on its way. Details:
-[docs/INSTALL.md](docs/INSTALL.md#one-click-installer-mac).
+offers to add your keys. Download the installer for your computer from the [latest release](https://github.com/ykarapazar/fontes/releases/latest) and quit
+those apps before you run it. Details:
+[docs/INSTALL.md](docs/INSTALL.md#one-click-installer-mac-and-windows).
 Some sources need a free key: see [docs/KEYS.md](docs/KEYS.md).
 
 <!-- map:start -->
@@ -720,6 +720,9 @@ As of 18 November 2026. The [status page](https://ykarapazar.github.io/fontes/st
 ## Licence
 
 Apache 2.0, see [LICENSE](LICENSE).
+
+Code signing policy: [docs/CODE_SIGNING.md](docs/CODE_SIGNING.md). Free code signing provided by
+[SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org) (application pending).
 
 Source data remains under each publisher's licence (e.g. Open Justice Licence, Open Government
 Licence, CC BY 4.0). Fontes ships no legal texts; it fetches them when asked, and every answer

@@ -114,9 +114,9 @@ limitele de trafic), trimiteți un e-mail la fontesmcp@proton.me. Sursa va fi re
 
 Cu orice aplicație MCP care poate rula un server local (stdio), de exemplu Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio și Cline. Fontes rulează pe
-macOS, Windows și Linux, oriunde rulează uv (Python 3.13+). Pe Mac, un program de instalare cu un clic
+macOS, Windows și Linux, oriunde rulează uv (Python 3.13+). Pe Mac sau PC Windows, un program de instalare cu un clic
 configurează deodată Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
-LM Studio și Cline; un program de instalare pentru Windows este în pregătire. Pașii pentru fiecare aplicație: [INSTALL.md](INSTALL.md).
+LM Studio și Cline. Pașii pentru fiecare aplicație: [INSTALL.md](INSTALL.md).
 
 ## Pot contribui cu cod?
 

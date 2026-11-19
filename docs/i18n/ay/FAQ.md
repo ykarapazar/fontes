@@ -125,9 +125,9 @@ ukax jiwt'ayatäniwa.
 Mä local (stdio) servidor irnaqayañ puedki uka kuna MCP aplicacionasa, amtañataki Claude
 Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM
 Studio, Cline. Fontes ukax macOS, Windows, Linux ukanakan irnaqi, uv irnaqki uka kawkinsa
-(Python 3.13+). Mac ukanxa, mä click instaladorax Claude Desktop, Codex,
+(Python 3.13+). Mac jan ukax Windows PC ukanxa, mä click instaladorax Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio, Cline ukanak mä kutik
-wakicht'i; Windows instaladorax jutaskiwa. Sapa aplicacionatak lurawinaka: [INSTALL.md](INSTALL.md).
+wakicht'i. Sapa aplicacionatak lurawinaka: [INSTALL.md](INSTALL.md).
 
 ## Código churirista?
 

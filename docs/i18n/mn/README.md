@@ -74,12 +74,12 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 2. **Аппыг дахин эхлүүлнэ үү.** Бүрэн хаагаад дахин нээнэ үү.
 3. **Асуу:** *"Fontes ямар харьяаллуудаас хайж чадах вэ?"* Энэ нь улсуудын жагсаалт гаргах ёстой.
 
-**Mac дээр** нэг товшилтын суулгагч Fontes-ийг Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**Mac эсвэл Windows дээр** нэг товшилтын суулгагч Fontes-ийг Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio болон Cline-д — таны компьютер дээр байгаа бүрд нь — тохируулж,
-дараа нь түлхүүрээ нэмэхийг санал болгоно. Mac-ийн суулгагчийг [хамгийн сүүлийн
+дараа нь түлхүүрээ нэмэхийг санал болгоно. Суулгагчийг компьютерт зориулж [хамгийн сүүлийн
 хувилбараас](https://github.com/ykarapazar/fontes/releases/latest) татаж аваад, ажиллуулахаасаа өмнө
-эдгээр аппыг хаана уу. Windows-ийн суулгагч удахгүй гарна. Дэлгэрэнгүй:
-[INSTALL.md](INSTALL.md#нэг-товшилтын-суулгагч-mac).
+эдгээр аппыг хаана уу. Дэлгэрэнгүй:
+[INSTALL.md](INSTALL.md#нэг-товшилтын-суулгагч-mac-ба-windows).
 Зарим эх сурвалжид үнэгүй түлхүүр хэрэгтэй: [KEYS.md](KEYS.md)-г үзнэ үү.
 
 <!-- map:start -->

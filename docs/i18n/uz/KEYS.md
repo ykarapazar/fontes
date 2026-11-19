@@ -20,8 +20,7 @@ keyinroq qoʻshish yoki oʻzgartirish uchun **Add or change keys** ni ishga tush
 
 - Mac: Fontes Installer ilovasini qayta oching va **Kalitlarni qoʻshish yoki oʻzgartirish** ni
   tanlang.
-- Windows: oʻrnatuvchi jildidagi `Add or change keys.cmd` ni ikki marta bosing. Windows oʻrnatish
-  dasturi, mavjud boʻlganda, uni Start menyusi > Fontes’ga ham joylashtiradi.
+- Windows: Start menu ni oching, keyin **Fontes** → **Kalitlarni qoʻshish yoki oʻzgartirish**.
 
 Yozilgan matn yashirin. Har bir kalit uchun: uni joylashtiring, mavjudini saqlab qolish uchun
 Enter tugmasini bosing yoki olib tashlash uchun `-` yozing. Kalitlar Fontes allaqachon oʻrnatilgan

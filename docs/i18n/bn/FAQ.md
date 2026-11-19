@@ -105,9 +105,8 @@ fontesmcp@proton.me-এ ইমেইল করুন। উৎসটি সং�
 
 যেকোনো MCP অ্যাপ যা স্থানীয় (stdio) সার্ভার চালাতে পারে, উদাহরণস্বরূপ Claude Desktop, Claude Code, Codex,
 Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ও Cline। Fontes চলে macOS, Windows ও
-Linux-এ, যেখানেই uv চলে (Python 3.13+)। Mac-এ, এক-ক্লিকের একটি ইনস্টলার একবারে Claude Desktop, Codex,
-Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ও Cline সেট আপ করে; Windows-এর জন্য একটি
-ইনস্টলার আসছে। প্রতিটি অ্যাপের ধাপ: [INSTALL.md](INSTALL.md)।
+Linux-এ, যেখানেই uv চলে (Python 3.13+)। Mac বা Windows PC-তে, এক-ক্লিকের একটি ইনস্টলার একবারে Claude Desktop, Codex,
+Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ও Cline সেট আপ করে। প্রতিটি অ্যাপের ধাপ: [INSTALL.md](INSTALL.md)।
 
 ## আমি কি কোড দিয়ে অবদান রাখতে পারি?
 

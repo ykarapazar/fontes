@@ -19,9 +19,7 @@ alla domanda (prema Invio per saltare). Per aggiungere o modificare chiavi in se
 esegua **Add or change keys**:
 
 - Mac: riapra l'app Fontes Installer e scelga **Aggiungi o modifica chiavi**.
-- Windows: faccia doppio clic su `Add or change keys.cmd` nella cartella del programma di
-  installazione. Il programma di setup per Windows, quando sarà disponibile, lo inserisce anche in
-  Start menu > Fontes.
+- Windows: apra il menu Start, quindi **Fontes** → **Aggiungi o modifica chiavi**.
 
 Ciò che digita non viene mostrato. Per ogni chiave: la incolli, prema Invio per mantenere quella
 attuale o digiti `-` per rimuoverla. Le chiavi vanno a tutte le app che hanno già Fontes.

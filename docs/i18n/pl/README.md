@@ -77,12 +77,12 @@ Stan źródeł (sprawdzany codziennie): [ykarapazar.github.io/fontes/status/](ht
 3. **Zapytaj:** *„W jakich jurysdykcjach może wyszukiwać Fontes?”* Aplikacja powinna wyświetlić
    listę krajów.
 
-**Na komputerze Mac** instalator jednym kliknięciem konfiguruje Fontes w aplikacjach Claude Desktop,
+**Na komputerze Mac lub z systemem Windows** instalator jednym kliknięciem konfiguruje Fontes w aplikacjach Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio i Cline, w każdej z nich,
 która jest na Twoim komputerze, a następnie proponuje dodanie Twoich kluczy. Pobierz instalator dla
-komputerów Mac z [najnowszego wydania](https://github.com/ykarapazar/fontes/releases/latest) i zamknij
-te aplikacje, zanim go uruchomisz. Instalator dla systemu Windows jest w przygotowaniu. Szczegóły:
-[INSTALL.md](INSTALL.md#instalator-jednym-kliknięciem-mac).
+swojego komputera z [najnowszego wydania](https://github.com/ykarapazar/fontes/releases/latest) i zamknij
+te aplikacje, zanim go uruchomisz. Szczegóły:
+[INSTALL.md](INSTALL.md#instalator-jednym-kliknięciem-mac-i-windows).
 Niektóre źródła wymagają bezpłatnego klucza: zobacz [KEYS.md](KEYS.md).
 
 <!-- map:start -->

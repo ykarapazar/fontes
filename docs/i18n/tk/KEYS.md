@@ -18,8 +18,7 @@ Açarlar islege bagly. Olary soňra goşup bilersiňiz.
 üçin Enter basyň). Açarlary soňra goşmak ýa-da üýtgetmek üçin **Add or change keys** işlediň:
 
 - Mac: Fontes Installer programmasyny täzeden açyň we **Açarlary goş ýa-da üýtget** saýlaň.
-- Windows: gurnaýjy bukjasyndaky `Add or change keys.cmd` faýlyna iki gezek basyň. Windows
-  gurnaýjysy çykanda, ony Start menu > Fontes içine hem ýerleşdirýär.
+- Windows: Start menu-ni açyň, soňra **Fontes** → **Açarlary goş ýa-da üýtget**.
 
 Ýazylýan tekst gizlin bolýar. Her açar üçin: ony goýuň, bar bolany saklamak üçin Enter
 düwmesine basyň ýa-da aýyrmak üçin `-` ýazyň. Açarlar Fontes eýýäm bar bolan her programma

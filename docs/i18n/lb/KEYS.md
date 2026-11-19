@@ -19,8 +19,7 @@ fir ze iwwersprangen; op Windows beäntwert d'Fro (dréckt Enter, fir ze iwwersp
 spéit Schlësselen derbäizesetzen oder z'änneren, lafe loosst **Add or change keys**:
 
 - Mac: Maacht d'App Fontes Installer nees op a wielt **Schlësselen derbäisetzen oder änneren**.
-- Windows: Klickt duebel op `Add or change keys.cmd` am Dossier vum Installatiounsprogramm. De
-  Windows-Setup-Programm setzt et, soubal en disponibel ass, och an Start menu > Fontes.
+- Windows: Maacht de Start menu op, dann **Fontes** → **Schlësselen derbäisetzen oder änneren**.
 
 Wat Dir tippt, bleift verstoppt. Fir all Schlëssel: fügt en an, dréckt Enter, fir dat ze halen,
 wat do ass, oder tippt `-`, fir en ze läschen. D'Schlësselen ginn an all App derbäigesat, déi

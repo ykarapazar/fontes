@@ -128,11 +128,10 @@ Somme kjelder krev ein gratis nøkkel: sjå [KEYS.md](KEYS.md).
 I ein ny samtale, spør: *«Kva jurisdiksjonar kan Fontes søkje i?»* Appen skal svare med ei
 liste over land. Om han ikkje gjer det, avslutt og opne appen éin gong til.
 
-## Installasjonsprogram med eitt klikk (Mac)
+## Installasjonsprogram med eitt klikk (Mac og Windows)
 
-Mac-installasjonsprogrammet set opp Fontes i alle appane dine samstundes: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio og Cline. Eit
-installasjonsprogram for Windows er på veg; fram til då kan du bruke stega for appen din ovanfor.
+Installasjonsprogrammet set opp Fontes i alle appane dine samstundes: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio og Cline.
 
 **Før du byrjar:** avslutt kvar av desse appane heilt. Dette er viktigast for Claude Code:
 medan han køyrer, skriv han om `~/.claude.json` og kan gjere om endringa frå installasjonsprogrammet. Om du ikkje kan
@@ -150,11 +149,12 @@ avslutte Claude Code, legg heller Fontes til i han med `claude mcp add` (sjå [C
    Vil du leggje til dei valfrie gratisnøklane først, klikkar du heller på **Legg til nøklar**; sjå
    [Nøkkelsteget](#nøkkelsteget).
 
-**Windows** (når installasjonsprogrammet for Windows er gjeve ut)
+**Windows**
 
-1. Pakk ut den nedlasta **Fontes Installer** (høgreklikk → Extract All).
-2. Dobbeltklikk på **Install Fontes.cmd**.
+1. Last ned Windows-installasjonsprogrammet (`Fontes-Setup-….exe`) frå den
+   [nyaste utgjevinga](https://github.com/ykarapazar/fontes/releases/latest) og dobbeltklikk på det.
    - Om Windows viser «Windows protected your PC»: klikk **More info**, og så **Run anyway**.
+2. Klikk på **Installer**. Eit vindauge opnar seg og set opp Fontes.
 3. Når du blir spurd om du vil sende anonyme brukstal, trykk Enter for nei.
 4. Det spør om du vil leggje til nøklar no. Trykk Enter for å hoppe over; sjå [Nøkkelsteget](#nøkkelsteget).
 5. Når det står **Done**, opne KI-appane dine igjen. Om ein av dei framleis køyrde, lukk han
@@ -194,7 +194,7 @@ Rett etter installeringa tilbyr installasjonsprogrammet å leggje til dei gratis
 endre dei seinare:
 
 - **Mac:** opne **Fontes Installer** igjen og vel **Legg til eller endre nøklar**.
-- **Windows:** dobbeltklikk på **Add or change keys.cmd** i installasjonsmappa.
+- **Windows:** opne startmenyen og vel så **Fontes** → **Legg til eller endre nøklar**.
 
 Det du skriv, blir ikkje vist. Nøklane går inn i alle appar som allereie har Fontes. Avslutt og opne appane
 igjen etterpå. Kvar du får nøklane, og kva dei gjev tilgang til: [KEYS.md](KEYS.md).
@@ -206,7 +206,7 @@ Før det endrar ei fil, lagrar det ein kopi ved sida av, kalla `<file>.fontes-ba
 laga etter at du la til nøklar, inneheld desse nøklane: slett dei du ikkje lenger treng. Det
 installerer òg uv. Det er trygt å køyre det på nytt: det reparerer oppsettet og endrar ikkje noko anna.
 
-For å fjerne Fontes, opne **Fontes Installer** og vel **Fjern** (Mac), eller dobbeltklikk på **Uninstall Fontes.cmd** (Windows). Det fjernar `fontes`-oppføringa, nøklane medrekna, frå alle appar. Dei andre innstillingane dine
+For å fjerne Fontes, opne **Fontes Installer** og vel **Fjern** (Mac), eller avinstaller **Fontes** under Innstillingar → Apps (Windows). Det fjernar `fontes`-oppføringa, nøklane medrekna, frå alle appar. Dei andre innstillingane dine
 og tryggingskopiane blir verande.
 
 ## Oppdateringar

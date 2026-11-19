@@ -19,8 +19,7 @@ beantwoord op Windows de vraag (druk op Enter om over te slaan). Om later sleute
 te wijzigen, voert u **Add or change keys** uit:
 
 - Mac: open de app Fontes Installer opnieuw en kies **Sleutels toevoegen of wijzigen**.
-- Windows: dubbelklik op `Add or change keys.cmd` in de map van het installatieprogramma. Het
-  Windows-installatieprogramma zet het, zodra het beschikbaar is, ook in Startmenu > Fontes.
+- Windows: open het Startmenu en kies **Fontes** → **Sleutels toevoegen of wijzigen**.
 
 Wat u typt blijft verborgen. Voor elke sleutel: plak hem, druk op Enter om te houden wat er staat,
 of typ `-` om hem te verwijderen. De sleutels worden toegevoegd aan elke app die Fontes al heeft.

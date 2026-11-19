@@ -132,11 +132,11 @@ Peteĩ chat pyahúpe, eporandu: *"Mba'e jurisdicción-pepa ikatu oheka Fontes?"*
 ombohovaiva'erã peteĩ tetã lista reheve. Ndojapóiramo, emboty ha eipe'a jey aplicación
 peteĩ jey.
 
-## Instalador peteĩ click-pe (Mac)
+## Instalador peteĩ click-pe (Mac ha Windows)
 
-Instalador Mac-pe g̃uarã omohenda Fontes opaite nde aplicación-pe peteĩ jeýpe: Claude Desktop,
+Instalador omohenda Fontes opaite nde aplicación-pe peteĩ jeýpe: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ha
-Cline. Peteĩ instalador Windows-pe g̃uarã oúma; upe peve, eipuru nde aplicación tembiapo yvateguáva.
+Cline.
 
 **Reñepyrũ mboyve:** emboty opaite peteĩteĩ ko'ã aplicación. Kóva tuichavéva Claude Code-pe
 g̃uarã: oiko aja, ohai jey `~/.claude.json` ha ikatu oipe'a instalador omoambuéva.
@@ -154,11 +154,11 @@ Ndaikatúiramo remboty Claude Code, embojoapy Fontes hese `claude mcp add` rehev
    umi aplicación. Rembojoapyséramo raẽ umi clave rei ndaha'éiva tekotevẽ, ejopy hendaguépe
    **Embojoapy clave**; ehecha [Clave ñembojoapy](#clave-ñembojoapy).
 
-**Windows** (instalador Windows-pe g̃uarã osẽ rire)
+**Windows**
 
-1. Emosẽ ZIP-gui **Fontes Installer** remboguejy va'ekue (akatúa click → Extract All).
-2. Ejopy mokõi jey **Install Fontes.cmd** ári.
+1. Emboguejy instalador Windows-pe (`Fontes-Setup-….exe`) [ñemosẽ ipyahuvévagui](https://github.com/ykarapazar/fontes/releases/latest) ha ejopy mokõi jey hi'ári.
    - Windows ohechaukáramo "Windows protected your PC": ejopy **More info**, upéi **Run anyway**.
+2. Eiporavo **Mohenda**. Ojejapo jey peteĩ ventana ha omohenda Fontes.
 3. Ndeporandúvo omondótapa papapy jeporu rehegua réra'ỹre, ejopy Enter nahániri hag̃ua.
 4. Ndeporandu rembojoapysépa clave ko'ág̃a. Ejopy Enter rehasa hag̃ua; ehecha
    [Clave ñembojoapy](#clave-ñembojoapy).
@@ -199,7 +199,7 @@ Mokõi aplicación oikotevẽ peteĩ tembiapo ambue:
 reigua. Rembojoapy térã remoambue hag̃ua upéi:
 
 - **Mac:** eipe'a jey **Fontes Installer** ha eiporavo **Embojoapy térã emoambue clave**.
-- **Windows:** ejopy mokõi jey **Add or change keys.cmd** instalador carpeta-pe.
+- **Windows:** eipe'a Start menu, upéi **Fontes** → **Add or change keys**.
 
 Rehaíva oñeñomi. Clave-kuéra oike opaite aplicación oguerekómava Fontes-pe. Upéi emboty ha
 eipe'a jey aplicación-kuéra. Moõpa rehupyty clave ha mba'épa oipe'a: [KEYS.md](KEYS.md).
@@ -212,8 +212,7 @@ haguéicha. Omoambue mboyve peteĩ archivo, oñongatu peteĩ kópia ykére, hér
 embogue umi ndereikotevẽvéima. Omohenda avei uv. Remboguata jeýramo ndaipóri peligro:
 omyatyrõ ñemohenda ha nomoambuéi ambue mba'eve.
 
-Renohẽ hag̃ua Fontes, eipe'a **Fontes Installer** ha eiporavo **Nohẽ** (Mac), térã ejopy mokõi jey **Uninstall
-Fontes.cmd** (Windows) ári. Onohẽ entrada `fontes`, clave-kuéra reheve, opaite aplicación-gui.
+Renohẽ hag̃ua Fontes, eipe'a **Fontes Installer** ha eiporavo **Nohẽ** (Mac), térã desinstala **Fontes** Settings → Apps-pe (Windows). Onohẽ entrada `fontes`, clave-kuéra reheve, opaite aplicación-gui.
 Nde ambue configuración ha umi kópia opyta.
 
 ## Ñembopyahu

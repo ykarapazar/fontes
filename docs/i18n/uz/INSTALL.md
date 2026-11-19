@@ -136,12 +136,10 @@ Yangi suhbatda soʻrang: *“Fontes qaysi yurisdiksiyalarda qidira oladi?”* Il
 roʻyxati bilan javob berishi kerak. Agar bunday boʻlmasa, ilovani yana bir bor yopib, qayta
 oching.
 
-## Bir bosishda ishlaydigan oʻrnatuvchi (Mac)
+## Bir bosishda ishlaydigan oʻrnatuvchi (Mac va Windows)
 
-Mac oʻrnatuvchisi Fontes’ni barcha ilovalaringizda birdaniga sozlaydi: Claude Desktop, Codex, Claude
-Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio va Cline. Windows
-oʻrnatuvchisi tez orada chiqadi; ungacha yuqoridagi ilovangiz uchun qadamlardan foydalaning.
-
+Oʻrnatuvchi Fontes’ni barcha ilovalaringizda birdaniga sozlaydi: Claude Desktop, Codex, Claude
+Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio va Cline.
 **Boshlashdan oldin:** bu ilovalarning har birini butunlay yoping. Bu ayniqsa Claude Code uchun
 muhim: u ishlayotganda `~/.claude.json` ni qayta yozadi va oʻrnatuvchi kiritgan oʻzgarishni bekor
 qilishi mumkin. Agar Claude Code’ni yopa olmasangiz, Fontes’ni unga `claude mcp add` bilan
@@ -159,12 +157,12 @@ qoʻshing ([Claude Code](#claude-code) ga qarang).
    qayta oching. Avval ixtiyoriy bepul kalitlarni qoʻshish uchun buning oʻrniga **Kalitlarni
    qoʻshish** ni bosing; [Kalitlar qadami](#kalitlar-qadami) ga qarang.
 
-**Windows** (Windows oʻrnatuvchisi chiqqandan keyin)
+**Windows**
 
-1. Yuklab olingan **Fontes Installer** arxivini oching (oʻng tugma → Extract All).
-2. **Install Fontes.cmd** ni ikki marta bosing.
+1. Windows oʻrnatuvchisini (`Fontes-Setup-….exe`) [soʻnggi relizdan](https://github.com/ykarapazar/fontes/releases/latest) yuklab oling va uni ikki marta bosing.
    - Agar Windows “Windows protected your PC” deb koʻrsatsa: **More info** ni, soʻng
      **Run anyway** ni bosing.
+2. **Oʻrnatish** ni bosing. Oyna ochiladi va Fontes’ni sozlaydi.
 3. Anonim foydalanish hisoblarini yuborish-yubormaslikni soʻraganda, “yoʻq” deb javob berish
    uchun Enter tugmasini bosing.
 4. U kalitlarni hozir qoʻshish-qoʻshmaslikni soʻraydi. Oʻtkazib yuborish uchun Enter tugmasini
@@ -208,7 +206,7 @@ Oʻrnatishdan soʻng darhol oʻrnatuvchi Fransiya va AQSh uchun bepul kalitlarni
 qiladi. Ularni keyinroq qoʻshish yoki oʻzgartirish uchun:
 
 - **Mac:** **Fontes Installer** ni qayta oching va **Kalitlarni qoʻshish yoki oʻzgartirish** ni tanlang.
-- **Windows:** oʻrnatuvchi jildidagi **Add or change keys.cmd** ni ikki marta bosing.
+- **Windows:** **Start** menyusini oching, soʻng **Fontes** → **Kalitlarni qoʻshish yoki oʻzgartirish**.
 
 Yozilgan matn yashirin. Kalitlar Fontes allaqachon oʻrnatilgan har bir ilovaga yoziladi. Shundan
 soʻng ilovalarni yopib, qayta oching. Kalitlarni qayerdan olish va ular nimani ochishi:
@@ -223,7 +221,7 @@ boʻlganlarini oʻchiring. U uv’ni ham oʻrnatadi. Uni qayta ishga tushirish x
 tiklaydi va boshqa hech narsani oʻzgartirmaydi.
 
 Fontes’ni olib tashlash uchun **Fontes Installer** ni oching va **Olib tashlash** ni tanlang (Mac) yoki
-**Uninstall Fontes.cmd** ni ikki marta bosing (Windows). U barcha ilovalardan `fontes` yozuvini, kalitlar bilan birga,
+Windows’da **Fontes**’ni Sozlamalar → Ilovalar orqali oʻchiring. U barcha ilovalardan `fontes` yozuvini, kalitlar bilan birga,
 olib tashlaydi. Boshqa sozlamalaringiz va zaxira nusxalar qoladi.
 
 ## Yangilanishlar

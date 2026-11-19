@@ -17,8 +17,7 @@ Võtmed on valikulised. Saate need lisada hiljem.
 **Lisa võtmed** või vahelejätmiseks **Valmis**; Windowsis vastake küsimusele (vahelejätmiseks vajutage Enter). Võtmete lisamiseks või muutmiseks hiljem käivitage **Add or change keys**:
 
 - Mac: avage rakendus Fontes Installer uuesti ja valige **Lisa või muuda võtmeid**.
-- Windows: tehke paigaldaja kaustas topeltklõps failil `Add or change keys.cmd`. Windowsi
-  paigaldusprogramm paneb selle, kui see on saadaval, ka menüüsse Start > Fontes.
+- Windows: avage menüü Start ja seejärel **Fontes** → **Lisa või muuda võtmeid**.
 
 Sisestatav tekst on peidetud. Iga võtme puhul: kleepige see, vajutage Enter, et olemasolev alles jätta, või sisestage `-`,
 et see eemaldada. Võtmed lisatakse igasse rakendusse, kus Fontes juba on.

@@ -128,11 +128,10 @@ Mõni allikas vajab tasuta võtit: vt [KEYS.md](KEYS.md).
 Küsige uues vestluses: *„Millistes jurisdiktsioonides saab Fontes otsida?“* Rakendus peaks vastama
 riikide loeteluga. Kui ei vasta, sulgege rakendus ja avage see veel kord.
 
-## Ühe klõpsuga paigaldaja (Mac)
+## Ühe klõpsuga paigaldaja (Mac ja Windows)
 
-Maci paigaldaja seadistab Fontese korraga kõigis teie rakendustes: Claude Desktopis, Codexis, Claude Code'is,
-Cursoris, VS Code'is (GitHub Copilot), Windsurfis, Gemini CLI-s, Zedis, LM Studios ja Cline'is. Windowsi
-paigaldaja on tulekul; seni kasutage ülal oma rakenduse samme.
+Paigaldaja seadistab Fontese korraga kõigis teie rakendustes: Claude Desktopis, Codexis, Claude Code'is,
+Cursoris, VS Code'is (GitHub Copilot), Windsurfis, Gemini CLI-s, Zedis, LM Studios ja Cline'is.
 
 **Enne alustamist:** sulgege kõik need rakendused täielikult. See on kõige olulisem Claude Code'i puhul:
 töötamise ajal kirjutab see faili `~/.claude.json` üle ja võib paigaldaja muudatuse tagasi võtta. Kui te ei saa
@@ -148,11 +147,11 @@ Claude Code'i sulgeda, lisage Fontes sellesse hoopis käsuga `claude mcp add` (v
 4. Teade loetleb rakendused, mille see seadistas. Klõpsake **Valmis** ja avage need rakendused uuesti. Kui soovite
    enne lisada valikulised tasuta võtmed, klõpsake hoopis **Lisa võtmed**; vt [Võtmete samm](#võtmete-samm).
 
-**Windows** (kui Windowsi paigaldaja on avaldatud)
+**Windows**
 
-1. Pakkige allalaaditud **Fontes Installer** lahti (paremklõps → Extract All).
-2. Tehke topeltklõps failil **Install Fontes.cmd**.
+1. Laadige Windowsi paigaldaja (`Fontes-Setup-….exe`) alla [viimasest väljalaskest](https://github.com/ykarapazar/fontes/releases/latest) ja tehke sellel topeltklõps.
    - Kui Windows näitab teadet „Windows protected your PC“: klõpsake **More info** ja seejärel **Run anyway**.
+2. Klõpsake **Paigalda**. Avaneb aken, mis seadistab Fontese.
 3. Kui teilt küsitakse, kas saata anonüümseid kasutuskordade arve, vajutage Enter, et vastata ei.
 4. See küsib, kas lisada võtmed kohe. Vahelejätmiseks vajutage Enter; vt [Võtmete samm](#võtmete-samm).
 5. Kui näete **Done**, avage oma tehisintellekti rakendus uuesti. Kui midagi veel töötas, sulgege see
@@ -192,7 +191,7 @@ Kohe pärast paigaldamist pakub paigaldaja Prantsusmaa ja USA tasuta võtmete li
 muutmiseks hiljem:
 
 - **Mac:** avage **Fontes Installer** uuesti ja valige **Lisa või muuda võtmeid**.
-- **Windows:** tehke paigaldaja kaustas topeltklõps failil **Add or change keys.cmd**.
+- **Windows:** avage Start-menüü ja valige **Fontes** → **Lisa või muuda võtmeid**.
 
 Sisestatav tekst on peidetud. Võtmed lisatakse igasse rakendusse, kus Fontes juba on. Seejärel sulgege rakendused ja avage
 need uuesti. Kust võtmed saada ja mida need avavad: [KEYS.md](KEYS.md).
@@ -204,8 +203,8 @@ Enne faili muutmist salvestab see selle kõrvale koopia nimega `<file>.fontes-ba
 mis on tehtud pärast võtmete lisamist, sisaldavad neid võtmeid: kustutage need, mida te enam ei vaja. See
 paigaldab ka uv. Seda on ohutu uuesti käivitada: see parandab seadistuse ega muuda midagi muud.
 
-Fontese eemaldamiseks avage **Fontes Installer** ja valige **Eemalda** (Mac) või tehke topeltklõps failil
-**Uninstall Fontes.cmd** (Windows). See eemaldab `fontes`-kirje koos võtmetega igast rakendusest. Teie muud seaded
+Fontese eemaldamiseks avage **Fontes Installer** ja valige **Eemalda** (Mac) või eemaldage
+**Fontes** jaotisest Seaded → Rakendused (Windows). See eemaldab `fontes`-kirje koos võtmetega igast rakendusest. Teie muud seaded
 ja varukoopiad jäävad alles.
 
 ## Uuendused

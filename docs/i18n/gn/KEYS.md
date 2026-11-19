@@ -18,8 +18,7 @@ ejopy **Embojoapy clave**, térã **Opáma** rehasa hag̃ua; Windows-pe, embohov
 rehasa hag̃ua). Rembojoapy térã remoambue hag̃ua upéi, emboguata **Add or change keys**:
 
 - Mac: eipe'a jey aplicación Fontes Installer ha eiporavo **Embojoapy térã emoambue clave**.
-- Windows: ejopy mokõi jey `Add or change keys.cmd` ári instalador carpeta-pe. Programa de
-  instalación Windows-pe g̃uarã, oĩ rire, omoĩta avei Start menu > Fontes-pe.
+- Windows: eipe'a Start menu, upe rire **Fontes** → **Embojoapy térã emoambue clave**.
 
 Rehaíva oñeñomi. Peteĩteĩ clave-pe g̃uarã: emboja, ejopy Enter reñongatu hag̃ua oĩva, térã
 ehai `-` renohẽ hag̃ua. Clave-kuéra oike opaite aplicación oguerekómava Fontes-pe.

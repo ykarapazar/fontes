@@ -19,8 +19,7 @@ jiskt'ar jaysam (pasañatakix Enter limt'am). Qhipat llavenak yapxatañataki jan
 **Add or change keys** irnaqayam:
 
 - Mac: Fontes Installer aplicación wasitat jist'aram ukat **Llavenak yapxataña jan ukax mayjt'ayaña** ajllim.
-- Windows: instalador carpetan `Add or change keys.cmd` ukar pä kuti click lurtam. Windows
-  instalañ programax, utjxani ukhaxa, Start menu > Fontes ukarus uchaniwa.
+- Windows: Start menu jist'aram, ukat **Fontes** → **Llavenak yapxataña jan ukax mayjt'ayaña** ajllim.
 
 Qillqkta ukax imantatawa. Sapa llavetaki: ch'ikt'am, utjki uk imañatakix Enter limt'am, jan
 ukax apsuñatakix `-` qillqam. Llavenakax Fontes utjki uka taqi aplicacionanakaruw mantapxi.

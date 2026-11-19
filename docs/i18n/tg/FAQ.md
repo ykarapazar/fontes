@@ -123,7 +123,7 @@ robots.txt-и шумо, маҳдудиятҳои дархости шумо), б�
 Ҳар барномаи MCP, ки сервери маҳаллиро (stdio) иҷро карда метавонад, масалан Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ва
 Cline. Fontes дар macOS, Windows ва Linux, дар ҳар ҷое, ки uv кор мекунад (Python 3.13+), кор
-мекунад. Дар Mac насбкунанда бо як пахш Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ва Cline-ро якбора танзим мекунад; насбкунандаи Windows ба наздикӣ мебарояд.
+мекунад. Дар Mac ё Windows PC насбкунанда бо як пахш Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ва Cline-ро якбора танзим мекунад.
 Қадамҳо барои ҳар барнома: [INSTALL.md](INSTALL.md).
 
 ## Оё ман метавонам ба рамз саҳм гузорам?

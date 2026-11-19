@@ -18,8 +18,7 @@ klik **Tambah kunci**, atau **Selesai** untuk melangkau; pada Windows, jawab soa
 melangkau). Untuk menambah atau menukar kunci kemudian, jalankan **Add or change keys**:
 
 - Mac: buka semula aplikasi Fontes Installer dan pilih **Tambah atau tukar kunci**.
-- Windows: klik dua kali `Add or change keys.cmd` dalam folder pemasang. Program persediaan Windows,
-  sebaik sahaja tersedia, juga meletakkannya dalam menu Start > Fontes.
+- Windows: buka menu Start, kemudian **Fontes** → **Tambah atau tukar kunci**.
 
 Taipan disembunyikan. Bagi setiap kunci: tampalkannya, tekan Enter untuk mengekalkan apa yang sedia ada,
 atau taip `-` untuk membuangnya. Kunci dimasukkan ke dalam setiap aplikasi yang sudah mempunyai Fontes.

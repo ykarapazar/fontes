@@ -113,9 +113,9 @@ robots.txt، ތިބާގެ ރޭޓް ލިމިޓްތައް)، fontesmcp@proton.me �
 
 ލޯކަލް (stdio) ސަރވަރެއް ރަންކުރެވޭ ކޮންމެ MCP އެޕެއް، މިސާލަކަށް Claude Desktop، Claude Code، Codex، Cursor،
 VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed، LM Studio އަދި Cline. Fontes ރަންވަނީ macOS، Windows އަދި
-Linux ގައި، uv ރަންވާ ކޮންމެ ތަނެއްގައެވެ (Python 3.13+). Mac ގައި، އެއް ކްލިކުން އިންސްޓޯލްކުރާ އިންސްޓޯލަރަކުން
+Linux ގައި، uv ރަންވާ ކޮންމެ ތަނެއްގައެވެ (Python 3.13+). Mac ނުވަތަ Windows PC ގައި، އެއް ކްލިކުން އިންސްޓޯލްކުރާ އިންސްޓޯލަރަކުން
 Claude Desktop، Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio އަދި Cline އެއްފަހަރާ
-ސެޓަޕްކުރެއެވެ؛ Windows އިންސްޓޯލަރެއް އަންނަމުންދަނީއެވެ. ކޮންމެ އެޕަކަށް ފިޔަވަޅުތައް: [INSTALL.md](INSTALL.md).
+ސެޓަޕްކުރެއެވެ. ކޮންމެ އެޕަކަށް ފިޔަވަޅުތައް: [INSTALL.md](INSTALL.md).
 
 ## ކޯޑު ހިއްސާކުރެވޭނެތޯ؟
 

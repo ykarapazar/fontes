@@ -73,12 +73,12 @@ Mənbələrin vəziyyəti (hər gün yoxlanılır): [ykarapazar.github.io/fontes
 2. **Proqramı yenidən başladın.** Onu tamamilə bağlayın və yenidən açın.
 3. **Soruşun:** *"Fontes hansı yurisdiksiyalarda axtarış apara bilər?"* O, ölkələri sadalamalıdır.
 
-**Mac-da** bir kliklə quraşdırıcı Fontes-i Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**Mac və ya Windows kompüterdə** bir kliklə quraşdırıcı Fontes-i Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio və Cline-da, kompüterinizdə olan hər birində quraşdırır, sonra
-açarlarınızı əlavə etməyi təklif edir. Mac quraşdırıcısını [son
+açarlarınızı əlavə etməyi təklif edir. Kompüterinizə uyğun quraşdırıcını [son
 buraxılışdan](https://github.com/ykarapazar/fontes/releases/latest) yükləyin və onu işə salmazdan
-əvvəl həmin proqramları bağlayın. Windows quraşdırıcısı yoldadır. Təfərrüatlar:
-[INSTALL.md](INSTALL.md#bir-kliklə-quraşdırıcı-mac).
+əvvəl həmin proqramları bağlayın. Təfərrüatlar:
+[INSTALL.md](INSTALL.md#bir-kliklə-quraşdırıcı-mac-və-windows).
 Bəzi mənbələr pulsuz açar tələb edir: bax [KEYS.md](KEYS.md).
 
 <!-- map:start -->

@@ -134,11 +134,10 @@ Musuq rimanakuypi tapuy: *"Mayqin jurisdicciónkunapi Fontes maskanman?"* Aplica
 suyukunap listanwanmi kutichinan. Mana chhayna kaptinqa, aplicacionta huk kutitawan wichqay
 hinaspa wakmanta kichay.
 
-## Huk clickllawan instalador (Mac)
+## Huk clickllawan instalador (Mac utaq Windows)
 
-Mac instaladorqa Fontesta llapan aplicacionniykikunapi huk kutillapi churan: Claude Desktop, Codex,
+Instaladorqa Fontesta llapan aplicacionniykikunapi huk kutillapi churan: Claude Desktop, Codex,
 Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio, Cline.
-Windowspaq instaladormi hamuchkan; chaykamaqa, hanaqpi aplicacionniykipaq ruraykunata llamk'achiy.
 
 **Manaraq qallarichkaspa:** kay aplicacionkunap sapakamanta tukuy-tukuyta wichqay. Kayqa
 Claude Codepaqmi aswan ancha: purichkaptinqa `~/.claude.json` nisqata wakmanta qillqan,
@@ -158,12 +157,12 @@ Fontestaqa `claude mcp add` nisqawan yapay ([Claude Code](#claude-code) qhaway).
    yapanaykipaqqa, **Llavekunata yapay** nisqapi click ruway; [Llavekuna yapay](#llavekuna-yapay)
    qhaway.
 
-**Windows** (Windows instalador lluqsiptinña)
+**Windows**
 
-1. Uraykuchisqa **Fontes Installer** nisqata kichay (paña click → Extract All).
-2. **Install Fontes.cmd** nisqapi iskay kuti click ruway.
+1. Windows instaladorta (`Fontes-Setup-….exe`) [qhipa kaq lluqsiymanta](https://github.com/ykarapazar/fontes/releases/latest) uraykuchiy, hinaspa iskay kuti click ruway.
    - Windows "Windows protected your PC" nispa rikuchiptinqa: **More info** nisqapi click
      ruway, chaymanta **Run anyway**.
+2. **Instalay** nisqapi click ruway. Huk ventana kichakun, Fontesta churanqa.
 3. Sutinnaq llamk'achiy yupaykunata kachananmanta tapusuptinki, mana nispaqa Enter ñit'iy.
 4. Kunanpacha llavekunata yapananmanta tapusunki. Saltanaykipaq Enter ñit'iy;
    [Llavekuna yapay](#llavekuna-yapay) qhaway.
@@ -204,7 +203,7 @@ Instalasqa qhipallamanmi, instaladorqa Francia, Estados Unidos nisqakunapaq mana
 llavekunata yapayta munanki chayqa tapusunki. Qhipaman yapanaykipaq utaq tikranaykipaq:
 
 - **Mac:** **Fontes Installer** nisqata wakmanta kichay hinaspa **Llavekunata yapay utaq tikray** akllay.
-- **Windows:** instalador carpetapi **Add or change keys.cmd** nisqapi iskay kuti click ruway.
+- **Windows:** Start menu nisqata kichay, hinaspa **Fontes** → **Llavekunata yapay utaq tikray** akllay.
 
 Qillqasqaykiqa pakasqam. Llavekunaqa Fontesniyuqña llapan aplicacionkunamanmi yaykunku.
 Chaymanta aplicacionkunata wichqay hinaspa wakmanta kichay. Llavekunata maypi tarinaykipaq,
@@ -219,7 +218,7 @@ llavekunatam apanku: mana necesitasqaykikunata qichuy. uv nisqatapas instalanmi.
 purichiyqa mana sasachakuyniyuqmi: churasqata allichan, manataq huk imatapas tikranchu.
 
 Fontesta qichunaykipaq, **Fontes Installer** nisqata kichay hinaspa **Qichuy** akllay (Mac), utaq
-**Uninstall Fontes.cmd** nisqapi iskay kuti click ruway (Windows). `fontes` qillqata, llavekunantinta, llapan
+**Fontes** Settings → Apps nisqapi qichuy (Windows). `fontes` qillqata, llavekunantinta, llapan
 aplicacionkunamanta qichun. Huk configuracionniykikuna, backup copiakunapas qhipakunmi.
 
 ## Musuqchaykuna

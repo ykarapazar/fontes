@@ -131,11 +131,10 @@ Noen kilder krever en gratis nøkkel: se [KEYS.md](KEYS.md).
 Spør i en ny chat: *"Which jurisdictions can Fontes search?"* Appen skal svare med en liste over
 land. Hvis ikke, avslutt og åpne appen på nytt én gang til.
 
-## Installasjonsprogram med ett klikk (Mac)
+## Installasjonsprogram med ett klikk (Mac og Windows)
 
-Mac-installasjonsprogrammet setter opp Fontes i alle appene dine på én gang: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio og Cline. Et
-installasjonsprogram for Windows er på vei; til da kan du bruke trinnene for appen din ovenfor.
+Installasjonsprogrammet setter opp Fontes i alle appene dine på én gang: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio og Cline.
 
 **Før du begynner:** avslutt hver av disse appene helt. Dette betyr mest for Claude Code: mens den
 kjører, skriver den om `~/.claude.json` og kan angre endringen fra installasjonsprogrammet. Hvis du
@@ -154,12 +153,13 @@ ikke kan avslutte Claude Code, legg heller til Fontes i den med `claude mcp add`
    igjen. For å legge til de valgfrie gratisnøklene først klikker du i stedet på **Legg til
    nøkler**; se [Nøkkeltrinnet](#nøkkeltrinnet).
 
-**Windows** (når Windows-installasjonsprogrammet er utgitt)
+**Windows**
 
-1. Pakk ut den nedlastede **Fontes Installer** (høyreklikk → Pakk ut alle).
-2. Dobbeltklikk på **Install Fontes.cmd**.
+1. Last ned Windows-installasjonsprogrammet (`Fontes-Setup-….exe`) fra [siste
+   utgivelse](https://github.com/ykarapazar/fontes/releases/latest) og dobbeltklikk på det.
    - Hvis Windows viser "Windows beskyttet PC-en": klikk på **Mer informasjon** og deretter på
      **Kjør likevel**.
+2. Klikk på **Installer**. Et vindu åpnes og setter opp Fontes.
 3. Når du blir spurt om anonyme brukstall skal sendes, trykk Enter for nei.
 4. Det spør om du vil legge til nøkler nå. Trykk Enter for å hoppe over; se
    [Nøkkeltrinnet](#nøkkeltrinnet).
@@ -200,7 +200,7 @@ Rett etter installasjonen tilbyr installasjonsprogrammet å legge til de gratis 
 Frankrike og USA. Slik legger du dem til eller endrer dem senere:
 
 - **Mac:** åpne **Fontes Installer** igjen og velg **Legg til eller endre nøkler**.
-- **Windows:** dobbeltklikk på **Add or change keys.cmd** i mappen til installasjonsprogrammet.
+- **Windows:** åpne Start-menyen og velg **Fontes** → **Legg til eller endre nøkler**.
 
 Det du skriver, vises ikke. Nøklene legges inn i alle apper som allerede har Fontes. Avslutt og
 åpne appene på nytt etterpå. Hvor du får nøklene, og hva de gir tilgang til: [KEYS.md](KEYS.md).
@@ -213,8 +213,8 @@ blir som de var. Før det endrer en fil, lagrer det en kopi ved siden av med nav
 nøklene: slett dem du ikke lenger trenger. Det installerer også uv. Det er trygt å kjøre det på
 nytt: det reparerer oppsettet og endrer ingenting annet.
 
-For å fjerne Fontes åpner du **Fontes Installer** og velger **Fjern** (Mac), eller dobbeltklikker
-på **Uninstall Fontes.cmd** (Windows). Det fjerner oppføringen `fontes`, inkludert nøkler, fra alle
+For å fjerne Fontes åpner du **Fontes Installer** og velger **Fjern** (Mac), eller avinstallerer
+**Fontes** under Settings → Apps (Windows). Det fjerner oppføringen `fontes`, inkludert nøkler, fra alle
 apper. De andre innstillingene dine og sikkerhetskopiene blir værende.
 
 ## Oppdateringer

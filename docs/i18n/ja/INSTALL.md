@@ -128,11 +128,10 @@ Codex、Claude Code、その他のアプリは `uvx` で Fontes を起動しま�
 新しいチャットで *「Fontes はどの法域を検索できますか？」* と質問してください。アプリが国の一覧で
 答えるはずです。そうならない場合は、アプリをもう一度終了して開き直してください。
 
-## ワンクリックインストーラー（Mac）
+## ワンクリックインストーラー（Mac および Windows）
 
-Mac 用インストーラーは、すべてのアプリに一度に Fontes を設定します: Claude Desktop、Codex、
-Claude Code、Cursor、VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio、Cline。Windows 用
-インストーラーは準備中です。それまでは、上にあるお使いのアプリ用の手順を使ってください。
+インストーラーは、すべてのアプリに一度に Fontes を設定します: Claude Desktop、Codex、
+Claude Code、Cursor、VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed、LM Studio、Cline。
 
 **始める前に:** これらのアプリをすべて完全に終了してください。特に Claude Code が重要です。実行中は
 `~/.claude.json` を書き換えるため、インストーラーの変更が元に戻ることがあります。Claude Code を終了
@@ -149,12 +148,12 @@ Claude Code、Cursor、VS Code（GitHub Copilot）、Windsurf、Gemini CLI、Zed
    開きます。先に任意の無料キーを追加するには、代わりに **キーを追加** をクリックします。
    [キーの手順](#キーの手順)をご覧ください。
 
-**Windows**（Windows 用インストーラーの公開後）
+**Windows**
 
-1. ダウンロードした **Fontes Installer** を展開します（右クリック → **すべて展開**）。
-2. **Install Fontes.cmd** をダブルクリックします。
+1. [最新リリース](https://github.com/ykarapazar/fontes/releases/latest) から Windows 用インストーラー（`Fontes-Setup-….exe`）をダウンロードし、ダブルクリックします。
    - 「Windows によって PC が保護されました」と表示された場合: **詳細情報** をクリックし、
      **実行** をクリックします。
+2. **インストール** をクリックします。ウィンドウが開き、Fontes を設定します。
 3. 匿名の利用回数を送信するかどうかを尋ねられたら、送信しない場合は Enter を押します。
 4. 今すぐキーを追加するかどうかを尋ねます。スキップするには Enter を押します。
    [キーの手順](#キーの手順)をご覧ください。
@@ -195,7 +194,7 @@ VS Code は、`~/.copilot` または VS Code 自体の設定フォルダーが�
 には:
 
 - **Mac:** **Fontes Installer** をもう一度開き、**キーを追加・変更** を選びます。
-- **Windows:** インストーラーフォルダー内の **Add or change keys.cmd** をダブルクリックします。
+- **Windows:** スタートメニューを開き、**Fontes** → **Add or change keys** を選びます。
 
 入力内容は表示されません。キーは、Fontes がすでに設定されているすべてのアプリに書き込まれます。その後、
 アプリを終了して開き直してください。キーの入手先と、キーで使えるようになるもの: [KEYS.md](KEYS.md)。
@@ -208,7 +207,7 @@ VS Code は、`~/.copilot` または VS Code 自体の設定フォルダーが�
 します。再実行しても問題ありません。設定を修復するだけで、ほかには何も変更しません。
 
 Fontes を削除するには、**Fontes Installer** を開いて **削除** を選ぶ（Mac）か、
-**Uninstall Fontes.cmd** をダブルクリックします（Windows）。すべてのアプリから `fontes` エントリーを
+Settings → Apps で **Fontes** をアンインストールします（Windows）。すべてのアプリから `fontes` エントリーを
 キーごと削除します。その他の設定とバックアップのコピーは残ります。
 
 ## アップデート

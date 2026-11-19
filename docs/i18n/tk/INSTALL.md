@@ -135,11 +135,10 @@ Käbir çeşmelere mugt açar gerek: [KEYS.md](KEYS.md) serediň.
 Täze söhbetdeşlikde soraň: *“Fontes haýsy ýurisdiksiýalarda gözläp bilýär?”* Programma ýurtlaryň
 sanawy bilen jogap bermeli. Eger bermese, programmany ýene bir gezek ýapyň we täzeden açyň.
 
-## Bir basyşda gurnaýjy (Mac)
+## Bir basyşda gurnaýjy (Mac we Windows)
 
-Mac üçin gurnaýjy Fontes-i ähli programmalaryňyzda birbada sazlaýar: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio we Cline. Windows
-üçin gurnaýjy ýakynda çykar; oňa çenli ýokardaky öz programmaňyz üçin ädimleri ulanyň.
+Gurnaýjy Fontes-i ähli programmalaryňyzda birbada sazlaýar: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio we Cline.
 
 **Başlamazdan öň:** bu programmalaryň her birini doly ýapyň. Bu iň köp Claude Code üçin möhüm:
 ol işläp durka `~/.claude.json` faýlyny täzeden ýazýar we gurnaýjynyň üýtgetmesini yzyna
@@ -158,12 +157,12 @@ bilen goşuň ([Claude Code](#claude-code) serediň).
    täzeden açyň. Ilki islege bagly mugt açarlary goşmak üçin, onuň ýerine **Açarlary goş**
    basyň; [Açarlar ädimi](#açarlar-ädimi) serediň.
 
-**Windows** (Windows üçin gurnaýjy çykandan soň)
+**Windows**
 
-1. Ýüklenen **Fontes Installer** arhiwini açyň (sag düwme → Extract All).
-2. **Install Fontes.cmd** faýlyna iki gezek basyň.
+1. Windows gurnaýjysyny (`Fontes-Setup-….exe`) [iň soňky neşirden](https://github.com/ykarapazar/fontes/releases/latest) ýükläp, iki gezek basyň.
    - Eger Windows “Windows protected your PC” diýip görkezse: **More info**, soňra
      **Run anyway** basyň.
+2. **Gurnamak** basyň. Penjire açylyp, Fontes-i sazlaýar.
 3. Anonim ulanyş sanlaryny ibermelidigi soralanda, “ýok” üçin Enter düwmesine basyň.
 4. Ol açarlary häzir goşmalydygyny soraýar. Geçmek üçin Enter düwmesine basyň;
    [Açarlar ädimi](#açarlar-ädimi) serediň.
@@ -205,7 +204,7 @@ Gurnalandan dessine soň gurnaýjy Fransiýa we ABŞ üçin mugt açarlary goşm
 Olary soňra goşmak ýa-da üýtgetmek üçin:
 
 - **Mac:** **Fontes Installer** programmasyny täzeden açyň we **Açarlary goş ýa-da üýtget** saýlaň.
-- **Windows:** gurnaýjy bukjasyndaky **Add or change keys.cmd** faýlyna iki gezek basyň.
+- **Windows:** Start menýusyny açyň, soňra **Fontes** → **Açarlary goş ýa-da üýtget**-i saýlaň.
 
 Ýazylýan tekst gizlin bolýar. Açarlar Fontes eýýäm bar bolan her programma girizilýär. Soňra
 programmalary ýapyň we täzeden açyň. Açarlary nireden almaly we olaryň näme açýandygy:
@@ -219,8 +218,7 @@ saklaýar. Açarlary goşanyňyzdan soň döredilen nusgalarda şol açarlar bol
 bolmadyklaryny pozuň. Ol uv-ni hem gurnaýar. Ony gaýtadan işletmek howpsuz: ol sazlamany
 düzedýär we başga hiç zady üýtgetmeýär.
 
-Fontes-i aýyrmak üçin **Fontes Installer** programmasyny açyň we **Aýyrmak** saýlaň (Mac) ýa-da
-**Uninstall Fontes.cmd** (Windows) faýlyna iki gezek basyň. Ol `fontes` ýazgysyny, açarlar bilen
+Fontes-i aýyrmak üçin **Fontes Installer** programmasyny açyň we **Aýyrmak** saýlaň (Mac) ýa-da **Fontes**-i Sazlamalar → Programmalar (Windows) bölümünden aýyryň. Ol `fontes` ýazgysyny, açarlar bilen
 bilelikde, ähli programmalardan aýyrýar. Beýleki sazlamalaryňyz we ätiýaçlyk nusgalar galýar.
 
 ## Täzelenmeler

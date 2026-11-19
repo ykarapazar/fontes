@@ -73,11 +73,11 @@ Gemini CLI, Windsurf, Zed, LM Studio र अन्य।
 2. **एप फेरि सुरु गर्नुहोस्।** यसलाई पूर्ण रूपमा बन्द गरी फेरि खोल्नुहोस्।
 3. **सोध्नुहोस्:** *"Fontes ले कुन-कुन क्षेत्राधिकारमा खोज्न सक्छ?"* यसले देशहरूको सूची दिनुपर्छ।
 
-**Mac मा**, एक-क्लिक इन्स्टलरले तपाईंको कम्प्युटरमा भएका Claude Desktop, Codex, Claude Code, Cursor,
+**Mac वा Windows मा**, एक-क्लिक इन्स्टलरले तपाईंको कम्प्युटरमा भएका Claude Desktop, Codex, Claude Code, Cursor,
 VS Code, Windsurf, Gemini CLI, Zed, LM Studio र Cline मध्ये प्रत्येकमा Fontes सेट अप गर्छ, त्यसपछि तपाईंका
-कुञ्जी (keys) थप्न प्रस्ताव गर्छ। Mac इन्स्टलर [पछिल्लो रिलिज](https://github.com/ykarapazar/fontes/releases/latest) बाट डाउनलोड गर्नुहोस् र यसलाई
-चलाउनुअघि ती एपहरू बन्द गर्नुहोस्। Windows इन्स्टलर आउँदै छ। विवरण:
-[INSTALL.md](INSTALL.md#एक-क्लिक-इन्स्टलर-mac)।
+कुञ्जी (keys) थप्न प्रस्ताव गर्छ। तपाईंको कम्प्युटरका लागि इन्स्टलर [पछिल्लो रिलिज](https://github.com/ykarapazar/fontes/releases/latest) बाट डाउनलोड गर्नुहोस् र यसलाई
+चलाउनुअघि ती एपहरू बन्द गर्नुहोस्। विवरण:
+[INSTALL.md](INSTALL.md#एक-क्लिक-इन्स्टलर-mac-र-windows)।
 केही स्रोतहरूलाई निःशुल्क कुञ्जी चाहिन्छ: [KEYS.md](KEYS.md) हेर्नुहोस्।
 
 <!-- map:start -->

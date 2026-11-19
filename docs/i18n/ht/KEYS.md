@@ -18,8 +18,7 @@ Kle yo opsyonèl. Ou ka ajoute yo pita.
 Pou ajoute oswa chanje kle pita, lanse **Ajoute oswa chanje kle**:
 
 - Mac: louvri aplikasyon Fontes Installer la ankò epi chwazi **Ajoute oswa chanje kle**.
-- Windows: klike de fwa sou `Add or change keys.cmd` nan dosye enstalatè a. Pwogram enstalasyon Windows
-  la, lè l disponib, ap mete l tou nan Start menu > Fontes.
+- Windows: ouvri Start menu, apre sa **Fontes** → **Ajoute oswa chanje kle**.
 
 Sa ou tape a kache. Pou chak kle: kole l, peze Enter pou kenbe sa ki la deja, oswa tape `-` pou retire l.
 Kle yo ale nan chak aplikasyon ki deja gen Fontes.

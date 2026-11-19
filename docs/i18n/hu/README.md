@@ -77,12 +77,12 @@ A források állapota (naponta ellenőrizve): [ykarapazar.github.io/fontes/statu
 3. **Kérdezze meg:** *„Mely joghatóságokban tud keresni a Fontes?”* Az országok listáját kell
    kapnia.
 
-**Macen** egy egykattintásos telepítő beállítja a Fontest a Claude Desktopban, a Codexben, a Claude
+**Macen vagy Windows PC-n** egy egykattintásos telepítő beállítja a Fontest a Claude Desktopban, a Codexben, a Claude
 Code-ban, a Cursorban, a VS Code-ban, a Windsurfben, a Gemini CLI-ben, a Zedben, az LM Studióban és a
 Cline-ban – mindegyikben, amely megtalálható a számítógépén –, majd felajánlja a kulcsai hozzáadását.
-Töltse le a Mac-telepítőt a [legújabb kiadásból](https://github.com/ykarapazar/fontes/releases/latest), és futtatás előtt lépjen
-ki ezekből az alkalmazásokból. Windows-telepítő készülőben van. Részletek:
-[INSTALL.md](INSTALL.md#egykattintásos-telepítő-mac).
+Töltse le a számítógépének megfelelő telepítőt a [legújabb kiadásból](https://github.com/ykarapazar/fontes/releases/latest), és futtatás előtt lépjen
+ki ezekből az alkalmazásokból. Részletek:
+[INSTALL.md](INSTALL.md#egykattintásos-telepítő-mac-és-windows).
 Egyes forrásokhoz ingyenes kulcs kell: lásd [KEYS.md](KEYS.md).
 
 <!-- map:start -->

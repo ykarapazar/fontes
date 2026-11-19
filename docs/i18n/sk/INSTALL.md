@@ -131,11 +131,10 @@ Niektoré zdroje vyžadujú bezplatný kľúč: pozri [KEYS.md](KEYS.md).
 V novom chate sa opýtajte: *„V ktorých jurisdikciách dokáže Fontes vyhľadávať?“* Aplikácia by
 mala odpovedať zoznamom krajín. Ak nie, ukončite a znova otvorte aplikáciu ešte raz.
 
-## Inštalátor na jedno kliknutie (Mac)
+## Inštalátor na jedno kliknutie (Mac a Windows)
 
-Inštalátor pre Mac nastaví Fontes vo všetkých vašich aplikáciách naraz: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio a Cline. Inštalátor
-pre Windows sa pripravuje; dovtedy použite postup pre vašu aplikáciu vyššie.
+Inštalátor nastaví Fontes vo všetkých vašich aplikáciách naraz: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio a Cline.
 
 **Skôr než začnete:** každú z týchto aplikácií úplne ukončite. Najviac na tom záleží pri Claude
 Code: kým beží, prepisuje `~/.claude.json` a môže zmenu inštalátora vrátiť späť. Ak Claude Code
@@ -154,12 +153,13 @@ nemôžete ukončiť, pridajte doň Fontes radšej pomocou `claude mcp add` (poz
    otvorte. Ak chcete najprv pridať voliteľné bezplatné kľúče, kliknite namiesto toho na
    **Pridať kľúče**; pozri [Krok s kľúčmi](#krok-s-kľúčmi).
 
-**Windows** (po vydaní inštalátora pre Windows)
+**Windows**
 
-1. Rozbaľte stiahnutý **Fontes Installer** (pravé tlačidlo → Extract All).
-2. Dvakrát kliknite na **Install Fontes.cmd**.
+1. Stiahnite si inštalátor pre Windows (`Fontes-Setup-….exe`) z
+   [najnovšieho vydania](https://github.com/ykarapazar/fontes/releases/latest) a dvakrát naň kliknite.
    - Ak Windows zobrazí „Windows protected your PC“: kliknite na **More info** a potom na
      **Run anyway**.
+2. Kliknite na **Inštalovať**. Otvorí sa okno a nastaví Fontes.
 3. Keď sa opýta, či odosielať anonymné počty použití, stlačením Enter odpoviete nie.
 4. Opýta sa, či pridať kľúče teraz. Stlačením Enter to preskočíte; pozri
    [Krok s kľúčmi](#krok-s-kľúčmi).
@@ -200,7 +200,7 @@ Hneď po inštalácii inštalátor ponúkne pridanie bezplatných kľúčov pre 
 chcete pridať alebo zmeniť neskôr:
 
 - **Mac:** znova otvorte **Fontes Installer** a zvoľte **Pridať alebo zmeniť kľúče**.
-- **Windows:** v priečinku inštalátora dvakrát kliknite na **Add or change keys.cmd**.
+- **Windows:** otvorte ponuku Štart, potom **Fontes** → **Pridať alebo zmeniť kľúče**.
 
 Písanie je skryté. Kľúče sa zapíšu do každej aplikácie, ktorá už Fontes má. Potom aplikácie
 ukončite a znova otvorte. Kde kľúče získať a čo sprístupnia: [KEYS.md](KEYS.md).
@@ -213,8 +213,8 @@ vytvorené po pridaní kľúčov tieto kľúče obsahujú: tie, ktoré už nepot
 Inštalátor tiež nainštaluje uv. Opätovné spustenie je bezpečné: opraví nastavenie a nič iné
 nezmení.
 
-Ak chcete Fontes odstrániť, otvorte **Fontes Installer** a zvoľte **Odstrániť** (Mac), alebo dvakrát
-kliknite na **Uninstall Fontes.cmd** (Windows). Odstráni záznam `fontes` vrátane kľúčov zo všetkých
+Ak chcete Fontes odstrániť, otvorte **Fontes Installer** a zvoľte **Odstrániť** (Mac), alebo odinštalujte
+**Fontes** v Nastaveniach → Aplikácie (Windows). Odstráni záznam `fontes` vrátane kľúčov zo všetkých
 aplikácií. Vaše ostatné nastavenia a záložné kópie zostanú.
 
 ## Aktualizácie

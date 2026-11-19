@@ -134,12 +134,10 @@ Naujame pokalbyje paklauskite: *„Kuriose jurisdikcijose gali ieškoti Fontes?�
 atsakyti šalių sąrašu. Jei taip neatsitinka, dar kartą uždarykite programą ir vėl ją
 atidarykite.
 
-## Diegimo programa vienu spustelėjimu (Mac)
+## Diegimo programa vienu spustelėjimu (Mac ir Windows)
 
-Mac diegimo programa iš karto nustato Fontes visose jūsų programose: Claude Desktop, Codex, Claude
-Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ir Cline. Windows
-diegimo programa netrukus bus išleista; iki tol naudokitės aukščiau pateiktais savo programos
-veiksmais.
+Diegimo programa iš karto nustato Fontes visose jūsų programose: Claude Desktop, Codex, Claude
+Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ir Cline.
 
 **Prieš pradėdami:** visiškai uždarykite kiekvieną iš šių programų. Labiausiai tai svarbu Claude
 Code: veikdama ji perrašo `~/.claude.json` ir gali atšaukti diegimo programos pakeitimą. Jei
@@ -158,12 +156,13 @@ negalite uždaryti Claude Code, verčiau pridėkite Fontes į ją komanda `claud
    atidarykite tas programas. Jei pirmiau norite pridėti neprivalomus nemokamus raktus, verčiau
    spustelėkite **Pridėti raktus**; žr. [Raktų žingsnis](#raktų-žingsnis).
 
-**Windows** (kai bus išleista Windows diegimo programa)
+**Windows**
 
-1. Išskleiskite atsisiųstą **Fontes Installer** (dešinysis pelės mygtukas → Extract All).
-2. Dukart spustelėkite **Install Fontes.cmd**.
+1. Atsisiųskite Windows diegimo programą (`Fontes-Setup-….exe`) iš
+   [naujausios laidos](https://github.com/ykarapazar/fontes/releases/latest) ir dukart ją spustelėkite.
    - Jei Windows rodo „Windows protected your PC“: spustelėkite **More info**, tada **Run
      anyway**.
+2. Spustelėkite **Įdiegti**. Atsidaro langas ir nustato Fontes.
 3. Paklausti, ar siųsti anoniminius naudojimo skaičius, norėdami atsakyti „ne“, paspauskite
    Enter.
 4. Jis klausia, ar pridėti raktus dabar. Norėdami praleisti, paspauskite Enter; žr.
@@ -206,7 +205,7 @@ Iškart po diegimo diegimo programa pasiūlo pridėti nemokamus Prancūzijos ir 
 juos pridėti arba pakeisti vėliau:
 
 - **Mac:** vėl atidarykite **Fontes Installer** ir pasirinkite **Pridėti arba keisti raktus**.
-- **Windows:** diegimo programos aplanke dukart spustelėkite **Add or change keys.cmd**.
+- **Windows:** pradžios meniu atidarykite **Fontes** → **Pridėti arba keisti raktus**.
 
 Įvedami simboliai nerodomi. Raktai įrašomi į kiekvieną programą, kurioje jau yra Fontes. Po to
 uždarykite programas ir vėl jas atidarykite. Kur gauti raktus ir ką jie atveria:
@@ -220,7 +219,7 @@ Kopijose, padarytose pridėjus raktus, yra tie raktai: ištrinkite tas, kurių n
 pat įdiegia uv. Paleisti ją dar kartą saugu: ji sutvarko sąranką ir nieko kito nekeičia.
 
 Norėdami pašalinti Fontes, atidarykite **Fontes Installer** ir pasirinkite **Pašalinti** (Mac) arba
-dukart spustelėkite **Uninstall Fontes.cmd** (Windows). Tai pašalina įrašą `fontes` kartu su raktais iš visų
+pašalinkite **Fontes** per Settings → Apps (Windows). Tai pašalina įrašą `fontes` kartu su raktais iš visų
 programų. Kiti jūsų nustatymai ir atsarginės kopijos lieka.
 
 ## Atnaujinimai

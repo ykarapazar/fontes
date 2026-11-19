@@ -133,12 +133,10 @@ Bəzi mənbələr pulsuz açar tələb edir: bax [KEYS.md](KEYS.md).
 Yeni söhbətdə soruşun: *"Fontes hansı yurisdiksiyalarda axtarış apara bilər?"* Proqram ölkələrin
 siyahısı ilə cavab verməlidir. Vermirsə, proqramı bir daha bağlayıb yenidən açın.
 
-## Bir kliklə quraşdırıcı (Mac)
+## Bir kliklə quraşdırıcı (Mac və Windows)
 
-Mac quraşdırıcısı Fontes-i bütün proqramlarınızda bir dəfəyə quraşdırır: Claude Desktop, Codex,
+Quraşdırıcı Fontes-i bütün proqramlarınızda bir dəfəyə quraşdırır: Claude Desktop, Codex,
 Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio və Cline.
-Windows quraşdırıcısı yoldadır; o vaxta qədər yuxarıda proqramınız üçün olan addımlardan istifadə
-edin.
 
 **Başlamazdan əvvəl:** bu proqramların hər birini tamamilə bağlayın. Bu, ən çox Claude Code üçün
 vacibdir: o işləyərkən `~/.claude.json` faylını yenidən yazır və quraşdırıcının dəyişikliyini geri
@@ -157,11 +155,11 @@ ilə əlavə edin (bax [Claude Code](#claude-code)).
    açın. Əvvəlcə istəyə bağlı pulsuz açarları əlavə etmək üçün bunun əvəzinə **Açarları əlavə et**
    klikləyin; bax [Açarlar addımı](#açarlar-addımı).
 
-**Windows** (Windows quraşdırıcısı buraxıldıqdan sonra)
+**Windows**
 
-1. Yüklənmiş **Fontes Installer** arxivini açın (sağ klik → Extract All).
-2. **Install Fontes.cmd** faylına iki dəfə klikləyin.
+1. Windows quraşdırıcısını (`Fontes-Setup-….exe`) [son buraxılışdan](https://github.com/ykarapazar/fontes/releases/latest) yükləyin və ona iki dəfə klikləyin.
    - Windows "Windows protected your PC" göstərsə: **More info**, sonra **Run anyway** klikləyin.
+2. **Quraşdır** klikləyin. Pəncərə açılır və Fontes-i quraşdırır.
 3. Anonim istifadə saylarının göndərilib-göndərilməməsi soruşulduqda "xeyr" üçün Enter basın.
 4. Açarların indi əlavə edilib-edilməməsini soruşur. Ötürmək üçün Enter basın; bax
    [Açarlar addımı](#açarlar-addımı).
@@ -203,7 +201,7 @@ Quraşdırmadan dərhal sonra quraşdırıcı pulsuz Fransa və ABŞ açarların
 Onları sonra əlavə etmək və ya dəyişmək üçün:
 
 - **Mac:** **Fontes Installer** proqramını yenidən açıb **Açarları əlavə et və ya dəyiş** seçin.
-- **Windows:** quraşdırıcı qovluğundakı **Add or change keys.cmd** faylına iki dəfə klikləyin.
+- **Windows:** Start menyusunu açın, sonra **Fontes** → **Açarları əlavə et və ya dəyiş** seçin.
 
 Yazdığınız görünmür. Açarlar Fontes-in artıq olduğu hər proqrama əlavə olunur. Sonra proqramları
 bağlayıb yenidən açın. Açarları haradan almaq və onların nəyi açdığı: [KEYS.md](KEYS.md).
@@ -216,8 +214,7 @@ Faylı dəyişməzdən əvvəl onun yanında `<file>.fontes-backup-<date>` adlı
 O, həmçinin uv-ni quraşdırır. Onu yenidən işə salmaq təhlükəsizdir: quraşdırmanı bərpa edir və başqa
 heç nəyi dəyişmir.
 
-Fontes-i silmək üçün **Fontes Installer** proqramını açıb **Sil** seçin (Mac) və ya **Uninstall
-Fontes.cmd** (Windows) faylına iki dəfə klikləyin. O, `fontes` qeydini, açarlar daxil olmaqla, hər
+Fontes-i silmək üçün **Fontes Installer** proqramını açıb **Sil** seçin (Mac) və ya Settings → Apps (Windows) bölməsində **Fontes** proqramını silin. O, `fontes` qeydini, açarlar daxil olmaqla, hər
 proqramdan silir.
 Digər parametrləriniz və ehtiyat nüsxələr qalır.
 

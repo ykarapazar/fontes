@@ -74,12 +74,12 @@ Staða heimilda (athuguð daglega): [ykarapazar.github.io/fontes/status/](https:
 2. **Endurræstu forritið.** Lokaðu því alveg og opnaðu það aftur.
 3. **Spyrðu:** *„Í hvaða lögsögum getur Fontes leitað?“* Það ætti að telja upp löndin.
 
-**Á Mac** setur uppsetningarforrit með einum smelli Fontes upp í Claude Desktop,
+**Á Mac eða Windows-tölvu** setur uppsetningarforrit með einum smelli Fontes upp í Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio og Cline, í hverju þeirra
-sem er á tölvunni þinni, og býðst síðan til að bæta við lyklunum þínum. Sæktu Mac-uppsetningarforritið úr
+sem er á tölvunni þinni, og býðst síðan til að bæta við lyklunum þínum. Sæktu uppsetningarforritið fyrir tölvuna þína úr
 [nýjustu útgáfunni](https://github.com/ykarapazar/fontes/releases/latest) og lokaðu þessum forritum áður en þú keyrir það.
-Uppsetningarforrit fyrir Windows er væntanlegt. Nánar:
-[INSTALL.md](INSTALL.md#uppsetningarforrit-með-einum-smelli-mac).
+Nánar:
+[INSTALL.md](INSTALL.md#uppsetningarforrit-með-einum-smelli-mac-og-windows).
 Sumar heimildir þurfa ókeypis lykil: sjá [KEYS.md](KEYS.md).
 
 <!-- map:start -->

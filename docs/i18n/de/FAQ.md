@@ -121,10 +121,9 @@ oder abgeschaltet.
 
 Mit jeder MCP-App, die einen lokalen (stdio-)Server ausführen kann, zum Beispiel Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio und Cline.
-Fontes läuft unter macOS, Windows und Linux, überall dort, wo uv läuft (Python 3.13+). Auf einem
-Mac richtet ein Ein-Klick-Installationsprogramm Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Windsurf, Gemini CLI, Zed, LM Studio und Cline in einem Durchgang ein; ein Installationsprogramm für
-Windows ist in Vorbereitung. Schritte für jede App: [INSTALL.md](INSTALL.md).
+Fontes läuft unter macOS, Windows und Linux, überall dort, wo uv läuft (Python 3.13+). Auf einem Mac oder
+Windows-PC richtet ein Ein-Klick-Installationsprogramm Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+Windsurf, Gemini CLI, Zed, LM Studio und Cline in einem Durchgang ein. Schritte für jede App: [INSTALL.md](INSTALL.md).
 
 ## Kann ich Code beitragen?
 

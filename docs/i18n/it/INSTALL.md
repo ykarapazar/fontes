@@ -129,12 +129,11 @@ Alcune fonti richiedono una chiave gratuita: veda [KEYS.md](KEYS.md).
 In una nuova chat, chieda: *«In quali giurisdizioni può cercare Fontes?»* L'app dovrebbe rispondere
 con un elenco di paesi. In caso contrario, chiuda e riapra l'app ancora una volta.
 
-## Programma di installazione con un clic (Mac)
+## Programma di installazione con un clic (Mac e Windows)
 
-Il programma di installazione per Mac configura Fontes in tutte le Sue app in una volta sola: Claude
+Il programma di installazione configura Fontes in tutte le Sue app in una volta sola: Claude
 Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio e
-Cline. È in arrivo un programma di installazione per Windows; nel frattempo, segua i passaggi per la
-Sua app indicati sopra.
+Cline.
 
 **Prima di iniziare:** chiuda completamente ciascuna di queste app. È più importante per Claude Code:
 mentre è in esecuzione riscrive `~/.claude.json` e può annullare la modifica del programma di
@@ -152,12 +151,13 @@ installazione. Se non può chiudere Claude Code, vi aggiunga Fontes con `claude 
    aggiungere prima le chiavi gratuite facoltative, faccia invece clic su **Aggiungi chiavi**; veda
    [Il passaggio delle chiavi](#il-passaggio-delle-chiavi).
 
-**Windows** (quando sarà disponibile il programma di installazione per Windows)
+**Windows**
 
-1. Decomprima il **Fontes Installer** scaricato (clic destro → Extract All).
-2. Faccia doppio clic su **Install Fontes.cmd**.
+1. Scarichi il programma di installazione per Windows (`Fontes-Setup-….exe`)
+   dall'[ultima versione](https://github.com/ykarapazar/fontes/releases/latest) e faccia doppio clic su di esso.
    - Se Windows mostra "Windows protected your PC": faccia clic su **More info**, poi su
      **Run anyway**.
+2. Faccia clic su **Installa**. Si apre una finestra che configura Fontes.
 3. Quando chiede se inviare conteggi di utilizzo anonimi, prema Invio per rispondere di no.
 4. Chiede se aggiungere chiavi ora. Prema Invio per saltare; veda
    [Il passaggio delle chiavi](#il-passaggio-delle-chiavi).
@@ -199,8 +199,7 @@ Subito dopo l'installazione, il programma di installazione Le propone di aggiung
 per la Francia e gli Stati Uniti. Per aggiungerle o modificarle in seguito:
 
 - **Mac:** riapra **Fontes Installer** e scelga **Aggiungi o modifica chiavi**.
-- **Windows:** faccia doppio clic su **Add or change keys.cmd** nella cartella del programma di
-  installazione.
+- **Windows:** apra il menu Start, poi **Fontes** → **Add or change keys**.
 
 Ciò che digita non viene mostrato. Le chiavi vanno a tutte le app che hanno già Fontes. Poi chiuda e
 riapra le app. Dove ottenere le chiavi e che cosa sbloccano: [KEYS.md](KEYS.md).
@@ -213,8 +212,8 @@ commenti restano come erano. Prima di modificare un file, ne salva una copia acc
 elimini quelle che non Le servono più. Installa anche uv. Eseguirlo di nuovo è sicuro: ripara la
 configurazione e non modifica nient'altro.
 
-Per rimuovere Fontes, apra **Fontes Installer** e scelga **Rimuovi** (Mac), oppure faccia doppio clic
-su **Uninstall Fontes.cmd** (Windows). Rimuove la voce `fontes`, chiavi comprese, da ogni app. Le altre
+Per rimuovere Fontes, apra **Fontes Installer** e scelga **Rimuovi** (Mac), oppure disinstalli
+**Fontes** da Settings → Apps (Windows). Rimuove la voce `fontes`, chiavi comprese, da ogni app. Le altre
 impostazioni e le copie di backup restano.
 
 ## Aggiornamenti

@@ -19,8 +19,7 @@ Enter'a basın). Anahtarları daha sonra eklemek veya değiştirmek için **Anah
 çalıştırın:
 
 - Mac: Fontes Installer uygulamasını yeniden açıp **Anahtar ekle veya değiştir**'i seçin.
-- Windows: kurulum programı klasöründeki `Add or change keys.cmd` dosyasına çift tıklayın. Windows
-  kurulum programı, kullanıma sunulduğunda, bunu Start menu > Fontes altına da koyar.
+- Windows: Başlat menüsünü açın, ardından **Fontes** → **Anahtar ekle veya değiştir**.
 
 Yazdıklarınız gizlenir. Her anahtar için: yapıştırın, mevcut olanı korumak için Enter'a basın ya da
 kaldırmak için `-` yazın. Anahtarlar, Fontes'in zaten kurulu olduğu her uygulamaya eklenir.

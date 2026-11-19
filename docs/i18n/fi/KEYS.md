@@ -19,8 +19,7 @@ kysymykseen (ohita painamalla Enter). Lisää tai muuta avaimia myöhemmin ajama
 keys**:
 
 - Mac: avaa Fontes Installer -sovellus uudelleen ja valitse **Lisää tai vaihda avaimia**.
-- Windows: kaksoisnapsauta `Add or change keys.cmd` asennuskansiossa. Windowsin asennusohjelma
-  lisää sen myös, kun se on saatavilla, Käynnistä-valikkoon > Fontes.
+- Windows: avaa Käynnistä-valikko ja valitse **Fontes** → **Lisää tai vaihda avaimia**.
 
 Kirjoittamasi teksti on piilotettu. Kunkin avaimen kohdalla: liitä se, paina Enter säilyttääksesi nykyisen arvon tai kirjoita `-`
 poistaaksesi sen. Avaimet lisätään jokaiseen sovellukseen, jossa Fontes jo on.

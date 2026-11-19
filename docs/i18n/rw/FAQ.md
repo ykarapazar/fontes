@@ -119,7 +119,7 @@ umubare ntarengwa w'ibisabwa), andikira fontesmcp@proton.me. Inkomoko izakosorwa
 
 Porogaramu iyo ari yo yose ya MCP ishobora gukoresha seriveri iri kuri mudasobwa (stdio), urugero Claude
 Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio na
-Cline. Fontes ikora kuri macOS, Windows na Linux, aho uv ikora hose (Python 3.13+). Kuri Mac, porogaramu yo gushyiraho ukanze rimwe ishyiraho Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio na Cline icyarimwe; porogaramu yo gushyiraho ya Windows iri hafi. Intambwe kuri buri porogaramu:
+Cline. Fontes ikora kuri macOS, Windows na Linux, aho uv ikora hose (Python 3.13+). Kuri Mac cyangwa PC ya Windows, porogaramu yo gushyiraho ukanze rimwe ishyiraho Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio na Cline icyarimwe. Intambwe kuri buri porogaramu:
 [INSTALL.md](INSTALL.md).
 
 ## Nshobora gutanga umusanzu wa kode?

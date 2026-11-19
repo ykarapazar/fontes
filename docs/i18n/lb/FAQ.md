@@ -119,10 +119,9 @@ Schreift keng Donnéeë vu Clienten a keng vertraulech Fakten an e Bericht.
 
 Mat all MCP-App, déi e lokale (stdio-)Server lafe loosse kann, zum Beispill Claude Desktop, Claude
 Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio a Cline. Fontes
-leeft op macOS, Windows a Linux, iwwerall do, wou uv leeft (Python 3.13+). Op engem Mac riicht en
+leeft op macOS, Windows a Linux, iwwerall do, wou uv leeft (Python 3.13+). Op engem Mac oder PC mat Windows riicht en
 Installatiounsprogramm mat engem Klick Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
-Gemini CLI, Zed, LM Studio a Cline an engem Gang an; en Installatiounsprogramm fir Windows ass
-ënnerwee. Schrëtt fir all App: [INSTALL.md](INSTALL.md).
+Gemini CLI, Zed, LM Studio a Cline an engem Gang an. Schrëtt fir all App: [INSTALL.md](INSTALL.md).
 
 ## Kann ech Code bäidroen?
 

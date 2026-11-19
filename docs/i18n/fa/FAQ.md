@@ -115,9 +115,9 @@ Fontes به هر پاسخی که از یکی از این منابع بیاید �
 
 هر برنامه MCP که بتواند یک سرور محلی (stdio) اجرا کند، برای نمونه Claude Desktop، Claude Code،
 Codex، Cursor، VS Code (GitHub Copilot)، Gemini CLI، Windsurf، Zed، LM Studio و Cline. Fontes
-روی macOS، Windows و Linux اجرا می‌شود، هر جا که uv اجرا شود (Python 3.13+). روی Mac، یک نصب‌کننده تک‌کلیکی
+روی macOS، Windows و Linux اجرا می‌شود، هر جا که uv اجرا شود (Python 3.13+). روی Mac یا Windows PC، یک نصب‌کننده تک‌کلیکی
 Claude Desktop، Codex، Claude Code، Cursor، VS Code، Windsurf، Gemini CLI، Zed، LM Studio و
-Cline را یک‌جا راه‌اندازی می‌کند؛ یک نصب‌کننده برای Windows در راه است. مراحل هر برنامه: [INSTALL.md](INSTALL.md).
+Cline را یک‌جا راه‌اندازی می‌کند. مراحل هر برنامه: [INSTALL.md](INSTALL.md).
 
 ## آیا می‌توانم در کد مشارکت کنم؟
 

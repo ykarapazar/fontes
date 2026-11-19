@@ -128,11 +128,10 @@ Vissa källor kräver en kostnadsfri nyckel: se [KEYS.md](KEYS.md).
 Fråga i en ny chatt: *”Vilka jurisdiktioner kan Fontes söka i?”* Appen bör svara med en
 lista över länder. Om den inte gör det, avsluta och öppna appen en gång till.
 
-## Installationsprogram med ett klick (Mac)
+## Installationsprogram med ett klick (Mac och Windows)
 
-Mac-installationsprogrammet konfigurerar Fontes i alla dina appar på en gång: Claude Desktop, Codex, Claude Code,
-Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio och Cline. Ett installationsprogram
-för Windows är på väg; använd fram till dess stegen för din app ovan.
+Installationsprogrammet konfigurerar Fontes i alla dina appar på en gång: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio och Cline.
 
 **Innan du börjar:** avsluta var och en av dessa appar helt. Det är viktigast för Claude Code:
 medan den körs skriver den om `~/.claude.json` och kan ångra installationsprogrammets ändring. Om du inte kan
@@ -149,11 +148,12 @@ avsluta Claude Code, lägg i stället till Fontes i den med `claude mcp add` (se
    Om du först vill lägga till de valfria kostnadsfria nycklarna, klicka i stället på **Lägg till nycklar**;
    se [Nyckelsteget](#nyckelsteget).
 
-**Windows** (när Windows-installationsprogrammet har släppts)
+**Windows**
 
-1. Packa upp den nedladdade **Fontes Installer** (högerklicka → Extract All).
-2. Dubbelklicka på **Install Fontes.cmd**.
+1. Ladda ner Windows-installationsprogrammet (`Fontes-Setup-….exe`) från
+   [senaste versionen](https://github.com/ykarapazar/fontes/releases/latest) och dubbelklicka på det.
    - Om Windows visar ”Windows protected your PC”: klicka på **More info** och sedan **Run anyway**.
+2. Klicka på **Installera**. Ett fönster öppnas och konfigurerar Fontes.
 3. När du får frågan om anonyma användningssiffror ska skickas, tryck Enter för nej.
 4. Det frågar om nycklar ska läggas till nu. Tryck Enter för att hoppa över; se [Nyckelsteget](#nyckelsteget).
 5. När det står **Done**, öppna dina AI-appar igen. Om någon fortfarande var igång, stäng den
@@ -193,7 +193,7 @@ Direkt efter installationen erbjuder installationsprogrammet att lägga till de 
 ändra dem senare:
 
 - **Mac:** öppna **Fontes Installer** igen och välj **Lägg till eller ändra nycklar**.
-- **Windows:** dubbelklicka på **Add or change keys.cmd** i installationsmappen.
+- **Windows:** öppna Start-menyn och välj sedan **Fontes** → **Lägg till eller ändra nycklar**.
 
 Det du skriver döljs. Nycklarna läggs in i alla appar som redan har Fontes. Avsluta och öppna apparna
 igen efteråt. Var du får nycklarna och vad de ger tillgång till: [KEYS.md](KEYS.md).
@@ -205,8 +205,8 @@ Innan det ändrar en fil sparar det en kopia bredvid den, med namnet `<file>.fon
 som gjorts efter att du lagt till nycklar innehåller de nycklarna: radera dem du inte längre behöver. Det
 installerar också uv. Det är säkert att köra det igen: det reparerar konfigurationen och ändrar inget annat.
 
-För att ta bort Fontes, öppna **Fontes Installer** och välj **Ta bort** (Mac), eller dubbelklicka på
-**Uninstall Fontes.cmd** (Windows). Det tar bort posten `fontes`, nycklarna inräknade, från alla appar. Dina övriga inställningar
+För att ta bort Fontes, öppna **Fontes Installer** och välj **Ta bort** (Mac), eller avinstallera
+**Fontes** under Inställningar → Appar (Windows). Det tar bort posten `fontes`, nycklarna inräknade, från alla appar. Dina övriga inställningar
 och säkerhetskopiorna finns kvar.
 
 ## Uppdateringar

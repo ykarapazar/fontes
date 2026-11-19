@@ -19,8 +19,7 @@ Windows svarer du på spørsmålet (trykk Enter for å hoppe over). For å legge
 nøkler senere kjører du **Add or change keys**:
 
 - Mac: åpne appen Fontes Installer igjen og velg **Legg til eller endre nøkler**.
-- Windows: dobbeltklikk på `Add or change keys.cmd` i mappen til installasjonsprogrammet.
-  Windows-installasjonsprogrammet legger den også i Start menu > Fontes når det er tilgjengelig.
+- Windows: åpne Start-menyen, velg deretter **Fontes** → **Legg til eller endre nøkler**.
 
 Det du skriver, vises ikke. For hver nøkkel: lim den inn, trykk Enter for å beholde det som står
 der, eller skriv `-` for å fjerne den. Nøklene legges til i alle apper som allerede har Fontes.

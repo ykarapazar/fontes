@@ -19,8 +19,7 @@ Mac, tsindrio ny **Hanampy fanalahidy**, na ny **Vita** handinganana; amin'ny Wi
 **Add or change keys**:
 
 - Mac: sokafy indray ny rindranasa Fontes Installer ary safidio ny **Hanampy na hanova fanalahidy**.
-- Windows: tsindrio indroa ny `Add or change keys.cmd` ao amin'ny lahatahirin'ny mpametraka. Hapetraky ny
-  programa fametrahana ho an'ny Windows koa izany, rehefa misy, ao amin'ny Start menu > Fontes.
+- Windows: sokafy ny menu Start, avy eo **Fontes** → **Hanampy na hanova fanalahidy**.
 
 Tsy aseho ny soratanao. Ho an'ny fanalahidy tsirairay: apetaho izy, tsindrio ny Enter hitazonana izay efa
 eo, na soraty ny `-` hanesorana azy. Miditra ao amin'ny rindranasa rehetra efa manana ny Fontes ireo

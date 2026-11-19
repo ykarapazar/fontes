@@ -129,11 +129,10 @@ Kèk sous bezwen yon kle gratis: gade [KEYS.md](KEYS.md).
 Nan yon nouvo konvèsasyon, mande: *"Nan ki jiridiksyon Fontes ka fè rechèch?"* Aplikasyon an ta dwe
 reponn ak yon lis peyi. Si li pa fè sa, fèmen aplikasyon an nèt epi louvri l ankò yon lòt fwa.
 
-## Enstalatè an yon sèl klik (Mac)
+## Enstalatè an yon sèl klik (Mac ak Windows)
 
-Enstalatè Mac la mete Fontes nan tout aplikasyon ou yo an yon sèl fwa: Claude Desktop, Codex, Claude
-Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ak Cline. Yon enstalatè
-pou Windows ap vini; jiskaske li soti, sèvi ak etap pou aplikasyon ou an ki anwo a.
+Enstalatè a mete Fontes nan tout aplikasyon ou yo an yon sèl fwa: Claude Desktop, Codex, Claude
+Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ak Cline.
 
 **Anvan ou kòmanse:** fèmen chak nan aplikasyon sa yo nèt. Sa pi enpòtan pou Claude Code: pandan l ap
 mache, li reekri `~/.claude.json` e li ka defèt chanjman enstalatè a. Si ou pa ka fèmen Claude Code, ajoute
@@ -151,11 +150,12 @@ Fontes ladan l ak `claude mcp add` pito (gade [Claude Code](#claude-code)).
    Pou ajoute kle gratis opsyonèl yo anvan, klike sou **Ajoute kle** pito; gade
    [Etap kle yo](#etap-kle-yo).
 
-**Windows** (lè enstalatè Windows la soti)
+**Windows**
 
-1. Dekonprese **Fontes Installer** ou telechaje a (klike adwat → Extract All).
-2. Klike de fwa sou **Install Fontes.cmd**.
+1. Telechaje enstalatè Windows la (`Fontes-Setup-….exe`) nan
+   [dènye vèsyon an](https://github.com/ykarapazar/fontes/releases/latest) epi klike de fwa sou li.
    - Si Windows montre "Windows protected your PC": klike sou **More info**, epi sou **Run anyway**.
+2. Klike sou **Enstale**. Yon fenèt louvri epi konfigire Fontes.
 3. Lè li mande w si ou vle voye kantite itilizasyon anonim, peze Enter pou non.
 4. Li mande w si ou vle ajoute kle kounye a. Peze Enter pou sote sa; gade [Etap kle yo](#etap-kle-yo).
 5. Lè **Fini** parèt, louvri aplikasyon IA ou yo ankò. Si youn te toujou ap mache, fèmen l nèt (ladan l
@@ -195,7 +195,7 @@ Touswit apre enstalasyon an, enstalatè a ofri w pou ajoute kle gratis pou Lafra
 oswa chanje yo pita:
 
 - **Mac:** louvri **Fontes Installer** ankò epi chwazi **Ajoute oswa chanje kle**.
-- **Windows:** klike de fwa sou **Add or change keys.cmd** nan dosye enstalatè a.
+- **Windows:** louvri meni Start la, epi chwazi **Fontes** → **Add or change keys**.
 
 Sa ou tape a kache. Kle yo ale nan chak aplikasyon ki deja gen Fontes. Apre sa, fèmen aplikasyon yo nèt
 epi louvri yo ankò. Ki kote pou jwenn kle yo ak sa yo debloke: [KEYS.md](KEYS.md).
@@ -207,8 +207,7 @@ chanje yon fichye, li sove yon kopi akote l, ki rele `<file>.fontes-backup-<date
 ajoute kle yo gen kle sa yo ladan yo: efase sa ou pa bezwen yo. Li enstale uv tou. Ou ka lanse l ankò san
 pwoblèm: li repare konfigirasyon an e li pa chanje anyen lòt.
 
-Pou retire Fontes, louvri **Fontes Installer** epi chwazi **Retire** (Mac), oswa klike de fwa sou
-**Uninstall Fontes.cmd** (Windows). Li retire antre `fontes` la, ansanm ak kle yo, nan chak aplikasyon.
+Pou retire Fontes, louvri **Fontes Installer** epi chwazi **Retire** (Mac), oswa retire **Fontes** nan Settings → Apps (Windows). Li retire antre `fontes` la, ansanm ak kle yo, nan chak aplikasyon.
 Lòt paramèt ak kopi sekou yo rete.
 
 ## Mizajou

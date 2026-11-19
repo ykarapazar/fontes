@@ -74,12 +74,12 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 2. **ⴰⵍⵙ ⴰⵙⵏⵜⵉ ⵏ ⵓⵙⵏⵙ.** ⴼⴼⵖ ⵙⴳⵙ ⵙ ⵜⵎⴰⵎⵜ, ⵜⵕⵥⵎⴷ ⵜ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ.
 3. **ⵙⵇⵙⴰ:** *"ⵎⴰⵜⵜⴰ ⵜⵉⵙⴳⴰⵡⵉⵏ ⵜⵉⵣⵔⴼⴰⵏⵉⵏ ⵙ ⵉⵣⵎⵔ Fontes ⴰⴷ ⵉⵔⵣⵓ?"* ⵉⵇⵇⴰⵏ ⴰⴷ ⵉⵙⵎⴷⵢⴰ ⵜⵉⵎⵓⵔⴰ.
 
-**ⴳ Mac**, ⵢⴰⵏ ⵓⵎⵙⵔⵙ ⵙ ⵢⴰⵏ ⵓⴽⵍⵉⴽ ⴰⵔ ⵉⵙⵔⵙ Fontes ⴳ Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**ⴳ Mac ⵏⵖ Windows**, ⵢⴰⵏ ⵓⵎⵙⵔⵙ ⵙ ⵢⴰⵏ ⵓⴽⵍⵉⴽ ⴰⵔ ⵉⵙⵔⵙ Fontes ⴳ Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio ⴷ Cline, ⴳ ⴽⵓ ⵢⴰⵏ ⵍⵍⵉ ⵉⵍⵍⴰⵏ ⴳ ⵓⵙⵏⵙⵉⵍ ⵏⵏⴽ, ⵙⴳ ⵎⴰⵏ ⴰⴷ ⴽ ⵉⵙⵇⵙⴰ ⵎⴰ
-ⵜⵔⵉⴷ ⴰⴷ ⵜⵔⵏⵓⴷ ⵜⵉⵙⴰⵔⵓⵜⵉⵏ ⵏⵏⴽ. ⴰⴳⵎ ⴰⵎⵙⵔⵙ ⵏ Mac ⵙⴳ
+ⵜⵔⵉⴷ ⴰⴷ ⵜⵔⵏⵓⴷ ⵜⵉⵙⴰⵔⵓⵜⵉⵏ ⵏⵏⴽ. ⴰⴳⵎ ⴰⵎⵙⵔⵙ ⵏ ⵓⴳⴳⴰⵔ ⵏⵏⴽ ⵙⴳ
 [ⴰⵙⵙⵓⴼⵖ ⴰⵏⴳⴳⴰⵔⵓ](https://github.com/ykarapazar/fontes/releases/latest), ⵜⴼⴼⵖⴷ ⵙⴳ ⵉⵙⵏⵙⵏ ⴰⴷ ⵇⴱⵍ ⴰⴷ ⵜ
-ⵜⵙⵙⵡⵓⵔⵉⴷ. ⵢⴰⵏ ⵓⵎⵙⵔⵙ ⵉ Windows ⵉⵍⵍⴰ ⴳ ⵓⴱⵔⵉⴷ. ⵜⵉⴼⵔⵓⵙⵉⵏ:
-[INSTALL.md](INSTALL.md#ⴰⵎⵙⵔⵙ-ⵙ-ⵢⴰⵏ-ⵓⴽⵍⵉⴽ-mac).
+ⵜⵙⵙⵡⵓⵔⵉⴷ. ⵜⵉⴼⵔⵓⵙⵉⵏ:
+[INSTALL.md](INSTALL.md#ⴰⵎⵙⵔⵙ-ⵙ-ⵢⴰⵏ-ⵓⴽⵍⵉⴽ-mac-ⴷ-windows).
 ⴽⵔⴰ ⵏ ⵉⵙⴰⴳⵎⵏ ⵔⴰⵏ ⵢⴰⵜ ⵜⵙⴰⵔⵓⵜ ⵜⴰⵍⴰⵡⴰⵏⵜ: ⵥⵕ [KEYS.md](KEYS.md).
 
 <!-- map:start -->

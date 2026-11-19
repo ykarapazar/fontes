@@ -20,8 +20,7 @@ tikranaykipaq, **Add or change keys** nisqata purichiy:
 
 - Mac: Fontes Installer aplicacionta wakmanta kichay hinaspa **Llavekunata yapay utaq tikray**
   akllay.
-- Windows: instalador carpetapi `Add or change keys.cmd` nisqapi iskay kuti click ruway.
-  Windows instalana programaqa, kaptinña, Start menu > Fontes nisqapipas churanqa.
+- Windows: Start menu kichay, hinaspa **Fontes** → **Llavekunata yapay utaq tikray** akllay.
 
 Qillqasqaykiqa pakasqam. Sapa llavepaq: k'askachiy, kachkaqta waqaychanaykipaq Enter ñit'iy,
 utaq qichunaykipaq `-` qillqay. Llavekunaqa Fontesniyuqña llapan aplicacionkunamanmi yaykunku.

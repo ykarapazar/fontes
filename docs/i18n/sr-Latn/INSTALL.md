@@ -133,11 +133,10 @@ U novom razgovoru pitajte: *„U kojim jurisdikcijama Fontes može da pretražuj
 treba da odgovori spiskom država. Ako ne odgovori, još jednom zatvorite i ponovo otvorite
 aplikaciju.
 
-## Instalacioni program na jedan klik (Mac)
+## Instalacioni program na jedan klik (Mac i Windows)
 
-Instalacioni program za Mac podešava Fontes u svim vašim aplikacijama odjednom: Claude Desktop,
+Instalacioni program podešava Fontes u svim vašim aplikacijama odjednom: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio i Cline.
-Instalacioni program za Windows je u pripremi; do tada koristite korake za svoju aplikaciju iznad.
 
 **Pre nego što počnete:** potpuno zatvorite svaku od ovih aplikacija. To je posebno važno za
 Claude Code: dok radi, on prepisuje `~/.claude.json` i može poništiti izmenu koju je napravio
@@ -155,12 +154,13 @@ instalacioni program. Ako ne možete da zatvorite Claude Code, dodajte Fontes u 
    aplikacije. Da biste prvo dodali opcione besplatne ključeve, umesto toga kliknite na
    **Dodaj ključeve**; pogledajte [Korak sa ključevima](#korak-sa-ključevima).
 
-**Windows** (kada instalacioni program za Windows bude objavljen)
+**Windows**
 
-1. Raspakujte preuzeti **Fontes Installer** (desni klik → Extract All).
-2. Dvaput kliknite na **Install Fontes.cmd**.
+1. Preuzmite instalacioni program za Windows (`Fontes-Setup-….exe`) iz
+   [najnovijeg izdanja](https://github.com/ykarapazar/fontes/releases/latest) i dvaput kliknite na njega.
    - Ako Windows prikaže „Windows protected your PC“: kliknite **More info**, pa
      **Run anyway**.
+2. Kliknite na **Instaliraj**. Otvara se prozor i podešava Fontes.
 3. Kada pita da li da se šalju anonimni brojevi korišćenja, pritisnite Enter da biste odbili.
 4. Pita da li želite da sada dodate ključeve. Pritisnite Enter da biste preskočili; pogledajte
    [Korak sa ključevima](#korak-sa-ključevima).
@@ -202,7 +202,7 @@ Odmah nakon instalacije, instalacioni program nudi da doda besplatne ključeve z
 SAD. Da biste ih kasnije dodali ili promenili:
 
 - **Mac:** ponovo otvorite **Fontes Installer** i izaberite **Dodaj ili promeni ključeve**.
-- **Windows:** dvaput kliknite na **Add or change keys.cmd** u fascikli instalacionog programa.
+- **Windows:** otvorite meni Start, pa **Fontes** → **Dodaj ili promeni ključeve**.
 
 Unos je skriven. Ključevi se upisuju u svaku aplikaciju koja već ima Fontes. Nakon toga zatvorite
 i ponovo otvorite aplikacije. Gde se dobijaju ključevi i šta otključavaju: [KEYS.md](KEYS.md).
@@ -215,8 +215,8 @@ nepromenjeni. Pre nego što izmeni datoteku, pored nje čuva kopiju pod imenom
 ključeve: obrišite one koje vam više nisu potrebne. On instalira i uv. Ponovno pokretanje je
 bezbedno: ispravlja podešavanje i ne menja ništa drugo.
 
-Da biste uklonili Fontes, otvorite **Fontes Installer** i izaberite **Ukloni** (Mac) ili dvaput kliknite na
-**Uninstall Fontes.cmd** (Windows). On uklanja unos `fontes`, zajedno sa ključevima, iz svake
+Da biste uklonili Fontes, otvorite **Fontes Installer** i izaberite **Ukloni** (Mac) ili deinstalirajte
+**Fontes** u Podešavanjima → Aplikacijama (Windows). On uklanja unos `fontes`, zajedno sa ključevima, iz svake
 aplikacije. Vaša ostala podešavanja i rezervne kopije ostaju.
 
 ## Ažuriranja

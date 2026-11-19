@@ -19,8 +19,7 @@ vprašanje (pritisnite Enter, da preskočite). Če želite ključe dodati ali sp
 **Dodaj ali spremeni ključe**:
 
 - Mac: znova odprite aplikacijo Fontes Installer in izberite **Dodaj ali spremeni ključe**.
-- Windows: dvakrat kliknite `Add or change keys.cmd` v mapi namestitvenega programa.
-  Namestitveni program za Windows ga bo, ko bo na voljo, dodal tudi v Start menu > Fontes.
+- Windows: odprite meni Start, nato **Fontes** → **Dodaj ali spremeni ključe**.
 
 Vnos se ne prikazuje. Za vsak ključ: prilepite ga, pritisnite Enter, da obdržite obstoječega,
 ali vpišite `-`, da ga odstranite. Ključi se zapišejo v vsako aplikacijo, ki že ima Fontes.

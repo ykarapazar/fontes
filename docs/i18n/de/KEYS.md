@@ -19,8 +19,7 @@ an, Schlüssel hinzuzufügen. Klicken Sie auf einem Mac auf **Schlüssel hinzuf�
 überspringen). Um Schlüssel später hinzuzufügen oder zu ändern, führen Sie **Add or change keys** aus:
 
 - Mac: Öffnen Sie die App Fontes Installer erneut und wählen Sie **Schlüssel hinzufügen oder ändern**.
-- Windows: Doppelklicken Sie im Ordner des Installationsprogramms auf `Add or change keys.cmd`. Das
-  Windows-Setupprogramm legt es, sobald es verfügbar ist, außerdem unter Startmenü > Fontes ab.
+- Windows: Öffnen Sie das Startmenü und wählen Sie dann **Fontes** → **Schlüssel hinzufügen oder ändern**.
 
 Die Eingabe wird nicht angezeigt. Für jeden Schlüssel: Fügen Sie ihn ein, drücken Sie Enter, um den
 vorhandenen zu behalten, oder geben Sie `-` ein, um ihn zu entfernen. Die Schlüssel werden in jede App

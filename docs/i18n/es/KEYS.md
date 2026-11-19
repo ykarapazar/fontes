@@ -19,8 +19,7 @@ pregunta (pulse Intro para omitirlo). Para añadir o cambiar claves más tarde, 
 **Add or change keys**:
 
 - Mac: vuelva a abrir la aplicación Fontes Installer y elija **Añadir o cambiar claves**.
-- Windows: haga doble clic en `Add or change keys.cmd` en la carpeta del instalador. El programa de
-  instalación de Windows, cuando esté disponible, también lo colocará en Start menu > Fontes.
+- Windows: abra el menú Inicio y luego **Fontes** → **Añadir o cambiar claves**.
 
 Lo que escriba no se muestra. Para cada clave: péguela, pulse Intro para conservar la actual o
 escriba `-` para eliminarla. Las claves se añaden a todas las aplicaciones que ya tienen Fontes.

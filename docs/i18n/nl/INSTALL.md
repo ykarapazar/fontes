@@ -131,12 +131,10 @@ Sommige bronnen hebben een gratis sleutel nodig: zie [KEYS.md](KEYS.md).
 Vraag in een nieuwe chat: *"Welke rechtsstelsels kan Fontes doorzoeken?"* De app hoort te antwoorden
 met een lijst van landen. Gebeurt dat niet, sluit de app dan nog een keer af en open hem opnieuw.
 
-## Installatieprogramma met één klik (Mac)
+## Installatieprogramma met één klik (Mac en Windows)
 
-Het Mac-installatieprogramma stelt Fontes in één keer in al uw apps in: Claude Desktop, Codex,
-Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio en Cline. Een
-installatieprogramma voor Windows is in voorbereiding; gebruik tot die tijd de stappen voor uw app
-hierboven.
+Het installatieprogramma stelt Fontes in één keer in al uw apps in: Claude Desktop, Codex,
+Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio en Cline.
 
 **Voordat u begint:** sluit elk van deze apps volledig af. Dat is vooral belangrijk voor Claude Code:
 terwijl het draait, herschrijft het `~/.claude.json` en kan het de wijziging van het
@@ -155,12 +153,13 @@ plaats daarvan aan toe met `claude mcp add` (zie [Claude Code](#claude-code)).
    Wilt u eerst de optionele gratis sleutels toevoegen, klik dan in plaats daarvan op
    **Sleutels toevoegen**; zie [Sleutels in het installatieprogramma](#sleutels-in-het-installatieprogramma).
 
-**Windows** (zodra het installatieprogramma voor Windows is uitgebracht)
+**Windows**
 
-1. Pak de gedownloade **Fontes Installer** uit (rechtsklik → **Alles uitpakken**).
-2. Dubbelklik op **Install Fontes.cmd**.
+1. Download het Windows-installatieprogramma (`Fontes-Setup-….exe`) uit de
+   [nieuwste release](https://github.com/ykarapazar/fontes/releases/latest) en dubbelklik erop.
    - Als Windows "Windows heeft uw pc beschermd" toont: klik op **Meer informatie** en daarna op
      **Toch uitvoeren**.
+2. Klik op **Installeren**. Er opent een venster dat Fontes instelt.
 3. Wanneer gevraagd wordt of u anonieme gebruiksaantallen wilt verzenden, druk op Enter voor nee.
 4. Het vraagt of u nu sleutels wilt toevoegen. Druk op Enter om over te slaan; zie
    [Sleutels in het installatieprogramma](#sleutels-in-het-installatieprogramma).
@@ -201,7 +200,7 @@ Direct na de installatie biedt het installatieprogramma aan de gratis sleutels v
 VS toe te voegen. Om ze later toe te voegen of te wijzigen:
 
 - **Mac:** open **Fontes Installer** opnieuw en kies **Sleutels toevoegen of wijzigen**.
-- **Windows:** dubbelklik op **Add or change keys.cmd** in de map van het installatieprogramma.
+- **Windows:** open het startmenu en kies daarna **Fontes** → **Sleutels toevoegen of wijzigen**.
 
 Wat u typt blijft verborgen. De sleutels worden toegevoegd aan elke app die Fontes al heeft. Sluit de
 apps daarna af en open ze opnieuw. Waar u de sleutels krijgt en wat ze ontsluiten: [KEYS.md](KEYS.md).
@@ -215,7 +214,7 @@ toegevoegd, bevatten die sleutels: verwijder de kopieën die u niet meer nodig h
 ook uv. Opnieuw uitvoeren is veilig: het herstelt de installatie en wijzigt verder niets.
 
 Om Fontes te verwijderen, opent u **Fontes Installer** en kiest u **Verwijderen** (Mac), of
-dubbelklikt u op **Uninstall Fontes.cmd** (Windows). Dit verwijdert de vermelding `fontes`, inclusief
+verwijdert u **Fontes** via Instellingen → Apps (Windows). Dit verwijdert de vermelding `fontes`, inclusief
 sleutels, uit elke app. Uw andere instellingen en de reservekopieën blijven staan.
 
 ## Updates

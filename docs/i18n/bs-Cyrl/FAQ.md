@@ -117,10 +117,9 @@ Fontes додаје напомену „Unofficial source“ сваком одг
 
 Са сваком MCP апликацијом која може покренути локални (stdio) сервер, на примјер Claude Desktop,
 Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio и Cline.
-Fontes ради на macOS-у, Windows-у и Linux-у, свугдје гдје ради uv (Python 3.13+). На Mac-у
+Fontes ради на macOS-у, Windows-у и Linux-у, свугдје гдје ради uv (Python 3.13+). На Mac-у или Windows PC-у
 инсталацијски програм једним кликом поставља Claude Desktop, Codex, Claude Code, Cursor, VS Code,
-Windsurf, Gemini CLI, Zed, LM Studio и Cline одједном; инсталацијски програм за Windows је у
-припреми. Кораци за сваку апликацију: [INSTALL.md](INSTALL.md).
+Windsurf, Gemini CLI, Zed, LM Studio и Cline одједном. Кораци за сваку апликацију: [INSTALL.md](INSTALL.md).
 
 ## Могу ли допринијети кодом?
 

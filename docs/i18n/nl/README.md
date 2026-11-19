@@ -75,11 +75,11 @@ Status van de bronnen (dagelijks gecontroleerd): [ykarapazar.github.io/fontes/st
 2. **Start de app opnieuw.** Sluit hem volledig af en open hem opnieuw.
 3. **Vraag:** *"Welke rechtsstelsels kan Fontes doorzoeken?"* De app hoort dan de landen op te sommen.
 
-**Op een Mac** stelt een installatieprogramma met één klik Fontes in in Claude Desktop, Codex,
+**Op een Mac of Windows-pc** stelt een installatieprogramma met één klik Fontes in in Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio en Cline, in elk van deze apps op
-uw computer, en biedt daarna aan uw sleutels toe te voegen. Download het Mac-installatieprogramma uit de [nieuwste release](https://github.com/ykarapazar/fontes/releases/latest) en sluit
-die apps af voordat u het uitvoert. Een installatieprogramma voor Windows is in voorbereiding. Details:
-[INSTALL.md](INSTALL.md#installatieprogramma-met-één-klik-mac).
+uw computer, en biedt daarna aan uw sleutels toe te voegen. Download het installatieprogramma voor uw computer uit de [nieuwste release](https://github.com/ykarapazar/fontes/releases/latest) en sluit
+die apps af voordat u het uitvoert. Details:
+[INSTALL.md](INSTALL.md#installatieprogramma-met-één-klik-mac-en-windows).
 Sommige bronnen hebben een gratis sleutel nodig: zie [KEYS.md](KEYS.md).
 
 <!-- map:start -->

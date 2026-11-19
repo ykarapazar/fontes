@@ -74,11 +74,11 @@ OpenAI Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM St
 2. **ເລີ່ມແອັບຄືນໃໝ່.** ປິດມັນໃຫ້ໝົດ ແລ້ວເປີດມັນອີກຄັ້ງ.
 3. **ຖາມ:** *"Fontes ສາມາດຄົ້ນຫາໃນເຂດອຳນາດໃດແດ່?"* ມັນຄວນຈະລາຍຊື່ປະເທດຕ່າງໆ.
 
-**ໃນ Mac**, ໂປຣແກຣມຕິດຕັ້ງແບບຄລິກດຽວ ຕັ້ງຄ່າ Fontes ໃນ Claude Desktop, Codex, Claude Code, Cursor,
+**ໃນ Mac ຫຼື Windows PC**, ໂປຣແກຣມຕິດຕັ້ງແບບຄລິກດຽວ ຕັ້ງຄ່າ Fontes ໃນ Claude Desktop, Codex, Claude Code, Cursor,
 VS Code, Windsurf, Gemini CLI, Zed, LM Studio ແລະ Cline, ໃນແຕ່ລະແອັບທີ່ມີຢູ່ໃນຄອມພິວເຕີຂອງທ່ານ,
-ແລ້ວສະເໜີໃຫ້ເພີ່ມກະແຈຂອງທ່ານ. ດາວໂຫຼດໂປຣແກຣມຕິດຕັ້ງສຳລັບ Mac ຈາກ [ການເປີດຕົວລ່າສຸດ](https://github.com/ykarapazar/fontes/releases/latest) ແລະ
-ປິດແອັບເຫຼົ່ານັ້ນ ກ່ອນທີ່ທ່ານຈະແລ່ນມັນ. ໂປຣແກຣມຕິດຕັ້ງສຳລັບ Windows ກຳລັງຈະມາ. ລາຍລະອຽດ:
-[INSTALL.md](INSTALL.md#ໂປຣແກຣມຕິດຕັ້ງແບບຄລິກດຽວ-mac).
+ແລ້ວສະເໜີໃຫ້ເພີ່ມກະແຈຂອງທ່ານ. ດາວໂຫຼດໂປຣແກຣມຕິດຕັ້ງສຳລັບຄອມພິວເຕີຂອງທ່ານຈາກ [ການເປີດຕົວລ່າສຸດ](https://github.com/ykarapazar/fontes/releases/latest) ແລະ
+ປິດແອັບເຫຼົ່ານັ້ນ ກ່ອນທີ່ທ່ານຈະແລ່ນມັນ. ລາຍລະອຽດ:
+[INSTALL.md](INSTALL.md#ໂປຣແກຣມຕິດຕັ້ງແບບຄລິກດຽວ-mac-ແລະ-windows).
 ບາງແຫຼ່ງຕ້ອງການກະແຈຟຣີ: ເບິ່ງ [KEYS.md](KEYS.md).
 
 <!-- map:start -->

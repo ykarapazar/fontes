@@ -77,13 +77,12 @@ Status der Quellen (täglich geprüft): [ykarapazar.github.io/fontes/status/](ht
 3. **Fragen Sie:** *„Welche Rechtsordnungen kann Fontes durchsuchen?“* Die App sollte die Länder
    auflisten.
 
-**Auf einem Mac** richtet ein Ein-Klick-Installationsprogramm Fontes in Claude Desktop, Codex,
+**Auf einem Mac oder einem Windows-PC** richtet ein Ein-Klick-Installationsprogramm Fontes in Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio und Cline ein, in jeder dieser
 Apps auf Ihrem Computer, und bietet dann an, Ihre Schlüssel hinzuzufügen. Laden Sie das
-Mac-Installationsprogramm aus dem [neuesten Release](https://github.com/ykarapazar/fontes/releases/latest)
-herunter und beenden Sie diese Apps, bevor Sie es ausführen. Ein Installationsprogramm für Windows
-ist in Vorbereitung. Einzelheiten:
-[INSTALL.md](INSTALL.md#ein-klick-installationsprogramm-mac).
+Installationsprogramm für Ihren Computer aus dem [neuesten Release](https://github.com/ykarapazar/fontes/releases/latest)
+herunter und beenden Sie diese Apps, bevor Sie es ausführen. Einzelheiten:
+[INSTALL.md](INSTALL.md#ein-klick-installationsprogramm-mac-und-windows).
 Einige Quellen benötigen einen kostenlosen Schlüssel: siehe [KEYS.md](KEYS.md).
 
 <!-- map:start -->

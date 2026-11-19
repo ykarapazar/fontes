@@ -18,8 +18,7 @@ við lyklum. Á Mac skaltu smella á **Bæta við lyklum**, eða **Lokið** til 
 skaltu svara spurningunni (ýttu á Enter til að sleppa því). Til að bæta við eða breyta lyklum síðar, keyrðu **Add or change keys**:
 
 - Mac: opnaðu forritið Fontes Installer aftur og veldu **Bæta við eða breyta lyklum**.
-- Windows: tvísmelltu á `Add or change keys.cmd` í uppsetningarmöppunni. Uppsetningarforritið fyrir Windows
-  setur það einnig, þegar það verður fáanlegt, í Start-valmyndina > Fontes.
+- Windows: opnaðu Start-valmyndina, síðan **Fontes** → **Bæta við eða breyta lyklum**.
 
 Það sem þú slærð inn er falið. Fyrir hvern lykil: límdu hann inn, ýttu á Enter til að halda því sem fyrir er, eða sláðu inn `-` til að
 fjarlægja hann. Lyklarnir fara í öll forrit sem þegar hafa Fontes.

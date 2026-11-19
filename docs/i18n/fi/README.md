@@ -74,12 +74,12 @@ Lähteiden tila (tarkistetaan päivittäin): [ykarapazar.github.io/fontes/status
 2. **Käynnistä sovellus uudelleen.** Sulje se kokonaan ja avaa uudelleen.
 3. **Kysy:** *”Mistä lainkäyttöalueista Fontes voi hakea?”* Sen pitäisi luetella maat.
 
-**Macilla** yhden napsautuksen asennusohjelma ottaa Fontesin käyttöön Claude Desktopissa, Codexissa,
+**Macilla tai Windows-tietokoneella** yhden napsautuksen asennusohjelma ottaa Fontesin käyttöön Claude Desktopissa, Codexissa,
 Claude Codessa, Cursorissa, VS Codessa, Windsurfissa, Gemini CLI:ssä, Zedissä, LM Studiossa ja
 Clinessä, jokaisessa niistä, joka on tietokoneellasi, ja tarjoutuu sitten lisäämään avaimesi. Lataa
-Macin asennusohjelma [uusimmasta julkaisusta](https://github.com/ykarapazar/fontes/releases/latest)
-ja sulje nämä sovellukset ennen sen ajamista. Windowsin asennusohjelma on tulossa. Lisätietoja:
-[INSTALL.md](INSTALL.md#yhden-napsautuksen-asennusohjelma-mac).
+asennusohjelma tietokoneellesi [uusimmasta julkaisusta](https://github.com/ykarapazar/fontes/releases/latest)
+ja sulje nämä sovellukset ennen sen ajamista. Lisätietoja:
+[INSTALL.md](INSTALL.md#yhden-napsautuksen-asennusohjelma-mac-ja-windows).
 Jotkin lähteet tarvitsevat maksuttoman avaimen: katso [KEYS.md](KEYS.md).
 
 <!-- map:start -->

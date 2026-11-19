@@ -19,8 +19,7 @@ Enter për ta anashkaluar). Për të shtuar ose ndryshuar çelësat më vonë, e
 **Add or change keys**:
 
 - Mac: hapni sërish aplikacionin Fontes Installer dhe zgjidhni **Shto ose ndrysho çelësat**.
-- Windows: klikoni dy herë `Add or change keys.cmd` në dosjen e instaluesit. Programi i
-  instalimit për Windows, sapo të jetë i disponueshëm, e vendos gjithashtu te Start menu > Fontes.
+- Windows: hapni menunë Start, pastaj **Fontes** → **Shto ose ndrysho çelësat**.
 
 Shkrimi është i fshehur. Për çdo çelës: ngjiteni, shtypni Enter për të mbajtur atë që është, ose
 shkruani `-` për ta hequr. Çelësat shkojnë në çdo aplikacion që e ka tashmë Fontes.

@@ -122,9 +122,9 @@ fhoinse nó múchfar í.
 
 Aon aip MCP ar féidir léi freastalaí áitiúil (stdio) a rith, mar shampla Claude Desktop, Claude
 Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio agus Cline.
-Ritheann Fontes ar macOS, Windows agus Linux, áit ar bith a ritheann uv (Python 3.13+). Ar Mac,
+Ritheann Fontes ar macOS, Windows agus Linux, áit ar bith a ritheann uv (Python 3.13+). Ar Mac nó PC Windows,
 socraíonn suiteálaí aon chliceáil Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf,
-Gemini CLI, Zed, LM Studio agus Cline in aon iarraidh amháin; tá suiteálaí Windows ar an mbealach.
+Gemini CLI, Zed, LM Studio agus Cline in aon iarraidh amháin.
 Céimeanna do gach aip: [INSTALL.md](INSTALL.md).
 
 ## An féidir liom cód a chur leis?

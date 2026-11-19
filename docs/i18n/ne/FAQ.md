@@ -106,9 +106,9 @@ OFF चिन्ह लगाइएको हुन्छ र ती बन्�
 
 स्थानीय (stdio) सर्भर चलाउन सक्ने कुनै पनि MCP एप, उदाहरणका लागि Claude Desktop, Claude Code, Codex, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio र Cline। Fontes macOS, Windows र Linux मा, uv
-चल्ने जुनसुकै ठाउँमा (Python 3.13+) चल्छ। Mac मा,
+चल्ने जुनसुकै ठाउँमा (Python 3.13+) चल्छ। Mac वा Windows PC मा,
 एक-क्लिक इन्स्टलरले Claude Desktop, Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed,
-LM Studio र Cline एकै पटक सेट अप गर्छ; Windows इन्स्टलर आउँदै छ। प्रत्येक एपका चरणहरू: [INSTALL.md](INSTALL.md)।
+LM Studio र Cline एकै पटक सेट अप गर्छ। प्रत्येक एपका चरणहरू: [INSTALL.md](INSTALL.md)।
 
 ## के म कोड योगदान गर्न सक्छु?
 

@@ -130,12 +130,11 @@ Unele surse necesită o cheie gratuită: vedeți [KEYS.md](KEYS.md).
 Într-o conversație nouă, întrebați: *„În ce jurisdicții poate căuta Fontes?”* Aplicația ar trebui să
 răspundă cu o listă de țări. Dacă nu, închideți și redeschideți aplicația încă o dată.
 
-## Program de instalare cu un clic (Mac)
+## Program de instalare cu un clic (Mac și Windows)
 
-Programul de instalare pentru Mac configurează Fontes în toate aplicațiile dumneavoastră deodată: Claude
+Programul de instalare configurează Fontes în toate aplicațiile dumneavoastră deodată: Claude
 Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio și
-Cline. Un program de instalare pentru Windows este în pregătire; până atunci, urmați pașii pentru aplicația
-dumneavoastră de mai sus.
+Cline.
 
 **Înainte de a începe:** închideți complet fiecare dintre aceste aplicații. Acest lucru contează cel mai
 mult pentru Claude Code: cât timp rulează, rescrie `~/.claude.json` și poate anula modificarea făcută de
@@ -153,12 +152,13 @@ programul de instalare. Dacă nu puteți închide Claude Code, adăugați Fontes
    aplicații. Pentru a adăuga mai întâi cheile gratuite opționale, faceți clic în schimb pe **Adăugare chei**;
    vedeți [Pasul pentru chei](#pasul-pentru-chei).
 
-**Windows** (după lansarea programului de instalare pentru Windows)
+**Windows**
 
-1. Dezarhivați **Fontes Installer** descărcat (clic dreapta → Extragere totală).
-2. Faceți dublu clic pe **Install Fontes.cmd**.
+1. Descărcați programul de instalare pentru Windows (`Fontes-Setup-….exe`) din
+   [cea mai recentă versiune](https://github.com/ykarapazar/fontes/releases/latest) și faceți dublu clic pe el.
    - Dacă Windows afișează „Windows a protejat PC-ul”: faceți clic pe **Mai multe informații**, apoi pe
      **Executare oricum**.
+2. Faceți clic pe **Instalare**. Se deschide o fereastră care configurează Fontes.
 3. La întrebarea dacă doriți să trimiteți contorizări anonime de utilizare, apăsați Enter pentru nu.
 4. Vă întreabă dacă doriți să adăugați chei acum. Apăsați Enter pentru a sări peste acest pas; vedeți
    [Pasul pentru chei](#pasul-pentru-chei).
@@ -199,7 +199,7 @@ Imediat după instalare, programul de instalare se oferă să adauge cheile grat
 Pentru a le adăuga sau modifica mai târziu:
 
 - **Mac:** deschideți din nou **Fontes Installer** și alegeți **Adăugați sau modificați cheile**.
-- **Windows:** faceți dublu clic pe **Add or change keys.cmd** în folderul programului de instalare.
+- **Windows:** deschideți meniul Start, apoi alegeți **Fontes** → **Adăugați sau modificați cheile**.
 
 Textul tastat este ascuns. Cheile ajung în fiecare aplicație care are deja Fontes. Închideți și
 redeschideți apoi aplicațiile. De unde obțineți cheile și ce deblochează: [KEYS.md](KEYS.md).
@@ -212,8 +212,8 @@ Copiile făcute după ce ați adăugat chei conțin acele chei: ștergeți-le pe
 De asemenea, instalează uv. Rularea lui din nou este sigură: repară configurația și nu modifică nimic
 altceva.
 
-Pentru a elimina Fontes, deschideți **Fontes Installer** și alegeți **Eliminare** (Mac) sau faceți dublu
-clic pe **Uninstall Fontes.cmd** (Windows). Acesta elimină intrarea `fontes`, inclusiv cheile, din fiecare aplicație. Celelalte
+Pentru a elimina Fontes, deschideți **Fontes Installer** și alegeți **Eliminare** (Mac) sau dezinstalați
+**Fontes** din Setări → Aplicații (Windows). Acesta elimină intrarea `fontes`, inclusiv cheile, din fiecare aplicație. Celelalte
 setări și copiile de rezervă rămân.
 
 ## Actualizări

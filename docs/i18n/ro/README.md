@@ -75,11 +75,10 @@ Starea surselor (verificată zilnic): [ykarapazar.github.io/fontes/status/](http
 2. **Reporniți aplicația.** Închideți-o complet și deschideți-o din nou.
 3. **Întrebați:** *„În ce jurisdicții poate căuta Fontes?”* Ar trebui să afișeze lista țărilor.
 
-**Pe Mac**, un program de instalare cu un clic configurează Fontes în Claude Desktop, Codex, Claude Code,
+**Pe Mac sau PC Windows**, un program de instalare cu un clic configurează Fontes în Claude Desktop, Codex, Claude Code,
 Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio și Cline, în fiecare dintre ele care se află pe
-computerul dumneavoastră, apoi se oferă să vă adauge cheile. Descărcați programul de instalare pentru Mac din
-[cea mai recentă versiune](https://github.com/ykarapazar/fontes/releases/latest) și închideți aceste aplicații înainte de a-l rula. Un program de
-instalare pentru Windows este în pregătire. Detalii: [INSTALL.md](INSTALL.md#program-de-instalare-cu-un-clic-mac).
+computerul dumneavoastră, apoi se oferă să vă adauge cheile. Descărcați programul de instalare pentru computerul dumneavoastră din
+[cea mai recentă versiune](https://github.com/ykarapazar/fontes/releases/latest) și închideți aceste aplicații înainte de a-l rula. Detalii: [INSTALL.md](INSTALL.md#program-de-instalare-cu-un-clic-mac-și-windows).
 Unele surse necesită o cheie gratuită: vedeți [KEYS.md](KEYS.md).
 
 <!-- map:start -->

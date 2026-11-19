@@ -18,8 +18,7 @@ Ci Mac, cuqal **Yokk caabi yi**, walla **Jeex na** ngir bàyyi ko; ci Windows, t
 bàyyi ko). Ngir yokk walla soppi caabi yi ginnaaw, doxal **Yokk walla soppi caabi yi**:
 
 - Mac: ubbiwaatal aplikasioŋ Fontes Installer te tànn **Yokk walla soppi caabi yi**.
-- Windows: cuqal ñaari yoon `Add or change keys.cmd` ci kàggu programu samp bi. Programu samp bu Windows,
-  bu génnee, dina ko def itam ci Start menu > Fontes.
+- Windows: ubbil menu Start, ba noppi **Fontes** → **Yokk walla soppi caabi yi**.
 
 Li ngay bind dafa nëbbu. Ci caabi bu nekk: tafal ko, bës Enter ngir denc li fi nekk, walla bind `-` ngir
 dindi ko. Caabi yi dañuy dugg ci bépp aplikasioŋ bu am Fontes ba noppi.

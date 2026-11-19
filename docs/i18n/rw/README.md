@@ -77,12 +77,11 @@ Uko inkomoko zihagaze (bigenzurwa buri munsi): [ykarapazar.github.io/fontes/stat
 3. **Baza:** *"Ni ayahe mafasi y'ubutabera Fontes ishobora gushakishamo?"* Igomba gutanga urutonde
    rw'ibihugu.
 
-**Kuri Mac**, porogaramu yo gushyiraho ukanze rimwe ishyira Fontes muri Claude Desktop, Codex,
+**Kuri Mac cyangwa PC ya Windows**, porogaramu yo gushyiraho ukanze rimwe ishyira Fontes muri Claude Desktop, Codex,
 Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio na Cline, muri buri imwe iri kuri
 mudasobwa yawe, hanyuma ikagusaba niba yakongeraho imfunguzo zawe. Kuramo porogaramu yo gushyiraho
-ya Mac muri [verisiyo iheruka gusohoka](https://github.com/ykarapazar/fontes/releases/latest) kandi
-ufunge izo porogaramu mbere yo kuyikoresha. Porogaramu yo gushyiraho ya Windows iri hafi.
-Ibisobanuro: [INSTALL.md](INSTALL.md#porogaramu-yo-gushyiraho-ukanze-rimwe-mac).
+ya mudasobwa yawe muri [verisiyo iheruka gusohoka](https://github.com/ykarapazar/fontes/releases/latest) kandi
+ufunge izo porogaramu mbere yo kuyikoresha.Ibisobanuro: [INSTALL.md](INSTALL.md#porogaramu-yo-gushyiraho-ukanze-rimwe-mac-na-windows).
 Inkomoko zimwe zikenera urufunguzo rw'ubuntu: reba [KEYS.md](KEYS.md).
 
 <!-- map:start -->

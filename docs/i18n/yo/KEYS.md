@@ -19,8 +19,7 @@ dáhùn ìbéèrè náà (tẹ Enter láti fò ó). Láti fi kọ́kọ́rọ́ 
 ìfilọ́lẹ̀ **Add or change keys**:
 
 - Mac: tún áàpù Fontes Installer ṣí kí o sì yan **Fi kọ́kọ́rọ́ kún tàbí yí i padà**.
-- Windows: tẹ `Add or change keys.cmd` lẹ́ẹ̀mejì nínú fódà ẹ̀rọ ìfisílẹ̀. Ètò ìfisílẹ̀ fún Windows, nígbà tí
-  ó bá wà, yóò tún fi í sínú Start menu > Fontes.
+- Windows: ṣí Start menu, lẹ́yìn náà **Fontes** → **Fi kọ́kọ́rọ́ kún tàbí yí i padà**.
 
 Ohun tí o bá tẹ kò ní hàn. Fún kọ́kọ́rọ́ kọ̀ọ̀kan: lẹ̀ ẹ́, tẹ Enter láti pa èyí tí ó ti wà mọ́, tàbí tẹ `-`
 láti yọ ọ́ kúrò. Àwọn kọ́kọ́rọ́ náà ń lọ sí gbogbo áàpù tí ó ti ní Fontes.

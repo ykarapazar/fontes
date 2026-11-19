@@ -122,9 +122,9 @@ loharano.
 
 Rindranasa MCP rehetra afaka mandefa mpizara eo an-toerana (stdio), ohatra Claude Desktop, Claude Code,
 Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio ary Cline. Mandeha amin'ny
-macOS, Windows ary Linux ny Fontes, na aiza na aiza mandehanan'ny uv (Python 3.13+). Amin'ny Mac, mametraka ny Claude Desktop,
+macOS, Windows ary Linux ny Fontes, na aiza na aiza mandehanan'ny uv (Python 3.13+). Amin'ny Mac na PC Windows, mametraka ny Claude Desktop,
 Codex, Claude Code, Cursor, VS Code, Windsurf, Gemini CLI, Zed, LM Studio ary Cline indray mandeha ny
-mpametraka tsindry iray; ho avy tsy ho ela ny mpametraka ho an'ny Windows. Dingana ho an'ny rindranasa tsirairay:
+mpametraka tsindry iray. Dingana ho an'ny rindranasa tsirairay:
 [INSTALL.md](INSTALL.md).
 
 ## Afaka mandray anjara amin'ny kaody ve aho?

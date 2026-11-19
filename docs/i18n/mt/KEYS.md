@@ -18,8 +18,7 @@ Iċ-ċwievet mhumiex obbligatorji. Tista' żżidhom aktar tard.
 taqbeż). Biex iżżid jew tibdel iċ-ċwievet aktar tard, ħaddem **Żid jew ibdel iċ-ċwievet**:
 
 - Mac: erġa' iftaħ l-app Fontes Installer u agħżel **Żid jew ibdel iċ-ċwievet**.
-- Windows: agħfas darbtejn fuq `Add or change keys.cmd` fil-folder tal-installer. Il-programm
-  tal-installazzjoni għal Windows, ladarba jkun disponibbli, ipoġġih ukoll f'Start menu > Fontes.
+- Windows: iftaħ il-menu Start, imbagħad **Fontes** → **Żid jew ibdel iċ-ċwievet**.
 
 It-tajpjar huwa moħbi. Għal kull ċavetta: waħħalha, agħfas Enter biex iżżomm dik li hemm, jew
 ikteb `-` biex tneħħiha. Iċ-ċwievet imorru f'kull app li diġà għandha Fontes.

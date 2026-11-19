@@ -18,8 +18,7 @@ Fontes 中幾乎所有來源都不需要金鑰即可使用。有兩個需要免�
 **Add or change keys**：
 
 - Mac：再次開啟 Fontes Installer 應用程式並選擇 **新增或變更金鑰**。
-- Windows：按兩下安裝程式資料夾中的 `Add or change keys.cmd`。Windows 安裝程式推出後，也會將它放在
-  開始功能表 > Fontes 中。
+- Windows：開啟開始功能表，然後點選 **Fontes** → **新增或變更金鑰**。
 
 輸入內容不會顯示。對於每個金鑰：貼上金鑰、按 Enter 保留現有值，或輸入 `-` 將其移除。金鑰會寫入每個已安裝
 Fontes 的應用程式。

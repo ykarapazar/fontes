@@ -16,8 +16,7 @@ Keys are optional. You can add them later.
 or change keys later, run **Add or change keys**:
 
 - Mac: open the Fontes Installer app again and choose **Add or change keys**.
-- Windows: double-click `Add or change keys.cmd` in the installer folder. The Windows setup
-  program, once available, also puts it in Start menu > Fontes.
+- Windows: open the Start menu, then **Fontes** → **Add or change keys**.
 
 Typing is hidden. For each key: paste it, press Enter to keep what is there, or type `-` to
 remove it. The keys go into every app that already has Fontes.

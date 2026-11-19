@@ -131,11 +131,10 @@ Bazı kaynaklar ücretsiz bir anahtar gerektirir: bkz. [KEYS.md](KEYS.md).
 Yeni bir sohbette sorun: *"Fontes hangi yargı alanlarında arama yapabilir?"* Uygulamanın bir ülke
 listesiyle yanıt vermesi gerekir. Vermezse uygulamayı bir kez daha kapatıp yeniden açın.
 
-## Tek tıkla kurulum programı (Mac)
+## Tek tıkla kurulum programı (Mac ve Windows)
 
-Mac kurulum programı Fontes'i tüm uygulamalarınızda tek seferde kurar: Claude Desktop, Codex, Claude Code,
-Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ve Cline. Windows kurulum programı
-yolda; o zamana kadar yukarıdaki, uygulamanıza ait adımları izleyin.
+Kurulum programı Fontes'i tüm uygulamalarınızda tek seferde kurar: Claude Desktop, Codex, Claude Code,
+Cursor, VS Code (GitHub Copilot), Windsurf, Gemini CLI, Zed, LM Studio ve Cline.
 
 **Başlamadan önce:** bu uygulamaların her birini tamamen kapatın. Bu en çok Claude Code için
 önemlidir: Claude Code çalışırken `~/.claude.json` dosyasını yeniden yazar ve kurulum programının
@@ -153,12 +152,12 @@ yaptığı değişikliği geri alabilir. Claude Code'u kapatamıyorsanız, Fonte
    Önce isteğe bağlı ücretsiz anahtarları eklemek için bunun yerine **Anahtar ekle**'ye tıklayın; bkz.
    [Anahtar adımı](#anahtar-adımı).
 
-**Windows** (Windows kurulum programı yayımlandığında)
+**Windows**
 
-1. İndirilen **Fontes Installer** dosyasını zipten çıkarın (sağ tık → Extract All).
-2. **Install Fontes.cmd** dosyasına çift tıklayın.
+1. Windows kurulum programını (`Fontes-Setup-….exe`) [son sürümden](https://github.com/ykarapazar/fontes/releases/latest) indirin ve çift tıklayın.
    - Windows "Windows protected your PC" uyarısını gösterirse: **More info**'ya, ardından
      **Run anyway**'e tıklayın.
+2. **Kur**'a tıklayın. Bir pencere açılır ve Fontes'i kurar.
 3. Anonim kullanım sayılarının gönderilip gönderilmeyeceği sorulduğunda, hayır için Enter'a basın.
 4. Anahtarların şimdi eklenip eklenmeyeceğini sorar. Atlamak için Enter'a basın; bkz.
    [Anahtar adımı](#anahtar-adımı).
@@ -199,7 +198,7 @@ Kurulumdan hemen sonra kurulum programı, ücretsiz Fransa ve ABD anahtarların�
 Bunları daha sonra eklemek veya değiştirmek için:
 
 - **Mac:** **Fontes Installer**'ı yeniden açın ve **Anahtar ekle veya değiştir**'i seçin.
-- **Windows:** kurulum programı klasöründeki **Add or change keys.cmd** dosyasına çift tıklayın.
+- **Windows:** Başlat menüsünü açın, ardından **Fontes** → **Anahtar ekle veya değiştir**'i seçin.
 
 Yazdıklarınız gizlenir. Anahtarlar, Fontes'in zaten kurulu olduğu her uygulamaya eklenir. Ardından
 uygulamaları kapatıp yeniden açın. Anahtarları nereden alacağınız ve neyi açtıkları:
@@ -213,8 +212,7 @@ kaydeder. Anahtarları ekledikten sonra alınan kopyalar bu anahtarları içerir
 olmayanları silin. Ayrıca uv'yi de kurar. Yeniden çalıştırmak güvenlidir: kurulumu onarır ve başka
 hiçbir şeyi değiştirmez.
 
-Fontes'i kaldırmak için **Fontes Installer**'ı açıp **Kaldır**'ı seçin (Mac) veya **Uninstall Fontes.cmd**
-dosyasına çift tıklayın (Windows). `fontes` girdisini, anahtarlar dahil, her uygulamadan kaldırır. Diğer
+Fontes'i kaldırmak için **Fontes Installer**'ı açıp **Kaldır**'ı seçin (Mac) veya **Fontes**'i Ayarlar → Uygulamalar üzerinden kaldırın (Windows). `fontes` girdisini, anahtarlar dahil, her uygulamadan kaldırır. Diğer
 ayarlarınız ve yedek kopyalar kalır.
 
 ## Güncellemeler

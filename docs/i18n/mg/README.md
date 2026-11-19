@@ -77,12 +77,11 @@ Toetry ny loharano (hamarinina isan'andro): [ykarapazar.github.io/fontes/status/
 3. **Anontanio:** *"Faritra ara-pitsarana inona avy no azon'ny Fontes karohina?"* Tokony hitanisa ireo
    firenena izy.
 
-**Amin'ny Mac**, mametraka ny Fontes ao amin'ny Claude Desktop, Codex, Claude Code, Cursor, VS Code,
+**Amin'ny Mac na PC Windows**, mametraka ny Fontes ao amin'ny Claude Desktop, Codex, Claude Code, Cursor, VS Code,
 Windsurf, Gemini CLI, Zed, LM Studio ary Cline ny mpametraka tsindry iray, ao amin'ny tsirairay amin'ireo
 izay ao amin'ny solosainao, ary avy eo manolotra ny hanampy ny fanalahidinao. Alaivo avy amin'ny [famoahana farany](https://github.com/ykarapazar/fontes/releases/latest) ny mpametraka
-ho an'ny Mac ary akatony ireo rindranasa ireo alohan'ny handefasanao azy. Ho avy tsy ho ela ny mpametraka
-ho an'ny Windows. Antsipiriany:
-[INSTALL.md](INSTALL.md#mpametraka-tsindry-iray-mac).
+ho ny solosainao ary akatony ireo rindranasa ireo alohan'ny handefasanao azy. Antsipiriany:
+[INSTALL.md](INSTALL.md#mpametraka-tsindry-iray-mac-sy-windows).
 Mila fanalahidy maimaim-poana ny loharano sasany: jereo ny [KEYS.md](KEYS.md).
 
 <!-- map:start -->

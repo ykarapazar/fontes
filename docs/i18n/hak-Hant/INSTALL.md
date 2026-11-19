@@ -125,10 +125,10 @@ Codex、Claude Code 同其他應用程式用 `uvx` 啟動 Fontes，`uvx` 係同 
 在新个對話肚項問：*「Fontes 做得檢索哪兜法域？」* 應用程式應該會用一張國家清單回答。若係無，請將應用程式
 關忒，再打開一擺。
 
-## 一鍵安裝程式（Mac）
+## 一鍵安裝程式（Mac 同 Windows）
 
-Mac 安裝程式會一擺就在你所有个應用程式肚項設定好 Fontes：Claude Desktop、Codex、Claude Code、Cursor、VS Code（GitHub
-Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 同 Cline。Windows 个安裝程式就會推出；在這以前，請用上背你應用程式个步驟。
+安裝程式會一擺就在你所有个應用程式肚項設定好 Fontes：Claude Desktop、Codex、Claude Code、Cursor、VS Code（GitHub
+Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 同 Cline。
 
 **開始以前：** 將這兜應用程式逐个都完全關忒。這對 Claude Code 上重要：佢在執行个時節會重寫
 `~/.claude.json`，可能會將安裝程式个修改復原。若係你關毋忒 Claude Code，請改用 `claude mcp add` 將 Fontes
@@ -142,11 +142,11 @@ Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 同 Cline。Windows 个安�
 3. 揀 **安裝**，再撳 **確定**。設定大約愛一分鐘。
 4. 會有一个訊息列出佢設定好个應用程式。撳 **完成**，再打開這兜應用程式。若係愛先加選擇性个免費金鑰，就改撳 **加入金鑰**；請看[金鑰步驟](#金鑰步驟)。
 
-**Windows**（Windows 安裝程式發布以後）
+**Windows**
 
-1. 將下載个 **Fontes Installer** 解壓縮（滑鼠右鍵 → 全部解壓縮）。
-2. 撳兩下 **Install Fontes.cmd**。
+1. 從[最新版本](https://github.com/ykarapazar/fontes/releases/latest)下載 Windows 安裝程式（`Fontes-Setup-….exe`），撳兩下佢。
    - 若係 Windows 顯示「Windows 已保護您的電腦」：撳 **其他資訊**，再撳 **仍要執行**。
+2. 撳 **安裝**。會開一个視窗，設定好 Fontes。
 3. 問你愛毋愛傳送匿名个使用次數統計个時節，撳 Enter 就係毋愛。
 4. 佢會問你這下愛毋愛加金鑰。撳 Enter 略過；請看[金鑰步驟](#金鑰步驟)。
 5. 佢講 **Done** 个時節，再打開你个 AI 應用程式。若係有一个還在執行，請將佢完全關忒（也愛從時鐘附近个
@@ -184,7 +184,7 @@ Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 同 Cline。Windows 个安�
 安裝好以後，安裝程式馬上會問你愛毋愛加免費个法國同美國金鑰。以後愛加或者改金鑰：
 
 - **Mac：** 再打開 **Fontes Installer**，揀 **加入或者修改金鑰**。
-- **Windows：** 撳兩下安裝程式資料夾肚項个 **Add or change keys.cmd**。
+- **Windows：** 開 Start 功能表，再揀 **Fontes** → **Add or change keys**。
 
 輸入个內容毋會顯示。金鑰會寫入每一个已經有 Fontes 个應用程式。做好以後，請將應用程式關忒再打開。
 金鑰對哪位拿、做得打開麼个：[KEYS.md](KEYS.md)。
@@ -195,7 +195,7 @@ Copilot）、Windsurf、Gemini CLI、Zed、LM Studio 同 Cline。Windows 个安�
 名做 `<file>.fontes-backup-<date>`。在你加金鑰以後做个副本包含這兜金鑰：毋使个請刪忒。佢也會安裝 uv。
 再執行一擺係安全个：佢會修復設定，其他个麼个都毋會改。
 
-愛移除 Fontes，請打開 **Fontes Installer** 揀 **移除**（Mac），或者撳兩下 **Uninstall Fontes.cmd**（Windows）。
+愛移除 Fontes，請打開 **Fontes Installer** 揀 **移除**（Mac），或者到設定 → 應用程式解除安裝 **Fontes**（Windows）。
 佢會從每一个應用程式移除 `fontes` 項目，連金鑰也做一下。你其他个設定同備份副本會保留。
 
 ## 更新

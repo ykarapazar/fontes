@@ -76,12 +76,12 @@ Kalagayan ng mga sanggunian (sinusuri araw-araw): [ykarapazar.github.io/fontes/s
 2. **I-restart ang app.** Isara nang tuluyan ang app at buksan itong muli.
 3. **Itanong:** *"Aling mga hurisdiksyon ang kayang hanapan ng Fontes?"* Dapat nitong ilista ang mga bansa.
 
-**Sa Mac**, sine-set up ng one-click installer ang Fontes sa Claude Desktop, Codex, Claude Code, Cursor,
+**Sa Mac o Windows PC**, sine-set up ng one-click installer ang Fontes sa Claude Desktop, Codex, Claude Code, Cursor,
 VS Code, Windsurf, Gemini CLI, Zed, LM Studio at Cline, sa bawat isa na nasa iyong computer, at saka
-nag-aalok na idagdag ang iyong mga key. I-download ang installer para sa Mac mula sa
+nag-aalok na idagdag ang iyong mga key. I-download ang installer para sa iyong computer mula sa
 [pinakabagong release](https://github.com/ykarapazar/fontes/releases/latest) at isara ang mga app na iyon
-bago mo ito patakbuhin. Paparating na ang installer para sa Windows.
-Mga detalye: [INSTALL.md](INSTALL.md#one-click-installer-mac).
+bago mo ito patakbuhin.
+Mga detalye: [INSTALL.md](INSTALL.md#one-click-installer-mac-at-windows).
 Kailangan ng ilang sanggunian ng libreng key: tingnan ang [KEYS.md](KEYS.md).
 
 <!-- map:start -->
