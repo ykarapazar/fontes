@@ -19,8 +19,8 @@ jobs:
     if: github.repository == 'ykarapazar/fontes'
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
       # Windows has no system time-zone database; this caught a 0.1.0 bug (lv, and every
       # adapter after it, failed to load). Offline tests only.
       - name: Offline tests on Windows
@@ -34,7 +34,7 @@ jobs:
           echo "VER=$ver" >> "$GITHUB_ENV"
           cd installer/windows
           "/c/Program Files (x86)/Inno Setup 6/ISCC.exe" "//DAppVersion=$ver" fontes.iss
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: Fontes-Setup-${{ env.VER }}
           path: installer/windows/Output/Fontes-Setup-${{ env.VER }}.exe
