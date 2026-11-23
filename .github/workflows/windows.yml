@@ -20,7 +20,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.4.0
       # Windows has no system time-zone database; this caught a 0.1.0 bug (lv, and every
       # adapter after it, failed to load). Offline tests only.
       - name: Offline tests on Windows
