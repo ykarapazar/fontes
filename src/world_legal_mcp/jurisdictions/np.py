@@ -50,7 +50,6 @@ SUBMIT = "खोज्‍नुहोस्"        # with the zero-width joiner
 PAGE_SIZE = 20
 COURT = "सर्वोच्च अदालत"
 _ND = str.maketrans("०१२३४५६७८९", "0123456789")
-_AD = str.maketrans("0123456789", "०१२३४५६७८९")
 _BS_DATE = re.compile(r"^(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})$")
 _ID = re.compile(r"^\d{1,9}$")
 _DEC_NO = re.compile(r"^(?:नि\.\s*नं\.?|निर्णय\s*नं\.?|nirnaya[: ]|decision[: ])\s*#?\s*([0-9०-९]+)$", re.I)
@@ -63,25 +62,6 @@ _GENERIC = {"संविधान", "संविधानको", "धार�
             "नियम", "नियमको", "अनुच्छेद", "खण्ड"}
 WINDOW = 100                # source rows re-ranked per query (5 requests)
 _cache: dict = {}
-RERANK_WINDOW = 100   # source pages fetched to rank by headnote match (5 requests)
-_SUFFIXES = ("हरूको", "हरूमा", "हरू", "लाई", "को", "का", "की", "मा", "ले")
-
-
-def _stems(query: str) -> list[str]:
-    out = []
-    for w in re.split(r"[\s,;]+", query):
-        for sfx in _SUFFIXES:
-            if w.endswith(sfx) and len(w) - len(sfx) >= 3:
-                w = w[:-len(sfx)]
-                break
-        if len(w) >= 3:
-            out.append(w)
-    return out
-
-
-def _score(h: DecisionHit, stems: list[str]) -> int:
-    text = f"{h.title} {h.snippet}"
-    return sum(st in text for st in stems)
 
 
 def _score(h: DecisionHit, phrase: str, terms: list[str], pool: list[DecisionHit] | None = None) -> float:

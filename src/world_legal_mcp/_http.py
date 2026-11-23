@@ -203,20 +203,6 @@ def text(el) -> str:
     return re.sub(r"\s+", " ", out).strip()
 
 
-def page(body: str, offset: int, max_chars: int) -> str:
-    """Return body[offset:offset+max_chars] with a continuation note."""
-    total = len(body)
-    offset = max(0, int(offset))
-    end = min(total, offset + max(1000, int(max_chars)))
-    chunk = body[offset:end]
-    if offset:
-        chunk = f"… [continuing from char {offset}]\n\n" + chunk
-    if end < total:
-        chunk += (f"\n\n… [truncated: showing chars {offset}–{end} of {total}. "
-                  f"Call again with offset={end} for the next part.]")
-    return chunk
-
-
 def clean(s) -> str:
     """One line: whitespace collapsed (incl. non-breaking spaces), stripped."""
     return re.sub(r"\s+", " ", str(s or "").replace("\xa0", " ")).strip()

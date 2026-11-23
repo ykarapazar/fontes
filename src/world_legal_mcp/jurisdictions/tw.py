@@ -208,7 +208,6 @@ class _Law:
             raise SourceError(f"{self.title}: no article block on the LawAll page")
         self.toc: list[TocEntry] = []
         self.articles: dict[str, tuple[str, str]] = {}   # flno -> (label, markdown)
-        self.order: list[str] = []
         self.blocks: list[str] = [f"# {self.title}"]
         for el in body:
             cls = el.get("class") or ""
@@ -227,7 +226,6 @@ class _Law:
                     './/div[@class="law-article"]/div')]
                 md = f"**{label}**\n\n" + "\n\n".join(x for x in lines if x)
                 self.articles[flno] = (label, md)
-                self.order.append(flno)
                 self.toc.append(TocEntry(title=label, level=_depth(self.toc),
                                           provision=re.sub(r"\s+", "", label)))
                 self.blocks.append(md)

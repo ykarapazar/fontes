@@ -221,53 +221,6 @@ def _md_safe(p: str) -> str:
 
 # ---------- legislation text ----------
 
-_WORD = re.compile(r"[^\W\d_]+")
-
-
-def _despace(text: str) -> str:
-    """Repair PDF extraction damage using the document's own vocabulary: stray spaces inside
-    words ('rec ognised', 'Mauritiu s', '( c)') and line-end hyphens inside split words
-    ('associa-/tion'). A split is joined only when the joined word occurs elsewhere in the
-    document and one part is a fragment; real compounds ('non-citizen') are left alone."""
-    from collections import Counter
-    cnt = Counter(w.lower() for w in _WORD.findall(text))
-
-    def frag(t: str) -> bool:
-        t = t.lower()
-        return (len(t) == 1 and t not in "aiày") or cnt[t] <= 5
-
-    def dehyph(m):
-        x, y = m[1], m[2]
-        ok = cnt[(x + y).lower()] or (frag(x) and x.lower() not in _PREFIXES) or (y.lower() in _SUFFIXES and cnt[x.lower()] > 2)
-        return x + y if ok and not cnt[(x + "-" + y).lower()] else m[0].replace("\n", "")
-
-    text = re.sub(r"([^\W\d_]{2,})-\n([^\W\d_]+)", dehyph, text)
-
-    def join_line(ln: str) -> str:
-        toks = ln.split(" ")
-        out = []
-        for t in toks:
-            m = re.fullmatch(r"([^\W\d_]+)(\W*)", t)
-            if out and m and _WORD.fullmatch(out[-1]):
-                x, y = out[-1], m[1]
-                j, lo = cnt[(x + y).lower()], min(cnt[x.lower()], cnt[y.lower()])
-                if j and (frag(x) or frag(y) or (lo <= 60 and j >= 5 * lo)) \
-                        and not (x.isupper() and len(x) > 1):
-                    out[-1] = x + t
-                    continue
-            out.append(t)
-        return " ".join(out)
-
-    for _ in range(2):
-        text = "\n".join(join_line(ln) for ln in text.split("\n"))
-    text = re.sub(r"\(\s+(\w{1,4})\)", r"(\1)", text)
-    return text
-
-
-_PREFIXES = {"non", "re", "anti", "co", "ex", "pre", "sub", "self", "semi", "inter", "vice", "ultra",
-             "cross", "counter", "half", "quasi", "pro", "de", "un", "in"}
-_SUFFIXES = {"ing", "ed", "tion", "ment", "ly", "ness", "ance", "ence", "ions", "ings"}
-
 _ORD = ("FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH|SEVNTH|EIGHTH|NINTH|TENTH|ELEVENTH|"
         "TWELFTH")
 _SCHED = re.compile(rf"(?i)^(?:({_ORD})\s+)?SCHEDULE(?:\s+[A-Z0-9]{{1,3}})?$")

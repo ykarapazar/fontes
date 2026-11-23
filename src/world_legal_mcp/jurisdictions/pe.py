@@ -266,7 +266,6 @@ def _law_title(tipo: str, num: str, sumilla: str) -> str:
 
 
 _HEAD = re.compile(r"^(T[ÍI]TULO|CAP[ÍI]TULO|SECCI[ÓO]N|LIBRO|DISPOSICI[ÓO]N(ES)?\b|ANEXO)", re.I)
-_NAMED_LAW = re.compile(r"^\s*ley\s+(?!n[º°o]?\.?\s*\d|\d)", re.I)
 _ART = re.compile(r"^\**\s*(?:Art[íi]culo|Art\.)\s+(\d+[º°]?(?:\s*-?\s*[A-Z])?(?![\w])|[IVXL]+(?![\w])|[úu]nico)\s*\.?", re.I)
 _ORD = re.compile(r"^\**\s*(PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA|SEXTA|S[ÉE]PTIMA|S[ÉE]TIMA|OCTAVA|NOVENA|"
                   r"D[ÉE]CIMA(?:\s+\w+)?|DECIMO\w+|UND[ÉE]CIMA|DUOD[ÉE]CIMA|[ÚU]NICA)\b\.?", re.I)
