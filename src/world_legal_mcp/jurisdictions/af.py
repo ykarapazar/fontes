@@ -161,8 +161,8 @@ def _hit(row: dict, url: str) -> LawHit:
     when = row["date"].strip()
     snippet = f"Official Gazette No. {row['serial']}, published {when}" + (f"; {row['notes']}" if row["notes"] else "")
     if row["serial"].isdigit() and int(row["serial"]) < 1410:
-        snippet += ("; full text usually unreadable (legacy fonts or scan): open the PDF at the source link; "
-                    "text and Contents calls will usually fail for this Gazette")
+        snippet += ("; full text usually unreadable (legacy fonts or scan): get_legislation_text then gives "
+                    "the record and where to read the PDF, and Contents calls will usually fail for this Gazette")
     if not snippet.endswith("fail for this Gazette"):
         snippet += ("; no Contents offered: article headings are often garbled in the PDF text layer, so "
                     "get_legislation_toc and get_legislation_provision may fail; get_legislation_text always returns the text")
@@ -493,12 +493,20 @@ class Afghanistan(Jurisdiction):
 
     async def get_legislation_text(self, id):
         d = await _doc(id)
-        _require_text(d)
         row = d["row"]
         meta = {"Official Gazette No.": row["serial"], "Record no.": row["rec"],
                 "Published": row["date"].strip(), "Status": _STATUS.get(row["status"], row["status"])}
         if row["notes"]:
             meta["Notes"] = row["notes"]
+        if d["scan"] or not d["readable"]:
+            # No usable text, but the law exists: answer with its record and the way to the PDF.
+            why = ("is a scan with no text layer" if d["scan"] else
+                   "is printed in legacy Arabic fonts, so its PDF text layer is unreadable")
+            return LawText(id=d["id"], title=row["title"], url=d["url"], as_of=_date(row["date"]),
+                           metadata=meta,
+                           text=(f"Text not available: Gazette No. {row['serial']} {why}. Read the official "
+                                 f"PDF at {d['url']} (search '{row['serial']}'). Do not quote this law from "
+                                 "memory; cite the gazette and point the user to the PDF."))
         if _GARBLED_HEAD.search(d["text"]):
             meta["Warning"] = ("The PDF's text layer is partly garbled (letters substituted, e.g. 'هادۀ' for "
                                "'مادۀ', titles and numbers corrupted). Do not quote this text; read the "

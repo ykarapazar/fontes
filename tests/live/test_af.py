@@ -15,10 +15,10 @@ async def test_af_provision_label_variants():
     assert "احتساب" in a and "احتساب" in b, a
 
 
-async def test_af_legacy_font_pdf_is_refused_clearly():
+async def test_af_legacy_font_pdf_answers_with_record_and_pdf_route():
     # Penal Code 2017 (Gazette 1260): legacy Arabic fonts, text layer is gibberish.
     out = await server.get_legislation_text("af", "1260-4414")
-    assert "legacy fonts" in out, out
+    assert not out.startswith("Error") and "1260-4414" in out and "search '1260'" in out, out
 
 
 async def test_af_bad_id():

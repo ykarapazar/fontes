@@ -117,3 +117,17 @@ def test_hits_offer_no_contents_line():
     h = af._hit(_row("1450", "16575", "قانون صرافی"), "u")
     assert h.has_toc is False
     assert "get_legislation_text" in h.snippet
+
+
+@pytest.mark.parametrize("scan,readable", [(True, False), (False, False)])
+def test_unreadable_gazette_text_is_an_answer_not_an_error(monkeypatch, scan, readable):
+    d = {"row": _row("1260", "4414", "کود جزا"), "id": "1260-4414", "url": "u", "readable": readable,
+         "scan": scan, "text": "" if scan else "ﺍﺎﺑ garbage"}
+
+    async def fake_doc(i):
+        return d
+
+    monkeypatch.setattr(af, "_doc", fake_doc)
+    r = asyncio.run(af.Afghanistan().get_legislation_text("1260-4414"))
+    assert r.id == "1260-4414" and r.metadata["Official Gazette No."] == "1260"
+    assert "garbage" not in r.text and "u" in r.text and "'1260'" in r.text
