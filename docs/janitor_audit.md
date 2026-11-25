@@ -357,7 +357,7 @@ the live-test family were not all re-checked by the scorer; verify before acting
 7. **Live tests that pin source wording, dates and counts** (e.g. test_ad.py:9, test_al.py:37,
    test_mm.py:54) and per-country happy-path tests that repeat test_conformance.py. Per the brief these
    go; that removes a lot of live coverage at once. Delete wholesale, or rewrite to structural asserts?
-   → Owner: rewrite to structural checks, delete pure repeats of conformance. In progress.
+   → Owner: rewrite to structural checks, delete pure repeats of conformance. Done (57784bb), 539 → 531.
 8. **Possible bug in vn.py**: `_texts` cache shared by the vbpl and chinhphu sources with digit-only keys;
    entries may collide (scorer judgement, untested).
 9. **tests/live/test_af.py::test_af_search_by_gazette_number fails live** (gazette 1452 no longer finds
@@ -392,6 +392,7 @@ the live-test family were not all re-checked by the scorer; verify before acting
 | 3 | bug fixes (approved) | tw sample; render.py legislation hits | owner calls 9, 15 closed; af/tw live green | 960 → 960 offline; render test now requires the id (mutation-checked) |
 | 4 | tests | live mm/et pure tests → offline; hk/ba/ccj `or` asserts; mv pytestmark | — | 960 → 962 offline |
 | 5 | behaviour-neutral: shared helpers (approved) | _http + 17 adapters, ADAPTER_SPEC | owner call 1 closed (byte-identical only) | 962 → 962 offline; live 164 passed, 6 failed identically on previous code (bo, cu, dz, sn sources) |
+| 6 | tests (approved) | 83 live test files; 79 translated FAQs | owner calls 3 (FAQ lag) and 7 closed; live family N/Fn 3→4 | 962 offline; live 539 → 531, error asserts mutation-checked; remaining reds are source-side |
 
 ## Appendix: scorer notes (unverified; verify before acting)
 
