@@ -49,8 +49,8 @@ Yaqa llapan jurisdicciónkunapaq, manam. Wakin pukyukunaqa mana qullqiyuq llavet
   saqin. `WLM_US_GOVINFO_KEY` nisqapi mana qullqiyuq api.data.gov llavem chayta wichachin.
 
 Kaykunataqa aplicacionniykip MCP configuracionninpi Fontes servidorpaq variables de entorno
-hina churay. Instalador lluqsiptinña, instalasqa qhipa chaykunata mañasunki, **Add or change
-keys** qallarichiqnintaq qhipaman tikran.
+hina churay. Instaladorkunaqa instalasqa qhipa chaykunata mañasunku, **Add or change
+keys** qallarichiqninkutaq qhipaman tikranku.
 
 Hukmanta, wakin pisi pukyukunaqa condicionninkunapi ninku automatizado yaykuyqa
 uyarichiqpa permisonta necesitasqanta. OFF nisqawan qillqasqam kanku, wañusqataq qhipakunku.

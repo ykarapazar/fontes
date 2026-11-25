@@ -45,9 +45,8 @@ Peaaegu iga jurisdiktsiooni puhul mitte. Mõni allikas vajab tasuta võtit: vt [
   lubab ainult umbes 10 otsingut päevas IP-aadressi kohta. Tasuta api.data.gov võti muutujas
   `WLM_US_GOVINFO_KEY` tõstab seda piiri.
 
-Määrake need Fontese serveri keskkonnamuutujatena oma rakenduse MCP-seadetes. Kui
-paigaldaja on avaldatud, küsib see neid pärast paigaldamist ja selle käivitaja **Add or change keys**
-muudab neid hiljem.
+Määrake need Fontese serveri keskkonnamuutujatena oma rakenduse MCP-seadetes. Paigaldajad
+küsivad neid pärast paigaldamist ja nende käivitaja **Add or change keys** muudab neid hiljem.
 
 Eraldi märgivad mõned allikad oma tingimustes, et automatiseeritud juurdepääs nõuab avaldaja
 luba. Need on märgitud OFF ja jäävad välja lülitatuks. Võti seda ei muuda; seda muudab ainult

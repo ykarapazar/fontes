@@ -45,8 +45,7 @@ Fyrir nánast allar lögsögur, nei. Sumar heimildir þurfa ókeypis lykil: sjá
   leyfir aðeins um 10 leitir á dag á hverja IP-tölu. Ókeypis api.data.gov-lykill í
   `WLM_US_GOVINFO_KEY` hækkar það.
 
-Stilltu þetta sem umhverfisbreytur fyrir Fontes-þjóninn í MCP-stillingum forritsins. Þegar
-uppsetningarforritið er komið út spyr það um þær eftir uppsetningu, og ræsirinn **Add or change keys**
+Stilltu þetta sem umhverfisbreytur fyrir Fontes-þjóninn í MCP-stillingum forritsins. Uppsetningarforritin spyrja um þær eftir uppsetningu, og ræsirinn **Add or change keys**
 breytir þeim síðar.
 
 Að auki segja nokkrar heimildir í skilmálum sínum að sjálfvirkur aðgangur krefjist leyfis

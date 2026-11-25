@@ -45,9 +45,9 @@ Za gotovo svaku jurisdikciju ne treba. Nekim izvorima je potreban besplatan klju
   demo ključ dopušta samo oko 10 pretraga dnevno po IP adresi. Besplatan api.data.gov ključ u
   `WLM_US_GOVINFO_KEY` povećava to ograničenje.
 
-Postavite ih kao varijable okruženja za Fontes server u MCP postavkama svoje aplikacije. Kada
-instalacijski program bude objavljen, tražit će ih nakon instalacije, a njegov pokretač
-**Add or change keys** mijenja ih kasnije.
+Postavite ih kao varijable okruženja za Fontes server u MCP postavkama svoje aplikacije. Instalacijski
+programi ih traže nakon instalacije, a njihov pokretač **Add or change keys** mijenja ih
+kasnije.
 
 Odvojeno od toga, nekoliko izvora u svojim uslovima navodi da je za automatizovani pristup
 potrebna dozvola izdavača. Oni su označeni sa OFF i ostaju isključeni. Ključ to ne mijenja; to

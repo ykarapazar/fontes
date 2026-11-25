@@ -48,9 +48,8 @@ Gandrīz visās jurisdikcijās – nē. Dažiem avotiem vajadzīga bezmaksas ats
   adreses. Bezmaksas api.data.gov atslēga mainīgajā `WLM_US_GOVINFO_KEY` šo ierobežojumu
   palielina.
 
-Iestatiet tos kā vides mainīgos Fontes serverim savas lietotnes MCP iestatījumos. Kad
-instalētājs būs izlaists, tas pēc instalēšanas jautās pēc tiem, un tā palaidējs **Add or change
-keys** ļaus tos vēlāk mainīt.
+Iestatiet tos kā vides mainīgos Fontes serverim savas lietotnes MCP iestatījumos. Instalētāji
+pēc instalēšanas jautā pēc tiem, un to palaidējs **Add or change keys** ļauj tos vēlāk mainīt.
 
 Atsevišķi: daži avoti savos noteikumos norāda, ka automatizētai piekļuvei vajadzīga izdevēja
 atļauja. Tie ir atzīmēti kā OFF un paliek izslēgti. Atslēga to nemaina; to maina tikai

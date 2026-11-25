@@ -47,9 +47,8 @@ Dla niemal każdej jurysdykcji nie. Niektóre źródła wymagają bezpłatnego k
   klucz demonstracyjny pozwala tylko na około 10 wyszukiwań dziennie na adres IP. Bezpłatny klucz
   api.data.gov w `WLM_US_GOVINFO_KEY` podnosi ten limit.
 
-Ustaw je jako zmienne środowiskowe serwera Fontes w ustawieniach MCP swojej aplikacji. Gdy
-instalator zostanie wydany, zapyta o nie po instalacji, a jego program uruchamiający
-**Add or change keys** pozwoli je później zmienić.
+Ustaw je jako zmienne środowiskowe serwera Fontes w ustawieniach MCP swojej aplikacji. Instalatory pytają o nie po instalacji, a ich program uruchamiający
+**Add or change keys** pozwala je później zmienić.
 
 Osobna sprawa: kilka źródeł stwierdza w swoich warunkach, że zautomatyzowany dostęp wymaga zgody
 wydawcy. Są oznaczone jako OFF i pozostają wyłączone. Klucz tego nie zmienia; zmienia to tylko

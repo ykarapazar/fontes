@@ -47,7 +47,7 @@ Deyarli har bir yurisdiksiya uchun yoʻq. Baʼzi manbalar bepul kalit talab qila
   `WLM_US_GOVINFO_KEY` dagi bepul api.data.gov kaliti bu cheklovni oshiradi.
 
 Ularni ilovangizning MCP sozlamalarida Fontes serverining muhit oʻzgaruvchilari sifatida
-oʻrnating. Oʻrnatuvchi chiqqanda, u oʻrnatishdan keyin ular haqida soʻraydi, uning
+oʻrnating. Oʻrnatuvchilar oʻrnatishdan keyin ular haqida soʻraydi, ularning
 **Add or change keys** ishga tushirgichi esa keyinroq ularni oʻzgartiradi.
 
 Alohida: bir nechta manba oʻz shartlarida avtomatlashtirilgan kirish uchun nashriyotchining

@@ -42,8 +42,8 @@ Pou prèske tout jiridiksyon, non. Kèk sous bezwen yon kle gratis: gade [KEYS.m
   10 rechèch pa jou pou chak adrès IP. Yon kle api.data.gov gratis nan `WLM_US_GOVINFO_KEY` ogmante limit
   sa a.
 
-Mete yo kòm varyab anviwònman pou sèvè Fontes la nan paramèt MCP aplikasyon ou. Lè enstalatè a soti, l ap
-mande w yo apre enstalasyon an, e lansè **Ajoute oswa chanje kle** li a chanje yo pita.
+Mete yo kòm varyab anviwònman pou sèvè Fontes la nan paramèt MCP aplikasyon ou. Enstalatè yo
+mande w yo apre enstalasyon an, e lansè **Ajoute oswa chanje kle** pa yo a chanje yo pita.
 
 Apa sa, kèk sous di nan kondisyon yo ke aksè otomatik bezwen pèmisyon piblikatè a. Yo make OFF e yo rete
 etenn. Yon kle pa chanje sa; se sèlman pèmisyon piblikatè a ki chanje l (apre sa, mete

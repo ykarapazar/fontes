@@ -45,8 +45,7 @@ Për pothuajse çdo juridiksion, jo. Disa burime kërkojnë një çelës falas: 
   demo i përbashkët lejon vetëm rreth 10 kërkime në ditë për adresë IP. Një çelës falas
   api.data.gov në `WLM_US_GOVINFO_KEY` e rrit këtë kufi.
 
-Vendosini këto si variabla mjedisi për serverin Fontes në cilësimet MCP të aplikacionit tuaj. Sapo
-të dalë instaluesi, ai do t'jua kërkojë pas instalimit, dhe nisësi i tij **Add or change keys** i
+Vendosini këto si variabla mjedisi për serverin Fontes në cilësimet MCP të aplikacionit tuaj. Instaluesit jua kërkojnë pas instalimit, dhe nisësi i tyre **Add or change keys** i
 ndryshon më vonë.
 
 Më vete, disa burime thonë në kushtet e tyre se aksesi i automatizuar kërkon lejen e botuesit. Ato

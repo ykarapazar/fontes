@@ -44,8 +44,8 @@ Pentru aproape toate jurisdicțiile, nu. Unele surse necesită o cheie gratuită
   permite doar aproximativ 10 căutări pe zi pentru fiecare adresă IP. O cheie api.data.gov gratuită în
   `WLM_US_GOVINFO_KEY` crește această limită.
 
-Setați-le ca variabile de mediu pentru serverul Fontes în setările MCP ale aplicației. După lansarea
-programului de instalare, acesta vi le va cere după instalare, iar lansatorul său **Adăugați sau modificați
+Setați-le ca variabile de mediu pentru serverul Fontes în setările MCP ale aplicației. Programele
+de instalare vi le cer după instalare, iar lansatorul lor **Adăugați sau modificați
 cheile** le modifică ulterior.
 
 Separat, câteva surse precizează în condițiile lor că accesul automatizat necesită permisiunea editorului.

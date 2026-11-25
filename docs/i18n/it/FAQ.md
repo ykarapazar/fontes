@@ -48,7 +48,7 @@ Per quasi tutte le giurisdizioni, no. Alcune fonti richiedono una chiave gratuit
   gratuita di api.data.gov in `WLM_US_GOVINFO_KEY` aumenta questo limite.
 
 Le imposti come variabili d'ambiente per il server Fontes nella configurazione MCP della Sua app.
-Quando uscirà il programma di installazione, Le chiederà le chiavi dopo l'installazione, e il suo
+I programmi di installazione Le chiedono le chiavi dopo l'installazione, e il loro
 collegamento **Add or change keys** consente di modificarle in seguito.
 
 A parte questo, alcune fonti dichiarano nelle loro condizioni che l'accesso automatizzato richiede

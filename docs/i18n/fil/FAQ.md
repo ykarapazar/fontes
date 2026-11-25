@@ -45,8 +45,8 @@ Para sa halos bawat hurisdiksyon, hindi. Kailangan ng ilang sanggunian ng libren
   isang libreng api.data.gov key sa `WLM_US_GOVINFO_KEY`.
 
 Itakda ang mga ito bilang mga environment variable para sa Fontes server sa mga MCP setting ng iyong app.
-Kapag nailabas na ang installer, hihingin nito ang mga ito pagkatapos mag-install, at ang launcher nitong
-**Add or change keys** ang magpapalit sa mga ito sa ibang pagkakataon.
+Hinihingi ng mga installer ang mga ito pagkatapos mag-install, at ang launcher nilang
+**Add or change keys** ang nagpapalit sa mga ito sa ibang pagkakataon.
 
 Hiwalay rito, may ilang sanggunian na nagsasabi sa kanilang mga tuntunin na kailangan ng pahintulot ng
 tagapaglathala para sa awtomatikong pag-access. May markang OFF ang mga ito at nananatiling naka-off. Hindi ito

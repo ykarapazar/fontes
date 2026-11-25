@@ -46,8 +46,7 @@ Voor bijna elk rechtsstelsel niet. Sommige bronnen hebben een gratis sleutel nod
   demosleutel staat slechts ongeveer 10 zoekopdrachten per dag per IP-adres toe. Een gratis
   api.data.gov-sleutel in `WLM_US_GOVINFO_KEY` verhoogt dat.
 
-Stel deze in als omgevingsvariabelen voor de Fontes-server in de MCP-instellingen van uw app. Zodra
-het installatieprogramma uit is, vraagt het er na de installatie om, en met zijn starter
+Stel deze in als omgevingsvariabelen voor de Fontes-server in de MCP-instellingen van uw app. De installatieprogramma's vragen er na de installatie om, en met hun starter
 **Add or change keys** wijzigt u ze later.
 
 Daarnaast vermelden enkele bronnen in hun voorwaarden dat geautomatiseerde toegang toestemming van

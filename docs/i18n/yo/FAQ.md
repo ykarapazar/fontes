@@ -43,8 +43,8 @@ Fún fere gbogbo agbègbè ìdájọ́, rárá. Àwọn orísun díẹ̀ nílò 
   a pín gbà ìwádìí bíi 10 péré lójoojúmọ́ fún àdírẹ́sì IP kọ̀ọ̀kan. Kọ́kọ́rọ́ api.data.gov ọ̀fẹ́ nínú
   `WLM_US_GOVINFO_KEY` ń gbé e sókè.
 
-Ṣètò wọn gẹ́gẹ́ bí environment variable fún sáfà Fontes nínú ètò MCP áàpù rẹ. Nígbà tí a bá tẹ ẹ̀rọ
-ìfisílẹ̀ jáde, yóò béèrè fún wọn lẹ́yìn ìfisílẹ̀, launcher rẹ̀ **Add or change keys** yóò sì yí wọn padà
+Ṣètò wọn gẹ́gẹ́ bí environment variable fún sáfà Fontes nínú ètò MCP áàpù rẹ. Àwọn ẹ̀rọ
+ìfisílẹ̀ máa ń béèrè fún wọn lẹ́yìn ìfisílẹ̀, launcher wọn **Add or change keys** sì ń yí wọn padà
 lẹ́yìn náà.
 
 Lọ́tọ̀, àwọn orísun kan sọ nínú òfin ìlò wọn pé ìráyè aládàáṣe nílò àṣẹ olùtẹ̀jáde. A sàmì sí wọn ní OFF, wọ́n

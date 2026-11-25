@@ -43,7 +43,7 @@ Bagi hampir setiap bidang kuasa, tidak. Sesetengah sumber memerlukan kunci percu
   dalam `WLM_US_GOVINFO_KEY` meningkatkannya.
 
 Tetapkan ini sebagai pemboleh ubah persekitaran untuk pelayan Fontes dalam tetapan MCP aplikasi anda.
-Sebaik sahaja pemasang dikeluarkan, ia akan memintanya selepas pemasangan, dan pelancar **Add or change
+Pemasang memintanya selepas pemasangan, dan pelancar **Add or change
 keys** menukarnya kemudian.
 
 Secara berasingan, beberapa sumber menyatakan dalam syarat penggunaannya bahawa akses automatik memerlukan

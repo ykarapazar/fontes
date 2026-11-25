@@ -45,9 +45,9 @@ Lähes kaikilla lainkäyttöalueilla et. Jotkin lähteet tarvitsevat maksuttoman
   sallii vain noin 10 hakua päivässä IP-osoitetta kohden. Maksuton api.data.gov-avain muuttujassa
   `WLM_US_GOVINFO_KEY` nostaa rajaa.
 
-Aseta nämä Fontes-palvelimen ympäristömuuttujiksi sovelluksesi MCP-asetuksissa. Kun
-asennusohjelma on julkaistu, se kysyy niitä asennuksen jälkeen, ja sen **Add or change keys** -käynnistin
-muuttaa niitä myöhemmin.
+Aseta nämä Fontes-palvelimen ympäristömuuttujiksi sovelluksesi MCP-asetuksissa. Asennusohjelmat
+kysyvät niitä asennuksen jälkeen, ja niiden **Add or change keys** -käynnistin muuttaa niitä
+myöhemmin.
 
 Lisäksi muutama lähde ilmoittaa käyttöehdoissaan, että automaattinen käyttö edellyttää julkaisijan
 lupaa. Ne on merkitty OFF ja pysyvät pois päältä. Avain ei muuta tätä; vain

@@ -46,7 +46,7 @@ Għal kważi kull ġurisdizzjoni, le. Xi sorsi jeħtieġu ċavetta b'xejn: ara [
   Ċavetta b'xejn ta' api.data.gov f'`WLM_US_GOVINFO_KEY` togħlih.
 
 Issettja dawn bħala varjabbli tal-ambjent għas-server Fontes fis-settings MCP tal-app tiegħek.
-Ladarba joħroġ l-installer, jistaqsik għalihom wara l-installazzjoni, u l-launcher tiegħu
+L-installers jistaqsuk għalihom wara l-installazzjoni, u l-launcher tagħhom
 **Add or change keys** jibdilhom aktar tard.
 
 Separatament, ftit sorsi jgħidu fit-termini tagħhom li l-aċċess awtomatizzat jeħtieġ il-permess

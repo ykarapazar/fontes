@@ -47,7 +47,7 @@ Za skoraj vsako jurisdikcijo ne. Nekateri viri potrebujejo brezplačen ključ: g
   api.data.gov v `WLM_US_GOVINFO_KEY` to omejitev zviša.
 
 Nastavite jih kot spremenljivke okolja za strežnik Fontes v nastavitvah MCP svoje aplikacije.
-Ko bo namestitveni program izšel, jih bo zahteval po namestitvi, njegov zaganjalnik
+Namestitveni programi jih zahtevajo po namestitvi, njihov zaganjalnik
 **Add or change keys** pa jih pozneje spremeni.
 
 Ločeno od tega nekaj virov v svojih pogojih navaja, da avtomatiziran dostop zahteva dovoljenje

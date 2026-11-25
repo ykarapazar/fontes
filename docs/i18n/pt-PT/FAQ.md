@@ -49,7 +49,7 @@ Para quase todas as jurisdições, não. Algumas fontes precisam de uma chave gr
   gratuita do api.data.gov em `WLM_US_GOVINFO_KEY` aumenta esse limite.
 
 Defina-as como variáveis de ambiente para o servidor Fontes nas definições MCP da sua aplicação.
-Quando o instalador sair, pedi-las-á após a instalação, e o respetivo atalho **Add or change keys**
+Os instaladores pedem-nas após a instalação, e o respetivo atalho **Add or change keys**
 permite alterá-las mais tarde.
 
 À parte isso, algumas fontes indicam nos seus termos que o acesso automatizado exige a autorização

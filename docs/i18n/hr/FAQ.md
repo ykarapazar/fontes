@@ -48,7 +48,7 @@ Za gotovo svaku jurisdikciju ne trebate. Nekim izvorima potreban je besplatan kl
   api.data.gov u `WLM_US_GOVINFO_KEY` povećava to ograničenje.
 
 Postavite ih kao varijable okruženja za Fontes poslužitelj u MCP postavkama svoje aplikacije.
-Kada instalacijski program bude objavljen, tražit će ih nakon instalacije, a njegov pokretač
+Instalacijski programi traže ih nakon instalacije, a njihov pokretač
 **Add or change keys** mijenja ih kasnije.
 
 Neovisno o tome, nekoliko izvora u svojim uvjetima navodi da je za automatizirani pristup

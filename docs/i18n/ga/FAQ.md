@@ -47,8 +47,7 @@ Do bheagnach gach dlínse, ní theastaíonn. Teastaíonn eochair saor in aisce �
   eochair taispeána chomhroinnte ach thart ar 10 gcuardach sa lá in aghaidh an tseolta IP. Ardaíonn
   eochair api.data.gov saor in aisce in `WLM_US_GOVINFO_KEY` é.
 
-Socraigh iad seo mar athróga timpeallachta don fhreastalaí Fontes i socruithe MCP d'aipe. Nuair a
-bheidh an suiteálaí amuigh, iarrfaidh sé iad tar éis na suiteála, agus athraíonn a thosaitheoir
+Socraigh iad seo mar athróga timpeallachta don fhreastalaí Fontes i socruithe MCP d'aipe. Iarrann na suiteálaithe iad tar éis na suiteála, agus athraíonn a dtosaitheoir
 **Add or change keys** iad níos déanaí.
 
 Ar leith uaidh sin, deir roinnt bheag foinsí ina dtéarmaí go dteastaíonn cead an fhoilsitheora le

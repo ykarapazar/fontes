@@ -49,8 +49,8 @@ Niya taqi jurisdiccionanakatakix janiwa. Yaqhip jalsunakax inaki llaveniw wakisi
   `WLM_US_GOVINFO_KEY` ukan mä inaki api.data.gov llavex juk'amptayi.
 
 Aka variables de entorno ukham aplicacionaman MCP configuracionapan Fontes servidoratak
-uchañam. Instaladorax mistuni ukhaxa, instalasax ukanak mayïtani, **Add or change keys**
-qalltayiristi qhipat mayjt'ayarakini.
+uchañam. Instaladoranakax instalasaxa ukanak mayipxi, **Add or change keys**
+qalltayirix qhipat mayjt'ayi.
 
 Yaqha tuqitxa, mä qhawqha jalsunakax condicionanakapan automatizado mantañax uñt'ayirin
 permisop munasi sapxi. OFF ukham uñacht'ayatawa, jiwt'atakiw qhiparapxi. Mä llavex janiw

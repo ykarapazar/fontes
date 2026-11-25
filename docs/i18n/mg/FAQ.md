@@ -48,8 +48,8 @@ jereo ny [KEYS.md](KEYS.md).
   fanalahidy api.data.gov maimaim-poana ao amin'ny `WLM_US_GOVINFO_KEY` izany.
 
 Apetraho ho environment variables ho an'ny mpizara Fontes ireo ao amin'ny fandrindrana MCP an'ny
-rindranasanao. Rehefa navoaka ny mpametraka, hangatahany ireo aorian'ny fametrahana, ary ny launcher-ny
-**Add or change keys** no hanova azy ireo any aoriana.
+rindranasanao. Ny mpametraka dia mangataka ireo aorian'ny fametrahana, ary ny launcher-ny
+**Add or change keys** no manova azy ireo any aoriana.
 
 Ankoatra izany, misy loharano milaza ao amin'ny fepetrany fa ilaina ny fahazoan-dalan'ny mpamoaka ho an'ny
 fidirana mandeha ho azy. Voamarika OFF ireo ary mijanona ho maty. Tsy manova izany ny fanalahidy; ny

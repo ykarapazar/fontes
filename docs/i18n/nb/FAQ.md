@@ -47,8 +47,7 @@ Ikke for nesten alle jurisdiksjoner. Noen få kilder krever en gratis nøkkel: s
   bare rundt 10 søk om dagen per IP-adresse. En gratis api.data.gov-nøkkel i
   `WLM_US_GOVINFO_KEY` hever det.
 
-Sett dem som miljøvariabler for Fontes-serveren i MCP-innstillingene i appen din. Når
-installasjonsprogrammet er ute, spør det etter dem etter installasjonen, og med startfilen
+Sett dem som miljøvariabler for Fontes-serveren i MCP-innstillingene i appen din. Installasjonsprogrammene spør etter dem etter installasjonen, og med startfilen
 **Add or change keys** kan du endre dem senere.
 
 I tillegg sier noen kilder i vilkårene sine at automatisert tilgang krever utgiverens tillatelse.

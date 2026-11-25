@@ -45,8 +45,8 @@ Neredeyse her yargı alanı için hayır. Bazı kaynaklar ücretsiz bir anahtar 
   `WLM_US_GOVINFO_KEY` içine konan ücretsiz bir api.data.gov anahtarı bu sınırı yükseltir.
 
 Bunları uygulamanızın MCP ayarlarında Fontes sunucusu için ortam değişkenleri olarak ayarlayın.
-Kurulum programı yayımlandığında, kurulumdan sonra bunları soracak ve **Anahtar ekle veya değiştir**
-başlatıcısı daha sonra bunları değiştirecek.
+Kurulum programları kurulumdan sonra bunları sorar ve **Anahtar ekle veya değiştir**
+başlatıcısı daha sonra bunları değiştirir.
 
 Bundan ayrı olarak, birkaç kaynak kullanım koşullarında otomatik erişimin yayıncının iznini
 gerektirdiğini belirtir. Bunlar OFF olarak işaretlidir ve kapalı kalır. Bir anahtar bunu

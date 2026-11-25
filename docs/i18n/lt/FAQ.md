@@ -47,8 +47,7 @@ Beveik visoms jurisdikcijoms – ne. Kai kuriems šaltiniams reikia nemokamo rak
   demonstracinis raktas leidžia tik apie 10 paieškų per dieną vienam IP adresui. Nemokamas
   api.data.gov raktas kintamajame `WLM_US_GOVINFO_KEY` šią ribą padidina.
 
-Nustatykite juos kaip Fontes serverio aplinkos kintamuosius savo programos MCP nustatymuose. Kai
-bus išleista diegimo programa, ji jų paklaus po diegimo, o jos paleidiklis **Add or change keys**
+Nustatykite juos kaip Fontes serverio aplinkos kintamuosius savo programos MCP nustatymuose. Diegimo programos jų paklausia po diegimo, o jų paleidiklis **Add or change keys**
 leis juos pakeisti vėliau.
 
 Atskirai: kelių šaltinių sąlygose nurodyta, kad automatizuotai prieigai reikia leidėjo leidimo.

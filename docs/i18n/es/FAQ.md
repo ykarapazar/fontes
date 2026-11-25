@@ -48,7 +48,7 @@ Para casi todas las jurisdicciones, no. Algunas fuentes necesitan una clave grat
   de api.data.gov en `WLM_US_GOVINFO_KEY` amplía ese límite.
 
 Defínalas como variables de entorno para el servidor Fontes en la configuración MCP de su aplicación.
-Cuando salga el instalador, se las pedirá después de instalar, y su lanzador **Add or change keys**
+Los instaladores se las piden después de instalar, y su lanzador **Add or change keys**
 permite cambiarlas más tarde.
 
 Aparte de esto, unas pocas fuentes indican en sus condiciones que el acceso automatizado requiere el

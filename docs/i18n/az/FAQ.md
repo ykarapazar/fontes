@@ -46,8 +46,8 @@ Demək olar ki, hər yurisdiksiya üçün yox. Bəzi mənbələr pulsuz açar t�
   `WLM_US_GOVINFO_KEY`-də pulsuz api.data.gov açarı bu limiti artırır.
 
 Bunları proqramınızın MCP parametrlərində Fontes serveri üçün mühit dəyişənləri kimi təyin edin.
-Quraşdırıcı çıxdıqdan sonra o, quraşdırmadan sonra bunları soruşacaq, onun **Açarları əlavə et və
-ya dəyiş** başladıcısı isə sonradan onları dəyişəcək.
+Quraşdırıcılar quraşdırmadan sonra bunları soruşur, onların **Açarları əlavə et və ya dəyiş**
+başladıcısı isə sonradan onları dəyişir.
 
 Bundan ayrı olaraq, bir neçə mənbə öz şərtlərində avtomatlaşdırılmış girişin naşirin icazəsini
 tələb etdiyini bildirir. Onlar OFF kimi işarələnib və söndürülmüş qalır. Açar bunu dəyişmir; yalnız

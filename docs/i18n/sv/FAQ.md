@@ -45,9 +45,9 @@ För nästan alla jurisdiktioner, nej. Vissa källor kräver en kostnadsfri nyck
   tillåter bara omkring 10 sökningar om dagen per IP-adress. En kostnadsfri api.data.gov-nyckel i
   `WLM_US_GOVINFO_KEY` höjer gränsen.
 
-Ange dessa som miljövariabler för Fontes-servern i appens MCP-inställningar. När
-installationsprogrammet har släppts frågar det efter dem efter installationen, och dess startfil **Add or change keys**
-ändrar dem senare.
+Ange dessa som miljövariabler för Fontes-servern i appens MCP-inställningar. Installationsprogrammen
+frågar efter dem efter installationen, och deras startfil **Add or change keys** ändrar dem
+senare.
 
 Därutöver anger några få källor i sina villkor att automatiserad åtkomst kräver utgivarens
 tillstånd. De är markerade OFF och förblir avstängda. En nyckel ändrar inte det; endast

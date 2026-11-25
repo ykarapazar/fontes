@@ -47,8 +47,8 @@ nämä ýetmeýändigini we näme üçindigini görkezýär.
   `WLM_US_GOVINFO_KEY` içindäki mugt api.data.gov açary bu çägi ýokarlandyrýar.
 
 Bulary programmaňyzyň MCP sazlamalarynda Fontes serweri üçin gurşaw üýtgeýänleri hökmünde
-goýuň. Gurnaýjy çykandan soň, ol gurnalandan soň olary sorar, onuň **Add or change keys**
-işlediji faýly bolsa olary soňra üýtgeder.
+goýuň. Gurnaýjylar gurnalandan soň olary soraýar, olaryň **Add or change keys**
+işlediji faýly bolsa olary soňra üýtgedýär.
 
 Mundan aýratynlykda, birnäçe çeşme öz şertlerinde awtomatik giriş üçin neşir edijiniň
 rugsadynyň gerekdigini aýdýar. Olar OFF diýlip bellenen we öçük galýar. Açar muny

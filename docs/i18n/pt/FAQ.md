@@ -47,8 +47,8 @@ Para quase todas as jurisdições, não. Algumas fontes precisam de uma chave gr
   demonstração compartilhada permite apenas cerca de 10 pesquisas por dia por endereço IP. Uma chave
   gratuita do api.data.gov em `WLM_US_GOVINFO_KEY` aumenta esse limite.
 
-Defina-as como variáveis de ambiente para o servidor Fontes nas configurações MCP do seu app. Quando
-o instalador for lançado, ele as pedirá após a instalação, e o seu atalho **Add or change keys**
+Defina-as como variáveis de ambiente para o servidor Fontes nas configurações MCP do seu app. Os
+instaladores as pedem após a instalação, e o atalho deles **Add or change keys**
 permite alterá-las depois.
 
 À parte isso, algumas fontes dizem em seus termos que o acesso automatizado exige a permissão do

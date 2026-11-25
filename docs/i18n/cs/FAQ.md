@@ -45,9 +45,8 @@ U téměř každé jurisdikce ne. Některé zdroje vyžadují bezplatný klíč:
   povoluje jen přibližně 10 hledání denně na IP adresu. Bezplatný klíč api.data.gov v
   `WLM_US_GOVINFO_KEY` tento limit zvýší.
 
-Nastavte je jako proměnné prostředí pro server Fontes v nastavení MCP své aplikace. Až bude
-instalátor vydán, po instalaci se na ně zeptá a jeho spouštěč **Add or change keys** je později
-změní.
+Nastavte je jako proměnné prostředí pro server Fontes v nastavení MCP své aplikace.
+Instalátory se na ně po instalaci zeptají a jejich spouštěč **Add or change keys** je později změní.
 
 Nezávisle na tom několik zdrojů ve svých podmínkách uvádí, že automatizovaný přístup vyžaduje
 povolení vydavatele. Jsou označeny OFF a zůstávají vypnuté. Klíč na tom nic nemění; změní to

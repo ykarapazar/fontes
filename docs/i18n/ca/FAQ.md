@@ -48,7 +48,7 @@ Per a gairebé totes les jurisdiccions, no. Algunes fonts necessiten una clau gr
   d'api.data.gov a `WLM_US_GOVINFO_KEY` augmenta aquest límit.
 
 Definiu-les com a variables d'entorn per al servidor Fontes a la configuració MCP de la vostra
-aplicació. Quan surti l'instal·lador, us les demanarà després de la instal·lació, i la seva drecera
+aplicació. Els instal·ladors us les demanen després de la instal·lació, i la drecera
 **Add or change keys** permet canviar-les més tard.
 
 A banda d'això, algunes fonts diuen a les seves condicions que l'accés automatitzat requereix el

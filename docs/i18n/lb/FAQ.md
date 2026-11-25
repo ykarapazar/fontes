@@ -48,8 +48,7 @@ Fir bal all Rechtsuerdnung net. E puer Quelle brauchen e gratis Schlëssel: kuck
   de gedeelten Demo-Schlëssel erlaabt just ongeféier 10 Sichen den Dag pro IP-Adress. E gratis
   api.data.gov-Schlëssel an `WLM_US_GOVINFO_KEY` hieft dat un.
 
-Setzt dës als Ëmfeldvariabele fir de Fontes-Server an den MCP-Astellunge vun Ärer App. Soubal den
-Installatiounsprogramm eraus ass, freet en no der Installatioun dono, a mat sengem Starter
+Setzt dës als Ëmfeldvariabele fir de Fontes-Server an den MCP-Astellunge vun Ärer App. D'Installatiounsprogrammer froen no der Installatioun dono, a mat hirem Starter
 **Add or change keys** ännert Dir se méi spéit.
 
 Doriwwer eraus soen e puer Quellen an hire Konditiounen, datt den automatiséierten Zougang

@@ -48,8 +48,8 @@ Für fast jede Rechtsordnung nicht. Einige Quellen benötigen einen kostenlosen 
   api.data.gov-Schlüssel in `WLM_US_GOVINFO_KEY` erhöht diese Grenze.
 
 Setzen Sie diese als Umgebungsvariablen für den Fontes-Server in den MCP-Einstellungen Ihrer App.
-Sobald das Installationsprogramm erschienen ist, fragt es nach der Installation danach, und sein
-Starter **Add or change keys** ändert sie später.
+Die Installationsprogramme fragen nach der Installation danach, und ihr Starter
+**Add or change keys** ändert sie später.
 
 Unabhängig davon sagen einige Quellen in ihren Nutzungsbedingungen, dass der automatisierte Zugriff
 die Erlaubnis des Herausgebers erfordert. Sie sind mit OFF markiert und bleiben aus. Ein Schlüssel

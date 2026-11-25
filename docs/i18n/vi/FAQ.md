@@ -45,9 +45,9 @@ Với hầu hết mọi phạm vi tài phán, không. Một số nguồn cần k
   chỉ cho phép khoảng 10 lượt tìm kiếm mỗi ngày cho mỗi địa chỉ IP. Một khóa api.data.gov miễn phí trong
   `WLM_US_GOVINFO_KEY` sẽ nâng giới hạn này.
 
-Hãy đặt chúng làm biến môi trường cho máy chủ Fontes trong thiết lập MCP của ứng dụng. Khi
-trình cài đặt ra mắt, trình cài đặt sẽ hỏi các khóa này sau khi cài đặt, và trình khởi chạy **Add or change keys**
-của nó dùng để thay đổi chúng về sau.
+Hãy đặt chúng làm biến môi trường cho máy chủ Fontes trong thiết lập MCP của ứng dụng. Các
+trình cài đặt hỏi các khóa này sau khi cài đặt, và trình khởi chạy **Add or change keys** của chúng
+dùng để thay đổi chúng về sau.
 
 Ngoài ra, một số ít nguồn nêu trong điều khoản rằng việc truy cập tự động cần sự cho phép của bên công bố.
 Các nguồn này được đánh dấu OFF và vẫn tắt. Khóa không thay đổi điều đó; chỉ sự cho phép của bên công bố

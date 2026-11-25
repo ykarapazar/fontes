@@ -49,8 +49,8 @@ ehecha [KEYS.md](KEYS.md).
   Peteĩ clave api.data.gov reigua `WLM_US_GOVINFO_KEY`-pe omboheta.
 
 Emoĩ ko'ãva variable de entorno ramo Fontes servidor-pe g̃uarã nde aplicación configuración
-MCP-pe. Instalador osẽ rire, ojeruréta ko'ãva ñemohenda rire, ha iñepyrũha **Add or change keys**
-omoambuéta upéi.
+MCP-pe. Instalador kuéra ojerure ko'ãva ñemohenda rire, ha iñepyrũha **Add or change keys**
+omoambue upéi.
 
 Ambue hendápe, mbovymi ypykue he'i hembiapoukapýpe acceso automático oikotevẽha ijára
 permiso. Oñemarka OFF ha opyta mbogue. Peteĩ clave nomoambuéi upéva; ijára permiso añoite

@@ -45,9 +45,9 @@ Untuk hampir semua yurisdiksi, tidak. Beberapa sumber memerlukan kunci gratis: l
   bersama hanya mengizinkan sekitar 10 pencarian per hari per alamat IP. Kunci api.data.gov gratis di
   `WLM_US_GOVINFO_KEY` menaikkan batas tersebut.
 
-Tetapkan ini sebagai variabel lingkungan untuk server Fontes di pengaturan MCP aplikasi Anda. Setelah
-penginstal tersedia, penginstal akan menanyakannya setelah instalasi, dan peluncur **Add or change keys**
-miliknya dapat mengubahnya nanti.
+Tetapkan ini sebagai variabel lingkungan untuk server Fontes di pengaturan MCP aplikasi Anda. Penginstal
+menanyakannya setelah instalasi, dan peluncur **Add or change keys** miliknya dapat mengubahnya
+nanti.
 
 Secara terpisah, beberapa sumber menyatakan dalam ketentuannya bahwa akses otomatis memerlukan izin
 penerbit. Sumber tersebut ditandai OFF dan tetap nonaktif. Kunci tidak mengubah hal itu; hanya izin

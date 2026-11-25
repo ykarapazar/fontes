@@ -45,8 +45,8 @@ For nesten alle jurisdiksjonar, nei. Somme kjelder krev ein gratis nøkkel: sjå
   tillèt berre om lag 10 søk om dagen per IP-adresse. Ein gratis api.data.gov-nøkkel i
   `WLM_US_GOVINFO_KEY` aukar grensa.
 
-Set desse som miljøvariablar for Fontes-serveren i MCP-innstillingane i appen din. Når
-installasjonsprogrammet er ute, vil det spørje etter dei etter installeringa, og startaren **Add or change keys**
+Set desse som miljøvariablar for Fontes-serveren i MCP-innstillingane i appen din. Installasjonsprogramma
+spør etter dei etter installeringa, og startaren deira **Add or change keys**
 endrar dei seinare.
 
 I tillegg seier nokre få kjelder i vilkåra sine at automatisert tilgang krev løyve frå

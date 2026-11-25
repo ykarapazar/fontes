@@ -46,8 +46,7 @@ Ci lu ëpp ci juridiction yi, déedéet. Am na ay cosaan yu soxla caabi bu ñu j
   may rekk lu tollu ci 10 gëstu ci bés bi ci adrees IP bu nekk. Caabi api.data.gov bu ñu joxe ci neen ci
   `WLM_US_GOVINFO_KEY` dafay yokk dayo boobu.
 
-Defal leen ni variables d'environnement ngir serwëer Fontes bi ci réglage MCP yu sa aplikasioŋ. Bu
-programu samp bi génnee, dina la leen laaj ginnaaw samp bi, te **Yokk walla soppi caabi yi** dafay leen
+Defal leen ni variables d'environnement ngir serwëer Fontes bi ci réglage MCP yu sa aplikasioŋ. Programu samp yi dinañu leen laaj ginnaaw samp bi, te **Yokk walla soppi caabi yi** dafay leen
 soppi ginnaaw.
 
 Lu dul loolu, am na ay cosaan yu wax ci seeni sàrt ne duggu ci masin soxla na sañ-sañu ki siiwal. Dañu

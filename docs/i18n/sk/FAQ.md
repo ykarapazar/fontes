@@ -44,8 +44,7 @@ Takmer pre každú jurisdikciu nie. Niektoré zdroje vyžadujú bezplatný kľú
   demonštračný kľúč umožňuje iba približne 10 vyhľadávaní denne na IP adresu. Bezplatný kľúč
   api.data.gov vo `WLM_US_GOVINFO_KEY` tento limit zvyšuje.
 
-Nastavte ich ako premenné prostredia pre server Fontes v MCP nastaveniach svojej aplikácie. Keď
-bude inštalátor vydaný, opýta sa na ne po inštalácii a jeho spúšťač **Add or change keys** ich
+Nastavte ich ako premenné prostredia pre server Fontes v MCP nastaveniach svojej aplikácie. Inštalátory sa na ne po inštalácii pýtajú a spúšťač **Add or change keys** ich
 neskôr zmení.
 
 Samostatne: niekoľko zdrojov vo svojich podmienkach uvádza, že automatizovaný prístup vyžaduje

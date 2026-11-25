@@ -48,8 +48,8 @@ Ku mafasi y'ubutabera hafi ya yose, oya. Inkomoko zimwe zikenera urufunguzo rw'u
   rw'ubuntu rwa api.data.gov muri `WLM_US_GOVINFO_KEY` ruzamura uwo mubare ntarengwa.
 
 Zishyireho nk'environment variables za seriveri ya Fontes mu igenamiterere rya MCP rya porogaramu yawe.
-Porogaramu yo gushyiraho nisohoka, izazigusaba nyuma yo gushyiraho, kandi **Ongeraho cyangwa uhindure
-imfunguzo** yayo izazihindura nyuma.
+Porogaramu zo gushyiraho zirazigusaba nyuma yo gushyiraho, kandi **Ongeraho cyangwa uhindure
+imfunguzo** zazo zirazihindura nyuma.
 
 Uretse ibyo, inkomoko zimwe zivuga mu mabwiriza yazo ko kwinjira mu buryo bwikora bisaba uruhushya
 rw'uyitangaza. Zanditseho OFF kandi zikomeza gufunga. Urufunguzo ntiruhindura ibyo; uruhushya

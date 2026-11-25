@@ -49,7 +49,7 @@ Szinte minden joghatóság esetében nem. Egyes forrásokhoz ingyenes kulcs kell
   api.data.gov kulcs a `WLM_US_GOVINFO_KEY` változóban megemeli ezt a korlátot.
 
 Ezeket környezeti változóként állítsa be a Fontes-szerver számára az alkalmazása
-MCP-beállításaiban. Amint a telepítő megjelenik, a telepítés után rákérdez ezekre, később pedig
+MCP-beállításaiban. A telepítők a telepítés után rákérdeznek ezekre, később pedig
 az **Add or change keys** indítójával módosíthatók.
 
 Ettől függetlenül néhány forrás feltételei szerint az automatizált hozzáféréshez a kiadó

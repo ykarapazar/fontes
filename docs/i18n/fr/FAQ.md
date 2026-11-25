@@ -47,8 +47,8 @@ Pour presque toutes les juridictions, non. Certaines sources nécessitent une cl
   `WLM_US_GOVINFO_KEY` relève cette limite.
 
 Définissez-les comme variables d'environnement du serveur Fontes dans les paramètres MCP de votre application.
-Une fois le programme d'installation disponible, il les demandera après l'installation, et son lanceur
-**Ajouter ou modifier des clés** permettra de les modifier plus tard.
+Les programmes d'installation les demandent après l'installation, et leur lanceur
+**Ajouter ou modifier des clés** permet de les modifier plus tard.
 
 Par ailleurs, quelques sources indiquent dans leurs conditions que l'accès automatisé nécessite l'autorisation
 de l'éditeur. Elles sont marquées OFF et restent désactivées. Une clé n'y change rien ; seule l'autorisation de
