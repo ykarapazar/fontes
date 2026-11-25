@@ -103,7 +103,7 @@ LM Studio 仝款的 `mcpServers` 項目。
 `%APPDATA%\Claude\`）。
 
 **任何其他的 MCP 應用程式**（Windsurf 等等）：伊家己的說明文件會講伊共 MCP 伺服器囥佇佗位。大部分用仝款的
-項目：命令 `uvx`，參數 `fontes`。
+項目：命令 `uvx`，參數 `fontes-mcp`。
 
 若是應用程式揣無 `uvx`，請用伊的完整路徑（佇 macOS 佮 Linux 頂，`which uvx` 會印出來）。
 

@@ -108,7 +108,7 @@ Servers**, te yokk xaaju `mcpServers` bi ni ci LM Studio.
 `%APPDATA%\Claude\`).
 
 **Bépp yeneen aplikasioŋ MCP** (Windsurf ak yeneen): dokimaŋ bu aplikasioŋ bi ci boppam moo wax fu mu
-denc ay serwëer MCP. Li ëpp ci ñoom dañuy nangu benn xaaj bi: commande `uvx`, argument `fontes`.
+denc ay serwëer MCP. Li ëpp ci ñoom dañuy nangu benn xaaj bi: commande `uvx`, argument `fontes-mcp`.
 
 Su aplikasioŋ bi gisul `uvx`, jëfandikool yoonam bu mat (ci macOS ak Linux, `which uvx` dafay ko won).
 

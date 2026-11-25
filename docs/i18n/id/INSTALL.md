@@ -109,7 +109,7 @@ Servers**, dan tambahkan entri `mcpServers` yang sama seperti untuk LM Studio.
 
 **Aplikasi MCP lainnya** (Windsurf dan lainnya): dokumentasi aplikasi itu sendiri menjelaskan di mana
 aplikasi tersebut menyimpan server MCP-nya. Sebagian besar menerima entri yang sama: perintah `uvx`,
-argumen `fontes`.
+argumen `fontes-mcp`.
 
 Jika aplikasi tidak dapat menemukan `uvx`, gunakan path lengkapnya (di macOS dan Linux, `which uvx`
 menampilkannya).

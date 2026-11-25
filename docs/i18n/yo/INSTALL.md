@@ -103,7 +103,7 @@ kún un:
 `claude_desktop_config.json` (macOS: `~/Library/Application Support/Claude/`, Windows: `%APPDATA%\Claude\`).
 
 **Áàpù MCP mìíràn èyíkéyìí** (Windsurf àti àwọn mìíràn): ìwé ìtọ́sọ́nà tirẹ̀ ló ń sọ ibi tí ó ń tọ́jú àwọn
-sáfà MCP rẹ̀ sí. Ọ̀pọ̀ jùlọ gba ìtẹ̀sí kan náà: àṣẹ `uvx`, àríyànjiyàn (argument) `fontes`.
+sáfà MCP rẹ̀ sí. Ọ̀pọ̀ jùlọ gba ìtẹ̀sí kan náà: àṣẹ `uvx`, àríyànjiyàn (argument) `fontes-mcp`.
 
 Bí áàpù náà kò bá rí `uvx`, lo ipa-ọ̀nà rẹ̀ kíkún (lórí macOS àti Linux, `which uvx` ń fi í hàn).
 

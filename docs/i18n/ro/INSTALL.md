@@ -108,7 +108,7 @@ mcp.json** și adăugați:
 `%APPDATA%\Claude\`).
 
 **Orice altă aplicație MCP** (Windsurf și altele): propria documentație spune unde își păstrează serverele
-MCP. Majoritatea acceptă aceeași intrare: comanda `uvx`, argumentul `fontes`.
+MCP. Majoritatea acceptă aceeași intrare: comanda `uvx`, argumentul `fontes-mcp`.
 
 Dacă aplicația nu găsește `uvx`, folosiți calea completă (pe macOS și Linux, `which uvx` o afișează).
 

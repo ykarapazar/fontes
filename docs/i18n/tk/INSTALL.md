@@ -111,7 +111,7 @@ Windows: `%APPDATA%\Claude\`).
 
 **Islendik beýleki MCP programmasy** (Windsurf we beýlekiler): onuň öz resminamalarynda MCP
 serwerleriniň nirede saklanýandygy aýdylýar. Köpüsi şol bir ýazgyny kabul edýär: buýruk `uvx`,
-argument `fontes`.
+argument `fontes-mcp`.
 
 Eger programma `uvx` tapyp bilmese, onuň doly ýoluny ulanyň (macOS we Linux-da `which uvx` ony
 görkezýär).

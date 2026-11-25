@@ -108,7 +108,7 @@ zu `claude_desktop_config.json` hinzu (macOS: `~/Library/Application Support/Cla
 `%APPDATA%\Claude\`).
 
 **Jede andere MCP-App** (Windsurf und andere): Ihre eigene Dokumentation sagt, wo sie ihre MCP-Server
-speichert. Die meisten nehmen denselben Eintrag: Befehl `uvx`, Argument `fontes`.
+speichert. Die meisten nehmen denselben Eintrag: Befehl `uvx`, Argument `fontes-mcp`.
 
 Wenn die App `uvx` nicht findet, verwenden Sie den vollständigen Pfad (unter macOS und Linux gibt
 `which uvx` ihn aus).

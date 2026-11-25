@@ -110,7 +110,7 @@ failam `claude_desktop_config.json` (macOS: `~/Library/Application Support/Claud
 `%APPDATA%\Claude\`).
 
 **Jebkura cita MCP lietotne** (Windsurf un citas): tās dokumentācijā norādīts, kur tā glabā
-savus MCP serverus. Lielākā daļa pieņem to pašu ierakstu: komanda `uvx`, arguments `fontes`.
+savus MCP serverus. Lielākā daļa pieņem to pašu ierakstu: komanda `uvx`, arguments `fontes-mcp`.
 
 Ja lietotne nevar atrast `uvx`, izmantojiet tā pilno ceļu (macOS un Linux to parāda
 `which uvx`).

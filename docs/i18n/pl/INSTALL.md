@@ -110,7 +110,7 @@ Servers** i dodaj ten sam wpis `mcpServers` co w przypadku LM Studio.
 
 **Każda inna aplikacja MCP** (Windsurf i inne): jej własna dokumentacja podaje, gdzie
 przechowuje swoje serwery MCP. Większość przyjmuje ten sam wpis: polecenie `uvx`, argument
-`fontes`.
+`fontes-mcp`.
 
 Jeśli aplikacja nie może znaleźć `uvx`, użyj jego pełnej ścieżki (w systemach macOS i Linux
 wyświetla ją `which uvx`).

@@ -108,7 +108,7 @@ le `claude_desktop_config.json` (macOS: `~/Library/Application Support/Claude/`,
 `%APPDATA%\Claude\`).
 
 **Aon aip MCP eile** (Windsurf agus aipeanna eile): insíonn a doiciméadacht féin cá gcoinníonn sí a
-freastalaithe MCP. Glacann formhór acu leis an iontráil chéanna: ordú `uvx`, argóint `fontes`.
+freastalaithe MCP. Glacann formhór acu leis an iontráil chéanna: ordú `uvx`, argóint `fontes-mcp`.
 
 Mura féidir leis an aip `uvx` a aimsiú, úsáid a chonair iomlán (ar macOS agus Linux, priontálann
 `which uvx` í).

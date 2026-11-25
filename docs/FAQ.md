@@ -43,9 +43,8 @@ For almost every jurisdiction, no. Some sources need a free key: see [KEYS.md](K
   allows only about 10 searches a day per IP address. A free api.data.gov key in
   `WLM_US_GOVINFO_KEY` raises it.
 
-Set these as environment variables for the Fontes server in your app's MCP settings. Once the
-installer is out, it will ask for them after installing, and its **Add or change keys** launcher
-changes them later.
+Set these as environment variables for the Fontes server in your app's MCP settings. The installers
+ask for them after installing, and their **Add or change keys** launcher changes them later.
 
 Separately, a few sources say in their terms that automated access needs the publisher's
 permission. They are marked OFF and stay off. A key does not change that; only the

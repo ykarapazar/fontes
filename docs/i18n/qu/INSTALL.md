@@ -109,7 +109,7 @@ Windows: `%APPDATA%\Claude\`).
 
 **Huk MCP aplicacionkuna** (Windsurf, hukkunapas): kikin documentacionninmi MCP
 servidorninkunata maypi waqaychasqanta nin. Achkaqa kaq qillqatam chaskinku: kamachiy `uvx`,
-argumento `fontes`.
+argumento `fontes-mcp`.
 
 Aplicación `uvx` nisqata mana tarinchu chayqa, llapan ñanninta llamk'achiy (macOS, Linux
 nisqapi `which uvx` nisqam qillqan).

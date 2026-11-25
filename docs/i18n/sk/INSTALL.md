@@ -109,7 +109,7 @@ mcp.json** a pridajte:
 `%APPDATA%\Claude\`).
 
 **Akákoľvek iná MCP aplikácia** (Windsurf a ďalšie): jej vlastná dokumentácia uvádza, kde má
-uložené svoje MCP servery. Väčšina prijíma rovnaký záznam: príkaz `uvx`, argument `fontes`.
+uložené svoje MCP servery. Väčšina prijíma rovnaký záznam: príkaz `uvx`, argument `fontes-mcp`.
 
 Ak aplikácia nevie nájsť `uvx`, použite jeho úplnú cestu (na macOS a Linuxe ju vypíše `which uvx`).
 

@@ -111,7 +111,7 @@ bejegyzést a `claude_desktop_config.json` fájlhoz (macOS: `~/Library/Applicati
 Windows: `%APPDATA%\Claude\`).
 
 **Bármely más MCP-alkalmazás** (Windsurf és mások): a saját dokumentációja megadja, hol tárolja
-az MCP-szervereit. A legtöbb ugyanazt a bejegyzést fogadja el: parancs `uvx`, argumentum `fontes`.
+az MCP-szervereit. A legtöbb ugyanazt a bejegyzést fogadja el: parancs `uvx`, argumentum `fontes-mcp`.
 
 Ha az alkalmazás nem találja az `uvx`-et, használja a teljes elérési útját (macOS-en és Linuxon a
 `which uvx` kiírja).

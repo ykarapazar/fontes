@@ -108,7 +108,7 @@ kimwe muri `claude_desktop_config.json` (macOS: `~/Library/Application Support/C
 `%APPDATA%\Claude\`).
 
 **Indi porogaramu ya MCP iyo ari yo yose** (Windsurf n'izindi): inyandiko zayo bwite zivuga aho ibika
-seriveri zayo za MCP. Nyinshi zemera icyanditswe kimwe: command `uvx`, argument `fontes`.
+seriveri zayo za MCP. Nyinshi zemera icyanditswe kimwe: command `uvx`, argument `fontes-mcp`.
 
 Niba porogaramu itabona `uvx`, koresha inzira yayo yuzuye (kuri macOS na Linux, `which uvx` irayigaragaza).
 

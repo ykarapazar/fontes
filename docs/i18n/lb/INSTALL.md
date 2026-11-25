@@ -109,7 +109,7 @@ mcp.json** a setzt derbäi:
 `~/Library/Application Support/Claude/`, Windows: `%APPDATA%\Claude\`).
 
 **All aner MCP-App** (Windsurf an anerer): an der eegener Dokumentatioun vun der App steet, wou se
-hir MCP-Server späichert. Déi meescht benotzen déi selwecht Entrée: Befeel `uvx`, Argument `fontes`.
+hir MCP-Server späichert. Déi meescht benotzen déi selwecht Entrée: Befeel `uvx`, Argument `fontes-mcp`.
 
 Wann d'App `uvx` net fënnt, benotzt de komplette Wee (op macOS a Linux weist `which uvx` en).
 

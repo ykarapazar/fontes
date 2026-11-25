@@ -110,7 +110,7 @@ spustelėkite **Configure MCP Servers** ir pridėkite tą patį `mcpServers` įr
 `%APPDATA%\Claude\`).
 
 **Bet kuri kita MCP programa** (Windsurf ir kitos): jos dokumentacijoje nurodyta, kur ji laiko
-savo MCP serverius. Dauguma priima tą patį įrašą: komanda `uvx`, argumentas `fontes`.
+savo MCP serverius. Dauguma priima tą patį įrašą: komanda `uvx`, argumentas `fontes-mcp`.
 
 Jei programa neranda `uvx`, naudokite visą jo kelią (macOS ir Linux sistemose jį parodo
 `which uvx`).

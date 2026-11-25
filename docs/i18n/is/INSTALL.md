@@ -106,7 +106,7 @@ Servers** og bættu við sömu `mcpServers`-færslu og fyrir LM Studio.
 `%APPDATA%\Claude\`).
 
 **Hvaða annað MCP-forrit sem er** (Windsurf og fleiri): eigin skjölun forritsins segir hvar það geymir MCP-þjóna sína.
-Flest nota sömu færslu: skipun `uvx`, færibreytur `fontes`.
+Flest nota sömu færslu: skipun `uvx`, færibreytur `fontes-mcp`.
 
 Ef forritið finnur ekki `uvx`, notaðu fulla slóð þess (á macOS og Linux birtir `which uvx` hana).
 

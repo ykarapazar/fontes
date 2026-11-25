@@ -106,7 +106,7 @@ Servers**, và thêm cùng mục `mcpServers` như với LM Studio.
 `%APPDATA%\Claude\`).
 
 **Bất kỳ ứng dụng MCP nào khác** (Windsurf và các ứng dụng khác): tài liệu của chính ứng dụng đó cho biết nơi lưu các máy chủ MCP.
-Phần lớn dùng cùng một mục cấu hình: lệnh `uvx`, đối số `fontes`.
+Phần lớn dùng cùng một mục cấu hình: lệnh `uvx`, đối số `fontes-mcp`.
 
 Nếu ứng dụng không tìm thấy `uvx`, hãy dùng đường dẫn đầy đủ của nó (trên macOS và Linux, `which uvx` sẽ in ra đường dẫn).
 

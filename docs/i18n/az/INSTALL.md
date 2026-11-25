@@ -109,7 +109,7 @@ Servers** düyməsini klikləyin və LM Studio-dakı ilə eyni `mcpServers` qeyd
 Windows: `%APPDATA%\Claude\`).
 
 **İstənilən digər MCP proqramı** (Windsurf və digərləri): onun MCP serverlərini harada saxladığını
-öz sənədləri göstərir. Əksəriyyəti eyni qeydi qəbul edir: əmr `uvx`, arqument `fontes`.
+öz sənədləri göstərir. Əksəriyyəti eyni qeydi qəbul edir: əmr `uvx`, arqument `fontes-mcp`.
 
 Proqram `uvx`-i tapa bilmirsə, onun tam yolundan istifadə edin (macOS və Linux-da `which uvx` onu
 göstərir).

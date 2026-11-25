@@ -102,7 +102,7 @@ Servers**，并添加与 LM Studio 相同的 `mcpServers` 条目。
 `%APPDATA%\Claude\`）。
 
 **任何其他 MCP 应用**（Windsurf 等）：其自身的文档会说明它在哪里保存 MCP 服务器。大多数使用相同的条目：
-命令 `uvx`，参数 `fontes`。
+命令 `uvx`，参数 `fontes-mcp`。
 
 如果应用找不到 `uvx`，请使用其完整路径（在 macOS 和 Linux 上，`which uvx` 会显示该路径）。
 

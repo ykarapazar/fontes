@@ -108,7 +108,7 @@ Servers**, u żid l-istess entrata `mcpServers` bħal għal LM Studio.
 `%APPDATA%\Claude\`).
 
 **Kwalunkwe app MCP oħra** (Windsurf u oħrajn): id-dokumentazzjoni tagħha stess tgħid fejn iżżomm
-is-servers MCP tagħha. Il-biċċa l-kbira jieħdu l-istess entrata: kmand `uvx`, argument `fontes`.
+is-servers MCP tagħha. Il-biċċa l-kbira jieħdu l-istess entrata: kmand `uvx`, argument `fontes-mcp`.
 
 Jekk l-app ma ssibx `uvx`, uża l-path sħiħ tiegħu (fuq macOS u Linux, `which uvx` jurih).
 

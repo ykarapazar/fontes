@@ -109,7 +109,7 @@ mcp.json** i afegiu:
 `%APPDATA%\Claude\`).
 
 **Qualsevol altra aplicació MCP** (Windsurf i altres): la documentació de l'aplicació indica on desa
-els seus servidors MCP. La majoria accepten la mateixa entrada: ordre `uvx`, argument `fontes`.
+els seus servidors MCP. La majoria accepten la mateixa entrada: ordre `uvx`, argument `fontes-mcp`.
 
 Si l'aplicació no troba `uvx`, feu servir el seu camí complet (a macOS i Linux, `which uvx` el
 mostra).

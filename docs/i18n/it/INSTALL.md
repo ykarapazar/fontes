@@ -107,7 +107,7 @@ Le configurazioni più vecchie di VS Code usano `.vscode/mcp.json`, dove la chia
 `%APPDATA%\Claude\`).
 
 **Qualsiasi altra app MCP** (Windsurf e altre): la documentazione dell'app indica dove salva i suoi
-server MCP. La maggior parte accetta la stessa voce: comando `uvx`, argomento `fontes`.
+server MCP. La maggior parte accetta la stessa voce: comando `uvx`, argomento `fontes-mcp`.
 
 Se l'app non trova `uvx`, usi il suo percorso completo (su macOS e Linux, `which uvx` lo mostra).
 

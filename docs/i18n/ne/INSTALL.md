@@ -106,7 +106,7 @@ claude mcp add fontes -- uvx fontes-mcp
 थप्नुहोस् (macOS: `~/Library/Application Support/Claude/`, Windows: `%APPDATA%\Claude\`)।
 
 **कुनै पनि अन्य MCP एप** (Windsurf र अन्य): त्यसले आफ्ना MCP सर्भरहरू कहाँ राख्छ भन्ने कुरा त्यसकै
-documentation मा हुन्छ। धेरैजसोले उही प्रविष्टि लिन्छन्: command `uvx`, argument `fontes`।
+documentation मा हुन्छ। धेरैजसोले उही प्रविष्टि लिन्छन्: command `uvx`, argument `fontes-mcp`।
 
 एपले `uvx` भेट्न सकेन भने त्यसको पूरा path प्रयोग गर्नुहोस् (macOS र Linux मा `which uvx` ले देखाउँछ)।
 

@@ -106,7 +106,7 @@ Servers** ja lisage sama `mcpServers`-kirje nagu LM Studio puhul.
 `%APPDATA%\Claude\`).
 
 **Mis tahes muu MCP-rakendus** (Windsurf ja teised): rakenduse enda dokumentatsioon ütleb, kuhu see oma MCP-serverid salvestab.
-Enamik kasutab sama kirjet: käsk `uvx`, argumendid `fontes`.
+Enamik kasutab sama kirjet: käsk `uvx`, argumendid `fontes-mcp`.
 
 Kui rakendus ei leia käsku `uvx`, kasutage selle täielikku teed (macOS-is ja Linuxis väljastab selle `which uvx`).
 

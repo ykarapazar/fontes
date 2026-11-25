@@ -105,7 +105,7 @@ claude mcp add fontes -- uvx fontes-mcp
 `%APPDATA%\Claude\`）に追加します。
 
 **その他の MCP アプリ**（Windsurf など）: MCP サーバーの設定場所は、そのアプリのドキュメントに
-記載されています。ほとんどは同じエントリー（コマンド `uvx`、引数 `fontes`）で動作します。
+記載されています。ほとんどは同じエントリー（コマンド `uvx`、引数 `fontes-mcp`）で動作します。
 
 アプリが `uvx` を見つけられない場合は、フルパスを使ってください（macOS と Linux では `which uvx` で
 表示されます）。

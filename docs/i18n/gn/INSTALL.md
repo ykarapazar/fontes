@@ -109,7 +109,7 @@ Windows: `%APPDATA%\Claude\`).
 
 **Oimeraẽ ambue aplicación MCP** (Windsurf ha ambue): idocumentación ijeheguáva he'i moõpa
 oñongatu iservidor MCP-kuéra. Hetavéva ohupyty pe entrada peteĩchagua: comando `uvx`,
-argumento `fontes`.
+argumento `fontes-mcp`.
 
 Aplicación ndojuhúiramo `uvx`, eipuru hape opaite (macOS ha Linux-pe, `which uvx` ohai).
 

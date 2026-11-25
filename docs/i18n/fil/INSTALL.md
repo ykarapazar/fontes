@@ -109,7 +109,7 @@ Servers**, at idagdag ang parehong `mcpServers` entry tulad ng sa LM Studio.
 
 **Anumang ibang MCP app** (Windsurf at iba pa): sinasabi ng sarili nitong dokumentasyon kung saan nito
 iniimbak ang mga MCP server nito. Tinatanggap ng karamihan ang parehong entry: command na `uvx`, argument na
-`fontes`.
+`fontes-mcp`.
 
 Kung hindi mahanap ng app ang `uvx`, gamitin ang buong path nito (sa macOS at Linux, ipinapakita ito ng
 `which uvx`).

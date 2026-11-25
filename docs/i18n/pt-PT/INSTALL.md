@@ -109,7 +109,7 @@ Servers** e adicione a mesma entrada `mcpServers` que no LM Studio.
 `%APPDATA%\Claude\`).
 
 **Qualquer outra aplicação MCP** (Windsurf e outras): a documentação da própria aplicação indica onde
-guarda os seus servidores MCP. A maioria aceita a mesma entrada: comando `uvx`, argumento `fontes`.
+guarda os seus servidores MCP. A maioria aceita a mesma entrada: comando `uvx`, argumento `fontes-mcp`.
 
 Se a aplicação não encontrar o `uvx`, utilize o caminho completo (em macOS e Linux, `which uvx`
 mostra-o).

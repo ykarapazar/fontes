@@ -108,7 +108,7 @@ Servers**, og tilføj den samme `mcpServers`-post som for LM Studio.
 `%APPDATA%\Claude\`).
 
 **Enhver anden MCP-app** (Windsurf og andre): dens egen dokumentation siger, hvor den gemmer
-sine MCP-servere. De fleste tager den samme post: kommandoen `uvx`, argumentet `fontes`.
+sine MCP-servere. De fleste tager den samme post: kommandoen `uvx`, argumentet `fontes-mcp`.
 
 Hvis appen ikke kan finde `uvx`, så brug den fulde sti (på macOS og Linux viser `which uvx` den).
 

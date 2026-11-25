@@ -109,7 +109,7 @@ amin'ny `claude_desktop_config.json` (macOS: `~/Library/Application Support/Clau
 
 **Rindranasa MCP hafa rehetra** (Windsurf sy ny hafa): ny antontan-taratasiny manokana no milaza ny toerana
 itahirizany ny mpizara MCP-ny. Mandray ny fidirana mitovy ny ankamaroany: baiko `uvx`, tohan-kevitra
-`fontes`.
+`fontes-mcp`.
 
 Raha tsy hitan'ilay rindranasa ny `uvx`, ampiasao ny lalany feno (amin'ny macOS sy Linux, asehon'ny
 `which uvx` izany).

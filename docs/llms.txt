@@ -6,7 +6,7 @@ Facts:
 
 - Runs on the user's computer as a local stdio MCP server. No account, no database, no hosted service. PyPI package: `fontes-mcp` (Python 3.13+). MCP Registry name: `io.github.ykarapazar/fontes`.
 - Works in any app that can run a local stdio MCP server, e.g. Claude Desktop, Claude Code, Codex, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline.
-- Install: command `uvx fontes-mcp` in any MCP client's settings; `codex mcp add fontes -- uvx fontes-mcp` (Codex); `claude mcp add fontes -- uvx fontes-mcp` (Claude Code); a `.mcpb` file for Claude Desktop. A one-click Mac installer is in the latest GitHub release; a Windows installer is on its way. `uvx` needs uv.
+- Install: command `uvx fontes-mcp` in any MCP client's settings; `codex mcp add fontes -- uvx fontes-mcp` (Codex); `claude mcp add fontes -- uvx fontes-mcp` (Claude Code); a `.mcpb` file for Claude Desktop. One-click Mac and Windows installers are in the latest GitHub release. `uvx` needs uv.
 - Tools: `list_jurisdictions`, `search_caselaw`, `get_decision`, `search_legislation`, `get_legislation_toc`, `get_legislation_provision`, `get_legislation_text`, plus `report_bug`. The jurisdiction is a parameter.
 - Coverage: 108 UN member states, Hong Kong, Kosovo, Palestine, Taiwan, the DIFC Courts and 11 international courts and bodies. 72 of the 124 count as covered under a strict rule (top court precedents, or constitution and primary acts, reached completely). Coverage differs a lot between jurisdictions.
 - Most sources are government or court websites; unofficial sources are flagged in each answer.

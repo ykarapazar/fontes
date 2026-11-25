@@ -106,7 +106,7 @@ Servers** ja lisää sama `mcpServers`-merkintä kuin LM Studiolle.
 `%APPDATA%\Claude\`).
 
 **Mikä tahansa muu MCP-sovellus** (Windsurf ja muut): sovelluksen oma dokumentaatio kertoo, minne se tallentaa MCP-palvelimensa.
-Useimmat käyttävät samaa merkintää: komento `uvx`, argumentit `fontes`.
+Useimmat käyttävät samaa merkintää: komento `uvx`, argumentit `fontes-mcp`.
 
 Jos sovellus ei löydä komentoa `uvx`, käytä sen koko polkua (macOS:ssä ja Linuxissa `which uvx` tulostaa sen).
 

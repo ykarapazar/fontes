@@ -108,7 +108,7 @@ Servers**, dan tambah entri `mcpServers` yang sama seperti untuk LM Studio.
 `%APPDATA%\Claude\`).
 
 **Mana-mana aplikasi MCP lain** (Windsurf dan lain-lain): dokumentasinya sendiri menyatakan di mana ia
-menyimpan pelayan MCP-nya. Kebanyakannya menerima entri yang sama: arahan `uvx`, argumen `fontes`.
+menyimpan pelayan MCP-nya. Kebanyakannya menerima entri yang sama: arahan `uvx`, argumen `fontes-mcp`.
 
 Jika aplikasi tidak dapat mencari `uvx`, gunakan laluan penuhnya (pada macOS dan Linux, `which uvx`
 memaparkannya).

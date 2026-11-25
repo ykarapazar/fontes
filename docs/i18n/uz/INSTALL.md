@@ -111,7 +111,7 @@ Windows: `%APPDATA%\Claude\`).
 
 **Boshqa har qanday MCP ilovasi** (Windsurf va boshqalar): uning oʻz hujjatlari MCP serverlarini
 qayerda saqlashini aytadi. Aksariyati xuddi shu yozuvni qabul qiladi: buyruq `uvx`, argument
-`fontes`.
+`fontes-mcp`.
 
 Agar ilova `uvx` ni topa olmasa, uning toʻliq yoʻlidan foydalaning (macOS va Linux’da uni
 `which uvx` chiqarib beradi).

@@ -108,7 +108,7 @@ Servers**'a tıklayın ve LM Studio'dakiyle aynı `mcpServers` girdisini ekleyin
 Windows: `%APPDATA%\Claude\`).
 
 **Diğer herhangi bir MCP uygulaması** (Windsurf ve diğerleri): MCP sunucularını nerede tuttuğunu
-kendi belgeleri söyler. Çoğu aynı girdiyi kabul eder: komut `uvx`, argüman `fontes`.
+kendi belgeleri söyler. Çoğu aynı girdiyi kabul eder: komut `uvx`, argüman `fontes-mcp`.
 
 Uygulama `uvx`'i bulamazsa tam yolunu kullanın (macOS ve Linux'ta `which uvx` bu yolu yazdırır).
 

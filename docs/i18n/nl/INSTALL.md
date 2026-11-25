@@ -108,7 +108,7 @@ mcp.json** en voeg toe:
 `~/Library/Application Support/Claude/`, Windows: `%APPDATA%\Claude\`).
 
 **Elke andere MCP-app** (Windsurf en andere): de eigen documentatie van de app vermeldt waar die
-zijn MCP-servers bewaart. De meeste gebruiken dezelfde vermelding: opdracht `uvx`, argument `fontes`.
+zijn MCP-servers bewaart. De meeste gebruiken dezelfde vermelding: opdracht `uvx`, argument `fontes-mcp`.
 
 Als de app `uvx` niet kan vinden, gebruik dan het volledige pad (op macOS en Linux toont `which uvx`
 het).

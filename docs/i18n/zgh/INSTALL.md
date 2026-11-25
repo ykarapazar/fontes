@@ -106,7 +106,7 @@ Servers**, ⵜⵔⵏⵓⴷ ⴰⵃⵔⵉⴼ `mcpServers` ⵏⵏⵉⵜ ⴰⵎⵎ �
 `%APPDATA%\Claude\`).
 
 **ⴽⵓ ⴰⵙⵏⵙ MCP ⵢⴰⴹⵏ** (Windsurf ⴷ ⵡⵉⵢⵢⴰⴹ): ⵜⵉⵎⵓⵔⵉⵡⵉⵏ (documentation) ⵏⵏⵙ ⴰⵢⴷ ⵉⵙⵙⵓⵖⵓⵍⵏ ⵎⴰⵏⵉ ⴳ ⵉⵃⴹⴰ
-ⵉⵎⵥⵍⴰ MCP ⵏⵏⵙ. ⵓⴳⴳⴰⵔⵏ ⵇⴱⵍⵏ ⴰⵃⵔⵉⴼ ⵏⵏⵉⵜ: ⵜⴰⵏⴹⴹⵉⵜ (command) `uvx`, ⴰⵙⵖⵜⵉ (argument) `fontes`.
+ⵉⵎⵥⵍⴰ MCP ⵏⵏⵙ. ⵓⴳⴳⴰⵔⵏ ⵇⴱⵍⵏ ⴰⵃⵔⵉⴼ ⵏⵏⵉⵜ: ⵜⴰⵏⴹⴹⵉⵜ (command) `uvx`, ⴰⵙⵖⵜⵉ (argument) `fontes-mcp`.
 
 ⵎⴽ ⵓⵔ ⵉⵣⵎⵉⵔ ⵓⵙⵏⵙ ⴰⴷ ⵢⴰⴼ `uvx`, ⵙⵎⵔⵙ ⴰⴱⵔⵉⴷ ⵏⵏⵙ ⵎⴰⵔⵔⴰ (ⴳ macOS ⴷ Linux, `which uvx` ⴰⵢⴷ ⵜ ⵉⵙⵎⴷⵢⴰⵏ).
 

@@ -107,7 +107,7 @@ Servers**, epi ajoute menm antre `mcpServers` la tankou pou LM Studio.
 `%APPDATA%\Claude\`).
 
 **Nenpòt lòt aplikasyon MCP** (Windsurf ak lòt): pwòp dokimantasyon li di ki kote li kenbe sèvè MCP li
-yo. Pifò pran menm antre a: kòmand `uvx`, agiman `fontes`.
+yo. Pifò pran menm antre a: kòmand `uvx`, agiman `fontes-mcp`.
 
 Si aplikasyon an pa jwenn `uvx`, sèvi ak chemen konplè a (sou macOS ak Linux, `which uvx` montre l).
 

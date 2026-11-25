@@ -105,7 +105,7 @@ claude mcp add fontes -- uvx fontes-mcp
 ውስጥ ያክሉ (macOS: `~/Library/Application Support/Claude/`፣ Windows: `%APPDATA%\Claude\`)።
 
 **ሌላ ማንኛውም የ MCP መተግበሪያ** (Windsurf እና ሌሎች): የ MCP አገልጋዮቹን የት እንደሚያስቀምጥ የራሱ ሰነድ (documentation)
-ይገልጻል። አብዛኞቹ ተመሳሳዩን ግቤት ይቀበላሉ፦ ትእዛዝ (command) `uvx`፣ ነጋሪ እሴት (argument) `fontes`።
+ይገልጻል። አብዛኞቹ ተመሳሳዩን ግቤት ይቀበላሉ፦ ትእዛዝ (command) `uvx`፣ ነጋሪ እሴት (argument) `fontes-mcp`።
 
 መተግበሪያው `uvx` ን ማግኘት ካልቻለ፣ ሙሉ ዱካውን (path) ይጠቀሙ (በ macOS እና በ Linux ላይ `which uvx` ያሳየዋል)።
 

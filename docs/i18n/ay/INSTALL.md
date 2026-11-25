@@ -110,7 +110,7 @@ Windows: `%APPDATA%\Claude\`).
 
 **Kuna yaqha MCP aplicacionasa** (Windsurf, yaqhanakasa): pachpa documentacionapaw kawkins
 MCP servidoranakap imaski uk siwa. Jilpachax pachpa qillqat katuqi: comando `uvx`,
-argumento `fontes`.
+argumento `fontes-mcp`.
 
 Aplicacionax `uvx` jan jikxatkchixa, taqpach thakip apnaqam (macOS, Linux ukana, `which uvx`
 ukax uñacht'ayi).

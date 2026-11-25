@@ -108,7 +108,7 @@ mcp.json** y añada:
 `%APPDATA%\Claude\`).
 
 **Cualquier otra aplicación MCP** (Windsurf y otras): su propia documentación indica dónde guarda sus
-servidores MCP. La mayoría aceptan la misma entrada: comando `uvx`, argumento `fontes`.
+servidores MCP. La mayoría aceptan la misma entrada: comando `uvx`, argumento `fontes-mcp`.
 
 Si la aplicación no encuentra `uvx`, use su ruta completa (en macOS y Linux, `which uvx` la muestra).
 
