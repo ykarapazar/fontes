@@ -1,7 +1,7 @@
 {
   "name": "fontes",
   "displayName": "Fontes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original.",
   "author": {
     "name": "Yüce Karapazar",

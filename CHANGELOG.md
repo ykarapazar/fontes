@@ -2,6 +2,22 @@
 
 Plain-language notes for each release. Newest first.
 
+## 0.1.2 (2026-11-25)
+
+**Fixed**
+
+- Legislation search showed no id for hits without a table of contents, so they could not be
+  opened: every Afghan law, Romanian laws other than the Constitution, and scanned Cabo Verde
+  laws. These hits now show a `get_legislation_text` line with the id.
+- Afghanistan: Official Gazettes whose PDF has no readable text (old fonts or scans, mostly
+  before no. 1410) now return the law's record and where to read the PDF, instead of an error.
+- Windows installer: the privacy notice now opens in your language, as on the Mac.
+
+**Changed**
+
+- Marked as beta on PyPI (was alpha), matching the rest of the project.
+- Depends on plain `mcp` instead of `mcp[cli]`, so fewer packages are installed.
+
 ## 0.1.1 (2026-11-18)
 
 **Fixed**
