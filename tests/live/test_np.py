@@ -27,5 +27,5 @@ async def test_np_decision_number_filter_and_id_variants():
 async def test_np_case_number_and_not_found():
     d = await server.get_decision("np", "10605", max_chars=1500)
     assert "- Case number: ०७९-CI-०४४३" in d and "संयुक्त इजलास" in d
-    assert "No NKP document" in await server.get_decision("np", "99999999")
-    assert "Bad request" in await server.get_decision("np", "Basnet v Basnet")
+    assert (await server.get_decision("np", "99999999")).startswith("Not found (np)")
+    assert (await server.get_decision("np", "Basnet v Basnet")).startswith("Bad request (np)")

@@ -21,6 +21,6 @@ async def test_gt_joined_cases_link_with_encoded_space():
 async def test_gt_bad_and_missing_ids():
     assert (await server.get_decision("gt", "3670-2022")).startswith("Bad request (gt)")
     missing = await server.get_decision("gt", "1.1-1900")
-    assert "not found" in missing.lower()
+    assert missing.startswith("Not found (gt)")
     nosearch = await server.search_caselaw("gt", "amparo")
     assert "not supported" in nosearch

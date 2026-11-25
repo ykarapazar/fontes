@@ -18,6 +18,6 @@ async def test_pk_decision_by_url_with_metadata():
 
 
 async def test_pk_bad_input():
-    assert "at least 5 letters" in await server.search_caselaw("pk", "x", filters={"parties": "ab"})
+    assert "Bad request" in await server.search_caselaw("pk", "x", filters={"parties": "ab"})
     assert "Bad request" in await server.get_decision("pk", "../etc/passwd")
-    assert "reported must be" in await server.search_caselaw("pk", "bail", filters={"reported": "x"})
+    assert "Bad request" in await server.search_caselaw("pk", "bail", filters={"reported": "x"})

@@ -25,4 +25,4 @@ async def test_echr_appno_search_and_language_filter():
     out = await server.search_caselaw("echr", "47143/06", limit=5, filters={"language": "FRE"})
     assert "ZAKHAROV" in out and "001-159324" not in out   # 001-159324 is the English text
     bad = await server.get_decision("echr", "not an id")
-    assert "itemid" in bad
+    assert "Bad request" in bad

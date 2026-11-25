@@ -10,7 +10,7 @@ async def test_wto_filters_and_number_search():
     exact = await server.search_caselaw("wto", "WT/DS600", limit=5)
     assert "DS600" in exact and "Palm Oil" in exact
     bad = await server.search_caselaw("wto", "x", filters={"adopted": "maybe"})
-    assert "true or false" in bad
+    assert "Bad request" in bad and "adopted" in bad
 
 
 async def test_wto_decision_summary_and_metadata():
@@ -25,6 +25,6 @@ async def test_wto_id_variants_and_unknown():
     out = await server.get_decision("wto", "2", max_chars=4000)
     assert "Gasoline" in out and "Venezuela" in out
     missing = await server.get_decision("wto", "DS9999")
-    assert "no dispute" in missing.lower()
+    assert "Not found" in missing and "DS9999" in missing
     bad = await server.get_decision("wto", "ARB/10/7")
-    assert "DS600" in bad
+    assert "Bad request" in bad

@@ -46,9 +46,9 @@ async def test_in_bad_inputs():
     assert (await server.get_legislation_provision("in", ICA, "9999")).startswith("Not found (in)")
 
 
-async def test_in_sc_search_needs_year_and_finds_by_party():
+async def test_in_sc_search_default_years_and_finds_by_party():
     out = await server.search_caselaw("in", "Kesavananda Bharati", limit=3)
-    assert out.startswith("Bad request (in)") and "year" in out
+    assert "No year given" in out and "S_1973_1_1_1002" not in out
     out = await server.search_caselaw("in", "Kesavananda Bharati", limit=3, filters={"year": "1973"})
     assert "KESAVANANDA BHARATI" in out and "S_1973_1_1_1002" in out
 

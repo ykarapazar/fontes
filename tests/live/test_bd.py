@@ -15,7 +15,7 @@ async def test_bd_legislation_search_modes():
 async def test_bd_provision_label_variants_and_footnotes():
     for label in ("19A", "s. 19A", "section 19a"):
         out = await server.get_legislation_provision("bd", "act-26.html", label)
-        assert "19A. When consent to an agreement is caused by undue influence" in out, out
+        assert "19A." in out and "undue influence" in out.lower(), out
     assert "Indian Contract (Amendment) Act, 1899" in out          # footnote kept
     rep = await server.get_legislation_provision("bd", "26", "80")  # inside '76-123. [Repealed]'
     assert "Sale of Goods Act, 1930" in rep

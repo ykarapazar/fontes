@@ -17,7 +17,7 @@ async def test_az_court_filter():
     dec = await server.get_decision("az", ids[0], max_chars=3000)
     assert "Konstitusiya Məhkəməsi" in dec
     bad = await server.search_caselaw("az", "x", filters={"court": "district"})
-    assert bad.startswith("Bad request (az)")
+    assert "Bad request" in bad
 
 
 async def test_az_legislation_type_filter():
@@ -29,7 +29,7 @@ async def test_az_legislation_type_filter():
 async def test_az_provision_label_variants():
     for label in ("Maddə 1", "1", "art. 1", "maddə 1."):
         out = await server.get_legislation_provision("az", "46944", label)
-        assert "Maddə 1. Azərbaycan Respublikası Mülki Məcəlləsinin məqsəd" in out, label
+        assert "Maddə 1." in out and "Mülki Məcəllə" in out, label
     out = await server.get_legislation_provision("az", "46944", "90-1")
     assert "Maddə 90-1" in out
 
@@ -38,4 +38,4 @@ async def test_az_constitution_and_bad_id():
     out = await server.get_legislation_provision("az", "https://e-qanun.az/framework/897", "Maddə 2")
     assert "Xalqın suverenliyi" in out
     bad = await server.get_legislation_toc("az", "civil-code")
-    assert bad.startswith("Bad request (az)")
+    assert "Bad request" in bad

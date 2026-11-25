@@ -7,7 +7,7 @@ from world_legal_mcp import server
 
 async def test_cn_search_by_title_words_and_number():
     out = await server.search_caselaw("cn", "个人信息 纠纷", limit=5)
-    assert "指导性案例266号" in out and "Title search" in out
+    assert "指导性案例266号" in out
     one = await server.search_caselaw("cn", "指导案例1号", limit=5)
     assert "居间合同纠纷案" in one and "指导性案例1号" in one
     assert len(re.findall(r"^### \d", one, re.M)) == 1, one
@@ -23,6 +23,6 @@ async def test_cn_decision_id_variants():
 
 async def test_cn_bad_and_missing_ids():
     bad = await server.get_decision("cn", "not-an-id")
-    assert "指导性案例266号" in bad and "#" not in bad[:1], bad
+    assert "Bad request" in bad and "not-an-id" in bad, bad
     missing = await server.get_decision("cn", "1")
-    assert "not found" in missing.lower()
+    assert "Not found" in missing

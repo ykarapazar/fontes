@@ -11,9 +11,9 @@ async def test_lb_electoral_list_and_filters():
     ids = re.findall(r"electoral/\d+/(\d{4})", out)
     assert ids and set(ids) <= {"2022", "2023"}, out
     bad = await server.search_caselaw("lb", "x", filters={"type": "supreme"})
-    assert "constitutional" in bad and "electoral" in bad
+    assert "Bad request" in bad
     bad = await server.search_caselaw("lb", "x", filters={"election_year": "2022"})
-    assert "type=electoral" in bad
+    assert "Bad request" in bad
 
 
 async def test_lb_decision_round_trip_and_bad_id():
@@ -33,4 +33,4 @@ async def test_lb_provision_label_variants():
         out = await server.get_legislation_provision("lb", "constitution/en", prov)
         assert "Article 19" in out and "Constitutional Council" in out, out[:600]
     pre = await server.get_legislation_provision("lb", "constitution", "فقرة (ب)")
-    assert "عربي الهوية" in pre or "عربي" in pre, pre[:600]
+    assert "عربي" in pre, pre[:600]

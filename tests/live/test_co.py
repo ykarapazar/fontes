@@ -27,7 +27,7 @@ async def test_co_filters_and_exact_number():
 
 async def test_co_unknown_sentencia():
     out = await server.get_decision("co", "T-999/24")
-    assert "Not found" in out or "not found" in out.lower()
+    assert out.startswith("Not found (co)")
 
 
 # --- Legislation: Función Pública Gestor Normativo (terms need written consent: WLM_PERMITTED=co) ---
@@ -38,7 +38,7 @@ needs_permission = pytest.mark.skipif("co" not in permitted_codes(),
 async def test_co_legislation_off_without_permission(monkeypatch):
     monkeypatch.delenv("WLM_PERMITTED", raising=False)
     out = await server.search_legislation("co", "Ley 1437 de 2011")
-    assert out.startswith("Off by default (co)") and "WLM_PERMITTED=co" in out
+    assert out.startswith("Off by default (co)") and "WLM_PERMITTED" in out
 
 
 @needs_permission

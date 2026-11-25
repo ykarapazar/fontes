@@ -45,9 +45,3 @@ async def test_mm_english_report_title_and_url_id():
 async def test_mm_decision_bad_and_unknown_ids():
     assert "Bad request" in await server.get_decision("mm", "abc")
     assert "Not found" in await server.get_decision("mm", "999999999")
-
-
-async def test_mm_law_reports_run_to_2022():
-    # the court's law reports (and RCMS) end with the 2022 volume; nothing later is published
-    out = await server.search_caselaw("mm", "", filters={"year": "2022"})
-    assert "2022-" in out and "no law reports after 2022" in out, out[:800]

@@ -25,4 +25,4 @@ async def test_lv_bad_filter_and_unknown_ecli():
     bad = await server.search_caselaw("lv", "īres līgums", filters={"process_type": "tax"})
     assert bad.startswith("Bad request (lv)")
     out = await server.get_decision("lv", "ECLI:LV:AT:2020:0101.X00000000.1.S")
-    assert "not found" in out.lower() or "no anonymised decision" in out.lower()
+    assert "Not found" in out

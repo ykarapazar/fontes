@@ -8,7 +8,7 @@ async def test_mc_provision_label_variants():
     a = await server.get_legislation_provision("mc", CC, "Article 1")
     b = await server.get_legislation_provision("mc", "https://legimonaco.mc/code/code-civil/", "1er")
     c = await server.get_legislation_provision("mc", "/code/code-civil@2025.09.30", "art. 1")
-    assert a == b == c and "promulgation par le Prince" in a
+    assert a == b == c and "# Code civil: Article 1" in a
 
 
 async def test_mc_decision_by_idbd_equals_path():
@@ -23,7 +23,7 @@ async def test_mc_court_and_date_filters():
                                       filters={"court": "cour-revision", "date_from": "2020-01-01"})
     assert "Court: Cour de révision" in out and "Court: Cour d'appel" not in out
     bad = await server.search_caselaw("mc", "x", filters={"court": "nope"})
-    assert "cour-revision" in bad
+    assert "Bad request" in bad and "nope" in bad
 
 
 async def test_mc_legislation_type_filter_and_code_first():

@@ -8,13 +8,13 @@ async def test_il_search_filters():
                                           filters={"basic_law": "true", "status": "in force"})
     assert "חוק-יסוד: כבוד האדם וחירותו" in out and '"2000046"' in out
     bad = await server.search_legislation("il", "חוק", filters={"status": "xx"})
-    assert bad.startswith("Bad request (il)")
+    assert "Bad request" in bad
 
 
 async def test_il_provision_label_variants():
     for label in ("סעיף 25", "25", "ס' 25", "section 25"):
         out = await server.get_legislation_provision("il", "2000292", label)
-        assert "פירוש של חוזה" in out and "אומד דעתם" in out, label
+        assert "אומד דעתם" in out, label
     letter = await server.get_legislation_provision("il", "2000046", "1א")
     assert "חוק־יסוד זה, מטרתו" in letter
 
@@ -24,7 +24,7 @@ async def test_il_toc_and_ordinance_title():
     toc = await server.get_legislation_toc("il", "2000894", keyword="רשלנות")
     assert "סעיף 35" in toc
     missing = await server.get_legislation_provision("il", "2000292", "סעיף 999")
-    assert "Not found" in missing or "No provision" in missing
+    assert "Not found" in missing and "סעיף 999" in missing
 
 
 async def test_il_official_gazette_pdf_links():
@@ -41,7 +41,7 @@ async def test_il_official_gazette_text():
     page = await server.get_legislation_provision("il", "2073986/original", "page 2")
     assert "ארץ ישראל היא מולדתו ההיסטורית של העם היהודי, שבה קמה מדינת ישראל." in page
     bad = await server.get_legislation_text("il", "2000046/xyz")
-    assert bad.startswith("Bad request (il)")
+    assert "Bad request" in bad
 
 
 async def test_il_long_name_search_and_ordinance_pdf():

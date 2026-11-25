@@ -16,8 +16,8 @@ async def test_ma_caselaw_search_institutions_and_ids():
                                     max_chars=3000)
     assert "- Identifier: 1199" in out and "21/1963" in out and "1963-06-11" in out, out
     assert "الغرفة الدستورية" in out
-    assert "no decision with id" in await server.get_decision("ma", "999999")
-    assert "numeric id" in await server.get_decision("ma", "قرار 210/23")
+    assert "Not found" in await server.get_decision("ma", "999999")
+    assert "Bad request" in await server.get_decision("ma", "قرار 210/23")
 
 
 async def test_ma_legislation_filters():
@@ -27,7 +27,7 @@ async def test_ma_legislation_filters():
                                           filters={"year_from": "2003", "year_to": "2004"})
     dates = re.findall(r"- Date: (\d{4})", out)
     assert dates and set(dates) <= {"2003", "2004"}, out
-    assert "YYYY" in await server.search_legislation("ma", "الشغل", filters={"year_from": "03"})
+    assert "Bad request" in await server.search_legislation("ma", "الشغل", filters={"year_from": "03"})
 
 
 async def test_ma_provision_label_variants():

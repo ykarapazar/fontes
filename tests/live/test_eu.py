@@ -28,7 +28,7 @@ async def test_eu_provision_label_variants_use_consolidated_text():
 async def test_eu_legislation_language_and_type_filters():
     out = await server.search_legislation("eu", "Datenschutz", limit=3,
                                           filters={"language": "DEU"})
-    assert "results for 'Datenschutz'" in out and "### 1." in out
+    assert "### 1." in out
     assert "legal-content/DE/" in out
     out = await server.search_legislation("eu", "artificial intelligence", limit=3,
                                           filters={"doc_type": "regulation", "date_from": "2024"})

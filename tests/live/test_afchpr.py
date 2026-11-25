@@ -10,9 +10,9 @@ async def test_afchpr_filters_and_application_number():
     exact = await server.search_caselaw("afchpr", "Application No. 4/2013", limit=5)
     assert "004/2013" in exact and "Konat" in exact
     bad = await server.search_caselaw("afchpr", "x", filters={"status": "open"})
-    assert "pending, finalised" in bad
+    assert "Bad request" in bad
     unknown = await server.search_caselaw("afchpr", "x", filters={"respondent": "Atlantis"})
-    assert "Unknown respondent" in unknown
+    assert "Bad request" in unknown and "Atlantis" in unknown
 
 
 async def test_afchpr_case_record_lists_documents():
@@ -28,7 +28,7 @@ async def test_afchpr_judgment_text_from_pdf():
     missing = await server.get_decision("afchpr", "004/2013#1")
     assert "004/2013#2034" in missing          # NotFound lists what is available
     unknown = await server.get_decision("afchpr", "999/2099")
-    assert "no application" in unknown.lower()
+    assert "Not found" in unknown and "999/2099" in unknown
 
 
 async def test_afchpr_advisory_opinions():

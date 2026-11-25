@@ -16,14 +16,14 @@ async def test_cv_stj_section_and_year_filters():
     assert "Supremo Tribunal de Justiça, 2ª Secção Criminal" in hits and "-2025" in hits, hits[:1500]
     assert "Tribunal Constitucional" not in hits.split("STJ:")[0], hits[:1500]
     bad = await server.search_caselaw("cv", "x", filters={"section": "penal"})
-    assert "section must be" in bad, bad
+    assert "Bad request" in bad, bad
 
 
 async def test_cv_bad_ids_never_fetch():
-    assert "Give a decision id" in await server.get_decision("cv", "../../wp-admin")
-    assert "Use a law id" in await server.get_legislation_text("cv", "Código Civil")
+    assert "Bad request" in await server.get_decision("cv", "../../wp-admin")
+    assert "Bad request" in await server.get_legislation_text("cv", "Código Civil")
     out = await server.get_decision("cv", "2099/01/Not-Listed.pdf")
-    assert "not listed" in out, out
+    assert "Not found" in out, out
 
 
 async def test_cv_civil_code_provision_labels():

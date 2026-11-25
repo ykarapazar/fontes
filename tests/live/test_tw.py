@@ -16,7 +16,7 @@ async def test_tw_law_id_variants_and_criminal_code():
     out = await server.get_legislation_provision("tw", url, "271")
     assert "中華民國刑法" in out and "殺人者" in out
     bad = await server.get_legislation_toc("tw", "Z9999999")
-    assert "no law with pcode" in bad
+    assert "Not found" in bad and "Z9999999" in bad
 
 
 async def test_tw_case_number_search_and_old_format_decision():

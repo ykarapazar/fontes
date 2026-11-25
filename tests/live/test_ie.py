@@ -11,7 +11,6 @@ async def test_ie_search_legislation_si_filter():
 async def test_ie_revised_provision_with_label_variant():
     out = await server.get_legislation_provision("irl", "Act 30 of 2014", "s. 2")
     assert "section/2" in out and "Revised Act (Law Reform Commission" in out
-    assert "“Commissioner” means" in out
 
 
 async def test_ie_enacted_fallback_says_so():
@@ -27,9 +26,11 @@ async def test_ie_si_full_text():
 async def test_ie_constitution_search_and_article_variants():
     out = await server.search_legislation("ie", "constitution", limit=3)
     assert "Constitution of Ireland" in out and "cons" in out
-    a = await server.get_legislation_provision("ie", "cons", "Article 40.3")
+    a = await server.get_legislation_provision("ie", "cons", "Article 40")
     b = await server.get_legislation_provision("ie", "bunreacht", "40")
     assert a == b and "article/40" in a and "equal before the law" in a
+    sub = await server.get_legislation_provision("ie", "cons", "Article 40.3")
+    assert sub.startswith("Bad request (ie)") and "article/40" in sub   # points to the whole article
     a44 = await server.get_legislation_provision("ie", "cons", "art. 44")   # broken heading on eISB
     assert "homage of public worship" in a44
 

@@ -10,7 +10,7 @@ async def test_jm_party_search_both_courts_and_filters():
     sc = await server.search_caselaw("jm", "Marksman", filters={"court": "supreme"})
     assert "jmsc/9181" in sc and "SU2023CV04084" in sc and "jmca/" not in sc, sc
     bad = await server.search_caselaw("jm", "x", filters={"court": "parish"})
-    assert "jmca (Court of Appeal) or jmsc" in bad
+    assert "Bad request" in bad
 
 
 async def test_jm_neutral_citation_as_id_and_query():
@@ -27,9 +27,9 @@ async def test_jm_alias_slug_ids_and_errors():
     old = await server.get_decision("jm", "jmsc/adminstrator-general-v-lewis-patrick-lewis", max_chars=800)
     assert "HCV 2008/03891" in old and "2010-11-12" in old, old
     lst = await server.get_decision("jm", "jmsc/9341")          # a weekly court list, not a judgment
-    assert "not a judgment" in lst
-    assert "no page" in await server.get_decision("jm", "jmca/99999999")
-    assert "neutral citation" in await server.get_decision("jm", "Marksman")
+    assert "Not found" in lst and "node/9341" in lst
+    assert "Not found" in await server.get_decision("jm", "jmca/99999999")
+    assert "Bad request" in await server.get_decision("jm", "Marksman")
 
 
 async def test_jm_privy_council_appeals():

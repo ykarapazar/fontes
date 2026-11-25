@@ -15,7 +15,7 @@ async def test_no_filters_and_bad_filter():
                                                                   "area": "straff"})
     assert "Høyesterett" in out and "ankeutvalg" not in out and "HR-2025-" in out
     bad = await server.search_caselaw("no", "x", filters={"court": "lagmannsrett"})
-    assert bad.startswith("Bad request (no)")
+    assert "Bad request" in bad
 
 
 async def test_no_hr_number_url_and_summary_only_flag():
@@ -28,4 +28,4 @@ async def test_no_hr_number_url_and_summary_only_flag():
 
 async def test_no_unknown_id():
     out = await server.get_decision("no", "HR-2026-999999-A")
-    assert "not found" in out.lower()
+    assert "Not found" in out and "HR-2026-999999-A" in out

@@ -12,7 +12,7 @@ async def test_mt_search_title_chapter_language_and_bad_filter():
     out = await server.search_legislation("mt", "Impiegi", limit=20, filters={"language": "mt"})
     assert '"cap/452/mlt"' in out and "Kap. 452" in out
     bad = await server.search_legislation("mt", "civil code", filters={"language": "fr"})
-    assert bad.startswith("Bad request (mt)")
+    assert "Bad request" in bad
 
 
 async def test_mt_id_variants_and_bad_id():
@@ -22,9 +22,9 @@ async def test_mt_id_variants_and_bad_id():
                                          keyword="probation")
     assert a == b == c
     bad = await server.get_legislation_toc("mt", "civil code")
-    assert bad.startswith("Bad request (mt)")
+    assert "Bad request" in bad
     missing = await server.get_legislation_text("mt", "cap/999999")
-    assert "not found" in missing.lower()
+    assert "Not found" in missing
 
 
 async def test_mt_provision_labels_marginal_heading_and_maltese():
@@ -32,8 +32,8 @@ async def test_mt_provision_labels_marginal_heading_and_maltese():
     b = await server.get_legislation_provision("mt", "cap/452", "art. 36")
     c = await server.get_legislation_provision("mt", "cap/452", "Article 36")
     assert a == b == c
-    assert "### 36. Notice of and compensation for termination" in a and "probationary period" in a
+    assert "### 36." in a and "probationary period" in a
     mt = await server.get_legislation_provision("mt", "cap/452/mlt", "1")
     assert "Titolu fil-qosor" in mt and "Att dwar l-Impiegi" in mt
     none = await server.get_legislation_provision("mt", "cap/452", "999")
-    assert "not found" in none.lower()
+    assert "Not found" in none

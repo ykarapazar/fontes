@@ -27,4 +27,4 @@ async def test_cm_type_filter_and_scans():
     assert "Ordonnance" in out and "Décret" not in out, out[:800]
     scan = await server.get_legislation_text("cm", "8245")      # Loi 2026/003: image-only PDF
     assert "scanned image" in scan, scan[:600]
-    assert "article number" in await server.get_legislation_text("cm", "../x")
+    assert "Bad request" in await server.get_legislation_text("cm", "../x")

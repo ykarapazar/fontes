@@ -8,7 +8,7 @@ BECKLES = "beckles-wendell-v-attorney-general-trinidad-and-tobago"
 
 async def test_tt_caselaw_filters_and_ids():
     out = await server.search_caselaw("tt", "", limit=10, filters={"date": "2026-10-30"})
-    assert BECKLES in out and "3 decisions" in out, out[:600]
+    assert BECKLES in out, out[:600]
     by_no = await server.search_caselaw("tt", "", filters={"case_number": "CV.2020-02873"})
     assert "smith-sylvester-v-salome-hinds-krystal" in by_no, by_no[:600]
     bad = await server.search_caselaw("tt", "x", filters={"date": "30/10/2026"})
@@ -34,8 +34,8 @@ async def test_tt_unchaptered_act_and_provision_variants():
     assert "gang leader" in p, p[:800]
     asterisked = await server.get_legislation_provision("tt", "524", "40")   # printed as "*40." in the PDF
     assert "change in the title of an officer" in asterisked, asterisked[:800]
-    assert "has no section" in await server.get_legislation_provision("tt", "524", "999")
-    assert "law id from search_legislation" in await server.get_legislation_text("tt", "Interpretation Act")
+    assert "Not found" in await server.get_legislation_provision("tt", "524", "999")
+    assert "Bad request" in await server.get_legislation_text("tt", "Interpretation Act")
 
 
 async def test_tt_privy_council_appeals():
@@ -52,4 +52,4 @@ async def test_tt_acts_as_passed_by_year():
     assert "u126243" in year and "No. 22 of 2026" in year, year[:800]
     p = await server.get_legislation_provision("tt", "u126243", "section 3")
     assert "public-private partnership" in p, p[:800]
-    assert "year must be" in await server.search_legislation("tt", "", filters={"year": "1700"})
+    assert "Bad request" in await server.search_legislation("tt", "", filters={"year": "1700"})

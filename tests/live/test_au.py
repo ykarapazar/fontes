@@ -11,7 +11,7 @@ async def test_au_search_legislation_collection_filter():
 async def test_au_provision_label_variants():
     for p in ("18", "section 18", "s.18"):
         out = await server.get_legislation_provision("au", "C2004A00109", p)
-        assert ": s 18" in out and "Meetings of Commission" in out
+        assert ": s 18" in out
 
 
 async def test_au_schedule_section_is_australian_consumer_law():

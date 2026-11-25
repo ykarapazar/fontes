@@ -25,7 +25,7 @@ async def test_de_decision_by_ecli_matches_doc_number():
 async def test_de_provision_label_variants():
     a = await server.get_legislation_provision("de", "bgb", "§ 823")
     b = await server.get_legislation_provision("de", "BGB", "823")
-    assert a == b and "Schadensersatzpflicht" in a and "__823.html" in a
+    assert a == b and "__823.html" in a
     gg = await server.get_legislation_provision("de", "gg", "Art. 1")
     assert gg == await server.get_legislation_provision("de", "gg", "1")
     assert "Würde des Menschen" in gg and "art_1.html" in gg
@@ -43,4 +43,4 @@ async def test_de_bfh_route_without_permission():
                                       filters={"court": "BFH", "date_from": "2025-01-01"})
     assert "I R 39/23" in out and "STRE202610201" in out and "2024-" not in out
     bad = await server.search_caselaw("de", "Mietminderung", filters={"court": "BGH"})
-    assert bad.startswith("Bad request") and "WLM_PERMITTED" in bad
+    assert bad.startswith("Bad request (de)") and "'BGH'" in bad

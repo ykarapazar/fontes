@@ -38,7 +38,7 @@ async def test_lu_cassation_lists_by_case_number_and_opens_one_pdf():
 
 async def test_lu_cassation_text_search_needs_a_narrow_set():
     wide = await server.search_caselaw("lu", "responsabilité", filters={"year": "2023"})
-    assert "narrow with date_from/date_to" in wide
+    assert "INCOMPLETE" in wide and "repeat the same search with date_to=" in wide
     narrow = await server.search_caselaw(
         "lu", "cassation", filters={"date_from": "2023-01-12", "date_to": "2023-01-12"})
     assert "Text searched in" in narrow and "CAS-2022-00031" in narrow

@@ -18,7 +18,7 @@ async def test_nl_search_caselaw_page2_and_bad_filter():
     p2 = await server.search_caselaw("nl", "huurrecht ontbinding", limit=3, page=2)
     assert "### 4." in p2 and p1 != p2
     bad = await server.search_caselaw("nl", "huur", filters={"period": "eeuw"})
-    assert bad.startswith("Bad request (nl)") and "dit_jaar" in bad
+    assert bad.startswith("Bad request (nl)") and "eeuw" in bad
 
 
 async def test_nl_get_decision():
@@ -27,10 +27,6 @@ async def test_nl_get_decision():
     assert "- Identifier: ECLI:NL:RBAMS:2023:3197" in out and "## Text" in out
     assert "- Source: https://" in out
 
-
-async def test_nl_search_legislation():
-    out = await server.search_legislation("nl", "grondwet", limit=5)
-    assert 'get_legislation_toc("nl", "BWBR0001840")' in out
 
 
 async def test_nl_get_legislation_provision_bw_labels():

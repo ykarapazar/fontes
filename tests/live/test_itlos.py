@@ -10,7 +10,7 @@ async def test_itlos_search_by_number_title_and_type():
     pr = await server.search_caselaw("itlos", "", limit=50, filters={"type": "prompt_release"})
     assert "Camouco" in pr and "Advisory Opinion" not in pr
     bad = await server.search_caselaw("itlos", "x", filters={"type": "merits"})
-    assert "prompt_release" in bad
+    assert "Bad request" in bad
 
 
 async def test_itlos_case_record_lists_decisions_with_links():
@@ -24,6 +24,6 @@ async def test_itlos_case_record_lists_decisions_with_links():
 
 async def test_itlos_bad_and_unknown_ids():
     missing = await server.get_decision("itlos", "999")
-    assert "no case 999" in missing.lower()
+    assert "Not found" in missing and "999" in missing
     doc = await server.get_decision("itlos", "31#C31_Adv_Op_21.05.2024_corr")
     assert "not reproduced" in doc

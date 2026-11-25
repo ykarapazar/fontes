@@ -8,7 +8,7 @@ async def test_ph_caselaw_year_month_filter_and_url_id():
     out = await server.get_decision("ph", "https://lawphil.net/judjuris/juri2023/mar2023/gr_171746-48_2023.html",
                                     max_chars=3000)
     assert "CIRIACO" in out and "2023-03-29" in out and "Non-official" in out
-    assert "LawPhil decision id" in await server.get_decision("ph", "G.R. No. 171746")
+    assert "Bad request" in await server.get_decision("ph", "G.R. No. 171746")
 
 
 async def test_ph_statute_number_query_and_type_filter():
@@ -16,7 +16,7 @@ async def test_ph_statute_number_query_and_type_filter():
     assert '"ra_386_1949"' in out and "ra_10386" not in out, out
     out = await server.search_legislation("ph", "Labor Code", limit=5, filters={"type": "pd"})
     assert "Presidential Decree" in out, out
-    assert "type must be one of" in await server.search_legislation("ph", "x", filters={"type": "law"})
+    assert "Bad request" in await server.search_legislation("ph", "x", filters={"type": "law"})
 
 
 async def test_ph_provision_label_variants():

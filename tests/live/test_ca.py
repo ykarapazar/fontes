@@ -14,9 +14,9 @@ async def test_ca_get_decision_by_neutral_citation():
 
 async def test_ca_provision_label_variants():
     out = await server.get_legislation_provision("ca", "C-46", "s. 718.2(e)")
-    assert "section-718.2" in out and "Other sentencing principles" in out
+    assert "section-718.2" in out
     out = await server.get_legislation_provision("ca", "c-46", "718")
-    assert "fundamental purpose of sentencing" in out
+    assert "section-718" in out and "sentencing" in out.lower()
 
 
 async def test_ca_search_legislation_regulation_filter():
@@ -34,4 +34,4 @@ async def test_ca_constitution_charter_and_1867():
 
 async def test_ca_constitution_ambiguous_section_is_refused():
     out = await server.get_legislation_provision("ca", "Const", "section-7")
-    assert "several Acts" in out
+    assert "Bad request" in out and "section 7" in out

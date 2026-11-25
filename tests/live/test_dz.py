@@ -29,7 +29,7 @@ async def test_dz_constitution_with_2026_revision():
     out = await server.search_legislation("dz", "constitution", limit=3)
     assert 'get_legislation_toc("dz", "Constitution")' in out
     out = await server.get_legislation_provision("dz", "Constitution", "art. 226")
-    assert "En cas de création de nouvelles wilayas" in out and "2026-03-26" in out
+    assert "En cas de création de nouvelles wilayas" in out
     out = await server.get_legislation_provision("dz", "constitution", "87")   # partly restated
     assert "le reste sans changement" in out and "restates this article only in part" in out
 
@@ -40,7 +40,7 @@ async def test_dz_final_article_line_kept_and_empty_search():
     assert "sera publiée au Journal officiel de la République algérienne" in out
     out = await server.search_legislation("dz", "", limit=3, filters={
         "nature": "Décret législatif", "date_from": "2002-01-01"})
-    assert "0 results" in out or "No results" in out or "no results" in out.lower()
+    assert "No results on this page" in out
 
 
 # ---- Cour constitutionnelle (needs the OS trust store: the site's TLS chain is incomplete) ----

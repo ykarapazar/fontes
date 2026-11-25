@@ -33,4 +33,4 @@ async def test_is_pdf_decision_text():
 
 async def test_is_unknown_id():
     out = await server.get_decision("is", "g-00000000-0000-0000-0000-000000000000")
-    assert "not found" in out.lower() or "no island.is verdict" in out.lower()
+    assert "Not found" in out

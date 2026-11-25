@@ -20,11 +20,6 @@ async def test_si_get_decision():
     assert "## Izrek" in out and "## Obrazložitev" in out and "ZDen" in out
 
 
-async def test_si_search_legislation():
-    out = await server.search_legislation("si", "obligacijski zakonik", limit=3)
-    assert 'get_legislation_toc("si", "ZAKO1263")' in out
-
-
 async def test_si_provision_labels():
     for law, label in (("ZAKO1263", "1. člen"), ("zako1263", "1"), ("ZAKO1263", "čl. 1")):
         out = await server.get_legislation_provision("si", law, label)

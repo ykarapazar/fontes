@@ -5,7 +5,7 @@ from world_legal_mcp import server
 
 async def test_bt_constitution_articles():
     out = await server.get_legislation_provision("bt", "79", "art. 7")
-    assert out and "Article 7 – Fundamental Rights" in out and "freedom of speech" in out
+    assert "Article 7 – Fundamental Rights" in out and "freedom of speech" in out
     same = await server.get_legislation_provision(
         "bt", "https://legislation.gov.bt/legislations/view/79", "Article 7")
     assert same == out
@@ -26,4 +26,4 @@ async def test_bt_status_filter_and_bad_input():
     bad = await server.search_legislation("bt", "act", filters={"status": "maybe"})
     assert bad.startswith("Bad request (bt)")
     assert "Bad request" in await server.get_legislation_toc("bt", "../etc")
-    assert "No Act" in await server.get_legislation_toc("bt", "999999")
+    assert "Not found" in await server.get_legislation_toc("bt", "999999")

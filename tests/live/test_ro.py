@@ -13,8 +13,8 @@ async def test_ro_decision_by_id_and_url():
 
 
 async def test_ro_unknown_decision_and_bad_id():
-    assert "No ÎCCJ decision" in await server.get_decision("ro", "999999999")
-    assert "numeric ids" in await server.get_decision("ro", "ECLI:RO:x")
+    assert "Not found" in await server.get_decision("ro", "999999999")
+    assert "Bad request" in await server.get_decision("ro", "ECLI:RO:x")
 
 
 async def test_ro_civil_code_by_number_year_type():
@@ -26,7 +26,7 @@ async def test_ro_civil_code_by_number_year_type():
 
 async def test_ro_bad_type_filter():
     out = await server.search_legislation("ro", "codul civil", filters={"type": "statute"})
-    assert "type must be one of" in out
+    assert "Bad request" in out
 
 
 async def test_ro_constitution_text_and_label_variants():
@@ -35,5 +35,5 @@ async def test_ro_constitution_text_and_label_variants():
     for p in ("Articolul 21", "21", "art. 21"):
         prov = await server.get_legislation_provision("ro", "15346", p)
         assert "Accesul liber la justiţie" in prov and "termen rezonabil" in prov
-    assert "not in the Constitution" in await server.get_legislation_provision("ro", "15346", "999")
-    assert "only the Constitution" in await server.get_legislation_provision("ro", "90254", "1")
+    assert "Not found" in await server.get_legislation_provision("ro", "15346", "999")
+    assert "Not found" in await server.get_legislation_provision("ro", "90254", "1")

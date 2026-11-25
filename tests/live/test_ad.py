@@ -8,7 +8,7 @@ async def test_ad_decision_by_nid_equals_path():
     b = await server.get_decision("ad", "https://www.tribunalconstitucional.ad/sentencia/2026-32-re")
     assert a == b and "2026-32-RE" in a and "Sentència" in a
     bad = await server.get_decision("ad", "../../etc")
-    assert "numeric id" in bad
+    assert "Bad request" in bad
 
 
 async def test_ad_doc_type_and_date_filters():
@@ -16,7 +16,7 @@ async def test_ad_doc_type_and_date_filters():
                                       filters={"doc_type": "aute", "date_from": "2025-01-01"})
     assert "Aute" in out and "Sentència" not in out
     bad = await server.search_caselaw("ad", "x", filters={"process": "nope"})
-    assert "empara" in bad
+    assert "Bad request" in bad
 
 
 async def test_ad_provision_label_variants():

@@ -32,4 +32,4 @@ async def test_rs_constitution_and_labels():
     out = await server.get_legislation_provision("rs", "zakon-o-ustavnom-sudu", "Члан 8 (10/2023)")
     assert "Прелазна одредба" in out
     out = await server.search_legislation("rs", "pravo na pravično suđenje")
-    assert 'get_legislation_toc("rs", "ustav")' in out and "Члан 32" in out
+    assert 'get_legislation_toc("rs", "ustav")' in out

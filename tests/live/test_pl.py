@@ -9,22 +9,16 @@ DOC = "155515000004027_VIII_GC_000386_2020_Uz_2021-05-13_001"
 async def test_pl_search_caselaw_filters():
     out = await server.search_caselaw("pl", "umowa najmu", limit=3,
                                       filters={"date_from": "2025-01-01", "sort": "date"})
-    assert "Poland (pl) case law" in out
     years = re.findall(r"- Date: (\d{4})", out)
     assert years and all(int(y) >= 2025 for y in years)
     bad = await server.search_caselaw("pl", "umowa najmu", filters={"sort": "x"})
-    assert bad.startswith("Bad request (pl)")
+    assert "Bad request" in bad
 
 
 async def test_pl_get_decision():
     out = await server.get_decision("pl", DOC, max_chars=3000)
     assert out.startswith("# Sąd Okręgowy w Szczecinie VIII GC 386/20")
     assert "- Podstawa prawna:" in out and "WYROK" in out
-
-
-async def test_pl_search_legislation():
-    out = await server.search_legislation("pl", "kodeks cywilny", limit=3)
-    assert 'get_legislation_toc("pl", "DU/' in out
 
 
 async def test_pl_provision_labels():

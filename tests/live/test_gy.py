@@ -10,8 +10,8 @@ async def test_gy_search_and_chapter_ids():
 
 
 async def test_gy_bad_ids_never_fetch():
-    assert "Use a chapter number" in await server.get_legislation_text("gy", "../laws/x.pdf")
-    assert "has no Chapter" in await server.get_legislation_text("gy", "999:99")
+    assert "Bad request (gy)" in await server.get_legislation_text("gy", "../laws/x.pdf")
+    assert "Not found (gy)" in await server.get_legislation_text("gy", "999:99")
 
 
 async def test_gy_provision_label_variants():

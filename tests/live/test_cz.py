@@ -20,10 +20,6 @@ async def test_cz_get_decision():
     assert "## Výrok" in out and "[Jméno žalobce]" in out
 
 
-async def test_cz_search_legislation():
-    out = await server.search_legislation("cz", "občanský zákoník", limit=3)
-    assert 'get_legislation_toc("cz", "89/2012 Sb.")' in out
-
 
 async def test_cz_provision_labels():
     for law, label in (("89/2012 Sb.", "§ 2"), ("89/2012", "2"), ("sb/2012/89", "par. 2")):

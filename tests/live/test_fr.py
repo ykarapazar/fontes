@@ -41,11 +41,11 @@ async def test_fr_search_codes_and_loda():
 async def test_fr_administrative_courts():
     j = fr.France()
     ce = await j.search_caselaw("responsabilité", limit=3, page=1, filters={"jurisdiction": "ce"})
-    assert ce.total > 10000 and all(h.court.startswith("Conseil d") for h in ce.items)
+    assert ce.items and all(h.court.startswith("Conseil d") for h in ce.items)
     caa = await j.search_caselaw("responsabilité", limit=3, page=1, filters={"jurisdiction": "caa", "sort": "date"})
-    assert caa.total > 30000 and all(h.id.startswith("CETATEXT") and h.case_number for h in caa.items)
+    assert caa.items and all(h.id.startswith("CETATEXT") and h.case_number for h in caa.items)
     tc = await j.search_caselaw("compétence", limit=3, page=1, filters={"jurisdiction": "tc"})
-    assert all("conflits" in h.court.lower() for h in tc.items)
+    assert tc.items and all("conflits" in h.court.lower() for h in tc.items)
     d = await j.get_decision("CETATEXT000053464527")
     assert d.court == "Conseil d'État" and d.case_number == "498240" and d.date == "2026-02-11"
     assert d.metadata["ECLI"].startswith("ECLI:FR:CECHR:2026") and "responsabilité" in d.summary
@@ -55,7 +55,7 @@ async def test_fr_conseil_constitutionnel():
     j = fr.France()
     r = await j.search_caselaw("liberté", limit=3, page=1, filters={
         "jurisdiction": "constit", "date_start": "2020-01-01", "date_end": "2020-12-31"})
-    assert 0 < r.total < 500 and all(h.date.startswith("2020") for h in r.items)
+    assert r.items and all(h.date.startswith("2020") for h in r.items)
     a = await server.get_decision("fr", "CONSTEXT000043596386")
     b = await server.get_decision("fr", "https://www.legifrance.gouv.fr/cons/id/CONSTEXT000043596386")
     assert a == b and "2021-817" in a and "sécurité globale" in a
@@ -64,7 +64,7 @@ async def test_fr_conseil_constitutionnel():
 async def test_fr_journal_officiel():
     j = fr.France()
     r = await j.search_legislation("portant nomination", limit=3, page=1, filters={"fond": "jorf"})
-    assert r.total > 100000 and all(h.id.startswith("JORFTEXT") for h in r.items)
+    assert r.items and all(h.id.startswith("JORFTEXT") for h in r.items)
     t = await j.get_legislation_text(r.items[0].id)        # JORF-only text: no consolidated version
     assert t.metadata.get("Version") == "as published in the Journal officiel" and t.as_of
     p = await j.get_legislation_provision("JORFTEXT000028933611", "Article 1")

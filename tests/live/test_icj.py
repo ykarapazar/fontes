@@ -8,7 +8,7 @@ async def test_icj_search_filters():
         "date_from": "2022-07-01", "date_to": "2022-07-31"})
     assert "178-20220722-jud-01-00" in out, out
     bad = await server.search_caselaw("icj", "x", filters={"type": "awards"})
-    assert "type must be one of" in bad
+    assert bad.startswith("Bad request (icj)")
 
 
 async def test_icj_case_record_lists_documents():
@@ -16,7 +16,7 @@ async def test_icj_case_record_lists_documents():
     assert "Gambia v. Myanmar" in out and "## Judgments" in out
     assert "[178-20220722-jud-01-00]" in out and "[178-20220722-jud-01-01]" in out   # judgment + Judge Xue
     unknown = await server.get_decision("icj", "999")
-    assert "no case 999" in unknown.lower()
+    assert unknown.startswith("Not found (icj)") and "999" in unknown
 
 
 async def test_icj_document_id_variants():

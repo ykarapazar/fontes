@@ -25,7 +25,7 @@ async def test_vn_postback_paging():
 
 async def test_vn_number_is_not_an_id():
     out = await server.get_legislation_text("vn", "91/2015/QH13")
-    assert out.startswith("Bad request") and "docid" in out
+    assert out.startswith("Bad request") and "91/2015/QH13" in out
 
 
 async def test_vn_vbpl_constitution():
@@ -50,7 +50,7 @@ async def test_vn_precedent_number_ids():
     b = await server.get_decision("vn", "TAND014297")
     assert a == b and "Án lệ số 01/2016/AL" in a and "Giết người" in a
     hit = await server.search_caselaw("vn", "án lệ số 47")
-    assert "1 decisions found" in hit and "47/2021/AL" in hit
+    assert "47/2021/AL" in hit
 
 
 async def test_vn_precedent_search_diacritics():

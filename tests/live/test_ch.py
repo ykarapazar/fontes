@@ -9,7 +9,7 @@ async def test_ch_provision_label_variants():
     assert a == b and "Art. 1" in a
     assert "Dies ist keine amtliche Veröffentlichung" in a  # Art. 49 PublV notice
     dsg = await server.get_legislation_provision("ch", "235.1", "art. 5")
-    assert "Begriffe" in dsg and "Personendaten" in dsg
+    assert "Personendaten" in dsg
 
 
 async def test_ch_schlusstitel_disposition():

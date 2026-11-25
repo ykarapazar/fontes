@@ -8,7 +8,7 @@ async def test_ng_suit_number_query_and_filter():
     out = await server.search_caselaw("ng", "SC309/74", limit=3)
     assert 'get_decision("ng", "122")' in out and "SC309/74" in out, out
     out = await server.search_caselaw("ng", "", limit=5, filters={"suit_no": "91/2002"})
-    assert "SC 91/2002" in out or "SC91/2002" in out, out
+    assert "SC91/2002" in out.replace(" ", ""), out
 
 
 async def test_ng_date_filters():
@@ -23,8 +23,8 @@ async def test_ng_date_filters():
 async def test_ng_decision_by_url_and_bad_ids():
     out = await server.get_decision("ng", "https://supremecourt.gov.ng/judgment-delivered/122", max_chars=3000)
     assert "- Identifier: 122" in out and "Idundun" in out and "Okumagba" in out
-    assert "no judgment with that id" in await server.get_decision("ng", "999999")
-    assert "numeric case id" in await server.get_decision("ng", "Idundun v Okumagba")
+    assert "Not found" in await server.get_decision("ng", "999999")
+    assert "Bad request" in await server.get_decision("ng", "Idundun v Okumagba")
 
 
 async def test_ng_constitution_consolidated_section():
@@ -57,6 +57,6 @@ async def test_ng_plac_lfn_2004_act():
     p = await j.get_legislation_provision("plac:18", "1")
     assert "false pretence" in p.text.lower(), p.text[:200]
     toc = await j.get_legislation_toc("plac:18")
-    assert len(toc.entries) >= 15
+    assert any(e.provision == "1" for e in toc.entries)
     r = await j.search_legislation("advance fee fraud", filters={"source": "plac"})   # reads the 69-page index
     assert any(h.id == "plac:18" for h in r.items), r.items

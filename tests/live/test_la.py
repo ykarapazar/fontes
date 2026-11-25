@@ -22,4 +22,4 @@ async def test_la_sara_am_spelling_variant():
 async def test_la_text_not_supported_and_empty_query():
     assert "Bad request" in await server.search_legislation("la", "   ")
     out = await server.get_legislation_text("la", "2468")
-    assert "not" in out.lower() and "support" in out.lower(), out
+    assert "not supported" in out, out

@@ -19,7 +19,7 @@ async def test_ci_provision_label_variants():
     b = await server.get_legislation_provision("ci", "loi-relatif-au-mariage", "art. 2")
     assert "dix -huit ans" in a and "dix -huit ans" in b, a
     toc = await server.get_legislation_toc("ci", "loi-relatif-au-mariage")
-    assert "CHAPITRE II : DES CONDITIONS REQUISES POUR POUVOIR CONTRACTER MARIAGE" in toc, toc[:1500]
+    assert "CHAPITRE II" in toc and "CONTRACTER MARIAGE" in toc, toc[:1500]
 
 
 async def test_ci_law_search_accent_insensitive():

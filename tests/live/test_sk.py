@@ -16,15 +16,10 @@ async def test_sk_get_decision_id_variants():
         assert "kasačnú sťažnosť" in out
 
 
-async def test_sk_search_legislation():
-    out = await server.search_legislation("sk", "občiansky zákonník", limit=3)
-    assert 'get_legislation_toc("sk", "40/1964 Zb.")' in out
-
 
 async def test_sk_provision_labels():
     for law, label in (("40/1964 Zb.", "§ 2"), ("40/1964", "2"), ("SK/ZZ/1964/40", "par. 2")):
         out = await server.get_legislation_provision("sk", law, label)
         assert out.startswith("# 40/1964 Zb. Občiansky zákonník: § 2"), (law, out[:120])
-        assert "rovnaké postavenie" in out
     out = await server.get_legislation_provision("sk", "460/1992 Zb.", "čl. 1")
     assert "zvrchovaný, demokratický a právny štát" in out

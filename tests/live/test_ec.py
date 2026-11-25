@@ -13,7 +13,7 @@ async def test_ec_id_variants_and_old_numbering():
 
 async def test_ec_unknown_decision():
     out = await server.get_decision("ec", "9999-99-XX/99")
-    assert "not found" in out.lower()
+    assert "Not found" in out and "9999-99-XX/99" in out
 
 
 async def test_ec_filters():

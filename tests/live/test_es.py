@@ -30,7 +30,7 @@ async def test_es_bad_id_and_missing_provision():
     bad = await server.get_legislation_provision("es", "Codigo Civil", "1902")
     assert "BOE-A-1889-4763" in bad
     missing = await server.get_legislation_provision("es", "BOE-A-1889-4763", "Artículo 99999")
-    assert "not found" in missing
+    assert "Not found" in missing and "99999" in missing
 
 
 async def test_es_tc_decision_id_variants():
@@ -40,7 +40,7 @@ async def test_es_tc_decision_id_variants():
     auto = await server.get_decision("es", "ECLI:ES:TC:2010:31A", max_chars=2000)
     assert "AUTO 31/2010" in auto and "ECLI:ES:TC:2010:31A" in auto
     bad = await server.get_decision("es", "31-2010")
-    assert "STC 31/2010" in bad  # the error says what a good id looks like
+    assert "Bad request" in bad and "31-2010" in bad
 
 
 async def test_es_tc_search_filters():

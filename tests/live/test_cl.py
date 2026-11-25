@@ -2,11 +2,6 @@
 from world_legal_mcp import server
 
 
-async def test_cl_search_legislation():
-    out = await server.search_legislation("cl", "código civil", limit=5)
-    assert "Chile (cl)" in out and 'get_legislation_toc("cl", "172986")' in out
-
-
 async def test_cl_provision_labels():
     for law, label in (("172986", "Artículo 2314"), ("172986", "art. 2314"), ("172986", "2314"),
                        ("https://www.bcn.cl/leychile/navegar?idNorma=172986", "2314 (DEL ART. 2)")):

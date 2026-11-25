@@ -12,16 +12,16 @@ async def test_ba_case_number_lists_all_decisions_and_english():
     out = await server.get_decision("ba", "en:12209", max_chars=3000)
     assert "PARTIAL DECISION" in out and "2000-07-01" in out, out
     # a case number with several decisions asks for one id
-    assert "Pass one of these ids" in await server.get_decision("ba", "U-5/98")
+    assert (await server.get_decision("ba", "U-5/98")).startswith("Bad request (ba)")
 
 
 async def test_ba_filters_and_bad_values():
     out = await server.search_caselaw("ba", "diskriminacija", limit=5, filters={
         "case_type": "U", "decision_type": "merits", "date_from": "2000-01-01", "date_to": "2000-12-31"})
     assert "U-5/98" in out, out
-    assert "must be AP or U" in await server.search_caselaw("ba", "x", filters={"case_type": "Z"})
-    assert "YYYY-MM-DD" in await server.search_caselaw("ba", "x", filters={"date_from": "1.1.2020"})
-    assert "no decision with id" in await server.get_decision("ba", "999999999")
+    assert (await server.search_caselaw("ba", "x", filters={"case_type": "Z"})).startswith("Bad request (ba)")
+    assert (await server.search_caselaw("ba", "x", filters={"date_from": "1.1.2020"})).startswith("Bad request (ba)")
+    assert (await server.get_decision("ba", "999999999")).startswith("Not found (ba)")
 
 
 async def test_ba_decision_by_case_number_has_summary():
@@ -36,7 +36,7 @@ async def test_ba_fbih_law_year_filter_and_provision_variants():
     for label in ("Član 54", "54", "čl. 54.", "art 54"):
         out = await server.get_legislation_provision("ba", law, label)
         assert "Neplaćeno odsustvo" in out, (label, out)
-    assert "year must be" in await server.search_legislation("ba", "x", filters={"year": "1900"})
+    assert (await server.search_legislation("ba", "x", filters={"year": "1900"})).startswith("Bad request (ba)")
 
 
 async def test_ba_constitution_and_amendment_from_parliament():

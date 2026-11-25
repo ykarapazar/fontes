@@ -10,7 +10,7 @@ async def test_ecowas_search_filters_and_numbers():
     by_suit = await server.search_caselaw("ecowas", "ECW/CCJ/APP/08/08")
     assert "ECW/CCJ/JUD/06/08" in by_suit and "KORAOU" in by_suit, by_suit
     bad = await server.search_caselaw("ecowas", "x", filters={"type": "verdict"})
-    assert "judgement, opinion, order or ruling" in bad
+    assert bad.startswith("Bad request (ecowas)")
 
 
 async def test_ecowas_shared_number_and_language_ids():
@@ -26,7 +26,7 @@ async def test_ecowas_decision_text_and_scanned_pdf():
     scanned = await server.get_decision("ecowas", "ECW/CCJ/JUD/43/26")   # image-only PDF
     assert "text layer" in scanned and "courtecowas.org" in scanned
     missing = await server.get_decision("ecowas", "ECW/CCJ/JUD/99/99")
-    assert "no decision" in missing.lower()
+    assert missing.startswith("Not found (ecowas)")
 
 
 async def test_ecowas_law_reports_volume():
@@ -37,4 +37,4 @@ async def test_ecowas_law_reports_volume():
     shared = await server.get_decision("ecowas", "ECW/CCJ/RUL/03/10")     # printed for two decisions
     assert "(2010) CCJELR 213" in shared and "Bad request" in shared
     bad = await server.search_caselaw("ecowas", "x", filters={"report_year": "2019"})
-    assert "2010-2017" in bad
+    assert bad.startswith("Bad request (ecowas)")

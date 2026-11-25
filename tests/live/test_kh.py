@@ -10,7 +10,7 @@ async def test_kh_category_filter_and_bad_category():
     assert "2022/05/LAND-LAW_010430-.pdf" in out and "2001-04-30" in out, out
     assert "Law on Commercial Arbitration" not in out
     bad = await server.search_legislation("kh", "law", filters={"category": "astrology"})
-    assert "Unknown category" in bad and "Tax & Accounting" in bad
+    assert "Bad request" in bad and "astrology" in bad
 
 
 async def test_kh_provision_label_and_id_variants():

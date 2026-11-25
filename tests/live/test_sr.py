@@ -11,13 +11,13 @@ async def test_sr_decision_ids_and_filters():
     for ident in ("SRU-HvJ-1991-6", "sru-hvj-1991-6", "https://rechtspraak.sr/sru-hvj-1991-6/"):
         d = await server.get_decision("sr", ident, max_chars=3000)
         assert "GR-13074" in d and "1991-08-23" in d and "Hof van Justitie" in d, d[:800]
-    assert "No decision" in await server.get_decision("sr", "SRU-HvJ-1991-99999")
-    assert "SRU number" in await server.get_decision("sr", "12345")
+    assert (await server.get_decision("sr", "SRU-HvJ-1991-99999")).startswith("Not found (sr)")
+    assert (await server.get_decision("sr", "12345")).startswith("Bad request (sr)")
     # court filter: every hit comes from that court; later pages come from the load-more endpoint
     out = await server.search_caselaw("sr", "huur", limit=10, page=2,
                                       filters={"court": "Kantongerecht Eerste Kanton", "sort": "newest"})
     assert out.count("- Court: Kantongerecht Eerste Kanton") >= 5 and "Hof van Justitie" not in out, out[:1200]
-    assert "court must be one of" in await server.search_caselaw("sr", "huur", filters={"court": "Supreme"})
+    assert (await server.search_caselaw("sr", "huur", filters={"court": "Supreme"})).startswith("Bad request (sr)")
 
 
 async def test_sr_legislation_articles():
@@ -29,5 +29,5 @@ async def test_sr_legislation_articles():
     for p in ("Artikel 10", "art. 10", "10"):
         out = await server.get_legislation_provision("sr", GRONDWET, p)
         assert "eerlijke en openbare" in out, out[:800]
-    assert "has no article" in await server.get_legislation_provision("sr", GRONDWET, "999")
-    assert "No law" in await server.get_legislation_toc("sr", "wetten-na-2005/no-such-law-xyz")
+    assert (await server.get_legislation_provision("sr", GRONDWET, "999")).startswith("Not found (sr)")
+    assert (await server.get_legislation_toc("sr", "wetten-na-2005/no-such-law-xyz")).startswith("Not found (sr)")

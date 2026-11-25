@@ -14,11 +14,11 @@ async def test_bz_decision_id_variants_and_court():
 
 
 async def test_bz_bad_ids_never_fetch():
-    assert "Give a judgment id" in await server.get_decision("bz", "../../wp-admin")
-    assert "Use a law id" in await server.get_legislation_text("bz", "../../etc/passwd")
-    assert "Use a law id" in await server.get_legislation_text("bz", "https://example.com/x.pdf")
+    assert "Bad request" in await server.get_decision("bz", "../../wp-admin")
+    assert "Bad request" in await server.get_legislation_text("bz", "../../etc/passwd")
+    assert "Bad request" in await server.get_legislation_text("bz", "https://example.com/x.pdf")
     gone = await server.get_legislation_text("bz", "000000000000a_No_Such_Act.pdf")
-    assert "No PDF" in gone, gone
+    assert "Not found" in gone and "000000000000a_No_Such_Act.pdf" in gone, gone
 
 
 async def test_bz_law_id_variants_and_provision_labels():
@@ -37,4 +37,4 @@ async def test_bz_final_appeals_ccj_and_privy_council():
     assert "[2011] UKPC 23" in pc and "Bahamas" not in pc, pc[:800]
     d = await server.get_decision("bz", "[2011] UKPC 23", max_chars=2000)
     assert "Fuller" in d, d[:800]
-    assert "court must be" in await server.search_caselaw("bz", "x", filters={"court": "hc"})
+    assert "Bad request" in await server.search_caselaw("bz", "x", filters={"court": "hc"})

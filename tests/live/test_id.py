@@ -7,8 +7,8 @@ async def test_id_search_filters():
     assert "Peraturan Pemerintah Nomor" in out and "Tahun 2021" in out and '"PP ' in out, out
     out = await server.search_legislation("id", "27 tahun 2022", limit=5)
     assert 'get_legislation_toc("id", "UU 27/2022")' in out, out
-    assert "type must be one of" in await server.search_legislation("id", "x", filters={"type": "XYZ"})
-    assert "YYYY" in await server.search_legislation("id", "x", filters={"year": "22"})
+    assert "Bad request" in await server.search_legislation("id", "x", filters={"type": "XYZ"})
+    assert "Bad request" in await server.search_legislation("id", "x", filters={"year": "22"})
 
 
 async def test_id_id_variants_and_provision_labels():
@@ -23,9 +23,9 @@ async def test_id_id_variants_and_provision_labels():
 
 
 async def test_id_errors():
-    assert "no UU 9999/2022" in await server.get_legislation_toc("id", "UU 9999/2022")
+    assert "Not found" in await server.get_legislation_toc("id", "UU 9999/2022")
     assert "UU 27/2022" in await server.get_legislation_toc("id", "Pasal 5")   # bad id -> format hint
-    assert "no Pasal" in await server.get_legislation_provision("id", "UU 27/2022", "999")
+    assert "Not found" in await server.get_legislation_provision("id", "UU 27/2022", "999")
 
 
 async def test_id_constitution_from_mpr():

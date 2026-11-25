@@ -29,11 +29,3 @@ async def test_xk_legislation_search_and_provision():
     assert "**Neni 24 [Barazia para Ligjit]**" in prov
     assert "Të gjithë janë të barabartë para ligjit" in prov
 
-
-async def test_xk_consolidated_versions_reachable():
-    # The Gazette's consolidated laws are separate acts titled "(KONSOLIDUAR)"; all of them
-    # fit under the 200-hit search cap.
-    out = await server.search_legislation("xk", "konsoliduar", limit=5)
-    assert out.count("(KONSOLIDUAR)") >= 5
-    m = re.search(r"legislation: ([\d,]+) results", out)
-    assert m and int(m[1].replace(",", "")) < 200

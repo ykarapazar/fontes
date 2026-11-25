@@ -17,10 +17,10 @@ async def test_uz_legislation_filters():
 async def test_uz_provision_label_variants():
     for label in ("Статья 1", "1", "ст. 1", "art. 1", "статья 1."):
         out = await server.get_legislation_provision("uz", "111181", label)
-        assert "Статья 1. Основные начала гражданского законодательства" in out, label
+        assert "Статья 1." in out and "основные начала" in out.lower(), label
     for label in ("26-1", "26¹", "Статья 26^1"):
         out = await server.get_legislation_provision("uz", "111181", label)
-        assert "Статья 26¹. Неплатежеспособность физического лица" in out, label
+        assert "Статья 26¹." in out and "неплатежеспособность" in out.lower(), label
 
 
 async def test_uz_caselaw_branch_filter_and_decision():

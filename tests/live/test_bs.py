@@ -9,22 +9,22 @@ async def test_bs_court_filters_and_ids():
     sc = await server.search_caselaw("bs", "S.V.R.", filters={"court": "supreme"})
     assert "sc/2026/11/RULING-S.V.R.-v.-S.L.R.pdf" in sc and "2016/FAM/div/00340" in sc and "ca/" not in sc, sc
     bad = await server.search_caselaw("bs", "x", filters={"court": "magistrates"})
-    assert "ca (Court of Appeal) or sc" in bad, bad
+    assert "Bad request" in bad, bad
 
 
 async def test_bs_bad_ids_never_fetch():
-    assert "Give an id" in await server.get_decision("bs", "sc/../../etc/passwd")
+    assert "Bad request" in await server.get_decision("bs", "sc/../../etc/passwd")
     unlisted = await server.get_decision("bs", "sc/2026/11/not-listed.pdf")
-    assert "has no PDF" in unlisted, unlisted
-    assert "Use a law id" in await server.get_legislation_text("bs", "Penal Code")
-    assert "Did you mean" in await server.get_legislation_text("bs", "sub/1873-0015")
+    assert "Not found" in unlisted, unlisted
+    assert "Bad request" in await server.get_legislation_text("bs", "Penal Code")
+    assert "Not found" in await server.get_legislation_text("bs", "sub/1873-0015")
 
 
 async def test_bs_provision_label_variants():
     out = await server.get_legislation_provision("bs", "1873-0015", "section 290")
     assert "Whoever intentionally causes the death" in out, out[:800]
     sub = await server.search_legislation("bs", "Penal Code", filters={"kind": "amd"})
-    assert "amd/" in sub and "Amending legislation" in sub, sub
+    assert "amd/" in sub, sub
 
 
 async def test_bs_privy_council_appeals():

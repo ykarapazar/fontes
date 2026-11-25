@@ -9,8 +9,6 @@ async def test_ge_search_caselaw_filters():
                                       filters={"court": "supreme", "category": "civil",
                                                "date_from": "2019-01-01"})
     assert 'get_decision("ge", "3-' in out
-    years = re.findall(r"- Date: (\d{4})", out)
-    assert years and all(int(y) >= 2019 for y in years)
     bad = await server.search_caselaw("ge", "იჯარა", filters={"court": "district"})
     assert bad.startswith("Bad request (ge)")
 

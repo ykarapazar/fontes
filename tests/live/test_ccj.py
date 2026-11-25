@@ -12,7 +12,7 @@ async def test_ccj_filters_and_citation_search():
     exact = await server.search_caselaw("ccj", "[2016] CCJ 01 (OJ)", limit=5)
     assert "[2016] CCJ 1 (OJ)" in exact, exact
     bad = await server.search_caselaw("ccj", "x", filters={"jurisdiction": "XX"})
-    assert "AJ (appellate) or OJ (original)" in bad
+    assert bad.startswith("Bad request (ccj)")
 
 
 async def test_ccj_judgment_text_and_other_documents():
@@ -28,6 +28,6 @@ async def test_ccj_typo_citation_and_errors():
     out = await server.get_decision("ccj", "[2022] CCJ 8 (AJ)", max_chars=1500)
     assert "SANDY LANE" in out.upper() and "2022-03-24" in out, out[:800]
     missing = await server.get_decision("ccj", "[2005] CCJ 99 (AJ)")
-    assert "no [2005] CCJ 99 (AJ)" in missing
+    assert missing.startswith("Not found (ccj)") and "[2005] CCJ 99 (AJ)" in missing
     bad = await server.get_decision("ccj", "Myrie")
-    assert "neutral citation" in bad
+    assert bad.startswith("Bad request (ccj)")

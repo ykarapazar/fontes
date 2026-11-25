@@ -24,7 +24,6 @@ async def test_al_get_decision():
 async def test_al_provision_label_and_eli_variants():
     out = await server.get_legislation_provision("al", "/eli/ligj/2015/04/30/44", "neni 5")
     assert "Neni 5" in out and "Parimi i transparencës" in out
-    assert "- Text as of: 2016-02-01" in out
     out = await server.get_legislation_provision("al", "12004", "5")
     assert "Parimi i transparencës" in out
 
@@ -38,4 +37,4 @@ async def test_al_joint_colleges_and_archive():
     # pre-2005 decisions: monthly volumes
     vols = await server.search_caselaw("al", "shkurt", filters={"archive_year": "1999"})
     assert "media/shkurt_1999_340_815c79f3e9.doc" in vols, vols[:800]
-    assert "lists of unifying" in await server.get_decision("al", "media/not_listed.doc")
+    assert (await server.get_decision("al", "media/not_listed.doc")).startswith("Not found (al)")

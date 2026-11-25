@@ -11,7 +11,7 @@ async def test_efta_filters_country_type_date():
     years = re.findall(r"- Date: (\d{4})", out)
     assert years and all(int(y) >= 2020 for y in years)
     bad = await server.search_caselaw("efta", "x", filters={"type": "appeal"})
-    assert "advisory, direct or other" in bad
+    assert "Bad request" in bad
 
 
 async def test_efta_case_number_lookup_and_joined_cases():

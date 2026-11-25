@@ -20,7 +20,7 @@ async def test_difc_court_and_year_filters():
     dates = re.findall(r"- Date: (\d{4})", out)
     assert dates and set(dates) == {"2024"}, out
     bad = await server.search_caselaw("difc", "x", filters={"court": "supreme"})
-    assert "Unknown court" in bad
+    assert bad.startswith("Bad request (difc)") and "supreme" in bad
 
 
 async def test_difc_citation_and_url_resolve_to_judgment():
@@ -36,6 +36,6 @@ async def test_difc_full_text_keyword_and_bad_ids():
     assert SLUG in out, out
     assert "No decisions on this page" in await server.search_caselaw("difc", "zzqxjvwk")
     missing = await server.get_decision("difc", "court-appeal/no-such-case-xyz")
-    assert "no judgment or order" in missing.lower(), missing
+    assert missing.startswith("Not found (difc)"), missing
     bad = await server.get_decision("difc", "not an id")
-    assert "neutral citation" in bad
+    assert bad.startswith("Bad request (difc)")

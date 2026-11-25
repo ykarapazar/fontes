@@ -8,14 +8,15 @@ async def test_me_case_number_query_and_filter():
     out = await server.search_caselaw("me", "", limit=5, filters={"case_number": "U-III br. 339/24"})
     assert "U-III br.339/24" in out and 'get_decision("me", "43750")' in out, out
     out = await server.search_caselaw("me", "", limit=5, filters={"case_number": "x"})
-    assert "number/year" in out
+    assert out.startswith("Bad request (me)") and "got 'x'" in out
 
 
 async def test_me_type_and_year_filters():
     out = await server.search_caselaw("me", "", limit=5, filters={"type": "U-III", "year": "2024"})
     nums = re.findall(r"U-III br\. ?\d+/24", out)
     assert nums, out
-    assert "must be one of" in await server.search_caselaw("me", "", filters={"type": "U-XX"})
+    bad = await server.search_caselaw("me", "", filters={"type": "U-XX"})
+    assert bad.startswith("Bad request (me)") and "U-XX" in bad
 
 
 async def test_me_decision_by_case_number_doc_file():
@@ -26,5 +27,5 @@ async def test_me_decision_by_case_number_doc_file():
 
 
 async def test_me_bad_ids():
-    assert "no document with id" in await server.get_decision("me", "99999999")
-    assert "numeric document id" in await server.get_decision("me", "Kadić")
+    assert "Not found (me)" in await server.get_decision("me", "99999999")
+    assert (await server.get_decision("me", "Kadić")).startswith("Bad request (me)")

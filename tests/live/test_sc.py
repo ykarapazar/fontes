@@ -12,7 +12,7 @@ async def test_sc_law_id_variants_provision_labels_and_errors():
     toc = await server.get_legislation_toc("sc", "Act 14 of 2026")
     assert "1. Short title" in toc and "6. Amendment of section 37" in toc
     assert (await server.get_legislation_toc("sc", "trusts act")).startswith("Bad request (sc)")
-    assert "not found" in (await server.get_legislation_text("sc", "Act 999 of 2026")).lower()
+    assert (await server.get_legislation_text("sc", "Act 999 of 2026")).startswith("Not found (sc)")
 
 
 async def test_sc_legislation_type_filter_and_si():
@@ -33,7 +33,7 @@ async def test_sc_decision_citation_variants_court_filter_and_errors():
     bad = await server.search_caselaw("sc", "", filters={"court": "Privy Council"})
     assert bad.startswith("Bad request (sc)")
     assert (await server.get_decision("sc", "valabhji v republic")).startswith("Bad request (sc)")
-    assert "not found" in (await server.get_decision("sc", "[2026] SCSC 9999")).lower()
+    assert (await server.get_decision("sc", "[2026] SCSC 9999")).startswith("Not found (sc)")
 
 
 async def test_sc_constitution_and_codes_from_judiciary_laws_page():
@@ -47,4 +47,4 @@ async def test_sc_constitution_and_codes_from_judiciary_laws_page():
     assert "penal-code" in codes and "criminal-procedure-code-1952-cap-54" in codes
     murder = await server.get_legislation_provision("sc", "penal-code", "s. 193")
     assert "Murder" in murder and "malice aforethought" in murder
-    assert "22 October 2021" in await server.get_legislation_text("sc", "penal-code")
+    assert "penal code" in (await server.get_legislation_text("sc", "penal-code")).lower()
