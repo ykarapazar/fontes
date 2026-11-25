@@ -332,40 +332,55 @@ the live-test family were not all re-checked by the scorer; verify before acting
 1. **Shared adapter helpers.** `_fold`, `_date`, `_norm_id`, docx/PDF parsers and caches are copied across
    adapters (12 identical groups). Moving them into one module is a new abstraction and can change output
    in edge cases. Do it, and if so, in which order?
+   → Owner: only byte-identical, context-free ones. Done: 8 groups (17 copies) into `_http`, where
+   ADAPTER_SPEC already puts shared helpers. Methods that call module-local functions stay put.
 2. **Windows installer privacy link (bug).** installer/windows/fontes.iss `[Files]` omits
    `privacy-languages.txt` (build.sh stages it for macOS), so `fontes_i18n.privacy_url()` always returns the
    English notice on Windows. Fix = ship the file. Behaviour change for Windows users.
+   → Owner: fix now. Done (1efc6d3).
 3. **English README/doc edits vs 60 translations.** README.md:374 says `pytest -q` runs offline tests but it
    also runs the live ones; README "Why I built this" duplicates docs/WHY.md; filter lists incomplete.
    docs/INSTALL.md:106-107 says `uvx fontes` (wrong package: `fontes-mcp`). docs/index.html:31 and
    docs/press.html:60 say 0.1.0; docs/llms.txt:9 and docs/FAQ.md:46-48 still say the installers are coming.
    Fixing the English leaves translations stale until re-translated.
+   → Owner: English + same facts in translations. Done (0661cdf). Translated FAQ prose "once the installer
+   is out" still lags (not mechanical).
 4. **Version in 6+ places.** pyproject, `__init__`, server.json (x2), plugin.json, plugin/.mcp.json,
    plugin/README.md; nothing checks server.json. Also classifier "3 - Alpha" vs "Fontes is in beta" in
    server.py and README. Which stage word is right?
+   → Owner: Beta. Done (58e61bd); plugin_bundle.py now writes server.json versions, `__version__` deleted.
 5. **`mcp[cli]` extra** (pyproject.toml): nothing imports mcp.cli or typer. Drop to `mcp`? Packaging change.
+   → Owner: drop. Done (58e61bd).
 6. **Splitting large multi-source files**: server.py (523 lines, five jobs), tr.py (1304), us.py (1189),
    mu.py (966), fontes_setup.py (645), plus multi-source adapters (ba, bo, ng, pe, icj, hn, es, sn, sc, vn,
    tj). Structural, high churn; worth it?
 7. **Live tests that pin source wording, dates and counts** (e.g. test_ad.py:9, test_al.py:37,
    test_mm.py:54) and per-country happy-path tests that repeat test_conformance.py. Per the brief these
    go; that removes a lot of live coverage at once. Delete wholesale, or rewrite to structural asserts?
+   → Owner: rewrite to structural checks, delete pure repeats of conformance. In progress.
 8. **Possible bug in vn.py**: `_texts` cache shared by the vbpl and chinhphu sources with digit-only keys;
    entries may collide (scorer judgement, untested).
 9. **tests/live/test_af.py::test_af_search_by_gazette_number fails live** (gazette 1452 no longer finds
    law 1452-16577). Source drift or adapter bug.
+   → Neither: since 0.1.0 render.py printed a hit's id only in its Contents line, so af, most ro and
+   scanned cv hits showed no id. Fixed (38d5974): such hits get a `get_legislation_text` line. Output change.
 10. **ch.py ranking**: exact SR number / abbreviation first in ORDER BY has no test (mutation stayed green).
     Add one?
 11. **DESIGN.md** is mostly stale (markdown-returning adapters, browser UA, `us-ca`, "later phases",
     `world-legal-mcp`) and superseded by docs/ADAPTER_SPEC.md. Rewrite short, or delete?
+    → Owner: delete. Done (a0d8c72).
 12. **Generated output changes**: health.py writes maintainer launchd instructions into every docs/HEALTH.md;
     scripts/languages.py `PENDING = ["fr"]` is stale but feeds research/languages.json; plugin README host
     list includes XML namespace hosts that are never contacted (contradicts "contacted only when you ask").
 13. **windows.yml:3** points at docs/RELEASING.md, which does not exist. Write it, or point at CODE_SIGNING.md?
+    → Pointed at CODE_SIGNING.md (58e61bd).
 14. No CLAUDE.md in the repo (contributors/agents rely on README + CONTRIBUTING + ADAPTER_SPEC). Want one?
+    → Owner: tool-agnostic. Done (bc5d96c): AGENTS.md, CLAUDE.md imports it.
 15. **tests/live/test_conformance.py::test_toc_and_provision[tw] fails live**: the sample provision
     `第 184 條` (spaces) is not among the TOC labels (`第184條`). Fails identically before round 1. Fix the
     sample, or make provision matching ignore spaces?
+    → Matching already ignored spaces (`_nfkc`); only the sample was out of step with the TOC form. Sample
+    fixed (e4b0844).
 
 ## Rounds
 
@@ -373,6 +388,10 @@ the live-test family were not all re-checked by the scorer; verify before acting
 |---|---|---|---|---|
 | 0 | baseline | all | see Summary | 960 passed (offline) |
 | 1 | behaviour-neutral: dead code | _http.py; mu, np, pe, tw; scripts/coverage.py (deleted) | _http 333433→444443; mu 233323→333323; np 233344→344344; pe 333323→333333; tw 444344→444444 | 960 → 960 offline; live mu/np/pe green; tw conformance TOC red before and after (owner call 15) |
+| 2 | owner calls (approved) | windows installer, packaging, DESIGN.md, AGENTS.md, docs + 79 translations | owner calls 2, 3, 4, 5, 11, 13, 14 closed | 960 → 960 offline; linkcheck, i18n_check clean |
+| 3 | bug fixes (approved) | tw sample; render.py legislation hits | owner calls 9, 15 closed; af/tw live green | 960 → 960 offline; render test now requires the id (mutation-checked) |
+| 4 | tests | live mm/et pure tests → offline; hk/ba/ccj `or` asserts; mv pytestmark | — | 960 → 962 offline |
+| 5 | behaviour-neutral: shared helpers (approved) | _http + 17 adapters, ADAPTER_SPEC | owner call 1 closed (byte-identical only) | 962 → 962 offline; live 164 passed, 6 failed identically on previous code (bo, cu, dz, sn sources) |
 
 ## Appendix: scorer notes (unverified; verify before acting)
 
