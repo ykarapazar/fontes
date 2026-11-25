@@ -1,4 +1,5 @@
-"""Write the Claude plugin bundle (plugin/) and the repo's marketplace file from the code.
+"""Write the Claude plugin bundle (plugin/), the repo's marketplace file and server.json's versions
+from the code.
 
     uv run python scripts/plugin_bundle.py          # write
     uv run python scripts/plugin_bundle.py --check  # exit 1 if a file is out of date
@@ -110,7 +111,12 @@ fetches from or links to. A host is contacted only when you ask about its jurisd
 
 {chr(10).join(f"- `{h}`" for h in hosts)}
 """
+    server = json.loads((ROOT / "server.json").read_text())
+    server["version"] = ver
+    for pkg in server["packages"]:
+        pkg["version"] = ver
     return {
+        ROOT / "server.json": json.dumps(server, indent=2, ensure_ascii=False) + "\n",
         OUT / ".claude-plugin/plugin.json": json.dumps(plugin, indent=2, ensure_ascii=False) + "\n",
         OUT / ".mcp.json": json.dumps(mcp, indent=2) + "\n",
         OUT / "README.md": readme,

@@ -1,4 +1,4 @@
-"""plugin/ and .claude-plugin/marketplace.json match the code (pinned version, host list)."""
+"""plugin/, .claude-plugin/marketplace.json and server.json match the code (pinned version, host list)."""
 import subprocess
 import sys
 from pathlib import Path

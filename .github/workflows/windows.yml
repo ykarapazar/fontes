@@ -1,6 +1,6 @@
 # Build the Windows installer (Fontes-Setup-<ver>.exe, Inno Setup) on a Windows runner.
 # SignPath Foundation signs only artifacts built in CI like this one. Once the SignPath
-# project exists, add its signing action after the build step (see docs/RELEASING.md).
+# project exists, add its signing action after the build step (see docs/CODE_SIGNING.md).
 # On a release the exe is attached to it; on a push or manual run it is a workflow artifact.
 name: windows-installer
 
@@ -21,8 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v10.4.0
-      # Windows has no system time-zone database; this caught a 0.1.0 bug (lv, and every
-      # adapter after it, failed to load). Offline tests only.
+      # Windows has no system time-zone database: adapters must load with tzdata alone.
       - name: Offline tests on Windows
         run: uv run pytest tests/test_registry.py -q
       - name: Install Inno Setup
