@@ -3,13 +3,9 @@
 from urllib.parse import quote
 
 from world_legal_mcp import server
-from world_legal_mcp.jurisdictions.et import Ethiopia, eth_num
+from world_legal_mcp.jurisdictions.et import Ethiopia
 
 LAW = Ethiopia.samples["law_id"]
-
-
-def test_et_ethiopic_numerals():
-    assert [eth_num(x) for x in ("፩", "፲፪", "፷፪", "፩፻፹፫")] == [1, 12, 62, 183]
 
 
 async def test_et_search_by_number_and_type_filter():

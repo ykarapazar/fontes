@@ -26,4 +26,4 @@ async def test_hk_basic_law_articles_en_and_zh():
 
 async def test_hk_toc_has_schedule_paths():
     out = await server.get_legislation_toc("hk", "cap622", keyword="Schedule 2")
-    assert 'provision "sch2"' in out or '"sch2"' in out
+    assert '"sch2"' in out, out

@@ -58,3 +58,7 @@ def test_english_query_gets_amharic_hint(monkeypatch):
     monkeypatch.setattr(_http, "get", fake)
     res = asyncio.run(et.Ethiopia().search_legislation("investment", limit=5, page=1, filters={}))
     assert res.items == [] and "Amharic" in res.note and "1180/2012" in res.note
+
+
+def test_ethiopic_numerals():
+    assert [et.eth_num(x) for x in ("፩", "፲፪", "፷፪", "፩፻፹፫")] == [1, 12, 62, 183]

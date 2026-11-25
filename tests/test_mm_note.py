@@ -28,3 +28,7 @@ def test_english_zero_hit_note_mentions_burmese(monkeypatch):
     assert "Burmese" in r.note and "အာမခံ" in r.note
     r = asyncio.run(mm.Myanmar().search_caselaw("အာမခံ", limit=5, page=1, filters={}))
     assert "No match for this English query" not in r.note
+
+
+def test_label_variants():
+    assert [mm._label(x) for x in ("9", "Section 9", "s. 35a", "ပုဒ်မ ၉", "၉။")] == ["9", "9", "35A", "9", "9"]

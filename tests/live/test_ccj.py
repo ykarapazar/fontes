@@ -20,7 +20,7 @@ async def test_ccj_judgment_text_and_other_documents():
     assert "MYRIE" in out and "2013-10-04" in out and "ccj.org/wp-content/uploads" in out, out[:800]
     assert "[2013] CCJ 3 (OJ)#2" in out           # executive summary listed as another document
     summary = await server.get_decision("ccj", "[2013] CCJ 3 (OJ)#2", max_chars=2000)
-    assert "Myrie" in summary or "MYRIE" in summary
+    assert "myrie" in summary.lower(), summary
 
 
 async def test_ccj_typo_citation_and_errors():

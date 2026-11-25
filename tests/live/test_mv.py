@@ -1,9 +1,5 @@
 """Live checks for the Maldives adapter (MvLaw, Dhivehi legislation)."""
-import pytest
-
 from world_legal_mcp import server
-
-pytestmark = pytest.mark.asyncio
 
 
 async def test_mv_provision_labels_ids_and_errors():

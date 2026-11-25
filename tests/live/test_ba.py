@@ -52,4 +52,4 @@ async def test_ba_state_consolidated_act_provision():
     out = await server.search_legislation("ba", "zakon o strancima", limit=5, filters={"level": "state"})
     assert "pa/1210" in out, out
     out = await server.get_legislation_provision("ba", "pa/1210", "Član 1")
-    assert "Ovim zakonom" in out or "Ovim Zakonom" in out, out
+    assert "ovim zakonom" in out.lower(), out

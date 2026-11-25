@@ -2,14 +2,10 @@
 (unionsupremecourt.gov.mm, PDFs) and law-report rulings from its RCMS (rcms.usc.gov.mm, needs the
 OS trust store: fails on Linux). Needs network. Throttled to one request per second."""
 from world_legal_mcp import server
-from world_legal_mcp.jurisdictions.mm import Myanmar, _label
+from world_legal_mcp.jurisdictions.mm import Myanmar
 
 CPC = Myanmar.samples["law_id"]
 CRPC = "1783905167-mm-6a543b8fb81bf-THE-CODE-OF-CRIMINAL-PROCEDURE.pdf"
-
-
-def test_mm_label_variants():
-    assert [_label(x) for x in ("9", "Section 9", "s. 35a", "ပုဒ်မ ၉", "၉။")] == ["9", "9", "35A", "9", "9"]
 
 
 async def test_mm_search_type_filter_and_file_name_words():
