@@ -15,6 +15,9 @@ class _J(Jurisdiction):
     async def get_legislation_toc(self, id):
         ...
 
+    async def get_legislation_text(self, id):
+        ...
+
 
 def _toc(*titles_provs):
     return Toc("i", "Code", "https://u", [TocEntry(t, 0, p) for t, p in titles_provs])
@@ -53,7 +56,7 @@ def test_per_hit_flags():
     r = render.caselaw_results(j, "q", Results([DecisionHit("a", "T", has_text=False)], total=1), limit=5, page_no=1)
     assert "get_decision" not in r
     r = render.legislation_results(j, "q", Results([LawHit("a", "T", has_toc=False)], total=1), limit=5, page_no=1)
-    assert "Contents:" not in r
+    assert "Contents:" not in r and 'get_legislation_text("' in r   # the id must still be shown
     r = render.legislation_results(j, "q", Results([LawHit("a", "T")], total=1), limit=5, page_no=1)
     assert "Contents:" in r
 

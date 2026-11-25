@@ -130,6 +130,8 @@ def legislation_results(j: Jurisdiction, query: str, r: Results, *, limit: int, 
                        ("Status", h.status), ("Source", h.url)])
         if h.has_toc and j.supports("get_legislation_toc"):
             out.append(f'- Contents: get_legislation_toc("{j.code}", "{h.id}")')
+        elif j.supports("get_legislation_text"):
+            out.append(f'- Text: get_legislation_text("{j.code}", "{h.id}")')
         if h.snippet:
             out.append(f"> {h.snippet}")
     return "\n".join(out)
