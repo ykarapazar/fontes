@@ -324,7 +324,7 @@ class Taiwan(Jurisdiction):
         "caselaw_query": "侵權行為 損害賠償",
         "decision_id": "TPSV,95,台上,1,20060105",
         "law_id": "B0000001",
-        "provision": "第 184 條",
+        "provision": "第184條",
     }
 
     async def search_caselaw(self, query, *, limit, page, filters):
