@@ -16,3 +16,4 @@ research/health/*T*Z.json
 
 # brand font for scripts/brand/gen_brand.py (SIL OFL, download it; see that script)
 scripts/brand/fonts/
+installer/windows/privacy-languages.txt

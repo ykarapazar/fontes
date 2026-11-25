@@ -33,6 +33,8 @@ jobs:
           ver=$(sed -n 's/^version = "\(.*\)"/\1/p' pyproject.toml | head -1)
           echo "VER=$ver" >> "$GITHUB_ENV"
           cd installer/windows
+          # translated privacy notices, for fontes_i18n.privacy_url (as build.sh does for macOS)
+          (cd ../../docs/i18n && for f in */PRIVACY.md; do echo "${f%/PRIVACY.md}"; done) > privacy-languages.txt
           "/c/Program Files (x86)/Inno Setup 6/ISCC.exe" "//DAppVersion=$ver" fontes.iss
       - uses: actions/upload-artifact@v7
         with:
