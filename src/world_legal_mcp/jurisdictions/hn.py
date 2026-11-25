@@ -35,13 +35,13 @@ Gotchas this code encodes (verified 2026-11-06 from a UK IP):
 from __future__ import annotations
 
 import re
-import unicodedata
 from urllib.parse import parse_qs, urljoin, urlsplit
 
 from lxml import html as lhtml
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import article_key as _key, fold_marks as _fold
 from ..models import LawHit, LawText, Provision, Results, Toc, TocEntry
 
 HOST = "https://www.tsc.gob.hn"
@@ -63,10 +63,6 @@ _MONTHS = {m: i for i, m in enumerate(("enero", "febrero", "marzo", "abril", "ma
                                        "septiembre", "octubre", "noviembre", "diciembre"), 1)}
 _MONTHS["setiembre"] = 9
 _cache: dict[str, dict] = {}
-
-
-def _fold(s: str) -> str:
-    return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
 
 
 def _url(id: str) -> str:
@@ -158,13 +154,6 @@ def _articles(text: str) -> list[tuple[str, int, int]]:
             out.append((str(n), pos))
             last = n
     return [(lab, pos, out[k + 1][1] if k + 1 < len(out) else len(text)) for k, (lab, pos) in enumerate(out)]
-
-
-def _key(label: str) -> str:
-    s = _http.clean(label).lower().replace("º", "").replace("°", "")
-    s = re.sub(r"^(art[ií]culo|art\.?)\s*", "", s).strip(" .-")
-    m = re.fullmatch(r"(\d+)\s*-?\s*([a-z]*)", s)
-    return f"{int(m[1])} {m[2]}".strip() if m else s
 
 
 def _number(s: str) -> tuple[str, str]:

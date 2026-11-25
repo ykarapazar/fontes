@@ -41,7 +41,6 @@ import io
 import re
 import struct
 import time
-import unicodedata
 import zipfile
 from urllib.parse import urlencode
 
@@ -49,6 +48,7 @@ from lxml import etree
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_ascii as _fold
 from ..models import Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc, TocEntry
 
 QBZ = "https://qbz.gov.al"
@@ -394,10 +394,6 @@ def _snippet(s: str) -> str:
     s = s.replace("&#x2F;", "/").replace("&quot;", '"').replace("&#x27;", "'").replace("&#39;", "'")
     s = s.replace("&lt;", "<").replace("&gt;", ">").replace("&amp;", "&")
     return _http.clean(s)
-
-
-def _fold(s: str) -> str:
-    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
 
 
 _RANK_WINDOW = 100

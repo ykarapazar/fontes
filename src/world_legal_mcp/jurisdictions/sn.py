@@ -59,13 +59,13 @@ from __future__ import annotations
 
 import re
 import time
-import unicodedata
 from urllib.parse import quote, unquote, urljoin
 
 from lxml import html as lxml_html
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_ascii_ws as _fold
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -104,11 +104,6 @@ _HEAD = re.compile(r"^\*\*\s*((?:TITRE|CHAPITRE|SECTION|LIVRE|PREAMBULE|PRÉAMBU
 
 _lists: dict = {}       # "all" -> (monotonic time, [LawHit])
 _docs: dict = {}        # law id -> (title, url, md, as_of, metadata)
-
-
-def _fold(s: str) -> str:
-    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode()
-    return re.sub(r"\s+", " ", s).strip().lower()
 
 
 def _fr_date(s: str) -> str:

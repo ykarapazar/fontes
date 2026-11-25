@@ -29,6 +29,7 @@ import re
 import ssl
 import sys
 import time
+import unicodedata
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -36,6 +37,8 @@ import httpx
 import truststore
 from lxml import etree
 from markdownify import markdownify as _md
+
+from .base import BadRequest, NotFound, SourceError
 
 try:
     from importlib.metadata import version as _version
@@ -300,3 +303,56 @@ def lru_put(cache: dict, key, value, size: int):
     while len(cache) > size:
         cache.pop(next(iter(cache)))
     return value
+
+
+# --- small helpers several adapters had copied word for word ---
+_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def fold_marks(s: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
+
+
+def fold_ascii(s: str) -> str:
+    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+
+
+def fold_combining(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s.lower())
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
+def fold_ascii_ws(s: str) -> str:
+    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode()
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+async def get_or_raise(url: str, what: str, **kw):
+    try:
+        r = await get(url, **kw)
+    except Exception as e:  # network error
+        raise SourceError(f"{what}: {e}", "network") from e
+    if r.status_code == 404:
+        raise NotFound(f"{what}: not found")
+    if r.status_code != 200:
+        raise SourceError(f"{what} failed", r.status_code)
+    return r
+
+
+def article_key(label: str) -> str:
+    s = clean(label).lower().replace("º", "").replace("°", "")
+    s = re.sub(r"^(art[ií]culo|art\.?)\s*", "", s).strip(" .-")
+    m = re.fullmatch(r"(\d+)\s*-?\s*([a-z]*)", s)
+    return f"{int(m[1])} {m[2]}".strip() if m else s
+
+
+def check_date(name: str, v: str) -> str:
+    if not _ISO_DATE.match(v or ""):
+        raise BadRequest(f"filter {name}={v!r}: use YYYY-MM-DD, e.g. 2020-01-31.")
+    return v
+
+
+def require_iso(v, name: str) -> str:
+    if not _ISO_DATE.match(str(v)):
+        raise BadRequest(f"{name} must be YYYY-MM-DD, got {v!r}")
+    return str(v)

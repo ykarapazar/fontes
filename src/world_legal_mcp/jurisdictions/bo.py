@@ -46,13 +46,13 @@ Gotchas this code encodes (verified 2026-11-06 from a UK IP):
 from __future__ import annotations
 
 import re
-import unicodedata
 from urllib.parse import urlencode
 
 import httpx
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_marks as _fold
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -334,10 +334,6 @@ _DISP = re.compile(r"^DISPOSICI(?:O|Ó)N(?:ES)?\s+(TRANSITORIAS?|FINAL(?:ES)?|AD
 _ORD = re.compile(r"^(PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA|SEXTA|S[EÉ]PTIMA|OCTAVA|NOVENA|D[EÉ]CIMA"
                   r"(?:\s+(?:PRIMERA|SEGUNDA|TERCERA|CUARTA|QUINTA|SEXTA|S[EÉ]PTIMA|OCTAVA|NOVENA))?|"
                   r"[UÚ]NICA)\s*[.\-–(]", re.I)
-
-
-def _fold(s: str) -> str:
-    return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
 
 
 def _singular(s: str) -> str:

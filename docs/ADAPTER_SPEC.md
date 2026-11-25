@@ -90,7 +90,10 @@ kind, the adapter must skip the gated source itself unless `j.code in permitted_
   `html_to_md` / `html_paragraphs` (HTML to clean markdown, layout tables flattened),
   `iso_date` (day-first or ISO dates to `YYYY-MM-DD`), `en_date` ('July 8, 2016' to
   `YYYY-MM-DD`), `pdf_text` (text-layer PDF to cleaned lines, pages split by a blank line), `lru_put` (small bounded in-memory
-  cache), `text` / `localname` (lxml), `page`, `today` (ISO date for "as of"). Use them instead of writing your own.
+  cache), `text` / `localname` (lxml), `today` (ISO date for "as of"), `get_or_raise` (GET with
+  404 → NotFound), `check_date` / `require_iso` (reject non-`YYYY-MM-DD` input), `article_key`
+  (Spanish 'Artículo 5 bis' → '5 bis'), `fold_marks` / `fold_combining` / `fold_ascii` /
+  `fold_ascii_ws` (accent folding). Use them instead of writing your own.
 - Anything else you need goes in your own file. Note it in your report so it can be
   promoted later.
 

@@ -39,6 +39,7 @@ from urllib.parse import parse_qs, urlsplit
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import require_iso as _date
 from ..models import (
     Decision,
     DecisionHit,
@@ -62,7 +63,6 @@ _COURTS = {
     "vdss": "Višje delovno in socialno sodišče (Higher Labour and Social Court)",
     "uprs": "Upravno sodišče RS (Administrative Court)",
 }
-_ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _FIELDS = ["id", "ecli", "date", "sessionDate", "ordinalNumber", "court", "documentType",
            "coreText"]
 _LAW_ID = re.compile(r"^[A-Z]{4}\d+$")
@@ -87,12 +87,6 @@ async def _json(method: str, url: str, what: str, **kw):
         return r.json()
     except ValueError as e:
         raise SourceError(f"{what}: unexpected non-JSON reply", r.status_code) from e
-
-
-def _date(v, name: str) -> str:
-    if not _ISO.match(str(v)):
-        raise BadRequest(f"{name} must be YYYY-MM-DD, got {v!r}")
-    return str(v)
 
 
 # --------------------------------------------------------------------------- #

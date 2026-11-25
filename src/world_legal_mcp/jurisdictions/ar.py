@@ -38,10 +38,10 @@ from __future__ import annotations
 import datetime
 import json
 import re
-import unicodedata
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_ascii as _fold
 from ..models import LawHit, LawText, Provision, Results, Toc, TocEntry
 
 HOST = "https://www.argentina.gob.ar"
@@ -68,10 +68,6 @@ _ALIASES = {"proteccion datos personales": "25326"}
 
 _laws: dict[str, dict] = {}
 _index: list[LawHit] = []
-
-
-def _fold(s: str) -> str:
-    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
 
 
 def _plain(p: str) -> str:

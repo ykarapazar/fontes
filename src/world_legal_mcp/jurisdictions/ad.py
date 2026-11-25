@@ -46,6 +46,7 @@ from lxml import etree, html
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import check_date as _check_date
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -74,7 +75,6 @@ _TABS = {"1": ("llei", "in force"), "2": ("reglament", "in force"),
 
 _MONTHS = {m: i for i, m in enumerate(("gener", "febrer", "març", "abril", "maig", "juny", "juliol",
                                        "agost", "setembre", "octubre", "novembre", "desembre"), 1)}
-_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _LAW_ID = re.compile(r"^[LR]\d{7}(?:\d[A-Z])?$")
 _NID = re.compile(r"^\d{1,7}$")
 
@@ -94,12 +94,6 @@ def cat_date(s: str, year: str = "") -> str:
         return ""
     y, mo, d = int(m[3] or year), _MONTHS[m[2].lower()], int(m[1])
     return f"{y:04d}-{mo:02d}-{d:02d}" if 1 <= d <= 31 else ""
-
-
-def _check_date(name: str, v: str) -> str:
-    if not _DATE.match(v or ""):
-        raise BadRequest(f"filter {name}={v!r}: use YYYY-MM-DD, e.g. 2020-01-31.")
-    return v
 
 
 async def _get(url: str, what: str):

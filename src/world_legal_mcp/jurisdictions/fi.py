@@ -40,6 +40,7 @@ from lxml import etree
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import get_or_raise as _get
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -56,18 +57,6 @@ _LANGS = {"fin": ("fi", "lainsaadanto"), "swe": ("sv", "lagstiftning")}
 # --------------------------------------------------------------------------- #
 # HTTP
 # --------------------------------------------------------------------------- #
-async def _get(url: str, what: str, **kw):
-    try:
-        r = await _http.get(url, **kw)
-    except Exception as e:  # network error
-        raise SourceError(f"{what}: {e}", "network") from e
-    if r.status_code == 404:
-        raise NotFound(f"{what}: not found")
-    if r.status_code != 200:
-        raise SourceError(f"{what} failed", r.status_code)
-    return r
-
-
 # --------------------------------------------------------------------------- #
 # Legislation
 # --------------------------------------------------------------------------- #

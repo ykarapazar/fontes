@@ -43,7 +43,6 @@ Not used (2026-11-06):
 from __future__ import annotations
 
 import re
-import unicodedata
 from urllib.parse import unquote
 
 import httpx
@@ -51,6 +50,7 @@ from lxml import html as lhtml
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_marks as _fold
 from ..models import LawHit, LawText, Provision, Results, Toc, TocEntry
 
 HOST = "www.minjus.gob.cu"
@@ -98,10 +98,6 @@ _PARA_START = re.compile(r"^(?:POR CUANTO|POR TANTO|RESUELVO|HAGO SABER|[a-zñ]\
 _list_cache: dict = {}
 _doc_cache: dict = {}
 _page_cache: dict = {}
-
-
-def _fold(s: str) -> str:
-    return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
 
 
 def _norm_id(raw: str) -> str:

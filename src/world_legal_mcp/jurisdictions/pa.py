@@ -32,6 +32,7 @@ import unicodedata
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import article_key as _key
 from ..models import Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc, TocEntry
 
 HOST = "https://legispan.asamblea.gob.pa"
@@ -149,13 +150,6 @@ def _articles(text: str) -> list[tuple[str, int, int]]:
             out.append((str(n), pos))
             last = n
     return [(lab, pos, out[k + 1][1] if k + 1 < len(out) else len(text)) for k, (lab, pos) in enumerate(out)]
-
-
-def _key(label: str) -> str:
-    s = _http.clean(label).lower().replace("º", "").replace("°", "")
-    s = re.sub(r"^(art[ií]culo|art\.?)\s*", "", s).strip(" .-")
-    m = re.fullmatch(r"(\d+)\s*-?\s*([a-z]*)", s)
-    return f"{int(m[1])} {m[2]}".strip() if m else s
 
 
 async def _record(id: str) -> dict:

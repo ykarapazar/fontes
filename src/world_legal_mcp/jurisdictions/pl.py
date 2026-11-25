@@ -33,6 +33,7 @@ from lxml import html as lhtml
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import require_iso as _date
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -76,12 +77,6 @@ async def _json(url: str, what: str, **kw):
         return r.json()
     except ValueError as e:
         raise SourceError(f"{what}: unexpected non-JSON reply (WAF block page?)", r.status_code) from e
-
-
-def _date(v, name: str) -> str:
-    if not _ISO.match(str(v)):
-        raise BadRequest(f"{name} must be YYYY-MM-DD, got {v!r}")
-    return str(v)
 
 
 # --------------------------------------------------------------------------- #

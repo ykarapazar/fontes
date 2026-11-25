@@ -27,6 +27,7 @@ from lxml import html as lhtml
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import get_or_raise as _get
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -43,18 +44,6 @@ _ECLI = re.compile(r"^ECLI:SK:NSSR:\d{4}:[\w.]+$", re.I)
 # structural units -> markdown heading level; provision units; everything else is body
 _STRUCT = {"cast": 2, "hlava": 2, "diel": 3, "oddiel": 3, "pododdiel": 3, "skupinaParagrafov": 4}
 _PROV = ("paragraf", "clanok", "ustavnyclanok")
-
-
-async def _get(url: str, what: str, **kw):
-    try:
-        r = await _http.get(url, **kw)
-    except Exception as e:  # network error
-        raise SourceError(f"{what}: {e}", "network") from e
-    if r.status_code == 404:
-        raise NotFound(f"{what}: not found")
-    if r.status_code != 200:
-        raise SourceError(f"{what} failed", r.status_code)
-    return r
 
 
 async def _json(url: str, what: str, **kw):

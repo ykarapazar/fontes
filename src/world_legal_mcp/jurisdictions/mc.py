@@ -32,6 +32,7 @@ from lxml import etree, html
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import check_date as _check_date
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -136,12 +137,6 @@ def _snippet(hit: dict) -> str:
 def _iso(s) -> str:
     s = str(s or "")
     return s[:10] if _DATE.match(s[:10]) else ""
-
-
-def _check_date(name: str, v: str) -> str:
-    if not _DATE.match(v or ""):
-        raise BadRequest(f"filter {name}={v!r}: use YYYY-MM-DD, e.g. 2020-01-31.")
-    return v
 
 
 async def _page(pid: str) -> html.HtmlElement:

@@ -27,6 +27,7 @@ from urllib.parse import quote
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import require_iso as _date
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -52,7 +53,6 @@ _FORMS = {"referat": "REFERAT", "dom": "DOM_ELLER_BESLUT", "notis": "NOTIS"}
 _TYPES = {"prejudikat": "PREJUDIKAT", "vagledande": "VAGLEDANDE_MEN_EJ_PREJUDICERANDE",
           "ej_vagledande": "EJ_VAGLEDANDE", "provningstillstand": "PROVNINGSTILLSTAND",
           "forhandsavgorande": "FORHANDSAVGORANDE"}
-_ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 _SFS = re.compile(r"^\d{4}:\d+$")
 # a case-report citation: 'NJA 2024:33', 'NJA 2024 s. 386', 'HFD 2020 ref. 5', 'AD 2019 nr 12'
@@ -105,12 +105,6 @@ def _hit(p: dict) -> DecisionHit:
                        date=p.get("avgorandedatum") or "",
                        case_number=", ".join(p.get("malNummerLista") or []),
                        snippet=_http.clean(p.get("sammanfattning"))[:300], url=_url(p))
-
-
-def _date(v, name: str) -> str:
-    if not _ISO.match(str(v)):
-        raise BadRequest(f"{name} must be YYYY-MM-DD, got {v!r}")
-    return str(v)
 
 
 def _choice(v, table: dict, name: str) -> str:

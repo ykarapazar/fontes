@@ -40,12 +40,12 @@ from __future__ import annotations
 import io
 import re
 import time
-import unicodedata
 from html import unescape
 from urllib.parse import urlencode
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_ascii_ws as _fold
 from ..models import (Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc,
                       TocEntry)
 
@@ -71,11 +71,6 @@ _NATURES = ("Arrêté", "Arrêté de wali", "Arrêté inter", "Avis", "Barème",
             "Proclamation", "Rapport", "Règlement", "Résolution")
 _C1 = str.maketrans({"\x97": "—", "\x96": "–", "\x92": "’", "\x9c": "œ"})   # cp1252 leftovers
 _GLYPHS = str.maketrans({"Ø": "é", "Ł": "è", "Œ": "ê", "ø": "ù", "ß": "û", "˙": "Ç"})
-
-
-def _fold(s: str) -> str:
-    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode()
-    return re.sub(r"\s+", " ", s).strip().lower()
 
 
 def _fr_date(s: str) -> str:

@@ -34,10 +34,10 @@ from __future__ import annotations
 
 import html
 import re
-import unicodedata
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_combining as _fold
 from ..models import LawHit, LawText, Provision, Results, Toc, TocEntry
 
 HOST = "cspj.ht"
@@ -61,11 +61,6 @@ _ART = re.compile(r"^(?:Article|ARTICLE|Art)[\s.\-]*"
 _HEAD = re.compile(r"^(LIVRE|TITRE|CHAPITRE|SECTION|Livre|Titre|Chapitre|Section)\b")
 _HEAD_LEVEL = {"livre": 0, "titre": 0, "chapitre": 1, "section": 2}
 _cache: dict = {}
-
-
-def _fold(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s.lower())
-    return "".join(c for c in s if not unicodedata.combining(c))
 
 
 def fr_date(s: str) -> str:

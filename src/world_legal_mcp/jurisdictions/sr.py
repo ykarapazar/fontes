@@ -28,12 +28,12 @@ from __future__ import annotations
 import calendar
 import html as htmllib
 import re
-import unicodedata
 
 from lxml import html as lhtml
 
 from .. import _http
 from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
+from .._http import fold_combining as _fold
 from ..models import Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc, TocEntry
 
 RS_HOST = "rechtspraak.sr"
@@ -80,11 +80,6 @@ def _nl_date(s: str) -> str:
 
 def _dash(s: str) -> str:
     return re.sub(r"[\u2010-\u2015\u2212]", "-", s)
-
-
-def _fold(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s.lower())
-    return "".join(c for c in s if not unicodedata.combining(c))
 
 
 def _check_filters(filters, allowed) -> dict:
