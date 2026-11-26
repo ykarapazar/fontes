@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
+<link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
+<title>Myanmar: case law and legislation for your AI app | Fontes</title>
+<meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up Myanmar case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<link rel="canonical" href="https://ykarapazar.github.io/fontes/law/mm/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Myanmar: case law and legislation for your AI app | Fontes">
+<meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up Myanmar case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<meta property="og:url" content="https://ykarapazar.github.io/fontes/law/mm/">
+<meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mute:#5f5f5f;--line:#e5e5e5;--card:#f6f6f6;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}}
+:root[data-theme="dark"]{--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px}
+p,li{max-width:65ch}a{color:var(--link)}a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.lead{font-size:18px;color:var(--fg)}.mute{color:var(--mute)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px;overflow-x:auto;font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+nav ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 20px}
+.note{border-left:3px solid var(--line);padding:4px 12px;color:var(--mute)}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-size:14px;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<p class="mute"><a href="../../">Fontes</a> / <a href="../../law/">Coverage by jurisdiction</a></p>
+
+<h1>Myanmar: case law and legislation for your AI app</h1>
+<p class="lead">Fontes lets your AI app search Myanmar case law and legislation at the source and link every result to the original. It is a free, open-source MCP server for Claude Desktop, Claude Code, Codex, Cursor, VS Code and other apps.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.unionsupremecourt.gov.mm/laws">Supreme Court of the Union: laws, procedures and amending laws (unionsupremecourt.gov.mm)</a>: legislation</li>
+<li><a href="https://rcms.usc.gov.mm/precedents">Supreme Court of the Union: Rulings and Case Management System (rcms.usc.gov.mm)</a>: case law</li>
+</ul>
+<h2>What it covers</h2>
+<p>Case law: ~6,900 law-report rulings (Supreme Court and predecessors, 1920s to 2022; English before independence, Burmese after) as Unicode text, from the court&#x27;s RCMS. Laws: a small selection (~30) of laws, court procedures and amending laws posted by the Supreme Court, incl. the Code of Civil Procedure and Code of Criminal Procedure in English. No full statute book is reachable (MLIS offline, Hluttaw JavaScript-only).</p>
+<h2>What it does not cover</h2>
+<ul>
+<li>Full statute book (Myanmar Law Information System, mlis.gov.mm): site down / unreachable (timeout, 2026-11-06)</li>
+<li>Parliament laws (pyidaungsu.hluttaw.mm): JavaScript-only site with no server-rendered content; not built</li>
+<li>Rulings after Dec 2022: none published; the court&#x27;s own law-report list (unionsupremecourt.gov.mm/ruling) ends with the 2022 volume and RCMS likewise (checked 2026-11-10)</li>
+<li>Unreported Supreme Court commercial judgments (Commercial Judgment System, cjs.usc.gov.mm: 148 of ~316, up to 2026): recent ones scans only, older text garbled (checked 2026-11-10); not built</li>
+<li>Burmese laws in legacy-font PDFs: broken text layer, refused (no usable text)</li>
+</ul>
+<h2>Questions to try</h2>
+<p>Ask in any language; the search words work best in the language of the source.</p>
+<ul>
+<li><em>Find Myanmar case law on ပဋိညာဉ်</em></li>
+<li><em>Find Myanmar legislation: procedure</em></li>
+</ul>
+<h2>Install</h2>
+<p>Claude Code: <code>claude mcp add fontes -- uvx fontes-mcp</code>. Codex: <code>codex mcp add fontes -- uvx fontes-mcp</code>. Claude Desktop and one-click installers for Mac and Windows: the <a href="https://github.com/ykarapazar/fontes/releases/latest">latest release</a>. Other apps: the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/INSTALL.md">installation guide</a>.</p>
+<p class="mute">Jurisdiction code: <code>mm</code>. Whether each source is working today: <a href="../../status/">source status</a>, checked daily.</p>
+<footer>
+<p>Fontes is a research aid, not legal advice. Read the full decision or provision at the source before you rely on it.</p>
+</footer>
+</main>
+</body>
+</html>

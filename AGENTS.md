@@ -34,6 +34,7 @@ folder. A live failure can be the source changing; check it with the code from b
 | `plugin/`, `.claude-plugin/marketplace.json`, versions in `server.json` | `scripts/plugin_bundle.py` |
 | `docs/HEALTH.md`, `docs/status/`, `research/health/*.json` | `health.yml` (daily, commits to main) |
 | `research/languages.json` | `scripts/languages.py` |
+| `docs/law/` (one page per jurisdiction), `docs/sitemap.xml` | `scripts/country_pages.py` |
 
 The version lives in `pyproject.toml`; `uv run python scripts/plugin_bundle.py` copies it on.
 

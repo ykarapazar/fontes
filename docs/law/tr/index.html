@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
+<link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
+<title>Türkiye: case law and legislation for your AI app | Fontes</title>
+<meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up Türkiye case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<link rel="canonical" href="https://ykarapazar.github.io/fontes/law/tr/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Türkiye: case law and legislation for your AI app | Fontes">
+<meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up Türkiye case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<meta property="og:url" content="https://ykarapazar.github.io/fontes/law/tr/">
+<meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mute:#5f5f5f;--line:#e5e5e5;--card:#f6f6f6;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}}
+:root[data-theme="dark"]{--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px}
+p,li{max-width:65ch}a{color:var(--link)}a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.lead{font-size:18px;color:var(--fg)}.mute{color:var(--mute)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px;overflow-x:auto;font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+nav ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 20px}
+.note{border-left:3px solid var(--line);padding:4px 12px;color:var(--mute)}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-size:14px;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<p class="mute"><a href="../../">Fontes</a> / <a href="../../law/">Coverage by jurisdiction</a></p>
+
+<h1>Türkiye: case law and legislation for your AI app</h1>
+<p class="lead">Fontes lets your AI app search Türkiye case law and legislation at the source and link every result to the original. It is a free, open-source MCP server for Claude Desktop, Claude Code, Codex, Cursor, VS Code and other apps.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://mevzuat.adalet.gov.tr">Bedesten (Adalet Bakanlığı, mevzuat.adalet.gov.tr backend)</a>: case law and legislation</li>
+<li><a href="https://kararlarbilgibankasi.anayasa.gov.tr">Anayasa Mahkemesi Kararlar Bilgi Bankası</a>: case law</li>
+<li><a href="https://kararlar.uyusmazlik.gov.tr">Uyuşmazlık Mahkemesi Karar Arama</a>: case law</li>
+<li><a href="https://www.sayistay.gov.tr/KararlarDaire">Sayıştay Kararlar (Genel Kurul, Temyiz Kurulu, Daire)</a>: case law</li>
+<li><a href="https://www.rekabet.gov.tr/tr/Kararlar">Rekabet Kurumu Kurul Kararı Arama</a>: case law</li>
+<li><a href="https://gib.gov.tr/mevzuat/ozelgeler">Gelir İdaresi Başkanlığı Özelgeler</a>: case law</li>
+</ul>
+<h2>What it covers</h2>
+<p>Yargıtay, Danıştay, BAM civil chambers, first-instance civil and AYM decisions (AYM norm review is read from normkararlarbilgibankasi.anayasa.gov.tr, same terms as the individual-application bank), plus Uyuşmazlık Mahkemesi, Sayıştay, Rekabet Kurulu and GİB özelge banks (court=...); consolidated legislation with per-article text. Quote multi-word phrases: unquoted words are OR-ed. Bedesten is slow on purpose (3.5 s between requests); an Uyuşmazlık text search takes ~20 s server-side and sometimes over 60 s (2026-11-10). Newest Yargıtay data lags ~5 weeks (2026-11-07).</p>
+<h2>What it does not cover</h2>
+<ul>
+<li>Yargıtay decisions from the last ~5 weeks: not yet in Bedesten (source lag, 2026-11-07)</li>
+<li>KİK (public procurement board) decisions: ekapv2.kik.gov.tr API requires AES-signed request headers (anti-automation); not built</li>
+<li>BTK board decisions: the only search is www.btk.tr/api/, which robots.txt disallows for all user agents</li>
+<li>BDDK board decisions, Sigorta Tahkim Komisyonu awards: no official search endpoint (yargi-mcp uses a third-party web-search API); not built</li>
+<li>Yargıtay Karar Arama (karararama.yargitay.gov.tr), which could fill the Bedesten lag: connection times out from a UK IP (2026-11-10)</li>
+<li>Resmî Gazete (as-published texts, daily index): source exists (HTML only) but not built yet</li>
+<li>KVKK decisions: kvkk.gov.tr has no search endpoint (yargi-mcp uses a third-party web-search API); mostly decision summaries; not built</li>
+<li>SPK, EPDK, RTÜK, BDDK and Ombudsman decisions: not researched yet</li>
+<li>Professional-body rules never published in the Resmî Gazete, e.g. the TBB Meslek Kuralları (Türkiye Barolar Birliği): not in Bedesten (no title match, 2026-11-11); the TBB publishes them itself</li>
+<li>Regional administrative courts (Bölge İdare Mahkemeleri): not researched yet (Bedesten item types unverified)</li>
+<li>Regional appeal criminal chambers (BAM ceza daireleri) and first-instance criminal courts: no Bedesten item type queried (only ISTINAFHUKUK and YERELHUKUK, civil)</li>
+</ul>
+<h2>Questions to try</h2>
+<p>Ask in any language; the search words work best in the language of the source.</p>
+<ul>
+<li><em>Find Türkiye case law on kira tespiti</em></li>
+<li><em>Find Türkiye legislation: borçlar kanunu</em></li>
+</ul>
+<h2>Install</h2>
+<p>Claude Code: <code>claude mcp add fontes -- uvx fontes-mcp</code>. Codex: <code>codex mcp add fontes -- uvx fontes-mcp</code>. Claude Desktop and one-click installers for Mac and Windows: the <a href="https://github.com/ykarapazar/fontes/releases/latest">latest release</a>. Other apps: the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/INSTALL.md">installation guide</a>.</p>
+<p class="mute">Jurisdiction code: <code>tr</code>. Whether each source is working today: <a href="../../status/">source status</a>, checked daily.</p>
+<footer>
+<p>Fontes is a research aid, not legal advice. Read the full decision or provision at the source before you rely on it.</p>
+</footer>
+</main>
+</body>
+</html>

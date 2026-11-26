@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
+<link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
+<title>Mauritius: case law and legislation for your AI app | Fontes</title>
+<meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up Mauritius case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<link rel="canonical" href="https://ykarapazar.github.io/fontes/law/mu/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mauritius: case law and legislation for your AI app | Fontes">
+<meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up Mauritius case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<meta property="og:url" content="https://ykarapazar.github.io/fontes/law/mu/">
+<meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mute:#5f5f5f;--line:#e5e5e5;--card:#f6f6f6;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}}
+:root[data-theme="dark"]{--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px}
+p,li{max-width:65ch}a{color:var(--link)}a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.lead{font-size:18px;color:var(--fg)}.mute{color:var(--mute)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px;overflow-x:auto;font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+nav ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 20px}
+.note{border-left:3px solid var(--line);padding:4px 12px;color:var(--mute)}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-size:14px;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<p class="mute"><a href="../../">Fontes</a> / <a href="../../law/">Coverage by jurisdiction</a></p>
+
+<h1>Mauritius: case law and legislation for your AI app</h1>
+<p class="lead">Fontes lets your AI app search Mauritius case law and legislation at the source and link every result to the original. It is a free, open-source MCP server for Claude Desktop, Claude Code, Codex, Cursor, VS Code and other apps.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://caselaw.nationalarchives.gov.uk">Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments</a>: case law</li>
+<li><a href="https://supremecourt.govmu.org">Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library</a>: case law and legislation (off unless you hold the publisher's permission)</li>
+<li><a href="https://attorneygeneral.govmu.org/Pages/Laws%20of%20Mauritius/A-Z%20Acts/ActsAZ.aspx">Revised Laws of Mauritius, Attorney General&#x27;s Office (attorneygeneral.govmu.org)</a>: legislation</li>
+<li><a href="https://mauritiusassembly.govmu.org/mauritiusassembly/index.php/acts-2/">National Assembly of Mauritius (mauritiusassembly.govmu.org): Acts as passed</a>: legislation</li>
+</ul>
+<h2>What it covers</h2>
+<p>Case law: Privy Council (final court) judgments in Mauritian appeals, Nov 2009 on, full text, from Find Case Law (UK National Archives); subordinate courts (Intermediate, Industrial, District, Rodrigues, Children&#x27;s Court), 2020 on, OFF by default (the source&#x27;s robots.txt disallows all automated access since 2026-11-10; court=intermediate etc. fail unless the operator holds the Supreme Court&#x27;s permission); no Supreme Court (SCJ) judgments are published online by an allowed source. Legislation: the Constitution and ~660 Acts as consolidated in the Revised Laws of Mauritius (Attorney General&#x27;s Office; updated to June 2017, some later issues); Acts as passed 2009-2023 (National Assembly; 2018 from the AG); Acts, GNs, Bills, Proclamations and Reprints as enacted, 2024 on (Supreme Court library). Amendments after a Revised Laws issue are not merged: read the later amending Acts.</p>
+<h2>What it does not cover</h2>
+<ul>
+<li>Privy Council judgments before Nov 2009: only on BAILII (no API, forbids scraping); Find Case Law&#x27;s UKPC collection starts 2009</li>
+<li>Privy Council country filter is heuristic (Find Case Law has no country field): title &#x27;(Mauritius)&#x27; or header &#x27;From the Supreme Court of Mauritius&#x27;; a judgment with neither is missed (e.g. [2016] UKPC 30, [2015] UKPC 14 &#x27;From the Court of Appeal of Mauritius&#x27;)</li>
+<li>Supreme Court (SCJ) judgments: not published in the site&#x27;s judgment collection (checked 2026-11-06)</li>
+<li>Subordinate-court judgments before 2020: not published online on the site</li>
+<li>Consolidated Acts: the AG&#x27;s Revised Laws stop at 30 June 2017 for most Acts (a few later issues); later amendments are only in the amending Acts as passed; no official up-to-date consolidation online. Whether the AG&#x27;s A-Z list holds every Act in force is unverified (~660 titles); title search only (AG search API returns 500)</li>
+<li>Acts as passed: the National Assembly tables miss some PDFs (rows without links); 2018 Acts from the AG list have no titles (number only); Acts as passed before 2009 not online (their text is in the Revised Laws)</li>
+<li>MauritiusLII judgments: robots.txt disallows /judgments/ and sets Content-Signal ai-input=no</li>
+</ul>
+<h2>Questions to try</h2>
+<p>Ask in any language; the search words work best in the language of the source.</p>
+<ul>
+<li><em>Find Mauritius case law on habeas corpus</em></li>
+<li><em>Find Mauritius legislation: companies</em></li>
+</ul>
+<h2>Install</h2>
+<p>Claude Code: <code>claude mcp add fontes -- uvx fontes-mcp</code>. Codex: <code>codex mcp add fontes -- uvx fontes-mcp</code>. Claude Desktop and one-click installers for Mac and Windows: the <a href="https://github.com/ykarapazar/fontes/releases/latest">latest release</a>. Other apps: the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/INSTALL.md">installation guide</a>.</p>
+<p class="mute">Jurisdiction code: <code>mu</code>. Whether each source is working today: <a href="../../status/">source status</a>, checked daily.</p>
+<footer>
+<p>Fontes is a research aid, not legal advice. Read the full decision or provision at the source before you rely on it.</p>
+</footer>
+</main>
+</body>
+</html>

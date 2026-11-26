@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
+<link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
+<title>Greece: case law and legislation for your AI app | Fontes</title>
+<meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up Greece case law and legislation live from Άρειος Πάγος – Νομολογία (Supreme Civil and Criminal Court), Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government). Free and open source; every result links to the original.">
+<link rel="canonical" href="https://ykarapazar.github.io/fontes/law/gr/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Greece: case law and legislation for your AI app | Fontes">
+<meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up Greece case law and legislation live from Άρειος Πάγος – Νομολογία (Supreme Civil and Criminal Court), Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government). Free and open source; every result links to the original.">
+<meta property="og:url" content="https://ykarapazar.github.io/fontes/law/gr/">
+<meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mute:#5f5f5f;--line:#e5e5e5;--card:#f6f6f6;--link:#0b57d0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}}
+:root[data-theme="dark"]{--bg:#141414;--fg:#ececec;--mute:#a8a8a8;--line:#2c2c2c;--card:#1e1e1e;--link:#8ab4f8}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px}
+p,li{max-width:65ch}a{color:var(--link)}a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.lead{font-size:18px;color:var(--fg)}.mute{color:var(--mute)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px;overflow-x:auto;font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+nav ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 20px}
+.note{border-left:3px solid var(--line);padding:4px 12px;color:var(--mute)}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-size:14px;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<p class="mute"><a href="../../">Fontes</a> / <a href="../../law/">Coverage by jurisdiction</a></p>
+
+<h1>Greece: case law and legislation for your AI app</h1>
+<p class="lead">Fontes lets your AI app search Greece case law and legislation at the source and link every result to the original. It is a free, open-source MCP server for Claude Desktop, Claude Code, Codex, Cursor, VS Code and other apps.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.areiospagos.gr/nomologia/apofaseis.asp">Άρειος Πάγος – Νομολογία (Supreme Civil and Criminal Court)</a>: case law</li>
+<li><a href="https://search.et.gr/el/">Εθνικό Τυπογραφείο – Αναζήτηση ΦΕΚ (Government Gazette, Presidency of the Government)</a>: legislation (off unless you hold the publisher's permission)</li>
+</ul>
+<h2>What it covers</h2>
+<p>Case law: Areios Pagos only (2006 onward, anonymised), searched by number (&#x27;1/2020&#x27;), year (&#x27;2024&#x27;, large), or words matched to the subject index&#x27;s fixed headings (first 3 matching headings; index mostly 2007–2010); no free text. Legislation: ΦΕΚ gazette text as published, NOT consolidated; ids are ΦΕΚ labels (&#x27;Α 137/2019&#x27;), laws also as &#x27;ν. 4624/2019&#x27;. Council of State: bot-challenged, not covered.</p>
+<h2>What it does not cover</h2>
+<ul>
+<li>ΦΕΚ legislation when hosted for others: needs permission (terms: &#x27;personal, informational, non-commercial use&#x27;)</li>
+<li>Council of State (administrative) case law: bot check / blocks our client</li>
+<li>Consolidated legislation: not published online officially (only the ΦΕΚ gazette as published)</li>
+<li>ΦΕΚ issues before ~2000: scans only, no text (no OCR)</li>
+<li>Areios Pagos before 2006, and appeal/first-instance courts: not researched yet</li>
+</ul>
+<h2>Questions to try</h2>
+<p>Ask in any language; the search words work best in the language of the source.</p>
+<ul>
+<li><em>Find Greece case law on Μίσθωση εργασίας</em></li>
+<li><em>Find Greece legislation: Αστικός Κώδικας</em></li>
+</ul>
+<h2>Install</h2>
+<p>Claude Code: <code>claude mcp add fontes -- uvx fontes-mcp</code>. Codex: <code>codex mcp add fontes -- uvx fontes-mcp</code>. Claude Desktop and one-click installers for Mac and Windows: the <a href="https://github.com/ykarapazar/fontes/releases/latest">latest release</a>. Other apps: the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/INSTALL.md">installation guide</a>.</p>
+<p class="mute">Jurisdiction code: <code>gr</code>. Whether each source is working today: <a href="../../status/">source status</a>, checked daily.</p>
+<footer>
+<p>Fontes is a research aid, not legal advice. Read the full decision or provision at the source before you rely on it.</p>
+</footer>
+</main>
+</body>
+</html>
