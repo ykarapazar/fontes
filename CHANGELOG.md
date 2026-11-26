@@ -2,7 +2,7 @@
 
 Plain-language notes for each release. Newest first.
 
-## Unreleased
+## 0.1.3 (2026-11-26)
 
 **Fixed**
 
