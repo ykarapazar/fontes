@@ -41,3 +41,12 @@ def test_ie_caselaw_points_to_decisions():
 def test_no_date_filter_message():
     msg = run(server.search_legislation("au", "Privacy Act", filters={"year_from": 2022}))
     assert "no date filter" in msg
+
+
+def test_long_text_tools_stay_inline_in_claude_code():
+    # Claude Code saves text results over 50,000 chars to a file unless the tool raises its limit.
+    import inspect
+    tools = {t.name: t for t in run(server.mcp.list_tools())}
+    for name in ("get_decision", "get_legislation_text"):
+        page = inspect.signature(getattr(server, name)).parameters["max_chars"].default
+        assert tools[name].meta["anthropic/maxResultSizeChars"] > page

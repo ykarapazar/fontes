@@ -2,6 +2,14 @@
 
 Plain-language notes for each release. Newest first.
 
+## Unreleased
+
+**Fixed**
+
+- Claude Code: a page of a long court decision or law (up to 60,000 characters) was saved to a
+  file instead of reaching the conversation, so Claude saw only a short preview. These two tools
+  now tell Claude Code to keep pages of up to 100,000 characters inline. Reported on Reddit.
+
 ## 0.1.2 (2026-11-25)
 
 **Fixed**

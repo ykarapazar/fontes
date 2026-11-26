@@ -327,7 +327,12 @@ async def search_caselaw(
     return r if isinstance(r, str) else render.caselaw_results(j, query, r, limit=limit, page_no=page)
 
 
-@mcp.tool()
+# Claude Code saves text results over 50,000 chars to a file unless the tool raises its limit
+# (code.claude.com/docs/en/mcp). A default 60,000-char page plus its header must stay inline.
+_LONG_TEXT = {"anthropic/maxResultSizeChars": 100000}
+
+
+@mcp.tool(meta=_LONG_TEXT)
 async def get_decision(jurisdiction: str, id: str, max_chars: int = 60000, offset: int = 0) -> str:
     """Fetch one court decision as markdown (metadata, summary, full text, source URL).
 
@@ -430,7 +435,7 @@ async def get_legislation_provision(jurisdiction: str, id: str, provision: str) 
     return p if isinstance(p, str) else render.provision(j, p)
 
 
-@mcp.tool()
+@mcp.tool(meta=_LONG_TEXT)
 async def get_legislation_text(jurisdiction: str, id: str, max_chars: int = 60000, offset: int = 0) -> str:
     """Full consolidated (current) text of a law as markdown, pageable.
 
