@@ -64,7 +64,16 @@ def test_no_alias_shadows_a_code():
 
 async def test_unknown_jurisdiction_message():
     out = await server.search_caselaw("xx", "anything")
-    assert "Unknown or disabled jurisdiction 'xx'" in out and "nl" in out
+    assert "Unknown or disabled jurisdiction 'xx'" in out and "list_jurisdictions()" in out
+    assert len(out) < 300   # no dump of every code
+
+
+async def test_unknown_jurisdiction_suggests_close_matches():
+    out = await server.search_legislation("Germay", "x")
+    assert "Did you mean: de (" in out and out.count("(") <= 4
+    assert "Did you mean: ke (Kenya)" in await server.search_legislation("Kenia", "x")
+    assert "Did you mean: za (South Africa)" in await server.list_jurisdictions("Sout Africa")
+    assert "Did you mean" not in await server.list_jurisdictions("qqqqqqq")
 
 
 async def test_unsupported_method_names_official_site():

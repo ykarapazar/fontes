@@ -654,7 +654,7 @@ def _scope(root, target) -> str:
 def _render_document(root, target=None, url: str = "") -> str:
     out: list[str] = []
     for top in root:
-        if localname(top) in ("Primary", "Secondary"):
+        if localname(top) in ("Primary", "Secondary", "EURetained"):
             for ch in top:
                 if localname(ch) in ("PrimaryPrelims", "SecondaryPrelims"):
                     lt = ch.find(f".//{_LEG}LongTitle")

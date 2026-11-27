@@ -16,7 +16,8 @@ from world_legal_mcp.models import (Decision, DecisionHit, LawHit, LawText, Prov
                                     Toc)
 
 registry.discover()
-ADAPTERS = [j for j in registry.available() if not getattr(j, "legacy_markdown", False)]
+ADAPTERS = [j for j in registry.available() if not getattr(j, "legacy_markdown", False)
+            and not getattr(j, "via_lexifina", False)]
 ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 HTML_TAG = re.compile(r"<(p|div|span|br|font|b|table)\b", re.I)
 

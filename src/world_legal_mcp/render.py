@@ -4,6 +4,7 @@ from __future__ import annotations
 import re
 import unicodedata
 
+from . import lexifina
 from .base import Jurisdiction, permitted_codes
 from .models import Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc
 
@@ -20,7 +21,7 @@ def _warnings(j: Jurisdiction, kind: str) -> list[str]:
     for s in j.sources:
         if kind not in s.covers or (s.needs_permission and not allowed):
             continue
-        if not s.official:
+        if not s.official and not lexifina.is_lexifina(s):   # Lexifina: its own warning says it
             out.append(f"> ⚠ Unofficial source: {s.name} ({s.url}) is not an official publication. "
                        "When you use this text, tell the user where it comes from, that it is "
                        "unofficial, and that they should check it against the official text "

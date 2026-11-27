@@ -1,26 +1,11 @@
-"""India: central and state Acts from India Code (indiacode.gov.in), via its DSpace 9.1 REST API;
-Supreme Court judgments reported in the S.C.R. from the "Indian Supreme Court Judgments" AWS Open
-Data bucket (an unofficial mirror of the Supreme Court's e-SCR, scr.sci.gov.in).
+"""India: Supreme Court judgments reported in the S.C.R. from the "Indian Supreme Court Judgments" AWS Open
+Data bucket (an unofficial mirror of the Supreme Court's e-SCR, scr.sci.gov.in). Legislation is read from
+Lexifina's record (see lexifina_countries.py), not from India Code: India Code's terms (indiacode.gov.in/info/term-of-use,
+read 2026-11-05) forbid automated access and API use without the Legislative Department's written permission, and
+they bind India Code, not Lexifina's published record of the Acts. The India Code reader was removed on 2026-11-27.
 
 The module is `in_.py` because `in` is a Python keyword; the registry keys adapters by
 the class attribute `code`, so the file name does not matter.
-
-Gotchas this code encodes (verified 2026-11-05 from a UK IP):
-  * indiacode.nic.in now redirects to indiacode.gov.in (Angular DSpace frontend). The old
-    host answers our User-Agent with an Akamai "Access Denied"; the new REST API under
-    /server/api is open and anonymous.
-  * Everything is one Solr search: /discover/search/objects?query=...&dsoType=ITEM. Field
-    queries work (dc.identifier.act_id:"...", dc.identifier.collection:ACT|SECTION|SCHEDULE,
-    dc.identifier.state_name:CENTRAL). Page size is capped at 100.
-  * One item per Act (collection ACT) and one item per section (collection SECTION), linked
-    by dc.identifier.act_id. Section text is HTML in dc.identifier.section_page_note,
-    amendment footnotes in dc.identifier.section_footnote. Order = dc.identifier.order_number.
-  * State adaptations of central Acts are separate ACT items with the *same title* (e.g. the
-    Contract Act also appears for Chhattisgarh), so search defaults to state CENTRAL.
-  * SCHEDULE items carry no text in their metadata, so schedules are not in the TOC/text.
-  * Plain-word ranking is weak (BNS is 3rd for "Bharatiya Nyaya Sanhita"); we boost title
-    matches. The source strips apostrophes from section text ("As son" for "A's son").
-  * Item URIs still say test1.indiacode.nic.in; we link to indiacode.gov.in/handle/<handle>.
 
 Supreme Court (verified 2026-11-10):
   * Public S3 bucket indian-supreme-court-judgments (ap-south-1, anonymous). One judgment = one
@@ -43,120 +28,13 @@ import json
 import re
 import tarfile
 
-from .. import _http
-from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError
-from ..models import Decision, DecisionHit, LawHit, LawText, Provision, Results, Toc, TocEntry
+from .. import _http, lexifina
+from ..base import BadRequest, Jurisdiction, NotFound, Source, SourceError, kind_of
+from ..models import Decision, DecisionHit, LawHit, Results
+from ._lexifina_data import COUNTRIES
+from .lexifina_countries import _Lexifina, source_for
 
-HOST = "https://indiacode.gov.in"
-SEARCH = HOST + "/server/api/discover/search/objects"
-ITEMS = HOST + "/server/api/core/items/"
-PAGE_MAX = 100
-
-_ACT_ID = re.compile(r"^AC_[A-Z0-9_-]+$")
-_UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
-_NUM_OF_YEAR = re.compile(r"^(?:act\s*(?:no\.?)?\s*)?(\d+[A-Z]?)\s*(?:of|/)\s*(\d{4})$", re.I)
-_PROV = re.compile(r"^(?:section|sec\.?|s\.?|§)?\s*(\d+[a-z]*)\.?$", re.I)
-_SOLR_SPECIAL = re.compile(r'([+\-!(){}\[\]^"~*?:\\/]|&&|\|\|)')
-
-_sections: dict[str, list[dict]] = {}   # act_id -> section items (ordered)
-_acts: dict[str, dict] = {}             # act_id -> ACT item
-
-
-def _m(item: dict, key: str) -> str:
-    vals = (item.get("metadata") or {}).get(key) or []
-    return str(vals[0].get("value") or "") if vals else ""
-
-
-def _esc(s: str) -> str:
-    return _SOLR_SPECIAL.sub(r"\\\1", s)
-
-
-def _url(item: dict) -> str:
-    h = item.get("handle")
-    return f"{HOST}/handle/{h}" if h else f"{HOST}/items/{item.get('uuid', '')}"
-
-
-def _label(raw: str) -> str:
-    """'Section 10', 's. 10', '§10', '19a' -> '10' / '19A'."""
-    m = _PROV.match(_http.clean(raw))
-    if not m:
-        raise BadRequest(f"provision must be a section number like '10', 's. 10' or "
-                         f"'Section 19A', got {raw!r}")
-    return m[1].upper()
-
-
-async def _search(query: str, *, size: int, page0: int = 0) -> dict:
-    r = await _http.get(SEARCH, params={"query": query, "size": size, "page": page0,
-                                        "dsoType": "ITEM"})
-    if r.status_code != 200:
-        raise SourceError(_http.error("India Code", "search failed", r.status_code), r.status_code)
-    try:
-        return r.json()["_embedded"]["searchResult"]
-    except (ValueError, KeyError):
-        raise SourceError("India Code: unexpected search reply (block page?)", r.status_code)
-
-
-def _objects(sr: dict) -> list[dict]:
-    return [o["_embedded"]["indexableObject"] for o in (sr.get("_embedded") or {}).get("objects", [])]
-
-
-async def _act(law_id: str) -> dict:
-    """Resolve an India Code act_id, item uuid or 'N of YYYY' (central Act) to the ACT item."""
-    lid = _http.clean(law_id)
-    if lid in _acts:
-        return _acts[lid]
-    if _UUID.match(lid):
-        r = await _http.get(ITEMS + lid.lower())
-        if r.status_code == 404:
-            raise NotFound(f"no India Code item {lid}")
-        if r.status_code != 200:
-            raise SourceError(_http.error("India Code", "item fetch failed", r.status_code), r.status_code)
-        item = r.json()
-        if _m(item, "dc.identifier.collection") != "ACT":
-            raise BadRequest(f"{lid} is not an Act item (it is a {_m(item, 'dc.identifier.collection') or 'non-Act'} item)")
-        return _http.lru_put(_acts, lid, item, 64)
-    if _ACT_ID.match(lid):
-        q = f'dc.identifier.act_id:"{lid}" AND dc.identifier.collection:ACT'
-    elif m := _NUM_OF_YEAR.match(lid):
-        q = (f'dc.identifier.act_number:"{m[1]}" AND dc.date.act_year:{m[2]} '
-             f'AND dc.identifier.collection:ACT AND dc.identifier.state_name:CENTRAL')
-    else:
-        raise BadRequest("law id must be an India Code act id (AC_CEN_3_20_00035_187209_1523268996428), "
-                         "an item uuid, or a central Act number like '9 of 1872'; "
-                         "use search_legislation to find it")
-    hits = _objects(await _search(q, size=5))
-    if not hits:
-        raise NotFound(f"no Act {lid} on India Code")
-    item = hits[0]
-    _http.lru_put(_acts, _m(item, "dc.identifier.act_id"), item, 64)
-    return _http.lru_put(_acts, lid, item, 64)
-
-
-async def _all_sections(act_id: str) -> list[dict]:
-    if act_id in _sections:
-        return _sections[act_id]
-    q = f'dc.identifier.act_id:"{act_id}" AND dc.identifier.collection:SECTION'
-    items, page0 = [], 0
-    while True:
-        sr = await _search(q, size=PAGE_MAX, page0=page0)
-        items += _objects(sr)
-        page0 += 1
-        if page0 >= (sr.get("page") or {}).get("totalPages", 0):
-            break
-    items.sort(key=lambda it: int(_m(it, "dc.identifier.order_number") or 0))
-    return _http.lru_put(_sections, act_id, items, 8)
-
-
-def _section_md(it: dict) -> str:
-    num = _m(it, "dc.identifier.section_number")
-    head = f"## Section {num}. {_http.clean(_m(it, 'dc.title'))}".rstrip()
-    body = _http.html_to_md(_m(it, "dc.identifier.section_page_note"))
-    notes = _http.html_to_md(_m(it, "dc.identifier.section_footnote"))
-    out = [head, body]
-    if notes:
-        out.append("Footnotes:\n\n" + notes)
-    return "\n\n".join(p for p in out if p)
-
+_lex = COUNTRIES.get("in", {})   # filled in by scripts/lexifina_countries.py
 
 # --------------------------------------------------------------------------- #
 # Supreme Court: AWS Open Data mirror of e-SCR
@@ -256,38 +134,17 @@ async def _sc_path(id: str) -> str:
                      "citation like '[2024] 10 SCR 108' or '[1973] Supp. SCR 1', or a neutral citation like '2024 INSC 735'")
 
 
-class India(Jurisdiction):
+class India(_Lexifina):
     code = "in"
     name = "India"
     languages = ("en",)
     aliases = ("india", "ind")
+    via_lexifina = False        # the Supreme Court is read live; only the legislation comes from Lexifina
+    _slug = _lex.get("slug", "india")
+    _coverage = _lex.get("coverage", "")
     sources = (
-        Source(
-            name="India Code (Legislative Department, Ministry of Law and Justice; run by NIC)",
-            url="https://indiacode.gov.in/",
-            covers=("legislation",),
-            licence=("restrictive (Term of Use + Copyright Policy, both 'Last updated June 22, "
-                     "2026', read 2026-11-05 from the site's JS bundle): personal, non-commercial "
-                     "use only; 'Not use any automated means to access the Portal for any purpose "
-                     "without our express written permission'; 'Use of API data requires written "
-                     "authorization'; 'Data obtained through APIs must not be cached, stored, or "
-                     "redistributed without permission'. No written permission held. Whether "
-                     "s. 52(1)(q) Copyright Act 1957 overrides this for the Acts: unverified"),
-            commercial_use=False,
-            ai_use=False,
-            auth=("none technically (anonymous REST API), but the terms require written "
-                  "authorization from the Legislative Department for API/automated use"),
-            rate_limit=("unknown; 1 s spacing, no 429 seen in ~25 requests (2026-11-05). "
-                        "robots.txt returns HTTP 500 (no rules served)"),
-            terms_url="https://indiacode.gov.in/info/term-of-use",
-            needs_permission=True,
-            warning=("India Code's terms forbid automated access and API use without the "
-                     "Legislative Department's express written permission, and allow personal, "
-                     "non-commercial use only. Use this source only if you hold that permission. "
-                     "Without it, read the Act text by hand on indiacode.gov.in (search the "
-                     "Act's title; the terms allow personal, non-commercial use) and cite "
-                     "the section there; this tool cannot fetch it."),
-        ),
+        source_for(_lex) if _lex else Source(name="Lexifina global law record", url=lexifina.REPO,
+                                             covers=("legislation",), official=False, warning=lexifina.CREDIT),
         Source(
             name="Indian Supreme Court Judgments (AWS Open Data; Dattam Labs mirror of the Supreme Court's e-SCR)",
             url="https://registry.opendata.aws/indian-supreme-court-judgments/",
@@ -308,31 +165,51 @@ class India(Jurisdiction):
         "year": ("S.C.R. year, 1950 to date, or a range like 2022-2024 / 2022- (up to 5 years; default "
                  "is the latest 5 years)"),
     }
-    legislation_filters = {
-        "state": "CENTRAL (default), a state name as India Code spells it (e.g. 'Maharashtra'), or 'all'",
-        "year": "Act year, e.g. 2023",
-    }
-    min_interval = {"indiacode.gov.in": 1.0, "indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com": 0.5}
-    notes = ("Central and state Acts from India Code, section by section (off unless WLM_PERMITTED). "
-             "Law ids are India Code act ids (AC_CEN_...), or '9 of 1872' for central Acts. "
-             "Supreme Court: S.C.R.-reported judgments 1950 to date from an unofficial AWS Open Data "
-             "mirror of e-SCR; search one year at a time (parties, citation, coram, headnote).")
+    min_interval = {"indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com": 0.5}
     gaps = (
-        "Legislation (India Code, all Acts): terms forbid automated use ('Not use any automated means'); needs written permission",
+        "Legislation: read from Lexifina's record, not live; India Code (indiacode.gov.in) itself is not used because its terms forbid automated access without written permission",
         "Constitution: legislative.gov.in (official PDFs) answers our User-Agent with an Akamai 403; Constitute Project text is non-commercial and flags a 2024 amendment not incorporated; not built",
         "Supreme Court, unreported judgments: not in e-SCR or the AWS mirror; official sci.gov.in judgment search is behind a CAPTCHA",
         "Supreme Court full-text search: the mirror has no search index; search matches parties, citations, coram and headnote within one year",
         "High Courts (AWS Open Data, unofficial, CC BY 4.0): source exists, not built",
-        "Schedules of Acts: not published online as text in India Code's API (SCHEDULE items carry no text)",
-        "Subordinate legislation (rules, regulations, notifications): not researched yet",
     )
     samples = {
         "caselaw_query": "Kesavananda Bharati 1973",
         "decision_id": "2024_10_108_125",
-        "legislation_query": "Indian Contract Act",
-        "law_id": "AC_CEN_3_20_00035_187209_1523268996428",
-        "provision": "10",
+        "legislation_query": "Information Technology Act 2000",
+        "law_id": "india/national/acts/central/acts/information-technology-act-2000",
+        "provision": "sec-001",
     }
+
+    def supports(self, method: str) -> bool:
+        if kind_of(method) == "legislation":
+            return lexifina.enabled() and Jurisdiction.supports(self, method)
+        return Jurisdiction.supports(self, method)
+
+    @property
+    def notes(self) -> str:
+        sc = ("Supreme Court: S.C.R.-reported judgments 1950 to date from an unofficial AWS Open Data "
+              "mirror of e-SCR; search one year at a time (parties, citation, coram, headnote). ")
+        if not lexifina.enabled():
+            return sc + "Legislation: off, WLM_LEXIFINA=0 turns off Lexifina."
+        return (sc + "Legislation: read through Lexifina's record (not the official publisher, not live; "
+                f"India Code is not used, its terms bar automated access). What the record holds: {self._coverage}.")
+
+    async def search_legislation(self, query, *, limit, page, filters):
+        """Lexifina's phrase search ranks court judgments (in its "acts/courts" folder) above Acts, so court
+        folders are dropped and an Act whose title matches the query comes first."""
+        r = await super().search_legislation(query, limit=limit, page=page, filters=filters)
+        r.items = [i for i in r.items if not re.search(r"/acts/(?:courts|tribunals)/", i.id)]
+        if page == 1:
+            found = (await lexifina.call("find_provision", query=query, jurisdiction=self._slug))["structuredContent"]
+            have = {i.id for i in r.items}
+            top = [LawHit(id=x["path"], title=x.get("title") or x["path"], url=lexifina.REPO)
+                   for x in found.get("results", []) if x.get("kind") == "act" and x["path"] not in have]
+            r.items = (top + r.items)[:limit]
+            if top and r.note.startswith("None of these acts has those words in its title"):   # true of the phrase hits only
+                r.note = r.note.split("not be in Lexifina's record. ", 1)[-1]
+            r.total = None
+        return r
 
     async def search_caselaw(self, query, *, limit, page, filters):
         q = _http.clean(query)
@@ -432,88 +309,3 @@ class India(Jurisdiction):
         return Decision(id=path, title=meta["title"] or f"Supreme Court {meta['scr'] or path}",
                         text=text, url=url, court="Supreme Court of India", date=meta["date"],
                         case_number=meta["case_number"], summary=meta["headnote"], metadata=md)
-
-    async def search_legislation(self, query, *, limit, page, filters):
-        q = _http.clean(query)
-        if not q:
-            raise BadRequest("query is empty")
-        words = _esc(q)
-        parts = [f"(dc.title:({words})^10 OR ({words}))", "dc.identifier.collection:ACT"]
-        state = _http.clean(filters.get("state", "CENTRAL"))
-        if state.lower() != "all":
-            if not re.fullmatch(r"[A-Za-z &.-]+", state):
-                raise BadRequest(f"state must be CENTRAL, a state name or 'all', got {state!r}")
-            parts.append(f'dc.identifier.state_name:"{state.upper() if state.lower() == "central" else state}"')
-        if filters.get("year"):
-            y = str(filters["year"]).strip()
-            if not re.fullmatch(r"\d{4}", y):
-                raise BadRequest(f"year must be four digits like 2023, got {y!r}")
-            parts.append(f"dc.date.act_year:{y}")
-        size = max(1, min(int(limit), PAGE_MAX))
-        sr = await _search(" AND ".join(parts), size=size, page0=max(0, int(page) - 1))
-        items = []
-        for o in (sr.get("_embedded") or {}).get("objects", []):
-            it = o["_embedded"]["indexableObject"]
-            hl = next(iter((o.get("hitHighlights") or {}).values()), [])
-            num, year = _m(it, "dc.identifier.act_number"), _m(it, "dc.date.act_year")
-            st = _m(it, "dc.identifier.state_name")
-            items.append(LawHit(
-                id=_m(it, "dc.identifier.act_id") or it["uuid"],
-                title=_http.clean(_m(it, "dc.title")),
-                type="Central Act" if st == "CENTRAL" else f"{st} Act".strip(),
-                number=f"{num} of {year}" if num and year else num,
-                date=_http.iso_date(_m(it, "dc.date.enact_date")),
-                status="repealed" if _m(it, "dc.identifier.repealed") == "true" else "not repealed",
-                snippet=_http.clean(re.sub(r"</?em>", "", hl[0]))[:300] if hl else "",
-                url=_url(it),
-            ))
-        return Results(items, total=(sr.get("page") or {}).get("totalElements"),
-                       note="Defaults to central Acts (state=CENTRAL); use state='all' for state Acts too.")
-
-    async def get_legislation_toc(self, id):
-        act = await _act(id)
-        act_id = _m(act, "dc.identifier.act_id")
-        entries = [TocEntry(f"Section {n}. {_http.clean(_m(it, 'dc.title'))}", 0, n)
-                   for it in await _all_sections(act_id)
-                   if (n := _m(it, "dc.identifier.section_number"))]
-        if not entries:
-            raise NotFound(f"India Code has no section-level text for {act_id}")
-        return Toc(id=act_id, title=_http.clean(_m(act, "dc.title")), url=_url(act), entries=entries)
-
-    async def get_legislation_provision(self, id, provision):
-        label = _label(provision)
-        act = await _act(id)
-        act_id = _m(act, "dc.identifier.act_id")
-        if act_id in _sections:
-            cands = _sections[act_id]
-        else:
-            cands = _objects(await _search(
-                f'dc.identifier.act_id:"{act_id}" AND dc.identifier.collection:SECTION '
-                f'AND dc.identifier.section_number:"{label}"', size=10))
-        hit = next((it for it in cands
-                    if _m(it, "dc.identifier.section_number").upper() == label), None)
-        if hit is None:
-            raise NotFound(f"no section {label} in {_m(act, 'dc.title') or act_id}")
-        return Provision(law_id=act_id, law_title=_http.clean(_m(act, "dc.title")),
-                         provision=label, text=_section_md(hit), url=_url(hit))
-
-    async def get_legislation_text(self, id):
-        act = await _act(id)
-        act_id = _m(act, "dc.identifier.act_id")
-        secs = await _all_sections(act_id)
-        if not secs:
-            raise NotFound(f"India Code has no section-level text for {act_id}")
-        title = _http.clean(_m(act, "dc.title"))
-        preamble = _http.html_to_md(_m(act, "dc.identifier.preamble_description"))
-        text = "\n\n".join([f"# {title}", preamble] + [_section_md(it) for it in secs])
-        meta = {k: v for k, v in {
-            "Act number": _m(act, "dc.identifier.act_number"),
-            "Enactment date": _http.iso_date(_m(act, "dc.date.enact_date")),
-            "Enforcement date": _http.iso_date(_m(act, "dc.date.enforcement_date")),
-            "Ministry": _m(act, "dc.identifier.ministry_name"),
-            "Department": _m(act, "dc.identifier.department_name"),
-            "State": _m(act, "dc.identifier.state_name"),
-            "Repealed": _m(act, "dc.identifier.repealed"),
-            "Note": "Assembled from India Code's per-section records; schedules are not included.",
-        }.items() if v}
-        return LawText(id=act_id, title=title, text=text, url=_url(act), metadata=meta)

@@ -184,3 +184,16 @@ def test_search_note_does_not_claim_all_words_match():
                                              order="-date", limit=5, page_no=1))
     assert "all words must match" not in res.note
     assert "loosely" in res.note
+
+
+def test_eu_retained_body_is_rendered():
+    """Retained EU law (eur/...) holds its text under <EURetained>, not Primary/Secondary."""
+    from lxml import etree
+    ns = "http://www.legislation.gov.uk/namespaces/legislation"
+    root = etree.fromstring(
+        f'<Legislation xmlns="{ns}"><EURetained><EUBody><EUChapter><P1group><Title>Lawfulness</Title>'
+        '<P1><Pnumber>Article 6</Pnumber><P1para><P2><Pnumber>1</Pnumber><P2para>'
+        '<Text>Processing shall be lawful only if consent is given.</Text></P2para></P2></P1para></P1>'
+        '</P1group></EUChapter></EUBody></EURetained></Legislation>')
+    out = gb._render_document(root)
+    assert "Processing shall be lawful only if consent is given." in out and "Lawfulness" in out

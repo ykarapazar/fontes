@@ -67,7 +67,40 @@ def test_no_year_defaults_to_latest_window(monkeypatch):
     assert "No year given" in r.note and "2022-2026" in r.note
 
 
-def test_india_legislation_refusal_names_manual_route():
-    from world_legal_mcp.jurisdictions.in_ import India
-    src = next(s for s in India.sources if s.needs_permission)
-    assert "indiacode.gov.in" in src.warning and "by hand" in src.warning
+def _india_fake(monkeypatch, found, phrase_acts):
+    from world_legal_mcp import lexifina
+
+    async def call(tool, **a):
+        if tool == "find_provision":
+            return {"structuredContent": {"results": found}}
+        return {"content": [], "structuredContent": {
+            "matches": [], "acts": phrase_acts, "match": "phrase", "matched_by": "index", "summary": ""}}
+    monkeypatch.setattr(lexifina, "call", call)
+
+
+def test_india_legislation_comes_from_lexifina_not_india_code():
+    j = in_.India()
+    leg = [s for s in j.sources if "legislation" in s.covers]
+    assert len(leg) == 1 and "Lexifina" in leg[0].name and not leg[0].official and not leg[0].needs_permission
+    assert "indiacode.gov.in" in " ".join(j.gaps) and "India Code" in j.notes   # why India Code itself is not used
+    assert j.supports("get_legislation_toc") and j.supports("search_caselaw")
+    assert not getattr(j, "via_lexifina", True) and j.lexifina_legislation
+
+
+def test_india_legislation_off_with_lexifina_but_caselaw_stays(monkeypatch):
+    monkeypatch.setenv("WLM_LEXIFINA", "0")
+    j = in_.India()
+    assert not j.supports("search_legislation") and j.supports("search_caselaw") and j.supports("get_decision")
+
+
+def test_india_search_puts_the_act_first_and_drops_court_folders(monkeypatch):
+    it = "india/national/acts/central/acts/information-technology-act-2000"
+    _india_fake(monkeypatch, [{"path": it, "title": "The Information Technology Act, 2000", "kind": "act"},
+                              {"path": it + "/sec-001.md", "title": "s 1", "kind": "provision"}],
+                [{"path": "india/national/acts/courts/high-courts/delhi/principal/2022/09/27", "title": "",
+                  "matching_provisions": 20},
+                 {"path": "india/national/acts/central/acts/other-act-2001", "title": "Other Act, 2001",
+                  "matching_provisions": 3}])
+    r = asyncio.run(in_.India().search_legislation("Information Technology Act 2000", limit=10, page=1, filters={}))
+    assert [i.id for i in r.items] == [it, "india/national/acts/central/acts/other-act-2001"]
+    assert "None of these acts" not in r.note and r.total is None

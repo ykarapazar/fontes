@@ -12,13 +12,14 @@ import sys
 import time
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlsplit
 from typing import Any
 
 import httpx
 from dotenv import find_dotenv, load_dotenv
 from mcp.server.fastmcp import Context, FastMCP
 
-from . import bugreport, health, registry, render, stats, update_check
+from . import bugreport, health, lexifina, registry, render, stats, update_check
 from .base import (AdapterError, BadRequest, Jurisdiction, NotFound, SourceError, blocked_sources,
                    kind_of, permitted_codes)
 
@@ -28,7 +29,9 @@ mcp = FastMCP(
         "Live case law and legislation from official government sources. Call "
         "list_jurisdictions first to see codes, supported tools and filters. Every "
         "result carries the source URL or identifier; always read the full text "
-        "before relying on a decision or provision."
+        "before relying on a decision or provision. get_law_on_date, get_law_history and "
+        "some countries use Lexifina's record of the law (not the official publisher, and it may lag it); "
+        "check the official publisher's page it links."
     ),
 )
 # Report our own version in serverInfo, not the mcp library's.
@@ -75,6 +78,20 @@ def _unsupported(j: Jurisdiction, method: str) -> str:
     return "\n".join(out)
 
 
+def _did_you_mean(q: str) -> str:
+    """Up to 3 close jurisdictions (codes, aliases, names) as ' Did you mean: ...?', or ''."""
+    names: dict[str, str] = {}
+    for j in registry.available():
+        for n in (j.code, j.name, *j.aliases):
+            names.setdefault(n.lower(), j.code)
+    found: list[str] = []
+    for n in difflib.get_close_matches((q or "").strip().lower(), list(names), n=10, cutoff=0.75):
+        if names[n] not in found:
+            found.append(names[n])
+    by_code = {j.code: j.name for j in registry.available()}
+    return (" Did you mean: " + ", ".join(f"{c} ({by_code[c]})" for c in found[:3]) + "?") if found else ""
+
+
 def _resolve(code: str, method: str) -> Jurisdiction | str:
     j = registry.get(code)
     if j is None:
@@ -82,10 +99,11 @@ def _resolve(code: str, method: str) -> Jurisdiction | str:
         if why:
             return (f"Jurisdiction {code!r} failed to load on this computer ({why}). "
                     "Please report it with report_bug.")
-        codes = ", ".join(x.code for x in registry.available())
-        return (f"Unknown or disabled jurisdiction {code!r}. Available here: {codes}. "
-                "Use list_jurisdictions() to see them.")
+        return (f"Unknown or disabled jurisdiction {code!r}.{_did_you_mean(code)} "
+                "Use list_jurisdictions() to see all codes.")
     if not j.supports(method):
+        if getattr(j, "lexifina_legislation", False) and kind_of(method) == "legislation" and not lexifina.enabled():
+            return lexifina.OFF
         return _unsupported(j, method)
     stats.record(j.code, method)   # no-op unless FONTES_STATS=1; code + tool name only
     return j
@@ -232,8 +250,15 @@ async def list_jurisdictions(query: str | None = None) -> str:
     exact = [j for j in matches if q in (j.code, j.name.lower(), *(a.lower() for a in j.aliases))]
     matches = exact or matches
     if len(matches) > _FULL_MAX:
-        rows = [f"- {j.code}: {j.name} ({_kinds(j)})" for j in matches]
-        head = (f"{len(matches)} jurisdictions" + (f" match {query!r}" if q else " covered")
+        rows = [f"- {j.code}: {j.name} ({_kinds(j)})"
+                + ((" [from Lexifina's record, not the official publisher]" if lexifina.enabled()
+                    else " [Lexifina's record: turned off, WLM_LEXIFINA=0]")
+                   if getattr(j, "via_lexifina", False) else "")
+                for j in matches]
+        n_lex = sum(bool(getattr(j, "via_lexifina", False)) for j in matches)
+        head = (f"{len(matches) - n_lex} live jurisdictions"
+                + (f" and {n_lex} from Lexifina's record (not the official publisher)" if n_lex else "")
+                + (f" match {query!r}" if q else " covered")
                 + f". Call list_jurisdictions(query=<code>) for one's sources, filters and identifier "
                 "formats.\n")
         head = _BETA + "\n\n" + head
@@ -253,7 +278,7 @@ async def list_jurisdictions(query: str | None = None) -> str:
                 "AI use opted out" if s.ai_use is False else "",
                 "" if s.auth == "none" else f"needs {s.auth}",
             ) if x]
-            lines.append(f"- Source: {s.name} — {s.url}" + (" [unofficial]" if not s.official else "")
+            lines.append(f"- Source: {s.name} — {s.url}" + ((" [not the official publisher]" if lexifina.is_lexifina(s) else " [unofficial]") if not s.official else "")
                          + (f" ({'; '.join(terms)})" if terms else ""))
             if s.warning:
                 lines.append(f"  - ⚠ {s.warning}")
@@ -280,11 +305,34 @@ async def list_jurisdictions(query: str | None = None) -> str:
             lines += [f"  - {g}" for g in j.gaps]
         out.append("\n".join(lines))
     if not out:
-        return f"No jurisdiction matches {query!r}."
+        return f"No jurisdiction matches {query!r}.{_did_you_mean(query)}"
     out.insert(0, _BETA)
     if note := update_check.notice():
         out.insert(0, note)
     return "\n\n".join(out)
+
+
+MAX_LIMIT, MAX_QUERY, MAX_CHARS = 100, 500, 100000
+
+
+def _bounds(limit: int, page: int) -> tuple[int, int, str]:
+    """limit and page inside their range, and one line saying so when either was changed."""
+    lim, pg = max(1, min(int(limit), MAX_LIMIT)), max(1, int(page))
+    said = [f"{n} {'capped at' if v > MAX_LIMIT else 'raised to'} {c}"
+            for n, v, c in (("limit", int(limit), lim), ("page", int(page), pg)) if v != c]
+    return lim, pg, ("Fontes: " + "; ".join(said) + ".\n\n") if said else ""
+
+
+def _chars(max_chars: int) -> tuple[int, str]:
+    n = max(1000, min(int(max_chars), MAX_CHARS))
+    return n, (f"Fontes: max_chars {'capped at' if int(max_chars) > n else 'raised to'} {n}.\n\n"
+               if n != int(max_chars) else "")
+
+
+def _long_query(query: str) -> str | None:
+    if len(query or "") > MAX_QUERY:
+        return f"Bad request: `query` is {len(query)} characters; at most {MAX_QUERY} are accepted. Use the key words."
+    return None
 
 
 @mcp.tool()
@@ -322,9 +370,11 @@ async def search_caselaw(
         return j
     if err := _check_filters(j, filters, "caselaw"):
         return err
-    limit, page = max(1, int(limit)), max(1, int(page))
+    if err := _long_query(query):
+        return err
+    limit, page, said = _bounds(limit, page)
     r = await _fetch(j, "search_caselaw", query, limit=limit, page=page, filters=dict(filters or {}))
-    return r if isinstance(r, str) else render.caselaw_results(j, query, r, limit=limit, page_no=page)
+    return said + (r if isinstance(r, str) else render.caselaw_results(j, query, r, limit=limit, page_no=page))
 
 
 # Claude Code saves text results over 50,000 chars to a file unless the tool raises its limit
@@ -348,8 +398,9 @@ async def get_decision(jurisdiction: str, id: str, max_chars: int = 60000, offse
     j = _resolve(jurisdiction, "get_decision")
     if isinstance(j, str):
         return j
+    max_chars, said = _chars(max_chars)
     d = await _fetch(j, "get_decision", id.strip(), cache=True)
-    return d if isinstance(d, str) else render.decision(j, d, max_chars=max_chars, offset=offset)
+    return said + (d if isinstance(d, str) else render.decision(j, d, max_chars=max_chars, offset=offset))
 
 
 @mcp.tool()
@@ -384,9 +435,14 @@ async def search_legislation(
         return j
     if err := _check_filters(j, filters, "legislation"):
         return err
-    limit, page = max(1, int(limit)), max(1, int(page))
+    if err := _long_query(query):
+        return err
+    limit, page, said = _bounds(limit, page)
     r = await _fetch(j, "search_legislation", query, limit=limit, page=page, filters=dict(filters or {}))
-    return r if isinstance(r, str) else render.legislation_results(j, query, r, limit=limit, page_no=page)
+    if not isinstance(r, str) and not r.items and not getattr(j, "lexifina_legislation", False) and lexifina.enabled():
+        r.note = (r.note + " " if r.note else "") + ("get_law_on_date may find it in Lexifina's "
+                                                     "record of the law.")
+    return said + (r if isinstance(r, str) else render.legislation_results(j, query, r, limit=limit, page_no=page))
 
 
 @mcp.tool()
@@ -449,8 +505,338 @@ async def get_legislation_text(jurisdiction: str, id: str, max_chars: int = 6000
     j = _resolve(jurisdiction, "get_legislation_text")
     if isinstance(j, str):
         return j
+    max_chars, said = _chars(max_chars)
     t = await _fetch(j, "get_legislation_text", id.strip(), cache=True)
-    return t if isinstance(t, str) else render.law_text(j, t, max_chars=max_chars, offset=offset)
+    return said + (t if isinstance(t, str) else render.law_text(j, t, max_chars=max_chars, offset=offset))
+
+
+_RECORD_START = ("The record begins when Lexifina started following that country's law, so an earliest "
+                 "date, or \"not yet in force\" before that start, may only mean the record does not reach "
+                 "back that far; check the official source.")
+
+
+def _first_date(body: str) -> str:
+    """The date Lexifina's record of a provision starts, from its 'before the record' answers; else ''."""
+    m = re.search(r"(?:first appears on|first version of it is the[^.]*? in force on) (\d{4}-\d{2}-\d{2})", body)
+    return m.group(1) if m else ""
+
+
+def _tag_record_start(body: str) -> str:
+    """After Lexifina's "was not yet in force on X. It first appears on Y (...)." add what it means."""
+    return re.sub(r"(not yet in force on \d{4}-\d{2}-\d{2}\. It first appears on (\d{4}-\d{2}-\d{2})[^\n]*?\.)(?=\s|$)",
+                  r"\1 (Fontes: this only means Lexifina's record starts on \2.)", body)
+
+
+def _before_record(body: str, date: str) -> str:
+    if "does not say what it said on" not in body and "not yet in force" not in body:
+        return ""
+    first = _first_date(body)
+    return (f"Fontes: no text for {date}: Lexifina's record for this provision starts "
+            + (f"on {first}" if first else "later") + ", so it cannot show what the law said earlier. "
+            "Any \"not yet in force\" below only means the record starts later.\n\n")
+
+
+# Lexifina record path -> the live adapter's (code, law id, provision). Only shapes that map cleanly.
+_LIVE_PATHS = (
+    ("nl", re.compile(r"^netherlands/.*-(BWBR\d+)/art-(\d+[a-z]*)\.md$"), lambda m: (m[1], m[2])),
+    ("gb", re.compile(r"^united-kingdom/uk/legislation/([a-z]+/\d{4}/\d+)/((?:section|regulation|rule|article|schedule)/.+)\.md$"),
+     lambda m: (m[1], m[2])),
+    ("us", re.compile(r"^united-states/federal/usc/title-(\d+[a-z]?)/([^/]+)\.md$"), lambda m: (f"{m[1]} USC", m[2])),
+)
+
+
+_NOTE = re.compile(r"(?m)^(?:#+ Annotations|- \*\*[A-Z]\d+\*\*|_\d+ more annotations|Key: |\((?=[^)\n]*(?:Pub\. L\.|Stat\.|R\.S\.)))")
+
+
+def _trim(t: str) -> str:
+    """The wording of a provision: without front matter, leading headings, and trailing notes
+    (annotations, statute history) that start with a recognisable marker."""
+    t = re.sub(r"\A---\n.*?\n---\n", "", t.lstrip(), flags=re.S)
+    if m := _NOTE.search(t):
+        t = t[:m.start()]
+    lines = t.split("\n")
+    while lines and re.fullmatch(r"\s*(?:#.*|\*\*[^*]+\*\*)?\s*", lines[0]):
+        lines.pop(0)
+    t = "\n".join(lines)
+    return re.sub(r"\A\s*\**(?:(?:section|sec|article|art|s|§)\.?\s*)?\d+[a-z]*\.?\**\s+", "", t, count=1, flags=re.I)
+
+
+_LIST_NO = re.compile(r"(?m)^[\s>*#_-]*(?:\(\w{1,4}\)|\w{1,4}[°.)]+)\s+")
+
+
+def _words(t: str) -> list[tuple[str, int, int]]:
+    """Lower-case words of a text as (word, start, end) positions in `t`, without list numbering ("a.", "(2)", "3)").
+    Markdown, spacing and punctuation never make a word."""
+    skip = [m.span() for m in _LIST_NO.finditer(t)]
+    return [(m[0].lower(), m.start(), m.end()) for m in re.finditer(r"\w+", t)
+            if not any(a <= m.start() < b for a, b in skip)]
+
+
+def _passage(t: str, w: list, i1: int, i2: int, cap: int = 200) -> str:
+    """The text as written (case, punctuation) from 4 words before word i1 to 4 words after word i2, whitespace collapsed."""
+    lo, hi = max(0, i1 - 4), min(len(w), i2 + 4)
+    if lo >= hi:
+        return ""
+    a, b = w[lo][1], w[hi - 1][2]
+    while a and not t[a - 1].isspace():   # keep the punctuation stuck to the first and last word: "(ii)", "“term"
+        a -= 1
+    while b < len(t) and not t[b].isspace():
+        b += 1
+    p = " ".join(t[a:b].split())
+    return p if len(p) <= cap else p[:cap].rstrip() + "…"
+
+
+def _differences(lex: str, live: str) -> str:
+    """The passages where two texts differ ('' only when they are equal, or nearly: ratio of at least 0.98 and no
+    differing run longer than 3 words). The comparison is on lower-case words, so markdown, spacing, punctuation and
+    list numbers do not count; each passage is shown as written in each source, with a few words around it."""
+    ta, tb = _trim(lex), _trim(live)
+    wa, wb = _words(ta), _words(tb)
+    a, b = [x[0] for x in wa], [x[0] for x in wb]
+    sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
+    diffs = [o for o in sm.get_opcodes() if o[0] != "equal"]
+    if not diffs or (sm.ratio() >= 0.98 and all(max(i2 - i1, j2 - j1) <= 3 for _, i1, i2, j1, j2 in diffs)):
+        return ""
+    out = [f"- Lexifina: \"{_passage(ta, wa, i1, i2)}\" / official: \"{_passage(tb, wb, j1, j2)}\""
+           for _, i1, i2, j1, j2 in diffs[:3]]
+    return "\n".join(out + ([f"- ({len(diffs) - 3} more differing passages)"] if len(diffs) > 3 else []))
+
+
+# what the adapter's date means, per live adapter
+_LIVE_DATE = {"nl": "current official version, in force since {}", "gb": "current official version, in force since {}",
+              "us": "current official text, U.S. Code current through {}"}
+
+
+def _applies_notes(text: str, url: str) -> str:
+    """A line when the official page carries notes on how a provision applies or changed (UK annotations C/F/I/M)."""
+    notes = re.findall(r"(?m)^- \*\*([A-Z]\d+)\*\* (.+)$", text)
+    if not notes:
+        return ""
+    notes.sort(key=lambda n: n[0][0] != "C")   # modifications and exclusions first
+    quoted = "; ".join(f"'{k} {v[:90]}{'…' if len(v) > 90 else ''}'" for k, v in notes[:2])
+    return (f"Fontes: the official page also lists notes on how this provision applies or has changed (e.g. {quoted}), "
+            f"which Lexifina's record does not hold; check them on the official page: {url}\n\n")
+
+
+async def _live_check(path: str, date: str, body: str) -> str:
+    """Lines for the top of a get_law_on_date answer: today's official text when it differs from Lexifina's record,
+    else one line saying it agrees or was not compared. '' when the answer is a past date or no live adapter exists."""
+    end = re.search(r"the record runs to (\d{4}-\d{2}-\d{2})", body)
+    if date != "today" and not (end and date > end.group(1)):
+        return ""
+    target = next(((c, f(m)) for c, r, f in _LIVE_PATHS if (m := r.match(path))), None)
+    j = registry.get(target[0] if target else path.split("/", 1)[0])
+    if j is None or getattr(j, "lexifina_legislation", False):
+        return ""
+    live_ok = j.supports("get_legislation_provision") and not blocked_sources(j, "get_legislation_provision")
+    skipped = ("Fontes: this text was not compared with the live official source; for today's official text "
+               f"use get_legislation_provision with jurisdiction {j.code}.\n\n" if live_ok else
+               f"Fontes: there is no active live official source for {j.name} in Fontes, so this text was not "
+               "compared with one; check the official page it links.\n\n")
+    if not target or "For the next part, call again" in body or "\n\n" not in body:
+        return skipped
+    try:
+        p = await _fetch(j, "get_legislation_provision", *target[1])
+    except Exception:
+        return skipped
+    lex = body.split("\n\n", 1)[1]
+    if isinstance(p, str) or len(lex) + len(p.text) > 60000:
+        return skipped
+    diff = _differences(lex, p.text)
+    when = _LIVE_DATE.get(j.code, "text as of {}").format(p.as_of or "today")
+    notes = _applies_notes(p.text, p.url)
+    if not diff:
+        return f"Fontes: the wording of the live official text ({p.url}; {when}) agrees with Lexifina's record.\n\n" + notes
+    name = urlsplit(p.url).hostname or j.name
+    end = re.search(r"the record runs to (\d{4}-\d{2}-\d{2})", body)
+    later = (f"The official text is dated {p.as_of}, after Lexifina's record ends ({end[1]}), which may explain "
+             "the difference.\n" if end and re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.as_of or "") and p.as_of > end[1] else "")
+    return (f"Official source ({name}, {when}): {p.url}\n\n{p.text}\n\n"
+            "Fontes: Lexifina's record, shown below, differs from that official text. The differing "
+            f"passages (as written in each source):\n{diff}\n{later}Please check the official page yourself: {p.url}\n\n" + notes)
+
+
+def _at_record_end(body: str, date: str) -> str:
+    """For a date after the end of Lexifina's record, its heading and "Cite as" line say "as in force on <date>":
+    make them say the record's date instead."""
+    m = re.search(r"the record runs to (\d{4}-\d{2}-\d{2})", body)
+    asked = time.strftime("%Y-%m-%d") if date == "today" else date
+    if not m or asked <= m.group(1):
+        return body
+    return body[:1500].replace(f"as in force on {asked}", f"as in force on {m.group(1)}, the end of Lexifina's record") + body[1500:]
+
+
+async def _lexifina(tool: str, *, start_note: bool = False, live: bool = False, **args) -> str:
+    """A Lexifina call as text for the user, with the credit; failures as one clear line."""
+    try:
+        try:
+            res = await lexifina.call(tool, **args)
+        except BadRequest as e:
+            if "not a provision file" not in str(e) or args.get("path", ".md").endswith(".md"):
+                raise
+            args = {**args, "path": args["path"] + ".md"}
+            res = await lexifina.call(tool, **args)
+        body = _tag_record_start(lexifina.text(res))
+        if tool == "read_law" and args.get("date"):
+            body = _at_record_end(body, args["date"])
+        lead = _before_record(body, args["date"]) if tool == "read_law" and args.get("date") else ""
+        if live:
+            lead = await _live_check(args["path"], args["date"], body) + lead
+        return lead + lexifina.CREDIT + ("\n\n" + _RECORD_START if start_note else "") + "\n\n" + body
+    except (NotFound, BadRequest, SourceError) as e:
+        return _lexifina_error(e)
+
+
+def _lexifina_error(e: Exception) -> str:
+    if isinstance(e, (NotFound, BadRequest)):
+        e = type(e)(lexifina.tidy(str(e)))
+        hint = (" If you do not have the exact path, find it with search_legislation first."
+                if "not a provision file" in str(e) else "")
+        return _lexifina_error_line(e) + hint
+    return _lexifina_error_line(e)
+
+
+def _lexifina_error_line(e: Exception) -> str:
+    if isinstance(e, NotFound):
+        return f"Not found (Lexifina): {e}"
+    if isinstance(e, BadRequest):
+        return f"Bad request (Lexifina): {e}"
+    status = f" (HTTP {e.status})" if e.status else ""
+    return f"Error (Lexifina): {e}{status}. Nothing was searched; this is not a 'no results' answer."
+
+
+def _no_match(jurisdiction: str | None, rows: bool = False) -> str:
+    return ("Fontes: that citation did not match one provision" + (", so the list below is candidates, not results"
+            if rows else "") + ". Find the act with search_legislation (or the country's own tools) and pass its path as "
+            "`provision`" + (", or pick one of the paths below if one fits" if rows else "")
+            + ("" if jurisdiction else "; also pass `jurisdiction`") + ".\n\n")
+
+
+async def _lexifina_path(provision: str, jurisdiction: str | None) -> str | tuple[str]:
+    """A provision path from a path or a citation. A tuple holds the answer to show instead
+    (no match, several matches, or an error)."""
+    p = provision.strip()
+    if "/" in p and " " not in p:
+        return p
+    try:
+        res = await lexifina.call("find_provision", query=p, jurisdiction=jurisdiction, max_results=10)
+    except (NotFound, BadRequest, SourceError) as e:
+        return ((_no_match(jurisdiction) if "No act called" in str(e) else "") + _lexifina_error(e),)
+    rows = (res.get("structuredContent") or {}).get("results") or []
+    if not any(r.get("whole_act") for r in rows) and (
+            len(rows) == 1 or (rows and (res.get("structuredContent") or {}).get("read_as"))):
+        return rows[0]["path"]
+    body = lexifina.esc(lexifina.text(res))
+    return (_no_match(jurisdiction, bool(rows)) + lexifina.credited(body)
+            + ("\n\nPass one of these paths as `provision`." if rows else ""),)
+
+
+def _date_arg(name: str, v: str | None) -> str | None:
+    if v is None or v == "today":
+        return None
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", v):
+        try:
+            date.fromisoformat(v)
+            return None
+        except ValueError:
+            return (f"Bad request: `{name}` {v!r} is out of range (years start at 0001)." if v.startswith("0000")
+                    else f"Bad request: `{name}` {v!r} is not a valid calendar date.")
+    return f"Bad request: `{name}` must be YYYY-MM-DD or \"today\", got {v!r}."
+
+
+@mcp.tool(meta=_LONG_TEXT)
+async def get_law_on_date(provision: str, date: str = "today", jurisdiction: str | None = None,
+                          max_chars: int = 60000, offset: int = 0) -> str:
+    """A provision's text as in force on a date (also a past one), with the law that last changed it.
+
+    From Lexifina's global law record: a record of about 200 countries' law that keeps every
+    change. Lexifina is not the official publisher and may lag it; the answer links the official page and
+    says how far the record goes. For today's text from the official source, use
+    get_legislation_provision where the jurisdiction has it.
+
+    Args:
+        provision: a citation or name, e.g. "Art. 1 GG", "Equality Act 2010 s. 4" (with
+            jurisdiction "gb"), "Article L3141-3 du code du travail", or a path from an earlier
+            answer, e.g. "germany/bund/acts/grundgesetz/artikel/001.md".
+        date: in-force date, YYYY-MM-DD, or "today" (default).
+        jurisdiction: optional country to narrow a citation, e.g. "germany", "de", "France".
+        max_chars: page size (default 60000, at most 100000).
+        offset: character offset to continue from (from the note at the end of a long text).
+    """
+    stats.record("lexifina", "get_law_on_date")
+    if not lexifina.enabled():
+        return lexifina.OFF
+    if err := _date_arg("date", date):
+        return err
+    path = await _lexifina_path(provision, jurisdiction)
+    if isinstance(path, tuple):
+        return path[0]
+    max_chars, said = _chars(max_chars)
+    out = await _lexifina("read_law", start_note=True, live=not offset, path=path, date=date,
+                          max_chars=max_chars, offset=max(0, int(offset)))
+    if date != "today" and date > time.strftime("%Y-%m-%d"):
+        out = (f"Fontes: {date} is in the future, so this is the record's current text plus any changes "
+               "already scheduled; a later law could still change it.\n\n" + out)
+    return said + out
+
+
+async def _record_starts_later(path: str, earliest: str = "", latest: str = "") -> str:
+    """A line when the record of a provision starts after the compared dates (or, with no dates, holds one entry:
+    the record's start, not necessarily a change), so "no difference" or "1 change" can mislead."""
+    try:
+        changes = (await lexifina.call("provision_history", path=path)).get("structuredContent", {}).get("changes") or []
+    except (NotFound, BadRequest, SourceError):
+        return ""
+    first = changes[0].get("in_force", "") if changes else ""
+    if not first:
+        return ""
+    if not earliest:
+        return (f"Fontes: the only entry, {first}, is where Lexifina's record for this provision begins, "
+                "not necessarily a change.\n\n" if len(changes) == 1 else "")
+    if earliest >= first:
+        return ""
+    if latest < first:
+        return (f"Fontes: Lexifina's record for this provision starts on {first}, later than both dates, so "
+                "\"no difference\" may only mean the record does not reach back that far.\n\n")
+    return (f"Fontes: Lexifina's record for this provision starts on {first}, so it cannot show the text on "
+            f"{earliest}; the entry on {first} is when the record begins, not necessarily a change.\n\n")
+
+
+@mcp.tool(meta=_LONG_TEXT)
+async def get_law_history(provision: str, jurisdiction: str | None = None,
+                          date_a: str | None = None, date_b: str | None = None) -> str:
+    """How a provision changed: every law that changed it, or the word-by-word change between two dates.
+
+    From Lexifina's global law record (not the official publisher, and it may lag it; see get_law_on_date).
+
+    Args:
+        provision: a citation or name ("Art. 1 GG", "11 U.S.C. 1182") or a path from an
+            earlier answer.
+        jurisdiction: optional country to narrow a citation, e.g. "germany", "us".
+        date_a, date_b: give both (YYYY-MM-DD or "today") for the changes between those
+            dates, word by word. Without them: the list of every law that changed it.
+    """
+    stats.record("lexifina", "get_law_history")
+    if not lexifina.enabled():
+        return lexifina.OFF
+    if (date_a is None) != (date_b is None):
+        return "Bad request: give both date_a and date_b, or neither."
+    if err := _date_arg("date_a", date_a) or _date_arg("date_b", date_b):
+        return err
+    today = time.strftime("%Y-%m-%d")
+    if date_a and (today if date_a == "today" else date_a) > (today if date_b == "today" else date_b):
+        return "Bad request: date_a must be on or before date_b."
+    path = await _lexifina_path(provision, jurisdiction)
+    if isinstance(path, tuple):
+        return path[0]
+    if date_a:
+        out = await _lexifina("compare_dates", start_note=True, path=path, date_a=date_a, date_b=date_b)
+        if "change(s) took effect" in out or "No difference" in out:
+            a, b = sorted(today if d == "today" else d for d in (date_a, date_b))
+            out = await _record_starts_later(path, a, b) + out
+        return out
+    out = await _lexifina("provision_history", start_note=True, path=path)
+    return (await _record_starts_later(path) if "1 change(s)" in out else "") + out
 
 
 @mcp.tool()
