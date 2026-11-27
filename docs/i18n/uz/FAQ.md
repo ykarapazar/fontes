@@ -5,10 +5,10 @@
 ## Fontes nima
 
 Bepul, ochiq kodli MCP server (Apache 2.0). U Model Context Protocol’ni qoʻllab-quvvatlaydigan
-har qanday ilovaga (Claude, Codex, Cursor, VS Code, Gemini CLI va boshqalar) 120 dan ortiq
-yurisdiksiya va xalqaro sudlarda (125 ta adapter) sud qarorlari va qonunchilikni sud va davlat
-veb-saytlarida jonli qidirish imkonini beradi. Har bir natija oʻz manbasini koʻrsatadi va asl
-nusxaga havola beradi.
+har qanday ilovaga (Claude, Codex, Cursor, VS Code, Gemini CLI va boshqalar) sud qarorlari va
+qonunchilikni sud va davlat veb-saytlarida jonli qidirish imkonini beradi: 125 ta yurisdiksiya va
+xalqaro sudlarda, shuningdek Lexifina yozuvi orqali yana 91 ta mamlakatda (quyida qarang). Har bir
+natija oʻz manbasini koʻrsatadi va asl nusxaga havola beradi.
 
 ## Matnlar rasmiymi
 
@@ -55,9 +55,37 @@ Alohida: bir nechta manba oʻz shartlarida avtomatlashtirilgan kirish uchun nash
 ruxsati kerakligini aytadi. Ular OFF deb belgilangan va oʻchiq qoladi. Kalit buni oʻzgartirmaydi;
 buni faqat nashriyotchining ruxsati oʻzgartiradi (unda `WLM_PERMITTED=<codes>` ni oʻrnating).
 
+## Oʻtgan versiyalar va qoʻshimcha mamlakatlar qayerdan keladi?
+
+[Lexifina](https://github.com/lexifina/global-law) taxminan 200 mamlakat qonunchiligini git tarixi
+sifatida saqlaydi: har bir oʻzgarish kuchga kirgan kunga qoʻyilgan commit sifatida yoziladi. Fontes
+uni Lexifina’ning bepul xostlangan serveri orqali oʻqiydi. Ikkita vosita undan foydalanadi:
+`get_law_on_date` (qoidaning sana boʻyicha, oʻtmishdagi sanada ham kuchda boʻlgan matni va uni oxirgi
+marta oʻzgartirgan qonun) va `get_law_history` (normani oʻzgartirgan har bir qonun yoki ikki sana
+orasidagi soʻzma-soʻz oʻzgarish). Fontes yana 91 ta mamlakat va hududni shu usulda oʻqiydi, faqat
+qonunchilik uchun (masalan, Janubiy Afrika, Keniya, Meksika, Yangi Zelandiya, Rossiya, Janubiy Koreya,
+Belgiya, Litva, Ukraina, Malayziya, Tailand va Saudiya Arabistoni). Ular jonli rasmiy qamrovga ega
+125 ta adapterdan alohida, va mamlakatlar boʻyicha qamrov keskin farq qiladi (Keniyaning milliy
+yozuvida 9 ta akt bor). Hindistonning qonunlari ham Lexifina yozuvidan olinadi, chunki India Code
+shartlari avtomatlashtirilgan kirishni taqiqlaydi; uning Oliy sud hukmlari esa jonli.
+
+Lexifina rasmiy nashriyotchi emas va uning yozuvi jonli emas: Lexifina har bir mamlakatni vaqti-vaqti
+bilan qayta tekshiradi, uning 2026-yil 26-noyabrdagi hisobotida 383 ta milliy qonun organidan 338 tasi
+oxirgi 7 kun ichida tekshirilmagan deb sanalgan. Har bir javobda manba sifatida Lexifina nomi
+koʻrsatiladi, rasmiy nashriyotchi sahifasiga havola beriladi va yozuv qay darajada toʻliqligi aytiladi.
+
+Lexifina rasmiy huquqiy matnlar mualliflik huquqi bilan himoyalanmagan deb hisoblaydi, shuning uchun
+baʼzi mamlakatlarda Fontes oʻzi hurmat qiladigan shartlari yoki robots.txt boʻlgan saytlardan nusxa
+koʻchiradi. Fontes oʻzi oladigan hamma narsa uchun ularni hurmat qilishda davom etadi; Lexifina orqali
+kelganlar esa Lexifina’ning oʻz huquqiy xulosasiga amal qiladi, u har bir mamlakat uchun uning
+omborlarida qayd etilgan. Baʼzilari foydalanishni cheklaydi (Keniya nashriyotchisi: CC BY-NC). Bu
+hollarda qidiruv soʻzlaringiz, iqtiboslaringiz va sanalaringiz Lexifina serveriga yuboriladi.
+`WLM_LEXIFINA=0` bilan oʻchiring. Bepul server bir internet manzil uchun daqiqada 60 ta va kuniga
+10 000 ta chaqiruvga ruxsat beradi; kalit yoki hisob kerak emas. Fontes Lexifina bilan aloqador emas.
+
 ## Kompyuterimdan nima chiqadi
 
-Qidiruvlaringiz faqat qidirilayotgan manbaga boradi. Fontes maʼlumotlar bazasini saqlamaydi va
+Qidiruvlaringiz faqat qidirilayotgan manbaga boradi (Lexifina vositalari va mamlakatlari uchun bu Lexifina serveri). Fontes maʼlumotlar bazasini saqlamaydi va
 hisob talab qilmaydi.
 
 Manbalardan tashqari Fontes kuniga bir marta PyPI’dan yangiroq versiya bor-yoʻqligini soʻraydi

@@ -159,7 +159,6 @@ huk pukyuta hap'ichiy códigonta `WLM_PERMITTED` nisqaman yapaspa, comakunawan t
 | `de` | Alemania: NeuRIS (federal derecho willakuy portal, prueba servicio) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grecia: Imprenta Nacional, Gobierno Gacetapi maskay (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauricio: Corte Suprema (supremecourt.govmu.org) |
 | `sg` | Singapur: taripana wasikunap taripayninkuna (elitigation.sg) |
 

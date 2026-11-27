@@ -326,7 +326,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1 if d["newly_broken"] else 0
     load_dotenv(ROOT / ".env")   # same keys as the server; values are never printed
     registry.discover()
-    adapters = registry.available()
+    adapters = [j for j in registry.available() if not getattr(j, "via_lexifina", False)]
     if a.only:
         want = {registry.canonical(c) for c in a.only.split(",") if c.strip()}
         adapters = [j for j in adapters if j.code in want]

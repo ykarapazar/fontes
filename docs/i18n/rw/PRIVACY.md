@@ -3,7 +3,7 @@
 # Itangazo rya Fontes ku buzima bwite
 
 Fontes ikorera kuri mudasobwa yawe. Ibyo ushakisha n'inyandiko ufungura biguma hagati ya mudasobwa yawe,
-inkomoko za Leta ushakishamo, na porogaramu ya AI ukoresha (hakurikijwe amabwiriza y'iyo porogaramu
+inkomoko ushakishamo (iza Leta, hamwe na CourtListener na Lexifina aho uzikoresha, reba hepfo), na porogaramu ya AI ukoresha (hakurikijwe amabwiriza y'iyo porogaramu
 ubwayo). Fontes ubwayo ntiyoherereza abakora Fontes **ikintu na kimwe mu buryo busanzwe**.
 
 ## Ibishobora kuva kuri mudasobwa yawe, n'igihe
@@ -38,6 +38,8 @@ y'ubutabera, izina ry'igikoresho n'ubutumwa bw'ikosa by'ihamagara riheruka ryana
 washakishije n'ibiranga byakuwemo), n'inyandiko (note) niba wanditse. Ntugashyire amakuru y'umukiliya
 muri iyo note. Kugira ngo ibi bishoboke, Fontes ibika ikosa riheruka kuri mudasobwa yawe (`last-error.json`
 mu bubiko bwayo bwa cache, risimburwa buri gihe); ntirijya ryoherezwa ryonyine.
+
+**4. Lexifina (birafunguye mu buryo busanzwe).** `get_law_on_date`, `get_law_history`, ibihugu 91 n'amategeko y'Ubuhinde bisomwa binyuze mu ibaruramakuru rya Lexifina, bityo bijya kuri Lexifina, ku ruhande rw'urubuga rwa Leta cyangwa aho kuri rwo. Amagambo yawe yo gushakisha, ivugwa ry'ingingo (citations) n'amatariki bijya kuri seriveri y'ubuntu ya Lexifina, `global-law.lexifina.com`, itegekwa na Lexifina, ntabwo ari n'abakora Fontes. Lexifina ivuga ko seriveri yayo yandika izina ry'igikoresho cyahamagawe n'igihe cyamaze, ntiyandike icyo wabajije; Fontes ntishobora kubigenzura, kandi amabwiriza ya Lexifina bwite ni yo akurikizwa. Lexifina ibona aderesi yawe ya IP, nk'uko buri seriveri y'urubuga ibona. Kugira ngo uzimye Lexifina burundu, shyiraho `WLM_LEXIFINA=0`; ibyo bikoresho n'ibyo bihugu ntibizongera gukora, kandi nta kintu kizoherezwa aho.
 
 ## Aho bijya n'igihe bibikwa
 

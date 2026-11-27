@@ -3,8 +3,8 @@
 # Privacyverklaring van Fontes
 
 Fontes draait op uw computer. Uw zoekopdrachten en de documenten die u opent, blijven tussen uw
-computer, de officiële bronnen die u doorzoekt en de AI-app die u gebruikt (onder de eigen
-voorwaarden van die app). Fontes zelf stuurt de ontwikkelaars van Fontes **standaard niets**.
+computer, de bronnen die u doorzoekt (officiële bronnen, plus CourtListener en Lexifina waar u die
+gebruikt, zie hieronder) en de AI-app die u gebruikt (onder de eigen voorwaarden van die app). Fontes zelf stuurt de ontwikkelaars van Fontes **standaard niets**.
 
 ## Wat uw computer kan verlaten, en wanneer
 
@@ -40,6 +40,14 @@ foutmelding van de laatste mislukte tool-aanroep (met uw zoekwoorden en id's eru
 notitie als u die schrijft. Zet geen cliëntgegevens in de notitie. Hiervoor bewaart Fontes de
 laatste fout op uw computer (`last-error.json` in de cachemap, die telkens wordt vervangen); die
 wordt nooit los verzonden.
+
+**4. Lexifina (standaard aan).** `get_law_on_date`, `get_law_history`, de 91 landen en de Indiase wetten worden gelezen via de verzameling van Lexifina, dus ze gaan naar Lexifina, naast of in plaats van de officiële site. Uw
+zoekwoorden, citaten en data gaan naar de gratis server van Lexifina, `global-law.lexifina.com`, die
+wordt beheerd door Lexifina en niet door de ontwikkelaars van Fontes. Lexifina documenteert dat de
+server bijhoudt welke tool is aangeroepen en hoe lang die duurde, nooit wat er gevraagd werd; Fontes
+kan dat niet controleren, en de eigen voorwaarden van Lexifina gelden. Lexifina ziet uw IP-adres,
+zoals elke webserver dat ziet. Om Lexifina volledig uit te zetten, stelt u `WLM_LEXIFINA=0` in; die
+twee tools en landen werken dan niet meer, en er wordt daarheen niets verzonden.
 
 ## Waar het naartoe gaat en hoe lang het wordt bewaard
 

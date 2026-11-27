@@ -154,7 +154,6 @@ CourtListener کو [Free Law Project](https://free.law) چلاتا ہے، جو �
 | `de` | جرمنی: NeuRIS (وفاقی قانونی معلومات کا پورٹل، آزمائشی سروس) |
 | `difc` | دبئی انٹرنیشنل فنانشل سینٹر کورٹس (difccourts.ae) |
 | `gr` | یونان: قومی چھاپہ خانہ، سرکاری گزٹ کی تلاش (search.et.gr) |
-| `in` | بھارت: India Code (indiacode.gov.in) |
 | `mu` | ماریشس: سپریم کورٹ (supremecourt.govmu.org) |
 | `sg` | سنگاپور: عدالتی فیصلے (elitigation.sg) |
 

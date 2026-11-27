@@ -23,6 +23,7 @@ from no_adapter import NO_ADAPTER  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "COVERAGE.md"
+PAGES = "https://ykarapazar.github.io/fontes/law/"   # one page per jurisdiction, from country_pages.py
 MAPS = ROOT / "research" / "maps"   # <code>.json: the country's courts and legislation types, each marked reached or not
 L = i18n_docs.labels()   # set per language by write()
 
@@ -133,7 +134,7 @@ def _half(j, methods) -> str:
 def render(lang: str = "en") -> str:
     global L
     L = i18n_docs.labels(lang)
-    js = sorted(registry._all.values(), key=lambda j: j.name.lower())
+    js = sorted((j for j in registry._all.values() if not getattr(j, "via_lexifina", False)), key=lambda j: j.name.lower())
     counts = [L["cov_counts"].format(adapters=len(js), missing=len(NO_ADAPTER)), ""]
     if lang == "en":
         out = [f"# {L['cov_title']}", "", L["cov_intro"], "", L["cov_reliability"], "", L["cov_last_column"], ""]
@@ -150,7 +151,7 @@ def render(lang: str = "en") -> str:
     for j in sorted(js, key=lambda j: ("complete" not in (sc[j.code][0][0], sc[j.code][1][0]), j.name.lower())):
         (a, aw), (b, bw) = sc[j.code]
         miss = " / ".join(w for w in (aw, bw) if w)
-        out.append(f"| `{j.code}` | {j.name} | {SCORE[a]} | {SCORE[b]} | "
+        out.append(f"| `{j.code}` | [{j.name}]({PAGES}{j.code}/) | {SCORE[a]} | {SCORE[b]} | "
                    f"{L['cov_yes'] if j.code in covered else L['cov_no']} | {_esc(miss)[:300]} |")
     if lang != "en":
         return "\n".join(out + ["", L["cov_full_english"].format(url="../../COVERAGE.md")]) + "\n"
@@ -158,7 +159,7 @@ def render(lang: str = "en") -> str:
             "| " + " | ".join(L[f"cov_col_{c}"] for c in ("code", "jurisdiction", "caselaw", "legislation", "courts",
                                                          "state_courts", "leg_types", "rest")) + " |",
             "|---|---|---|---|---|---|---|---|"]
-    out += [f"| `{j.code}` | {j.name} | {_half(j, CASELAW)} | {_half(j, LEGISLATION)} | "
+    out += [f"| `{j.code}` | [{j.name}]({PAGES}{j.code}/) | {_half(j, CASELAW)} | {_half(j, LEGISLATION)} | "
             f"{_count((_map(j.code) or {}).get('courts'))} | {_count(_state_rows(_map(j.code)))} | "
             f"{_count((_map(j.code) or {}).get('legislation'))} | {_gap_counts(_map(j.code))} |" for j in js]
     for j in js:
@@ -193,7 +194,7 @@ def render(lang: str = "en") -> str:
 def main() -> None:
     registry.discover()
     OUT.write_text(render())
-    print(f"wrote {OUT} ({len(registry._all)} adapters, {len(NO_ADAPTER)} without)")
+    print(f"wrote {OUT} ({len(registry._all) - sum(getattr(j, "via_lexifina", False) for j in registry._all.values())} adapters, {len(NO_ADAPTER)} without)")
     for lang in i18n_docs.translations():
         path = i18n_docs.I18N / lang / "COVERAGE.md"
         path.write_text(render(lang), encoding="utf-8")

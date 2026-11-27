@@ -3,7 +3,7 @@
 # Fontes a shuiteáil
 
 Ligeann Fontes do d'aip IS breithiúnais chúirte agus reachtaíocht a chuardach beo ar shuíomhanna
-gréasáin cúirteanna agus rialtais i níos mó ná 120 dlínse. Tá nasc chuig an mbunleagan i ngach
+gréasáin cúirteanna agus rialtais i 125 dlínse. Tá nasc chuig an mbunleagan i ngach
 toradh. Is freastalaí MCP caighdeánach é, mar sin oibríonn sé in aon aip ar féidir léi freastalaí
 MCP áitiúil a rith: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini
 CLI, Windsurf, Zed, LM Studio, Cline agus aipeanna eile.

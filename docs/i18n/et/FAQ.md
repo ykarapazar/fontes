@@ -6,8 +6,8 @@
 
 Tasuta avatud lähtekoodiga MCP-server (Apache 2.0). See võimaldab igal Model Context
 Protocoli toetaval rakendusel (Claude, Codex, Cursor, VS Code, Gemini CLI ja teised) otsida kohtulahendeid ja
-õigusakte reaalajas kohtute ja valitsuste veebisaitidelt enam kui 120 jurisdiktsioonis ja rahvusvahelistes
-kohtutes (125 adapterit). Iga tulemus nimetab oma allika ja lingib originaalile.
+õigusakte reaalajas kohtute ja valitsuste veebisaitidelt 125 jurisdiktsioonis ja rahvusvahelistes kohtutes,
+lisaks 91 veel riiki Lexifina registri kaudu (vt allpool). Iga tulemus nimetab oma allika ja lingib originaalile.
 
 ## Kas tekstid on ametlikud?
 
@@ -52,9 +52,17 @@ Eraldi märgivad mõned allikad oma tingimustes, et automatiseeritud juurdepää
 luba. Need on märgitud OFF ja jäävad välja lülitatuks. Võti seda ei muuda; seda muudab ainult
 avaldaja luba (siis määrake `WLM_PERMITTED=<codes>`).
 
+## Kust tulevad varasemad versioonid ja lisariigid?
+
+[Lexifina](https://github.com/lexifina/global-law) hoiab umbes 200 riigi õigust git-ajaloona: iga muudatus on commit, mis on dateeritud päeval, mil see jõustus. Fontes loeb seda Lexifina tasuta serveri kaudu. Kahte tööriista kasutatakse selleks: `get_law_on_date` (säte sellisena, nagu see kehtis kuupäeval, ka minevikus, koos seadusega, mis seda viimati muutis) ja `get_law_history` (iga seadus, mis sätet muutis, või sõnasõnaline muudatus kahe kuupäeva vahel). Fontes loeb selle kaudu veel 91 riiki ja territooriumi, ainult õigusakte (näiteks Lõuna-Aafrika, Keenia, Mehhiko, Uus-Meremaa, Venemaa, Lõuna-Korea, Belgia, Leedu, Ukraina, Malaisia, Tai ja Saudi Araabia). Need on eraldi 125 adapterist, millel on reaalajas ametlik katvus, ja katvus riigiti varieerub palju (Keenia riiklik register sisaldab 9 akti). India aktid tulevad samuti Lexifina registrist, sest India Code'i tingimused keelavad automatiseeritud juurdepääsu; selle Ülemkohtu otsused on reaalajas.
+
+Lexifina ei ole ametlik avaldaja ja tema register ei ole reaalajas: Lexifina kontrollib iga riiki aeg-ajalt, ning tema enda 2026-11-26 aruanne luges 383 riigi õigusallikast 338 viimase 7 päeva jooksul kontrollimata. Iga vastus nimetab Lexifinat allikana, lingib ametliku avaldaja lehe ja ütleb, kui kaugele register ulatub.
+
+Lexifina seisukoha järgi ei ole ametlikud õigustekstid autoriõigusega kaitstud, seetõttu kopeerib ta mõnes riigis saite, mille tingimusi või robots.txt Fontes ise austab. Fontes austab neid kõige puhul, mida ta ise alla laeb; Lexifina kaudu tulev järgib Lexifina enda hinnangut, mis on iga riigi kohta kirjas tema hoidlates. Mõned piiravad kasutust (Keenia avaldaja: CC BY-NC). Teie otsingusõnad, viited ja kuupäevad lähevad nende puhul Lexifina serverisse. Selle väljalülitamiseks seadke `WLM_LEXIFINA=0`. Tasuta server lubab 60 päringut minutis ja 10 000 päevas internetiaadressi kohta; võtit ega kontot pole vaja. Fontes ei ole Lexifinaga seotud.
+
 ## Mis minu arvutist lahkub?
 
-Teie otsingud lähevad ainult otsitavale allikale. Fontes ei pea andmebaasi ega vaja
+Teie otsingud lähevad ainult otsitavale allikale (Lexifina tööriistade ja riikide puhul on see Lexifina server). Fontes ei pea andmebaasi ega vaja
 kontot.
 
 Lisaks allikatele küsib Fontes kord päevas PyPI-lt, kas on olemas uuem versioon (välja lülitatav

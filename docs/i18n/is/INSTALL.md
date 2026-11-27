@@ -3,7 +3,7 @@
 # Uppsetning Fontes
 
 Fontes gerir gervigreindarforritinu þínu kleift að fletta upp dómum og löggjöf í rauntíma á vefsíðum dómstóla og
-stjórnvalda í meira en 120 lögsögum. Hver niðurstaða tengir á frumritið. Þetta er staðlaður MCP-þjónn,
+stjórnvalda í 125 lögsögum. Hver niðurstaða tengir á frumritið. Þetta er staðlaður MCP-þjónn,
 svo hann virkar í hvaða forriti sem getur keyrt staðbundinn MCP-þjón: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline og fleirum.
 

@@ -3,7 +3,8 @@
 # Yégleb sutura bu Fontes
 
 Fontes ci sa ordinatëer lay dox. Say gëstu ak dokimaŋ yi ngay ubbi dañuy des ci diggante sa ordinatëer,
-cosaan yu Nguur gi ngay wut, ak aplikasioŋ AI bi ngay jëfandikoo (ci sàrti aplikasioŋ boobu ci boppam).
+cosaan yi ngay wut (yu Nguur gi, ak CourtListener ak Lexifina su ngay jëfandikoo leen, xoolal ci suuf), ak
+aplikasioŋ AI bi ngay jëfandikoo (ci sàrti aplikasioŋ boobu ci boppam).
 Fontes ci boppam du yónne defarkati Fontes yi **dara ci njëlbéen**.
 
 ## Lan mën a génn ci sa ordinatëer, ak kañ
@@ -36,6 +37,13 @@ jumtukaay ak bataaxalu njuumte bu woote jumtukaay bu mujj bu antuwul (ñu dindi 
 xàmmeekaay), ak ab nót su nga ci bindee benn. Bul def ci nót bi xibaaru kiliyaan. Ngir lii, Fontes dafay
 denc njuumte bu mujj bi ci sa ordinatëer (`last-error.json` ci kàggu cache-am, ñu koy wuutal saa su ne);
 du mukk ko yónne moom kese.
+
+**4. Lexifina (taal na ci njëlbéen).** `get_law_on_date`, `get_law_history`, 91 réew yi ak Acts yu Inde ñu jàng ci mbind mu Lexifina ci yoon, ñu dem ci Lexifina, ak sit bu Nguur gi walla ci kanam loolu. Sa baat yi, sa citation yi ak sa bés yi dañu dem ci serwëer bu free
+bu Lexifina, `global-law.lexifina.com`, bu Lexifina moo ko defar, du ci defarkati Fontes. Lexifina dafay wax ne
+serwëeru ko dafay bind ban jumtukaay la woo ak ban waxtu la ko jeexal, waaye du mukk lu ñu laaj; Fontes manul a
+seetaan loolu, te sàrti Lexifina ci boppam a jëfandikoo. Lexifina dafay gis sa adrees IP, ni ci serwëeri web yépp.
+Ngir tëj Lexifina bës tërëb, defal `WLM_LEXIFINA=0`; ginnaaw loolu, jumtukaay ñaar yooyu ak réew yooyu dinañu bàyyi
+liggéey, te dara du dem fa.
 
 ## Fu muy dem ak ñaata diir lañu koy denc
 

@@ -3,9 +3,9 @@
 # Dateschutzerklärung vu Fontes
 
 Fontes leeft op Ärem Computer. Är Sichen an d'Dokumenter, déi Dir opmaacht, bleiwen tëscht Ärem
-Computer, den offizielle Quellen, an deenen Dir sicht, an der KI-App, déi Dir benotzt (ënnert den
-eegene Konditioune vun där App). Fontes selwer schéckt den Entwéckler vu Fontes **standardméisseg
-näischt**.
+Computer, de Quellen, déi Dir sicht (offiziell, plus CourtListener an Lexifina, wou Dir se benotzt,
+kuckt ënnen), an der KI-App, déi Dir benotzt (ënnert den eegene Konditioune vun där App). Fontes
+selwer schéckt den Entwéckler vu Fontes **standardméisseg näischt**.
 
 ## Wat Äre Computer verloosse kann, a wéini
 
@@ -41,6 +41,15 @@ Tool-Opruff, deen net geklappt huet (mat Äre Sichwierder an IDen erausgeholl), 
 Dir eng schreift. Schreift keng Donnéeë vu Clienten an d'Notiz. Dofir hält Fontes de leschte
 Feeler op Ärem Computer (`last-error.json` a sengem Cache-Dossier, gëtt all Kéier ersat); e gëtt ni
 eleng geschéckt.
+
+**4. Lexifina (standardméisseg un).** `get_law_on_date`, `get_law_history`, déi 91 Länner an d'Gesetzer vun Indien, déi
+iwwer Lexifina sengem Record vum Gesetz gelies ginn, ginn zu Lexifina, zousätzlech zu oder amplaz vun enger offizieller Säit. Är Sichwieder,
+Zitater an Datume ginn un Lexifina sengen gratis Server, `global-law.lexifina.com`, deen vu Lexifina
+gefouert gëtt, net vun den Entwéckler vu Fontes. Lexifina dokumentéiert, datt säi Server logt, wéi
+eng Tool opgeruff gouf a wéi laang et gedauert huet, ni wat gefrot gouf; Fontes kann dat net
+nofroen, an déi eegen Konditioune vu Lexifina gelten. Lexifina gesäit Är IP-Adress, wéi all
+Webserver. Fir dës zwee Tools an dës Länner komplett auszeschalten, setzt `WLM_LEXIFINA=0`; dann
+funktionéieren dës zwee Tools an d'Länner net méi, an et gëtt dohinner näischt geschéckt.
 
 ## Wouhin et geet a wéi laang et gehale gëtt
 

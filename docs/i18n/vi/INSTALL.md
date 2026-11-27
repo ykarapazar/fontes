@@ -3,7 +3,7 @@
 # Cài đặt Fontes
 
 Fontes cho phép ứng dụng AI của bạn tra cứu bản án và văn bản quy phạm pháp luật trực tiếp trên các trang web của tòa án
-và cơ quan nhà nước ở hơn 120 phạm vi tài phán. Mọi kết quả đều dẫn liên kết tới bản gốc. Đây là một máy chủ MCP chuẩn,
+và cơ quan nhà nước ở 125 phạm vi tài phán. Mọi kết quả đều dẫn liên kết tới bản gốc. Đây là một máy chủ MCP chuẩn,
 nên hoạt động trong mọi ứng dụng có thể chạy máy chủ MCP cục bộ: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline và các ứng dụng khác.
 

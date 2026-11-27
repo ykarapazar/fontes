@@ -6,8 +6,7 @@
 
 Isang libre at open-source na MCP server (Apache 2.0). Binibigyang-daan nito ang anumang app na gumagamit ng
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI at iba pa) na maghanap ng mga desisyon ng
-korte at lehislasyon nang live sa mga website ng mga korte at ng pamahalaan sa 120+ hurisdiksyon at
-internasyonal na korte (125 adapter). Bawat resulta ay nagsasaad ng sanggunian nito at may link sa orihinal.
+korte at lehislasyon nang live sa mga website ng mga korte at ng pamahalaan sa 125 hurisdiksyon at internasyonal na korte, at sa 91 pang bansa sa pamamagitan ng record ng Lexifina (tingnan sa ibaba). Bawat resulta ay nagsasaad ng sanggunian nito at may link sa orihinal.
 
 ## Opisyal ba ang mga teksto?
 
@@ -54,9 +53,17 @@ tagapaglathala para sa awtomatikong pag-access. May markang OFF ang mga ito at n
 binabago ng isang key; ang pahintulot lamang ng tagapaglathala ang nagbabago nito (pagkatapos ay itakda ang
 `WLM_PERMITTED=<codes>`).
 
+## Saan galing ang mga nakaraang bersyon at ang mga karagdagang bansa?
+
+Mula sa [Lexifina](https://github.com/lexifina/global-law), na nagtatago ng batas ng halos 200 bansa bilang git history: bawat pagbabago ay commit na may petsa ng araw kung kailan ito nagkabisa. Binabasa ito ng Fontes sa pamamagitan ng libreng hosted server ng Lexifina. Dalawang tool ang gumagamit nito: `get_law_on_date` (isang probisyon gaya ng pag-iral nito sa isang petsa, pati sa nakaraan, kasama ang batas na huling nagbago rito) at `get_law_history` (bawat batas na nagbago ng isang probisyon, o ang salita-por-salitang pagbabago sa pagitan ng dalawang petsa). Binabasa rin ng Fontes ang 91 pang bansa at teritoryo sa ganitong paraan, para sa lehislasyon lamang (halimbawa South Africa, Kenya, Mexico, New Zealand, Russia, South Korea, Belgium, Lithuania, Ukraine, Malaysia, Thailand at Saudi Arabia). Hiwalay ang mga ito sa 125 adapter na may live na opisyal na saklaw, at malaki ang pagkakaiba ng saklaw ng bawat bansa (ang pambansang record ng Kenya ay may 9 na act). Galing din sa record ng Lexifina ang mga Act ng India, dahil ipinagbabawal ng mga tuntunin ng India Code ang awtomatikong pag-access; live ang mga hatol ng Supreme Court nito.
+
+Hindi ang opisyal na tagapaglathala ang Lexifina, at hindi live ang record nito: paminsan-minsan nitong sinusuri ang bawat bansa, at ayon sa sarili nitong ulat noong 2026-11-26, 338 sa 383 pambansang katawan ng batas ang hindi nasuri sa nakaraang 7 araw. Pinangalanan ng bawat sagot ang Lexifina bilang pinagmulan, nili-link ang pahina ng opisyal na tagapaglathala at sinasabi kung hanggang saan umaabot ang record.
+
+Naniniwala ang Lexifina na ang mga opisyal na teksto ng batas ay hindi protektado ng copyright, kaya sa ilang bansa, kinokopya nito ang mga site na ang mga tuntunin o robots.txt ay iginagalang mismo ng Fontes. Iginagalang pa rin ng Fontes ang mga iyon para sa lahat ng kinukuha nito mismo; ang dumarating sa pamamagitan ng Lexifina ay sumusunod sa sariling paghuhusga ng Lexifina, na nakatala bawat bansa sa mga repository nito. May ilan na naghihigpit sa paggamit (ang tagapaglathala ng Kenya ay CC BY-NC). Napupunta sa server ng Lexifina ang iyong mga salitang hinanap, citation at petsa para sa mga ito. Itakda ang `WLM_LEXIFINA=0` para i-off ito. Walang key o account; pinapayagan ng libreng server ang 60 tawag kada minuto at 10,000 kada araw bawat internet address. Walang kaugnayan ang Fontes sa Lexifina.
+
 ## Ano ang lumalabas sa aking computer?
 
-Napupunta lamang ang iyong mga paghahanap sa sanggunian na hinahanapan. Walang iniimbak na database ang Fontes
+Napupunta lamang ang iyong mga paghahanap sa sanggunian na hinahanapan (para sa mga tool at bansa ng Lexifina, ang server ng Lexifina iyon). Walang iniimbak na database ang Fontes
 at hindi ito nangangailangan ng account.
 
 Bukod sa mga sanggunian, tinatanong ng Fontes ang PyPI minsan sa isang araw kung may mas bagong bersyon

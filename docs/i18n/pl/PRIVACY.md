@@ -3,8 +3,8 @@
 # Informacja o prywatności Fontes
 
 Fontes działa na Twoim komputerze. Twoje wyszukiwania i otwierane dokumenty pozostają między
-Twoim komputerem, przeszukiwanymi oficjalnymi źródłami i używaną przez Ciebie aplikacją AI (na
-warunkach tej aplikacji). Sam Fontes **domyślnie nie wysyła niczego** twórcom Fontes.
+Twoim komputerem, źródłami, które przeszukujesz (oficjalnymi, a także CourtListener i Lexifiną, jeśli
+z nich korzystasz; zobacz niżej), i używaną przez Ciebie aplikacją AI (na warunkach tej aplikacji). Sam Fontes **domyślnie nie wysyła niczego** twórcom Fontes.
 
 ## Co może opuścić Twój komputer i kiedy
 
@@ -40,6 +40,15 @@ nieudanego wywołania narzędzia (z usuniętymi wyszukiwanymi słowami i identyf
 notatkę, jeśli ją napiszesz. Nie umieszczaj w notatce danych klientów. W tym celu Fontes
 przechowuje ostatni błąd na Twoim komputerze (`last-error.json` w folderze pamięci podręcznej,
 zastępowany za każdym razem); nigdy nie jest on wysyłany samodzielnie.
+
+**4. Lexifina (domyślnie włączona).** `get_law_on_date`, `get_law_history`, 91 krajów i indyjskie akty prawne odczytywane
+ze zbioru prawa Lexifiny trafiają do Lexifiny, obok oficjalnej strony albo zamiast niej. Wyrazy wyszukiwania, cytowania i daty
+trafiają na bezpłatny serwer Lexifiny, `global-law.lexifina.com`, który prowadzi Lexifina, a nie
+twórcy Fontes. Lexifina podaje, że jej serwer zapisuje, które narzędzie zostało wywołane i jak długo
+trwało, nigdy natomiast, o co zapytano; Fontes nie może tego sprawdzić, a obowiązują warunki
+samej Lexifiny. Lexifina widzi Twój adres IP, tak jak każdy serwer internetowy. Aby całkowicie
+wyłączyć Lexifinę, ustaw `WLM_LEXIFINA=0`; wtedy te dwa narzędzia i kraje przestają działać, a nic
+nie jest tam wysyłane.
 
 ## Dokąd trafiają dane i jak długo są przechowywane
 

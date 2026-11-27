@@ -163,7 +163,6 @@ automatisé sans autorisation. Si vous avez l'autorisation de l'éditeur, active
 | `de` | Allemagne : NeuRIS (portail fédéral d'information juridique, service en phase d'essai) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grèce : Imprimerie nationale, recherche dans le Journal officiel (search.et.gr) |
-| `in` | Inde : India Code (indiacode.gov.in) |
 | `mu` | Maurice : Cour suprême (supremecourt.govmu.org) |
 | `sg` | Singapour : décisions de justice (elitigation.sg) |
 

@@ -6,8 +6,8 @@
 
 Peteĩ servidor MCP reigua ha código abierto (Apache 2.0). Oheja oimeraẽ aplicación oñe'ẽva
 Model Context Protocol-pe (Claude, Codex, Cursor, VS Code, Gemini CLI ha ambue) oheka
-tribunalkuéra sentencia ha léikuéra ko'ag̃aite tribunal ha gobierno sitio web-pe, 120
-jurisdicción ári ha tribunal internacional-pe (125 adaptador). Opaite mbohovái he'i
+tribunalkuéra sentencia ha léikuéra ko'ag̃aite tribunal ha gobierno sitio web-pe, 125
+jurisdicción ha tribunal internacional-pe, ha 91 ambue tetã Lexifina rehegua registro rupive (ehecha upéi). Opaite mbohovái he'i
 hypykue ha ojoaju pe original rehe.
 
 ## Umi jehaipy ha'épa oficial?
@@ -57,9 +57,17 @@ Ambue hendápe, mbovymi ypykue he'i hembiapoukapýpe acceso automático oikotev�
 permiso. Oñemarka OFF ha opyta mbogue. Peteĩ clave nomoambuéi upéva; ijára permiso añoite
 omoambue (upéi emoĩ `WLM_PERMITTED=<codes>`).
 
+## Ymaguare versiónkuéra ha ambue tetã, moõpa ojehupyty?
+
+Lexifina-gui ([Lexifina](https://github.com/lexifina/global-law)), ha'e oguereko 200 aproximadamente tetã léi git historia-pe: peteĩteĩ oñemoambue ha'e peteĩ commit, ha'e árape oiko vove. Fontes oheka chupe Lexifina ndaipórigui servidor-gui. Mokõi tembiporu oheka upe: `get_law_on_date` (peteĩ provisión oiko vove peteĩ árape, ymaguare-pe avei, ha upe léi oñemoambuevéva) ha `get_law_history` (opaite léi oñemoambuévagui peteĩ provisión, térã ñe'ẽ ñe'ẽ ñemoambue mokõi árape apytépe). Fontes oheka avei 91 ambue tetã ha teritorio upe rupive, léi añoite, jurisprudencia'ỹre (techapyrãramo Sudáfrica, Kenya, México, Nueva Zelanda, Rusia, Corea del Sur, Bélgica, Lituania, Ucrania, Malasia, Tailandia ha Arabia Saudita). Umi ojehai separado 125 adaptador-gui ko'ag̃aite ypykue oficial cobertura-gui, ha peteĩteĩ tetã cobertura heta iñambue (Kenya tetã registro-pe oguereko 9 acta). India léi Lexifina rehegua registro-gui avei ojehupyty, India Code términos ndojepuruvái acceso automatizado upévare; ijuicio Corte Suprema sentencia ha ko'ag̃aite.
+
+Lexifina ndaha'éi ypykue oficial, ha iregistro ndaha'éi ko'ag̃aite: Lexifina peteĩteĩ tetã oñemoañete jeyhápe, ha 2026-11-26-pe ijuicio informe frescura-pe ohechauka 383 tetã léi órgano-gui 338 noñemoañetéi 7 ára ryepýpe. Opaite mbohovái Lexifina-gui he'i Lexifina ypykue ramo, ojoaju ypykue oficial editor-pe ha he'i mba'éichapa registro oguerohóva.
+
+Lexifina ohechauka ypykue oficial léi texto ndoguerekói derecho de autor, upévare peteĩ tetãme ojopia sitio-kuéra, umi terms térã robots.txt Fontes chupe respeta. Fontes respeta chupe opavave ojeheka rehe, ha Lexifina-gui oúva oiko Lexifina ijuicio legal-pe, ojehai peteĩteĩ tetã rehe repositorios-pe. Ypykue mbovy ombotove jeporu (Kenya editor: CC BY-NC). Ko tembiporu ha tetã-kuérape, nde porandu ñe'ẽ, citación ha árape ohendu Lexifina servidor-pe. Emoĩ `WLM_LEXIFINA=0` ema'ẽ hag̃ua. Servidor ndaipórigui oguereko 60 llamada peteĩ minuto-pe ha 10.000 peteĩ árape peteĩteĩ internet dirección-pe; clave térã cuenta'ỹre. Fontes ndoĩri Lexifina ndive ojoajúvape.
+
 ## Mba'épa osẽ che computadora-gui?
 
-Nde jeheka oho reheka hápe añoite. Fontes ndoñongatúi base de datos ha noikotevẽi cuenta.
+Nde jeheka oho reheka hápe añoite (Lexifina tembiporu ha tetã-kuéra-pe, upe ha'e Lexifina servidor). Fontes ndoñongatúi base de datos ha noikotevẽi cuenta.
 
 Ypykue ndaha'éiva, Fontes oporandu PyPI-pe ára ha ára peteĩ jey oĩpa versión ipyahuvéva
 (embogue `FONTES_NO_UPDATE_CHECK=1` reheve). Papapy jeporu rehegua oĩ mbogue nde remyandy

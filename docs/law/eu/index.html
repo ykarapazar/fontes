@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
 <link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
-<title>European Union: case law and legislation for your AI app | Fontes</title>
+<title>European Union case law and legislation: MCP server | Fontes</title>
 <meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up European Union case law and legislation live from Publications Office CELLAR (EUR-Lex data): SPARQL + REST. Free and open source; every result links to the original.">
 <link rel="canonical" href="https://ykarapazar.github.io/fontes/law/eu/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="European Union: case law and legislation for your AI app | Fontes">
+<meta property="og:title" content="European Union case law and legislation: MCP server | Fontes">
 <meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up European Union case law and legislation live from Publications Office CELLAR (EUR-Lex data): SPARQL + REST. Free and open source; every result links to the original.">
 <meta property="og:url" content="https://ykarapazar.github.io/fontes/law/eu/">
 <meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
@@ -51,6 +51,8 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-si
 <li>Treaties and Charter (sector 1): served by CELEX id (current: 12016M/TXT = TEU, 12016E/TXT = TFEU, 12016P/TXT = Charter; doc_type=treaty lists all consolidated versions). No in-force flag for old versions (CELLAR marks them all in force); protocols and declarations are inside the TEU/TFEU text, article labels repeat there (a label resolves to the main treaty first); accession treaties and amending treaties (sector 1 works without /TXT) not searched</li>
 <li>International agreements (sector 2): not built</li>
 </ul>
+<h2>Past versions</h2>
+<p><code>get_law_on_date</code> and <code>get_law_history</code> read Lexifina's record (not the official publisher).</p>
 <h2>Questions to try</h2>
 <p>Ask in any language; the search words work best in the language of the source.</p>
 <ul>

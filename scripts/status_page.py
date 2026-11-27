@@ -26,6 +26,8 @@ import fontes_i18n  # noqa: E402
 import i18n_docs  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
+TITLE = "Fontes source status: daily check of court and government websites"
+DESCRIPTION = "Daily check of every source Fontes reads: which court and government websites are up, slow or down."
 UP = {"ok", "degraded"}
 RANK = {"ok": 0, "skipped": 0, "degraded": 1, "blocked": 2, "down": 3}
 # status -> key in docs/i18n/<lang>/strings.json
@@ -166,7 +168,7 @@ var L;function g(k){return(S[L]&&S[L][k])||S.en[k]||''}
 function v(x){return x&&typeof x=='object'?f(g(x.p+(x.n==1?'_one':'_other')),{n:x.n}):x}
 function f(s,a){return s.replace(/\\{(\\w+)\\}/g,function(m,k){return k in a?v(a[k]):m})}
 function apply(lang){L=lang;var d=document.documentElement;d.lang=lang;d.dir=R.indexOf(lang)>=0?'rtl':'ltr';
-document.title=g('status_title');
+document.title=L=='en'?%(title)s:g('status_title');
 var es=document.querySelectorAll('[data-i],[data-p]');for(var i=0;i<es.length;i++){var e=es[i],a=JSON.parse(e.dataset.a||'{}'),
 t=e.dataset.p?v({p:e.dataset.p,n:a.n}):f(g(e.dataset.i),a);
 if(e.dataset.l)t=t.toLowerCase();e.textContent=t}
@@ -208,12 +210,14 @@ def render(reports: list[dict], now: dt.datetime | None = None) -> str:
         "rtl": json.dumps([c for c in strings if i18n_docs.rtl(c)]),
         "names": json.dumps({c: ("English" if c == "en" else i18n_docs.autonym(c)) for c in strings},
                             ensure_ascii=False).replace("</", "<\\/"),
+        "title": json.dumps(TITLE),
         "script": json.dumps(fontes_i18n._SCRIPT), "legacy": json.dumps(fontes_i18n._LEGACY),
     }
     head = (f"<!doctype html><html lang=en><meta charset=utf-8>"
             f"<meta name=viewport content='width=device-width,initial-scale=1'>"
             + i18n_docs.favicon_html("").replace("assets/brand/", "../assets/brand/").replace("\n", "")
-            + f"<title>{_e(s['status_title'])}</title><style>{CSS}</style><main>"
+            + f"<link rel=canonical href='{i18n_docs.SITE}status/'><meta name=description content='{_e(DESCRIPTION)}'>"
+            + f"<title>{_e(TITLE)}</title><style>{CSS}</style><main>"
             + T("status_title", "h1")
             + f"<div id=switch class=mute hidden><label>{T('doc_languages')}: <select id=langs></select></label></div>"
             + T("doc_notice", "p", " id=notice class=mute hidden"))

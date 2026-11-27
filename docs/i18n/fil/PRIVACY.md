@@ -3,7 +3,7 @@
 # Abiso sa privacy ng Fontes
 
 Tumatakbo ang Fontes sa iyong computer. Ang iyong mga paghahanap at ang mga dokumentong binubuksan mo ay
-nananatili sa pagitan ng iyong computer, ng mga opisyal na sanggunian na hinahanapan mo, at ng AI app na
+nananatili sa pagitan ng iyong computer, ng mga sanggunian na hinahanapan mo (mga opisyal, pati ang CourtListener at Lexifina kung saan mo ginagamit ang mga ito, tingnan sa ibaba), at ng AI app na
 ginagamit mo (sa ilalim ng sariling mga tuntunin ng app na iyon). Ang Fontes mismo ay **walang ipinapadala
 bilang default** sa mga developer ng Fontes.
 
@@ -39,6 +39,8 @@ ang iyong mga salitang hinanap at mga id), at ng isang note kung sumulat ka nito
 detalye ng kliyente sa note. Para suportahan ito, iniimbak ng Fontes ang huling error sa iyong computer
 (`last-error.json` sa cache folder nito, pinapalitan sa bawat pagkakataon); hindi ito kailanman ipinapadala
 nang kusa.
+
+**4. Lexifina (naka-on bilang default).** Ang `get_law_on_date`, `get_law_history`, ang 91 bansa at ang mga act ng India ay binabasa sa pamamagitan ng record ng batas ng Lexifina, kaya napupunta sila sa Lexifina bukod pa sa, o sa halip ng, opisyal na site. Ang iyong mga salitang hinanap, citation at petsa ay napupunta sa libreng server ng Lexifina, `global-law.lexifina.com`, na pinapatakbo ng Lexifina, hindi ng mga developer ng Fontes. Ayon sa dokumentasyon ng Lexifina, itinatala ng server nito kung aling tool ang tinawag at gaano ito katagal, hindi kailanman kung ano ang hiningi; hindi ito kayang suriin ng Fontes, at nalalapat ang sariling mga tuntunin ng Lexifina. Nakikita ng Lexifina ang iyong IP address, gaya ng anumang web server. Para ganap na i-off ang Lexifina, itakda ang `WLM_LEXIFINA=0`; hihinto sa paggana ang dalawang tool at mga bansang iyon, at walang ipinapadalang anuman doon.
 
 ## Saan ito napupunta at gaano katagal ito iniingatan
 

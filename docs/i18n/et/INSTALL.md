@@ -3,7 +3,7 @@
 # Fontese paigaldamine
 
 Fontes võimaldab teie tehisintellekti rakendusel otsida kohtulahendeid ja õigusakte reaalajas kohtute ja valitsuste
-veebisaitidelt enam kui 120 jurisdiktsioonis. Iga tulemus sisaldab linki originaalile. See on tavaline MCP-server,
+veebisaitidelt 125 jurisdiktsioonis. Iga tulemus sisaldab linki originaalile. See on tavaline MCP-server,
 nii et see töötab igas rakenduses, mis suudab käivitada kohalikku MCP-serverit: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ja teised.
 

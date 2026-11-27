@@ -3,7 +3,7 @@
 # Fontes instalēšana
 
 Fontes ļauj jūsu MI lietotnei tieši meklēt tiesu nolēmumus un tiesību aktus tiesu un valsts
-iestāžu tīmekļa vietnēs vairāk nekā 120 jurisdikcijās. Katrs rezultāts sniedz saiti uz
+iestāžu tīmekļa vietnēs 125 jurisdikcijās. Katrs rezultāts sniedz saiti uz
 oriģinālu. Tas ir standarta MCP serveris, tāpēc tas darbojas jebkurā lietotnē, kas var palaist
 lokālu MCP serveri: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline un citās.

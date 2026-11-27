@@ -161,7 +161,6 @@ CourtListener-ს მართავს [Free Law Project](https://free.law), �
 | `de` | გერმანია: NeuRIS (ფედერალური სამართლებრივი ინფორმაციის პორტალი, საპილოტე სერვისი) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | საბერძნეთი: ეროვნული სტამბა, მთავრობის ბიულეტენის ძიება (search.et.gr) |
-| `in` | ინდოეთი: India Code (indiacode.gov.in) |
 | `mu` | მავრიკი: უზენაესი სასამართლო (supremecourt.govmu.org) |
 | `sg` | სინგაპური: სასამართლო გადაწყვეტილებები (elitigation.sg) |
 

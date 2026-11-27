@@ -4,11 +4,7 @@
 
 ## O que é o Fontes?
 
-Um servidor MCP gratuito e de código aberto (Apache 2.0). Ele permite que qualquer app que use o
-Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI e outros) pesquise decisões
-judiciais e legislação ao vivo nos sites de tribunais e governos de mais de 120 jurisdições e
-tribunais internacionais (125 adaptadores). Cada resultado indica sua fonte e traz o link para o
-original.
+Um servidor MCP gratuito e de código aberto (Apache 2.0). Ele permite que qualquer app que use o Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI e outros) pesquise decisões judiciais e legislação ao vivo nos sites de tribunais e governos de 125 jurisdições e tribunais internacionais, além de 91 outros países pelo registro da Lexifina (veja abaixo). Cada resultado indica sua fonte e traz o link para o original.
 
 ## Os textos são oficiais?
 
@@ -55,10 +51,17 @@ permite alterá-las depois.
 publicador. Elas estão marcadas como OFF e continuam desativadas. Uma chave não muda isso; só a
 permissão do publicador muda (então defina `WLM_PERMITTED=<codes>`).
 
+## De onde vêm as versões anteriores e os países extras?
+
+Da [Lexifina](https://github.com/lexifina/global-law), que mantém a lei de cerca de 200 países como histórico do git: cada mudança é um commit datado do dia em que passou a valer. O Fontes a lê pelo servidor MCP gratuito hospedado da Lexifina. Duas ferramentas a usam: `get_law_on_date` (um dispositivo como estava em vigor numa data, também no passado, com a lei que o alterou por último) e `get_law_history` (cada lei que alterou um dispositivo, ou a mudança palavra por palavra entre duas datas). O Fontes também lê desse modo outros 91 países e territórios, só para legislação (por exemplo África do Sul, Quênia, México, Nova Zelândia, Rússia, Coreia do Sul, Bélgica, Lituânia, Ucrânia, Malásia, Tailândia e Arábia Saudita). Eles são separados das 125 jurisdições com cobertura oficial ao vivo, e a cobertura por país varia muito (o registro nacional do Quênia tem 9 leis). As leis da Índia também vêm do registro da Lexifina, porque os termos do India Code proíbem o acesso automatizado; os acórdãos da Suprema Corte dela são ao vivo.
+
+A Lexifina não é o publicador oficial, e o registro dela não é ao vivo: a Lexifina verifica cada país de tempos em tempos, e o relatório próprio dela de 2026-11-26 contou 338 de 383 corpos normativos nacionais como não verificados nos últimos 7 dias. Toda resposta indica a Lexifina como fonte, traz o link para a página do publicador oficial e diz até onde vai o registro.
+
+A Lexifina entende que os textos jurídicos oficiais não são protegidos por direitos autorais e, por isso, em alguns países copia sites cujos termos ou robots.txt o Fontes respeita. O Fontes continua respeitando-os em tudo o que ele mesmo busca; o que vem pela Lexifina segue o juízo próprio da Lexifina, registrado por país nos repositórios dela. Algumas fontes restringem o uso (o publicador do Quênia: CC BY-NC). Nesses casos, as suas palavras de pesquisa, citações e datas vão para o servidor da Lexifina. Defina `WLM_LEXIFINA=0` para desativá-lo. O servidor gratuito permite 60 chamadas por minuto e 10.000 por dia por endereço de internet; sem chave nem conta. O Fontes não é afiliado à Lexifina.
+
 ## O que sai do meu computador?
 
-Suas pesquisas vão apenas para a fonte pesquisada. O Fontes não mantém banco de dados e não exige
-conta.
+Suas pesquisas vão apenas para a fonte pesquisada (para as ferramentas e os países da Lexifina, é o servidor da Lexifina). O Fontes não mantém banco de dados e não exige conta.
 
 Além das fontes, o Fontes pergunta ao PyPI uma vez por dia se existe uma versão mais nova (desative
 com `FONTES_NO_UPDATE_CHECK=1`). As contagens de uso ficam desativadas, a menos que você as ative, e

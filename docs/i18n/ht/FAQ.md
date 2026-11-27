@@ -6,8 +6,8 @@
 
 Yon sèvè MCP gratis ak sous louvri (Apache 2.0). Li pèmèt nenpòt aplikasyon ki pale Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI ak lòt) chèche desizyon tribinal ak lejislasyon an
-dirèk sou sit entènèt tribinal ak gouvènman yo, nan plis pase 120 jiridiksyon ak tribinal entènasyonal
-(125 adaptè). Chak rezilta bay non sous li epi li gen yon lyen ki mennen nan orijinal la.
+dirèk sou sit entènèt tribinal ak gouvènman yo, nan 125 jiridiksyon ak tribinal entènasyonal, plis 91 lòt
+peyi atravè dosye Lexifina a (gade pi ba a). Chak rezilta bay non sous li epi li gen yon lyen ki mennen nan orijinal la.
 
 ## Èske tèks yo ofisyèl?
 
@@ -50,9 +50,17 @@ Apa sa, kèk sous di nan kondisyon yo ke aksè otomatik bezwen pèmisyon piblika
 etenn. Yon kle pa chanje sa; se sèlman pèmisyon piblikatè a ki chanje l (apre sa, mete
 `WLM_PERMITTED=<codes>`).
 
+## Kote vèsyon ansyen yo ak peyi siplemantè yo soti?
+
+Soti nan [Lexifina](https://github.com/lexifina/global-law), ki kenbe lwa anviron 200 peyi kòm istwa git: chak chanjman se yon commit ki date jou li te pran efè a. Fontes li l atravè sèvè gratis Lexifina a. De zouti sèvi ak li: `get_law_on_date` (yon dispozisyon jan li te an vigè nan yon dat, menm nan tan pase a, ak lwa ki te dènyèman chanje l) ak `get_law_history` (chak lwa ki chanje yon dispozisyon, oswa chanjman mo pa mo ant de dat). Fontes li tou 91 lòt peyi ak teritwa konsa, pou lejislasyon sèlman (pa egzanp Afrik di Sid, Kenya, Meksik, Nouvèl Zelann, Larisi, Kore di Sid, Bèlj, Lityani, Ikrèn, Malezi, Tayilann ak Arabi Sawdit). Yo separe de 125 adaptè ki gen kouvèti ofisyèl an dirèk, e kouvèti pa peyi varye anpil (dosye nasyonal Kenya a gen 9 lwa). Lwa India yo tou soti nan dosye Lexifina a, paske kondisyon India Code yo entèdi aksè otomatik; jijman Tribinal Siprèm li yo an dirèk.
+
+Lexifina se pa editè ofisyèl la, e dosye li a pa an dirèk: Lexifina verifye chak peyi de tan zan tan, e rapò pa li sou 2026-11-26 te konte 338 sou 383 kò lwa nasyonal kòm pa verifye nan 7 dènye jou yo. Chak repons site Lexifina kòm sous, bay lyen paj editè ofisyèl la, epi di jiska ki kote dosye a ale.
+
+Politik sous Lexifina a diferan de Fontes la. Lexifina pran pozisyon ke tèks legal ofisyèl yo pa pwoteje pa dwa dotè, kidonk nan kèk peyi li kopye sit ki gen kondisyon oswa robots.txt Fontes menm respekte. Fontes toujou respekte yo pou tout sa li menm chèche, men sa ki vini atravè Lexifina swiv jijman pwòp Lexifina a, anrejistre pou chak peyi nan depo li yo. Kèk restrenn: editè Kenya a: CC BY-NC. Mo rechèch ou yo, sitasyon ou yo ak dat ou yo ale sou sèvè Lexifina a pou sa yo. Mete `WLM_LEXIFINA=0` pou etenn li. Sèvè gratis la pèmèt 60 apèl pa minit ak 10,000 pa jou pou chak adrès entènèt; pa gen kle ni kont. Fontes pa afilye ak Lexifina.
+
 ## Kisa ki soti sou òdinatè m?
 
-Rechèch ou yo ale sèlman nan sous kote rechèch la ap fèt la. Fontes pa kenbe okenn baz done e li pa bezwen
+Rechèch ou yo ale sèlman nan sous kote rechèch la ap fèt la (pou zouti ak peyi Lexifina yo, sèvè Lexifina a). Fontes pa kenbe okenn baz done e li pa bezwen
 okenn kont.
 
 Apa sous yo, Fontes mande PyPI yon fwa pa jou si gen yon vèsyon ki pi nouvo (etenn li ak

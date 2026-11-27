@@ -3,7 +3,7 @@
 # Ìkéde ìpamọ́ àṣírí Fontes
 
 Fontes ń ṣiṣẹ́ lórí kọ̀ǹpútà rẹ. Àwọn ìwádìí rẹ àti àwọn ìwé tí o ṣí wà láàárín kọ̀ǹpútà rẹ, àwọn orísun
-ìjọba tí o wá nínú wọn, àti áàpù AI tí o ń lò (lábẹ́ òfin ìlò áàpù náà fúnra rẹ̀). Fontes fúnra rẹ̀ **kò fi
+tí o wá nínú wọn (àwọn orísun ìjọba, pẹ̀lú CourtListener àti Lexifina níbi tí o bá ń lò wọ́n, wo ìsàlẹ̀), àti áàpù AI tí o ń lò (lábẹ́ òfin ìlò áàpù náà fúnra rẹ̀). Fontes fúnra rẹ̀ **kò fi
 ohunkóhun ránṣẹ́ ní àìyípadà** sí àwọn olùgbéejáde Fontes.
 
 ## Ohun tí ó lè kúrò lórí kọ̀ǹpútà rẹ, àti ìgbà wo
@@ -38,6 +38,8 @@ sì ń fi ránṣẹ́ kìkì bí o bá jẹ́rìí sí i. Ó ní ẹ̀dà Fonte
 àmì ìdánimọ̀ kúrò), àti àkíyèsí bí o bá kọ ọ̀kan. Má ṣe fi àlàyé oníbàárà sínú àkíyèsí náà. Láti ṣe
 àtìlẹ́yìn fún èyí, Fontes ń tọ́jú àṣìṣe tí ó kẹ́yìn sórí kọ̀ǹpútà rẹ (`last-error.json` nínú fódà cache rẹ̀,
 a ń rọ́pò rẹ̀ ní ìgbà kọ̀ọ̀kan); a kì í fi ránṣẹ́ fúnra rẹ̀ láé.
+
+**4. Lexifina (ó wà ní títàn ní ìbẹ̀rẹ̀).** `get_law_on_date`, `get_law_history`, 91 orílẹ̀-èdè àti Acts ti India ni a ń kà nípasẹ̀ ìwé-ìforúkọsílẹ̀ òfin Lexifina, nítorí náà wọ́n ń lọ sí Lexifina pẹ̀lú tàbí dípò ojú-ìwé ìjọba. Àwọn ọ̀rọ̀ ìwádìí rẹ, ìtọ́kasí àti ọjọ́ ń lọ sí sáfà Lexifina tí kò ní owó, `global-law.lexifina.com`, tí Lexifina ń ṣiṣẹ́ rẹ̀, kì í ṣe àwọn olùgbéejáde Fontes. Lexifina ṣàlàyé pé sáfà rẹ̀ ń kọ àkọsílẹ̀ irinṣẹ́ tí a pè àti iye àkókò tí ó gbà, kì í kọ ohun tí a béèrè láé; Fontes kò lè ṣàyẹ̀wò ìyẹn, òfin ìlò Lexifina fúnra rẹ̀ sì kan. Lexifina ń rí àdírẹ́sì IP rẹ, bí gbogbo sáfà ayélujára ṣe ń rí i. Láti pa Lexifina pátápátá, ṣètò `WLM_LEXIFINA=0`; àwọn irinṣẹ́ méjì yẹn àti àwọn orílẹ̀-èdè náà yóò dáwọ́ dúró, kò sì sí nǹkankan tí a ń fi ránṣẹ́ sibẹ.
 
 ## Ibi tí ó ń lọ àti bí a ṣe ń pẹ́ tó tọ́jú rẹ̀
 

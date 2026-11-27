@@ -2,7 +2,7 @@
 
 # Fontes のインストール
 
-Fontes を使うと、AI アプリが 120 以上の法域について、裁判所や政府のウェブサイトから裁判例と法令を
+Fontes を使うと、AI アプリが 125 の法域について、裁判所や政府のウェブサイトから裁判例と法令を
 リアルタイムで調べられます。すべての結果に原文へのリンクが付きます。標準的な MCP サーバーなので、
 ローカルの MCP サーバーを実行できるアプリならどれでも動作します: Claude Desktop、Codex、Claude Code、
 Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio、Cline など。

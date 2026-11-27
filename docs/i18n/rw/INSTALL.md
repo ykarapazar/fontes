@@ -3,7 +3,7 @@
 # Gushyiraho Fontes
 
 Fontes ituma porogaramu yawe ya AI ishakisha ibyemezo by'inkiko n'amategeko ako kanya ku mbuga z'inkiko
-n'iza Leta mu mafasi y'ubutabera arenga 120. Buri gisubizo gifite ihuza rijya ku nyandiko y'umwimerere.
+n'iza Leta mu mafasi y'ubutabera 125. Buri gisubizo gifite ihuza rijya ku nyandiko y'umwimerere.
 Ni seriveri MCP isanzwe, bityo ikora muri porogaramu iyo ari yo yose ishobora gukoresha seriveri MCP iri
 kuri mudasobwa: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline n'izindi.

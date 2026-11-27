@@ -34,16 +34,17 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-si
 <main>
 <p><a href="./">← Fontes</a></p>
 <h1>Fontes press kit</h1>
-<p class="mute">Facts as of 18 November 2026. Questions: <a href="mailto:fontesmcp@proton.me">fontesmcp@proton.me</a>, replies within 24 hours.</p>
+<p class="mute">Facts as of 27 November 2026. Questions: <a href="mailto:fontesmcp@proton.me">fontesmcp@proton.me</a>, replies within 24 hours.</p>
 
 <h2>In one line</h2>
-<blockquote>The law of 120+ jurisdictions, one question away.</blockquote>
+<blockquote>Case law and legislation for your AI app, read live from court and government websites.</blockquote>
 
 <h2>Short description</h2>
 <blockquote>Fontes is a free, open-source (Apache 2.0) MCP server. It lets your AI app (Claude, Codex,
 Cursor, VS Code or any other app that runs local MCP servers) search court decisions and
-legislation live on court and government websites in 120+ jurisdictions and international
-courts. Every result names its source and links to the original; unofficial sources are
+legislation live on court and government websites in 125 jurisdictions and international
+courts. It can also show a law as it stood on a past date and read legislation from 91 more
+countries, from Lexifina's record (not the official publisher), kept separate from the 125. Every result names its source and links to the original; unofficial sources are
 flagged. It runs on your computer: no account, no database, no hosted service. It is a research
 tool, not legal advice.</blockquote>
 
@@ -52,13 +53,13 @@ tool, not legal advice.</blockquote>
 <dt>Name</dt><dd>Fontes (Latin for "sources")</dd>
 <dt>What</dt><dd>An MCP (Model Context Protocol) server: a plug-in that AI apps use to call outside tools</dd>
 <dt>Coverage</dt><dd>125 jurisdictions and international courts: 108 UN member states, 4 other territories, 11 international courts and bodies, the DIFC Courts and the US state courts. 72 are covered completely under a strict rule; the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/COVERAGE.md">coverage page</a> lists the gaps and why</dd>
-<dt>Tools</dt><dd>Seven research tools (search case law, read a decision, search legislation, table of contents, one provision, full text, list jurisdictions), plus one to report a bug</dd>
+<dt>Tools</dt><dd>Nine research tools (search case law, read a decision, search legislation, table of contents, one provision, full text, list jurisdictions, a provision on a past date, and its change history), plus one to report a bug</dd>
 <dt>Sources</dt><dd>Mostly official court and government websites and APIs, fetched live; the few non-government sources are flagged as unofficial</dd>
 <dt>Languages</dt><dd>Documentation and installer in 80 languages</dd>
 <dt>Price</dt><dd>Free. No account. France needs a free government API key</dd>
 <dt>Licence</dt><dd>Apache 2.0</dd>
 <dt>Status</dt><dd>Public beta on PyPI (<code>fontes-mcp</code>). Sources are checked daily on the <a href="status/">status page</a></dd>
-<dt>Privacy</dt><dd>Sends the developer nothing by default; usage counts and bug reports are opt-in. <a href="https://github.com/ykarapazar/fontes/blob/main/docs/PRIVACY.md">Privacy notice</a></dd>
+<dt>Privacy</dt><dd>Sends the developer nothing by default. Past-version and Lexifina-country queries go to Lexifina's server; <code>WLM_LEXIFINA=0</code> turns that off. Usage counts and bug reports are opt-in. <a href="https://github.com/ykarapazar/fontes/blob/main/docs/PRIVACY.md">Privacy notice</a></dd>
 <dt>Made by</dt><dd>Yüce Karapazar, independently. No legal services are offered</dd>
 <dt>Code</dt><dd><a href="https://github.com/ykarapazar/fontes">github.com/ykarapazar/fontes</a></dd>
 </dl>
@@ -78,7 +79,7 @@ Please do not alter them.</p>
 
 <h2>Please don't write</h2>
 <ul>
-<li>"Covers 120+ countries": 13 of the 125 are international courts and bodies, the DIFC Courts or the US state courts, and 53 are covered only in part.</li>
+<li>"Covers 120+ countries", or 125 and 91 added together to 216: the 91 Lexifina countries are legislation only and from a record that is not the official publisher. Of the 125, 13 are international courts and bodies, the DIFC Courts or the US state courts, and 53 are covered only in part.</li>
 <li>"Official sources" without "mostly", or "complete" or "every law".</li>
 <li>That it gives legal advice. It is a research tool; read the original before relying on it.</li>
 </ul>

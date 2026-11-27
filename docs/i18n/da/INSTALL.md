@@ -3,7 +3,7 @@
 # Installation af Fontes
 
 Fontes lader din AI-app slå retsafgørelser og lovgivning op live på domstoles og myndigheders
-websteder i over 120 jurisdiktioner. Hvert resultat linker til originalen. Det er en standard
+websteder i 125 jurisdiktioner. Hvert resultat linker til originalen. Det er en standard
 MCP-server, så den virker i enhver app, der kan køre en lokal MCP-server: Claude Desktop, Codex,
 Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline og
 andre.

@@ -3,7 +3,7 @@
 # Fontes privātuma paziņojums
 
 Fontes darbojas jūsu datorā. Jūsu meklējumi un atvērtie dokumenti paliek starp jūsu datoru,
-oficiālajiem avotiem, kuros meklējat, un jūsu izmantoto MI lietotni (saskaņā ar šīs lietotnes
+avotiem, kurus meklējat (oficiālajiem, kā arī CourtListener un Lexifina, ja tos izmantojat, skatiet tālāk), un jūsu izmantoto MI lietotni (saskaņā ar šīs lietotnes
 noteikumiem). Pats Fontes pēc noklusējuma Fontes izstrādātājiem **neko nesūta**.
 
 ## Kas var atstāt jūsu datoru un kad
@@ -39,6 +39,8 @@ paziņojums (ar izņemtiem jūsu meklēšanas vārdiem un identifikatoriem), kā
 uzrakstāt. Neievietojiet piezīmē klientu datus. Lai to nodrošinātu, Fontes jūsu datorā glabā
 pēdējo kļūdu (`last-error.json` savā kešatmiņas mapē, katru reizi aizstāta); tā nekad netiek
 nosūtīta atsevišķi.
+
+**4. Lexifina (pēc noklusējuma ieslēgts).** `get_law_on_date`, `get_law_history`, 91 valsts un Indijas akti tiek lasīti caur Lexifina tiesību aktu ierakstu, tādēļ tie nonāk Lexifina gan papildus oficiālajai vietnei, gan tās vietā. Jūsu meklēšanas vārdi, citāti un datumi tiek sūtīti uz Lexifina bezmaksas serveri `global-law.lexifina.com`, ko vada Lexifina, nevis Fontes izstrādātāji. Lexifina dokumentē, ka tās serveris reģistrē, kurš rīks tika izsaukts un cik ilgi tas prasīja, bet nekad – ko jautāja; Fontes to nevar pārbaudīt, un piemērojami ir Lexifina paša noteikumi. Lexifina redz jūsu IP adresi, kā jebkurš tīmekļa serveris. Lai to pilnībā izslēgtu, iestatiet `WLM_LEXIFINA=0`; tad minētie divi rīki un valstis pārstāj darboties un nekas netiek sūtīts uz turieni.
 
 ## Kur tas nonāk un cik ilgi tiek glabāts
 

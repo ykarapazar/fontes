@@ -3,7 +3,7 @@
 # Memasang Fontes
 
 Fontes membolehkan aplikasi AI anda mencari keputusan mahkamah dan perundangan secara langsung di laman web
-mahkamah dan kerajaan di lebih daripada 120 bidang kuasa. Setiap hasil memaut kepada dokumen asal. Ia ialah
+mahkamah dan kerajaan di 125 bidang kuasa. Setiap hasil memaut kepada dokumen asal. Ia ialah
 pelayan MCP standard, jadi ia berfungsi dalam mana-mana aplikasi yang boleh menjalankan pelayan MCP
 setempat: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline dan lain-lain.

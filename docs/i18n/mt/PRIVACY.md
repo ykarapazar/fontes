@@ -3,7 +3,7 @@
 # Avviż ta' privatezza ta' Fontes
 
 Fontes jaħdem fuq il-kompjuter tiegħek. It-tfittxijiet tiegħek u d-dokumenti li tiftaħ jibqgħu
-bejn il-kompjuter tiegħek, is-sorsi uffiċjali li tfittex fihom, u l-app tal-AI li tuża (taħt
+bejn il-kompjuter tiegħek, is-sorsi li tfittex fihom (dawk uffiċjali, u CourtListener u Lexifina fejn tużahom, ara hawn taħt), u l-app tal-AI li tuża (taħt
 it-termini ta' dik l-app stess). Fontes innifsu ma jibgħat lill-iżviluppaturi ta' Fontes
 **xejn b'mod awtomatiku**.
 
@@ -40,6 +40,8 @@ tal-aħħar sejħa ta' għodda li falliet (bil-kliem tat-tfittxija u l-identifik
 imneħħija), u nota jekk tikteb waħda. Tpoġġix dettalji tal-klijenti fin-nota. Biex jappoġġja dan,
 Fontes iżomm l-aħħar żball fuq il-kompjuter tiegħek (`last-error.json` fil-folder tal-cache
 tiegħu, jinbidel kull darba); qatt ma jintbagħat waħdu.
+
+**4. Lexifina (mixgħula b'mod awtomatiku).** `get_law_on_date`, `get_law_history`, il-91 pajjiż u l-Atti tal-Indja jinqraw mir-rekord ta' Lexifina, u għalhekk jmorru għand Lexifina kemm flimkien mas-sit uffiċjali kif ukoll minflok. Il-kliem tat-tfittxija, iċ-ċitazzjonijiet u d-dati tiegħek jmorru għas-server b'xejn ta' Lexifina, `global-law.lexifina.com`, li jmexxih Lexifina, mhux l-iżviluppaturi ta' Fontes. Lexifina tiddokumenta li s-server tagħha jirrekordja liema għodda ntużat u kemm damet, qatt mhux x'intalab; Fontes ma jistax jivverifika dan, u t-termini ta' Lexifina japplikaw. Lexifina jara l-indirizz IP tiegħek, bħal kwalunkwe server tal-web. Biex titfiha għalkollox, issettja `WLM_LEXIFINA=0`; dawk iż-żewġ għodod u dawk il-pajjiżi jieqfu jaħdmu u xejn ma jintbagħat hemm.
 
 ## Fejn imur u kemm jinżamm
 

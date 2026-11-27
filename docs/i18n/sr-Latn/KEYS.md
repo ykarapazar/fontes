@@ -164,7 +164,6 @@ njegov kod dodati u `WLM_PERMITTED`, razdvojeno zarezima, u bloku `env`:
 | `de` | Nemačka: NeuRIS (savezni portal pravnih informacija, probna usluga) |
 | `difc` | Sudovi Međunarodnog finansijskog centra u Dubaiju (difccourts.ae) |
 | `gr` | Grčka: Nacionalna štamparija, pretraga Službenog glasnika (search.et.gr) |
-| `in` | Indija: India Code (indiacode.gov.in) |
 | `mu` | Mauricijus: Vrhovni sud (supremecourt.govmu.org) |
 | `sg` | Singapur: sudske presude (elitigation.sg) |
 

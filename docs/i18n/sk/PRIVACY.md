@@ -3,7 +3,8 @@
 # Informácie o ochrane súkromia Fontes
 
 Fontes beží vo vašom počítači. Vaše vyhľadávania a dokumenty, ktoré otvoríte, zostávajú medzi
-vaším počítačom, oficiálnymi zdrojmi, ktoré prehľadávate, a AI aplikáciou, ktorú používate (podľa
+vaším počítačom, zdrojmi, ktoré prehľadávate (oficiálnymi, plus CourtListener a Lexifina tam, kde ich používate;
+pozri nižšie), a AI aplikáciou, ktorú používate (podľa
 vlastných podmienok tejto aplikácie). Samotný Fontes vývojárom Fontes **predvolene neodosiela
 nič**.
 
@@ -40,6 +41,13 @@ chybové hlásenie (s odstránenými slovami vášho vyhľadávania a identifik�
 nejakú napíšete. Do poznámky neuvádzajte údaje o klientoch. Na tento účel Fontes uchováva
 poslednú chybu vo vašom počítači (`last-error.json` v priečinku vyrovnávacej pamäte, zakaždým
 nahradený); nikdy sa neodosiela samostatne.
+
+**4. Lexifina (predvolene zapnuté).** `get_law_on_date`, `get_law_history`, 91 krajín a indické zákony sa čítajú zo záznamu práva Lexifina, takže idú k Lexifine rovnako ako na oficiálnu stránku, alebo namiesto nej. Vaše hľadané slová, citácie a dátumy smerujú
+na bezplatný server Lexifiny, `global-law.lexifina.com`, ktorý prevádzkuje Lexifina, nie vývojári
+Fontes. Lexifina dokumentuje, že jej server zaznamenáva, ktorý nástroj bol volaný a ako dlho trval,
+nikdy nie to, čo sa pýtalo; Fontes to nedokáže overiť a platia podmienky samotnej Lexifiny. Lexifina
+vidí vašu IP adresu, ako každý webový server. Ak chcete Lexifinu úplne vypnúť, nastavte
+`WLM_LEXIFINA=0`; tieto dva nástroje a krajiny potom prestanú fungovať a nič sa tam neodošle.
 
 ## Kam to smeruje a ako dlho sa to uchováva
 

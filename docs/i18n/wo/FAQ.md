@@ -6,8 +6,8 @@
 
 Ab serwëer MCP bu ñu joxe ci neen te seen kood ubbiku na (Apache 2.0). Dafay may bépp aplikasioŋ bu mën
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI ak yeneen) wut ci saa si àtte yi
-àttekaay yi def ak yoon yi ci sit internet yu àttekaay yi ak yu Nguur gi, ci lu ëpp 120 juridiction ak
-àttekaay yu adduna (125 adaptatëer). Bépp njeexital dafay tudd cosaanam te am lëkkalekaay bu jëm ci mbind
+àttekaay yi def ak yoon yi ci sit internet yu àttekaay yi ak yu Nguur gi, ci 125 juridiction ak
+àttekaay yu adduna, ak 91 réew yeneen ci mbind mu Lexifina (xoolal ci suuf). Bépp njeexital dafay tudd cosaanam te am lëkkalekaay bu jëm ci mbind
 mu njëkk mi.
 
 ## Ndax mbind yi yu Nguur gi lañu?
@@ -54,9 +54,33 @@ Lu dul loolu, am na ay cosaan yu wax ci seeni sàrt ne duggu ci masin soxla na s
 leen bind OFF te dañuy des fey. Caabi du ko soppi; sañ-sañu ki siiwal rekk moo koy soppi (ginnaaw loolu,
 defal `WLM_PERMITTED=<codes>`).
 
+## Ban lay bawoo yoon yu njëkk ak réew yu yeneen yi?
+
+Ci [Lexifina](https://github.com/lexifina/global-law), mi denc yoonu ci ni mel 200 réew ci ab historique git: benn
+soppiku mooy commit bu ñu bind ci bés bi mu jëmmoon. Fontes dafay ko jàng ci serwëer bu free bu Lexifina jox ci
+neen. Ñaari jumtukaay dañuy ko jëfandikoo: `get_law_on_date` (benn provision mu nekk ci kàttan ci bés bu nekk, ci
+bés bu njëkk itam, ak yoon bi ko soppe jëkk) ak `get_law_history` (yoon yépp yi soppe benn provision, walla soppiku
+mot ci mot ci diggante ñaari bés). Fontes jàng it 91 réew ak juridiction yu yeneen ci lii, yoon rekk lañu jàng, misaal
+Afrig bu Sud, Kenya, Mexique, Nouvel-Zélande, Ruusi, Kore bu Suuf, Beljig, Lituani, Ukrayn, Malaysia, Taylaand ak
+Arabi Sawdit. Dañu jëm ci 125 juridiction yi nga am cosaan yu Nguur gi ci saa si, te réew bu nekk soppe na lool
+(mbind mu réew Kenya am na 9 yoon). India yoonam dañu koy jàng ci mbind mu Lexifina, ndax sàrtu India Code bàyyi
+jàng ci automatic; àtteem yu Kàmpu bu Kawe bi ci saa si lañu.
+
+Lexifina du cosaan bu Nguur gi, te mbindam du ci saa si: Lexifina dafay seet ben réew ci cosaanam bu Nguur gi ci ay
+jamono, te ci 2026-11-26 tontu bu ñu jox bu Lexifina wax ne ñu seetul 338 ci 383 yoon yu réew ci juróom-ñaari bés
+yi mujj. Njeexital bu nekk ci mbind mooy tudd Lexifina ni cosaan, dafay jox lëkkalekaayu cosaan bu Nguur gi, te
+dafay wax ba fan mbind mi yeg.
+
+Lexifina dafay jàppale ne texte yu Nguur gi duñu yu copyright, ndax loolu ci yenn réew dafay kopi sit yi ñu sàrtam
+walla robots.txt bu Fontes sañ-sañ. Fontes dafay sañ-sañ robots.txt ak sàrt yi ci lépp lu mu boppam jàng; lu ñu jël ci
+Lexifina dafay topp jàppu bu Lexifina, ñu ko bind ci réew bu nekk ci seeni repositories. Ñenn ci ñoom dañuy tere
+jëfandikoo (cosaanu Kenya mooy CC BY-NC). Sa laaj, sa baat ak sa bés yi dañu yónnee serwëer bu Lexifina ngir yooyu.
+Set `WLM_LEXIFINA=0` ngir tëj ko. Amul caabi walla kont. Serwëer bu free dafay nangu 60 laaj ci simili ak 10,000 ci
+bés bu nekk ci benn adres internet. Fontes du ci lëkkalekaay ak Lexifina.
+
 ## Lan mooy génn ci sama ordinatëer?
 
-Say gëstu dañuy dem ci cosaan bi ngay wut rekk. Fontes du denc benn baasu done te soxlaawul kontu.
+Say gëstu dañuy dem ci cosaan bi ngay wut rekk (ngir jumtukaay yu Lexifina ak réew yooyu, serwëer bu Lexifina la). Fontes du denc benn baasu done te soxlaawul kontu.
 
 Lu dul cosaan yi, Fontes dafay laaj PyPI benn yoon ci bés bi ndax am na sumb bu gën a bees (fey ko ak
 `FONTES_NO_UPDATE_CHECK=1`). Limu jëfandikoo yi dañu fey lu dul nga taal leen, te yégle njuumte du dem lu

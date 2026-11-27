@@ -167,7 +167,6 @@ l-użu awtomatizzat mingħajr permess. Jekk għandek il-permess mill-pubblikatur
 | `de` | Ġermanja: NeuRIS (portal federali tal-informazzjoni legali, servizz ta' prova) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Greċja: National Printing Office, tfittxija fil-Gazzetta tal-Gvern (search.et.gr) |
-| `in` | Indja: India Code (indiacode.gov.in) |
 | `mu` | Mawrizju: Qorti Suprema (supremecourt.govmu.org) |
 | `sg` | Singapor: sentenzi tal-qrati (elitigation.sg) |
 

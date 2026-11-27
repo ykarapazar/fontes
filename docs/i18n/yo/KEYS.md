@@ -157,7 +157,6 @@ fi àmì ìdánudúró (comma) yà sọ́tọ̀, nínú búlọ́ọ̀kù `env`:
 | `de` | Germany: NeuRIS (ẹnu-ọ̀nà ìwífún òfin àpapọ̀, iṣẹ́ ìdánwò) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Greece: National Printing Office, ìwádìí Government Gazette (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: àwọn ìdájọ́ ilé-ẹjọ́ (elitigation.sg) |
 

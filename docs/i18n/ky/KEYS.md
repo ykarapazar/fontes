@@ -171,7 +171,6 @@ CourtListener'ди [Free Law Project](https://free.law) жүргүзөт: ал 2
 | `de` | Германия: NeuRIS (федералдык укуктук маалымат порталы, сыноо кызматы) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Греция: Улуттук басмакана, Өкмөттүк бюллетень боюнча издөө (search.et.gr) |
-| `in` | Индия: India Code (indiacode.gov.in) |
 | `mu` | Маврикий: Жогорку сот (supremecourt.govmu.org) |
 | `sg` | Сингапур: сот чечимдери (elitigation.sg) |
 

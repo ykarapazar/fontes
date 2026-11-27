@@ -3,7 +3,7 @@
 # Fontes privacidad marandu
 
 Fontes oiko nde computadora-pe. Nde jeheka ha kuatiañe'ẽ reipe'áva opyta nde computadora,
-ypykue oficial reheka hápe, ha aplicación IA reipurúva (upe aplicación condicionkuéra
+ypykue reheka hápe (ypykue oficial-kuéra, ha CourtListener ha Lexifina upéva reipuru rire, ehecha upéi), ha aplicación IA reipurúva (upe aplicación condicionkuéra
 ijeheguáicha) apytépe añoite. Fontes ijehegui nomondói Fontes apoharakuérape **mba'eve
 ijypýpe**.
 
@@ -40,6 +40,8 @@ tembiporu réra ha jejavy marandu (nde jeheka ñe'ẽ ha id ojenohẽ), ha pete�
 rehaíramo. Ani emoĩ nde cliente-kuéra rehegua marandu pe jehaipýpe. Kóva oipytyvõ
 hag̃ua, Fontes oñongatu jejavy paha nde computadora-pe (`last-error.json` caché
 carpeta-pe, oñemyengovia peteĩteĩ jey); araka'eve noñemondói ijehegui.
+
+**4. Lexifina (oñemyandy ijypýpe).** `get_law_on_date`, `get_law_history`, 91 tetã ha India léi-kuéra Lexifina rehegua registro rupive ojehupytýva, upévare ohóta Lexifina-pe ypykue oficial sitio-pe ojoguáicha térã upe rupi. Nde porandu ñe'ẽ, citación ha árape oho Lexifina ndaipórigui servidor-pe, `global-law.lexifina.com`, oñemboguatáva Lexifina-gui, ndaha'éi Fontes desarrollador-kuéra. Lexifina omombe'u ijehegui ko servidor oanotáva mba'e tembiporu ojeporúva ha mboy aja ojapo, ha ndaha'éi mba'e ojerurévape; Fontes ndaikatúi ojehechakuaa upéva, ha Lexifina ijeheguiete términos oĩ. Lexifina ohecha nde IP dirección, opaite servidor web-icha ojapóicha. Lexifina opa mba'e ema'ẽ hag̃ua, emoĩ `WLM_LEXIFINA=0`; upe mokõi tembiporu ha tetã-kuéra noñemba'ekuaái upéi, ha ndaipóri mba'e oho upépe.
 
 ## Mamópa oho ha mboy aja oñeñongatu
 

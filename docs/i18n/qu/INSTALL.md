@@ -3,7 +3,7 @@
 # Fontes instalay
 
 Fontesqa IA aplicacionniykita taripana wasikunap taripayninkunata, kamachiykunatapas taripana
-wasikunap, gobiernop web sitionkunapi kawsaqta maskachin, 120 aswan jurisdicciónkunapi. Sapa
+wasikunap, gobiernop web sitionkunapi kawsaqta maskachin, 125 jurisdicciónkunapi. Sapa
 kutichiymi originalman t'inkin. Huk estándar MCP servidormi, chayrayku local MCP servidorta
 purichiyta atiq mayqin aplicacionpipas llamk'an: Claude Desktop, Codex, Claude Code, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline, hukkunapipas.

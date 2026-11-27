@@ -3,7 +3,7 @@
 # Como instalar o Fontes
 
 O Fontes permite que o seu app de IA consulte decisões judiciais e legislação ao vivo nos sites de
-tribunais e governos de mais de 120 jurisdições. Cada resultado traz o link para o original. É um
+tribunais e governos de 125 jurisdições. Cada resultado traz o link para o original. É um
 servidor MCP padrão, então funciona em qualquer app capaz de executar um servidor MCP local: Claude
 Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio,
 Cline e outros.

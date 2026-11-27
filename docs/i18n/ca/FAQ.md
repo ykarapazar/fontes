@@ -6,9 +6,9 @@
 
 Un servidor MCP gratuït i de codi obert (Apache 2.0). Permet que qualsevol aplicació que parli el
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI i altres) cerqui resolucions
-judicials i legislació en directe des de llocs web judicials i governamentals de més de 120
-jurisdiccions i tribunals internacionals (125 adaptadors). Cada resultat indica la seva font i enllaça
-amb l'original.
+judicials i legislació en directe des de llocs web judicials i governamentals en 125
+jurisdiccions i tribunals internacionals, i 91 països més a través del registre de Lexifina (vegeu més avall).
+Cada resultat indica la seva font i enllaça amb l'original.
 
 ## Els textos són oficials?
 
@@ -55,10 +55,37 @@ A banda d'això, algunes fonts diuen a les seves condicions que l'accés automat
 permís de l'editor. Estan marcades com a OFF i es queden desactivades. Una clau no ho canvia; només el
 permís de l'editor ho canvia (llavors definiu `WLM_PERMITTED=<codes>`).
 
+## D'on vénen les versions passades i els països addicionals?
+
+Del [registre de Lexifina](https://github.com/lexifina/global-law), que conserva la llei de vora 200
+països com a historial de git: cada canvi és una confirmació datada el dia en què va entrar en vigor.
+Fontes la llegeix a través del servidor allotjat gratuït de Lexifina. Dues eines en fan ús:
+`get_law_on_date` (una disposició tal com estava en vigor en una data, també en el passat, amb la llei
+que la va canviar per darrera vegada) i `get_law_history` (cada llei que ha canviat una disposició, o el
+canvi paraula per paraula entre dues dates). Fontes també llegeix així 91 països i territoris més, només
+per a legislació (per exemple Sud-àfrica, Kenya, Mèxic, Nova Zelanda, Rússia, Corea del Sud, Bèlgica,
+Lituània, Ucraïna, Malàisia, Tailàndia i Aràbia Saudita). Són independents dels 125 adaptadors amb
+cobertura oficial en directe, i la cobertura per país varia molt (el registre nacional de Kenya conté 9
+lleis). Les lleis de l'Índia també provenen del registre de Lexifina, perquè les condicions d'India Code
+prohibeixen l'accés automatitzat; les seves sentències del Tribunal Suprem són en directe.
+
+Lexifina no és l'editor oficial, i el seu registre no és en directe: Lexifina el revisa de tant en tant,
+i el seu propi informe del 2026-11-26 va comptar 338 de 383 cossos normatius nacionals com a no revisats
+en els darrers 7 dies. Cada resposta indica Lexifina com a font, enllaça la pàgina de l'editor oficial i
+diu fins on arriba el registre.
+
+Lexifina considera que els textos jurídics oficials no estan protegits per drets d'autor, de manera que
+en alguns països copia llocs web les condicions o el robots.txt dels quals Fontes sí que respecta. Fontes
+continua respectant-los per a tot el que obté directament; el que arriba a través de Lexifina segueix el
+criteri propi de Lexifina, registrat per país als seus repositoris. Alguns en restringeixen l'ús (l'editor
+de Kenya: CC BY-NC). Per a aquests casos, les vostres paraules de cerca, citacions i dates van al servidor
+de Lexifina. Definiu `WLM_LEXIFINA=0` per desactivar-ho. El servidor gratuït permet 60 crides per minut i
+10.000 al dia per adreça d'internet; sense clau ni compte. Fontes no està afiliada a Lexifina.
+
 ## Què surt del meu ordinador?
 
-Les vostres cerques només van a la font on es cerca. Fontes no manté cap base de dades i no requereix
-cap compte.
+Les vostres cerques només van a la font on es cerca (per a les eines i els països de Lexifina, al
+servidor de Lexifina). Fontes no manté cap base de dades i no requereix cap compte.
 
 A banda de les fonts, Fontes pregunta a PyPI un cop al dia si hi ha una versió més nova (desactiveu-ho
 amb `FONTES_NO_UPDATE_CHECK=1`). Els recomptes d'ús estan desactivats tret que els activeu, i un

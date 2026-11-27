@@ -52,6 +52,11 @@ Do **not** run `scripts/i18n_docs.py`, `scripts/readme_tables.py`, `scripts/cata
 `scripts/status_page.py`: they rewrite every language's files, and several translators work at
 the same time. The maintainer runs them once all translations are in.
 
+## Needs native review
+
+These languages were machine-translated on 2026-11-27 and the translator marked itself not confident:
+ay, dv, dz, ps, qu, wo, zgh. A native reader should check them before anyone relies on the wording.
+
 ## Glossary rule: never translate
 
 - **Fontes** (the product name), **MCP**, Model Context Protocol, Claude, Claude Desktop, Codex,

@@ -155,7 +155,6 @@ løyve. Om du har løyve frå utgjevaren, slå på ei kjelde ved å leggje koden
 | `de` | Tyskland: NeuRIS (føderal rettsinformasjonsportal, prøveteneste) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Hellas: National Printing Office, søk i Government Gazette (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: domstolsavgjerder (elitigation.sg) |
 

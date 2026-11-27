@@ -90,7 +90,7 @@ def main() -> None:
     likely = fetch(f"cldr-core@{CLDR_VERSION}/supplemental/likelySubtags.json")["supplemental"]["likelySubtags"]
 
     registry.discover()
-    codes = sorted(set(registry._all) | set(PENDING))
+    codes = sorted({c for c, j in registry._all.items() if not getattr(j, "via_lexifina", False)} | set(PENDING))
     jur: dict[str, dict] = {}
     dropped: list[dict] = []
     for code in codes:

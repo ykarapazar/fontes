@@ -1,6 +1,6 @@
 # Notes for coding agents
 
-Fontes is an MCP server: seven read-only tools that fetch case law and legislation live from
+Fontes is an MCP server: nine read-only tools that fetch case law and legislation live from
 official sources, one adapter per jurisdiction. The package is `fontes-mcp`, the import name is
 `world_legal_mcp`, the console script is `fontes`.
 
@@ -29,7 +29,7 @@ folder. A live failure can be the source changing; check it with the code from b
 |---|---|
 | README.md blocks `coverage`, `sources` (also in translated READMEs) | `scripts/readme_tables.py` |
 | README.md block `map`, `docs/assets/coverage-map*.svg` | `scripts/coverage_map.py` |
-| README.md block `languages` (also in docs/index.html, translations) | `scripts/i18n_docs.py` |
+| README.md block `languages` (also in docs/index.html, translations); the `seo` block (canonical, og:url, hreflang) in every landing page head | `scripts/i18n_docs.py` |
 | `docs/COVERAGE.md`, `docs/i18n/*/COVERAGE.md` | `scripts/catalogue.py` |
 | `plugin/`, `.claude-plugin/marketplace.json`, versions in `server.json` | `scripts/plugin_bundle.py` |
 | `docs/HEALTH.md`, `docs/status/`, `research/health/*.json` | `health.yml` (daily, commits to main) |
@@ -48,5 +48,8 @@ version, a file name), change it in the translations too. Rules: [docs/i18n/TRAN
 ## Rules
 
 - Official or public-body sources only. Respect robots.txt and each source's terms; never invent
-  identifiers. A source that needs permission gets `needs_permission=True` (see ADAPTER_SPEC).
+  identifiers. Two approved exceptions: CourtListener (US state courts), marked unofficial in every
+  answer, and Lexifina's record (past versions, and countries without a live adapter), where every
+  answer names Lexifina as the source and says it is not the official publisher.
+  A source that needs permission gets `needs_permission=True` (see ADAPTER_SPEC).
 - Don't push to `main` or publish a release without the maintainer.

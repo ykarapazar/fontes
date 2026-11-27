@@ -3,7 +3,7 @@
 # Thông báo về quyền riêng tư của Fontes
 
 Fontes chạy trên máy tính của bạn. Các tìm kiếm của bạn và các tài liệu bạn mở chỉ ở giữa
-máy tính của bạn, các nguồn chính thức bạn tìm kiếm, và ứng dụng AI bạn dùng (theo điều khoản riêng của
+máy tính của bạn, các nguồn bạn tìm kiếm (các nguồn chính thức, cùng CourtListener và Lexifina khi bạn dùng chúng, xem bên dưới), và ứng dụng AI bạn dùng (theo điều khoản riêng của
 ứng dụng đó). Bản thân Fontes **theo mặc định không gửi gì** cho các nhà phát triển Fontes.
 
 ## Những gì có thể rời khỏi máy tính của bạn, và khi nào
@@ -35,6 +35,8 @@ thông báo lỗi của lệnh gọi công cụ thất bại gần nhất (đã 
 một ghi chú nếu bạn viết. Không đưa thông tin về khách hàng vào ghi chú. Để hỗ trợ việc này, Fontes lưu
 lỗi gần nhất trên máy tính của bạn (`last-error.json` trong thư mục bộ nhớ đệm, được thay thế mỗi lần);
 tệp này không bao giờ được gửi riêng.
+
+**4. Lexifina (bật theo mặc định).** `get_law_on_date`, `get_law_history`, 91 quốc gia và các Acts của Ấn Độ được đọc qua hồ sơ pháp luật của Lexifina, nên được gửi tới Lexifina cùng với hoặc thay cho trang chính thức. Từ khóa tìm kiếm, trích dẫn và ngày tháng của bạn được gửi tới máy chủ miễn phí của Lexifina, `global-law.lexifina.com`. Máy chủ này do Lexifina vận hành, không phải do các nhà phát triển Fontes vận hành. Lexifina ghi trong tài liệu rằng máy chủ của họ ghi lại tên công cụ được gọi và thời gian chạy, không bao giờ ghi nội dung được hỏi; Fontes không thể kiểm chứng điều này, và điều khoản riêng của Lexifina được áp dụng. Lexifina thấy địa chỉ IP của bạn, như mọi máy chủ web. Để tắt hẳn Lexifina, đặt `WLM_LEXIFINA=0`; khi đó hai công cụ và các quốc gia nói trên ngừng hoạt động và không có gì được gửi tới đó.
 
 ## Dữ liệu được gửi tới đâu và được lưu giữ bao lâu
 

@@ -2,7 +2,7 @@
 
 # Fontes-in quraşdırılması
 
-Fontes süni intellekt proqramınıza 120-dən çox yurisdiksiyada məhkəmə qərarlarını və
+Fontes süni intellekt proqramınıza 125 yurisdiksiyada məhkəmə qərarlarını və
 qanunvericiliyi məhkəmə və dövlət saytlarında canlı olaraq axtarmağa imkan verir. Hər nəticə
 orijinala keçid verir. Bu, standart MCP serveridir, buna görə yerli MCP serverini işə sala bilən
 istənilən proqramda işləyir: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),

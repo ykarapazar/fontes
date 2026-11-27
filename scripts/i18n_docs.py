@@ -13,7 +13,8 @@ The switcher is the text between <!-- languages:start --> and <!-- languages:end
 docs/index.html and each translated README.md / index.html.
 
 The same run writes the brand blocks of the landing pages (docs/index.html and each
-docs/i18n/<lang>/index.html): <!-- favicon:start/end --> in <head> (favicon and touch icon) and
+docs/i18n/<lang>/index.html): <!-- favicon:start/end --> in <head> (favicon and touch icon), <!-- seo:start/end -->
+in <head> (self canonical, og:url and the hreflang set of all language versions) and
 <!-- logo:start/end --> in place of the plain <h1>Fontes</h1> (the lockup from docs/assets/brand/,
 dark variant via <picture>). Both are inserted the first time.
 """
@@ -94,6 +95,9 @@ def top10() -> list[str]:
     return [r["code"] for r in sorted(rows, key=lambda r: -(r.get("ethnologue_2026_total_millions") or 0))]
 
 
+SHOWN = 5   # languages named on the one-line picker; the rest are in the <details>
+
+
 def _md_link(code: str, here: str) -> str:
     """One language in the picker as seen from `here`: bold when it is the current page."""
     if code == (here or SOURCE):
@@ -106,14 +110,14 @@ def _md_link(code: str, here: str) -> str:
 
 def switcher_md(here: str) -> str:
     """The README language picker as seen from `here` ('' = repository root, else the language
-    code of a docs/i18n/<lang>/ folder): the ten most-spoken languages on one line (the current
+    code of a docs/i18n/<lang>/ folder): the five most-spoken languages on one line (the current
     language first when it is not among them), then every language grouped by region in a
     collapsed <details>. Only languages with a translated README are listed."""
     have = set(translations()) | {SOURCE}
     grouped = [c for codes in REGIONS.values() for c in codes]
     if sorted(grouped) != sorted(_meta()) or len(grouped) != len(set(grouped)):
         raise SystemExit("i18n_docs.REGIONS must list every language in research/languages.json once")
-    first = [c for c in top10() if c in have]
+    first = [c for c in top10() if c in have][:SHOWN]
     if here and here not in first:
         first.insert(0, here)
     lines = [f"{labels(here or SOURCE)['doc_languages']}: " + " · ".join(_md_link(c, here) for c in first),
@@ -129,12 +133,12 @@ def switcher_md(here: str) -> str:
 def switcher_html(here: str) -> str:
     """Same for the landing pages (docs/index.html and docs/i18n/<lang>/index.html)."""
     up = "" if not here else "../../"
-    links = [f'<a href="{up}index.html" hreflang="en" lang="en">English</a>' if here else "<b>English</b>"]
+    links = [f'<a href="{up}" hreflang="en" lang="en">English</a>' if here else "<b>English</b>"]
     for c in translations():
         if c == here:
             links.append(f'<b lang="{c}">{autonym(c)}</b>')
         else:
-            href = f"../{c}/index.html" if here else f"i18n/{c}/index.html"
+            href = f"../{c}/" if here else f"i18n/{c}/"
             links.append(f'<a href="{href}" hreflang="{c}" lang="{c}">{autonym(c)}</a>')
     return (f'<p class="mute">{labels(here or SOURCE)["doc_languages"]}: ' + " · ".join(links) + "</p>")
 
@@ -155,6 +159,22 @@ def favicon_html(here: str) -> str:
             f'<link rel="apple-touch-icon" href="{b}apple-touch-icon.png">')
 
 
+SITE = "https://ykarapazar.github.io/fontes/"
+
+
+def page_url(lang: str) -> str:
+    return SITE if lang in ("", SOURCE) else f"{SITE}i18n/{lang}/"
+
+
+def seo_html(here: str) -> str:
+    """The <head> canonical and hreflang set of a landing page: the page names itself as canonical
+    and lists every language version (English and each translation), plus x-default."""
+    langs = [SOURCE] + translations()
+    alts = [f'<link rel="alternate" hreflang="{c}" href="{page_url(c)}">' for c in langs]
+    alts.append(f'<link rel="alternate" hreflang="x-default" href="{SITE}">')
+    return f'<link rel="canonical" href="{page_url(here)}">\n' + "\n".join(alts)
+
+
 def logo_html(here: str) -> str:
     """The page heading of a landing page: the Fontes lockup, light and dark."""
     b = ("../../" if here else "") + "assets/brand/"
@@ -168,6 +188,12 @@ def brand(text: str, here: str) -> str:
     if head is None:
         m = re.search(r'<meta name="viewport"[^>]*>\n', text)
         head = text[:m.end()] + f"<!-- favicon:start -->\n{favicon_html(here)}\n<!-- favicon:end -->\n" + text[m.end():]
+    seo = replace_block(head, "seo", seo_html(here))
+    if seo is None:   # first time: drop the page's own canonical line (it may point at English)
+        head = re.sub(r'<link rel="canonical" href="[^"]*">\n', "", head)
+        i = head.index("<!-- favicon:end -->\n") + len("<!-- favicon:end -->\n")
+        seo = head[:i] + f"<!-- seo:start -->\n{seo_html(here)}\n<!-- seo:end -->\n" + head[i:]
+    head = re.sub(r'(<meta property="og:url" content=")[^"]*"', lambda m: f'{m.group(1)}{page_url(here)}"', seo)
     out = replace_block(head, "logo", logo_html(here))
     if out is None:
         out = head.replace("<h1>Fontes</h1>\n", f"<!-- logo:start -->\n{logo_html(here)}\n<!-- logo:end -->\n", 1)

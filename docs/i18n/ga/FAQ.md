@@ -6,9 +6,9 @@
 
 Freastalaí MCP saor in aisce, foinse oscailte (Apache 2.0). Ligeann sé d'aon aip a labhraíonn an
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI agus aipeanna eile) breithiúnais
-chúirte agus reachtaíocht a chuardach beo ar shuíomhanna gréasáin cúirteanna agus rialtais in 120+
-dlínse agus cúirt idirnáisiúnta (125 oiriúnaitheoir). Ainmníonn gach toradh a fhoinse agus tá nasc
-chuig an mbunleagan ann.
+chúirte agus reachtaíocht a chuardach beo ar shuíomhanna gréasáin cúirteanna agus rialtais in 125
+dlínse agus cúirt idirnáisiúnta, móide 91 tír eile trí thaifead Lexifina (féach thíos). Ainmníonn
+gach toradh a fhoinse agus tá nasc chuig an mbunleagan ann.
 
 ## An bhfuil na téacsanna oifigiúil?
 
@@ -55,10 +55,40 @@ Ar leith uaidh sin, deir roinnt bheag foinsí ina dtéarmaí go dteastaíonn cea
 haghaidh rochtana uathoibrithe. Tá siad marcáilte OFF agus fanann siad múchta. Ní athraíonn eochair
 é sin; ní athraíonn ach cead an fhoilsitheora é (ansin socraigh `WLM_PERMITTED=<codes>`).
 
+## Cá as a dtagann na seanleaganacha agus na tíortha breise?
+
+Ó [Lexifina](https://github.com/lexifina/global-law), a choinníonn dlí thart ar 200 tír mar stair
+git: bíonn gach athrú ina thiomantas (commit) dátaithe don lá a tháinig sé i bhfeidhm. Léann Fontes
+é trí fhreastalaí saor in aisce óstáilte Lexifina. Úsáideann dhá uirlis é: `get_law_on_date` (foráil
+mar a bhí i bhfeidhm ar dháta, ar dháta san am atá caite freisin, leis an dlí a d'athraigh í go
+deireanach) agus `get_law_history` (gach dlí a d'athraigh foráil, nó an t-athrú focal ar fhocal idir
+dhá dháta). Léann Fontes 91 tír agus críoch eile sa tslí chéanna freisin, le haghaidh reachtaíochta
+amháin (mar shampla an Afraic Theas, an Chéinia, Meicsiceo, an Nua-Shéalainn, an Rúis, an Chóiré
+Theas, an Bheilg, an Liotuáin, an Úcráin, an Mhalaeisia, an Téalainn agus an Araib Shádach). Tá siad
+ar leith ó na 125 oiriúnaitheoir a bhfuil clúdach beo oifigiúil acu, agus bíonn an clúdach difriúil
+go mór ó thír go tír (tá 9 acht ag taifead náisiúnta na Céinia). Tagann Achtanna na hIndia ó thaifead
+Lexifina freisin, mar go mbacann téarmaí India Code rochtain uathoibrithe; tá breithiúnais a
+Chúirte Uachtaraí beo.
+
+Ní hé Lexifina an foilsitheoir oifigiúil, agus níl a thaifead beo: seiceálann Lexifina gach tír i gcoinne a foinse oifigiúla ó am
+go ham, agus áirítear ina thuairisc féin, ar 2026-11-26, 338 as 383 corpas dlí
+náisiúnta nár seiceáladh le 7 lá anuas. Luann gach freagra Lexifina mar an fhoinse, nascann sé
+leathanach an fhoilsitheora oifigiúil, agus deir sé cé chomh fada is a shíneann an taifead.
+
+Glacann Lexifina leis nach bhfuil téacsanna dlí oifigiúla faoi chosaint cóipchirt, agus mar sin i
+roinnt tíortha cóipeálann sé suíomhanna a bhfuil a dtéarmaí nó robots.txt á n-urramú ag Fontes féin.
+Urramaíonn Fontes iad fós i gcás gach rud a fhaigheann sé é féin; leanann an méid a thagann trí
+Lexifina breithiúnas dlí Lexifina féin, arna thaifeadadh do gach tír ina stóir. Cuireann cuid acu
+srian ar úsáid (foilsitheoir na Céinia: CC BY-NC). Téann d'fhocail chuardaigh, do chuid tagairtí
+agus do dhátaí chuig freastalaí Lexifina don dá uirlis agus na tíortha seo. Socraigh `WLM_LEXIFINA=0`
+chun é a mhúchadh. Ceadaíonn an freastalaí saor in aisce 60 glaoch sa nóiméad agus 10,000 sa lá in
+aghaidh seoladh idirlín; gan eochair ná cuntas. Níl Fontes comhlachaithe le Lexifina.
+
 ## Cad a fhágann mo ríomhaire?
 
-Ní théann do chuardaigh ach chuig an bhfoinse atá á cuardach. Ní choinníonn Fontes bunachar
-sonraí agus ní theastaíonn cuntas uaidh.
+Ní théann do chuardaigh ach chuig an bhfoinse atá á cuardach (maidir leis na huirlisí agus na tíortha
+Lexifina, is é freastalaí Lexifina atá ann). Ní choinníonn Fontes bunachar sonraí agus ní theastaíonn
+cuntas uaidh.
 
 Seachas na foinsí, fiafraíonn Fontes de PyPI uair sa lá an bhfuil leagan níos nuaí ann (múch é le
 `FONTES_NO_UPDATE_CHECK=1`). Tá comhairimh úsáide múchta mura gcasann tú air iad, agus ní sheoltar

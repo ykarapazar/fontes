@@ -3,7 +3,7 @@
 # Persónuverndartilkynning Fontes
 
 Fontes keyrir á tölvunni þinni. Leitir þínar og skjölin sem þú opnar haldast
-á milli tölvunnar þinnar, opinberu heimildanna sem þú leitar í og gervigreindarforritsins sem þú notar (samkvæmt
+á milli tölvunnar þinnar, heimildanna sem þú leitar í (opinberu heimildanna, auk CourtListener og Lexifina þar sem þú notar þær, sjá hér að neðan) og gervigreindarforritsins sem þú notar (samkvæmt
 eigin skilmálum þess forrits). Fontes sjálft sendir forriturum Fontes **sjálfgefið
 ekkert**.
 
@@ -36,6 +36,8 @@ villuboðin úr síðasta misheppnaða verkfærakallinu (með leitarorðum þín
 athugasemd ef þú skrifar hana. Ekki setja upplýsingar um skjólstæðinga í athugasemdina. Til að styðja þetta geymir Fontes
 síðustu villuna á tölvunni þinni (`last-error.json` í skyndiminnismöppu þess, skipt út í hvert skipti);
 hún er aldrei send ein og sér.
+
+**4. Lexifina (virk sjálfgefið).** `get_law_on_date`, `get_law_history`, 91 landið og lög Indlands sem lesin eru í gegnum skrá Lexifina um lögin fara til Lexifina, auk eða í stað opinberrar vefsíðu. Leitarorð þín, tilvitnanir og dagsetningar fara til ókeypis netþjóns Lexifina, `global-law.lexifina.com`, sem Lexifina rekur, ekki forritarar Fontes. Lexifina skjalfestir að netþjónn þess skrái hvaða verkfæri var kallað og hversu langan tíma það tók, aldrei hvað var spurt; Fontes getur ekki staðfest það, og skilmálar Lexifina gilda. Lexifina sér IP-tölu þína, eins og hver vefþjónn. Til að slökkva alveg á Lexifina skaltu stilla `WLM_LEXIFINA=0`; þessi tvö verkfæri og löndin hætta þá að virka og ekkert er sent þangað.
 
 ## Hvert þetta fer og hversu lengi það er geymt
 

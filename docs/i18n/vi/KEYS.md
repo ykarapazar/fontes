@@ -153,7 +153,6 @@ phép. Nếu bạn được bên công bố cho phép, hãy bật một nguồn 
 | `de` | Đức: NeuRIS (cổng thông tin pháp luật liên bang, dịch vụ thử nghiệm) |
 | `difc` | Tòa án Trung tâm Tài chính Quốc tế Dubai (difccourts.ae) |
 | `gr` | Hy Lạp: Nhà in Quốc gia, tìm kiếm Công báo Chính phủ (search.et.gr) |
-| `in` | Ấn Độ: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Tòa án Tối cao (supremecourt.govmu.org) |
 | `sg` | Singapore: bản án của tòa án (elitigation.sg) |
 

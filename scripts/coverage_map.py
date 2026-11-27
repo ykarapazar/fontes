@@ -68,6 +68,8 @@ def scorecard() -> tuple[dict[str, str], dict[str, str]]:
     registry.discover()
     cat, names = {}, {}
     for j in registry._all.values():
+        if getattr(j, "via_lexifina", False):
+            continue
         (a, _), (b, _) = catalogue._score(j.code, catalogue._map(j.code))
         cat[j.code] = "covered" if "complete" in (a, b) else "partial"
         names[j.code] = j.name
@@ -175,6 +177,8 @@ def build(theme: str, cat: dict[str, str], names: dict[str, str], today: str) ->
 
 
 def _alt(lang: str, covered: int, total: int) -> str:
+    if lang == "en":  # English is a sentence; the translations keep their string-table labels
+        return f"Map of the {total} live jurisdictions Fontes searches, {covered} of them covered completely."
     L = i18n_docs.labels(lang)
     return escape(L["cov_title"] + ": " + L["cov_covered"].format(n=covered, total=total).replace("*", ""), {'"': "&quot;"})
 

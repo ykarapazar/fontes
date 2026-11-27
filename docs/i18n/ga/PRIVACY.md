@@ -3,8 +3,9 @@
 # Fógra príobháideachta Fontes
 
 Ritheann Fontes ar do ríomhaire. Fanann do chuardaigh agus na doiciméid a osclaíonn tú idir do
-ríomhaire, na foinsí oifigiúla a chuardaíonn tú, agus an aip IS a úsáideann tú (faoi théarmaí na
-haipe sin féin). Ní sheolann Fontes féin **aon rud de réir réamhshocraithe** chuig forbróirí Fontes.
+ríomhaire, na foinsí a chuardaíonn tú (na foinsí oifigiúla, móide CourtListener agus Lexifina sna
+cásanna a úsáideann tú iad, féach thíos), agus an aip IS a úsáideann tú (faoi théarmaí na haipe sin
+féin). Ní sheolann Fontes féin **aon rud de réir réamhshocraithe** chuig forbróirí Fontes.
 
 ## Cad is féidir a fhágáil do ríomhaire, agus cathain
 
@@ -39,6 +40,14 @@ uirlise teipthe is déanaí (agus d'fhocail chuardaigh agus aitheantóirí baint
 scríobhann tú ceann. Ná cuir sonraí cliant sa nóta. Chun tacú leis seo, coinníonn Fontes an earráid
 is déanaí ar do ríomhaire (`last-error.json` ina fhillteán taisce, a chuirtear ina áit gach uair);
 ní sheoltar riamh léi féin í.
+
+**4. Lexifina (ar siúl de réir réamhshocraithe).** Léitear `get_law_on_date`, `get_law_history`, na 91 tír agus Achtanna na hIndia trí thaifead dlí Lexifina, agus mar sin téann siad chuig Lexifina chomh maith leis an suíomh oifigiúil nó ina ionad. Téann d'fhocail chuardaigh, do
+chuid tagairtí agus do dhátaí chuig freastalaí saor in aisce Lexifina, `global-law.lexifina.com`, a
+reáchtálann Lexifina, ní forbróirí Fontes. Deir Lexifina ina doiciméadú go logálann a fhreastalaí cén
+uirlis a glaodh agus cé chomh fada is a thóg sé, ach ní logálann sé riamh cad a fiafraíodh; ní féidir le Fontes sin a
+sheiceáil, agus baineann téarmaí Lexifina féin leis. Feiceann Lexifina do sheoladh IP, mar a fheiceann
+aon fhreastalaí gréasáin. Chun Lexifina a mhúchadh go hiomlán, socraigh `WLM_LEXIFINA=0`; ansin
+stopfaidh an dá uirlis agus na tíortha sin ag obair, agus ní sheoltar aon rud ann.
 
 ## Cá dtéann sé agus cá fhad a choinnítear é
 

@@ -153,7 +153,6 @@ loata. Kui teil on avaldaja luba, lülitage allikas sisse, lisades selle koodi m
 | `de` | Saksamaa: NeuRIS (föderaalne õigusteabe portaal, katseteenus) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Kreeka: National Printing Office, Government Gazette otsing (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: kohtuotsused (elitigation.sg) |
 

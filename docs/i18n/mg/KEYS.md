@@ -169,7 +169,6 @@ amin'ny bloc `env`: `"WLM_PERMITTED": "in,de"`.
 | `de` | Alemaina: NeuRIS (vavahadin-tserasera federaly momba ny fampahalalana ara-dalàna, tolotra andrana) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grisia: National Printing Office, fikarohana ao amin'ny Government Gazette (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Maorisy: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: didim-pitsarana (elitigation.sg) |
 

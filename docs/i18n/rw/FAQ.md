@@ -6,8 +6,8 @@
 
 Ni seriveri MCP y'ubuntu ifite kode ifunguye (Apache 2.0). Ituma porogaramu iyo ari yo yose ivuga Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI n'izindi) ishakisha ibyemezo by'inkiko
-n'amategeko ako kanya ku mbuga z'inkiko n'iza Leta, mu mafasi y'ubutabera arenga 120 no mu nkiko
-mpuzamahanga (adapter 125). Buri gisubizo kivuga inkomoko yacyo kandi gifite ihuza rijya ku nyandiko
+n'amategeko ako kanya ku mbuga z'inkiko n'iza Leta, mu mafasi y'ubutabera 125 no mu nkiko
+mpuzamahanga, kandi mu bihugu 91 by'inyongera binyuze mu ibaruramakuru rya Lexifina (reba hepfo). Buri gisubizo kivuga inkomoko yacyo kandi gifite ihuza rijya ku nyandiko
 y'umwimerere.
 
 ## Inyandiko ni iza Leta?
@@ -55,9 +55,17 @@ Uretse ibyo, inkomoko zimwe zivuga mu mabwiriza yazo ko kwinjira mu buryo bwikor
 rw'uyitangaza. Zanditseho OFF kandi zikomeza gufunga. Urufunguzo ntiruhindura ibyo; uruhushya
 rw'uyitangaza ni rwo rwonyine rubihindura (hanyuma ushyireho `WLM_PERMITTED=<codes>`).
 
+## Amateka ya kera n'ibihugu by'inyongera biturutse he?
+
+Biturutse kuri [Lexifina](https://github.com/lexifina/global-law), ibika amategeko y'ibihugu hafi 200 nk'amateka ya git: buri mpinduka ni commit yanditswe ku itariki yatangiyeho gukurikizwa. Fontes iyasoma binyuze kuri seriveri y'ubuntu ya Lexifina. Ibikoresho bibiri bikoresha iyo serivisi: `get_law_on_date` (ingingo uko yari imeze ku itariki, no mu bihe byashize, n'itegeko riheruka kuyihindura) na `get_law_history` (amategeko yose yahinduye ingingo, cyangwa impinduka y'ijambo ku rindi hagati y'amatariki abiri). Fontes isoma kandi ibihugu 91 by'inyongera muri ubu buryo, ku mategeko gusa (urugero South Africa, Kenya, Mexico, New Zealand, Russia, South Korea, Belgium, Lithuania, Ukraine, Malaysia, Thailand na Saudi Arabia). Byitandukanya n'amafasi 125 y'ubutabera afite ibyo akurikirana ku nkomoko za Leta zibaho, kandi ibyo buri gihugu gifite biratandukana cyane (ibaruramakuru ry'igihugu cya Kenya rifite amategeko 9). Amategeko y'u Buhinde nayo aturuka ku ibaruramakuru rya Lexifina, kuko amabwiriza ya India Code abuza ikoreshwa ryikora nta ruhushya; imanza z'Urukiko rw'Ikirenga rwarwo ziboneka ako kanya.
+
+Lexifina ntiyo itangaza wemewe, kandi ibaruramakuru ryayo ntiribaho ako kanya: Lexifina isuzuma buri gihugu rimwe na rimwe, kandi raporo yayo yo ku ya 2026-11-26 yabaruye inzego z'amategeko z'igihugu 338 muri 383 nk'izitagenzuwe mu minsi 7 ishize. Buri gisubizo kivuga Lexifina nk'inkomoko, kigatanga ihuza ry'urubuga rw'utangaza wemewe, kandi kikavuga uko ibaruramakuru rigera kure.
+
+Lexifina ifata ko inyandiko z'amategeko ya Leta zitarinzwe n'uburenganzira bw'umuhimbyi (copyright), bityo mu bihugu bimwe ikopera imbuga Fontes ubwayo yubahiriza amabwiriza na robots.txt yazo. Fontes iracyubahiriza robots.txt n'amabwiriza ku byo yikurira yo ubwayo; ibinyura muri Lexifina bikurikiza ibyemezo bwite bya Lexifina, byanditswe igihugu ku kindi. Bimwe bigabanya ikoreshwa (utangaza w'u Kenya afite CC BY-NC). Amagambo yawe yo gushakisha, ivugwa ry'ingingo n'amatariki bijya kuri seriveri ya Lexifina kuri ibyo. Kubihagarika, shyiraho `WLM_LEXIFINA=0`. Seriveri y'ubuntu yemerera ihamagara 60 ku munota na 10,000 ku munsi kuri buri aderesi ya internet; nta rufunguzo cyangwa konti. Fontes nta sano ifitanye na Lexifina.
+
 ## Ni iki kiva kuri mudasobwa yanjye?
 
-Ibyo ushakisha bijya gusa ku nkomoko irimo gushakishwamo. Fontes ntibika ububiko bw'amakuru kandi
+Ibyo ushakisha bijya gusa ku nkomoko irimo gushakishwamo (ku bikoresho n'ibihugu bya Lexifina, ni kuri seriveri ya Lexifina). Fontes ntibika ububiko bw'amakuru kandi
 ntikenera konti.
 
 Uretse inkomoko, Fontes ibaza PyPI rimwe ku munsi niba hari verisiyo nshya (bihagarike ukoresheje

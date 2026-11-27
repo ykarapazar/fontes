@@ -154,7 +154,6 @@ CourtListener འདི་ ལོ་ ༢༠༡༠ ལས་ བཟུང་ས�
 | `de` | ཇར་མ་ནི: NeuRIS (ཡོངས་ཁྱབ་ཁྲིམས་ཀྱི་བརྡ་དོན་སྒོ་ར་ བརྟག་ཞིབ་ཞབས་ཏོག) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | གིརིསི: National Printing Office, Government Gazette འཚོལ་ཞིབ (search.et.gr) |
-| `in` | རྒྱ་གར: India Code (indiacode.gov.in) |
 | `mu` | མོ་རི་ཤཱས: Supreme Court (supremecourt.govmu.org) |
 | `sg` | སིང་ག་པོར: ཁྲིམས་ཁང་གི་ཁྲིམས་ཐག (elitigation.sg) |
 

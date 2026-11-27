@@ -166,7 +166,6 @@ blokunda `WLM_PERMITTED`-ə vergüllə ayıraraq əlavə etməklə yandırın: `
 | `de` | Almaniya: NeuRIS (federal hüquqi informasiya portalı, sınaq xidməti) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Yunanıstan: Milli Mətbəə, Hökumət Qəzetində axtarış (search.et.gr) |
-| `in` | Hindistan: India Code (indiacode.gov.in) |
 | `mu` | Mavriki: Ali Məhkəmə (supremecourt.govmu.org) |
 | `sg` | Sinqapur: məhkəmə qərarları (elitigation.sg) |
 

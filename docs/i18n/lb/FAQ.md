@@ -6,9 +6,9 @@
 
 E gratis Open-Source-MCP-Server (Apache 2.0). Mat him kann all App, déi d'Model Context Protocol
 schwätzt (Claude, Codex, Cursor, VS Code, Gemini CLI an anerer), Geriichtsentscheedungen a
-Gesetzgebung live op de Websäite vu Geriichter a Regierungen duerchsichen, a méi wéi 120
-Rechtsuerdnungen an internationale Geriichter (125 Adapteren). All Resultat nennt seng Quell a
-verlinkt op d'Original.
+Gesetzgebung live op de Websäite vu Geriichter a Regierungen duerchsichen, an 125 Rechtsuerdnungen
+an internationale Geriichter, plus 91 aner Länner aus dem Record vu Lexifina (kuckt ënnen). All
+Resultat nennt seng Quell a verlinkt op d'Original.
 
 ## Sinn d'Texter offiziell?
 
@@ -56,9 +56,38 @@ Doriwwer eraus soen e puer Quellen an hire Konditiounen, datt den automatiséier
 d'Erlaabnes vum Editeur brauch. Si sinn als OFF markéiert a bleiwen aus. E Schlëssel ännert dorun
 näischt; just d'Erlaabnes vum Editeur mécht dat (setzt dann `WLM_PERMITTED=<codes>`).
 
+## Vu wou kommen déi vergaangen Versiounen an déi extra Länner?
+
+Vun [Lexifina](https://github.com/lexifina/global-law), deen d'Gesetzgebung vu ronn 200 Länner als
+Git-Versiounsgeschicht hält: all Ännerung ass en Commit, datéiert op de Dag, un deem se a Kraaft
+getrueden ass. Fontes liest se iwwer de gratis gehuustene Server vu Lexifina. Zwee Tools benotzen
+dat: `get_law_on_date` (eng Bestëmmung, wéi se op engem Datum a Kraaft war, och a vergaangenen
+Zäiten, mat dem Gesetz, dat hir zuletzt geännert huet) an `get_law_history` (all Gesetz, dat eng
+Bestëmmung geännert huet, oder d'Wuert-fir-Wuert-Ännerung tëscht zwee Datumer). Fontes liest och 91
+aner Länner a Territoiren op dës Aart, nëmmen fir Gesetzgebung (zum Beispill Südafrika, Kenia,
+Mexiko, Neiséiland, Russland, Südkorea, Belsch, Litauen, Ukrainn, Malaysia, Thailand an
+Saudi-Arabien). Si sinn getrennt vun de 125 Rechtsuerdnungen mat offizieller Live-Ofdeckung, an
+d'Ofdeckung pro Land ass ganz ënnerschiddlech (Kenias nationale Record hält 9 Akten). Indien seng
+Akten kommen och aus dem Record vu Lexifina, well d'Konditioune vum India Code automatiséierten
+Zougang verbidden; hir Entscheedunge vum Oberste Geriicht sinn live.
+
+Lexifina ass net de offiziellen Editeur, an de Record ass net live: Lexifina iwwerpréift all Land
+vun Zäit zu Zäit, an hir eegen Frëschheetsbericht huet de 2026-11-26 338 vun 383 nationalen
+Rechtskorpora als an de leschten 7 Deeg net kontrolléiert gezielt. All Äntwert nennt Lexifina als
+Quell, verlinkt d'Säit vum offizielle Editeur a seet, wéi wäit de Record geet.
+
+Lexifina hält d'Meenung, datt offiziell Rechtstexter net vum Copyright geschützt sinn, dofir
+kopéiert se a verschiddene Länner Websäite, deenen hir Konditioune oder robots.txt Fontes selwer
+respektéiert. Fontes respektéiert déi fir alles, wat et selwer ofruff; wat iwwer Lexifina kënnt,
+follegt dem eegene Rechtsurteel vu Lexifina, dat pro Land a sengen Repositories festgehalen ass. E
+puer schränken d'Notzung an (dem Kenia sengem Editeur ass CC BY-NC). Är Sichwieder, Zitater an
+Datume gi fir dës zwee Tools a Länner un de Server vu Lexifina geschéckt. Setzt `WLM_LEXIFINA=0`,
+fir et auszeschalten. Kee Schlëssel a kee Kont; den gratis Server erlaabt 60 Uruffe d'Minutt an
+10.000 am Dag pro Internetadress. Fontes ass net mat Lexifina verbonnen.
+
 ## Wat verléisst mäi Computer?
 
-Är Sichen ginn just un d'Quell, an där gesicht gëtt. Fontes féiert keng Datebank a brauch kee Kont.
+Är Sichen ginn just un d'Quell, an där gesicht gëtt (bei den Tools an Länner vu Lexifina ass dat de Server vu Lexifina). Fontes féiert keng Datebank a brauch kee Kont.
 
 Nieft de Quelle freet Fontes eemol am Dag bei PyPI, ob et eng méi nei Versioun gëtt (auszeschalte
 mat `FONTES_NO_UPDATE_CHECK=1`). Notzungszuele sinn aus, ausser Dir schalt se an, an e

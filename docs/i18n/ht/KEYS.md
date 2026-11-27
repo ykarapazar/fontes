@@ -153,7 +153,6 @@ blòk `env` la: `"WLM_PERMITTED": "in,de"`.
 | `de` | Almay: NeuRIS (pòtay federal enfòmasyon jiridik, sèvis esè) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grès: Enprimri Nasyonal, rechèch nan Jounal Ofisyèl la (search.et.gr) |
-| `in` | Lend: India Code (indiacode.gov.in) |
 | `mu` | Moris: Tribinal Siprèm (supremecourt.govmu.org) |
 | `sg` | Singapou: jijman tribinal (elitigation.sg) |
 

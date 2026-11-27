@@ -158,7 +158,6 @@ jeho kód pridáte do `WLM_PERMITTED`, oddelený čiarkami, v bloku `env`: `"WLM
 | `de` | Nemecko: NeuRIS (federálny portál právnych informácií, skúšobná prevádzka) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grécko: Národná tlačiareň, vyhľadávanie vo Vládnom vestníku (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Maurícius: Najvyšší súd (supremecourt.govmu.org) |
 | `sg` | Singapur: súdne rozsudky (elitigation.sg) |
 

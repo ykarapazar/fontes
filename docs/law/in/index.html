@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
 <link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
-<title>India: case law and legislation for your AI app | Fontes</title>
-<meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up India case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<title>India case law and legislation: MCP server | Fontes</title>
+<meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up India case law and legislation from the sources listed on this page. Free and open source; every result links to the original.">
 <link rel="canonical" href="https://ykarapazar.github.io/fontes/law/in/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="India: case law and legislation for your AI app | Fontes">
-<meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up India case law and legislation live from the courts&#x27; and governments&#x27; websites. Free and open source; every result links to the original.">
+<meta property="og:title" content="India case law and legislation: MCP server | Fontes">
+<meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up India case law and legislation from the sources listed on this page. Free and open source; every result links to the original.">
 <meta property="og:url" content="https://ykarapazar.github.io/fontes/law/in/">
 <meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
 <style>
@@ -37,26 +37,26 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-si
 <p class="lead">Fontes lets your AI app search India case law and legislation at the source and link every result to the original. It is a free, open-source MCP server for Claude Desktop, Claude Code, Codex, Cursor, VS Code and other apps.</p>
 <h2>Sources</h2>
 <ul>
-<li><a href="https://indiacode.gov.in/">India Code (Legislative Department, Ministry of Law and Justice; run by NIC)</a>: legislation (off unless you hold the publisher's permission)</li>
+<li><a href="https://github.com/lexifina/global-law">Lexifina global law record (publisher: Legislative Department, Ministry of Law and Justice (Government of India))</a>: legislation (not the official publisher; every answer says so)</li>
 <li><a href="https://registry.opendata.aws/indian-supreme-court-judgments/">Indian Supreme Court Judgments (AWS Open Data; Dattam Labs mirror of the Supreme Court&#x27;s e-SCR)</a>: case law (unofficial; every answer says so)</li>
 </ul>
 <h2>What it covers</h2>
-<p>Central and state Acts from India Code, section by section (off unless WLM_PERMITTED). Law ids are India Code act ids (AC_CEN_...), or &#x27;9 of 1872&#x27; for central Acts. Supreme Court: S.C.R.-reported judgments 1950 to date from an unofficial AWS Open Data mirror of e-SCR; search one year at a time (parties, citation, coram, headnote).</p>
+<p>Supreme Court: S.C.R.-reported judgments 1950 to date from an unofficial AWS Open Data mirror of e-SCR; search one year at a time (parties, citation, coram, headnote). Legislation: read through Lexifina&#x27;s record (not the official publisher, not live; India Code is not used, its terms bar automated access). What the record holds: changes in force from 2013-08-30 to 2026-04-01 (the latest change it holds; answers say when it was last checked); plus 1 state, provincial or local bodies of law.</p>
 <h2>What it does not cover</h2>
 <ul>
-<li>Legislation (India Code, all Acts): terms forbid automated use (&#x27;Not use any automated means&#x27;); needs written permission</li>
+<li>Legislation: read from Lexifina&#x27;s record, not live; India Code (indiacode.gov.in) itself is not used because its terms forbid automated access without written permission</li>
 <li>Constitution: legislative.gov.in (official PDFs) answers our User-Agent with an Akamai 403; Constitute Project text is non-commercial and flags a 2024 amendment not incorporated; not built</li>
 <li>Supreme Court, unreported judgments: not in e-SCR or the AWS mirror; official sci.gov.in judgment search is behind a CAPTCHA</li>
 <li>Supreme Court full-text search: the mirror has no search index; search matches parties, citations, coram and headnote within one year</li>
 <li>High Courts (AWS Open Data, unofficial, CC BY 4.0): source exists, not built</li>
-<li>Schedules of Acts: not published online as text in India Code&#x27;s API (SCHEDULE items carry no text)</li>
-<li>Subordinate legislation (rules, regulations, notifications): not researched yet</li>
 </ul>
+<h2>Past versions</h2>
+<p><code>get_law_on_date</code> and <code>get_law_history</code> read Lexifina's record (not the official publisher).</p>
 <h2>Questions to try</h2>
 <p>Ask in any language; the search words work best in the language of the source.</p>
 <ul>
 <li><em>Find India case law on Kesavananda Bharati 1973</em></li>
-<li><em>Find India legislation: Indian Contract Act</em></li>
+<li><em>Find India legislation: Information Technology Act 2000</em></li>
 </ul>
 <h2>Install</h2>
 <p>Claude Code: <code>claude mcp add fontes -- uvx fontes-mcp</code>. Codex: <code>codex mcp add fontes -- uvx fontes-mcp</code>. Claude Desktop and one-click installers for Mac and Windows: the <a href="https://github.com/ykarapazar/fontes/releases/latest">latest release</a>. Other apps: the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/INSTALL.md">installation guide</a>.</p>

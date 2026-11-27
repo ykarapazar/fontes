@@ -7,8 +7,8 @@
 Ingyenes, nyílt forráskódú MCP-szerver (Apache 2.0). Lehetővé teszi, hogy bármely alkalmazás,
 amely ismeri a Model Context Protocolt (Claude, Codex, Cursor, VS Code, Gemini CLI és mások),
 közvetlenül bírósági és állami webhelyeken keressen bírósági határozatokat és jogszabályokat,
-120+ joghatóságban és nemzetközi bíróságon (125 adapter). Minden találat megnevezi a forrását,
-és az eredetire hivatkozik.
+125 joghatóságban és nemzetközi bíróságon, plusz 91 további országban a Lexifina nyilvántartásán
+keresztül (lásd lent). Minden találat megnevezi a forrását, és az eredetire hivatkozik.
 
 ## Hivatalosak a szövegek?
 
@@ -57,10 +57,18 @@ Ettől függetlenül néhány forrás feltételei szerint az automatizált hozz�
 engedélye szükséges. Ezek OFF jelölést kapnak, és kikapcsolva maradnak. Egy kulcs ezen nem
 változtat; csak a kiadó engedélye (ekkor állítsa be a `WLM_PERMITTED=<codes>` értéket).
 
+## Honnan származnak a múltbeli változatok és a további országok?
+
+A [Lexifina](https://github.com/lexifina/global-law) mintegy 200 ország jogát tartja nyilván git-előzményként: minden változás egy commit, amelynek dátuma a hatálybalépés napja. A Fontes ezt a Lexifina ingyenes, üzemeltetett szerverén keresztül olvassa. Két eszköz használja: `get_law_on_date` (egy rendelkezés a megadott dátumon érvényes szövegében, múltbeli dátumokon is, a legutóbb módosító jogszabállyal együtt) és `get_law_history` (minden olyan jogszabály, amely egy rendelkezést módosított, vagy két dátum közötti szó szerinti változás). A Fontes ily módon 91 további ország és terület jogszabályait is olvassa, csak jogszabályokat (például Dél-Afrika, Kenya, Mexikó, Új-Zéland, Oroszország, Dél-Korea, Belgium, Litvánia, Ukrajna, Malajzia, Thaiföld és Szaúd-Arábia). Ezek elkülönülnek a 125 adaptertől, amelyek élő, hivatalos lefedettséget adnak, és a lefedettség országonként nagyon eltér (Kenya nemzeti nyilvántartása 9 törvényt tartalmaz). India törvényei is a Lexifina nyilvántartásából származnak, mert az India Code feltételei tiltják az automatizált hozzáférést; a Legfelsőbb Bíróság határozatai élőben érhetők el.
+
+A Lexifina nem a hivatalos kiadó, nyilvántartása pedig nem élő: a Lexifina időnként újraellenőrzi az egyes országokat, és saját 2026-11-26-i jelentése szerint a 383 nemzeti jogi állományból 338-at nem ellenőriztek az elmúlt 7 napban. Minden válasz a Lexifinát nevezi meg forrásként, hivatkozik a hivatalos kiadó oldalára, és megmondja, meddig terjed a nyilvántartás.
+
+A Lexifina azon az állásponton van, hogy a hivatalos jogi szövegeket nem védi szerzői jog, ezért egyes országokban olyan webhelyeket másol, amelyek feltételeit vagy robots.txt fájlját a Fontes maga tiszteletben tartja. A Fontes mindenre, amit maga kér le, továbbra is tiszteletben tartja ezeket; ami a Lexifinán keresztül érkezik, az a Lexifina saját megítélését követi, amelyet országonként a tárolóiban rögzít. Néhány forrás használatát korlátozza (Kenya kiadója: CC BY-NC). Keresési szavai, hivatkozásai és dátumai ezeknél a Lexifina szerveréhez jutnak el. A `WLM_LEXIFINA=0` beállításával kikapcsolható. Az ingyenes szerver percenként 60, internetcímenként naponta 10 000 hívást enged; kulcs és fiók nem kell. A Fontesnek nincs kapcsolata a Lexifinával.
+
 ## Mi hagyja el a számítógépemet?
 
-A keresései csak a keresett forráshoz jutnak el. A Fontes nem tart fenn adatbázist, és nem kell
-hozzá fiók.
+A keresései csak a keresett forráshoz jutnak el (a Lexifina-eszközök és -országok esetén ez a
+Lexifina szervere). A Fontes nem tart fenn adatbázist, és nem kell hozzá fiók.
 
 A forrásokon kívül a Fontes naponta egyszer megkérdezi a PyPI-t, van-e újabb verzió
 (kikapcsolható: `FONTES_NO_UPDATE_CHECK=1`). A használati számadatok ki vannak kapcsolva, hacsak

@@ -3,7 +3,7 @@
 # Menginstal Fontes
 
 Fontes memungkinkan aplikasi AI Anda mencari putusan pengadilan dan peraturan perundang-undangan secara
-langsung di situs web pengadilan dan pemerintah di lebih dari 120 yurisdiksi. Setiap hasil menautkan ke
+langsung di situs web pengadilan dan pemerintah di 125 yurisdiksi. Setiap hasil menautkan ke
 dokumen aslinya. Fontes adalah server MCP standar, sehingga berfungsi di aplikasi apa pun yang dapat
 menjalankan server MCP lokal: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline, dan lainnya.

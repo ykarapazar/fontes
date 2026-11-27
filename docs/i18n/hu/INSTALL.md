@@ -3,7 +3,7 @@
 # A Fontes telepítése
 
 A Fontes lehetővé teszi, hogy az MI-alkalmazása közvetlenül bírósági és állami webhelyeken
-keressen bírósági határozatokat és jogszabályokat, több mint 120 joghatóságban. Minden találat
+keressen bírósági határozatokat és jogszabályokat, 125 joghatóságban. Minden találat
 az eredetire hivatkozik. Szabványos MCP-szerver, így minden olyan alkalmazásban működik, amely
 helyi MCP-szervert tud futtatni: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline és mások.

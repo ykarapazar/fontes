@@ -6,8 +6,9 @@
 
 Besplatan MCP server otvorenog koda (Apache 2.0). Omogućava svakoj aplikaciji koja koristi Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI i druge) da pretražuje sudske odluke
-i propise uživo na stranicama sudova i državnih organa u više od 120 jurisdikcija i međunarodnih
-sudova (125 adaptera). Svaki rezultat navodi svoj izvor i sadrži link na original.
+propise uživo na stranicama sudova i državnih organa u 125 jurisdikcija i međunarodnih sudova (125
+adaptera), uz još 91 zemlju iz zapisa Lexifina (vidi niže). Svaki rezultat navodi svoj izvor i sadrži
+link na original.
 
 ## Jesu li tekstovi zvanični?
 
@@ -54,10 +55,36 @@ Odvojeno od toga, nekoliko izvora u svojim uslovima navodi da je za automatizova
 potrebna dozvola izdavača. Oni su označeni sa OFF i ostaju isključeni. Ključ to ne mijenja; to
 mijenja samo dozvola izdavača (tada postavite `WLM_PERMITTED=<codes>`).
 
+## Odakle dolaze prethodne verzije i dodatne zemlje?
+
+Iz [Lexifina](https://github.com/lexifina/global-law), koji čuva zakone oko 200 zemalja kao git historiju:
+svaka izmjena je commit datiran danom kada je stupila na snagu. Fontes ih čita preko besplatnog hostovanog
+servera Lexifina. Dva alata to koriste: `get_law_on_date` (odredba onakva kakva je važila na datum, i prošli
+datumi, uz zakon koji ju je posljednji izmijenio) i `get_law_history` (svaki zakon koji je izmijenio
+odredbu, ili izmjena riječ po riječ između dva datuma). Fontes na isti način čita još 91 zemlju i teritoriju,
+samo za propise (na primjer Južna Afrika, Kenija, Meksiko, Novi Zeland, Rusija, Južna Koreja, Belgija,
+Litvanija, Ukrajina, Malezija, Tajland i Saudijska Arabija). One su odvojene od 125 adaptera sa živom
+zvaničnom pokrivenošću, a pokrivenost po zemlji jako varira (nacionalni zapis Kenije sadrži 9 zakona). Zakoni
+Indije takođe dolaze iz zapisa Lexifina, jer uslovi India Code-a zabranjuju automatizovani pristup; njene
+presude Vrhovnog suda su uživo.
+
+Lexifina nije zvanični izdavač, a njen zapis nije živ: Lexifina od vremena do vremena ponovo provjerava svaku
+zemlju, a njen vlastiti izvještaj od 2026-11-26 navodi da 338 od 383 nacionalne zbirke propisa nije provjereno
+u posljednjih 7 dana. Svaki odgovor navodi Lexifina kao izvor, daje link na stranicu zvaničnog izdavača i kaže
+dokle zapis seže.
+
+Lexifina smatra da zvanični pravni tekstovi nisu zaštićeni autorskim pravom, pa u nekim zemljama kopira
+stranice čije uslove ili robots.txt Fontes sam poštuje. Fontes i dalje poštuje robots.txt i uslove za sve što
+sam preuzima; ono što dolazi preko Lexifina slijedi sopstvenu pravnu procjenu Lexifina, zabilježenu po zemlji
+u njihovim repozitorijima. Nekoliko ih ograničava upotrebu (izdavač za Keniju: CC BY-NC). Vaše riječi za
+pretragu, citati i datumi idu za ove izvore Lexifinovom serveru. Postavite `WLM_LEXIFINA=0` da to isključite.
+Besplatni server dozvoljava 60 poziva u minuti i 10.000 dnevno po internet adresi; nisu potrebni ključ ni
+korisnički račun. Fontes nije povezan sa Lexifinom.
+
 ## Šta napušta moj računar?
 
-Vaše pretrage idu samo izvoru koji se pretražuje. Fontes ne vodi bazu podataka i ne treba mu
-korisnički račun.
+Vaše pretrage idu samo izvoru koji se pretražuje (za izvore i zemlje iz zapisa Lexifina, to je server
+Lexifina). Fontes ne vodi bazu podataka i ne treba mu korisnički račun.
 
 Pored izvora, Fontes jednom dnevno pita PyPI postoji li novija verzija (isključite to sa
 `FONTES_NO_UPDATE_CHECK=1`). Brojevi korištenja su isključeni osim ako ih ne uključite, a prijava

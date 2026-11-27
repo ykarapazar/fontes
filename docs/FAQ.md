@@ -4,8 +4,8 @@
 
 A free, open-source MCP server (Apache 2.0). It lets any app that speaks the Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI and others) search court decisions and
-legislation live on court and government websites in 120+ jurisdictions and international
-courts (125 adapters). Every result names its source and links to the original.
+legislation live on court and government websites in 125 jurisdictions and international
+courts (125 adapters), plus 91 more countries through Lexifina's record (see below). Every result names its source and links to the original.
 
 ## Are the texts official?
 
@@ -53,9 +53,36 @@ Separately, a few sources say in their terms that automated access needs the pub
 permission. They are marked OFF and stay off. A key does not change that; only the
 publisher's permission does (then set `WLM_PERMITTED=<codes>`).
 
+## Where do the past versions and the extra countries come from?
+
+From [Lexifina](https://github.com/lexifina/global-law), which keeps the law of about 200
+countries as git history: each change is a commit dated the day it took effect. Fontes reads it
+through Lexifina's free hosted server. Two tools use it: `get_law_on_date` (a provision as in
+force on a date, also in the past, with the law that last changed it) and `get_law_history`
+(every law that changed a provision, or the word-by-word change between two dates). Fontes also
+reads 91 more countries and territories this way, for legislation only (for example South Africa,
+Kenya, Mexico, New Zealand, Russia, South Korea, Belgium, Lithuania, Ukraine, Malaysia, Thailand
+and Saudi Arabia). They are separate from the 125 adapters with live official coverage, and
+coverage per country varies a lot (Kenya's national record holds 9 acts). India's Acts also come from
+Lexifina's record, because India Code's terms bar automated access; its Supreme Court judgments are live.
+
+Lexifina is not the official publisher, and its record is not live: Lexifina rechecks each country from time to
+time, and its own report on 2026-11-26 counted 338 of 383 national bodies of law as not checked in
+the last 7 days. Every answer names Lexifina as the source, links the official publisher's page and says how
+far the record goes.
+
+Lexifina takes the view that official legal texts are not protected by copyright, so in some
+countries it copies sites whose terms or robots.txt Fontes itself respects. Fontes still
+respects them for everything it fetches itself; what comes through Lexifina follows Lexifina's
+own judgement, recorded per country in its repositories. A few restrict use (Kenya's publisher:
+CC BY-NC). Your search words, citations and dates go to Lexifina's server for these. Set
+`WLM_LEXIFINA=0` to turn it off. The free server allows 60 calls a minute and 10,000 a day per
+internet address; no key or account. Fontes is not affiliated with Lexifina.
+
 ## What leaves my computer?
 
-Your searches go only to the source being searched. Fontes keeps no database and needs no
+Your searches go only to the source being searched (for the Lexifina tools and countries, that
+is Lexifina's server). Fontes keeps no database and needs no
 account.
 
 Besides the sources, Fontes asks PyPI once a day whether a newer version exists (switch it off

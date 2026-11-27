@@ -162,7 +162,6 @@ MCP της εφαρμογής σας:
 | `de` | Γερμανία: NeuRIS (ομοσπονδιακή πύλη νομικής πληροφόρησης, δοκιμαστική υπηρεσία) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Ελλάδα: National Printing Office, αναζήτηση στο Government Gazette (search.et.gr) |
-| `in` | Ινδία: India Code (indiacode.gov.in) |
 | `mu` | Μαυρίκιος: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Σιγκαπούρη: δικαστικές αποφάσεις (elitigation.sg) |
 

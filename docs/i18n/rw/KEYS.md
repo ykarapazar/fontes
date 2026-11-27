@@ -166,7 +166,6 @@ kode yayo muri `WLM_PERMITTED`, zitandukanyijwe n'akitso, mu gice `env`: `"WLM_P
 | `de` | U Budage: NeuRIS (urubuga rwa leta yunze ubumwe rw'amakuru y'amategeko, serivisi y'igerageza) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | U Bugereki: Icapiro rya Leta, ishakisha muri Igazeti ya Leta (search.et.gr) |
-| `in` | U Buhinde: India Code (indiacode.gov.in) |
 | `mu` | Morise: Urukiko rw'Ikirenga (supremecourt.govmu.org) |
 | `sg` | Singapuru: imanza z'inkiko (elitigation.sg) |
 

@@ -154,7 +154,6 @@ CourtListener را [Free Law Project](https://free.law) اداره می‌کند
 | `de` | آلمان: NeuRIS (درگاه اطلاعات حقوقی فدرال، سرویس آزمایشی) |
 | `difc` | دادگاه‌های مرکز مالی بین‌المللی دبی (difccourts.ae) |
 | `gr` | یونان: چاپخانه ملی، جست‌وجوی روزنامه رسمی (search.et.gr) |
-| `in` | هند: India Code (indiacode.gov.in) |
 | `mu` | موریس: دیوان عالی (supremecourt.govmu.org) |
 | `sg` | سنگاپور: احکام دادگاه‌ها (elitigation.sg) |
 

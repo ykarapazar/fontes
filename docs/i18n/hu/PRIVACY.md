@@ -3,7 +3,7 @@
 # A Fontes adatvédelmi tájékoztatója
 
 A Fontes az Ön számítógépén fut. A keresései és a megnyitott dokumentumok az Ön számítógépe, a
-keresett hivatalos források és az Ön által használt MI-alkalmazás között maradnak (az adott
+keresett források (a hivatalos források mellett a CourtListener és a Lexifina is, ha használja őket, lásd lent), és az Ön által használt MI-alkalmazás között maradnak (az adott
 alkalmazás saját feltételei szerint). Maga a Fontes alapértelmezés szerint **semmit sem küld** a
 Fontes fejlesztőinek.
 
@@ -41,6 +41,8 @@ hibaüzenetet (a keresőszavai és az azonosítók eltávolításával), valamin
 ír ilyet. Ne írjon a megjegyzésbe ügyféladatokat. Ennek támogatására a Fontes az utolsó hibát a
 számítógépén tárolja (`last-error.json` a gyorsítótármappájában, minden alkalommal felülírva);
 ezt önmagában soha nem küldi el.
+
+**4. Lexifina (alapértelmezés szerint bekapcsolva).** A `get_law_on_date`, a `get_law_history`, a 91 ország és az indiai jogszabályok a Lexifina jogi nyilvántartásán keresztül kerülnek olvasásra, ezért a Lexifinához is eljutnak, a hivatalos webhely mellett vagy helyett. Keresési szavai, hivatkozásai és dátumai a Lexifina ingyenes szerveréhez, a `global-law.lexifina.com`-hoz kerülnek, amelyet a Lexifina üzemeltet, nem a Fontes fejlesztői. A Lexifina leírása szerint szervere azt naplózza, melyik eszközt hívták meg és mennyi ideig tartott, soha nem azt, hogy mit kérdeztek; ezt a Fontes nem tudja ellenőrizni, és a Lexifina saját feltételei érvényesek. A Lexifina látja az IP-címét, mint bármely webszerver. A Lexifinát teljesen kikapcsolni a `WLM_LEXIFINA=0` beállításával lehet; ekkor ez a két eszköz és ezek az országok nem működnek tovább, és semmi sem kerül oda elküldésre.
 
 ## Hová kerül, és meddig őrzik
 

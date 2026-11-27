@@ -1,7 +1,7 @@
 # Installing Fontes
 
 Fontes lets your AI app look up court decisions and legislation live on court and government
-websites in over 120 jurisdictions. Every result links to the original. It is a standard MCP
+websites in 125 jurisdictions. Every result links to the original. It is a standard MCP
 server, so it works in any app that can run a local MCP server: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline and others.
 

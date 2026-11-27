@@ -154,7 +154,6 @@ CourtListener מופעל בידי [Free Law Project](https://free.law), ארגו
 | `de` | גרמניה: NeuRIS (פורטל המידע המשפטי הפדרלי, שירות ניסיוני) |
 | `difc` | בתי המשפט של Dubai International Financial Centre ‏(difccourts.ae) |
 | `gr` | יוון: National Printing Office, חיפוש ב-Government Gazette ‏(search.et.gr) |
-| `in` | הודו: India Code ‏(indiacode.gov.in) |
 | `mu` | מאוריציוס: Supreme Court ‏(supremecourt.govmu.org) |
 | `sg` | סינגפור: פסקי דין של בתי המשפט (elitigation.sg) |
 

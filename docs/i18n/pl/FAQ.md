@@ -7,8 +7,8 @@
 Bezpłatnym serwerem MCP o otwartym kodzie źródłowym (Apache 2.0). Pozwala każdej aplikacji
 obsługującej Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI i inne)
 wyszukiwać orzeczenia sądów i akty prawne na żywo na stronach sądów i instytucji państwowych w
-ponad 120 jurysdykcjach i sądach międzynarodowych (125 adaptery). Każdy wynik podaje swoje
-źródło i zawiera link do oryginału.
+125 jurysdykcjach i sądach międzynarodowych, a także w 91 innych krajach ze zbioru Lexifina
+(zobacz niżej). Każdy wynik podaje swoje źródło i zawiera link do oryginału.
 
 ## Czy teksty są oficjalne?
 
@@ -54,10 +54,38 @@ Osobna sprawa: kilka źródeł stwierdza w swoich warunkach, że zautomatyzowany
 wydawcy. Są oznaczone jako OFF i pozostają wyłączone. Klucz tego nie zmienia; zmienia to tylko
 zgoda wydawcy (wtedy ustaw `WLM_PERMITTED=<codes>`).
 
+## Skąd biorą się dawne wersje i dodatkowe kraje?
+
+Ze zbioru [Lexifina](https://github.com/lexifina/global-law), który prowadzi prawo około 200
+krajów jako historię w git: każda zmiana to commit z datą dnia, od którego obowiązuje. Fontes
+odczytuje go przez bezpłatny hostowany serwer Lexifiny. Dwa narzędzia z niego korzystają:
+`get_law_on_date` (przepis w brzmieniu obowiązującym w dawnej dacie, wraz z prawem, które go
+ostatnio zmieniło) oraz `get_law_history` (każde prawo, które zmieniło przepis, albo zmiana
+słowo po słowie między dwiema datami). Fontes odczytuje w ten sposób także 91 innych krajów i
+terytoriów, wyłącznie akty prawne (na przykład RPA, Kenia, Meksyk, Nowa Zelandia, Rosja, Korea
+Południowa, Belgia, Litwa, Ukraina, Malezja, Tajlandia i Arabia Saudyjska). Są one oddzielone od
+125 adapterów z bieżącym oficjalnym zakresem, a zakres dla poszczególnych krajów bardzo się różni
+(krajowy zbiór Kenii obejmuje 9 ustaw). Ustawy Indii również pochodzą ze zbioru Lexifiny, ponieważ
+warunki India Code zakazują zautomatyzowanego dostępu; wyroki Sądu Najwyższego są na żywo.
+
+Lexifina nie jest oficjalnym wydawcą, a jej zbiór nie jest aktualny na żywo: Lexifina sprawdza każdy
+kraj od czasu do czasu, a w jej własnym raporcie z 2026-11-26 338 z 383 krajowych zbiorów prawa
+nie było sprawdzanych w ciągu ostatnich 7 dni. Każda odpowiedź podaje Lexifinę jako źródło,
+linkuje stronę oficjalnego wydawcy i mówi, jak daleko sięga zbiór.
+
+Lexifina uważa, że oficjalne teksty prawne nie podlegają ochronie praw autorskich, więc w niektórych
+krajach kopiuje strony, których warunki lub robots.txt Fontes sam respektuje. Fontes nadal
+respektuje je dla wszystkiego, co sam pobiera; to, co przychodzi przez Lexifinę, podlega ocenie
+prawnej Lexifiny, zapisanej dla każdego kraju w jej repozytoriach. Kilka z nich ogranicza użycie
+(wydawca Kenii: CC BY-NC). Wyrazy wyszukiwania, cytowania i daty trafiają w tych przypadkach do
+serwera Lexifiny. Aby to wyłączyć, ustaw `WLM_LEXIFINA=0`. Bezpłatny serwer pozwala na 60 wywołań
+na minutę i 10 000 dziennie na adres internetowy; bez klucza i konta. Fontes nie jest powiązany z
+Lexifiną.
+
 ## Co opuszcza mój komputer?
 
-Twoje wyszukiwania trafiają tylko do przeszukiwanego źródła. Fontes nie prowadzi bazy danych i
-nie wymaga konta.
+Twoje wyszukiwania trafiają tylko do przeszukiwanego źródła (w przypadku narzędzi i krajów Lexifiny:
+do serwera Lexifiny). Fontes nie prowadzi bazy danych i nie wymaga konta.
 
 Poza źródłami Fontes raz dziennie pyta PyPI, czy istnieje nowsza wersja (wyłączysz to przez
 `FONTES_NO_UPDATE_CHECK=1`). Liczniki użycia są wyłączone, dopóki ich nie włączysz, a

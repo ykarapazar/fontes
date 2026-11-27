@@ -6,9 +6,9 @@
 
 Mpizara MCP maimaim-poana sy open source (Apache 2.0). Ahafahan'ny rindranasa rehetra mampiasa ny Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI sy ny hafa) mitady didim-pitsarana sy lalàna
-mivantana ao amin'ny tranonkalan'ny fitsarana sy ny fanjakana amin'ny faritra ara-pitsarana 120+ sy ireo
-fitsarana iraisam-pirenena izy (adapter 125). Mitonona ny loharanony sy misy rohy mankany amin'ny
-tany am-boalohany ny valiny tsirairay.
+mivantana ao amin'ny tranonkalan'ny fitsarana sy ny fanjakana amin'ny faritra ara-pitsarana 125 sy fitsarana
+iraisam-pirenena, ary lalàna avy amin'ny firenena 91 hafa amin'ny alalan'ny tahiry an'i Lexifina (jereo ambany).
+Mitonona ny loharanony sy misy rohy mankany amin'ny tany am-boalohany ny valiny tsirairay.
 
 ## Ofisialy ve ireo lahatsoratra?
 
@@ -55,9 +55,17 @@ Ankoatra izany, misy loharano milaza ao amin'ny fepetrany fa ilaina ny fahazoan-
 fidirana mandeha ho azy. Voamarika OFF ireo ary mijanona ho maty. Tsy manova izany ny fanalahidy; ny
 fahazoan-dalan'ny mpamoaka ihany no manova azy (avy eo apetraho ny `WLM_PERMITTED=<codes>`).
 
+## Avy aiza ny kinova taloha sy ny firenena fanampiny?
+
+Avy amin'ny [Lexifina](https://github.com/lexifina/global-law), izay mitahiry ny lalàn'ny firenena manodidina ny 200 ho tantara git: ny fanovana tsirairay dia commit misy daty ny andro nanan-kery azy. Ny Fontes dia mamaky azy amin'ny alalan'ny servera maimaim-poana an-tserasera an'i Lexifina. Fitaovana roa no mampiasa azy: `get_law_on_date` (andininy tahaka ny nanan-kery tamin'ny daty iray, na tamin'ny daty lasa koa, miaraka amin'ny lalàna nanova azy farany) ary `get_law_history` (lalàna rehetra nanova andininy, na ny fanovana teny an-teny eo anelanelan'ny daty roa). Mamaky firenena sy faritany 91 hafa koa ny Fontes amin'io fomba io, ho an'ny lalàna ihany (ohatra Afrika Atsimo, Kenya, Meksika, Zelanda Vaovao, Rosia, Korea Atsimo, Belzika, Lituania, Okraina, Malezia, Taylandy sy Arabia Saodita). Misaraka amin'ny faritra ara-pitsarana 125 misy fandrakofana ofisialy mivantana izy ireny, ary miovaova be ny fandrakofana isaky ny firenena (ny tahiry nasionaly an'i Kenya misy lalàna 9). Ny lalàna an'i India koa dia avy amin'ny tahiry an'i Lexifina, satria ny fepetran'ny India Code dia mandrara ny fidirana amin'ny fomba mandeha ho azy; ny didim-pitsarana an'ny Fitsarana Tampony dia mivantana.
+
+Tsy ny mpamoaka ofisialy i Lexifina, ary tsy mivantana ny tahiriny: mijery indray ny firenena tsirairay amin'ny loharano ofisialiny indraindray izy, ary ny tatitra momba ny fahavaoany tamin'ny 2026-11-26 dia nanisa 338 amin'ny 383 vondrona lalàna nasionaly ho tsy voamarina tato anatin'ny andro 7 farany. Ny valiny tsirairay dia manonona an'i Lexifina ho loharano, mampifandray ny pejin'ny mpamoaka ofisialy, ary milaza hatramin'ny ahoana ny tahiry.
+
+Lexifina mihevitra fa tsy arovan'ny copyright ny lahatsoratra ofisialy momba ny lalàna, ka any amin'ny firenena sasany dia mandrafitra kopia amin'ny tranonkala izay manaja ny fepetra na ny robots.txt ny Fontes mihitsy. Mbola manaja azy ireny ny Fontes ho an'ny zavatra rehetra izay izy mihitsy no maka; izay tonga amin'i Lexifina dia manaraka ny fanapahan-keviny manokana, voarakitra isaky ny firenena ao amin'ny tahiriny. Misy vitsivitsy mandrara ny fampiasana (mpamoaka an'i Kenya: CC BY-NC). Ny teny nokarohinao, ny fanondroana ary ny daty dia alefa any amin'ny servera an'i Lexifina ho an'ireny. Apetraho ny `WLM_LEXIFINA=0` mba hamongorana azy. Ny servera maimaim-poana dia mamela 60 antso isan'minitra sy 10 000 isan'andro isaky ny adiresy IP; tsy mila fanalahidy na kaonty. Tsy miankina amin'i Lexifina ny Fontes.
+
 ## Inona no mivoaka ny solosaiko?
 
-Mankany amin'ny loharano karohina ihany ny fikarohanao. Tsy mitahiry tahiry angona ny Fontes ary tsy mila
+Mankany amin'ny loharano karohina ihany ny fikarohanao (ho an'ny fitaovana sy firenena an'i Lexifina, dia servera an'i Lexifina izany). Tsy mitahiry tahiry angona ny Fontes ary tsy mila
 kaonty.
 
 Ankoatra ireo loharano, manontany ny PyPI indray mandeha isan'andro ny Fontes raha misy kinova vaovao kokoa

@@ -2,8 +2,9 @@
 
 # Avi sou vi prive Fontes
 
-Fontes mache sou òdinatè ou. Rechèch ou yo ak dokiman ou louvri yo rete ant òdinatè ou, sous ofisyèl ou
-fè rechèch ladan yo, ak aplikasyon IA w ap sèvi a (dapre pwòp kondisyon aplikasyon sa a). Fontes li menm
+Fontes mache sou òdinatè ou. Rechèch ou yo ak dokiman ou louvri yo rete ant òdinatè ou, sous ou fè rechèch ladan yo
+(sous ofisyèl yo, plis CourtListener ak Lexifina kote ou itilize yo, gade pi ba a), ak aplikasyon IA w ap sèvi a
+(dapre pwòp kondisyon aplikasyon sa a). Fontes li menm
 pa voye **anyen pa defo** bay devlopè Fontes yo.
 
 ## Sa ki ka soti sou òdinatè ou, ak ki lè
@@ -33,6 +34,8 @@ Li gen vèsyon Fontes la, fanmi sistèm operasyon ou, kòd jiridiksyon an, non z
 apèl ki te echwe a (san tèm rechèch ak idantifyan yo), ak yon nòt si ou ekri youn. Pa mete done kliyan nan
 nòt la. Pou sa, Fontes kenbe dènye erè a sou òdinatè ou (`last-error.json` nan dosye kach li, ki ranplase
 chak fwa); li pa janm voye apa.
+
+**4. Lexifina (aktif pa defo).** `get_law_on_date`, `get_law_history`, 91 peyi yo ak lwa peyi Lend yo, yo li atravè dosye lwa Lexifina a, konsa yo ale sou Lexifina, nan adisyon ak sit ofisyèl la oswa olye de li. Mo rechèch ou yo, sitasyon ou yo ak dat ou yo ale sou sèvè gratis Lexifina a, `global-law.lexifina.com`, ki jere pa Lexifina, pa devlopè Fontes yo. Lexifina dokimante ke sèvè li a anrejistre ki zouti yo te rele ak konbyen tan yo te pran, men pa janm sa ki te mande; Fontes pa ka verifye sa, e kondisyon pwòp Lexifina yo aplike. Lexifina wè adrès IP ou, tankou nenpòt sèvè wèb. Pou etenn Lexifina nèt, mete `WLM_LEXIFINA=0`; de zouti sa yo ak peyi sa yo pral sispann mache, e pa gen anyen ki voye la.
 
 ## Ki kote li ale ak konbyen tan yo kenbe l
 

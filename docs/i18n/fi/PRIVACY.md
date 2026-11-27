@@ -3,7 +3,7 @@
 # Fontesin tietosuojaseloste
 
 Fontes toimii tietokoneellasi. Hakusi ja avaamasi asiakirjat pysyvät
-tietokoneesi, hakemiesi virallisten lähteiden ja käyttämäsi tekoälysovelluksen välillä (kyseisen
+tietokoneesi, hakemiesi lähteiden (virallisten, sekä CourtListenerin ja Lexifinan, kun käytät niitä, katso alla) ja käyttämäsi tekoälysovelluksen välillä (kyseisen
 sovelluksen omien ehtojen mukaisesti). Fontes itse ei lähetä Fontesin kehittäjille **oletuksena
 mitään**.
 
@@ -36,6 +36,12 @@ lainkäyttöaluekoodin, työkalun nimen ja virheilmoituksen (hakusanasi ja tunni
 huomautuksen, jos kirjoitat sellaisen. Älä kirjoita huomautukseen asiakastietoja. Tätä varten Fontes säilyttää
 viimeisimmän virheen tietokoneellasi (`last-error.json` sen välimuistikansiossa, korvataan joka kerta);
 sitä ei koskaan lähetetä erikseen.
+
+**4. Lexifina (oletuksena päällä).** `get_law_on_date`, `get_law_history` 91 maata ja Intian lait luetaan Lexifinan tietueesta, joten ne menevät Lexifinalle, joko viralliseen sivustoon lisäksi tai sen sijaan. Hakusanasi, viittauksesi ja päivämäärät menevät Lexifinan maksuttomalle palvelimelle,
+`global-law.lexifina.com`, jota ylläpitää Lexifina, ei Fontesin kehittäjät. Lexifina kertoo dokumentaatiossaan, että sen palvelin
+kirjaa, mitä työkalua kutsuttiin ja kuinka kauan kutsu kesti, mutta ei koskaan sitä, mitä kysyttiin; Fontes ei voi tarkistaa sitä,
+ja Lexifinan omat ehdot pätevät. Lexifina näkee IP-osoitteesi, kuten mikä tahansa verkkopalvelin. Jos haluat kytkeä Lexifinan
+kokonaan pois, aseta `WLM_LEXIFINA=0`; nuo kaksi työkalua ja maat lakkaavat silloin toimimasta, eikä mitään lähetetä sinne.
 
 ## Minne tiedot menevät ja kuinka kauan niitä säilytetään
 

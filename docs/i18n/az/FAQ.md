@@ -5,8 +5,7 @@
 ## Fontes nədir?
 
 Pulsuz, açıq mənbəli MCP serveri (Apache 2.0). O, Model Context Protocol ilə işləyən istənilən
-proqrama (Claude, Codex, Cursor, VS Code, Gemini CLI və digərləri) 120-dən çox yurisdiksiyada və
-beynəlxalq məhkəmədə (125 adapter) məhkəmə qərarlarını və qanunvericiliyi məhkəmə və dövlət
+proqrama (Claude, Codex, Cursor, VS Code, Gemini CLI və digərləri) 125 yurisdiksiyada və beynəlxalq məhkəmədə, üstəlik Lexifina-nın qeydi vasitəsilə 91 digər ölkədə (aşağıya bax) məhkəmə qərarlarını və qanunvericiliyi məhkəmə və dövlət
 saytlarında canlı olaraq axtarmağa imkan verir. Hər nəticə öz mənbəyini göstərir və orijinala
 keçid verir.
 
@@ -53,9 +52,17 @@ Bundan ayrı olaraq, bir neçə mənbə öz şərtlərində avtomatlaşdırılm�
 tələb etdiyini bildirir. Onlar OFF kimi işarələnib və söndürülmüş qalır. Açar bunu dəyişmir; yalnız
 naşirin icazəsi dəyişir (o halda `WLM_PERMITTED=<codes>` təyin edin).
 
+## Keçmiş versiyalar və əlavə ölkələr haradan gəlir?
+
+[Lexifina](https://github.com/lexifina/global-law)-dan. O, təxminən 200 ölkənin qanununu git tarixçəsi kimi saxlayır: hər dəyişiklik qüvvəyə mindiyi gün tarixli commit-dir. Fontes ona Lexifina-nın pulsuz hostinq olunan serveri vasitəsilə müraciət edir. İki alət bundan istifadə edir: `get_law_on_date` (tarixə görə qüvvədə olan müddəa, keçmiş tarixlər də daxil, onu son dəyişdirən qanunla) və `get_law_history` (müddəanı dəyişdirən hər qanun, ya da iki tarix arasında sözbəsöz dəyişiklik). Fontes həmçinin bu yolla 91 digər ölkə və ərazinin qanunvericiliyini oxuyur, yalnız qanunvericilik üçün (məsələn, Cənubi Afrika, Keniya, Meksika, Yeni Zelandiya, Rusiya, Cənubi Koreya, Belçika, Litva, Ukrayna, Malayziya, Tailand və Səudiyyə Ərəbistanı). Onlar canlı rəsmi əhatəsi olan 125 adapterdən ayrıdır və ölkə üzrə əhatə çox fərqlidir (Keniyanın milli qeydində 9 akt var). Hindistanın aktları da Lexifina-nın qeydindən gəlir, çünki India Code-un şərtləri avtomatlaşdırılmış girişi qadağan edir; onun Ali Məhkəmə qərarları isə canlıdır.
+
+Lexifina rəsmi naşir deyil və onun qeydi canlı deyil: Lexifina hər ölkəni vaxtaşırı yoxlayır, onun 2026-11-26 tarixli öz hesabatı 383 milli qanun orqanından 338-nin son 7 gündə yoxlanılmadığını göstərdi. Hər cavab Lexifina-nı mənbə kimi adlandırır, rəsmi naşirin səhifəsinə keçid verir və qeydin nə dərəcədə getdiyini deyir.
+
+Lexifina əsas hüquqi mətnlərin müəllif hüququ ilə qorunmadığı fikrindədir, buna görə bəzi ölkələrdə Fontes-in özünün riayət etdiyi robots.txt və ya şərtləri olan saytları kopyalayır. Fontes özü əldə etdiyi hər şey üçün onlara hələ də riayət edir; Lexifina vasitəsilə gələnlər Lexifina-nın öz mühakiməsinə əsasən işləyir, bu da onun depolarında hər ölkə üçün qeyd olunur. Bəziləri istifadəni məhdudlaşdırır (Keniyanın naşiri: CC BY-NC). Bu alətlər və ölkələr üçün axtarış sözləriniz, sitatlarınız və tarixləriniz Lexifina-nın serverinə gedir. Onu söndürmək üçün `WLM_LEXIFINA=0` təyin edin. Pulsuz server bir internet ünvanı üçün dəqiqədə 60 və gündə 10,000 çağırışa icazə verir; açar və ya hesab yoxdur. Fontes Lexifina ilə əlaqəli deyil.
+
 ## Kompüterimdən nə çıxır?
 
-Axtarışlarınız yalnız axtarış aparılan mənbəyə gedir. Fontes verilənlər bazası saxlamır və hesab
+Axtarışlarınız yalnız axtarış aparılan mənbəyə gedir (Lexifina alətləri və ölkələri üçün bu, Lexifina-nın serveridir). Fontes verilənlər bazası saxlamır və hesab
 tələb etmir.
 
 Mənbələrdən əlavə, Fontes gündə bir dəfə PyPI-dan daha yeni versiyanın olub-olmadığını soruşur

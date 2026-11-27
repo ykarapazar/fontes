@@ -6,8 +6,8 @@
 
 Bezmaksas atvērtā koda MCP serveris (Apache 2.0). Tas ļauj jebkurai lietotnei, kas izmanto
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI un citām), tiešsaistē meklēt
-tiesu nolēmumus un tiesību aktus tiesu un valsts iestāžu tīmekļa vietnēs vairāk nekā 120
-jurisdikcijās un starptautiskajās tiesās (125 adapteri). Katrs rezultāts nosauc savu avotu un
+tiesu nolēmumus un tiesību aktus tiesu un valsts iestāžu tīmekļa vietnēs 125 jurisdikcijās un starptautiskajās tiesās, kā arī
+vēl 91 valstī caur Lexifina ierakstu (skatiet tālāk). Katrs rezultāts nosauc savu avotu un
 sniedz saiti uz oriģinālu.
 
 ## Vai teksti ir oficiāli?
@@ -55,9 +55,17 @@ Atsevišķi: daži avoti savos noteikumos norāda, ka automatizētai piekļuvei 
 atļauja. Tie ir atzīmēti kā OFF un paliek izslēgti. Atslēga to nemaina; to maina tikai
 izdevēja atļauja (tad iestatiet `WLM_PERMITTED=<codes>`).
 
+## No kurienes nāk iepriekšējās redakcijas un papildu valstis?
+
+No [Lexifina](https://github.com/lexifina/global-law), kas glabā apmēram 200 valstu tiesības kā git vēsturi: katrs grozījums ir commit ar datumu, kad tas stājās spēkā. Fontes to lasa caur Lexifina bezmaksas mitināto serveri. Divi rīki to izmanto: `get_law_on_date` (norma, kāda tā bija spēkā datumā, arī pagātnē, kopā ar likumu, kas to pēdējo reizi grozīja) un `get_law_history` (katrs likums, kas grozīja normu, vai vārdu pa vārdam izmaiņas starp diviem datumiem). Fontes tādā pat veidā lasa arī vēl 91 valsti un teritoriju, tikai tiesību aktiem (piemēram, Dienvidāfrika, Kenija, Meksika, Jaunzēlande, Krievija, Dienvidkoreja, Beļģija, Lietuva, Ukraina, Malaizija, Taizeme un Saūda Arābija). Tās ir atsevišķas no 125 adapteriem ar aktīvu oficiālo pārklājumu, un pārklājums katrā valstī ļoti atšķiras (Kenijas nacionālajā ierakstā ir 9 akti). Indijas akti arī nāk no Lexifina ieraksta, jo India Code noteikumi aizliedz automatizētu piekļuvi; tās Augstākās tiesas spriedumi ir aktīvi.
+
+Lexifina nav oficiālais izdevējs, un tās ieraksts nav aktīvs: Lexifina laiku pa laikam pārbauda katru valsti, un tās pašas 2026-11-26 pārskatā 338 no 383 nacionālajām tiesību aktu struktūrām bija nepārbaudītas pēdējās 7 dienās. Katra atbilde nosauc Lexifina kā avotu, sniedz saiti uz oriģinālā izdevēja lapu un norāda, cik tālu sniedzas ieraksts.
+
+Lexifina uzskata, ka oficiālie juridiskie teksti nav aizsargāti ar autortiesībām, tāpēc dažās valstīs tā kopē vietnes, kuru noteikumus vai robots.txt Fontes pats respektē. Fontes joprojām respektē robots.txt un noteikumus visam, ko pats iegūst; tas, kas nāk caur Lexifina, seko Lexifina pašas juridiskajam vērtējumam, ko tā fiksē katrai valstij savos repozitorijos. Dažus lietojumus ierobežo (piemēram, Kenijas izdevējs: CC BY-NC). Jūsu meklēšanas vārdi, citāti un datumi šiem diviem rīkiem un šīm valstīm tiek sūtīti uz Lexifina serveri. Lai to izslēgtu, iestatiet `WLM_LEXIFINA=0`. Atslēga vai konts nav vajadzīgs; bezmaksas serveris atļauj 60 izsaukumus minūtē un 10 000 dienā uz vienu interneta adresi. Fontes nav saistīts ar Lexifina.
+
 ## Kas atstāj manu datoru?
 
-Jūsu meklējumi nonāk tikai avotā, kurā meklējat. Fontes neuztur datubāzi, un tam nav vajadzīgs
+Jūsu meklējumi nonāk tikai avotā, kurā meklējat (Lexifina rīku un valstu gadījumā – Lexifina serverī). Fontes neuztur datubāzi, un tam nav vajadzīgs
 konts.
 
 Bez avotiem Fontes reizi dienā jautā PyPI, vai ir jaunāka versija (to var izslēgt ar

@@ -167,7 +167,6 @@ code ervan, gescheiden door komma's, aan `WLM_PERMITTED` in het `env`-blok toe t
 | `de` | Duitsland: NeuRIS (federaal portaal voor juridische informatie, proefdienst) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Griekenland: Nationale Drukkerij, zoeken in het Staatsblad (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: rechterlijke uitspraken (elitigation.sg) |
 

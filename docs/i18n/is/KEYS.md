@@ -154,7 +154,6 @@ leyfis. Ef þú hefur leyfi frá útgefandanum, virkjaðu heimild með því að
 | `de` | Þýskaland: NeuRIS (alríkisgátt lagaupplýsinga, prufuþjónusta) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grikkland: National Printing Office, leit í Government Gazette (search.et.gr) |
-| `in` | Indland: India Code (indiacode.gov.in) |
 | `mu` | Máritíus: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapúr: dómar (elitigation.sg) |
 

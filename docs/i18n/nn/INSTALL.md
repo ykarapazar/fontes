@@ -3,7 +3,7 @@
 # Installere Fontes
 
 Fontes lèt KI-appen din slå opp rettsavgjerder og lovgjeving direkte på nettstadene til domstolar og
-styresmakter i over 120 jurisdiksjonar. Kvart resultat lenkjer til originalen. Det er ein standard
+styresmakter i 125 jurisdiksjonar. Kvart resultat lenkjer til originalen. Det er ein standard
 MCP-server, så han verkar i alle appar som kan køyre ein lokal MCP-server: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline og andre.
 

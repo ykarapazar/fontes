@@ -168,7 +168,6 @@ CourtListener'ни [Free Law Project](https://free.law) юритади. Бу н�
 | `de` | Германия: NeuRIS (федерал ҳуқуқий ахборот портали, синов хизмати) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Греция: Миллий босмахона, Ҳукумат ахборотномаси қидируви (search.et.gr) |
-| `in` | Ҳиндистон: India Code (indiacode.gov.in) |
 | `mu` | Маврикий: Олий суд (supremecourt.govmu.org) |
 | `sg` | Сингапур: суд қарорлари (elitigation.sg) |
 

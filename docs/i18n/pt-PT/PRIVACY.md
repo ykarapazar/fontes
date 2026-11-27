@@ -3,8 +3,8 @@
 # Aviso de privacidade do Fontes
 
 O Fontes é executado no seu computador. As suas pesquisas e os documentos que abre ficam entre o seu
-computador, as fontes oficiais que pesquisa e a aplicação de IA que utiliza (nos termos da própria
-aplicação). O próprio Fontes não envia **nada, por predefinição**, aos programadores do Fontes.
+computador, as fontes que pesquisa (as oficiais, e também o CourtListener e a Lexifina quando os utiliza,
+ver abaixo) e a aplicação de IA que utiliza (nos termos da própria aplicação). O próprio Fontes não envia **nada, por predefinição**, aos programadores do Fontes.
 
 ## O que pode sair do seu computador, e quando
 
@@ -38,6 +38,15 @@ jurisdição, o nome da ferramenta e a mensagem de erro da última chamada falha
 de pesquisa e identificadores removidos), e uma nota, se escrever uma. Não coloque dados de clientes
 na nota. Para o efeito, o Fontes guarda o último erro no seu computador (`last-error.json` na pasta
 de cache, substituído de cada vez); nunca é enviado por si só.
+
+**4. Lexifina (ativada por predefinição).** `get_law_on_date`, `get_law_history`, os 91 países e as leis da Índia lidos
+através do registo da Lexifina sobre a lei vão para a Lexifina, além do sítio oficial ou em vez dele. As suas palavras de pesquisa,
+citações e datas vão para o servidor gratuito da Lexifina, `global-law.lexifina.com`, que é gerido pela
+Lexifina, e não pelos programadores do Fontes. A Lexifina documenta que o seu servidor regista qual a
+ferramenta chamada e quanto tempo demorou, nunca o que foi pedido; o Fontes não o pode verificar, e
+aplicam-se os termos da própria Lexifina. A Lexifina vê o seu endereço IP, como qualquer servidor Web.
+Para desligar a Lexifina por completo, defina `WLM_LEXIFINA=0`; essas duas ferramentas e países deixam
+então de funcionar e nada é enviado para lá.
 
 ## Para onde vai e durante quanto tempo é conservado
 

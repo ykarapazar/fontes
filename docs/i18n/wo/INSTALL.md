@@ -3,7 +3,7 @@
 # Samp Fontes
 
 Fontes dafay may sa aplikasioŋ AI wut ci saa si àtte yi àttekaay yi def ak yoon yi ci sit internet yu
-àttekaay yi ak yu Nguur gi, ci lu ëpp 120 juridiction. Bépp njeexital am na lëkkalekaay bu jëm ci mbind
+àttekaay yi ak yu Nguur gi, ci 125 juridiction. Bépp njeexital am na lëkkalekaay bu jëm ci mbind
 mu njëkk mi. Serwëer MCP bu ñépp mën a jëfandikoo la, kon dafay dox ci bépp aplikasioŋ bu mën a doxal
 ab serwëer MCP ci ordinatëer bi: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline ak yeneen.

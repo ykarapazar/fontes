@@ -164,7 +164,6 @@ CourtListener-ը վարում է [Free Law Project](https://free.law)-ը՝ շա�
 | `de` | Գերմանիա՝ NeuRIS (դաշնային իրավական տեղեկատվական պորտալ, փորձնական ծառայություն) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Հունաստան՝ Ազգային տպարան, Կառավարության տեղեկագրի որոնում (search.et.gr) |
-| `in` | Հնդկաստան՝ India Code (indiacode.gov.in) |
 | `mu` | Մավրիկիոս՝ Գերագույն դատարան (supremecourt.govmu.org) |
 | `sg` | Սինգապուր՝ դատական վճիռներ (elitigation.sg) |
 

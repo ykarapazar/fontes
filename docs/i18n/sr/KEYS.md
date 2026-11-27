@@ -164,7 +164,6 @@ CourtListener води [Free Law Project](https://free.law), непрофитн�
 | `de` | Немачка: NeuRIS (савезни портал правних информација, пробна услуга) |
 | `difc` | Судови Међународног финансијског центра у Дубаију (difccourts.ae) |
 | `gr` | Грчка: Национална штампарија, претрага Службеног гласника (search.et.gr) |
-| `in` | Индија: India Code (indiacode.gov.in) |
 | `mu` | Маурицијус: Врховни суд (supremecourt.govmu.org) |
 | `sg` | Сингапур: судске пресуде (elitigation.sg) |
 

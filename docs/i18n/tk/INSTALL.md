@@ -2,7 +2,7 @@
 
 # Fontes programmasyny gurnamak
 
-Fontes AI programmaňyza 120-den gowrak ýurisdiksiýada kazyýet çözgütlerini we kanunçylygy
+Fontes AI programmaňyza 125 ýurisdiksiýada kazyýet çözgütlerini we kanunçylygy
 kazyýet we döwlet saýtlarynda göni gözlemäge mümkinçilik berýär. Her netije asyl nusga
 salgylanýar. Ol adaty MCP serweri, şonuň üçin ýerli MCP serweri işledip bilýän islendik
 programmada işleýär: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),

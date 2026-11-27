@@ -3,7 +3,7 @@
 # Namestitev orodja Fontes
 
 Fontes vaši aplikaciji AI omogoča, da v živo išče sodne odločbe in predpise na spletnih straneh
-sodišč in državnih organov v več kot 120 jurisdikcijah. Vsak rezultat vsebuje povezavo do
+sodišč in državnih organov v 125 jurisdikcijah. Vsak rezultat vsebuje povezavo do
 izvirnika. Gre za standardni strežnik MCP, zato deluje v vsaki aplikaciji, ki lahko zažene
 lokalni strežnik MCP: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline in drugih.

@@ -158,7 +158,6 @@ zautomatyzowanego użycia bez zgody. Jeśli masz zgodę wydawcy, włącz źród�
 | `de` | Niemcy: NeuRIS (federalny portal informacji prawnej, wersja próbna) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grecja: Drukarnia Narodowa, wyszukiwarka Dziennika Rządowego (search.et.gr) |
-| `in` | Indie: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Sąd Najwyższy (supremecourt.govmu.org) |
 | `sg` | Singapur: wyroki sądów (elitigation.sg) |
 

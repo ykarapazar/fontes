@@ -154,7 +154,6 @@ CourtListener ကို [Free Law Project](https://free.law) က လုပ်က
 | `de` | ဂျာမနီ: NeuRIS (ဖက်ဒရယ် ဥပဒေဆိုင်ရာ သတင်းအချက်အလက် portal၊ စမ်းသပ်ဝန်ဆောင်မှု) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | ဂရိ: National Printing Office, Government Gazette search (search.et.gr) |
-| `in` | အိန္ဒိယ: India Code (indiacode.gov.in) |
 | `mu` | မော်ရီရှပ်: Supreme Court (supremecourt.govmu.org) |
 | `sg` | စင်္ကာပူ: တရားရုံး စီရင်ချက်များ (elitigation.sg) |
 

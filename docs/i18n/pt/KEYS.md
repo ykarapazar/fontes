@@ -160,7 +160,6 @@ código dela a `WLM_PERMITTED`, separado por vírgulas, no bloco `env`: `"WLM_PE
 | `de` | Alemanha: NeuRIS (portal federal de informação jurídica, serviço de teste) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grécia: Imprensa Nacional, pesquisa no Diário Oficial do Governo (search.et.gr) |
-| `in` | Índia: India Code (indiacode.gov.in) |
 | `mu` | Maurício: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapura: decisões judiciais (elitigation.sg) |
 

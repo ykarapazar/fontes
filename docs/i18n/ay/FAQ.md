@@ -7,8 +7,9 @@
 Mä inaki, código abierto MCP servidorawa (Apache 2.0). Model Context Protocol arsuri kuna
 aplicacionarus (Claude, Codex, Cursor, VS Code, Gemini CLI, yaqhanakasa) taripañ utanakan
 taripäwinakap, kamachinaksa taripañ uta, gobierno web sitionakan jichhpach thaqañapatak
-yanapt'i, 120 jurisdiccionat juk'amp, markanak taypin taripañ utanakansa (125 adaptador).
-Sapa jaysäwix jalsupan sutip siwa, originalaruw mayachata.
+yanapt'i, 125 jurisdiccionat ukat markanak taypin taripañ utanakansa, ukat Lexifina ukan
+qillqatat 91 yaqha markanakan (qhipaxa uñjam). Sapa jaysäwix jalsupan sutip siwa, originalaruw
+mayachata.
 
 ## Qillqatanakax oficialati?
 
@@ -56,9 +57,37 @@ Yaqha tuqitxa, mä qhawqha jalsunakax condicionanakapan automatizado mantañax u
 permisop munasi sapxi. OFF ukham uñacht'ayatawa, jiwt'atakiw qhiparapxi. Mä llavex janiw
 uk mayjt'aykiti; uñt'ayirin permisopakiw mayjt'ayi (ukat `WLM_PERMITTED=<codes>` uchañam).
 
+## Nayra kamachinakax, yaqha markanakax kawkirutsa jutapxi?
+
+[Lexifina](https://github.com/lexifina/global-law) ukat, markan kamachinakap aproximadamente 200 markan git history
+ukhama imi: sapa mayjt'äwi, uruw chiqapar sarakiwa, commit ukhamawa. Fontes ukax Lexifina ukan jan
+pagani hosted servidor ukat liyt'i. Pä tools ukanakax akham irnaqapxi: `get_law_on_date` (mä provisión nayra
+uru ukhama sayt'aski, nayra urunakas, kuna kamachis mayjt'ayi ukampi) ukat `get_law_history` (provisión
+mayjt'ayiri kamachinak taqpach, jan ukax pä uru taypi palabra palabra mayjt'äwi). Fontes ukax 91 yaqha
+markanaka ukat territorionakas akham liyt'i, soloraki kamachinak (amtañataki Sudáfrica, Kenya, México,
+Nueva Zelanda, Rusia, Corea del Sur, Bélgica, Lituania, Ucrania, Malasia, Tailandia ukat Arabia Saudí).
+Ukanakax 125 adaptadornakat sapaki, jichhpach oficial cobertura utjki ukanakat; markan cobertura
+ch'iyanakawa (Kenya ukan nacional qillqatax 9 kamachinaka utjaraki). India ukan kamachinakapas Lexifina
+ukan qillqatat liyt'atawa, India Code ukan términos automático thaqañ jan yäkkiwa; Corte Suprema ukan
+taripäwinakapax jichhpachawa.
+
+Lexifina janiw oficial editorakiti, qillqatapax janiw jichhpachkiti: Lexifina sapa markan oficial jalsup
+uñakipasi, ukat 2026-11-26 ukan pachpa informe ukan, 383 nacional kamachi cuerpo ukanakat 338 ukanakax
+7 urunak pasado janiw uñakipatäkiti sasaw jaysi. Sapa jaysäwi ukan Lexifina sasaw sutip siwa, oficial
+editorax página mayachi, ukat qillqatax kunjamäki sayt'asi uk yatiyi.
+
+Lexifina ukax oficial legal qillqatanakax copyright ukan janiw katuqatäkiti sasaw amuyi, ukatwa walja
+markanakan sitionak qillqatapxi, ukanakan términos jan ukax robots.txt Fontes pachpas katuqi. Fontes
+ukax taqi kunsa pachpa thaqkta ukanakan katuqatapuniw; Lexifina ukan apaqatanakax Lexifina ukan
+amuyuparuw sarapxi, sapa markatakix repositorionakan qillqatawa. Yaqhipanakax apnaqañ mayjt'ayapxi
+(Kenya ukan editorax CC BY-NC). Akanakatakix thaqañ arunakam, citas ukanakam ukat urunakam Lexifina
+ukan servidoraruw sarapxi. `WLM_LEXIFINA=0` uchañam jiwt'ayañataki. Jan pagani servidorax minutox 60
+llamada, uruxa 10.000 internet direccion sapa ukaru katuqi; janiw llave ni cuenta. Fontes ukax Lexifina
+ukat janiw mayjt'iw.
+
 ## Kunas computadorajat mistu?
 
-Thaqäwinakamax thaqkta uka jalsurukiw sari. Fontes ukax janiw base de datos imkiti,
+Thaqäwinakamax thaqkta uka jalsurukiw sari (Lexifina ukan tools ukat markanakatakix, Lexifina ukan servidoraruw). Fontes ukax janiw base de datos imkiti,
 janirakiw cuenta munkiti.
 
 Jalsunakat sipana, Fontes ukax sapa uru mä kuti PyPI ukar machaq versión utjiti sasaw

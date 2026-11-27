@@ -156,7 +156,6 @@ kódu do `WLM_PERMITTED`, odděleného čárkami, v bloku `env`: `"WLM_PERMITTED
 | `de` | Německo: NeuRIS (spolkový portál právních informací, zkušební provoz) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Řecko: National Printing Office, vyhledávání v Government Gazette (search.et.gr) |
-| `in` | Indie: India Code (indiacode.gov.in) |
 | `mu` | Mauricius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: soudní rozsudky (elitigation.sg) |
 

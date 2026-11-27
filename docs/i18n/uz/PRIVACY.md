@@ -3,7 +3,7 @@
 # Fontes maxfiylik bildirishnomasi
 
 Fontes sizning kompyuteringizda ishlaydi. Qidiruvlaringiz va siz ochgan hujjatlar kompyuteringiz,
-siz qidirgan rasmiy manbalar va siz foydalanadigan AI ilovasi oʻrtasida qoladi (shu ilovaning oʻz
+siz qidirgan manbalar (rasmiy manbalar, shuningdek ulardan foydalansangiz CourtListener va Lexifina, quyida qarang) va siz foydalanadigan AI ilovasi oʻrtasida qoladi (shu ilovaning oʻz
 shartlari asosida). Fontes’ning oʻzi sukut boʻyicha Fontes ishlab chiquvchilariga **hech narsa
 yubormaydi**.
 
@@ -41,6 +41,8 @@ xato xabari (qidiruv soʻzlaringiz va identifikatorlar olib tashlangan) hamda, a
 izoh boʻladi. Izohga mijoz maʼlumotlarini kiritmang. Buning uchun Fontes oxirgi xatoni
 kompyuteringizda saqlaydi (`last-error.json` oʻz kesh jildida, har safar almashtiriladi); u
 hech qachon oʻz-oʻzidan yuborilmaydi.
+
+**4. Lexifina (sukut boʻyicha yoqilgan).** `get_law_on_date`, `get_law_history`, 91 ta mamlakat va Hindiston Acts’lari Lexifina yozuvi orqali oʻqiladi, shuning uchun ular rasmiy sayt bilan birga yoki uning oʻrniga Lexifina’ga ham boradi. Qidiruv soʻzlaringiz, iqtiboslaringiz va sanalaringiz Lexifina’ning bepul serveriga, `global-law.lexifina.com` ga boradi; u Fontes ishlab chiquvchilari emas, Lexifina tomonidan boshqariladi. Lexifina oʻz serveri faqat qaysi vosita chaqirilgani va u qancha vaqt olgani haqida jurnal yuritishini, hech qachon nima soʻralgani haqida emasligini hujjatlashtirgan; Fontes buni tekshira olmaydi va Lexifina’ning oʻz shartlari qoʻllanadi. Lexifina har qanday veb-server kabi sizning IP manzilingizni koʻradi. Lexifina’ni butunlay oʻchirish uchun `WLM_LEXIFINA=0` ni oʻrnating; u holda bu ikki vosita va mamlakatlar ishlamaydi va u yerga hech narsa yuborilmaydi.
 
 ## Maʼlumotlar qayerga boradi va qancha saqlanadi
 

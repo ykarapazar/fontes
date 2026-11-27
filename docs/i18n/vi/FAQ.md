@@ -6,8 +6,8 @@
 
 Một máy chủ MCP miễn phí, mã nguồn mở (Apache 2.0). Fontes cho phép mọi ứng dụng hỗ trợ Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI và các ứng dụng khác) tìm kiếm bản án và
-văn bản quy phạm pháp luật trực tiếp trên các trang web của tòa án và cơ quan nhà nước ở hơn 120 phạm vi tài phán và các tòa án
-quốc tế (125 adapter). Mọi kết quả đều nêu tên nguồn và dẫn liên kết tới bản gốc.
+văn bản quy phạm pháp luật trực tiếp trên các trang web của tòa án và cơ quan nhà nước ở 125 phạm vi tài phán và các tòa án
+quốc tế, cùng 91 quốc gia khác qua hồ sơ của Lexifina (xem bên dưới). Mọi kết quả đều nêu tên nguồn và dẫn liên kết tới bản gốc.
 
 ## Các văn bản có phải là bản chính thức không?
 
@@ -53,9 +53,17 @@ Ngoài ra, một số ít nguồn nêu trong điều khoản rằng việc truy 
 Các nguồn này được đánh dấu OFF và vẫn tắt. Khóa không thay đổi điều đó; chỉ sự cho phép của bên công bố
 mới thay đổi được (khi đó hãy đặt `WLM_PERMITTED=<codes>`).
 
+## Các phiên bản cũ và các quốc gia bổ sung đến từ đâu?
+
+Từ [Lexifina](https://github.com/lexifina/global-law), đơn vị lưu giữ pháp luật của khoảng 200 quốc gia dưới dạng lịch sử git: mỗi thay đổi là một commit ghi ngày nó có hiệu lực. Fontes đọc dữ liệu này qua máy chủ miễn phí của Lexifina. Hai công cụ dùng nó: `get_law_on_date` (một điều khoản có hiệu lực vào một ngày, kể cả trong quá khứ, cùng đạo luật sửa đổi gần nhất) và `get_law_history` (mọi đạo luật đã sửa đổi một điều khoản, hoặc thay đổi từng từ giữa hai ngày). Fontes cũng đọc theo cách này 91 quốc gia và vùng lãnh thổ khác, chỉ cho văn bản pháp luật (ví dụ Nam Phi, Kenya, Mexico, New Zealand, Nga, Hàn Quốc, Bỉ, Lithuania, Ukraine, Malaysia, Thái Lan và Ả Rập Xê Út). Chúng tách biệt với 125 phạm vi tài phán có phạm vi bao quát chính thức trực tiếp, và phạm vi bao quát của từng quốc gia khác nhau rất nhiều (hồ sơ quốc gia của Kenya có 9 đạo luật). Các đạo luật của Ấn Độ cũng đến từ hồ sơ của Lexifina, vì điều khoản của India Code cấm truy cập tự động; các phán quyết của Tòa án Tối cao Ấn Độ thì trực tiếp.
+
+Lexifina không phải là bên công bố chính thức, và hồ sơ của họ không trực tiếp: Lexifina kiểm tra lại từng quốc gia theo thời gian, và báo cáo của chính họ ngày 2026-11-26 đếm 338 trên 383 khối pháp luật quốc gia không được kiểm tra trong 7 ngày gần nhất. Mọi câu trả lời đều nêu Lexifina là nguồn, dẫn liên kết tới trang của bên công bố chính thức và cho biết hồ sơ bao quát đến đâu.
+
+Lexifina cho rằng văn bản pháp luật chính thức không được bảo hộ bản quyền, nên ở một số quốc gia họ sao chép các trang mà điều khoản hoặc robots.txt của chúng được chính Fontes tôn trọng. Fontes vẫn tôn trọng robots.txt và điều khoản đối với mọi nội dung do chính Fontes tải về; nội dung đi qua Lexifina tuân theo đánh giá pháp lý riêng của Lexifina, được ghi theo từng quốc gia trong kho mã của họ. Một số nguồn có hạn chế (nguồn của Kenya là CC BY-NC). Từ khóa tìm kiếm, trích dẫn và ngày tháng của bạn được gửi tới máy chủ của Lexifina đối với các trường hợp này. Đặt `WLM_LEXIFINA=0` để tắt. Máy chủ miễn phí cho phép 60 lượt gọi mỗi phút và 10.000 lượt mỗi ngày trên mỗi địa chỉ internet; không cần khóa hay tài khoản. Fontes không liên kết với Lexifina.
+
 ## Những gì rời khỏi máy tính của tôi?
 
-Các tìm kiếm của bạn chỉ được gửi tới nguồn đang được tìm kiếm. Fontes không lưu giữ cơ sở dữ liệu và không cần
+Các tìm kiếm của bạn chỉ được gửi tới nguồn đang được tìm kiếm (với các công cụ và quốc gia của Lexifina, đó là máy chủ của Lexifina). Fontes không lưu giữ cơ sở dữ liệu và không cần
 tài khoản.
 
 Ngoài các nguồn, mỗi ngày một lần Fontes hỏi PyPI xem có phiên bản mới hơn không (tắt

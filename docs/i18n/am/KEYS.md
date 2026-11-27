@@ -151,7 +151,6 @@ CourtListener የሚተዳደረው ከ2010 ጀምሮ የአሜሪካ ፍርድ 
 | `de` | ጀርመን፦ NeuRIS (የፌዴራል የሕግ መረጃ ፖርታል፣ የሙከራ አገልግሎት) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | ግሪክ፦ National Printing Office፣ Government Gazette ፍለጋ (search.et.gr) |
-| `in` | ሕንድ፦ India Code (indiacode.gov.in) |
 | `mu` | ሞሪሸስ፦ Supreme Court (supremecourt.govmu.org) |
 | `sg` | ሲንጋፖር፦ የፍርድ ቤት ፍርዶች (elitigation.sg) |
 

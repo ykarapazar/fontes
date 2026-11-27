@@ -166,7 +166,6 @@ Tá roinnt foinsí múchta de réir réamhshocraithe toisc go dtoirmisceann a dt
 | `de` | An Ghearmáin: NeuRIS (tairseach faisnéise dlí feidearálach, seirbhís trialach) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | An Ghréig: Oifig Náisiúnta Priontála, cuardach na hIrise Rialtais (search.et.gr) |
-| `in` | An India: India Code (indiacode.gov.in) |
 | `mu` | Oileán Mhuirís: an Chúirt Uachtarach (supremecourt.govmu.org) |
 | `sg` | Singeapór: breithiúnais chúirte (elitigation.sg) |
 

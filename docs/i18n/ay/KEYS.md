@@ -169,7 +169,6 @@ naktayam códigop `WLM_PERMITTED` ukar yapxatasa, comampi jaljata, `env` bloque 
 | `de` | Alemania: NeuRIS (federal derecho yatiyäw portal, yant'äw servicio) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grecia: National Printing Office, Government Gazette search (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauricio: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: taripañ utanakan taripäwinakapa (elitigation.sg) |
 

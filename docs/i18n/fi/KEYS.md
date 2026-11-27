@@ -155,7 +155,6 @@ muuttujaan `WLM_PERMITTED` pilkuilla erotettuna `env`-lohkossa: `"WLM_PERMITTED"
 | `de` | Saksa: NeuRIS (liittovaltion oikeudellisen tiedon portaali, kokeilupalvelu) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Kreikka: National Printing Office, Government Gazette -haku (search.et.gr) |
-| `in` | Intia: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: tuomioistuinten tuomiot (elitigation.sg) |
 

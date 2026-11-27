@@ -189,8 +189,8 @@ def social(v):
     target_h = 150
     k = target_h / lh
     hs = 50
-    l1, bb1, _ = text_path(HEAD_TTF, "The law of 120+ jurisdictions,", hs, 0, 0)
-    l2, bb2, _ = text_path(HEAD_TTF, "one question away.", hs, 0, 0)
+    l1, bb1, _ = text_path(HEAD_TTF, "Case law and legislation for your AI app,", hs, 0, 0)
+    l2, bb2, _ = text_path(HEAD_TTF, "read live from court and government websites.", hs, 0, 0)
     gap1 = 64; lead = hs * 1.22
     cap_h = -bb1[1]; desc = bb2[3]
     block = target_h + gap1 + cap_h + lead + desc
@@ -200,16 +200,16 @@ def social(v):
              f'<g transform="translate({num(lx)} {num(ly)}) scale({k:.5f})">{inner}</g>']
     y1 = ly + target_h + gap1 + cap_h; y2 = y1 + lead
     w1 = bb1[2] - bb1[0]; w2 = bb2[2] - bb2[0]
-    l1, _, _ = text_path(HEAD_TTF, "The law of 120+ jurisdictions,", hs, (W - w1) / 2 - bb1[0], y1)
-    l2, _, _ = text_path(HEAD_TTF, "one question away.", hs, (W - w2) / 2 - bb2[0], y2)
+    l1, _, _ = text_path(HEAD_TTF, "Case law and legislation for your AI app,", hs, (W - w1) / 2 - bb1[0], y1)
+    l2, _, _ = text_path(HEAD_TTF, "read live from court and government websites.", hs, (W - w2) / 2 - bb2[0], y2)
     parts.append(f'<path d="{l1} {l2}" fill="{NAVY}"/>')
     ss = 24
-    small = "Free and open source  ·  github.com/ykarapazar/fontes"
+    small = "Free and open source, github.com/ykarapazar/fontes"
     _, bb3, _ = text_path(SMALL_TTF, small, ss, 0, 0)
     w3 = bb3[2] - bb3[0]
     l3, bb3, _ = text_path(SMALL_TTF, small, ss, (W - w3) / 2 - bb3[0], H - 88)
     parts.append(f'<path d="{l3}" fill="#4a5872"/>')
-    svg = svg_doc(W, H, "\n  ".join(parts), "Fontes: the law of 120+ jurisdictions, one question away.")
+    svg = svg_doc(W, H, "\n  ".join(parts), "Fontes: case law and legislation for your AI app, read live from court and government websites.")
     img = render(svg, W, H).convert("RGB")
     img.save(f"{OUT}/social-preview.png", optimize=True)
     print(v, "lockup", round(lx), round(ly), round(lx+lw*k), round(ly+target_h), "footer", [round(t) for t in bb3]); return img

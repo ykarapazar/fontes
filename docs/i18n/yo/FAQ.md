@@ -6,8 +6,7 @@
 
 Sáfà MCP ọ̀fẹ́ àti open source (Apache 2.0). Ó ń jẹ́ kí áàpù èyíkéyìí tí ó ń lo Model Context Protocol
 (Claude, Codex, Cursor, VS Code, Gemini CLI àti àwọn mìíràn) wá àwọn ìdájọ́ ilé-ẹjọ́ àti òfin láàyè lórí
-ojú-ìwé ayélujára ti ilé-ẹjọ́ àti ti ìjọba ní agbègbè ìdájọ́ 120+ àti àwọn ilé-ẹjọ́ àgbáyé (adapter 125).
-Gbogbo èsì ń dárúkọ orísun rẹ̀ ó sì ní ìjápọ̀ sí ojúlówó.
+ojú-ìwé ayélujára ti ilé-ẹjọ́ àti ti ìjọba ní agbègbè ìdájọ́ 125 àti àwọn ilé-ẹjọ́ àgbáyé, pẹ̀lú 91 orílẹ̀-èdè mìíràn láti inú ìwé-ìforúkọsílẹ̀ Lexifina (wo ìsàlẹ̀). Gbogbo èsì ń dárúkọ orísun rẹ̀ ó sì ní ìjápọ̀ sí ojúlówó.
 
 ## Ṣé ti ìjọba ni àwọn ọ̀rọ̀ náà?
 
@@ -52,9 +51,17 @@ Lọ́tọ̀, àwọn orísun kan sọ nínú òfin ìlò wọn pé ìráyè al�
 sì ń wà ní pípa. Kọ́kọ́rọ́ kò yí èyí padà; àṣẹ olùtẹ̀jáde nìkan ni ó ń yí i padà (lẹ́yìn náà ṣètò
 `WLM_PERMITTED=<codes>`).
 
+## Ibo ni àwọn ẹ̀yà àtijọ́ ti òfin àti àwọn orílẹ̀-èdè àfikún ti wá?
+
+Láti [Lexifina](https://github.com/lexifina/global-law), tí ó ń pa òfin nǹkan bí orílẹ̀-èdè 200 mọ́ gẹ́gẹ́ bí ìtàn git: àyípadà kọ̀ọ̀kan jẹ́ commit tí a dá ní ọjọ́ tí ó bẹ̀rẹ̀ sí ní ipa. Fontes ń kà á nípasẹ̀ sáfà Lexifina tí kò ní owó. Irinṣẹ́ méjì ló ń lò ó: `get_law_on_date` (ìpèsè kan gẹ́gẹ́ bí ó ṣe wà ní ipa ní ọjọ́ kan, àní ní ọjọ́ àtijọ́, pẹ̀lú òfin tí ó yí i padà kẹ́yìn) àti `get_law_history` (gbogbo òfin tí ó yí ìpèsè kan padà, tàbí àyípadà ọ̀rọ̀-sí-ọ̀rọ̀ láàárín ọjọ́ méjì). Fontes tún ń ka 91 orílẹ̀-èdè àti agbègbè mìíràn lọ́nà yìí, fún òfin nìkan (fún àpẹẹrẹ South Africa, Kenya, Mexico, New Zealand, Russia, South Korea, Belgium, Lithuania, Ukraine, Malaysia, Thailand àti Saudi Arabia). Wọ́n yàtọ̀ sí àwọn adapter 125 tí ìbòrí ìjọba wọn wà láàyè, ìbòrí orílẹ̀-èdè kọ̀ọ̀kan sì yàtọ̀ gidigidi (ìwé-ìforúkọsílẹ̀ orílẹ̀-èdè Kenya ní ìwé òfin mẹ́sàn-án péré). Òfin India náà wá láti inú ìwé-ìforúkọsílẹ̀ Lexifina, nítorí òfin ìlò India Code ń dènà ìráyè aládàáṣe; àwọn ìdájọ́ Ilé-ẹjọ́ Gíga Jùlọ rẹ̀ wà láàyè.
+
+Lexifina kì í ṣe olùtẹ̀jáde ìjọba, ìwé-ìforúkọsílẹ̀ rẹ̀ kì í sì í ṣe ti àkókò gidi: Lexifina ń ṣàyẹ̀wò orílẹ̀-èdè kọ̀ọ̀kan lẹ́ẹ̀kọ̀ọ̀kan, ìròyìn tirẹ̀ ní 2026-11-26 sì kà pé 338 nínú 383 àjọ òfin orílẹ̀-èdè kò tíì ṣàyẹ̀wò ní ọjọ́ méje tí ó kọjá. Gbogbo ìdáhùn ń dárúkọ Lexifina gẹ́gẹ́ bí orísun, ó ń so ojú-ìwé olùtẹ̀jáde ìjọba pọ̀, ó sì ń sọ bí ìwé-ìforúkọsílẹ̀ náà ṣe jìnnà tó.
+
+Lexifina gbà pé àwọn ọ̀rọ̀ òfin ìjọba kò ní àbò àdàkọ, nítorí náà ní àwọn orílẹ̀-èdè kan ó ń daakọ àwọn ojú-ìwé tí Fontes fúnra rẹ̀ ń bọ̀wọ̀ fún òfin ìlò wọn tàbí robots.txt wọn. Fontes ṣì ń bọ̀wọ̀ fún wọn fún ohun gbogbo tí ó ń gbà fúnra rẹ̀; ohun tí ó bá wá nípasẹ̀ Lexifina ń tẹ̀lé ìdájọ́ òfin Lexifina fúnra rẹ̀, tí a kọ sílẹ̀ fún orílẹ̀-èdè kọ̀ọ̀kan nínú àwọn ibi ìpamọ́ rẹ̀. Díẹ̀ ń dín lílò kù (olùtẹ̀jáde Kenya: CC BY-NC). Àwọn ọ̀rọ̀ ìwádìí rẹ, ìtọ́kasí àti ọjọ́ ń lọ sí sáfà Lexifina fún wọn. Ṣètò `WLM_LEXIFINA=0` láti pa á. Sáfà tí kò ní owó gba ìpè 60 ní ìṣẹ́jú kan àti 10,000 lójoojúmọ́ fún àdírẹ́sì IP kọ̀ọ̀kan; kò sí kọ́kọ́rọ́ tàbí àkọọ́lẹ̀. Fontes kò ní ìsopọ̀ pẹ̀lú Lexifina.
+
 ## Kí ni ó ń kúrò lórí kọ̀ǹpútà mi?
 
-Àwọn ìwádìí rẹ ń lọ sí orísun tí a ń wá nínú rẹ̀ nìkan. Fontes kò tọ́jú ibi ìpamọ́ dátà (database), kò sì nílò
+Àwọn ìwádìí rẹ ń lọ sí orísun tí a ń wá nínú rẹ̀ nìkan (fún irinṣẹ́ àti orílẹ̀-èdè Lexifina, sáfà Lexifina ni). Fontes kò tọ́jú ibi ìpamọ́ dátà (database), kò sì nílò
 àkọọ́lẹ̀.
 
 Yàtọ̀ sí àwọn orísun, Fontes ń béèrè lọ́wọ́ PyPI lẹ́ẹ̀kan lójoojúmọ́ bóyá ẹ̀dà tuntun wà (pa á pẹ̀lú

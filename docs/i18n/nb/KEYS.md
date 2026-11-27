@@ -166,7 +166,6 @@ dens, atskilt med komma, til `WLM_PERMITTED` i `env`-blokken: `"WLM_PERMITTED": 
 | `de` | Tyskland: NeuRIS (føderal portal for juridisk informasjon, testtjeneste) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Hellas: Statstrykkeriet, søk i lovtidenden (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: domstolenes avgjørelser (elitigation.sg) |
 

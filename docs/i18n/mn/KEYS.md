@@ -155,7 +155,6 @@ CourtListener-ийг ашгийн бус байгууллага [Free Law Projec
 | `de` | Герман: NeuRIS (холбооны эрх зүйн мэдээллийн портал, туршилтын үйлчилгээ) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Грек: National Printing Office, Government Gazette search (search.et.gr) |
-| `in` | Энэтхэг: India Code (indiacode.gov.in) |
 | `mu` | Маврики: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Сингапур: шүүхийн шийдвэрүүд (elitigation.sg) |
 

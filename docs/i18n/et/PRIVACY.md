@@ -3,8 +3,8 @@
 # Fontese privaatsusteade
 
 Fontes töötab teie arvutis. Teie otsingud ja avatavad dokumendid jäävad
-teie arvuti, otsitavate ametlike allikate ja teie kasutatava tehisintellekti rakenduse vahele (selle
-rakenduse enda tingimuste alusel). Fontes ise ei saada Fontese arendajatele **vaikimisi
+teie arvuti, otsitavate allikate (ametlike, pluss CourtListener ja Lexifina, kui te neid kasutate, vt allpool)
+ja teie kasutatava tehisintellekti rakenduse vahele (selle rakenduse enda tingimuste alusel). Fontes ise ei saada Fontese arendajatele **vaikimisi
 midagi**.
 
 ## Mis võib teie arvutist lahkuda ja millal
@@ -36,6 +36,8 @@ jurisdiktsioonikoodi, tööriista nime ja veateadet (teie otsingusõnad ja tunnu
 märkust, kui selle kirjutate. Ärge lisage märkusesse kliendi andmeid. Selle toetamiseks hoiab Fontes
 viimast viga teie arvutis (`last-error.json` selle vahemälukaustas, asendatakse iga kord);
 seda ei saadeta kunagi eraldi.
+
+**4. Lexifina (vaikimisi sees).** `get_law_on_date`, `get_law_history` 91 riiki ja India seadused loetakse Lexifina õigusregistrist, seega lähevad need Lexifinasse, kas ametliku saidi kõrval või selle asemel. Teie otsingusõnad, viited ja kuupäevad lähevad Lexifina tasuta serverisse `global-law.lexifina.com`, mida haldab Lexifina, mitte Fontese arendajad. Lexifina dokumenteerib, et tema server logib, millist tööriista kutsuti ja kui kaua see kestis, mitte kunagi, mida küsiti; Fontes ei saa seda kontrollida ning kehtivad Lexifina enda tingimused. Lexifina näeb teie IP-aadressi, nagu iga veebiserver. Selle täielikuks väljalülitamiseks seadke `WLM_LEXIFINA=0`; need kaks tööriista ja riigid lakkavad siis töötamast ja sinna ei saadeta midagi.
 
 ## Kuhu andmed lähevad ja kui kaua neid säilitatakse
 

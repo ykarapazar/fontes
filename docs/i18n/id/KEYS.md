@@ -157,7 +157,6 @@ tanpa izin. Jika Anda memiliki izin dari penerbit, aktifkan suatu sumber dengan 
 | `de` | Jerman: NeuRIS (portal informasi hukum federal, layanan uji coba) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Yunani: Percetakan Nasional, pencarian Lembaran Negara (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Mahkamah Agung (supremecourt.govmu.org) |
 | `sg` | Singapura: putusan pengadilan (elitigation.sg) |
 

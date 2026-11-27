@@ -166,7 +166,6 @@ varsayılan olarak kapalıdır. Yayıncıdan izniniz varsa, bir kaynağı kodunu
 | `de` | Almanya: NeuRIS (federal hukuki bilgi portalı, deneme hizmeti) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Yunanistan: Ulusal Basımevi, Resmî Gazete araması (search.et.gr) |
-| `in` | Hindistan: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Yüksek Mahkeme (supremecourt.govmu.org) |
 | `sg` | Singapur: mahkeme kararları (elitigation.sg) |
 

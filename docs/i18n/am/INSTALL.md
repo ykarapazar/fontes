@@ -2,7 +2,7 @@
 
 # Fontesን መጫን
 
-Fontes የ AI መተግበሪያዎ ከ120 በላይ በሆኑ የሕግ ክልሎች (jurisdictions) የፍርድ ቤት ውሳኔዎችንና ሕጎችን በፍርድ ቤትና
+Fontes የ AI መተግበሪያዎ በ125 የሕግ ክልሎች (jurisdictions) የፍርድ ቤት ውሳኔዎችንና ሕጎችን በፍርድ ቤትና
 በመንግሥት ድረ ገጾች ላይ በቀጥታ እንዲፈልግ ያስችለዋል። እያንዳንዱ ውጤት ከዋናው ጋር ያገናኛል። መደበኛ የ MCP አገልጋይ
 ስለሆነ፣ አካባቢያዊ (local) የ MCP አገልጋይ ማስኬድ በሚችል በማንኛውም መተግበሪያ ውስጥ ይሠራል፦ Claude Desktop፣ Codex፣
 Claude Code፣ Cursor፣ VS Code (GitHub Copilot)፣ Gemini CLI፣ Windsurf፣ Zed፣ LM Studio፣ Cline እና ሌሎችም።

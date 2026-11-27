@@ -2,7 +2,7 @@
 
 # 安装 Fontes
 
-Fontes 让您的 AI 应用在法院和政府网站上实时查询裁判文书和法律法规，覆盖 120 多个法域。每条结果都附有
+Fontes 让您的 AI 应用在法院和政府网站上实时查询裁判文书和法律法规，覆盖 125 个法域。每条结果都附有
 原文链接。它是一个标准的 MCP 服务器，因此可在任何能够运行本地 MCP 服务器的应用中使用：Claude Desktop、
 Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio、Cline 等。
 

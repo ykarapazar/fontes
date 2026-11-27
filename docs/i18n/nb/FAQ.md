@@ -6,9 +6,9 @@
 
 En gratis MCP-server med åpen kildekode (Apache 2.0). Den lar enhver app som snakker Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI og andre), søke i rettsavgjørelser og
-lovgivning direkte på domstolers og myndigheters nettsteder i over 120 jurisdiksjoner og
-internasjonale domstoler (125 adaptere). Hvert resultat oppgir kilden sin og lenker til
-originalen.
+lovgivning direkte på domstolers og myndigheters nettsteder i 125 jurisdiksjoner og
+internasjonale domstoler, pluss 91 flere land fra Lexifinas register (se nedenfor). Hvert resultat
+oppgir kilden sin og lenker til originalen.
 
 ## Er tekstene offisielle?
 
@@ -55,10 +55,36 @@ I tillegg sier noen kilder i vilkårene sine at automatisert tilgang krever utgi
 De er merket OFF og forblir slått av. En nøkkel endrer ikke det; det gjør bare utgiverens
 tillatelse (sett da `WLM_PERMITTED=<codes>`).
 
+## Hvor kommer de tidligere versjonene og de ekstra landene fra?
+
+Fra [Lexifina](https://github.com/lexifina/global-law), som holder lovene i omtrent 200 land som
+git-historikk: hver endring er en commit datert den dagen den trådte i kraft. Fontes leser dem
+gjennom Lexifinas gratis hostede server. To verktøy bruker den: `get_law_on_date` (en bestemmelse
+slik den gjaldt på en dato, også i fortiden, med loven som sist endret den) og `get_law_history`
+(hver lov som endret en bestemmelse, eller endringen ord for ord mellom to datoer). Fontes leser også
+91 flere land og territorier på denne måten, bare for lovgivning (for eksempel Sør-Afrika, Kenya,
+Mexico, New Zealand, Russland, Sør-Korea, Belgia, Litauen, Ukraina, Malaysia, Thailand og
+Saudi-Arabia). De er adskilt fra de 125 adapterne med direkte offisiell dekning, og dekningen per
+land varierer mye (Kenyas nasjonale register har 9 lover). India-lovene kommer også fra Lexifinas
+register, fordi India Codes vilkår forbyr automatisk tilgang; Høyesteretts avgjørelser er direkte.
+
+Lexifina er ikke den offisielle utgiveren, og registeret er ikke direkte: Lexifina kontrollerer hvert
+land fra tid til annen, og fremdriftsrapporten fra 2026-11-26 telte 338 av 383 nasjonale lovkilder som
+ikke var kontrollert de siste 7 dagene. Hvert svar oppgir Lexifina som kilde, lenker til den offisielle
+utgiverens side og sier hvor langt registeret rekker.
+
+Lexifina mener at offisielle lovtekster ikke er vernet av opphavsrett, så i noen land kopierer den
+nettsteder hvis vilkår eller robots.txt Fontes selv respekterer. Fontes respekterer dem fortsatt for
+alt det henter selv; det som kommer via Lexifina følger Lexifinas egen vurdering, registrert per land i
+depotene deres. Noen få begrenser bruken (Kenyas utgiver: CC BY-NC). Søkeordene, siteringene og
+datoene dine sendes til Lexifinas server for disse. Sett `WLM_LEXIFINA=0` for å slå det av. Den gratis
+serveren tillater 60 kall i minuttet og 10 000 om dagen per internettadresse; ingen nøkkel eller konto.
+Fontes er ikke tilknyttet Lexifina.
+
 ## Hva forlater datamaskinen min?
 
-Søkene dine sendes bare til kilden det søkes i. Fontes fører ingen database og krever ingen
-konto.
+Søkene dine sendes bare til kilden det søkes i (for Lexifina-verktøyene og -landene er det Lexifinas
+server). Fontes fører ingen database og krever ingen konto.
 
 I tillegg til kildene spør Fontes én gang om dagen PyPI om det finnes en nyere versjon (slås av
 med `FONTES_NO_UPDATE_CHECK=1`). Brukstall er av med mindre du slår dem på, og en feilrapport

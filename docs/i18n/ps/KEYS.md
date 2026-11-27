@@ -154,7 +154,6 @@ CourtListener د [Free Law Project](https://free.law) لخوا پرمخ وړل �
 | `de` | آلمان: NeuRIS (د فدرالي حقوقي معلوماتو پورټل، آزمایښتي خدمت) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | یونان: د چاپ ملي دفتر، د Government Gazette لټون (search.et.gr) |
-| `in` | هند: India Code (indiacode.gov.in) |
 | `mu` | موریشس: ستره محکمه (supremecourt.govmu.org) |
 | `sg` | سنګاپور: د محکمو فیصلې (elitigation.sg) |
 

@@ -154,7 +154,6 @@ CourtListener ດຳເນີນງານໂດຍ [Free Law Project](https://fr
 | `de` | ເຢຍລະມັນ: NeuRIS (ປະຕູຂໍ້ມູນກົດໝາຍລັດຖະບານກາງ, ບໍລິການທົດລອງ) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | ກຣີກ: National Printing Office, ການຄົ້ນຫາ Government Gazette (search.et.gr) |
-| `in` | ອິນເດຍ: India Code (indiacode.gov.in) |
 | `mu` | ມໍຣິຊຽດ: ສານສູງສຸດ (supremecourt.govmu.org) |
 | `sg` | ສິງກະໂປ: ຄຳພິພາກສາຂອງສານ (elitigation.sg) |
 

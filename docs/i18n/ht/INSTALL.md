@@ -3,7 +3,7 @@
 # Enstale Fontes
 
 Fontes pèmèt aplikasyon IA ou chèche desizyon tribinal ak lejislasyon an dirèk sou sit entènèt tribinal ak
-gouvènman yo, nan plis pase 120 jiridiksyon. Chak rezilta gen yon lyen ki mennen nan orijinal la. Se yon
+gouvènman yo, nan 125 jiridiksyon. Chak rezilta gen yon lyen ki mennen nan orijinal la. Se yon
 sèvè MCP estanda, kidonk li mache nan nenpòt aplikasyon ki ka fè yon sèvè MCP lokal mache: Claude Desktop,
 Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ak lòt
 ankò.

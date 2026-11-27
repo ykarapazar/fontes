@@ -6,9 +6,8 @@
 
 Un server MCP gratuit, cu sursă deschisă (Apache 2.0). Permite oricărei aplicații care folosește Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI și altele) să caute hotărâri judecătorești și
-legislație în timp real pe site-urile instanțelor și ale autorităților publice, în peste 120 de jurisdicții
-și la instanțe internaționale (125 de adaptoare). Fiecare rezultat își numește sursa și are un link către
-original.
+legislație în timp real pe site-urile instanțelor și ale autorităților publice, în 125 de jurisdicții
+și la instanțe internaționale, plus 91 de țări în plus prin registrul Lexifina (vedeți mai jos). Fiecare rezultat își numește sursa și are un link către original.
 
 ## Sunt textele oficiale?
 
@@ -53,9 +52,17 @@ Separat, câteva surse precizează în condițiile lor că accesul automatizat n
 Acestea sunt marcate OFF și rămân dezactivate. O cheie nu schimbă acest lucru; doar permisiunea editorului o
 face (setați apoi `WLM_PERMITTED=<codes>`).
 
+## De unde vin versiunile anterioare și celelalte țări?
+
+Din [Lexifina](https://github.com/lexifina/global-law), care păstrează legea a aproximativ 200 de țări sub formă de istoric git: fiecare modificare este un commit datat cu ziua în care a intrat în vigoare. Fontes o citește prin serverul gratuit găzduit de Lexifina. Două instrumente o folosesc: `get_law_on_date` (o dispoziție așa cum era în vigoare la o dată, și în trecut, cu legea care a modificat-o ultima dată) și `get_law_history` (fiecare lege care a modificat o dispoziție sau modificarea cuvânt cu cuvânt între două date). Fontes citește în acest fel și alte 91 de țări și teritorii, doar pentru legislație (de exemplu Africa de Sud, Kenya, Mexic, Noua Zeelandă, Rusia, Coreea de Sud, Belgia, Lituania, Ucraina, Malaezia, Thailanda și Arabia Saudită). Acestea sunt separate de cele 125 de adaptoare cu acoperire oficială live, iar acoperirea variază mult de la o țară la alta (registrul național al Kenyei cuprinde 9 legi). Legile Indiei vin și ele din registrul Lexifina, deoarece condițiile India Code interzic accesul automatizat; hotărârile sale ale Curții Supreme sunt live.
+
+Lexifina nu este editorul oficial, iar registrul său nu este live: Lexifina verifică din când în când fiecare țară, iar raportul său propriu din 2026-11-26 număra 338 din 383 de organisme naționale de legislație ca neverificate în ultimele 7 zile. Fiecare răspuns numește Lexifina drept sursă, leagă pagina editorului oficial și spune până unde ajunge registrul.
+
+Lexifina consideră că textele juridice oficiale nu sunt protejate de drepturi de autor, astfel încât, în unele țări, copiază site-uri ale căror condiții sau robots.txt sunt respectate chiar de Fontes. Fontes le respectă în continuare pentru tot ce preia el însuși; ce vine prin Lexifina urmează propria apreciere juridică a Lexifina, consemnată pentru fiecare țară în repozitoriile sale. Câteva restricționează uzul (editorul din Kenya: CC BY-NC). Cuvintele dumneavoastră de căutare, citările și datele ajung pentru acestea la serverul Lexifina. Setați `WLM_LEXIFINA=0` pentru a-l dezactiva. Serverul gratuit permite 60 de apeluri pe minut și 10.000 pe zi per adresă de internet; fără cheie și fără cont. Fontes nu este afiliat cu Lexifina.
+
 ## Ce părăsește computerul meu?
 
-Căutările dumneavoastră ajung doar la sursa în care se caută. Fontes nu păstrează nicio bază de date și nu
+Căutările dumneavoastră ajung doar la sursa în care se caută (pentru instrumentele și țările Lexifina, aceasta este serverul Lexifina). Fontes nu păstrează nicio bază de date și nu
 necesită niciun cont.
 
 În afară de surse, Fontes întreabă PyPI o dată pe zi dacă există o versiune mai nouă (o puteți dezactiva cu

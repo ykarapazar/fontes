@@ -3,7 +3,7 @@
 # Fontes privatumo pranešimas
 
 Fontes veikia jūsų kompiuteryje. Jūsų paieškos ir atidaryti dokumentai lieka tarp jūsų
-kompiuterio, oficialių šaltinių, kuriuose ieškote, ir jūsų naudojamos DI programos (pagal tos
+kompiuterio, šaltinių, kuriuose ieškote (oficialių, taip pat CourtListener ir Lexifina, kai jais naudojatės; žr. toliau), ir jūsų naudojamos DI programos (pagal tos
 programos sąlygas). Pats Fontes pagal numatytuosius nustatymus Fontes kūrėjams **nieko
 nesiunčia**.
 
@@ -41,6 +41,14 @@ pavadinimas ir klaidos pranešimas (pašalinus jūsų paieškos žodžius ir ide
 pastaba, jei ją parašote. Nerašykite pastaboje klientų duomenų. Tam palaikyti Fontes jūsų
 kompiuteryje saugo paskutinę klaidą (`last-error.json` savo talpyklos aplanke, kaskart
 pakeičiamą); ji niekada nesiunčiama atskirai.
+
+**4. Lexifina (įjungta pagal numatytuosius nustatymus).** `get_law_on_date`, `get_law_history`, 91 šalis ir Indijos aktai skaitomi per Lexifina teisės duomenų rinkinį, todėl jie siunčiami į Lexifina kartu su oficialia svetaine arba vietoj jos. Jūsų paieškos žodžiai,
+citatos ir datos siunčiami į Lexifina nemokamą serverį `global-law.lexifina.com`, kurį valdo Lexifina, o ne
+Fontes kūrėjai. Lexifina dokumentuoja, kad jos serveris registruoja, kuris įrankis buvo iškviestas ir kiek
+laiko tai užtruko, bet niekada – ko buvo klausiama; Fontes to patikrinti negali, taikomos pačios Lexifina
+sąlygos. Lexifina mato jūsų IP adresą, kaip ir bet kuris interneto serveris. Norėdami visiškai išjungti
+Lexifina, nustatykite `WLM_LEXIFINA=0`; tuomet tie du įrankiai ir šalys nustoja veikti ir niekas į ją
+nesiunčiama.
 
 ## Kur tai siunčiama ir kiek laiko saugoma
 

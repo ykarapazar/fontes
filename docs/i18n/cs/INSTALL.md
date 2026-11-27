@@ -3,7 +3,7 @@
 # Instalace Fontes
 
 Fontes umožňuje vaší aplikaci s AI vyhledávat soudní rozhodnutí a právní předpisy živě na webech
-soudů a státních orgánů ve více než 120 jurisdikcích. Každý výsledek odkazuje na originál. Jde o
+soudů a státních orgánů ve 125 jurisdikcích. Každý výsledek odkazuje na originál. Jde o
 standardní server MCP, takže funguje v každé aplikaci, která umí spustit lokální server MCP:
 Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline a dalších.

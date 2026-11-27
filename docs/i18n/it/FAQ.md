@@ -6,9 +6,9 @@
 
 Un server MCP gratuito e open source (Apache 2.0). Consente a qualsiasi app che parli il Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI e altre) di cercare decisioni
-giudiziarie e normativa in tempo reale dai siti web giudiziari e istituzionali di oltre 120
-giurisdizioni e corti internazionali (125 adattatori). Ogni risultato indica la sua fonte e rimanda
-all'originale.
+giudiziarie e normativa in tempo reale dai siti web giudiziari e istituzionali in 125 giurisdizioni e
+corti internazionali, più altri 91 paesi tramite la raccolta di Lexifina (vedi sotto). Ogni risultato
+indica la sua fonte e rimanda all'originale.
 
 ## I testi sono ufficiali?
 
@@ -57,9 +57,37 @@ l'autorizzazione dell'editore. Sono indicate come OFF e restano disattivate. Una
 questa situazione; solo l'autorizzazione dell'editore la cambia (poi imposti
 `WLM_PERMITTED=<codes>`).
 
+## Da dove vengono le versioni passate e i paesi in più?
+
+Dalla [raccolta di Lexifina](https://github.com/lexifina/global-law), che conserva la normativa di circa
+200 paesi come cronologia git: ogni modifica è un commit datato al giorno in cui è entrata in vigore.
+Fontes la legge tramite il server gratuito ospitato da Lexifina. Due strumenti la usano:
+`get_law_on_date` (una disposizione come era in vigore a una data, anche passata, con la legge che
+l'ha modificata per ultima) e `get_law_history` (ogni legge che ha modificato una disposizione, oppure
+la modifica parola per parola tra due date). Fontes legge in questo modo altri 91 paesi e territori, solo
+per la normativa (ad esempio Sudafrica, Kenya, Messico, Nuova Zelanda, Russia, Corea del Sud, Belgio,
+Lituania, Ucraina, Malaysia, Thailandia e Arabia Saudita). Sono separati dalle 125 giurisdizioni con
+copertura ufficiale in tempo reale, e la copertura di ciascun paese varia molto (il registro nazionale del
+Kenya contiene 9 atti). Anche gli atti dell'India provengono dalla raccolta di Lexifina, perché le
+condizioni di India Code vietano l'accesso automatizzato; le sue sentenze della Corte suprema sono in tempo
+reale.
+
+Lexifina non è l'editore ufficiale, e la sua raccolta non è in tempo reale: Lexifina ricontrolla ogni paese
+di tanto in tanto, e il suo stesso rapporto del 2026-11-26 contava 338 dei 383 corpus normativi nazionali
+come non verificati negli ultimi 7 giorni. Ogni risposta indica Lexifina come fonte, rimanda alla pagina
+dell'editore ufficiale e dice fino a dove arriva la raccolta.
+
+Lexifina ritiene che i testi giuridici ufficiali non siano protetti da copyright, quindi in alcuni paesi copia
+siti i cui termini o robots.txt Fontes stesso rispetta. Fontes continua a rispettarli per tutto ciò che
+recupera direttamente; ciò che passa da Lexifina segue il giudizio di Lexifina, registrato per paese nei suoi
+repository. Alcuni editori limitano l'uso (quello del Kenya è CC BY-NC). Le Sue parole di ricerca, le citazioni
+e le date vanno al server di Lexifina per questi strumenti e paesi. Imposti `WLM_LEXIFINA=0` per disattivarlo.
+Il server gratuito consente 60 chiamate al minuto e 10.000 al giorno per indirizzo IP; nessuna chiave né
+account. Fontes non è affiliato a Lexifina.
+
 ## Che cosa lascia il mio computer?
 
-Le Sue ricerche vanno solo alla fonte in cui si cerca. Fontes non mantiene alcuna banca dati e non
+Le Sue ricerche vanno solo alla fonte in cui si cerca (per gli strumenti e i paesi di Lexifina, il server di Lexifina). Fontes non mantiene alcuna banca dati e non
 richiede alcun account.
 
 Oltre alle fonti, Fontes chiede a PyPI una volta al giorno se esiste una versione più recente (la

@@ -8,6 +8,10 @@ Almost every source in Fontes works without a key. Three need a free one:
 | `WLM_US_GOVINFO_KEY` | United States: govinfo search (federal court opinions, Statutes at Large, public laws) | Fontes uses the shared `DEMO_KEY`: about 10 searches a day per IP address. Opening a known decision and the US Code need no key. |
 | `WLM_US_COURTLISTENER_KEY` | US state courts (`us-states`): opinions of the supreme and appellate courts of all 50 states and DC, from CourtListener | US state case law is off. `list_jurisdictions` shows it as inactive. |
 
+`WLM_LEXIFINA` is not a key. Lexifina's free server (past versions and 91 more countries) needs no
+key or account. It is on by default; set `WLM_LEXIFINA=0` to turn it off. See
+[PRIVACY.md](PRIVACY.md).
+
 Keys are optional. You can add them later.
 
 ## Adding a key
@@ -158,7 +162,6 @@ permission. If you have permission from the publisher, turn a source on by addin
 | `de` | Germany: NeuRIS (federal legal information portal, trial service) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Greece: National Printing Office, Government Gazette search (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: court judgments (elitigation.sg) |
 

@@ -157,7 +157,6 @@ separat prin virgule, în blocul `env`: `"WLM_PERMITTED": "in,de"`.
 | `de` | Germania: NeuRIS (portalul federal de informare juridică, serviciu de probă) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grecia: Imprimeria Națională, căutare în Monitorul Oficial (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Curtea Supremă (supremecourt.govmu.org) |
 | `sg` | Singapore: hotărâri judecătorești (elitigation.sg) |
 

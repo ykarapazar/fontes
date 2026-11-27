@@ -3,7 +3,7 @@
 # Fontes diegimas
 
 Fontes leidžia jūsų DI programai tiesiogiai ieškoti teismų sprendimų ir teisės aktų teismų ir
-valstybės institucijų svetainėse daugiau nei 120 jurisdikcijų. Kiekvienas rezultatas pateikia
+valstybės institucijų svetainėse 125 jurisdikcijų. Kiekvienas rezultatas pateikia
 nuorodą į originalą. Tai standartinis MCP serveris, todėl jis veikia bet kurioje programoje,
 galinčioje paleisti vietinį MCP serverį: Claude Desktop, Codex, Claude Code, Cursor, VS Code
 (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ir kitose.

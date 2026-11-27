@@ -154,7 +154,6 @@ CourtListener ހިންގަނީ [Free Law Project](https://free.law) އިންނެ
 | `de` | ޖަރުމަނު: NeuRIS (ފެޑެރަލް ޤާނޫނީ މަޢުލޫމާތު ޕޯޓަލް، ތަޖުރިބީ ޚިދުމަތެއް) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | ގްރީސް: National Printing Office، Government Gazette ސާޗް (search.et.gr) |
-| `in` | އިންޑިއާ: India Code (indiacode.gov.in) |
 | `mu` | މޮރިޝަސް: Supreme Court (supremecourt.govmu.org) |
 | `sg` | ސިންގަޕޫރު: ކޯޓު ޙުކުމްތައް (elitigation.sg) |
 

@@ -6,9 +6,9 @@
 
 Nemokamas atvirojo kodo MCP serveris (Apache 2.0). Jis leidžia bet kuriai programai, palaikančiai
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI ir kitoms), tiesiogiai ieškoti
-teismų sprendimų ir teisės aktų teismų ir valstybės institucijų svetainėse 120+ jurisdikcijų ir
-tarptautinių teismų (125 adapteriai). Kiekvienas rezultatas nurodo savo šaltinį ir pateikia
-nuorodą į originalą.
+teismų sprendimų ir teisės aktų teismų ir valstybės institucijų svetainėse 125 jurisdikcijų ir
+tarptautinių teismų, o dar 91 šalies teisės aktus – per Lexifina duomenų rinkinį (žr. toliau).
+Kiekvienas rezultatas nurodo savo šaltinį ir pateikia nuorodą į originalą.
 
 ## Ar tekstai oficialūs?
 
@@ -54,10 +54,37 @@ Atskirai: kelių šaltinių sąlygose nurodyta, kad automatizuotai prieigai reik
 Jie pažymėti OFF ir lieka išjungti. Raktas to nepakeičia; tai pakeičia tik leidėjo leidimas
 (tada nustatykite `WLM_PERMITTED=<codes>`).
 
+## Iš kur ankstesnės redakcijos ir papildomos šalys?
+
+Iš [Lexifina](https://github.com/lexifina/global-law), kuri saugo maždaug 200 šalių teisę kaip git
+istoriją: kiekvienas pakeitimas yra įrašas, datuotas diena, kai jis įsigaliojo. Fontes ją skaito per
+nemokamą Lexifina serverį. Du įrankiai naudoja jį: `get_law_on_date` (nuostata, galiojusi nurodytą
+dieną, taip pat praeityje, su įstatymu, kuris ją paskutinį kartą pakeitė) ir `get_law_history` (kiekvienas
+įstatymas, pakeitęs nuostatą, arba žodis po žodžio pakeitimas tarp dviejų datų). Fontes taip pat skaito
+dar 91 šalį ir teritoriją, tik teisės aktus (pavyzdžiui, Pietų Afrika, Kenija, Meksika, Naujoji Zelandija,
+Rusija, Pietų Korėja, Belgija, Lietuva, Ukraina, Malaizija, Tailandas ir Saudo Arabija). Jos atskirtos nuo
+125 adapterių su gyva oficialia aprėptimi, o aprėptis kiekvienoje šalyje labai skiriasi (Kenijos nacionaliniame
+įraše yra 9 aktai). Indijos aktai taip pat ateina iš Lexifina duomenų rinkinio, nes India Code sąlygos
+draudžia automatizuotą prieigą; jos Aukščiausiojo Teismo sprendimai pasiekiami gyvai.
+
+Lexifina nėra oficialus leidėjas, o jos duomenys nėra gyvi: Lexifina laikas nuo laiko patikrina kiekvieną
+šalį, o jos pačios ataskaita 2026-11-26 nurodė, kad iš 383 nacionalinių teisės aktų šaltinių 338 nebuvo
+patikrinti per pastarąsias 7 dienas. Kiekvienas atsakymas nurodo Lexifina kaip šaltinį, susieja oficialaus
+leidėjo puslapį ir pasako, kiek įrašas apima.
+
+Lexifina laikosi nuomonės, kad oficialūs teisės tekstai nėra saugomi autorių teisių, todėl kai kuriose
+šalyse ji kopijuoja svetaines, kurių sąlygų ar robots.txt Fontes pats paisko. Fontes vis dar paisko robots.txt
+ir sąlygų visam, ką pats gauna; tai, kas ateina per Lexifina, seka Lexifina savo teisinį vertinimą, įrašytą
+kiekvienos šalies saugykloje. Kelios šalys riboja naudojimą (Kenijos leidėjui taikoma CC BY-NC). Jūsų
+paieškos žodžiai, citatos ir datos šiems įrankiams ir šalims siunčiami į Lexifina serverį. Ši funkcija įjungta
+pagal numatytuosius nustatymus; nustatykite `WLM_LEXIFINA=0`, kad ją išjungtumėte. Raktas ar paskyra nereikalingi.
+Nemokamas serveris leidžia 60 užklausų per minutę ir 10 000 per dieną vienam interneto adresui. Fontes nėra
+susijęs su Lexifina.
+
 ## Kas palieka mano kompiuterį?
 
-Jūsų paieškos siunčiamos tik į ieškomą šaltinį. Fontes nesaugo duomenų bazės ir jam nereikia
-paskyros.
+Jūsų paieškos siunčiamos tik į ieškomą šaltinį (Lexifina įrašams – į Lexifina serverį). Fontes nesaugo
+duomenų bazės ir jam nereikia paskyros.
 
 Be šaltinių, Fontes kartą per dieną paklausia PyPI, ar yra naujesnė versija (išjungiama nustačius
 `FONTES_NO_UPDATE_CHECK=1`). Naudojimo skaičiai išjungti, nebent juos įjungsite, o klaidos

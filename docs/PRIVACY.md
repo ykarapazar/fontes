@@ -1,7 +1,8 @@
 # Fontes privacy notice
 
 Fontes runs on your computer. Your searches and the documents you open stay
-between your computer, the official sources you search, and the AI app you use (under that
+between your computer, the sources you search (official ones, plus CourtListener and Lexifina
+where you use them, see below), and the AI app you use (under that
 app's own terms). Fontes itself sends the Fontes developers **nothing by
 default**.
 
@@ -34,6 +35,14 @@ jurisdiction code, tool name and error message (with your search words and ids c
 a note if you write one. Do not put client details in the note. To support this, Fontes keeps
 the last error on your computer (`last-error.json` in its cache folder, replaced each time);
 it is never sent on its own.
+
+**4. Lexifina (on by default).** `get_law_on_date`, `get_law_history`, the 91 countries and India's Acts
+are read through Lexifina's record of the law, so they go to Lexifina as well as, or instead of, the official site. Your search words, citations and
+dates go to Lexifina's free server, `global-law.lexifina.com`, which is run by Lexifina, not by the
+Fontes developers. Lexifina documents that its server logs which tool was called and how long it
+took, never what was asked; Fontes cannot check that, and Lexifina's own terms apply. Lexifina sees
+your IP address, as any web server does. To turn Lexifina off completely, set `WLM_LEXIFINA=0`;
+those two tools and countries then stop working and nothing is sent there.
 
 ## Where it goes and how long it is kept
 

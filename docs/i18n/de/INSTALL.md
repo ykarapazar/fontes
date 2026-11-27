@@ -3,7 +3,7 @@
 # Fontes installieren
 
 Mit Fontes kann Ihre KI-App Gerichtsentscheidungen und Rechtsvorschriften live auf Websites von
-Gerichten und Behörden in über 120 Rechtsordnungen nachschlagen. Jedes Ergebnis verlinkt auf das
+Gerichten und Behörden in 125 Rechtsordnungen nachschlagen. Jedes Ergebnis verlinkt auf das
 Original. Fontes ist ein standardkonformer MCP-Server und funktioniert daher in jeder App, die einen
 lokalen MCP-Server ausführen kann: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline und weiteren.

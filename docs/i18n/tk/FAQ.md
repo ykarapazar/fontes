@@ -5,10 +5,10 @@
 ## Fontes näme?
 
 Mugt, açyk çeşme kodly MCP serweri (Apache 2.0). Ol Model Context Protocol bilen işleýän
-islendik programma (Claude, Codex, Cursor, VS Code, Gemini CLI we beýlekiler) 120-den gowrak
-ýurisdiksiýada we halkara kazyýetlerinde (125 adapter) kazyýet çözgütlerini we kanunçylygy
-kazyýet we döwlet saýtlarynda göni gözlemäge mümkinçilik berýär. Her netije öz çeşmesini
-atlandyrýar we asyl nusga salgylanýar.
+islendik programma (Claude, Codex, Cursor, VS Code, Gemini CLI we beýlekiler) kazyýet we döwlet
+saýtlarynda kazyýet çözgütlerini we kanunçylygy göni gözlemäge mümkinçilik berýär: 125 ýurisdiksiýada
+we halkara kazyýetlerinde, we Lexifina-nyň ýazgysy arkaly ýene 91 ýurtda (aşakda serediň). Her netije
+öz çeşmesini atlandyrýar we asyl nusga salgylanýar.
 
 ## Tekstler resmimi?
 
@@ -54,10 +54,37 @@ Mundan aýratynlykda, birnäçe çeşme öz şertlerinde awtomatik giriş üçin
 rugsadynyň gerekdigini aýdýar. Olar OFF diýlip bellenen we öçük galýar. Açar muny
 üýtgetmeýär; diňe neşir edijiniň rugsady üýtgedýär (şonda `WLM_PERMITTED=<codes>` goýuň).
 
+## Geçmiş wersiýalar we goşmaça ýurtlar nireden gelýär?
+
+[Lexifina](https://github.com/lexifina/global-law) takmynan 200 ýurduň kanunyny git taryhy görnüşinde
+saklaýar: her üýtgeşme güýje giren güni senesi bilen commit bolup ýazylýar. Fontes oňa Lexifina-nyň
+mugt serweri arkaly girýär. Iki gural ony ulanýar: `get_law_on_date` (bir maddanyň geçmişdäki bir
+güne güýjünde bolan görnüşi, ony iň soňky üýtgeden kanun bilen) we `get_law_history` (maddany üýtgeden
+her kanun, ýa-da iki gün aralygyndaky sözme-söz üýtgeme). Fontes şeýle hem 91 has köp ýurt we
+territoriýany diňe kanunçylyk üçin şol ýol bilen okaýar (meselem, Günorta Afrika, Keniýa, Meksika,
+Täze Zelandiýa, Russiýa, Günorta Koreýa, Belgiýa, Litwa, Ukraina, Malaýziýa, Taýland we Saud
+Arabystany). Olar resmi göni gerimi bolan 125 adapterden aýry; ýurtlar boýunça gerim ep-esli üýtgeýär
+(Keniýanyň milli ýazgysynda 9 kanun bar). Hindistanyň kanunlary hem Lexifina-nyň ýazgysyndan gelýär,
+sebäbi India Code-nyň şertleri awtomatik girişi gadagan edýär; onuň Ýokary kazyýetiniň çözgütleri bolsa göni.
+
+Lexifina resmi neşir edijisi däl, onuň ýazgysy hem göni däl: Lexifina her ýurdy wagtal-wagtal gaýtadan
+barlaýar, we onuň öz täzelik hasabaty (2026-njy ýylyň 26-njy noýabry) 383 milli kanun edarasynyň 338-siniň
+soňky 7 günde barlanmandygyny görkezýär. Oňa girýän her jogap Lexifina-ny çeşme hökmünde atlandyrýar,
+resmi neşir edijiniň sahypasyny baglanyşdyrýar we ýazgynyň nähili aralyga çenli barýandygyny aýdýar.
+
+Lexifina resmi kanuny tekstleriň awtorlyk hukugy bilen goralmaýandygyny hasaplaýar, şonuň üçin käbir
+ýurtlarda Fontes-iň özi hormatlaýan şertleri ýa-da robots.txt-si bar saýtlaryň mazmunyny göçürýär.
+Fontes özi getirýän hemme zatda olara eýerýär; Lexifina arkaly gelýän zat bolsa Lexifina-nyň öz hukuk
+garaýşyna eýerýär, ol her ýurduň ýazgysynda kesgitlenýär. Käbirleri ulanylyşy çäklendirýär (Keniýanyň
+neşir edijisi: CC BY-NC). Bu üçin gözleg sözleriňiz, sitatalaryňyz we senäleriňiz Lexifina-nyň serwerine
+gidýär. Ol adaty ýagdaýda açyk; öçürmek üçin `WLM_LEXIFINA=0` goýuň. Mugt serwer bir minutda 60
+çagyryşa we bir internet adresi üçin günde 10 000 çagyryşa rugsat berýär; açar ýa-da hasap gerek däl.
+Fontes Lexifina bilen baglanyşykly däl.
+
 ## Kompýuterimden näme çykýar?
 
-Gözlegleriňiz diňe gözlenýän çeşmä gidýär. Fontes maglumat bazasyny saklamaýar we hasap
-ýazgysyny talap etmeýär.
+Gözlegleriňiz diňe gözlenýän çeşmä gidýär (Lexifina gurallary we ýurtlary üçin bu Lexifina-nyň serweri).
+Fontes maglumat bazasyny saklamaýar we hasap ýazgysyny talap etmeýär.
 
 Çeşmelerden başga, Fontes günde bir gezek PyPI-dan täze wersiýanyň bardygyny soraýar (ony
 `FONTES_NO_UPDATE_CHECK=1` bilen öçüriň). Ulanyş sanlary siz açmasaňyz öçük, ýalňyşlyk

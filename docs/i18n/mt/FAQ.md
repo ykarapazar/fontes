@@ -7,7 +7,8 @@
 Server MCP b'xejn u b'kodiċi miftuħ (Apache 2.0). Jippermetti lil kwalunkwe app li titkellem
 il-Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI u oħrajn) tfittex
 deċiżjonijiet tal-qorti u leġiżlazzjoni direttament fuq is-siti web tal-qrati u tal-gvern
-f'120+ ġurisdizzjoni u qorti internazzjonali (125 adapter). Kull riżultat isemmi s-sors tiegħu
+f'125 ġurisdizzjoni u qorti internazzjonali, pluss 91 pajjiż ieħor permezz tar-rekord ta' Lexifina (ara hawn taħt).
+Kull riżultat isemmi s-sors tiegħu
 u għandu link għall-oriġinal.
 
 ## It-testi huma uffiċjali?
@@ -53,9 +54,17 @@ Separatament, ftit sorsi jgħidu fit-termini tagħhom li l-aċċess awtomatizzat
 tal-pubblikatur. Dawn huma mmarkati OFF u jibqgħu mitfija. Ċavetta ma tbiddilx dan; il-permess
 tal-pubblikatur biss ibiddlu (imbagħad issettja `WLM_PERMITTED=<codes>`).
 
+## Minn fejn ġejjin il-verżjonijiet preċedenti u l-pajjiżi oħra?
+
+Minn [Lexifina](https://github.com/lexifina/global-law), li iżomm il-liġi ta' madwar 200 pajjiż bħala storja ta' git: kull bidla hija commit datat bil-jum li daħlet fis-seħħ. Fontes jaqraha permezz tas-server b'xejn ospitat ta' Lexifina. Żewġ għodod jużawha: `get_law_on_date` (dispożizzjoni kif kienet fis-seħħ f'data, anke fil-passat, bil-liġi li l-aħħar biddlitha) u `get_law_history` (kull liġi li biddlet dispożizzjoni, jew il-bidla kelma b'kelma bejn żewġ dati). Fontes jaqra wkoll 91 pajjiż u territorju ieħor b'dan il-mod, għal leġiżlazzjoni biss (per eżempju Sudafrika, il-Kenja, il-Messiku, New Zealand, ir-Russja, il-Korea t'Isfel, il-Belġju, il-Litwanja, l-Ukraina, il-Malasja, it-Tajlandja u l-Arabja Sawdija). Dawn huma separati mill-125 adapter b'kopertura uffiċjali ħajja, u l-kopertura għal kull pajjiż tvarja ħafna (ir-rekord nazzjonali tal-Kenja fih 9 atti). L-Atti tal-Indja jinqraw ukoll mir-rekord ta' Lexifina, għax it-termini ta' India Code jipprojbixxu l-aċċess awtomatizzat; is-sentenzi tal-Qorti Suprema tagħha huma ħajjin.
+
+Lexifina mhix il-pubblikatur uffiċjali, u r-rekord tagħha mhuwiex ħaj: Lexifina tiċċekkja kull pajjiż minn żmien għal żmien, u r-rapport tagħha stess tat-2026-11-26 għadd 338 minn 383 korp nazzjonali tal-liġi bħala li ma ġewx iċċekkjati fl-aħħar 7 ijiem. Kull tweġiba ssemmi lil Lexifina bħala s-sors, torbot il-paġna tal-pubblikatur uffiċjali u tgħid sa liema punt jasal ir-rekord.
+
+Il-politika ta' sorsi ta' Lexifina tiddiffereġi minn dik ta' Fontes: hija tieħu l-pożizzjoni li t-testi legali uffiċjali ma humiex protetti mid-drittijiet tal-awtur, u għalhekk f'xi pajjiżi tikkopja siti li t-termini jew robots.txt tagħhom Fontes innifsu jirrispetta. Fontes jibqa' jirrispetta robots.txt u t-termini għal kull ma jiġbed hu nnifsu; dak li jasal permezz ta' Lexifina jsegwi l-ġudizzju legali tagħha stess. Xi wħud jillimitaw l-użu (il-pubblikatur tal-Kenja huwa CC BY-NC). Il-kliem tat-tfittxija, iċ-ċitazzjonijiet u d-dati tiegħek jmorru għas-server ta' Lexifina għal dawn l-għodod u dawn il-pajjiżi. Dan huwa attiv b'mod awtomatiku; issettja `WLM_LEXIFINA=0` biex titfih. Ma hemm l-ebda ċavetta jew kont. Is-server b'xejn jippermetti 60 sejħa fil-minuta u 10,000 kuljum għal kull indirizz tal-internet. Fontes mhuwiex affiljat ma' Lexifina.
+
 ## X'joħroġ mill-kompjuter tiegħi?
 
-It-tfittxijiet tiegħek imorru biss lis-sors li qed jiġi mfittex. Fontes ma jżomm l-ebda database
+It-tfittxijiet tiegħek imorru biss lis-sors li qed jiġi mfittex (għall-għodod u l-pajjiżi ta' Lexifina, dak huwa s-server ta' Lexifina). Fontes ma jżomm l-ebda database
 u ma jeħtieġ l-ebda kont.
 
 Minbarra s-sorsi, Fontes jistaqsi lil PyPI darba kuljum jekk teżistix verżjoni ġdida (titfiha

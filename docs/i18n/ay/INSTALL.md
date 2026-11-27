@@ -3,7 +3,7 @@
 # Fontes instalaña
 
 Fontes ukax IA aplicacionamaruw taripañ utanakan taripäwinakap, kamachinaksa taripañ uta,
-gobierno web sitionakan jichhpach thaqañapatak yanapt'i, 120 jurisdiccionat juk'amp. Sapa
+gobierno web sitionakan jichhpach thaqañapatak yanapt'i, 125 jurisdiccionat. Sapa
 jaysäwix originalaruw mayachata. Mä estándar MCP servidorawa, ukatwa mä local MCP servidor
 irnaqayañ puedki uka kuna aplicacionansa irnaqi: Claude Desktop, Codex, Claude Code, Cursor,
 VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline, yaqhanakansa.

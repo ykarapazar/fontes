@@ -159,7 +159,6 @@ njegov kôd dodate u `WLM_PERMITTED`, odvojen zarezima, u bloku `env`: `"WLM_PER
 | `de` | Njemačka: NeuRIS (savezni portal pravnih informacija, probna usluga) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grčka: National Printing Office, pretraživanje Government Gazette (search.et.gr) |
-| `in` | Indija: India Code (indiacode.gov.in) |
 | `mu` | Mauricijus: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: sudske presude (elitigation.sg) |
 

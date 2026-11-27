@@ -164,7 +164,6 @@ el seu codi a `WLM_PERMITTED`, separat per comes, al bloc `env`: `"WLM_PERMITTED
 | `de` | Alemanya: NeuRIS (portal federal d'informació jurídica, servei de prova) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grècia: Impremta Nacional, cerca al Diari Oficial del Govern (search.et.gr) |
-| `in` | Índia: India Code (indiacode.gov.in) |
 | `mu` | Maurici: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: resolucions judicials (elitigation.sg) |
 

@@ -62,6 +62,7 @@ def test_render_and_load(tmp_path):
     assert len(reports) == len(HISTORY)
     page = sp.render(reports, NOW)
     assert "1 source down or blocked" in page and "tr src" in page
-    assert "http://" not in page and "https://" not in page and " src=" not in page  # one file, no requests
+    fetched = page.replace(f"<link rel=canonical href='{sp.i18n_docs.SITE}status/'>", "")  # a canonical is not a request
+    assert "http://" not in fetched and "https://" not in fetched and " src=" not in fetched  # one file, no requests
     assert "prefers-color-scheme:dark" in page
     assert "All sources operational" in sp.render([_rep("2026-11-10T09:00:00+00:00", nl="ok")], NOW)

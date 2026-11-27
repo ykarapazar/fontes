@@ -3,7 +3,7 @@
 # Kif tinstalla Fontes
 
 Fontes jippermetti lill-app tal-AI tiegħek tfittex deċiżjonijiet tal-qorti u leġiżlazzjoni
-direttament fuq is-siti web tal-qrati u tal-gvern f'aktar minn 120 ġurisdizzjoni. Kull riżultat
+direttament fuq is-siti web tal-qrati u tal-gvern f'125 ġurisdizzjoni. Kull riżultat
 għandu link għall-oriġinal. Huwa server MCP standard, għalhekk jaħdem fi kwalunkwe app li tista'
 tħaddem server MCP lokali: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot),
 Gemini CLI, Windsurf, Zed, LM Studio, Cline u oħrajn.

@@ -164,7 +164,6 @@ permiso'ỹre. Reguerekóramo ijára permiso, emyandy peteĩ ypykue rembojoapýv
 | `de` | Alemania: NeuRIS (portal federal de información jurídica, servicio de prueba) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grecia: National Printing Office, Government Gazette search (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauricio: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: tribunal sentencia (elitigation.sg) |
 

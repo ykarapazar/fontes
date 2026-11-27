@@ -3,7 +3,7 @@
 # Fontes ñemohenda
 
 Fontes oheja nde aplicación IA-pe oheka tribunalkuéra sentencia ha léikuéra ko'ag̃aite
-tribunal ha gobierno sitio web-pe, 120 jurisdicción ári. Opaite mbohovái ojoaju pe original
+tribunal ha gobierno sitio web-pe, 125 jurisdicción ári. Opaite mbohovái ojoaju pe original
 rehe. Ha'e peteĩ servidor MCP estándar, upévare oiko oimeraẽ aplicación ikatúvape omboguata
 peteĩ servidor MCP local: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub
 Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ha ambue.

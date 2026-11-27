@@ -8,8 +8,37 @@
 </h1>
 
 <p align="center">
-  120 過个法域个法律，問一句就有。
+  分你个 AI 應用程式，即時讀法院同政府網站頂个法院裁判同法規。
 </p>
+
+Fontes 係免費、開放原始碼个 MCP 伺服器。佢分你个 AI 應用程式**在政府同法院个網站頂即時查法院裁判同法規**，
+涵蓋 125 个法域同國際法院。每一筆結果都附原文个連結。佢也做得顯示一條法律過去某一日个樣子，同讀另外 91 个國家个法規，
+來自 Lexifina 个記錄（毋係官方發布者）。佢係標準个 Model Context Protocol（MCP）伺服器，所以在任何做得執行本機 MCP 伺服器个應用程式肚項都做得用：
+Claude Desktop、Claude Code、OpenAI Codex、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio 等等。
+
+- **分律師同研究人員：** 用平常講話个方式問就做得。你个 AI 應用程式會檢索官方來源，引用佢尋著个內容，
+  附來源个連結。
+- **分開發者：** 一个 MCP 伺服器，九个固定个研究工具（另外還有 `report_bug`）；法域係一个參數，
+  所以加國家毋會加工具。Python，Apache 2.0。
+- **對照官方文本：** 荷蘭同英國法律个今日文本，以及美國法典條文，`get_law_on_date` 也會拿官方頁面，告訴你 Lexifina 个記錄有無符合，引用任何毋仝个段落。其他國家無做對照。
+
+分機器用：[llms.txt](https://ykarapazar.github.io/fontes/llms.txt)。
+
+## 做得問麼个？
+
+```text
+尋 2023 年以來荷蘭最高法院有關競業禁止條款个裁判。
+顯示《德國民法典》第 6 條。
+尋 2020 年以來有提著 “duty of care” 个英國最高法院判決。
+在 HUDOC 肚項檢索歐洲人權法院有關第 8 條同監控个判決。
+尋土耳其憲法法院有關言論自由个裁判。
+2022 年 5 月 1 日个 11 U.S.C. §1182 寫麼个？
+Fontes 做得檢索哪兜法域？
+```
+
+你个 AI 應用程式會揀法域同工具，檢索官方來源，再分你每一筆結果个連結。愛靠佢以前，請打開連結讀原文。
+
+<p align="center"><img src="../../assets/demo.gif" alt="一个 AI 應用程式用 Fontes 个螢幕錄影：請伊揀世界各地五隻好笑个法院案件，伊檢索幾个國家个裁判，再從 legislation.gov.uk 拿出佢兜「poppadom 對 crisps」稅務案背後个《1994 年增值稅法》條文，附連結。" width="720"></p>
 
 > **Beta（v0.1）。** Fontes 係即時去讀法院同政府个網站，這兜網站無通知就會改。
 > 有兜檢索可能會失敗、盡慢，或者尋著个結果盡少。每一个來源今晡日个狀態
@@ -25,7 +54,7 @@
 </p>
 
 <!-- languages:start -->
-語言: **臺灣客家語** · [English](../../../README.md) · [简体中文](../zh-Hans/README.md) · [हिन्दी](../hi/README.md) · [español](../es/README.md) · [العربية](../ar/README.md) · [français](../fr/README.md) · [বাংলা](../bn/README.md) · [português](../pt/README.md) · [Indonesia](../id/README.md) · [اردو](../ur/README.md)
+語言: **臺灣客家語** · [English](../../../README.md) · [简体中文](../zh-Hans/README.md) · [हिन्दी](../hi/README.md) · [español](../es/README.md) · [العربية](../ar/README.md)
 
 <details>
 <summary>All 80 languages</summary>
@@ -39,16 +68,6 @@
 
 </details>
 <!-- languages:end -->
-
-Fontes 係免費、開放原始碼个 MCP 伺服器。佢分你个 AI 應用程式**在政府同法院个網站頂即時查法院裁判同法規**，
-涵蓋 120 過个法域同國際法院。每一筆結果都附原文个連結。佢係標準个 Model Context Protocol（MCP）
-伺服器，所以在任何做得執行本機 MCP 伺服器个應用程式肚項都做得用：Claude Desktop、Claude Code、
-OpenAI Codex、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、LM Studio 等等。
-
-- **分律師同研究人員：** 用平常講話个方式問就做得。你个 AI 應用程式會檢索官方來源，引用佢尋著个內容，
-  附來源个連結。
-- **分開發者：** 一个 MCP 伺服器，七个固定个研究工具（另外還有 `report_bug`）；法域係一个參數，
-  所以加國家毋會加工具。Python，Apache 2.0。
 
 來源狀態（逐日檢查）：[ykarapazar.github.io/fontes/status/](https://ykarapazar.github.io/fontes/status/)
 · 每一个法域个涵蓋範圍：[COVERAGE.md](../../COVERAGE.md)
@@ -81,31 +100,30 @@ VS Code、Windsurf、Gemini CLI、Zed、LM Studio 同 Cline 肚項設定 Fontes�
 <p align="center"><a href="COVERAGE.md"><picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/coverage-map-dark.svg"><img src="../../assets/coverage-map.svg" alt="Fontes 涵蓋範圍目錄: 已經涵蓋：125 个肚項个 72 个。" width="880"></picture></a></p>
 <!-- map:end -->
 
-## 做得問麼个？
-
-```text
-尋 2023 年以來荷蘭最高法院有關競業禁止條款个裁判。
-顯示《德國民法典》第 6 條。
-尋 2020 年以來有提著 “duty of care” 个英國最高法院判決。
-在 HUDOC 肚項檢索歐洲人權法院有關第 8 條同監控个判決。
-尋土耳其憲法法院有關言論自由个裁判。
-Fontes 做得檢索哪兜法域？
-```
-
-你个 AI 應用程式會揀法域同工具，檢索官方來源，再分你每一筆結果个連結。愛靠佢以前，請打開連結讀原文。
-
-<p align="center"><img src="../../assets/demo.gif" alt="Fontes 在 MCP 應用程式肚項回答問題" width="720"></p>
-
 ## 會做麼个、毋會做麼个
 
 - **會：** 在你問个時節，即時從發布者自家个網站或者 API 拿資料。每一筆結果都寫明佢个來源，附佢个 URL
   或者官方識別碼，分你做得打開原文。
-- **毋會：** 建資料庫、大量下載、將文本快取在磁碟，或者將你个問題送到當在檢索个來源以外个任何所在。
+- **毋會：** 建資料庫、大量下載、將文本快取在磁碟，或者將你个問題送到當在檢索个來源以外个任何所在（分 Lexifina 个記錄，就係 Lexifina 个伺服器；見下背）。
   毋使帳號。除忒這兜來源以外，Fontes 逐日會對 PyPI 做一擺版本檢查（做得用 `FONTES_NO_UPDATE_CHECK=1`
   關忒）；其他任何傳送（使用次數統計、錯誤回報）都愛你選擇加入，而且會先問你。
+- **Lexifina 个記錄係例外。** `get_law_on_date`、`get_law_history` 同另外 91 个國家，透過 [Lexifina](https://github.com/lexifina/global-law) 个免費託管伺服器來讀，毋係從官方網站讀。見下背。
 - **毋會**提供法律意見，也毋會判斷文本个哪一个版本有權威性。各國个涵蓋範圍差當多：有兜有完整个裁判
   同經過整合个現行法規，有兜單淨一个法院，或者單淨原公布版本个法律。下背个表同
   `list_jurisdictions` 會講清楚每一个法域涵蓋麼个內容。
+
+### 過去版本同更多國家，來自 Lexifina
+
+[Lexifina](https://github.com/lexifina/global-law) 用 git 歷史保存約 200 个國家个法律：每一擺修改都係一个 commit，日期就係佢生效个日。Fontes 透過 Lexifina 免費託管个 MCP 伺服器（`https://global-law.lexifina.com/mcp`）讀取，佢另外提供：
+
+- `get_law_on_date` 同 `get_law_history`：Lexifina 記錄入面任何國家某一條，過去某一日生效个版本，同改變佢个法律。
+- 另外 91 个國家同領域（例如南非、肯亞、墨西哥、紐西蘭、俄羅斯、南韓、比利時、立陶宛、烏克蘭、馬來西亞、泰國、沙烏地阿拉伯），透過四个法規工具檢索。只有法規，無裁判。每一个國家个涵蓋範圍差當多（肯亞个全國記錄有 9 件法律）；`list_jurisdictions` 會顯示每一个國家有啥物。佢兜分開來講，毋係同 125 个有即時官方涵蓋个法域攬做伙。印度係其中一个 125 个（最高法院判決，即時），佢个法律也係從 Lexifina 个記錄讀。
+
+Lexifina 毋係官方發布者，佢个記錄也毋係即時个。Lexifina 會時常對照官方來源重新檢查每一个國家；佢 2026-11-26 个新鮮度報告計，383 个國家法律機構入面，338 个毋曾在頭先 7 日內檢查。Lexifina 每一个答案都會寫明佢係來源，附官方發布者个頁面連結，講明記錄涵蓋到幾遠。引用以前請核對官方文本。
+
+Lexifina 个來源政策同 Fontes 無仝。佢認為官方法律文本無受著版權保護，所以有兜國家佢會複製 Fontes 自家會尊重其條款或者 robots.txt 个網站（有時透過 Internet Archive 个副本）。Fontes 對佢自家檢索个內容，仍然尊重 robots.txt 同條款；經過 Lexifina 來个內容，就跟 Lexifina 自家个法律判斷，記錄在佢个儲存庫（LICENSE/SOURCES.md）每一个國家。有幾个限制使用：肯亞个發布者係 CC BY-NC，有兜來源要求非商業使用。
+
+以上兩个工具同呼應个國家，你个檢索字詞、引用同日期會送到 Lexifina 个伺服器（`global-law.lexifina.com`），毋單淨送到官方來源。預設係打開个；設定 `WLM_LEXIFINA=0` 就會關忒。毋使金鑰，也毋使帳號。免費伺服器一分鐘允許 60 擺呼叫，每个網路位址一日允許 10,000 擺。Fontes 同 Lexifina 無隸屬關係，記錄係 Lexifina 建立同維護个。見 [PRIVACY.md](PRIVACY.md)。
 
 ### 愛靠結果以前請先讀
 
@@ -150,131 +168,131 @@ Yüce Karapazar
 <!-- coverage:start -->
 | 代碼 | 法域 | 裁判 | 法規 |
 |---|---|---|---|
-| `ad` | Andorra | Tribunal Constitucional del Principat d'Andorra: sentències and autes | Portal Jurídic del Principat d'Andorra (BOPA service, Govern d'Andorra / Consell General): consolidated laws and Government regulations, Consell General del Principat d'Andorra: Constitució (Catalan booklet PDF) |
-| `af` | Afghanistan | — | Ministry of Justice laws database (de facto authority) |
-| `afchpr` | African Court on Human and Peoples' Rights | AJUDATA, the African Court's case database (ajudata.african-court.org) | — |
-| `al` | Albania | Gjykata e Lartë (High Court of Albania, gjykataelarte.gov.al) | Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice) |
-| `am` | Armenia | ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC) | ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC) |
-| `ar` | Argentina | — | InfoLEG (national laws) |
-| `at` | Austria | RIS (OGH, VfGH, VwGH, BVwG, LVwG, DSB) | RIS federal law |
-| `au` | Australia (Commonwealth) | — | Federal Register of Legislation |
-| `az` | Azerbaijan | e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice) （OFF） | e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice) （OFF） |
-| `ba` | Bosnia and Herzegovina | Ustavni sud Bosne i Hercegovine (ustavnisud.ba) – decisions database | Vlada Federacije BiH (fbihvlada.gov.ba) – Hronološki registar zakona (Federation laws as published), Parlamentarna skupština BiH (parlament.ba) – Ustav BiH and Prečišćeni tekstovi zakona (state level) |
-| `bb` | Barbados | Barbados Judicial System: judgments (barbadoslawcourts.gov.bb), CCJ judgment lists and PDFs (ccj.org) | Barbados Judicial System: Consolidated Laws (barbadoslawcourts.gov.bb) |
-| `bd` | Bangladesh | Supreme Court of Bangladesh (supremecourt.gov.bd) – Judgments and Orders | Laws of Bangladesh (bdlaws.minlaw.gov.bd), Legislative and Parliamentary Affairs Division |
-| `bg` | Bulgaria | Конституционен съд (Constitutional Court), constcourt.bg | Народно събрание (National Assembly), parliament.bg API: Constitution and laws as adopted |
-| `bh` | Bahrain | Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh （OFF） | Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh （OFF） |
-| `bj` | Benin | Cour constitutionnelle du Bénin: décisions (courconstitutionnelle.bj) | Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj) |
-| `bo` | Bolivia | Tribunal Agroambiental – Buscador de Resoluciones (SISAGRO consultas) | Cámara de Diputados – Leyes Promulgadas (WP REST API), laws as promulgated, LexiVox – Bolivian legislation (constitution, laws, decree-laws, codes; unofficial) |
-| `br` | Brazil | STF (Supreme Federal Court) | normas.leg.br |
-| `bs` | The Bahamas | Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments, Court of Appeal of The Bahamas judgments (courtofappeal.org.bs), Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs) | Statute Law of The Bahamas, Law Reform and Revision Commission (laws.bahamas.gov.bs) |
-| `bt` | Bhutan | — | Depository of Laws (legislation.gov.bt), Office of the Attorney General of Bhutan |
-| `bz` | Belize | Judgments of the Senior Courts of Belize, Belize Judiciary (belizejudiciary.org), CCJ judgment lists and PDFs (ccj.org), Find Case Law, The National Archives | Laws of Belize, Attorney General's Ministry (agm.gov.bz) |
-| `ca` | Canada (federal) | Supreme Court of Canada | Justice Laws |
-| `ccj` | Caribbean Court of Justice | CCJ judgment lists and PDFs (ccj.org) | — |
-| `ch` | Switzerland (federal) | Federal Supreme Court (bger.ch) | Fedlex (SR) |
-| `ci` | Côte d'Ivoire | Cour de cassation de Côte d'Ivoire: jurisprudence (eservices / sigcc) | Assemblée nationale de Côte d'Ivoire: lois (assnat.ci) |
-| `cl` | Chile | — | BCN Ley Chile |
-| `cm` | Cameroon | Cour suprême du Cameroun (coursupreme.cm) | Présidence de la République du Cameroun (prc.cm), Actes: lois, ordonnances, décrets |
-| `cn` | China | Supreme People's Court guiding cases | — |
-| `co` | Colombia | Corte Constitucional | Función Pública – Gestor Normativo (consolidated legislation) （OFF） |
-| `cr` | Costa Rica | — | SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ) |
-| `cu` | Cuba | — | Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu), Ministerio de Justicia de Cuba (Gaceta Oficial reposts) |
-| `cv` | Cabo Verde | Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv), Supremo Tribunal de Justiça de Cabo Verde, jurisprudência (stj.cv), JURIS CV – Jurisprudência Cabo-verdiana (Conselho Superior da Magistratura Judicial) | Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv) |
-| `cz` | Czechia | rozhodnuti.justice.cz (lower courts) | e-Sbírka |
-| `de` | Germany (federal) | NeuRIS (federal courts, trial service) （OFF） | Gesetze im Internet |
-| `difc` | DIFC Courts (Dubai) | DIFC Courts judgments （OFF） | — |
-| `dk` | Denmark | — | Retsinformation |
-| `do` | Dominican Republic | Tribunal Superior Electoral – visor de sentencias (visorpdf.tse.do) | — |
-| `dz` | Algeria | Cour constitutionnelle (and former Conseil constitutionnel) of Algeria | Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement |
-| `ec` | Ecuador | Corte Constitucional del Ecuador – Buscador de Sentencias (public JSON backend) and signed decision PDFs (esacc storage) | — |
-| `echr` | European Court of Human Rights | HUDOC | — |
-| `ecowas` | ECOWAS Community Court of Justice | ECOWAS Community Court of Justice website (courtecowas.org), ECOWAS Court Law Reports (CCJELR), English volumes 2004-2017 (courtecowas.org) | — |
-| `ee` | Estonia | — | Riigi Teataja |
-| `efta` | EFTA Court | EFTA Court judgments | — |
-| `eg` | Egypt | المحكمة الدستورية العليا – Supreme Constitutional Court portal (judgments, full text) | — |
-| `es` | Spain | Constitutional Court only | BOE consolidated law |
-| `et` | Ethiopia | — | House of Peoples' Representatives: published laws (Federal Negarit Gazeta PDFs, hopr.gov.et) |
-| `eu` | European Union | CELLAR (CJEU) | CELLAR (EUR-Lex) |
-| `fi` | Finland | Finlex (KKO/KHO precedents) | Finlex open data |
-| `fr` | France | Judilibre (Cour de cassation, via PISTE), Légifrance API (DILA, via PISTE) | Légifrance API (DILA, via PISTE) |
-| `gb` (alias `uk`) | United Kingdom | Find Case Law (The National Archives, 2003 onward) | legislation.gov.uk |
-| `ge` | Georgia | Courts of Georgia (2018–2020) | Matsne |
-| `gr` | Greece | Areios Pagos | Government Gazette (FEK) （OFF） |
-| `gt` | Guatemala | Corte de Constitucionalidad – sentencias PDF (jurisprudencia.cc.gob.gt) （部分） | — |
-| `gy` | Guyana | CCJ judgment lists and PDFs (ccj.org) | Laws of Guyana, Ministry of Legal Affairs (mola.gov.gy) |
-| `hk` | Hong Kong | — | Hong Kong e-Legislation (open data) |
-| `hn` | Honduras | — | Biblioteca Virtual del Tribunal Superior de Cuentas (TSC) – laws, codes, regulations and decrees as published (PDF, mostly La Gaceta copies), ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras) |
-| `hr` | Croatia | Constitutional Court (in the gazette) | Narodne novine |
-| `ht` | Haiti | — | Conseil Supérieur du Pouvoir Judiciaire (CSPJ): document library, Cour de cassation d'Haïti: Constitution PDF (1987 original) |
-| `hu` | Hungary | Bírósági Határozatok Gyűjteménye | — |
-| `icj` | International Court of Justice (ICJ) | International Court of Justice website (www.icj-cij.org): case pages and document search | International Court of Justice website (www.icj-cij.org): case pages and document search |
-| `icsid` | ICSID (investment arbitration) | ICSID case database | — |
-| `id` | Indonesia | — | JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum, Majelis Permusyawaratan Rakyat (www.mpr.go.id) – UUD NRI 1945 |
-| `ie` | Ireland | — | Irish Statute Book, LRC Revised Acts |
-| `il` | Israel | — | Knesset law database; Open Law Book (Wikisource, non-official) |
-| `in` | India | Indian Supreme Court Judgments (AWS Open Data; Dattam Labs mirror of the Supreme Court's e-SCR) | India Code （OFF） |
-| `iq` | Iraq | — | Kurdistan Parliament legislation database (قاعدة التشريعات), legislation.krd (Kurdistan Region of Iraq only) |
-| `is` | Iceland | Ísland.is court rulings | — |
-| `it` | Italy | — | Normattiva |
-| `itlos` | ITLOS (International Tribunal for the Law of the Sea) | ITLOS case pages (www.itlos.org) | — |
-| `jm` | Jamaica | Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments, Supreme Court of Jamaica judgments (supremecourt.gov.jm), Court of Appeal of Jamaica judgments (courtofappeal.gov.jm) | — |
-| `jo` | Jordan | Constitutional Court of Jordan (المحكمة الدستورية), cco.gov.jo | — |
-| `jp` | Japan | — | e-Gov 法令API |
-| `kg` | Kyrgyzstan | Constitutional Court of the Kyrgyz Republic (constsot.kg) | — |
-| `kh` | Cambodia | — | Council for the Development of Cambodia (CDC): Laws and Regulations |
-| `la` | Laos | — | Official Gazette of the Lao PDR (Ministry of Justice): search index （部分） |
-| `lb` | Lebanon | المجلس الدستوري / Constitutional Council of Lebanon (cc.gov.lb) | المجلس الدستوري / Constitutional Council of Lebanon (cc.gov.lb) |
-| `li` | Liechtenstein | Fürstlicher Oberster Gerichtshof – Entscheidungen (www.ogh.li) | Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung) |
-| `lu` | Luxembourg | data.public.lu — Cour de cassation decisions (Administration judiciaire), yearly ZIPs of PDFs read member by member with HTTP Range | Legilux |
-| `lv` | Latvia | E-lietas (anonymised decisions) | — |
-| `ly` | Libya | المحكمة العليا - Supreme Court of Libya (alolya.gov.ly) | وزارة العدل - Ministry of Justice of Libya (aladel.gov.ly) |
-| `ma` | Morocco | Constitutional Court of Morocco (cour-constitutionnelle.ma) – Decisions | Ministry of Justice legal portal Adala (adala.justice.gov.ma) |
-| `mc` | Monaco | Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions | Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions |
-| `md` | Moldova | Curtea Supremă de Justiție (Supreme Court of Justice), jurisprudenta.csj.md, Portalul Național al Instanțelor de Judecată (courts of appeal and district courts), instante.justice.md | Președinția Republicii Moldova: Constituția (consolidated PDF), presedinte.md |
-| `me` | Montenegro | Ustavni sud Crne Gore (ustavnisud.me) – Sudska arhiva | — |
-| `mg` | Madagascar | Haute Cour Constitutionnelle (hcc.gov.mg) | CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg) |
-| `mm` | Myanmar | Supreme Court of the Union: Rulings and Case Management System (rcms.usc.gov.mm) | Supreme Court of the Union: laws, procedures and amending laws (unionsupremecourt.gov.mm) |
-| `mn` | Mongolia | shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia) | — |
-| `mt` | Malta | — | Legislation Malta (legislation.mt), Office of the State Advocate / Legislation Unit |
-| `mu` | Mauritius | Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments, Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library （OFF） | Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library, Revised Laws of Mauritius, Attorney General's Office (attorneygeneral.govmu.org), National Assembly of Mauritius (mauritiusassembly.govmu.org): Acts as passed （OFF） |
-| `mv` | Maldives | — | MvLaw (mvlaw.gov.mv), Attorney General's Office legislation database, Government Gazette of the Maldives (gazette.gov.mv), President's Office |
-| `mz` | Mozambique | Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page, Conselho Constitucional (cconstitucional.org.mz): acórdãos and deliberações | Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page |
-| `ng` | Nigeria | Supreme Court of Nigeria | National Assembly of Nigeria (nass.gov.ng) – Acts as passed, Nigerian Investment Promotion Commission (nipc.gov.ng) – Acts, PLAC Laws of Nigeria (lawsofnigeria.placng.org): unrevised LFN 2004 (unofficial), FAOLEX (FAO) – Constitution of Nigeria 1999, consolidated to 2023 (PLAC print) |
-| `nl` | Netherlands | rechtspraak.nl | wetten.overheid.nl (BWB) |
-| `no` | Norway | Supreme Court (official summaries only) | — |
-| `np` | Nepal | Nepal Kanoon Patrika (नेपाल कानून पत्रिका), Supreme Court of Nepal | — |
-| `pa` | Panama | Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there) | Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there) |
-| `pe` | Peru | Tribunal Constitucional – Consulta de causas and published resolutions | El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published, Congreso de la República – Constitución Política del Perú, edición oficial (consolidated) |
-| `ph` | Philippines | The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO) | The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO) |
-| `pk` | Pakistan | Islamabad High Court (mis.ihc.gov.pk) – Case Law System | The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice |
-| `pl` | Poland | Portal Orzeczeń (common courts) | Sejm ELI API |
-| `ps` | Palestine | Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic) | Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic) |
-| `pt` | Portugal | DGSI, Tribunal Constitucional | PGDL (unofficial consolidations) |
-| `py` | Paraguay | Corte Suprema de Justicia – Sistema de Información de Jurisprudencia | Biblioteca y Archivo Central del Congreso Nacional (BACN) – Leyes Paraguayas |
-| `ro` | Romania | ÎCCJ decision by id only (no search) | cdep.ro index search only (no text) |
-| `rs` | Serbia | Vrhovni sud (Supreme Court of Serbia): Baza sudske prakse | Ustavni sud (Constitutional Court): Ustav RS i propisi |
-| `rw` | Rwanda | Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda | Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda |
-| `sc` | Seychelles | Judiciary of Seychelles website (judiciary.sc): Decisions from the Courts | Official Gazette of Seychelles (gazette.sc): Acts, S.I.s and Bills, Judiciary of Seychelles website (judiciary.sc): Laws of Seychelles (Constitution and main codes) |
-| `se` | Sweden | Rättspraxis (Domstolsverket) | Riksdagen (SFS) |
-| `sg` | Singapore | SG Courts judgments （OFF） | — |
-| `si` | Slovenia | Sodna praksa | PISRS |
-| `sk` | Slovakia | Supreme Court | Slov-Lex |
-| `sn` | Senegal | Conseil constitutionnel du Sénégal (decisions and consolidated Constitution), JURICAF (AHJUCAF): Cour suprême decisions (unofficial) | Conseil constitutionnel du Sénégal (decisions and consolidated Constitution), Primature / Secrétariat général du Gouvernement (lois, décrets, codes), Ministère de la Justice du Sénégal (codes, lois and décrets as PDF) |
-| `sr` | Suriname | Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr) | Surinaamse wetten, De Nationale Assemblee (dna.sr) |
-| `tj` | Tajikistan | Constitutional Court of the Republic of Tajikistan (constcourt.tj) | Constitutional Court of the Republic of Tajikistan (constcourt.tj), Official website of the President of the Republic of Tajikistan (president.tj), Базаи қонунгузории ҶТ, National Legislation Centre under the President of the Republic of Tajikistan (base.mmk.tj) |
-| `tm` | Turkmenistan | Supreme Court of Turkmenistan (court.gov.tm) | Mejlis of Turkmenistan (mejlis.gov.tm), Supreme Court of Turkmenistan (court.gov.tm) |
-| `tr` | Türkiye | Bedesten, Constitutional Court | Bedesten (mevzuat) |
-| `tt` | Trinidad and Tobago | Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org), Find Case Law, The National Archives | Digital Legislative Library, Law Revision Commission (laws.gov.tt) |
-| `tw` | Taiwan | Judicial Yuan (FJUD) | MOJ law texts by pcode (no search) |
-| `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | — | United Nations Treaty Collection (treaties.un.org), MTDSG status records and certified true copies |
-| `us` | United States (federal) | govinfo | US Code (uscode.house.gov) |
-| `us-states` | United States (state courts) | CourtListener (Free Law Project, a non-profit): opinions of state supreme and appellate courts | — |
-| `uy` | Uruguay | BJN (Poder Judicial) | IMPO |
-| `uz` | Uzbekistan | lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre) | lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre) |
-| `vn` | Vietnam | Tòa án nhân dân tối cao: Trang tin điện tử về án lệ (anle.toaan.gov.vn) | Bộ Tư pháp: Cơ sở dữ liệu quốc gia về văn bản pháp luật (vbpl.vn), Cổng Thông tin điện tử Chính phủ: Hệ thống văn bản (vanban.chinhphu.vn) |
-| `wto` | WTO dispute settlement (World Trade Organization) | WTO dispute pages and dispute data files (www.wto.org) | — |
-| `xk` | Kosovo | Gjykata Kushtetuese e Republikës së Kosovës (Constitutional Court), gjk-ks.org | Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net |
+| `ad` | [Andorra](https://ykarapazar.github.io/fontes/law/ad/) | Tribunal Constitucional del Principat d'Andorra: sentències and autes | Portal Jurídic del Principat d'Andorra (BOPA service, Govern d'Andorra / Consell General): consolidated laws and Government regulations, Consell General del Principat d'Andorra: Constitució (Catalan booklet PDF) |
+| `af` | [Afghanistan](https://ykarapazar.github.io/fontes/law/af/) | — | Ministry of Justice laws database (de facto authority) |
+| `afchpr` | [African Court on Human and Peoples' Rights](https://ykarapazar.github.io/fontes/law/afchpr/) | AJUDATA, the African Court's case database (ajudata.african-court.org) | — |
+| `al` | [Albania](https://ykarapazar.github.io/fontes/law/al/) | Gjykata e Lartë (High Court of Albania, gjykataelarte.gov.al) | Qendra e Botimeve Zyrtare (qbz.gov.al, Ministry of Justice) |
+| `am` | [Armenia](https://ykarapazar.github.io/fontes/law/am/) | ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC) | ARLIS, Armenian Legal Information System (unified official publication website; Ministry of Justice / Official Bulletin CJSC) |
+| `ar` | [Argentina](https://ykarapazar.github.io/fontes/law/ar/) | — | InfoLEG (national laws) |
+| `at` | [Austria](https://ykarapazar.github.io/fontes/law/at/) | RIS (OGH, VfGH, VwGH, BVwG, LVwG, DSB) | RIS federal law |
+| `au` | [Australia (Commonwealth)](https://ykarapazar.github.io/fontes/law/au/) | — | Federal Register of Legislation |
+| `az` | [Azerbaijan](https://ykarapazar.github.io/fontes/law/az/) | e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice) （OFF） | e-qanun.az, Unified Electronic Database of Legal Acts (Ministry of Justice) （OFF） |
+| `ba` | [Bosnia and Herzegovina](https://ykarapazar.github.io/fontes/law/ba/) | Ustavni sud Bosne i Hercegovine (ustavnisud.ba) – decisions database | Vlada Federacije BiH (fbihvlada.gov.ba) – Hronološki registar zakona (Federation laws as published), Parlamentarna skupština BiH (parlament.ba) – Ustav BiH and Prečišćeni tekstovi zakona (state level) |
+| `bb` | [Barbados](https://ykarapazar.github.io/fontes/law/bb/) | Barbados Judicial System: judgments (barbadoslawcourts.gov.bb), CCJ judgment lists and PDFs (ccj.org) | Barbados Judicial System: Consolidated Laws (barbadoslawcourts.gov.bb) |
+| `bd` | [Bangladesh](https://ykarapazar.github.io/fontes/law/bd/) | Supreme Court of Bangladesh (supremecourt.gov.bd) – Judgments and Orders | Laws of Bangladesh (bdlaws.minlaw.gov.bd), Legislative and Parliamentary Affairs Division |
+| `bg` | [Bulgaria](https://ykarapazar.github.io/fontes/law/bg/) | Конституционен съд (Constitutional Court), constcourt.bg | Народно събрание (National Assembly), parliament.bg API: Constitution and laws as adopted |
+| `bh` | [Bahrain](https://ykarapazar.github.io/fontes/law/bh/) | Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh （OFF） | Legislation and Legal Opinion Commission (هيئة التشريع والرأي القانوني), lloc.gov.bh （OFF） |
+| `bj` | [Benin](https://ykarapazar.github.io/fontes/law/bj/) | Cour constitutionnelle du Bénin: décisions (courconstitutionnelle.bj) | Secrétariat général du Gouvernement du Bénin: lois, décrets, ordonnances (sgg.gouv.bj) |
+| `bo` | [Bolivia](https://ykarapazar.github.io/fontes/law/bo/) | Tribunal Agroambiental – Buscador de Resoluciones (SISAGRO consultas) | Cámara de Diputados – Leyes Promulgadas (WP REST API), laws as promulgated, LexiVox – Bolivian legislation (constitution, laws, decree-laws, codes; unofficial) |
+| `br` | [Brazil](https://ykarapazar.github.io/fontes/law/br/) | STF (Supreme Federal Court) | normas.leg.br |
+| `bs` | [The Bahamas](https://ykarapazar.github.io/fontes/law/bs/) | Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments, Court of Appeal of The Bahamas judgments (courtofappeal.org.bs), Supreme Court of The Bahamas judgments, The Judiciary of The Bahamas (courts.bs) | Statute Law of The Bahamas, Law Reform and Revision Commission (laws.bahamas.gov.bs) |
+| `bt` | [Bhutan](https://ykarapazar.github.io/fontes/law/bt/) | — | Depository of Laws (legislation.gov.bt), Office of the Attorney General of Bhutan |
+| `bz` | [Belize](https://ykarapazar.github.io/fontes/law/bz/) | Judgments of the Senior Courts of Belize, Belize Judiciary (belizejudiciary.org), CCJ judgment lists and PDFs (ccj.org), Find Case Law, The National Archives | Laws of Belize, Attorney General's Ministry (agm.gov.bz) |
+| `ca` | [Canada (federal)](https://ykarapazar.github.io/fontes/law/ca/) | Supreme Court of Canada | Justice Laws |
+| `ccj` | [Caribbean Court of Justice](https://ykarapazar.github.io/fontes/law/ccj/) | CCJ judgment lists and PDFs (ccj.org) | — |
+| `ch` | [Switzerland (federal)](https://ykarapazar.github.io/fontes/law/ch/) | Federal Supreme Court (bger.ch) | Fedlex (SR) |
+| `ci` | [Côte d'Ivoire](https://ykarapazar.github.io/fontes/law/ci/) | Cour de cassation de Côte d'Ivoire: jurisprudence (eservices / sigcc) | Assemblée nationale de Côte d'Ivoire: lois (assnat.ci) |
+| `cl` | [Chile](https://ykarapazar.github.io/fontes/law/cl/) | — | BCN Ley Chile |
+| `cm` | [Cameroon](https://ykarapazar.github.io/fontes/law/cm/) | Cour suprême du Cameroun (coursupreme.cm) | Présidence de la République du Cameroun (prc.cm), Actes: lois, ordonnances, décrets |
+| `cn` | [China](https://ykarapazar.github.io/fontes/law/cn/) | Supreme People's Court guiding cases | — |
+| `co` | [Colombia](https://ykarapazar.github.io/fontes/law/co/) | Corte Constitucional | Función Pública – Gestor Normativo (consolidated legislation) （OFF） |
+| `cr` | [Costa Rica](https://ykarapazar.github.io/fontes/law/cr/) | — | SINALEVI – Sistema Nacional de Legislación Vigente (Procuraduría General de la República, SCIJ) |
+| `cu` | [Cuba](https://ykarapazar.github.io/fontes/law/cu/) | — | Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu), Ministerio de Justicia de Cuba (Gaceta Oficial reposts) |
+| `cv` | [Cabo Verde](https://ykarapazar.github.io/fontes/law/cv/) | Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv), Supremo Tribunal de Justiça de Cabo Verde, jurisprudência (stj.cv), JURIS CV – Jurisprudência Cabo-verdiana (Conselho Superior da Magistratura Judicial) | Tribunal Constitucional de Cabo Verde (tribunalconstitucional.cv) |
+| `cz` | [Czechia](https://ykarapazar.github.io/fontes/law/cz/) | rozhodnuti.justice.cz (lower courts) | e-Sbírka |
+| `de` | [Germany (federal)](https://ykarapazar.github.io/fontes/law/de/) | NeuRIS (federal courts, trial service) （OFF） | Gesetze im Internet |
+| `difc` | [DIFC Courts (Dubai)](https://ykarapazar.github.io/fontes/law/difc/) | DIFC Courts judgments （OFF） | — |
+| `dk` | [Denmark](https://ykarapazar.github.io/fontes/law/dk/) | — | Retsinformation |
+| `do` | [Dominican Republic](https://ykarapazar.github.io/fontes/law/do/) | Tribunal Superior Electoral – visor de sentencias (visorpdf.tse.do) | — |
+| `dz` | [Algeria](https://ykarapazar.github.io/fontes/law/dz/) | Cour constitutionnelle (and former Conseil constitutionnel) of Algeria | Journal Officiel de la République Algérienne (JORADP), Secrétariat Général du Gouvernement |
+| `ec` | [Ecuador](https://ykarapazar.github.io/fontes/law/ec/) | Corte Constitucional del Ecuador – Buscador de Sentencias (public JSON backend) and signed decision PDFs (esacc storage) | — |
+| `echr` | [European Court of Human Rights](https://ykarapazar.github.io/fontes/law/echr/) | HUDOC | — |
+| `ecowas` | [ECOWAS Community Court of Justice](https://ykarapazar.github.io/fontes/law/ecowas/) | ECOWAS Community Court of Justice website (courtecowas.org), ECOWAS Court Law Reports (CCJELR), English volumes 2004-2017 (courtecowas.org) | — |
+| `ee` | [Estonia](https://ykarapazar.github.io/fontes/law/ee/) | — | Riigi Teataja |
+| `efta` | [EFTA Court](https://ykarapazar.github.io/fontes/law/efta/) | EFTA Court judgments | — |
+| `eg` | [Egypt](https://ykarapazar.github.io/fontes/law/eg/) | المحكمة الدستورية العليا – Supreme Constitutional Court portal (judgments, full text) | — |
+| `es` | [Spain](https://ykarapazar.github.io/fontes/law/es/) | Constitutional Court only | BOE consolidated law |
+| `et` | [Ethiopia](https://ykarapazar.github.io/fontes/law/et/) | — | House of Peoples' Representatives: published laws (Federal Negarit Gazeta PDFs, hopr.gov.et) |
+| `eu` | [European Union](https://ykarapazar.github.io/fontes/law/eu/) | CELLAR (CJEU) | CELLAR (EUR-Lex) |
+| `fi` | [Finland](https://ykarapazar.github.io/fontes/law/fi/) | Finlex (KKO/KHO precedents) | Finlex open data |
+| `fr` | [France](https://ykarapazar.github.io/fontes/law/fr/) | Judilibre (Cour de cassation, via PISTE), Légifrance API (DILA, via PISTE) | Légifrance API (DILA, via PISTE) |
+| `gb` (alias `uk`) | [United Kingdom](https://ykarapazar.github.io/fontes/law/gb/) | Find Case Law (The National Archives, 2003 onward) | legislation.gov.uk |
+| `ge` | [Georgia](https://ykarapazar.github.io/fontes/law/ge/) | Courts of Georgia (2018–2020) | Matsne |
+| `gr` | [Greece](https://ykarapazar.github.io/fontes/law/gr/) | Areios Pagos | Government Gazette (FEK) （OFF） |
+| `gt` | [Guatemala](https://ykarapazar.github.io/fontes/law/gt/) | Corte de Constitucionalidad – sentencias PDF (jurisprudencia.cc.gob.gt) （部分） | — |
+| `gy` | [Guyana](https://ykarapazar.github.io/fontes/law/gy/) | CCJ judgment lists and PDFs (ccj.org) | Laws of Guyana, Ministry of Legal Affairs (mola.gov.gy) |
+| `hk` | [Hong Kong](https://ykarapazar.github.io/fontes/law/hk/) | — | Hong Kong e-Legislation (open data) |
+| `hn` | [Honduras](https://ykarapazar.github.io/fontes/law/hn/) | — | Biblioteca Virtual del Tribunal Superior de Cuentas (TSC) – laws, codes, regulations and decrees as published (PDF, mostly La Gaceta copies), ENAG – La Gaceta Digital (Diario Oficial de la República de Honduras) |
+| `hr` | [Croatia](https://ykarapazar.github.io/fontes/law/hr/) | Constitutional Court (in the gazette) | Narodne novine |
+| `ht` | [Haiti](https://ykarapazar.github.io/fontes/law/ht/) | — | Conseil Supérieur du Pouvoir Judiciaire (CSPJ): document library, Cour de cassation d'Haïti: Constitution PDF (1987 original) |
+| `hu` | [Hungary](https://ykarapazar.github.io/fontes/law/hu/) | Bírósági Határozatok Gyűjteménye | — |
+| `icj` | [International Court of Justice (ICJ)](https://ykarapazar.github.io/fontes/law/icj/) | International Court of Justice website (www.icj-cij.org): case pages and document search | International Court of Justice website (www.icj-cij.org): case pages and document search |
+| `icsid` | [ICSID (investment arbitration)](https://ykarapazar.github.io/fontes/law/icsid/) | ICSID case database | — |
+| `id` | [Indonesia](https://ykarapazar.github.io/fontes/law/id/) | — | JDIH Kementerian Sekretariat Negara (jdih.setneg.go.id) – Produk Hukum, Majelis Permusyawaratan Rakyat (www.mpr.go.id) – UUD NRI 1945 |
+| `ie` | [Ireland](https://ykarapazar.github.io/fontes/law/ie/) | — | Irish Statute Book, LRC Revised Acts |
+| `il` | [Israel](https://ykarapazar.github.io/fontes/law/il/) | — | Knesset law database; Open Law Book (Wikisource, non-official) |
+| `in` | [India](https://ykarapazar.github.io/fontes/law/in/) | Indian Supreme Court Judgments (AWS Open Data; Dattam Labs mirror of the Supreme Court's e-SCR) | Lexifina's record (not the official publisher) |
+| `iq` | [Iraq](https://ykarapazar.github.io/fontes/law/iq/) | — | Kurdistan Parliament legislation database (قاعدة التشريعات), legislation.krd (Kurdistan Region of Iraq only) |
+| `is` | [Iceland](https://ykarapazar.github.io/fontes/law/is/) | Ísland.is court rulings | — |
+| `it` | [Italy](https://ykarapazar.github.io/fontes/law/it/) | — | Normattiva |
+| `itlos` | [ITLOS (International Tribunal for the Law of the Sea)](https://ykarapazar.github.io/fontes/law/itlos/) | ITLOS case pages (www.itlos.org) | — |
+| `jm` | [Jamaica](https://ykarapazar.github.io/fontes/law/jm/) | Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments, Supreme Court of Jamaica judgments (supremecourt.gov.jm), Court of Appeal of Jamaica judgments (courtofappeal.gov.jm) | — |
+| `jo` | [Jordan](https://ykarapazar.github.io/fontes/law/jo/) | Constitutional Court of Jordan (المحكمة الدستورية), cco.gov.jo | — |
+| `jp` | [Japan](https://ykarapazar.github.io/fontes/law/jp/) | — | e-Gov 法令API |
+| `kg` | [Kyrgyzstan](https://ykarapazar.github.io/fontes/law/kg/) | Constitutional Court of the Kyrgyz Republic (constsot.kg) | — |
+| `kh` | [Cambodia](https://ykarapazar.github.io/fontes/law/kh/) | — | Council for the Development of Cambodia (CDC): Laws and Regulations |
+| `la` | [Laos](https://ykarapazar.github.io/fontes/law/la/) | — | Official Gazette of the Lao PDR (Ministry of Justice): search index （部分） |
+| `lb` | [Lebanon](https://ykarapazar.github.io/fontes/law/lb/) | المجلس الدستوري / Constitutional Council of Lebanon (cc.gov.lb) | المجلس الدستوري / Constitutional Council of Lebanon (cc.gov.lb) |
+| `li` | [Liechtenstein](https://ykarapazar.github.io/fontes/law/li/) | Fürstlicher Oberster Gerichtshof – Entscheidungen (www.ogh.li) | Lilex – Gesetzesdatenbank des Fürstentums Liechtenstein (Rechtsdienst der Regierung) |
+| `lu` | [Luxembourg](https://ykarapazar.github.io/fontes/law/lu/) | data.public.lu — Cour de cassation decisions (Administration judiciaire), yearly ZIPs of PDFs read member by member with HTTP Range | Legilux |
+| `lv` | [Latvia](https://ykarapazar.github.io/fontes/law/lv/) | E-lietas (anonymised decisions) | — |
+| `ly` | [Libya](https://ykarapazar.github.io/fontes/law/ly/) | المحكمة العليا - Supreme Court of Libya (alolya.gov.ly) | وزارة العدل - Ministry of Justice of Libya (aladel.gov.ly) |
+| `ma` | [Morocco](https://ykarapazar.github.io/fontes/law/ma/) | Constitutional Court of Morocco (cour-constitutionnelle.ma) – Decisions | Ministry of Justice legal portal Adala (adala.justice.gov.ma) |
+| `mc` | [Monaco](https://ykarapazar.github.io/fontes/law/mc/) | Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions | Legimonaco — Gouvernement Princier de Monaco (Direction des Affaires Juridiques): Constitution, codes, laws, ordinances, treaties and court decisions |
+| `md` | [Moldova](https://ykarapazar.github.io/fontes/law/md/) | Curtea Supremă de Justiție (Supreme Court of Justice), jurisprudenta.csj.md, Portalul Național al Instanțelor de Judecată (courts of appeal and district courts), instante.justice.md | Președinția Republicii Moldova: Constituția (consolidated PDF), presedinte.md |
+| `me` | [Montenegro](https://ykarapazar.github.io/fontes/law/me/) | Ustavni sud Crne Gore (ustavnisud.me) – Sudska arhiva | — |
+| `mg` | [Madagascar](https://ykarapazar.github.io/fontes/law/mg/) | Haute Cour Constitutionnelle (hcc.gov.mg) | CNLegis – Centre National LEGIS, Primature (cnlegis.gov.mg) |
+| `mm` | [Myanmar](https://ykarapazar.github.io/fontes/law/mm/) | Supreme Court of the Union: Rulings and Case Management System (rcms.usc.gov.mm) | Supreme Court of the Union: laws, procedures and amending laws (unionsupremecourt.gov.mm) |
+| `mn` | [Mongolia](https://ykarapazar.github.io/fontes/law/mn/) | shuukh.mn, electronic database of court decisions (Judicial General Council of Mongolia) | — |
+| `mt` | [Malta](https://ykarapazar.github.io/fontes/law/mt/) | — | Legislation Malta (legislation.mt), Office of the State Advocate / Legislation Unit |
+| `mu` | [Mauritius](https://ykarapazar.github.io/fontes/law/mu/) | Find Case Law, The National Archives (UK): Judicial Committee of the Privy Council judgments, Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library （OFF） | Supreme Court of Mauritius website (supremecourt.govmu.org): judgment search (subordinate courts) and legislation library, Revised Laws of Mauritius, Attorney General's Office (attorneygeneral.govmu.org), National Assembly of Mauritius (mauritiusassembly.govmu.org): Acts as passed （OFF） |
+| `mv` | [Maldives](https://ykarapazar.github.io/fontes/law/mv/) | — | MvLaw (mvlaw.gov.mv), Attorney General's Office legislation database, Government Gazette of the Maldives (gazette.gov.mv), President's Office |
+| `mz` | [Mozambique](https://ykarapazar.github.io/fontes/law/mz/) | Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page, Conselho Constitucional (cconstitucional.org.mz): acórdãos and deliberações | Tribunal Supremo (ts.gov.mz): judgments tables of the TS and the Tribunais Superiores de Recurso, and its legislation page |
+| `ng` | [Nigeria](https://ykarapazar.github.io/fontes/law/ng/) | Supreme Court of Nigeria | National Assembly of Nigeria (nass.gov.ng) – Acts as passed, Nigerian Investment Promotion Commission (nipc.gov.ng) – Acts, PLAC Laws of Nigeria (lawsofnigeria.placng.org): unrevised LFN 2004 (unofficial), FAOLEX (FAO) – Constitution of Nigeria 1999, consolidated to 2023 (PLAC print) |
+| `nl` | [Netherlands](https://ykarapazar.github.io/fontes/law/nl/) | rechtspraak.nl | wetten.overheid.nl (BWB) |
+| `no` | [Norway](https://ykarapazar.github.io/fontes/law/no/) | Supreme Court (official summaries only) | — |
+| `np` | [Nepal](https://ykarapazar.github.io/fontes/law/np/) | Nepal Kanoon Patrika (नेपाल कानून पत्रिका), Supreme Court of Nepal | — |
+| `pa` | [Panama](https://ykarapazar.github.io/fontes/law/pa/) | Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there) | Legispan – Asamblea Nacional de Panamá (texts as published in the Gaceta Oficial, including Supreme Court rulings published there) |
+| `pe` | [Peru](https://ykarapazar.github.io/fontes/law/pe/) | Tribunal Constitucional – Consulta de causas and published resolutions | El Peruano – Diario Oficial, Búsquedas (Editora Perú): norms as published, Congreso de la República – Constitución Política del Perú, edición oficial (consolidated) |
+| `ph` | [Philippines](https://ykarapazar.github.io/fontes/law/ph/) | The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO) | The LawPhil Project (lawphil.net), Arellano Law Foundation: non-official (NGO) |
+| `pk` | [Pakistan](https://ykarapazar.github.io/fontes/law/pk/) | Islamabad High Court (mis.ihc.gov.pk) – Case Law System | The Pakistan Code (pakistancode.gov.pk), Ministry of Law and Justice |
+| `pl` | [Poland](https://ykarapazar.github.io/fontes/law/pl/) | Portal Orzeczeń (common courts) | Sejm ELI API |
+| `ps` | [Palestine](https://ykarapazar.github.io/fontes/law/ps/) | Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic) | Maqam – موسوعة القوانين وأحكام المحاكم الفلسطينية (An-Najah National University, Faculty of Law) – non-official (academic) |
+| `pt` | [Portugal](https://ykarapazar.github.io/fontes/law/pt/) | DGSI, Tribunal Constitucional | PGDL (unofficial consolidations) |
+| `py` | [Paraguay](https://ykarapazar.github.io/fontes/law/py/) | Corte Suprema de Justicia – Sistema de Información de Jurisprudencia | Biblioteca y Archivo Central del Congreso Nacional (BACN) – Leyes Paraguayas |
+| `ro` | [Romania](https://ykarapazar.github.io/fontes/law/ro/) | ÎCCJ decision by id only (no search) | cdep.ro index search only (no text) |
+| `rs` | [Serbia](https://ykarapazar.github.io/fontes/law/rs/) | Vrhovni sud (Supreme Court of Serbia): Baza sudske prakse | Ustavni sud (Constitutional Court): Ustav RS i propisi |
+| `rw` | [Rwanda](https://ykarapazar.github.io/fontes/law/rw/) | Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda | Portal of Rwandan Laws and Case Laws (amategeko.gov.rw), Rwanda Law Reform Commission and Judiciary of Rwanda |
+| `sc` | [Seychelles](https://ykarapazar.github.io/fontes/law/sc/) | Judiciary of Seychelles website (judiciary.sc): Decisions from the Courts | Official Gazette of Seychelles (gazette.sc): Acts, S.I.s and Bills, Judiciary of Seychelles website (judiciary.sc): Laws of Seychelles (Constitution and main codes) |
+| `se` | [Sweden](https://ykarapazar.github.io/fontes/law/se/) | Rättspraxis (Domstolsverket) | Riksdagen (SFS) |
+| `sg` | [Singapore](https://ykarapazar.github.io/fontes/law/sg/) | SG Courts judgments （OFF） | — |
+| `si` | [Slovenia](https://ykarapazar.github.io/fontes/law/si/) | Sodna praksa | PISRS |
+| `sk` | [Slovakia](https://ykarapazar.github.io/fontes/law/sk/) | Supreme Court | Slov-Lex |
+| `sn` | [Senegal](https://ykarapazar.github.io/fontes/law/sn/) | Conseil constitutionnel du Sénégal (decisions and consolidated Constitution), JURICAF (AHJUCAF): Cour suprême decisions (unofficial) | Conseil constitutionnel du Sénégal (decisions and consolidated Constitution), Primature / Secrétariat général du Gouvernement (lois, décrets, codes), Ministère de la Justice du Sénégal (codes, lois and décrets as PDF) |
+| `sr` | [Suriname](https://ykarapazar.github.io/fontes/law/sr/) | Rechtspraak Suriname, Hof van Justitie (rechtspraak.sr) | Surinaamse wetten, De Nationale Assemblee (dna.sr) |
+| `tj` | [Tajikistan](https://ykarapazar.github.io/fontes/law/tj/) | Constitutional Court of the Republic of Tajikistan (constcourt.tj) | Constitutional Court of the Republic of Tajikistan (constcourt.tj), Official website of the President of the Republic of Tajikistan (president.tj), Базаи қонунгузории ҶТ, National Legislation Centre under the President of the Republic of Tajikistan (base.mmk.tj) |
+| `tm` | [Turkmenistan](https://ykarapazar.github.io/fontes/law/tm/) | Supreme Court of Turkmenistan (court.gov.tm) | Mejlis of Turkmenistan (mejlis.gov.tm), Supreme Court of Turkmenistan (court.gov.tm) |
+| `tr` | [Türkiye](https://ykarapazar.github.io/fontes/law/tr/) | Bedesten, Constitutional Court | Bedesten (mevzuat) |
+| `tt` | [Trinidad and Tobago](https://ykarapazar.github.io/fontes/law/tt/) | Judiciary of Trinidad and Tobago: Recent Judgments (ttlawcourts.org) and judgment PDFs (webopac.ttlawcourts.org), Find Case Law, The National Archives | Digital Legislative Library, Law Revision Commission (laws.gov.tt) |
+| `tw` | [Taiwan](https://ykarapazar.github.io/fontes/law/tw/) | Judicial Yuan (FJUD) | MOJ law texts by pcode (no search) |
+| `untc` | [UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General)](https://ykarapazar.github.io/fontes/law/untc/) | — | United Nations Treaty Collection (treaties.un.org), MTDSG status records and certified true copies |
+| `us` | [United States (federal)](https://ykarapazar.github.io/fontes/law/us/) | govinfo | US Code (uscode.house.gov) |
+| `us-states` | [United States (state courts)](https://ykarapazar.github.io/fontes/law/us-states/) | CourtListener (Free Law Project, a non-profit): opinions of state supreme and appellate courts | — |
+| `uy` | [Uruguay](https://ykarapazar.github.io/fontes/law/uy/) | BJN (Poder Judicial) | IMPO |
+| `uz` | [Uzbekistan](https://ykarapazar.github.io/fontes/law/uz/) | lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre) | lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre) |
+| `vn` | [Vietnam](https://ykarapazar.github.io/fontes/law/vn/) | Tòa án nhân dân tối cao: Trang tin điện tử về án lệ (anle.toaan.gov.vn) | Bộ Tư pháp: Cơ sở dữ liệu quốc gia về văn bản pháp luật (vbpl.vn), Cổng Thông tin điện tử Chính phủ: Hệ thống văn bản (vanban.chinhphu.vn) |
+| `wto` | [WTO dispute settlement (World Trade Organization)](https://ykarapazar.github.io/fontes/law/wto/) | WTO dispute pages and dispute data files (www.wto.org) | — |
+| `xk` | [Kosovo](https://ykarapazar.github.io/fontes/law/xk/) | Gjykata Kushtetuese e Republikës së Kosovës (Constitutional Court), gjk-ks.org | Gazeta Zyrtare e Republikës së Kosovës (Official Gazette, Office of the Prime Minister), gzk.rks-gov.net |
 <!-- coverage:end -->
 
 </details>
@@ -295,6 +313,8 @@ OFF = 該來源个條款愛有營運者个許可，所以預設係關忒个。�
 | `get_legislation_toc(jurisdiction, id, keyword?)` | 法律个架構，有條文標號。 |
 | `get_legislation_provision(jurisdiction, id, provision)` | 某一條 / 節 / 規定。 |
 | `get_legislation_text(jurisdiction, id, max_chars=60000, offset=0)` | 完整个經過整合个現行條文，做得分頁。 |
+| `get_law_on_date(provision, date="today", jurisdiction?)` | 某一條喺某一日生效个文本（過去个日期都得），附改變佢个法律。接受「Art. 1 GG」之類个引註或者路徑。來自 Lexifina 个記錄（毋係官方發布者）。 |
+| `get_law_history(provision, jurisdiction?, date_a?, date_b?)` | 改過某一條个每一條法律，或者兩个日期之間逐字个改變。來自 Lexifina 个記錄（毋係官方發布者）。 |
 | `report_bug(note?)` | 準備一份有關 Fontes 个錯誤回報。你會先看著；單淨在你確認以後正會送出去。請看 [PRIVACY.md](PRIVACY.md)。 |
 
 每一个法域个篩選條件（毋識个篩選名稱會分人拒絕，同時傳回有效名稱个清單）：
@@ -328,7 +348,7 @@ Fontes 係 stdio MCP 伺服器：由 MCP 用戶端啟動佢，你毋使自家用
 `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET`（無佢兜，法國就係關忒个：愛有一个已經訂閱
 Judilibre 同 Légifrance 个免費 piste.gouv.fr 應用程式，步驟在 `research/fr.md`），
 `WLM_PERMITTED=<codes>`（打開條款需要許可个來源，單淨在你拿著許可以後正用），
-`FONTES_NO_UPDATE_CHECK=1`。
+`FONTES_NO_UPDATE_CHECK=1`、`WLM_LEXIFINA=0`（關忒 Lexifina 个記錄：`get_law_on_date`、`get_law_history` 同透過佢讀取个 91 个國家）。
 
 </details>
 
@@ -530,7 +550,7 @@ uv run pytest tests/test_registry.py
 | il | Knesset OData (ParliamentInfo) – Israeli law database (official) (knesset.gov.il) | No licence stated; laws are not copyright-protected (Copyright Act 2007, s. 6) | 毋知 | 無寫明 | 無 | Unknown; 1 s spacing, no 429 seen in ~20 requests (2026-11) | Official law index and metadata. |
 | il | Sefer HaChukim (ספר החוקים, Reshumot) as-published PDFs on fs.knesset.gov.il (official) | No licence stated; laws are not copyright-protected (Copyright Act 2007, s. 6) | 毋知 | 無寫明 | 無 | Unknown; 1 s spacing, no 429 seen in ~25 PDF requests (2026-11); no robots.txt (404) | Volunteer-maintained consolidated text (shown as a warning); check the Knesset gazette before relying on it. No case law. |
 | il | Open Law Book (ספר החוקים הפתוח), Hebrew Wikisource – non-official (crowd-maintained, Wikimedia Foundation) (he.wikisource.org) | CC BY-SA 4.0 (Wikimedia Terms of Use s. 7) | 係 | 無寫明 | 無 | Unknown for article pages; 1 s spacing, no 429 seen (2026-11) | Consolidated text is volunteer-maintained on Wikisource, not an official version; check the Knesset gazette PDFs before relying on it. |
-| in | India Code (Legislative Department, Ministry of Law and Justice; run by NIC) (indiacode.gov.in) | Restrictive (Term of Use + Copyright Policy, both 'Last updated June 22, 2026', read 2026-11-05 from the site's JS bundle): personal, non-commercial use only; 'Not use any automated means to access the Portal for any purpose without our express written permission'; 'Use of API data requires written authorization'; 'Data obtained through APIs must not be cached, stored, or redistributed without permission'. No written permission held. Whether s. 52(1)(q) Copyright Act 1957 overrides this for the Acts: unverified | **毋係** | **毋係** | None technically (anonymous REST API), but the terms require written authorization from the Legislative Department for API/automated use | Unknown; 1 s spacing, no 429 seen in ~25 requests (2026-11-05). robots.txt returns HTTP 500 (no rules served) | robots.txt returns HTTP 500. **Off by default — needs WLM_PERMITTED=in and the operator's permission.** Whether the Copyright Act 1957 overrides this for the Acts is unverified. |
+| in | Lexifina global law record (publisher: Legislative Department, Ministry of Law and Justice (Government of India)) (github.com) | Lexifina's tools and tables CC0; the law text under each publisher's terms (see the country's LICENSE in the repository) | 毋知 | 無寫明 | 無 | 60 calls/min and 10,000/day per address, one at a time (documented 2026-11-27) | Not the official publisher. India Code's terms forbid automated access without written permission, so Fontes reads Lexifina's record of the Acts instead. |
 | in | Indian Supreme Court Judgments (AWS Open Data; Dattam Labs mirror of the Supreme Court's e-SCR) (registry.opendata.aws) | Dataset CC BY 4.0 (AWS Open Data registry, read 2026-11-10); the judgments themselves are not copyright-protected for reproduction (s. 52(1)(q)(iv) Copyright Act 1957); attribute the Supreme Court of India / e-SCR | 係 | 係 | None (public S3 bucket, no AWS account) | None documented (Amazon S3); 0.5 s spacing, no 429/503 seen in ~30 requests (2026-11-10) | S.C.R.-reported judgments only; the official copy is at scr.sci.gov.in. |
 | iq | Kurdistan Parliament legislation database (قاعدة التشريعات), legislation.krd (Kurdistan Region of Iraq only) | Unknown: no terms or copyright notice on legislation.krd (official legislative texts of the Kurdistan Region) | 毋知 | 無寫明 | 無 | Unknown; 1 s spacing, no 429 seen in ~30 requests (2026-11) | Kurdistan Region legislation only (not federal Iraqi law). Texts are as enacted; amendments are separate records. |
 | is | Ísland.is court rulings (Stafrænt Ísland; Hæstiréttur, Landsréttur, héraðsdómstólar) (island.is) | No reuse licence stated; the island.is user terms (notendaskilmálar, 2022-12-05) say nothing on reuse or automated access. Court judgments are not protected by copyright in Iceland (höfundalög nr. 73/1972, 9. gr.; unverified). API is the portal's own undocumented GraphQL (frontend code is MIT on GitHub) | 毋知 | 無寫明 | 無 | None documented; island.is has no robots.txt (404, 2026-11-05); no 429 in ~20 requests (2026-11); using 1 s spacing | No robots.txt. Undocumented GraphQL backend of the portal. |

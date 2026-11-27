@@ -4,10 +4,7 @@
 
 ## Fontes nedir?
 
-Ücretsiz, açık kaynaklı bir MCP sunucusudur (Apache 2.0). Model Context Protocol'ü konuşan her
-uygulamanın (Claude, Codex, Cursor, VS Code, Gemini CLI ve diğerleri) 120'den fazla yargı alanında ve
-uluslararası mahkemede (125 adaptör) mahkeme kararlarını ve mevzuatı mahkeme ve devlet internet
-sitelerinde canlı olarak aramasını sağlar. Her sonuç kaynağını belirtir ve asıl metne bağlantı verir.
+Ücretsiz, açık kaynaklı bir MCP sunucusudur (Apache 2.0). Model Context Protocol'ü konuşan her uygulamanın (Claude, Codex, Cursor, VS Code, Gemini CLI ve diğerleri) 125 yargı alanında ve uluslararası mahkemede mahkeme kararlarını ve mevzuatı mahkeme ve devlet internet sitelerinde canlı olarak aramasını sağlar; buna ek olarak Lexifina'nın kaydı üzerinden 91 ülke daha (aşağıya bakın). Her sonuç kaynağını belirtir ve asıl metne bağlantı verir.
 
 ## Metinler resmî mi?
 
@@ -52,9 +49,17 @@ Bundan ayrı olarak, birkaç kaynak kullanım koşullarında otomatik erişimin 
 gerektirdiğini belirtir. Bunlar OFF olarak işaretlidir ve kapalı kalır. Bir anahtar bunu
 değiştirmez; yalnızca yayıncının izni değiştirir (o durumda `WLM_PERMITTED=<codes>` ayarlayın).
 
+## Eski sürümler ve ek ülkeler nereden geliyor?
+
+[Lexifina](https://github.com/lexifina/global-law) yaklaşık 200 ülkenin hukukunu git geçmişi olarak tutar: her değişiklik, yürürlüğe girdiği güne tarihlenmiş bir commit'tir. Fontes bunu Lexifina'nın ücretsiz barındırılan sunucusu üzerinden okur. İki araç bunu kullanır: `get_law_on_date` (bir hükmün bir tarihte, geçmişte de olsa, yürürlükteki hâli ve onu en son değiştiren kanun) ve `get_law_history` (bir hükmü değiştiren her kanun ya da iki tarih arasındaki kelime kelime değişiklik). Fontes ayrıca bu yolla 91 ülke ve bölge daha okur; yalnızca mevzuat için (örneğin Güney Afrika, Kenya, Meksika, Yeni Zelanda, Rusya, Güney Kore, Belçika, Litvanya, Ukrayna, Malezya, Tayland ve Suudi Arabistan). Bunlar, resmî olarak canlı kapsanan 125 adaptörden ayrıdır; ülkeye göre kapsam çok değişir (Kenya'nın ulusal kaydı 9 kanun içerir). Hindistan'ın kanunları da Lexifina'nın kaydından gelir, çünkü India Code'un koşulları otomatik erişimi yasaklar; Yüksek Mahkeme kararları canlıdır.
+
+Lexifina resmî yayıncı değildir ve kaydı canlı değildir: Lexifina her ülkeyi zaman zaman yeniden denetler ve kendi 2026-11-26 tarihli raporu, 383 ulusal hukuk kaynağından 338'inin son 7 günde denetlenmemiş olarak sayıldığını bildirdi. Her yanıt Lexifina'yı kaynak olarak adlandırır, resmî yayıncının sayfasına bağlantı verir ve kaydın ne kadar ileri gittiğini belirtir.
+
+Lexifina, resmî hukuk metinlerinin telif hakkıyla korunmadığı görüşündedir; bu yüzden bazı ülkelerde, Fontes'in kendisinin koşullarına ya da robots.txt'ine saygı gösterdiği siteleri kopyalar. Fontes kendi getirdiği her şey için bunlara saygı göstermeye devam eder; Lexifina üzerinden gelenler Lexifina'nın kendi değerlendirmesini izler ve bu değerlendirme ülke ülke depolarında kayıtlıdır. Birkaçı kullanımı kısıtlar (Kenya'nın yayıncısı: CC BY-NC). Bu araçlar ve ülkeler için arama sözcükleriniz, atıflarınız ve tarihleriniz Lexifina'nın sunucusuna gider. Kapatmak için `WLM_LEXIFINA=0` ayarlayın. Ücretsiz sunucu IP adresi başına dakikada 60, günde 10.000 çağrıya izin verir; anahtar ya da hesap gerekmez. Fontes, Lexifina ile bağlantılı değildir.
+
 ## Bilgisayarımdan ne çıkıyor?
 
-Aramalarınız yalnızca aranan kaynağa gider. Fontes veritabanı tutmaz ve hesap gerektirmez.
+Aramalarınız yalnızca aranan kaynağa gider (Lexifina araçları ve ülkeleri için bu, Lexifina'nın sunucusudur). Fontes veritabanı tutmaz ve hesap gerektirmez.
 
 Kaynakların dışında Fontes, günde bir kez PyPI'a daha yeni bir sürüm olup olmadığını sorar
 (`FONTES_NO_UPDATE_CHECK=1` ile kapatın). Kullanım sayıları siz açmadıkça kapalıdır ve bir hata

@@ -21,6 +21,7 @@ from world_legal_mcp.base import CASELAW, LEGISLATION, Jurisdiction
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import i18n_docs  # noqa: E402
 
+PAGES = "https://ykarapazar.github.io/fontes/law/"   # one page per jurisdiction, from country_pages.py
 README = Path(__file__).resolve().parent.parent / "README.md"
 
 # --- hand-written overrides -------------------------------------------------
@@ -75,7 +76,7 @@ COV_LABEL: dict[tuple[str, str], str] = {('ar', 'legislation'): 'InfoLEG (nation
  ('icsid', 'caselaw'): 'ICSID case database',
  ('ie', 'legislation'): 'Irish Statute Book, LRC Revised Acts',
  ('il', 'legislation'): 'Knesset law database; Open Law Book (Wikisource, non-official)',
- ('in', 'legislation'): 'India Code',
+ ('in', 'legislation'): "Lexifina's record (not the official publisher)",
  ('is', 'caselaw'): 'Ísland.is court rulings',
  ('it', 'legislation'): 'Normattiva',
  ('jp', 'legislation'): 'e-Gov 法令API',
@@ -195,9 +196,7 @@ CELL: dict[tuple[str, int], dict[str, str]] = {('ar', 0): {'notes': 'Credit "Inf
  ('il', 0): {'notes': 'Official law index and metadata.'},
  ('il', 1): {'notes': 'Volunteer-maintained consolidated text (shown as a warning); check the '
                       'Knesset gazette before relying on it. No case law.'},
- ('in', 0): {'notes': 'robots.txt returns HTTP 500. **Off by default — needs WLM_PERMITTED=in and '
-                      "the operator's permission.** Whether the Copyright Act 1957 overrides this "
-                      'for the Acts is unverified.'},
+ ('in', 0): {'notes': "Not the official publisher. India Code's terms forbid automated access without written permission, so Fontes reads Lexifina's record of the Acts instead."},
  ('is', 0): {'notes': 'No robots.txt. Undocumented GraphQL backend of the portal.'},
  ('it', 0): {'source': 'Normattiva open data (dati/api.normattiva.it)'},
  ('lu', 0): {'notes': 'data.legilux.public.lu robots.txt disallows /eli/* and /filestore/*; files '
@@ -289,6 +288,8 @@ def coverage_rows(L: dict[str, str] | None = None) -> list[str]:
     rows = ["| " + " | ".join(L[f"readme_col_{c}"] for c in ("code", "jurisdiction", "caselaw", "legislation"))
             + " |", "|---|---|---|---|"]
     for j in registry.available():
+        if getattr(j, "via_lexifina", False):
+            continue
         cells = []
         for kind, methods in (("caselaw", CASELAW), ("legislation", LEGISLATION)):
             status = _status(j, methods)
@@ -306,7 +307,7 @@ def coverage_rows(L: dict[str, str] | None = None) -> list[str]:
             continue
         rows.append("| " + " | ".join([
             CODE_LABEL.get(j.code, f"`{j.code}`"),
-            _cell(JUR_NAME.get(j.code, j.name)),
+            f"[{_cell(JUR_NAME.get(j.code, j.name))}]({PAGES}{j.code}/)",
             *(_cell(c) if c else "—" for c in cells)]) + " |")
     return rows
 
@@ -337,6 +338,8 @@ def source_rows(L: dict[str, str] | None = None) -> list[str]:
     rows = ["| " + " | ".join(L[f"readme_col_{c}"] for c in ("country",) + COLS) + " |",
             "|---|---|---|---|---|---|---|---|"]
     for j in registry.available():
+        if getattr(j, "via_lexifina", False):
+            continue
         for i, s in enumerate(j.sources):
             c = generated_cells(j, s, L) | CELL.get((j.code, i), {})
             if s.needs_permission and "WLM_PERMITTED" not in c["notes"]:

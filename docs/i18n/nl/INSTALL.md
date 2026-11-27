@@ -3,7 +3,7 @@
 # Fontes installeren
 
 Met Fontes kan uw AI-app rechterlijke uitspraken en wetgeving live opzoeken op websites van
-gerechten en overheden in meer dan 120 rechtsstelsels. Elk resultaat linkt naar het origineel. Het
+gerechten en overheden in 125 rechtsstelsels. Elk resultaat linkt naar het origineel. Het
 is een standaard MCP-server en werkt dus in elke app die een lokale MCP-server kan draaien: Claude
 Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio,
 Cline en andere.

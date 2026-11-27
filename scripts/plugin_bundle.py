@@ -63,7 +63,7 @@ def files() -> dict[Path, str]:
     market = {
         "name": "fontes-legal",
         "owner": {"name": FACTS["author"]["name"]},
-        "description": "Fontes: live case law and legislation from official sources.",
+        "description": "Fontes: live case law and legislation from court and government websites.",
         "plugins": [{"name": "fontes", "source": "./plugin", "description": FACTS["description"],
                      "category": "research"}],
     }

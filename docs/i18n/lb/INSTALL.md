@@ -3,7 +3,7 @@
 # Fontes installéieren
 
 Mat Fontes kann Är KI-App Geriichtsentscheedungen a Gesetzgebung live op de Websäite vu
-Geriichter a Regierungen a méi wéi 120 Rechtsuerdnungen nokucken. All Resultat verlinkt op
+Geriichter a Regierungen a 125 Rechtsuerdnungen nokucken. All Resultat verlinkt op
 d'Original. Et ass e Standard-MCP-Server a funktionéiert dofir an all App, déi e lokale MCP-Server
 lafe loosse kann: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline an anerer.

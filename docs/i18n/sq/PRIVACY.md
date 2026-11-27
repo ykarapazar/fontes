@@ -3,7 +3,7 @@
 # Njoftimi i privatësisë i Fontes
 
 Fontes funksionon në kompjuterin tuaj. Kërkimet tuaja dhe dokumentet që hapni mbeten mes
-kompjuterit tuaj, burimeve zyrtare ku kërkoni dhe aplikacionit të AI-së që përdorni (sipas kushteve
+kompjuterit tuaj, burimeve ku kërkoni (zyrtare, plus CourtListener dhe Lexifina aty ku i përdorni, shihni më poshtë) dhe aplikacionit të AI-së që përdorni (sipas kushteve
 të vetë atij aplikacioni). Vetë Fontes nuk u dërgon zhvilluesve të Fontes **asgjë si parazgjedhje**.
 
 ## Çfarë mund të dalë nga kompjuteri juaj, dhe kur
@@ -39,6 +39,8 @@ thirrjes së fundit të dështuar të një mjeti (me fjalët tuaja të kërkimit
 hequr), dhe një shënim nëse shkruani një të tillë. Mos vendosni të dhëna të klientëve në shënim. Për
 këtë qëllim, Fontes ruan gabimin e fundit në kompjuterin tuaj (`last-error.json` në dosjen e tij
 cache, që zëvendësohet çdo herë); ai nuk dërgohet kurrë më vete.
+
+**4. Lexifina (aktiv si parazgjedhje).** `get_law_on_date`, `get_law_history`, 91 vendet dhe aktet e Indisë lexohen përmes regjistrit të ligjit të Lexifina, prandaj shkojnë te Lexifina po ashtu si te faqja zyrtare, ose në vend të saj. Fjalët tuaja të kërkimit, citimet dhe datat shkojnë te serveri falas i Lexifina, `global-law.lexifina.com`, që drejtohet nga Lexifina, jo nga zhvilluesit e Fontes. Lexifina dokumenton se serveri i saj regjistron cilin mjet u thirr dhe sa zgjati, kurrë atë që u pyet; Fontes nuk mund ta kontrollojë këtë, dhe zbatohen kushtet e vetë Lexifina. Lexifina sheh adresën tuaj IP, si çdo server web. Për ta çaktivizuar plotësisht Lexifina, vendosni `WLM_LEXIFINA=0`; ato dy mjete dhe vendet atëherë nuk funksionojnë më, dhe asgjë nuk dërgohet atje.
 
 ## Ku shkon dhe sa kohë ruhet
 

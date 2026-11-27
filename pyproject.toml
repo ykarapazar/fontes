@@ -1,13 +1,13 @@
 [project]
 name = "fontes-mcp"
 version = "0.1.3"
-description = "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original."
+description = "Court decisions and legislation from government and court websites in 125 jurisdictions, fetched live, with a link to the original. Past versions of laws and 91 more countries come from Lexifina's record (not the official publisher)."
 dynamic = ["readme"]
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
 requires-python = ">=3.13"
 authors = [{ name = "Yüce Karapazar" }]
-keywords = ["mcp", "model-context-protocol", "case-law", "legislation", "legal-research", "claude"]
+keywords = ["mcp", "mcp-server", "model-context-protocol", "case-law", "legislation", "legal-research", "legal", "law", "legal-tech", "court-decisions", "statutes", "claude"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Legal Industry",

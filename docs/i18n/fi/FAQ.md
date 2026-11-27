@@ -6,8 +6,8 @@
 
 Maksuton avoimen lähdekoodin MCP-palvelin (Apache 2.0). Sen avulla mikä tahansa Model Context
 Protocolia käyttävä sovellus (Claude, Codex, Cursor, VS Code, Gemini CLI ja muut) voi hakea tuomioistuinten ratkaisuja ja
-lainsäädäntöä reaaliajassa tuomioistuinten ja viranomaisten verkkosivustoilta yli 120 lainkäyttöalueelta ja kansainvälisistä
-tuomioistuimista (125 sovitinta). Jokainen tulos nimeää lähteensä ja linkittää alkuperäiseen.
+lainsäädäntöä reaaliajassa tuomioistuinten ja viranomaisten verkkosivustoilta 125 lainkäyttöalueelta ja kansainvälisistä
+tuomioistuimista sekä 91 muusta maasta Lexifinan tietueen kautta (katso alla). Jokainen tulos nimeää lähteensä ja linkittää alkuperäiseen.
 
 ## Ovatko tekstit virallisia?
 
@@ -53,10 +53,32 @@ Lisäksi muutama lähde ilmoittaa käyttöehdoissaan, että automaattinen käytt
 lupaa. Ne on merkitty OFF ja pysyvät pois päältä. Avain ei muuta tätä; vain
 julkaisijan lupa muuttaa (aseta silloin `WLM_PERMITTED=<codes>`).
 
+## Mistä lakien aiemmat versiot ja lisämaat tulevat?
+
+Ne tulevat [Lexifinasta](https://github.com/lexifina/global-law), joka ylläpitää noin 200 maan lakia git-historiana: jokainen muutos on commit,
+joka on päivätty sinä päivänä, jona muutos astui voimaan. Fontes lukee sitä Lexifinan maksuttoman isännöidyn palvelimen kautta.
+Kaksi työkalua käyttää sitä: `get_law_on_date` (säännös voimassa olevana päivänä, myös menneenä, ja laki, joka sitä viimeksi muutti)
+ja `get_law_history` (jokainen laki, joka muutti säännöstä, tai sanatason muutos kahden päivämäärän välillä). Fontes lukee tätä
+kautta myös 91 muuta maata ja aluetta, pelkkää lainsäädäntöä (esimerkiksi Etelä-Afrikka, Kenia, Meksiko, Uusi-Seelanti, Venäjä,
+Etelä-Korea, Belgia, Liettua, Ukraina, Malesia, Thaimaa ja Saudi-Arabia). Ne ovat erillään 125 sovittimesta, joilla on elävä
+virallinen kattavuus, ja kattavuus vaihtelee maittain paljon (Kenian kansallisessa tietueessa on 9 lakia). Intian lait tulevat
+myös Lexifinan tietueesta, koska India Coden käyttöehdot kieltävät automaattisen käytön; sen korkeimman oikeuden tuomiot ovat elävinä.
+
+Lexifina ei ole virallinen julkaisija, eikä sen tietue ole elävä: Lexifina tarkistaa maat aika ajoin, ja sen oma raportti
+(2026-11-26) laski 383 kansallisesta lakikokonaisuudesta 338 sellaiseksi, joita ei ollut tarkistettu viimeisen seitsemän päivän
+aikana. Jokainen vastaus nimeää Lexifinan lähteeksi, linkittää virallisen julkaisijan sivun ja kertoo, kuinka pitkälle tietue ulottuu.
+
+Lexifina katsoo, että viralliset oikeudelliset tekstit eivät ole tekijänoikeuden suojaamia, joten joissakin maissa se kopioi
+sivustoja, joiden käyttöehtoja tai robots.txt-tiedostoa Fontes itse kunnioittaa. Fontes kunnioittaa niitä edelleen kaikessa,
+minkä se itse hakee; Lexifinan kautta tuleva noudattaa Lexifinan omaa harkintaa, joka on kirjattu maittain sen repositorioihin.
+Muutamat rajoittavat käyttöä (Kenian julkaisijan aineisto: CC BY-NC). Hakusanasi, viittauksesi ja päivämäärät menevät näihin
+kohdistuviin hakuihin Lexifinan palvelimelle. Voit kytkeä sen pois asettamalla `WLM_LEXIFINA=0`. Avainta tai tiliä ei tarvita;
+maksuton palvelin sallii 60 kutsua minuutissa ja 10 000 päivässä internet-osoitetta kohden. Fontes ei ole yhteydessä Lexifinaan.
+
 ## Mitä tietokoneeltani lähtee?
 
-Hakusi menevät vain haettavaan lähteeseen. Fontes ei ylläpidä tietokantaa eikä tarvitse
-käyttäjätiliä.
+Hakusi menevät vain haettavaan lähteeseen (Lexifinan työkalujen ja maiden osalta se on Lexifinan palvelin). Fontes ei ylläpidä
+tietokantaa eikä tarvitse käyttäjätiliä.
 
 Lähteiden lisäksi Fontes kysyy PyPI:ltä kerran päivässä, onko uudempaa versiota (pois päältä
 asetuksella `FONTES_NO_UPDATE_CHECK=1`). Käyttömäärät ovat pois päältä, ellet ota niitä käyttöön, ja virheraportti

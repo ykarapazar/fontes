@@ -157,7 +157,6 @@ CourtListener は [Free Law Project](https://free.law) が運営しています�
 | `de` | ドイツ: NeuRIS（連邦法情報ポータル、試験運用サービス） |
 | `difc` | ドバイ国際金融センター裁判所（difccourts.ae） |
 | `gr` | ギリシャ: 国立印刷局、官報検索（search.et.gr） |
-| `in` | インド: India Code（indiacode.gov.in） |
 | `mu` | モーリシャス: 最高裁判所（supremecourt.govmu.org） |
 | `sg` | シンガポール: 裁判所の判決（elitigation.sg） |
 

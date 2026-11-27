@@ -166,7 +166,6 @@ at tilføje dens kode, adskilt med kommaer, til `WLM_PERMITTED` i `env`-blokken:
 | `de` | Tyskland: NeuRIS (føderal portal for juridisk information, testtjeneste) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grækenland: Statstrykkeriet, søgning i lovtidenden (search.et.gr) |
-| `in` | Indien: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: domstolenes domme (elitigation.sg) |
 

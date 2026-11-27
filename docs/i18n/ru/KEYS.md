@@ -168,7 +168,6 @@ CourtListener ведёт [Free Law Project](https://free.law), некоммер�
 | `de` | Германия: NeuRIS (федеральный портал правовой информации, пробный сервис) |
 | `difc` | Суды Дубайского международного финансового центра (difccourts.ae) |
 | `gr` | Греция: Национальная типография, поиск по Правительственному вестнику (search.et.gr) |
-| `in` | Индия: India Code (indiacode.gov.in) |
 | `mu` | Маврикий: Верховный суд (supremecourt.govmu.org) |
 | `sg` | Сингапур: судебные решения (elitigation.sg) |
 

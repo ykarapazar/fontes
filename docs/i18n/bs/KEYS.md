@@ -158,7 +158,6 @@ u `WLM_PERMITTED`, odvojeno zarezima, u bloku `env`: `"WLM_PERMITTED": "in,de"`.
 | `de` | Njemačka: NeuRIS (savezni portal pravnih informacija, probna usluga) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grčka: National Printing Office, pretraga Government Gazette (search.et.gr) |
-| `in` | Indija: India Code (indiacode.gov.in) |
 | `mu` | Mauricijus: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: sudske presude (elitigation.sg) |
 

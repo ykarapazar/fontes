@@ -3,7 +3,7 @@
 # Politique de confidentialité de Fontes
 
 Fontes s'exécute sur votre ordinateur. Vos recherches et les documents que vous ouvrez restent
-entre votre ordinateur, les sources officielles que vous interrogez et l'application d'IA que vous utilisez
+entre votre ordinateur, les sources que vous interrogez (officielles, plus CourtListener et Lexifina lorsque vous les utilisez, voir ci-dessous) et l'application d'IA que vous utilisez
 (selon les propres conditions de cette application). Fontes lui-même n'envoie aux développeurs de Fontes
 **rien par défaut**.
 
@@ -40,6 +40,8 @@ dernier appel d'outil en échec (vos termes de recherche et identifiants en éta
 en rédigez une. Ne mettez pas d'informations sur vos clients dans la note. Pour permettre cela, Fontes conserve
 la dernière erreur sur votre ordinateur (`last-error.json` dans son dossier cache, remplacé à chaque fois) ;
 elle n'est jamais envoyée seule.
+
+**4. Lexifina (activé par défaut).** `get_law_on_date`, `get_law_history`, les 91 pays et les lois indiennes sont lus via le registre de Lexifina : ils passent donc par Lexifina, en plus du site officiel ou à sa place. Vos termes de recherche, citations et dates sont envoyés au serveur gratuit de Lexifina, `global-law.lexifina.com`, qui est géré par Lexifina et non par les développeurs de Fontes. Lexifina indique que son serveur consigne le nom de l'outil appelé et sa durée, jamais ce qui a été demandé ; Fontes ne peut pas le vérifier, et les conditions propres à Lexifina s'appliquent. Lexifina voit votre adresse IP, comme tout serveur web. Pour désactiver complètement Lexifina, définissez `WLM_LEXIFINA=0` ; ces deux outils et ces pays cessent alors de fonctionner et rien n'est envoyé là-bas.
 
 ## Où cela va et combien de temps c'est conservé
 

@@ -3,7 +3,7 @@
 # Obavještenje o privatnosti za Fontes
 
 Fontes radi na vašem računaru. Vaše pretrage i dokumenti koje otvarate ostaju između vašeg
-računara, zvaničnih izvora koje pretražujete i AI aplikacije koju koristite (prema vlastitim
+računara, izvora koje pretražujete (zvanični, plus CourtListener i Lexifina gdje ih koristite, vidi niže) i AI aplikacije koju koristite (prema vlastitim
 uslovima te aplikacije). Sam Fontes programerima projekta Fontes **zadano ne šalje ništa**.
 
 ## Šta može napustiti vaš računar i kada
@@ -39,6 +39,13 @@ poziva alata (s uklonjenim vašim riječima pretrage i identifikatorima) te napo
 napišete. Ne unosite podatke o klijentima u napomenu. Da bi ovo bilo moguće, Fontes čuva
 posljednju grešku na vašem računaru (`last-error.json` u svojoj keš mapi, zamjenjuje se svaki
 put); ona se nikada ne šalje sama.
+
+**4. Lexifina (zadano uključena).** `get_law_on_date`, `get_law_history`, 91 zemlja i indijski zakoni čitaju se iz Lexifina zapisa o zakonima, pa idu Lexifini uz zvanične stranice ili umjesto njih. Vaše riječi za pretragu, citati i datumi idu na besplatni
+server Lexifina, `global-law.lexifina.com`, koji vodi Lexifina, a ne programeri Fontesa. Lexifina navodi u
+dokumentaciji da njen server bilježi koji je alat pozvan i koliko je poziv trajao, nikada šta je traženo;
+Fontes to ne može provjeriti, a važe i uslovi korištenja samog Lexifina. Lexifina vidi vašu IP adresu, kao i
+svaki web server. Da Lexifinu potpuno isključite, postavite `WLM_LEXIFINA=0`; ta dva alata i te zemlje tada
+prestaju raditi i ništa se ne šalje tamo.
 
 ## Kamo podaci idu i koliko dugo se čuvaju
 

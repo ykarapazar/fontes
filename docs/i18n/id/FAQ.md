@@ -6,8 +6,8 @@
 
 Server MCP gratis dan bersumber terbuka (Apache 2.0). Fontes memungkinkan aplikasi apa pun yang menggunakan
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI, dan lainnya) mencari putusan pengadilan
-dan peraturan perundang-undangan secara langsung di situs web pengadilan dan pemerintah di 120+ yurisdiksi
-dan pengadilan internasional (125 adapter). Setiap hasil menyebutkan sumbernya dan menautkan ke dokumen aslinya.
+dan peraturan perundang-undangan secara langsung di situs web pengadilan dan pemerintah di 125 yurisdiksi
+dan pengadilan internasional, ditambah 91 negara lain melalui catatan Lexifina (lihat di bawah). Setiap hasil menyebutkan sumbernya dan menautkan ke dokumen aslinya.
 
 ## Apakah teksnya resmi?
 
@@ -54,9 +54,17 @@ Secara terpisah, beberapa sumber menyatakan dalam ketentuannya bahwa akses otoma
 penerbit. Sumber tersebut ditandai OFF dan tetap nonaktif. Kunci tidak mengubah hal itu; hanya izin
 penerbit yang dapat mengubahnya (lalu tetapkan `WLM_PERMITTED=<codes>`).
 
+## Dari mana asal versi lama dan negara-negara tambahan?
+
+Dari [Lexifina](https://github.com/lexifina/global-law), yang menyimpan hukum dari sekitar 200 negara sebagai riwayat git: setiap perubahan adalah commit yang bertanggal hari perubahan itu berlaku. Fontes membacanya melalui server hosting gratis milik Lexifina. Dua alat menggunakannya: `get_law_on_date` (sebuah ketentuan sebagaimana berlaku pada suatu tanggal, juga pada masa lampau, beserta undang-undang yang terakhir mengubahnya) dan `get_law_history` (setiap undang-undang yang mengubah sebuah ketentuan, atau perubahan kata demi kata di antara dua tanggal). Fontes juga membaca 91 negara dan wilayah lain dengan cara ini, khusus peraturan perundang-undangan (misalnya Afrika Selatan, Kenya, Meksiko, Selandia Baru, Rusia, Korea Selatan, Belgia, Lituania, Ukraina, Malaysia, Thailand dan Arab Saudi). Negara-negara itu terpisah dari 125 adapter dengan cakupan resmi langsung, dan cakupan tiap negara sangat bervariasi (catatan nasional Kenya memuat 9 undang-undang). Undang-undang India juga berasal dari catatan Lexifina, karena ketentuan India Code melarang akses otomatis; putusan Mahkamah Agung India bersifat langsung.
+
+Lexifina bukan penerbit resmi, dan catatannya tidak bersifat langsung: Lexifina memeriksa ulang setiap negara dari waktu ke waktu, dan laporannya sendiri pada 2026-11-26 mencatat 338 dari 383 kumpulan hukum nasional tidak diperiksa dalam 7 hari terakhir. Setiap jawaban menyebutkan Lexifina sebagai sumber, menautkan halaman penerbit resmi, dan menyatakan sejauh mana catatan itu mencakup.
+
+Lexifina berpendapat bahwa teks hukum resmi tidak dilindungi hak cipta, sehingga di sebagian negara ia menyalin situs yang ketentuan atau robots.txt-nya dihormati Fontes sendiri. Fontes tetap menghormatinya untuk semua yang diambilnya sendiri; apa yang datang melalui Lexifina mengikuti pertimbangan Lexifina sendiri, yang dicatat per negara dalam repositorinya. Beberapa membatasi penggunaan (penerbit Kenya: CC BY-NC). Kata pencarian, kutipan dan tanggal Anda dikirim ke server Lexifina untuk ini. Tetapkan `WLM_LEXIFINA=0` untuk mematikannya. Server gratis mengizinkan 60 panggilan per menit dan 10.000 per hari per alamat internet; tanpa kunci atau akun. Fontes tidak berafiliasi dengan Lexifina.
+
 ## Apa yang keluar dari komputer saya?
 
-Pencarian Anda hanya dikirim ke sumber yang sedang dicari. Fontes tidak menyimpan basis data dan tidak
+Pencarian Anda hanya dikirim ke sumber yang sedang dicari (untuk alat dan negara Lexifina, itu adalah server Lexifina). Fontes tidak menyimpan basis data dan tidak
 memerlukan akun.
 
 Selain ke sumber-sumber tersebut, Fontes menanyakan kepada PyPI sekali sehari apakah ada versi yang lebih

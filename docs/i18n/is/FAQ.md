@@ -6,8 +6,8 @@
 
 Ókeypis MCP-þjónn með opnum hugbúnaði (Apache 2.0). Hann gerir hvaða forriti sem talar Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI og fleirum) kleift að leita í dómum og
-löggjöf í rauntíma á vefsíðum dómstóla og stjórnvalda í meira en 120 lögsögum og alþjóðlegum
-dómstólum (125 millistykki). Hver niðurstaða nefnir heimild sína og tengir á frumritið.
+löggjöf í rauntíma á vefsíðum dómstóla og stjórnvalda í 125 lögsögum og alþjóðlegum
+dómstólum, auk 91 lands til viðbótar úr skrá Lexifina (sjá hér að neðan). Hver niðurstaða nefnir heimild sína og tengir á frumritið.
 
 ## Eru textarnir opinberir?
 
@@ -53,9 +53,17 @@ Að auki segja nokkrar heimildir í skilmálum sínum að sjálfvirkur aðgangur
 útgefandans. Þær eru merktar OFF og haldast óvirkar. Lykill breytir því ekki; aðeins
 leyfi útgefandans gerir það (stilltu þá `WLM_PERMITTED=<codes>`).
 
+## Hvaðan koma fyrri útgáfur og aukalöndin?
+
+Frá [Lexifina](https://github.com/lexifina/global-law), sem geymir lög um það bil 200 landa sem git-sögu: hver breyting er færsla dagsett þeim degi sem hún tók gildi. Fontes les hana í gegnum ókeypis hýsta þjón Lexifina. Tvö verkfæri nota hana: `get_law_on_date` (ákvæði eins og það var í gildi á dagsetningu, líka í fortíðinni, ásamt lögunum sem breyttu því síðast) og `get_law_history` (sérhver lög sem breyttu ákvæði, eða breytingin orð fyrir orð milli tveggja dagsetninga). Fontes les einnig 91 land og landsvæði til viðbótar á þennan hátt, aðeins fyrir löggjöf (til dæmis Suður-Afríku, Kenía, Mexíkó, Nýja-Sjáland, Rússland, Suður-Kóreu, Belgíu, Litháen, Úkraínu, Malasíu, Taíland og Sádi-Arabíu). Þau eru aðskilin frá 125 lögsögunum með opinberri umfjöllun í rauntíma, og umfang eftir landi er mjög misjafnt (landsskrá Kenía geymir 9 lög). Lög Indlands koma einnig úr skrá Lexifina, því skilmálar India Code banna sjálfvirkan aðgang; dómar Hæstaréttar Indlands eru í rauntíma.
+
+Lexifina er ekki opinber útgefandi og skrá hennar er ekki í rauntíma: Lexifina athugar hvert land öðru hverju, og eigin skýrsla hennar frá 2026-11-26 taldi 338 af 383 landsbundnum lagaheildum ekki athugaðar síðustu 7 daga. Hvert svar nefnir Lexifina sem heimild, tengir á síðu opinbera útgefandans og segir hversu langt skráin nær.
+
+Lexifina telur að opinberir lagatextar séu ekki verndaðir af höfundarrétti, og því afritar hún í sumum löndum vefsíður, en skilmálum eða robots.txt þeirra fylgir Fontes sjálft. Fontes virðir enn robots.txt og skilmála fyrir allt sem það sækir sjálft; það sem kemur í gegnum Lexifina fylgir eigin mati Lexifina, skráð fyrir hvert land í geymslum hennar. Sumir útgefendur takmarka notkun (útgefandi Kenía: CC BY-NC). Leitarorð þín, tilvitnanir og dagsetningar fara til netþjóns Lexifina fyrir þetta. Stilltu `WLM_LEXIFINA=0` til að slökkva á því. Ókeypis þjónninn leyfir 60 köll á mínútu og 10.000 á dag á hverja IP-tölu; enginn lykill né aðgangur. Fontes er ekki tengt Lexifina.
+
 ## Hvað fer frá tölvunni minni?
 
-Leitir þínar fara aðeins til heimildarinnar sem leitað er í. Fontes heldur engan gagnagrunn og þarf engan
+Leitir þínar fara aðeins til heimildarinnar sem leitað er í (fyrir verkfæri og lönd Lexifina er það netþjónn Lexifina). Fontes heldur engan gagnagrunn og þarf engan
 aðgang.
 
 Auk heimildanna spyr Fontes PyPI einu sinni á dag hvort nýrri útgáfa sé til (slökkt

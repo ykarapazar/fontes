@@ -170,7 +170,6 @@ rendelkezik, kapcsolja be a forrást úgy, hogy a kódját vesszővel elválaszt
 | `de` | Németország: NeuRIS (szövetségi jogi információs portál, próbaüzem) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Görögország: Nemzeti Nyomda, a Kormányzati Közlöny keresője (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Legfelsőbb Bíróság (supremecourt.govmu.org) |
 | `sg` | Szingapúr: bírósági ítéletek (elitigation.sg) |
 

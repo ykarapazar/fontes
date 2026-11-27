@@ -154,7 +154,6 @@ CourtListener ត្រូវបានគ្រប់គ្រងដោយ [Free
 | `de` | អាល្លឺម៉ង់៖ NeuRIS (វិបផតថលព័ត៌មានច្បាប់សហព័ន្ធ សេវាកម្មសាកល្បង) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | ក្រិក៖ National Printing Office ការស្វែងរក Government Gazette (search.et.gr) |
-| `in` | ឥណ្ឌា៖ India Code (indiacode.gov.in) |
 | `mu` | ម៉ូរីស៖ Supreme Court (supremecourt.govmu.org) |
 | `sg` | សិង្ហបុរី៖ សាលក្រមរបស់តុលាការ (elitigation.sg) |
 

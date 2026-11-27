@@ -173,7 +173,6 @@ schalten Sie eine Quelle ein, indem Sie ihren Code durch Kommas getrennt zu `WLM
 | `de` | Deutschland: NeuRIS (Rechtsinformationsportal des Bundes, Testbetrieb) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Griechenland: Nationale Druckerei, Suche im Regierungsanzeiger (search.et.gr) |
-| `in` | Indien: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: Gerichtsentscheidungen (elitigation.sg) |
 

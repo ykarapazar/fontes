@@ -3,7 +3,7 @@
 # Fontes privacidad yatiyäwi
 
 Fontes ukax computadoramanw irnaqi. Thaqäwinakamas, jist'arkta uka qillqatanakas
-computadoramana, thaqkta uka oficial jalsuna, apnaqkta uka IA aplicaciona (uka aplicacionan
+computadoramana, thaqkta uka jalsunaka (oficialanakampi, ukat CourtListener ukat Lexifina apnaqkta uka chiqanakan, qhipaxa uñjam), apnaqkta uka IA aplicaciona (uka aplicacionan
 pachpa condicionanakapampi) taypinkakiwa. Fontes pachpax Fontes luririnakar **nayratpach
 janiw kuns** apaykiti.
 
@@ -41,6 +41,14 @@ sutipa, pantjat yatiyäwipa (thaqañ arunakamas identificadoranakas apsutawa), u
 qillqat qillqsta ukhaxa ukasa. Uka qillqatan clientenakam tuqit yatiyäwinak jan uchamti.
 Akar yanapt'añataki, Fontes ukax qhipa pantjasïw computadoraman imi (`last-error.json`
 caché carpetana, sapa kutiw lantisi); janipuniw pachpat apayaskiti.
+
+**4. Lexifina (nayratpach utji).** `get_law_on_date`, `get_law_history`, 91 markanakax ukat India ukan kamachinakax Lexifina ukan qillqatap liyt'atarakiwa, ukatwa Lexifina ukar sarapxi, oficial web sitio ukat ukhamarak, jan ukax ukat sipansa. Thaqañ arunakamax, citas
+ukanakamax ukat urunakamax Lexifina ukan jan pagani servidorar sarapxi, `global-law.lexifina.com`,
+Lexifina lurat, Fontes luririnakat janiw. Lexifina uñacht'ayi: servidorax kuna tool mayt'ata ukat
+mayt'ata ch'ama pacha ukanak qillqi, janiw kuns thaqat uk qillqkiti. Fontes janiw uk uñakipkti;
+Lexifina ukan pachpa términos ukax katuqatäpxi. Lexifina ukax IP direccionam uñji, sapa web servidor
+ukhama. Lexifina taqi kuna jiwt'ayañataki `WLM_LEXIFINA=0` uchañam; ukhamaxa ukat tools ukat markanakax
+janiw irnaqkiti, ni kuna ukar sarkiti.
 
 ## Kawkirus saraski, qhawqa pachas imasi
 

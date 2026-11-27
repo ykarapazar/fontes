@@ -3,7 +3,7 @@
 # Fontes məxfilik bildirişi
 
 Fontes sizin kompüterinizdə işləyir. Axtarışlarınız və açdığınız sənədlər kompüteriniz, axtarış
-apardığınız rəsmi mənbələr və istifadə etdiyiniz süni intellekt proqramı (həmin proqramın öz
+apardığınız mənbələr (rəsmi olanlar, habelə istifadə etdiyiniz yerdə CourtListener və Lexifina; aşağıya bax) və istifadə etdiyiniz süni intellekt proqramı (həmin proqramın öz
 şərtləri çərçivəsində) arasında qalır. Fontes-in özü Fontes tərtibatçılarına **defolt olaraq heç
 nə göndərmir**.
 
@@ -40,6 +40,8 @@ xəta mesajını (axtarış sözləriniz və identifikatorlar çıxarılmaqla), 
 qeydi ehtiva edir. Qeydə müştəri məlumatlarını yazmayın. Bunu dəstəkləmək üçün Fontes son xətanı
 kompüterinizdə saxlayır (keş qovluğunda `last-error.json`, hər dəfə əvəz olunur); o, heç vaxt
 ayrılıqda göndərilmir.
+
+**4. Lexifina (defolt olaraq yanılı).** `get_law_on_date`, `get_law_history`, 91 ölkə və Hindistan qanunları Lexifina-nın qanun qeydi ilə oxunur, ona görə də rəsmi saytla birlikdə və ya onun əvəzinə Lexifina-ya gedir. Axtarış sözləriniz, sitatlarınız və tarixləriniz Lexifina-nın pulsuz serverinə, `global-law.lexifina.com`-a gedir; bu server Fontes tərtibatçıları tərəfindən yox, Lexifina tərəfindən idarə olunur. Lexifina sənədləşdirir ki, onun serveri hansı alətin çağırıldığını və nə qədər çəkdiyini loglayır, heç vaxt nəyin soruşulduğunu yox; Fontes bunu yoxlaya bilmir və Lexifina-nın öz şərtləri tətbiq olunur. Lexifina hər veb server kimi IP ünvanınızı görür. Lexifina-nı tamamilə söndürmək üçün `WLM_LEXIFINA=0` təyin edin; o zaman həmin iki alət və ölkələr işləməyi dayandırır və oraya heç nə göndərilmir.
 
 ## Hara gedir və nə qədər saxlanılır
 

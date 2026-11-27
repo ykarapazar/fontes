@@ -3,8 +3,8 @@
 # Obvestilo o zasebnosti orodja Fontes
 
 Fontes deluje v vašem računalniku. Vaša iskanja in dokumenti, ki jih odprete, ostanejo med vašim
-računalnikom, uradnimi viri, ki jih preiskujete, in aplikacijo AI, ki jo uporabljate (po lastnih
-pogojih te aplikacije). Sam Fontes razvijalcem orodja Fontes **privzeto ne pošilja ničesar**.
+računalnikom, viri, ki jih preiskujete (uradni viri ter CourtListener in Lexifina, kjer ju
+uporabljate; glejte spodaj), in aplikacijo AI, ki jo uporabljate (po lastnih pogojih te aplikacije). Sam Fontes razvijalcem orodja Fontes **privzeto ne pošilja ničesar**.
 
 ## Kaj lahko zapusti vaš računalnik in kdaj
 
@@ -40,6 +40,8 @@ klica orodja (brez vaših iskalnih besed in identifikatorjev) ter opombo, če jo
 opombo ne vpisujte podatkov o strankah. Za to Fontes hrani zadnjo napako v vašem računalniku
 (`last-error.json` v svoji mapi predpomnilnika, vsakič se zamenja); ta se nikoli ne pošlje
 sama od sebe.
+
+**4. Lexifina (privzeto vklopljeno).** `get_law_on_date`, `get_law_history` 91 držav in indijski zakoni se berejo iz zapisa Lexifine, zato gredo k Lexifini poleg uradne strani ali namesto nje. Vaši iskalni izrazi, citati in datumi gredo na brezplačen strežnik Lexifine, `global-law.lexifina.com`, ki ga upravlja Lexifina, ne razvijalci orodja Fontes. Lexifina dokumentira, da njen strežnik beleži, katero orodje je bilo klicano in kako dolgo je trajalo, nikoli pa, kaj je bilo vprašano; Fontes tega ne more preveriti, veljajo pa pogoji Lexifine. Lexifina vidi vaš naslov IP, kot vsak spletni strežnik. Za popoln izklop Lexifine nastavite `WLM_LEXIFINA=0`; ta dva orodja in države potem prenehajo delovati, nič pa se tja ne pošlje.
 
 ## Kam gredo podatki in kako dolgo se hranijo
 

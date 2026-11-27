@@ -3,7 +3,7 @@
 # Pemberitahuan privasi Fontes
 
 Fontes berjalan di komputer Anda. Pencarian Anda dan dokumen yang Anda buka tetap berada di antara
-komputer Anda, sumber resmi yang Anda cari, dan aplikasi AI yang Anda gunakan (berdasarkan ketentuan
+komputer Anda, sumber yang Anda cari (yang resmi, ditambah CourtListener dan Lexifina di tempat Anda menggunakannya, lihat di bawah), dan aplikasi AI yang Anda gunakan (berdasarkan ketentuan
 aplikasi itu sendiri). Fontes sendiri **tidak mengirim apa pun secara bawaan** kepada pengembang Fontes.
 
 ## Apa yang dapat keluar dari komputer Anda, dan kapan
@@ -38,6 +38,8 @@ kata pencarian dan id Anda dihapus), serta catatan jika Anda menulisnya. Jangan 
 ke dalam catatan. Untuk mendukung hal ini, Fontes menyimpan galat terakhir di komputer Anda
 (`last-error.json` di folder cache-nya, diganti setiap kali); galat ini tidak pernah dikirim dengan
 sendirinya.
+
+**4. Lexifina (aktif secara bawaan).** `get_law_on_date`, `get_law_history`, 91 negara, dan undang-undang India yang dibaca melalui catatan hukum Lexifina dikirim ke Lexifina, baik selain maupun sebagai pengganti situs resmi. Kata pencarian, kutipan dan tanggal Anda dikirim ke server gratis Lexifina, `global-law.lexifina.com`, yang dijalankan oleh Lexifina, bukan oleh pengembang Fontes. Lexifina mendokumentasikan bahwa server-nya mencatat alat mana yang dipanggil dan berapa lama waktu yang diperlukan, tidak pernah apa yang ditanyakan; Fontes tidak dapat memeriksanya, dan ketentuan Lexifina sendiri berlaku. Lexifina melihat alamat IP Anda, seperti halnya server web mana pun. Untuk mematikan Lexifina sepenuhnya, tetapkan `WLM_LEXIFINA=0`; kedua alat dan negara tersebut kemudian berhenti bekerja dan tidak ada yang dikirim ke sana.
 
 ## Ke mana data dikirim dan berapa lama disimpan
 

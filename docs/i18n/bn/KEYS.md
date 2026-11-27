@@ -154,7 +154,6 @@ CourtListener পরিচালনা করে [Free Law Project](https://free
 | `de` | জার্মানি: NeuRIS (ফেডারেল আইনি তথ্য পোর্টাল, পরীক্ষামূলক সেবা) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | গ্রিস: National Printing Office, Government Gazette অনুসন্ধান (search.et.gr) |
-| `in` | ভারত: India Code (indiacode.gov.in) |
 | `mu` | মরিশাস: Supreme Court (supremecourt.govmu.org) |
 | `sg` | সিঙ্গাপুর: আদালতের রায় (elitigation.sg) |
 

@@ -2,7 +2,7 @@
 
 # Fontes'i kurmak
 
-Fontes, yapay zekâ uygulamanızın 120'den fazla yargı alanında mahkeme kararlarını ve mevzuatı mahkeme
+Fontes, yapay zekâ uygulamanızın 125 yargı alanında mahkeme kararlarını ve mevzuatı mahkeme
 ve devlet internet sitelerinde canlı olarak aramasını sağlar. Her sonuç asıl metne bağlantı verir.
 Standart bir MCP sunucusu olduğundan, yerel bir MCP sunucusu çalıştırabilen her uygulamada çalışır:
 Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,

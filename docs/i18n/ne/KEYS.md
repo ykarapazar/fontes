@@ -156,7 +156,6 @@ CourtListener [Free Law Project](https://free.law) ले चलाउँछ, �
 | `de` | जर्मनी: NeuRIS (संघीय कानुनी सूचना पोर्टल, परीक्षण सेवा) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | ग्रीस: National Printing Office, Government Gazette खोज (search.et.gr) |
-| `in` | भारत: India Code (indiacode.gov.in) |
 | `mu` | मरिसस: Supreme Court (supremecourt.govmu.org) |
 | `sg` | सिंगापुर: अदालतका फैसलाहरू (elitigation.sg) |
 

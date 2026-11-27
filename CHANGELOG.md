@@ -2,6 +2,28 @@
 
 Plain-language notes for each release. Newest first.
 
+## Unreleased
+
+**New**
+
+- Past versions of a law: `get_law_on_date` (a provision as in force on a date, also in the
+  past, with the law that last changed it) and `get_law_history` (every law that changed a
+  provision, or the word-by-word change between two dates). They work for any country in
+  [Lexifina](https://github.com/lexifina/global-law)'s record. Fontes now has nine tools plus `report_bug`.
+- 91 more countries and territories (for example South Africa, Kenya, Mexico, New Zealand,
+  South Korea, Ukraine), legislation only, through the existing legislation tools. Coverage per
+  country varies a lot; `list_jurisdictions` shows what each holds. The 125 jurisdictions with
+  live official coverage are unchanged, except that India's Acts (legislation) now come from Lexifina's
+  record too, since India Code's terms bar automated access; India's Supreme Court case law stays live.
+- Both come from Lexifina's record of the law, which keeps about 200 countries as git history. Lexifina
+  is not the official publisher and its record can lag it: every answer says so, links the official page and
+  says how far the record goes. Lexifina's sourcing policy differs from Fontes's: in some countries
+  it copies sites whose terms or robots.txt Fontes respects for its own fetching. Fontes is not
+  affiliated with Lexifina, which built and maintains the record.
+- Privacy: for these tools and countries, search words, citations and dates go to Lexifina's
+  server (`global-law.lexifina.com`), which documents that it logs the tool called and how long
+  it took, never what was asked. On by default; set `WLM_LEXIFINA=0` to turn it off.
+
 ## 0.1.3 (2026-11-27)
 
 **New**

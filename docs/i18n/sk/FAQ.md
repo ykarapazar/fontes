@@ -6,8 +6,8 @@
 
 Bezplatný MCP server s otvoreným zdrojovým kódom (Apache 2.0). Umožňuje každej aplikácii, ktorá
 podporuje Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI a ďalšie), vyhľadávať
-súdne rozhodnutia a právne predpisy naživo na stránkach súdov a štátnych orgánov vo viac ako 120
-jurisdikciách a medzinárodných súdoch (125 adaptérov). Každý výsledok uvádza svoj zdroj a
+súdne rozhodnutia a právne predpisy naživo na stránkach súdov a štátnych orgánov v 125
+jurisdikciách a medzinárodných súdoch, a navyše 91 ďalších krajín cez záznam Lexifina (pozri nižšie). Každý výsledok uvádza svoj zdroj a
 odkazuje na originál.
 
 ## Sú texty oficiálne?
@@ -52,10 +52,38 @@ Samostatne: niekoľko zdrojov vo svojich podmienkach uvádza, že automatizovan�
 povolenie vydavateľa. Sú označené OFF a zostávajú vypnuté. Kľúč na tom nič nemení; zmení to iba
 povolenie vydavateľa (potom nastavte `WLM_PERMITTED=<codes>`).
 
+## Odkiaľ pochádzajú staršie znenia a ďalšie krajiny?
+
+Z [Lexifiny](https://github.com/lexifina/global-law), ktorá uchováva právo asi 200 krajín ako
+históriu v gite: každá zmena je commit s dátumom, keď nadobudla účinnosť. Fontes ho číta cez
+bezplatný hostovaný server Lexifiny. Dva nástroje ho používajú: `get_law_on_date` (ustanovenie v
+znení platnom k dátumu, aj v minulosti, spolu so zákonom, ktorý ho naposledy zmenil) a
+`get_law_history` (každý zákon, ktorý zmenil ustanovenie, alebo zmena slovo po slove medzi dvoma
+dátumami). Fontes takto číta aj 91 ďalších krajín a území, iba pre právne predpisy (napríklad
+Južná Afrika, Keňa, Mexiko, Nový Zéland, Rusko, Južná Kórea, Belgicko, Litva, Ukrajina, Malajzia,
+Thajsko a Saudská Arábia). Sú oddelené od 125 adaptérov s pokrytím oficiálnych zdrojov naživo a
+pokrytie jednotlivých krajín sa veľmi líši (vnútroštátny záznam Kene obsahuje 9 zákonov). Zákony
+Indie sa tiež čítajú zo záznamu Lexifina, pretože podmienky India Code zakazujú automatizovaný
+prístup; jej rozhodnutia Najvyššieho súdu sú naživo.
+
+Lexifina nie je oficiálny vydavateľ a jej záznam nie je naživo: Lexifina každú krajinu z času na
+čas overuje a jej vlastná správa z 2026-11-26 uviedla, že 338 z 383 vnútroštátnych zbierok práva
+nebolo overených za posledných 7 dní. Každá odpoveď uvádza Lexifinu ako zdroj, odkazuje na
+stránku oficiálneho vydavateľa a hovorí, ako ďaleko záznam siaha.
+
+Lexifina zastáva názor, že úradné právne texty nie sú chránené autorským právom, a preto v
+niektorých krajinách kopíruje stránky, ktorých podmienky alebo robots.txt Fontes sám rešpektuje.
+Fontes ich rešpektuje pri všetkom, čo sám sťahuje; to, čo prichádza cez Lexifinu, sleduje vlastný
+právny úsudok Lexifiny, zaznamenaný pre každú krajinu v jej repozitároch. Niektoré obmedzujú
+použitie (vydavateľ Kene: CC BY-NC). Vaše hľadané slová, citácie a dátumy smerujú pre tieto nástroje
+a krajiny na server Lexifiny. Je to zapnuté predvolene; `WLM_LEXIFINA=0` to vypne. Bezplatný server
+povoľuje 60 volaní za minútu a 10 000 denne na jednu internetovú adresu; bez kľúča a účtu. Fontes
+nie je s Lexifinou prepojený.
+
 ## Čo opúšťa môj počítač?
 
-Vaše vyhľadávania smerujú iba do prehľadávaného zdroja. Fontes nevedie žiadnu databázu a
-nepotrebuje žiadny účet.
+Vaše vyhľadávania smerujú iba do prehľadávaného zdroja (pri nástrojoch a krajinách Lexifina je to
+server Lexifina). Fontes nevedie žiadnu databázu a nepotrebuje žiadny účet.
 
 Okrem zdrojov sa Fontes raz denne pýta PyPI, či existuje novšia verzia (vypnete pomocou
 `FONTES_NO_UPDATE_CHECK=1`). Počty použití sú vypnuté, pokiaľ ich nezapnete, a hlásenie chyby sa

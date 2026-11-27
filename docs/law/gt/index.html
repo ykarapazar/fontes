@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="../../assets/brand/favicon.ico" sizes="32x32">
 <link rel="icon" href="../../assets/brand/favicon-32.svg" type="image/svg+xml">
-<title>Guatemala: legislation for your AI app | Fontes</title>
+<title>Guatemala legislation: MCP server | Fontes</title>
 <meta name="description" content="Let Claude, Codex, Cursor and other AI apps look up Guatemala legislation live from Corte de Constitucionalidad – sentencias PDF (jurisprudencia.cc.gob.gt). Free and open source; every result links to the original.">
 <link rel="canonical" href="https://ykarapazar.github.io/fontes/law/gt/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Guatemala: legislation for your AI app | Fontes">
+<meta property="og:title" content="Guatemala legislation: MCP server | Fontes">
 <meta property="og:description" content="Let Claude, Codex, Cursor and other AI apps look up Guatemala legislation live from Corte de Constitucionalidad – sentencias PDF (jurisprudencia.cc.gob.gt). Free and open source; every result links to the original.">
 <meta property="og:url" content="https://ykarapazar.github.io/fontes/law/gt/">
 <meta property="og:image" content="https://ykarapazar.github.io/fontes/assets/brand/social-preview.png">
@@ -47,6 +47,8 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;font-si
 <li>Legislation (Congreso, gazette dca.gob.gt, SAT): bot check / blocks our client (Incapsula / Cloudflare; again 2026-11-10); no usable unofficial copy (Constitute: non-commercial, site-only use; PDBA: commercial use needs permission, Art. 281 missing)</li>
 <li>Supreme Court and ordinary-court case law (Organismo Judicial / CENADOJ): unreachable (WAF 403, timeouts, bad TLS; 2026-11-06, again 2026-11-10)</li>
 </ul>
+<h2>Past versions</h2>
+<p><code>get_law_on_date</code> and <code>get_law_history</code> read Lexifina's record (not the official publisher).</p>
 <h2>Install</h2>
 <p>Claude Code: <code>claude mcp add fontes -- uvx fontes-mcp</code>. Codex: <code>codex mcp add fontes -- uvx fontes-mcp</code>. Claude Desktop and one-click installers for Mac and Windows: the <a href="https://github.com/ykarapazar/fontes/releases/latest">latest release</a>. Other apps: the <a href="https://github.com/ykarapazar/fontes/blob/main/docs/INSTALL.md">installation guide</a>.</p>
 <p class="mute">Jurisdiction code: <code>gt</code>. Whether each source is working today: <a href="../../status/">source status</a>, checked daily.</p>

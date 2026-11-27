@@ -2,7 +2,7 @@
 
 # 安裝 Fontes
 
-Fontes 予你的 AI 應用程式佇法院佮政府的網站頂即時查法院裁判佮法規，涵蓋超過 120 个法域。逐筆結果攏有附
+Fontes 予你的 AI 應用程式佇法院佮政府的網站頂即時查法院裁判佮法規，涵蓋 125 个法域。逐筆結果攏有附
 原文的連結。伊是標準的 MCP 伺服器，所以佇任何會當執行本機 MCP 伺服器的應用程式內底攏會當用：
 Claude Desktop、Codex、Claude Code、Cursor、VS Code（GitHub Copilot）、Gemini CLI、Windsurf、Zed、
 LM Studio、Cline 等等。

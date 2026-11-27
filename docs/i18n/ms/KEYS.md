@@ -159,7 +159,6 @@ dengan menambah kodnya ke `WLM_PERMITTED`, dipisahkan dengan koma, dalam blok `e
 | `de` | Jerman: NeuRIS (portal maklumat undang-undang persekutuan, perkhidmatan percubaan) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Greece: National Printing Office, carian Government Gazette (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapura: penghakiman mahkamah (elitigation.sg) |
 

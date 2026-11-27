@@ -3,7 +3,7 @@
 # Fontes gizlilik bildirimi
 
 Fontes bilgisayarınızda çalışır. Aramalarınız ve açtığınız belgeler bilgisayarınız, aradığınız
-resmî kaynaklar ve kullandığınız yapay zekâ uygulaması (o uygulamanın kendi koşulları çerçevesinde)
+kaynaklar (resmî olanlar ile kullandığınızda CourtListener ve Lexifina, aşağıya bakın) ve kullandığınız yapay zekâ uygulaması (o uygulamanın kendi koşulları çerçevesinde)
 arasında kalır. Fontes'in kendisi Fontes geliştiricilerine **varsayılan olarak hiçbir şey
 göndermez**.
 
@@ -40,6 +40,8 @@ hata mesajını (arama sözcükleriniz ve kimlikler çıkarılmış olarak) ve b
 içerir. Nota müvekkil bilgilerini yazmayın. Bunu desteklemek için Fontes son hatayı bilgisayarınızda
 tutar (önbellek klasöründe `last-error.json`, her seferinde değiştirilir); bu dosya asla tek başına
 gönderilmez.
+
+**4. Lexifina (varsayılan olarak açık).** `get_law_on_date`, `get_law_history`, Lexifina'nın hukuk kaydı üzerinden okunan 91 ülke ve Hindistan yasaları resmî siteye ek olarak ya da onun yerine Lexifina'ya da gider. Arama sözcükleriniz, atıflarınız ve tarihleriniz, Fontes geliştiricileri tarafından değil Lexifina tarafından işletilen ücretsiz sunucu `global-law.lexifina.com`'a gider. Lexifina, sunucusunun hangi aracın çağrıldığını ve ne kadar sürdüğünü kaydettiğini, ne sorulduğunu ise asla kaydetmediğini belgeler; Fontes bunu denetleyemez ve Lexifina'nın kendi koşulları geçerlidir. Lexifina, her web sunucusu gibi IP adresinizi görür. Bu iki aracı ve ülkeleri tamamen kapatmak için `WLM_LEXIFINA=0` ayarlayın; bu durumda o iki araç ve ülkeler çalışmaz ve oraya hiçbir şey gönderilmez.
 
 ## Nereye gider ve ne kadar süre saklanır
 

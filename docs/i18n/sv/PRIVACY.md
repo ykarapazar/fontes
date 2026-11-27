@@ -3,7 +3,7 @@
 # Integritetsmeddelande för Fontes
 
 Fontes körs på din dator. Dina sökningar och de dokument du öppnar stannar
-mellan din dator, de officiella källor du söker i och den AI-app du använder (enligt den
+mellan din dator, de källor du söker i (officiella, plus CourtListener och Lexifina där du använder dem, se nedan) och den AI-app du använder (enligt den
 appens egna villkor). Fontes självt skickar **ingenting som standard** till Fontes
 utvecklare.
 
@@ -36,6 +36,8 @@ felmeddelandet från det senaste misslyckade verktygsanropet (med dina sökord o
 en anteckning om du skriver en. Skriv inte klientuppgifter i anteckningen. För att stödja detta sparar Fontes
 det senaste felet på din dator (`last-error.json` i dess cachemapp, ersätts varje gång);
 det skickas aldrig på egen hand.
+
+**4. Lexifina (på som standard).** `get_law_on_date`, `get_law_history`, de 91 länderna och Indiens lagar läses via Lexifinas lagregister, så de går till Lexifina lika väl som, eller i stället för, den officiella webbplatsen. Dina sökord, citat och datum går till Lexifinas kostnadsfria server, `global-law.lexifina.com`, som drivs av Lexifina, inte av Fontes utvecklare. Lexifina dokumenterar att dess server loggar vilket verktyg som anropades och hur lång tid det tog, aldrig vad som efterfrågades; Fontes kan inte kontrollera det, och Lexifinas egna villkor gäller. Lexifina ser din IP-adress, som all webbserver gör. För att stänga av Lexifina helt, ange `WLM_LEXIFINA=0`; de två verktygen och länderna slutar då fungera och inget skickas dit.
 
 ## Vart det går och hur länge det sparas
 

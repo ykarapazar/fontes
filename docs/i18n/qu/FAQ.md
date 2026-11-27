@@ -6,9 +6,10 @@
 
 Mana qullqiyuq, kichasqa pukyuyuq (open source) MCP servidormi (Apache 2.0). Model Context
 Protocol nisqata rimaq mayqin aplicacióntapas (Claude, Codex, Cursor, VS Code, Gemini CLI,
-hukkunatapas) taripana wasikunap taripayninkunata, kamachiykunatapas taripana wasikunap,
-gobiernop web sitionkunapi kawsaqta maskachin, 120+ jurisdicciónkunapi, suyukuna pura taripana
-wasikunapipas (125 adaptadorkuna). Sapa kutichiymi pukyunta sutinchan, originalmantaq t'inkin.
+hukkunatapas) taripana wasikunap taripayninkunata, kamachiykunatapas gobiernop, taripana wasikunap
+web sitionkunapi kawsaqta maskachin, 125 jurisdicciónkunapi, suyukuna pura taripana
+wasikunapipas, chaymanta 91 aswan suyukunap kamachiykunata Lexifinap recordninmanta (qhipaman
+qhaway). Sapa kutichiymi pukyunta sutinchan, originalmantaq t'inkin.
 
 ## Qillqakunaqa oficialchu?
 
@@ -57,9 +58,17 @@ uyarichiqpa permisonta necesitasqanta. OFF nisqawan qillqasqam kanku, wañusqata
 Huk llaveqa manam chayta tikranchu; uyarichiqpa permisonllam tikran (chaymanta
 `WLM_PERMITTED=<codes>` nisqata churay).
 
+## Qhipa kaq kamachiykuna, astawan suyukunamantaq maymanta hamun?
+
+[Lexifina](https://github.com/lexifina/global-law) 200 suyukunap kamachiyninta git historia hina waqaychan: sapa tikraymi chay p'unchawmanta qallarisqa kasqanman hina commit-pi qillqasqa. Fontes chaymanta ñawinchan Lexifinap mana qullqiyuq hosted servidorninwan. Iskay llamk'anamantam chaymanta llamk'achin: `get_law_on_date` (huk kamachiy pasaq p'unchawpi kasqanman hina, pasaq p'unchawpipas, chaywanmi tikrachisqa kamachiypas) hinaspa `get_law_history` (huk kamachiy tikrachisqa llapan leykuna, utaq iskay p'unchawkunap chawpinpi palabra palabralla tikrakuy). Fontesqa 91 aswan suyukunatapas kaymanta ñawinchan, kamachikuykunallam (kayhina: South Africa, Kenya, Mexico, New Zealand, Russia, South Korea, Belgium, Lithuania, Ukraine, Malaysia, Thailand, Saudi Arabia). Kaykunaqa 125 kawsaq oficial chayasqa adaptadorkunamanta aparte, sapa suyupa chayasqanqa ancha hukniraqmi (Kenyap nacional recordninqa 9 kamachiyllam qawan). India Actinkunapas Lexifinap recordninmantam hamun, India Code-pa términosninqa automatizado yaykuyta mana chaskinchu; Corte Suprema taripayninkunaqa kawsaqmi.
+
+Lexifinaqa manam oficial publicadorchu, recordninpas manam kawsaqchu: sapa kutilla suyukunata chiqnichin, 2026-11-26 p'unchawpi reportenqa 383 nacional cuerpo de leykunamanta 338-ta qayna 7 p'unchawpi mana qhawasqa kasqanta willakun. Sapa kutichiypi fuententa sutichan, oficial publicadorpa páginanmanta linkinta qun, chaypas imatachus recordnin hayk'aq kasqanmanta willan.
+
+Lexifina yuyaynin: oficial qillqakunaqa manam copyrightpichu kanku, chayrayku wakin suyukunapi sitionkunata copin, chaykunapa robots.txt utaq términosninkunata Fontes kikin respetan. Fontesqa kikin tapukusqankunapi chaykunata respetanmi; Lexifinawan chayamuqkunaqa Lexifinap kikin yuyaynin, suyu suyumanta repositorionkunapi waqaychasqa. Wakin ch'usaqmi (Kenyap editorninqa: CC BY-NC). Tapukuykikunap simikunan, citacionkunan hinaspa p'unchawkunan kaykunapaq Lexifinap servidorninman chayan. Wañuchinaykipaq `WLM_LEXIFINA=0` churay. Mana qullqiyuq servidorqa huk minutupi 60 llamadata, huk p'unchawpi 10,000 llamadata chaskin, huk internet direccionpi; mana key nitaq cuenta. Fontesqa manam Lexifinawan tinkisqachu.
+
 ## Imataq computadoraymanta lluqsin?
 
-Maskasqaykikunaqa maskasqa pukyullamanmi rinku. Fontesqa manam base de datosta waqaychanchu,
+Maskasqaykikunaqa maskasqa pukyullamanmi rinku (Lexifinap llamk'anakunapaq, suyukunapaqpas: Lexifinap servidorninmanmi). Fontesqa manam base de datosta waqaychanchu,
 manataq cuentata necesitanchu.
 
 Pukyukunamanta hawa, Fontesqa p'unchawpi huk kutita PyPI nisqata aswan musuq versión kasqanta

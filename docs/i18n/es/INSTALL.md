@@ -3,7 +3,7 @@
 # Instalar Fontes
 
 Fontes permite que su aplicación de IA consulte resoluciones judiciales y legislación en directo en
-sitios web judiciales y gubernamentales de más de 120 jurisdicciones. Cada resultado enlaza al
+sitios web judiciales y gubernamentales de 125 jurisdicciones. Cada resultado enlaza al
 original. Es un servidor MCP estándar, por lo que funciona en cualquier aplicación que pueda ejecutar
 un servidor MCP local: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini
 CLI, Windsurf, Zed, LM Studio, Cline y otras.

@@ -3,7 +3,7 @@
 # Fontes gizlinlik barada bildiriş
 
 Fontes siziň kompýuteriňizde işleýär. Gözlegleriňiz we açýan resminamalaryňyz
-kompýuteriňiz, gözleýän resmi çeşmeleriňiz we ulanýan AI programmaňyz (şol programmanyň öz
+kompýuteriňiz, gözleýän çeşmeleriňiz (resmi çeşmeler, hem-de ulanan ýeriňizde CourtListener we Lexifina; aşakda serediň) we ulanýan AI programmaňyz (şol programmanyň öz
 şertlerine laýyklykda) arasynda galýar. Fontes programmasynyň özi adaty ýagdaýda Fontes işläp
 düzüjilerine **hiç zat ibermeýär**.
 
@@ -40,6 +40,15 @@ we ýalňyşlyk habary (gözleg sözleriňiz we identifikatorlar aýrylan görn�
 bolsaňyz, bellik bolýar. Bellige müşderileriňiz barada maglumat ýazmaň. Muny üpjün etmek
 üçin Fontes soňky ýalňyşlygy kompýuteriňizde saklaýar (keş bukjasyndaky `last-error.json`, her
 gezek çalşylýar); ol hiç haçan özbaşdak iberilmeýär.
+
+**4. Lexifina (adaty ýagdaýda açyk).** `get_law_on_date`, `get_law_history`, 91 ýurt we Hindistanyň kanunlary Lexifina-nyň kanun
+ýazgysy arkaly okalýar, şonuň üçin olar resmi saýta goşmaça ýa-da onuň ýerine Lexifina-a gidýär. Gözleg sözleriňiz, sitatalaryňyz we senäleriňiz
+Lexifina-nyň mugt serwerine, `global-law.lexifina.com`-a gidýär; ony Lexifina dolandyrýar, Fontes
+işläp düzüjileri däl. Lexifina serwerinde haýsy guralyň çagyrylandygyny we näçe wagt alandygyny
+ýazýandygyny, soralanyny bolsa hiç haçan ýazmaýandygyny resmi beýan edýär; Fontes muny barlap bilmeýär,
+we Lexifina-nyň öz şertleri ulanylýar. Lexifina IP salgyňyzy görýär, islendik web serweriň edişi ýaly.
+Lexifina-ny doly öçürmek üçin `WLM_LEXIFINA=0` goýuň; şol iki gural we ýurtlar işlemez, hiç zat ol ýere
+iberilmeýär.
 
 ## Maglumatlar nirä gidýär we näçe wagt saklanýar
 

@@ -16,261 +16,261 @@ A jurisdiction counts as covered when Fontes reaches at least one of two areas c
 
 | Code | Jurisdiction | Top court precedents | Constitution + acts | Covered | What is missing |
 |---|---|---|---|---|---|
-| `afchpr` | African Court on Human and Peoples' Rights | ✅ | – | yes |  |
-| `al` | Albania | ✅ | ◐ | yes | full-text search from 2005; 1999–2004 monthly volumes browse-only / Constitution: only as indexed in QBZ's act archive; search matches title/number, not full text; Codes: 1990s base codes not in QBZ's act archive; priced code editions not used; Council of Ministers normative acts with force of law:  |
-| `ad` | Andorra | ❌ | ✅ | yes | High Court of Justice, Civil Chamber: justicia.ad TLS now verifies (2026-11-10), but its search is the CGPJ/CENDOJ instance jurisprudencia.poderjudicial.es/andorra: POST search.action answers 403 without browser XHR headers, CAPTCHA flow in its JS, meta robots 'none', notice allows personal consulta |
-| `ar` | Argentina | ❌ | ✅ | yes | Supreme Court of Justice: sj.csjn.gov.ar behind reCAPTCHA; datos.csjn.gov.ar has no judgments |
-| `am` | Armenia | ✅ | ✅ | yes | Anti-Corruption Chamber publication unverified |
-| `au` | Australia | ❌ | ✅ | yes | High Court (apex and constitutional): hcourt.gov.au (Akamai) resets every request from this client |
-| `at` | Austria | ✅ | ✅ | yes |  |
-| `bd` | Bangladesh | ✅ | ✅ | yes |  |
-| `bb` | Barbados | ✅ | ◐ | yes | Constitution: only if it is in the site's consolidated statutes list (not checked); OCR of revised edition; Acts of Parliament, consolidated by chapter: OCR of scanned 1971 / L.R.O. 1985 revised editions; later amendments may be missing; Recent Acts: in the Official Gazette (governmentprintery.gov.b |
-| `bz` | Belize | ✅ | ◐ | yes | Historical / repealed versions: no official pre-2020 source found |
-| `br` | Brazil | ❌ | ✅ | yes | Superior Court of Justice: SCON behind Cloudflare JS challenge (2026-11-07). Open-data portal checked 2026-11-10 and NOT built: text ZIPs are partial (2026-10-09: 1,293 decisions in metadata JSON, 100 texts in the ZIP; 2021-01-04: 108 vs 106), one file per Diario da Justica day, no index or search,  |
-| `cv` | Cabo Verde | ✅ | ◐ | yes | THIN: the court publishes only ~360 selected judgments online / Acts and codes of the National Assembly: only ~30 core texts hosted by the TC; not consolidated; Government decree-laws and legislative decrees: Boletim Oficial: INCV terms forbid copying 'sem a prévia autorização' |
-| `cm` | Cameroon | ✅ | ◐ | yes | THIN: the court publishes only a few dozen judgments online / Constitution: not a separate source; prc.cm only carries lois/ordonnances/décrets as signed; Acts of Parliament: as signed, not consolidated; newer acts (mostly 2015+) scans without text; Presidential ordinances: as signed; newer ones oft |
-| `ca` | Canada | ✅ | ✅ | yes |  |
-| `ccj` | Caribbean Court of Justice | ✅ | – | yes |  |
-| `cl` | Chile | ❌ | ✅ | yes | Supreme Court: all Poder Judicial courts: juris.pjud.cl robots.txt disallows all |
-| `cr` | Costa Rica | ❌ | ✅ | yes | First Chamber (civil, commercial, administrative, agrarian cassation): all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'; Third Chamber (criminal cassation): all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas' |
-| `hr` | Croatia | ❌ | ✅ | yes | Supreme Court: odluke.sudovi.hr: robots.txt disallows |
-| `cz` | Czechia | ✅ | ✅ | yes |  |
-| `ci` | Côte d'Ivoire | ✅ | ◐ | yes | THIN: the court publishes only ~100 judgments online / Constitution: 2016 Constitution PDF on conseil-constitutionnel.ci; Acts of Parliament: ~135 laws, mostly 2012-2020, as adopted (not consolidated); title search only; some entries summary only; Ordinances: not on assnat.ci; JO site cert expired |
-| `dk` | Denmark | ❌ | ✅ | yes | Supreme Court: Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge |
-| `efta` | EFTA Court | ✅ | – | yes |  |
-| `ee` | Estonia | ❌ | ✅ | yes | Supreme Court en banc (Üldkogu): robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee; Supreme Court Civil Chamber (cassation): robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee; Supreme Court Criminal Chamber (cassation; incl. misde |
-| `echr` | European Court of Human Rights | ✅ | – | yes |  |
-| `eu` | European Union | ✅ | ✅ | yes |  |
-| `fi` | Finland | ✅ | ✅ | yes | precedents (KKO) only; other decisions not built |
-| `fr` | France | ✅ | ✅ | yes |  |
-| `ge` | Georgia | ◐ | ✅ | yes | Supreme Court: ECD holds only 2018-01 to 2020-04; supremecourt.ge robots.txt disallows /ka/getCases* |
-| `de` | Germany (federal) | ◐ | ✅ | yes | Federal Court of Justice: off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission) |
-| `gy` | Guyana | ✅ | ◐ | yes | Acts of Parliament, Revised Edition L.R.O. 1/2022: Revised Edition in force at 31 Dec 2022 only; title search only. Missing: Acts from 2023 on. parliament.gov.gy lists them (to June 2025 only) but every Act PDF sampled is a scan without a text layer (no OCR allowed), checked 2026-11-10 |
-| `hk` | Hong Kong | ❌ | ✅ | yes | Court of Final Appeal: Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed / current versions only; past versions robots-blocked |
-| `hu` | Hungary | ✅ | ❌ | yes | Fundamental Law: Nemzeti Jogszabálytár: terms forbid automated use; needs permission; Acts of Parliament (incl. cardinal acts): Nemzeti Jogszabálytár: terms forbid automated use; needs permission |
-| `is` | Iceland | ✅ | ❌ | yes | Constitution: bot check / blocks our client (althingi.is/lagas Cloudflare JS challenge); Acts of the Althingi: bot check / blocks our client (althingi.is/lagas Cloudflare JS challenge) |
-| `ie` | Ireland | ❌ | ✅ | yes | Supreme Court: robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client |
-| `it` | Italy | ❌ | ✅ | yes | Court of Cassation – civil sections: site down / unreachable from outside Italy (Italgiure, 2026-11); Court of Cassation – criminal sections: site down / unreachable from outside Italy (Italgiure, 2026-11) |
-| `jp` | Japan | ❌ | ✅ | yes | Supreme Court: site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet |
-| `xk` | Kosovo | ❌ | ✅ | yes | Supreme Court: Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no; Kosovo Specialist Chambers, Supreme Court Panel: KSC Public Court Records repository; not built (terms need written permission beyond private/educational use) |
-| `lv` | Latvia | ✅ | ❌ | yes | Constitution: likumi.lv robots.txt disallows search; re-use needs Latvijas Vēstnesis written consent; Laws of the Saeima: likumi.lv: robots.txt / written consent required; titania.saeima.lv Disallow: / |
-| `li` | Liechtenstein | ◐ | ✅ | yes | Supreme Court (third instance, civil/criminal): 230 OGH decisions 2020-2025 with full-text PDF, as posted on ogh.li (counted 2026-11-10: 2020 3, 2021 36, 2022 40, 2023 48, 2024 66, 2025 37). Missing: everything before mid-2020 and any 2026+ decisions (ogh.li links those to the robots-blocked portal) |
-| `lu` | Luxembourg | ◐ | ✅ | yes | Court of Cassation: every published decision (2,459 PDFs, 1971-2026, listed 2026-11-10; ~150-175/yr since 2014, sparse before 2009) opens by id with full text; missing: full-text search (source is ZIPs of PDFs without an index: search lists by year/date/case number and scans text for <=15 narrowed c |
-| `mt` | Malta | ❌ | ✅ | yes | Court of Appeal (superior jurisdiction): ecourts.gov.mt: Cloudflare 403; Court of Criminal Appeal (superior): ecourts.gov.mt: Cloudflare 403 |
-| `md` | Moldova | ✅ | ◐ | yes | Organic and ordinary laws: legis.md and parlament.md: Cloudflare bot check (403, re-checked 2026-11-10); monitorul.gov.md: texts paid-subscription only, terms forbid copying |
-| `mc` | Monaco | ✅ | ✅ | yes |  |
-| `mn` | Mongolia | ✅ | ❌ | yes | Constitution: legalinfo.mn reachable 2026-11-07; not built yet; Laws of the State Great Khural: legalinfo.mn: not built yet |
-| `ma` | Morocco | ❌ | ✅ | yes | Court of Cassation: juriscassation.cspj.ma unreachable (timed out 2026-11-05/06) |
-| `mz` | Mozambique | ✅ | ◐ | yes | Laws: ~110 PDFs on the TS page, as published; MozLex banned |
-| `mm` | Myanmar | ✅ | ◐ | yes | Constitution: MLIS down; Hluttaw site JavaScript-only; Union laws: ~25 laws/procedures on the Supreme Court site (incl. CPC, CrPC in English); legacy-font PDFs refused |
-| `np` | Nepal | ✅ | ❌ | yes | Nepal Kanoon Patrika precedents; Nepali only / Constitution: lawcommission.gov.np PDFs: broken text layer; Acts: broken PDF text layer |
-| `nl` | Netherlands | ✅ | ✅ | yes |  |
-| `pk` | Pakistan | ❌ | ✅ | yes | Supreme Court: Akamai bot check (403) |
-| `ps` | Palestine | ✅ | ✅ | yes |  |
-| `pa` | Panama | ◐ | ✅ | yes | Civil Chamber: few rulings in the Gaceta; Órgano Judicial: WAF 403; Criminal Chamber: few rulings in the Gaceta; Órgano Judicial: WAF 403 |
-| `py` | Paraguay | ✅ | ✅ | yes | from 1993 |
-| `ph` | Philippines | ✅ | ✅ | yes |  |
-| `pl` | Poland | ❌ | ✅ | yes | Supreme Court, Civil Chamber: sn.pl behind Incapsula bot wall; Supreme Court, Criminal Chamber (also hears military-court cassations): sn.pl behind Incapsula bot wall |
-| `pt` | Portugal | ✅ | ◐ | yes | DGSI is the official selection; some summary-only / Constitution: unofficial PGDL consolidation; only the Diário da República is authentic; Acts of the Assembleia da República: PGDL selection, unofficial consolidations; Government decree-laws: PGDL selection, unofficial consolidations |
-| `rw` | Rwanda | ✅ | ✅ | yes |  |
-| `rs` | Serbia | ✅ | ◐ | yes | the court publishes selected anonymised decisions only / Acts of the National Assembly: only the Law on the Constitutional Court (unofficial consolidated text on ustavni.sud.rs); every other act missing: pravno-informacioni-sistem.rs terms forbid automated use without written consent; parlament.gov. |
-| `sk` | Slovakia | ✅ | ✅ | yes |  |
-| `si` | Slovenia | ✅ | ✅ | yes |  |
-| `es` | Spain | ❌ | ✅ | yes |  |
-| `sr` | Suriname | ✅ | ◐ | yes | the court publishes selected anonymised decisions only / Acts: pre-2005 consolidations plus later laws and amendments as separate PDFs; title search only |
-| `se` | Sweden | ✅ | ✅ | yes |  |
-| `ch` | Switzerland | ✅ | ✅ | yes |  |
-| `tw` | Taiwan | ✅ | ◐ | yes | Statutes of the Legislative Yuan: opened by MOJ pcode only; no search (robots.txt allows only LawAll.aspx) |
-| `tt` | Trinidad and Tobago | ◐ | ✅ | yes | Final court of appeal (London): 2009 on: JCPC judgments from Find Case Law (court=ukpc, query plus 'Trinidad'; hits whose title names another jurisdiction dropped); missing: judgments before 2009 (only on BAILII, which forbids scraping) |
-| `tm` | Turkmenistan | ✅ | ✅ | yes | THIN: only Plenum guiding resolutions are published |
-| `tr` | Türkiye | ✅ | ✅ | yes | latest ~5 weeks lag in Bedesten |
-| `gb` | United Kingdom | ✅ | ✅ | yes | UK Supreme Court from 2009 in full; House of Lords before that is on BAILII only |
-| `us` | United States | ◐ | ✅ | yes | Supreme Court: whole archive reachable: govinfo bound U.S. Reports vols 2-586 (full-text search, govinfo key or DEMO_KEY ~10/day) + supremecourt.gov term lists from October Term 2018 on (slip opinions / preliminary prints / bound volumes, PDF text). Missing for 'complete': no full-text search for vo |
-| `uy` | Uruguay | ✅ | ◐ | yes | Acts of the General Assembly: by number+year only; IMPO keyword search robots-disallowed; some texts subscription-only; Decree-laws of the de facto regime: by number+year only |
-| `uz` | Uzbekistan | ◐ | ✅ | yes | Supreme Court Plenum (guiding resolutions): Plenum resolutions are on lex.uz; adapter reaches them; Supreme Court Presidium: selected decisions and Plenum resolutions only; Supreme Court, Civil Board: selected decisions and Plenum resolutions only; Supreme Court, Criminal Board: selected decisions a |
-| `af` | Afghanistan | ❌ | ◐ | no | Supreme Court (divisions: general criminal, public security, civil and public rights, commercial, military): 'final court decisions' and bulletin pages empty, not published online (2026-11-06) / Constitution of 2004 (suspended by the de facto administration): only as a Gazette PDF if listed in the M |
-| `dz` | Algeria | ❌ | ◐ | no | Supreme Court: coursupreme.dz connect timeout on http and https, www and bare (2026-11-05/06/07 and 2026-11-10); retried again 2026-11-10 (www, bare, http, https): ConnectTimeout / Organic laws, laws, presidential ordinances: full text from 2002 on (475 Loi/Loi organique/Ordonnance in the JO index), |
-| `az` | Azerbaijan | ◐ | ◐ | no | Supreme Court: Plenum guidance resolutions only, no individual cases; off unless WLM_PERMITTED (Referer/hotlink protection); Supreme Court – chambers (individual cassation judgments): individual Supreme Court judgments are not in e-qanun (only Plenum resolutions, see row above); not in e-qanun; supr |
-| `bh` | Bahrain | ❌ | ◐ | no | Court of Cassation: no official open source found / Constitution: in the LLOC database if indexed under its type codes (not checked); off unless WLM_PERMITTED (terms forbid use 'for any other purposes'); Laws and decree-laws (type K): consolidated .docx where LLOC has one, else as published; off unl |
-| `bj` | Benin | ❌ | ◐ | no | Supreme Court (judicial and administrative chambers): not published online (coursupreme.bj is a static page only) / Constitution (loi 90-32, revised by loi 2019-40): only as a loi PDF if SGG lists it (not checked); texts as promulgated; many recent PDFs image-only, no OCR here; Acts of the Assemblée |
-| `bt` | Bhutan | ❌ | ◐ | no | Supreme Court: judiciary.gov.bt times out from the UK (2026-11-06) / Acts: current and repealed, as enacted; amendments are separate Acts; English only (Dzongkha not built yet). Missing: Acts after 2023 (the Depository's newest Acts are from 2023, e.g. Civil Liability, National Digital Identity, Pay |
-| `bo` | Bolivia | ❌ | ◐ | no | Supreme Court of Justice (ordinary jurisdiction): API needs a key hard-coded in the site's JS; needs the court's permission / Laws of the Plurinational Legislative Assembly: LexiVox (unofficial) has laws up to Ley N° 1694 (7 Nov 2025); laws after that missing (recent ones for registered subscribers  |
-| `ba` | Bosnia and Herzegovina | – | ◐ | no | State-level laws: 2026-11-10: only the Parliament's unofficial consolidated texts (135 entries = 81 distinct acts, newest version searched); the full set of state acts is not reachable: parlament.ba /olaw/OLawDetails* is disallowed by robots.txt and Službeni glasnik BiH is paid |
-| `bg` | Bulgaria | ❌ | ◐ | no | Supreme Court of Cassation: vks.bg times out, https and http (2026-11-05/-06) / Laws and codes of the National Assembly: as adopted/promulgated, never consolidated; search covers the current Assembly, or 2006 onwards with a 'year' filter (parliament.bg archive, checked 2026-11-10). Missing: consolid |
-| `kh` | Cambodia | ❌ | ◐ | no | Supreme Court: PDFs mostly 404; the one that loaded was a scan with no text (2026-11-06) / Constitution: unofficial English, 1993 text without later amendments; Laws and Codes: ~180 CDC-selected documents, mostly unofficial English; official Khmer: scans/legacy fonts, no text |
-| `cn` | China | ◐ | ❌ | no | Supreme People's Court: guiding cases only (title search); SPC judgments, judicial interpretations and typical cases not covered; SPC circuit tribunals (part of the SPC): judgments only on China Judgments Online (login); guiding cases list the SPC as court / Constitution: legislation not implemented |
-| `co` | Colombia | ❌ | ◐ | no | Supreme Court – Civil Cassation Chamber: relatoría hosts answer 403 'Bloqueo por WafPolicy'; Supreme Court – Criminal Cassation Chamber and special first-instance/investigation chambers (trials of congress members): relatoría hosts answer 403 'Bloqueo por WafPolicy' / Constitution and constitutional |
-| `cu` | Cuba | ❌ | ◐ | no | People's Supreme Court: Tribunal Supremo terms forbid automated access; no decision database anyway / Acts of the National Assembly: Gazette norm database (~103 Leyes, search by type/number/year/summary) + issue PDFs; Ley 59/1987 Código Civil not indexed, served from the site's 2022 updated edition; |
-| `difc` | DIFC Courts (Dubai International Financial Centre) | ◐ | ❌ | no | Court of Appeal: off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission) / DIFC Laws (enacted by the Ruler of Dubai): difc.com legal database behind a Vercel bot check (JS challenge, HTTP 429) |
-| `do` | Dominican Republic | ❌ | ❌ | no | Supreme Court of Justice (cassation): Poder Judicial site: Azure gateway 403 to our client; www times out / Constitution: Consultoría Jurídica: Cloudflare challenge on its search API; Acts of Congress: Consultoría Jurídica Cloudflare challenge; Senado robots Crawl-delay 120 s; Cámara SIL enacted tex |
-| `ecowas` | ECOWAS Community Court of Justice | ◐ | ❌ | no | Judgments (full Court / panels): full text of every decision in the official Law Reports 2004-2017 (207 reported decisions, 9 volumes) plus the Court's online list (~210, mostly 2015+). Missing: text of the scanned list PDFs from 2018 on (no OCR; Law Reports after 2017 not online) and 2004-2017 deci |
-| `ec` | Ecuador | ❌ | ❌ | no | National Court of Justice – Civil and Commercial chamber (cassation): CNJ search is behind reCAPTCHA v3; see elsewhere; National Court of Justice – Criminal, Military, Police and Traffic chamber (cassation): CNJ search is behind reCAPTCHA v3; see elsewhere; National Court of Justice – Family, Childr |
-| `eg` | Egypt | ❌ | ❌ | no | Court of Cassation – civil, commercial and personal-status circuits: policy bans automated extraction (الاستخراج الآلى) and is paid; Court of Cassation – criminal circuits: policy bans automated extraction (الاستخراج الآلى) and is paid; Court of Cassation – General Assemblies (civil / criminal; reso |
-| `et` | Ethiopia | ❌ | ◐ | no | Federal Supreme Court: fsc.gov.et HTTPS fails, HTTP gives 404 (2026-11-06); Federal cassation bench: its interpretations bind all federal and regional courts (Proc. 454/2005); published in numbered volumes / Constitution of the FDRE: only if present in the HoPR library; not checked; Proclamations of |
-| `gr` | Greece | ◐ | ◐ | no | Supreme Civil and Criminal Court: 2006 onward only; search by number/year/subject index (index mostly 2007–2010), no free text / Constitution: only as published in ΦΕΚ (full-text gazette search); ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercia |
-| `gt` | Guatemala | ❌ | ❌ | no | Supreme Court – Civil Chamber (cassation): Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06); Supreme Court – Criminal Chamber (cassation): Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06) / Constitution: Congreso, gazette dca.gob.gt,  |
-| `ht` | Haiti | ❌ | ◐ | no | Court of Cassation (supreme court): not published online (its arrêts database is empty, 2026-11) / Constitution: only the 1987 original text is readable (id 'constitution-1987', from courdecassation.ht /publication/, text layer, no robots.txt, no terms page); the 2011 amended text is a scan with no  |
-| `hn` | Honduras | ❌ | ◐ | no | Supreme Court – Civil Chamber: Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06); Supreme Court – Criminal Chamber: Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06) / Constitution: TSC copy: 1982 text with reforms to 2004, as p |
-| `icsid` | ICSID (World Bank investment arbitration) | – | – | no |  |
-| `in` | India | ◐ | ◐ | no | Supreme Court: unofficial mirror (CC BY 4.0): S.C.R.-reported judgments 1950-2026 (~35k), full text (English PDF; pre-~2000 OCR). Missing: unreported judgments (not in e-SCR); full-text search (search covers parties/citations/coram/headnote, one year at a time); official source (sci.gov.in search be |
-| `id` | Indonesia | ❌ | ◐ | no | Supreme Court: robots.txt disallows (putusan3.mahkamahagung.go.id Disallow: /, ai-train=no) / Acts of the DPR: JDIH Setneg has 903 UU (checked 2026-11-10), earliest UU 7/1983; almost nothing before 1990 (no UU 5/1960, UU 1/1974, UU 1/1946) and holes (0 UU for 2004). As enacted, not consolidated; OCR |
-| `icj` | International Court of Justice (ICJ) | ◐ | – | no | Judgments and orders in disputes between States: metadata and PDF links only; PDFs behind Cloudflare bot check, no full text |
-| `iq` | Iraq | ❌ | ❌ | no | Federal Court of Cassation: bot check / blocks our client (Cloudflare, Supreme Judicial Council) / Constitution: bot check / blocks our client (parliament.iq, iraqld Cloudflare 403); Federal laws: bot check / blocks our client (parliament.iq, Iraqi Legal Database iraqld: Cloudflare 403) |
-| `il` | Israel | ❌ | ◐ | no | Supreme Court – civil and criminal appeals: blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking) / Basic Laws: official metadata (basic_law filter, 19 Basic Laws) + official text as first published: '<id>/original' extracts the Sefer HaChukim PDF text (bo |
-| `itlos` | ITLOS (International Tribunal for the Law of the Sea) | ◐ | – | no | Tribunal (21 judges): case record and PDF links only; texts need the Registrar's written permission (ITLOS Reports) |
-| `jm` | Jamaica | ◐ | ❌ | no | Privy Council (final appeal): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 65 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Jamaica)' or header 'From the Court of Appeal of Jamaica');  |
-| `jo` | Jordan | ❌ | ❌ | no | Court of Cassation: not published online (no official free source) / Constitution: blocks our client (lob.gov.jo API needs an encrypted JS handshake); Laws: blocks our client (lob.gov.jo API needs an encrypted JS handshake); needs permission; Provisional laws: same as laws (lob.gov.jo) |
-| `kg` | Kyrgyzstan | ❌ | ❌ | no | Supreme Court: site down / unreachable from outside Kyrgyzstan (sot.kg / act.sot.kg, 2026-11-06) / Constitution: blocks our client (cbd.minjust.gov.kg connection dropped, 2026-11-06); Constitutional laws, codes, laws: blocks our client (cbd.minjust.gov.kg connection dropped) |
-| `la` | Laos | ❌ | ◐ | no | People's Supreme Court: site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06) / Constitution: titles and metadata only: Gazette PDFs are scans (no text layer, no OCR); Laws of the National Assembly: titles and metadata only: Gazette PDFs are scans (no text l |
-| `lb` | Lebanon | ❌ | ◐ | no | Court of Cassation: no official open source; legiliban.ul.edu.lb needs permission (personal use only) / Laws: no official open source; legiliban.ul.edu.lb needs permission (personal use only); Council's own laws (Law 250/1993, internal rules): PDF-only on cc.gov.lb, not built yet |
-| `ly` | Libya | ◐ | ◐ | no | Supreme Court – civil, criminal, commercial and personal-status chambers: every ruling the court has put online (62 on 2026-11-10, 2020-2026; filters chamber civil/criminal/personal; commercial cases sit under civil), full text, searchable; journal volumes via journal_year; missing: rulings before 2 |
-| `mg` | Madagascar | ❌ | ◐ | no | Supreme Court – Court of Cassation: no official online database / Acts, organic laws, ordinances: full text since 1998; before 1998 mostly references only: a 2026-11-10 sample of laws/ordinances numbered 62-0*, 75-0*, 85-0*, 93-0* had ~90% without HTML or PDF text (some major ones are full text, e.g |
-| `mv` | Maldives | ❌ | ◐ | no | Supreme Court: court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law / Laws: Dhivehi. MvLaw: ~215 laws, consolidated. Gazette (filter source=gazette): all 386 laws it lists, as published (PDF text layer, per-page provisions), Oct 2009 to now, incl. amendm |
-| `mu` | Mauritius | ◐ | ◐ | no | Final appeal court (London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 100 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Mauritius)' or header 'From the Supreme Court of Mauritius') |
-| `me` | Montenegro | ❌ | ❌ | no | Supreme Court: sudovi.me: Cloudflare 403 and robots.txt disallows AI agents / Constitution: sluzbenilist.me: page images only; regis paid, terms forbid copying \| 2026-11-10: redesigned sluzbenilist.me (/propisi, filters act=0 Ustav, act=1 Zakon) still serves each act only as base64 JPEG page images |
-| `ng` | Nigeria | ◐ | ◐ | no | Supreme Court: full text 1960s–2012; 2023+ scans, metadata only; 2013–2022 missing; title search only / Constitution: full text with the 1st-5th Alterations (to April 2023), sections searchable by number; unofficial (PLAC print hosted by FAOLEX, FAO terms non-commercial); not verified whether any al |
-| `no` | Norway | ◐ | ❌ | no | Supreme Court: summary pages only, 2000 onwards; avdeling/ankeutvalg filter; Supreme Court Appeals Selection Committee: adapter filter court='ankeutvalg'; only rulings that get a domstol.no summary page; summaries only, 2000 onwards / Constitution: Lovdata robots.txt disallows; Acts: Lovdata robots. |
-| `pe` | Peru | ❌ | ◐ | no | Supreme Court plenary cassation rulings: binding precedents / Laws, legislative and emergency decrees: as published in El Peruano, ~2009 onwards, not consolidated. Missing: laws before ~2009 and consolidated texts. Congress Archivo Digital (leyes.congreso.gob.pe, all laws since 1904) has them only a |
-| `ro` | Romania | ◐ | ◐ | no | High Court of Cassation and Justice – First Civil Section: fetch by id only; robots.txt disallows scj.ro search; High Court of Cassation and Justice – Second Civil Section (commercial, insolvency): fetch by id only; robots.txt disallows scj.ro search; High Court of Cassation and Justice – Criminal S |
-| `sn` | Senegal | ◐ | ◐ | no | Supreme Court, combined chambers: Cour suprême decisions via JURICAF (unofficial, ODbL; ~7,458 to 2025-04; full pseudonymised text by id). Search is page 1 only (10 hits) because robots.txt disallows ?page=, chambers not broken out, nothing after 2025-04; so the archive cannot be listed or searched  |
-| `sc` | Seychelles | ❌ | ◐ | no | Court of Appeal: not on judiciary.sc; UNOFFICIAL SeyLII has Court of Appeal judgments / Constitution: full text, Government Printer 2010 edition revised up to August 2018 (judiciary.sc PDF, parsed by article); amendment Acts from 2020 on gazette.sc as enacted; missing: a merged current text and any  |
-| `sg` | Singapore | ◐ | ❌ | no | Court of Appeal (apex): off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGCA) / Constitution: Singapore Statutes Online: CloudFront 403 'Request blocked'; terms add conditions for automated use; Acts: Singapore Statutes Online blocks our client (403) |
-| `tj` | Tajikistan | ❌ | ◐ | no | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
-| `bs` | The Bahamas | ◐ | ◐ | no | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
-| `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | no |  |
-| `us-states` | United States (state courts) | – | – | no |  |
-| `vn` | Vietnam | ◐ | ◐ | no | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
-| `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | no | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
+| `afchpr` | [African Court on Human and Peoples' Rights](https://ykarapazar.github.io/fontes/law/afchpr/) | ✅ | – | yes |  |
+| `al` | [Albania](https://ykarapazar.github.io/fontes/law/al/) | ✅ | ◐ | yes | full-text search from 2005; 1999–2004 monthly volumes browse-only / Constitution: only as indexed in QBZ's act archive; search matches title/number, not full text; Codes: 1990s base codes not in QBZ's act archive; priced code editions not used; Council of Ministers normative acts with force of law:  |
+| `ad` | [Andorra](https://ykarapazar.github.io/fontes/law/ad/) | ❌ | ✅ | yes | High Court of Justice, Civil Chamber: justicia.ad TLS now verifies (2026-11-10), but its search is the CGPJ/CENDOJ instance jurisprudencia.poderjudicial.es/andorra: POST search.action answers 403 without browser XHR headers, CAPTCHA flow in its JS, meta robots 'none', notice allows personal consulta |
+| `ar` | [Argentina](https://ykarapazar.github.io/fontes/law/ar/) | ❌ | ✅ | yes | Supreme Court of Justice: sj.csjn.gov.ar behind reCAPTCHA; datos.csjn.gov.ar has no judgments |
+| `am` | [Armenia](https://ykarapazar.github.io/fontes/law/am/) | ✅ | ✅ | yes | Anti-Corruption Chamber publication unverified |
+| `au` | [Australia](https://ykarapazar.github.io/fontes/law/au/) | ❌ | ✅ | yes | High Court (apex and constitutional): hcourt.gov.au (Akamai) resets every request from this client |
+| `at` | [Austria](https://ykarapazar.github.io/fontes/law/at/) | ✅ | ✅ | yes |  |
+| `bd` | [Bangladesh](https://ykarapazar.github.io/fontes/law/bd/) | ✅ | ✅ | yes |  |
+| `bb` | [Barbados](https://ykarapazar.github.io/fontes/law/bb/) | ✅ | ◐ | yes | Constitution: only if it is in the site's consolidated statutes list (not checked); OCR of revised edition; Acts of Parliament, consolidated by chapter: OCR of scanned 1971 / L.R.O. 1985 revised editions; later amendments may be missing; Recent Acts: in the Official Gazette (governmentprintery.gov.b |
+| `bz` | [Belize](https://ykarapazar.github.io/fontes/law/bz/) | ✅ | ◐ | yes | Historical / repealed versions: no official pre-2020 source found |
+| `br` | [Brazil](https://ykarapazar.github.io/fontes/law/br/) | ❌ | ✅ | yes | Superior Court of Justice: SCON behind Cloudflare JS challenge (2026-11-07). Open-data portal checked 2026-11-10 and NOT built: text ZIPs are partial (2026-10-09: 1,293 decisions in metadata JSON, 100 texts in the ZIP; 2021-01-04: 108 vs 106), one file per Diario da Justica day, no index or search,  |
+| `cv` | [Cabo Verde](https://ykarapazar.github.io/fontes/law/cv/) | ✅ | ◐ | yes | THIN: the court publishes only ~360 selected judgments online / Acts and codes of the National Assembly: only ~30 core texts hosted by the TC; not consolidated; Government decree-laws and legislative decrees: Boletim Oficial: INCV terms forbid copying 'sem a prévia autorização' |
+| `cm` | [Cameroon](https://ykarapazar.github.io/fontes/law/cm/) | ✅ | ◐ | yes | THIN: the court publishes only a few dozen judgments online / Constitution: not a separate source; prc.cm only carries lois/ordonnances/décrets as signed; Acts of Parliament: as signed, not consolidated; newer acts (mostly 2015+) scans without text; Presidential ordinances: as signed; newer ones oft |
+| `ca` | [Canada](https://ykarapazar.github.io/fontes/law/ca/) | ✅ | ✅ | yes |  |
+| `ccj` | [Caribbean Court of Justice](https://ykarapazar.github.io/fontes/law/ccj/) | ✅ | – | yes |  |
+| `cl` | [Chile](https://ykarapazar.github.io/fontes/law/cl/) | ❌ | ✅ | yes | Supreme Court: all Poder Judicial courts: juris.pjud.cl robots.txt disallows all |
+| `cr` | [Costa Rica](https://ykarapazar.github.io/fontes/law/cr/) | ❌ | ✅ | yes | First Chamber (civil, commercial, administrative, agrarian cassation): all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas'; Third Chamber (criminal cassation): all courts: Nexus PJ terms ban databases built with 'herramientas robotizadas' |
+| `hr` | [Croatia](https://ykarapazar.github.io/fontes/law/hr/) | ❌ | ✅ | yes | Supreme Court: odluke.sudovi.hr: robots.txt disallows |
+| `cz` | [Czechia](https://ykarapazar.github.io/fontes/law/cz/) | ✅ | ✅ | yes |  |
+| `ci` | [Côte d'Ivoire](https://ykarapazar.github.io/fontes/law/ci/) | ✅ | ◐ | yes | THIN: the court publishes only ~100 judgments online / Constitution: 2016 Constitution PDF on conseil-constitutionnel.ci; Acts of Parliament: ~135 laws, mostly 2012-2020, as adopted (not consolidated); title search only; some entries summary only; Ordinances: not on assnat.ci; JO site cert expired |
+| `dk` | [Denmark](https://ykarapazar.github.io/fontes/law/dk/) | ❌ | ✅ | yes | Supreme Court: Domsdatabasen API needs an approved application; domstol.dk behind a Cloudflare challenge |
+| `efta` | [EFTA Court](https://ykarapazar.github.io/fontes/law/efta/) | ✅ | – | yes |  |
+| `ee` | [Estonia](https://ykarapazar.github.io/fontes/law/ee/) | ❌ | ✅ | yes | Supreme Court en banc (Üldkogu): robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee; Supreme Court Civil Chamber (cassation): robots.txt disallows RT's court-decision routes (*/kohtulahendid/*) and rikos.rik.ee; Supreme Court Criminal Chamber (cassation; incl. misde |
+| `echr` | [European Court of Human Rights](https://ykarapazar.github.io/fontes/law/echr/) | ✅ | – | yes |  |
+| `eu` | [European Union](https://ykarapazar.github.io/fontes/law/eu/) | ✅ | ✅ | yes |  |
+| `fi` | [Finland](https://ykarapazar.github.io/fontes/law/fi/) | ✅ | ✅ | yes | precedents (KKO) only; other decisions not built |
+| `fr` | [France](https://ykarapazar.github.io/fontes/law/fr/) | ✅ | ✅ | yes |  |
+| `ge` | [Georgia](https://ykarapazar.github.io/fontes/law/ge/) | ◐ | ✅ | yes | Supreme Court: ECD holds only 2018-01 to 2020-04; supremecourt.ge robots.txt disallows /ka/getCases* |
+| `de` | [Germany (federal)](https://ykarapazar.github.io/fontes/law/de/) | ◐ | ✅ | yes | Federal Court of Justice: off unless WLM_PERMITTED=de: NeuRIS robots.txt 'Disallow: /' (needs permission) |
+| `gy` | [Guyana](https://ykarapazar.github.io/fontes/law/gy/) | ✅ | ◐ | yes | Acts of Parliament, Revised Edition L.R.O. 1/2022: Revised Edition in force at 31 Dec 2022 only; title search only. Missing: Acts from 2023 on. parliament.gov.gy lists them (to June 2025 only) but every Act PDF sampled is a scan without a text layer (no OCR allowed), checked 2026-11-10 |
+| `hk` | [Hong Kong](https://ykarapazar.github.io/fontes/law/hk/) | ❌ | ✅ | yes | Court of Final Appeal: Judiciary Legal Reference System: robots.txt disallows (Disallow: /); HKLII /api disallowed / current versions only; past versions robots-blocked |
+| `hu` | [Hungary](https://ykarapazar.github.io/fontes/law/hu/) | ✅ | ❌ | yes | Fundamental Law: Nemzeti Jogszabálytár: terms forbid automated use; needs permission; Acts of Parliament (incl. cardinal acts): Nemzeti Jogszabálytár: terms forbid automated use; needs permission |
+| `is` | [Iceland](https://ykarapazar.github.io/fontes/law/is/) | ✅ | ❌ | yes | Constitution: bot check / blocks our client (althingi.is/lagas Cloudflare JS challenge); Acts of the Althingi: bot check / blocks our client (althingi.is/lagas Cloudflare JS challenge) |
+| `ie` | [Ireland](https://ykarapazar.github.io/fontes/law/ie/) | ❌ | ✅ | yes | Supreme Court: robots.txt disallows (judgments.courts.ie Disallow: /); BAILII Ireland: bot check / blocks our client |
+| `it` | [Italy](https://ykarapazar.github.io/fontes/law/it/) | ❌ | ✅ | yes | Court of Cassation – civil sections: site down / unreachable from outside Italy (Italgiure, 2026-11); Court of Cassation – criminal sections: site down / unreachable from outside Italy (Italgiure, 2026-11) |
+| `jp` | [Japan](https://ykarapazar.github.io/fontes/law/jp/) | ❌ | ✅ | yes | Supreme Court: site down (courts.go.jp search under maintenance, 2026-11-05); detail pages by id not built yet |
+| `xk` | [Kosovo](https://ykarapazar.github.io/fontes/law/xk/) | ❌ | ✅ | yes | Supreme Court: Ordinary-court case law (gjyqesori-rks.org): 403 to our client; robots.txt sets Content-Signal ai-train=no; Kosovo Specialist Chambers, Supreme Court Panel: KSC Public Court Records repository; not built (terms need written permission beyond private/educational use) |
+| `lv` | [Latvia](https://ykarapazar.github.io/fontes/law/lv/) | ✅ | ❌ | yes | Constitution: likumi.lv robots.txt disallows search; re-use needs Latvijas Vēstnesis written consent; Laws of the Saeima: likumi.lv: robots.txt / written consent required; titania.saeima.lv Disallow: / |
+| `li` | [Liechtenstein](https://ykarapazar.github.io/fontes/law/li/) | ◐ | ✅ | yes | Supreme Court (third instance, civil/criminal): 230 OGH decisions 2020-2025 with full-text PDF, as posted on ogh.li (counted 2026-11-10: 2020 3, 2021 36, 2022 40, 2023 48, 2024 66, 2025 37). Missing: everything before mid-2020 and any 2026+ decisions (ogh.li links those to the robots-blocked portal) |
+| `lu` | [Luxembourg](https://ykarapazar.github.io/fontes/law/lu/) | ◐ | ✅ | yes | Court of Cassation: every published decision (2,459 PDFs, 1971-2026, listed 2026-11-10; ~150-175/yr since 2014, sparse before 2009) opens by id with full text; missing: full-text search (source is ZIPs of PDFs without an index: search lists by year/date/case number and scans text for <=15 narrowed c |
+| `mt` | [Malta](https://ykarapazar.github.io/fontes/law/mt/) | ❌ | ✅ | yes | Court of Appeal (superior jurisdiction): ecourts.gov.mt: Cloudflare 403; Court of Criminal Appeal (superior): ecourts.gov.mt: Cloudflare 403 |
+| `md` | [Moldova](https://ykarapazar.github.io/fontes/law/md/) | ✅ | ◐ | yes | Organic and ordinary laws: legis.md and parlament.md: Cloudflare bot check (403, re-checked 2026-11-10); monitorul.gov.md: texts paid-subscription only, terms forbid copying |
+| `mc` | [Monaco](https://ykarapazar.github.io/fontes/law/mc/) | ✅ | ✅ | yes |  |
+| `mn` | [Mongolia](https://ykarapazar.github.io/fontes/law/mn/) | ✅ | ❌ | yes | Constitution: legalinfo.mn reachable 2026-11-07; not built yet; Laws of the State Great Khural: legalinfo.mn: not built yet |
+| `ma` | [Morocco](https://ykarapazar.github.io/fontes/law/ma/) | ❌ | ✅ | yes | Court of Cassation: juriscassation.cspj.ma unreachable (timed out 2026-11-05/06) |
+| `mz` | [Mozambique](https://ykarapazar.github.io/fontes/law/mz/) | ✅ | ◐ | yes | Laws: ~110 PDFs on the TS page, as published; MozLex banned |
+| `mm` | [Myanmar](https://ykarapazar.github.io/fontes/law/mm/) | ✅ | ◐ | yes | Constitution: MLIS down; Hluttaw site JavaScript-only; Union laws: ~25 laws/procedures on the Supreme Court site (incl. CPC, CrPC in English); legacy-font PDFs refused |
+| `np` | [Nepal](https://ykarapazar.github.io/fontes/law/np/) | ✅ | ❌ | yes | Nepal Kanoon Patrika precedents; Nepali only / Constitution: lawcommission.gov.np PDFs: broken text layer; Acts: broken PDF text layer |
+| `nl` | [Netherlands](https://ykarapazar.github.io/fontes/law/nl/) | ✅ | ✅ | yes |  |
+| `pk` | [Pakistan](https://ykarapazar.github.io/fontes/law/pk/) | ❌ | ✅ | yes | Supreme Court: Akamai bot check (403) |
+| `ps` | [Palestine](https://ykarapazar.github.io/fontes/law/ps/) | ✅ | ✅ | yes |  |
+| `pa` | [Panama](https://ykarapazar.github.io/fontes/law/pa/) | ◐ | ✅ | yes | Civil Chamber: few rulings in the Gaceta; Órgano Judicial: WAF 403; Criminal Chamber: few rulings in the Gaceta; Órgano Judicial: WAF 403 |
+| `py` | [Paraguay](https://ykarapazar.github.io/fontes/law/py/) | ✅ | ✅ | yes | from 1993 |
+| `ph` | [Philippines](https://ykarapazar.github.io/fontes/law/ph/) | ✅ | ✅ | yes |  |
+| `pl` | [Poland](https://ykarapazar.github.io/fontes/law/pl/) | ❌ | ✅ | yes | Supreme Court, Civil Chamber: sn.pl behind Incapsula bot wall; Supreme Court, Criminal Chamber (also hears military-court cassations): sn.pl behind Incapsula bot wall |
+| `pt` | [Portugal](https://ykarapazar.github.io/fontes/law/pt/) | ✅ | ◐ | yes | DGSI is the official selection; some summary-only / Constitution: unofficial PGDL consolidation; only the Diário da República is authentic; Acts of the Assembleia da República: PGDL selection, unofficial consolidations; Government decree-laws: PGDL selection, unofficial consolidations |
+| `rw` | [Rwanda](https://ykarapazar.github.io/fontes/law/rw/) | ✅ | ✅ | yes |  |
+| `rs` | [Serbia](https://ykarapazar.github.io/fontes/law/rs/) | ✅ | ◐ | yes | the court publishes selected anonymised decisions only / Acts of the National Assembly: only the Law on the Constitutional Court (unofficial consolidated text on ustavni.sud.rs); every other act missing: pravno-informacioni-sistem.rs terms forbid automated use without written consent; parlament.gov. |
+| `sk` | [Slovakia](https://ykarapazar.github.io/fontes/law/sk/) | ✅ | ✅ | yes |  |
+| `si` | [Slovenia](https://ykarapazar.github.io/fontes/law/si/) | ✅ | ✅ | yes |  |
+| `es` | [Spain](https://ykarapazar.github.io/fontes/law/es/) | ❌ | ✅ | yes |  |
+| `sr` | [Suriname](https://ykarapazar.github.io/fontes/law/sr/) | ✅ | ◐ | yes | the court publishes selected anonymised decisions only / Acts: pre-2005 consolidations plus later laws and amendments as separate PDFs; title search only |
+| `se` | [Sweden](https://ykarapazar.github.io/fontes/law/se/) | ✅ | ✅ | yes |  |
+| `ch` | [Switzerland](https://ykarapazar.github.io/fontes/law/ch/) | ✅ | ✅ | yes |  |
+| `tw` | [Taiwan](https://ykarapazar.github.io/fontes/law/tw/) | ✅ | ◐ | yes | Statutes of the Legislative Yuan: opened by MOJ pcode only; no search (robots.txt allows only LawAll.aspx) |
+| `tt` | [Trinidad and Tobago](https://ykarapazar.github.io/fontes/law/tt/) | ◐ | ✅ | yes | Final court of appeal (London): 2009 on: JCPC judgments from Find Case Law (court=ukpc, query plus 'Trinidad'; hits whose title names another jurisdiction dropped); missing: judgments before 2009 (only on BAILII, which forbids scraping) |
+| `tm` | [Turkmenistan](https://ykarapazar.github.io/fontes/law/tm/) | ✅ | ✅ | yes | THIN: only Plenum guiding resolutions are published |
+| `tr` | [Türkiye](https://ykarapazar.github.io/fontes/law/tr/) | ✅ | ✅ | yes | latest ~5 weeks lag in Bedesten |
+| `gb` | [United Kingdom](https://ykarapazar.github.io/fontes/law/gb/) | ✅ | ✅ | yes | UK Supreme Court from 2009 in full; House of Lords before that is on BAILII only |
+| `us` | [United States](https://ykarapazar.github.io/fontes/law/us/) | ◐ | ✅ | yes | Supreme Court: whole archive reachable: govinfo bound U.S. Reports vols 2-586 (full-text search, govinfo key or DEMO_KEY ~10/day) + supremecourt.gov term lists from October Term 2018 on (slip opinions / preliminary prints / bound volumes, PDF text). Missing for 'complete': no full-text search for vo |
+| `uy` | [Uruguay](https://ykarapazar.github.io/fontes/law/uy/) | ✅ | ◐ | yes | Acts of the General Assembly: by number+year only; IMPO keyword search robots-disallowed; some texts subscription-only; Decree-laws of the de facto regime: by number+year only |
+| `uz` | [Uzbekistan](https://ykarapazar.github.io/fontes/law/uz/) | ◐ | ✅ | yes | Supreme Court Plenum (guiding resolutions): Plenum resolutions are on lex.uz; adapter reaches them; Supreme Court Presidium: selected decisions and Plenum resolutions only; Supreme Court, Civil Board: selected decisions and Plenum resolutions only; Supreme Court, Criminal Board: selected decisions a |
+| `af` | [Afghanistan](https://ykarapazar.github.io/fontes/law/af/) | ❌ | ◐ | no | Supreme Court (divisions: general criminal, public security, civil and public rights, commercial, military): 'final court decisions' and bulletin pages empty, not published online (2026-11-06) / Constitution of 2004 (suspended by the de facto administration): only as a Gazette PDF if listed in the M |
+| `dz` | [Algeria](https://ykarapazar.github.io/fontes/law/dz/) | ❌ | ◐ | no | Supreme Court: coursupreme.dz connect timeout on http and https, www and bare (2026-11-05/06/07 and 2026-11-10); retried again 2026-11-10 (www, bare, http, https): ConnectTimeout / Organic laws, laws, presidential ordinances: full text from 2002 on (475 Loi/Loi organique/Ordonnance in the JO index), |
+| `az` | [Azerbaijan](https://ykarapazar.github.io/fontes/law/az/) | ◐ | ◐ | no | Supreme Court: Plenum guidance resolutions only, no individual cases; off unless WLM_PERMITTED (Referer/hotlink protection); Supreme Court – chambers (individual cassation judgments): individual Supreme Court judgments are not in e-qanun (only Plenum resolutions, see row above); not in e-qanun; supr |
+| `bh` | [Bahrain](https://ykarapazar.github.io/fontes/law/bh/) | ❌ | ◐ | no | Court of Cassation: no official open source found / Constitution: in the LLOC database if indexed under its type codes (not checked); off unless WLM_PERMITTED (terms forbid use 'for any other purposes'); Laws and decree-laws (type K): consolidated .docx where LLOC has one, else as published; off unl |
+| `bj` | [Benin](https://ykarapazar.github.io/fontes/law/bj/) | ❌ | ◐ | no | Supreme Court (judicial and administrative chambers): not published online (coursupreme.bj is a static page only) / Constitution (loi 90-32, revised by loi 2019-40): only as a loi PDF if SGG lists it (not checked); texts as promulgated; many recent PDFs image-only, no OCR here; Acts of the Assemblée |
+| `bt` | [Bhutan](https://ykarapazar.github.io/fontes/law/bt/) | ❌ | ◐ | no | Supreme Court: judiciary.gov.bt times out from the UK (2026-11-06) / Acts: current and repealed, as enacted; amendments are separate Acts; English only (Dzongkha not built yet). Missing: Acts after 2023 (the Depository's newest Acts are from 2023, e.g. Civil Liability, National Digital Identity, Pay |
+| `bo` | [Bolivia](https://ykarapazar.github.io/fontes/law/bo/) | ❌ | ◐ | no | Supreme Court of Justice (ordinary jurisdiction): API needs a key hard-coded in the site's JS; needs the court's permission / Laws of the Plurinational Legislative Assembly: LexiVox (unofficial) has laws up to Ley N° 1694 (7 Nov 2025); laws after that missing (recent ones for registered subscribers  |
+| `ba` | [Bosnia and Herzegovina](https://ykarapazar.github.io/fontes/law/ba/) | – | ◐ | no | State-level laws: 2026-11-10: only the Parliament's unofficial consolidated texts (135 entries = 81 distinct acts, newest version searched); the full set of state acts is not reachable: parlament.ba /olaw/OLawDetails* is disallowed by robots.txt and Službeni glasnik BiH is paid |
+| `bg` | [Bulgaria](https://ykarapazar.github.io/fontes/law/bg/) | ❌ | ◐ | no | Supreme Court of Cassation: vks.bg times out, https and http (2026-11-05/-06) / Laws and codes of the National Assembly: as adopted/promulgated, never consolidated; search covers the current Assembly, or 2006 onwards with a 'year' filter (parliament.bg archive, checked 2026-11-10). Missing: consolid |
+| `kh` | [Cambodia](https://ykarapazar.github.io/fontes/law/kh/) | ❌ | ◐ | no | Supreme Court: PDFs mostly 404; the one that loaded was a scan with no text (2026-11-06) / Constitution: unofficial English, 1993 text without later amendments; Laws and Codes: ~180 CDC-selected documents, mostly unofficial English; official Khmer: scans/legacy fonts, no text |
+| `cn` | [China](https://ykarapazar.github.io/fontes/law/cn/) | ◐ | ❌ | no | Supreme People's Court: guiding cases only (title search); SPC judgments, judicial interpretations and typical cases not covered; SPC circuit tribunals (part of the SPC): judgments only on China Judgments Online (login); guiding cases list the SPC as court / Constitution: legislation not implemented |
+| `co` | [Colombia](https://ykarapazar.github.io/fontes/law/co/) | ❌ | ◐ | no | Supreme Court – Civil Cassation Chamber: relatoría hosts answer 403 'Bloqueo por WafPolicy'; Supreme Court – Criminal Cassation Chamber and special first-instance/investigation chambers (trials of congress members): relatoría hosts answer 403 'Bloqueo por WafPolicy' / Constitution and constitutional |
+| `cu` | [Cuba](https://ykarapazar.github.io/fontes/law/cu/) | ❌ | ◐ | no | People's Supreme Court: Tribunal Supremo terms forbid automated access; no decision database anyway / Acts of the National Assembly: Gazette norm database (~103 Leyes, search by type/number/year/summary) + issue PDFs; Ley 59/1987 Código Civil not indexed, served from the site's 2022 updated edition; |
+| `difc` | [DIFC Courts (Dubai International Financial Centre)](https://ykarapazar.github.io/fontes/law/difc/) | ◐ | ❌ | no | Court of Appeal: off unless WLM_PERMITTED: Terms of Use allow personal, non-commercial use only (needs written permission) / DIFC Laws (enacted by the Ruler of Dubai): difc.com legal database behind a Vercel bot check (JS challenge, HTTP 429) |
+| `do` | [Dominican Republic](https://ykarapazar.github.io/fontes/law/do/) | ❌ | ❌ | no | Supreme Court of Justice (cassation): Poder Judicial site: Azure gateway 403 to our client; www times out / Constitution: Consultoría Jurídica: Cloudflare challenge on its search API; Acts of Congress: Consultoría Jurídica Cloudflare challenge; Senado robots Crawl-delay 120 s; Cámara SIL enacted tex |
+| `ecowas` | [ECOWAS Community Court of Justice](https://ykarapazar.github.io/fontes/law/ecowas/) | ◐ | ❌ | no | Judgments (full Court / panels): full text of every decision in the official Law Reports 2004-2017 (207 reported decisions, 9 volumes) plus the Court's online list (~210, mostly 2015+). Missing: text of the scanned list PDFs from 2018 on (no OCR; Law Reports after 2017 not online) and 2004-2017 deci |
+| `ec` | [Ecuador](https://ykarapazar.github.io/fontes/law/ec/) | ❌ | ❌ | no | National Court of Justice – Civil and Commercial chamber (cassation): CNJ search is behind reCAPTCHA v3; see elsewhere; National Court of Justice – Criminal, Military, Police and Traffic chamber (cassation): CNJ search is behind reCAPTCHA v3; see elsewhere; National Court of Justice – Family, Childr |
+| `eg` | [Egypt](https://ykarapazar.github.io/fontes/law/eg/) | ❌ | ❌ | no | Court of Cassation – civil, commercial and personal-status circuits: policy bans automated extraction (الاستخراج الآلى) and is paid; Court of Cassation – criminal circuits: policy bans automated extraction (الاستخراج الآلى) and is paid; Court of Cassation – General Assemblies (civil / criminal; reso |
+| `et` | [Ethiopia](https://ykarapazar.github.io/fontes/law/et/) | ❌ | ◐ | no | Federal Supreme Court: fsc.gov.et HTTPS fails, HTTP gives 404 (2026-11-06); Federal cassation bench: its interpretations bind all federal and regional courts (Proc. 454/2005); published in numbered volumes / Constitution of the FDRE: only if present in the HoPR library; not checked; Proclamations of |
+| `gr` | [Greece](https://ykarapazar.github.io/fontes/law/gr/) | ◐ | ◐ | no | Supreme Civil and Criminal Court: 2006 onward only; search by number/year/subject index (index mostly 2007–2010), no free text / Constitution: only as published in ΦΕΚ (full-text gazette search); ΦΕΚ text as published, not consolidated; source off unless WLM_PERMITTED (terms: personal, non-commercia |
+| `gt` | [Guatemala](https://ykarapazar.github.io/fontes/law/gt/) | ❌ | ❌ | no | Supreme Court – Civil Chamber (cassation): Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06); Supreme Court – Criminal Chamber (cassation): Organismo Judicial / CENADOJ unreachable (WAF 403, timeouts, bad TLS; 2026-11-06) / Constitution: Congreso, gazette dca.gob.gt,  |
+| `ht` | [Haiti](https://ykarapazar.github.io/fontes/law/ht/) | ❌ | ◐ | no | Court of Cassation (supreme court): not published online (its arrêts database is empty, 2026-11) / Constitution: only the 1987 original text is readable (id 'constitution-1987', from courdecassation.ht /publication/, text layer, no robots.txt, no terms page); the 2011 amended text is a scan with no  |
+| `hn` | [Honduras](https://ykarapazar.github.io/fontes/law/hn/) | ❌ | ◐ | no | Supreme Court – Civil Chamber: Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06); Supreme Court – Criminal Chamber: Poder Judicial / CEDIJ: site down / unreachable (TCP timeout from the UK, 2026-11-06) / Constitution: TSC copy: 1982 text with reforms to 2004, as p |
+| `icsid` | [ICSID (World Bank investment arbitration)](https://ykarapazar.github.io/fontes/law/icsid/) | – | – | no |  |
+| `in` | [India](https://ykarapazar.github.io/fontes/law/in/) | ◐ | ◐ | no | Supreme Court: unofficial mirror (CC BY 4.0): S.C.R.-reported judgments 1950-2026 (~35k), full text (English PDF; pre-~2000 OCR). Missing: unreported judgments (not in e-SCR); full-text search (search covers parties/citations/coram/headnote, one year at a time); official source (sci.gov.in search be |
+| `id` | [Indonesia](https://ykarapazar.github.io/fontes/law/id/) | ❌ | ◐ | no | Supreme Court: robots.txt disallows (putusan3.mahkamahagung.go.id Disallow: /, ai-train=no) / Acts of the DPR: JDIH Setneg has 903 UU (checked 2026-11-10), earliest UU 7/1983; almost nothing before 1990 (no UU 5/1960, UU 1/1974, UU 1/1946) and holes (0 UU for 2004). As enacted, not consolidated; OCR |
+| `icj` | [International Court of Justice (ICJ)](https://ykarapazar.github.io/fontes/law/icj/) | ◐ | – | no | Judgments and orders in disputes between States: metadata and PDF links only; PDFs behind Cloudflare bot check, no full text |
+| `iq` | [Iraq](https://ykarapazar.github.io/fontes/law/iq/) | ❌ | ❌ | no | Federal Court of Cassation: bot check / blocks our client (Cloudflare, Supreme Judicial Council) / Constitution: bot check / blocks our client (parliament.iq, iraqld Cloudflare 403); Federal laws: bot check / blocks our client (parliament.iq, Iraqi Legal Database iraqld: Cloudflare 403) |
+| `il` | [Israel](https://ykarapazar.github.io/fontes/law/il/) | ❌ | ◐ | no | Supreme Court – civil and criminal appeals: blocks our client (unauthorised-activity page); bulk access needs permission (signed undertaking) / Basic Laws: official metadata (basic_law filter, 19 Basic Laws) + official text as first published: '<id>/original' extracts the Sefer HaChukim PDF text (bo |
+| `itlos` | [ITLOS (International Tribunal for the Law of the Sea)](https://ykarapazar.github.io/fontes/law/itlos/) | ◐ | – | no | Tribunal (21 judges): case record and PDF links only; texts need the Registrar's written permission (ITLOS Reports) |
+| `jm` | [Jamaica](https://ykarapazar.github.io/fontes/law/jm/) | ◐ | ❌ | no | Privy Council (final appeal): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 65 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Jamaica)' or header 'From the Court of Appeal of Jamaica');  |
+| `jo` | [Jordan](https://ykarapazar.github.io/fontes/law/jo/) | ❌ | ❌ | no | Court of Cassation: not published online (no official free source) / Constitution: blocks our client (lob.gov.jo API needs an encrypted JS handshake); Laws: blocks our client (lob.gov.jo API needs an encrypted JS handshake); needs permission; Provisional laws: same as laws (lob.gov.jo) |
+| `kg` | [Kyrgyzstan](https://ykarapazar.github.io/fontes/law/kg/) | ❌ | ❌ | no | Supreme Court: site down / unreachable from outside Kyrgyzstan (sot.kg / act.sot.kg, 2026-11-06) / Constitution: blocks our client (cbd.minjust.gov.kg connection dropped, 2026-11-06); Constitutional laws, codes, laws: blocks our client (cbd.minjust.gov.kg connection dropped) |
+| `la` | [Laos](https://ykarapazar.github.io/fontes/law/la/) | ❌ | ◐ | no | People's Supreme Court: site down / unreachable (spc.gov.la does not resolve, peoplecourt.gov.la timed out, 2026-11-06) / Constitution: titles and metadata only: Gazette PDFs are scans (no text layer, no OCR); Laws of the National Assembly: titles and metadata only: Gazette PDFs are scans (no text l |
+| `lb` | [Lebanon](https://ykarapazar.github.io/fontes/law/lb/) | ❌ | ◐ | no | Court of Cassation: no official open source; legiliban.ul.edu.lb needs permission (personal use only) / Laws: no official open source; legiliban.ul.edu.lb needs permission (personal use only); Council's own laws (Law 250/1993, internal rules): PDF-only on cc.gov.lb, not built yet |
+| `ly` | [Libya](https://ykarapazar.github.io/fontes/law/ly/) | ◐ | ◐ | no | Supreme Court – civil, criminal, commercial and personal-status chambers: every ruling the court has put online (62 on 2026-11-10, 2020-2026; filters chamber civil/criminal/personal; commercial cases sit under civil), full text, searchable; journal volumes via journal_year; missing: rulings before 2 |
+| `mg` | [Madagascar](https://ykarapazar.github.io/fontes/law/mg/) | ❌ | ◐ | no | Supreme Court – Court of Cassation: no official online database / Acts, organic laws, ordinances: full text since 1998; before 1998 mostly references only: a 2026-11-10 sample of laws/ordinances numbered 62-0*, 75-0*, 85-0*, 93-0* had ~90% without HTML or PDF text (some major ones are full text, e.g |
+| `mv` | [Maldives](https://ykarapazar.github.io/fontes/law/mv/) | ❌ | ◐ | no | Supreme Court: court judgment hosts behind Cloudflare challenge; adapter is legislation-only (MvLaw); no case law / Laws: Dhivehi. MvLaw: ~215 laws, consolidated. Gazette (filter source=gazette): all 386 laws it lists, as published (PDF text layer, per-page provisions), Oct 2009 to now, incl. amendm |
+| `mu` | [Mauritius](https://ykarapazar.github.io/fontes/law/mu/) | ◐ | ◐ | no | Final appeal court (London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 100 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Mauritius)' or header 'From the Supreme Court of Mauritius') |
+| `me` | [Montenegro](https://ykarapazar.github.io/fontes/law/me/) | ❌ | ❌ | no | Supreme Court: sudovi.me: Cloudflare 403 and robots.txt disallows AI agents / Constitution: sluzbenilist.me: page images only; regis paid, terms forbid copying \| 2026-11-10: redesigned sluzbenilist.me (/propisi, filters act=0 Ustav, act=1 Zakon) still serves each act only as base64 JPEG page images |
+| `ng` | [Nigeria](https://ykarapazar.github.io/fontes/law/ng/) | ◐ | ◐ | no | Supreme Court: full text 1960s–2012; 2023+ scans, metadata only; 2013–2022 missing; title search only / Constitution: full text with the 1st-5th Alterations (to April 2023), sections searchable by number; unofficial (PLAC print hosted by FAOLEX, FAO terms non-commercial); not verified whether any al |
+| `no` | [Norway](https://ykarapazar.github.io/fontes/law/no/) | ◐ | ❌ | no | Supreme Court: summary pages only, 2000 onwards; avdeling/ankeutvalg filter; Supreme Court Appeals Selection Committee: adapter filter court='ankeutvalg'; only rulings that get a domstol.no summary page; summaries only, 2000 onwards / Constitution: Lovdata robots.txt disallows; Acts: Lovdata robots. |
+| `pe` | [Peru](https://ykarapazar.github.io/fontes/law/pe/) | ❌ | ◐ | no | Supreme Court plenary cassation rulings: binding precedents / Laws, legislative and emergency decrees: as published in El Peruano, ~2009 onwards, not consolidated. Missing: laws before ~2009 and consolidated texts. Congress Archivo Digital (leyes.congreso.gob.pe, all laws since 1904) has them only a |
+| `ro` | [Romania](https://ykarapazar.github.io/fontes/law/ro/) | ◐ | ◐ | no | High Court of Cassation and Justice – First Civil Section: fetch by id only; robots.txt disallows scj.ro search; High Court of Cassation and Justice – Second Civil Section (commercial, insolvency): fetch by id only; robots.txt disallows scj.ro search; High Court of Cassation and Justice – Criminal S |
+| `sn` | [Senegal](https://ykarapazar.github.io/fontes/law/sn/) | ◐ | ◐ | no | Supreme Court, combined chambers: Cour suprême decisions via JURICAF (unofficial, ODbL; ~7,458 to 2025-04; full pseudonymised text by id). Search is page 1 only (10 hits) because robots.txt disallows ?page=, chambers not broken out, nothing after 2025-04; so the archive cannot be listed or searched  |
+| `sc` | [Seychelles](https://ykarapazar.github.io/fontes/law/sc/) | ❌ | ◐ | no | Court of Appeal: not on judiciary.sc; UNOFFICIAL SeyLII has Court of Appeal judgments / Constitution: full text, Government Printer 2010 edition revised up to August 2018 (judiciary.sc PDF, parsed by article); amendment Acts from 2020 on gazette.sc as enacted; missing: a merged current text and any  |
+| `sg` | [Singapore](https://ykarapazar.github.io/fontes/law/sg/) | ◐ | ❌ | no | Court of Appeal (apex): off unless WLM_PERMITTED=sg (eLitigation terms need written approval); written judgments only (SGCA) / Constitution: Singapore Statutes Online: CloudFront 403 'Request blocked'; terms add conditions for automated use; Acts: Singapore Statutes Online blocks our client (403) |
+| `tj` | [Tajikistan](https://ykarapazar.github.io/fontes/law/tj/) | ❌ | ◐ | no | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
+| `bs` | [The Bahamas](https://ykarapazar.github.io/fontes/law/bs/) | ◐ | ◐ | no | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
+| `untc` | [UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General)](https://ykarapazar.github.io/fontes/law/untc/) | – | – | no |  |
+| `us-states` | [United States (state courts)](https://ykarapazar.github.io/fontes/law/us-states/) | – | – | no |  |
+| `vn` | [Vietnam](https://ykarapazar.github.io/fontes/law/vn/) | ◐ | ◐ | no | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
+| `wto` | [WTO dispute settlement (World Trade Organization)](https://ykarapazar.github.io/fontes/law/wto/) | ◐ | – | no | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 
 ## Detail
 
 | Code | Jurisdiction | Case law | Legislation | Courts in Fontes | State courts in Fontes | Legislation types in Fontes | Rest: 🟢 available 🔒 blocked ⚫ offline ❓ unknown |
 |---|---|---|---|---|---|---|---|
-| `af` | Afghanistan | no | yes | 0/14 | – | 0+6½/7 | ⚫13 ❓8 |
-| `afchpr` | African Court on Human and Peoples' Rights | yes | no | 5+1½/8 | – | 0/5 | 🟢7 ❓1 |
-| `al` | Albania | yes | yes | 4/19 | – | 5+4½/10 | 🟢3 🔒13 ❓4 |
-| `dz` | Algeria | yes | yes | 0+1½/19 | – | 1+6½/7 | 🟢1 🔒5 ❓19 |
-| `ad` | Andorra | yes | yes | 1/10 | – | 3+1½/7 | 🟢4 🔒5 ⚫4 |
-| `ar` | Argentina | no | yes | 0/33 | 0/328 | 5+1½/9 | 🟢26 🔒334 ❓5 |
-| `am` | Armenia | yes | yes | 2+1½/14 | – | 7+2½/9 | 🟢12 ❓2 |
-| `au` | Australia | no | yes | 0/14 | 0/61 | 6/9 | 🟢1 🔒65 ⚫5 ❓7 |
-| `at` | Austria | yes | yes | 6+11½/27 | 9/9 | 3+1½/8 | 🟢15 ⚫11 |
-| `az` | Azerbaijan | yes | yes | 0+2½/11 | – | 0+8½/11 | 🟢1 🔒19 ❓2 |
-| `bh` | Bahrain | yes | yes | 0+1½/18 | – | 0+6½/9 | 🔒11 ⚫3 ❓13 |
-| `bd` | Bangladesh | yes | yes | 2/36 | – | 3/7 | 🟢2 ⚫20 ❓16 |
-| `bb` | Barbados | yes | yes | 1+7½/12 | – | 0+3½/6 | 🟢5 ⚫2 ❓10 |
-| `bz` | Belize | yes | yes | 3+1½/11 | – | 4/7 | 🟢1 ⚫5 ❓5 |
-| `bj` | Benin | yes | yes | 1/12 | – | 0+6½/9 | 🔒10 ⚫3 ❓7 |
-| `bt` | Bhutan | no | yes | 0/6 | – | 2+1½/5 | 🟢2 🔒3 ❓4 |
-| `bo` | Bolivia | yes | yes | 1/22 | – | 1+3½/9 | 🟢1 🔒2 ⚫12 ❓14 |
-| `ba` | Bosnia and Herzegovina | yes | yes | 1/5 | 0/15 | 2+2½/12 | 🟢9 🔒16 ❓4 |
-| `br` | Brazil | yes | yes | 1/9 | 0/585 | 5+1½/11 | 🟢84 🔒451 ❓64 |
-| `bg` | Bulgaria | yes | yes | 1/11 | – | 1+1½/8 | 🟢5 🔒9 ⚫1 ❓2 |
-| `cv` | Cabo Verde | yes | yes | 2+2½/13 | – | 1+1½/7 | 🟢1 🔒5 ⚫7 ❓4 |
-| `kh` | Cambodia | no | yes | 0/12 | – | 0+5½/8 | 🟢4 🔒7 ❓9 |
-| `cm` | Cameroon | yes | yes | 0+3½/15 | – | 0+4½/8 | 🟢2 ⚫15 ❓6 |
-| `ca` | Canada | yes | yes | 1/22 | 0/64 | 3/7 | 🟢41 🔒39 ⚫3 ❓6 |
-| `ccj` | Caribbean Court of Justice | yes | no | 2+1½/4 | – | 0/4 | 🟢6 |
-| `cl` | Chile | no | yes | 0/20 | – | 4+1½/7 | 🟢9 🔒10 ⚫1 ❓3 |
-| `cn` | China | yes | no | 0+1½/14 | – | 0/9 | 🟢4 🔒18 ⚫1 |
-| `co` | Colombia | yes | yes | 1/28 | – | 0+6½/8 | 🟢3 🔒24 ⚫2 ❓6 |
-| `cr` | Costa Rica | no | yes | 0/24 | – | 5/7 | 🟢1 🔒24 ❓1 |
-| `hr` | Croatia | yes | yes | 0+1½/14 | – | 5/7 | 🟢1 🔒14 ❓1 |
-| `cu` | Cuba | no | yes | 0/8 | – | 1+5½/8 | 🔒1 ⚫7 ❓2 |
-| `cz` | Czechia | yes | yes | 2+5½/8 | – | 6+1½/8 | 🟢3 🔒2 ⚫3 |
-| `ci` | Côte d'Ivoire | yes | yes | 0+1½/14 | – | 0+1½/7 | 🟢3 🔒5 ⚫1 ❓12 |
-| `dk` | Denmark | no | yes | 0/17 | – | 6/8 | 🟢5 🔒12 ❓2 |
-| `difc` | DIFC Courts (Dubai International Financial Centre) | yes | no | 0+8½/8 | – | 0/4 | 🟢2 🔒10 |
-| `do` | Dominican Republic | yes | no | 0+1½/20 | – | 0/7 | 🟢1 🔒25 ❓1 |
-| `ecowas` | ECOWAS Community Court of Justice | yes | no | 1+4½/6 | – | 0/6 | 🟢6 🔒4 ⚫1 |
-| `ec` | Ecuador | yes | no | 1/24 | – | 0/7 | 🟢21 🔒6 ❓3 |
-| `efta` | EFTA Court | yes | no | 3+1½/7 | – | 0/4 | 🟢6 ❓2 |
-| `eg` | Egypt | yes | no | 0+1½/25 | – | 0/7 | 🟢5 🔒5 ❓22 |
-| `ee` | Estonia | no | yes | 0/15 | – | 4+2½/7 | 🟢3 🔒13 ❓2 |
-| `et` | Ethiopia | no | yes | 0/12 | 0/66 | 0+7½/8 | 🔒2 ⚫50 ❓34 |
-| `echr` | European Court of Human Rights | yes | no | 5+2½/11 | – | 0/4 | 🟢7 ⚫3 |
-| `eu` | European Union | yes | yes | 3+3½/14 | – | 5+3½/10 | 🟢9 ❓7 |
-| `fi` | Finland | yes | yes | 2/13 | – | 2+2½/8 | 🟢11 ⚫1 ❓5 |
-| `fr` | France | yes | yes | 5+5½/10 | – | 5/5 | 🟢1 ❓4 |
-| `ge` | Georgia | yes | yes | 1+8½/9 | – | 7+2½/9 | 🟢2 🔒1 ❓7 |
-| `de` | Germany (federal) | yes | yes | 0+7½/9 | 0/172 | 3/8 | 🟢43 🔒113 ❓30 |
-| `gr` | Greece | yes | yes | 0+1½/21 | – | 0+8½/9 | 🟢4 🔒11 ⚫3 ❓12 |
-| `gt` | Guatemala | partly | no | 0+1½/25 | – | 0/7 | 🟢1 🔒29 ❓2 |
-| `gy` | Guyana | yes | yes | 1/8 | – | 1+2½/6 | 🟢2 🔒1 ⚫6 ❓3 |
-| `ht` | Haiti | no | yes | 0/15 | – | 0+4½/8 | 🟢3 ⚫17 ❓3 |
-| `hn` | Honduras | no | yes | 0/21 | – | 0+6½/7 | 🔒4 ❓24 |
-| `hk` | Hong Kong | no | yes | 0/15 | – | 1+3½/5 | 🟢1 🔒16 ❓2 |
-| `hu` | Hungary | yes | no | 2+9½/12 | – | 0/7 | 🟢7 ⚫9 ❓1 |
-| `is` | Iceland | yes | no | 4/8 | – | 0/6 | 🟢6 🔒2 ❓2 |
-| `icsid` | ICSID (World Bank investment arbitration) | yes | no | 0+10½/12 | – | 0/4 | 🟢3 🔒10 ⚫3 |
-| `in` | India | yes | yes | 0+1½/21 | 0/604 | 0+2½/7 | 🟢29 🔒503 ❓100 |
-| `id` | Indonesia | no | yes | 0/19 | – | 3+4½/9 | 🔒24 ❓1 |
-| `icj` | International Court of Justice (ICJ) | yes | yes | 0+7½/8 | – | 0/5 | 🟢5 🔒7 ⚫1 |
-| `iq` | Iraq | no | yes | 0/21 | 0/8 | 2/7 | 🔒21 ❓13 |
-| `ie` | Ireland | no | yes | 0/24 | – | 2+1½/6 | 🟢8 🔒13 ⚫5 ❓2 |
-| `il` | Israel | no | yes | 0/21 | – | 0+3½/6 | 🔒23 ❓4 |
-| `it` | Italy | no | yes | 0/30 | – | 2+1½/7 | 🟢7 🔒20 ⚫3 ❓5 |
-| `itlos` | ITLOS (International Tribunal for the Law of the Sea) | yes | no | 0+8½/8 | – | 0+1½/4 | 🟢3 🔒9 |
-| `jm` | Jamaica | yes | no | 1+7½/17 | – | 0/6 | 🟢1 🔒10 ❓11 |
-| `jp` | Japan | no | yes | 0/14 | – | 5/9 | 🟢16 ❓2 |
-| `jo` | Jordan | yes | no | 1/22 | – | 0/7 | 🔒19 ⚫4 ❓5 |
-| `xk` | Kosovo | yes | yes | 1/20 | – | 6+2½/9 | 🟢2 🔒20 |
-| `kg` | Kyrgyzstan | yes | no | 2/9 | – | 0/8 | 🔒10 ⚫1 ❓4 |
-| `la` | Laos | no | partly | 0/11 | – | 0+5½/6 | ⚫7 ❓10 |
-| `lv` | Latvia | yes | no | 7+2½/10 | – | 0/6 | 🟢1 🔒6 ❓2 |
-| `lb` | Lebanon | yes | yes | 1/22 | – | 1/7 | 🟢2 🔒19 ❓6 |
-| `ly` | Libya | yes | yes | 0+3½/13 | – | 0+4½/7 | 🟢3 🔒6 ❓11 |
-| `li` | Liechtenstein | yes | yes | 0+1½/10 | – | 4+1½/6 | 🟢2 🔒9 ❓1 |
-| `lu` | Luxembourg | yes | yes | 0+1½/24 | – | 3+4½/8 | 🟢21 🔒3 ⚫3 ❓2 |
-| `mg` | Madagascar | yes | yes | 1/16 | – | 1+4½/7 | 🟢1 🔒1 ⚫16 ❓3 |
-| `mv` | Maldives | no | yes | 0/10 | – | 1+3½/6 | 🟢5 🔒8 ❓2 |
-| `mt` | Malta | no | yes | 0/25 | – | 3/6 | 🟢2 🔒23 ❓3 |
-| `mu` | Mauritius | yes | yes | 0+8½/21 | – | 1+3½/7 | 🔒18 ❓9 |
-| `md` | Moldova | yes | yes | 4+2½/7 | – | 1/8 | 🟢6 🔒2 ❓2 |
-| `mc` | Monaco | yes | yes | 13/13 | – | 7/8 | 🟢1 |
-| `mn` | Mongolia | yes | no | 9/10 | – | 0/7 | 🟢7 ❓1 |
-| `me` | Montenegro | yes | no | 1/10 | – | 0/7 | 🟢7 🔒9 |
-| `ma` | Morocco | yes | yes | 3/19 | – | 7/9 | 🟢1 🔒1 ⚫1 ❓15 |
-| `mz` | Mozambique | yes | yes | 2+1½/18 | – | 1+3½/7 | 🟢1 🔒6 ⚫14 ❓1 |
-| `mm` | Myanmar | yes | yes | 1/10 | – | 0+1½/6 | ❓15 |
-| `np` | Nepal | yes | no | 0+2½/13 | – | 0/7 | 🟢10 🔒3 ⚫1 ❓6 |
-| `nl` | Netherlands | yes | yes | 19+3½/26 | – | 4+1½/8 | 🟢10 ❓1 |
-| `ng` | Nigeria | yes | yes | 0+1½/11 | 0/185 | 0+2½/7 | 🟢2 🔒7 ⚫105 ❓89 |
-| `no` | Norway | yes | no | 0+2½/13 | – | 0/6 | 🟢2 🔒14 ⚫2 ❓1 |
-| `pk` | Pakistan | yes | yes | 0/23 | 1/97 | 2+1½/6 | 🟢7 🔒4 ⚫16 ❓96 |
-| `ps` | Palestine | yes | yes | 3+1½/18 | – | 2+1½/6 | 🟢1 ⚫4 ❓14 |
-| `pa` | Panama | yes | yes | 0+4½/31 | – | 4+2½/7 | 🟢12 🔒1 ⚫13 ❓8 |
-| `py` | Paraguay | yes | yes | 0+4½/24 | – | 3+1½/8 | 🟢6 ❓23 |
-| `pe` | Peru | yes | yes | 1/31 | – | 1+5½/7 | 🟢2 🔒24 ⚫1 ❓9 |
-| `ph` | Philippines | yes | yes | 1+1½/20 | – | 3/8 | 🟢5 🔒4 ⚫13 ❓2 |
-| `pl` | Poland | yes | yes | 7+4½/23 | – | 4+1½/6 | 🟢6 🔒7 ⚫2 ❓3 |
-| `pt` | Portugal | yes | yes | 1+5½/28 | – | 0+4½/8 | 🟢11 ⚫1 ❓23 |
-| `ro` | Romania | partly | yes | 0+6½/14 | – | 1+6½/9 | 🔒21 ❓1 |
-| `rw` | Rwanda | yes | yes | 6+5½/13 | – | 3+4½/9 | 🟢6 🔒4 ❓3 |
-| `sn` | Senegal | yes | yes | 0+6½/18 | – | 0+4½/9 | 🟢10 🔒1 ⚫9 ❓7 |
-| `rs` | Serbia | yes | yes | 0+1½/13 | – | 1+1½/8 | 🟢5 🔒4 ⚫1 ❓10 |
-| `sc` | Seychelles | yes | yes | 0+4½/10 | – | 0+5½/7 | 🟢1 🔒9 ⚫1 ❓6 |
-| `sg` | Singapore | yes | no | 0+11½/21 | – | 0/5 | 🟢6 🔒17 ⚫2 ❓1 |
-| `sk` | Slovakia | yes | yes | 3/16 | – | 6+1½/8 | 🟢3 🔒10 ❓2 |
-| `si` | Slovenia | yes | yes | 5+4½/23 | – | 2+1½/6 | 🟢4 🔒5 ⚫13 |
-| `es` | Spain | yes | yes | 1/36 | 0/53 | 4+5½/10 | 🟢6 🔒78 ⚫5 ❓5 |
-| `sr` | Suriname | yes | yes | 0+10½/11 | – | 2+2½/7 | 🟢1 ⚫10 ❓5 |
-| `se` | Sweden | yes | yes | 6+6½/19 | – | 3+1½/7 | 🟢2 🔒1 ⚫13 ❓1 |
-| `ch` | Switzerland | yes | yes | 1+1½/11 | 0/152 | 4/7 | 🟢93 ❓72 |
-| `tw` | Taiwan | yes | partly | 15+4½/21 | – | 1+2½/6 | 🟢4 🔒4 ⚫2 ❓1 |
-| `tj` | Tajikistan | yes | yes | 0+1½/12 | – | 3+2½/10 | 🔒6 ⚫3 ❓10 |
-| `bs` | The Bahamas | yes | yes | 1+8½/13 | – | 4/7 | 🔒3 ⚫10 ❓2 |
-| `tt` | Trinidad and Tobago | yes | yes | 4+2½/15 | – | 2/6 | 🟢6 🔒1 ⚫3 ❓5 |
-| `tm` | Turkmenistan | yes | yes | 0+1½/6 | – | 4/10 | 🟢1 🔒2 ⚫6 ❓3 |
-| `tr` | Türkiye | yes | yes | 7+4½/37 | – | 8/11 | 🟢11 🔒7 ⚫15 |
-| `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | no | yes | – | – | 2+1½/6 | 🟢4 |
-| `gb` | United Kingdom | yes | yes | 0+25½/41 | 0/24 | 7/10 | 🟢32 🔒20 ⚫6 ❓10 |
-| `us` | United States | yes | yes | 0+8½/23 | 0/322 | 3/8 | 🟢85 🔒61 ⚫109 ❓95 |
-| `us-states` | United States (state courts) | yes | no | – | – | – | – |
-| `uy` | Uruguay | yes | yes | 5+14½/21 | – | 2+5½/9 | 🟢1 🔒6 ❓16 |
-| `uz` | Uzbekistan | yes | yes | 0+14½/17 | – | 7/10 | 🟢11 🔒6 ❓3 |
-| `vn` | Vietnam | yes | yes | 0+1½/19 | – | 1+6½/10 | 🟢2 🔒16 ⚫1 ❓9 |
-| `wto` | WTO dispute settlement (World Trade Organization) | yes | no | 0+7½/8 | – | 0/6 | 🟢7 🔒7 |
+| `af` | [Afghanistan](https://ykarapazar.github.io/fontes/law/af/) | no | yes | 0/14 | – | 0+6½/7 | ⚫13 ❓8 |
+| `afchpr` | [African Court on Human and Peoples' Rights](https://ykarapazar.github.io/fontes/law/afchpr/) | yes | no | 5+1½/8 | – | 0/5 | 🟢7 ❓1 |
+| `al` | [Albania](https://ykarapazar.github.io/fontes/law/al/) | yes | yes | 4/19 | – | 5+4½/10 | 🟢3 🔒13 ❓4 |
+| `dz` | [Algeria](https://ykarapazar.github.io/fontes/law/dz/) | yes | yes | 0+1½/19 | – | 1+6½/7 | 🟢1 🔒5 ❓19 |
+| `ad` | [Andorra](https://ykarapazar.github.io/fontes/law/ad/) | yes | yes | 1/10 | – | 3+1½/7 | 🟢4 🔒5 ⚫4 |
+| `ar` | [Argentina](https://ykarapazar.github.io/fontes/law/ar/) | no | yes | 0/33 | 0/328 | 5+1½/9 | 🟢26 🔒334 ❓5 |
+| `am` | [Armenia](https://ykarapazar.github.io/fontes/law/am/) | yes | yes | 2+1½/14 | – | 7+2½/9 | 🟢12 ❓2 |
+| `au` | [Australia](https://ykarapazar.github.io/fontes/law/au/) | no | yes | 0/14 | 0/61 | 6/9 | 🟢1 🔒65 ⚫5 ❓7 |
+| `at` | [Austria](https://ykarapazar.github.io/fontes/law/at/) | yes | yes | 6+11½/27 | 9/9 | 3+1½/8 | 🟢15 ⚫11 |
+| `az` | [Azerbaijan](https://ykarapazar.github.io/fontes/law/az/) | yes | yes | 0+2½/11 | – | 0+8½/11 | 🟢1 🔒19 ❓2 |
+| `bh` | [Bahrain](https://ykarapazar.github.io/fontes/law/bh/) | yes | yes | 0+1½/18 | – | 0+6½/9 | 🔒11 ⚫3 ❓13 |
+| `bd` | [Bangladesh](https://ykarapazar.github.io/fontes/law/bd/) | yes | yes | 2/36 | – | 3/7 | 🟢2 ⚫20 ❓16 |
+| `bb` | [Barbados](https://ykarapazar.github.io/fontes/law/bb/) | yes | yes | 1+7½/12 | – | 0+3½/6 | 🟢5 ⚫2 ❓10 |
+| `bz` | [Belize](https://ykarapazar.github.io/fontes/law/bz/) | yes | yes | 3+1½/11 | – | 4/7 | 🟢1 ⚫5 ❓5 |
+| `bj` | [Benin](https://ykarapazar.github.io/fontes/law/bj/) | yes | yes | 1/12 | – | 0+6½/9 | 🔒10 ⚫3 ❓7 |
+| `bt` | [Bhutan](https://ykarapazar.github.io/fontes/law/bt/) | no | yes | 0/6 | – | 2+1½/5 | 🟢2 🔒3 ❓4 |
+| `bo` | [Bolivia](https://ykarapazar.github.io/fontes/law/bo/) | yes | yes | 1/22 | – | 1+3½/9 | 🟢1 🔒2 ⚫12 ❓14 |
+| `ba` | [Bosnia and Herzegovina](https://ykarapazar.github.io/fontes/law/ba/) | yes | yes | 1/5 | 0/15 | 2+2½/12 | 🟢9 🔒16 ❓4 |
+| `br` | [Brazil](https://ykarapazar.github.io/fontes/law/br/) | yes | yes | 1/9 | 0/585 | 5+1½/11 | 🟢84 🔒451 ❓64 |
+| `bg` | [Bulgaria](https://ykarapazar.github.io/fontes/law/bg/) | yes | yes | 1/11 | – | 1+1½/8 | 🟢5 🔒9 ⚫1 ❓2 |
+| `cv` | [Cabo Verde](https://ykarapazar.github.io/fontes/law/cv/) | yes | yes | 2+2½/13 | – | 1+1½/7 | 🟢1 🔒5 ⚫7 ❓4 |
+| `kh` | [Cambodia](https://ykarapazar.github.io/fontes/law/kh/) | no | yes | 0/12 | – | 0+5½/8 | 🟢4 🔒7 ❓9 |
+| `cm` | [Cameroon](https://ykarapazar.github.io/fontes/law/cm/) | yes | yes | 0+3½/15 | – | 0+4½/8 | 🟢2 ⚫15 ❓6 |
+| `ca` | [Canada](https://ykarapazar.github.io/fontes/law/ca/) | yes | yes | 1/22 | 0/64 | 3/7 | 🟢41 🔒39 ⚫3 ❓6 |
+| `ccj` | [Caribbean Court of Justice](https://ykarapazar.github.io/fontes/law/ccj/) | yes | no | 2+1½/4 | – | 0/4 | 🟢6 |
+| `cl` | [Chile](https://ykarapazar.github.io/fontes/law/cl/) | no | yes | 0/20 | – | 4+1½/7 | 🟢9 🔒10 ⚫1 ❓3 |
+| `cn` | [China](https://ykarapazar.github.io/fontes/law/cn/) | yes | no | 0+1½/14 | – | 0/9 | 🟢4 🔒18 ⚫1 |
+| `co` | [Colombia](https://ykarapazar.github.io/fontes/law/co/) | yes | yes | 1/28 | – | 0+6½/8 | 🟢3 🔒24 ⚫2 ❓6 |
+| `cr` | [Costa Rica](https://ykarapazar.github.io/fontes/law/cr/) | no | yes | 0/24 | – | 5/7 | 🟢1 🔒24 ❓1 |
+| `hr` | [Croatia](https://ykarapazar.github.io/fontes/law/hr/) | yes | yes | 0+1½/14 | – | 5/7 | 🟢1 🔒14 ❓1 |
+| `cu` | [Cuba](https://ykarapazar.github.io/fontes/law/cu/) | no | yes | 0/8 | – | 1+5½/8 | 🔒1 ⚫7 ❓2 |
+| `cz` | [Czechia](https://ykarapazar.github.io/fontes/law/cz/) | yes | yes | 2+5½/8 | – | 6+1½/8 | 🟢3 🔒2 ⚫3 |
+| `ci` | [Côte d'Ivoire](https://ykarapazar.github.io/fontes/law/ci/) | yes | yes | 0+1½/14 | – | 0+1½/7 | 🟢3 🔒5 ⚫1 ❓12 |
+| `dk` | [Denmark](https://ykarapazar.github.io/fontes/law/dk/) | no | yes | 0/17 | – | 6/8 | 🟢5 🔒12 ❓2 |
+| `difc` | [DIFC Courts (Dubai International Financial Centre)](https://ykarapazar.github.io/fontes/law/difc/) | yes | no | 0+8½/8 | – | 0/4 | 🟢2 🔒10 |
+| `do` | [Dominican Republic](https://ykarapazar.github.io/fontes/law/do/) | yes | no | 0+1½/20 | – | 0/7 | 🟢1 🔒25 ❓1 |
+| `ecowas` | [ECOWAS Community Court of Justice](https://ykarapazar.github.io/fontes/law/ecowas/) | yes | no | 1+4½/6 | – | 0/6 | 🟢6 🔒4 ⚫1 |
+| `ec` | [Ecuador](https://ykarapazar.github.io/fontes/law/ec/) | yes | no | 1/24 | – | 0/7 | 🟢21 🔒6 ❓3 |
+| `efta` | [EFTA Court](https://ykarapazar.github.io/fontes/law/efta/) | yes | no | 3+1½/7 | – | 0/4 | 🟢6 ❓2 |
+| `eg` | [Egypt](https://ykarapazar.github.io/fontes/law/eg/) | yes | no | 0+1½/25 | – | 0/7 | 🟢5 🔒5 ❓22 |
+| `ee` | [Estonia](https://ykarapazar.github.io/fontes/law/ee/) | no | yes | 0/15 | – | 4+2½/7 | 🟢3 🔒13 ❓2 |
+| `et` | [Ethiopia](https://ykarapazar.github.io/fontes/law/et/) | no | yes | 0/12 | 0/66 | 0+7½/8 | 🔒2 ⚫50 ❓34 |
+| `echr` | [European Court of Human Rights](https://ykarapazar.github.io/fontes/law/echr/) | yes | no | 5+2½/11 | – | 0/4 | 🟢7 ⚫3 |
+| `eu` | [European Union](https://ykarapazar.github.io/fontes/law/eu/) | yes | yes | 3+3½/14 | – | 5+3½/10 | 🟢9 ❓7 |
+| `fi` | [Finland](https://ykarapazar.github.io/fontes/law/fi/) | yes | yes | 2/13 | – | 2+2½/8 | 🟢11 ⚫1 ❓5 |
+| `fr` | [France](https://ykarapazar.github.io/fontes/law/fr/) | yes | yes | 5+5½/10 | – | 5/5 | 🟢1 ❓4 |
+| `ge` | [Georgia](https://ykarapazar.github.io/fontes/law/ge/) | yes | yes | 1+8½/9 | – | 7+2½/9 | 🟢2 🔒1 ❓7 |
+| `de` | [Germany (federal)](https://ykarapazar.github.io/fontes/law/de/) | yes | yes | 0+7½/9 | 0/172 | 3/8 | 🟢43 🔒113 ❓30 |
+| `gr` | [Greece](https://ykarapazar.github.io/fontes/law/gr/) | yes | yes | 0+1½/21 | – | 0+8½/9 | 🟢4 🔒11 ⚫3 ❓12 |
+| `gt` | [Guatemala](https://ykarapazar.github.io/fontes/law/gt/) | partly | no | 0+1½/25 | – | 0/7 | 🟢1 🔒29 ❓2 |
+| `gy` | [Guyana](https://ykarapazar.github.io/fontes/law/gy/) | yes | yes | 1/8 | – | 1+2½/6 | 🟢2 🔒1 ⚫6 ❓3 |
+| `ht` | [Haiti](https://ykarapazar.github.io/fontes/law/ht/) | no | yes | 0/15 | – | 0+4½/8 | 🟢3 ⚫17 ❓3 |
+| `hn` | [Honduras](https://ykarapazar.github.io/fontes/law/hn/) | no | yes | 0/21 | – | 0+6½/7 | 🔒4 ❓24 |
+| `hk` | [Hong Kong](https://ykarapazar.github.io/fontes/law/hk/) | no | yes | 0/15 | – | 1+3½/5 | 🟢1 🔒16 ❓2 |
+| `hu` | [Hungary](https://ykarapazar.github.io/fontes/law/hu/) | yes | no | 2+9½/12 | – | 0/7 | 🟢7 ⚫9 ❓1 |
+| `is` | [Iceland](https://ykarapazar.github.io/fontes/law/is/) | yes | no | 4/8 | – | 0/6 | 🟢6 🔒2 ❓2 |
+| `icsid` | [ICSID (World Bank investment arbitration)](https://ykarapazar.github.io/fontes/law/icsid/) | yes | no | 0+10½/12 | – | 0/4 | 🟢3 🔒10 ⚫3 |
+| `in` | [India](https://ykarapazar.github.io/fontes/law/in/) | yes | yes | 0+1½/21 | 0/604 | 0+2½/7 | 🟢29 🔒503 ❓100 |
+| `id` | [Indonesia](https://ykarapazar.github.io/fontes/law/id/) | no | yes | 0/19 | – | 3+4½/9 | 🔒24 ❓1 |
+| `icj` | [International Court of Justice (ICJ)](https://ykarapazar.github.io/fontes/law/icj/) | yes | yes | 0+7½/8 | – | 0/5 | 🟢5 🔒7 ⚫1 |
+| `iq` | [Iraq](https://ykarapazar.github.io/fontes/law/iq/) | no | yes | 0/21 | 0/8 | 2/7 | 🔒21 ❓13 |
+| `ie` | [Ireland](https://ykarapazar.github.io/fontes/law/ie/) | no | yes | 0/24 | – | 2+1½/6 | 🟢8 🔒13 ⚫5 ❓2 |
+| `il` | [Israel](https://ykarapazar.github.io/fontes/law/il/) | no | yes | 0/21 | – | 0+3½/6 | 🔒23 ❓4 |
+| `it` | [Italy](https://ykarapazar.github.io/fontes/law/it/) | no | yes | 0/30 | – | 2+1½/7 | 🟢7 🔒20 ⚫3 ❓5 |
+| `itlos` | [ITLOS (International Tribunal for the Law of the Sea)](https://ykarapazar.github.io/fontes/law/itlos/) | yes | no | 0+8½/8 | – | 0+1½/4 | 🟢3 🔒9 |
+| `jm` | [Jamaica](https://ykarapazar.github.io/fontes/law/jm/) | yes | no | 1+7½/17 | – | 0/6 | 🟢1 🔒10 ❓11 |
+| `jp` | [Japan](https://ykarapazar.github.io/fontes/law/jp/) | no | yes | 0/14 | – | 5/9 | 🟢16 ❓2 |
+| `jo` | [Jordan](https://ykarapazar.github.io/fontes/law/jo/) | yes | no | 1/22 | – | 0/7 | 🔒19 ⚫4 ❓5 |
+| `xk` | [Kosovo](https://ykarapazar.github.io/fontes/law/xk/) | yes | yes | 1/20 | – | 6+2½/9 | 🟢2 🔒20 |
+| `kg` | [Kyrgyzstan](https://ykarapazar.github.io/fontes/law/kg/) | yes | no | 2/9 | – | 0/8 | 🔒10 ⚫1 ❓4 |
+| `la` | [Laos](https://ykarapazar.github.io/fontes/law/la/) | no | partly | 0/11 | – | 0+5½/6 | ⚫7 ❓10 |
+| `lv` | [Latvia](https://ykarapazar.github.io/fontes/law/lv/) | yes | no | 7+2½/10 | – | 0/6 | 🟢1 🔒6 ❓2 |
+| `lb` | [Lebanon](https://ykarapazar.github.io/fontes/law/lb/) | yes | yes | 1/22 | – | 1/7 | 🟢2 🔒19 ❓6 |
+| `ly` | [Libya](https://ykarapazar.github.io/fontes/law/ly/) | yes | yes | 0+3½/13 | – | 0+4½/7 | 🟢3 🔒6 ❓11 |
+| `li` | [Liechtenstein](https://ykarapazar.github.io/fontes/law/li/) | yes | yes | 0+1½/10 | – | 4+1½/6 | 🟢2 🔒9 ❓1 |
+| `lu` | [Luxembourg](https://ykarapazar.github.io/fontes/law/lu/) | yes | yes | 0+1½/24 | – | 3+4½/8 | 🟢21 🔒3 ⚫3 ❓2 |
+| `mg` | [Madagascar](https://ykarapazar.github.io/fontes/law/mg/) | yes | yes | 1/16 | – | 1+4½/7 | 🟢1 🔒1 ⚫16 ❓3 |
+| `mv` | [Maldives](https://ykarapazar.github.io/fontes/law/mv/) | no | yes | 0/10 | – | 1+3½/6 | 🟢5 🔒8 ❓2 |
+| `mt` | [Malta](https://ykarapazar.github.io/fontes/law/mt/) | no | yes | 0/25 | – | 3/6 | 🟢2 🔒23 ❓3 |
+| `mu` | [Mauritius](https://ykarapazar.github.io/fontes/law/mu/) | yes | yes | 0+8½/21 | – | 1+3½/7 | 🔒18 ❓9 |
+| `md` | [Moldova](https://ykarapazar.github.io/fontes/law/md/) | yes | yes | 4+2½/7 | – | 1/8 | 🟢6 🔒2 ❓2 |
+| `mc` | [Monaco](https://ykarapazar.github.io/fontes/law/mc/) | yes | yes | 13/13 | – | 7/8 | 🟢1 |
+| `mn` | [Mongolia](https://ykarapazar.github.io/fontes/law/mn/) | yes | no | 9/10 | – | 0/7 | 🟢7 ❓1 |
+| `me` | [Montenegro](https://ykarapazar.github.io/fontes/law/me/) | yes | no | 1/10 | – | 0/7 | 🟢7 🔒9 |
+| `ma` | [Morocco](https://ykarapazar.github.io/fontes/law/ma/) | yes | yes | 3/19 | – | 7/9 | 🟢1 🔒1 ⚫1 ❓15 |
+| `mz` | [Mozambique](https://ykarapazar.github.io/fontes/law/mz/) | yes | yes | 2+1½/18 | – | 1+3½/7 | 🟢1 🔒6 ⚫14 ❓1 |
+| `mm` | [Myanmar](https://ykarapazar.github.io/fontes/law/mm/) | yes | yes | 1/10 | – | 0+1½/6 | ❓15 |
+| `np` | [Nepal](https://ykarapazar.github.io/fontes/law/np/) | yes | no | 0+2½/13 | – | 0/7 | 🟢10 🔒3 ⚫1 ❓6 |
+| `nl` | [Netherlands](https://ykarapazar.github.io/fontes/law/nl/) | yes | yes | 19+3½/26 | – | 4+1½/8 | 🟢10 ❓1 |
+| `ng` | [Nigeria](https://ykarapazar.github.io/fontes/law/ng/) | yes | yes | 0+1½/11 | 0/185 | 0+2½/7 | 🟢2 🔒7 ⚫105 ❓89 |
+| `no` | [Norway](https://ykarapazar.github.io/fontes/law/no/) | yes | no | 0+2½/13 | – | 0/6 | 🟢2 🔒14 ⚫2 ❓1 |
+| `pk` | [Pakistan](https://ykarapazar.github.io/fontes/law/pk/) | yes | yes | 0/23 | 1/97 | 2+1½/6 | 🟢7 🔒4 ⚫16 ❓96 |
+| `ps` | [Palestine](https://ykarapazar.github.io/fontes/law/ps/) | yes | yes | 3+1½/18 | – | 2+1½/6 | 🟢1 ⚫4 ❓14 |
+| `pa` | [Panama](https://ykarapazar.github.io/fontes/law/pa/) | yes | yes | 0+4½/31 | – | 4+2½/7 | 🟢12 🔒1 ⚫13 ❓8 |
+| `py` | [Paraguay](https://ykarapazar.github.io/fontes/law/py/) | yes | yes | 0+4½/24 | – | 3+1½/8 | 🟢6 ❓23 |
+| `pe` | [Peru](https://ykarapazar.github.io/fontes/law/pe/) | yes | yes | 1/31 | – | 1+5½/7 | 🟢2 🔒24 ⚫1 ❓9 |
+| `ph` | [Philippines](https://ykarapazar.github.io/fontes/law/ph/) | yes | yes | 1+1½/20 | – | 3/8 | 🟢5 🔒4 ⚫13 ❓2 |
+| `pl` | [Poland](https://ykarapazar.github.io/fontes/law/pl/) | yes | yes | 7+4½/23 | – | 4+1½/6 | 🟢6 🔒7 ⚫2 ❓3 |
+| `pt` | [Portugal](https://ykarapazar.github.io/fontes/law/pt/) | yes | yes | 1+5½/28 | – | 0+4½/8 | 🟢11 ⚫1 ❓23 |
+| `ro` | [Romania](https://ykarapazar.github.io/fontes/law/ro/) | partly | yes | 0+6½/14 | – | 1+6½/9 | 🔒21 ❓1 |
+| `rw` | [Rwanda](https://ykarapazar.github.io/fontes/law/rw/) | yes | yes | 6+5½/13 | – | 3+4½/9 | 🟢6 🔒4 ❓3 |
+| `sn` | [Senegal](https://ykarapazar.github.io/fontes/law/sn/) | yes | yes | 0+6½/18 | – | 0+4½/9 | 🟢10 🔒1 ⚫9 ❓7 |
+| `rs` | [Serbia](https://ykarapazar.github.io/fontes/law/rs/) | yes | yes | 0+1½/13 | – | 1+1½/8 | 🟢5 🔒4 ⚫1 ❓10 |
+| `sc` | [Seychelles](https://ykarapazar.github.io/fontes/law/sc/) | yes | yes | 0+4½/10 | – | 0+5½/7 | 🟢1 🔒9 ⚫1 ❓6 |
+| `sg` | [Singapore](https://ykarapazar.github.io/fontes/law/sg/) | yes | no | 0+11½/21 | – | 0/5 | 🟢6 🔒17 ⚫2 ❓1 |
+| `sk` | [Slovakia](https://ykarapazar.github.io/fontes/law/sk/) | yes | yes | 3/16 | – | 6+1½/8 | 🟢3 🔒10 ❓2 |
+| `si` | [Slovenia](https://ykarapazar.github.io/fontes/law/si/) | yes | yes | 5+4½/23 | – | 2+1½/6 | 🟢4 🔒5 ⚫13 |
+| `es` | [Spain](https://ykarapazar.github.io/fontes/law/es/) | yes | yes | 1/36 | 0/53 | 4+5½/10 | 🟢6 🔒78 ⚫5 ❓5 |
+| `sr` | [Suriname](https://ykarapazar.github.io/fontes/law/sr/) | yes | yes | 0+10½/11 | – | 2+2½/7 | 🟢1 ⚫10 ❓5 |
+| `se` | [Sweden](https://ykarapazar.github.io/fontes/law/se/) | yes | yes | 6+6½/19 | – | 3+1½/7 | 🟢2 🔒1 ⚫13 ❓1 |
+| `ch` | [Switzerland](https://ykarapazar.github.io/fontes/law/ch/) | yes | yes | 1+1½/11 | 0/152 | 4/7 | 🟢93 ❓72 |
+| `tw` | [Taiwan](https://ykarapazar.github.io/fontes/law/tw/) | yes | partly | 15+4½/21 | – | 1+2½/6 | 🟢4 🔒4 ⚫2 ❓1 |
+| `tj` | [Tajikistan](https://ykarapazar.github.io/fontes/law/tj/) | yes | yes | 0+1½/12 | – | 3+2½/10 | 🔒6 ⚫3 ❓10 |
+| `bs` | [The Bahamas](https://ykarapazar.github.io/fontes/law/bs/) | yes | yes | 1+8½/13 | – | 4/7 | 🔒3 ⚫10 ❓2 |
+| `tt` | [Trinidad and Tobago](https://ykarapazar.github.io/fontes/law/tt/) | yes | yes | 4+2½/15 | – | 2/6 | 🟢6 🔒1 ⚫3 ❓5 |
+| `tm` | [Turkmenistan](https://ykarapazar.github.io/fontes/law/tm/) | yes | yes | 0+1½/6 | – | 4/10 | 🟢1 🔒2 ⚫6 ❓3 |
+| `tr` | [Türkiye](https://ykarapazar.github.io/fontes/law/tr/) | yes | yes | 7+4½/37 | – | 8/11 | 🟢11 🔒7 ⚫15 |
+| `untc` | [UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General)](https://ykarapazar.github.io/fontes/law/untc/) | no | yes | – | – | 2+1½/6 | 🟢4 |
+| `gb` | [United Kingdom](https://ykarapazar.github.io/fontes/law/gb/) | yes | yes | 0+25½/41 | 0/24 | 7/10 | 🟢32 🔒20 ⚫6 ❓10 |
+| `us` | [United States](https://ykarapazar.github.io/fontes/law/us/) | yes | yes | 0+8½/23 | 0/322 | 3/8 | 🟢85 🔒61 ⚫109 ❓95 |
+| `us-states` | [United States (state courts)](https://ykarapazar.github.io/fontes/law/us-states/) | yes | no | – | – | – | – |
+| `uy` | [Uruguay](https://ykarapazar.github.io/fontes/law/uy/) | yes | yes | 5+14½/21 | – | 2+5½/9 | 🟢1 🔒6 ❓16 |
+| `uz` | [Uzbekistan](https://ykarapazar.github.io/fontes/law/uz/) | yes | yes | 0+14½/17 | – | 7/10 | 🟢11 🔒6 ❓3 |
+| `vn` | [Vietnam](https://ykarapazar.github.io/fontes/law/vn/) | yes | yes | 0+1½/19 | – | 1+6½/10 | 🟢2 🔒16 ⚫1 ❓9 |
+| `wto` | [WTO dispute settlement (World Trade Organization)](https://ykarapazar.github.io/fontes/law/wto/) | yes | no | 0+7½/8 | – | 0/6 | 🟢7 🔒7 |
 
 ## Afghanistan (`af`)
 
@@ -6154,22 +6154,20 @@ _Court and legislation lists drafted 2026-11-07; references: https://indian-high
 
 **Sources and terms**
 
-- India Code (Legislative Department, Ministry of Law and Justice; run by NIC) — https://indiacode.gov.in/ (legislation) — restrictive (Term of Use + Copyright Policy, both 'Last updated June 22, 2026', read 2026-11-05 from the site's JS bundle): personal, non-commercial use only; 'Not use any automated means to access the Portal for any purpose without our express written permission'; 'Use of API data requires written authorization'; 'Data obtained through APIs must not be cached, stored, or redistributed without permission'. No written permission held. Whether s. 52(1)(q) Copyright Act 1957 overrides this for the Acts: unverified; no commercial use; AI use opted out; needs none technically (anonymous REST API), but the terms require written authorization from the Legislative Department for API/automated use; off unless WLM_PERMITTED
-  - ⚠ India Code's terms forbid automated access and API use without the Legislative Department's express written permission, and allow personal, non-commercial use only. Use this source only if you hold that permission. Without it, read the Act text by hand on indiacode.gov.in (search the Act's title; the terms allow personal, non-commercial use) and cite the section there; this tool cannot fetch it.
+- Lexifina global law record (publisher: Legislative Department, Ministry of Law and Justice (Government of India)) — https://github.com/lexifina/global-law (legislation) — Lexifina's tools and tables CC0; the law text under each publisher's terms (see the country's LICENSE in the repository); UNOFFICIAL
+  - ⚠ From Lexifina's global law record (github.com/lexifina/global-law), a free record of each country's law that Lexifina builds from the official publishers. Lexifina is not the official publisher: its record can be days or weeks behind, and the note below says how far it goes. Check the official publisher's page it links before relying on it.
 - Indian Supreme Court Judgments (AWS Open Data; Dattam Labs mirror of the Supreme Court's e-SCR) — https://registry.opendata.aws/indian-supreme-court-judgments/ (caselaw) — dataset CC BY 4.0 (AWS Open Data registry, read 2026-11-10); the judgments themselves are not copyright-protected for reproduction (s. 52(1)(q)(iv) Copyright Act 1957); attribute the Supreme Court of India / e-SCR; commercial use allowed; needs none (public S3 bucket, no AWS account); UNOFFICIAL
   - ⚠ S.C.R.-reported judgments only; the official copy is at scr.sci.gov.in.
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
-- Notes: Central and state Acts from India Code, section by section (off unless WLM_PERMITTED). Law ids are India Code act ids (AC_CEN_...), or '9 of 1872' for central Acts. Supreme Court: S.C.R.-reported judgments 1950 to date from an unofficial AWS Open Data mirror of e-SCR; search one year at a time (parties, citation, coram, headnote).
+- Notes: Supreme Court: S.C.R.-reported judgments 1950 to date from an unofficial AWS Open Data mirror of e-SCR; search one year at a time (parties, citation, coram, headnote). Legislation: read through Lexifina's record (not the official publisher, not live; India Code is not used, its terms bar automated access). What the record holds: changes in force from 2013-08-30 to 2026-04-01 (the latest change it holds; answers say when it was last checked); plus 1 state, provincial or local bodies of law.
 
 **Does not reach**
 
-- Legislation (India Code, all Acts): terms forbid automated use ('Not use any automated means'); needs written permission
+- Legislation: read from Lexifina's record, not live; India Code (indiacode.gov.in) itself is not used because its terms forbid automated access without written permission
 - Constitution: legislative.gov.in (official PDFs) answers our User-Agent with an Akamai 403; Constitute Project text is non-commercial and flags a 2024 amendment not incorporated; not built
 - Supreme Court, unreported judgments: not in e-SCR or the AWS mirror; official sci.gov.in judgment search is behind a CAPTCHA
 - Supreme Court full-text search: the mirror has no search index; search matches parties, citations, coram and headnote within one year
 - High Courts (AWS Open Data, unofficial, CC BY 4.0): source exists, not built
-- Schedules of Acts: not published online as text in India Code's API (SCHEDULE items carry no text)
-- Subordinate legislation (rules, regulations, notifications): not researched yet
 
 ## Indonesia (`id`)
 

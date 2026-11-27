@@ -167,7 +167,6 @@ awtomatik ulanylyşy gadagan edýär. Eger neşir edijiden rugsadyňyz bar bolsa
 | `de` | Germaniýa: NeuRIS (federal hukuk maglumat portaly, synag hyzmaty) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Gresiýa: Milli metbugat, Hökümet býulleteni gözlegi (search.et.gr) |
-| `in` | Hindistan: India Code (indiacode.gov.in) |
 | `mu` | Mawrikiý: Ýokary kazyýet (supremecourt.govmu.org) |
 | `sg` | Singapur: kazyýet çözgütleri (elitigation.sg) |
 

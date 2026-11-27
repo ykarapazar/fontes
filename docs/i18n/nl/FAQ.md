@@ -6,9 +6,9 @@
 
 Een gratis opensource-MCP-server (Apache 2.0). Hiermee kan elke app die het Model Context Protocol
 spreekt (Claude, Codex, Cursor, VS Code, Gemini CLI en andere) rechterlijke uitspraken en
-wetgeving live doorzoeken op websites van gerechten en overheden in meer dan 120 rechtsstelsels en
-bij internationale gerechten (125 adapters). Elk resultaat noemt zijn bron en linkt naar het
-origineel.
+wetgeving live doorzoeken op websites van gerechten en overheden in 125 rechtsstelsels en bij
+internationale gerechten (125 adapters), plus 91 meer landen via de verzameling van Lexifina (zie
+hieronder). Elk resultaat noemt zijn bron en linkt naar het origineel.
 
 ## Zijn de teksten officieel?
 
@@ -54,10 +54,37 @@ Daarnaast vermelden enkele bronnen in hun voorwaarden dat geautomatiseerde toega
 de uitgever vereist. Die zijn gemarkeerd als UIT en blijven uit. Een sleutel verandert dat niet;
 alleen de toestemming van de uitgever doet dat (stel dan `WLM_PERMITTED=<codes>` in).
 
+## Waar komen de eerdere versies en de extra landen vandaan?
+
+Van [Lexifina](https://github.com/lexifina/global-law), dat de wetgeving van ongeveer 200 landen
+bijhoudt als git-geschiedenis: elke wijziging is een commit met de datum waarop ze in werking trad.
+Fontes leest die via de gratis gehoste server van Lexifina. Twee tools gebruiken die: `get_law_on_date`
+(een bepaling zoals ze op een datum gold, ook in het verleden, met de wet die haar het laatst wijzigde)
+en `get_law_history` (elke wet die een bepaling wijzigde, of de woord-voor-woord-wijziging tussen twee
+datums). Fontes leest op die manier ook 91 meer landen en gebieden, alleen voor wetgeving (bijvoorbeeld
+Zuid-Afrika, Kenia, Mexico, Nieuw-Zeeland, Rusland, Zuid-Korea, België, Litouwen, Oekraïne, Maleisië,
+Thailand en Saoedi-Arabië). Ze staan los van de 125 adapters met live officiële dekking, en de dekking
+per land verschilt sterk (de nationale verzameling van Kenia bevat 9 wetten). De wetten van India komen
+ook uit de verzameling van Lexifina, omdat de voorwaarden van India Code geautomatiseerde toegang
+verbieden; de uitspraken van het Hooggerechtshof zijn live.
+
+Lexifina is niet de officiële uitgever, en de verzameling is niet live: Lexifina controleert elk land
+van tijd tot tijd opnieuw, en het eigen rapport van 2026-11-26 telde 338 van de 383 nationale
+wetsverzamelingen als niet gecontroleerd in de afgelopen 7 dagen. Elk antwoord noemt Lexifina als
+bron, linkt naar de pagina van de officiële uitgever en zegt hoe ver de verzameling reikt.
+
+Lexifina vindt dat officiële wetteksten niet auteursrechtelijk beschermd zijn, en kopieert daarom in
+sommige landen sites waarvan de voorwaarden of robots.txt Fontes zelf respecteert. Fontes respecteert
+die nog steeds voor alles wat het zelf ophaalt; wat via Lexifina komt, volgt het eigen oordeel van
+Lexifina, per land vastgelegd in zijn repositories. Enkele bronnen beperken het gebruik (de uitgever
+van Kenia: CC BY-NC). Uw zoektermen, citaten en data gaan hiervoor naar de server van Lexifina. Zet
+`WLM_LEXIFINA=0` om het uit te zetten. De gratis server staat 60 aanroepen per minuut en 10.000 per dag
+per internetadres toe; geen sleutel en geen account. Fontes is niet gelieerd aan Lexifina.
+
 ## Wat verlaat mijn computer?
 
-Uw zoekopdrachten gaan alleen naar de bron die wordt doorzocht. Fontes houdt geen database bij en
-heeft geen account nodig.
+Uw zoekopdrachten gaan alleen naar de bron die wordt doorzocht (voor de Lexifina-tools en -landen is
+dat de server van Lexifina). Fontes houdt geen database bij en heeft geen account nodig.
 
 Naast de bronnen vraagt Fontes eenmaal per dag aan PyPI of er een nieuwere versie is (uit te
 zetten met `FONTES_NO_UPDATE_CHECK=1`). Gebruiksaantallen staan uit tenzij u ze aanzet, en een

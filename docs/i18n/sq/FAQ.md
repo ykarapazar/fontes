@@ -7,7 +7,7 @@
 Një server MCP falas dhe me burim të hapur (Apache 2.0). Ai i lejon çdo aplikacioni që flet Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI dhe të tjerë) të kërkojë vendime
 gjyqësore dhe legjislacion drejtpërdrejt në faqet e internetit të gjykatave dhe të institucioneve
-shtetërore në më shumë se 120 juridiksione dhe gjykata ndërkombëtare (125 adaptues). Çdo rezultat
+shtetërore në 125 juridiksione dhe gjykata ndërkombëtare, plus 91 vende të tjera përmes regjistrit të Lexifina (shihni më poshtë). Çdo rezultat
 emërton burimin e vet dhe lidhet me origjinalin.
 
 ## A janë tekstet zyrtare?
@@ -52,9 +52,17 @@ Më vete, disa burime thonë në kushtet e tyre se aksesi i automatizuar kërkon
 janë të shënuara OFF dhe mbeten joaktive. Një çelës nuk e ndryshon këtë; vetëm leja e botuesit e
 ndryshon (atëherë vendosni `WLM_PERMITTED=<codes>`).
 
+## Nga vijnë versionet e mëparshme dhe vendet shtesë?
+
+Nga [Lexifina](https://github.com/lexifina/global-law), që mban ligjin e rreth 200 vendeve si histori git: çdo ndryshim është një commit i datës kur hyri në fuqi. Fontes e lexon përmes serverit falas të pritur të Lexifina. Dy mjete e përdorin atë: `get_law_on_date` (një dispozitë siç ishte në fuqi në një datë, edhe në të kaluarën, me ligjin që e ndryshoi së fundmi) dhe `get_law_history` (çdo ligj që ka ndryshuar një dispozitë, ose ndryshimi fjalë për fjalë midis dy datave). Fontes lexon gjithashtu 91 vende dhe territore të tjera në këtë mënyrë, vetëm për legjislacion (për shembull Afrika e Jugut, Kenia, Meksika, Zelanda e Re, Rusia, Koreja e Jugut, Belgjika, Lituania, Ukraina, Malajzia, Tajlanda dhe Arabia Saudite). Ato janë veçmas nga 125 adaptuesit me mbulim zyrtar live, dhe mbulimi për çdo vend ndryshon shumë (regjistri kombëtar i Kenias mban 9 akte). Aktet e Indisë vijnë gjithashtu nga regjistri i Lexifina, sepse kushtet e India Code ndalojnë aksesin e automatizuar; vendimet e Gjykatës së Lartë të saj janë live.
+
+Lexifina nuk është botuesi zyrtar, dhe regjistri i saj nuk është live: Lexifina e rikontrollon çdo vend herë pas here, dhe raporti i vet më 2026-11-26 numëroi 338 nga 383 organe kombëtare të ligjit si të pakontrolluara në 7 ditët e fundit. Çdo përgjigje emëron Lexifina si burim, lidh faqen e botuesit zyrtar dhe thotë sa shkon regjistri.
+
+Lexifina mendon se tekstet zyrtare ligjore nuk mbrohen nga e drejta e autorit, ndaj në disa vende kopjon faqe, kushtet ose robots.txt e të cilave Fontes vetë i respekton. Fontes i respekton ende ato për gjithçka që merr vetë; ajo që vjen përmes Lexifina ndjek gjykimin e vet ligjor, të regjistruar për çdo vend në depot e tij. Disa e kufizojnë përdorimin (botuesi i Kenias: CC BY-NC). Fjalët tuaja të kërkimit, citimet dhe datat shkojnë për këto te serveri i Lexifina. Vendosni `WLM_LEXIFINA=0` për ta çaktivizuar. Serveri falas lejon 60 thirrje në minutë dhe 10.000 në ditë për çdo adresë interneti; pa çelës dhe pa llogari. Fontes nuk ka lidhje me Lexifina.
+
 ## Çfarë del nga kompjuteri im?
 
-Kërkimet tuaja shkojnë vetëm te burimi ku kërkohet. Fontes nuk mban bazë të dhënash dhe nuk kërkon
+Kërkimet tuaja shkojnë vetëm te burimi ku kërkohet (për mjetet dhe vendet e Lexifina, ai është serveri i Lexifina). Fontes nuk mban bazë të dhënash dhe nuk kërkon
 llogari.
 
 Përveç burimeve, Fontes pyet PyPI-në një herë në ditë nëse ekziston një version më i ri

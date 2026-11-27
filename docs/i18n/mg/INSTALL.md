@@ -3,7 +3,7 @@
 # Fametrahana ny Fontes
 
 Ahafahan'ny rindranasa AI-nao mitady didim-pitsarana sy lalàna mivantana ao amin'ny tranonkalan'ny
-fitsarana sy ny fanjakana ny Fontes, amin'ny faritra ara-pitsarana maherin'ny 120. Misy rohy mankany
+fitsarana sy ny fanjakana ny Fontes, amin'ny faritra ara-pitsarana 125. Misy rohy mankany
 amin'ny antontan-taratasy tany am-boalohany ny valiny tsirairay. Mpizara MCP mahazatra izy, ka mandeha
 amin'ny rindranasa rehetra afaka mandefa mpizara MCP eo an-toerana: Claude Desktop, Codex, Claude Code,
 Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline sy ny hafa.

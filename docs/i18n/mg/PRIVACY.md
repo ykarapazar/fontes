@@ -2,8 +2,7 @@
 
 # Fampahafantarana momba ny fiainana manokana ao amin'ny Fontes
 
-Mandeha ao amin'ny solosainao ny Fontes. Mijanona eo anelanelan'ny solosainao, ireo loharano ofisialy
-karohinao, ary ny rindranasa AI ampiasainao (eo ambanin'ny fepetran'io rindranasa io manokana) ny
+Mandeha ao amin'ny solosainao ny Fontes. Mijanona eo anelanelan'ny solosainao, ireo loharano karohinao (ofisialy ihany, ary CourtListener sy Lexifina raha ampiasainao izy ireo, jereo ambany), ary ny rindranasa AI ampiasainao (eo ambanin'ny fepetran'io rindranasa io manokana) ny
 fikarohanao sy ireo antontan-taratasy sokafanao. Ny Fontes mihitsy dia **tsy mandefa na inona na inona raha
 tsy misy fanovana** any amin'ireo mpamorona ny Fontes.
 
@@ -40,6 +39,8 @@ hadisoana amin'ny antso fitaovana farany tsy nahomby (nesorina ireo teny nokaroh
 mari-pamantarana), ary fanamarihana raha nanoratra izany ianao. Aza mampiditra antsipirian'ny mpanjifa ao
 amin'ilay fanamarihana. Mba hanohanana izany, tehirizin'ny Fontes ao amin'ny solosainao ny hadisoana farany
 (`last-error.json` ao amin'ny lahatahiry cache-ny, soloina isaky ny mandeha); tsy alefa ho azy mihitsy izy.
+
+**4. Lexifina (mandeha ho azy).** `get_law_on_date`, `get_law_history`, ny firenena 91 ary ny Lalàna Indiana dia novakiana amin'ny tahiry an'i Lexifina momba ny lalàna, ka mandeha any amin'i Lexifina izy ireo, na miaraka amin'ny tranonkala ofisialy na ho solon'izany. Ny teny nokarohinao, ny fanondroana ary ny daty dia mandeha any amin'ny servera maimaim-poana an'i Lexifina, `global-law.lexifina.com`, izay tantanan'i Lexifina, fa tsy ny mpamorona ny Fontes. Manambara i Lexifina fa ny servera-ny dia mitahiry ny anaran'ny fitaovana nantsoina sy ny haharetan'ny fotoana naha-nandeha azy, fa tsy mitahiry mihitsy izay nangatahina; tsy afaka manamarina izany ny Fontes, ary ny fepetra manokana an'i Lexifina no mihatra. Ny adiresy IP-nao dia hitan'i Lexifina, toy ny amin'ny servera an-tserasera rehetra. Hamongorana tanteraka an'i Lexifina, apetraho ny `WLM_LEXIFINA=0`; ireo fitaovana roa ireo sy ireo firenena dia tsy hiasa intsony, ary tsy misy alefa any mihitsy izay.
 
 ## Aiza no alehany ary hafiriana no itahirizana azy
 

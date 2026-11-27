@@ -6,8 +6,9 @@
 
 Pelayan MCP percuma dan sumber terbuka (Apache 2.0). Ia membolehkan mana-mana aplikasi yang menggunakan
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI dan lain-lain) mencari keputusan mahkamah
-dan perundangan secara langsung di laman web mahkamah dan kerajaan di 120+ bidang kuasa dan mahkamah
-antarabangsa (125 penyesuai). Setiap hasil menamakan sumbernya dan memaut kepada dokumen asal.
+dan perundangan secara langsung di laman web mahkamah dan kerajaan di 125 bidang kuasa dan mahkamah
+antarabangsa, serta 91 lagi negara melalui rekod Lexifina (lihat di bawah). Setiap hasil menamakan sumbernya
+dan memaut kepada dokumen asal.
 
 ## Adakah teks-teks itu rasmi?
 
@@ -50,10 +51,36 @@ Secara berasingan, beberapa sumber menyatakan dalam syarat penggunaannya bahawa 
 kebenaran penerbit. Sumber ini ditandakan OFF dan kekal dimatikan. Kunci tidak mengubahnya; hanya kebenaran
 penerbit yang mengubahnya (kemudian tetapkan `WLM_PERMITTED=<codes>`).
 
+## Dari manakah versi lama dan negara tambahan itu datang?
+
+Daripada [Lexifina](https://github.com/lexifina/global-law), yang menyimpan undang-undang kira-kira 200 negara
+sebagai sejarah git: setiap perubahan ialah commit yang bertarikh pada hari ia berkuat kuasa. Fontes membacanya
+melalui pelayan MCP hos percuma Lexifina. Dua alat menggunakannya: `get_law_on_date` (peruntukan seperti yang
+berkuat kuasa pada tarikh, juga pada masa lampau, beserta undang-undang yang terakhir mengubahnya) dan
+`get_law_history` (setiap undang-undang yang mengubah sesuatu peruntukan, atau perubahan perkata antara dua tarikh).
+Fontes juga membaca 91 lagi negara dan wilayah dengan cara ini, untuk perundangan sahaja (contohnya Afrika Selatan,
+Kenya, Mexico, New Zealand, Rusia, Korea Selatan, Belgium, Lithuania, Ukraine, Malaysia, Thailand dan Arab Saudi).
+Ia berasingan daripada 125 penyesuai dengan liputan rasmi yang hidup, dan liputan bagi setiap negara sangat
+berbeza (rekod nasional Kenya memuatkan 9 akta). Akta India juga datang daripada rekod Lexifina, kerana syarat
+India Code melarang akses automatik; keputusan Mahkamah Agung India adalah hidup.
+
+Lexifina bukan penerbit rasmi, dan rekodnya tidak hidup: Lexifina menyemak setiap negara dari semasa ke semasa,
+dan laporannya sendiri pada 2026-11-26 mengira 338 daripada 383 badan undang-undang nasional sebagai tidak disemak
+dalam 7 hari terakhir. Setiap jawapan menamakan Lexifina sebagai sumber, memaut halaman penerbit rasmi dan
+menyatakan sejauh mana rekod itu merangkumi.
+
+Lexifina berpendapat bahawa teks undang-undang rasmi tidak dilindungi hak cipta, maka di sesetengah negara ia
+menyalin laman yang syarat atau robots.txt-nya Fontes sendiri patuhi. Fontes tetap mematuhi robots.txt dan syarat
+bagi apa yang diambilnya sendiri; apa yang datang melalui Lexifina mengikut pertimbangan Lexifina sendiri,
+direkodkan bagi setiap negara dalam repositorinya. Beberapa sumber mengehadkan penggunaan (penerbit Kenya:
+CC BY-NC). Kata carian, petikan dan tarikh anda dihantar ke pelayan Lexifina untuk ini. Tetapkan
+`WLM_LEXIFINA=0` untuk mematikannya. Pelayan percuma membenarkan 60 panggilan seminit dan 10,000 sehari bagi
+setiap alamat internet; tiada kunci atau akaun. Fontes tidak berkaitan dengan Lexifina.
+
 ## Apa yang keluar dari komputer saya?
 
-Carian anda hanya pergi ke sumber yang sedang dicari. Fontes tidak menyimpan pangkalan data dan tidak
-memerlukan akaun.
+Carian anda hanya pergi ke sumber yang sedang dicari (bagi alat dan negara Lexifina, itu pelayan Lexifina).
+Fontes tidak menyimpan pangkalan data dan tidak memerlukan akaun.
 
 Selain sumber-sumber itu, Fontes bertanya kepada PyPI sekali sehari sama ada versi yang lebih baharu wujud
 (matikannya dengan `FONTES_NO_UPDATE_CHECK=1`). Kiraan penggunaan dimatikan melainkan anda menghidupkannya,

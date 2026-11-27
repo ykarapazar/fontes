@@ -159,7 +159,6 @@ leen ak virgule, ci bloc `env` bi: `"WLM_PERMITTED": "in,de"`.
 | `de` | Almaañ: NeuRIS (portail federaal bu xibaaru yoon, liggéey bu ñuy jéem) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Gerees: Imprimerie nationale, gëstu ci Journal officiel (search.et.gr) |
-| `in` | Inde: India Code (indiacode.gov.in) |
 | `mu` | Moris: Àttekaay bu Kawe (supremecourt.govmu.org) |
 | `sg` | Singapuur: àtte yu àttekaay yi (elitigation.sg) |
 

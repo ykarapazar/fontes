@@ -165,7 +165,6 @@ blocco `env`: `"WLM_PERMITTED": "in,de"`.
 | `de` | Germania: NeuRIS (portale federale di informazione giuridica, servizio di prova) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grecia: Poligrafico nazionale, ricerca nella Gazzetta ufficiale del governo (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: decisioni giudiziarie (elitigation.sg) |
 

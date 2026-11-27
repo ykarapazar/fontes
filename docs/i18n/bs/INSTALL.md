@@ -3,7 +3,7 @@
 # Instalacija alata Fontes
 
 Fontes omogućava vašoj AI aplikaciji da pretražuje sudske odluke i propise uživo na stranicama
-sudova i državnih organa u više od 120 jurisdikcija. Svaki rezultat sadrži link na original. To
+sudova i državnih organa u 125 jurisdikcija. Svaki rezultat sadrži link na original. To
 je standardni MCP server, pa radi u svakoj aplikaciji koja može pokrenuti lokalni MCP server:
 Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed,
 LM Studio, Cline i drugim.

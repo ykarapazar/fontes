@@ -3,7 +3,7 @@
 # Bí a ṣe ń fi Fontes sílẹ̀
 
 Fontes ń jẹ́ kí áàpù AI rẹ wá àwọn ìdájọ́ ilé-ẹjọ́ àti òfin láàyè lórí ojú-ìwé ayélujára ti ilé-ẹjọ́ àti ti
-ìjọba, ní agbègbè ìdájọ́ tí ó ju 120 lọ. Gbogbo èsì ní ìjápọ̀ sí ìwé ojúlówó. Sáfà MCP àbọ̀dé ni, nítorí náà
+ìjọba, ní agbègbè ìdájọ́ 125. Gbogbo èsì ní ìjápọ̀ sí ìwé ojúlówó. Sáfà MCP àbọ̀dé ni, nítorí náà
 ó ń ṣiṣẹ́ nínú áàpù èyíkéyìí tí ó lè ṣe ìfilọ́lẹ̀ sáfà MCP lórí kọ̀ǹpútà rẹ: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline àti àwọn mìíràn.
 

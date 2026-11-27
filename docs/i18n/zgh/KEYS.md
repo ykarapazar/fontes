@@ -152,7 +152,6 @@ CourtListener ⵉⵙⵙⵎⵔⴰⵙ ⵜⵜ [Free Law Project](https://free.law),
 | `de` | ⴰⵍⵎⴰⵏⵢⴰ: NeuRIS (ⴰⵙⵉⵜ ⴰⴼⵉⴷⵉⵔⴰⵍ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵉⵣⵔⴼⴰⵏⵏ, ⵜⴰⵏⴰⴼⵓⵜ ⵏ ⵓⵔⵎⵎ) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | ⵍⵢⵓⵏⴰⵏ: ⵜⴰⵙⵙⵓⴳⵓⵔⵜ ⵜⴰⵏⴰⵎⵓⵔⵜ, ⴰⵔⵣⵣⵓ ⴳ ⵜⵖⵓⵔⵉ ⵜⵓⵏⵚⵉⴱⵜ (search.et.gr) |
-| `in` | ⵍⵀⵉⵏⴷ: India Code (indiacode.gov.in) |
 | `mu` | ⵎⵓⵔⵉⵙ: ⵜⴰⵎⵃⴽⵎⵜ ⵜⴰⵏⴼⵍⵉⵜ (supremecourt.govmu.org) |
 | `sg` | ⵙⵏⵖⴰⴼⵓⵔⴰ: ⵜⵉⴳⵜⵜⴰⵡⵉⵏ ⵏ ⵜⵎⵃⴽⵎⵉⵏ (elitigation.sg) |
 

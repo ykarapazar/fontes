@@ -153,7 +153,6 @@ tillstånd. Om du har tillstånd från utgivaren, slå på en källa genom att l
 | `de` | Tyskland: NeuRIS (federal portal för rättslig information, testtjänst) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grekland: National Printing Office, sökning i Government Gazette (search.et.gr) |
-| `in` | Indien: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapore: domstolsavgöranden (elitigation.sg) |
 

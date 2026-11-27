@@ -151,7 +151,6 @@ CourtListener 由 [Free Law Project](https://free.law) 运营，这是一家非�
 | `de` | 德国：NeuRIS（联邦法律信息门户，试运行服务） |
 | `difc` | 迪拜国际金融中心法院（difccourts.ae） |
 | `gr` | 希腊：国家印刷局，政府公报检索（search.et.gr） |
-| `in` | 印度：India Code（indiacode.gov.in） |
 | `mu` | 毛里求斯：最高法院（supremecourt.govmu.org） |
 | `sg` | 新加坡：法院判决（elitigation.sg） |
 

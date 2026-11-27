@@ -170,7 +170,6 @@ andeems Dir hire Code, mat Kommaen getrennt, an `WLM_PERMITTED` am `env`-Block d
 | `de` | Däitschland: NeuRIS (Bundesportal fir juristesch Informatioun, Testservice) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Griicheland: Nationaldréckerei, Sich am Amtsblat (search.et.gr) |
-| `in` | Indien: India Code (indiacode.gov.in) |
 | `mu` | Mauritius: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapur: Geriichtsuerteeler (elitigation.sg) |
 

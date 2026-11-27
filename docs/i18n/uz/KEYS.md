@@ -164,7 +164,6 @@ kodini `env` blokidagi `WLM_PERMITTED` ga vergul bilan ajratib qoʻshish orqali 
 | `de` | Germaniya: NeuRIS (federal huquqiy axborot portali, sinov xizmati) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Gretsiya: Milliy bosmaxona, Hukumat axborotnomasi qidiruvi (search.et.gr) |
-| `in` | Hindiston: India Code (indiacode.gov.in) |
 | `mu` | Mavrikiy: Oliy sud (supremecourt.govmu.org) |
 | `sg` | Singapur: sud qarorlari (elitigation.sg) |
 

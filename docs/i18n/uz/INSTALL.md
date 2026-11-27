@@ -2,7 +2,7 @@
 
 # Fontes’ni oʻrnatish
 
-Fontes AI ilovangizga 120 dan ortiq yurisdiksiyada sud qarorlari va qonunchilikni sud va davlat
+Fontes AI ilovangizga 125 ta yurisdiksiyada sud qarorlari va qonunchilikni sud va davlat
 veb-saytlarida jonli qidirish imkonini beradi. Har bir natija asl nusxaga havola beradi. Bu
 standart MCP server, shuning uchun u lokal MCP serverni ishga tushira oladigan har qanday ilovada
 ishlaydi: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,

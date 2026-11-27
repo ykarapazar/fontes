@@ -3,7 +3,7 @@
 # Fontes privacidad willakuy
 
 Fontesqa computadoraykipim purin. Maskasqaykikuna, kichasqayki qillqakunapas
-computadorayki, maskasqayki oficial pukyukuna, llamk'achisqayki IA aplicación (chay
+computadorayki, maskasqayki pukyukuna (oficialkuna, chaywan CourtListener hinaspa Lexifina, llamk'achisqaykiman hina, qhipaman qhaway), llamk'achisqayki IA aplicación (chay
 aplicacionpa kikin condicionninkunaman hina) chaykunallapim qhipakun. Fontesqa kikinmanta
 Fontes desarrolladorkunaman **ñawpaqmantapachaqa manam imatapas** kachanchu.
 
@@ -43,6 +43,8 @@ sutin, pantay willakuynin (maskay simiykikuna, identificadorkunapas qichusqa), h
 qillqanki chayqa. Ama notapi clientekunap datonkunata churaychu. Kayta yanapananpaq, Fontesqa
 qhipa kaq pantayta computadoraykipi waqaychan (`last-error.json` caché carpetanpi, sapa kuti
 rantisqa); manam hayk'appas sapallanmanta kachakunchu.
+
+**4. Lexifina (defaultmi kachkan).** `get_law_on_date`, `get_law_history`, 91 suyukuna hinaspa Indiap kamachikuykunaqa Lexifinap recordninmanta ñawinchasqa Lexifinaman rinku, oficial páginawan kuska utaq chaymanta aswan. Maskasqaykipa simikuna, citacionkuna hinaspa p'unchawkunan Lexifinap mana qullqiyuq servidorninman chayan, `global-law.lexifina.com`; chaytaqa Lexifinam purichin, manam Fontes desarrolladorkunachu. Lexifina willakun servidornin waqaychan mayqin llamk'anata waqyasqanta hinaspa hayk'a tiempo ruwasqanta, ichaqa manam mayqin tapukusqanta; Fontesqa manam chaytaqa chiqnichiyta atinchu, Lexifinap kikin términosninmi kachkan. Lexifina ima web servidorhina IP direccionniykitam rikun. Lexifinata tukuyta wañuchinaykipaq `WLM_LEXIFINA=0` churay; chay iskay llamk'anakunapas, suyukunapas chaymanta llamk'ayta saqinku, manataq imapas chaymanta kachakunchu.
 
 ## Mayman rin, hayk'a unaytataq waqaychakun
 

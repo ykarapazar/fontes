@@ -166,7 +166,6 @@ e automatizuar pa leje. Nëse keni leje nga botuesi, aktivizoni një burim duke 
 | `de` | Gjermania: NeuRIS (portali federal i informacionit juridik, shërbim provë) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Greqia: Shtypshkronja Kombëtare, kërkimi në Fletoren Zyrtare (search.et.gr) |
-| `in` | India: India Code (indiacode.gov.in) |
 | `mu` | Mauritiusi: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapori: vendimet gjyqësore (elitigation.sg) |
 

@@ -3,7 +3,7 @@
 # Fontesin asentaminen
 
 Fontesin avulla tekoälysovelluksesi voi hakea tuomioistuinten ratkaisuja ja lainsäädäntöä reaaliajassa tuomioistuinten ja viranomaisten
-verkkosivustoilta yli 120 lainkäyttöalueelta. Jokaisessa tuloksessa on linkki alkuperäiseen. Se on tavallinen MCP-palvelin,
+verkkosivustoilta 125 lainkäyttöalueelta. Jokaisessa tuloksessa on linkki alkuperäiseen. Se on tavallinen MCP-palvelin,
 joten se toimii missä tahansa sovelluksessa, joka voi ajaa paikallista MCP-palvelinta: Claude Desktop, Codex, Claude
 Code, Cursor, VS Code (GitHub Copilot), Gemini CLI, Windsurf, Zed, LM Studio, Cline ja muut.
 

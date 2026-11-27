@@ -171,7 +171,6 @@ CourtListener се управлява от [Free Law Project](https://free.law),
 | `de` | Германия: NeuRIS (федерален портал за правна информация, пробна услуга) |
 | `difc` | Съдилищата на Дубайския международен финансов център (difccourts.ae) |
 | `gr` | Гърция: Национална печатница, търсене в Правителствения вестник (search.et.gr) |
-| `in` | Индия: India Code (indiacode.gov.in) |
 | `mu` | Мавриций: Върховен съд (supremecourt.govmu.org) |
 | `sg` | Сингапур: съдебни решения (elitigation.sg) |
 

@@ -3,8 +3,8 @@
 # Avís de privadesa de Fontes
 
 Fontes s'executa al vostre ordinador. Les vostres cerques i els documents que obriu queden entre el
-vostre ordinador, les fonts oficials on cerqueu i l'aplicació d'IA que feu servir (segons les
-condicions d'aquesta aplicació). El mateix Fontes no envia **res, per defecte**, als desenvolupadors
+vostre ordinador, les fonts que cerqueu (les oficials, i CourtListener i Lexifina quan les useu,
+vegeu més avall) i l'aplicació d'IA que feu servir (segons les condicions d'aquesta aplicació). El mateix Fontes no envia **res, per defecte**, als desenvolupadors
 de Fontes.
 
 ## Què pot sortir del vostre ordinador, i quan
@@ -39,6 +39,14 @@ codi de jurisdicció, el nom de l'eina i el missatge d'error de la darrera crida
 vostres paraules de cerca i els identificadors eliminats), i una nota si n'escriviu una. No poseu
 dades de clients a la nota. Per a això, Fontes conserva el darrer error al vostre ordinador
 (`last-error.json` a la carpeta de memòria cau, substituït cada vegada); mai no s'envia per si sol.
+
+**4. Lexifina (activat per defecte).** `get_law_on_date`, `get_law_history`, els 91 països i les lleis de l'Índia es llegeixen a través
+del registre de legislació de Lexifina, de manera que van a Lexifina a més del lloc oficial o en lloc seu. Les vostres paraules de cerca, citacions i
+dates van al servidor gratuït de Lexifina, `global-law.lexifina.com`, que gestiona Lexifina i no els
+desenvolupadors de Fontes. Lexifina documenta que el seu servidor registra quina eina s'ha cridat i quant
+ha durat, mai què s'ha demanat; Fontes no ho pot comprovar, i s'apliquen les condicions pròpies de
+Lexifina. Lexifina veu la vostra adreça IP, com qualsevol servidor web. Per desactivar-ho completament,
+definiu `WLM_LEXIFINA=0`; aquestes dues eines i aquests països deixen de funcionar i no s'hi envia res.
 
 ## On va i quant de temps es conserva
 

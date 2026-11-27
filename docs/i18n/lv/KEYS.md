@@ -161,7 +161,6 @@ mainīgajam `WLM_PERMITTED`, atdalot ar komatiem, blokā `env`: `"WLM_PERMITTED"
 | `de` | Vācija: NeuRIS (federālais tiesiskās informācijas portāls, izmēģinājuma pakalpojums) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Grieķija: National Printing Office, Government Gazette meklēšana (search.et.gr) |
-| `in` | Indija: India Code (indiacode.gov.in) |
 | `mu` | Maurīcija: Supreme Court (supremecourt.govmu.org) |
 | `sg` | Singapūra: tiesu spriedumi (elitigation.sg) |
 

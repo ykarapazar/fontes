@@ -3,7 +3,7 @@
 # Pag-install ng Fontes
 
 Binibigyang-daan ng Fontes ang iyong AI app na maghanap ng mga desisyon ng korte at lehislasyon nang live sa
-mga website ng mga korte at ng pamahalaan sa mahigit 120 hurisdiksyon. Bawat resulta ay may link sa orihinal
+mga website ng mga korte at ng pamahalaan sa 125 hurisdiksyon. Bawat resulta ay may link sa orihinal
 na dokumento. Ito ay isang karaniwang MCP server, kaya gumagana ito sa anumang app na kayang magpatakbo ng
 lokal na MCP server: Claude Desktop, Codex, Claude Code, Cursor, VS Code (GitHub Copilot), Gemini CLI,
 Windsurf, Zed, LM Studio, Cline at iba pa.

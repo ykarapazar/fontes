@@ -171,7 +171,6 @@ CourtListener-ро [Free Law Project](https://free.law), созмони ғайр
 | `de` | Олмон: NeuRIS (портали федералии иттилооти ҳуқуқӣ, хизматрасонии озмоишӣ) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Юнон: Матбааи миллӣ, ҷустуҷӯи Бюллетени ҳукумат (search.et.gr) |
-| `in` | Ҳиндустон: India Code (indiacode.gov.in) |
 | `mu` | Маврикий: Суди олӣ (supremecourt.govmu.org) |
 | `sg` | Сингапур: қарорҳои судӣ (elitigation.sg) |
 

@@ -169,7 +169,6 @@ pridėdami jo kodą prie `WLM_PERMITTED`, atskirdami kableliais, bloke `env`:
 | `de` | Vokietija: NeuRIS (federalinis teisinės informacijos portalas, bandomoji paslauga) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | Graikija: Nacionalinė spaustuvė, Vyriausybės žinių paieška (search.et.gr) |
-| `in` | Indija: India Code (indiacode.gov.in) |
 | `mu` | Mauricijus: Aukščiausiasis Teismas (supremecourt.govmu.org) |
 | `sg` | Singapūras: teismų sprendimai (elitigation.sg) |
 

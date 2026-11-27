@@ -154,7 +154,6 @@ CourtListener-ஐ [Free Law Project](https://free.law) நடத்துகி�
 | `de` | ஜெர்மனி: NeuRIS (கூட்டாட்சிச் சட்டத் தகவல் தளம், சோதனைச் சேவை) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | கிரீஸ்: National Printing Office, Government Gazette தேடல் (search.et.gr) |
-| `in` | இந்தியா: India Code (indiacode.gov.in) |
 | `mu` | மொரிஷியஸ்: Supreme Court (supremecourt.govmu.org) |
 | `sg` | சிங்கப்பூர்: நீதிமன்றத் தீர்ப்புகள் (elitigation.sg) |
 

@@ -3,7 +3,8 @@
 # Notis privasi Fontes
 
 Fontes berjalan pada komputer anda. Carian anda dan dokumen yang anda buka kekal antara komputer anda,
-sumber rasmi yang anda cari, dan aplikasi AI yang anda gunakan (di bawah syarat aplikasi itu sendiri).
+sumber yang anda cari (rasmi, serta CourtListener dan Lexifina di tempat anda menggunakannya, lihat di bawah),
+dan aplikasi AI yang anda gunakan (di bawah syarat aplikasi itu sendiri).
 Fontes sendiri menghantar **tiada apa-apa secara lalai** kepada pembangun Fontes.
 
 ## Apa yang boleh keluar dari komputer anda, dan bila
@@ -38,6 +39,13 @@ gagal (dengan kata carian dan id anda dibuang), dan nota jika anda menulisnya. J
 anak guam dalam nota. Untuk menyokong ini, Fontes menyimpan ralat terakhir pada komputer anda
 (`last-error.json` dalam folder cachenya, diganti setiap kali); ia tidak sekali-kali dihantar dengan
 sendirinya.
+
+**4. Lexifina (dihidupkan secara lalai).** `get_law_on_date`, `get_law_history`, 91 negara dan akta India dibaca melalui rekod undang-undang Lexifina, jadi ia pergi kepada Lexifina sebagai tambahan kepada atau sebagai ganti laman rasmi. Kata carian, petikan dan tarikh anda pergi ke pelayan
+percuma Lexifina, `global-law.lexifina.com`, yang dikendalikan oleh Lexifina, bukan oleh pembangun Fontes.
+Lexifina mendokumentasikan bahawa pelayannya mencatat alat mana yang dipanggil dan berapa lama ia mengambil masa,
+tidak sekali-kali apa yang ditanya; Fontes tidak dapat menyemaknya, dan syarat Lexifina sendiri terpakai. Lexifina
+nampak alamat IP anda, seperti mana-mana pelayan web. Untuk mematikan Lexifina sepenuhnya, tetapkan
+`WLM_LEXIFINA=0`; kedua-dua alat dan negara itu kemudian berhenti berfungsi dan tiada apa-apa dihantar ke sana.
 
 ## Ke mana ia pergi dan berapa lama ia disimpan
 

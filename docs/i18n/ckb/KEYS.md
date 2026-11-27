@@ -153,7 +153,6 @@ CourtListener لەلایەن [Free Law Project](https://free.law)ەوە بەڕێ
 | `de` | ئەڵمانیا: NeuRIS (دەروازەی زانیاریی یاسایی فیدراڵی، خزمەتگوزاریی تاقیکاری) |
 | `difc` | Dubai International Financial Centre Courts (difccourts.ae) |
 | `gr` | یۆنان: نووسینگەی نیشتمانیی چاپ، گەڕانی Government Gazette (search.et.gr) |
-| `in` | هیندستان: India Code (indiacode.gov.in) |
 | `mu` | مۆریشیۆس: دادگای باڵا (supremecourt.govmu.org) |
 | `sg` | سەنگافوورە: بڕیارەکانی دادگا (elitigation.sg) |
 

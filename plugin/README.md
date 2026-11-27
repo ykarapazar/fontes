@@ -42,7 +42,7 @@ with a `Fontes/<version>` User-Agent that names the repository and a contact add
 
 Privacy notice: https://github.com/ykarapazar/fontes/blob/main/docs/PRIVACY.md
 
-### Every source host in the code (319)
+### Every source host in the code (318)
 
 Generated from the adapters' source by `scripts/plugin_bundle.py`: every host an adapter
 fetches from or links to. A host is contacted only when you ask about its jurisdiction.
@@ -137,7 +137,6 @@ fetches from or links to. A host is contacted only when you ask about its jurisd
 - `ia37rg02wpsa01.blob.core.windows.net`
 - `icsid.worldbank.org`
 - `icsidfiles.worldbank.org`
-- `indiacode.gov.in`
 - `indian-supreme-court-judgments.s3.ap-south-1.amazonaws.com`
 - `instante.justice.md`
 - `isap.sejm.gov.pl`
