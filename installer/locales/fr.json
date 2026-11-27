@@ -25,6 +25,7 @@
  "key_fr_id": "France : identifiant client PISTE",
  "key_fr_secret": "France : secret client PISTE",
  "key_us": "États-Unis : clé api.data.gov",
+ "key_us_cl": "États-Unis : clé CourtListener",
  "keys_saved": "Clés enregistrées. Quittez puis rouvrez vos applications pour les utiliser.",
  "keys_unchanged": "Aucune clé n'a été modifiée.",
  "keys_no_apps": "Fontes n'est encore configuré dans aucune application. Installez-le d'abord.",

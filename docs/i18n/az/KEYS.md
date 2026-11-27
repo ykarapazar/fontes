@@ -2,12 +2,13 @@
 
 # API açarları
 
-Fontes-dəki demək olar ki, hər mənbə açarsız işləyir. İkisi pulsuz açar tələb edir:
+Fontes-dəki demək olar ki, hər mənbə açarsız işləyir. Üçü pulsuz açar tələb edir:
 
 | Açar | Nəyi açır | Açarsız |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Fransa: Judilibre (məhkəmə qərarları) və Légifrance (qanunvericilik) | Fransa söndürülüb. `list_jurisdictions` onu qeyri-aktiv kimi göstərir. |
 | `WLM_US_GOVINFO_KEY` | Amerika Birləşmiş Ştatları: govinfo axtarışı (federal məhkəmə qərarları, Statutes at Large, public laws) | Fontes ümumi `DEMO_KEY`-dən istifadə edir: IP ünvanı başına gündə təxminən 10 axtarış. Məlum qərarı açmaq və US Code açar tələb etmir. |
+| `WLM_US_COURTLISTENER_KEY` | ABŞ ştatlarının məhkəmələri (`us-states`): bütün 50 ştatın və DC-nin ali və apellyasiya məhkəmələrinin qərarları, CourtListener-dən | ABŞ ştatlarının məhkəmə təcrübəsi söndürülüb. `list_jurisdictions` onu qeyri-aktiv kimi göstərir. |
 
 Açarlar istəyə bağlıdır. Onları sonra əlavə edə bilərsiniz.
 
@@ -84,6 +85,22 @@ Qısaca şərtlər:
   Bax [govinfo-nun siyasətləri](https://www.govinfo.gov/about/policies) və
   [data.gov məxfilik siyasəti](https://data.gov/privacy-policy/).
 - Açarı özünüzdə saxlayın.
+
+## ABŞ ştatlarının məhkəmələri: CourtListener (pulsuz)
+
+CourtListener 2010-cu ildən ABŞ məhkəmə qərarlarını toplayan və onları hamı üçün pulsuz edən qeyri-kommersiya təşkilatı [Free Law Project](https://free.law) tərəfindən idarə olunur. Öz hesablamasına görə, doqquz milyondan çox qərar saxlayır. Bu, rəsmi mənbə deyil: məhkəmələr qərarlarını özləri dərc edir, CourtListener isə onları məhkəmə saytlarından və skan edilmiş hüquqi hesabatlardan toplayır. Ondan gələn hər Fontes cavabı bunu bildirir. Fontes Free Law Project ilə əlaqəli deyil.
+
+1. [courtlistener.com](https://www.courtlistener.com/sign-in/) saytında pulsuz hesab yaradın.
+2. Profilinizi açın və API tokeninizi kopyalayın.
+3. **Açarları əlavə et və ya dəyiş** işə salın və onu CourtListener açarı kimi yapışdırın.
+
+Qısaca şərtlər ([tam şərtlər](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token yalnız sizindir: onu paylaşmayın, birləşdirməyin və ya yenidən satmayın və bir neçə hesabdan istifadə etməyin.
+- Süni intellekt tətbiqinin tokeninizlə etdiklərinə görə siz məsuliyyət daşıyırsınız.
+- Süni intellektin onların məlumatları üzərindəki təhlilini Free Law Project tərəfindən hazırlanmış, təsdiq edilmiş və ya yoxlanılmış kimi təqdim etməyin.
+- Pulsuz hesab dəqiqədə 5, saatda 50 və gündə 125 sorğuya icazə verir. Axtarış bir sorğudur; qərarı açmaq iki sorğudur. Free Law Project üzvlüyü limitləri artırır.
+- CourtListener dəqiqliyə zəmanət vermir. Qərara etibar etməzdən əvvəl onu məhkəmənin nüsxəsi ilə yoxlayın.
 
 ## Açarlar harada saxlanılır
 

@@ -7,7 +7,7 @@
 Një server MCP falas dhe me burim të hapur (Apache 2.0). Ai i lejon çdo aplikacioni që flet Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI dhe të tjerë) të kërkojë vendime
 gjyqësore dhe legjislacion drejtpërdrejt në faqet e internetit të gjykatave dhe të institucioneve
-shtetërore në më shumë se 120 juridiksione dhe gjykata ndërkombëtare (124 adaptues). Çdo rezultat
+shtetërore në më shumë se 120 juridiksione dhe gjykata ndërkombëtare (125 adaptues). Çdo rezultat
 emërton burimin e vet dhe lidhet me origjinalin.
 
 ## A janë tekstet zyrtare?
@@ -25,12 +25,11 @@ citoni çfarëdo, kontrolloni botimin zyrtar. Tabela e mbulimit në [README](REA
 
 ## Cilat juridiksione mbulon, dhe sa mirë?
 
-124 adaptues: 108 shtete anëtare të OKB-së, Hong Kongu, Kosova, Palestina, Tajvani, DIFC Courts
-dhe 11 gjykata dhe organe ndërkombëtare (si Gjykata Evropiane e të Drejtave të Njeriut, BE-ja,
+125 adaptues: 108 shtete anëtare të OKB-së, Hong Kongu, Kosova, Palestina, Tajvani, DIFC Courts, gjykatat shtetërore të SHBA-së dhe 11 gjykata dhe organe ndërkombëtare (si Gjykata Evropiane e të Drejtave të Njeriut, BE-ja,
 GJND-ja dhe OBT-ja).
 
 Mbulimi ndryshon shumë. Sipas një rregulli të rreptë (precedentët e gjykatës më të lartë të
-përgjithshme, ose kushtetuta dhe aktet primare, të arritura plotësisht), 72 nga 124 llogariten si
+përgjithshme, ose kushtetuta dhe aktet primare, të arritura plotësisht), 72 nga 125 llogariten si
 të mbuluara. [COVERAGE.md](../../COVERAGE.md) liston, për çdo juridiksion, çfarë arrin Fontes, çfarë
 nuk arrin dhe pse.
 
@@ -44,6 +43,7 @@ Për pothuajse çdo juridiksion, jo. Disa burime kërkojnë një çelës falas: 
 - **Shtetet e Bashkuara:** opsional. Kërkimi i praktikës gjyqësore funksionon pa çelës, por çelësi
   demo i përbashkët lejon vetëm rreth 10 kërkime në ditë për adresë IP. Një çelës falas
   api.data.gov në `WLM_US_GOVINFO_KEY` e rrit këtë kufi.
+- **Gjykatat shtetërore të SHBA-së:** po. Praktika gjyqësore e shteteve (`us-states`) është joaktive derisa të vendosni `WLM_US_COURTLISTENER_KEY` me token-in tuaj falas API të CourtListener. CourtListener drejtohet nga organizata jofitimprurëse Free Law Project; nuk është burim zyrtar, dhe çdo përgjigje e thotë këtë.
 
 Vendosini këto si variabla mjedisi për serverin Fontes në cilësimet MCP të aplikacionit tuaj. Instaluesit jua kërkojnë pas instalimit, dhe nisësi i tyre **Add or change keys** i
 ndryshon më vonë.

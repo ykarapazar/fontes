@@ -7,7 +7,7 @@
 Nemokamas atvirojo kodo MCP serveris (Apache 2.0). Jis leidžia bet kuriai programai, palaikančiai
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI ir kitoms), tiesiogiai ieškoti
 teismų sprendimų ir teisės aktų teismų ir valstybės institucijų svetainėse 120+ jurisdikcijų ir
-tarptautinių teismų (124 adapteriai). Kiekvienas rezultatas nurodo savo šaltinį ir pateikia
+tarptautinių teismų (125 adapteriai). Kiekvienas rezultatas nurodo savo šaltinį ir pateikia
 nuorodą į originalą.
 
 ## Ar tekstai oficialūs?
@@ -26,13 +26,12 @@ source“. Prieš ką nors cituodami, patikrinkite oficialųjį leidinį. Aprėp
 
 ## Kurias jurisdikcijas aprėpia ir kaip gerai?
 
-124 adapteriai: 108 JT valstybės narės, Honkongas, Kosovas, Palestina, Taivanas, DIFC Courts ir
-11 tarptautinių teismų ir institucijų (pavyzdžiui, Europos Žmogaus Teisių Teismas, ES,
+125 adapteriai: 108 JT valstybės narės, Honkongas, Kosovas, Palestina, Taivanas, DIFC Courts, JAV valstijų teismai ir 11 tarptautinių teismų ir institucijų (pavyzdžiui, Europos Žmogaus Teisių Teismas, ES,
 Tarptautinis Teisingumo Teismas ir PPO).
 
 Aprėptis labai skiriasi. Pagal griežtą taisyklę (aukščiausiojo bendrosios kompetencijos teismo
 precedentai arba konstitucija ir pagrindiniai įstatymai, pasiekti visa apimtimi) aprėptomis
-laikomos 72 iš 124. [COVERAGE.md](../../COVERAGE.md) kiekvienai jurisdikcijai nurodo, ką Fontes
+laikomos 72 iš 125. [COVERAGE.md](../../COVERAGE.md) kiekvienai jurisdikcijai nurodo, ką Fontes
 pasiekia, ko nepasiekia ir kodėl.
 
 ## Ar man reikia API rakto?
@@ -46,6 +45,7 @@ Beveik visoms jurisdikcijoms – ne. Kai kuriems šaltiniams reikia nemokamo rak
 - **Jungtinės Valstijos:** neprivaloma. Teismų praktikos paieška veikia be rakto, tačiau bendras
   demonstracinis raktas leidžia tik apie 10 paieškų per dieną vienam IP adresui. Nemokamas
   api.data.gov raktas kintamajame `WLM_US_GOVINFO_KEY` šią ribą padidina.
+- **JAV valstijų teismai:** taip. Valstijų teismų praktika (`us-states`) išjungta, kol nenustatote `WLM_US_COURTLISTENER_KEY` su savo nemokamu CourtListener API žetonu. CourtListener valdo ne pelno siekianti organizacija Free Law Project; tai nėra oficialus šaltinis, ir kiekvienas atsakymas tai nurodo.
 
 Nustatykite juos kaip Fontes serverio aplinkos kintamuosius savo programos MCP nustatymuose. Diegimo programos jų paklausia po diegimo, o jų paleidiklis **Add or change keys**
 leis juos pakeisti vėliau.

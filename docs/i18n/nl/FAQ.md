@@ -7,7 +7,7 @@
 Een gratis opensource-MCP-server (Apache 2.0). Hiermee kan elke app die het Model Context Protocol
 spreekt (Claude, Codex, Cursor, VS Code, Gemini CLI en andere) rechterlijke uitspraken en
 wetgeving live doorzoeken op websites van gerechten en overheden in meer dan 120 rechtsstelsels en
-bij internationale gerechten (124 adapters). Elk resultaat noemt zijn bron en linkt naar het
+bij internationale gerechten (125 adapters). Elk resultaat noemt zijn bron en linkt naar het
 origineel.
 
 ## Zijn de teksten officieel?
@@ -26,12 +26,12 @@ komt. Controleer de officiële publicatie voordat u iets citeert. De dekkingstab
 
 ## Welke rechtsstelsels bestrijkt het, en hoe goed?
 
-124 adapters: 108 VN-lidstaten, Hongkong, Kosovo, Palestina, Taiwan, de DIFC Courts en 11
+125 adapters: 108 VN-lidstaten, Hongkong, Kosovo, Palestina, Taiwan, de DIFC Courts, de staatsgerechten van de VS en 11
 internationale gerechten en organen (zoals het Europees Hof voor de Rechten van de Mens, de EU, het
 ICJ en de WTO).
 
 De dekking verschilt sterk. Volgens een strikte regel (de precedenten van het hoogste algemene
-gerecht, of de grondwet en de primaire wetten, volledig bereikt) gelden 72 van de 124 als gedekt.
+gerecht, of de grondwet en de primaire wetten, volledig bereikt) gelden 72 van de 125 als gedekt.
 [COVERAGE.md](COVERAGE.md) vermeldt voor elk rechtsstelsel wat Fontes bereikt, wat niet, en waarom.
 
 ## Heb ik een API-sleutel nodig?
@@ -45,6 +45,7 @@ Voor bijna elk rechtsstelsel niet. Sommige bronnen hebben een gratis sleutel nod
 - **Verenigde Staten:** optioneel. Zoeken in rechtspraak werkt zonder sleutel, maar de gedeelde
   demosleutel staat slechts ongeveer 10 zoekopdrachten per dag per IP-adres toe. Een gratis
   api.data.gov-sleutel in `WLM_US_GOVINFO_KEY` verhoogt dat.
+- **Staatsgerechten in de VS:** ja. Rechtspraak van de staten (`us-states`) staat uit totdat u `WLM_US_COURTLISTENER_KEY` instelt op uw eigen gratis CourtListener API-token. CourtListener wordt beheerd door de non-profitorganisatie Free Law Project; het is geen officiële bron, en elk antwoord zegt dat.
 
 Stel deze in als omgevingsvariabelen voor de Fontes-server in de MCP-instellingen van uw app. De installatieprogramma's vragen er na de installatie om, en met hun starter
 **Add or change keys** wijzigt u ze later.

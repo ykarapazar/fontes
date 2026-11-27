@@ -8,7 +8,7 @@ Mana qullqiyuq, kichasqa pukyuyuq (open source) MCP servidormi (Apache 2.0). Mod
 Protocol nisqata rimaq mayqin aplicacióntapas (Claude, Codex, Cursor, VS Code, Gemini CLI,
 hukkunatapas) taripana wasikunap taripayninkunata, kamachiykunatapas taripana wasikunap,
 gobiernop web sitionkunapi kawsaqta maskachin, 120+ jurisdicciónkunapi, suyukuna pura taripana
-wasikunapipas (124 adaptadorkuna). Sapa kutichiymi pukyunta sutinchan, originalmantaq t'inkin.
+wasikunapipas (125 adaptadorkuna). Sapa kutichiymi pukyunta sutinchan, originalmantaq t'inkin.
 
 ## Qillqakunaqa oficialchu?
 
@@ -26,12 +26,11 @@ chayasqan tabla, `list_jurisdictions` nisqapas sapa jurisdicciónpa pukyunta sut
 
 ## Mayqin jurisdicciónkunatataq chayan, hayk'a allintataq?
 
-124 adaptadorkuna: ONUp 108 suyu kamachiqninkuna, Hong Kong, Kosovo, Palestina, Taiwán, DIFC
-taripana wasikuna, 11 suyukuna pura taripana wasikuna, entidadkunapas (kayhina: Derechos
+125 adaptadorkuna: ONUp 108 suyu kamachiqninkuna, Hong Kong, Kosovo, Palestina, Taiwán, DIFC taripana wasikuna, Estados Unidospa estado taripana wasikuna, 11 suyukuna pura taripana wasikuna, entidadkunapas (kayhina: Derechos
 Humanos Corte Europea, Unión Europea, ICJ, OMC).
 
 Chayasqanqa ancham hukniray. Huk sinchi kamachiypi (aswan hatun general taripana wasip
-precedentenkuna, utaq constitución, primario leykunapas, llapanta chayasqa), 124 kaqmanta 72
+precedentenkuna, utaq constitución, primario leykunapas, llapanta chayasqa), 125 kaqmanta 72
 chayasqa hina yupakun. [COVERAGE.md](COVERAGE.md) nisqam sapa jurisdicciónpaq willan imata
 Fontes chayan, imata mana chayanchu, imaraykutaq.
 
@@ -47,6 +46,7 @@ Yaqa llapan jurisdicciónkunapaq, manam. Wakin pukyukunaqa mana qullqiyuq llavet
 - **Estados Unidos:** akllanapaq. Jurisprudencia maskayqa mana llaveyuqpas llamk'anmi, ichaqa
   rakinakusqa demo llaveqa sapa IP direcciónpaq p'unchawpi 10 maskaykunallatam yaqa
   saqin. `WLM_US_GOVINFO_KEY` nisqapi mana qullqiyuq api.data.gov llavem chayta wichachin.
+- **Estados Unidospa estado taripana wasikuna:** ari. Estadokunap jurisprudencian (`us-states`) wañusqam `WLM_US_COURTLISTENER_KEY` nisqata kikiyki mana qullqiyuq CourtListener API token nisqawan churanaykikama. CourtListenerqa mana qhapaq kayta maskaq huñunakuy Free Law Project nisqap kamachisqanmi; manam oficial pukyuchu, sapa kutichiypas chayta willan.
 
 Kaykunataqa aplicacionniykip MCP configuracionninpi Fontes servidorpaq variables de entorno
 hina churay. Instaladorkunaqa instalasqa qhipa chaykunata mañasunku, **Add or change

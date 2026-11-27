@@ -8,7 +8,8 @@
       "env": {
         "WLM_FR_PISTE_CLIENT_ID": "${user_config.fr_piste_client_id}",
         "WLM_FR_PISTE_CLIENT_SECRET": "${user_config.fr_piste_client_secret}",
-        "WLM_US_GOVINFO_KEY": "${user_config.us_govinfo_key}"
+        "WLM_US_GOVINFO_KEY": "${user_config.us_govinfo_key}",
+        "WLM_US_COURTLISTENER_KEY": "${user_config.us_courtlistener_key}"
       }
     }
   }

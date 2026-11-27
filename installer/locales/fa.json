@@ -25,6 +25,7 @@
  "key_fr_id": "فرانسه: client ID در PISTE",
  "key_fr_secret": "فرانسه: client secret در PISTE",
  "key_us": "ایالات متحده: کلید api.data.gov",
+ "key_us_cl": "ایالات متحده: کلید CourtListener",
  "keys_saved": "کلیدها ذخیره شدند. برای استفاده از آن‌ها برنامه‌های خود را ببندید و دوباره باز کنید.",
  "keys_unchanged": "هیچ کلیدی تغییر نکرد.",
  "keys_no_apps": "Fontes هنوز در هیچ برنامه‌ای تنظیم نشده است. ابتدا آن را نصب کنید.",

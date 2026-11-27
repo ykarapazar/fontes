@@ -2,12 +2,13 @@
 
 # API raktai
 
-Beveik kiekvienas Fontes šaltinis veikia be rakto. Dviem reikia nemokamo rakto:
+Beveik kiekvienas Fontes šaltinis veikia be rakto. Trims reikia nemokamo rakto:
 
 | Raktas | Ką atveria | Be jo |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Prancūzija: Judilibre (teismų sprendimai) ir Légifrance (teisės aktai) | Prancūzija išjungta. `list_jurisdictions` rodo ją kaip neaktyvią. |
 | `WLM_US_GOVINFO_KEY` | Jungtinės Valstijos: govinfo paieška (federalinių teismų sprendimai, Statutes at Large, public laws) | Fontes naudoja bendrą `DEMO_KEY`: apie 10 paieškų per dieną vienam IP adresui. Žinomam sprendimui atidaryti ir US Code raktas nereikalingas. |
+| `WLM_US_COURTLISTENER_KEY` | JAV valstijų teismai (`us-states`): visų 50 valstijų ir Kolumbijos apygardos aukščiausiųjų bei apeliacinių teismų sprendimai iš CourtListener | JAV valstijų teismų praktika išjungta. `list_jurisdictions` rodo ją kaip neaktyvią. |
 
 Raktai neprivalomi. Galite juos pridėti vėliau.
 
@@ -85,6 +86,22 @@ Sąlygos trumpai:
   Nepatikrinta. Žr. [govinfo politiką](https://www.govinfo.gov/about/policies) ir
   [data.gov privatumo politiką](https://data.gov/privacy-policy/).
 - Laikykite raktą tik sau.
+
+## JAV valstijų teismai: CourtListener (nemokamai)
+
+CourtListener valdo [Free Law Project](https://free.law) – ne pelno siekianti organizacija, nuo 2010 m. renkanti JAV teismų sprendimus ir teikianti juos nemokamai visiems. Pagal jos pačios duomenis, joje yra daugiau kaip devyni milijonai sprendimų. Tai nėra oficialus šaltinis: teismai savo sprendimus skelbia patys, o CourtListener surenka juos iš teismų svetainių ir nuskenuotų įstatymų ataskaitų. Kiekvienas Fontes atsakymas iš jos tai nurodo. Fontes neturi jokių ryšių su Free Law Project.
+
+1. Susikurkite nemokamą paskyrą adresu [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Atidarykite savo profilį ir nukopijuokite savo API žetoną (token).
+3. Paleiskite **Add or change keys** ir įklijuokite jį kaip CourtListener raktą.
+
+Sąlygos trumpai ([visos sąlygos](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Žetonas skirtas tik jums: nesidalykite juo, nejunkite jo į bendrą rinkinį ir neperparduokite, nenaudokite kelių paskyrų.
+- Jūs atsakote už tai, ką DI programa daro su jūsų žetonu.
+- Nepateikite DI atlikto jų duomenų analizės kaip parengtos, patvirtintos ar patikrintos Free Law Project.
+- Nemokama paskyra leidžia 5 užklausas per minutę, 50 per valandą ir 125 per dieną. Paieška yra viena užklausa; sprendimo atidarymas – dvi. Free Law Project narystė šias ribas padidina.
+- CourtListener negarantuoja tikslumo. Prieš pasikliaudami sprendimu, palyginkite jį su teismo egzemplioriumi.
 
 ## Kur saugomi raktai
 

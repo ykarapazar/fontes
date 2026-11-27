@@ -25,6 +25,7 @@
  "key_fr_id": "فرانسه: د PISTE client ID",
  "key_fr_secret": "فرانسه: د PISTE client secret",
  "key_us": "متحده ایالات: د api.data.gov کیلي",
+ "key_us_cl": "متحده ایالات: د CourtListener کیلي",
  "keys_saved": "کیلي خوندي شوې. د کارولو لپاره خپل اپونه وتړئ او بیا یې پرانیزئ.",
  "keys_unchanged": "هېڅ کیلي بدله نه شوه.",
  "keys_no_apps": "Fontes لا تر اوسه په هېڅ اپ کې نه دی جوړ شوی. لومړی یې نصب کړئ.",

@@ -482,7 +482,7 @@ class UnitedStates(Jurisdiction):
              "Archives transcription. Acts as enacted: Statutes at Large vols 1-138 (1789-2024; ids "
              "'1 Stat. 50', 'STATUTE-1-Pg50', 'Pub. L. 85-1'; provisions are Stat. pages) and public/"
              "private laws from 1995 ('Pub. L. 119-1'; provisions are sections); full-text search "
-             "with filter collection STATUTE or PLAW. No state law, no CFR.")
+             "with filter collection STATUTE or PLAW. No state law (state case law: 'us-states'), no CFR.")
     gaps = (
         ("Code of Federal Regulations (eCFR): robots.txt disallows the full-text endpoint "
          "/api/versioner/v1/full/"),
@@ -490,7 +490,8 @@ class UnitedStates(Jurisdiction):
          "Court's one-line summary only (no full-text search); 'opinions relating to orders' "
          "not wired"),
         "Lower federal court opinions before ~2004: not in govinfo USCOURTS",
-        "State statutes and state case law: not built yet (federal only)",
+        ("State case law: jurisdiction 'us-states' (CourtListener, unofficial, your own free "
+         "token). State statutes: not built yet"),
         "Federal Register and Congress bills: source exists and works but not built yet",
         ("US Constitution: National Archives transcription of the parchment text (original "
          "spelling; superseded clauses are not marked in the articles, only in amendment notes)"),

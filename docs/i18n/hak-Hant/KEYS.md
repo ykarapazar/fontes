@@ -2,12 +2,13 @@
 
 # API 金鑰
 
-Fontes 肚項幾乎所有个來源無金鑰都做得用。有兩个需要免費个金鑰：
+Fontes 肚項幾乎所有个來源無金鑰都做得用。有三个需要免費个金鑰：
 
 | 金鑰 | 打開个內容 | 無金鑰个時節 |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | 法國：Judilibre（法院裁判）同 Légifrance（法規） | 法國係關忒个。`list_jurisdictions` 會顯示佢無啟用。 |
 | `WLM_US_GOVINFO_KEY` | 美國：govinfo 檢索（聯邦法院判決意見、Statutes at Large、公法） | Fontes 用共用个 `DEMO_KEY`：每一个 IP 位址逐日大約 10 擺檢索。打開已知个裁判同 US Code 毋使金鑰。 |
+| `WLM_US_COURTLISTENER_KEY` | 美國州法院（`us-states`）：全部 50 个州同 DC 个最高法院同上訴法院个判決意見，來自 CourtListener | 美國州裁判係關忒个。`list_jurisdictions` 會顯示佢無啟用。 |
 
 金鑰係選用个。你做得以後正加。
 
@@ -74,6 +75,22 @@ Fontes 肚項幾乎所有个來源無金鑰都做得用。有兩个需要免費�
   請看 [govinfo 个政策](https://www.govinfo.gov/about/policies) 同
   [data.gov 隱私權政策](https://data.gov/privacy-policy/)。
 - 請毋好將金鑰講分別人知。
+
+## 美國州法院：CourtListener（免費）
+
+CourtListener 係 [Free Law Project](https://free.law) 在營運个，這係一个非營利組織，自 2010 年起就蒐集美國法院个判決意見，並且分所有人免費使用。照佢自家个統計，佢有超過九百萬件裁判。佢毋係官方來源：法院自家會公布判決意見，CourtListener 係從法院網站同掃描个法律報告蒐集來个。Fontes 來自佢个每一个回答都會講明這點。Fontes 同 Free Law Project 無任何關係。
+
+1. 去 [courtlistener.com](https://www.courtlistener.com/sign-in/) 申請一个免費帳號。
+2. 開你个個人資料頁，複製你个 API token。
+3. 執行 **Add or change keys**，將佢貼上去做 CourtListener 金鑰。
+
+條款摘要（[完整條款](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)）：
+
+- 這个 token 單淨屬於你：毋好分別人共用、合併使用或者轉賣，也毋好用幾若个帳號。
+- AI 應用程式用你个 token 做麼个事，由你負責。
+- 毋好將 AI 對 Free Law Project 个資料所做个分析，講做係 Free Law Project 製作、背書或者查核過个。
+- 免費帳號每分鐘允許 5 擺請求，每點鐘 50 擺，逐日 125 擺。一擺檢索算一擺請求；打開一件裁判算兩擺。成為 Free Law Project 个會員做得提高限額。
+- CourtListener 無保證正確性。倚靠一件判決意見以前，請對照法院个原本。
 
 ## 金鑰放在哪位
 

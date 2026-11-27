@@ -25,6 +25,7 @@
  "key_fr_id": "Ranska: PISTE client ID",
  "key_fr_secret": "Ranska: PISTE client secret",
  "key_us": "Yhdysvallat: api.data.gov-avain",
+ "key_us_cl": "Yhdysvallat: CourtListener-avain",
  "keys_saved": "Avaimet tallennettu. Sulje sovelluksesi ja avaa ne uudelleen, jotta voit käyttää niitä.",
  "keys_unchanged": "Avaimia ei muutettu.",
  "keys_no_apps": "Fontesia ei ole vielä määritetty mihinkään sovellukseen. Asenna se ensin.",

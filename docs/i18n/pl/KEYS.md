@@ -2,12 +2,13 @@
 
 # Klucze API
 
-Niemal każde źródło w Fontes działa bez klucza. Dwa wymagają bezpłatnego klucza:
+Niemal każde źródło w Fontes działa bez klucza. Trzy wymagają bezpłatnego klucza:
 
 | Klucz | Udostępnia | Bez niego |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francja: Judilibre (orzeczenia sądów) i Légifrance (akty prawne) | Francja jest wyłączona. `list_jurisdictions` pokazuje ją jako nieaktywną. |
 | `WLM_US_GOVINFO_KEY` | Stany Zjednoczone: wyszukiwanie govinfo (orzeczenia sądów federalnych, Statutes at Large, public laws) | Fontes używa wspólnego `DEMO_KEY`: około 10 wyszukiwań dziennie na adres IP. Otwarcie znanego orzeczenia i US Code nie wymagają klucza. |
+| `WLM_US_COURTLISTENER_KEY` | Sądy stanowe USA (`us-states`): orzeczenia sądów najwyższych i apelacyjnych wszystkich 50 stanów oraz DC, z CourtListener | Orzecznictwo sądów stanowych USA jest wyłączone. `list_jurisdictions` pokazuje je jako nieaktywne. |
 
 Klucze są opcjonalne. Możesz je dodać później.
 
@@ -76,6 +77,22 @@ Warunki w skrócie:
   istnieje). Niezweryfikowane. Zobacz [zasady govinfo](https://www.govinfo.gov/about/policies) i
   [politykę prywatności data.gov](https://data.gov/privacy-policy/).
 - Zachowaj klucz dla siebie.
+
+## Sądy stanowe USA: CourtListener (bezpłatnie)
+
+CourtListener prowadzi [Free Law Project](https://free.law), organizacja non-profit, która od 2010 roku zbiera orzeczenia sądów USA i udostępnia je wszystkim za darmo. Według jej własnych danych zawiera ponad dziewięć milionów orzeczeń. Nie jest to źródło urzędowe: sądy publikują własne orzeczenia, a CourtListener zbiera je ze stron internetowych sądów i ze zeskanowanych zbiorów orzeczeń. Każda odpowiedź Fontes pochodząca z niego to zaznacza. Fontes nie jest powiązany z Free Law Project.
+
+1. Załóż bezpłatne konto na [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Otwórz swój profil i skopiuj swój token API.
+3. Uruchom **Add or change keys** i wklej go jako klucz CourtListener.
+
+Warunki w skrócie ([pełne warunki](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token jest wyłącznie twój: nie udostępniaj go, nie łącz z cudzymi ani nie odsprzedawaj, i nie używaj kilku kont.
+- Odpowiadasz za to, co aplikacja AI robi z twoim tokenem.
+- Nie przedstawiaj analizy ich danych wykonanej przez AI jako przygotowanej, zatwierdzonej lub sprawdzonej przez Free Law Project.
+- Bezpłatne konto pozwala na 5 zapytań na minutę, 50 na godzinę i 125 na dzień. Wyszukiwanie to jedno zapytanie; otwarcie orzeczenia to dwa. Członkostwo w Free Law Project podnosi limity.
+- CourtListener nie gwarantuje dokładności. Sprawdź orzeczenie z egzemplarzem sądu, zanim na nim oprzesz.
 
 ## Gdzie są przechowywane klucze
 

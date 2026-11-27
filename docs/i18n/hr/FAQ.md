@@ -7,7 +7,7 @@
 Besplatan MCP poslužitelj otvorenog koda (Apache 2.0). Omogućuje svakoj aplikaciji koja
 upotrebljava Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI i druge) da
 pretražuje sudske odluke i propise uživo na mrežnim stranicama sudova i državnih tijela u više od
-120 jurisdikcija i međunarodnih sudova (124 adaptera). Svaki rezultat navodi svoj izvor i sadrži
+120 jurisdikcija i međunarodnih sudova (125 adaptera). Svaki rezultat navodi svoj izvor i sadrži
 poveznicu na izvornik.
 
 ## Jesu li tekstovi službeni?
@@ -26,12 +26,12 @@ Prije nego što išta citirate, provjerite službenu objavu. Tablica obuhvata u
 
 ## Koje jurisdikcije obuhvaća i koliko dobro?
 
-124 adaptera: 108 država članica UN-a, Hong Kong, Kosovo, Palestina, Tajvan, sudovi DIFC-a i 11
+125 adaptera: 108 država članica UN-a, Hong Kong, Kosovo, Palestina, Tajvan, sudovi DIFC-a, sudovi saveznih država SAD-a i 11
 međunarodnih sudova i tijela (kao što su Europski sud za ljudska prava, EU, Međunarodni sud i
 WTO).
 
 Obuhvat se znatno razlikuje. Prema strogom pravilu (presedani najvišeg suda opće
-nadležnosti ili ustav i temeljni zakoni, dosegnuti u cijelosti), 72 od 124 smatraju se
+nadležnosti ili ustav i temeljni zakoni, dosegnuti u cijelosti), 72 od 125 smatraju se
 obuhvaćenima. [COVERAGE.md](COVERAGE.md) za svaku jurisdikciju navodi što Fontes doseže, što ne
 doseže i zašto.
 
@@ -46,6 +46,7 @@ Za gotovo svaku jurisdikciju ne trebate. Nekim izvorima potreban je besplatan kl
 - **Sjedinjene Američke Države:** neobavezno. Pretraživanje sudske prakse radi bez ključa, ali
   zajednički demo ključ dopušta samo oko 10 pretraživanja dnevno po IP adresi. Besplatan ključ
   api.data.gov u `WLM_US_GOVINFO_KEY` povećava to ograničenje.
+- **Sudovi saveznih država SAD-a:** da. Sudska praksa saveznih država (`us-states`) isključena je dok ne postavite `WLM_US_COURTLISTENER_KEY` na vlastiti besplatni CourtListener API token. CourtListener vodi neprofitna organizacija Free Law Project; nije službeni izvor, a svaki odgovor to navodi.
 
 Postavite ih kao varijable okruženja za Fontes poslužitelj u MCP postavkama svoje aplikacije.
 Instalacijski programi traže ih nakon instalacije, a njihov pokretač

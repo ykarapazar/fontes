@@ -7,7 +7,7 @@
 Yon sèvè MCP gratis ak sous louvri (Apache 2.0). Li pèmèt nenpòt aplikasyon ki pale Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI ak lòt) chèche desizyon tribinal ak lejislasyon an
 dirèk sou sit entènèt tribinal ak gouvènman yo, nan plis pase 120 jiridiksyon ak tribinal entènasyonal
-(124 adaptè). Chak rezilta bay non sous li epi li gen yon lyen ki mennen nan orijinal la.
+(125 adaptè). Chak rezilta bay non sous li epi li gen yon lyen ki mennen nan orijinal la.
 
 ## Èske tèks yo ofisyèl?
 
@@ -24,11 +24,11 @@ site nenpòt bagay, verifye piblikasyon ofisyèl la. Tablo kouvèti ki nan [READ
 
 ## Ki jiridiksyon li kouvri, e ki jan li kouvri yo?
 
-124 adaptè: 108 eta manm ONI, Hong Kong, Kosovo, Palestin, Taywan, Tribinal DIFC yo ak 11 tribinal ak
+125 adaptè: 108 eta manm ONI, Hong Kong, Kosovo, Palestin, Taywan, Tribinal DIFC yo, tribinal eta Etazini yo ak 11 tribinal ak
 òganis entènasyonal (tankou Tribinal Ewopeyen Dwa Moun, Inyon Ewopeyen, CIJ ak OMC).
 
 Kouvèti a varye anpil. Dapre yon règ sevè (presedan tribinal jeneral ki pi wo a, oswa konstitisyon an ak
-lwa prensipal yo, jwenn nèt), 72 sou 124 yo konte kòm kouvri. [COVERAGE.md](../../COVERAGE.md) (an angle)
+lwa prensipal yo, jwenn nèt), 72 sou 125 yo konte kòm kouvri. [COVERAGE.md](../../COVERAGE.md) (an angle)
 bay, pou chak jiridiksyon, sa Fontes rive jwenn, sa li pa rive jwenn, ak poukisa.
 
 ## Èske m bezwen yon kle API?
@@ -41,6 +41,7 @@ Pou prèske tout jiridiksyon, non. Kèk sous bezwen yon kle gratis: gade [KEYS.m
 - **Etazini:** opsyonèl. Rechèch jirisprudans mache san kle, men kle demo pataje a pèmèt sèlman anviwon
   10 rechèch pa jou pou chak adrès IP. Yon kle api.data.gov gratis nan `WLM_US_GOVINFO_KEY` ogmante limit
   sa a.
+- **Tribinal eta Etazini yo:** wi. Jirisprudans eta yo (`us-states`) etenn jiskaske ou mete `WLM_US_COURTLISTENER_KEY` sou pwòp token API CourtListener gratis ou. Òganizasyon san bi likratif Free Law Project fè CourtListener mache; se pa yon sous ofisyèl, epi chak repons di sa.
 
 Mete yo kòm varyab anviwònman pou sèvè Fontes la nan paramèt MCP aplikasyon ou. Enstalatè yo
 mande w yo apre enstalasyon an, e lansè **Ajoute oswa chanje kle** pa yo a chanje yo pita.

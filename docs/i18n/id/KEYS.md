@@ -2,12 +2,13 @@
 
 # Kunci API
 
-Hampir semua sumber di Fontes berfungsi tanpa kunci. Dua sumber memerlukan kunci gratis:
+Hampir semua sumber di Fontes berfungsi tanpa kunci. Tiga sumber memerlukan kunci gratis:
 
 | Kunci | Membuka | Tanpa kunci |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Prancis: Judilibre (putusan pengadilan) dan Légifrance (peraturan perundang-undangan) | Prancis nonaktif. `list_jurisdictions` menampilkannya sebagai tidak aktif. |
 | `WLM_US_GOVINFO_KEY` | Amerika Serikat: pencarian govinfo (pendapat pengadilan federal, Statutes at Large, public laws) | Fontes menggunakan `DEMO_KEY` bersama: sekitar 10 pencarian per hari per alamat IP. Membuka putusan yang sudah diketahui dan US Code tidak memerlukan kunci. |
+| `WLM_US_COURTLISTENER_KEY` | Pengadilan negara bagian AS (`us-states`): putusan mahkamah agung dan pengadilan banding di seluruh 50 negara bagian dan DC, dari CourtListener | Putusan pengadilan negara bagian AS nonaktif. `list_jurisdictions` menampilkannya sebagai tidak aktif. |
 
 Kunci bersifat opsional. Anda dapat menambahkannya nanti.
 
@@ -77,6 +78,22 @@ Ketentuan, secara singkat:
   Lihat [kebijakan govinfo](https://www.govinfo.gov/about/policies) dan
   [kebijakan privasi data.gov](https://data.gov/privacy-policy/).
 - Simpan kunci itu untuk Anda sendiri.
+
+## Pengadilan negara bagian AS: CourtListener (gratis)
+
+CourtListener dikelola oleh [Free Law Project](https://free.law), organisasi nirlaba yang sejak 2010 mengumpulkan putusan pengadilan AS dan menyediakannya gratis untuk semua orang. Menurut hitungannya sendiri, CourtListener menyimpan lebih dari sembilan juta putusan. CourtListener bukan sumber resmi: pengadilan menerbitkan putusannya sendiri, dan CourtListener mengumpulkannya dari situs web pengadilan serta laporan hukum hasil pindaian. Setiap jawaban Fontes yang berasal darinya menyebutkan hal itu. Fontes tidak berafiliasi dengan Free Law Project.
+
+1. Buat akun gratis di [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Buka profil Anda dan salin token API Anda.
+3. Jalankan **Add or change keys** dan tempelkan sebagai kunci CourtListener.
+
+Ketentuan, secara singkat ([ketentuan lengkap](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token ini hanya milik Anda: jangan bagikan, gabungkan, atau jual kembali, dan jangan gunakan beberapa akun.
+- Anda bertanggung jawab atas apa yang dilakukan aplikasi AI dengan token Anda.
+- Jangan menyajikan analisis AI atas data mereka seolah-olah dibuat, didukung, atau diperiksa oleh Free Law Project.
+- Akun gratis mengizinkan 5 permintaan per menit, 50 per jam, dan 125 per hari. Satu pencarian dihitung satu permintaan; membuka satu putusan dihitung dua. Keanggotaan Free Law Project menaikkan batasnya.
+- CourtListener tidak menjamin keakuratan. Periksa putusan dengan salinan dari pengadilan sebelum Anda mengandalkannya.
 
 ## Tempat kunci disimpan
 

@@ -25,6 +25,7 @@
  "key_fr_id": "فرنسا: معرّف العميل (client ID) في PISTE",
  "key_fr_secret": "فرنسا: سرّ العميل (client secret) في PISTE",
  "key_us": "الولايات المتحدة: مفتاح api.data.gov",
+ "key_us_cl": "الولايات المتحدة: مفتاح CourtListener",
  "keys_saved": "حُفظت المفاتيح. أغلق تطبيقاتك ثم افتحها من جديد لاستخدامها.",
  "keys_unchanged": "لم يُغيَّر أي مفتاح.",
  "keys_no_apps": "لم يُعدّ Fontes في أي تطبيق بعد. ثبّته أولًا.",

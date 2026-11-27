@@ -25,6 +25,7 @@
  "key_fr_id": "ፈረንሳይ: PISTE client ID",
  "key_fr_secret": "ፈረንሳይ: PISTE client secret",
  "key_us": "ዩናይትድ ስቴትስ: የapi.data.gov ቁልፍ",
+ "key_us_cl": "ዩናይትድ ስቴትስ: የCourtListener ቁልፍ",
  "keys_saved": "ቁልፎቹ ተቀምጠዋል። እነሱን ለመጠቀም መተግበሪያዎችዎን ዘግተው እንደገና ይክፈቱ።",
  "keys_unchanged": "ምንም ቁልፍ አልተቀየረም።",
  "keys_no_apps": "Fontes እስካሁን በየትኛውም መተግበሪያ ውስጥ አልተዘጋጀም። መጀመሪያ ይጫኑት።",

@@ -2,13 +2,13 @@
 
 # Catalóg chlúdaigh Fontes
 
-Oiriúnaitheoirí: 124; ballstáit de chuid na NA gan ceann: 85.
+Oiriúnaitheoirí: 125; ballstáit de chuid na NA gan ceann: 85.
 
 ## Scórchárta clúdaigh
 
 Áirítear dlínse a bheith clúdaithe nuair a shroicheann Fontes ceann amháin ar a laghad de dhá réimse go hiomlán: fasaigh (precedents) a príomhchúirte ginearálta (coibhéis Yargıtay), nó a bunreacht agus a príomhachtanna (leibhéal kanun agus os a chionn). Ní áirítear reachtaíocht thánaisteach ná cúirteanna íochtaracha. ✅ iomlán (bearnaí beaga luaite), ◐ bearna (tá rud éigin atá foilsithe in easnamh, nó tá an fhoinse múchta go dtí go bhfuil cead ann), ❌ dada. Tá na breithiúnais in research/scorecard_overrides.json.
 
-**Clúdaithe: 72 as 124.**
+**Clúdaithe: 72 as 125.**
 
 | Cód | Dlínse | Fasaigh na príomhchúirte | Bunreacht + achtanna | Clúdaithe | Cad atá in easnamh |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Oiriúnaitheoirí: 124; ballstáit de chuid na NA gan ceann: 85.
 | `tj` | Tajikistan | ❌ | ◐ | níl | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | níl | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | níl |  |
+| `us-states` | United States (state courts) | – | – | níl |  |
 | `vn` | Vietnam | ◐ | ◐ | níl | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | níl | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -7,7 +7,7 @@
 Um servidor MCP gratuito e de código aberto (Apache 2.0). Permite que qualquer aplicação que utilize
 o Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI e outras) pesquise decisões
 judiciais e legislação em direto nos sítios Web de tribunais e governos de mais de 120 jurisdições e
-tribunais internacionais (124 adaptadores). Cada resultado indica a sua fonte e inclui a ligação para
+tribunais internacionais (125 adaptadores). Cada resultado indica a sua fonte e inclui a ligação para
 o original.
 
 ## Os textos são oficiais?
@@ -27,12 +27,11 @@ jurisdição.
 
 ## Que jurisdições abrange, e em que medida?
 
-124 adaptadores: 108 Estados-membros da ONU, Hong Kong, Kosovo, Palestina, Taiwan, os DIFC Courts e
-11 tribunais e organismos internacionais (como o Tribunal Europeu dos Direitos Humanos, a UE, o TIJ e
+125 adaptadores: 108 Estados-membros da ONU, Hong Kong, Kosovo, Palestina, Taiwan, os DIFC Courts, os tribunais estaduais dos EUA e 11 tribunais e organismos internacionais (como o Tribunal Europeu dos Direitos Humanos, a UE, o TIJ e
 a OMC).
 
 A cobertura varia muito. Segundo um critério estrito (a jurisprudência do tribunal supremo da ordem
-judicial comum, ou a constituição e as leis, alcançadas integralmente), 72 das 124 contam como
+judicial comum, ou a constituição e as leis, alcançadas integralmente), 72 das 125 contam como
 abrangidas. [COVERAGE.md](../../COVERAGE.md) indica, para cada jurisdição, o que o Fontes alcança, o
 que não alcança e porquê.
 
@@ -47,6 +46,7 @@ Para quase todas as jurisdições, não. Algumas fontes precisam de uma chave gr
 - **Estados Unidos:** opcional. A pesquisa de jurisprudência funciona sem chave, mas a chave de
   demonstração partilhada permite apenas cerca de 10 pesquisas por dia por endereço IP. Uma chave
   gratuita do api.data.gov em `WLM_US_GOVINFO_KEY` aumenta esse limite.
+- **Tribunais estaduais dos EUA:** sim. A jurisprudência estadual (`us-states`) fica desativada até definir `WLM_US_COURTLISTENER_KEY` com o seu próprio token de API gratuito do CourtListener. O CourtListener é gerido pela organização sem fins lucrativos Free Law Project; não é uma fonte oficial, e todas as respostas indicam-no.
 
 Defina-as como variáveis de ambiente para o servidor Fontes nas definições MCP da sua aplicação.
 Os instaladores pedem-nas após a instalação, e o respetivo atalho **Add or change keys**

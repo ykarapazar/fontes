@@ -25,6 +25,7 @@
  "key_fr_id": "फ़्रांस: PISTE client ID",
  "key_fr_secret": "फ़्रांस: PISTE client secret",
  "key_us": "संयुक्त राज्य अमेरिका: api.data.gov कुंजी",
+ "key_us_cl": "संयुक्त राज्य अमेरिका: CourtListener कुंजी",
  "keys_saved": "कुंजियाँ सहेज ली गईं। इनका उपयोग करने के लिए अपने ऐप बंद करके फिर से खोलें।",
  "keys_unchanged": "कोई कुंजी नहीं बदली गई।",
  "keys_no_apps": "Fontes अभी किसी भी ऐप में सेट नहीं है। पहले इसे इंस्टॉल करें।",

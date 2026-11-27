@@ -2,12 +2,13 @@
 
 # API llavekuna
 
-Fontespi yaqa llapan pukyukunam mana llaveyuq llamk'an. Iskaymi mana qullqiyuq llaveta necesitan:
+Fontespi yaqa llapan pukyukunam mana llaveyuq llamk'an. Kimsaymi mana qullqiyuq llaveta necesitan:
 
 | Llave | Ima kicharin | Mana kaptin |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francia: Judilibre (taripana wasikunap taripayninkuna), Légifrance (kamachiykuna) | Franciaqa wañusqam. `list_jurisdictions` nisqaqa mana llamk'aq hinam rikuchin. |
 | `WLM_US_GOVINFO_KEY` | Estados Unidos: govinfo maskay (federal taripana wasikunap opinionninkuna, Statutes at Large, public laws) | Fontesqa rakinakusqa `DEMO_KEY` nisqatam llamk'achin: sapa IP direcciónpaq p'unchawpi yaqa 10 maskaykuna. Riqsisqa taripayta kichanapaq, US Code nisqapaqpas manam llave necesitakunchu. |
+| `WLM_US_COURTLISTENER_KEY` | Estados Unidospa estado taripana wasikuna (`us-states`): llapan 50 estadokunap DC nisqapas aswan hatun taripana wasikunap apelación taripana wasikunapas opinionninkuna, CourtListener nisqamanta | Estados Unidospa estado taripana wasikunap jurisprudencian wañusqam. `list_jurisdictions` nisqaqa mana llamk'aqta rikuchin. |
 
 Llavekunaqa akllanapaqmi. Qhipamanpas yapayta atinki.
 
@@ -77,6 +78,22 @@ Condicionkuna, pisillapi:
   [govinfop políticankunata](https://www.govinfo.gov/about/policies),
   [data.govpa privacidad políticantapas](https://data.gov/privacy-policy/) qhaway.
 - Llaveta qamllapaq waqaychay.
+
+## Estados Unidospa estado taripana wasikuna: CourtListener (mana qullqiyuq)
+
+CourtListenerqa [Free Law Project](https://free.law) nisqap kamachisqanmi, mana qhapaq kayta maskaq huñunakuymi. 2010 watamantapacha Estados Unidospa taripana wasinkunap opinionninkunata huñun, llapa runapaq mana qullqiyuqta quran. Paypa huk yupasqanman hinaqa isqun milloneshina taripayniyuqmi. Manam oficial pukyuchu: taripana wasikunam kikinku opinionninkuta pawachinku, CourtListenertaq chaykunata taripana wasikunap web sitionkunamanta, scanisqa leykunap willakuyninkunamantawan huñun. Fontesmanta sapa kutichiypas chayta willan. Fontesqa manam Free Law Project nisqawan tinkisqachu.
+
+1. [courtlistener.com](https://www.courtlistener.com/sign-in/) nisqapi mana qullqiyuq cuentata kamariy.
+2. Perfilniykita kichay, API token nisqaykitataq copiay.
+3. **Add or change keys** nisqata purichiy hinaspa CourtListener llave hina k'askachiy.
+
+Condicionkuna, pisillapi ([hunt'asqa condicionkuna](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Tokenqa qamllapaqmi: ama rakinkichu, ama huñunkichu nitaq huk kutita ruwankichu, amataq achka cuentakunata llamk'achinkichu.
+- Huk IA aplicacion tokenniykiwan imatapas ruwaptinqa qamraqmi responsablekanki.
+- Ama IAp paykunap datankuta t'aqwisqanta Free Law Project ruwasqa, aprobasqa utaq chaqnisqa hina rikuchiychu.
+- Mana qullqiyuq cuentaqa sapa minutupi 5 mañakuykunata, sapa horapi 50, sapa p'unchawpi 125 mañakuykunatam saqin. Huk maskayqa huk mañakuymi; huk taripayta kichayqa iskaymi. Free Law Project nisqapi socio kayqa chay saywakunata wichachin.
+- CourtListenerqa manam chiqaq kayninta garantizanchu. Huk opinionpi hap'ipakuspayki, taripana wasip copianwan chaqnipay.
 
 ## Maypitaq llavekuna waqaychakun
 

@@ -7,7 +7,7 @@
 Un server MCP gratuit, cu sursă deschisă (Apache 2.0). Permite oricărei aplicații care folosește Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI și altele) să caute hotărâri judecătorești și
 legislație în timp real pe site-urile instanțelor și ale autorităților publice, în peste 120 de jurisdicții
-și la instanțe internaționale (124 de adaptoare). Fiecare rezultat își numește sursa și are un link către
+și la instanțe internaționale (125 de adaptoare). Fiecare rezultat își numește sursa și are un link către
 original.
 
 ## Sunt textele oficiale?
@@ -25,11 +25,11 @@ de a cita ceva, verificați publicația oficială. Tabelul de acoperire din [REA
 
 ## Ce jurisdicții acoperă și cât de bine?
 
-124 de adaptoare: 108 state membre ONU, Hong Kong, Kosovo, Palestina, Taiwan, instanțele DIFC și 11 instanțe
+125 de adaptoare: 108 state membre ONU, Hong Kong, Kosovo, Palestina, Taiwan, instanțele DIFC, instanțele statale din SUA și 11 instanțe
 și organisme internaționale (precum Curtea Europeană a Drepturilor Omului, UE, CIJ și OMC).
 
 Acoperirea diferă mult. Conform unei reguli stricte (precedentele instanței generale supreme sau constituția
-și actele normative primare, accesate integral), 72 din cele 124 sunt considerate acoperite.
+și actele normative primare, accesate integral), 72 din cele 125 sunt considerate acoperite.
 [COVERAGE.md](../../COVERAGE.md) (în limba engleză) arată, pentru fiecare jurisdicție, ce accesează Fontes,
 ce nu accesează și de ce.
 
@@ -43,6 +43,7 @@ Pentru aproape toate jurisdicțiile, nu. Unele surse necesită o cheie gratuită
 - **Statele Unite:** opțional. Căutarea în jurisprudență funcționează fără cheie, dar cheia demo comună
   permite doar aproximativ 10 căutări pe zi pentru fiecare adresă IP. O cheie api.data.gov gratuită în
   `WLM_US_GOVINFO_KEY` crește această limită.
+- **Instanțele statale din SUA:** da. Jurisprudența statală (`us-states`) este dezactivată până când setați `WLM_US_COURTLISTENER_KEY` cu propriul token API CourtListener gratuit. CourtListener este administrat de organizația non-profit Free Law Project; nu este o sursă oficială, iar fiecare răspuns spune acest lucru.
 
 Setați-le ca variabile de mediu pentru serverul Fontes în setările MCP ale aplicației. Programele
 de instalare vi le cer după instalare, iar lansatorul lor **Adăugați sau modificați

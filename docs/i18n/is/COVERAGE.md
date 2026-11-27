@@ -2,13 +2,13 @@
 
 # Umfangsskrá Fontes
 
-124 millistykki; 85 aðildarríki SÞ án millistykkis.
+125 millistykki; 85 aðildarríki SÞ án millistykkis.
 
 ## Yfirlit yfir umfang
 
 Lögsaga telst falla undir umfangið þegar Fontes nær að fullu til a.m.k. annars af tveimur sviðum: fordæma æðsta almenna dómstóls hennar (sem samsvarar Yargıtay) eða stjórnarskrár hennar og settra laga (lög og það sem er ofar). Afleidd löggjöf og lægri dómstólar teljast ekki með. ✅ fullt (minniháttar eyður tilgreindar), ◐ eyða (eitthvað sem er birt vantar, eða heimildin er óvirk þar til leyfi fæst), ❌ ekkert. Matsatriði eru í research/scorecard_overrides.json.
 
-**Fellur undir: 72 af 124.**
+**Fellur undir: 72 af 125.**
 
 | Kóði | Lögsaga | Fordæmi æðsta dómstóls | Stjórnarskrá + lög | Fellur undir | Hvað vantar |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Lögsaga telst falla undir umfangið þegar Fontes nær að fullu til a.m.k. ann
 | `tj` | Tajikistan | ❌ | ◐ | nei | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | nei | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | nei |  |
+| `us-states` | United States (state courts) | – | – | nei |  |
 | `vn` | Vietnam | ◐ | ◐ | nei | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | nei | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

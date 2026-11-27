@@ -25,6 +25,7 @@
  "key_fr_id": "France: PISTE client ID",
  "key_fr_secret": "France: PISTE client secret",
  "key_us": "United States: api.data.gov key",
+ "key_us_cl": "United States: CourtListener key",
  "keys_saved": "Keys saved. Quit and reopen your apps to use them.",
  "keys_unchanged": "No keys were changed.",
  "keys_no_apps": "Fontes is not set up in any app yet. Install it first.",

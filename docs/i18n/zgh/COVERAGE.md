@@ -2,13 +2,13 @@
 
 # ⴰⴽⴰⵜⴰⵍⵓⴳ ⵏ ⵜⵉⴷⴷⵉ ⵏ Fontes
 
-124 adapters; 85 ⵏ ⵜⵎⵓⵔⴰ ⵜⵉⵎⴷⵔⴰⵡⵉⵏ ⴳ ⵜⵎⵓⵏⵜ ⵏ ⵜⵖⵍⴰⴷ ⵉⵎⵓⵏⵏ ⴱⵍⴰ adapter.
+125 adapters; 85 ⵏ ⵜⵎⵓⵔⴰ ⵜⵉⵎⴷⵔⴰⵡⵉⵏ ⴳ ⵜⵎⵓⵏⵜ ⵏ ⵜⵖⵍⴰⴷ ⵉⵎⵓⵏⵏ ⴱⵍⴰ adapter.
 
 ## ⵜⴰⴼⵔⴽⵉⵜ ⵏ ⵜⵉⴷⴷⵉ
 
 ⵢⴰⵜ ⵜⵙⴳⴰ ⵜⴰⵣⵔⴼⴰⵏⵜ ⵜⵜⵓⵃⵙⴰⴱ ⵜⵜⵓⴷⴷⴰ ⵎⴽ ⵉⵜⵜⴰⵡⴹ Fontes ⵙ ⵜⵎⵎⴰⴷ ⵢⴰⵜ ⵙⴳ ⵙⵏⴰⵜ ⵜⵙⴳⴰⵡⵉⵏ: ⵜⵉⴳⵜⵜⴰⵡⵉⵏ ⵏ ⵜⵎⵃⴽⵎⵜ ⵏⵏⵙ ⵜⴰⵎⴰⵜⴰⵢⵜ ⵜⴰⵏⴼⵍⵓⵙⵜ (ⴰⵎⵎ Yargıtay), ⵏⵖ ⵜⴰⵎⵏⴹⴰⵡⵜ ⵏⵏⵙ ⴷ ⵉⵣⵔⴼⴰⵏ ⵉⵎⵣⵡⵓⵔⴰ (ⴰⴼⵔⴰⴳ ⵏ kanun ⴷ ⵎⴰ ⵢⵓⴼⵏ). ⵉⵣⵔⴼⴰⵏ ⵉⵙⵉⵏⴰⵏ ⴷ ⵜⵎⵃⴽⵎⵉⵏ ⵜⵉⴷⴷⴰⵢⵉⵏ ⵓⵔ ⵜⵜⵓⵃⵙⴰⴱⵏ. ✅ ⵉⴽⵎⵍ (ⵜⵉⵅⵓⵢⴰ ⵉⵎⵥⵥⵉⵢⵏ ⵜⵜⵓⵔⵛⵎⵏⵜ), ◐ ⵜⵉⵅⵓⵢⴰ (ⴽⵔⴰ ⵏ ⵎⴰ ⵉⵜⵜⵓⵙⵙⵓⴼⵖⵏ ⵉⵅⵚⵚⴰ, ⵏⵖ ⴰⵙⴰⴳⵎ ⵉⵙⵙⵓⵙⴼ ⴰⵔ ⵜⵓⵔⴰⴳⵜ), ❌ ⵓⵍⴰ ⵢⴰⵏ. ⵜⵉⴳⵜⵜⴰⵡⵉⵏ ⵏ ⵓⵙⵙⵓⵎⴰⵢ ⵍⵍⴰⵏⵜ ⴳ research/scorecard_overrides.json.
 
-**ⵜⵜⵓⴷⴷⴰⵏⵜ: 72 ⵙⴳ 124.**
+**ⵜⵜⵓⴷⴷⴰⵏⵜ: 72 ⵙⴳ 125.**
 
 | ⵜⴰⵏⴰⵍⵜ | ⵜⴰⵙⴳⴰ ⵜⴰⵣⵔⴼⴰⵏⵜ | ⵜⵉⴳⵜⵜⴰⵡⵉⵏ ⵏ ⵜⵎⵃⴽⵎⵜ ⵜⴰⵎⴰⵜⴰⵢⵜ | ⵜⴰⵎⵏⴹⴰⵡⵜ + ⵉⵣⵔⴼⴰⵏ | ⵜⵜⵓⴷⴷⴰ | ⵎⴰⴷ ⵉⵅⵚⵚⴰⵏ |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | ⵓⵀⵓ | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | ⵓⵀⵓ | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | ⵓⵀⵓ |  |
+| `us-states` | United States (state courts) | – | – | ⵓⵀⵓ |  |
 | `vn` | Vietnam | ◐ | ◐ | ⵓⵀⵓ | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | ⵓⵀⵓ | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

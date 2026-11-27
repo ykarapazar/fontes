@@ -7,7 +7,7 @@
 Ókeypis MCP-þjónn með opnum hugbúnaði (Apache 2.0). Hann gerir hvaða forriti sem talar Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI og fleirum) kleift að leita í dómum og
 löggjöf í rauntíma á vefsíðum dómstóla og stjórnvalda í meira en 120 lögsögum og alþjóðlegum
-dómstólum (124 millistykki). Hver niðurstaða nefnir heimild sína og tengir á frumritið.
+dómstólum (125 millistykki). Hver niðurstaða nefnir heimild sína og tengir á frumritið.
 
 ## Eru textarnir opinberir?
 
@@ -25,12 +25,12 @@ Fontes bætir tilkynningunni „Óopinber heimild“ við hvert svar sem kemur f
 
 ## Hvaða lögsögur nær það til, og hversu vel?
 
-124 millistykki: 108 aðildarríki SÞ, Hong Kong, Kosovo, Palestína, Taívan, DIFC Courts og
+125 millistykki: 108 aðildarríki SÞ, Hong Kong, Kosovo, Palestína, Taívan, DIFC Courts, ríkisdómstólar Bandaríkjanna og
 11 alþjóðlegir dómstólar og stofnanir (svo sem Mannréttindadómstóll Evrópu, ESB,
 Alþjóðadómstóllinn (ICJ) og WTO).
 
 Umfangið er mjög mismunandi. Samkvæmt strangri reglu (fordæmi æðsta almenna dómstólsins, eða
-stjórnarskráin og helstu lög, sem náð er til að fullu) teljast 72 af 124 falla undir.
+stjórnarskráin og helstu lög, sem náð er til að fullu) teljast 72 af 125 falla undir.
 [COVERAGE.md](../../COVERAGE.md) tilgreinir fyrir hverja lögsögu hvað Fontes nær til, hvað ekki,
 og hvers vegna.
 
@@ -44,6 +44,7 @@ Fyrir nánast allar lögsögur, nei. Sumar heimildir þurfa ókeypis lykil: sjá
 - **Bandaríkin:** valkvætt. Leit í dómaframkvæmd virkar án lykils, en sameiginlegi kynningarlykillinn
   leyfir aðeins um 10 leitir á dag á hverja IP-tölu. Ókeypis api.data.gov-lykill í
   `WLM_US_GOVINFO_KEY` hækkar það.
+- **Ríkisdómstólar Bandaríkjanna:** já. Dómaframkvæmd ríkjanna (`us-states`) er óvirk þar til þú stillir `WLM_US_COURTLISTENER_KEY` á þitt eigið ókeypis CourtListener API-tákn. CourtListener er rekið af sjálfseignarstofnuninni Free Law Project; það er ekki opinber heimild og hvert svar segir til um það.
 
 Stilltu þetta sem umhverfisbreytur fyrir Fontes-þjóninn í MCP-stillingum forritsins. Uppsetningarforritin spyrja um þær eftir uppsetningu, og ræsirinn **Add or change keys**
 breytir þeim síðar.

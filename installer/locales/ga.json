@@ -25,6 +25,7 @@
  "key_fr_id": "An Fhrainc: PISTE client ID",
  "key_fr_secret": "An Fhrainc: PISTE client secret",
  "key_us": "Na Stáit Aontaithe: eochair api.data.gov",
+ "key_us_cl": "Na Stáit Aontaithe: eochair CourtListener",
  "keys_saved": "Sábháladh na heochracha. Scoir de d'aipeanna agus oscail arís iad chun iad a úsáid.",
  "keys_unchanged": "Níor athraíodh aon eochair.",
  "keys_no_apps": "Níl Fontes socraithe in aon aip fós. Suiteáil é ar dtús.",

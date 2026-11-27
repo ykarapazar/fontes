@@ -2,13 +2,13 @@
 
 # Κατάλογος κάλυψης Fontes
 
-124 adapters· 85 κράτη μέλη του ΟΗΕ χωρίς adapter.
+125 adapters· 85 κράτη μέλη του ΟΗΕ χωρίς adapter.
 
 ## Πίνακας αποτελεσμάτων κάλυψης
 
 Μια δικαιοδοσία θεωρείται ότι καλύπτεται όταν το Fontes καλύπτει πλήρως τουλάχιστον έναν από δύο τομείς: τα προηγούμενα του ανώτατου γενικού δικαστηρίου της (το αντίστοιχο του Yargıtay) ή το σύνταγμα και την πρωτογενή νομοθεσία της (επίπεδο kanun και ανώτερο). Η δευτερογενής νομοθεσία και τα κατώτερα δικαστήρια δεν μετρούν. ✅ πλήρης (με σημείωση μικρών κενών), ◐ κενό (κάτι που δημοσιεύεται λείπει ή η πηγή είναι απενεργοποιημένη μέχρι να δοθεί άδεια), ❌ καμία. Οι κρίσεις κατά περίπτωση βρίσκονται στο research/scorecard_overrides.json.
 
-**Καλύπτονται: 72 από 124.**
+**Καλύπτονται: 72 από 125.**
 
 | Κωδικός | Δικαιοδοσία | Προηγούμενα ανώτατου δικαστηρίου | Σύνταγμα + νόμοι | Καλύπτεται | Τι λείπει |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | όχι | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | όχι | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | όχι |  |
+| `us-states` | United States (state courts) | – | – | όχι |  |
 | `vn` | Vietnam | ◐ | ◐ | όχι | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | όχι | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

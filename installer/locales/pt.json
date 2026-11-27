@@ -25,6 +25,7 @@
  "key_fr_id": "França: client ID do PISTE",
  "key_fr_secret": "França: client secret do PISTE",
  "key_us": "Estados Unidos: chave do api.data.gov",
+ "key_us_cl": "Estados Unidos: chave do CourtListener",
  "keys_saved": "Chaves salvas. Feche e abra novamente seus apps para usá-las.",
  "keys_unchanged": "Nenhuma chave foi alterada.",
  "keys_no_apps": "O Fontes ainda não está configurado em nenhum app. Instale-o primeiro.",

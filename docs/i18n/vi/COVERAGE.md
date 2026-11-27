@@ -2,13 +2,13 @@
 
 # Danh mục phạm vi bao quát của Fontes
 
-124 adapter; 85 quốc gia thành viên Liên Hợp Quốc chưa có adapter.
+125 adapter; 85 quốc gia thành viên Liên Hợp Quốc chưa có adapter.
 
 ## Bảng đánh giá phạm vi bao quát
 
 Một phạm vi tài phán được tính là đã bao quát khi Fontes truy cập đầy đủ ít nhất một trong hai lĩnh vực: các án lệ của tòa án chung cấp cao nhất (tương đương Yargıtay), hoặc hiến pháp và các đạo luật chính (cấp kanun trở lên). Văn bản dưới luật và các tòa án cấp dưới không được tính. ✅ đầy đủ (có ghi chú các thiếu sót nhỏ), ◐ còn thiếu (một nội dung đã được công bố bị thiếu, hoặc nguồn bị tắt cho đến khi được cho phép), ❌ không có. Các đánh giá mang tính phán đoán nằm trong research/scorecard_overrides.json.
 
-**Đã bao quát: 72 trên 124.**
+**Đã bao quát: 72 trên 125.**
 
 | Mã | Phạm vi tài phán | Án lệ của tòa án cao nhất | Hiến pháp + đạo luật | Đã bao quát | Còn thiếu gì |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Một phạm vi tài phán được tính là đã bao quát khi Fontes truy c�
 | `tj` | Tajikistan | ❌ | ◐ | không | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | không | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | không |  |
+| `us-states` | United States (state courts) | – | – | không |  |
 | `vn` | Vietnam | ◐ | ◐ | không | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | không | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -25,6 +25,7 @@
  "key_fr_id": "法國：PISTE client ID",
  "key_fr_secret": "法國：PISTE client secret",
  "key_us": "美國：api.data.gov 金鑰",
+ "key_us_cl": "美國：CourtListener 金鑰",
  "keys_saved": "金鑰已儲存。請結束並重新開啟您的應用程式以使用金鑰。",
  "keys_unchanged": "未變更任何金鑰。",
  "keys_no_apps": "Fontes 尚未在任何應用程式中設定。請先安裝。",

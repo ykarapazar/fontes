@@ -2,13 +2,23 @@
 
 Plain-language notes for each release. Newest first.
 
-## 0.1.3 (2026-11-26)
+## 0.1.3 (2026-11-27)
+
+**New**
+
+- US state courts (`us-states`): opinions of the supreme and appellate courts of all 50 states
+  and DC, from CourtListener. CourtListener is run by Free Law Project, a non-profit, and is not
+  an official source, so every answer says so and points to the court's own copy. It needs your
+  own free CourtListener API token (`WLM_US_COURTLISTENER_KEY`; the installers ask for it).
+  State statutes are not covered yet. Asked for on Reddit.
 
 **Fixed**
 
 - Claude Code: a page of a long court decision or law (up to 60,000 characters) was saved to a
   file instead of reaching the conversation, so Claude saw only a short preview. These two tools
   now tell Claude Code to keep pages of up to 100,000 characters inline. Reported on Reddit.
+- The website's page for France (and now US state courts) said "legislation" only when its key
+  was not set where the page was built.
 
 ## 0.1.2 (2026-11-25)
 

@@ -2,13 +2,13 @@
 
 # Fontes လွှမ်းခြုံမှု ကတ်တလောက်
 
-Adapter 124 ခု၊ adapter မရှိသော ကုလသမဂ္ဂအဖွဲ့ဝင်နိုင်ငံ 85 နိုင်ငံ။
+Adapter 125 ခု၊ adapter မရှိသော ကုလသမဂ္ဂအဖွဲ့ဝင်နိုင်ငံ 85 နိုင်ငံ။
 
 ## လွှမ်းခြုံမှု ရမှတ်ဇယား
 
 Fontes သည် နယ်ပယ်နှစ်ခုအနက် အနည်းဆုံး တစ်ခုကို အပြည့်အဝ ရောက်ရှိသည့်အခါ စီရင်ပိုင်ခွင့်နယ်မြေတစ်ခုကို လွှမ်းခြုံသည်ဟု သတ်မှတ်သည်: ၎င်း၏ အထွေထွေ အမြင့်ဆုံးတရားရုံး၏ စီရင်ထုံးများ (Yargıtay နှင့် ညီမျှသောတရားရုံး)၊ သို့မဟုတ် ၎င်း၏ ဖွဲ့စည်းပုံအခြေခံဥပဒေနှင့် အဓိကဥပဒေများ (kanun အဆင့်နှင့် အထက်)။ နည်းဥပဒေစသည့် ဒုတိယအဆင့်ဥပဒေများနှင့် အောက်အဆင့်တရားရုံးများကို ထည့်မတွက်ပါ။ ✅ ပြည့်စုံ (လိုအပ်ချက်အသေးများကို မှတ်ချက်ပြုထား)၊ ◐ လိုအပ်ချက်ရှိ (ထုတ်ဝေထားသော တစ်စုံတစ်ရာ ပျောက်နေသည်၊ သို့မဟုတ် ခွင့်ပြုချက်မရမချင်း ရင်းမြစ်ကို ပိတ်ထားသည်)၊ ❌ မရှိ။ ဆုံးဖြတ်ချက်ချရသည့်ကိစ္စများကို research/scorecard_overrides.json တွင် ဖော်ပြထားသည်။
 
-**လွှမ်းခြုံထားသည်: 124 အနက် 72။**
+**လွှမ်းခြုံထားသည်: 125 အနက် 72။**
 
 | ကုဒ် | စီရင်ပိုင်ခွင့်နယ်မြေ | အမြင့်ဆုံးတရားရုံး စီရင်ထုံးများ | ဖွဲ့စည်းပုံအခြေခံဥပဒေ + ဥပဒေများ | လွှမ်းခြုံထားသည် | ပျောက်နေသည့်အရာ |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Fontes သည် နယ်ပယ်နှစ်ခုအနက် အနည်�
 | `tj` | Tajikistan | ❌ | ◐ | မရ | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | မရ | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | မရ |  |
+| `us-states` | United States (state courts) | – | – | မရ |  |
 | `vn` | Vietnam | ◐ | ◐ | မရ | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | မရ | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

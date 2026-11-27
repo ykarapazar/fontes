@@ -2,12 +2,13 @@
 
 # API-sleutels
 
-Bijna elke bron in Fontes werkt zonder sleutel. Twee hebben een gratis sleutel nodig:
+Bijna elke bron in Fontes werkt zonder sleutel. Drie hebben een gratis sleutel nodig:
 
 | Sleutel | Ontsluit | Zonder sleutel |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Frankrijk: Judilibre (rechterlijke uitspraken) en Légifrance (wetgeving) | Frankrijk staat uit. `list_jurisdictions` toont het als inactief. |
 | `WLM_US_GOVINFO_KEY` | Verenigde Staten: zoeken in govinfo (uitspraken van federale gerechten, Statutes at Large, public laws) | Fontes gebruikt de gedeelde `DEMO_KEY`: ongeveer 10 zoekopdrachten per dag per IP-adres. Voor het openen van een bekende uitspraak en voor de US Code is geen sleutel nodig. |
+| `WLM_US_COURTLISTENER_KEY` | Staatsgerechten in de VS (`us-states`): uitspraken van de hoogste gerechten en hoven van beroep van alle 50 staten en DC, van CourtListener | Rechtspraak van Amerikaanse staatsgerechten staat uit. `list_jurisdictions` toont haar als inactief. |
 
 Sleutels zijn optioneel. U kunt ze later toevoegen.
 
@@ -83,6 +84,22 @@ De voorwaarden in het kort:
   bestaat niet). Niet geverifieerd. Zie het [beleid van govinfo](https://www.govinfo.gov/about/policies)
   en het [privacybeleid van data.gov](https://data.gov/privacy-policy/).
 - Houd de sleutel voor uzelf.
+
+## Staatsgerechten in de VS: CourtListener (gratis)
+
+CourtListener wordt beheerd door [Free Law Project](https://free.law), een non-profitorganisatie die sinds 2010 Amerikaanse rechterlijke uitspraken verzamelt en voor iedereen gratis beschikbaar maakt. Volgens eigen telling bevat het meer dan negen miljoen uitspraken. Het is geen officiële bron: de gerechten publiceren hun eigen uitspraken, en CourtListener verzamelt ze van websites van gerechten en uit ingescande rechtspraakverzamelingen. Elk antwoord van Fontes daaruit zegt dat. Fontes is niet verbonden aan Free Law Project.
+
+1. Maak een gratis account aan op [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Open uw profiel en kopieer uw API-token.
+3. Voer **Add or change keys** uit en plak het als de CourtListener-sleutel.
+
+De voorwaarden in het kort ([volledige voorwaarden](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Het token is alleen van u: deel het niet, voeg het niet samen met anderen en verkoop het niet door, en gebruik geen meerdere accounts.
+- U bent verantwoordelijk voor wat een AI-app met uw token doet.
+- Presenteer de analyse van hun gegevens door een AI niet als opgesteld, onderschreven of gecontroleerd door Free Law Project.
+- Een gratis account staat 5 verzoeken per minuut, 50 per uur en 125 per dag toe. Een zoekopdracht is één verzoek; het openen van een uitspraak zijn er twee. Een lidmaatschap van Free Law Project verhoogt de limieten.
+- CourtListener garandeert geen juistheid. Controleer een uitspraak aan de hand van het exemplaar van het gerecht voordat u erop vertrouwt.
 
 ## Waar sleutels worden opgeslagen
 

@@ -25,6 +25,7 @@
  "key_fr_id": "Fransa: PISTE client ID",
  "key_fr_secret": "Fransa: PISTE client secret",
  "key_us": "ABŞ: api.data.gov açarı",
+ "key_us_cl": "ABŞ: CourtListener açarı",
  "keys_saved": "Açarlar saxlanıldı. Onlardan istifadə etmək üçün proqramlarınızı bağlayıb yenidən açın.",
  "keys_unchanged": "Heç bir açar dəyişdirilmədi.",
  "keys_no_apps": "Fontes hələ heç bir proqramda quraşdırılmayıb. Əvvəlcə onu quraşdırın.",

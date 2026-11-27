@@ -25,6 +25,7 @@
  "key_fr_id": "France: PISTE client ID",
  "key_fr_secret": "France: PISTE client secret",
  "key_us": "United States: api.data.gov key",
+ "key_us_cl": "United States: CourtListener key",
  "keys_saved": "Na-save ang mga key. Isara at buksan muli ang iyong mga app para magamit ang mga ito.",
  "keys_unchanged": "Walang binagong key.",
  "keys_no_apps": "Hindi pa naka-set up ang Fontes sa anumang app. I-install muna ito.",

@@ -2,13 +2,13 @@
 
 # Dekkingscatalogus van Fontes
 
-124 adapters; 85 VN-lidstaten zonder adapter.
+125 adapters; 85 VN-lidstaten zonder adapter.
 
 ## Dekkingsoverzicht
 
 Een rechtsstelsel telt als gedekt wanneer Fontes ten minste een van twee gebieden volledig bereikt: de precedenten van de hoogste algemene rechter (het equivalent van het Yargıtay), of de grondwet en de formele wetten (wetsniveau en hoger). Lagere regelgeving en lagere gerechten tellen niet mee. ✅ volledig (kleine lacunes vermeld), ◐ lacune (iets wat gepubliceerd is ontbreekt, of de bron staat uit tot er toestemming is), ❌ geen. Afwegingen staan in research/scorecard_overrides.json.
 
-**Gedekt: 72 van 124.**
+**Gedekt: 72 van 125.**
 
 | Code | Rechtsstelsel | Precedenten hoogste rechter | Grondwet + wetten | Gedekt | Wat ontbreekt |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Een rechtsstelsel telt als gedekt wanneer Fontes ten minste een van twee gebiede
 | `tj` | Tajikistan | ❌ | ◐ | nee | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | nee | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | nee |  |
+| `us-states` | United States (state courts) | – | – | nee |  |
 | `vn` | Vietnam | ◐ | ◐ | nee | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | nee | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

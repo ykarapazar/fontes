@@ -273,13 +273,14 @@ def test_each_app_install_rerun_keys_uninstall(home, name, monkeypatch):
     assert sorted(c.path.parent.glob(c.path.name + ".fontes-backup-*")) == backups
 
     # keys: typed once, written to the env of our entry, never printed
-    answers = iter(["fr-id", "fr-secret", "us-key"])
+    answers = iter(["fr-id", "fr-secret", "us-key", "cl-key"])
     monkeypatch.setattr(S.sys.stdin, "isatty", lambda: True, raising=False)
     monkeypatch.setattr(S, "ask_secret", lambda prompt: next(answers))
     monkeypatch.setattr(S.getpass, "getpass", lambda prompt: next(answers))
     assert S.main(["keys"]) == 0
     assert S.read_servers(c)["fontes"]["env"] == {"WLM_FR_PISTE_CLIENT_ID": "fr-id",
-        "WLM_FR_PISTE_CLIENT_SECRET": "fr-secret", "WLM_US_GOVINFO_KEY": "us-key"}
+        "WLM_FR_PISTE_CLIENT_SECRET": "fr-secret", "WLM_US_GOVINFO_KEY": "us-key",
+        "WLM_US_COURTLISTENER_KEY": "cl-key"}
     assert S.read_servers(c)["other"] == OTHER
 
     assert S.main(["uninstall"]) == 0
@@ -315,7 +316,7 @@ def test_install_asks_keys_once_and_keeps_them_on_rerun(home, monkeypatch, capsy
     monkeypatch.setattr(S.sys.stdin, "isatty", lambda: True, raising=False)
     monkeypatch.setattr(S, "ask_stats", lambda: False)
     monkeypatch.setattr(S, "want_keys", lambda: True)
-    answers = iter(["", "", "  secret-us-key  "])
+    answers = iter(["", "", "  secret-us-key  ", ""])
     monkeypatch.setattr(S.getpass, "getpass", lambda prompt: next(answers))
     assert S.main(["install"]) == 0
     assert "secret-us-key" not in capsys.readouterr().out
@@ -354,13 +355,14 @@ def test_mac_app_key_prompts_use_dialog_wording(monkeypatch):
     prompts = []
     S.ask_keys({"WLM_US_GOVINFO_KEY": "x"}, ask=lambda p: prompts.append(p) or "")
     assert all("Enter" not in p for p in prompts)
-    assert prompts[-1] == S.t("app_key_set", name=S.t("key_us"))
+    assert prompts[-2] == S.t("app_key_set", name=S.t("key_us"))
+    assert prompts[-1] == S.t("app_key_unset", name=S.t("key_us_cl"))
 
 
 def test_ask_keys_keep_change_remove_cancel(monkeypatch):
     env = {"WLM_US_GOVINFO_KEY": "old", "FONTES_STATS": "1"}
     prompts = []
-    answers = iter(["new-id", "", "-"])
+    answers = iter(["new-id", "", "-", ""])
     assert S.ask_keys(env, ask=lambda p: prompts.append(p) or next(answers)) is True
     assert env == {"WLM_FR_PISTE_CLIENT_ID": "new-id", "FONTES_STATS": "1"}
     assert "old" not in "".join(prompts)

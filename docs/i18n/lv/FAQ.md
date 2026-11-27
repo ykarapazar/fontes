@@ -7,7 +7,7 @@
 Bezmaksas atvērtā koda MCP serveris (Apache 2.0). Tas ļauj jebkurai lietotnei, kas izmanto
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI un citām), tiešsaistē meklēt
 tiesu nolēmumus un tiesību aktus tiesu un valsts iestāžu tīmekļa vietnēs vairāk nekā 120
-jurisdikcijās un starptautiskajās tiesās (124 adapteri). Katrs rezultāts nosauc savu avotu un
+jurisdikcijās un starptautiskajās tiesās (125 adapteri). Katrs rezultāts nosauc savu avotu un
 sniedz saiti uz oriģinālu.
 
 ## Vai teksti ir oficiāli?
@@ -26,12 +26,11 @@ source”. Pirms kaut ko citējat, pārbaudiet oficiālo publikāciju. Pārklāj
 
 ## Kuras jurisdikcijas tas aptver un cik labi?
 
-124 adapteri: 108 ANO dalībvalstis, Honkonga, Kosova, Palestīna, Taivāna, DIFC Courts un
-11 starptautiskās tiesas un institūcijas (piemēram, Eiropas Cilvēktiesību tiesa, ES, Starptautiskā Tiesa un
+125 adapteri: 108 ANO dalībvalstis, Honkonga, Kosova, Palestīna, Taivāna, DIFC Courts, ASV štatu tiesas un 11 starptautiskās tiesas un institūcijas (piemēram, Eiropas Cilvēktiesību tiesa, ES, Starptautiskā Tiesa un
 PTO).
 
 Pārklājums ļoti atšķiras. Pēc stingra kritērija (pilnībā sasniegti augstākās vispārējās
-jurisdikcijas tiesas precedenti vai konstitūcija un primārie likumi) 72 no 124 tiek uzskatītas
+jurisdikcijas tiesas precedenti vai konstitūcija un primārie likumi) 72 no 125 tiek uzskatītas
 par aptvertām. [COVERAGE.md](../../COVERAGE.md) katrai jurisdikcijai uzskaita, ko Fontes
 sasniedz, ko nesasniedz un kāpēc.
 
@@ -47,6 +46,7 @@ Gandrīz visās jurisdikcijās – nē. Dažiem avotiem vajadzīga bezmaksas ats
   taču koplietotā demonstrācijas atslēga ļauj tikai aptuveni 10 meklējumus dienā no vienas IP
   adreses. Bezmaksas api.data.gov atslēga mainīgajā `WLM_US_GOVINFO_KEY` šo ierobežojumu
   palielina.
+- **ASV štatu tiesas:** jā. Štatu tiesu prakse (`us-states`) ir izslēgta, līdz iestatāt `WLM_US_COURTLISTENER_KEY` ar savu bezmaksas CourtListener API token. CourtListener uztur bezpeļņas organizācija Free Law Project; tas nav oficiāls avots, un katra atbilde to norāda.
 
 Iestatiet tos kā vides mainīgos Fontes serverim savas lietotnes MCP iestatījumos. Instalētāji
 pēc instalēšanas jautā pēc tiem, un to palaidējs **Add or change keys** ļauj tos vēlāk mainīt.

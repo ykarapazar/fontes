@@ -25,6 +25,7 @@
  "key_fr_id": "Fransiya: PISTE client ID",
  "key_fr_secret": "Fransiya: PISTE client secret",
  "key_us": "AQSh: api.data.gov kaliti",
+ "key_us_cl": "AQSh: CourtListener kaliti",
  "keys_saved": "Kalitlar saqlandi. Ulardan foydalanish uchun ilovalaringizni yopib, qayta oching.",
  "keys_unchanged": "Hech qanday kalit oʻzgartirilmadi.",
  "keys_no_apps": "Fontes hali hech qaysi ilovada sozlanmagan. Avval uni oʻrnating.",

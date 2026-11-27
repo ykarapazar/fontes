@@ -7,7 +7,7 @@
 Bezplatný server MCP s otevřeným zdrojovým kódem (Apache 2.0). Umožňuje každé aplikaci, která
 používá Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI a další), živě
 vyhledávat soudní rozhodnutí a právní předpisy na webech soudů a státních orgánů ve více než
-120 jurisdikcích a u mezinárodních soudů (124 adaptérů). Každý výsledek uvádí svůj zdroj a
+120 jurisdikcích a u mezinárodních soudů (125 adaptérů). Každý výsledek uvádí svůj zdroj a
 odkazuje na originál.
 
 ## Jsou texty oficiální?
@@ -26,12 +26,12 @@ Fontes ke každé odpovědi, která pochází z jednoho z těchto zdrojů, přid
 
 ## Které jurisdikce pokrývá a jak dobře?
 
-124 adaptérů: 108 členských států OSN, Hongkong, Kosovo, Palestina, Tchaj-wan, soudy DIFC a 11
+125 adaptérů: 108 členských států OSN, Hongkong, Kosovo, Palestina, Tchaj-wan, soudy DIFC, soudy států USA a 11
 mezinárodních soudů a orgánů (například Evropský soud pro lidská práva, EU, Mezinárodní soudní
 dvůr a WTO).
 
 Pokrytí se velmi liší. Podle přísného pravidla (precedenty nejvyššího obecného soudu nebo
-ústava a základní zákony, dostupné v úplnosti) se 72 ze 124 počítá jako pokryté.
+ústava a základní zákony, dostupné v úplnosti) se 72 ze 125 počítá jako pokryté.
 [COVERAGE.md](COVERAGE.md) pro každou jurisdikci uvádí, co Fontes zpřístupní, co ne a proč.
 
 ## Potřebuji klíč API?
@@ -44,6 +44,7 @@ U téměř každé jurisdikce ne. Některé zdroje vyžadují bezplatný klíč:
 - **Spojené státy:** volitelné. Vyhledávání judikatury funguje bez klíče, ale sdílený demo klíč
   povoluje jen přibližně 10 hledání denně na IP adresu. Bezplatný klíč api.data.gov v
   `WLM_US_GOVINFO_KEY` tento limit zvýší.
+- **Soudy států USA:** ano. Judikatura států (`us-states`) je vypnutá, dokud nenastavíte `WLM_US_COURTLISTENER_KEY` na svůj vlastní bezplatný API token CourtListeneru. CourtListener provozuje nezisková organizace Free Law Project; není to oficiální zdroj a každá odpověď to uvádí.
 
 Nastavte je jako proměnné prostředí pro server Fontes v nastavení MCP své aplikace.
 Instalátory se na ně po instalaci zeptají a jejich spouštěč **Add or change keys** je později změní.

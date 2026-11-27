@@ -25,6 +25,7 @@
  "key_fr_id": "ຝຣັ່ງ: PISTE client ID",
  "key_fr_secret": "ຝຣັ່ງ: PISTE client secret",
  "key_us": "ສະຫະລັດ: ກະແຈ api.data.gov",
+ "key_us_cl": "ສະຫະລັດ: ກະແຈ CourtListener",
  "keys_saved": "ບັນທຶກກະແຈແລ້ວ. ປິດ ແລະ ເປີດແອັບຂອງທ່ານຄືນໃໝ່ເພື່ອໃຊ້ມັນ.",
  "keys_unchanged": "ບໍ່ມີກະແຈໃດຖືກປ່ຽນ.",
  "keys_no_apps": "Fontes ຍັງບໍ່ໄດ້ຖືກຕັ້ງຄ່າໃນແອັບໃດເທື່ອ. ກະລຸນາຕິດຕັ້ງມັນກ່ອນ.",

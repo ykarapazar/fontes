@@ -2,13 +2,13 @@
 
 # קטלוג הכיסוי של Fontes
 
-124 מתאמים; 85 מדינות חברות באו"ם ללא מתאם.
+125 מתאמים; 85 מדינות חברות באו"ם ללא מתאם.
 
 ## כרטיס ניקוד כיסוי
 
 תחום שיפוט נחשב מכוסה כאשר Fontes מגיע במלואו לפחות לאחד משני תחומים: התקדימים של בית המשפט הכללי העליון בו (המקביל ל-Yargıtay), או החוקה והחקיקה הראשית שלו (ברמת kanun ומעלה). חקיקת משנה ובתי משפט נמוכים יותר אינם נספרים. ✅ מלא (פערים קטנים מצוינים), ◐ פער (משהו שמפורסם חסר, או שהמקור כבוי עד לקבלת רשות), ❌ אין. הכרעות שבשיקול דעת נמצאות ב-research/scorecard_overrides.json.
 
-**מכוסים: 72 מתוך 124.**
+**מכוסים: 72 מתוך 125.**
 
 | קוד | תחום שיפוט | תקדימי בית המשפט העליון | חוקה + חוקים | מכוסה | מה חסר |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | לא | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | לא | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | לא |  |
+| `us-states` | United States (state courts) | – | – | לא |  |
 | `vn` | Vietnam | ◐ | ◐ | לא | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | לא | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

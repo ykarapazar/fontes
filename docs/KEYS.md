@@ -1,11 +1,12 @@
 # API keys
 
-Almost every source in Fontes works without a key. Two need a free one:
+Almost every source in Fontes works without a key. Three need a free one:
 
 | Key | Unlocks | Without it |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | France: Judilibre (court decisions) and Légifrance (legislation) | France is off. `list_jurisdictions` shows it as inactive. |
 | `WLM_US_GOVINFO_KEY` | United States: govinfo search (federal court opinions, Statutes at Large, public laws) | Fontes uses the shared `DEMO_KEY`: about 10 searches a day per IP address. Opening a known decision and the US Code need no key. |
+| `WLM_US_COURTLISTENER_KEY` | US state courts (`us-states`): opinions of the supreme and appellate courts of all 50 states and DC, from CourtListener | US state case law is off. `list_jurisdictions` shows it as inactive. |
 
 Keys are optional. You can add them later.
 
@@ -72,6 +73,28 @@ Terms, in short:
   See [govinfo's policies](https://www.govinfo.gov/about/policies) and the
   [data.gov privacy policy](https://data.gov/privacy-policy/).
 - Keep the key to yourself.
+
+## US state courts: CourtListener (free)
+
+CourtListener is run by [Free Law Project](https://free.law), a non-profit that has collected US
+court opinions since 2010 and makes them free to everyone. By its own count it holds over nine
+million decisions. It is not an official source: the courts publish their own opinions, and
+CourtListener gathers them from court websites and scanned law reports. Every Fontes answer from
+it says so. Fontes is not affiliated with Free Law Project.
+
+1. Create a free account at [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Open your profile and copy your API token.
+3. Run **Add or change keys** and paste it as the CourtListener key.
+
+Terms, in short ([full terms](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- The token is yours alone: do not share, pool or resell it, and do not use several accounts.
+- You are responsible for what an AI app does with your token.
+- Do not present an AI's analysis of their data as produced, endorsed or checked by Free Law Project.
+- A free account allows 5 requests a minute, 50 an hour and 125 a day. A search is one request;
+  opening a decision is two. A Free Law Project membership raises the limits.
+- CourtListener does not guarantee accuracy. Check an opinion against the court's copy before
+  you rely on it.
 
 ## Where keys are stored
 

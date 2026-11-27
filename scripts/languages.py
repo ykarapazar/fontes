@@ -39,6 +39,7 @@ SUPRANATIONAL = {
     "icj": (None, ["en", "fr"], "ICJ Statute art. 39: English and French"),
     "icsid": (None, ["en", "fr", "es"], "ICSID: English, French and Spanish"),
     "itlos": (None, ["en", "fr"], "ITLOS Statute art. 1 / Rules art. 43: English and French"),
+    "us-states": ("US", [], "US state courts: CLDR's languages for the United States"),
     "untc": (None, ["ar", "zh-Hans", "en", "fr", "ru", "es"], "UN Treaty Collection: the six UN official languages"),
     "wto": (None, ["en", "fr", "es"], "WTO: English, French and Spanish"),
 }

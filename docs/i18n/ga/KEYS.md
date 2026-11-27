@@ -2,12 +2,13 @@
 
 # Eochracha API
 
-Oibríonn beagnach gach foinse in Fontes gan eochair. Teastaíonn eochair saor in aisce ó dhá cheann:
+Oibríonn beagnach gach foinse in Fontes gan eochair. Teastaíonn eochair saor in aisce ó thrí cinn:
 
 | Eochair | Díghlasálann | Gan í |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | An Fhrainc: Judilibre (breithiúnais chúirte) agus Légifrance (reachtaíocht) | Tá an Fhrainc múchta. Taispeánann `list_jurisdictions` í mar neamhghníomhach. |
 | `WLM_US_GOVINFO_KEY` | Na Stáit Aontaithe: cuardach govinfo (tuairimí cúirteanna feidearálacha, Statutes at Large, public laws) | Úsáideann Fontes an `DEMO_KEY` comhroinnte: thart ar 10 gcuardach sa lá in aghaidh an tseolta IP. Ní theastaíonn eochair chun breithiúnas aitheanta a oscailt ná don US Code. |
+| `WLM_US_COURTLISTENER_KEY` | Cúirteanna stáit na SA (`us-states`): tuairimí na gcúirteanna uachtaracha agus achomhairc i ngach ceann den 50 stát agus i DC, ó CourtListener | Tá cásdlí stáit na SA múchta. Taispeánann `list_jurisdictions` í mar neamhghníomhach. |
 
 Tá eochracha roghnach. Is féidir leat iad a chur leis níos déanaí.
 
@@ -83,6 +84,22 @@ Na téarmaí, go hachomair:
   ann). Gan fíorú. Féach [beartais govinfo](https://www.govinfo.gov/about/policies) agus
   [beartas príobháideachta data.gov](https://data.gov/privacy-policy/).
 - Coinnigh an eochair agat féin.
+
+## Cúirteanna stáit na SA: CourtListener (saor in aisce)
+
+Is é [Free Law Project](https://free.law) a reáchtálann CourtListener, eagraíocht neamhbhrabúis a bhailigh tuairimí cúirteanna na SA ó 2010 agus a chuireann saor in aisce ar fáil do chách iad. De réir a chomhaireamh féin, tá breis agus naoi milliún breithiúnas aici. Ní foinse oifigiúil í: foilsíonn na cúirteanna a dtuairimí féin, agus bailíonn CourtListener iad ó shuíomhanna gréasáin cúirteanna agus ó thuarascálacha dlí scanta. Deir gach freagra ó Fontes uaithi sin. Níl Fontes cleamhnaithe le Free Law Project.
+
+1. Cruthaigh cuntas saor in aisce ag [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Oscail do phróifíl agus cóipeáil do chomhartha API.
+3. Rith **Add or change keys** agus greamaigh é mar eochair CourtListener.
+
+Na téarmaí, go hachomair ([téarmaí iomlána](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Is leatsa amháin an comhartha: ná roinn, ná cuir i gcomhthiomsú ná athdhíol é, agus ná húsáid cuntais iolracha.
+- Tá tú freagrach as an méid a dhéanann aip AI le do chomhartha.
+- Ná cuir anailís AI ar a gcuid sonraí i láthair mar rud a tháirg, a thacaigh Free Law Project leis nó a sheiceáil sé.
+- Ceadaíonn cuntas saor in aisce 5 iarratas sa nóiméad, 50 san uair agus 125 sa lá. Is iarratas amháin é cuardach; is dhá iarratas é breithiúnas a oscailt. Ardaíonn ballraíocht de chuid Free Law Project na teorainneacha.
+- Ní ráthaíonn CourtListener cruinneas. Seiceáil tuairim i gcoinne chóip na cúirte sula mbíonn muinín agat as.
 
 ## Cá stóráiltear eochracha
 

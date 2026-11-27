@@ -2,13 +2,13 @@
 
 # فهرست پوشش Fontes
 
-124 آداپتور؛ 85 کشور عضو سازمان ملل بدون آداپتور.
+125 آداپتور؛ 85 کشور عضو سازمان ملل بدون آداپتور.
 
 ## کارنامه پوشش
 
 یک حوزه قضایی وقتی تحت پوشش به حساب می‌آید که Fontes دست‌کم به یکی از این دو حوزه به‌طور کامل دسترسی داشته باشد: سوابق قضایی (رویه) عالی‌ترین دادگاه عمومی آن (معادل Yargıtay)، یا قانون اساسی و قوانین اصلی آن (در سطح kanun و بالاتر). مقررات فرعی و دادگاه‌های پایین‌تر به حساب نمی‌آیند. ✅ کامل (کمبودهای جزئی ذکر شده‌اند)، ◐ کمبود (چیزی که منتشر شده موجود نیست، یا منبع تا گرفتن اجازه خاموش است)، ❌ هیچ. تصمیم‌های مبتنی بر قضاوت در research/scorecard_overrides.json آمده‌اند.
 
-**تحت پوشش: 72 از 124.**
+**تحت پوشش: 72 از 125.**
 
 | کد | حوزه قضایی | رویه عالی‌ترین دادگاه | قانون اساسی + قوانین | تحت پوشش | چه چیزی کم است |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | خیر | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | خیر | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | خیر |  |
+| `us-states` | United States (state courts) | – | – | خیر |  |
 | `vn` | Vietnam | ◐ | ◐ | خیر | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | خیر | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -2,12 +2,13 @@
 
 # Klíče API
 
-Téměř každý zdroj ve Fontes funguje bez klíče. Dva zdroje vyžadují bezplatný klíč:
+Téměř každý zdroj ve Fontes funguje bez klíče. Tři zdroje vyžadují bezplatný klíč:
 
 | Klíč | Zpřístupní | Bez něj |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francie: Judilibre (soudní rozhodnutí) a Légifrance (právní předpisy) | Francie je vypnutá. `list_jurisdictions` ji zobrazí jako neaktivní. |
 | `WLM_US_GOVINFO_KEY` | Spojené státy: vyhledávání govinfo (stanoviska federálních soudů, Statutes at Large, public laws) | Fontes používá sdílený `DEMO_KEY`: přibližně 10 hledání denně na IP adresu. Otevření známého rozhodnutí a US Code klíč nevyžadují. |
+| `WLM_US_COURTLISTENER_KEY` | Soudy států USA (`us-states`): rozhodnutí nejvyšších a odvolacích soudů všech 50 států a DC, z CourtListeneru | Judikatura států USA je vypnutá. `list_jurisdictions` ji zobrazí jako neaktivní. |
 
 Klíče jsou volitelné. Můžete je přidat i později.
 
@@ -75,6 +76,22 @@ Podmínky stručně:
   Viz [zásady govinfo](https://www.govinfo.gov/about/policies) a
   [zásady ochrany soukromí data.gov](https://data.gov/privacy-policy/).
 - Klíč si nechte pro sebe.
+
+## Soudy států USA: CourtListener (zdarma)
+
+CourtListener provozuje [Free Law Project](https://free.law), nezisková organizace, která od roku 2010 shromažďuje rozhodnutí amerických soudů a zpřístupňuje je všem zdarma. Podle vlastního sčítání obsahuje přes devět milionů rozhodnutí. Není to oficiální zdroj: soudy zveřejňují svá rozhodnutí samy a CourtListener je sbírá z webů soudů a ze skenovaných sbírek rozhodnutí. Každá odpověď Fontes, která z něj pochází, to uvádí. Fontes není s Free Law Project nijak spojen.
+
+1. Vytvořte si bezplatný účet na [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Otevřete svůj profil a zkopírujte si svůj API token.
+3. Spusťte **Add or change keys** a vložte jej jako klíč CourtListeneru.
+
+Podmínky ve stručnosti ([úplné podmínky](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token je jen váš: nesdílejte jej, nespojujte jej s cizími ani jej neprodávejte dál a nepoužívejte více účtů.
+- Odpovídáte za to, co aplikace s umělou inteligencí s vaším tokenem dělá.
+- Neprezentujte analýzu jejich dat provedenou umělou inteligencí jako vytvořenou, schválenou nebo ověřenou Free Law Project.
+- Bezplatný účet umožňuje 5 požadavků za minutu, 50 za hodinu a 125 za den. Vyhledávání je jeden požadavek; otevření rozhodnutí jsou dva. Členství ve Free Law Project limity zvyšuje.
+- CourtListener nezaručuje přesnost. Než se na rozhodnutí spolehnete, ověřte je podle kopie soudu.
 
 ## Kde jsou klíče uloženy
 

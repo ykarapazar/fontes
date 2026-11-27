@@ -2,13 +2,13 @@
 
 # Katalòg kouvèti Fontes
 
-124 adaptè; 85 eta manm ONI ki pa gen youn.
+125 adaptè; 85 eta manm ONI ki pa gen youn.
 
 ## Tablo nòt kouvèti
 
 Yon jiridiksyon konte kòm kouvri lè Fontes rive jwenn nèt omwen youn nan de domèn: presedan tribinal jeneral ki pi wo a (ekivalan Yargıtay la), oswa konstitisyon li ak lwa prensipal li yo (nivo kanun ak pi wo). Lejislasyon segondè ak tribinal ki pi ba yo pa konte. ✅ konplè (ti mank yo endike), ◐ mank (yon bagay ki pibliye manke, oswa sous la etenn jiskaske gen pèmisyon), ❌ okenn. Desizyon apresyasyon yo nan research/scorecard_overrides.json.
 
-**Kouvri: 72 sou 124.**
+**Kouvri: 72 sou 125.**
 
 | Kòd | Jiridiksyon | Presedan tribinal siprèm | Konstitisyon + lwa | Kouvri | Sa ki manke |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Yon jiridiksyon konte kòm kouvri lè Fontes rive jwenn nèt omwen youn nan de d
 | `tj` | Tajikistan | ❌ | ◐ | non | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | non | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | non |  |
+| `us-states` | United States (state courts) | – | – | non |  |
 | `vn` | Vietnam | ◐ | ◐ | non | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | non | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

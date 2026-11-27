@@ -2,12 +2,13 @@
 
 # API açarlary
 
-Fontes-daky çeşmeleriň hemmesi diýen ýaly açarsyz işleýär. Ikisine mugt açar gerek:
+Fontes-daky çeşmeleriň hemmesi diýen ýaly açarsyz işleýär. Üçüsine mugt açar gerek:
 
 | Açar | Näme açýar | Açarsyz |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Fransiýa: Judilibre (kazyýet çözgütleri) we Légifrance (kanunçylyk) | Fransiýa öçük. `list_jurisdictions` ony işjeň däl diýip görkezýär. |
 | `WLM_US_GOVINFO_KEY` | Amerikanyň Birleşen Ştatlary: govinfo gözlegi (federal kazyýet çözgütleri, Statutes at Large, public laws) | Fontes umumy `DEMO_KEY` ulanýar: bir IP salgy üçin günde takmynan 10 gözleg. Belli bir çözgüdi açmak we US Code üçin açar gerek däl. |
+| `WLM_US_COURTLISTENER_KEY` | ABŞ-nyň ştat kazyýetleri (`us-states`): CourtListener-den ähli 50 ştatyň we DC-niň ýokary we apellýasiýa kazyýetleriniň çözgütleri | ABŞ ştatlarynyň kazyýet tejribesi öçük. `list_jurisdictions` ony işjeň däl hökmünde görkezýär. |
 
 Açarlar islege bagly. Olary soňra goşup bilersiňiz.
 
@@ -83,6 +84,22 @@ Kwotalaryňyz PISTE-de API Sélectionnées > Actions > Consulter les quotas asty
   Serediň: [govinfo syýasatlary](https://www.govinfo.gov/about/policies) we
   [data.gov gizlinlik syýasaty](https://data.gov/privacy-policy/).
 - Açary özüňizde saklaň.
+
+## ABŞ-nyň ştat kazyýetleri: CourtListener (mugt)
+
+CourtListener-i 2010-njy ýyldan bäri ABŞ kazyýetleriniň çözgütlerini ýygnap, olary hemmelere mugt elýeterli edýän girdejisiz gurama [Free Law Project](https://free.law) dolandyrýar. Öz hasabyna görä, onda dokuz milliondan gowrak çözgüt bar. Ol resmi çeşme däl: kazyýetler öz çözgütlerini özleri çap edýär, CourtListener bolsa olary kazyýetleriň web sahypalaryndan we skanerlenen hukuk ýygyndylaryndan ýygnaýar. Ondan gelen her Fontes jogaby muny aýdýar. Fontes Free Law Project bilen baglanyşykly däl.
+
+1. [courtlistener.com](https://www.courtlistener.com/sign-in/) saýtynda mugt hasap dörediň.
+2. Profiliňizi açyň we API tokeniňizi göçüriň.
+3. **Add or change keys** işlediň we ony CourtListener açary hökmünde goýuň.
+
+Şertler, gysgaça ([doly şertler](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token diňe siziňki: ony paýlaşmaň, başgalaryňky bilen birleşdirmäň we gaýtadan satmaň, birnäçe hasap ulanmaň.
+- AI programmasynyň tokeniňiz bilen näme edýändigi üçin siz jogapkär.
+- Olaryň maglumatlarynyň AI tarapyndan edilen derňewini Free Law Project tarapyndan taýýarlanyldy, makullanyldy ýa-da barlanyldy diýip görkezmäň.
+- Mugt hasap minutda 5, sagatda 50 we günde 125 haýyşa rugsat berýär. Bir gözleg bir haýyş; çözgüdi açmak iki haýyş. Free Law Project agzalygy çäkleri ýokarlandyrýar.
+- CourtListener takyklyga kepillik bermeýär. Çözgüde daýanmazyňyzdan öň ony kazyýetiň nusgasy bilen deňeşdiriň.
 
 ## Açarlar nirede saklanýar
 

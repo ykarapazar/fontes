@@ -2,13 +2,13 @@
 
 # Fontes কভারেজ তালিকা
 
-124টি অ্যাডাপ্টার; 85টি জাতিসংঘ সদস্য রাষ্ট্রের কোনো অ্যাডাপ্টার নেই।
+125টি অ্যাডাপ্টার; 85টি জাতিসংঘ সদস্য রাষ্ট্রের কোনো অ্যাডাপ্টার নেই।
 
 ## কভারেজ স্কোরকার্ড
 
 একটি এখতিয়ার অন্তর্ভুক্ত গণ্য হয় যখন Fontes দুটি ক্ষেত্রের অন্তত একটি পুরোপুরি নাগাল পায়: এর সর্বোচ্চ সাধারণ আদালতের নজির (Yargıtay-এর সমতুল্য), অথবা এর সংবিধান ও প্রাথমিক আইন (kanun স্তর ও তার ওপরে)। অধস্তন আইন ও নিম্ন আদালত গণনায় আসে না। ✅ সম্পূর্ণ (ছোট ঘাটতি উল্লিখিত), ◐ ঘাটতি (প্রকাশিত কিছু অনুপস্থিত, অথবা অনুমতি না পাওয়া পর্যন্ত উৎসটি বন্ধ), ❌ নেই। বিবেচনাভিত্তিক সিদ্ধান্তগুলো research/scorecard_overrides.json-এ আছে।
 
-**অন্তর্ভুক্ত: 124টির মধ্যে 72টি।**
+**অন্তর্ভুক্ত: 125টির মধ্যে 72টি।**
 
 | কোড | এখতিয়ার | সর্বোচ্চ আদালতের নজির | সংবিধান + আইন | অন্তর্ভুক্ত | কী অনুপস্থিত |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | না | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | না | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | না |  |
+| `us-states` | United States (state courts) | – | – | না |  |
 | `vn` | Vietnam | ◐ | ◐ | না | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | না | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

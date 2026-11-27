@@ -2,12 +2,13 @@
 
 # API ključevi
 
-Gotovo svaki izvor u programu Fontes radi bez ključa. Dva izvora zahtijevaju besplatan ključ:
+Gotovo svaki izvor u programu Fontes radi bez ključa. Tri izvora zahtijevaju besplatan ključ:
 
 | Ključ | Otključava | Bez njega |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francuska: Judilibre (sudske odluke) i Légifrance (propisi) | Francuska je isključena. `list_jurisdictions` je prikazuje kao neaktivnu. |
 | `WLM_US_GOVINFO_KEY` | Sjedinjene Američke Države: pretraživanje govinfo (mišljenja saveznih sudova, Statutes at Large, public laws) | Fontes upotrebljava zajednički `DEMO_KEY`: oko 10 pretraživanja dnevno po IP adresi. Za otvaranje poznate odluke i za US Code ključ nije potreban. |
+| `WLM_US_COURTLISTENER_KEY` | Sudovi saveznih država SAD-a (`us-states`): mišljenja vrhovnih i žalbenih sudova svih 50 saveznih država i DC-a, s CourtListenera | Sudska praksa saveznih država SAD-a je isključena. `list_jurisdictions` je prikazuje kao neaktivnu. |
 
 Ključevi nisu obvezni. Možete ih dodati i kasnije.
 
@@ -76,6 +77,22 @@ Uvjeti, ukratko:
   Pogledajte [pravila za govinfo](https://www.govinfo.gov/about/policies) i
   [politiku privatnosti data.gov](https://data.gov/privacy-policy/).
 - Ključ zadržite za sebe.
+
+## Sudovi saveznih država SAD-a: CourtListener (besplatno)
+
+CourtListener vodi [Free Law Project](https://free.law), neprofitna organizacija koja od 2010. prikuplja mišljenja američkih sudova i besplatno ih stavlja na raspolaganje svima. Prema vlastitom brojanju, ima više od devet milijuna odluka. Nije službeni izvor: sudovi sami objavljuju svoja mišljenja, a CourtListener ih prikuplja s web-mjesta sudova i iz skeniranih zbirki sudske prakse. Svaki odgovor programa Fontes koji potječe iz njega to navodi. Fontes nije povezan s organizacijom Free Law Project.
+
+1. Izradite besplatan račun na [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Otvorite svoj profil i kopirajte svoj API token.
+3. Pokrenite **Add or change keys** i zalijepite ga kao CourtListener ključ.
+
+Uvjeti, ukratko ([potpuni uvjeti](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token je samo vaš: ne dijelite ga, ne udružujte ga i ne preprodajte, i ne upotrebljavajte više računa.
+- Vi odgovarate za ono što AI aplikacija učini s vašim tokenom.
+- Ne predstavljajte analizu njihovih podataka koju je provela umjetna inteligencija kao da su je izradili, odobrili ili provjerili Free Law Project.
+- Besplatan račun dopušta 5 zahtjeva u minuti, 50 na sat i 125 na dan. Pretraživanje je jedan zahtjev; otvaranje odluke dva. Članstvo u Free Law Projectu povećava ograničenja.
+- CourtListener ne jamči točnost. Provjerite mišljenje u primjerku suda prije nego što se na njega oslonite.
 
 ## Gdje se ključevi čuvaju
 

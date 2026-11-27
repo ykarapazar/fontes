@@ -2,13 +2,13 @@
 
 # Fontes کوریج کیٹلاگ
 
-124 اڈاپٹرز؛ 85 اقوامِ متحدہ کے رکن ممالک جن کا کوئی اڈاپٹر نہیں۔
+125 اڈاپٹرز؛ 85 اقوامِ متحدہ کے رکن ممالک جن کا کوئی اڈاپٹر نہیں۔
 
 ## کوریج اسکور کارڈ
 
 کوئی جورسڈکشن اس وقت کورڈ شمار ہوتی ہے جب Fontes دو میں سے کم از کم ایک شعبے تک مکمل پہنچتا ہو: اس کی اعلیٰ ترین عمومی عدالت کے نظائر (Yargıtay کے مساوی)، یا اس کا آئین اور بنیادی قوانین (kanun کی سطح اور اس سے اوپر)۔ ذیلی قانون سازی اور ماتحت عدالتیں شمار نہیں ہوتیں۔ ✅ مکمل (معمولی خامیاں درج)، ◐ خلا (کوئی شائع شدہ چیز غائب ہے، یا ماخذ اجازت ملنے تک بند ہے)، ❌ کچھ نہیں۔ صوابدیدی فیصلے research/scorecard_overrides.json میں ہیں۔
 
-**کورڈ: 124 میں سے 72۔**
+**کورڈ: 125 میں سے 72۔**
 
 | کوڈ | جورسڈکشن | اعلیٰ ترین عدالت کے نظائر | آئین + قوانین | کورڈ | کیا غائب ہے |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | نہیں | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | نہیں | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | نہیں |  |
+| `us-states` | United States (state courts) | – | – | نہیں |  |
 | `vn` | Vietnam | ◐ | ◐ | نہیں | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | نہیں | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -6,13 +6,13 @@ What Fontes reaches in each jurisdiction: its courts and types of legislation, e
 
 **The last column** says, for anything Fontes does not fully reach, whether it can be reached at all: 🟢 available (an official or licensed source publishes it; Fontes has not built it), 🔒 blocked (a source exists but robots.txt, terms, a bot wall, a login or a paywall stops us), ⚫ offline (checked: not published online), ❓ unknown. Each entry says what it rests on: 'fetched <date>' means the page was opened that day; 'search result only' is weaker. Sites that time out from the UK are marked unknown or blocked with a note; geo-blocking is not proven.
 
-124 adapters; 85 UN member states without one.
+125 adapters; 85 UN member states without one.
 
 ## Coverage scorecard
 
 A jurisdiction counts as covered when Fontes reaches at least one of two areas completely: the precedents of its top general court (the Yargıtay equivalent), or its constitution and primary acts (kanun level and above). Secondary legislation and lower courts do not count. ✅ complete (minor gaps noted), ◐ gap (something published is missing, or the source is off until permission), ❌ none. Judgement calls are in research/scorecard_overrides.json.
 
-**Covered: 72 of 124.**
+**Covered: 72 of 125.**
 
 | Code | Jurisdiction | Top court precedents | Constitution + acts | Covered | What is missing |
 |---|---|---|---|---|---|
@@ -138,6 +138,7 @@ A jurisdiction counts as covered when Fontes reaches at least one of two areas c
 | `tj` | Tajikistan | ❌ | ◐ | no | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | no | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | no |  |
+| `us-states` | United States (state courts) | – | – | no |  |
 | `vn` | Vietnam | ◐ | ◐ | no | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | no | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 
@@ -265,6 +266,7 @@ A jurisdiction counts as covered when Fontes reaches at least one of two areas c
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | no | yes | – | – | 2+1½/6 | 🟢4 |
 | `gb` | United Kingdom | yes | yes | 0+25½/41 | 0/24 | 7/10 | 🟢32 🔒20 ⚫6 ❓10 |
 | `us` | United States | yes | yes | 0+8½/23 | 0/322 | 3/8 | 🟢85 🔒61 ⚫109 ❓95 |
+| `us-states` | United States (state courts) | no | no | – | – | – | – |
 | `uy` | Uruguay | yes | yes | 5+14½/21 | – | 2+5½/9 | 🟢1 🔒6 ❓16 |
 | `uz` | Uzbekistan | yes | yes | 0+14½/17 | – | 7/10 | 🟢11 🔒6 ❓3 |
 | `vn` | Vietnam | yes | yes | 0+1½/19 | – | 1+6½/10 | 🟢2 🔒16 ⚫1 ❓9 |
@@ -11099,19 +11101,35 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.uscourt
 - govinfo (U.S. Government Publishing Office): Statutes at Large and Public and Private Laws — https://www.govinfo.gov (legislation) — Public domain (US Government works, 17 U.S.C. 105; govinfo Public Domain & Copyright Notice); commercial use allowed; needs none for citations ('1 Stat. 50', 'Pub. L. 117-58': link service, MODS, PDF/HTML); full-text search uses the govinfo API key like the other collections
 - United States Code (Office of the Law Revision Counsel, U.S. House) — https://uscode.house.gov (legislation) — Public domain (US Government work, 17 U.S.C. 105); commercial use allowed
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
-- Notes: Federal only. Case law: govinfo (lower federal courts ~2004 on + bound U.S. Reports to vol. 586) and supremecourt.gov (Supreme Court opinions from October Term 2018 on: collection SUPREMECOURT; ids '606 U.S. 942' or a docket), PDF text. Legislation: US Code by title and section, e.g. '42 USC 1983', and the Constitution ('US Constitution'; provisions 'preamble', 'art. I', 'art. I sec. 8', 'amend. XIV') from the National Archives transcription. Acts as enacted: Statutes at Large vols 1-138 (1789-2024; ids '1 Stat. 50', 'STATUTE-1-Pg50', 'Pub. L. 85-1'; provisions are Stat. pages) and public/private laws from 1995 ('Pub. L. 119-1'; provisions are sections); full-text search with filter collection STATUTE or PLAW. No state law, no CFR.
+- Notes: Federal only. Case law: govinfo (lower federal courts ~2004 on + bound U.S. Reports to vol. 586) and supremecourt.gov (Supreme Court opinions from October Term 2018 on: collection SUPREMECOURT; ids '606 U.S. 942' or a docket), PDF text. Legislation: US Code by title and section, e.g. '42 USC 1983', and the Constitution ('US Constitution'; provisions 'preamble', 'art. I', 'art. I sec. 8', 'amend. XIV') from the National Archives transcription. Acts as enacted: Statutes at Large vols 1-138 (1789-2024; ids '1 Stat. 50', 'STATUTE-1-Pg50', 'Pub. L. 85-1'; provisions are Stat. pages) and public/private laws from 1995 ('Pub. L. 119-1'; provisions are sections); full-text search with filter collection STATUTE or PLAW. No state law (state case law: 'us-states'), no CFR.
 
 **Does not reach**
 
 - Code of Federal Regulations (eCFR): robots.txt disallows the full-text endpoint /api/versioner/v1/full/
 - Supreme Court from October Term 2018 on: searchable by name, docket, citation and the Court's one-line summary only (no full-text search); 'opinions relating to orders' not wired
 - Lower federal court opinions before ~2004: not in govinfo USCOURTS
-- State statutes and state case law: not built yet (federal only)
+- State case law: jurisdiction 'us-states' (CourtListener, unofficial, your own free token). State statutes: not built yet
 - Federal Register and Congress bills: source exists and works but not built yet
 - US Constitution: National Archives transcription of the parchment text (original spelling; superseded clauses are not marked in the articles, only in amendment notes)
 - Statutes at Large: page PDFs with GPO's text layer; older volumes are scans, so expect OCR errors, and a granule's first and last pages can carry the neighbouring acts. Laws newer than vol. 138 (2024) come from PLAW (1995 on) until bound
 - Public laws: as enacted, not consolidated (the consolidated text of codified provisions is the US Code); new laws reach govinfo PLAW some weeks after enactment
 - Case-law search beyond ~10/day: needs a free api.data.gov key (WLM_US_GOVINFO_KEY), else DEMO_KEY
+
+## United States (state courts) (`us-states`)
+
+**Sources and terms**
+
+- CourtListener (Free Law Project, a non-profit): opinions of state supreme and appellate courts — https://www.courtlistener.com (caselaw) — Court opinions are generally public domain (CourtListener terms); no licence stated for the database itself; needs free key: your own CourtListener API token (env WLM_US_COURTLISTENER_KEY); the terms forbid sharing it; UNOFFICIAL
+  - ⚠ CourtListener is the largest free collection of US case law (over nine million decisions, by Free Law Project's count), built by the non-profit Free Law Project from court websites and scanned reporters. It is not the courts' own publication, and Free Law Project does not produce, endorse or check your AI's analysis of it. Check the opinion against the court's copy before relying on it.
+- Tools: none
+- Notes: Inactive: needs your own free CourtListener API token. Create an account at courtlistener.com and set WLM_US_COURTLISTENER_KEY (see docs/KEYS.md).
+
+**Does not reach**
+
+- State statutes and codes: not in CourtListener; each legislature publishes its own (not built yet)
+- State trial courts: mostly not published online, so mostly not covered
+- Free accounts allow 5 requests a minute and 125 a day: a search is 1 request, a decision 2
+- Federal courts: use jurisdiction 'us' (official sources: govinfo, supremecourt.gov)
 
 ## Uruguay (`uy`)
 

@@ -25,6 +25,7 @@
  "key_fr_id": "Perancis: client ID PISTE",
  "key_fr_secret": "Perancis: client secret PISTE",
  "key_us": "Amerika Syarikat: kunci api.data.gov",
+ "key_us_cl": "Amerika Syarikat: kunci CourtListener",
  "keys_saved": "Kunci disimpan. Tutup dan buka semula aplikasi anda untuk menggunakannya.",
  "keys_unchanged": "Tiada kunci diubah.",
  "keys_no_apps": "Fontes belum disediakan dalam mana-mana aplikasi. Pasangkannya dahulu.",

@@ -2,12 +2,13 @@
 
 # Clave API
 
-Haimete opaite ypykue Fontes-pe oiko clave'ỹre. Mokõi oikotevẽ peteĩ reigua:
+Haimete opaite ypykue Fontes-pe oiko clave'ỹre. Mbohapy oikotevẽ peteĩ reigua:
 
 | Clave | Mba'épa oipe'a | Ndaipóriramo |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francia: Judilibre (tribunalkuéra sentencia) ha Légifrance (léikuéra) | Francia oĩ mbogue. `list_jurisdictions` ohechauka ndoikóiháicha. |
 | `WLM_US_GOVINFO_KEY` | Estados Unidos: govinfo jeheka (tribunal federal opinión, Statutes at Large, public laws) | Fontes oipuru `DEMO_KEY` ojepurúva oñondive: 10 jeheka rupi ára ha ára peteĩteĩ IP dirección-pe g̃uarã. Peteĩ sentencia ojekuaáva jeipe'a ha US Code noikotevẽi clave. |
+| `WLM_US_COURTLISTENER_KEY` | Estados Unidos estado-kuéra tribunal (`us-states`): opinión tribunal supremo ha de apelación 50 estado ha DC-pegua, CourtListener-gui | Estados Unidos estado-kuéra jurisprudencia oĩ mbogue. `list_jurisdictions` ohechauka ndoikóiháicha. |
 
 Clave-kuéra ojeiporavo hag̃ua. Ikatu rembojoapy upéi.
 
@@ -81,6 +82,22 @@ Condicionkuéra, mbykyhápe:
   Ehecha [govinfo's policies](https://www.govinfo.gov/about/policies) ha
   [data.gov privacy policy](https://data.gov/privacy-policy/).
 - Eñongatu clave nde añoite g̃uarã.
+
+## Estados Unidos estado-kuéra tribunal: CourtListener (reigua)
+
+CourtListener omotenondéva [Free Law Project](https://free.law), peteĩ organización ojehepyme'ẽ'ỹva ombyatýva 2010 guive Estados Unidos tribunal opinión ha omoĩva opavavépe reigua. Hembiapo ñemoĩ he'iháicha, oguereko nueve millón sentencia ári. Ndaha'éi fuente oficial: tribunalkuéra voi omoherakuã hembiapokue, ha CourtListener ombyaty chupekuéra tribunal sitio web ha léi kuatiañe'ẽ escaneada-gui. Opaite Fontes mbohovái upégui he'i upéva. Fontes ndojoajúi Free Law Project ndive.
+
+1. Embosako'i peteĩ cuenta reigua [courtlistener.com](https://www.courtlistener.com/sign-in/)-pe.
+2. Eipe'a nde perfil ha ekopia nde API token.
+3. Emboguata **Add or change keys** ha emboja CourtListener clave ramo.
+
+Condicionkuéra, mbykyhápe ([condición pukukue](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token ndeve añoite g̃uarã: ani reñomoirũ, reñembyaty térã rereñoi jey, ha ani reipuru heta cuenta.
+- Nde reresarai'ỹ mba'épa peteĩ aplicación IA ojapo nde token reheve.
+- Ani remoĩ peteĩ IA análisis hembiapokue rehegua ojejapo, ojehechakuaa térã ojehecha Free Law Project-pe.
+- Peteĩ cuenta reigua oheja 5 jerure minuto rupi, 50 aravo rupi ha 125 ára rupi. Peteĩ jeheka ha'e peteĩ jerure; peteĩ sentencia jeipe'a ha'e mokõi. Free Law Project miembro ramo omoguahẽ ambue límite.
+- CourtListener ndoikuaaukái hekoete. Ehecha peteĩ opinión tribunal kopia ndive ndoguerovia mboyve.
 
 ## Moõpa oñeñongatu clave-kuéra
 

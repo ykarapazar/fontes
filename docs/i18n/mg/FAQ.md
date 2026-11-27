@@ -7,7 +7,7 @@
 Mpizara MCP maimaim-poana sy open source (Apache 2.0). Ahafahan'ny rindranasa rehetra mampiasa ny Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI sy ny hafa) mitady didim-pitsarana sy lalàna
 mivantana ao amin'ny tranonkalan'ny fitsarana sy ny fanjakana amin'ny faritra ara-pitsarana 120+ sy ireo
-fitsarana iraisam-pirenena izy (adapter 124). Mitonona ny loharanony sy misy rohy mankany amin'ny
+fitsarana iraisam-pirenena izy (adapter 125). Mitonona ny loharanony sy misy rohy mankany amin'ny
 tany am-boalohany ny valiny tsirairay.
 
 ## Ofisialy ve ireo lahatsoratra?
@@ -26,12 +26,11 @@ ara-pitsarana tsirairay.
 
 ## Faritra ara-pitsarana inona avy no rakofany, ary hatraiza ny tsarany?
 
-Adapter 124: firenena mpikambana ao amin'ny ONU 108, Hong Kong, Kosovo, Palestina, Taiwan, ny DIFC Courts
-ary fitsarana sy fikambanana iraisam-pirenena 11 (toy ny European Court of Human Rights, ny UE, ny ICJ ary
+Adapter 125: firenena mpikambana ao amin'ny ONU 108, Hong Kong, Kosovo, Palestina, Taiwan, ny DIFC Courts, ny fitsarana ao amin'ny fanjakana Amerikana ary fitsarana sy fikambanana iraisam-pirenena 11 (toy ny European Court of Human Rights, ny UE, ny ICJ ary
 ny WTO).
 
 Miovaova be ny fandrakofana. Araka ny fitsipika henjana iray (ny jurisprudence an'ny fitsarana ambony
-indrindra ankapobeny, na ny lalàm-panorenana sy ireo lalàna fototra, tratra feno), 72 amin'ireo 124 no
+indrindra ankapobeny, na ny lalàm-panorenana sy ireo lalàna fototra, tratra feno), 72 amin'ireo 125 no
 heverina ho voarakotra. Ny [COVERAGE.md](COVERAGE.md) dia mitanisa, isaky ny faritra ara-pitsarana, izay
 tratran'ny Fontes, izay tsy tratrany, ary ny antony.
 
@@ -46,6 +45,7 @@ jereo ny [KEYS.md](KEYS.md).
 - **Etazonia:** tsy voatery. Mandeha tsy misy fanalahidy ny fikarohana didim-pitsarana, saingy ny fanalahidy
   demo iombonana dia tsy mamela afa-tsy fikarohana 10 eo ho eo isan'andro isaky ny adiresy IP. Ampitomboin'ny
   fanalahidy api.data.gov maimaim-poana ao amin'ny `WLM_US_GOVINFO_KEY` izany.
+- **Fitsarana ao amin'ny fanjakana Amerikana:** eny. Maty ny jurisprudence an'ny fanjakana (`us-states`) mandra-pametrakao ny `WLM_US_COURTLISTENER_KEY` amin'ny API token CourtListener maimaim-poana anao manokana. Ny CourtListener dia tantanan'ny fikambanana tsy mitady tombony Free Law Project; tsy loharano ofisialy izy, ary milaza izany ny valiny rehetra.
 
 Apetraho ho environment variables ho an'ny mpizara Fontes ireo ao amin'ny fandrindrana MCP an'ny
 rindranasanao. Ny mpametraka dia mangataka ireo aorian'ny fametrahana, ary ny launcher-ny

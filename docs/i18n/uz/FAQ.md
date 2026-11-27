@@ -6,7 +6,7 @@
 
 Bepul, ochiq kodli MCP server (Apache 2.0). U Model Context Protocol’ni qoʻllab-quvvatlaydigan
 har qanday ilovaga (Claude, Codex, Cursor, VS Code, Gemini CLI va boshqalar) 120 dan ortiq
-yurisdiksiya va xalqaro sudlarda (124 ta adapter) sud qarorlari va qonunchilikni sud va davlat
+yurisdiksiya va xalqaro sudlarda (125 ta adapter) sud qarorlari va qonunchilikni sud va davlat
 veb-saytlarida jonli qidirish imkonini beradi. Har bir natija oʻz manbasini koʻrsatadi va asl
 nusxaga havola beradi.
 
@@ -25,12 +25,12 @@ keltirishdan oldin rasmiy nashrni tekshiring. [README](README.md#qamrov) dagi qa
 
 ## Qaysi yurisdiksiyalarni qamrab oladi va qanchalik yaxshi
 
-124 ta adapter: BMTning 108 aʼzo davlati, Gonkong, Kosovo, Falastin, Tayvan, DIFC sudlari va 11 ta
+125 ta adapter: BMTning 108 aʼzo davlati, Gonkong, Kosovo, Falastin, Tayvan, DIFC sudlari, AQSh shtatlari sudlari va 11 ta
 xalqaro sud va organ (masalan, Inson huquqlari boʻyicha Yevropa sudi, Yevropa Ittifoqi, Xalqaro
 sud va Jahon savdo tashkiloti).
 
 Qamrov keskin farq qiladi. Qatʼiy qoidaga koʻra (umumiy yurisdiksiyadagi eng yuqori sudning
-pretsedent qarorlari yoki konstitutsiya va asosiy hujjatlar toʻliq qamrab olingan) 124 tadan 72
+pretsedent qarorlari yoki konstitutsiya va asosiy hujjatlar toʻliq qamrab olingan) 125 tadan 72
 tasi qamrab olingan hisoblanadi. [COVERAGE.md](../../COVERAGE.md) har bir yurisdiksiya uchun
 Fontes nimani qamrab olishi, nimani qamrab olmasligi va nima uchunligini koʻrsatadi.
 
@@ -45,6 +45,7 @@ Deyarli har bir yurisdiksiya uchun yoʻq. Baʼzi manbalar bepul kalit talab qila
 - **Amerika Qoʻshma Shtatlari:** ixtiyoriy. Sud amaliyoti qidiruvi kalitsiz ham ishlaydi, lekin
   umumiy namoyish kaliti har bir IP manzil uchun kuniga taxminan 10 ta qidiruvga ruxsat beradi.
   `WLM_US_GOVINFO_KEY` dagi bepul api.data.gov kaliti bu cheklovni oshiradi.
+- **AQSh shtatlari sudlari:** ha. Shtatlar sud amaliyoti (`us-states`) `WLM_US_COURTLISTENER_KEY` ni oʻzingizning bepul CourtListener API tokeningizga oʻrnatmaguningizcha oʻchiq. CourtListener’ni notijorat tashkilot Free Law Project yuritadi; u rasmiy manba emas va har bir javob buni bildiradi.
 
 Ularni ilovangizning MCP sozlamalarida Fontes serverining muhit oʻzgaruvchilari sifatida
 oʻrnating. Oʻrnatuvchilar oʻrnatishdan keyin ular haqida soʻraydi, ularning

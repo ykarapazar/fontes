@@ -7,7 +7,7 @@
 Bezplatný MCP server s otvoreným zdrojovým kódom (Apache 2.0). Umožňuje každej aplikácii, ktorá
 podporuje Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI a ďalšie), vyhľadávať
 súdne rozhodnutia a právne predpisy naživo na stránkach súdov a štátnych orgánov vo viac ako 120
-jurisdikciách a medzinárodných súdoch (124 adaptérov). Každý výsledok uvádza svoj zdroj a
+jurisdikciách a medzinárodných súdoch (125 adaptérov). Každý výsledok uvádza svoj zdroj a
 odkazuje na originál.
 
 ## Sú texty oficiálne?
@@ -25,12 +25,12 @@ nich. Skôr než čokoľvek budete citovať, overte si oficiálnu publikáciu. T
 
 ## Ktoré jurisdikcie pokrýva a ako dobre?
 
-124 adaptérov: 108 členských štátov OSN, Hongkong, Kosovo, Palestína, Taiwan, súdy DIFC a 11
+125 adaptérov: 108 členských štátov OSN, Hongkong, Kosovo, Palestína, Taiwan, súdy DIFC, súdy amerických štátov a 11
 medzinárodných súdov a orgánov (napríklad Európsky súd pre ľudské práva, EÚ, Medzinárodný súdny
 dvor a WTO).
 
 Pokrytie sa výrazne líši. Podľa prísneho pravidla (precedensy najvyššieho všeobecného súdu alebo
-ústava a primárne zákony, dosiahnuté úplne) sa za pokryté považuje 72 zo 124.
+ústava a primárne zákony, dosiahnuté úplne) sa za pokryté považuje 72 zo 125.
 [COVERAGE.md](../../COVERAGE.md) pre každú jurisdikciu uvádza, čo Fontes dosahuje, čo nie a prečo.
 
 ## Potrebujem kľúč API?
@@ -43,6 +43,7 @@ Takmer pre každú jurisdikciu nie. Niektoré zdroje vyžadujú bezplatný kľú
 - **Spojené štáty:** voliteľné. Vyhľadávanie v judikatúre funguje bez kľúča, ale spoločný
   demonštračný kľúč umožňuje iba približne 10 vyhľadávaní denne na IP adresu. Bezplatný kľúč
   api.data.gov vo `WLM_US_GOVINFO_KEY` tento limit zvyšuje.
+- **Súdy amerických štátov:** áno. Judikatúra amerických štátov (`us-states`) je vypnutá, kým vo `WLM_US_COURTLISTENER_KEY` nenastavíte svoj vlastný bezplatný API token CourtListener. CourtListener prevádzkuje nezisková organizácia Free Law Project; nie je oficiálnym zdrojom a každá odpoveď to uvádza.
 
 Nastavte ich ako premenné prostredia pre server Fontes v MCP nastaveniach svojej aplikácie. Inštalátory sa na ne po inštalácii pýtajú a spúšťač **Add or change keys** ich
 neskôr zmení.

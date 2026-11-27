@@ -77,7 +77,7 @@ Gemini CLI、Zed、LM Studio 佮 Cline 內底設定 Fontes（你電腦頂有的�
 有一寡來源需要免費的金鑰：請看 [KEYS.md](KEYS.md)。
 
 <!-- map:start -->
-<p align="center"><a href="COVERAGE.md"><picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/coverage-map-dark.svg"><img src="../../assets/coverage-map.svg" alt="Fontes 涵蓋範圍目錄: 已經涵蓋：124 个內底的 72 个。" width="880"></picture></a></p>
+<p align="center"><a href="COVERAGE.md"><picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/coverage-map-dark.svg"><img src="../../assets/coverage-map.svg" alt="Fontes 涵蓋範圍目錄: 已經涵蓋：125 个內底的 72 个。" width="880"></picture></a></p>
 <!-- map:end -->
 
 ## 會當問啥物？
@@ -321,7 +321,7 @@ Fontes 是 stdio MCP 伺服器：由 MCP 用戶端啟動伊，你免家己用手
 <details>
 <summary>選用的環境變數</summary>
 
-選用的環境變數：`WLM_US_GOVINFO_KEY`（用來檢索美國裁判的免費 api.data.gov 金鑰），
+選用的環境變數：`WLM_US_GOVINFO_KEY`（用來檢索美國裁判的免費 api.data.gov 金鑰），`WLM_US_COURTLISTENER_KEY`（你家己免費的 CourtListener token：美國各州法院裁判，無伊就是關掉的），
 `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET`（無𪜶，法國就是關掉的：愛有一个已經訂閱
 Judilibre 佮 Légifrance 的免費 piste.gouv.fr 應用程式，步驟佇 `research/fr.md`），
 `WLM_PERMITTED=<codes>`（拍開條款需要許可的來源，干焦佇你提著許可了後才用），
@@ -642,6 +642,7 @@ uv run pytest tests/test_registry.py
 | us | National Archives: Constitution of the United States (transcription) (www.archives.gov) | Public domain / CC0 1.0 (NARA Copyright, Restrictions, and Permissions Notice on /global-pages/privacy.html) | 是 | 是 | 無 | Robots.txt Crawl-delay: 10 (documented); 10 s spacing, 3 pages, cached |  |
 | us | govinfo (U.S. Government Publishing Office): Statutes at Large and Public and Private Laws (www.govinfo.gov) | Public domain (US Government works, 17 U.S.C. 105; govinfo Public Domain & Copyright Notice) | 是 | 是 | None for citations ('1 Stat. 50', 'Pub. L. 117-58': link service, MODS, PDF/HTML); full-text search uses the govinfo API key like the other collections | Www.govinfo.gov: unknown; 1 s spacing, no 429 in ~40 requests (2026-11-10). api.govinfo.gov search: see the govinfo source above |  |
 | us | United States Code (Office of the Law Revision Counsel, U.S. House) (uscode.house.gov) | Public domain (US Government work, 17 U.S.C. 105) | 是 | 是 | 無 | Unknown; 1 s spacing, no 429 seen in ~10 requests (2026-11). search.xhtml and search.json.gz return 403 (Akamai) and are not used |  |
+| us-states | CourtListener (Free Law Project, a non-profit): opinions of state supreme and appellate courts (www.courtlistener.com) | Court opinions are generally public domain (CourtListener terms); no licence stated for the database itself | 毋知 | 無寫明 | Free key: your own CourtListener API token (env WLM_US_COURTLISTENER_KEY); the terms forbid sharing it | Documented: 5 requests/minute, 50/hour, 125/day per free account (API overview, 2026-11); 429 with a few seconds' Retry-After on the 6th request in a minute (measured 2026-11-27) | CourtListener is the largest free collection of US case law (over nine million decisions, by Free Law Project's count), built by the non-profit Free Law Project from court websites and scanned reporters. It is not the courts' own publication, and Free Law Project does not produce, endorse or check your AI's analysis of it. Check the opinion against the court's copy before relying on it. |
 | uy | IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales) (www.impo.com.uy) | Licencia de Datos Abiertos – Uruguay v0.1 for the ?json=true open data (IMPO Datos Abiertos page, since July 2018: commercial and non-commercial use, attribution to IMPO + licence + dataset required); but IMPO's 'Condiciones de Uso del Banco de Datos' still say use is personal and forbid copying, passing to third parties and commercialisation | 毋知 | 無寫明 | 無 | Robots.txt Crawl-Delay: 10 (honoured: 10 s spacing); no 429 seen in ~15 requests (2026-11-05). Whole codes download slowly (~15 KB/s) | robots.txt disallows /cgi-bin/ (IMPO's search), so laws are found by code name or number only. **Get IMPO's confirmation before redistributing or commercial use** (shown as a warning). |
 | uy | Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial (bjn.poderjudicial.gub.uy) | Unknown; no terms or licence page found for BJN (free access without login per its user manual) | 毋知 | 無寫明 | 無 | Unknown; 1 s spacing, no 429 seen in ~15 requests (2026-11-05); no robots.txt on bjn.poderjudicial.gub.uy (404) | No robots.txt. |
 | uz | lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre) | Lex.uz terms (/ru/axborot): personal use only; copying or distribution for profit needs the Centre's written permission | **毋是** | 無寫明 | 無 | Unknown; 1 s spacing, no 429 seen in ~25 requests (2026-11) | Personal use only: lex.uz terms allow use of its information for personal purposes only; copying, distribution or transfer for profit needs the Adolat Centre's written permission. |

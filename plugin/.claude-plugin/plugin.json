@@ -42,6 +42,13 @@
       "description": "Optional. A free api.data.gov key; without it US case-law search allows about 10 searches a day.",
       "sensitive": true,
       "required": false
+    },
+    "us_courtlistener_key": {
+      "type": "string",
+      "title": "US state courts: CourtListener token",
+      "description": "Optional. Your own free CourtListener API token; turns on US state case law (unofficial source, run by the non-profit Free Law Project).",
+      "sensitive": true,
+      "required": false
     }
   }
 }

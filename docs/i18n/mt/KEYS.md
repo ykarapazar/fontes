@@ -2,12 +2,13 @@
 
 # Ċwievet tal-API
 
-Kważi kull sors f'Fontes jaħdem mingħajr ċavetta. Tnejn jeħtieġu waħda b'xejn:
+Kważi kull sors f'Fontes jaħdem mingħajr ċavetta. Tlieta jeħtieġu waħda b'xejn:
 
 | Ċavetta | X'tiftaħ | Mingħajrha |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Franza: Judilibre (deċiżjonijiet tal-qorti) u Légifrance (leġiżlazzjoni) | Franza hija mitfija. `list_jurisdictions` jurih bħala inattiv. |
 | `WLM_US_GOVINFO_KEY` | Stati Uniti: tfittxija ta' govinfo (opinjonijiet tal-qrati federali, Statutes at Large, public laws) | Fontes juża ċ-ċavetta komuni `DEMO_KEY`: madwar 10 tfittxijiet kuljum għal kull indirizz IP. Il-ftuħ ta' deċiżjoni magħrufa u l-US Code ma jeħtiġux ċavetta. |
+| `WLM_US_COURTLISTENER_KEY` | Il-qrati statali tal-Istati Uniti (`us-states`): opinjonijiet tal-qrati supremi u tal-appell tal-50 stat kollha u tad-DC, minn CourtListener | Il-ġurisprudenza tal-qrati statali tal-Istati Uniti hija mitfija. `list_jurisdictions` juriha bħala inattiva. |
 
 Iċ-ċwievet mhumiex obbligatorji. Tista' żżidhom aktar tard.
 
@@ -82,6 +83,22 @@ It-termini, fil-qosor:
   Mhux ivverifikat. Ara [il-politiki ta' govinfo](https://www.govinfo.gov/about/policies) u
   [il-politika tal-privatezza ta' data.gov](https://data.gov/privacy-policy/).
 - Żomm iċ-ċavetta għalik.
+
+## Il-qrati statali tal-Istati Uniti: CourtListener (b'xejn)
+
+CourtListener huwa mmexxi minn [Free Law Project](https://free.law), organizzazzjoni mingħajr skop ta' qligħ li ilha tiġbor opinjonijiet tal-qrati tal-Istati Uniti mill-2010 u tagħmilhom disponibbli b'xejn għal kulħadd. Skont l-għadd tagħha stess, hija żżomm iktar minn disa' miljun deċiżjoni. Mhuwiex sors uffiċjali: il-qrati jippubblikaw l-opinjonijiet tagħhom stess, u CourtListener jiġbru mis-siti web tal-qrati u minn rapporti legali skennjati. Kull tweġiba ta' Fontes minnu tgħid hekk. Fontes mhuwiex affiljat ma' Free Law Project.
+
+1. Oħloq kont b'xejn fuq [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Iftaħ il-profil tiegħek u kkopja t-token tal-API tiegħek.
+3. Ħaddem **Add or change keys** u waħħlu bħala ċ-ċavetta ta' CourtListener.
+
+It-termini, fil-qosor ([it-termini sħaħ](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- It-token huwa tiegħek biss: ma taqsmux, ma tgħaqqdux ma' oħrajn u ma terġax tbiegħu, u tużax diversi kontijiet.
+- Int responsabbli minn dak li app tal-IA tagħmel bit-token tiegħek.
+- Tippreżentax l-analiżi ta' IA tad-data tagħhom bħallikieku ġiet prodotta, approvata jew ivverifikata minn Free Law Project.
+- Kont b'xejn jippermetti 5 talbiet fil-minuta, 50 fis-siegħa u 125 kuljum. Tfittxija hija talba waħda; il-ftuħ ta' deċiżjoni huwa tnejn. Sħubija ma' Free Law Project tgħolli l-limiti.
+- CourtListener ma jiggarantixxix l-eżattezza. Iċċekkja opinjoni mal-kopja tal-qorti qabel ma tistrieħ fuqha.
 
 ## Fejn jinħażnu ċ-ċwievet
 

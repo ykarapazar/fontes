@@ -19,14 +19,16 @@
       "env": {
         "WLM_FR_PISTE_CLIENT_ID": "${user_config.fr_piste_client_id}",
         "WLM_FR_PISTE_CLIENT_SECRET": "${user_config.fr_piste_client_secret}",
-        "WLM_US_GOVINFO_KEY": "${user_config.us_govinfo_key}"
+        "WLM_US_GOVINFO_KEY": "${user_config.us_govinfo_key}",
+        "WLM_US_COURTLISTENER_KEY": "${user_config.us_courtlistener_key}"
       }
     }
   },
   "user_config": {
     "fr_piste_client_id": {"type": "string", "title": "France: PISTE client ID", "description": "Optional. From a free PISTE account; turns France on. Guide: https://github.com/ykarapazar/fontes/blob/main/docs/KEYS.md", "sensitive": true, "required": false, "default": ""},
     "fr_piste_client_secret": {"type": "string", "title": "France: PISTE client secret", "description": "Optional. The secret that goes with the PISTE client ID.", "sensitive": true, "required": false, "default": ""},
-    "us_govinfo_key": {"type": "string", "title": "United States: api.data.gov key", "description": "Optional. A free api.data.gov key; without it US case-law search allows about 10 searches a day.", "sensitive": true, "required": false, "default": ""}
+    "us_govinfo_key": {"type": "string", "title": "United States: api.data.gov key", "description": "Optional. A free api.data.gov key; without it US case-law search allows about 10 searches a day.", "sensitive": true, "required": false, "default": ""},
+    "us_courtlistener_key": {"type": "string", "title": "US state courts: CourtListener token", "description": "Optional. Your own free CourtListener API token; turns on US state case law (unofficial source, run by the non-profit Free Law Project).", "sensitive": true, "required": false, "default": ""}
   },
   "tools": [
     {"name": "list_jurisdictions", "description": "List the jurisdictions covered, their sources, tools and filters."},

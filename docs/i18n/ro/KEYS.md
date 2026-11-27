@@ -2,12 +2,13 @@
 
 # Chei API
 
-Aproape toate sursele din Fontes funcționează fără cheie. Două necesită o cheie gratuită:
+Aproape toate sursele din Fontes funcționează fără cheie. Trei necesită o cheie gratuită:
 
 | Cheie | Ce deblochează | Fără ea |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Franța: Judilibre (hotărâri judecătorești) și Légifrance (legislație) | Franța este dezactivată. `list_jurisdictions` o afișează ca inactivă. |
 | `WLM_US_GOVINFO_KEY` | Statele Unite: căutarea govinfo (opinii ale instanțelor federale, Statutes at Large, legi publice) | Fontes folosește cheia comună `DEMO_KEY`: aproximativ 10 căutări pe zi pentru fiecare adresă IP. Deschiderea unei hotărâri cunoscute și US Code nu necesită cheie. |
+| `WLM_US_COURTLISTENER_KEY` | Instanțele statale din SUA (`us-states`): hotărâri ale curților supreme și de apel din toate cele 50 de state și din DC, de la CourtListener | Jurisprudența instanțelor statale din SUA este dezactivată. `list_jurisdictions` o afișează ca inactivă. |
 
 Cheile sunt opționale. Le puteți adăuga mai târziu.
 
@@ -75,6 +76,22 @@ Condițiile, pe scurt:
   Vedeți [politicile govinfo](https://www.govinfo.gov/about/policies) și
   [politica de confidențialitate data.gov](https://data.gov/privacy-policy/).
 - Păstrați cheia doar pentru dumneavoastră.
+
+## Instanțele statale din SUA: CourtListener (gratuit)
+
+CourtListener este administrat de [Free Law Project](https://free.law), o organizație non-profit care adună hotărâri ale instanțelor din SUA din 2010 și le pune gratuit la dispoziția tuturor. Potrivit propriei evidențe, conține peste nouă milioane de hotărâri. Nu este o sursă oficială: instanțele își publică propriile hotărâri, iar CourtListener le adună de pe site-urile instanțelor și din culegeri de jurisprudență scanate. Fiecare răspuns Fontes provenit de acolo spune acest lucru. Fontes nu este afiliat cu Free Law Project.
+
+1. Creați un cont gratuit pe [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Deschideți-vă profilul și copiați tokenul API.
+3. Rulați **Adăugați sau modificați cheile** și lipiți-l drept cheie CourtListener.
+
+Condițiile, pe scurt ([condițiile complete](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Tokenul este numai al dumneavoastră: nu îl partajați, nu îl grupați cu altele și nu îl revindeți, și nu folosiți mai multe conturi.
+- Sunteți responsabil pentru ce face o aplicație AI cu tokenul dumneavoastră.
+- Nu prezentați analiza făcută de o AI asupra datelor lor ca fiind produsă, aprobată sau verificată de Free Law Project.
+- Un cont gratuit permite 5 cereri pe minut, 50 pe oră și 125 pe zi. O căutare este o cerere; deschiderea unei hotărâri înseamnă două. Un abonament de membru Free Law Project ridică limitele.
+- CourtListener nu garantează acuratețea. Verificați o hotărâre față de exemplarul instanței înainte de a vă baza pe ea.
 
 ## Unde sunt stocate cheile
 

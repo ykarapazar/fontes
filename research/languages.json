@@ -235,6 +235,7 @@
     "tt",
     "untc",
     "us",
+    "us-states",
     "wto"
    ],
    "cldr_rank": 1
@@ -2589,6 +2590,13 @@
     "en"
    ],
    "basis": "CLDR officialStatus",
+   "territory": "US"
+  },
+  "us-states": {
+   "languages": [
+    "en"
+   ],
+   "basis": "US state courts: CLDR's languages for the United States",
    "territory": "US"
   },
   "uy": {

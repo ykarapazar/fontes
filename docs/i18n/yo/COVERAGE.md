@@ -2,13 +2,13 @@
 
 # Àtòjọ ìbòrí (coverage) Fontes
 
-Adapter 124; ìpínlẹ̀ ọmọ ẹgbẹ́ UN 85 tí kò ní ọ̀kan.
+Adapter 125; ìpínlẹ̀ ọmọ ẹgbẹ́ UN 85 tí kò ní ọ̀kan.
 
 ## Káàdì àbájáde ìbòrí (coverage)
 
 A ka agbègbè ìdájọ́ (jurisdiction) sí èyí tí a bò nígbà tí Fontes bá dé ọ̀kan nínú agbègbè méjì pátápátá: àwọn ìdájọ́ àpẹẹrẹ (precedents) ilé-ẹjọ́ gbogbogbò tó ga jù lọ rẹ̀ (bí Yargıtay), tàbí òfin-ìpìlẹ̀ (constitution) rẹ̀ àti àwọn òfin àkọ́kọ́ (primary acts) (ìpele kanun àti lókè). Òfin ẹ̀ka kejì (secondary legislation) àti àwọn ilé-ẹjọ́ kékeré kò kà. ✅ pé (a kọ àwọn àlàfo kékeré sílẹ̀), ◐ àlàfo (ohun kan tí a tẹ̀ jáde kò sí, tàbí orísun wà ní pípa títí di ìgbà àṣẹ), ❌ kò sí. Àwọn ìpinnu ìdájọ́-ara wà nínú research/scorecard_overrides.json.
 
-**A bò ó: 72 nínú 124.**
+**A bò ó: 72 nínú 125.**
 
 | Kóòdù | Agbègbè ìdájọ́ (jurisdiction) | Ìdájọ́ àpẹẹrẹ ilé-ẹjọ́ tó ga jù | Òfin-ìpìlẹ̀ + òfin | A bò ó | Ohun tí kò sí |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ A ka agbègbè ìdájọ́ (jurisdiction) sí èyí tí a bò nígbà tí Fontes
 | `tj` | Tajikistan | ❌ | ◐ | bẹ́ẹ̀kọ́ | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | bẹ́ẹ̀kọ́ | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | bẹ́ẹ̀kọ́ |  |
+| `us-states` | United States (state courts) | – | – | bẹ́ẹ̀kọ́ |  |
 | `vn` | Vietnam | ◐ | ◐ | bẹ́ẹ̀kọ́ | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | bẹ́ẹ̀kọ́ | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

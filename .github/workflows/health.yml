@@ -32,6 +32,7 @@ jobs:
         id: check
         env:
           WLM_US_GOVINFO_KEY: ${{ secrets.WLM_US_GOVINFO_KEY }}
+          WLM_US_COURTLISTENER_KEY: ${{ secrets.WLM_US_COURTLISTENER_KEY }}
         run: |
           new="research/health/$(date -u +%F).json"
           prev=$(ls research/health/????-??-??.json 2>/dev/null | grep -v "$new" | sort | tail -n 1)

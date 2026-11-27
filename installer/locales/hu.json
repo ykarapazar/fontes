@@ -25,6 +25,7 @@
  "key_fr_id": "Franciaország: PISTE client ID",
  "key_fr_secret": "Franciaország: PISTE client secret",
  "key_us": "Egyesült Államok: api.data.gov kulcs",
+ "key_us_cl": "Egyesült Államok: CourtListener kulcs",
  "keys_saved": "A kulcsok mentve. A használatukhoz lépjen ki az alkalmazásaiból, és nyissa meg őket újra.",
  "keys_unchanged": "Egyetlen kulcs sem változott.",
  "keys_no_apps": "A Fontes még egyetlen alkalmazásban sincs beállítva. Előbb telepítse.",

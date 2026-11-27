@@ -25,6 +25,7 @@
  "key_fr_id": "Francja: identyfikator klienta PISTE",
  "key_fr_secret": "Francja: klucz tajny klienta PISTE",
  "key_us": "Stany Zjednoczone: klucz api.data.gov",
+ "key_us_cl": "Stany Zjednoczone: klucz CourtListener",
  "keys_saved": "Klucze zapisane. Zamknij i ponownie otwórz aplikacje, aby ich używać.",
  "keys_unchanged": "Nie zmieniono żadnych kluczy.",
  "keys_no_apps": "Fontes nie jest jeszcze skonfigurowany w żadnej aplikacji. Najpierw go zainstaluj.",

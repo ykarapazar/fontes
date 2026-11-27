@@ -2,12 +2,13 @@
 
 # API kalitlari
 
-Fontes’ning deyarli har bir manbasi kalitsiz ishlaydi. Ikkitasiga bepul kalit kerak:
+Fontes’ning deyarli har bir manbasi kalitsiz ishlaydi. Uchtasiga bepul kalit kerak:
 
 | Kalit | Nimani ochadi | Usiz |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Fransiya: Judilibre (sud qarorlari) va Légifrance (qonunchilik) | Fransiya oʻchiq. `list_jurisdictions` uni nofaol deb koʻrsatadi. |
 | `WLM_US_GOVINFO_KEY` | Amerika Qoʻshma Shtatlari: govinfo qidiruvi (federal sud qarorlari, Statutes at Large, public laws) | Fontes umumiy `DEMO_KEY` dan foydalanadi: har bir IP manzil uchun kuniga taxminan 10 ta qidiruv. Maʼlum qarorni ochish va US Code uchun kalit kerak emas. |
+| `WLM_US_COURTLISTENER_KEY` | AQSh shtatlari sudlari (`us-states`): CourtListener’dan barcha 50 shtat va DC ning oliy va apellyatsiya sudlari qarorlari | AQSh shtatlari sud amaliyoti oʻchiq. `list_jurisdictions` uni nofaol deb koʻrsatadi. |
 
 Kalitlar ixtiyoriy. Ularni keyinroq qoʻshishingiz mumkin.
 
@@ -81,6 +82,22 @@ Shartlar qisqacha:
   Tasdiqlanmagan. [govinfo siyosatlari](https://www.govinfo.gov/about/policies) va
   [data.gov maxfiylik siyosati](https://data.gov/privacy-policy/) ga qarang.
 - Kalitni oʻzingizda saqlang.
+
+## AQSh shtatlari sudlari: CourtListener (bepul)
+
+CourtListener’ni [Free Law Project](https://free.law) yuritadi. Bu notijorat tashkilot 2010-yildan beri AQSh sudlarining qarorlarini yigʻib, ularni hamma uchun bepul qilib kelmoqda. Oʻz hisobiga koʻra, unda toʻqqiz milliondan ortiq qaror bor. Bu rasmiy manba emas: sudlar oʻz qarorlarini oʻzlari eʼlon qiladi, CourtListener esa ularni sudlarning veb-saytlaridan va skanerlangan qonun hisobotlaridan yigʻadi. Fontes’ning undan olingan har bir javobi buni bildiradi. Fontes Free Law Project bilan bogʻliq emas.
+
+1. [courtlistener.com](https://www.courtlistener.com/sign-in/) da bepul hisob yarating.
+2. Profilingizni oching va API tokeningizni nusxalang.
+3. **Add or change keys** ni ishga tushiring va uni CourtListener kaliti sifatida joylashtiring.
+
+Shartlar qisqacha ([toʻliq shartlar](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token faqat sizniki: uni boshqalarga bermang, boshqalarning tokeni bilan birlashtirmang va qayta sotmang, bir nechta hisobdan foydalanmang.
+- Sun’iy intellekt ilovasi tokeningiz bilan nima qilishi uchun siz javobgarsiz.
+- Sun’iy intellektning ularning maʼlumotlari tahlilini Free Law Project tomonidan tayyorlangan, maʼqullangan yoki tekshirilgan deb koʻrsatmang.
+- Bepul hisob daqiqasiga 5 ta, soatiga 50 ta va kuniga 125 ta soʻrovga ruxsat beradi. Bitta qidiruv bitta soʻrov; qarorni ochish ikkita soʻrov. Free Law Project aʼzoligi cheklovlarni oshiradi.
+- CourtListener aniqlikka kafolat bermaydi. Qarorga tayanishdan oldin uni sudning nusxasi bilan solishtiring.
 
 ## Kalitlar qayerda saqlanadi
 

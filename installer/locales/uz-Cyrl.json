@@ -25,6 +25,7 @@
  "key_fr_id": "Франция: PISTE client ID",
  "key_fr_secret": "Франция: PISTE client secret",
  "key_us": "АҚШ: api.data.gov калити",
+ "key_us_cl": "АҚШ: CourtListener калити",
  "keys_saved": "Калитлар сақланди. Улардан фойдаланиш учун иловаларингизни ёпиб, қайта очинг.",
  "keys_unchanged": "Ҳеч қандай калит ўзгартирилмади.",
  "keys_no_apps": "Fontes ҳали ҳеч қайси иловада созланмаган. Аввал уни ўрнатинг.",

@@ -2,12 +2,13 @@
 
 # Mga API key
 
-Gumagana nang walang key ang halos bawat sanggunian sa Fontes. Dalawa ang nangangailangan ng libreng key:
+Gumagana nang walang key ang halos bawat sanggunian sa Fontes. Tatlo ang nangangailangan ng libreng key:
 
 | Key | Binubuksan | Kung wala ito |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | France: Judilibre (mga desisyon ng korte) at Légifrance (lehislasyon) | Naka-off ang France. Ipinapakita ito ng `list_jurisdictions` bilang hindi aktibo. |
 | `WLM_US_GOVINFO_KEY` | United States: paghahanap sa govinfo (mga opinyon ng federal court, Statutes at Large, public laws) | Ginagamit ng Fontes ang shared na `DEMO_KEY`: mga 10 paghahanap bawat araw bawat IP address. Hindi kailangan ng key para magbukas ng kilalang desisyon at ng US Code. |
+| `WLM_US_COURTLISTENER_KEY` | Mga state court ng US (`us-states`): mga opinyon ng mga supreme at appellate court ng lahat ng 50 estado at ng DC, mula sa CourtListener | Naka-off ang jurisprudence ng mga estado ng US. Ipinapakita ito ng `list_jurisdictions` bilang hindi aktibo. |
 
 Opsyonal ang mga key. Maaari mo itong idagdag sa ibang pagkakataon.
 
@@ -81,6 +82,22 @@ Ang mga tuntunin, sa madaling sabi:
   Hindi pa napatutunayan. Tingnan ang [mga patakaran ng govinfo](https://www.govinfo.gov/about/policies) at
   ang [privacy policy ng data.gov](https://data.gov/privacy-policy/).
 - Itago ang key para sa iyong sarili.
+
+## Mga state court ng US: CourtListener (libre)
+
+Pinapatakbo ang CourtListener ng [Free Law Project](https://free.law), isang non-profit na nangongolekta ng mga opinyon ng korte ng US mula pa noong 2010 at ginagawa itong libre para sa lahat. Ayon sa sarili nitong bilang, mahigit siyam na milyong desisyon ang hawak nito. Hindi ito opisyal na sanggunian: ang mga korte mismo ang naglalathala ng kanilang mga opinyon, at kinokolekta lamang ng CourtListener ang mga ito mula sa mga website ng korte at mga na-scan na law report. Sinasabi ito ng bawat sagot ng Fontes mula rito. Walang kaugnayan ang Fontes sa Free Law Project.
+
+1. Gumawa ng libreng account sa [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Buksan ang iyong profile at kopyahin ang iyong API token.
+3. Patakbuhin ang **Add or change keys** at i-paste ito bilang CourtListener key.
+
+Ang mga tuntunin, sa madaling sabi ([buong tuntunin](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Sa iyo lamang ang token: huwag itong ibahagi, pagsama-samahin o ibenta muli, at huwag gumamit ng maraming account.
+- Ikaw ang responsable sa ginagawa ng isang AI app gamit ang iyong token.
+- Huwag ipakita ang pagsusuri ng isang AI sa kanilang data na parang ginawa, inendorso o sinuri ng Free Law Project.
+- Pinapayagan ng libreng account ang 5 request kada minuto, 50 kada oras at 125 kada araw. Isang request ang isang paghahanap; dalawa ang pagbubukas ng isang desisyon. Mas mataas ang limitasyon sa membership sa Free Law Project.
+- Hindi ginagarantiya ng CourtListener ang katumpakan. Ihambing ang isang opinyon sa kopya ng korte bago ka umasa rito.
 
 ## Saan iniimbak ang mga key
 

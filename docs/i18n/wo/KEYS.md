@@ -2,12 +2,13 @@
 
 # Caabi API
 
-Lu ëpp ci cosaan yi ci Fontes dañuy dox te amuñu caabi. Ñaar soxla nañu caabi bu ñu joxe ci neen:
+Lu ëpp ci cosaan yi ci Fontes dañuy dox te amuñu caabi. Ñett soxla nañu caabi bu ñu joxe ci neen:
 
 | Caabi | Li muy ubbi | Su amul |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Faraas: Judilibre (àtte yi) ak Légifrance (yoon yi) | Faraas dafa fey. `list_jurisdictions` dafay won ne doxul. |
 | `WLM_US_GOVINFO_KEY` | Etaa-Sini: gëstu ci govinfo (àtte yu àttekaay federaal yi, Statutes at Large, public laws) | Fontes dafay jëfandikoo caabi `DEMO_KEY` bi ñuy bokk: lu tollu ci 10 gëstu ci bés bi ci adrees IP bu nekk. Ngir ubbi ab àtte boo xam ba noppi ak US Code, soxlaa caabi. |
+| `WLM_US_COURTLISTENER_KEY` | Àttekaay yu stat yu Etaa-Sini yi (`us-states`): àtte yu àttekaay yu kawe yi ak yu ñuy dellu ci yépp ci 50 stat yi ak DC, jóge ci CourtListener | Àtte yu stat yu Etaa-Sini yi dafay fey. `list_jurisdictions` dafay wone ni dafa tëj. |
 
 Caabi yi, su la neexee lañu. Mën nga leen yokk ginnaaw.
 
@@ -79,6 +80,22 @@ Sàrt yi, ci lu gàtt:
   Xoolal [politik yu govinfo](https://www.govinfo.gov/about/policies) ak
   [politik sutura bu data.gov](https://data.gov/privacy-policy/).
 - Denc caabi bi ci sa bopp.
+
+## Àttekaay yu stat yu Etaa-Sini yi: CourtListener (ci neen)
+
+[Free Law Project](https://free.law) mooy dugal CourtListener, mbootaay (non-profit) bu amul njariñ, bu nga xam ne dafa dajale àtte yu àttekaay yu Etaa-Sini yi ca atum 2010 te di leen joxe ñépp ci neen. Ni mu ko tërale boppam, am na ci ay àtte yu ëpp ñeent-fukk ak juroom-benn milyoŋ. Du cosaan bu am sañ-sañ: àttekaay yi ñoo bokk di wàcce seeni àtte, te CourtListener dafay leen dajale ci sàmmu web yu àttekaay yi ak ci téereem àtte yi ñu skane. Tontu bu nekk bu Fontes jële ca moom dafay wax loolu. Fontes dafa bokkul ak Free Law Project.
+
+1. Sosal ab kontu bu ñu joxe ci neen ci [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Ubbil sa profil te kopil sa token API.
+3. Doxal **Yokk walla soppi caabi yi** te tafal ko ni caabi CourtListener.
+
+Sàrt yi, ci lu gàtt ([sàrt yépp](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token bi say yaw rekk la: bu ko séddoo, bu ko boole ak yeneen, bu ko jaaye, te bu jëfandikoo ay kontu yu bari.
+- Yaw ngay tontu ci li aplikasioŋ AI di def ak sa token.
+- Bul wone ne Free Law Project moo defar, nangu walla seet xam-xam bu AI mi def ci seeni donne.
+- Kontu bu ñu joxe ci neen dafay may 5 laaj ci simili, 50 ci waxtu, ak 125 ci bés. Wut bi benn laaj la; ubbi àtte bi ñaar la. Bokk ci Free Law Project dafay yokk dayo yi.
+- CourtListener du wóor ne lépp dëgg la. Seetal àtte bi ci kopi àttekaay bi laata nga koy sukkandikoo.
 
 ## Fu ñuy denc caabi yi
 

@@ -6,7 +6,7 @@
 
 Mugt, açyk çeşme kodly MCP serweri (Apache 2.0). Ol Model Context Protocol bilen işleýän
 islendik programma (Claude, Codex, Cursor, VS Code, Gemini CLI we beýlekiler) 120-den gowrak
-ýurisdiksiýada we halkara kazyýetlerinde (124 adapter) kazyýet çözgütlerini we kanunçylygy
+ýurisdiksiýada we halkara kazyýetlerinde (125 adapter) kazyýet çözgütlerini we kanunçylygy
 kazyýet we döwlet saýtlarynda göni gözlemäge mümkinçilik berýär. Her netije öz çeşmesini
 atlandyrýar we asyl nusga salgylanýar.
 
@@ -25,12 +25,11 @@ we `list_jurisdictions` her ýurisdiksiýa üçin çeşmäni atlandyrýar.
 
 ## Ol haýsy ýurisdiksiýalary we näderejede gowy öz içine alýar?
 
-124 adapter: BMG-niň 108 agza döwleti, Gonkong, Kosowo, Palestina, Taýwan, DIFC Courts we
-11 halkara kazyýeti we edarasy (meselem, Adam hukuklary boýunça Ýewropa kazyýeti, ÝB, Halkara
+125 adapter: BMG-niň 108 agza döwleti, Gonkong, Kosowo, Palestina, Taýwan, DIFC Courts, ABŞ-nyň ştat kazyýetleri we 11 halkara kazyýeti we edarasy (meselem, Adam hukuklary boýunça Ýewropa kazyýeti, ÝB, Halkara
 kazyýeti (ICJ) we BSG).
 
 Gerim ep-esli tapawutlanýar. Berk düzgün boýunça (iň ýokary umumy kazyýetiň presedentleri
-ýa-da konstitusiýa we esasy kanunlar doly ýetilýän bolsa) 124-den 72-si öz içine alnan
+ýa-da konstitusiýa we esasy kanunlar doly ýetilýän bolsa) 125-den 72-si öz içine alnan
 hasaplanýar. [COVERAGE.md](../../COVERAGE.md) her ýurisdiksiýa üçin Fontes-iň nämä ýetýändigini,
 nämä ýetmeýändigini we näme üçindigini görkezýär.
 
@@ -45,6 +44,7 @@ nämä ýetmeýändigini we näme üçindigini görkezýär.
 - **Amerikanyň Birleşen Ştatlary:** islege bagly. Kazyýet tejribesi boýunça gözleg açarsyz
   işleýär, ýöne umumy demo açar bir IP salgy üçin günde takmynan 10 gözlege rugsat berýär.
   `WLM_US_GOVINFO_KEY` içindäki mugt api.data.gov açary bu çägi ýokarlandyrýar.
+- **ABŞ-nyň ştat kazyýetleri:** hawa. Ştatlaryň kazyýet tejribesi (`us-states`) `WLM_US_COURTLISTENER_KEY` öz mugt CourtListener API tokeniňize goýulýança öçük. CourtListener-i girdejisiz gurama Free Law Project dolandyrýar; ol resmi çeşme däl we her jogap muny aýdýar.
 
 Bulary programmaňyzyň MCP sazlamalarynda Fontes serweri üçin gurşaw üýtgeýänleri hökmünde
 goýuň. Gurnaýjylar gurnalandan soň olary soraýar, olaryň **Add or change keys**

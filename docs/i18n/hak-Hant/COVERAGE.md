@@ -2,13 +2,13 @@
 
 # Fontes 涵蓋範圍目錄
 
-124 个轉接器；85 个聯合國會員國還吂有轉接器。
+125 个轉接器；85 个聯合國會員國還吂有轉接器。
 
 ## 涵蓋範圍評分表
 
 Fontes 若係完整拿著下背兩个領域个其中至少一个，該个法域就算做已經涵蓋：佢最高普通法院个先例（相當於 Yargıtay 个），或者佢个憲法同主要法律（kanun 層級以上）。次級法規同下級法院無算。✅ 完整（有註明細項个缺漏），◐ 有缺口（有已經公開个內容無拿著，或者來源在拿著許可以前係關忒个），❌ 無。判斷性个決定記在 research/scorecard_overrides.json。
 
-**已經涵蓋：124 个肚項个 72 个。**
+**已經涵蓋：125 个肚項个 72 个。**
 
 | 代碼 | 法域 | 最高法院先例 | 憲法 + 法律 | 已涵蓋 | 缺漏个內容 |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Fontes 若係完整拿著下背兩个領域个其中至少一个，該个法域�
 | `tj` | Tajikistan | ❌ | ◐ | 毋係 | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | 毋係 | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | 毋係 |  |
+| `us-states` | United States (state courts) | – | – | 毋係 |  |
 | `vn` | Vietnam | ◐ | ◐ | 毋係 | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | 毋係 | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

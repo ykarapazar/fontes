@@ -7,7 +7,7 @@
 Un servidor MCP gratuït i de codi obert (Apache 2.0). Permet que qualsevol aplicació que parli el
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI i altres) cerqui resolucions
 judicials i legislació en directe des de llocs web judicials i governamentals de més de 120
-jurisdiccions i tribunals internacionals (124 adaptadors). Cada resultat indica la seva font i enllaça
+jurisdiccions i tribunals internacionals (125 adaptadors). Cada resultat indica la seva font i enllaça
 amb l'original.
 
 ## Els textos són oficials?
@@ -26,12 +26,11 @@ d'aquestes. Abans de citar res, comproveu la publicació oficial. La taula de co
 
 ## Quines jurisdiccions cobreix, i fins a quin punt?
 
-124 adaptadors: 108 estats membres de l'ONU, Hong Kong, Kosovo, Palestina, Taiwan, els DIFC Courts i
-11 tribunals i organismes internacionals (com ara el Tribunal Europeu de Drets Humans, la UE, la CIJ i
+125 adaptadors: 108 estats membres de l'ONU, Hong Kong, Kosovo, Palestina, Taiwan, els DIFC Courts, els tribunals estatals dels EUA i 11 tribunals i organismes internacionals (com ara el Tribunal Europeu de Drets Humans, la UE, la CIJ i
 l'OMC).
 
 La cobertura varia molt. Segons un criteri estricte (la jurisprudència del tribunal suprem de la
-jurisdicció ordinària, o la constitució i les lleis, abastades íntegrament), 72 de les 124 compten com
+jurisdicció ordinària, o la constitució i les lleis, abastades íntegrament), 72 de les 125 compten com
 a cobertes. [COVERAGE.md](../../COVERAGE.md) indica, per a cada jurisdicció, què abasta Fontes, què no
 abasta i per què.
 
@@ -46,6 +45,7 @@ Per a gairebé totes les jurisdiccions, no. Algunes fonts necessiten una clau gr
 - **Estats Units:** opcional. La cerca de jurisprudència funciona sense clau, però la clau de
   demostració compartida només permet unes 10 cerques al dia per adreça IP. Una clau gratuïta
   d'api.data.gov a `WLM_US_GOVINFO_KEY` augmenta aquest límit.
+- **Tribunals estatals dels EUA:** sí. La jurisprudència estatal (`us-states`) està desactivada fins que definiu `WLM_US_COURTLISTENER_KEY` amb el vostre propi token d'API gratuït de CourtListener. CourtListener el gestiona Free Law Project, una organització sense ànim de lucre; no és una font oficial, i cada resposta ho indica.
 
 Definiu-les com a variables d'entorn per al servidor Fontes a la configuració MCP de la vostra
 aplicació. Els instal·ladors us les demanen després de la instal·lació, i la drecera

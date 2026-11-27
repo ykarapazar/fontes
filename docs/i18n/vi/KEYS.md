@@ -2,12 +2,13 @@
 
 # Khóa API
 
-Hầu hết mọi nguồn trong Fontes đều hoạt động không cần khóa. Hai nguồn cần một khóa miễn phí:
+Hầu hết mọi nguồn trong Fontes đều hoạt động không cần khóa. Ba nguồn cần một khóa miễn phí:
 
 | Khóa | Mở ra | Nếu không có |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Pháp: Judilibre (bản án) và Légifrance (văn bản quy phạm pháp luật) | Pháp bị tắt. `list_jurisdictions` hiển thị Pháp là không hoạt động. |
 | `WLM_US_GOVINFO_KEY` | Hoa Kỳ: tìm kiếm govinfo (phán quyết của tòa án liên bang, Statutes at Large, public laws) | Fontes dùng `DEMO_KEY` dùng chung: khoảng 10 lượt tìm kiếm mỗi ngày cho mỗi địa chỉ IP. Mở một bản án đã biết và US Code không cần khóa. |
+| `WLM_US_COURTLISTENER_KEY` | Tòa án tiểu bang Hoa Kỳ (`us-states`): các phán quyết của tòa tối cao và tòa phúc thẩm của cả 50 tiểu bang và DC, từ CourtListener | Án lệ tiểu bang Hoa Kỳ bị tắt. `list_jurisdictions` hiển thị nó là không hoạt động. |
 
 Khóa là tùy chọn. Bạn có thể thêm sau.
 
@@ -73,6 +74,22 @@ Tóm tắt điều khoản:
   Xem [các chính sách của govinfo](https://www.govinfo.gov/about/policies) và
   [chính sách quyền riêng tư của data.gov](https://data.gov/privacy-policy/).
 - Giữ khóa cho riêng bạn.
+
+## Tòa án tiểu bang Hoa Kỳ: CourtListener (miễn phí)
+
+CourtListener do [Free Law Project](https://free.law) vận hành, một tổ chức phi lợi nhuận đã thu thập các phán quyết của tòa án Hoa Kỳ từ năm 2010 và cung cấp miễn phí cho mọi người. Theo số liệu của chính họ, CourtListener có hơn chín triệu phán quyết. Đây không phải nguồn chính thức: các tòa án tự công bố phán quyết của mình, còn CourtListener thu thập chúng từ các trang web của tòa án và từ các tuyển tập án lệ được quét. Mọi câu trả lời của Fontes lấy từ nguồn này đều nêu rõ điều đó. Fontes không liên kết với Free Law Project.
+
+1. Tạo tài khoản miễn phí tại [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Mở hồ sơ của bạn và sao chép API token của bạn.
+3. Chạy **Add or change keys** và dán token vào làm khóa CourtListener.
+
+Tóm tắt điều khoản ([điều khoản đầy đủ](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token chỉ thuộc về riêng bạn: không chia sẻ, không gộp chung hay bán lại, và không dùng nhiều tài khoản.
+- Bạn chịu trách nhiệm về những gì một ứng dụng AI làm với token của bạn.
+- Không trình bày phân tích dữ liệu của họ do AI thực hiện như thể do Free Law Project tạo ra, chấp thuận hoặc kiểm tra.
+- Tài khoản miễn phí cho phép 5 yêu cầu mỗi phút, 50 mỗi giờ và 125 mỗi ngày. Một lần tìm kiếm là một yêu cầu; mở một phán quyết là hai yêu cầu. Tư cách thành viên của Free Law Project nâng các giới hạn này.
+- CourtListener không đảm bảo tính chính xác. Hãy đối chiếu phán quyết với bản của tòa án trước khi dựa vào nó.
 
 ## Nơi lưu khóa
 

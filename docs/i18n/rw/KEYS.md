@@ -2,12 +2,13 @@
 
 # Imfunguzo za API
 
-Inkomoko hafi ya zose ziri muri Fontes zikora nta rufunguzo. Ebyiri zikenera urufunguzo rw'ubuntu:
+Inkomoko hafi ya zose ziri muri Fontes zikora nta rufunguzo. Eshatu zikenera urufunguzo rw'ubuntu:
 
 | Urufunguzo | Icyo rufungura | Utarufite |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | U Bufaransa: Judilibre (ibyemezo by'inkiko) na Légifrance (amategeko) | U Bufaransa burafunze. `list_jurisdictions` ibugaragaza nk'ubudakora. |
 | `WLM_US_GOVINFO_KEY` | Leta Zunze Ubumwe za Amerika: ishakisha rya govinfo (ibyemezo by'inkiko za leta yunze ubumwe, Statutes at Large, public laws) | Fontes ikoresha urufunguzo rusangiwe `DEMO_KEY`: ishakisha rigera ku 10 ku munsi kuri buri aderesi IP. Gufungura icyemezo usanzwe uzi na US Code ntibikenera urufunguzo. |
+| `WLM_US_COURTLISTENER_KEY` | Inkiko za Leta zigize Leta Zunze Ubumwe za Amerika (`us-states`): ibyemezo by'inkiko nkuru n'iz'ubujurire z'ama Leta yose 50 na DC, biturutse kuri CourtListener | Imanza z'inkiko za Leta zigize Leta Zunze Ubumwe za Amerika zirafunze. `list_jurisdictions` irazigaragaza nk'izidakora. |
 
 Imfunguzo si itegeko. Ushobora kuzongeraho nyuma.
 
@@ -83,6 +84,22 @@ Amabwiriza, mu ncamake:
   Reba [politiki za govinfo](https://www.govinfo.gov/about/policies) na
   [politiki y'ubuzima bwite ya data.gov](https://data.gov/privacy-policy/).
 - Urufunguzo rugumane wenyine.
+
+## Inkiko za Leta zigize Leta Zunze Ubumwe za Amerika: CourtListener (ubuntu)
+
+CourtListener iyoborwa na [Free Law Project](https://free.law), umuryango udaharanira indonke umaze kuva mu 2010 ukusanya ibyemezo by'inkiko zo muri Leta Zunze Ubumwe za Amerika ukabigeza kuri bose ku buntu. Ukurikije imibare yawo bwite, ufite ibyemezo birenga miliyoni icyenda. Si inkomoko y'ubuyobozi: inkiko zitangaza ibyemezo byazo ubwazo, naho CourtListener ikabikusanya ku mbuga z'inkiko no mu nyandiko z'amategeko zasikanwe. Buri gisubizo cya Fontes gituruka kuri yo kibivuga. Fontes nta sano ifitanye na Free Law Project.
+
+1. Fungura konti y'ubuntu kuri [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Fungura umwirondoro wawe ukope API token yawe.
+3. Koresha **Ongeraho cyangwa uhindure imfunguzo** urwomeke nk'urufunguzo rwa CourtListener.
+
+Amabwiriza, mu ncamake ([amabwiriza yuzuye](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token ni iyawe wenyine: ntuyisangire n'abandi, ntuyihuze n'iz'abandi cyangwa ngo uyigurishe, kandi ntukoreshe konti nyinshi.
+- Ni wowe ubazwa ibyo porogaramu ya AI ikora na token yawe.
+- Ntugaragaze isesengura rya AI ryakozwe ku makuru yabo nk'iryakozwe, ryemejwe cyangwa ryagenzuwe na Free Law Project.
+- Konti y'ubuntu yemera ubusabe 5 ku munota, 50 ku isaha na 125 ku munsi. Ishakisha rimwe ni busabe bumwe; gufungura icyemezo ni ubusabe bubiri. Kuba umunyamuryango wa Free Law Project byongera iyo mipaka.
+- CourtListener ntiyemeza ko ibyayo ari ukuri. Genzura icyemezo ugereranyije n'inyandiko y'urukiko mbere yo kucyiringira.
 
 ## Aho imfunguzo zibikwa
 

@@ -7,7 +7,7 @@
 Ein gratis MCP-server med open kjeldekode (Apache 2.0). Han lèt alle appar som snakkar Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI og andre) søkje i rettsavgjerder og
 lovgjeving direkte på nettstadene til domstolar og styresmakter i over 120 jurisdiksjonar og internasjonale
-domstolar (124 adapterar). Kvart resultat namngjev kjelda si og lenkjer til originalen.
+domstolar (125 adapterar). Kvart resultat namngjev kjelda si og lenkjer til originalen.
 
 ## Er tekstane offisielle?
 
@@ -25,12 +25,11 @@ du siterer noko, sjekk den offisielle kunngjeringa. Dekningstabellen i
 
 ## Kva jurisdiksjonar dekkjer det, og kor godt?
 
-124 adapterar: 108 medlemsstatar i FN, Hongkong, Kosovo, Palestina, Taiwan, DIFC Courts og
-11 internasjonale domstolar og organ (som Den europeiske menneskerettsdomstolen, EU,
+125 adapterar: 108 medlemsstatar i FN, Hongkong, Kosovo, Palestina, Taiwan, DIFC Courts, delstatsdomstolane i USA og 11 internasjonale domstolar og organ (som Den europeiske menneskerettsdomstolen, EU,
 ICJ og WTO).
 
 Dekninga varierer mykje. Etter ein streng regel (prejudikata til den øvste allmenne domstolen, eller
-grunnlova og dei primære lovene, nådde fullt ut) tel 72 av dei 124 som dekte.
+grunnlova og dei primære lovene, nådde fullt ut) tel 72 av dei 125 som dekte.
 [COVERAGE.md](../../COVERAGE.md) listar opp, for kvar jurisdiksjon, kva Fontes når, kva det ikkje når,
 og kvifor.
 
@@ -44,6 +43,7 @@ For nesten alle jurisdiksjonar, nei. Somme kjelder krev ein gratis nøkkel: sjå
 - **USA:** valfritt. Søk i rettspraksis verkar utan nøkkel, men den delte demonøkkelen
   tillèt berre om lag 10 søk om dagen per IP-adresse. Ein gratis api.data.gov-nøkkel i
   `WLM_US_GOVINFO_KEY` aukar grensa.
+- **Delstatsdomstolar i USA:** ja. Rettspraksis frå delstatane (`us-states`) er av til du set `WLM_US_COURTLISTENER_KEY` til ditt eige gratis CourtListener API-token. CourtListener blir drive av den ideelle organisasjonen Free Law Project; det er ikkje ei offisiell kjelde, og kvart svar seier dette.
 
 Set desse som miljøvariablar for Fontes-serveren i MCP-innstillingane i appen din. Installasjonsprogramma
 spør etter dei etter installeringa, og startaren deira **Add or change keys**

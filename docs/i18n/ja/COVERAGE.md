@@ -2,13 +2,13 @@
 
 # Fontes 収録範囲カタログ
 
-アダプター 124 件。アダプターのない国連加盟国 85 か国。
+アダプター 125 件。アダプターのない国連加盟国 85 か国。
 
 ## 収録範囲スコアカード
 
 ある法域は、Fontes が次の 2 つの分野の少なくとも一方を完全に取得できる場合に「収録済み」とみなします: 最上位の一般裁判所（Yargıtay に相当するもの）の判例、またはその憲法と主要な法律（kanun レベル以上）。下位法令と下級裁判所は数えません。✅ 完全（軽微な欠落は注記）、◐ 欠落あり（公開されているものの一部が欠けている、または許可があるまで情報源がオフ）、❌ なし。判断を要したものは research/scorecard_overrides.json にあります。
 
-**収録済み: 124 中 72。**
+**収録済み: 125 中 72。**
 
 | コード | 法域 | 最上位裁判所の判例 | 憲法 + 法律 | 収録済み | 欠けているもの |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | 不可 | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | 不可 | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | 不可 |  |
+| `us-states` | United States (state courts) | – | – | 不可 |  |
 | `vn` | Vietnam | ◐ | ◐ | 不可 | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | 不可 | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

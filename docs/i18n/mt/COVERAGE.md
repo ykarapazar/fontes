@@ -2,13 +2,13 @@
 
 # Katalgu tal-kopertura ta' Fontes
 
-124 adapters; 85 stati membri tan-NU mingħajr wieħed.
+125 adapters; 85 stati membri tan-NU mingħajr wieħed.
 
 ## Tabella tal-kopertura (scorecard)
 
 Ġurisdizzjoni titqies koperta meta Fontes jilħaq għal kollox mill-inqas waħda minn żewġ oqsma: il-preċedenti tal-ogħla qorti ġenerali tagħha (l-ekwivalenti tal-Yargıtay), jew il-kostituzzjoni u l-atti primarji tagħha (livell kanun u 'l fuq). Il-leġiżlazzjoni sussidjarja u l-qrati inferjuri ma jgħoddux. ✅ komplut (lakuni żgħar innotati), ◐ lakuna (xi ħaġa ppubblikata nieqsa, jew is-sors mitfi sakemm jingħata l-permess), ❌ xejn. Id-deċiżjonijiet ta' ġudizzju jinsabu f'research/scorecard_overrides.json.
 
-**Koperti: 72 minn 124.**
+**Koperti: 72 minn 125.**
 
 | Kodiċi | Ġurisdizzjoni | Preċedenti tal-ogħla qorti | Kostituzzjoni + atti | Kopert | X'hemm nieqes |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | le | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | le | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | le |  |
+| `us-states` | United States (state courts) | – | – | le |  |
 | `vn` | Vietnam | ◐ | ◐ | le | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | le | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

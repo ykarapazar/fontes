@@ -6,7 +6,7 @@
 
 Ücretsiz, açık kaynaklı bir MCP sunucusudur (Apache 2.0). Model Context Protocol'ü konuşan her
 uygulamanın (Claude, Codex, Cursor, VS Code, Gemini CLI ve diğerleri) 120'den fazla yargı alanında ve
-uluslararası mahkemede (124 adaptör) mahkeme kararlarını ve mevzuatı mahkeme ve devlet internet
+uluslararası mahkemede (125 adaptör) mahkeme kararlarını ve mevzuatı mahkeme ve devlet internet
 sitelerinde canlı olarak aramasını sağlar. Her sonuç kaynağını belirtir ve asıl metne bağlantı verir.
 
 ## Metinler resmî mi?
@@ -24,11 +24,10 @@ atıf yapmadan önce resmî yayını kontrol edin. [README](README.md#kapsam) i�
 
 ## Hangi yargı alanlarını kapsıyor ve ne ölçüde?
 
-124 adaptör: 108 BM üyesi devlet, Hong Kong, Kosova, Filistin, Tayvan, DIFC Mahkemeleri ve
-11 uluslararası mahkeme ve kuruluş (Avrupa İnsan Hakları Mahkemesi, AB, UAD ve DTÖ gibi).
+125 adaptör: 108 BM üyesi devlet, Hong Kong, Kosova, Filistin, Tayvan, DIFC Mahkemeleri, ABD eyalet mahkemeleri ve 11 uluslararası mahkeme ve kuruluş (Avrupa İnsan Hakları Mahkemesi, AB, UAD ve DTÖ gibi).
 
 Kapsam çok farklıdır. Katı bir kurala göre (en yüksek genel mahkemenin emsal kararlarına ya da
-anayasa ve temel kanunlara eksiksiz ulaşılması), 124'ün 72'si kapsanmış sayılır.
+anayasa ve temel kanunlara eksiksiz ulaşılması), 125'ün 72'si kapsanmış sayılır.
 [COVERAGE.md](../../COVERAGE.md) (İngilizce), her yargı alanı için Fontes'in neye ulaştığını, neye
 ulaşmadığını ve nedenini listeler.
 
@@ -43,6 +42,7 @@ Neredeyse her yargı alanı için hayır. Bazı kaynaklar ücretsiz bir anahtar 
 - **Amerika Birleşik Devletleri:** isteğe bağlı. İçtihat araması anahtar olmadan çalışır, ancak
   ortak demo anahtarı IP adresi başına günde yalnızca yaklaşık 10 aramaya izin verir.
   `WLM_US_GOVINFO_KEY` içine konan ücretsiz bir api.data.gov anahtarı bu sınırı yükseltir.
+- **ABD eyalet mahkemeleri:** evet. Eyalet içtihadı (`us-states`), `WLM_US_COURTLISTENER_KEY` değerini kendi ücretsiz CourtListener API token'ınıza ayarlayana kadar kapalıdır. CourtListener, kâr amacı gütmeyen Free Law Project tarafından işletilir; resmî bir kaynak değildir ve her yanıt bunu belirtir.
 
 Bunları uygulamanızın MCP ayarlarında Fontes sunucusu için ortam değişkenleri olarak ayarlayın.
 Kurulum programları kurulumdan sonra bunları sorar ve **Anahtar ekle veya değiştir**

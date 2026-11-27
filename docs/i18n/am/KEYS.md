@@ -2,12 +2,13 @@
 
 # የ API ቁልፎች
 
-በ Fontes ውስጥ ያሉ ሁሉም ምንጮች ማለት ይቻላል ያለ ቁልፍ ይሠራሉ። ሁለቱ ነፃ ቁልፍ ያስፈልጋቸዋል:
+በ Fontes ውስጥ ያሉ ሁሉም ምንጮች ማለት ይቻላል ያለ ቁልፍ ይሠራሉ። ሦስቱ ነፃ ቁልፍ ያስፈልጋቸዋል:
 
 | ቁልፍ | የሚከፍተው | ያለ እሱ |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | ፈረንሳይ፦ Judilibre (የፍርድ ቤት ውሳኔዎች) እና Légifrance (ሕጎች) | ፈረንሳይ ጠፍቷል። `list_jurisdictions` እንደ ንቁ ያልሆነ (inactive) ያሳየዋል። |
 | `WLM_US_GOVINFO_KEY` | አሜሪካ፦ የ govinfo ፍለጋ (የፌዴራል ፍርድ ቤት ውሳኔዎች (opinions)፣ Statutes at Large፣ public laws) | Fontes የጋራውን `DEMO_KEY` ይጠቀማል፦ በአንድ የ IP አድራሻ በቀን ወደ 10 ፍለጋዎች። የታወቀ ውሳኔን መክፈትና US Code ቁልፍ አያስፈልጋቸውም። |
+| `WLM_US_COURTLISTENER_KEY` | የአሜሪካ ግዛት ፍርድ ቤቶች (`us-states`)፦ የሁሉም 50 ግዛቶችና የ DC ጠቅላይና ይግባኝ ፍርድ ቤቶች ውሳኔዎች (opinions)፣ ከ CourtListener | የአሜሪካ ግዛቶች የፍርድ ውሳኔዎች (case law) ጠፍተዋል። `list_jurisdictions` እንደ ንቁ ያልሆነ (inactive) ያሳየዋል። |
 
 ቁልፎች አማራጭ ናቸው። በኋላ ሊያክሏቸው ይችላሉ።
 
@@ -73,6 +74,22 @@ Fontes ቀድሞውኑ ወዳለባቸው መተግበሪያዎች ሁሉ ይገ
   [የ govinfo ፖሊሲዎችን](https://www.govinfo.gov/about/policies) እና
   [የ data.gov የግላዊነት ፖሊሲን](https://data.gov/privacy-policy/) ይመልከቱ።
 - ቁልፉን ለራስዎ ብቻ ያቆዩ።
+
+## የአሜሪካ ግዛት ፍርድ ቤቶች፦ CourtListener (ነፃ)
+
+CourtListener የሚተዳደረው ከ2010 ጀምሮ የአሜሪካ ፍርድ ቤት ውሳኔዎችን (opinions) ሲሰበስብና ለሁሉም ነፃ ሲያደርግ በቆየ ትርፍ በማይፈልግ ድርጅት (non-profit) በ [Free Law Project](https://free.law) ነው። በራሱ ቆጠራ መሠረት ከዘጠኝ ሚሊዮን በላይ ውሳኔዎችን ይዟል። ይፋዊ ምንጭ አይደለም፦ ፍርድ ቤቶች የራሳቸውን ውሳኔዎች ያትማሉ፣ CourtListener ደግሞ ከፍርድ ቤት ድረ ገጾችና ከተቃኙ የሕግ ሪፖርቶች ይሰበስባቸዋል። ከእሱ የሚመጣ እያንዳንዱ የ Fontes መልስ ይህንኑ ይናገራል። Fontes ከ Free Law Project ጋር ግንኙነት የለውም።
+
+1. በ [courtlistener.com](https://www.courtlistener.com/sign-in/) ላይ ነፃ መለያ (account) ይፍጠሩ።
+2. መገለጫዎን (profile) ይክፈቱ እና የ API ቶከንዎን (token) ይቅዱ።
+3. **ቁልፎችን አክል ወይም ቀይር** ን አስኪደው እንደ CourtListener ቁልፍ ይለጥፉት።
+
+ውሎቹ፣ በአጭሩ ([ሙሉ ውሎች](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- ቶከኑ የእርስዎ ብቻ ነው፦ አያጋሩት፣ አያሰባስቡት ወይም እንደገና አይሽጡት፣ እና ብዙ መለያዎችን አይጠቀሙ።
+- አንድ የ AI መተግበሪያ በቶከንዎ ለሚያደርገው ነገር ኃላፊነቱ የእርስዎ ነው።
+- የ AI በመረጃቸው ላይ ያደረገውን ትንተና በ Free Law Project የተሠራ፣ የተደገፈ ወይም የተመረመረ አድርገው አያቅርቡ።
+- ነፃ መለያ በደቂቃ 5፣ በሰዓት 50 እና በቀን 125 ጥያቄዎችን (requests) ይፈቅዳል። አንድ ፍለጋ አንድ ጥያቄ ነው፤ አንድን ውሳኔ መክፈት ሁለት ነው። የ Free Law Project አባልነት ገደቦቹን ያሳድጋል።
+- CourtListener ትክክለኛነትን አያረጋግጥም። ውሳኔን ከመመካትዎ በፊት ከፍርድ ቤቱ ቅጂ ጋር ያመሳስሉት።
 
 ## ቁልፎች የት ይቀመጣሉ
 

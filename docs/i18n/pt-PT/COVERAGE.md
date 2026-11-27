@@ -2,13 +2,13 @@
 
 # Catálogo de cobertura do Fontes
 
-124 adaptadores; 85 Estados-membros da ONU sem nenhum.
+125 adaptadores; 85 Estados-membros da ONU sem nenhum.
 
 ## Quadro de cobertura
 
 Uma jurisdição conta como coberta quando o Fontes alcança integralmente pelo menos uma de duas áreas: a jurisprudência do seu tribunal supremo de jurisdição comum (o equivalente ao Yargıtay) ou a sua constituição e leis (nível de lei e superior). A legislação regulamentar e os tribunais inferiores não contam. ✅ completo (pequenas lacunas anotadas), ◐ lacuna (falta algo que está publicado, ou a fonte está desativada até haver autorização), ❌ nenhum. Os casos que exigiram um juízo de apreciação constam de research/scorecard_overrides.json.
 
-**Cobertas: 72 de 124.**
+**Cobertas: 72 de 125.**
 
 | Código | Jurisdição | Jurisprudência do tribunal supremo | Constituição + leis | Coberta | O que falta |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Uma jurisdição conta como coberta quando o Fontes alcança integralmente pelo 
 | `tj` | Tajikistan | ❌ | ◐ | não | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | não | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | não |  |
+| `us-states` | United States (state courts) | – | – | não |  |
 | `vn` | Vietnam | ◐ | ◐ | não | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | não | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

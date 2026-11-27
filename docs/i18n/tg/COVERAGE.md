@@ -2,13 +2,13 @@
 
 # Феҳристи фарогирии Fontes
 
-124 адаптер; 85 давлати узви СММ адаптер надорад.
+125 адаптер; 85 давлати узви СММ адаптер надорад.
 
 ## Ҷадвали баҳодиҳии фарогирӣ
 
 Юрисдиксия фарогирифташуда ҳисобида мешавад, агар Fontes ақаллан ба яке аз ду соҳа пурра расад: прецедентҳои олитарин суди умумии он (эквиваленти Yargıtay) ё конститутсия ва қонунҳои асосии он (сатҳи kanun ва болотар). Санадҳои зерқонунӣ ва судҳои поёнӣ ба ҳисоб гирифта намешаванд. ✅ пурра (камбудиҳои хурд қайд шудаанд), ◐ камбудӣ (чизи нашршуда намерасад ё манбаъ то гирифтани иҷозат хомӯш аст), ❌ нест. Қарорҳои баҳодиҳӣ дар research/scorecard_overrides.json мебошанд.
 
-**Фарогирифта: 72 аз 124.**
+**Фарогирифта: 72 аз 125.**
 
 | Рамз | Юрисдиксия | Прецедентҳои суди олӣ | Конститутсия + қонунҳо | Фарогирифта | Чӣ намерасад |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | не | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | не | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | не |  |
+| `us-states` | United States (state courts) | – | – | не |  |
 | `vn` | Vietnam | ◐ | ◐ | не | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | не | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

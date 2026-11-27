@@ -7,7 +7,7 @@
 Pelayan MCP percuma dan sumber terbuka (Apache 2.0). Ia membolehkan mana-mana aplikasi yang menggunakan
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI dan lain-lain) mencari keputusan mahkamah
 dan perundangan secara langsung di laman web mahkamah dan kerajaan di 120+ bidang kuasa dan mahkamah
-antarabangsa (124 penyesuai). Setiap hasil menamakan sumbernya dan memaut kepada dokumen asal.
+antarabangsa (125 penyesuai). Setiap hasil menamakan sumbernya dan memaut kepada dokumen asal.
 
 ## Adakah teks-teks itu rasmi?
 
@@ -24,11 +24,10 @@ Sebelum anda memetik apa-apa, semak penerbitan rasmi. Jadual liputan dalam [READ
 
 ## Bidang kuasa manakah yang diliputinya, dan sejauh mana?
 
-124 penyesuai: 108 negara anggota PBB, Hong Kong, Kosovo, Palestin, Taiwan, Mahkamah DIFC dan
-11 mahkamah dan badan antarabangsa (seperti Mahkamah Hak Asasi Manusia Eropah, EU, ICJ dan WTO).
+125 penyesuai: 108 negara anggota PBB, Hong Kong, Kosovo, Palestin, Taiwan, Mahkamah DIFC, mahkamah negeri AS dan 11 mahkamah dan badan antarabangsa (seperti Mahkamah Hak Asasi Manusia Eropah, EU, ICJ dan WTO).
 
 Liputan sangat berbeza. Di bawah peraturan yang ketat (duluan mahkamah umum tertinggi, atau perlembagaan
-dan akta utama, dicapai sepenuhnya), 72 daripada 124 dikira sebagai diliputi. [COVERAGE.md](COVERAGE.md)
+dan akta utama, dicapai sepenuhnya), 72 daripada 125 dikira sebagai diliputi. [COVERAGE.md](COVERAGE.md)
 menyenaraikan, bagi setiap bidang kuasa, apa yang dicapai oleh Fontes, apa yang tidak, dan mengapa.
 
 ## Adakah saya memerlukan kunci API?
@@ -41,6 +40,7 @@ Bagi hampir setiap bidang kuasa, tidak. Sesetengah sumber memerlukan kunci percu
 - **Amerika Syarikat:** pilihan. Carian undang-undang kes berfungsi tanpa kunci, tetapi kunci demo yang
   dikongsi hanya membenarkan kira-kira 10 carian sehari bagi setiap alamat IP. Kunci api.data.gov percuma
   dalam `WLM_US_GOVINFO_KEY` meningkatkannya.
+- **Mahkamah negeri AS:** ya. Undang-undang kes negeri (`us-states`) dimatikan sehingga anda menetapkan `WLM_US_COURTLISTENER_KEY` kepada token API CourtListener percuma anda sendiri. CourtListener dikendalikan oleh Free Law Project, sebuah organisasi bukan untung; ia bukan sumber rasmi, dan setiap jawapan menyatakannya.
 
 Tetapkan ini sebagai pemboleh ubah persekitaran untuk pelayan Fontes dalam tetapan MCP aplikasi anda.
 Pemasang memintanya selepas pemasangan, dan pelancar **Add or change

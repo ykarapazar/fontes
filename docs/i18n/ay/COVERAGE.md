@@ -2,13 +2,13 @@
 
 # Fontes purinipa catálogo
 
-124 adaptadoranaka; 85 ONU markanaka jan adaptadorani.
+125 adaptadoranaka; 85 ONU markanaka jan adaptadorani.
 
 ## Purinipa uñakipäwi
 
 Mä jurisdiccionax purita satawa, Fontes paya chiqanakat juk'akasa maynir taqpach purchixa: juk'amp jach'a taripañ utapan precedentenakapa (Yargıtay ukar uñtata), jan ukax Constitucionapa, jach'a leyinakapampi (kanun nivel, juk'amp alayaru). Payïr kamachinaka, aynacha taripañ utanaka janiw jakhutäkiti. ✅ phuqhata (jisk'a pist'awinak qhanañchata), ◐ pist'awi (uñt'ayat kunas pist'i, jan ukax jalsux permiso utjañkama jiwt'atawa), ❌ janiw utjkiti. Amuyun amtatanakax research/scorecard_overrides.json ukankiwa.
 
-**Purita: 72 124 taypita.**
+**Purita: 72 125 taypita.**
 
 | Código | Jurisdicción | Jach'a taripañ utan precedentenakapa | Constitución + leyinaka | Purita | Kunas pist'i |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Mä jurisdiccionax purita satawa, Fontes paya chiqanakat juk'akasa maynir taqpac
 | `tj` | Tajikistan | ❌ | ◐ | janiwa | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | janiwa | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | janiwa |  |
+| `us-states` | United States (state courts) | – | – | janiwa |  |
 | `vn` | Vietnam | ◐ | ◐ | janiwa | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | janiwa | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

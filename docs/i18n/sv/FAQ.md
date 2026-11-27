@@ -7,7 +7,7 @@
 En kostnadsfri MCP-server med öppen källkod (Apache 2.0). Den låter alla appar som talar Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI med flera) söka i domstolsavgöranden och
 lagstiftning direkt på domstolars och myndigheters webbplatser i fler än 120 jurisdiktioner och internationella
-domstolar (124 adaptrar). Varje resultat anger sin källa och länkar till originalet.
+domstolar (125 adaptrar). Varje resultat anger sin källa och länkar till originalet.
 
 ## Är texterna officiella?
 
@@ -25,12 +25,11 @@ du citerar något, kontrollera den officiella publiceringen. Täckningstabellen 
 
 ## Vilka jurisdiktioner täcker det, och hur väl?
 
-124 adaptrar: 108 FN-medlemsstater, Hongkong, Kosovo, Palestina, Taiwan, DIFC Courts och
-11 internationella domstolar och organ (som Europeiska domstolen för de mänskliga rättigheterna, EU,
+125 adaptrar: 108 FN-medlemsstater, Hongkong, Kosovo, Palestina, Taiwan, DIFC Courts, de amerikanska delstatsdomstolarna och 11 internationella domstolar och organ (som Europeiska domstolen för de mänskliga rättigheterna, EU,
 ICJ och WTO).
 
 Täckningen skiljer sig mycket. Enligt en strikt regel (den högsta allmänna domstolens prejudikat, eller
-grundlagen och de primära lagarna, nådda fullständigt) räknas 72 av de 124 som täckta.
+grundlagen och de primära lagarna, nådda fullständigt) räknas 72 av de 125 som täckta.
 [COVERAGE.md](../../COVERAGE.md) anger för varje jurisdiktion vad Fontes når, vad det inte når
 och varför.
 
@@ -44,6 +43,7 @@ För nästan alla jurisdiktioner, nej. Vissa källor kräver en kostnadsfri nyck
 - **USA:** valfritt. Sökning i rättspraxis fungerar utan nyckel, men den delade demonyckeln
   tillåter bara omkring 10 sökningar om dagen per IP-adress. En kostnadsfri api.data.gov-nyckel i
   `WLM_US_GOVINFO_KEY` höjer gränsen.
+- **USA:s delstatsdomstolar:** ja. Delstaternas rättspraxis (`us-states`) är avstängd tills du anger din egen kostnadsfria CourtListener-API-token i `WLM_US_COURTLISTENER_KEY`. CourtListener drivs av den ideella organisationen Free Law Project; det är ingen officiell källa, och varje svar anger detta.
 
 Ange dessa som miljövariabler för Fontes-servern i appens MCP-inställningar. Installationsprogrammen
 frågar efter dem efter installationen, och deras startfil **Add or change keys** ändrar dem

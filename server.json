@@ -37,6 +37,12 @@
           "description": "United States only: free api.data.gov key for case-law search (without it, about 10 searches a day).",
           "isRequired": false,
           "isSecret": true
+        },
+        {
+          "name": "WLM_US_COURTLISTENER_KEY",
+          "description": "US state courts only: your own free CourtListener API token (unofficial source, Free Law Project). Off without it.",
+          "isRequired": false,
+          "isSecret": true
         }
       ]
     }

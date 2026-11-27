@@ -7,7 +7,7 @@
 Peteĩ servidor MCP reigua ha código abierto (Apache 2.0). Oheja oimeraẽ aplicación oñe'ẽva
 Model Context Protocol-pe (Claude, Codex, Cursor, VS Code, Gemini CLI ha ambue) oheka
 tribunalkuéra sentencia ha léikuéra ko'ag̃aite tribunal ha gobierno sitio web-pe, 120
-jurisdicción ári ha tribunal internacional-pe (124 adaptador). Opaite mbohovái he'i
+jurisdicción ári ha tribunal internacional-pe (125 adaptador). Opaite mbohovái he'i
 hypykue ha ojoaju pe original rehe.
 
 ## Umi jehaipy ha'épa oficial?
@@ -27,12 +27,12 @@ jurisdicción-pe g̃uarã.
 
 ## Mba'e jurisdicción-pepa ohupyty, ha mba'eichaitépa?
 
-124 adaptador: 108 tetã ONU miembro, Hong Kong, Kosovo, Palestina, Taiwán, DIFC Courts ha 11
+125 adaptador: 108 tetã ONU miembro, Hong Kong, Kosovo, Palestina, Taiwán, DIFC Courts, Estados Unidos estado-kuéra tribunal ha 11
 tribunal ha órgano internacional (techapyrãramo Tribunal Europeo de Derechos Humanos, Unión
 Europea, CIJ ha OMC).
 
 Ñemohupyty iñambue heta. Peteĩ regla mbarete reheve (tribunal general yvatevéva
-precedentekuéra, térã constitución ha léi primaria, ohupytýva opaite), 124-gui 72 oñemohupyty.
+precedentekuéra, térã constitución ha léi primaria, ohupytýva opaite), 125-gui 72 oñemohupyty.
 [COVERAGE.md](COVERAGE.md) he'i, peteĩteĩ jurisdicción-pe g̃uarã, mba'épa Fontes ohupyty,
 mba'épa nahániri, ha mba'érepa.
 
@@ -47,6 +47,7 @@ ehecha [KEYS.md](KEYS.md).
 - **Estados Unidos:** reiporavo hag̃ua. Jurisprudencia jeheka oiko clave'ỹre, ha katu demo clave
   ojepurúva oñondive oheja 10 jeheka rupi añoite ára ha ára peteĩteĩ IP dirección-pe g̃uarã.
   Peteĩ clave api.data.gov reigua `WLM_US_GOVINFO_KEY`-pe omboheta.
+- **Estados Unidos estado-kuéra tribunal:** héẽ. Estado jurisprudencia (`us-states`) oĩ mbogue remoĩ peve `WLM_US_COURTLISTENER_KEY` nde CourtListener API token reigua ndive. CourtListener omotenondéva Free Law Project, organización ojehepyme'ẽ'ỹva; ndaha'éi fuente oficial, ha opaite mbohovái he'i upéva.
 
 Emoĩ ko'ãva variable de entorno ramo Fontes servidor-pe g̃uarã nde aplicación configuración
 MCP-pe. Instalador kuéra ojerure ko'ãva ñemohenda rire, ha iñepyrũha **Add or change keys**

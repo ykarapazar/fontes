@@ -25,6 +25,7 @@
  "key_fr_id": "Frankrike: PISTE client ID",
  "key_fr_secret": "Frankrike: PISTE client secret",
  "key_us": "USA: api.data.gov-nyckel",
+ "key_us_cl": "USA: CourtListener-nyckel",
  "keys_saved": "Nycklarna har sparats. Avsluta och öppna dina appar igen för att använda dem.",
  "keys_unchanged": "Inga nycklar ändrades.",
  "keys_no_apps": "Fontes är inte konfigurerat i någon app ännu. Installera det först.",

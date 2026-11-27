@@ -25,6 +25,7 @@
  "key_fr_id": "Prantsusmaa: PISTE client ID",
  "key_fr_secret": "Prantsusmaa: PISTE client secret",
  "key_us": "Ameerika Ühendriigid: api.data.gov võti",
+ "key_us_cl": "Ameerika Ühendriigid: CourtListener võti",
  "keys_saved": "Võtmed salvestati. Nende kasutamiseks sulgege oma rakendused ja avage need uuesti.",
  "keys_unchanged": "Ühtegi võtit ei muudetud.",
  "keys_no_apps": "Fontes pole veel üheski rakenduses seadistatud. Paigaldage see kõigepealt.",

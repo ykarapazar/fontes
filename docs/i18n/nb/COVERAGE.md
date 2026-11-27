@@ -2,13 +2,13 @@
 
 # Fontes' dekningskatalog
 
-124 adaptere; 85 FN-medlemsstater uten adapter.
+125 adaptere; 85 FN-medlemsstater uten adapter.
 
 ## Dekningsoversikt
 
 En jurisdiksjon regnes som dekket når Fontes når minst ett av to områder fullstendig: prejudikatene fra dens øverste alminnelige domstol (tilsvarende Yargıtay), eller dens grunnlov og formelle lover (lovnivå og høyere). Forskrifter og lavere domstoler teller ikke. ✅ fullstendig (mindre hull er notert), ◐ hull (noe som er publisert, mangler, eller kilden er av inntil tillatelse foreligger), ❌ ingen. Skjønnsvurderinger står i research/scorecard_overrides.json.
 
-**Dekket: 72 av 124.**
+**Dekket: 72 av 125.**
 
 | Kode | Jurisdiksjon | Prejudikater fra øverste domstol | Grunnlov + lover | Dekket | Hva som mangler |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ En jurisdiksjon regnes som dekket når Fontes når minst ett av to områder full
 | `tj` | Tajikistan | ❌ | ◐ | nei | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | nei | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | nei |  |
+| `us-states` | United States (state courts) | – | – | nei |  |
 | `vn` | Vietnam | ◐ | ◐ | nei | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | nei | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

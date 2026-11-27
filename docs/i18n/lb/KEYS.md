@@ -2,12 +2,13 @@
 
 # API-Schlësselen
 
-Bal all Quell a Fontes funktionéiert ouni Schlëssel. Zwou brauchen e gratis Schlëssel:
+Bal all Quell a Fontes funktionéiert ouni Schlëssel. Dräi brauchen e gratis Schlëssel:
 
 | Schlëssel | Mécht zougänglech | Ouni en |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Frankräich: Judilibre (Geriichtsentscheedungen) a Légifrance (Gesetzgebung) | Frankräich ass aus. `list_jurisdictions` weist et als inaktiv. |
 | `WLM_US_GOVINFO_KEY` | Vereenegt Staaten: Sich a govinfo (Uerteeler vu Bundesgeriichter, Statutes at Large, public laws) | Fontes benotzt de gedeelten `DEMO_KEY`: ongeféier 10 Sichen den Dag pro IP-Adress. Fir eng bekannt Entscheedung opzemaachen a fir den US Code brauch een kee Schlëssel. |
+| `WLM_US_COURTLISTENER_KEY` | US-Staatsgeriichter (`us-states`): Uerteeler vun den ieweschte Geriichter an Appellgeriichter vun allen 50 Staaten an dem DC, vu CourtListener | D'Rechtsprechung vun den US-Staaten ass aus. `list_jurisdictions` weist se als inaktiv. |
 
 Schlëssele sinn fakultativ. Dir kënnt se méi spéit derbäisetzen.
 
@@ -86,6 +87,22 @@ D'Konditiounen, kuerz gesot:
   existéiert net). Net verifizéiert. Kuckt d'[Richtlinne vu govinfo](https://www.govinfo.gov/about/policies)
   an d'[Dateschutzrichtlinn vun data.gov](https://data.gov/privacy-policy/).
 - Haalt de Schlëssel fir Iech.
+
+## US-Staatsgeriichter: CourtListener (gratis)
+
+CourtListener gëtt vu [Free Law Project](https://free.law) bedriwwen, enger Organisatioun ouni Gewënnzil, déi zënter 2010 Uerteeler vun amerikanesche Geriichter sammelt a fir jiddereen gratis zougänglech mécht. No senger eegener Zielung huet si méi wéi nonn Millioune Entscheedungen. Et ass keng offiziell Quell: d'Geriichter publizéieren hir Uerteeler selwer, an CourtListener sammelt se vun de Websäite vun de Geriichter a vu scannte Rechtsberichter. All Äntwert vu Fontes, déi doheer kënnt, seet dat. Fontes ass net mat Free Law Project affiliéiert.
+
+1. Erstellt e gratis Kont op [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Mécht Äre Profil op a kopéiert Äre API-Token.
+3. Loosst **Add or change keys** lafen a fügt en als CourtListener-Schlëssel an.
+
+D'Konditiounen, kuerz gesot ([vollstänneg Konditiounen](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Den Token ass nëmme Ären: deelt en net, leet en net mat anere zesummen a verkaaft en net weider, a benotzt keng méi Konten.
+- Dir sidd responsabel fir dat, wat eng KI-App matÄrem Token mécht.
+- Presentéiert keng KI-Analyse vun hiren Donnéeën esou, wéi wann si vu Free Law Project erstallt, ënnerstëtzt oder iwwerpréift gi wier.
+- E gratis Kont erlaabt 5 Ufroe pro Minutt, 50 an der Stonn an 125 den Dag. Eng Sich ass eng Ufro; eng Entscheedung opmaachen sinn zwou. E Memberschaft bei Free Law Project hieft d'Limitte un.
+- CourtListener garantéiert keng Richtegkeet. Vergläicht en Uerteel mat der Kopie vum Geriicht, ier Dir Iech drop verlooss.
 
 ## Wou d'Schlësselen gespäichert ginn
 

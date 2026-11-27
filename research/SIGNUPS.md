@@ -13,6 +13,7 @@ Each item unlocks a source the code can use once the key or permission exists. K
 | Australia (Queensland) | Queensland legislation API registration | api.legislation.qld.gov.au/api/signup | Queensland legislation | — | Free, CC BY 4.0. State level only. |
 | Canada | CanLII API key (ask via the feedback form) | canlii.org/en/feedback/feedback.html (per CanLII's API docs on GitHub) | Case law of every Canadian court and province, plus provincial legislation (now only SCC + federal laws) | `WLM_CA_CANLII_KEY` (planned) | LOW VALUE: API gives metadata + links only, no full text; canlii.org robots.txt disallows all bots, and CanLII sued Caseway AI over scraping (2024). API terms unreadable (DataDome). See research/ca-canlii.md. |
 | US | api.data.gov key | api.data.gov | govinfo search beyond DEMO_KEY | `WLM_US_GOVINFO_KEY` | Free. |
+| US states | CourtListener account (API token on the profile page) | courtlistener.com | State supreme and appellate court opinions (`us-states`, unofficial: Free Law Project) | `WLM_US_COURTLISTENER_KEY` | Free. **Done 2026-11-27**: maintainer's token works, live tests pass. Each user needs their own token (terms forbid sharing or pooling); free tier 5/min, 50/h, 125/day. |
 
 ## Permissions (an email or application, not a sign-up)
 

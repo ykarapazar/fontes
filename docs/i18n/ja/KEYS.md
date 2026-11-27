@@ -2,12 +2,13 @@
 
 # API キー
 
-Fontes のほとんどすべての情報源はキーなしで動作します。無料のキーが必要なのは 2 つです:
+Fontes のほとんどすべての情報源はキーなしで動作します。無料のキーが必要なのは 3 つです:
 
 | キー | 使えるようになるもの | キーがない場合 |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | フランス: Judilibre（裁判例）と Légifrance（法令） | フランスはオフです。`list_jurisdictions` では無効と表示されます。 |
 | `WLM_US_GOVINFO_KEY` | 米国: govinfo 検索（連邦裁判所の判決意見、Statutes at Large、公法） | Fontes は共有の `DEMO_KEY` を使います: IP アドレスごとに 1 日約 10 回の検索。既知の裁判例と US Code を開くのにキーは不要です。 |
+| `WLM_US_COURTLISTENER_KEY` | 米国の州裁判所（`us-states`）: 50 州すべてと DC の最高裁判所・控訴裁判所の判決意見（CourtListener 提供） | 米国の州の判例はオフです。`list_jurisdictions` では無効と表示されます。 |
 
 キーは任意です。後から追加できます。
 
@@ -77,6 +78,22 @@ Fontes のほとんどすべての情報源はキーなしで動作します。�
   [govinfo のポリシー](https://www.govinfo.gov/about/policies)と
   [data.gov のプライバシーポリシー](https://data.gov/privacy-policy/)をご覧ください。
 - キーは他人に教えないでください。
+
+## 米国の州裁判所: CourtListener（無料）
+
+CourtListener は [Free Law Project](https://free.law) が運営しています。Free Law Project は 2010 年から米国の裁判所の判決意見を収集し、誰でも無料で利用できるようにしている非営利団体です。同団体の集計では、900 万件を超える判決を保有しています。公的な情報源ではありません。判決意見は各裁判所が自ら公開しており、CourtListener は裁判所のウェブサイトやスキャンされた判例集から収集しています。CourtListener 由来の Fontes の回答には、すべてその旨が示されます。Fontes は Free Law Project とは提携していません。
+
+1. [courtlistener.com](https://www.courtlistener.com/sign-in/) で無料アカウントを作成します。
+2. プロフィールを開き、API トークンをコピーします。
+3. **Add or change keys** を実行し、CourtListener のキーとして貼り付けます。
+
+利用条件の要点（[全文](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)）:
+
+- トークンはあなた専用です。共有、プール、再販はせず、複数のアカウントも使わないでください。
+- AI アプリがトークンを使って行うことについては、あなたが責任を負います。
+- 同団体のデータに対する AI の分析を、Free Law Project が作成・承認・確認したものとして示さないでください。
+- 無料アカウントでは 1 分あたり 5 件、1 時間あたり 50 件、1 日あたり 125 件のリクエストが認められています。検索は 1 件、判決を開くと 2 件と数えます。Free Law Project の会員になると上限が上がります。
+- CourtListener は正確性を保証しません。依拠する前に、判決意見を裁判所の写しと照合してください。
 
 ## キーの保存場所
 

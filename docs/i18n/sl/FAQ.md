@@ -7,7 +7,7 @@
 Brezplačen odprtokodni strežnik MCP (Apache 2.0). Vsaki aplikaciji, ki uporablja Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI in druge), omogoča, da v živo išče sodne
 odločbe in predpise na spletnih straneh sodišč in državnih organov v več kot 120 jurisdikcijah
-in mednarodnih sodiščih (124 adapterjev). Vsak rezultat navaja svoj vir in vsebuje povezavo do
+in mednarodnih sodiščih (125 adapterjev). Vsak rezultat navaja svoj vir in vsebuje povezavo do
 izvirnika.
 
 ## Ali so besedila uradna?
@@ -26,12 +26,12 @@ Preden kar koli navajate, preverite uradno objavo. Tabela pokritosti v
 
 ## Katere jurisdikcije pokriva in kako dobro?
 
-124 adapterjev: 108 držav članic OZN, Hongkong, Kosovo, Palestina, Tajvan, sodišča DIFC in 11
+125 adapterjev: 108 držav članic OZN, Hongkong, Kosovo, Palestina, Tajvan, sodišča DIFC, sodišča zveznih držav ZDA in 11
 mednarodnih sodišč in organov (na primer Evropsko sodišče za človekove pravice, EU, Meddržavno
 sodišče in WTO).
 
 Pokritost se zelo razlikuje. Po strogem pravilu (precedenčne odločbe najvišjega splošnega
-sodišča ali ustava in temeljni zakoni, dosegljivi v celoti) se 72 od 124 šteje za pokrite.
+sodišča ali ustava in temeljni zakoni, dosegljivi v celoti) se 72 od 125 šteje za pokrite.
 [COVERAGE.md](COVERAGE.md) za vsako jurisdikcijo navaja, kaj Fontes doseže, česa ne in zakaj.
 
 ## Ali potrebujem ključ API?
@@ -45,6 +45,7 @@ Za skoraj vsako jurisdikcijo ne. Nekateri viri potrebujejo brezplačen ključ: g
 - **Združene države Amerike:** neobvezno. Iskanje sodne prakse deluje brez ključa, vendar
   skupni demo ključ dovoli le približno 10 iskanj na dan na naslov IP. Brezplačen ključ
   api.data.gov v `WLM_US_GOVINFO_KEY` to omejitev zviša.
+- **Sodišča zveznih držav ZDA:** da. Sodna praksa zveznih držav (`us-states`) je izklopljena, dokler v `WLM_US_COURTLISTENER_KEY` ne nastavite svojega brezplačnega žetona API za CourtListener. CourtListener upravlja neprofitna organizacija Free Law Project; ni uradni vir, vsak odgovor pa to navede.
 
 Nastavite jih kot spremenljivke okolja za strežnik Fontes v nastavitvah MCP svoje aplikacije.
 Namestitveni programi jih zahtevajo po namestitvi, njihov zaganjalnik

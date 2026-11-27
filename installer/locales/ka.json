@@ -25,6 +25,7 @@
  "key_fr_id": "საფრანგეთი: PISTE client ID",
  "key_fr_secret": "საფრანგეთი: PISTE client secret",
  "key_us": "აშშ: api.data.gov გასაღები",
+ "key_us_cl": "აშშ: CourtListener გასაღები",
  "keys_saved": "გასაღებები შენახულია. მათ გამოსაყენებლად დახურეთ და ხელახლა გახსენით თქვენი აპები.",
  "keys_unchanged": "არცერთი გასაღები არ შეცვლილა.",
  "keys_no_apps": "Fontes ჯერ არცერთ აპში არ არის დაყენებული. ჯერ დააყენეთ იგი.",

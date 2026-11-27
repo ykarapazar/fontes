@@ -7,7 +7,7 @@
 E gratis Open-Source-MCP-Server (Apache 2.0). Mat him kann all App, déi d'Model Context Protocol
 schwätzt (Claude, Codex, Cursor, VS Code, Gemini CLI an anerer), Geriichtsentscheedungen a
 Gesetzgebung live op de Websäite vu Geriichter a Regierungen duerchsichen, a méi wéi 120
-Rechtsuerdnungen an internationale Geriichter (124 Adapteren). All Resultat nennt seng Quell a
+Rechtsuerdnungen an internationale Geriichter (125 Adapteren). All Resultat nennt seng Quell a
 verlinkt op d'Original.
 
 ## Sinn d'Texter offiziell?
@@ -27,12 +27,12 @@ derbäi. Ier Dir eppes zitéiert, kontrolléiert déi offiziell Publikatioun. D'
 
 ## Wéi eng Rechtsuerdnungen deckt et of, a wéi gutt?
 
-124 Adapteren: 108 UNO-Memberstaaten, Hong Kong, de Kosovo, Palestina, Taiwan, d'DIFC Courts an 11
+125 Adapteren: 108 UNO-Memberstaaten, Hong Kong, de Kosovo, Palestina, Taiwan, d'DIFC Courts, d'US-Staatsgeriichter an 11
 international Geriichter an Organer (wéi den Europäesche Geriichtshaff fir Mënscherechter, d'EU,
 den ICJ an d'WTO).
 
 D'Ofdeckung ass ganz ënnerschiddlech. No enger strenger Reegel (d'Präjudizer vum iewechsten
-allgemenge Geriicht, oder d'Verfassung an d'Haaptgesetzer, komplett erreecht) gëllen 72 vun de 124
+allgemenge Geriicht, oder d'Verfassung an d'Haaptgesetzer, komplett erreecht) gëllen 72 vun de 125
 als ofgedeckt. [COVERAGE.md](COVERAGE.md) gëtt fir all Rechtsuerdnung un, wat Fontes erreecht, wat
 net, a firwat.
 
@@ -47,6 +47,7 @@ Fir bal all Rechtsuerdnung net. E puer Quelle brauchen e gratis Schlëssel: kuck
 - **Vereenegt Staaten:** fakultativ. D'Sich an der Rechtsprechung funktionéiert ouni Schlëssel, mä
   de gedeelten Demo-Schlëssel erlaabt just ongeféier 10 Sichen den Dag pro IP-Adress. E gratis
   api.data.gov-Schlëssel an `WLM_US_GOVINFO_KEY` hieft dat un.
+- **US-Staatsgeriichter:** jo. D'Rechtsprechung vun den US-Staaten (`us-states`) ass aus, bis Dir `WLM_US_COURTLISTENER_KEY` op Ären eegene gratis CourtListener-API-Token setzt. CourtListener gëtt vun der Organisatioun ouni Gewënnzil Free Law Project bedriwwen; et ass keng offiziell Quell, an all Äntwert seet dat.
 
 Setzt dës als Ëmfeldvariabele fir de Fontes-Server an den MCP-Astellunge vun Ärer App. D'Installatiounsprogrammer froen no der Installatioun dono, a mat hirem Starter
 **Add or change keys** ännert Dir se méi spéit.

@@ -7,7 +7,7 @@
 Ingyenes, nyílt forráskódú MCP-szerver (Apache 2.0). Lehetővé teszi, hogy bármely alkalmazás,
 amely ismeri a Model Context Protocolt (Claude, Codex, Cursor, VS Code, Gemini CLI és mások),
 közvetlenül bírósági és állami webhelyeken keressen bírósági határozatokat és jogszabályokat,
-120+ joghatóságban és nemzetközi bíróságon (124 adapter). Minden találat megnevezi a forrását,
+120+ joghatóságban és nemzetközi bíróságon (125 adapter). Minden találat megnevezi a forrását,
 és az eredetire hivatkozik.
 
 ## Hivatalosak a szövegek?
@@ -26,12 +26,12 @@ egyes joghatóságok forrását.
 
 ## Mely joghatóságokat fedi le, és milyen mértékben?
 
-124 adapter: 108 ENSZ-tagállam, Hongkong, Koszovó, Palesztina, Tajvan, a DIFC Courts, valamint
+125 adapter: 108 ENSZ-tagállam, Hongkong, Koszovó, Palesztina, Tajvan, a DIFC Courts, az Egyesült Államok állami bíróságai, valamint
 11 nemzetközi bíróság és szerv (például az Emberi Jogok Európai Bírósága, az EU, a Nemzetközi
 Bíróság és a WTO).
 
 A lefedettség nagyon eltérő. Szigorú szabály szerint (a legfelső általános bíróság precedensei,
-illetve az alkotmány és az elsődleges törvények, teljes körűen elérve) a 124-ből 72 számít
+illetve az alkotmány és az elsődleges törvények, teljes körűen elérve) a 125-ből 72 számít
 lefedettnek. A [COVERAGE.md](../../COVERAGE.md) joghatóságonként felsorolja, mit ér el a Fontes,
 mit nem, és miért.
 
@@ -47,6 +47,7 @@ Szinte minden joghatóság esetében nem. Egyes forrásokhoz ingyenes kulcs kell
 - **Egyesült Államok:** opcionális. Az ítélkezési gyakorlat keresése kulcs nélkül is működik, de a
   közös demókulcs IP-címenként csak naponta körülbelül 10 keresést enged. Egy ingyenes
   api.data.gov kulcs a `WLM_US_GOVINFO_KEY` változóban megemeli ezt a korlátot.
+- **Az Egyesült Államok állami bíróságai:** igen. Az állami ítélkezési gyakorlat (`us-states`) ki van kapcsolva, amíg be nem állítja a `WLM_US_COURTLISTENER_KEY` változót a saját ingyenes CourtListener API-tokenjére. A CourtListenert a nonprofit Free Law Project működteti; nem hivatalos forrás, és minden válasz ezt jelzi.
 
 Ezeket környezeti változóként állítsa be a Fontes-szerver számára az alkalmazása
 MCP-beállításaiban. A telepítők a telepítés után rákérdeznek ezekre, később pedig

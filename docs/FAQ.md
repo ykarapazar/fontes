@@ -5,7 +5,7 @@
 A free, open-source MCP server (Apache 2.0). It lets any app that speaks the Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI and others) search court decisions and
 legislation live on court and government websites in 120+ jurisdictions and international
-courts (124 adapters). Every result names its source and links to the original.
+courts (125 adapters). Every result names its source and links to the original.
 
 ## Are the texts official?
 
@@ -23,12 +23,12 @@ you cite anything, check the official publication. The coverage table in the
 
 ## Which jurisdictions does it cover, and how well?
 
-124 adapters: 108 UN member states, Hong Kong, Kosovo, Palestine, Taiwan, the DIFC Courts and
-11 international courts and bodies (such as the European Court of Human Rights, the EU, the
+125 adapters: 108 UN member states, Hong Kong, Kosovo, Palestine, Taiwan, the DIFC Courts, the
+US state courts and 11 international courts and bodies (such as the European Court of Human Rights, the EU, the
 ICJ and the WTO).
 
 Coverage differs a lot. Under a strict rule (the top general court's precedents, or the
-constitution and primary acts, reached completely), 72 of the 124 count as covered.
+constitution and primary acts, reached completely), 72 of the 125 count as covered.
 [COVERAGE.md](COVERAGE.md) lists, for each jurisdiction, what Fontes reaches, what it doesn't,
 and why.
 
@@ -42,6 +42,9 @@ For almost every jurisdiction, no. Some sources need a free key: see [KEYS.md](K
 - **United States:** optional. Case-law search works without a key, but the shared demo key
   allows only about 10 searches a day per IP address. A free api.data.gov key in
   `WLM_US_GOVINFO_KEY` raises it.
+- **US state courts:** yes. State case law (`us-states`) is off until you set
+  `WLM_US_COURTLISTENER_KEY` to your own free CourtListener API token. CourtListener is run by
+  the non-profit Free Law Project; it is not an official source, and every answer says so.
 
 Set these as environment variables for the Fontes server in your app's MCP settings. The installers
 ask for them after installing, and their **Add or change keys** launcher changes them later.

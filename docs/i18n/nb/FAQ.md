@@ -7,7 +7,7 @@
 En gratis MCP-server med åpen kildekode (Apache 2.0). Den lar enhver app som snakker Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI og andre), søke i rettsavgjørelser og
 lovgivning direkte på domstolers og myndigheters nettsteder i over 120 jurisdiksjoner og
-internasjonale domstoler (124 adaptere). Hvert resultat oppgir kilden sin og lenker til
+internasjonale domstoler (125 adaptere). Hvert resultat oppgir kilden sin og lenker til
 originalen.
 
 ## Er tekstene offisielle?
@@ -26,12 +26,12 @@ kildene. Sjekk den offisielle kunngjøringen før du siterer. Dekningstabellen i
 
 ## Hvilke jurisdiksjoner dekker den, og hvor godt?
 
-124 adaptere: 108 FN-medlemsstater, Hongkong, Kosovo, Palestina, Taiwan, DIFC Courts og 11
+125 adaptere: 108 FN-medlemsstater, Hongkong, Kosovo, Palestina, Taiwan, DIFC Courts, delstatsdomstolene i USA og 11
 internasjonale domstoler og organer (som Den europeiske menneskerettighetsdomstol, EU, ICJ og
 WTO).
 
 Dekningen varierer mye. Etter en streng regel (prejudikatene fra den øverste alminnelige
-domstolen, eller grunnloven og de viktigste lovene, nådd fullt ut) regnes 72 av de 124 som dekket.
+domstolen, eller grunnloven og de viktigste lovene, nådd fullt ut) regnes 72 av de 125 som dekket.
 [COVERAGE.md](COVERAGE.md) oppgir for hver jurisdiksjon hva Fontes når, hva den ikke når, og
 hvorfor.
 
@@ -46,6 +46,7 @@ Ikke for nesten alle jurisdiksjoner. Noen få kilder krever en gratis nøkkel: s
 - **USA:** valgfritt. Søk i rettspraksis fungerer uten nøkkel, men den delte demonøkkelen tillater
   bare rundt 10 søk om dagen per IP-adresse. En gratis api.data.gov-nøkkel i
   `WLM_US_GOVINFO_KEY` hever det.
+- **Delstatsdomstoler i USA:** ja. Rettspraksis fra delstatene (`us-states`) er slått av til du setter `WLM_US_COURTLISTENER_KEY` til ditt eget gratis CourtListener API-token. CourtListener drives av den ideelle organisasjonen Free Law Project; det er ikke en offisiell kilde, og hvert svar sier dette.
 
 Sett dem som miljøvariabler for Fontes-serveren i MCP-innstillingene i appen din. Installasjonsprogrammene spør etter dem etter installasjonen, og med startfilen
 **Add or change keys** kan du endre dem senere.

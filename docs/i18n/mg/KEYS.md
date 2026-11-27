@@ -2,12 +2,13 @@
 
 # Fanalahidy API
 
-Mandeha tsy misy fanalahidy ny saika loharano rehetra ao amin'ny Fontes. Roa no mila fanalahidy maimaim-poana:
+Mandeha tsy misy fanalahidy ny saika loharano rehetra ao amin'ny Fontes. Telo no mila fanalahidy maimaim-poana:
 
 | Fanalahidy | Manokatra | Raha tsy misy azy |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Frantsa: Judilibre (didim-pitsarana) sy Légifrance (lalàna) | Maty i Frantsa. Asehon'ny `list_jurisdictions` ho tsy mavitrika izy. |
 | `WLM_US_GOVINFO_KEY` | Etazonia: fikarohana govinfo (heviny navoakan'ny fitsarana federaly, Statutes at Large, public laws) | Mampiasa ny `DEMO_KEY` iombonana ny Fontes: fikarohana 10 eo ho eo isan'andro isaky ny adiresy IP. Tsy ilaina ny fanalahidy hanokafana didim-pitsarana fantatra sy ny US Code. |
+| `WLM_US_COURTLISTENER_KEY` | Fitsarana ao amin'ny fanjakana Amerikana (`us-states`): didim-pitsarana avy amin'ny fitsarana tampony sy fitsarana ambony ao amin'ny fanjakana 50 sy DC rehetra, avy amin'ny CourtListener | Maty ny jurisprudence an'ny fitsarana ao amin'ny fanjakana Amerikana. Aseho ho tsy mavitrika ao amin'ny `list_jurisdictions` izy. |
 
 Tsy voatery ireo fanalahidy. Azonao ampiana any aoriana izy ireo.
 
@@ -84,6 +85,22 @@ Ny fepetra, raha fintinina:
   Jereo ny [politikan'ny govinfo](https://www.govinfo.gov/about/policies) sy ny
   [politikan'ny fiainana manokana an'ny data.gov](https://data.gov/privacy-policy/).
 - Tehirizo ho anao irery ny fanalahidy.
+
+## Fitsarana ao amin'ny fanjakana Amerikana: CourtListener (maimaim-poana)
+
+Ny CourtListener dia tantanan'ny [Free Law Project](https://free.law), fikambanana tsy mitady tombony izay nanangona didim-pitsaran'ny fitsarana Amerikana nanomboka tamin'ny 2010 ary mamela azy ho maimaim-poana ho an'ny rehetra. Araka ny kajiny manokana, manana didim-pitsarana mihoatra ny sivy tapitrisa izy. Tsy loharano ofisialy izy: ny fitsarana no mamoaka ny didim-pitsarany, ary ny CourtListener no manangona azy avy amin'ny tranonkalan'ny fitsarana sy ny tatitra ara-dalàna nodinihina (scan). Milaza izany ny valin'ny Fontes rehetra avy aminy. Tsy misy ifandraisany amin'ny Free Law Project ny Fontes.
+
+1. Mamorona kaonty maimaim-poana ao amin'ny [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Sokafy ny mombamomba anao ary adikao ny API token-nao.
+3. Alefaso ny **Add or change keys** ary apetaho ho fanalahidy CourtListener izy.
+
+Ny fepetra, raha fintinina ([fepetra feno](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Anao irery ny token: aza zaraina, aza atambatra ary aza amidy indray, ary aza mampiasa kaonty maromaro.
+- Ianao no tompon'andraikitra amin'ny zavatra ataon'ny rindranasa AI amin'ny token-nao.
+- Aza asehoy ho novokarin'ny Free Law Project, ankatoavin'ny Free Law Project na hamarinin'ny Free Law Project ny famakafakana nataon'ny AI momba ny angona nataon'izy ireo.
+- Ny kaonty maimaim-poana dia mamela fangatahana 5 isaky ny minitra, 50 isaky ny ora ary 125 isan'andro. Fangatahana iray ny fikarohana; roa ny fanokafana didim-pitsarana. Ny fahefana mpikambana ao amin'ny Free Law Project dia mampiakatra ireo fetra ireo.
+- Tsy manome antoka ny fahamarinan'ny angona ny CourtListener. Ampitahao amin'ny kopian'ny fitsarana ny didim-pitsarana alohan'ny hianaranao azy.
 
 ## Aiza no itahirizana ireo fanalahidy
 

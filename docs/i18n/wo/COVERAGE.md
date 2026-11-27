@@ -2,13 +2,13 @@
 
 # Katalogu li Fontes di laal (couverture)
 
-124 adaptateur; 85 réewi ONU yu amul benn.
+125 adaptateur; 85 réewi ONU yu amul benn.
 
 ## Tabalu natt li ñu laal
 
 Juridiction dañu koy lim ni lu ñu laal su Fontes joté bu mat ci benn ci ñaari wàll yii: àtte yi di misaal (précédents) ci àttekaay bu gën a kawe bu jëmm (lu mel ni Yargıtay), walla Ndëgërlaay ak yoon yu njëkk yi (kanun ak li ko ëpp). Yoon yu ñaareelu tolluwaay ak àttekaay yu suufe limuñu leen. ✅ mat na (ay mbënn yu tuuti, ñu bind leen), ◐ mbënn (lenn lu ñu siiwal dafa ñàkk, walla cosaan bi dafa fey ba ñu may sañ-sañ), ❌ dara. Dogal yi ñu jël ci xalaat ñu ngi ci research/scorecard_overrides.json.
 
-**Ñu laal: 72 ci 124.**
+**Ñu laal: 72 ci 125.**
 
 | Kood | Juridiction | Àtte yi di misaal ci àttekaay bu gën a kawe | Ndëgërlaay + yoon | Ñu laal | Li ñàkk |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Juridiction dañu koy lim ni lu ñu laal su Fontes joté bu mat ci benn ci ñaar
 | `tj` | Tajikistan | ❌ | ◐ | déedet | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | déedet | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | déedet |  |
+| `us-states` | United States (state courts) | – | – | déedet |  |
 | `vn` | Vietnam | ◐ | ◐ | déedet | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | déedet | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -2,13 +2,13 @@
 
 # A Fontes lefedettségi katalógusa
 
-124 adapter; 85 ENSZ-tagállam adapter nélkül.
+125 adapter; 85 ENSZ-tagállam adapter nélkül.
 
 ## Lefedettségi összesítő
 
 Egy joghatóság akkor számít lefedettnek, ha a Fontes két terület közül legalább egyet teljesen elér: legfelsőbb általános bíróságának precedenseit (a Yargıtay megfelelőjét), vagy alkotmányát és elsődleges jogszabályait (kanun szint és afölött). A másodlagos jogszabályok és az alsóbb bíróságok nem számítanak. ✅ teljes (kisebb hiányok jelölve), ◐ hiány (valami közzétett hiányzik, vagy a forrás engedélyig ki van kapcsolva), ❌ nincs. A mérlegelésen alapuló döntések a research/scorecard_overrides.json fájlban vannak.
 
-**Lefedett: 72 / 124.**
+**Lefedett: 72 / 125.**
 
 | Kód | Joghatóság | Legfelsőbb bírósági precedensek | Alkotmány + törvények | Lefedett | Mi hiányzik |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Egy joghatóság akkor számít lefedettnek, ha a Fontes két terület közül l
 | `tj` | Tajikistan | ❌ | ◐ | nem | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | nem | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | nem |  |
+| `us-states` | United States (state courts) | – | – | nem |  |
 | `vn` | Vietnam | ◐ | ◐ | nem | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | nem | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

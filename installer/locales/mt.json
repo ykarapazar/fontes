@@ -25,6 +25,7 @@
  "key_fr_id": "Franza: client ID ta' PISTE",
  "key_fr_secret": "Franza: client secret ta' PISTE",
  "key_us": "Stati Uniti: ċavetta ta' api.data.gov",
+ "key_us_cl": "Stati Uniti: ċavetta ta' CourtListener",
  "keys_saved": "Iċ-ċwievet ġew salvati. Agħlaq u erġa' iftaħ l-apps tiegħek biex tużahom.",
  "keys_unchanged": "L-ebda ċavetta ma nbidlet.",
  "keys_no_apps": "Fontes għadu mhux ssettjat f'ebda app. Installah l-ewwel.",

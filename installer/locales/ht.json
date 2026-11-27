@@ -25,6 +25,7 @@
  "key_fr_id": "Lafrans: PISTE client ID",
  "key_fr_secret": "Lafrans: PISTE client secret",
  "key_us": "Etazini: kle api.data.gov",
+ "key_us_cl": "Etazini: kle CourtListener",
  "keys_saved": "Kle yo anrejistre. Fèmen epi relouvri aplikasyon ou yo pou itilize yo.",
  "keys_unchanged": "Pa gen okenn kle ki chanje.",
  "keys_no_apps": "Fontes poko konfigire nan okenn aplikasyon. Enstale l anvan.",

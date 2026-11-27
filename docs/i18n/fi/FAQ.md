@@ -7,7 +7,7 @@
 Maksuton avoimen lähdekoodin MCP-palvelin (Apache 2.0). Sen avulla mikä tahansa Model Context
 Protocolia käyttävä sovellus (Claude, Codex, Cursor, VS Code, Gemini CLI ja muut) voi hakea tuomioistuinten ratkaisuja ja
 lainsäädäntöä reaaliajassa tuomioistuinten ja viranomaisten verkkosivustoilta yli 120 lainkäyttöalueelta ja kansainvälisistä
-tuomioistuimista (124 sovitinta). Jokainen tulos nimeää lähteensä ja linkittää alkuperäiseen.
+tuomioistuimista (125 sovitinta). Jokainen tulos nimeää lähteensä ja linkittää alkuperäiseen.
 
 ## Ovatko tekstit virallisia?
 
@@ -25,12 +25,11 @@ ja `list_jurisdictions` nimeävät kunkin lainkäyttöalueen lähteen.
 
 ## Mitä lainkäyttöalueita se kattaa, ja kuinka hyvin?
 
-124 sovitinta: 108 YK:n jäsenvaltiota, Hongkong, Kosovo, Palestiina, Taiwan, DIFC Courts ja
-11 kansainvälistä tuomioistuinta ja toimielintä (kuten Euroopan ihmisoikeustuomioistuin, EU,
+125 sovitinta: 108 YK:n jäsenvaltiota, Hongkong, Kosovo, Palestiina, Taiwan, DIFC Courts, Yhdysvaltojen osavaltioiden tuomioistuimet ja 11 kansainvälistä tuomioistuinta ja toimielintä (kuten Euroopan ihmisoikeustuomioistuin, EU,
 Kansainvälinen tuomioistuin (ICJ) ja WTO).
 
 Kattavuus vaihtelee paljon. Tiukan säännön mukaan (ylimmän yleisen tuomioistuimen ennakkopäätökset tai
-perustuslaki ja keskeiset lait, saatavilla kokonaan) 72 lainkäyttöaluetta 124:stä lasketaan katetuiksi.
+perustuslaki ja keskeiset lait, saatavilla kokonaan) 72 lainkäyttöaluetta 125:stä lasketaan katetuiksi.
 [COVERAGE.md](../../COVERAGE.md) kertoo kunkin lainkäyttöalueen osalta, mitä Fontes tavoittaa, mitä ei,
 ja miksi.
 
@@ -44,6 +43,7 @@ Lähes kaikilla lainkäyttöalueilla et. Jotkin lähteet tarvitsevat maksuttoman
 - **Yhdysvallat:** valinnainen. Oikeuskäytännön haku toimii ilman avainta, mutta jaettu demoavain
   sallii vain noin 10 hakua päivässä IP-osoitetta kohden. Maksuton api.data.gov-avain muuttujassa
   `WLM_US_GOVINFO_KEY` nostaa rajaa.
+- **Yhdysvaltojen osavaltioiden tuomioistuimet:** kyllä. Osavaltioiden oikeuskäytäntö (`us-states`) on pois päältä, kunnes asetat `WLM_US_COURTLISTENER_KEY`:n omaksi ilmaiseksi CourtListenerin API-tunnukseksesi. CourtListenerin ylläpitäjä on voittoa tavoittelematon Free Law Project; se ei ole virallinen lähde, ja jokainen vastaus kertoo tämän.
 
 Aseta nämä Fontes-palvelimen ympäristömuuttujiksi sovelluksesi MCP-asetuksissa. Asennusohjelmat
 kysyvät niitä asennuksen jälkeen, ja niiden **Add or change keys** -käynnistin muuttaa niitä

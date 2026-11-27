@@ -25,6 +25,7 @@
  "key_fr_id": "Francija: PISTE klienta ID",
  "key_fr_secret": "Francija: PISTE klienta noslēpums",
  "key_us": "ASV: api.data.gov atslēga",
+ "key_us_cl": "ASV: CourtListener atslēga",
  "keys_saved": "Atslēgas saglabātas. Aizveriet un atkal atveriet lietotnes, lai tās izmantotu.",
  "keys_unchanged": "Neviena atslēga netika mainīta.",
  "keys_no_apps": "Fontes vēl nav iestatīts nevienā lietotnē. Vispirms instalējiet to.",

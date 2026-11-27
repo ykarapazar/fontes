@@ -2,12 +2,13 @@
 
 # Clés d'API
 
-Presque toutes les sources de Fontes fonctionnent sans clé. Deux en nécessitent une, gratuite :
+Presque toutes les sources de Fontes fonctionnent sans clé. Trois en nécessitent une, gratuite :
 
 | Clé | Débloque | Sans elle |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | France : Judilibre (décisions de justice) et Légifrance (législation) | La France est désactivée. `list_jurisdictions` l'affiche comme inactive. |
 | `WLM_US_GOVINFO_KEY` | États-Unis : recherche govinfo (décisions des juridictions fédérales, Statutes at Large, public laws) | Fontes utilise la `DEMO_KEY` partagée : environ 10 recherches par jour et par adresse IP. L'ouverture d'une décision connue et le US Code ne nécessitent pas de clé. |
+| `WLM_US_COURTLISTENER_KEY` | Juridictions des États américains (`us-states`) : décisions des cours suprêmes et des cours d'appel des 50 États et du district de Columbia, issues de CourtListener | La jurisprudence des États américains est désactivée. `list_jurisdictions` l'affiche comme inactive. |
 
 Les clés sont facultatives. Vous pouvez les ajouter plus tard.
 
@@ -80,6 +81,22 @@ Les conditions, en bref :
   Non vérifié. Voir les [politiques de govinfo](https://www.govinfo.gov/about/policies) et la
   [politique de confidentialité de data.gov](https://data.gov/privacy-policy/).
 - Gardez la clé pour vous.
+
+## Juridictions des États américains : CourtListener (gratuit)
+
+CourtListener est géré par [Free Law Project](https://free.law), une organisation à but non lucratif qui collecte les décisions des juridictions américaines depuis 2010 et les met gratuitement à la disposition de tous. D'après son propre décompte, elle détient plus de neuf millions de décisions. Ce n'est pas une source officielle : les juridictions publient elles-mêmes leurs décisions, et CourtListener les rassemble à partir des sites des juridictions et de recueils de jurisprudence numérisés. Chaque réponse de Fontes qui en provient le précise. Fontes n'est pas affilié à Free Law Project.
+
+1. Créez un compte gratuit sur [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Ouvrez votre profil et copiez votre jeton d'API.
+3. Lancez **Ajouter ou modifier des clés** et collez-le comme clé CourtListener.
+
+Les conditions, en bref ([conditions complètes](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)) :
+
+- Le jeton vous est strictement personnel : ne le partagez pas, ne le mutualisez pas, ne le revendez pas, et n'utilisez pas plusieurs comptes.
+- Vous êtes responsable de ce qu'une application d'IA fait avec votre jeton.
+- Ne présentez pas l'analyse de leurs données par une IA comme produite, approuvée ou vérifiée par Free Law Project.
+- Un compte gratuit permet 5 requêtes par minute, 50 par heure et 125 par jour. Une recherche compte pour une requête ; l'ouverture d'une décision pour deux. Une adhésion à Free Law Project relève les limites.
+- CourtListener ne garantit pas l'exactitude. Vérifiez une décision sur la copie de la juridiction avant de vous y fier.
 
 ## Où les clés sont stockées
 

@@ -7,7 +7,7 @@
 Mä inaki, código abierto MCP servidorawa (Apache 2.0). Model Context Protocol arsuri kuna
 aplicacionarus (Claude, Codex, Cursor, VS Code, Gemini CLI, yaqhanakasa) taripañ utanakan
 taripäwinakap, kamachinaksa taripañ uta, gobierno web sitionakan jichhpach thaqañapatak
-yanapt'i, 120 jurisdiccionat juk'amp, markanak taypin taripañ utanakansa (124 adaptador).
+yanapt'i, 120 jurisdiccionat juk'amp, markanak taypin taripañ utanakansa (125 adaptador).
 Sapa jaysäwix jalsupan sutip siwa, originalaruw mayachata.
 
 ## Qillqatanakax oficialati?
@@ -27,12 +27,11 @@ Kuns citkasa, oficial uñt'ayäw uñakipam. [README](README.md#purinipa) ukan pu
 
 ## Kawkïr jurisdiccionanakarus puri, kunjamas?
 
-124 adaptador: ONU ukan 108 markanakapa, Hong Kong, Kosovo, Palestina, Taiwán, DIFC Courts,
-ukat 11 markanak taypin taripañ utanaka, organonaka (amtañataki Tribunal Europeo de
+125 adaptador: ONU ukan 108 markanakapa, Hong Kong, Kosovo, Palestina, Taiwán, DIFC Courts, Estados Unidos ukan estadonakapan taripañ utanakapa, ukat 11 markanak taypin taripañ utanaka, organonaka (amtañataki Tribunal Europeo de
 Derechos Humanos, Unión Europea, CIJ, OMC).
 
 Purinipax wali mayj mayjawa. Mä ch'ama kamachimpi (jach'a general taripañ utan
-precedentenakapa, jan ukax constitución, nayrïr leyenakasa, taqpach purita), 124 taypit 72
+precedentenakapa, jan ukax constitución, nayrïr leyenakasa, taqpach purita), 125 taypit 72
 ukakiw purita sasin jakhthapisi. [COVERAGE.md](COVERAGE.md) ukax sapa jurisdiccionataki
 Fontes kunaru puri, kunar jan puri, kunatsa uk siqichi.
 
@@ -47,6 +46,7 @@ Niya taqi jurisdiccionanakatakix janiwa. Yaqhip jalsunakax inaki llaveniw wakisi
 - **Estados Unidos:** ajlliñataki. Jurisprudencia thaqañax jan llavempiw irnaqi, ukampis
   chikat apnaqat demo llavex sapa uru sapa IP direccionatak niya 10 thaqäwinakak jaytayi.
   `WLM_US_GOVINFO_KEY` ukan mä inaki api.data.gov llavex juk'amptayi.
+- **Estados Unidos ukan estadonakapan taripañ utanakapa:** Jïsa. Estadonakan jurisprudenciapax (`us-states`) jan irnaqiwa, `WLM_US_COURTLISTENER_KEY` ukar jumaw pachpa inaki CourtListener API token ukamp uchañkama. CourtListener ukax jan lucro apthapir Free Law Project ukan apnaqatawa; janiw oficial yatiyiri ukhamäkiti, sapa jaysäwix ukham siwa.
 
 Aka variables de entorno ukham aplicacionaman MCP configuracionapan Fontes servidoratak
 uchañam. Instaladoranakax instalasaxa ukanak mayipxi, **Add or change keys**

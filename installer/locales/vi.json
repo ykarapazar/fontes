@@ -25,6 +25,7 @@
  "key_fr_id": "Pháp: PISTE client ID",
  "key_fr_secret": "Pháp: PISTE client secret",
  "key_us": "Hoa Kỳ: khóa api.data.gov",
+ "key_us_cl": "Hoa Kỳ: khóa CourtListener",
  "keys_saved": "Đã lưu khóa. Hãy thoát và mở lại các ứng dụng của bạn để sử dụng.",
  "keys_unchanged": "Không có khóa nào được thay đổi.",
  "keys_no_apps": "Fontes chưa được thiết lập trong ứng dụng nào. Hãy cài đặt trước.",

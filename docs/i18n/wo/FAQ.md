@@ -7,7 +7,7 @@
 Ab serwëer MCP bu ñu joxe ci neen te seen kood ubbiku na (Apache 2.0). Dafay may bépp aplikasioŋ bu mën
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI ak yeneen) wut ci saa si àtte yi
 àttekaay yi def ak yoon yi ci sit internet yu àttekaay yi ak yu Nguur gi, ci lu ëpp 120 juridiction ak
-àttekaay yu adduna (124 adaptatëer). Bépp njeexital dafay tudd cosaanam te am lëkkalekaay bu jëm ci mbind
+àttekaay yu adduna (125 adaptatëer). Bépp njeexital dafay tudd cosaanam te am lëkkalekaay bu jëm ci mbind
 mu njëkk mi.
 
 ## Ndax mbind yi yu Nguur gi lañu?
@@ -25,12 +25,12 @@ ak `list_jurisdictions` dañuy tudd cosaan bi ci juridiction bu nekk.
 
 ## Ban juridiction lay laal, te naka lay laale?
 
-124 adaptatëer: 108 réew yu bokk ci Mbootaayu Xeet yi (ONU), Hong Kong, Kosovo, Palestine, Taiwan,
-Àttekaay yu DIFC ak 11 àttekaay ak organisme yu adduna (niki Àttekaayu Tugal bu Sañ-sañi Doomu-aadama,
+125 adaptatëer: 108 réew yu bokk ci Mbootaayu Xeet yi (ONU), Hong Kong, Kosovo, Palestine, Taiwan,
+Àttekaay yu DIFC, àttekaay yu stat yu Etaa-Sini yi ak 11 àttekaay ak organisme yu adduna (niki Àttekaayu Tugal bu Sañ-sañi Doomu-aadama,
 Uniyoŋ Tugal, CIJ ak OMC).
 
 Li mu laal wute na lool. Ci benn sàrt bu tar (àtte yu àttekaay bu gën a kawe ci yoon wu ñépp, walla
-ndeyu-àtte bi ak yoon yu mag yi, ñu mën a jot ci lépp), 72 ci 124 lañu lim ni yu mu laal.
+ndeyu-àtte bi ak yoon yu mag yi, ñu mën a jot ci lépp), 72 ci 125 lañu lim ni yu mu laal.
 [COVERAGE.md](../../COVERAGE.md) (ci Àngale) dafay wax, ci juridiction bu nekk, li Fontes mën a jot, li mu
 mënul a jot, ak lu tax.
 
@@ -45,6 +45,7 @@ Ci lu ëpp ci juridiction yi, déedéet. Am na ay cosaan yu soxla caabi bu ñu j
 - **Etaa-Sini:** su la neexee. Wut ci àtte yi dafay dox te amul caabi, waaye caabi demo bi ñuy bokk dafay
   may rekk lu tollu ci 10 gëstu ci bés bi ci adrees IP bu nekk. Caabi api.data.gov bu ñu joxe ci neen ci
   `WLM_US_GOVINFO_KEY` dafay yokk dayo boobu.
+- **Àttekaay yu stat yu Etaa-Sini yi:** waaw. Àtte yu stat yi (`us-states`) dafay fey ba nga def `WLM_US_COURTLISTENER_KEY` ak sa token API CourtListener bu ñu joxe ci neen. CourtListener mooy dugal mbootaay (non-profit) Free Law Project; du cosaan bu am sañ-sañ, te tontu bu nekk dafay wax loolu.
 
 Defal leen ni variables d'environnement ngir serwëer Fontes bi ci réglage MCP yu sa aplikasioŋ. Programu samp yi dinañu leen laaj ginnaaw samp bi, te **Yokk walla soppi caabi yi** dafay leen
 soppi ginnaaw.

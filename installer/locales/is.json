@@ -25,6 +25,7 @@
  "key_fr_id": "Frakkland: PISTE client ID",
  "key_fr_secret": "Frakkland: PISTE client secret",
  "key_us": "Bandaríkin: api.data.gov-lykill",
+ "key_us_cl": "Bandaríkin: CourtListener-lykill",
  "keys_saved": "Lyklar vistaðir. Lokaðu forritunum þínum og opnaðu þau aftur til að nota þá.",
  "keys_unchanged": "Engum lyklum var breytt.",
  "keys_no_apps": "Fontes er ekki enn sett upp í neinu forriti. Settu það upp fyrst.",

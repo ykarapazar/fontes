@@ -7,7 +7,7 @@
 Server MCP b'xejn u b'kodiċi miftuħ (Apache 2.0). Jippermetti lil kwalunkwe app li titkellem
 il-Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI u oħrajn) tfittex
 deċiżjonijiet tal-qorti u leġiżlazzjoni direttament fuq is-siti web tal-qrati u tal-gvern
-f'120+ ġurisdizzjoni u qorti internazzjonali (124 adapter). Kull riżultat isemmi s-sors tiegħu
+f'120+ ġurisdizzjoni u qorti internazzjonali (125 adapter). Kull riżultat isemmi s-sors tiegħu
 u għandu link għall-oriġinal.
 
 ## It-testi huma uffiċjali?
@@ -25,12 +25,11 @@ tiċċita xi ħaġa, iċċekkja l-pubblikazzjoni uffiċjali. It-tabella tal-kope
 
 ## Liema ġurisdizzjonijiet ikopri, u kemm tajjeb?
 
-124 adapter: 108 stati membri tan-NU, Hong Kong, il-Kosovo, il-Palestina, Taiwan, id-DIFC Courts
-u 11-il qorti u korp internazzjonali (bħall-Qorti Ewropea tad-Drittijiet tal-Bniedem, l-UE,
+125 adapter: 108 stati membri tan-NU, Hong Kong, il-Kosovo, il-Palestina, Taiwan, id-DIFC Courts, il-qrati statali tal-Istati Uniti u 11-il qorti u korp internazzjonali (bħall-Qorti Ewropea tad-Drittijiet tal-Bniedem, l-UE,
 il-QIĠ u d-WTO).
 
 Il-kopertura tvarja ħafna. Taħt regola stretta (il-preċedenti tal-ogħla qorti ġenerali, jew
-il-kostituzzjoni u l-atti primarji, milħuqa għal kollox), 72 mill-124 jitqiesu koperti.
+il-kostituzzjoni u l-atti primarji, milħuqa għal kollox), 72 mill-125 jitqiesu koperti.
 [COVERAGE.md](../../COVERAGE.md) jelenka, għal kull ġurisdizzjoni, x'jilħaq Fontes, x'ma jilħaqx,
 u għaliex.
 
@@ -44,6 +43,7 @@ Għal kważi kull ġurisdizzjoni, le. Xi sorsi jeħtieġu ċavetta b'xejn: ara [
 - **Stati Uniti:** mhux obbligatorja. It-tfittxija tal-ġurisprudenza taħdem mingħajr ċavetta,
   iżda ċ-ċavetta demo komuni tippermetti biss madwar 10 tfittxijiet kuljum għal kull indirizz IP.
   Ċavetta b'xejn ta' api.data.gov f'`WLM_US_GOVINFO_KEY` togħlih.
+- **Il-qrati statali tal-Istati Uniti:** iva. Il-ġurisprudenza statali (`us-states`) hija mitfija sakemm ma tissettjax `WLM_US_COURTLISTENER_KEY` bit-token tal-API ta' CourtListener b'xejn tiegħek stess. CourtListener huwa mmexxi mill-organizzazzjoni mingħajr skop ta' qligħ Free Law Project; mhuwiex sors uffiċjali, u kull tweġiba tgħid hekk.
 
 Issettja dawn bħala varjabbli tal-ambjent għas-server Fontes fis-settings MCP tal-app tiegħek.
 L-installers jistaqsuk għalihom wara l-installazzjoni, u l-launcher tagħhom

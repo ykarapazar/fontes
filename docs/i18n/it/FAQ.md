@@ -7,7 +7,7 @@
 Un server MCP gratuito e open source (Apache 2.0). Consente a qualsiasi app che parli il Model
 Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI e altre) di cercare decisioni
 giudiziarie e normativa in tempo reale dai siti web giudiziari e istituzionali di oltre 120
-giurisdizioni e corti internazionali (124 adattatori). Ogni risultato indica la sua fonte e rimanda
+giurisdizioni e corti internazionali (125 adattatori). Ogni risultato indica la sua fonte e rimanda
 all'originale.
 
 ## I testi sono ufficiali?
@@ -27,11 +27,11 @@ giurisdizione.
 
 ## Quali giurisdizioni copre, e in che misura?
 
-124 adattatori: 108 Stati membri dell'ONU, Hong Kong, Kosovo, Palestina, Taiwan, le DIFC Courts e 11
+125 adattatori: 108 Stati membri dell'ONU, Hong Kong, Kosovo, Palestina, Taiwan, le DIFC Courts, i tribunali statali degli Stati Uniti e 11
 corti e organismi internazionali (come la Corte europea dei diritti dell'uomo, l'UE, la CIG e l'OMC).
 
 La copertura varia molto. Secondo un criterio rigoroso (la giurisprudenza della corte suprema della
-giurisdizione ordinaria, oppure la costituzione e le leggi, coperte integralmente), 72 su 124 risultano
+giurisdizione ordinaria, oppure la costituzione e le leggi, coperte integralmente), 72 su 125 risultano
 coperte. [COVERAGE.md](../../COVERAGE.md) indica, per ogni giurisdizione, che cosa Fontes copre, che
 cosa non copre e perché.
 
@@ -46,6 +46,7 @@ Per quasi tutte le giurisdizioni, no. Alcune fonti richiedono una chiave gratuit
 - **Stati Uniti:** facoltativa. La ricerca nella giurisprudenza funziona senza chiave, ma la chiave
   dimostrativa condivisa consente solo circa 10 ricerche al giorno per indirizzo IP. Una chiave
   gratuita di api.data.gov in `WLM_US_GOVINFO_KEY` aumenta questo limite.
+- **Tribunali statali degli Stati Uniti:** sì. La giurisprudenza statale (`us-states`) è disattivata finché non imposta `WLM_US_COURTLISTENER_KEY` con il Suo token API gratuito di CourtListener. CourtListener è gestito da Free Law Project, un'organizzazione senza scopo di lucro; non è una fonte ufficiale, e ogni risposta lo dichiara.
 
 Le imposti come variabili d'ambiente per il server Fontes nella configurazione MCP della Sua app.
 I programmi di installazione Le chiedono le chiavi dopo l'installazione, e il loro

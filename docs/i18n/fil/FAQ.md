@@ -7,7 +7,7 @@
 Isang libre at open-source na MCP server (Apache 2.0). Binibigyang-daan nito ang anumang app na gumagamit ng
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI at iba pa) na maghanap ng mga desisyon ng
 korte at lehislasyon nang live sa mga website ng mga korte at ng pamahalaan sa 120+ hurisdiksyon at
-internasyonal na korte (124 adapter). Bawat resulta ay nagsasaad ng sanggunian nito at may link sa orihinal.
+internasyonal na korte (125 adapter). Bawat resulta ay nagsasaad ng sanggunian nito at may link sa orihinal.
 
 ## Opisyal ba ang mga teksto?
 
@@ -24,11 +24,11 @@ Bago ka sumipi ng anuman, suriin ang opisyal na publikasyon. Pinapangalanan ng t
 
 ## Aling mga hurisdiksyon ang saklaw nito, at gaano kahusay?
 
-124 adapter: 108 UN member state, Hong Kong, Kosovo, Palestine, Taiwan, ang DIFC Courts at
+125 adapter: 108 UN member state, Hong Kong, Kosovo, Palestine, Taiwan, ang DIFC Courts, ang mga state court ng US at
 11 internasyonal na korte at katawan (tulad ng European Court of Human Rights, ng EU, ng ICJ at ng WTO).
 
 Malaki ang pagkakaiba ng saklaw. Sa ilalim ng isang mahigpit na patakaran (ang mga precedent ng pinakamataas
-na pangkalahatang korte, o ang konstitusyon at mga pangunahing batas, na naaabot nang buo), 72 sa 124 ang
+na pangkalahatang korte, o ang konstitusyon at mga pangunahing batas, na naaabot nang buo), 72 sa 125 ang
 itinuturing na saklaw. Inililista ng [COVERAGE.md](COVERAGE.md), para sa bawat hurisdiksyon, kung ano ang
 naaabot ng Fontes, kung ano ang hindi, at bakit.
 
@@ -43,6 +43,7 @@ Para sa halos bawat hurisdiksyon, hindi. Kailangan ng ilang sanggunian ng libren
 - **United States:** opsyonal. Gumagana ang paghahanap ng jurisprudence nang walang key, pero ang shared na
   demo key ay nagpapahintulot lamang ng mga 10 paghahanap bawat araw bawat IP address. Tinataasan ito ng
   isang libreng api.data.gov key sa `WLM_US_GOVINFO_KEY`.
+- **Mga state court ng US:** oo. Naka-off ang jurisprudence ng estado (`us-states`) hanggang itakda mo ang `WLM_US_COURTLISTENER_KEY` sa sarili mong libreng CourtListener API token. Pinapatakbo ang CourtListener ng non-profit na Free Law Project; hindi ito opisyal na sanggunian, at sinasabi ito ng bawat sagot.
 
 Itakda ang mga ito bilang mga environment variable para sa Fontes server sa mga MCP setting ng iyong app.
 Hinihingi ng mga installer ang mga ito pagkatapos mag-install, at ang launcher nilang

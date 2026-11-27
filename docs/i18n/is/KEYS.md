@@ -2,12 +2,13 @@
 
 # API-lyklar
 
-Nánast allar heimildir í Fontes virka án lykils. Tvær þurfa ókeypis lykil:
+Nánast allar heimildir í Fontes virka án lykils. Þrjár þurfa ókeypis lykil:
 
 | Lykill | Opnar | Án hans |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Frakkland: Judilibre (dómar) og Légifrance (löggjöf) | Frakkland er óvirkt. `list_jurisdictions` sýnir það sem óvirkt. |
 | `WLM_US_GOVINFO_KEY` | Bandaríkin: govinfo-leit (dómar alríkisdómstóla, Statutes at Large, public laws) | Fontes notar sameiginlega `DEMO_KEY`: um 10 leitir á dag á hverja IP-tölu. Ekki þarf lykil til að opna þekktan dóm eða US Code. |
+| `WLM_US_COURTLISTENER_KEY` | Ríkisdómstólar Bandaríkjanna (`us-states`): dómar hæstaréttar og áfrýjunardómstóla allra 50 ríkjanna og DC, frá CourtListener | Dómaframkvæmd ríkja Bandaríkjanna er óvirk. `list_jurisdictions` sýnir hana sem óvirka. |
 
 Lyklar eru valkvæðir. Þú getur bætt þeim við síðar.
 
@@ -74,6 +75,22 @@ Skilmálarnir í stuttu máli:
   Sjá [stefnur govinfo](https://www.govinfo.gov/about/policies) og
   [persónuverndarstefnu data.gov](https://data.gov/privacy-policy/).
 - Haltu lyklinum fyrir þig.
+
+## Ríkisdómstólar Bandaríkjanna: CourtListener (ókeypis)
+
+CourtListener er rekið af [Free Law Project](https://free.law), sjálfseignarstofnun sem hefur safnað dómum bandarískra dómstóla frá 2010 og gert þá aðgengilega öllum án endurgjalds. Samkvæmt eigin talningu geymir það yfir níu milljónir dóma. Það er ekki opinber heimild: dómstólarnir birta dóma sína sjálfir og CourtListener safnar þeim af vefsíðum dómstóla og úr skönnuðum dómasöfnum. Hvert svar frá Fontes sem kemur þaðan segir til um það. Fontes tengist ekki Free Law Project.
+
+1. Stofnaðu ókeypis aðgang á [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Opnaðu prófílinn þinn og afritaðu API-táknið þitt.
+3. Keyrðu **Add or change keys** og límdu það inn sem CourtListener-lykil.
+
+Skilmálarnir í stuttu máli ([skilmálar í heild](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Táknið er aðeins þitt: ekki deila því, sameina það öðrum eða endurselja það, og ekki nota marga aðganga.
+- Þú berð ábyrgð á því sem gervigreindarforrit gerir með tákninu þínu.
+- Ekki setja greiningu gervigreindar á gögnum þeirra fram sem unna, samþykkta eða yfirfarna af Free Law Project.
+- Ókeypis aðgangur leyfir 5 beiðnir á mínútu, 50 á klukkustund og 125 á dag. Leit er ein beiðni; að opna dóm eru tvær. Aðild að Free Law Project hækkar mörkin.
+- CourtListener ábyrgist ekki nákvæmni. Berðu dóm saman við eintak dómstólsins áður en þú treystir á hann.
 
 ## Hvar lyklarnir eru geymdir
 

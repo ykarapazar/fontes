@@ -2,12 +2,13 @@
 
 # API llavenaka
 
-Fontes ukan niya taqi jalsunakax jan llavempiw irnaqi. Payax mä inaki llaveniw wakisi:
+Fontes ukan niya taqi jalsunakax jan llavempiw irnaqi. Kimsax mä inaki llaveniw wakisi:
 
 | Llave | Kuns jist'ari | Jan utjkchixa |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francia: Judilibre (taripäwinaka), Légifrance (kamachinaka) | Francia jiwt'atawa. `list_jurisdictions` ukax jan irnaqir ukham uñacht'ayi. |
 | `WLM_US_GOVINFO_KEY` | Estados Unidos: govinfo thaqaña (federal taripañ utanakan opinionanakapa, Statutes at Large, public laws) | Fontes ukax chikat apnaqat `DEMO_KEY` apnaqi: sapa uru sapa IP direccionatak niya 10 thaqäwi. Uñt'at taripäw jist'araña, US Code ukanakax janiw llave munkiti. |
+| `WLM_US_COURTLISTENER_KEY` | Estados Unidos ukan estadonakapan taripañ utanakapa (`us-states`): 50 estadonakan DC ukan jach'a ukat apelación taripañ utanakapan opinionanakapa, CourtListener ukat | Estados Unidos ukan estadonakapan jurisprudenciapax jan irnaqiwa. `list_jurisdictions` ukax jan irnaqir ukham uñacht'ayi. |
 
 Llavenakax ajlliñatakiwa. Qhipat yapxatasmawa.
 
@@ -85,6 +86,22 @@ Condicionanaka, jisk'achata:
   uñakipata. [govinfo's policies](https://www.govinfo.gov/about/policies),
   [data.gov privacy policy](https://data.gov/privacy-policy/) uñjam.
 - Llave jumatakikiw imam.
+
+## Estados Unidos ukan estadonakapan taripañ utanakapa: CourtListener (inaki)
+
+CourtListener ukax [Free Law Project](https://free.law) ukan apnaqatawa; jan lucro apthapir organización ukawa, 2010 maya qillqat Estados Unidos ukan taripañ utanakapan opinionanakap apthapi, taqiniruw inaki luraraki. Jupan jakhthapitaxa, llätunka millón sipanx juk'amp taripäwinaka utjayi. Janiw oficial yatiyiri ukhamäkiti: taripañ utanakax juk'at opinionanakap uñt'ayapxi, CourtListener ukax taripañ utanakan web sitionakapat ukat escaneata leyen libronakat apthapi. Fontes ukan CourtListener ukat apsut sapa jaysäwix ukham siwa. Fontes ukax Free Law Project ukamp jan chikt'atawa.
+
+1. [courtlistener.com](https://www.courtlistener.com/sign-in/) ukan mä inaki cuenta luram.
+2. Perfilama jist'aram ukat API token ukam copiam.
+3. **Add or change keys** irnaqayam ukat CourtListener llave ukham ch'ikt'am.
+
+Condicionanaka, jisk'achata ([taqpach condicionanaka](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token ukax juma pachpatakikiwa: jan yaqhar uñachtayamti, jan mayacht'amti, jan alxatamti, jan walja cuenta apnaqamti.
+- AI aplicación ukax tokenamampi kuntï luri ukatakix jumaw responsablëta.
+- AI ukan datonakap analizapax Free Law Project ukan lurata, yanapata jan ukax uñakipatawa ukham jan uñachtayamti.
+- Mä inaki cuentax mä minutun 5 mayiwi, mä horan 50 ukat mä urun 125 mayiwi jaytayi. Mä thaqäwix mä mayiwiwa; mä taripäw jist'arañax paya. Free Law Project ukan membresiapax límitenak jilaraqi.
+- CourtListener ukax janiw cheqapäñ ch'ikhiyiti. Opinión ukar jan ch'ama jan uñt'ayasax taripañ utan copiapamp uñakipam.
 
 ## Kawkins llavenakax imasi
 

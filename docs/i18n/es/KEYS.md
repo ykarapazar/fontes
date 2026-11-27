@@ -2,12 +2,13 @@
 
 # Claves de API
 
-Casi todas las fuentes de Fontes funcionan sin clave. Dos necesitan una gratuita:
+Casi todas las fuentes de Fontes funcionan sin clave. Tres necesitan una gratuita:
 
 | Clave | Desbloquea | Sin ella |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francia: Judilibre (resoluciones judiciales) y Légifrance (legislación) | Francia está desactivada. `list_jurisdictions` la muestra como inactiva. |
 | `WLM_US_GOVINFO_KEY` | Estados Unidos: búsqueda en govinfo (resoluciones de tribunales federales, Statutes at Large, public laws) | Fontes usa la `DEMO_KEY` compartida: unas 10 búsquedas al día por dirección IP. Abrir una resolución conocida y el US Code no requieren clave. |
+| `WLM_US_COURTLISTENER_KEY` | Tribunales estatales de EE. UU. (`us-states`): opiniones de los tribunales supremos y de apelación de los 50 estados y de DC, de CourtListener | La jurisprudencia estatal de EE. UU. está desactivada. `list_jurisdictions` la muestra como inactiva. |
 
 Las claves son opcionales. Puede añadirlas más tarde.
 
@@ -82,6 +83,22 @@ Condiciones, en resumen:
   verificado. Consulte las [políticas de govinfo](https://www.govinfo.gov/about/policies) y la
   [política de privacidad de data.gov](https://data.gov/privacy-policy/).
 - No comparta la clave.
+
+## Tribunales estatales de EE. UU.: CourtListener (gratuito)
+
+CourtListener lo gestiona [Free Law Project](https://free.law), una organización sin ánimo de lucro que desde 2010 recopila opiniones de los tribunales de EE. UU. y las pone gratis al alcance de todos. Según su propio recuento, contiene más de nueve millones de resoluciones. No es una fuente oficial: los tribunales publican sus propias opiniones, y CourtListener las recoge de los sitios web de los tribunales y de repertorios de jurisprudencia escaneados. Cada respuesta de Fontes que procede de él lo indica. Fontes no está vinculado a Free Law Project.
+
+1. Cree una cuenta gratuita en [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Abra su perfil y copie su token de API.
+3. Ejecute **Add or change keys** y péguelo como clave de CourtListener.
+
+Condiciones, en resumen ([condiciones completas](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- El token es solo suyo: no lo comparta, no lo combine con otros ni lo revenda, y no use varias cuentas.
+- Usted es responsable de lo que una aplicación de IA haga con su token.
+- No presente el análisis de una IA sobre sus datos como elaborado, respaldado o revisado por Free Law Project.
+- Una cuenta gratuita permite 5 solicitudes por minuto, 50 por hora y 125 por día. Una búsqueda es una solicitud; abrir una resolución son dos. Una afiliación a Free Law Project eleva los límites.
+- CourtListener no garantiza la exactitud. Compruebe una opinión con la copia del tribunal antes de fiarse de ella.
 
 ## Dónde se guardan las claves
 

@@ -25,6 +25,7 @@
  "key_fr_id": "Francuska: PISTE client ID",
  "key_fr_secret": "Francuska: PISTE client secret",
  "key_us": "Sjedinjene Američke Države: ključ za api.data.gov",
+ "key_us_cl": "Sjedinjene Američke Države: ključ za CourtListener",
  "keys_saved": "Ključevi su spremljeni. Zatvorite i ponovno otvorite svoje aplikacije kako biste ih koristili.",
  "keys_unchanged": "Nijedan ključ nije promijenjen.",
  "keys_no_apps": "Fontes još nije postavljen ni u jednoj aplikaciji. Najprije ga instalirajte.",

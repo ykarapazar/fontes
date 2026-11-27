@@ -2,12 +2,13 @@
 
 # API atslēgas
 
-Gandrīz visi Fontes avoti darbojas bez atslēgas. Diviem vajadzīga bezmaksas atslēga:
+Gandrīz visi Fontes avoti darbojas bez atslēgas. Trim vajadzīga bezmaksas atslēga:
 
 | Atslēga | Atver | Bez tās |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francija: Judilibre (tiesu nolēmumi) un Légifrance (tiesību akti) | Francija ir izslēgta. `list_jurisdictions` to rāda kā neaktīvu. |
 | `WLM_US_GOVINFO_KEY` | Amerikas Savienotās Valstis: govinfo meklēšana (federālo tiesu nolēmumi, Statutes at Large, public laws) | Fontes izmanto koplietoto `DEMO_KEY`: aptuveni 10 meklējumi dienā no vienas IP adreses. Zināma nolēmuma atvēršanai un US Code atslēga nav vajadzīga. |
+| `WLM_US_COURTLISTENER_KEY` | ASV štatu tiesas (`us-states`): visu 50 štatu un Kolumbijas apgabala augstāko un apelāciju tiesu spriedumi no CourtListener | ASV štatu tiesu prakse ir izslēgta. `list_jurisdictions` to rāda kā neaktīvu. |
 
 Atslēgas nav obligātas. Tās var pievienot vēlāk.
 
@@ -77,6 +78,22 @@ Noteikumi īsumā:
   pārbaudīts. Skatiet [govinfo politikas](https://www.govinfo.gov/about/policies) un
   [data.gov privātuma politiku](https://data.gov/privacy-policy/).
 - Paturiet atslēgu pie sevis.
+
+## ASV štatu tiesas: CourtListener (bezmaksas)
+
+CourtListener uztur [Free Law Project](https://free.law) – bezpeļņas organizācija, kas kopš 2010. gada vāc ASV tiesu spriedumus un dara tos brīvi pieejamus visiem. Pēc tās pašas datiem tajā ir vairāk nekā deviņi miljoni nolēmumu. Tas nav oficiāls avots: tiesas savus spriedumus publicē pašas, un CourtListener tos savāc no tiesu vietnēm un skenētiem likumu pārskatiem. Katra Fontes atbilde no tā to norāda. Fontes nav saistīts ar Free Law Project.
+
+1. Izveidojiet bezmaksas kontu vietnē [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Atveriet savu profilu un nokopējiet savu API token.
+3. Palaidiet **Add or change keys** un ielīmējiet to kā CourtListener atslēgu.
+
+Noteikumi īsumā ([pilnie noteikumi](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token ir tikai jūsu: nedaliet to ar citiem, neapvienojiet un nepārdodiet tālāk, un neizmantojiet vairākus kontus.
+- Jūs atbildat par to, ko mākslīgā intelekta lietotne dara ar jūsu token.
+- Nepasniedziet mākslīgā intelekta veiktu viņu datu analīzi kā tādu, ko radījis, atbalstījis vai pārbaudījis Free Law Project.
+- Bezmaksas konts ļauj 5 pieprasījumus minūtē, 50 stundā un 125 dienā. Meklēšana ir viens pieprasījums; nolēmuma atvēršana ir divi. Free Law Project dalība šos ierobežojumus palielina.
+- CourtListener negarantē precizitāti. Pirms uzticaties spriedumam, salīdziniet to ar tiesas eksemplāru.
 
 ## Kur tiek glabātas atslēgas
 

@@ -7,7 +7,7 @@
 Một máy chủ MCP miễn phí, mã nguồn mở (Apache 2.0). Fontes cho phép mọi ứng dụng hỗ trợ Model Context
 Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI và các ứng dụng khác) tìm kiếm bản án và
 văn bản quy phạm pháp luật trực tiếp trên các trang web của tòa án và cơ quan nhà nước ở hơn 120 phạm vi tài phán và các tòa án
-quốc tế (124 adapter). Mọi kết quả đều nêu tên nguồn và dẫn liên kết tới bản gốc.
+quốc tế (125 adapter). Mọi kết quả đều nêu tên nguồn và dẫn liên kết tới bản gốc.
 
 ## Các văn bản có phải là bản chính thức không?
 
@@ -25,12 +25,11 @@ bạn trích dẫn bất cứ điều gì, hãy kiểm tra bản công bố chí
 
 ## Fontes bao quát những phạm vi tài phán nào, và ở mức độ nào?
 
-124 adapter: 108 quốc gia thành viên Liên Hợp Quốc, Hồng Kông, Kosovo, Palestine, Đài Loan, Tòa án DIFC và
-11 tòa án và cơ quan quốc tế (như Tòa án Nhân quyền châu Âu, EU, Tòa án Công lý
+125 adapter: 108 quốc gia thành viên Liên Hợp Quốc, Hồng Kông, Kosovo, Palestine, Đài Loan, Tòa án DIFC, các tòa án tiểu bang Hoa Kỳ và 11 tòa án và cơ quan quốc tế (như Tòa án Nhân quyền châu Âu, EU, Tòa án Công lý
 Quốc tế (ICJ) và WTO).
 
 Phạm vi bao quát khác nhau rất nhiều. Theo một tiêu chí chặt chẽ (các án lệ của tòa án chung cấp cao nhất, hoặc
-hiến pháp và các đạo luật chính, được truy cập đầy đủ), 72 trên 124 được tính là đã bao quát.
+hiến pháp và các đạo luật chính, được truy cập đầy đủ), 72 trên 125 được tính là đã bao quát.
 [COVERAGE.md](../../COVERAGE.md) liệt kê, với từng phạm vi tài phán, những gì Fontes truy cập được, những gì không,
 và lý do.
 
@@ -44,6 +43,7 @@ Với hầu hết mọi phạm vi tài phán, không. Một số nguồn cần k
 - **Hoa Kỳ:** tùy chọn. Tìm kiếm án lệ hoạt động không cần khóa, nhưng khóa demo dùng chung
   chỉ cho phép khoảng 10 lượt tìm kiếm mỗi ngày cho mỗi địa chỉ IP. Một khóa api.data.gov miễn phí trong
   `WLM_US_GOVINFO_KEY` sẽ nâng giới hạn này.
+- **Tòa án tiểu bang Hoa Kỳ:** có. Án lệ tiểu bang (`us-states`) bị tắt cho đến khi bạn đặt `WLM_US_COURTLISTENER_KEY` bằng API token CourtListener miễn phí của riêng bạn. CourtListener do tổ chức phi lợi nhuận Free Law Project vận hành; đây không phải nguồn chính thức, và mọi câu trả lời đều nêu rõ điều đó.
 
 Hãy đặt chúng làm biến môi trường cho máy chủ Fontes trong thiết lập MCP của ứng dụng. Các
 trình cài đặt hỏi các khóa này sau khi cài đặt, và trình khởi chạy **Add or change keys** của chúng

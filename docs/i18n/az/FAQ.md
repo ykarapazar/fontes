@@ -6,7 +6,7 @@
 
 Pulsuz, açıq mənbəli MCP serveri (Apache 2.0). O, Model Context Protocol ilə işləyən istənilən
 proqrama (Claude, Codex, Cursor, VS Code, Gemini CLI və digərləri) 120-dən çox yurisdiksiyada və
-beynəlxalq məhkəmədə (124 adapter) məhkəmə qərarlarını və qanunvericiliyi məhkəmə və dövlət
+beynəlxalq məhkəmədə (125 adapter) məhkəmə qərarlarını və qanunvericiliyi məhkəmə və dövlət
 saytlarında canlı olaraq axtarmağa imkan verir. Hər nəticə öz mənbəyini göstərir və orijinala
 keçid verir.
 
@@ -25,11 +25,10 @@ istinad etməzdən əvvəl rəsmi nəşri yoxlayın. [README](README.md#əhatə)
 
 ## Hansı yurisdiksiyaları və nə dərəcədə əhatə edir?
 
-124 adapter: 108 BMT üzvü dövlət, Honq-Konq, Kosovo, Fələstin, Tayvan, DIFC Məhkəmələri və
-11 beynəlxalq məhkəmə və qurum (məsələn, Avropa İnsan Hüquqları Məhkəməsi, AB, BMƏ və ÜTT).
+125 adapter: 108 BMT üzvü dövlət, Honq-Konq, Kosovo, Fələstin, Tayvan, DIFC Məhkəmələri, ABŞ ştatlarının məhkəmələri və 11 beynəlxalq məhkəmə və qurum (məsələn, Avropa İnsan Hüquqları Məhkəməsi, AB, BMƏ və ÜTT).
 
 Əhatə çox fərqlənir. Ciddi qaydaya görə (ən yüksək ümumi məhkəmənin presedentlərinə və ya
-konstitusiyaya və əsas qanunlara tam çatılması), 124-dən 72-si əhatə olunmuş sayılır.
+konstitusiyaya və əsas qanunlara tam çatılması), 125-dən 72-si əhatə olunmuş sayılır.
 [COVERAGE.md](../../COVERAGE.md) (ingiliscə) hər yurisdiksiya üçün Fontes-in nəyə çatdığını, nəyə
 çatmadığını və səbəbini sadalayır.
 
@@ -44,6 +43,7 @@ Demək olar ki, hər yurisdiksiya üçün yox. Bəzi mənbələr pulsuz açar t�
 - **Amerika Birləşmiş Ştatları:** istəyə bağlı. Məhkəmə təcrübəsində axtarış açarsız işləyir, lakin
   ümumi demo açarı IP ünvanı başına gündə yalnız təxminən 10 axtarışa icazə verir.
   `WLM_US_GOVINFO_KEY`-də pulsuz api.data.gov açarı bu limiti artırır.
+- **ABŞ ştatlarının məhkəmələri:** bəli. Ştat məhkəmə təcrübəsi (`us-states`) `WLM_US_COURTLISTENER_KEY`-i öz pulsuz CourtListener API tokeninizə təyin edənə qədər söndürülüb. CourtListener qeyri-kommersiya təşkilatı Free Law Project tərəfindən idarə olunur; bu, rəsmi mənbə deyil və hər cavab bunu bildirir.
 
 Bunları proqramınızın MCP parametrlərində Fontes serveri üçün mühit dəyişənləri kimi təyin edin.
 Quraşdırıcılar quraşdırmadan sonra bunları soruşur, onların **Açarları əlavə et və ya dəyiş**

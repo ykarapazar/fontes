@@ -2,12 +2,13 @@
 
 # Çelësat API
 
-Pothuajse çdo burim në Fontes funksionon pa çelës. Dy prej tyre kërkojnë një çelës falas:
+Pothuajse çdo burim në Fontes funksionon pa çelës. Tre prej tyre kërkojnë një çelës falas:
 
 | Çelësi | Çfarë hap | Pa të |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Franca: Judilibre (vendime gjyqësore) dhe Légifrance (legjislacion) | Franca është joaktive. `list_jurisdictions` e tregon si joaktive. |
 | `WLM_US_GOVINFO_KEY` | Shtetet e Bashkuara: kërkimi govinfo (opinionet e gjykatave federale, Statutes at Large, ligjet publike) | Fontes përdor `DEMO_KEY` e përbashkët: rreth 10 kërkime në ditë për adresë IP. Hapja e një vendimi të njohur dhe US Code nuk kërkojnë çelës. |
+| `WLM_US_COURTLISTENER_KEY` | Gjykatat shtetërore të SHBA-së (`us-states`): opinionet e gjykatave supreme dhe të apelit të të 50 shteteve dhe të DC-së, nga CourtListener | Praktika gjyqësore e shteteve të SHBA-së është joaktive. `list_jurisdictions` e shfaq si joaktive. |
 
 Çelësat janë opsionalë. Mund t'i shtoni më vonë.
 
@@ -84,6 +85,22 @@ Kushtet, shkurtimisht:
   paverifikuar. Shihni [politikat e govinfo](https://www.govinfo.gov/about/policies) dhe
   [politikën e privatësisë së data.gov](https://data.gov/privacy-policy/).
 - Mbajeni çelësin për vete.
+
+## Gjykatat shtetërore të SHBA-së: CourtListener (falas)
+
+CourtListener drejtohet nga [Free Law Project](https://free.law), një organizatë jofitimprurëse që mbledh opinionet e gjykatave amerikane që nga viti 2010 dhe i vë falas në dispozicion të të gjithëve. Sipas të dhënave të veta, ajo përmban mbi nëntë milionë vendime. Nuk është burim zyrtar: gjykatat publikojnë vetë opinionet e tyre, dhe CourtListener i mbledh nga faqet e internetit të gjykatave dhe nga përmbledhjet e skanuara të vendimeve. Çdo përgjigje e Fontes nga ky burim e thotë këtë. Fontes nuk është i lidhur me Free Law Project.
+
+1. Krijoni një llogari falas në [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Hapni profilin tuaj dhe kopjoni token-in tuaj API.
+3. Ekzekutoni **Add or change keys** dhe ngjiteni si çelësin e CourtListener.
+
+Kushtet, shkurtimisht ([kushtet e plota](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token-i është vetëm i juaji: mos e ndani, mos e bashkoni dhe mos e rishitni, dhe mos përdorni disa llogari.
+- Ju mbani përgjegjësi për atë që një aplikacion IA bën me token-in tuaj.
+- Mos e paraqitni analizën e të dhënave të tyre nga një IA si të prodhuar, miratuar ose kontrolluar nga Free Law Project.
+- Një llogari falas lejon 5 kërkesa në minutë, 50 në orë dhe 125 në ditë. Një kërkim është një kërkesë; hapja e një vendimi janë dy. Anëtarësimi në Free Law Project i rrit kufijtë.
+- CourtListener nuk garanton saktësinë. Kontrolloni një opinion me kopjen e gjykatës përpara se të mbështeteni te ai.
 
 ## Ku ruhen çelësat
 

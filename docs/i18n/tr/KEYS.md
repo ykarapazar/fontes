@@ -2,12 +2,13 @@
 
 # API anahtarları
 
-Fontes'teki neredeyse her kaynak anahtarsız çalışır. İkisi ücretsiz bir anahtar gerektirir:
+Fontes'teki neredeyse her kaynak anahtarsız çalışır. Üçü ücretsiz bir anahtar gerektirir:
 
 | Anahtar | Neyi açar | Anahtar olmadan |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Fransa: Judilibre (mahkeme kararları) ve Légifrance (mevzuat) | Fransa kapalıdır. `list_jurisdictions` onu etkin değil olarak gösterir. |
 | `WLM_US_GOVINFO_KEY` | Amerika Birleşik Devletleri: govinfo araması (federal mahkeme kararları, Statutes at Large, public laws) | Fontes ortak `DEMO_KEY`'i kullanır: IP adresi başına günde yaklaşık 10 arama. Bilinen bir kararı açmak ve US Code anahtar gerektirmez. |
+| `WLM_US_COURTLISTENER_KEY` | ABD eyalet mahkemeleri (`us-states`): CourtListener'dan, 50 eyaletin ve DC'nin yüksek ve istinaf mahkemelerinin kararları | ABD eyalet içtihadı kapalıdır. `list_jurisdictions` onu etkin değil olarak gösterir. |
 
 Anahtarlar isteğe bağlıdır. Bunları daha sonra ekleyebilirsiniz.
 
@@ -85,6 +86,22 @@ Kısaca koşullar:
   Doğrulanmadı. Bkz. [govinfo'nun politikaları](https://www.govinfo.gov/about/policies) ve
   [data.gov gizlilik politikası](https://data.gov/privacy-policy/).
 - Anahtarı kendinize saklayın.
+
+## ABD eyalet mahkemeleri: CourtListener (ücretsiz)
+
+CourtListener, 2010'dan beri ABD mahkeme kararlarını toplayan ve bunları herkese ücretsiz sunan kâr amacı gütmeyen bir kuruluş olan [Free Law Project](https://free.law) tarafından işletilir. Kendi sayımına göre dokuz milyonun üzerinde karar içerir. Resmî bir kaynak değildir: mahkemeler kendi kararlarını kendileri yayımlar, CourtListener ise bunları mahkeme internet sitelerinden ve taranmış karar derlemelerinden toplar. Fontes'in bu kaynaktan verdiği her yanıt bunu belirtir. Fontes, Free Law Project ile bağlantılı değildir.
+
+1. [courtlistener.com](https://www.courtlistener.com/sign-in/) adresinde ücretsiz bir hesap oluşturun.
+2. Profilinizi açın ve API token'ınızı kopyalayın.
+3. **Anahtar ekle veya değiştir**'i çalıştırın ve onu CourtListener anahtarı olarak yapıştırın.
+
+Kısaca koşullar ([tam koşullar](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token yalnızca size aittir: paylaşmayın, başkalarınınkiyle birleştirmeyin, yeniden satmayın ve birden fazla hesap kullanmayın.
+- Bir yapay zekâ uygulamasının token'ınızla yaptıklarından siz sorumlusunuz.
+- Bir yapay zekânın onların verileri üzerinde yaptığı analizi, Free Law Project tarafından üretilmiş, onaylanmış veya denetlenmiş gibi sunmayın.
+- Ücretsiz bir hesap dakikada 5, saatte 50 ve günde 125 isteğe izin verir. Bir arama bir istektir; bir kararı açmak iki istektir. Free Law Project üyeliği sınırları yükseltir.
+- CourtListener doğruluğu garanti etmez. Bir karara güvenmeden önce onu mahkemenin kendi kopyasıyla karşılaştırın.
 
 ## Anahtarlar nerede saklanır
 

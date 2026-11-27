@@ -2,12 +2,13 @@
 
 # Kle API
 
-Prèske tout sous nan Fontes mache san kle. De bezwen yon kle gratis:
+Prèske tout sous nan Fontes mache san kle. Twa bezwen yon kle gratis:
 
 | Kle | Sa li debloke | San li |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Lafrans: Judilibre (desizyon tribinal) ak Légifrance (lejislasyon) | Lafrans etenn. `list_jurisdictions` montre l kòm inaktif. |
 | `WLM_US_GOVINFO_KEY` | Etazini: rechèch govinfo (opinyon tribinal federal yo, Statutes at Large, lwa piblik) | Fontes sèvi ak kle pataje `DEMO_KEY` la: anviwon 10 rechèch pa jou pou chak adrès IP. Pou louvri yon desizyon ou deja konnen ak US Code, ou pa bezwen kle. |
+| `WLM_US_COURTLISTENER_KEY` | Tribinal eta Etazini yo (`us-states`): opinyon tribinal siprèm ak tribinal apèl tout 50 eta yo ak DC, soti nan CourtListener | Jirisprudans eta Etazini yo etenn. `list_jurisdictions` montre l kòm inaktif. |
 
 Kle yo opsyonèl. Ou ka ajoute yo pita.
 
@@ -74,6 +75,22 @@ Kondisyon yo, an kout:
   Gade [politik govinfo yo](https://www.govinfo.gov/about/policies) ak
   [politik vi prive data.gov la](https://data.gov/privacy-policy/).
 - Kenbe kle a pou ou sèl.
+
+## Tribinal eta Etazini yo: CourtListener (gratis)
+
+[Free Law Project](https://free.law), yon òganizasyon san bi likratif, fè CourtListener mache. Depi 2010, li ap rasanble opinyon tribinal Etazini yo epi li ofri yo gratis bay tout moun. Dapre pwòp konte li, li gen plis pase nèf milyon desizyon. Se pa yon sous ofisyèl: tribinal yo menm piblye opinyon yo, epi CourtListener ranmase yo sou sit entènèt tribinal yo ak nan rapò jiridik eskane. Chak repons Fontes ki soti ladan l di sa. Fontes pa gen okenn rapò ak Free Law Project.
+
+1. Kreye yon kont gratis sou [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Louvri pwofil ou epi kopye token API ou.
+3. Lanse **Ajoute oswa chanje kle** epi kole l kòm kle CourtListener la.
+
+Kondisyon yo, an kout ([kondisyon konplè yo](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token an se pou ou sèl: pa pataje l, pa mete l ansanm ak lòt moun, pa revann li, epi pa itilize plizyè kont.
+- Ou responsab sa yon aplikasyon AI fè ak token ou a.
+- Pa prezante yon analiz yon AI fè sou done yo kòm si Free Law Project te pwodui l, apiye l oswa verifye l.
+- Yon kont gratis pèmèt 5 demann pa minit, 50 pa èdtan ak 125 pa jou. Yon rechèch se yon demann; louvri yon desizyon se de. Yon manm Free Law Project jwenn limit ki pi wo.
+- CourtListener pa garanti egzaktitid. Verifye yon opinyon ak kopi tribinal la anvan ou konte sou li.
 
 ## Ki kote kle yo estoke
 

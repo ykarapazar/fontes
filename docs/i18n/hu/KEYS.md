@@ -2,12 +2,13 @@
 
 # API-kulcsok
 
-A Fontes szinte minden forrása kulcs nélkül működik. Kettőhöz ingyenes kulcs kell:
+A Fontes szinte minden forrása kulcs nélkül működik. Háromhoz ingyenes kulcs kell:
 
 | Kulcs | Mit tesz elérhetővé | Nélküle |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Franciaország: Judilibre (bírósági határozatok) és Légifrance (jogszabályok) | Franciaország ki van kapcsolva. A `list_jurisdictions` inaktívként mutatja. |
 | `WLM_US_GOVINFO_KEY` | Egyesült Államok: govinfo-keresés (szövetségi bírósági határozatok, Statutes at Large, public laws) | A Fontes a közös `DEMO_KEY` kulcsot használja: IP-címenként naponta körülbelül 10 keresés. Egy ismert határozat megnyitásához és a US Code-hoz nem kell kulcs. |
+| `WLM_US_COURTLISTENER_KEY` | Az Egyesült Államok állami bíróságai (`us-states`): mind az 50 állam és DC legfelsőbb és fellebbviteli bíróságainak határozatai a CourtListenerből | Az amerikai állami ítélkezési gyakorlat ki van kapcsolva. A `list_jurisdictions` inaktívként mutatja. |
 
 A kulcsok opcionálisak. Később is hozzáadhatja őket.
 
@@ -86,6 +87,22 @@ A feltételek röviden:
   nem létezik). Nem ellenőrzött. Lásd [a govinfo szabályzatait](https://www.govinfo.gov/about/policies)
   és [a data.gov adatvédelmi szabályzatát](https://data.gov/privacy-policy/).
 - A kulcsot tartsa meg magának.
+
+## Az Egyesült Államok állami bíróságai: CourtListener (ingyenes)
+
+A CourtListenert a [Free Law Project](https://free.law) működteti, egy nonprofit szervezet, amely 2010 óta gyűjti az amerikai bíróságok határozatait, és mindenki számára ingyenesen elérhetővé teszi őket. Saját számítása szerint több mint kilencmillió határozatot tart nyilván. Nem hivatalos forrás: a bíróságok maguk teszik közzé határozataikat, a CourtListener pedig a bíróságok webhelyeiről és beszkennelt jogi jelentésekből gyűjti össze őket. Az onnan származó minden Fontes-válasz ezt jelzi. A Fontes nem áll kapcsolatban a Free Law Projecttel.
+
+1. Hozzon létre egy ingyenes fiókot a [courtlistener.com](https://www.courtlistener.com/sign-in/) oldalon.
+2. Nyissa meg a profilját, és másolja ki az API-tokenjét.
+3. Futtassa az **Add or change keys** elemet, és illessze be CourtListener-kulcsként.
+
+A feltételek röviden ([teljes feltételek](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- A token kizárólag az öné: ne ossza meg, ne vonja össze másokéval és ne adja tovább, és ne használjon több fiókot.
+- Ön felel azért, amit egy MI-alkalmazás a tokenjével tesz.
+- Ne tüntesse fel úgy egy MI elemzését az adataikról, mintha azt a Free Law Project készítette, hagyta jóvá vagy ellenőrizte volna.
+- Egy ingyenes fiók percenként 5, óránként 50 és naponta 125 kérést enged. Egy keresés egy kérés; egy határozat megnyitása kettő. A Free Law Project tagság megemeli a korlátokat.
+- A CourtListener nem garantálja a pontosságot. Mielőtt egy határozatra támaszkodna, ellenőrizze a bíróság példányával.
 
 ## Hol tárolódnak a kulcsok
 

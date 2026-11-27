@@ -7,7 +7,7 @@
 Server MCP gratis dan bersumber terbuka (Apache 2.0). Fontes memungkinkan aplikasi apa pun yang menggunakan
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI, dan lainnya) mencari putusan pengadilan
 dan peraturan perundang-undangan secara langsung di situs web pengadilan dan pemerintah di 120+ yurisdiksi
-dan pengadilan internasional (124 adapter). Setiap hasil menyebutkan sumbernya dan menautkan ke dokumen aslinya.
+dan pengadilan internasional (125 adapter). Setiap hasil menyebutkan sumbernya dan menautkan ke dokumen aslinya.
 
 ## Apakah teksnya resmi?
 
@@ -25,12 +25,12 @@ sumber tersebut. Sebelum Anda mengutip apa pun, periksa publikasi resminya. Tabe
 
 ## Yurisdiksi mana yang dicakup, dan seberapa baik?
 
-124 adapter: 108 negara anggota PBB, Hong Kong, Kosovo, Palestina, Taiwan, DIFC Courts, serta
+125 adapter: 108 negara anggota PBB, Hong Kong, Kosovo, Palestina, Taiwan, DIFC Courts, pengadilan negara bagian AS, serta
 11 pengadilan dan badan internasional (seperti Pengadilan Hak Asasi Manusia Eropa, Uni Eropa,
 ICJ, dan WTO).
 
 Cakupannya sangat berbeda-beda. Menurut aturan yang ketat (preseden pengadilan umum tertinggi, atau
-konstitusi dan undang-undang, yang dijangkau sepenuhnya), 72 dari 124 dihitung tercakup.
+konstitusi dan undang-undang, yang dijangkau sepenuhnya), 72 dari 125 dihitung tercakup.
 [COVERAGE.md](COVERAGE.md) mencantumkan, untuk setiap yurisdiksi, apa yang dijangkau Fontes, apa yang tidak,
 dan alasannya.
 
@@ -44,6 +44,7 @@ Untuk hampir semua yurisdiksi, tidak. Beberapa sumber memerlukan kunci gratis: l
 - **Amerika Serikat:** opsional. Pencarian putusan pengadilan berfungsi tanpa kunci, tetapi kunci demo
   bersama hanya mengizinkan sekitar 10 pencarian per hari per alamat IP. Kunci api.data.gov gratis di
   `WLM_US_GOVINFO_KEY` menaikkan batas tersebut.
+- **Pengadilan negara bagian AS:** ya. Putusan pengadilan negara bagian (`us-states`) nonaktif sampai Anda menetapkan `WLM_US_COURTLISTENER_KEY` ke token API CourtListener gratis milik Anda sendiri. CourtListener dikelola oleh organisasi nirlaba Free Law Project; CourtListener bukan sumber resmi, dan setiap jawaban menyebutkannya.
 
 Tetapkan ini sebagai variabel lingkungan untuk server Fontes di pengaturan MCP aplikasi Anda. Penginstal
 menanyakannya setelah instalasi, dan peluncur **Add or change keys** miliknya dapat mengubahnya

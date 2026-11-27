@@ -2,12 +2,13 @@
 
 # API-võtmed
 
-Peaaegu iga Fontese allikas töötab ilma võtmeta. Kaks vajavad tasuta võtit:
+Peaaegu iga Fontese allikas töötab ilma võtmeta. Kolm vajavad tasuta võtit:
 
 | Võti | Avab | Ilma selleta |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Prantsusmaa: Judilibre (kohtulahendid) ja Légifrance (õigusaktid) | Prantsusmaa on välja lülitatud. `list_jurisdictions` näitab seda mitteaktiivsena. |
 | `WLM_US_GOVINFO_KEY` | Ameerika Ühendriigid: govinfo otsing (föderaalkohtute lahendid, Statutes at Large, public laws) | Fontes kasutab jagatud `DEMO_KEY`-d: umbes 10 otsingut päevas IP-aadressi kohta. Teadaoleva lahendi avamine ja US Code ei vaja võtit. |
+| `WLM_US_COURTLISTENER_KEY` | USA osariikide kohtud (`us-states`): kõigi 50 osariigi ja DC ülemkohtute ja apellatsioonikohtute otsused, CourtListenerist | USA osariikide kohtupraktika on välja lülitatud. `list_jurisdictions` näitab seda mitteaktiivsena. |
 
 Võtmed on valikulised. Saate need lisada hiljem.
 
@@ -73,6 +74,22 @@ Tingimused lühidalt:
   Vt [govinfo põhimõtteid](https://www.govinfo.gov/about/policies) ja
   [data.gov privaatsuspoliitikat](https://data.gov/privacy-policy/).
 - Hoidke võti endale.
+
+## USA osariikide kohtud: CourtListener (tasuta)
+
+CourtListenerit haldab [Free Law Project](https://free.law), mittetulundusorganisatsioon, mis on alates 2010. aastast kogunud USA kohtute otsuseid ja teinud need kõigile tasuta kättesaadavaks. Oma loenduse järgi sisaldab see üle üheksa miljoni otsuse. See ei ole ametlik allikas: kohtud avaldavad oma otsused ise ning CourtListener kogub need kohtute veebilehtedelt ja skaneeritud kohtupraktika kogumikest. Iga sellest pärinev Fontes'i vastus ütleb seda. Fontes ei ole Free Law Projectiga seotud.
+
+1. Looge tasuta konto aadressil [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Avage oma profiil ja kopeerige oma API-tunnus (token).
+3. Käivitage **Add or change keys** ja kleepige see CourtListeneri võtmena.
+
+Tingimused lühidalt ([täielikud tingimused](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Tunnus on ainult teie oma: ärge jagage seda, ärge liitke seda teistega ega müüge edasi ning ärge kasutage mitut kontot.
+- Te vastutate selle eest, mida tehisintellektirakendus teie tunnusega teeb.
+- Ärge esitage tehisintellekti analüüsi nende andmetest Free Law Projecti koostatu, heakskiidetu või kontrollituna.
+- Tasuta konto lubab 5 päringut minutis, 50 tunnis ja 125 päevas. Otsing on üks päring; otsuse avamine on kaks. Free Law Projecti liikmelisus tõstab piire.
+- CourtListener ei garanteeri täpsust. Kontrollige otsust kohtu eksemplari vastu, enne kui sellele tugined.
 
 ## Kus võtmeid hoitakse
 

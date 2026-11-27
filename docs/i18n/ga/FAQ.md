@@ -7,7 +7,7 @@
 Freastalaí MCP saor in aisce, foinse oscailte (Apache 2.0). Ligeann sé d'aon aip a labhraíonn an
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI agus aipeanna eile) breithiúnais
 chúirte agus reachtaíocht a chuardach beo ar shuíomhanna gréasáin cúirteanna agus rialtais in 120+
-dlínse agus cúirt idirnáisiúnta (124 oiriúnaitheoir). Ainmníonn gach toradh a fhoinse agus tá nasc
+dlínse agus cúirt idirnáisiúnta (125 oiriúnaitheoir). Ainmníonn gach toradh a fhoinse agus tá nasc
 chuig an mbunleagan ann.
 
 ## An bhfuil na téacsanna oifigiúil?
@@ -26,12 +26,12 @@ ndéanann tú lua ar aon rud, seiceáil an foilseachán oifigiúil. Ainmníonn a
 
 ## Cé na dlínsí a chlúdaíonn sé, agus cé chomh maith?
 
-124 oiriúnaitheoir: 108 ballstát de chuid na NA, Hong Cong, an Chosaiv, an Phalaistín, an Téaváin,
-Cúirteanna DIFC agus 11 chúirt agus chomhlacht idirnáisiúnta (amhail an Chúirt Eorpach um Chearta
+125 oiriúnaitheoir: 108 ballstát de chuid na NA, Hong Cong, an Chosaiv, an Phalaistín, an Téaváin,
+Cúirteanna DIFC, cúirteanna stáit na SA agus 11 chúirt agus chomhlacht idirnáisiúnta (amhail an Chúirt Eorpach um Chearta
 an Duine, an AE, an ICJ agus an EDT).
 
 Tá difríocht mhór sa chlúdach. Faoi riail dhian (fasaigh na príomhchúirte ginearálta, nó an
-bunreacht agus na príomhachtanna, sroichte go hiomlán), áirítear 72 as an 124 mar chlúdaithe.
+bunreacht agus na príomhachtanna, sroichte go hiomlán), áirítear 72 as an 125 mar chlúdaithe.
 Liostaíonn [COVERAGE.md](COVERAGE.md), do gach dlínse, an méid a shroicheann Fontes, an méid nach
 sroicheann sé, agus cén fáth.
 
@@ -46,6 +46,7 @@ Do bheagnach gach dlínse, ní theastaíonn. Teastaíonn eochair saor in aisce �
 - **Na Stáit Aontaithe:** roghnach. Oibríonn cuardach cásdlí gan eochair, ach ní cheadaíonn an
   eochair taispeána chomhroinnte ach thart ar 10 gcuardach sa lá in aghaidh an tseolta IP. Ardaíonn
   eochair api.data.gov saor in aisce in `WLM_US_GOVINFO_KEY` é.
+- **Cúirteanna stáit na SA:** teastaíonn. Tá cásdlí stáit (`us-states`) múchta go dtí go socraíonn tú `WLM_US_COURTLISTENER_KEY` do chomhartha API CourtListener saor in aisce féin. Reáchtálann an eagraíocht neamhbhrabúis Free Law Project CourtListener; ní foinse oifigiúil é, agus deir gach freagra amhlaidh.
 
 Socraigh iad seo mar athróga timpeallachta don fhreastalaí Fontes i socruithe MCP d'aipe. Iarrann na suiteálaithe iad tar éis na suiteála, agus athraíonn a dtosaitheoir
 **Add or change keys** iad níos déanaí.

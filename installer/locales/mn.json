@@ -25,6 +25,7 @@
  "key_fr_id": "Франц: PISTE client ID",
  "key_fr_secret": "Франц: PISTE client secret",
  "key_us": "АНУ: api.data.gov түлхүүр",
+ "key_us_cl": "АНУ: CourtListener түлхүүр",
  "keys_saved": "Түлхүүрүүд хадгалагдлаа. Ашиглахын тулд аппуудаа хаагаад дахин нээнэ үү.",
  "keys_unchanged": "Ямар ч түлхүүр өөрчлөгдсөнгүй.",
  "keys_no_apps": "Fontes одоогоор ямар ч апп-д тохируулагдаагүй байна. Эхлээд суулгана уу.",

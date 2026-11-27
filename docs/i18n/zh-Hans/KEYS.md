@@ -2,12 +2,13 @@
 
 # API 密钥
 
-Fontes 中几乎所有来源都无需密钥即可使用。有两个需要免费密钥：
+Fontes 中几乎所有来源都无需密钥即可使用。有三个需要免费密钥：
 
 | 密钥 | 开启的内容 | 没有它时 |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | 法国：Judilibre（裁判文书）和 Légifrance（法律法规） | 法国处于关闭状态。`list_jurisdictions` 将其显示为未启用。 |
 | `WLM_US_GOVINFO_KEY` | 美国：govinfo 检索（联邦法院判决意见、Statutes at Large、公法） | Fontes 使用共享的 `DEMO_KEY`：每个 IP 地址每天约 10 次检索。打开已知的裁判文书和 US Code 无需密钥。 |
+| `WLM_US_COURTLISTENER_KEY` | 美国州法院（`us-states`）：来自 CourtListener 的全部 50 个州及 DC 的最高法院和上诉法院的裁判意见 | 美国州判例已关闭。`list_jurisdictions` 会将其显示为未启用。 |
 
 密钥是可选的。您可以以后再添加。
 
@@ -74,6 +75,22 @@ Fontes 的应用。
   参见 [govinfo 的政策](https://www.govinfo.gov/about/policies) 和
   [data.gov 隐私政策](https://data.gov/privacy-policy/)。
 - 请勿将密钥告诉他人。
+
+## 美国州法院：CourtListener（免费）
+
+CourtListener 由 [Free Law Project](https://free.law) 运营，这是一家非营利组织，自 2010 年起收集美国法院的裁判意见，并向所有人免费开放。按其自身的统计，它收录了超过九百万份裁判。它不是官方来源：各法院自行发布裁判意见，CourtListener 从法院网站和扫描的判例汇编中收集它们。Fontes 来自它的每一条回答都会说明这一点。Fontes 与 Free Law Project 没有任何隶属关系。
+
+1. 在 [courtlistener.com](https://www.courtlistener.com/sign-in/) 创建一个免费账户。
+2. 打开您的个人资料，复制您的 API 令牌。
+3. 运行 **Add or change keys**，将其粘贴为 CourtListener 密钥。
+
+条款要点（[完整条款](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)）：
+
+- 令牌仅供您本人使用：请勿分享、合并或转售，也不要使用多个账户。
+- 您需对 AI 应用使用您的令牌所做的一切负责。
+- 请勿将 AI 对其数据的分析表述为由 Free Law Project 制作、认可或核查。
+- 免费账户每分钟允许 5 次请求，每小时 50 次，每天 125 次。一次检索算一次请求；打开一份裁判算两次。成为 Free Law Project 会员可提高这些限额。
+- CourtListener 不保证准确性。在依赖某份裁判意见之前，请对照法院的原件核对。
 
 ## 密钥保存在哪里
 

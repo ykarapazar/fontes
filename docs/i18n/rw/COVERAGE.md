@@ -2,13 +2,13 @@
 
 # Urutonde rw'ibyo Fontes igeraho
 
-Adapter 124; ibihugu 85 binyamuryango bya Loni bidafite n'imwe.
+Adapter 125; ibihugu 85 binyamuryango bya Loni bidafite n'imwe.
 
 ## Imbonerahamwe y'amanota y'ibigerwaho
 
 Ifasi y'ubutabera ibarwa nk'igerwaho iyo Fontes igeze byuzuye nibura ku gice kimwe muri bibiri: imanza zibanziriza (precedents) z'urukiko rukuru rusanzwe rwayo (ruhwanye na Yargıtay), cyangwa Itegeko Nshinga ryayo n'amategeko y'ibanze (urwego rw'itegeko n'urwisumbuyeho). Amategeko yo ku rwego rwa kabiri n'inkiko zo hasi ntibibarwa. ✅ byuzuye (icyuho gito cyagaragajwe), ◐ icyuho (hari ikintu gitangazwa kibura, cyangwa inkomoko ifunze kugeza habonetse uruhushya), ❌ nta na kimwe. Ibyemezo bishingiye ku bushishozi biri muri research/scorecard_overrides.json.
 
-**Bigerwaho: 72 kuri 124.**
+**Bigerwaho: 72 kuri 125.**
 
 | Kode | Ifasi y'ubutabera | Imanza zibanziriza z'urukiko rukuru | Itegeko Nshinga + amategeko | Bigerwaho | Ibibura |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Ifasi y'ubutabera ibarwa nk'igerwaho iyo Fontes igeze byuzuye nibura ku gice kim
 | `tj` | Tajikistan | ❌ | ◐ | oya | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | oya | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | oya |  |
+| `us-states` | United States (state courts) | – | – | oya |  |
 | `vn` | Vietnam | ◐ | ◐ | oya | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | oya | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -25,6 +25,7 @@
  "key_fr_id": "França: client ID de PISTE",
  "key_fr_secret": "França: client secret de PISTE",
  "key_us": "Estats Units: clau d'api.data.gov",
+ "key_us_cl": "Estats Units: clau d'CourtListener",
  "keys_saved": "S'han desat les claus. Tanqueu i torneu a obrir les aplicacions per utilitzar-les.",
  "keys_unchanged": "No s'ha canviat cap clau.",
  "keys_no_apps": "Fontes encara no està configurat en cap aplicació. Instal·leu-lo primer.",

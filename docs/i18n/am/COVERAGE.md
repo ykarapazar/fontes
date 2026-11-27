@@ -2,13 +2,13 @@
 
 # የ Fontes ሽፋን ካታሎግ
 
-124 አዳፕተሮች፤ አዳፕተር የሌላቸው 85 የተ.መ.ድ. አባል አገሮች።
+125 አዳፕተሮች፤ አዳፕተር የሌላቸው 85 የተ.መ.ድ. አባል አገሮች።
 
 ## የሽፋን የውጤት ሰንጠረዥ
 
 አንድ የሕግ ክልል እንደተሸፈነ የሚቆጠረው Fontes ከሁለት ዘርፎች ቢያንስ አንዱን ሙሉ በሙሉ ሲደርስበት ነው: የከፍተኛው አጠቃላይ ፍርድ ቤቱ ቅድመ ውሳኔዎች (የ Yargıtay አቻ)፣ ወይም ሕገ መንግሥቱና ዋና ዋና ሕጎቹ (የ kanun ደረጃና ከዚያ በላይ)። የበታች ሕጎችና የበታች ፍርድ ቤቶች አይቆጠሩም። ✅ የተሟላ (አነስተኛ ክፍተቶች ተጠቅሰዋል)፣ ◐ ክፍተት (የታተመ ነገር ይጎድላል፣ ወይም ምንጩ ፈቃድ እስኪገኝ ጠፍቷል)፣ ❌ የለም። የዳኝነት ግምገማዎች በ research/scorecard_overrides.json ውስጥ ናቸው።
 
-**የተሸፈኑ: ከ 124 ውስጥ 72።**
+**የተሸፈኑ: ከ 125 ውስጥ 72።**
 
 | ኮድ | የሕግ ክልል | የከፍተኛ ፍርድ ቤት ቅድመ ውሳኔዎች | ሕገ መንግሥት + ሕጎች | የተሸፈነ | የሚጎድለው |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | አይ | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | አይ | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | አይ |  |
+| `us-states` | United States (state courts) | – | – | አይ |  |
 | `vn` | Vietnam | ◐ | ◐ | አይ | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | አይ | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -494,7 +494,7 @@ def prefetch(uv: str, app: str) -> bool:
 
 # Optional free API keys, saved in the env of our entry. Never printed.
 KEYS = {"WLM_FR_PISTE_CLIENT_ID": "key_fr_id", "WLM_FR_PISTE_CLIENT_SECRET": "key_fr_secret",
-        "WLM_US_GOVINFO_KEY": "key_us"}
+        "WLM_US_GOVINFO_KEY": "key_us", "WLM_US_COURTLISTENER_KEY": "key_us_cl"}
 KEYS_URL = f"{i18n.REPO}docs/KEYS.md"
 INSTALL_URL = f"{i18n.REPO}docs/INSTALL.md"
 

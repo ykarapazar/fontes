@@ -2,12 +2,13 @@
 
 # API-avaimet
 
-Lähes kaikki Fontesin lähteet toimivat ilman avainta. Kaksi tarvitsee maksuttoman avaimen:
+Lähes kaikki Fontesin lähteet toimivat ilman avainta. Kolme tarvitsee maksuttoman avaimen:
 
 | Avain | Avaa | Ilman sitä |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Ranska: Judilibre (tuomioistuinten ratkaisut) ja Légifrance (lainsäädäntö) | Ranska on pois päältä. `list_jurisdictions` näyttää sen ei-aktiivisena. |
 | `WLM_US_GOVINFO_KEY` | Yhdysvallat: govinfo-haku (liittovaltion tuomioistuinten ratkaisut, Statutes at Large, public laws) | Fontes käyttää jaettua `DEMO_KEY`-avainta: noin 10 hakua päivässä IP-osoitetta kohden. Tunnetun ratkaisun avaaminen ja US Code eivät tarvitse avainta. |
+| `WLM_US_COURTLISTENER_KEY` | Yhdysvaltojen osavaltioiden tuomioistuimet (`us-states`): kaikkien 50 osavaltion ja DC:n ylimpien ja muutoksenhakutuomioistuinten ratkaisut, CourtListenerista | Yhdysvaltojen osavaltioiden oikeuskäytäntö on pois päältä. `list_jurisdictions` näyttää sen ei-aktiivisena. |
 
 Avaimet ovat valinnaisia. Voit lisätä ne myöhemmin.
 
@@ -75,6 +76,22 @@ Käyttöehdot lyhyesti:
   Katso [govinfon käytännöt](https://www.govinfo.gov/about/policies) ja
   [data.govin tietosuojakäytäntö](https://data.gov/privacy-policy/).
 - Pidä avain omana tietonasi.
+
+## Yhdysvaltojen osavaltioiden tuomioistuimet: CourtListener (ilmainen)
+
+CourtListenerin ylläpitäjä on [Free Law Project](https://free.law), voittoa tavoittelematon organisaatio, joka on vuodesta 2010 kerännyt Yhdysvaltojen tuomioistuinten ratkaisuja ja tehnyt ne kaikille ilmaisiksi. Oman laskentansa mukaan se sisältää yli yhdeksän miljoonaa ratkaisua. Se ei ole virallinen lähde: tuomioistuimet julkaisevat ratkaisunsa itse, ja CourtListener kokoaa ne tuomioistuinten verkkosivuilta ja skannatuista oikeustapauskokoelmista. Jokainen Fontesin vastaus, joka tulee siitä, kertoo tämän. Fontes ei ole sidoksissa Free Law Projectiin.
+
+1. Luo ilmainen tili osoitteessa [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Avaa profiilisi ja kopioi API-tunnuksesi (token).
+3. Suorita **Add or change keys** ja liitä se CourtListenerin avaimeksi.
+
+Ehdot lyhyesti ([täydet ehdot](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Tunnus on vain sinun: älä jaa sitä, älä yhdistä sitä muiden kanssa äläkä myy sitä edelleen, äläkä käytä useita tilejä.
+- Vastaat siitä, mitä tekoälysovellus tekee tunnuksellasi.
+- Älä esitä tekoälyn tekemää analyysiä heidän tiedoistaan Free Law Projectin tuottamana, hyväksymänä tai tarkistamana.
+- Ilmainen tili sallii 5 pyyntöä minuutissa, 50 tunnissa ja 125 päivässä. Haku on yksi pyyntö; ratkaisun avaaminen on kaksi. Free Law Projectin jäsenyys nostaa rajoja.
+- CourtListener ei takaa tarkkuutta. Tarkista ratkaisu tuomioistuimen kappaleesta, ennen kuin luotat siihen.
 
 ## Missä avaimet säilytetään
 

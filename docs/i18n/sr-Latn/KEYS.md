@@ -2,12 +2,13 @@
 
 # API ključevi
 
-Skoro svaki izvor u programu Fontes radi bez ključa. Dvama je potreban besplatan ključ:
+Skoro svaki izvor u programu Fontes radi bez ključa. Trima je potreban besplatan ključ:
 
 | Ključ | Šta otključava | Bez njega |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Francuska: Judilibre (sudske odluke) i Légifrance (propisi) | Francuska je isključena. `list_jurisdictions` je prikazuje kao neaktivnu. |
 | `WLM_US_GOVINFO_KEY` | Sjedinjene Države: govinfo pretraga (odluke saveznih sudova, Statutes at Large, javni zakoni) | Fontes koristi zajednički `DEMO_KEY`: oko 10 pretraga dnevno po IP adresi. Za otvaranje poznate odluke i US Code ključ nije potreban. |
+| `WLM_US_COURTLISTENER_KEY` | Sudovi američkih saveznih država (`us-states`): odluke najviših i apelacionih sudova svih 50 država i DC, iz CourtListener | Sudska praksa američkih saveznih država je isključena. `list_jurisdictions` je prikazuje kao neaktivnu. |
 
 Ključevi su opcioni. Možete ih dodati kasnije.
 
@@ -80,6 +81,22 @@ Uslovi, ukratko:
   Neprovereno. Pogledajte [govinfo pravila](https://www.govinfo.gov/about/policies) i
   [data.gov politiku privatnosti](https://data.gov/privacy-policy/).
 - Ključ zadržite za sebe.
+
+## Sudovi američkih saveznih država: CourtListener (besplatno)
+
+CourtListener vodi [Free Law Project](https://free.law), neprofitna organizacija koja od 2010. prikuplja odluke američkih sudova i čini ih besplatno dostupnim svima. Prema sopstvenim podacima, sadrži preko devet miliona odluka. Nije zvaničan izvor: sudovi sami objavljuju svoje odluke, a CourtListener ih prikuplja sa veb-sajtova sudova i iz skeniranih zbornika sudske prakse. Svaki odgovor programa Fontes iz ovog izvora to navodi. Fontes nije povezan sa Free Law Project.
+
+1. Napravite besplatan nalog na [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Otvorite svoj profil i kopirajte svoj API token.
+3. Pokrenite **Add or change keys** i nalepite ga kao CourtListener ključ.
+
+Uslovi, ukratko ([celi uslovi](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token je samo vaš: ne delite ga, ne združujte i ne preprodajte, i ne koristite više naloga.
+- Odgovorni ste za to šta aplikacija sa veštačkom inteligencijom radi sa vašim tokenom.
+- Ne predstavljajte analizu njihovih podataka koju je napravila veštačka inteligencija kao da su je napravili, odobrili ili proverili Free Law Project.
+- Besplatan nalog dozvoljava 5 zahteva u minutu, 50 na sat i 125 dnevno. Pretraga je jedan zahtev; otvaranje odluke su dva. Članstvo u Free Law Project povećava ograničenja.
+- CourtListener ne garantuje tačnost. Proverite odluku u primerku suda pre nego što se na nju oslonite.
 
 ## Gde se ključevi čuvaju
 

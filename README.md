@@ -80,7 +80,7 @@ those apps before you run it. Details:
 Some sources need a free key: see [docs/KEYS.md](docs/KEYS.md).
 
 <!-- map:start -->
-<p align="center"><a href="https://ykarapazar.github.io/fontes/#map"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/coverage-map-dark.svg"><img src="docs/assets/coverage-map.svg" alt="Fontes coverage catalogue: Covered: 72 of 124." width="880"></picture></a></p>
+<p align="center"><a href="https://ykarapazar.github.io/fontes/#map"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/coverage-map-dark.svg"><img src="docs/assets/coverage-map.svg" alt="Fontes coverage catalogue: Covered: 72 of 125." width="880"></picture></a></p>
 <!-- map:end -->
 
 ## What can I ask?
@@ -336,7 +336,8 @@ Fontes is a stdio MCP server: an MCP client starts it, you don't run it by hand.
 <summary>Optional environment variables</summary>
 
 Optional environment variables: `WLM_US_GOVINFO_KEY` (free api.data.gov key for US case-law
-search), `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` (France is off without
+search), `WLM_US_COURTLISTENER_KEY` (your own free CourtListener token: US state case law,
+off without it), `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` (France is off without
 them: free piste.gouv.fr app subscribed to Judilibre and Légifrance, steps in `research/fr.md`),
 `WLM_PERMITTED=<codes>` (turn on sources whose terms need permission, only once you
 have it), `FONTES_NO_UPDATE_CHECK=1`.
@@ -663,6 +664,7 @@ source; everything else is our own spacing. `list_jurisdictions` returns the sam
 | us | National Archives: Constitution of the United States (transcription) (www.archives.gov) | Public domain / CC0 1.0 (NARA Copyright, Restrictions, and Permissions Notice on /global-pages/privacy.html) | Yes | Yes | None | Robots.txt Crawl-delay: 10 (documented); 10 s spacing, 3 pages, cached |  |
 | us | govinfo (U.S. Government Publishing Office): Statutes at Large and Public and Private Laws (www.govinfo.gov) | Public domain (US Government works, 17 U.S.C. 105; govinfo Public Domain & Copyright Notice) | Yes | Yes | None for citations ('1 Stat. 50', 'Pub. L. 117-58': link service, MODS, PDF/HTML); full-text search uses the govinfo API key like the other collections | Www.govinfo.gov: unknown; 1 s spacing, no 429 in ~40 requests (2026-11-10). api.govinfo.gov search: see the govinfo source above |  |
 | us | United States Code (Office of the Law Revision Counsel, U.S. House) (uscode.house.gov) | Public domain (US Government work, 17 U.S.C. 105) | Yes | Yes | None | Unknown; 1 s spacing, no 429 seen in ~10 requests (2026-11). search.xhtml and search.json.gz return 403 (Akamai) and are not used |  |
+| us-states | CourtListener (Free Law Project, a non-profit): opinions of state supreme and appellate courts (www.courtlistener.com) | Court opinions are generally public domain (CourtListener terms); no licence stated for the database itself | Unknown | Not stated | Free key: your own CourtListener API token (env WLM_US_COURTLISTENER_KEY); the terms forbid sharing it | Documented: 5 requests/minute, 50/hour, 125/day per free account (API overview, 2026-11); 429 with a few seconds' Retry-After on the 6th request in a minute (measured 2026-11-27) | CourtListener is the largest free collection of US case law (over nine million decisions, by Free Law Project's count), built by the non-profit Free Law Project from court websites and scanned reporters. It is not the courts' own publication, and Free Law Project does not produce, endorse or check your AI's analysis of it. Check the opinion against the court's copy before relying on it. |
 | uy | IMPO – Banco de Datos de normativa (Dirección Nacional de Impresiones y Publicaciones Oficiales) (www.impo.com.uy) | Licencia de Datos Abiertos – Uruguay v0.1 for the ?json=true open data (IMPO Datos Abiertos page, since July 2018: commercial and non-commercial use, attribution to IMPO + licence + dataset required); but IMPO's 'Condiciones de Uso del Banco de Datos' still say use is personal and forbid copying, passing to third parties and commercialisation | Unknown | Not stated | None | Robots.txt Crawl-Delay: 10 (honoured: 10 s spacing); no 429 seen in ~15 requests (2026-11-05). Whole codes download slowly (~15 KB/s) | robots.txt disallows /cgi-bin/ (IMPO's search), so laws are found by code name or number only. **Get IMPO's confirmation before redistributing or commercial use** (shown as a warning). |
 | uy | Base de Jurisprudencia Nacional Pública (BJN), Poder Judicial (bjn.poderjudicial.gub.uy) | Unknown; no terms or licence page found for BJN (free access without login per its user manual) | Unknown | Not stated | None | Unknown; 1 s spacing, no 429 seen in ~15 requests (2026-11-05); no robots.txt on bjn.poderjudicial.gub.uy (404) | No robots.txt. |
 | uz | lex.uz, National Database of Legislation (Ministry of Justice, 'Adolat' National Legal Information Centre) | Lex.uz terms (/ru/axborot): personal use only; copying or distribution for profit needs the Centre's written permission | **No** | Not stated | None | Unknown; 1 s spacing, no 429 seen in ~25 requests (2026-11) | Personal use only: lex.uz terms allow use of its information for personal purposes only; copying, distribution or transfer for profit needs the Adolat Centre's written permission. |

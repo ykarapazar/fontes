@@ -7,7 +7,7 @@
 Ein kostenloser Open-Source-MCP-Server (Apache 2.0). Mit ihm kann jede App, die das Model Context
 Protocol spricht (Claude, Codex, Cursor, VS Code, Gemini CLI und andere), Gerichtsentscheidungen und
 Rechtsvorschriften live auf Websites von Gerichten und Behörden durchsuchen, in über 120
-Rechtsordnungen und internationalen Gerichten (124 Adapter). Jedes Ergebnis nennt seine Quelle und
+Rechtsordnungen und internationalen Gerichten (125 Adapter). Jedes Ergebnis nennt seine Quelle und
 verlinkt auf das Original.
 
 ## Sind die Texte amtlich?
@@ -26,13 +26,12 @@ der [README](README.md#abdeckung) und `list_jurisdictions` nennen die Quelle fü
 
 ## Welche Rechtsordnungen deckt es ab, und wie gut?
 
-124 Adapter: 108 UN-Mitgliedstaaten, Hongkong, Kosovo, Palästina, Taiwan, die DIFC Courts und
-11 internationale Gerichte und Gremien (etwa der Europäische Gerichtshof für Menschenrechte, die EU,
+125 Adapter: 108 UN-Mitgliedstaaten, Hongkong, Kosovo, Palästina, Taiwan, die DIFC Courts, die Gerichte der US-Bundesstaaten und 11 internationale Gerichte und Gremien (etwa der Europäische Gerichtshof für Menschenrechte, die EU,
 der IGH und die WTO).
 
 Die Abdeckung unterscheidet sich stark. Nach einer strengen Regel (die Präjudizien des obersten
 ordentlichen Gerichts oder die Verfassung und die Parlamentsgesetze, jeweils vollständig erreicht)
-gelten 72 der 124 als abgedeckt. [COVERAGE.md](COVERAGE.md) gibt für jede Rechtsordnung an, was Fontes
+gelten 72 der 125 als abgedeckt. [COVERAGE.md](COVERAGE.md) gibt für jede Rechtsordnung an, was Fontes
 erreicht, was nicht, und warum.
 
 ## Brauche ich einen API-Schlüssel?
@@ -46,6 +45,7 @@ Für fast jede Rechtsordnung nicht. Einige Quellen benötigen einen kostenlosen 
 - **Vereinigte Staaten:** optional. Die Suche in der Rechtsprechung funktioniert ohne Schlüssel, aber
   der gemeinsame Demo-Schlüssel erlaubt nur etwa 10 Suchen pro Tag und IP-Adresse. Ein kostenloser
   api.data.gov-Schlüssel in `WLM_US_GOVINFO_KEY` erhöht diese Grenze.
+- **Gerichte der US-Bundesstaaten:** ja. Die Rechtsprechung der Bundesstaaten (`us-states`) ist aus, bis Sie `WLM_US_COURTLISTENER_KEY` auf Ihr eigenes kostenloses CourtListener-API-Token setzen. CourtListener wird von der gemeinnützigen Organisation Free Law Project betrieben; es ist keine amtliche Quelle, und jede Antwort sagt das.
 
 Setzen Sie diese als Umgebungsvariablen für den Fontes-Server in den MCP-Einstellungen Ihrer App.
 Die Installationsprogramme fragen nach der Installation danach, und ihr Starter

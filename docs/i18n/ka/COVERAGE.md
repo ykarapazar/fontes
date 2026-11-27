@@ -2,13 +2,13 @@
 
 # Fontes-ის დაფარვის კატალოგი
 
-124 ადაპტერი; გაეროს 85 წევრი სახელმწიფო ადაპტერის გარეშე.
+125 ადაპტერი; გაეროს 85 წევრი სახელმწიფო ადაპტერის გარეშე.
 
 ## დაფარვის შეფასების ცხრილი
 
 იურისდიქცია დაფარულად ითვლება, როცა Fontes სრულად აღწევს ორი სფეროდან ერთს მაინც: მისი უმაღლესი საერთო სასამართლოს პრეცედენტებს (Yargıtay-ის ეკვივალენტი) ან მის კონსტიტუციასა და ძირითად აქტებს (kanun დონე და უფრო მაღალი). კანონქვემდებარე აქტები და ქვედა ინსტანციის სასამართლოები არ ითვლება. ✅ სრული (მცირე ხარვეზები აღნიშნულია), ◐ ხარვეზი (რაღაც გამოქვეყნებული აკლია, ან წყარო ნებართვამდე გამორთულია), ❌ არცერთი. შეფასებითი გადაწყვეტილებები მოცემულია research/scorecard_overrides.json-ში.
 
-**დაფარულია: 72 / 124.**
+**დაფარულია: 72 / 125.**
 
 | კოდი | იურისდიქცია | უმაღლესი სასამართლოს პრეცედენტები | კონსტიტუცია + აქტები | დაფარულია | რა აკლია |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | არა | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | არა | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | არა |  |
+| `us-states` | United States (state courts) | – | – | არა |  |
 | `vn` | Vietnam | ◐ | ◐ | არა | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | არა | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

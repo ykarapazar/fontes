@@ -7,7 +7,7 @@
 Besplatan MCP server otvorenog koda (Apache 2.0). Omogućava svakoj aplikaciji koja podržava
 Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI i drugima) da pretražuje
 sudske odluke i propise uživo na sajtovima sudova i državnih organa u više od 120 jurisdikcija
-i međunarodnih sudova (124 adaptera). Svaki rezultat navodi svoj izvor i sadrži vezu ka
+i međunarodnih sudova (125 adaptera). Svaki rezultat navodi svoj izvor i sadrži vezu ka
 originalu.
 
 ## Da li su tekstovi zvanični?
@@ -25,12 +25,12 @@ nego što bilo šta citirate, proverite u zvaničnoj publikaciji. Tabela pokrive
 
 ## Koje jurisdikcije obuhvata i koliko dobro?
 
-124 adaptera: 108 država članica UN, Hongkong, Kosovo, Palestina, Tajvan, sudovi DIFC i 11
+125 adaptera: 108 država članica UN, Hongkong, Kosovo, Palestina, Tajvan, sudovi DIFC, sudovi američkih saveznih država i 11
 međunarodnih sudova i tela (kao što su Evropski sud za ljudska prava, EU, Međunarodni sud
 pravde i STO).
 
 Pokrivenost se veoma razlikuje. Prema strogom pravilu (praksa najvišeg suda opšte nadležnosti,
-ili ustav i osnovni zakoni, obuhvaćeni u potpunosti) 72 od 124 smatraju se pokrivenim.
+ili ustav i osnovni zakoni, obuhvaćeni u potpunosti) 72 od 125 smatraju se pokrivenim.
 [COVERAGE.md](../../COVERAGE.md) za svaku jurisdikciju navodi šta Fontes obuhvata, šta ne i
 zašto.
 
@@ -45,6 +45,7 @@ Za skoro svaku jurisdikciju — ne. Nekim izvorima je potreban besplatan ključ:
 - **Sjedinjene Države:** opciono. Pretraga sudske prakse radi bez ključa, ali zajednički demo
   ključ dozvoljava samo oko 10 pretraga dnevno po IP adresi. Besplatan api.data.gov ključ u
   `WLM_US_GOVINFO_KEY` povećava tu granicu.
+- **Sudovi američkih saveznih država:** da. Sudska praksa saveznih država (`us-states`) je isključena dok u `WLM_US_COURTLISTENER_KEY` ne podesite svoj besplatan CourtListener API token. CourtListener vodi neprofitna organizacija Free Law Project; nije zvaničan izvor, a svaki odgovor to navodi.
 
 Podesite ih kao promenljive okruženja za Fontes server u MCP podešavanjima svoje aplikacije. Instalacioni
 programi ih traže nakon instalacije, a njihov pokretač **Add or change keys** menja ih kasnije.

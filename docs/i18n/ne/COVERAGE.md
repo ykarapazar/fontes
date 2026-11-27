@@ -2,13 +2,13 @@
 
 # Fontes कभरेज सूची
 
-124 adapters; adapter नभएका 85 संयुक्त राष्ट्रसंघ सदस्य राष्ट्रहरू।
+125 adapters; adapter नभएका 85 संयुक्त राष्ट्रसंघ सदस्य राष्ट्रहरू।
 
 ## कभरेज स्कोरकार्ड
 
 कुनै क्षेत्राधिकार समेटिएको मानिन्छ जब Fontes दुई क्षेत्रमध्ये कम्तीमा एउटामा पूर्ण रूपमा पुग्छ: त्यसको सर्वोच्च सामान्य अदालतका नजिरहरू (Yargıtay समकक्ष), वा त्यसको संविधान र प्राथमिक ऐनहरू (kanun तह र माथि)। मातहतका कानुन (secondary legislation) र तल्ला अदालतहरू गनिँदैनन्। ✅ पूर्ण (साना कमी उल्लेख गरिएका), ◐ कमी (प्रकाशित केही छुटेको छ, वा अनुमति नभएसम्म स्रोत बन्द छ), ❌ छैन। विवेकपूर्ण निर्णयहरू research/scorecard_overrides.json मा छन्।
 
-**समेटिएको: 124 मध्ये 72।**
+**समेटिएको: 125 मध्ये 72।**
 
 | कोड | क्षेत्राधिकार | सर्वोच्च अदालतका नजिर | संविधान + ऐनहरू | समेटिएको | के छुटेको छ |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | होइन | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | होइन | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | होइन |  |
+| `us-states` | United States (state courts) | – | – | होइन |  |
 | `vn` | Vietnam | ◐ | ◐ | होइन | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | होइन | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

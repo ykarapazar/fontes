@@ -2,12 +2,13 @@
 
 # API-nøgler
 
-Næsten alle kilder i Fontes virker uden nøgle. To kræver en gratis nøgle:
+Næsten alle kilder i Fontes virker uden nøgle. Tre kræver en gratis nøgle:
 
 | Nøgle | Giver adgang til | Uden den |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | Frankrig: Judilibre (retsafgørelser) og Légifrance (lovgivning) | Frankrig er slået fra. `list_jurisdictions` viser det som inaktivt. |
 | `WLM_US_GOVINFO_KEY` | USA: søgning i govinfo (domme fra føderale domstole, Statutes at Large, public laws) | Fontes bruger den delte `DEMO_KEY`: omkring 10 søgninger om dagen pr. IP-adresse. At åbne en kendt afgørelse og US Code kræver ingen nøgle. |
+| `WLM_US_COURTLISTENER_KEY` | De amerikanske delstaters domstole (`us-states`): afgørelser fra højesteret og appeldomstolene i alle 50 stater og DC, fra CourtListener | Delstaternes retspraksis i USA er slået fra. `list_jurisdictions` viser den som inaktiv. |
 
 Nøgler er valgfrie. Du kan tilføje dem senere.
 
@@ -83,6 +84,22 @@ Vilkårene kort fortalt:
   Ikke verificeret. Se [govinfos politikker](https://www.govinfo.gov/about/policies) og
   [data.govs privatlivspolitik](https://data.gov/privacy-policy/).
 - Hold nøglen for dig selv.
+
+## De amerikanske delstaters domstole: CourtListener (gratis)
+
+CourtListener drives af [Free Law Project](https://free.law), en non-profitorganisation, der siden 2010 har samlet amerikanske domstoles afgørelser og gjort dem gratis for alle. Efter egen optælling rummer den over ni millioner afgørelser. Det er ikke en officiel kilde: domstolene offentliggør selv deres afgørelser, og CourtListener samler dem fra domstolenes hjemmesider og indscannede retsreferater. Hvert Fontes-svar, der stammer derfra, siger det. Fontes er ikke tilknyttet Free Law Project.
+
+1. Opret en gratis konto på [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Åbn din profil og kopiér dit API-token.
+3. Kør **Add or change keys** og indsæt det som CourtListener-nøglen.
+
+Vilkårene i korte træk ([hele vilkårene](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Tokenet er kun dit: del det ikke, saml det ikke med andres og videresælg det ikke, og brug ikke flere konti.
+- Du er ansvarlig for, hvad en AI-app gør med dit token.
+- Fremstil ikke en AI's analyse af deres data som udarbejdet, godkendt eller kontrolleret af Free Law Project.
+- En gratis konto tillader 5 forespørgsler i minuttet, 50 i timen og 125 om dagen. En søgning er én forespørgsel; at åbne en afgørelse er to. Et medlemskab af Free Law Project hæver grænserne.
+- CourtListener garanterer ikke nøjagtighed. Kontrollér en afgørelse mod domstolens eksemplar, før du støtter dig til den.
 
 ## Hvor nøglerne gemmes
 

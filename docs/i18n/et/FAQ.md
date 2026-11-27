@@ -7,7 +7,7 @@
 Tasuta avatud lähtekoodiga MCP-server (Apache 2.0). See võimaldab igal Model Context
 Protocoli toetaval rakendusel (Claude, Codex, Cursor, VS Code, Gemini CLI ja teised) otsida kohtulahendeid ja
 õigusakte reaalajas kohtute ja valitsuste veebisaitidelt enam kui 120 jurisdiktsioonis ja rahvusvahelistes
-kohtutes (124 adapterit). Iga tulemus nimetab oma allika ja lingib originaalile.
+kohtutes (125 adapterit). Iga tulemus nimetab oma allika ja lingib originaalile.
 
 ## Kas tekstid on ametlikud?
 
@@ -25,12 +25,11 @@ kui millelegi viitate, kontrollige ametlikku väljaannet. Katvuse tabel
 
 ## Milliseid jurisdiktsioone see katab ja kui hästi?
 
-124 adapterit: 108 ÜRO liikmesriiki, Hongkong, Kosovo, Palestiina, Taiwan, DIFC Courts ja
-11 rahvusvahelist kohut ja organit (näiteks Euroopa Inimõiguste Kohus, EL,
+125 adapterit: 108 ÜRO liikmesriiki, Hongkong, Kosovo, Palestiina, Taiwan, DIFC Courts, USA osariikide kohtud ja 11 rahvusvahelist kohut ja organit (näiteks Euroopa Inimõiguste Kohus, EL,
 Rahvusvaheline Kohus (ICJ) ja WTO).
 
 Katvus erineb palju. Range reegli järgi (kõrgeima üldkohtu pretsedendid või
-põhiseadus ja peamised seadused, täielikult kättesaadavad) loetakse kaetuks 72 jurisdiktsiooni 124-st.
+põhiseadus ja peamised seadused, täielikult kättesaadavad) loetakse kaetuks 72 jurisdiktsiooni 125-st.
 [COVERAGE.md](../../COVERAGE.md) loetleb iga jurisdiktsiooni kohta, mida Fontes kätte saab, mida mitte,
 ja miks.
 
@@ -44,6 +43,7 @@ Peaaegu iga jurisdiktsiooni puhul mitte. Mõni allikas vajab tasuta võtit: vt [
 - **Ameerika Ühendriigid:** valikuline. Kohtupraktika otsing töötab ilma võtmeta, kuid jagatud demovõti
   lubab ainult umbes 10 otsingut päevas IP-aadressi kohta. Tasuta api.data.gov võti muutujas
   `WLM_US_GOVINFO_KEY` tõstab seda piiri.
+- **USA osariikide kohtud:** jah. Osariikide kohtupraktika (`us-states`) on välja lülitatud, kuni seate `WLM_US_COURTLISTENER_KEY` oma tasuta CourtListeneri API-tunnuseks. CourtListenerit haldab mittetulundusorganisatsioon Free Law Project; see ei ole ametlik allikas ja iga vastus ütleb seda.
 
 Määrake need Fontese serveri keskkonnamuutujatena oma rakenduse MCP-seadetes. Paigaldajad
 küsivad neid pärast paigaldamist ja nende käivitaja **Add or change keys** muudab neid hiljem.

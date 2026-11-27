@@ -2,13 +2,13 @@
 
 # Fontes камтуу каталогу
 
-124 адаптер; 85 БУУга мүчө мамлекеттин адаптери жок.
+125 адаптер; 85 БУУга мүчө мамлекеттин адаптери жок.
 
 ## Камтуу баалоо таблицасы
 
 Юрисдикция, эгерде Fontes эки чөйрөнүн жок дегенде бирине толук жетсе, камтылган деп эсептелет: анын эң жогорку жалпы сотунун (Yargıtay эквиваленти) прецеденттери же анын конституциясы жана негизги мыйзамдары (kanun деңгээли жана андан жогору). Мыйзам алдындагы актылар жана төмөнкү соттор эсепке алынбайт. ✅ толук (майда боштуктар белгиленген), ◐ боштук (жарыяланган бир нерсе жетишпейт же булак уруксат алынганга чейин өчүк), ❌ жок. Баалоо чечимдери research/scorecard_overrides.json файлында.
 
-**Камтылган: 72 / 124.**
+**Камтылган: 72 / 125.**
 
 | Код | Юрисдикция | Жогорку соттун прецеденттери | Конституция + мыйзамдар | Камтылган | Эмне жетишпейт |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | жок | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | жок | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | жок |  |
+| `us-states` | United States (state courts) | – | – | жок |  |
 | `vn` | Vietnam | ◐ | ◐ | жок | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | жок | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

@@ -13,7 +13,7 @@ from html import escape
 from pathlib import Path
 
 from world_legal_mcp import registry
-from world_legal_mcp.base import CASELAW, LEGISLATION
+from world_legal_mcp.base import CASELAW, LEGISLATION, Jurisdiction
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
@@ -23,8 +23,9 @@ STYLE = re.search(r"<style>.*?</style>", (DOCS / "index.html").read_text(), re.S
 
 
 def _what(j) -> str:
-    c = all(j.supports(m) for m in CASELAW)
-    l = all(j.supports(m) for m in LEGISLATION)
+    # the methods the adapter has, also when it is off here for want of a key (France, US states)
+    c = all(Jurisdiction.supports(j, m) for m in CASELAW)
+    l = all(Jurisdiction.supports(j, m) for m in LEGISLATION)
     return "case law and legislation" if c and l else "case law" if c else "legislation"
 
 

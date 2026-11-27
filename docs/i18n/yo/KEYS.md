@@ -2,12 +2,13 @@
 
 # Àwọn kọ́kọ́rọ́ API
 
-Fere gbogbo orísun nínú Fontes ń ṣiṣẹ́ láìsí kọ́kọ́rọ́. Méjì nílò kọ́kọ́rọ́ ọ̀fẹ́:
+Fere gbogbo orísun nínú Fontes ń ṣiṣẹ́ láìsí kọ́kọ́rọ́. Mẹ́ta nílò kọ́kọ́rọ́ ọ̀fẹ́:
 
 | Kọ́kọ́rọ́ | Ohun tí ó ń ṣí | Láìsí i |
 |---|---|---|
 | `WLM_FR_PISTE_CLIENT_ID` + `WLM_FR_PISTE_CLIENT_SECRET` | France: Judilibre (ìdájọ́ ilé-ẹjọ́) àti Légifrance (òfin) | France wà ní pípa. `list_jurisdictions` ń fi í hàn gẹ́gẹ́ bí èyí tí kò ṣiṣẹ́. |
 | `WLM_US_GOVINFO_KEY` | United States: ìwádìí govinfo (èrò ilé-ẹjọ́ àpapọ̀, Statutes at Large, public laws) | Fontes ń lo `DEMO_KEY` tí a pín: ìwádìí bíi 10 lójoojúmọ́ fún àdírẹ́sì IP kọ̀ọ̀kan. A kò nílò kọ́kọ́rọ́ láti ṣí ìdájọ́ tí a mọ̀ àti US Code. |
+| `WLM_US_COURTLISTENER_KEY` | Àwọn ilé-ẹjọ́ ìpínlẹ̀ US (`us-states`): àwọn ìdájọ́ àwọn ilé-ẹjọ́ gíga àti ti ẹjọ́ àtúnyẹ̀wò ní gbogbo ìpínlẹ̀ 50 àti DC, láti CourtListener | Ìdájọ́ ilé-ẹjọ́ ìpínlẹ̀ US wà ní pípa. `list_jurisdictions` fi hàn bí aláìṣiṣẹ́. |
 
 Àwọn kọ́kọ́rọ́ kò pọn dandan. O lè fi wọ́n kún un lẹ́yìn náà.
 
@@ -78,6 +79,22 @@ Tún áàpù náà bẹ̀rẹ̀ lẹ́yìn ìyípadà èyíkéyìí.
   [àwọn ìlànà govinfo](https://www.govinfo.gov/about/policies) àti
   [ìlànà ìpamọ́ àṣírí data.gov](https://data.gov/privacy-policy/).
 - Pa kọ́kọ́rọ́ náà mọ́ fún ara rẹ.
+
+## Àwọn ilé-ẹjọ́ ìpínlẹ̀ US: CourtListener (ọ̀fẹ́)
+
+[Free Law Project](https://free.law) ló ń darí CourtListener; àjọ aláìlérè (non-profit) ni, tí ó ti ń kó àwọn ìdájọ́ ilé-ẹjọ́ US jọ láti ọdún 2010, tí ó sì ń fi wọ́n sílẹ̀ fún gbogbo ènìyàn lọ́fẹ̀ẹ́. Gẹ́gẹ́ bí ìkà rẹ̀ ṣe fi hàn, ó ní ìdájọ́ tí ó ju mílíọ̀nù mẹ́sàn-án lọ. Kì í ṣe orísun àṣẹ: àwọn ilé-ẹjọ́ ló ń tẹ àwọn ìdájọ́ tiwọn jáde, CourtListener sì ń kó wọn jọ láti inú ojú-ìwé ayélujára àwọn ilé-ẹjọ́ àti àwọn ìwé ìròyìn òfin tí a ṣàyẹ̀wò (scan). Gbogbo ìdáhùn Fontes láti ibẹ̀ ń sọ èyí. Fontes kò ní ìbáṣepọ̀ kankan pẹ̀lú Free Law Project.
+
+1. Ṣẹ̀dá àkọọ́lẹ̀ ọ̀fẹ́ kan lórí [courtlistener.com](https://www.courtlistener.com/sign-in/).
+2. Ṣí profile rẹ kí o sì ṣe ẹ̀dà API token rẹ.
+3. Ṣe ìfilọ́lẹ̀ **Add or change keys** kí o sì lẹ̀ ẹ́ gẹ́gẹ́ bí kọ́kọ́rọ́ CourtListener.
+
+Àwọn òfin ìlò, ní kúkúrú ([àwọn òfin kíkún](https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies)):
+
+- Token náà jẹ́ tìrẹ nìkan: má ṣe pín in, má ṣe dà á pọ̀ mọ́ ti àwọn ẹlòmíì tàbí tà á, má sì lo àkọọ́lẹ̀ púpọ̀.
+- Ìwọ ni o ní ẹrù ohun tí áàpù AI bá ṣe pẹ̀lú token rẹ.
+- Má ṣe fi ìtúpalẹ̀ AI lórí dátà wọn hàn bí ohun tí Free Law Project ṣe, fọwọ́ sí tàbí ṣàyẹ̀wò.
+- Àkọọ́lẹ̀ ọ̀fẹ́ kan gba ìbéèrè 5 ní ìṣẹ́jú kan, 50 ní wákàtí kan àti 125 lójoojúmọ́. Ìwádìí kan jẹ́ ìbéèrè kan; ṣíṣí ìdájọ́ kan jẹ́ ìbéèrè méjì. Ọmọ ẹgbẹ́ Free Law Project ń gbé àwọn ààlà náà sókè.
+- CourtListener kò ṣèlérí pé ó péye. Ṣe àfiwé ìdájọ́ kan pẹ̀lú ẹ̀dà ilé-ẹjọ́ kí o tó gbẹ́kẹ̀lé e.
 
 ## Ibi tí a ń tọ́jú àwọn kọ́kọ́rọ́ sí
 

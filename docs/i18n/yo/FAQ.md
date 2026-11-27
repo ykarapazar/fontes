@@ -6,7 +6,7 @@
 
 Sáfà MCP ọ̀fẹ́ àti open source (Apache 2.0). Ó ń jẹ́ kí áàpù èyíkéyìí tí ó ń lo Model Context Protocol
 (Claude, Codex, Cursor, VS Code, Gemini CLI àti àwọn mìíràn) wá àwọn ìdájọ́ ilé-ẹjọ́ àti òfin láàyè lórí
-ojú-ìwé ayélujára ti ilé-ẹjọ́ àti ti ìjọba ní agbègbè ìdájọ́ 120+ àti àwọn ilé-ẹjọ́ àgbáyé (adapter 124).
+ojú-ìwé ayélujára ti ilé-ẹjọ́ àti ti ìjọba ní agbègbè ìdájọ́ 120+ àti àwọn ilé-ẹjọ́ àgbáyé (adapter 125).
 Gbogbo èsì ń dárúkọ orísun rẹ̀ ó sì ní ìjápọ̀ sí ojúlówó.
 
 ## Ṣé ti ìjọba ni àwọn ọ̀rọ̀ náà?
@@ -25,11 +25,11 @@ sí ohunkóhun, ṣàyẹ̀wò ìtẹ̀jáde ìjọba. Tábìlì ìbòrí nínú
 
 ## Àwọn agbègbè ìdájọ́ wo ni ó bò, àti bí ó ṣe dára tó?
 
-Adapter 124: orílẹ̀-èdè ọmọ ẹgbẹ́ UN 108, Hong Kong, Kosovo, Palestine, Taiwan, DIFC Courts àti ilé-ẹjọ́ àti
+Adapter 125: orílẹ̀-èdè ọmọ ẹgbẹ́ UN 108, Hong Kong, Kosovo, Palestine, Taiwan, DIFC Courts, àwọn ilé-ẹjọ́ ìpínlẹ̀ US àti ilé-ẹjọ́ àti
 àjọ àgbáyé 11 (bíi European Court of Human Rights, EU, ICJ àti WTO).
 
 Ìbòrí yàtọ̀ gidigidi. Lábẹ́ òfin líle kan (àwọn ìdájọ́ ìṣáájú ti ilé-ẹjọ́ gbogbogbò tí ó ga jùlọ, tàbí
-òfin-ìpìlẹ̀ àti àwọn òfin pàtàkì, tí a dé ní kíkún), 72 nínú 124 ni a kà sí èyí tí a bò. [COVERAGE.md](COVERAGE.md)
+òfin-ìpìlẹ̀ àti àwọn òfin pàtàkì, tí a dé ní kíkún), 72 nínú 125 ni a kà sí èyí tí a bò. [COVERAGE.md](COVERAGE.md)
 ń kà, fún agbègbè ìdájọ́ kọ̀ọ̀kan, ohun tí Fontes dé, ohun tí kò dé, àti ìdí rẹ̀.
 
 ## Ṣé mo nílò kọ́kọ́rọ́ API?
@@ -42,6 +42,7 @@ Fún fere gbogbo agbègbè ìdájọ́, rárá. Àwọn orísun díẹ̀ nílò 
 - **United States:** kò pọn dandan. Ìwádìí ìdájọ́ ilé-ẹjọ́ ń ṣiṣẹ́ láìsí kọ́kọ́rọ́, ṣùgbọ́n kọ́kọ́rọ́ demo tí
   a pín gbà ìwádìí bíi 10 péré lójoojúmọ́ fún àdírẹ́sì IP kọ̀ọ̀kan. Kọ́kọ́rọ́ api.data.gov ọ̀fẹ́ nínú
   `WLM_US_GOVINFO_KEY` ń gbé e sókè.
+- **Àwọn ilé-ẹjọ́ ìpínlẹ̀ US:** bẹ́ẹ̀ni. Ìdájọ́ ilé-ẹjọ́ ìpínlẹ̀ (`us-states`) wà ní pípa títí o fi ṣètò `WLM_US_COURTLISTENER_KEY` sí API token CourtListener ọ̀fẹ́ tìrẹ. Àjọ aláìlérè Free Law Project ló ń darí CourtListener; kì í ṣe orísun àṣẹ, gbogbo ìdáhùn sì ń sọ èyí.
 
 Ṣètò wọn gẹ́gẹ́ bí environment variable fún sáfà Fontes nínú ètò MCP áàpù rẹ. Àwọn ẹ̀rọ
 ìfisílẹ̀ máa ń béèrè fún wọn lẹ́yìn ìfisílẹ̀, launcher wọn **Add or change keys** sì ń yí wọn padà

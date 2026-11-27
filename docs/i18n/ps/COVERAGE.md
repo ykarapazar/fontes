@@ -2,13 +2,13 @@
 
 # د Fontes د پوښښ کتلاګ
 
-124 اډاپټرونه؛ 85 د ملګرو ملتونو غړي هېوادونه پرته له اډاپټره.
+125 اډاپټرونه؛ 85 د ملګرو ملتونو غړي هېوادونه پرته له اډاپټره.
 
 ## د پوښښ نمرې پاڼه
 
 یوه قضايي حوزه هغه وخت پوښل شوې ګڼل کېږي چې Fontes لږ تر لږه دوو برخو څخه یوې ته په بشپړه توګه ورسېږي: د هغې د تر ټولو لوړې عمومي محکمې قضايي رویه (د Yargıtay معادل)، یا د هغې اساسي قانون او لومړني قوانین (د kanun کچه او پورته). فرعي مقررې او ټیټې محکمې نه شمېرل کېږي. ✅ بشپړ (کوچنۍ تشې یادې شوې)، ◐ تشه (څه چې خپاره شوي نشته، یا سرچینه تر اجازې پورې بنده ده)، ❌ هېڅ. د قضاوت پر بنسټ پرېکړې په research/scorecard_overrides.json کې دي.
 
-**پوښل شوي: 72 له 124 څخه.**
+**پوښل شوي: 72 له 125 څخه.**
 
 | کوډ | قضايي حوزه | د تر ټولو لوړې محکمې رویه | اساسي قانون + قوانین | پوښل شوی | څه کم دي |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | نه | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | نه | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | نه |  |
+| `us-states` | United States (state courts) | – | – | نه |  |
 | `vn` | Vietnam | ◐ | ◐ | نه | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | نه | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

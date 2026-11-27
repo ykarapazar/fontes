@@ -2,13 +2,13 @@
 
 # Fontes 覆盖范围目录
 
-124 个适配器；85 个联合国会员国尚无适配器。
+125 个适配器；85 个联合国会员国尚无适配器。
 
 ## 覆盖评分表
 
 当 Fontes 完整覆盖以下两个领域中至少一个时，该法域计为已覆盖：其最高普通法院的判例（相当于 Yargıtay），或其宪法和基本法律（kanun 层级及以上）。次级立法和下级法院不计入。✅ 完整（注明了小的缺口），◐ 有缺口（有已发布的内容缺失，或该来源在获得许可前处于关闭状态），❌ 无。判断性决定见 research/scorecard_overrides.json。
 
-**已覆盖：72 / 124。**
+**已覆盖：72 / 125。**
 
 | 代码 | 法域 | 最高法院判例 | 宪法 + 法律 | 已覆盖 | 缺少的内容 |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@
 | `tj` | Tajikistan | ❌ | ◐ | 否 | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | 否 | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | 否 |  |
+| `us-states` | United States (state courts) | – | – | 否 |  |
 | `vn` | Vietnam | ◐ | ◐ | 否 | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | 否 | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

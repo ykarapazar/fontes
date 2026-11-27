@@ -25,6 +25,7 @@
  "key_fr_id": "Franța: client ID PISTE",
  "key_fr_secret": "Franța: client secret PISTE",
  "key_us": "Statele Unite: cheie api.data.gov",
+ "key_us_cl": "Statele Unite: cheie CourtListener",
  "keys_saved": "Cheile au fost salvate. Închideți și redeschideți aplicațiile pentru a le folosi.",
  "keys_unchanged": "Nicio cheie nu a fost modificată.",
  "keys_no_apps": "Fontes nu este încă configurat în nicio aplicație. Instalați-l mai întâi.",

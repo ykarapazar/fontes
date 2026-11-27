@@ -2,13 +2,13 @@
 
 # Fontes-Abdeckungskatalog
 
-124 Adapter; 85 UN-Mitgliedstaaten ohne Adapter.
+125 Adapter; 85 UN-Mitgliedstaaten ohne Adapter.
 
 ## Abdeckungsübersicht
 
 Eine Rechtsordnung gilt als abgedeckt, wenn Fontes mindestens einen von zwei Bereichen vollständig erreicht: die Präjudizien ihres obersten ordentlichen Gerichts (das Gegenstück zum Yargıtay) oder ihre Verfassung und ihre Parlamentsgesetze (Gesetzesrang und höher). Untergesetzliche Rechtsvorschriften und untere Gerichte zählen nicht. ✅ vollständig (kleinere Lücken vermerkt), ◐ Lücke (etwas Veröffentlichtes fehlt, oder die Quelle ist bis zur Erlaubnis aus), ❌ keine. Ermessensentscheidungen stehen in research/scorecard_overrides.json.
 
-**Abgedeckt: 72 von 124.**
+**Abgedeckt: 72 von 125.**
 
 | Code | Rechtsordnung | Präjudizien des obersten Gerichts | Verfassung + Gesetze | Abgedeckt | Was fehlt |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Eine Rechtsordnung gilt als abgedeckt, wenn Fontes mindestens einen von zwei Ber
 | `tj` | Tajikistan | ❌ | ◐ | nein | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | nein | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | nein |  |
+| `us-states` | United States (state courts) | – | – | nein |  |
 | `vn` | Vietnam | ◐ | ◐ | nein | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | nein | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

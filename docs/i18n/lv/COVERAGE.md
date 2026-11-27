@@ -2,13 +2,13 @@
 
 # Fontes pārklājuma katalogs
 
-Adapteri: 124; ANO dalībvalstis bez adaptera: 85.
+Adapteri: 125; ANO dalībvalstis bez adaptera: 85.
 
 ## Pārklājuma kopsavilkums
 
 Jurisdikcija tiek uzskatīta par aptvertu, ja Fontes pilnībā sasniedz vismaz vienu no divām jomām: tās augstākās vispārējās jurisdikcijas tiesas precedentus (Yargıtay ekvivalentu) vai tās konstitūciju un primāros likumus (kanun līmenī un augstāk). Pakārtotie normatīvie akti un zemākas instances tiesas netiek ņemtas vērā. ✅ pilnībā (nelieli robi norādīti), ◐ robs (kaut kas publicēts trūkst vai avots ir izslēgts līdz atļaujai), ❌ nav. Vērtējuma lēmumi ir research/scorecard_overrides.json.
 
-**Aptverts: 72 no 124.**
+**Aptverts: 72 no 125.**
 
 | Kods | Jurisdikcija | Augstākās tiesas precedenti | Konstitūcija + likumi | Aptverts | Kas trūkst |
 |---|---|---|---|---|---|
@@ -134,6 +134,7 @@ Jurisdikcija tiek uzskatīta par aptvertu, ja Fontes pilnībā sasniedz vismaz v
 | `tj` | Tajikistan | ❌ | ◐ | nē | Supreme Court, Plenum and Presidium: sud.tj times out from the UK (2026-11-06); Supreme Court, Civil Collegium: sud.tj times out from the UK (2026-11-06); Supreme Court, Criminal Collegium: sud.tj times out from the UK (2026-11-06) / Constitutional laws: constcourt.tj posts court-related ones; base. |
 | `bs` | The Bahamas | ◐ | ◐ | nē | Final court of appeal (sits in London): JCPC judgments in appeals from this country, Nov 2009 - present (Find Case Law's UKPC collection starts 2009): 82 found 2026-11-10; full-text search (all words), full text. Country filter is heuristic (title '(Bahamas)'/'(The Bahamas)' or header 'From the Cour |
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | – | – | nē |  |
+| `us-states` | United States (state courts) | – | – | nē |  |
 | `vn` | Vietnam | ◐ | ◐ | nē | Supreme People's Court, Council of Judges (cassation/reopening; adopts precedents): only the ~90 precedents (án lệ); 2026 ones (83-90) scans only; judgments on congbobanan.toaan.gov.vn reset/timed out from the UK / Codes, Laws and Resolutions of the National Assembly: vbpl.vn central sitemap (~58k d |
 | `wto` | WTO dispute settlement (World Trade Organization) | ◐ | – | nē | Dispute Settlement Body (General Council; adopts reports, authorises retaliation): status, adoption and key facts per dispute from the data files; DSB minutes not fetched |
 

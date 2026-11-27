@@ -42,7 +42,7 @@ with a `Fontes/<version>` User-Agent that names the repository and a contact add
 
 Privacy notice: https://github.com/ykarapazar/fontes/blob/main/docs/PRIVACY.md
 
-### Every source host in the code (317)
+### Every source host in the code (319)
 
 Generated from the adapters' source by `scripts/plugin_bundle.py`: every host an adapter
 fetches from or links to. A host is contacted only when you ask about its jurisdiction.
@@ -248,6 +248,7 @@ fetches from or links to. A host is contacted only when you ask about its jurisd
 - `visorpdf.tse.do`
 - `vyhledavac.nssoud.cz`
 - `wetten.overheid.nl`
+- `wiki.free.law`
 - `www.african-court.org`
 - `www.alolya.gov.ly`
 - `www.anayasa.gov.tr`
@@ -274,6 +275,7 @@ fetches from or links to. A host is contacted only when you ask about its jurisd
 - `www.courdecassation.fr`
 - `www.courdecassation.ht`
 - `www.court.gov.cn`
+- `www.courtlistener.com`
 - `www.courtofappeal.org.bs`
 - `www.courts.go.jp`
 - `www.csj.md`

@@ -7,7 +7,7 @@
 Bezpłatnym serwerem MCP o otwartym kodzie źródłowym (Apache 2.0). Pozwala każdej aplikacji
 obsługującej Model Context Protocol (Claude, Codex, Cursor, VS Code, Gemini CLI i inne)
 wyszukiwać orzeczenia sądów i akty prawne na żywo na stronach sądów i instytucji państwowych w
-ponad 120 jurysdykcjach i sądach międzynarodowych (124 adaptery). Każdy wynik podaje swoje
+ponad 120 jurysdykcjach i sądach międzynarodowych (125 adaptery). Każdy wynik podaje swoje
 źródło i zawiera link do oryginału.
 
 ## Czy teksty są oficjalne?
@@ -26,12 +26,11 @@ Zanim cokolwiek zacytujesz, sprawdź oficjalną publikację. Tabela zakresu w
 
 ## Jakie jurysdykcje obejmuje i jak dobrze?
 
-124 adaptery: 108 państw członkowskich ONZ, Hongkong, Kosowo, Palestyna, Tajwan, sądy DIFC oraz
-11 sądów i organów międzynarodowych (na przykład Europejski Trybunał Praw Człowieka, UE,
+125 adaptery: 108 państw członkowskich ONZ, Hongkong, Kosowo, Palestyna, Tajwan, sądy DIFC, sądy stanowe USA oraz 11 sądów i organów międzynarodowych (na przykład Europejski Trybunał Praw Człowieka, UE,
 Międzynarodowy Trybunał Sprawiedliwości i WTO).
 
 Zakres bardzo się różni. Według ścisłej zasady (precedensy najwyższego sądu powszechnego albo
-konstytucja i ustawy podstawowe, osiągnięte w pełni) za objęte uznaje się 72 ze 124.
+konstytucja i ustawy podstawowe, osiągnięte w pełni) za objęte uznaje się 72 ze 125.
 [COVERAGE.md](../../COVERAGE.md) podaje dla każdej jurysdykcji, do czego Fontes dociera, do
 czego nie i dlaczego.
 
@@ -46,6 +45,7 @@ Dla niemal każdej jurysdykcji nie. Niektóre źródła wymagają bezpłatnego k
 - **Stany Zjednoczone:** opcjonalnie. Wyszukiwanie orzecznictwa działa bez klucza, ale wspólny
   klucz demonstracyjny pozwala tylko na około 10 wyszukiwań dziennie na adres IP. Bezpłatny klucz
   api.data.gov w `WLM_US_GOVINFO_KEY` podnosi ten limit.
+- **Sądy stanowe USA:** tak. Orzecznictwo stanowe (`us-states`) jest wyłączone, dopóki nie ustawisz `WLM_US_COURTLISTENER_KEY` na własny bezpłatny token API CourtListener. CourtListener prowadzi organizacja non-profit Free Law Project; nie jest to źródło urzędowe i każda odpowiedź to zaznacza.
 
 Ustaw je jako zmienne środowiskowe serwera Fontes w ustawieniach MCP swojej aplikacji. Instalatory pytają o nie po instalacji, a ich program uruchamiający
 **Add or change keys** pozwala je później zmienić.
