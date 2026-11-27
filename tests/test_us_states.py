@@ -86,6 +86,19 @@ async def test_decision_id_forms(monkeypatch):
         await j.get_decision("USREPORTS-347-483")
 
 
+async def test_lead_opinion_before_dissent(monkeypatch):
+    monkeypatch.setenv(U.ENV, "t")
+
+    async def api(path, params):
+        if path == "search/":
+            return {"results": [_row(1)]}
+        return {"results": [{"type": "040dissent", "author_str": "B", "html_with_citations": "<p>No.</p>"},
+                            {"type": "020lead", "author_str": "A", "html_with_citations": "<p>Yes.</p>"}]}
+    monkeypatch.setattr(U, "_api", api)
+    d = await U.UnitedStatesStates().get_decision("1")
+    assert d.text.index("Lead opinion, A") < d.text.index("Dissent, B")
+
+
 def test_every_answer_discloses_the_source():
     s = U.SOURCE
     assert not s.official and "Free Law Project" in s.warning and "not the courts' own" in s.warning

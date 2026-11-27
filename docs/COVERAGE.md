@@ -191,7 +191,7 @@ A jurisdiction counts as covered when Fontes reaches at least one of two areas c
 | `echr` | European Court of Human Rights | yes | no | 5+2½/11 | – | 0/4 | 🟢7 ⚫3 |
 | `eu` | European Union | yes | yes | 3+3½/14 | – | 5+3½/10 | 🟢9 ❓7 |
 | `fi` | Finland | yes | yes | 2/13 | – | 2+2½/8 | 🟢11 ⚫1 ❓5 |
-| `fr` | France | no | no | 5+5½/10 | – | 5/5 | 🟢1 ❓4 |
+| `fr` | France | yes | yes | 5+5½/10 | – | 5/5 | 🟢1 ❓4 |
 | `ge` | Georgia | yes | yes | 1+8½/9 | – | 7+2½/9 | 🟢2 🔒1 ❓7 |
 | `de` | Germany (federal) | yes | yes | 0+7½/9 | 0/172 | 3/8 | 🟢43 🔒113 ❓30 |
 | `gr` | Greece | yes | yes | 0+1½/21 | – | 0+8½/9 | 🟢4 🔒11 ⚫3 ❓12 |
@@ -266,7 +266,7 @@ A jurisdiction counts as covered when Fontes reaches at least one of two areas c
 | `untc` | UN Treaty Collection (multilateral treaties deposited with the UN Secretary-General) | no | yes | – | – | 2+1½/6 | 🟢4 |
 | `gb` | United Kingdom | yes | yes | 0+25½/41 | 0/24 | 7/10 | 🟢32 🔒20 ⚫6 ❓10 |
 | `us` | United States | yes | yes | 0+8½/23 | 0/322 | 3/8 | 🟢85 🔒61 ⚫109 ❓95 |
-| `us-states` | United States (state courts) | no | no | – | – | – | – |
+| `us-states` | United States (state courts) | yes | no | – | – | – | – |
 | `uy` | Uruguay | yes | yes | 5+14½/21 | – | 2+5½/9 | 🟢1 🔒6 ❓16 |
 | `uz` | Uzbekistan | yes | yes | 0+14½/17 | – | 7/10 | 🟢11 🔒6 ❓3 |
 | `vn` | Vietnam | yes | yes | 0+1½/19 | – | 1+6½/10 | 🟢2 🔒16 ⚫1 ❓9 |
@@ -11120,14 +11120,14 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.uscourt
 **Sources and terms**
 
 - CourtListener (Free Law Project, a non-profit): opinions of state supreme and appellate courts — https://www.courtlistener.com (caselaw) — Court opinions are generally public domain (CourtListener terms); no licence stated for the database itself; needs free key: your own CourtListener API token (env WLM_US_COURTLISTENER_KEY); the terms forbid sharing it; UNOFFICIAL
-  - ⚠ CourtListener is the largest free collection of US case law (over nine million decisions, by Free Law Project's count), built by the non-profit Free Law Project from court websites and scanned reporters. It is not the courts' own publication, and Free Law Project does not produce, endorse or check your AI's analysis of it. Check the opinion against the court's copy before relying on it.
+  - ⚠ CourtListener is a free collection of US case law (over nine million decisions, by Free Law Project's count), built by the non-profit Free Law Project from court websites and scanned reporters. It is not the courts' own publication, and Free Law Project does not produce, endorse or check your AI's analysis of it. Check the opinion against the court's copy (linked when CourtListener has one) before relying on it.
 - Tools: none
 - Notes: Inactive: needs your own free CourtListener API token. Create an account at courtlistener.com and set WLM_US_COURTLISTENER_KEY (see docs/KEYS.md).
 
 **Does not reach**
 
 - State statutes and codes: not in CourtListener; each legislature publishes its own (not built yet)
-- State trial courts: mostly not published online, so mostly not covered
+- State trial courts: mostly not published online, so mostly not covered (a few are: e.g. Delaware Chancery and Superior Court, Massachusetts Superior Court)
 - Free accounts allow 5 requests a minute and 125 a day: a search is 1 request, a decision 2
 - Federal courts: use jurisdiction 'us' (official sources: govinfo, supremecourt.gov)
 

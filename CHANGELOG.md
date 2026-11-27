@@ -8,8 +8,8 @@ Plain-language notes for each release. Newest first.
 
 - US state courts (`us-states`): opinions of the supreme and appellate courts of all 50 states
   and DC, from CourtListener. CourtListener is run by Free Law Project, a non-profit, and is not
-  an official source, so every answer says so and points to the court's own copy. It needs your
-  own free CourtListener API token (`WLM_US_COURTLISTENER_KEY`; the installers ask for it).
+  an official source, so every answer says so and links the court's own copy when CourtListener
+  has one. It needs your own free CourtListener API token (`WLM_US_COURTLISTENER_KEY`; the installers ask for it).
   State statutes are not covered yet. Asked for on Reddit.
 
 **Fixed**

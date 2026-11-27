@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 from world_legal_mcp import registry
-from world_legal_mcp.base import CASELAW, LEGISLATION
+from world_legal_mcp.base import CASELAW, LEGISLATION, Jurisdiction
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import i18n_docs  # noqa: E402
@@ -125,7 +125,8 @@ def _terms(s) -> str:
 
 
 def _half(j, methods) -> str:
-    have = [m for m in methods if j.supports(m)]
+    # the methods the adapter has, also when it is off here for want of a key (France, US states)
+    have = [m for m in methods if Jurisdiction.supports(j, m)]
     return L["cov_yes"] if len(have) == len(methods) else (L["cov_partly"] if have else L["cov_no"])
 
 

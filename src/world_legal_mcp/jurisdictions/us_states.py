@@ -40,8 +40,9 @@ _HITS = 20          # fixed hits per search call
 _MAX_ROWS = 100     # limit x page: at most 5 search calls (the free tier allows 5 a minute)
 _cursors: dict = {}
 
-# State -> top-level CourtListener court ids (state supreme and appellate courts; child courts
-# are included by CourtListener). From /api/rest/v4/courts/?jurisdiction=S and SA, 2026-11-27.
+# State -> top-level CourtListener court ids: every state court CourtListener files as supreme
+# (S) or appellate (SA). SA also holds a few others (Delaware Chancery and Superior Court,
+# Massachusetts Superior Court, Appellate Tax Board...); child courts are included. From /api/rest/v4/courts/?jurisdiction=S and SA, 2026-11-27.
 _COURTS = {
     "AL": "ala alactapp alacrimapp alacivapp", "AK": "alaska alaskactapp", "AZ": "ariz arizctapp",
     "AR": "ark arkctapp", "CA": "cal calctapp calappdeptsuper", "CO": "colo coloctapp",
@@ -160,11 +161,11 @@ SOURCE = Source(
                "2026-11); 429 with a few seconds' Retry-After on the 6th request in a minute "
                "(measured 2026-11-27)",
     terms_url="https://wiki.free.law/c/terms/courtlistener/courtlistenercom-terms-of-service-and-policies",
-    warning="CourtListener is the largest free collection of US case law (over nine million "
-            "decisions, by Free Law Project's count), built by the non-profit Free Law Project "
-            "from court websites and scanned reporters. It is not the courts' own publication, "
-            "and Free Law Project does not produce, endorse or check your AI's analysis of it. "
-            "Check the opinion against the court's copy before relying on it.",
+    warning="CourtListener is a free collection of US case law (over nine million decisions, by "
+            "Free Law Project's count), built by the non-profit Free Law Project from court "
+            "websites and scanned reporters. It is not the courts' own publication, and Free Law "
+            "Project does not produce, endorse or check your AI's analysis of it. Check the "
+            "opinion against the court's copy (linked when CourtListener has one) before relying on it.",
     official=False,
     probe={"caselaw_query": "duty of care", "decision_id": "10348460",
            "filters": {"state": "TX"}},
@@ -187,7 +188,8 @@ class UnitedStatesStates(Jurisdiction):
     gaps = (
         ("State statutes and codes: not in CourtListener; each legislature publishes its own "
          "(not built yet)"),
-        "State trial courts: mostly not published online, so mostly not covered",
+        ("State trial courts: mostly not published online, so mostly not covered (a few are: "
+         "e.g. Delaware Chancery and Superior Court, Massachusetts Superior Court)"),
         ("Free accounts allow 5 requests a minute and 125 a day: a search is 1 request, a "
          "decision 2"),
         "Federal courts: use jurisdiction 'us' (official sources: govinfo, supremecourt.gov)",
@@ -252,7 +254,7 @@ class UnitedStatesStates(Jurisdiction):
         ops = (await _api("opinions/", {"cluster": cid, "fields": "id,type,author_str,per_curiam,"
                                         "html_with_citations,plain_text,download_url"})).get("results") or []
         parts, meta = [], {}
-        for o in ops:
+        for o in sorted(ops, key=lambda o: o.get("type") or "999"):   # lead, concurrences, dissents
             body = _http.html_to_md(o["html_with_citations"]) if o.get("html_with_citations") \
                 else (o.get("plain_text") or "").strip()
             if not body:
