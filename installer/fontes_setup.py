@@ -497,6 +497,7 @@ KEYS = {"WLM_FR_PISTE_CLIENT_ID": "key_fr_id", "WLM_FR_PISTE_CLIENT_SECRET": "ke
         "WLM_US_GOVINFO_KEY": "key_us", "WLM_US_COURTLISTENER_KEY": "key_us_cl"}
 KEYS_URL = f"{i18n.REPO}docs/KEYS.md"
 INSTALL_URL = f"{i18n.REPO}docs/INSTALL.md"
+STAR_URL = i18n.REPO.split("/blob/")[0]   # the repository page, where the star button is
 
 
 def gui() -> bool:
@@ -595,6 +596,8 @@ def install() -> int:
         configure({"fontes": entry(uv, "fontes", fontes_env)}, only_ours=True)
         print(t("keys_saved"))
     print(t("done") if done else t("no_apps", url=INSTALL_URL))
+    if done:
+        print(t("star", url=STAR_URL))
     return 0
 
 

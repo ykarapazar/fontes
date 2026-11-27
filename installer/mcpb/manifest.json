@@ -3,7 +3,7 @@
   "name": "fontes",
   "display_name": "Fontes",
   "version": "0.0.0",
-  "description": "Court decisions and legislation from government and court websites in over 120 jurisdictions, fetched live, with a link to the original.",
+  "description": "Court decisions and legislation from government and court websites in 125 jurisdictions, fetched live, with a link to the original. Past versions of laws and 91 more countries come from Lexifina's record (not the official publisher).",
   "long_description": "Fontes fetches court decisions and legislation live from official sources at the moment you ask, and every result links to the original. This extension is a small launcher: on first start it downloads Fontes from PyPI with uv, and afterwards keeps it up to date once a day in the background, always falling back to the last version that worked.",
   "author": {"name": "Yüce Karapazar", "url": "https://github.com/ykarapazar"},
   "repository": {"type": "git", "url": "https://github.com/ykarapazar/fontes"},

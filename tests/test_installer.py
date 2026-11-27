@@ -347,6 +347,10 @@ def test_mac_app_install_never_asks_for_keys(home, monkeypatch, capsys):
     assert S.main(["install"]) == 0
     out = capsys.readouterr().out
     assert S.t("done") in out and S.t("start") not in out
+    assert out.rstrip().splitlines()[-2:] == [S.t("done"), S.t("star", url="https://github.com/ykarapazar/fontes")]
+    capsys.readouterr()
+    assert S.main(["uninstall"]) == 0
+    assert "github.com/ykarapazar/fontes" not in capsys.readouterr().out
 
 
 def test_mac_app_key_prompts_use_dialog_wording(monkeypatch):
@@ -545,4 +549,5 @@ def test_install_says_so_when_no_ai_app_is_found(tmp_path, monkeypatch, capsys):
     assert S.main(["install"]) == 0
     out = capsys.readouterr().out
     assert "No AI app was found" in out and "set up in" not in out
+    assert S.t("star", url=S.STAR_URL) not in out
     assert by_name("Claude Desktop").path.exists()   # ready for when Claude Desktop is installed
