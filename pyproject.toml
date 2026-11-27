@@ -1,6 +1,6 @@
 [project]
 name = "fontes-mcp"
-version = "0.1.3"
+version = "0.1.4"
 description = "Court decisions and legislation from government and court websites in 125 jurisdictions, fetched live, with a link to the original. Past versions of laws and 91 more countries come from Lexifina's record (not the official publisher)."
 dynamic = ["readme"]
 license = "Apache-2.0"

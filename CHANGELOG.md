@@ -2,7 +2,7 @@
 
 Plain-language notes for each release. Newest first.
 
-## Unreleased
+## 0.1.4 (2026-11-27)
 
 **New**
 
@@ -23,6 +23,15 @@ Plain-language notes for each release. Newest first.
 - Privacy: for these tools and countries, search words, citations and dates go to Lexifina's
   server (`global-law.lexifina.com`), which documents that it logs the tool called and how long
   it took, never what was asked. On by default; set `WLM_LEXIFINA=0` to turn it off.
+- Checked against the official text: for today's text of Dutch and UK legislation and US Code
+  sections, `get_law_on_date` also fetches the official page and says whether Lexifina's record
+  matches it, quoting any passages that differ. Other countries are not compared.
+
+**Also new**
+
+- The installer asks, after a successful install, for a star on GitHub if you like Fontes.
+- Website: each jurisdiction page says where past versions come from, translated pages are
+  listed for search engines, and there is an `llms.txt` for AI assistants.
 
 ## 0.1.3 (2026-11-27)
 
