@@ -14,7 +14,8 @@ import json
 import sys
 from pathlib import Path
 
-from world_legal_mcp import registry
+from world_legal_mcp import lexifina, registry
+from world_legal_mcp.jurisdictions._lexifina_data import COUNTRIES
 from world_legal_mcp.base import CASELAW, LEGISLATION, Jurisdiction
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -25,6 +26,8 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "COVERAGE.md"
 PAGES = "https://ykarapazar.github.io/fontes/law/"   # one page per jurisdiction, from country_pages.py
 MAPS = ROOT / "research" / "maps"   # <code>.json: the country's courts and legislation types, each marked reached or not
+# English only: this table is not in the translated catalogues
+IN_RECORD = ". Legislation from Lexifina's record (not the official publisher), not live"
 L = i18n_docs.labels()   # set per language by write()
 
 
@@ -184,10 +187,11 @@ def render(lang: str = "en") -> str:
         if j.notes:
             out.append(L["cov_notes"].format(notes=j.notes))
         out += ["", L["cov_not_reached"], ""]
-        out += [f"- {g}" for g in j.gaps] or [L["cov_not_catalogued"]]
+        out += [f"- {lexifina.gap_note(j.code, g)}" for g in j.gaps] or [L["cov_not_catalogued"]]
     out += ["", f"## {L['cov_no_adapter']}", "",
             f"| {L['cov_col_code']} | {L['cov_col_country']} | {L['cov_col_why_not']} |", "|---|---|---|"]
-    out += [f"| `{c}` | {n} | {why} |" for c, (n, why) in sorted(NO_ADAPTER.items(), key=lambda x: x[1][0])]
+    out += [f"| `{c}` | {n} | {why}{IN_RECORD if c in COUNTRIES else ''} |"
+            for c, (n, why) in sorted(NO_ADAPTER.items(), key=lambda x: x[1][0])]
     return "\n".join(out) + "\n"
 
 

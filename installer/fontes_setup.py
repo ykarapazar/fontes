@@ -5,7 +5,7 @@ Run by the double-click wrappers once uv is present:
 
     uv run --managed-python --python 3.13 --no-project fontes_setup.py install|keys|uninstall
 
-`keys` asks for the optional free API keys (France, United States) and saves them in the `env`
+`keys` asks for the optional free API keys (France PISTE, api.data.gov, CourtListener) and saves them in the `env`
 of our entry in every app that has it; `install` asks the same right after setting up.
 
 It only ever touches its own entry ("fontes"); every other entry,

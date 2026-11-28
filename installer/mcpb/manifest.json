@@ -38,6 +38,8 @@
     {"name": "get_legislation_toc", "description": "Table of contents of a law with provision labels."},
     {"name": "get_legislation_provision", "description": "Current text of one article or section."},
     {"name": "get_legislation_text", "description": "Full consolidated text of a law, pageable."},
+    {"name": "get_law_on_date", "description": "A provision's text as in force on a date, from Lexifina's record (not the official publisher)."},
+    {"name": "get_law_history", "description": "How a provision changed: the laws that changed it, or the change between two dates. From Lexifina's record (not the official publisher)."},
     {"name": "report_bug", "description": "Prepare a Fontes bug report; sent only if the user confirms it."}
   ],
   "compatibility": {

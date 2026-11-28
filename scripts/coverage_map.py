@@ -135,7 +135,7 @@ def build(theme: str, cat: dict[str, str], names: dict[str, str], today: str) ->
     y = top + map_h + 30
     n_part = sum(v == "partial" for v in cat.values())
     items = [("covered", f"Covered ({covered})"), ("partial", f"Partial: some sources, no complete area ({n_part})"),
-             ("none", "Not yet or not included")]
+             ("none", "No live adapter (see COVERAGE.md)")]
     x = PAD
     for kind, text in items:
         out.append(f'<rect x="{x}" y="{y - 11}" width="14" height="14" rx="3" fill="{c[kind]}"/>')

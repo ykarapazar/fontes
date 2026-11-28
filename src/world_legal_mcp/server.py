@@ -73,7 +73,7 @@ def _unsupported(j: Jurisdiction, method: str) -> str:
     if j.notes and srcs:
         out.append(f"Notes: {j.notes}")
     if j.gaps:
-        out.append("Not covered: " + "; ".join(j.gaps) + ".")
+        out.append("Not covered: " + "; ".join(lexifina.gap_note(j.code, g) for g in j.gaps) + ".")
     out.append(f"Supported for {j.code}: {_supported_line(j)}.")
     return "\n".join(out)
 
@@ -302,7 +302,7 @@ async def list_jurisdictions(query: str | None = None) -> str:
             lines.append(f"- Notes: {j.notes}")
         if j.gaps:
             lines.append("- Not covered (tell the user to check these elsewhere):")
-            lines += [f"  - {g}" for g in j.gaps]
+            lines += [f"  - {lexifina.gap_note(j.code, g)}" for g in j.gaps]
         out.append("\n".join(lines))
     if not out:
         return f"No jurisdiction matches {query!r}.{_did_you_mean(query)}"

@@ -18,6 +18,7 @@ import re
 
 from . import _http
 from .base import BadRequest, NotFound, SourceError
+from .jurisdictions._lexifina_data import LIVE_IN_RECORD
 
 URL = "https://global-law.lexifina.com/mcp"
 HOST = "global-law.lexifina.com"
@@ -28,6 +29,18 @@ CREDIT = ("From Lexifina's global law record (github.com/lexifina/global-law), a
           "country's law that Lexifina builds from the official publishers. Lexifina is not the official "
           "publisher: its record can be days or weeks behind, and the note below says how far it goes. "
           "Check the official publisher's page it links before relying on it.")
+
+
+_PAST = re.compile(r"(?:earlier|past|historical|past and future consolidated) versions", re.I)
+PAST_NOTE = (". Past versions can be read from Lexifina's record with get_law_on_date and get_law_history "
+             "(not the official publisher; the record starts on a country-specific date).")
+
+
+def gap_note(code: str, gap: str) -> str:
+    """A 'past versions: not built' gap of a country Lexifina's record holds, with where past versions are."""
+    if code in LIVE_IN_RECORD and _PAST.search(gap) and "Lexifina" not in gap:
+        return gap.rstrip(".") + PAST_NOTE
+    return gap
 
 
 def is_lexifina(source) -> bool:

@@ -186,7 +186,7 @@ Two apps need one more step:
 
 ### The keys step
 
-Right after installing, the installer offers to add the free France and US keys. To add or
+Right after installing, the installer offers to add the free keys: France (PISTE), api.data.gov and CourtListener. To add or
 change them later:
 
 - **Mac:** open **Fontes Installer** again and choose **Add or change keys**.

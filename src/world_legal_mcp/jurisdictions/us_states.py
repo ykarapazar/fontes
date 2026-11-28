@@ -186,8 +186,10 @@ class UnitedStatesStates(Jurisdiction):
     }
     min_interval = {"www.courtlistener.com": 1.0}
     gaps = (
-        ("State statutes and codes: not in CourtListener; each legislature publishes its own "
-         "(not built yet)"),
+        ("State statutes and codes: not in CourtListener, and not live from the legislatures. "
+         "Lexifina's record (not the official publisher) has statutes for 49 states (not New Mexico), "
+         "DC, American Samoa, Guam and the Northern Mariana Islands, readable with get_law_on_date "
+         "and get_law_history (Arkansas: catalogue entries only; Wyoming: as enacted)"),
         ("State trial courts: mostly not published online, so mostly not covered (a few are: "
          "e.g. Delaware Chancery and Superior Court, Massachusetts Superior Court)"),
         ("Free accounts allow 5 requests a minute and 125 a day: a search is 1 request, a "

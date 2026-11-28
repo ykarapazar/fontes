@@ -482,7 +482,8 @@ class UnitedStates(Jurisdiction):
              "Archives transcription. Acts as enacted: Statutes at Large vols 1-138 (1789-2024; ids "
              "'1 Stat. 50', 'STATUTE-1-Pg50', 'Pub. L. 85-1'; provisions are Stat. pages) and public/"
              "private laws from 1995 ('Pub. L. 119-1'; provisions are sections); full-text search "
-             "with filter collection STATUTE or PLAW. No state law (state case law: 'us-states'), no CFR.")
+             "with filter collection STATUTE or PLAW. No live state law (state case law: 'us-states'; "
+             "state statutes: see gaps), no CFR.")
     gaps = (
         ("Code of Federal Regulations (eCFR): robots.txt disallows the full-text endpoint "
          "/api/versioner/v1/full/"),
@@ -491,7 +492,10 @@ class UnitedStates(Jurisdiction):
          "not wired"),
         "Lower federal court opinions before ~2004: not in govinfo USCOURTS",
         ("State case law: jurisdiction 'us-states' (CourtListener, unofficial, your own free "
-         "token). State statutes: not built yet"),
+         "token). State statutes: not live from the legislatures. Lexifina's record (not the official "
+         "publisher) has statutes for 49 states (not New Mexico), DC, American Samoa, Guam and the "
+         "Northern Mariana Islands, readable with get_law_on_date and get_law_history (Arkansas: "
+         "catalogue entries only; Wyoming: as enacted)"),
         "Federal Register and Congress bills: source exists and works but not built yet",
         ("US Constitution: National Archives transcription of the parchment text (original "
          "spelling; superseded clauses are not marked in the articles, only in amendment notes)"),

@@ -42,13 +42,6 @@ def _short(j) -> str:
     if not m:
         return j.name
     return m[2] if re.fullmatch(r"[A-Z]{2,8}", m[2]) else m[1]
-_PAST = re.compile(r"(?:earlier|past|historical) versions", re.I)
-_PAST_NOTE = (". Past versions can be read from Lexifina's record with get_law_on_date and get_law_history "
-              "(not the official publisher; the record starts on a country-specific date).")
-
-
-def _gap(j, g: str) -> str:
-    return g.rstrip(".") + _PAST_NOTE if j.code in IN_LEXIFINA_RECORD and _PAST.search(g) and "Lexifina" not in g else g
 
 
 def _what(j) -> str:
@@ -136,7 +129,7 @@ def page(j) -> str:
     if j.notes:
         h += ["<h2>What it covers</h2>", f"<p>{escape(j.notes)}</p>"]
     if j.gaps:
-        h += ["<h2>What it does not cover</h2>", "<ul>", *(f"<li>{escape(_gap(j, g))}</li>" for g in j.gaps), "</ul>"]
+        h += ["<h2>What it does not cover</h2>", "<ul>", *(f"<li>{escape(lexifina.gap_note(j.code, g))}</li>" for g in j.gaps), "</ul>"]
     if j.code in IN_LEXIFINA_RECORD or getattr(j, "lexifina_legislation", False):
         check = (" For today's text, Fontes also fetches the official page and says whether the record matches it."
                  if j.code in OFFICIAL_CHECK else "")

@@ -19,6 +19,8 @@ Install in Claude Code:
 - `get_legislation_toc`: Table of contents of a law with provision labels.
 - `get_legislation_provision`: Current text of one article or section.
 - `get_legislation_text`: Full consolidated text of a law, pageable.
+- `get_law_on_date`: A provision's text as in force on a date, from Lexifina's record (not the official publisher).
+- `get_law_history`: How a provision changed: the laws that changed it, or the change between two dates. From Lexifina's record (not the official publisher).
 - `report_bug`: Prepare a Fontes bug report; sent only if the user confirms it.
 
 All tools only read. Nothing is written outside Fontes's own cache folder (the daily update
@@ -27,18 +29,19 @@ check and, if you opt in, usage counts).
 ## Settings
 
 All optional, all stored as secrets: a PISTE client ID and secret turn France on; an
-api.data.gov key lifts the United States search limit. How to get them:
-https://github.com/ykarapazar/fontes/blob/main/docs/KEYS.md. They are sent only to the French and US government APIs.
+api.data.gov key lifts the United States search limit; a CourtListener token turns US state courts on. How to get them:
+https://github.com/ykarapazar/fontes/blob/main/docs/KEYS.md. They are sent only to the French and US government APIs and to courtlistener.com.
 
 ## What it sends, and where
 
 When you ask a question, Fontes sends your search terms or document id to the court or
-government website of the jurisdiction you asked about, and nowhere else. It identifies itself
+government website of the jurisdiction you asked about, and nowhere else, except that questions about past versions of a law, and about the countries read through Lexifina's record, go to Lexifina's server (listed below). It identifies itself
 with a `Fontes/<version>` User-Agent that names the repository and a contact address. Besides those sources it contacts only:
 
 - `pypi.org`: the daily version check (off: `FONTES_NO_UPDATE_CHECK=1`)
 - `relay.kinetra.fit`: bug reports you confirm, and usage counts only if you set `FONTES_STATS=1`
 - `github.com`: links to the Fontes repository in messages; nothing is sent
+- `global-law.lexifina.com`: Lexifina's record (not the official publisher): your provision or search terms, for past versions of laws and the countries read through it (off: `WLM_LEXIFINA=0`)
 
 Privacy notice: https://github.com/ykarapazar/fontes/blob/main/docs/PRIVACY.md
 

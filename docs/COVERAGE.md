@@ -1362,7 +1362,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.oesterr
 
 - State law (Landesrecht): in the RIS OGD API (LrKons); source exists but not built yet
 - Whole-law text in one call: only on www.ris.bka.gv.at, which sits behind a bot check (per-paragraph text only)
-- Historical versions of federal law: in the API (Fassung.FassungVom); not built yet, current version only
+- Historical versions of federal law: in the API (Fassung.FassungVom); not built yet, current version only. Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 - Municipal and district law (Gemeinden, Bezirke endpoints): source exists but not built yet
 - Bundesfinanzgericht (BFG) decisions: not in the court filter
 
@@ -1636,7 +1636,7 @@ _Court and legislation lists drafted 2026-11-10; references: https://www.nationa
 
 - Full-text legislation search: the AGM site search returns at most 10 hits, no paging
 - Magistrates' courts and tribunals: not researched yet
-- Laws before the 2020 Revised Edition and historical versions: not researched yet
+- Laws before the 2020 Revised Edition and historical versions: not researched yet. Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 - CCJ appeals (court=ccj): matched on citation and parties only, not judgment text (the CCJ lists have no full-text search)
 - Privy Council appeals from Belize before Nov 2009: not on Find Case Law; BAILII forbids scraping; only the few the Judiciary site hosts
 
@@ -3402,7 +3402,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.pjud.cl
 
 - Case law (all Poder Judicial courts, incl. Corte Suprema): juris.pjud.cl robots.txt disallows all (2026-11-05)
 - Tribunal Constitucional decisions: not researched yet
-- Earlier versions of a norm: only the latest consolidated version is fetched; not built
+- Earlier versions of a norm: only the latest consolidated version is fetched; not built. Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 
 ## China (`cn`)
 
@@ -4882,7 +4882,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://e-justice.e
 - BFH without permission: only decisions the court publishes online (V and NV), 2010 on; slow (robots Crawl-Delay 60 = 1 request/min)
 - Land (state) court decisions (OLG, LG, AG, Land admin courts): no official API; per-Land portals not researched yet
 - Land (state) legislation of the 16 Länder: per-Land portals not researched yet
-- Earlier versions of federal laws: gesetze-im-internet.de serves the current version only
+- Earlier versions of federal laws: gesetze-im-internet.de serves the current version only. Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 
 ## Greece (`gr`)
 
@@ -5199,7 +5199,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.gov.hk/
 
 - Case law (Judiciary Legal Reference System, legalref.judiciary.hk): robots.txt disallows (`Disallow: /`)
 - HKLII case law (non-official): robots.txt disallows its /api data route
-- Verified copies with legal status and past versions (www.elegislation.gov.hk): robots.txt disallows; open data is current only
+- Verified copies with legal status and past versions (www.elegislation.gov.hk): robots.txt disallows; open data is current only. Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 
 ## Hungary (`hu`)
 
@@ -7064,7 +7064,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.gericht
 
 - Case law of all courts incl. the full OGH archive before mid-2020 (gerichtsentscheide.li, gerichtsentscheidungen.li): robots.txt disallows (Disallow: /, rechecked 2026-11-10)
 - OGH on ogh.li: a selection only (decisions the court chose to post, 2020-2025, none for 2026 yet); search is over case number, tags and cited norms, not the full text
-- Earlier versions of a law (version list on gesetze.li): source exists and works but not built yet (current version only)
+- Earlier versions of a law (version list on gesetze.li): source exists and works but not built yet (current version only). Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 
 ## Luxembourg (`lu`)
 
@@ -7275,7 +7275,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://courts.gov.
 **Does not reach**
 
 - Case law of all courts (ecourts.gov.mt): Cloudflare 'you have been blocked' 403, even for robots.txt (2026-11-05/06)
-- Acts and legal notices as published (Government Gazette), and past versions of laws: not researched yet
+- Acts and legal notices as published (Government Gazette), and past versions of laws: not researched yet. Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 
 ## Mauritius (`mu`)
 
@@ -7427,7 +7427,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.gouv.mc
 
 **Does not reach**
 
-- Past and future consolidated versions: source exists and works but not built yet (current version only)
+- Past and future consolidated versions: source exists and works but not built yet (current version only). Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 - Journal de Monaco (official gazette) as published: not researched yet
 
 ## Mongolia (`mn`)
@@ -9617,7 +9617,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://e-justice.e
 
 - Case reports before 1981 and judgments not chosen for publication: not in Rättspraxis
 - Published judgments (not case reports) before March 2025: not in Rättspraxis
-- Earlier versions of laws (point in time): Riksdagen gives the current consolidated text only; not researched yet
+- Earlier versions of laws (point in time): Riksdagen gives the current consolidated text only; not researched yet. Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 - Agency regulations (myndighetsföreskrifter): not researched yet
 
 ## Switzerland (`ch`)
@@ -9948,7 +9948,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.bger.ch
 - Cantonal court decisions: official cantonal sites not researched; entscheidsuche.ch has them but is not official
 - Federal Administrative, Criminal and Patent Courts: not researched yet (entscheidsuche.ch has them, not official)
 - Federal law in French and Italian: on Fedlex; source exists but not built yet (German only)
-- Historical versions of federal law: on Fedlex; not built yet (latest consolidation only)
+- Historical versions of federal law: on Fedlex; not built yet (latest consolidation only). Past versions can be read from Lexifina's record with get_law_on_date and get_law_history (not the official publisher; the record starts on a country-specific date).
 - Unpublished BGer decisions before 2000: not in the free eurospider collection (BGE leading cases from 1954 only)
 
 ## Taiwan (`tw`)
@@ -11099,14 +11099,14 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.uscourt
 - govinfo (U.S. Government Publishing Office): Statutes at Large and Public and Private Laws — https://www.govinfo.gov (legislation) — Public domain (US Government works, 17 U.S.C. 105; govinfo Public Domain & Copyright Notice); commercial use allowed; needs none for citations ('1 Stat. 50', 'Pub. L. 117-58': link service, MODS, PDF/HTML); full-text search uses the govinfo API key like the other collections
 - United States Code (Office of the Law Revision Counsel, U.S. House) — https://uscode.house.gov (legislation) — Public domain (US Government work, 17 U.S.C. 105); commercial use allowed
 - Tools: search_caselaw, get_decision, search_legislation, get_legislation_toc, get_legislation_provision, get_legislation_text
-- Notes: Federal only. Case law: govinfo (lower federal courts ~2004 on + bound U.S. Reports to vol. 586) and supremecourt.gov (Supreme Court opinions from October Term 2018 on: collection SUPREMECOURT; ids '606 U.S. 942' or a docket), PDF text. Legislation: US Code by title and section, e.g. '42 USC 1983', and the Constitution ('US Constitution'; provisions 'preamble', 'art. I', 'art. I sec. 8', 'amend. XIV') from the National Archives transcription. Acts as enacted: Statutes at Large vols 1-138 (1789-2024; ids '1 Stat. 50', 'STATUTE-1-Pg50', 'Pub. L. 85-1'; provisions are Stat. pages) and public/private laws from 1995 ('Pub. L. 119-1'; provisions are sections); full-text search with filter collection STATUTE or PLAW. No state law (state case law: 'us-states'), no CFR.
+- Notes: Federal only. Case law: govinfo (lower federal courts ~2004 on + bound U.S. Reports to vol. 586) and supremecourt.gov (Supreme Court opinions from October Term 2018 on: collection SUPREMECOURT; ids '606 U.S. 942' or a docket), PDF text. Legislation: US Code by title and section, e.g. '42 USC 1983', and the Constitution ('US Constitution'; provisions 'preamble', 'art. I', 'art. I sec. 8', 'amend. XIV') from the National Archives transcription. Acts as enacted: Statutes at Large vols 1-138 (1789-2024; ids '1 Stat. 50', 'STATUTE-1-Pg50', 'Pub. L. 85-1'; provisions are Stat. pages) and public/private laws from 1995 ('Pub. L. 119-1'; provisions are sections); full-text search with filter collection STATUTE or PLAW. No live state law (state case law: 'us-states'; state statutes: see gaps), no CFR.
 
 **Does not reach**
 
 - Code of Federal Regulations (eCFR): robots.txt disallows the full-text endpoint /api/versioner/v1/full/
 - Supreme Court from October Term 2018 on: searchable by name, docket, citation and the Court's one-line summary only (no full-text search); 'opinions relating to orders' not wired
 - Lower federal court opinions before ~2004: not in govinfo USCOURTS
-- State case law: jurisdiction 'us-states' (CourtListener, unofficial, your own free token). State statutes: not built yet
+- State case law: jurisdiction 'us-states' (CourtListener, unofficial, your own free token). State statutes: not live from the legislatures. Lexifina's record (not the official publisher) has statutes for 49 states (not New Mexico), DC, American Samoa, Guam and the Northern Mariana Islands, readable with get_law_on_date and get_law_history (Arkansas: catalogue entries only; Wyoming: as enacted)
 - Federal Register and Congress bills: source exists and works but not built yet
 - US Constitution: National Archives transcription of the parchment text (original spelling; superseded clauses are not marked in the articles, only in amendment notes)
 - Statutes at Large: page PDFs with GPO's text layer; older volumes are scans, so expect OCR errors, and a granule's first and last pages can carry the neighbouring acts. Laws newer than vol. 138 (2024) come from PLAW (1995 on) until bound
@@ -11124,7 +11124,7 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.uscourt
 
 **Does not reach**
 
-- State statutes and codes: not in CourtListener; each legislature publishes its own (not built yet)
+- State statutes and codes: not in CourtListener, and not live from the legislatures. Lexifina's record (not the official publisher) has statutes for 49 states (not New Mexico), DC, American Samoa, Guam and the Northern Mariana Islands, readable with get_law_on_date and get_law_history (Arkansas: catalogue entries only; Wyoming: as enacted)
 - State trial courts: mostly not published online, so mostly not covered (a few are: e.g. Delaware Chancery and Superior Court, Massachusetts Superior Court)
 - Free accounts allow 5 requests a minute and 125 a day: a search is 1 request, a decision 2
 - Federal courts: use jurisdiction 'us' (official sources: govinfo, supremecourt.gov)
@@ -11354,88 +11354,88 @@ _Court and legislation lists drafted 2026-11-07; references: https://www.wto.org
 
 | Code | Country | Why not |
 |---|---|---|
-| `ao` | Angola | Candidate: Tribunal Constitucional case law validated GO-with-caveat (HTML, POST search, 2008-2026); not built |
-| `ag` | Antigua and Barbuda | Candidate: laws.gov.ag GO-with-caveat (text PDFs via A-Z index; current year withheld); not built |
+| `ao` | Angola | Candidate: Tribunal Constitucional case law validated GO-with-caveat (HTML, POST search, 2008-2026); not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `ag` | Antigua and Barbuda | Candidate: laws.gov.ag GO-with-caveat (text PDFs via A-Z index; current year withheld); not built. Legislation from Lexifina's record (not the official publisher), not live |
 | `by` | Belarus | Excluded: its source is the portal of a UK-designated person (Lukashenko, BEL0045) |
-| `be` | Belgium | Juportal/Justel robots forbid; candidate: Vlaamse Codex JSON API and Constitutional Court GO-with-caveat; not built |
-| `bw` | Botswana | e-Laws is subscription-only; only the Constitution is free |
+| `be` | Belgium | Juportal/Justel robots forbid; candidate: Vlaamse Codex JSON API and Constitutional Court GO-with-caveat; not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `bw` | Botswana | e-Laws is subscription-only; only the Constitution is free. Legislation from Lexifina's record (not the official publisher), not live |
 | `bn` | Brunei | gov.bn terms require written permission and ban deep linking (judiciary text PDFs do work) |
-| `bf` | Burkina Faso | LegiBurkina only loads as an app shell; Conseil constitutionnel timed out |
-| `bi` | Burundi | Only indexes verified (Primature laws, Cour constitutionnelle); full texts unverified |
-| `cf` | Central African Republic | No usable official source found; embassy-hosted constitution is labelled a draft |
-| `td` | Chad | Only LegiTchad (CEFOD, non-official) index verified; no case law |
+| `bf` | Burkina Faso | LegiBurkina only loads as an app shell; Conseil constitutionnel timed out. Legislation from Lexifina's record (not the official publisher), not live |
+| `bi` | Burundi | Only indexes verified (Primature laws, Cour constitutionnelle); full texts unverified. Legislation from Lexifina's record (not the official publisher), not live |
+| `cf` | Central African Republic | No usable official source found; embassy-hosted constitution is labelled a draft. Legislation from Lexifina's record (not the official publisher), not live |
+| `td` | Chad | Only LegiTchad (CEFOD, non-official) index verified; no case law. Legislation from Lexifina's record (not the official publisher), not live |
 | `km` | Comoros | MoJ texts interface verified, documents unverified; no case law |
-| `cg` | Congo | SGG gazette bans reproduction without express authorisation; Constitutional Court cert expired |
-| `cy` | Cyprus | gov.cy hosts robots Disallow: /; CyLaw (non-official) needs KINOP written consent |
-| `cd` | DR Congo | JO robots disallow /journals and /recherche; Cour constitutionnelle timed out; Leganet self-signed cert |
-| `dj` | Djibouti | Candidate: Journal officiel électronique GO-with-caveat (WP REST, ~58k full-HTML texts; 'Tous droits réservés'); not built |
-| `dm` | Dominica | laws.gov.dm copyright: personal non-commercial use only; redistribution needs permission |
-| `sv` | El Salvador | CSJ jurisprudence Cloudflare 403; Asamblea incomplete TLS chain; Diario Oficial whole-issue PDFs only |
-| `gq` | Equatorial Guinea | BOE search interface verified, documents unverified; no case law |
-| `er` | Eritrea | No official online source found; FAOLEX only (unverified) |
-| `sz` | Eswatini | EswatiniLII is Peachjam-restricted; judiciary robots disallow /uploads/ |
-| `fj` | Fiji | Parliament Acts index 2014-2026 only; judiciary 403; PacLII Cloudflare 403 |
-| `ga` | Gabon | Journal officiel HTML listings verified (beside a paid tier); no case law found |
-| `gm` | Gambia | Assembly Acts index verified; case law only via non-official Law Hub |
-| `gh` | Ghana | Only GhaLII (Peachjam: ai-input=no, judgments disallowed); Parliament Acts index only; eJudgment DNS failed |
-| `gd` | Grenada | Law downloads redirect to a username/password login |
-| `gn` | Guinea | coursupreme.org.gn robots.txt blocks ~70 named bots (no-bots intent) |
+| `cg` | Congo | SGG gazette bans reproduction without express authorisation; Constitutional Court cert expired. Legislation from Lexifina's record (not the official publisher), not live |
+| `cy` | Cyprus | gov.cy hosts robots Disallow: /; CyLaw (non-official) needs KINOP written consent. Legislation from Lexifina's record (not the official publisher), not live |
+| `cd` | DR Congo | JO robots disallow /journals and /recherche; Cour constitutionnelle timed out; Leganet self-signed cert. Legislation from Lexifina's record (not the official publisher), not live |
+| `dj` | Djibouti | Candidate: Journal officiel électronique GO-with-caveat (WP REST, ~58k full-HTML texts; 'Tous droits réservés'); not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `dm` | Dominica | laws.gov.dm copyright: personal non-commercial use only; redistribution needs permission. Legislation from Lexifina's record (not the official publisher), not live |
+| `sv` | El Salvador | CSJ jurisprudence Cloudflare 403; Asamblea incomplete TLS chain; Diario Oficial whole-issue PDFs only. Legislation from Lexifina's record (not the official publisher), not live |
+| `gq` | Equatorial Guinea | BOE search interface verified, documents unverified; no case law. Legislation from Lexifina's record (not the official publisher), not live |
+| `er` | Eritrea | No official online source found; FAOLEX only (unverified). Legislation from Lexifina's record (not the official publisher), not live |
+| `sz` | Eswatini | EswatiniLII is Peachjam-restricted; judiciary robots disallow /uploads/. Legislation from Lexifina's record (not the official publisher), not live |
+| `fj` | Fiji | Parliament Acts index 2014-2026 only; judiciary 403; PacLII Cloudflare 403. Legislation from Lexifina's record (not the official publisher), not live |
+| `ga` | Gabon | Journal officiel HTML listings verified (beside a paid tier); no case law found. Legislation from Lexifina's record (not the official publisher), not live |
+| `gm` | Gambia | Assembly Acts index verified; case law only via non-official Law Hub. Legislation from Lexifina's record (not the official publisher), not live |
+| `gh` | Ghana | Only GhaLII (Peachjam: ai-input=no, judgments disallowed); Parliament Acts index only; eJudgment DNS failed. Legislation from Lexifina's record (not the official publisher), not live |
+| `gd` | Grenada | Law downloads redirect to a username/password login. Legislation from Lexifina's record (not the official publisher), not live |
+| `gn` | Guinea | coursupreme.org.gn robots.txt blocks ~70 named bots (no-bots intent). Legislation from Lexifina's record (not the official publisher), not live |
 | `gw` | Guinea-Bissau | parlamento.gw GO-with-caveat but ~10 documents, nothing since ~2015; very low value |
-| `ir` | Iran | Excluded (UK sanctions; ara.jri.ac.ir also NEEDS-PERMISSION) |
-| `kz` | Kazakhstan | Adilet is a JS shell with robots disallowing /search and /api/; court sites timed out |
-| `ke` | Kenya | Kenya Law terms ban scraping and AI training without a licence; KenyaLII is Peachjam-restricted |
-| `ki` | Kiribati | Parliament points to PacLII (Cloudflare 403); judiciary timed out |
-| `kw` | Kuwait | e.gov.kw and mona.gov.kw return 403; no open corpus found |
-| `ls` | Lesotho | Only LesothoLII (Peachjam: ai-input=no, judgments/search/api disallowed) |
-| `lr` | Liberia | Candidate: Judiciary case law GO-with-caveat (WP REST search, text PDFs 2016-2026); not built |
-| `lt` | Lithuania | e-TAR, e-Seimas and courts behind Cloudflare challenge; data.gov.lt WAF-blocked; LITEKO reCAPTCHA |
-| `mw` | Malawi | Only MalawiLII (Peachjam: ai-input=no, judgments/search/api disallowed) |
-| `my` | Malaysia | Legislation API responses deliberately encrypted; judgment texts robots-disallowed, need Chief Registrar consent |
-| `ml` | Mali | SGG gazette bans reproduction without authorisation; Cour suprême selected decisions index only |
+| `ir` | Iran | Excluded (UK sanctions; ara.jri.ac.ir also NEEDS-PERMISSION). Legislation from Lexifina's record (not the official publisher), not live |
+| `kz` | Kazakhstan | Adilet is a JS shell with robots disallowing /search and /api/; court sites timed out. Legislation from Lexifina's record (not the official publisher), not live |
+| `ke` | Kenya | Kenya Law terms ban scraping and AI training without a licence; KenyaLII is Peachjam-restricted. Legislation from Lexifina's record (not the official publisher), not live |
+| `ki` | Kiribati | Parliament points to PacLII (Cloudflare 403); judiciary timed out. Legislation from Lexifina's record (not the official publisher), not live |
+| `kw` | Kuwait | e.gov.kw and mona.gov.kw return 403; no open corpus found. Legislation from Lexifina's record (not the official publisher), not live |
+| `ls` | Lesotho | Only LesothoLII (Peachjam: ai-input=no, judgments/search/api disallowed). Legislation from Lexifina's record (not the official publisher), not live |
+| `lr` | Liberia | Candidate: Judiciary case law GO-with-caveat (WP REST search, text PDFs 2016-2026); not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `lt` | Lithuania | e-TAR, e-Seimas and courts behind Cloudflare challenge; data.gov.lt WAF-blocked; LITEKO reCAPTCHA. Legislation from Lexifina's record (not the official publisher), not live |
+| `mw` | Malawi | Only MalawiLII (Peachjam: ai-input=no, judgments/search/api disallowed). Legislation from Lexifina's record (not the official publisher), not live |
+| `my` | Malaysia | Legislation API responses deliberately encrypted; judgment texts robots-disallowed, need Chief Registrar consent. Legislation from Lexifina's record (not the official publisher), not live |
+| `ml` | Mali | SGG gazette bans reproduction without authorisation; Cour suprême selected decisions index only. Legislation from Lexifina's record (not the official publisher), not live |
 | `mh` | Marshall Islands | Nitijela index and rmicourts navigation verified; full texts unverified |
-| `mr` | Mauritania | Primature lists ~6 laws; Conseil constitutionnel index verified only |
-| `mx` | Mexico | SCJN behind Incapsula; Electoral Tribunal Radware challenge; Diputados timed out from the UK |
-| `fm` | Micronesia | fsmlaw.org disclaimer: personal non-commercial use only; robots.txt returns 406 ModSecurity |
-| `na` | Namibia | NamibLII is Peachjam-restricted; LAC statutes index non-official/unverified; eJustice TLS chain fails |
-| `nr` | Nauru | RONLAW returns an Angular shell; full text unverified |
-| `nz` | New Zealand | Legislation API needs a PCO-issued key (website behind AWS WAF); courts copyright personal/in-house only |
-| `ni` | Nicaragua | Judiciary robots fails TLS / 502; Digesto index of 14 codes only |
-| `ne` | Niger | Cour de cassation PDF host fails TLS; old constitutional-court domain is now a retail site |
+| `mr` | Mauritania | Primature lists ~6 laws; Conseil constitutionnel index verified only. Legislation from Lexifina's record (not the official publisher), not live |
+| `mx` | Mexico | SCJN behind Incapsula; Electoral Tribunal Radware challenge; Diputados timed out from the UK. Legislation from Lexifina's record (not the official publisher), not live |
+| `fm` | Micronesia | fsmlaw.org disclaimer: personal non-commercial use only; robots.txt returns 406 ModSecurity. Legislation from Lexifina's record (not the official publisher), not live |
+| `na` | Namibia | NamibLII is Peachjam-restricted; LAC statutes index non-official/unverified; eJustice TLS chain fails. Legislation from Lexifina's record (not the official publisher), not live |
+| `nr` | Nauru | RONLAW returns an Angular shell; full text unverified. Legislation from Lexifina's record (not the official publisher), not live |
+| `nz` | New Zealand | Legislation API needs a PCO-issued key (website behind AWS WAF); courts copyright personal/in-house only. Legislation from Lexifina's record (not the official publisher), not live |
+| `ni` | Nicaragua | Judiciary robots fails TLS / 502; Digesto index of 14 codes only. Legislation from Lexifina's record (not the official publisher), not live |
+| `ne` | Niger | Cour de cassation PDF host fails TLS; old constitutional-court domain is now a retail site. Legislation from Lexifina's record (not the official publisher), not live |
 | `kp` | North Korea | No DPRK official source; only South Korea's UNILAW index; no case law |
-| `mk` | North Macedonia | Candidate: Constitutional Court (WP REST, 1991-2026) and MoJ LDBIS GO-with-caveat; not built |
-| `om` | Oman | Candidate: mjla.gov.om GO-with-caveat (Open Govt Licence; numeric-id download only; glyph damage); not built |
-| `pw` | Palau | Candidate: palaucourts.gov.pw GO-with-caveat (1,697 text PDFs on one index; search unverified); not built |
-| `pg` | Papua New Guinea | Parliament Act PDFs unverified; case law only on PacLII (Cloudflare 403) |
-| `qa` | Qatar | Al Meezan and QICDRC terms both require prior written permission (Al Meezan JSON API already mapped) |
-| `ru` | Russia | Excluded (UK sanctions caution); no adapter will be built |
-| `kn` | Saint Kitts and Nevis | Law Commission terms restrict reuse for any public or commercial purpose |
-| `lc` | Saint Lucia | Candidate: AG Revised Laws GO-with-caveat (per-section HTML plus search, 2023 revision); not built |
-| `vc` | Saint Vincent and the Grenadines | Only Department of Labour summaries found; ECSC judgments route unverified |
+| `mk` | North Macedonia | Candidate: Constitutional Court (WP REST, 1991-2026) and MoJ LDBIS GO-with-caveat; not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `om` | Oman | Candidate: mjla.gov.om GO-with-caveat (Open Govt Licence; numeric-id download only; glyph damage); not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `pw` | Palau | Candidate: palaucourts.gov.pw GO-with-caveat (1,697 text PDFs on one index; search unverified); not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `pg` | Papua New Guinea | Parliament Act PDFs unverified; case law only on PacLII (Cloudflare 403). Legislation from Lexifina's record (not the official publisher), not live |
+| `qa` | Qatar | Al Meezan and QICDRC terms both require prior written permission (Al Meezan JSON API already mapped). Legislation from Lexifina's record (not the official publisher), not live |
+| `ru` | Russia | Excluded (UK sanctions caution); no adapter will be built. Legislation from Lexifina's record (not the official publisher), not live |
+| `kn` | Saint Kitts and Nevis | Law Commission terms restrict reuse for any public or commercial purpose. Legislation from Lexifina's record (not the official publisher), not live |
+| `lc` | Saint Lucia | Candidate: AG Revised Laws GO-with-caveat (per-section HTML plus search, 2023 revision); not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `vc` | Saint Vincent and the Grenadines | Only Department of Labour summaries found; ECSC judgments route unverified. Legislation from Lexifina's record (not the official publisher), not live |
 | `ws` | Samoa | Candidate: ag.gov.ws GO-with-caveat (267 text PDFs, 2023 consolidation, no search, spam links); not built |
-| `sm` | San Marino | Official hosts 403 at the firewall; giurisprudenzarsm.org is login-only and non-official |
-| `st` | Sao Tome and Principe | Tribunal Constitucional PDF index verified; legislation only 4 constitutional texts on a Brazilian host |
-| `sa` | Saudi Arabia | MoJ portal ToS s.4 requires written approval; laws.boe.gov.sa timed out |
-| `sl` | Sierra Leone | SierraLII is Peachjam-restricted; judiciary judgment listing index only; Parliament 502 |
-| `sb` | Solomon Islands | AG legislation links are '#' placeholders; PacLII unavailable |
-| `so` | Somalia | SomLII lists 31 laws (status unverified); no case law |
-| `za` | South Africa | Candidate: ConCourt case law GO-with-caveat (text PDFs; repository search robots-disallowed); gov.za Acts non-commercial |
-| `kr` | South Korea | law.go.kr Open API needs OC registration plus whitelisted server IP; korean-law-mcp already exists |
-| `ss` | South Sudan | MoJ site has an expired certificate; no case law found |
-| `lk` | Sri Lanka | Supreme Court Cloudflare 403; lawnet TLS mismatch; documents.gov.lk Acts page timed out |
-| `sd` | Sudan | MoJ gazette index verified only; judiciary site timed out |
-| `sy` | Syria | No official corpus; syria.law is private and principles-only |
-| `tz` | Tanzania | Judiciary eMaktaba terms ban automated scraping; TanzLII Peachjam-restricted; OSG e-Library unverified |
-| `th` | Thailand | Royal Gazette 403; Deka timed out; krisdika self-signed cert |
-| `tl` | Timor-Leste | Jornal da República index verified (robots disallow /search/); court site under maintenance |
-| `tg` | Togo | Constitutional Court robots.txt Disallow: / for generic agents; Journal officiel returns HTTP 526 |
-| `to` | Tonga | AG iLAWS index verified; robots 403; reuse terms not established |
-| `tn` | Tunisia | Only the non-official DCAF sector database; jurisprudence site timed out; legislation.tn refuses connections |
+| `sm` | San Marino | Official hosts 403 at the firewall; giurisprudenzarsm.org is login-only and non-official. Legislation from Lexifina's record (not the official publisher), not live |
+| `st` | Sao Tome and Principe | Tribunal Constitucional PDF index verified; legislation only 4 constitutional texts on a Brazilian host. Legislation from Lexifina's record (not the official publisher), not live |
+| `sa` | Saudi Arabia | MoJ portal ToS s.4 requires written approval; laws.boe.gov.sa timed out. Legislation from Lexifina's record (not the official publisher), not live |
+| `sl` | Sierra Leone | SierraLII is Peachjam-restricted; judiciary judgment listing index only; Parliament 502. Legislation from Lexifina's record (not the official publisher), not live |
+| `sb` | Solomon Islands | AG legislation links are '#' placeholders; PacLII unavailable. Legislation from Lexifina's record (not the official publisher), not live |
+| `so` | Somalia | SomLII lists 31 laws (status unverified); no case law. Legislation from Lexifina's record (not the official publisher), not live |
+| `za` | South Africa | Candidate: ConCourt case law GO-with-caveat (text PDFs; repository search robots-disallowed); gov.za Acts non-commercial. Legislation from Lexifina's record (not the official publisher), not live |
+| `kr` | South Korea | law.go.kr Open API needs OC registration plus whitelisted server IP; korean-law-mcp already exists. Legislation from Lexifina's record (not the official publisher), not live |
+| `ss` | South Sudan | MoJ site has an expired certificate; no case law found. Legislation from Lexifina's record (not the official publisher), not live |
+| `lk` | Sri Lanka | Supreme Court Cloudflare 403; lawnet TLS mismatch; documents.gov.lk Acts page timed out. Legislation from Lexifina's record (not the official publisher), not live |
+| `sd` | Sudan | MoJ gazette index verified only; judiciary site timed out. Legislation from Lexifina's record (not the official publisher), not live |
+| `sy` | Syria | No official corpus; syria.law is private and principles-only. Legislation from Lexifina's record (not the official publisher), not live |
+| `tz` | Tanzania | Judiciary eMaktaba terms ban automated scraping; TanzLII Peachjam-restricted; OSG e-Library unverified. Legislation from Lexifina's record (not the official publisher), not live |
+| `th` | Thailand | Royal Gazette 403; Deka timed out; krisdika self-signed cert. Legislation from Lexifina's record (not the official publisher), not live |
+| `tl` | Timor-Leste | Jornal da República index verified (robots disallow /search/); court site under maintenance. Legislation from Lexifina's record (not the official publisher), not live |
+| `tg` | Togo | Constitutional Court robots.txt Disallow: / for generic agents; Journal officiel returns HTTP 526. Legislation from Lexifina's record (not the official publisher), not live |
+| `to` | Tonga | AG iLAWS index verified; robots 403; reuse terms not established. Legislation from Lexifina's record (not the official publisher), not live |
+| `tn` | Tunisia | Only the non-official DCAF sector database; jurisprudence site timed out; legislation.tn refuses connections. Legislation from Lexifina's record (not the official publisher), not live |
 | `tv` | Tuvalu | Legislation iLAWS index verified; robots 403; no case law |
-| `ug` | Uganda | ULII is Peachjam-restricted; Parliament Acts host fails TLS |
-| `ua` | Ukraine | Court register rules ban automated queries; zakon.rada.gov.ua times out from the UK |
-| `ae` | United Arab Emirates | uaelegislation.gov.ae Cloudflare 403; MoJ judgments rejected (DIFC has its own adapter; ADGM not built) |
-| `vu` | Vanuatu | Candidate: judiciary.gov.vu GO-with-caveat (~2,800 full-HTML judgments, GET search); not built |
-| `ve` | Venezuela | TSJ refuses foreign connections; Asamblea 403; gacetaoficial.gob.ve stopped after ~9 requests |
-| `ye` | Yemen | Only a Hadramout court site with ~29 laws (status uncorroborated); no case law |
-| `zm` | Zambia | Judiciary decisions need prior written permission; Parliament TLS fails; ZambiaLII Peachjam-restricted |
-| `zw` | Zimbabwe | ZimLII is Peachjam-restricted; Parliament Acts index only (unverified) |
+| `ug` | Uganda | ULII is Peachjam-restricted; Parliament Acts host fails TLS. Legislation from Lexifina's record (not the official publisher), not live |
+| `ua` | Ukraine | Court register rules ban automated queries; zakon.rada.gov.ua times out from the UK. Legislation from Lexifina's record (not the official publisher), not live |
+| `ae` | United Arab Emirates | uaelegislation.gov.ae Cloudflare 403; MoJ judgments rejected (DIFC has its own adapter; ADGM not built). Legislation from Lexifina's record (not the official publisher), not live |
+| `vu` | Vanuatu | Candidate: judiciary.gov.vu GO-with-caveat (~2,800 full-HTML judgments, GET search); not built. Legislation from Lexifina's record (not the official publisher), not live |
+| `ve` | Venezuela | TSJ refuses foreign connections; Asamblea 403; gacetaoficial.gob.ve stopped after ~9 requests. Legislation from Lexifina's record (not the official publisher), not live |
+| `ye` | Yemen | Only a Hadramout court site with ~29 laws (status uncorroborated); no case law. Legislation from Lexifina's record (not the official publisher), not live |
+| `zm` | Zambia | Judiciary decisions need prior written permission; Parliament TLS fails; ZambiaLII Peachjam-restricted. Legislation from Lexifina's record (not the official publisher), not live |
+| `zw` | Zimbabwe | ZimLII is Peachjam-restricted; Parliament Acts index only (unverified). Legislation from Lexifina's record (not the official publisher), not live |

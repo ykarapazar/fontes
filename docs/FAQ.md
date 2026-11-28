@@ -67,8 +67,7 @@ coverage per country varies a lot (Kenya's national record holds 9 acts). India'
 Lexifina's record, because India Code's terms bar automated access; its Supreme Court judgments are live.
 
 Lexifina is not the official publisher, and its record is not live: Lexifina rechecks each country from time to
-time, and its own report on 2026-11-26 counted 338 of 383 national bodies of law as not checked in
-the last 7 days. Every answer names Lexifina as the source, links the official publisher's page and says how
+time, so the record can be days or weeks behind. Every answer names Lexifina as the source, links the official publisher's page and says how
 far the record goes.
 
 Lexifina takes the view that official legal texts are not protected by copyright, so in some

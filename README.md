@@ -141,8 +141,7 @@ free hosted MCP server (`https://global-law.lexifina.com/mcp`), which adds:
   125 (Supreme Court judgments, live), and its Acts are read from Lexifina's record too.
 
 Lexifina is not the official publisher, and its record is not live. Lexifina rechecks each country against
-its official source from time to time; on 2026-11-26 its own freshness report counted 338 of 383
-national bodies of law as not checked in the last 7 days. Every answer from it names
+its official source from time to time, so the record can be days or weeks behind. Every answer from it names
 Lexifina as the source, links the official publisher's page and says how far the record goes. Check the official
 text before you rely on it.
 
@@ -354,7 +353,7 @@ OFF = the source's terms need the operator's permission, so it is off by default
 | `get_legislation_toc(jurisdiction, id, keyword?)` | Structure of a law, with provision labels. |
 | `get_legislation_provision(jurisdiction, id, provision)` | One article / section / regulation. |
 | `get_legislation_text(jurisdiction, id, max_chars=60000, offset=0)` | Full consolidated text, pageable. |
-| `get_law_on_date(provision, date="today", jurisdiction?)` | A provision's text as in force on a date (past dates too), with the law that last changed it. Takes a citation such as "Art. 1 GG" or a path. From Lexifina's record (not the official publisher). |
+| `get_law_on_date(provision, date="today", jurisdiction?, max_chars=60000, offset=0)` | A provision's text as in force on a date (past dates too), with the law that last changed it. Takes a citation such as "Art. 1 GG" or a path. From Lexifina's record (not the official publisher). |
 | `get_law_history(provision, jurisdiction?, date_a?, date_b?)` | Every law that changed a provision, or the word-by-word change between two dates. From Lexifina's record (not the official publisher). |
 | `report_bug(note?)` | Prepares a bug report about Fontes. You see it first; it is sent only if you confirm. See [docs/PRIVACY.md](docs/PRIVACY.md). |
 
